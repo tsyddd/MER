@@ -1,0 +1,4 @@
+{
+  "reason": "graph和audio_subtitle均指出目标人物情绪沉重、压抑，结合其叙述内容涉及危机情境，符合'worried'的特征；image虽显示紧锁眉头等面部特征，但graph已包含类似描述，且未见明显攻击性或爆发性情绪，故取更符合语境的'worried'。",
+  "answer": "worried"
+}

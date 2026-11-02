@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Joey在言语中提到‘whipped fish’（打成泥的鱼）并直言‘I'm just happy I'm keeping it down’（我能忍住没吐出来就很庆幸了），这里的‘happy’并非字面上的喜悦，而是针对恶心食物的反讽与底线庆幸。其音调在谈及食物时略带沉滞与嫌恶，视觉上伴随着皱眉与嫌弃的表情，表达了强烈的生理性反感与厌恶。",
+  "open_emotion": "反胃",
+  "answer": "disgust",
+  "mapping_reason": "说话人对‘whipped fish’这一话题表现出明显的生理性恶心与排斥（提及努力不吐出来），符合disgust对令人反感、恶心对象的排斥与厌弃定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "I don't know. We're talking about whipped fish, Monica. I'm just happy I'm keeping it down, y'know?",
+      "observation": "台词提及‘whipped fish’以及‘keeping it down’（忍住不吐）",
+      "interpretation": "语言表层虽有‘happy’一词，但语用上是指勉强控制住呕吐感，实际指向对该食物的反胃与恶心",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:01-00:03",
+      "observation": "Joey说‘whipped fish, Monica’时语调加重且发紧，带有一种无奈排斥的声调",
+      "interpretation": "声音质感体现出对谈论该恶心话题的抵触",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01",
+      "observation": "Joey抬头看向Monica时，眉头微蹙，嘴唇紧绷微撇",
+      "interpretation": "面部神情流露出对食物描述的反感与不适",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "字面上出现了‘happy’，但在此语境中仅用于表达‘没吐出来实属万幸’的相对解脱，不可按字面解读为joy。"
+}

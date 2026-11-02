@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00034373",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "5a1be975f29db4b905cf5235ac6aedcea3f1639cf54f65f8e4b8e84c66b5d091",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "难过",
+      "mapped_label": "sad",
+      "mapping_reason": "当前含泪、蹙眉的表达支持低落难过，按情绪轮映射为sad；未完成的话语不足以确定其具体缘由。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "难过",
+      "mapped_label": "sad",
+      "mapping_reason": "当前可见的痛楚表情，结合对缺失的强调，更接近情绪轮中因失落而难过的sad；由于缺少前后文，这一判断有保留。"
+    },
+    "image": {
+      "open_emotion": "难过",
+      "mapped_label": "sad",
+      "mapping_reason": "当前较有支持的是低落、伤感的表达，映射为sad；由于字幕语义不完整，无法进一步确定难过的缘由。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "八帧中，目标女子持续眉间收拢、眼眶泛润，后段张口说话时神情仍未放松；[image:E1][image:E2]对这一变化的描述与画面相符，更支持克制的难过，嘴角微扬不足以判为喜悦。字幕只有“甚至，连一件衣裳。”，[graph:E2]指出其未交代完整事件，这一限制可信，不能据此断定她经历了什么损失。皱眉也可能是担忧，但片段没有明确指向未来风险；本例未提供音轨，不采纳未经核实的声音描述。综合当前表情与有限话语，选择sad。",
+  "output": "八帧中，目标女子持续眉间收拢、眼眶泛润，后段张口说话时神情仍未放松；[image:E1][image:E2]对这一变化的描述与画面相符，更支持克制的难过，嘴角微扬不足以判为喜悦。字幕只有“甚至，连一件衣裳。”，[graph:E2]指出其未交代完整事件，这一限制可信，不能据此断定她经历了什么损失。皱眉也可能是担忧，但片段没有明确指向未来风险；本例未提供音轨，不采纳未经核实的声音描述。综合当前表情与有限话语，选择sad。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 79.98266410827637
+}

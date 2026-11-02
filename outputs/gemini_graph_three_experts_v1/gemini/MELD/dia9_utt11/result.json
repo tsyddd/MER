@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia9_utt11",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "e2a50d6b01ecc35a810613a0879b6c7baee7d96f1dcefc36a846281bb0277898",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "三位专家结论高度一致。音频专家指出了说话时明显的哭腔、抽泣声及低沉委屈的语调；图像和图谱专家相互印证了她坐在沙发上紧蹙双眉、低头叹气并展示受损衣物的沮丧哀伤神情，共同表明其情绪为悲伤（sadness）。",
+  "output": "三位专家结论高度一致。音频专家指出了说话时明显的哭腔、抽泣声及低沉委屈的语调；图像和图谱专家相互印证了她坐在沙发上紧蹙双眉、低头叹气并展示受损衣物的沮丧哀伤神情，共同表明其情绪为悲伤（sadness）。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 33.843177795410156
+}

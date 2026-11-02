@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia200_utt2",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "2223d26305da5c16666ed91ea00f333b6d907f4eba1818669a8c3acca13b8f5f",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "视觉专家与图谱专家一致指出Joey肢体放松、神态平和认真，未表现出剧烈的面部表情或情绪起伏；音频专家虽指出句尾声调拔高带有疑惑与不解，但这种语调更符合推理疑问句的常规表达，综合其平静自然的整体状态，应判定为中性。",
+  "output": "视觉专家与图谱专家一致指出Joey肢体放松、神态平和认真，未表现出剧烈的面部表情或情绪起伏；音频专家虽指出句尾声调拔高带有疑惑与不解，但这种语调更符合推理疑问句的常规表达，综合其平静自然的整体状态，应判定为中性。\n<answer>neutral</answer>",
+  "label": "anger",
+  "elapsed_seconds": 51.76743197441101
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00036745",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "56b7ab0a274b240942c2ca3a5bf6aff985c05e2aab602a0289a32a97d1119e4a",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "综合分析，图像专家观察到目标人物在说出“我去查”时面部肌肉紧绷、下颌收紧，表现出压力下的决断，这与字幕中“我去查”这一行动性话语相匹配，支持了“worried”的判断。音频专家指出其语调平稳，无明显情绪波动，支持“neutral”。图谱专家认为其从陈述线索到主动表态的完整逻辑链符合冷静执行的状态，也支持“neutral”。尽管图像证据显示了压力下的表情，但音频中平稳的语调和图谱中对行动性表态的解读，共同指向一种在压力下保持冷静的“neutral”状态。因此，采纳了音频和图谱专家的判断。",
+  "output": "综合分析，图像专家观察到目标人物在说出“我去查”时面部肌肉紧绷、下颌收紧，表现出压力下的决断，这与字幕中“我去查”这一行动性话语相匹配，支持了“worried”的判断。音频专家指出其语调平稳，无明显情绪波动，支持“neutral”。图谱专家认为其从陈述线索到主动表态的完整逻辑链符合冷静执行的状态，也支持“neutral”。尽管图像证据显示了压力下的表情，但音频中平稳的语调和图谱中对行动性表态的解读，共同指向一种在压力下保持冷静的“neutral”状态。因此，采纳了音频和图谱专家的判断。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 156.80634665489197
+}

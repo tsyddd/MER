@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "Ross先低头，随后抬头说出自己“将不得不放弃他”[E1][E2]。图谱的person_0、person_1与画面所见一致，但这只是同一组动作的重复描述，不能算额外证据；这句话指向尚未发生的放弃，也没有交代“他”是谁。结合当前收敛的表情与话语内容，sadness比neutral更贴切。图谱称语调低缓平和[E3]，但未提供原音轨，不能亲耳核验，也不以此作决定性依据。",
+  "answer": "sadness",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒；frame_07 @ 1.4180822323378113秒",
+      "observation": "Ross起初低头闭眼，随后抬头说话；表情保持收敛，没有笑容。",
+      "interpretation": "与克制的难过相符，但低头或不笑单独都不能证明悲伤。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "I'm gonna have to give him up.",
+      "observation": "Ross说自己将不得不放弃“他”。",
+      "interpretation": "话语表达对即将发生的放弃的无奈；与收敛的表情结合，比将其视为纯粹平静的陈述更支持sadness，但不能据此断定放弃已经发生。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱转述Ross说话时语调较低缓、平和；本次未提供原音轨。",
+      "interpretation": "若转述准确，可与克制的难过相容，也可能支持neutral；无法直接核验，因此不作为最终取舍的关键。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "最强的替代解释是neutral：Ross的表情和动作并不激烈，图谱还将语调描述为平和。但平和不等于没有难过；在无法核验语调的情况下，当前话语与画面共同呈现的无奈感更支持sadness。"
+}

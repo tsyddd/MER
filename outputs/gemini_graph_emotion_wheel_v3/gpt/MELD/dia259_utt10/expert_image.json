@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "目标人物是画面中央穿浅蓝色高领上衣的Monica。她说话时从前倾、抬手示意，转为更明显地向前伸手；目光持续朝向画面左侧的交谈对象，表情在短暂带笑与紧绷、张口强调之间变化[E1][E2]。这些动作本身不等于愤怒，但结合字幕中对笑话“不好笑”且“冒犯”他人的直接批评[E3]，最支持她正在表达不满，而非单纯开玩笑。",
+  "open_emotion": "不满",
+  "answer": "anger",
+  "mapping_reason": "这里的不满指向她认为具有冒犯性的笑话，并以当面批评的方式表达，符合anger中因冒犯而责备的方向；不必表现为强烈暴怒。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）、frame_03（2.127秒）、frame_05（3.503秒）",
+      "observation": "Monica多次身体前倾，朝画面左侧看去；说话间嘴部张合，frame_03和frame_05的面部比短暂带笑时更紧绷。",
+      "interpretation": "持续面向交谈对象并强调发言，支持她在认真提出异议；单凭前倾或嘴形不能确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02（1.418秒）、frame_06（4.213秒）、frame_07（4.922秒）",
+      "observation": "她先向侧面抬手示意，随后明显向前伸手、张大嘴，最后仍保持前倾并看向对方。",
+      "interpretation": "手势和姿态随发言加强，更符合强调批评，而非平稳的日常陈述。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“The joke is not funny, and it’s offensive to women, and doctors, and monkeys!”",
+      "observation": "字幕明确说笑话不好笑，并称其冒犯了女性、医生和猴子。",
+      "interpretation": "指出冒犯并否定笑话，为画面中的强调动作提供了责备对象；字幕不提供可听见的语调。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_01（0.709秒）、frame_04（2.794秒）、frame_07（4.922秒）",
+      "observation": "她在这几帧嘴角略向上，尤其末帧可见笑意。",
+      "interpretation": "这是不满解释的主要限制：表达可能带有揶揄或喜剧式夸张，不能说她全程怒容。",
+      "polarity": "counter"
+    }
+  ],
+  "counterevidence": "数帧出现笑意，可能是在讽刺或以轻松方式反驳；但笑意短暂，不能单独抵消她持续强调及字幕中明确的冒犯性批评。没有提供音频，无法据语调进一步区分。"
+}

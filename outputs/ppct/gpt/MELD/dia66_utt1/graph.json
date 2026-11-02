@@ -1,0 +1,94 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "目标说话人向左侧女子说“Thank you! Enjoy your flight?”",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle",
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "目标说话人的头部朝向左侧，视线朝向左侧女子",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "目标说话人的嘴部张开",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "目标说话人的一只手臂横放在身前",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "画面位于飞机客舱及舱门附近",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "目标说话人与画面左侧女子在进行交流",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "simultaneous",
+      "reason": "同一目标说话人的朝向与手臂位置在同一时刻构成有意义的同步状态",
+      "entity_anchor": "同一目标说话人"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供目标说话人朝向并注视左侧女子，person_1提供其嘴部张开；联合后补充出目标说话人正面向该女子进行可观察的口头交流。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0提供飞机客舱及舱门附近的空间场景，context_1提供目标说话人与左侧女子正在交流的互动对象；联合后更完整限定了交流发生在飞机舱门附近的客舱场景中。",
+      "entity_anchor": null
+    }
+  ]
+}

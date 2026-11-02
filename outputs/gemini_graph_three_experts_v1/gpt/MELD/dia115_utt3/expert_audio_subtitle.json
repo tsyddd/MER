@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。仅从字幕看，Ross以贬低和指责的方式否定对方的行为，带有明显的敌意与恼怒。",
+  "answer": "anger",
+  "evidence_refs": []
+}

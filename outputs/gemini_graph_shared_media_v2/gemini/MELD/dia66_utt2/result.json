@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia66_utt2",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "5a18845c511d8d042e0aafc9325f0ce10daa1e74888c7cd85c82140504ee351d",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "独立核查原始画面与音频可知，Rachel在下飞机与空乘交谈时全程保持开齿微笑，神态与动作均显得放松愉悦（如[image:E1]所述），具有较高可信度。音轨在00:01至00:04间语调轻快上扬且带有明显笑意（[audio_subtitle:E1]），真诚致谢并夸赞飞行体验。主要反证为乘机场景下的礼貌性客套（neutral），但多模态一致展现出超出事务性应对的充沛积极情感，故判定为joy。",
+  "output": "独立核查原始画面与音频可知，Rachel在下飞机与空乘交谈时全程保持开齿微笑，神态与动作均显得放松愉悦（如[image:E1]所述），具有较高可信度。音轨在00:01至00:04间语调轻快上扬且带有明显笑意（[audio_subtitle:E1]），真诚致谢并夸赞飞行体验。主要反证为乘机场景下的礼貌性客套（neutral），但多模态一致展现出超出事务性应对的充沛积极情感，故判定为joy。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 69.58080410957336
+}

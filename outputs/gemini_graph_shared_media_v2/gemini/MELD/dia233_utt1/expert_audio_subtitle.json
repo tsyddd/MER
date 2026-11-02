@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Rachel在音频中语调尖锐急促，伴随强烈的质问与抱怨语气，结尾重读强调；结合台词‘you know how fish freak me out!’对对方行为表达不满与责备，视觉上眉头紧锁、摊手质问，符合愤怒（anger）的特征。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:01 - 00:04",
+      "observation": "Rachel语速加快，音调显著升高并带有急促的施压感，在‘fish’和‘freak me out’处加重音量与气流",
+      "interpretation": "强烈的抱怨与质问语气体现了被激怒和不满的言语行为，而非平和交流",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Honey, if you wanted to do that, you might as well just gotten him a fish, you know how fish freaked me out!",
+      "observation": "使用带有埋怨语气的假设让步句‘might as well just...’并搬出对方明知自己的顾忌却仍然违背的指控",
+      "interpretation": "话语意图在于谴责对方的不体贴与不合理举动，传达出愤怒与烦躁的情感",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02 @ 1.25s",
+      "observation": "Rachel双肩微张、双手摊开，眉头微皱，嘴唇紧绷微撇，直视对方",
+      "interpretation": "身体语言与面部表情均呈现防御性与质问姿态，与言语中的不满情绪一致",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽然台词提及‘fish freak me out’表面涉及恐惧（fear）词汇，但此处是用来支撑对眼前人物行为的指责，其当下的言语焦点与人际态度是因对方做法而感到气恼与愤怒，而非当场被鱼吓到。"
+}

@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者在陈述一个事实，语气平稳，没有明显的情绪波动。字幕内容为“我印象最深的一户人家，祖祖辈辈种地”，这是一个中性的叙述，没有表达喜悦、悲伤、愤怒或担忧等情绪。音频中语调平稳，没有明显的音高或语速变化，表明说话者处于一种平静的状态。",
+  "open_emotion": "平静",
+  "answer": "neutral",
+  "mapping_reason": "根据情绪轮的定义，'neutral'（中性）是指当前主要为平稳叙述、自然交流或无明确主导情绪的表达。说话者的语调平稳，内容为中性叙述，没有表现出任何主导情绪，因此映射为'neutral'。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "我印象最深的一户人家，祖祖辈辈种地。",
+      "observation": "说话者在陈述一个事实。",
+      "interpretation": "该陈述内容为中性叙述，没有表达任何情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "说话者的语调平稳，没有明显的音高或语速变化。",
+      "interpretation": "平稳的语调表明说话者处于一种平静的状态，没有表现出任何主导情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无"
+}

@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Monica说“Ben is coming over tonight and he can’t see this”，是在强调即将发生、必须避免的情况，而非单纯陈述事实[E1]。她随即睁大眼睛、露齿并急促地抬手示意，视觉表现与担忧相符[E2]。综合判断为fear；没有音频，不能据此判断语调或音量。",
+  "answer": "fear",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "But Ben is coming over tonight and he can’t see this.",
+      "observation": "她以“But”转折，指出Ben今晚会来，并强调他不能看见“this”。",
+      "interpretation": "话语表达对临近后果的担忧，支持fear；否定句本身不足以单独确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05 @ 1.6683333333333332秒",
+      "observation": "Monica看向左侧人物，眼睛睁大、露齿，同时抬起右手示意。",
+      "interpretation": "紧绷的表情和强调动作与话语中的担忧一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "她也可能只是在务实地提醒对方处理物品；字幕没有直接说她害怕，且无音频可核对语气。但强调Ben即将到来且“不能看见”，结合紧绷表情，比平静提醒更支持fear。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00005612",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "277d5c5900a033008ef8204e177794173a0a9d543a995a1fbb51814e27394ff0",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "独立核验全部8帧画面与实际音轨可知，目标人物在现场递交请愿材料时神情端正坚毅，眉宇舒展，面部并无咬牙皱眉或肌肉抽搐等激烈情绪特征，肢体动作始终保持双手平端文书的规整姿态[image:E1]。音轨00:00-00:02中，男子说话字正腔圆、语调清晰沉稳且有力[audio_subtitle:E1]，毫无怒吼攻击性（排除angry）或颤抖哀切（排除sad/worried）。三位专家对于其克制庄重、公事公办的严肃中性判断高度一致且证据完全可核验，故最终归为中性。",
+  "output": "独立核验全部8帧画面与实际音轨可知，目标人物在现场递交请愿材料时神情端正坚毅，眉宇舒展，面部并无咬牙皱眉或肌肉抽搐等激烈情绪特征，肢体动作始终保持双手平端文书的规整姿态[image:E1]。音轨00:00-00:02中，男子说话字正腔圆、语调清晰沉稳且有力[audio_subtitle:E1]，毫无怒吼攻击性（排除angry）或颤抖哀切（排除sad/worried）。三位专家对于其克制庄重、公事公办的严肃中性判断高度一致且证据完全可核验，故最终归为中性。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 32.45518779754639
+}

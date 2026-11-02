@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia245_utt4",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "fear",
+  "emotion_analysis": "结合节点person_1和person_2的关联，Monica在沙发上看到门边情况时，立即伴随急促高亢、惊慌失措的声音大声喊出“No-no-no, no!”（process_0）。随后，由process_1与process_2的连续动作可见，她神情惊恐地瞪大双眼（person_4），迅速扔下手中的书和杯子并猛地从沙发上向前冲出，整体表现出高度惊恐、慌乱害怕的应激状态。",
+  "output": "结合节点person_1和person_2的关联，Monica在沙发上看到门边情况时，立即伴随急促高亢、惊慌失措的声音大声喊出“No-no-no, no!”（process_0）。随后，由process_1与process_2的连续动作可见，她神情惊恐地瞪大双眼（person_4），迅速扔下手中的书和杯子并猛地从沙发上向前冲出，整体表现出高度惊恐、慌乱害怕的应激状态。\n<answer>fear</answer>",
+  "label": "fear",
+  "elapsed_seconds": 54.86383295059204,
+  "node_count": 10,
+  "edge_count": 10
+}

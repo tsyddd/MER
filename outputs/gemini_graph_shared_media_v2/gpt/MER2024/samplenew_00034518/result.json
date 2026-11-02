@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00034518",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "3fed6d6059d74c2412d0aa8019d55bbdcde203bd9f2c07e116f6616c4aef8d9e",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "目标人物应为前景蓝衣女性；我核对frame_00至frame_07，发现她持续低头摆弄物品、视线不与年长女性接触，且没有对字幕“是不是？家里又出什么事了？”作出可见回应，这比中性更支持担忧。[graph:E1] 该专家对目标归属和持续低头的视觉描述可信，但“回避”只是解释，不能单独确认情绪。字幕是年长女性的追问而非目标人物自述，且无音轨，不能补充语调证据；另一专家将年长女性误认作目标，相关判断不适用于本标签。",
+  "output": "目标人物应为前景蓝衣女性；我核对frame_00至frame_07，发现她持续低头摆弄物品、视线不与年长女性接触，且没有对字幕“是不是？家里又出什么事了？”作出可见回应，这比中性更支持担忧。[graph:E1] 该专家对目标归属和持续低头的视觉描述可信，但“回避”只是解释，不能单独确认情绪。字幕是年长女性的追问而非目标人物自述，且无音轨，不能补充语调证据；另一专家将年长女性误认作目标，相关判断不适用于本标签。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 189.0259222984314
+}

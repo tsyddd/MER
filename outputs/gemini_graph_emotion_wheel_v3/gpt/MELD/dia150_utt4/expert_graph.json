@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "Janice当前是在向Chandler道别，而不是转述往事：图谱的process_0与process_1和字幕共同指向这一次当面说出的告别，但道别本身也可能只是礼貌用语，不能单独证明悲伤[E1][E2]。更有区分力的是她说话时及之后仍看向对方，眉眼显得低落，手移到胸前，表情没有转为轻松[E3]。这使当前表达更接近不舍，而非平常的告别。图谱person_2所称“双臂交叉抱在胸前”与画面不完全相符；图谱中的语调描述也因未提供原音轨而不能亲耳核验。",
+  "open_emotion": "不舍",
+  "answer": "sadness",
+  "mapping_reason": "这里的不舍指向当面告别带来的低落，最接近sadness；这是近似映射，不意味着已能确认强烈的丧失感。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_0、process_1",
+      "observation": "图谱将Janice当前对Chandler说“Good-bye”及随后称呼“Chandler Bing.”组织为一次道别。",
+      "interpretation": "明确她表达所针对的是眼前的离别；节点先后不额外证明她为何难过。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Good-bye Chandler Bing.",
+      "observation": "当前字幕是一句直接称呼对方的告别语。",
+      "interpretation": "核对了图谱中的事件语义，但与图谱所述话语同源，不算另一项独立的情绪表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_03（1.001秒）至frame_07（2.294秒）",
+      "observation": "Janice面向对方说话，眉眼显得低落；她将一只手移到胸前，另一只手横在身前，末尾仍看向对方。",
+      "interpretation": "这些当前可见的表现使告别较不像轻松、例行的寒暄，支持不舍的判断；画面并非清楚的双臂交叉抱胸。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "仅凭告别语也可解释为礼貌或平静地离开，画面没有哭泣等强烈悲伤表现。图谱person_1称声音有鼻音和拖长语调，但本次没有原音轨，只能保留为未经亲耳核验的图谱转述，不据此判断情绪。"
+}

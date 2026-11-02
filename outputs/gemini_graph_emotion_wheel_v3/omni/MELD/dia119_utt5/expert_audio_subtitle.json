@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Monica的语气带有明显的担忧和一丝焦虑，她正在解释一个她认为需要隐藏的状况。她的语调在说'he can't see this'时略微上扬，表现出一种紧迫感和对后果的在意。结合她的话语内容，这是一种对即将到来的、可能带来负面评价的事件的担忧，而不是愤怒、悲伤或纯粹的惊讶。因此，最符合的开放情绪是'担忧'。",
+  "open_emotion": "担忧",
+  "answer": "fear",
+  "mapping_reason": "根据MELD项目的定义，'fear'被描述为'面向威胁、危险或令人害怕的负面后果，表现出畏惧、惊恐或威胁相关的焦虑'。Monica的担忧和焦虑，源于她认为Ben的到来会让她处于一个尴尬或不好的境地（'he can't see this'），这是一种对潜在负面后果的预期，因此映射到'fear'是合适的。虽然'担忧'更精确，但'fear'是数据集允许的最接近的标签。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "But Ben is coming over tonight and he can't see this.",
+      "observation": "Monica说这句话，内容是关于一个即将到来的事件（Ben要来）和一个需要隐藏的状况。",
+      "interpretation": "这句话表明她对即将发生的事情感到不安，需要采取行动来隐藏某些东西，这暗示了对负面后果的预期。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:02.335",
+      "observation": "Monica的语调在陈述中带有明显的担忧和一丝焦虑，尤其在句末的'he can't see this'部分，语调上扬，表现出紧迫感。",
+      "interpretation": "这种语调变化表明她对当前状况的严重性有认知，并对此感到不安，这是一种对潜在威胁的反应。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有明显的证据表明Monica是愤怒、悲伤或喜悦的。她的表情和语气也与'neutral'不符，因为她正在积极地表达一种担忧。"
+}

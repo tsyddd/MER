@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia132_utt2",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "f084672e7cf9dd79896fb1df6be44f63d0e81e8653bd27ac9cb35d8247ef8c65",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "平静",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据MELD项目的情绪轮，'neutral'（中性）被定义为'当前平稳、日常且没有明确主导情绪的表达'。Phoebe的语速平稳，语气自然，没有表现出喜悦、悲伤、愤怒等任何一种主导情绪，其行为和言语都符合一种日常的、平稳的陈述状态，因此映射为'neutral'是合适的。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "平静",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据MELD项目的情绪轮，'neutral'被定义为'当前平稳、日常且没有明确主导情绪的表达'。Phoebe的语调平稳，没有表现出任何强烈的正向或负向情绪，其描述内容也偏向中性，因此最符合'neutral'的定义。"
+    },
+    "image": {
+      "open_emotion": "中性",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据MELD项目的情绪轮定义，'neutral'指当前平稳、日常且没有明确主导情绪的表达。Phoebe的面部表情、视线和姿态均未表现出joy、sadness、anger、fear、disgust或surprise等情绪的典型特征，其行为模式与日常陈述或描述的语境相符，因此映射为'neutral'。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "Phoebe的语调平稳，语速正常，没有明显的音高或音量变化，表现出一种平静的陈述状态。她的面部表情保持稳定，眼神主要集中在对话对象身上，没有明显的皱眉、咧嘴等情绪化特征。结合字幕内容，她正在描述一个男性，使用了'early to mid-thirties'和'very attractive'等中性或正面的词汇，但整体语气没有表现出强烈的喜悦、惊讶或任何其他主导情绪。三个专家的证据均一致支持中性情绪的判断，其中音频和视觉证据直接且互补，共同指向一个平稳的陈述状态。",
+  "output": "Phoebe的语调平稳，语速正常，没有明显的音高或音量变化，表现出一种平静的陈述状态。她的面部表情保持稳定，眼神主要集中在对话对象身上，没有明显的皱眉、咧嘴等情绪化特征。结合字幕内容，她正在描述一个男性，使用了'early to mid-thirties'和'very attractive'等中性或正面的词汇，但整体语气没有表现出强烈的喜悦、惊讶或任何其他主导情绪。三个专家的证据均一致支持中性情绪的判断，其中音频和视觉证据直接且互补，共同指向一个平稳的陈述状态。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 166.46348595619202
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标是画面左侧穿蓝色衬衫的Joey，右侧人物主要背对镜头。[E1][E2]显示他从说话时的轻微蹙眉，转为双手按胸、嘴角上扬，并一直面向对方；结合字幕中明确说出的“I'm so proud”[E3]，最有支持的判断是joy。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.5004996114133452秒至frame_03 @ 1.4597905332889234秒",
+      "observation": "Joey面向右侧人物说话，双手抬起并交叠按在胸前；眉头略收，嘴形随说话变化。",
+      "interpretation": "手势与面部变化显示他投入地表达感受，但单凭蹙眉不能判为悲伤。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.9602901447022687秒至frame_07 @ 3.420080677991192秒",
+      "observation": "Joey保持双手按胸，嘴角逐渐上扬，最后露出明显笑容，视线仍朝向对方。",
+      "interpretation": "持续增强的笑容与亲近的表达姿态共同支持愉悦的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Awww, one of my students got an audition. I'm so proud.",
+      "observation": "字幕写明说话者为学生获得试镜而感到骄傲。",
+      "interpretation": "这与画面中的笑容相符；字幕不作为听到的语调证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "前几帧的蹙眉和按胸手势也可能表示担忧或感动，不能单独证明喜悦；但后续逐渐明显的笑容及字幕中的自述更支持joy。画面未显示可辨认的泪水。"
+}

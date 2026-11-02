@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia132_utt2",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "Phoebe在室内面向对面的女性交流，字幕是在描述一名三十多岁且很有吸引力的男性。她持续张口说话并配合抬手、向两侧展开和摊开的手势（process_0、person_0、person_1、person_2、person_3、person_4），整体表现为自然说明和强调，没有可核对的明显负面或强烈兴奋线索。",
+  "output": "Phoebe在室内面向对面的女性交流，字幕是在描述一名三十多岁且很有吸引力的男性。她持续张口说话并配合抬手、向两侧展开和摊开的手势（process_0、person_0、person_1、person_2、person_3、person_4），整体表现为自然说明和强调，没有可核对的明显负面或强烈兴奋线索。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 93.25356078147888,
+  "node_count": 8,
+  "edge_count": 7
+}

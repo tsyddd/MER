@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00002893",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "9d46ffb3a0e6d7ee83ce5711674ec38a79e6e03c6208bac88d0b6ce9c7023ef2",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "三位专家结论高度一致，均判定目标人物为担忧状态。视觉专家观察到其眉心紧缩、神情紧绷且急切，听觉与字幕专家则指出其说话结巴颤抖、语速急促且反复急切解释‘事情越闹越大’，音画线索共同印证了强烈的焦虑与担忧情绪。",
+  "output": "三位专家结论高度一致，均判定目标人物为担忧状态。视觉专家观察到其眉心紧缩、神情紧绷且急切，听觉与字幕专家则指出其说话结巴颤抖、语速急促且反复急切解释‘事情越闹越大’，音画线索共同印证了强烈的焦虑与担忧情绪。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 28.972700834274292
+}

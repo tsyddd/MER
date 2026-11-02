@@ -1,0 +1,3 @@
+{
+  "text": "在飞机客舱及舱门附近〔context_0〕，目标说话人与画面左侧女子正在交流〔context_1〕，并向她说：“Thank you! Enjoy your flight?”〔process_0〕。说话时，他的头部朝向左侧、视线也朝向该女子〔person_0〕，嘴部张开〔person_1〕，一只手臂横放在身前〔person_2〕；头部和视线的朝向与手臂位置同时呈现〔person_0 simultaneous person_2〕，朝向、视线与张嘴的状态共同表明他正面向左侧女子进行口头交流〔person_0 person_joint person_1〕。上述交流发生在飞机客舱及舱门附近这一场景中〔context_0 context_joint context_1〕。这些表现可能反映目标说话人当下正将注意力指向左侧女子，并在当前登机或离舱交流中作出回应；仅凭材料无法进一步明确其具体心理状态。"
+}

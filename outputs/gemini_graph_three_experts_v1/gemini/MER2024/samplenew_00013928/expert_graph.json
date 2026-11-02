@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载女子在与对方交流时始终面带笑容并挥动手中纸张〔person_0〕，同时亲切鼓励对方〔process_0〕。随后她放下手继续保持微笑，图谱记载其以轻快上扬的语调询问“怎么样？收获大大的吧”〔person_2, process_1〕，整体行为神态和语调充分展现了积极愉快的心情。",
+  "answer": "happy",
+  "evidence_refs": [
+    "person_0",
+    "process_0",
+    "person_2",
+    "process_1"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "当前片段中，瑞秋在男子靠近并随后拉开距离后开口回应。画面里她始终较为克制，略低头、表情严肃但没有明显的愤怒、恐惧、悲伤或惊讶动作；字幕“Y'know what?”更像是在平稳地开启回应。图谱节点process_1记录了这句当前话语，person_0记录了她略微低头的姿态，但这些节点只能说明互动顺序与外在表达，不能推断男子靠近直接导致某种情绪。",
+  "open_emotion": "matter-of-fact",
+  "answer": "neutral",
+  "mapping_reason": "“matter-of-fact”表示当前表达平稳、克制且缺乏明确主导情绪，最符合neutral关于日常或无明显情绪反应的定义。虽然语境可能带有轻微严肃或准备反驳的意味，但现有视觉和字幕不足以支持anger、sadness或fear；图谱中的低沉语调属于间接音频转述，未收到原音轨，不能亲耳核验。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07，0.0至1.126秒",
+      "observation": "瑞秋坐在桌旁，前段略微低头，随后保持端坐并看向男子；面部表情较严肃克制，没有清晰的笑容、明显皱眉、惊恐或强烈回避动作。",
+      "interpretation": "支持她当前表现平稳而略严肃，但未形成明确的负面主导情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "当前字幕“Y'know what?”",
+      "observation": "瑞秋说出一个开启回应的短句。",
+      "interpretation": "该话语可承载决断或轻微不满，但单独看并不明确指向愤怒、悲伤或惊讶；在当前克制画面下更接近平稳回应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "图谱记录瑞秋开口说：“Y'know what?”，并标注该事件发生在男子靠近后退开的互动之后。",
+      "interpretation": "确认当前回应属于这段近距离互动中的即时反应，但节点顺序本身不能扩写为因果或特定情绪。其音频相关内容是图谱转述而非本模型直接听到的原音。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "短句“Y'know what?”以及男子先靠近后退开，存在轻微恼火、准备反驳或情绪转折的替代解释；但画面未显示足够明确的对抗性表情或动作，且没有可直接核验的原音轨，因此不足以将答案改为anger。"
+}

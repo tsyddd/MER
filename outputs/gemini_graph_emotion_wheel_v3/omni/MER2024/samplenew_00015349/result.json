@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00015349",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "bcd55e14af684d9817d928d38f4c0f9621768146d95143886c11d6eb856c9942",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "根据情绪轮定义，'worried'指对可能的负面结果、风险或未知的顾虑、焦虑和不安。目标人物正在陈述一个假设性后果，其语气平稳克制，没有表现出愤怒或悲伤的特征，这与担忧情绪的语义和表现最为匹配。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "根据情绪轮定义，'worried'指对可能的负面结果、风险或未知的顾虑、焦虑和不安。说话者陈述了一个可能发生的负面后果（“传到高家”），其语气平稳，表明这是一种对未来的预期性担忧，而非当下的愤怒或悲伤，因此映射到'worried'是合适的。"
+    },
+    "image": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "根据情绪轮定义，'worried'指对可能发生的负面结果、风险或未知情况的顾虑、焦虑和不安。目标人物的台词明确指向一个尚未发生但可能发生的坏结果（火势蔓延到高家），其表情和姿态也符合对潜在风险的忧虑，因此映射到'worried'最为准确。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "目标人物的语调低沉平稳，无激动迹象，结合字幕内容“再这么烧下去的话，传到高家”，其核心是陈述一个对潜在负面后果的顾虑。图像显示其表情严肃，眉头微皱，姿态稳定，这些视觉与听觉线索共同指向对未知风险的担忧。尽管音频中未出现“吵”字，但字幕明确为“烧”，且专家一致将其映射为“worried”，与情绪轮定义相符。",
+  "output": "目标人物的语调低沉平稳，无激动迹象，结合字幕内容“再这么烧下去的话，传到高家”，其核心是陈述一个对潜在负面后果的顾虑。图像显示其表情严肃，眉头微皱，姿态稳定，这些视觉与听觉线索共同指向对未知风险的担忧。尽管音频中未出现“吵”字，但字幕明确为“烧”，且专家一致将其映射为“worried”，与情绪轮定义相符。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 183.25674676895142
+}

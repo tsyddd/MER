@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00015349",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "结合节点person_0、person_1以及process_0与process_1的递进关系，束发男子在交谈中压低声音告诫对方“再这么吵下去的话，传到高家”。其神态警惕严谨，语调低沉克制，表现出对争吵外泄及引发后果的明显顾虑与担忧。",
+  "output": "结合节点person_0、person_1以及process_0与process_1的递进关系，束发男子在交谈中压低声音告诫对方“再这么吵下去的话，传到高家”。其神态警惕严谨，语调低沉克制，表现出对争吵外泄及引发后果的明显顾虑与担忧。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 46.60347247123718,
+  "node_count": 6,
+  "edge_count": 4
+}

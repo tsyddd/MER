@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物在转述听到对方遭遇意外的消息时，语调轻柔下沉且略带迟疑探询[E1]，用词聚焦于对方可能发生的危险/不幸[E2]，配合视觉上微蹙的眉眼与关切神情[E3]，核心情绪指向对对方处境的担忧（worried）。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:01.20-00:03.20",
+      "observation": "目标人物在说出“你好像出了点意外”时，声音放轻、语速放缓，句尾略带关切下沉的探询语调",
+      "interpretation": "表现出试探性询问与关心，带有明显的关切与忧心色彩",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "不过 我最近听他们说 你好像出了点意外",
+      "observation": "台词提及对方“出了点意外”，属于关切询问对方安危的话语行为",
+      "interpretation": "话题聚焦于对谈者的负面遭遇，言语互动目的在于确认并表达担忧",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05 @ 2.64s",
+      "observation": "目光下垂，眉头轻微收拢，神情凝重",
+      "interpretation": "面部神情与关心对方遭遇意外的言语内容保持一致，强化了担心的情绪特征",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "若仅视作转述听闻信息，可能被误判为客观平淡的neutral；但其言辞伴有明显的关切放轻语调及收拢蹙眉神情，超出了中性信息交互的范畴。"
+}

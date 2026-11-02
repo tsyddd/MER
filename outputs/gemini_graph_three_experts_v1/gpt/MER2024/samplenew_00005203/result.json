@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00005203",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "80ed71fa2ffabbd46e09fee5b9edb8082b0b4d584293ba2c216376d47e0f2d8d",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "字幕表达了不愿分离，指向低落与不舍；audio_subtitle明确未提供音频，因此不采用其听觉判断。图像报告描述持续低头、眉头微蹙和嘴角下垂，图谱中的类似视觉与语义信息虽可能与其同源，但整体与字幕一致，当前情绪判为悲伤。",
+  "output": "字幕表达了不愿分离，指向低落与不舍；audio_subtitle明确未提供音频，因此不采用其听觉判断。图像报告描述持续低头、眉头微蹙和嘴角下垂，图谱中的类似视觉与语义信息虽可能与其同源，但整体与字幕一致，当前情绪判为悲伤。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 81.84542798995972
+}

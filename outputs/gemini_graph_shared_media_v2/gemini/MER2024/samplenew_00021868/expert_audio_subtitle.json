@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "台词为低语陈述句，音轨中语调平缓低沉、节奏均匀克制，无情绪爆发、颤音或哀叹，视觉表情亦平稳自持，表现为平静中立。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "目标人物低语念出'也不知道当年三哥'，语调低缓沉稳，句尾平落，缺乏悲伤的颤音或担忧的紧促感",
+      "interpretation": "平缓沉稳的语调表明说话者处于平静思考与叙述状态，符合中性特征",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.20s",
+      "observation": "目标人物面部肌肉舒展放松，目光微垂，嘴角自然微合，未见蹙眉或悲戚神态",
+      "interpretation": "视觉表情与平淡沉稳的言语韵律保持高度一致，排除了强烈的负向情绪",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "替代解释为感伤（sad），因提及'当年三哥'涉及过往旧事，但由于发音未伴随哽咽、叹气或明显的哀伤语气起伏，证据不支持sad而指向克制中性。"
+}

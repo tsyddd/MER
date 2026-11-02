@@ -1,0 +1,12 @@
+{
+  "expert": "graph",
+  "reason": "Monica怀抱婴儿时面带微笑、嘴角微扬，并主动向Phoebe分享现场情况〔person_0〕〔person_3〕〔process_1〕。图谱记载她以轻松自然、轻柔欢快的语气说话〔person_1〕〔person_4〕，这些表现支持其当前情绪为愉快而非紧张或消沉。",
+  "answer": "joy",
+  "evidence_refs": [
+    "person_0",
+    "person_3",
+    "process_1",
+    "person_1",
+    "person_4"
+  ]
+}

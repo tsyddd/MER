@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia186_utt3",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "66500757c83860e7bc8c787d8e2b59268fb274c5b6c0b4d08dfd117efb6c20d2",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "失落",
+      "mapped_label": "sadness",
+      "mapping_reason": "根据当前证据，Joey的面部表情（头部微偏、视线朝下）和声音语调（平缓低沉）共同表现出一种因取消计划而产生的失落感。这种情绪与'悲伤'（sadness）的定义相符，即因失落、损失或痛苦而难过、哀伤或低落。虽然情绪强度较弱，但其主导情绪是失落，因此映射到'sadness'是合理的。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "失落",
+      "mapped_label": "sadness",
+      "mapping_reason": "根据MELD项目的情绪轮定义，'sadness'指因失落、损失或痛苦而难过、哀伤或低落。Joey的言语内容（取消今晚的计划）和他低沉、无奈的语气都明确指向了因计划落空而产生的失落感，这与'sadness'的定义高度吻合。"
+    },
+    "image": {
+      "open_emotion": "抱歉",
+      "mapped_label": "sadness",
+      "mapping_reason": "根据情绪轮的定义，'sadness'（悲伤）是因失落、损失或痛苦而难过、哀伤或低落的体验。Joey因取消计划而感到遗憾，这是一种轻微的失落感，符合悲伤情绪的范畴。他的表情和话语都指向一种温和的负面情绪，而非愤怒、厌恶或恐惧等更强烈的情绪。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "Joey在通话中表示要取消今晚的计划，其面部表情（如皱眉、眼神向下）和声音语调（低沉、语速缓慢）均表现出一种无奈和遗憾。专家的视觉、音频和字幕证据均一致支持这一判断。尽管情绪强度较弱，但其主导情绪是因计划落空而产生的失落感，符合'悲伤'（sadness）的定义。其中，[audio_subtitle:E1]和[image:E1]提供了直接且互补的证据，共同指向该情绪。",
+  "output": "Joey在通话中表示要取消今晚的计划，其面部表情（如皱眉、眼神向下）和声音语调（低沉、语速缓慢）均表现出一种无奈和遗憾。专家的视觉、音频和字幕证据均一致支持这一判断。尽管情绪强度较弱，但其主导情绪是因计划落空而产生的失落感，符合'悲伤'（sadness）的定义。其中，[audio_subtitle:E1]和[image:E1]提供了直接且互补的证据，共同指向该情绪。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 170.7548122406006
+}

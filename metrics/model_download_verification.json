@@ -1,0 +1,8 @@
+{
+  "revision": "2f443cfc4c54b14a815c0e2bb9a9d6cbcd9a748b",
+  "files": 26,
+  "bytes": 63447489451,
+  "verified_shards": 16,
+  "weight_hashes_match_manifest": true,
+  "verification_file": "models/Qwen3-Omni-30B-A3B-Thinking/download_verified.json"
+}

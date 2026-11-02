@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "Rachel在抱婴儿时眉头紧锁、内眉上扬、嘴角向下张口呈哭诉状[E1]，面部表现出极度委屈与痛苦；结合音轨中明显的颤抖哭腔与无助抽泣感[E2]，表明其处于无助悲伤状态，而非攻击性愤怒。",
+  "answer": "sadness",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_03 @ 2.210539950408941",
+      "observation": "Rachel眉心紧聚且内眉挑起，双唇张开成哭容状，面部呈现典型的悲伤、沮丧形态。",
+      "interpretation": "面部呈现典型的哭态与委屈感，强烈支持悲伤情绪而非中性或喜悦。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:01 - 00:04",
+      "observation": "在婴儿大哭的背景下，Rachel说话语调颤抖且伴随明显的哭腔与鼻音哽咽。",
+      "interpretation": "带哭腔的声音特征消除了单纯焦躁或愤怒的歧义，进一步证实其处于悲伤无助之中。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词含有抱怨抱怨婴儿不停哭的字面意义，动作上有来回踱步，可能被误判为anger；但其面部缺乏攻击性瞪眼或咬牙动作，反而呈现内眉头抬起与带哭腔的抽泣，故排除anger。"
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物在话语中直接表达了对对方独自在家的顾虑与安全担忧[E1]，在语音韵律上语调柔和带有明显的关切悬心感，末尾疑问句带有发愁与无措感[E2]，配合视觉上微蹙的双眉与忧切神情[E3]，核心情绪为担心的worried。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "那，你一个人在家，我还不放心呢，你万一要想不开，怎么办呢？",
+      "observation": "台词明确使用“还不放心”、“要想不开怎么办”等表达忧虑与安全顾虑的词句",
+      "interpretation": "言语行为旨在表达对对方心理状态和孤身处境的深切关怀与忧心，直接指向worried",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:01 - 00:05",
+      "observation": "发音略带微叹的气息，语调在“不放心呢”与“怎么办呢”处出现略带下沉又悬停的关切语调",
+      "interpretation": "声音呈现焦急挂念而非单纯的悲伤叹息，强化了担忧情绪的真实表达",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_03 @ 2.28s",
+      "observation": "面部双眉微聚，目光关切注视着前方对话者，神态凝重",
+      "interpretation": "视觉线索与语音表达的情绪意图完全一致，共同印证忧虑状态",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是sad（悲伤），因为谈及对方可能“想不开”的沉重话题，但音调中更多体现的是对当下潜在危险的警觉与顾虑，并未出现呜咽或消沉绝望的语声特征，故排除sad。"
+}

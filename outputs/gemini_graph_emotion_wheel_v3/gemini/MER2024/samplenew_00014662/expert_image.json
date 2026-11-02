@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "画面前段（frame_00至frame_06）目标女性眉头向内收拢并轻微向上微蹙，眼神专注凝视交谈对象，神情谨慎且微紧绷，伴随前倾姿态，表现出明显的焦虑与不安心理。结合台词明确指出对潜在后果（牵连老爷子）的顾虑，以及声音中轻缓试探的语调，其情绪核心在于对负面风险的关切与顾虑，属于典型的担忧情绪。",
+  "open_emotion": "担忧",
+  "answer": "worried",
+  "mapping_reason": "目标人物的核心表现是对未来负面影响的不安与顾虑，完美符合情绪轮中worried（对可能负面结果、未知风险的顾虑与焦虑）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01 (0.64s) 至 frame_04 (1.96s)",
+      "observation": "目标女性双眉紧蹙且内侧微微抬起，下眼睑轻微收紧，目光微带探询，神态紧张而关切。",
+      "interpretation": "眉眼神态体现出对所言事项后果的紧张与不安。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "我主要是担心这事会牵连到您家老爷子",
+      "observation": "台词直接言明对“牵连到您家老爷子”的顾忌与顾虑。",
+      "interpretation": "明确将负面预期与风险作为言谈主题，支持担忧倾向。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "0.0s-3.5s",
+      "observation": "女性发声轻柔缓慢，尾音微弱且带有试探性的颤音。",
+      "interpretation": "辅助印证其内心谨慎、忧虑且唯恐引发负面反应的心理状态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "目标女性的整体仪态保持相对克制沉着，未出现大幅度的慌乱动作或激动肢体语言，容易被误判为常规平静交流（neutral）。"
+}

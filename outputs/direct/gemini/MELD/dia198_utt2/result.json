@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia198_utt2",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "乔伊在反驳对方时语调充满不满与指责，通过手指比划和急促严厉的语气批评同伴毫无作为（'You could be on the Olympic standing-there team'），流露出明显的气恼与愠怒情绪。",
+  "output": "乔伊在反驳对方时语调充满不满与指责，通过手指比划和急促严厉的语气批评同伴毫无作为（'You could be on the Olympic standing-there team'），流露出明显的气恼与愠怒情绪。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 18.24871039390564,
+  "node_count": null,
+  "edge_count": null
+}

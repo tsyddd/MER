@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "白衣少年在互动中面对对方的陈述，通过节点[process_0]展示出突发的认知冲突事件；结合实际音视频，其语言结巴重复（节点[person_1]与[E2]）以及面部从短暂眨眼到双眼睁大、嘴巴张开（节点[person_3]与[E1]），属于典型面对意外信息时的震惊反应，而非单纯的担忧或平静。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_07 @ 2.48s",
+      "observation": "白衣少年双眼明显睁大，嘴巴张开微呈O形，定定看向对方",
+      "interpretation": "呈现典型的意外、惊愕面部反应",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "白衣少年语调上扬并伴随两次结巴断续的“你、你”后快速追问",
+      "interpretation": "语流受阻与停顿印证了突发事实带来的思维错愕",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "白衣少年向对方发问：“你，你，你怎么知道的？”",
+      "interpretation": "质问内容揭示当前事件为对方知晓了本不该知道的秘密，构成了强烈的出乎意料情境",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "替代解释可能认为其害怕秘密泄露而产生worried，但此时面部并无蹙眉、退缩等忧虑焦虑特征，而是以睁大双眼、张口错愕的突发性瞬间反应为主，故判定为surprise更为准确。"
+}

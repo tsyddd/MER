@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia109_utt5",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "当前人物Janice面向对方说话，表情逐渐变得严肃、眉头紧皱，手势强调后又抱臂，呈现出明显的不满和对抗感。字幕是她当前的直接表达，并非转述或假设，整体更符合愤怒而非中性或悲伤。",
+  "output": "当前人物Janice面向对方说话，表情逐渐变得严肃、眉头紧皱，手势强调后又抱臂，呈现出明显的不满和对抗感。字幕是她当前的直接表达，并非转述或假设，整体更符合愤怒而非中性或悲伤。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 36.954482555389404,
+  "node_count": null,
+  "edge_count": null
+}

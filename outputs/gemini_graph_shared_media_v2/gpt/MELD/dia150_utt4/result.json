@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia150_utt4",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "b948f663757dd9d93d653315d388ec7b3f3b77e98f96b4337073cdbfe157409b",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "目标是画面右侧的Janice：从frame_01到frame_04，她由手指贴近脸颊转为手按胸前；后段眉部上抬、嘴角略向下，未见明显笑容。[image:E1][image:E2] 字幕“Good-bye Chandler Bing.”确认她正在道别，但道别本身不能证明难过；[audio_subtitle:E1]对此的限定可信。郑重或表演式告别也可能有抬眉和抱臂动作，但结合后段面部变化，轻微悲伤比愉快或纯粹平静更贴切；未提供音轨，不能用语调进一步判断。",
+  "output": "目标是画面右侧的Janice：从frame_01到frame_04，她由手指贴近脸颊转为手按胸前；后段眉部上抬、嘴角略向下，未见明显笑容。[image:E1][image:E2] 字幕“Good-bye Chandler Bing.”确认她正在道别，但道别本身不能证明难过；[audio_subtitle:E1]对此的限定可信。郑重或表演式告别也可能有抬眉和抱臂动作，但结合后段面部变化，轻微悲伤比愉快或纯粹平静更贴切；未提供音轨，不能用语调进一步判断。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 69.4025502204895
+}

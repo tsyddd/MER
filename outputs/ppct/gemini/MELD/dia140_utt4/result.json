@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia140_utt4",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "在室内厨房场景中，Ross面对Joey进行日常谈话（结合context_1与context_0）。他注视着Joey并平和地开口提出写剧本的建议（person_0与person_1），言语中伴有轻微的构思停顿“like-like”（person_2）。整体面部表情平静自然，语调平稳随和，未表现出明显的愤怒、喜悦或悲伤等强烈情绪倾向，属于中性状态。",
+  "output": "在室内厨房场景中，Ross面对Joey进行日常谈话（结合context_1与context_0）。他注视着Joey并平和地开口提出写剧本的建议（person_0与person_1），言语中伴有轻微的构思停顿“like-like”（person_2）。整体面部表情平静自然，语调平稳随和，未表现出明显的愤怒、喜悦或悲伤等强烈情绪倾向，属于中性状态。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 40.48607039451599,
+  "node_count": 6,
+  "edge_count": 5
+}

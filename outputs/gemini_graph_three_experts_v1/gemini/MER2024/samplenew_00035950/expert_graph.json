@@ -1,0 +1,13 @@
+{
+  "expert": "graph",
+  "reason": "根据图谱记载，女子开口说出“怎么到了自己身上”〔process_0〕及“就这样不明白”〔process_1〕，其声音平稳且带有叹息感〔person_2〕。结合其微抬视线、嘴形张开幅度增大〔person_1, person_3〕并在殿内跪坐面朝坐榻〔person_4〕的举止，整体流露出自叹与伤感的悲伤情绪。",
+  "answer": "sad",
+  "evidence_refs": [
+    "process_0",
+    "process_1",
+    "person_1",
+    "person_2",
+    "person_3",
+    "person_4"
+  ]
+}

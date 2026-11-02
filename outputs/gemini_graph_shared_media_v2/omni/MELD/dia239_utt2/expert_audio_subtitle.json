@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Chandler's initial 'Jeez, man did you fall..' is delivered with a high-pitched, rapid, and slightly strained tone, indicating surprise and concern. This is immediately followed by a loud, high-pitched, and energetic 'Hi!' which is a classic comedic delivery for a sudden, awkward greeting. The subsequent stuttering repetition of 'So uh, did ya, did-did-did ya fall high?' maintains a high pitch and fast pace, suggesting flustered, nervous energy rather than genuine inquiry. The combination of these vocal cues points to a state of flustered surprise and awkwardness.",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00.000 - 00:01.000",
+      "observation": "Chandler says 'Jeez, man did you fall..' in a high-pitched, rapid, and slightly strained tone.",
+      "interpretation": "This vocal delivery is characteristic of surprise and concern, indicating that Chandler is taken aback by what he sees.",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:01.000 - 00:02.000",
+      "observation": "Chandler says 'Hi!' in a loud, high-pitched, and energetic manner.",
+      "interpretation": "This is a classic comedic delivery for a sudden, awkward greeting, contributing to the overall flustered and surprised state.",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:02.000 - 00:06.000",
+      "observation": "Chandler stutters and repeats 'So uh, did ya, did-did-did ya fall high?' with a high pitch and fast pace.",
+      "interpretation": "The stuttering and rapid, high-pitched delivery indicate flustered, nervous energy, which is a form of surprise mixed with awkwardness.",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "The strongest alternative interpretation is 'neutral'. However, the audio evidence of a high-pitched, rapid, and energetic delivery, especially the initial 'Jeez' and the loud 'Hi!', strongly contradicts a neutral state. The speaker is clearly reacting with heightened emotion."
+}

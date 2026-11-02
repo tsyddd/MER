@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Rachel's voice is shaky and her speech is slow and deliberate, indicating emotional distress. She lists her ruined possessions, culminating in a specific, sentimental item ('my favorite blue sweater'), which emphasizes her personal loss. Her facial expression shows clear sadness and helplessness. The combination of her tone, word choice, and expression points to a state of grief or disappointment.",
+  "open_emotion": "sadness",
+  "answer": "sadness",
+  "mapping_reason": "The speaker's emotional state is characterized by a sense of loss and helplessness. Her voice is trembling and her delivery is slow, which aligns with the definition of sadness as a feeling of sorrow or grief. The content of her speech, lamenting the ruin of her personal belongings, provides a clear context for this emotional state.",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:02.502",
+      "observation": "Rachel's voice is shaky and her speech is slow and deliberate.",
+      "interpretation": "The vocal characteristics indicate emotional distress and sadness.",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Everything's ruined. My bed. My clothes. Look at my favorite blue sweater.",
+      "observation": "The speaker lists her ruined possessions, ending with a specific, sentimental item.",
+      "interpretation": "The content of the speech emphasizes personal loss and grief.",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 to frame_07",
+      "observation": "Rachel's facial expression shows clear sadness and helplessness.",
+      "interpretation": "The visual cues confirm the emotional state described in the audio and text.",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "None."
+}

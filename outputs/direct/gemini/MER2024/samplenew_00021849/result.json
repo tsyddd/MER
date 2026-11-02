@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00021849",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "车外的中年男子俯身向车内女子说话，神情沉稳平和，语气平静低缓，没有显现激烈的负面情绪或喜悦，整体表现为平静自然的中性状态。",
+  "output": "车外的中年男子俯身向车内女子说话，神情沉稳平和，语气平静低缓，没有显现激烈的负面情绪或喜悦，整体表现为平静自然的中性状态。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 9.446173667907715,
+  "node_count": null,
+  "edge_count": null
+}

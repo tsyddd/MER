@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "目标人物Rachel在当前片段中表现出质问的姿态。她的身体朝向对方，左手叉腰，这是一种防御或对抗性的姿态。她开口说出的句子是带有疑问升调的质问，这表明她的情绪是愤怒，而非中性或悲伤。图谱中的节点'person_2'描述了她清晰连贯且句尾带有疑问升调的语调，这与愤怒情绪中的质问相符。背景陈设和她的表情是静态的，不能作为情绪的直接证据。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "Rachel说话语调清晰且连贯，句子末尾带有疑问升调。",
+      "interpretation": "疑问升调通常用于质问，这与愤怒情绪中的对抗性相符，支持愤怒的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "Rachel身穿粉色长袖上衣，左手叉腰，右手搭在身侧，身体朝向对方。",
+      "interpretation": "左手叉腰是一种常见的防御或对抗性姿态，表明她处于一种紧张或对抗的状态，支持愤怒的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "当前字幕",
+      "observation": "Rachel说：\"Did you get all this stuff for Joey to try and drive me out of the apartment?\"",
+      "interpretation": "这句话的内容是直接的指责和质问，表明她认为对方的行为是针对她的，这直接指向愤怒的情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有明确的反证。虽然她的表情看起来有些惊讶，但结合她的话语内容和质问的语调，愤怒是更合理的解释。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00003759",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "说话者在听到“他真这么说的”后，表现出明显的惊讶，瞳孔放大，嘴巴微张，语调上扬，符合惊讶情绪的典型特征。",
+  "output": "说话者在听到“他真这么说的”后，表现出明显的惊讶，瞳孔放大，嘴巴微张，语调上扬，符合惊讶情绪的典型特征。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 5.464078187942505,
+  "node_count": null,
+  "edge_count": null
+}

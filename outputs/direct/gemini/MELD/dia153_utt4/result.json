@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia153_utt4",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "乔伊眉头紧锁、神情激动，讲话时用手用力比划并指向对方，语调高昂且带有强烈的驳斥与训诫意味，表现出明显的愤怒与焦躁。",
+  "output": "乔伊眉头紧锁、神情激动，讲话时用手用力比划并指向对方，语调高昂且带有强烈的驳斥与训诫意味，表现出明显的愤怒与焦躁。\n<answer>anger</answer>",
+  "label": "fear",
+  "elapsed_seconds": 13.307330131530762,
+  "node_count": null,
+  "edge_count": null
+}

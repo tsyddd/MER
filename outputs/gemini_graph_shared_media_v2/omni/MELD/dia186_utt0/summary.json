@@ -1,0 +1,9 @@
+{
+  "reason": "Chandler的言语内容“Ross and Joey is embarrassing enough”和快速重复的“no-no-no”表明他正在以一种带有调侃意味的方式表达对某事的反应。他的面部表情（从张大嘴到抿嘴）和手势（从挥手到收回）共同构成了一个带有评价性的互动姿态。专家graph认为这是“joy”，因为其神态与调侃的语调相符；专家audio_subtitle认为这是“anger”，因为其语气带有“exasperated intonation”；专家image认为这是“surprise”，因为其面部表情是“wide open”和“wide eyes”。综合来看，Chandler的反应更符合一种被逗乐的、带有轻微无奈的“joy”情绪，而非纯粹的愤怒或惊讶。他的手势和表情更像是在强调一个笑话，而非表达强烈的负面情绪。",
+  "answer": "joy",
+  "evidence_refs": [
+    "graph:E1",
+    "audio_subtitle:E1",
+    "image:E1"
+  ]
+}

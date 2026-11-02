@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物问“怎么？他不好对付啊”，把注意力放在对方可能难以应付这件事上，带有探询和顾虑，而非单纯陈述[E1]。他持续看向面前的人，眼睛略睁大、嘴微张，视觉表现与追问相符[E2]。片段未提供音频，不能据此判断语调或音量。",
+  "open_emotion": "担心",
+  "answer": "worried",
+  "mapping_reason": "当前话语关注尚不确定的应对困难，符合worried所指向的风险顾虑；证据支持的是轻微担心，而非已经发生损失后的悲伤。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“怎么？他不好对付啊。”",
+      "observation": "先问“怎么”，随后提出“他不好对付啊”的判断。",
+      "interpretation": "这是对潜在困难的探询，支持担心；疑问句本身不等于惊讶。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03（0.88秒）至frame_06（1.8秒）",
+      "observation": "目标人物面向近处的另一人，眼睛略睁大，数帧中嘴部张开。",
+      "interpretation": "表现与正在追问、留意对方回答一致，但仅凭表情不足以确定情绪类别。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "“怎么？”和睁大的眼睛也可能表示一时诧异；缺少音频，无法用实际语调区分惊讶与担心。结合后半句对“难对付”的关注，暂以担心为主。"
+}

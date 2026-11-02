@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia115_utt3",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "3c926295d3796c3783dc09d63fc430c57ea2b6d5e57398d0b9b8039178cc2219",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标是右侧的Ross；字幕中“shrieking like a girl”是在揶揄对方，并非描述Ross当下的表现，[audio_subtitle:E1]对此的归属判断可信。回看frame_01和frame_06，他的嘴角似有轻微上扬，支持[image:E1]和[image:E2]所指出的笑意，但说话及低头时的细微表情不足以确定他感到喜悦。相比之下，整段画面里他的表情和动作较克制；没有原音轨可核实语气，因此取neutral，而不把调侃或轻微笑意直接判为joy。",
+  "output": "目标是右侧的Ross；字幕中“shrieking like a girl”是在揶揄对方，并非描述Ross当下的表现，[audio_subtitle:E1]对此的归属判断可信。回看frame_01和frame_06，他的嘴角似有轻微上扬，支持[image:E1]和[image:E2]所指出的笑意，但说话及低头时的细微表情不足以确定他感到喜悦。相比之下，整段画面里他的表情和动作较克制；没有原音轨可核实语气，因此取neutral，而不把调侃或轻微笑意直接判为joy。\n<answer>neutral</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 99.05992984771729
+}

@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "目标女性在当前互动中追问对方辞职的原因，而非正在辞职的是她本人。[E1]“不是”接着问“为什么要辞职”，配合她持续蹙眉、注视对方的表情[E2]，更像是对刚获知的决定感到意外，急于弄清缘由。图谱的process_0记录了同一发问[E3]，但它与字幕不是两份独立证据。辞职在此是话语提及的事，不能仅凭节点顺序推断此前发生了什么。",
+  "open_emotion": "诧异",
+  "answer": "surprise",
+  "mapping_reason": "当前发问指向对方辞职这一令她意外的信息，符合surprise的即时预期违背；问句本身不足以证明她在担忧尚未发生的后果，也没有明确责备。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "不是，你，为什么要辞职？",
+      "observation": "女性直接询问对方辞职的原因，并以“不是”起头。",
+      "interpretation": "当前关注点是对方的辞职决定；这一措辞支持她对此感到意外，但不能单独确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01（0.4秒）至frame_06（2.28秒）",
+      "observation": "女性面对谈话对象，眉头蹙起，倾身发问；最后一帧才切到男性。",
+      "interpretation": "她的表情和动作与追问时的诧异相符；蹙眉本身也可能表示担忧或不满。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "节点记录女性向面前的人发问“不是 你为什么要辞职”。",
+      "interpretation": "图谱将当前发问归于目标女性，与画面和字幕相合；它是同一事件的描述，不额外证明情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1；process_1",
+      "observation": "图谱转述她语调上扬、语气急促，并在问句后追问一声“啊”；当前未提供原音轨，字幕也未呈现这声“啊”。",
+      "interpretation": "这些音频派生记录不能亲耳核验，故不以其作为最终判断的关键依据。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "蹙眉和追问也可能是担忧或不满；但当前话语没有明确的未来风险预期或责备指向，因此这些解释弱于对辞职决定感到意外。"
+}

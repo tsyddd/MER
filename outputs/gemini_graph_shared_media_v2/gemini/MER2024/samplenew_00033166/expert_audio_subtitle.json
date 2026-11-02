@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "白衣男子说出反诘句“难道都要悉数倒戈不成”，在音频中语调低沉冷硬且在“倒戈”处明显加重，语气严厉，带有指责与压抑的愠怒[E1][E2]，视觉上眉头紧锁、神情紧绷[E3]，符合愤怒（angry）。",
+  "answer": "angry",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "难道都要悉数倒戈？不成？",
+      "observation": "目标角色使用反诘句式质问局势或对方立场。",
+      "interpretation": "反问句式在此处构成具有施压和问责意图的言语行为，表现出强烈不满。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00 - 00:01",
+      "observation": "男子语音低沉发力，咬字清晰冷峻，在句末呈现微提并收紧的严厉质问腔调。",
+      "interpretation": "语气冷硬且具压迫感，体现出内心克制但锋芒毕露的愤怒与威严，而非单纯的担忧或平和陈述。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.56s",
+      "observation": "男子眉心微蹙，眼神锐利逼视对方，嘴角下沉。",
+      "interpretation": "面部特征与音频中的冷厉质问一致，支持angry的判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是worried（担忧部下全部倒戈背叛），但其声调平稳冷峻，重音集中在施压质问而非慌乱焦虑，缺乏担忧常见的气息不稳或惶恐，因此排除worried。"
+}

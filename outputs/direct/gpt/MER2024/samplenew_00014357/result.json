@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00014357",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "happy",
+  "emotion_analysis": "画面中目标人物面带明显笑容，眼睛和嘴角都呈现放松、愉悦的状态。字幕称赞“小美眉”可爱漂亮，整体表达积极亲切，没有紧张或负面迹象。",
+  "output": "画面中目标人物面带明显笑容，眼睛和嘴角都呈现放松、愉悦的状态。字幕称赞“小美眉”可爱漂亮，整体表达积极亲切，没有紧张或负面迹象。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 20.35021710395813,
+  "node_count": null,
+  "edge_count": null
+}

@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "Joey以平缓语调和适中音量说话，面部只有轻微变化，图谱记载其随后低头看桌面、双手交叠静坐，未见明显激动或消沉表现〔person_1〕〔person_2〕〔person_3〕。台词中的“happy”不能单独替代当前情绪判断，整体表现更符合平稳状态。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_1",
+    "person_2",
+    "person_3"
+  ]
+}

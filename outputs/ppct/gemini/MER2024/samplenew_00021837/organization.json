@@ -1,0 +1,3 @@
+{
+  "text": "在室内会议或发言场景中，桌前放置着麦克风、写有“梅晓歌”的名牌和透明茶杯〔context_0〕。梅晓歌身穿白衬衫端坐，目光平视前方，以沉稳的语调和平稳的语速对着麦克风说出“我印象最深的一户人家”〔process_0〕〔person_0〕，随后闭起嘴唇略微抿嘴，语音出现短暂停顿〔person_1 after person_0〕，二者展现了他发声引出话题时的仪态与沉稳节奏〔person_0 person_joint person_1〕。停顿之后，梅晓歌重新张口发声、目光平视前方〔person_2 after person_1〕，接着对着麦克风补充说明“祖祖辈辈种地”〔process_1 after process_0〕，两段表述联合构成了他由引出对象到具体陈述的完整发言过程〔process_0 process_joint process_1〕；说完后，他再次闭嘴抿唇，视线沉静地注视着前方〔person_3 after person_2〕，收束了后半句的发声表达与神态〔person_2 person_joint person_3〕。这些表现可能反映出他在正式会议发言时严谨专注、从容庄重的应对状态，注意力完全集中在当前的陈述内容与叙述节奏上。"
+}

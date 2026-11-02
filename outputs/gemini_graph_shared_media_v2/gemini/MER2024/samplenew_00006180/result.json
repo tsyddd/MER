@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00006180",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "4a765d2b2802a7f8b7c5268ad405ddb73b3790b0239521f2f89cddf88ddba4d0",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物在课堂上以自然亲和的常态向学生陈述与提问，独立回看实际音轨00:00-00:04与frame_00-frame_05，其语调平稳柔和，并无高亢兴奋的情绪波动，可信地支持[audio_subtitle:E1]。视觉上如[image:E1]所述，女教师眉眼舒展放松，虽然提问时神态亲切，但面部颧肌无明显提拉，未出现明显的笑意或狂喜表现。虽然易因教学互动的亲和感被联想为happy，但语言内容与音容均仅为职业性常规交流，未达到情绪性喜悦的门槛，综合判断为中性状态。",
+  "output": "目标人物在课堂上以自然亲和的常态向学生陈述与提问，独立回看实际音轨00:00-00:04与frame_00-frame_05，其语调平稳柔和，并无高亢兴奋的情绪波动，可信地支持[audio_subtitle:E1]。视觉上如[image:E1]所述，女教师眉眼舒展放松，虽然提问时神态亲切，但面部颧肌无明显提拉，未出现明显的笑意或狂喜表现。虽然易因教学互动的亲和感被联想为happy，但语言内容与音容均仅为职业性常规交流，未达到情绪性喜悦的门槛，综合判断为中性状态。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 51.792097330093384
+}

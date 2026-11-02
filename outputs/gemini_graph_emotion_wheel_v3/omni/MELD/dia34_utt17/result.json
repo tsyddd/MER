@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia34_utt17",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "55de13de7623a6e85879feac678dde89b7dbd56f0daf4dc5a1f20e9a6a71f9c9",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "愤怒",
+      "mapped_label": "anger",
+      "mapping_reason": "根据数据集情绪轮的定义，'anger'（愤怒）是针对冒犯、受阻或不公的恼火、责备与对抗。莫妮卡的言语内容“I’m never gonna think it’s okay for you to cheat on your husband!”直接表达了对瑞秋行为的道德谴责，这是一种因不公而产生的责备。她的高声呼喊和坚定语气是这种责备的外在表现，与'anger'的语义家族完全匹配。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "责备",
+      "mapped_label": "anger",
+      "mapping_reason": "根据MELD项目情绪轮的定义，'anger'（愤怒）是针对冒犯、不公或受阻等情况产生的恼火、责备与对抗情绪。说话者直接表达了对他人行为的强烈道德反对，其言语行为（'I'm never gonna think it's okay...'）和声音特质（坚定、快速、中高音量）都符合对冒犯行为进行责备的特征，因此映射到'anger'是合适的。"
+    },
+    "image": {
+      "open_emotion": "愤怒",
+      "mapped_label": "anger",
+      "mapping_reason": "根据情绪轮的定义，'anger'（愤怒）是对冒犯、受阻或不公的恼火、责备与对抗。Monica的言语内容（'never gonna think it's okay'）和她坚定、带有责备意味的语气，以及她皱眉和手势等视觉表现，都指向了她正在表达一种因道德冒犯而产生的对抗性情绪，因此最符合'anger'的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "莫妮卡的言语内容（'I'm never gonna think it's okay for you to cheat on your husband!'）直接表达了对背叛行为的绝对否定和道德谴责，这是愤怒情绪的直接来源。她的音频表现（坚定、有力、中高音量）和视觉表现（皱眉、紧闭的嘴唇、强调性手势）共同支持了这一判断。尽管有专家认为其语气可能带有责备，但根据MELD项目情绪轮的定义，这种针对冒犯行为的责备与对抗正是'anger'的核心特征。因此，综合音频、字幕和视觉证据，'anger'是最佳匹配。",
+  "output": "莫妮卡的言语内容（'I'm never gonna think it's okay for you to cheat on your husband!'）直接表达了对背叛行为的绝对否定和道德谴责，这是愤怒情绪的直接来源。她的音频表现（坚定、有力、中高音量）和视觉表现（皱眉、紧闭的嘴唇、强调性手势）共同支持了这一判断。尽管有专家认为其语气可能带有责备，但根据MELD项目情绪轮的定义，这种针对冒犯行为的责备与对抗正是'anger'的核心特征。因此，综合音频、字幕和视觉证据，'anger'是最佳匹配。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 186.6020724773407
+}

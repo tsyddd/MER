@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "束发男子正对灰衣男子进行低声私密交流。结合事件链分析，男子通过[process_0]（“再这么吵下去的话”）和[process_1]（“传到高家”）提出了一个具有未来风险导向的假设事件链：当前事态如果继续失控喧闹，会导致消息走漏给“高家”这一潜在威胁方。核对实际音轨，男子的声线并非单纯的平稳叙述，而是特意压低嗓音近乎耳语，伴随警惕的眼神，充分体现出对未知负面后果的忌惮与顾虑。",
+  "open_emotion": "担忧",
+  "answer": "worried",
+  "mapping_reason": "目标人物的核心评价对象是未来可能发生的风险与不良后果（事情败露传到高家），并在交谈中表现出明显的提防与不安，符合情绪轮中worried（对可能负面结果、未知风险的顾虑与不安）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "节点记录束发男子向对方提出假设前提“再这么吵下去的话”",
+      "interpretation": "表明男子关注当前争吵行为带来的持续失控风险",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "节点记录其紧接说出后果“传到高家”",
+      "interpretation": "指明男子顾忌的潜在外部威胁，具有明确的后果预期性",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "男子发音极度压低，带有明显的气声耳语感与紧迫感，图谱person_1仅描述为'平稳克制'有所遗漏",
+      "interpretation": "压低声线的生理克制并非无情绪，而是提防隔墙有耳的焦虑警惕体现",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "图谱person_1将其发声描述为'平稳克制'，画面上也没有激烈的肢体冲突，容易被表面替代解释为客观传达信息的neutral，但话语的风险预警语义及刻意耳语打破了纯粹中性状态。"
+}

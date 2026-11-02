@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia226_utt3",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "554a2426d1927843a8eb1d72198c70c94dfcdf5ba4a53d703518ea9653b7a645",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "Rachel说希望“他”能多敞开心扉、分享感受；这是一种未实现的愿望，但字幕本身不能证明她悲伤[audio_subtitle:E1]。画面中她从起初略带笑意转为蹙眉、嘴角下压，同时向对方摊手解释，这组变化比单纯平静陈述更支持轻微失落[image:E1][image:E2]。末帧的短暂笑意限制了悲伤的程度，却不足以抹去中段的表情变化，因此在neutral与sadness之间选择sadness[image:E4]。未提供音轨，无法核实语气。",
+  "output": "Rachel说希望“他”能多敞开心扉、分享感受；这是一种未实现的愿望，但字幕本身不能证明她悲伤[audio_subtitle:E1]。画面中她从起初略带笑意转为蹙眉、嘴角下压，同时向对方摊手解释，这组变化比单纯平静陈述更支持轻微失落[image:E1][image:E2]。末帧的短暂笑意限制了悲伤的程度，却不足以抹去中段的表情变化，因此在neutral与sadness之间选择sadness[image:E4]。未提供音轨，无法核实语气。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 78.40053176879883
+}

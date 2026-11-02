@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速和停顿。仅根据字幕中的反问和责备意味，表现出对对方不理解的明显不满。",
+  "answer": "angry",
+  "evidence_refs": []
+}

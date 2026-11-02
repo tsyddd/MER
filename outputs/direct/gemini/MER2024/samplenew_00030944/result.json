@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00030944",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "画面中短发女性眉头微蹙、神情关切凝重，说话语气充满忧虑与牵挂，台词直接表达了对对方一个人在家‘想不开’的担忧，情绪状态为worried。",
+  "output": "画面中短发女性眉头微蹙、神情关切凝重，说话语气充满忧虑与牵挂，台词直接表达了对对方一个人在家‘想不开’的担忧，情绪状态为worried。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 6.593158006668091,
+  "node_count": null,
+  "edge_count": null
+}

@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia259_utt9",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "db05c16c44916312cd44a75a33353218abec775c99c4678488d5f402e1804724",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "逗乐调侃",
+      "mapped_label": "joy",
+      "mapping_reason": "开放情绪体现为对朋友愚蠢行为感到好笑、戏谑的愉悦体验。根据MELD情绪轮，当前状态属于正向开心的互动表达，契合joy（包含愉悦/amused）的定义范畴，因而映射至joy。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "愉悦",
+      "mapped_label": "joy",
+      "mapping_reason": "说话者的戏谑调侃伴随笑意与开朗表情，体验为正向开心与好笑，符合joy（喜悦/愉悦）的定义。"
+    },
+    "image": {
+      "open_emotion": "愉悦",
+      "mapped_label": "joy",
+      "mapping_reason": "Monica表现出轻松、戏谑且开心的正向情绪反应，符合joy家族中关于愉悦、逗趣（amused）的正向体验定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "独立核对全部原始帧与音轨可知，虽然字幕台词为“You are both idiots.”，但Monica并非表达真正的指责或对抗。在音轨[audio_subtitle:E1]中，其发音轻快微扬且夹杂着明显的笑意，完全没有愤怒的压迫或紧绷；在视觉画面[image:E1]中，从frame_04至frame_07其嘴角明显上扬、露出调侃笑意，双手轻握于胸前，姿态放松而专注。言语贬义与积极声貌呈现反差幽默，明确表达出对朋友行为感到好笑与戏谑逗乐的正向体验，依规则准确映射为joy。",
+  "output": "独立核对全部原始帧与音轨可知，虽然字幕台词为“You are both idiots.”，但Monica并非表达真正的指责或对抗。在音轨[audio_subtitle:E1]中，其发音轻快微扬且夹杂着明显的笑意，完全没有愤怒的压迫或紧绷；在视觉画面[image:E1]中，从frame_04至frame_07其嘴角明显上扬、露出调侃笑意，双手轻握于胸前，姿态放松而专注。言语贬义与积极声貌呈现反差幽默，明确表达出对朋友行为感到好笑与戏谑逗乐的正向体验，依规则准确映射为joy。\n<answer>joy</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 50.390883922576904
+}

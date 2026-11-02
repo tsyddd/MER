@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia188_utt0",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "b97e68d51fd419e726abf41fc684b1dd95e92043178dcef7d7b2a8c69202319d",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "graph根据“what?”及张嘴、伸臂等即时反应判断为惊讶，但这些描述与图片中的视觉信息可能存在来源重叠；audio_subtitle未提供音频，仅凭疑问词判断，证据较弱。image观察到整体姿态和表情较平静、缺乏明确强烈情绪线索，因此取舍后判定为中性。",
+  "output": "graph根据“what?”及张嘴、伸臂等即时反应判断为惊讶，但这些描述与图片中的视觉信息可能存在来源重叠；audio_subtitle未提供音频，仅凭疑问词判断，证据较弱。image观察到整体姿态和表情较平静、缺乏明确强烈情绪线索，因此取舍后判定为中性。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 74.55193710327148
+}

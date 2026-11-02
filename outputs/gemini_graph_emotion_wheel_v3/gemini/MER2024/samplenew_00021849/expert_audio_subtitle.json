@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物（车外男士）在片段中对车内女性说话，台词‘你先上我的车，先回去’属于关切劝解性质的言语行为。在听觉上，其音量较低，语调平缓轻柔且带有明显的安抚与劝导色彩，而非单纯机械的事实陈述；结合探身贴近的姿态与专注注视的神情，言语行为的核心意图是出于对对方处境或当下风险的顾虑而促其先行撤离，传递出明显的关切与担任意向。",
+  "open_emotion": "关切",
+  "answer": "worried",
+  "mapping_reason": "说话者的核心情绪为对对方状态及当下处境的关怀与顾虑（concerned）。在情绪轮映射规则中，关注风险、未知或他人处境的关切与担忧归属于worried大类。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "你先上我的车，先回去",
+      "observation": "目标人物对车内女性发出提议性劝离台词。",
+      "interpretation": "表明其在当下语境中正在主动安排避险或平复事态，带有照料与安抚意图。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "男声发音低沉、轻缓且带有气声，语调柔和，没有对抗性或高亢情绪波动。",
+      "interpretation": "轻柔低缓的韵律展现出克制而耐心的关切安抚态度。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01至frame_04",
+      "observation": "目标人物身体前倾扶住车窗，双目专注凝视对方，面部微有顾虑神色。",
+      "interpretation": "躯体动作与视觉神态支持声音中流露的关切与照应。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "语速平稳且语调没有急促或惊恐颤抖，可能被表面化地解读为纯粹冷静的事务性交流（neutral），但轻声安抚的韵律与劝离语义显然包含情感上的关怀顾虑。"
+}

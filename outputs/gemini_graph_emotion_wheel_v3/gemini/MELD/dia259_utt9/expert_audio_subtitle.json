@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Monica虽在言语字面上称对方为'idiots'，但在音频中语调轻快上扬且夹杂着明显的笑意，完全没有愤怒或斥责的严厉感；结合视觉上双手紧握在胸前、面带灿烂笑容的调侃神态，该言语行为属于戏谑逗乐，传达出当前愉悦、开心的正面情绪。",
+  "open_emotion": "愉悦",
+  "answer": "joy",
+  "mapping_reason": "说话者的戏谑调侃伴随笑意与开朗表情，体验为正向开心与好笑，符合joy（喜悦/愉悦）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00 - 00:02",
+      "observation": "发音轻快带笑，句尾'idiots'音调上扬且伴随轻笑声，没有紧绷或怒吼的声学特征。",
+      "interpretation": "言语表面是指责，实际韵律表明这是朋友间的打趣与调侃，充满愉悦感。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "双手扣于胸前作期待状，自始至终嘴角上扬、眼含笑意地看着对方。",
+      "interpretation": "面部表情与身体姿态均为开心的戏谑反应，支持积极的joy倾向。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "You are both idiots.",
+      "observation": "台词使用贬损词'idiots'，但在对话情境中属于非字面义的玩笑调侃。",
+      "interpretation": "字面贬义与笑意音调产生反差幽默，不代表愤怒情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "若仅看字面词汇'idiots'易被误判为anger或disgust，但音频笑声与笑脸明显否定了负向情绪。"
+}

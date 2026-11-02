@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia21_utt6",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "Phoebe面对对方时持续微笑，表情逐渐变得更开朗，互动氛围轻松亲密。字幕中的“Seriously”带有调侃意味，没有显示出愤怒、悲伤或恐惧。",
+  "output": "Phoebe面对对方时持续微笑，表情逐渐变得更开朗，互动氛围轻松亲密。字幕中的“Seriously”带有调侃意味，没有显示出愤怒、悲伤或恐惧。\n<answer>joy</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 21.55980610847473,
+  "node_count": null,
+  "edge_count": null
+}

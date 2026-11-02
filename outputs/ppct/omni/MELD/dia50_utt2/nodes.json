@@ -1,0 +1,170 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "A shirtless man pulls a grey shirt over his head.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "A man in a dark suit and a man in a blue shirt and tie stand in a library aisle and watch the shirtless man.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "A woman in a red beanie bends over in the background.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_3",
+      "type": "process",
+      "content": "The shirtless man turns his back to the camera.",
+      "time_index": 5,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_4",
+      "type": "process",
+      "content": "The shirtless man walks away from the camera.",
+      "time_index": 6,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_5",
+      "type": "process",
+      "content": "A female student says, 'I'm so sorry!'",
+      "time_index": 7,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "A shirtless man wearing dark pants and white sneakers is in the center of the aisle.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "A man in a dark suit and glasses stands on the left side of the aisle.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "A man in a blue shirt, tie, and dark jacket stands on the right side of the aisle.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "A woman in a red beanie is bent over in the background.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_4",
+      "type": "person",
+      "content": "A female student speaks with a high-pitched, apologetic tone.",
+      "time_index": 7,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "The scene takes place in a library aisle with bookshelves on both sides.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "The man in the dark suit and the man in the blue shirt and tie are the audience for the shirtless man's actions.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_2",
+      "type": "context",
+      "content": "The woman in the red beanie is in the background, partially obscured.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_3",
+      "type": "context",
+      "content": "The task is for the shirtless man to put on his shirt.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "temporal_relations": []
+}

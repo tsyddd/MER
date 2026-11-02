@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Rachel speaks.",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Rachel is sitting at a table.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Ross is leaning over Rachel.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "The scene takes place in a kitchen.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "Ross is speaking to Rachel.",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0 provides the visual of Rachel's seated posture and facial expression, while person_1 provides the visual of Ross's leaning posture and proximity; together, they form a complete picture of their physical interaction and spatial relationship.",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0 provides the visual of the kitchen setting, while context_1 provides the auditory evidence of Ross speaking; together, they form a complete picture of the scene's location and the specific interaction occurring within it.",
+      "entity_anchor": null
+    }
+  ]
+}

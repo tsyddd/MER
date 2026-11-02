@@ -1,0 +1,83 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "main person对画面右侧人物说：“没想到，你竟然这么傻。”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "main person的视线朝向画面右侧人物",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "main person的视线转向下方",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "画面中有两名人物，main person位于左侧，另一人物位于右侧，双方处于面对面交流位置",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "人物位于有货架和物品的室内场景中",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "同一人物的视线从朝向画面右侧人物转为朝向下方",
+      "entity_anchor": "main person"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供main person起初注视画面右侧人物的信息，person_1提供其随后将视线转向下方的信息；联合后补充了该人物在交流中的连续视线变化。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0提供两名人物面对面交流的位置关系，context_1提供双方处于有货架和物品的室内场景；联合后更完整限定了人物互动发生的室内交流场景。",
+      "entity_anchor": null
+    }
+  ]
+}

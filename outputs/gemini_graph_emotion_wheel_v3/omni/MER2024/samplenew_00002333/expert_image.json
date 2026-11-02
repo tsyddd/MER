@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "目标人物在所有可见帧中均保持坐姿，面部表情为微笑，嘴部有张开动作，与音频中说出的“像这娘，交代你”同步。其视线主要朝向画面外，姿态放松，无明显紧张或对抗迹象。字幕内容为陈述句，无明显情绪色彩。综合视觉、听觉与文本，其表现更符合一种带有轻松或戏谑意味的交流状态，而非强烈的负面或正面情绪。",
+  "open_emotion": "轻松",
+  "answer": "neutral",
+  "mapping_reason": "根据情绪轮定义，'neutral'指当前主要为平稳叙述、自然交流或无明确主导情绪的表达。目标人物的微笑和放松姿态表明其情绪并非悲伤、愤怒或担忧，而是一种平稳的交流状态。尽管有微笑，但缺乏与之匹配的强烈积极事件或文本支持，因此不映射为'happy'。其表现最符合'neutral'的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "目标人物在所有帧中均保持坐姿，面部有微笑，嘴部有张开动作。",
+      "interpretation": "表明其正在说话，且表情为积极的交流状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00.000 - 00:02.400",
+      "observation": "音频中说出“像这娘，交代你”。",
+      "interpretation": "该话语为陈述句，语气平稳，无明显情绪色彩。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "字幕内容：像这娘，交代你。",
+      "observation": "字幕内容为陈述句。",
+      "interpretation": "文本内容本身不带有强烈情绪，与视觉和听觉信息一致。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "目标人物姿态放松，无抱臂、皱眉等紧张或防御姿态。",
+      "interpretation": "表明其情绪状态平稳，无明显对抗或焦虑。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "目标人物的微笑可能被解释为'happy'，但该情绪需要更明确的积极事件或文本支持。当前语境下，其微笑更像是一种交流时的自然表情，而非强烈的喜悦，因此'neutral'是更准确的描述。"
+}

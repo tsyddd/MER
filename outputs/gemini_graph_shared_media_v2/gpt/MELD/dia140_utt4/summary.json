@@ -1,0 +1,9 @@
+{
+  "reason": "目标是右侧穿格纹衬衫的Ross；他先短暂垂眼，随后看向对方并伸手说话，这一视觉变化可从画面核实，[image:E1]和[image:E2]的描述可信。字幕“Y'know, like-like write a play.”支持他正在提出想法，但重复措辞不能单独证明紧张或兴奋[audio_subtitle:E1]。最强反证是第6帧抬眉、张口；结合前后连续说话的画面，我更倾向于将其理解为话语强调，而非惊讶，因此选neutral。未提供音轨，无法核实语调。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "audio_subtitle:E1"
+  ]
+}

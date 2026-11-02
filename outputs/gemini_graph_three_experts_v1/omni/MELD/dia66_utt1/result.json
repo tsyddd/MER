@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia66_utt1",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "c398d30886c2843c21af96c15c9bcdddf2dff86a4ef358b1b57842960c047eb1",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "图像专家指出目标人物全程微笑且眼神互动，符合'joy'的视觉表现；但音频与文本专家均认为语调平稳、无情绪波动，且行为符合中性服务场景。图像中的微笑更可能反映职业性友好而非真实喜悦，综合判断应以听觉与行为语境为准。",
+  "output": "图像专家指出目标人物全程微笑且眼神互动，符合'joy'的视觉表现；但音频与文本专家均认为语调平稳、无情绪波动，且行为符合中性服务场景。图像中的微笑更可能反映职业性友好而非真实喜悦，综合判断应以听觉与行为语境为准。\n<answer>neutral</answer>",
+  "label": "joy",
+  "elapsed_seconds": 42.719544649124146
+}

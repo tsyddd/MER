@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Janice把对方可能做的事称为“theater of cruelty”，是在用夸张的比喻指责对方，而非字面描述木偶戏[E1]。她说话时由较轻松的神情转为皱眉、前倾强调，最后重新抱臂[E2][E3]；这些视觉变化与话语中的不满一致。没有音频，无法判断她是否用了玩笑式语调。",
+  "open_emotion": "不满",
+  "answer": "anger",
+  "mapping_reason": "当前表达的重点是对对方行为的责备，符合anger家族中的不满；证据不足以称为强烈愤怒。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Because you know, you could make little puppets out of them, and you could use them in your theater of cruelty.",
+      "observation": "Janice设想对方制作木偶，并把其用途称作“your theater of cruelty”。",
+      "interpretation": "“cruelty”在整句中构成针对对方的讽刺性指责，支持不满，而不能仅凭这个负面词判定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_06，6.297953443617927秒",
+      "observation": "Janice身体前倾、眉头紧皱，双手在胸前做强调动作。",
+      "interpretation": "表情和动作与话语中的责备相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_07，7.3406609673957295秒",
+      "observation": "Janice转头看向对方，重新抱起双臂。",
+      "interpretation": "收起手势后的姿态延续了较为冷淡、不满的表达。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "前几帧她神情较轻松，夸张措辞也可能是打趣；没有音轨，无法用语调区分玩笑与认真责备，因此只能判断为有保留的“不满”。"
+}

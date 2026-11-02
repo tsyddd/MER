@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00038936",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "音频中女性角色的语气平稳，语速正常，没有表现出激动或悲伤等强烈情绪。她的台词内容是转述他人言论，且面部表情平静，没有明显的皱眉或嘴角下撇等悲伤或愤怒的迹象，因此判断为中性情绪。",
+  "output": "音频中女性角色的语气平稳，语速正常，没有表现出激动或悲伤等强烈情绪。她的台词内容是转述他人言论，且面部表情平静，没有明显的皱眉或嘴角下撇等悲伤或愤怒的迹象，因此判断为中性情绪。\n<answer>neutral</answer>",
+  "label": "worried",
+  "elapsed_seconds": 75.40016841888428,
+  "node_count": 5,
+  "edge_count": 2
+}

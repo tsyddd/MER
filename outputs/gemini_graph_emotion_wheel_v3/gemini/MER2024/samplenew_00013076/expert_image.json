@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "画面右侧戴口罩的目标人物在交流过程中，眉眼弯起呈现出明显的笑意，随后双手合十连续作揖致谢，肢体动作诚恳而热情，结合音轨中真挚轻快的感谢语调，表现出由衷的感激与欣喜。",
+  "open_emotion": "感激",
+  "answer": "happy",
+  "mapping_reason": "目标人物因对方的帮助而表现出强烈的感恩与愉悦，眉眼含笑、态度诚挚欢快，符合情绪轮中happy（喜悦、满足）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01至frame_04 (0.36s-1.12s)",
+      "observation": "目标人物抬头正视对方，尽管下半张脸被口罩遮挡，但眼角明显弯起，眉目舒展带笑。",
+      "interpretation": "展现出友善、正向且喜悦的面部表情。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05至frame_07 (1.88s-2.64s)",
+      "observation": "目标人物举起双手在胸前合十，身体微向前倾，面向对方连续致意动作。",
+      "interpretation": "双手合十作揖是典型的表达由衷感谢与尊重的肢体语言。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "0.0s-2.64s",
+      "observation": "语调轻快并伴有轻微笑意地连声道谢（“正要感谢您呢！谢谢！谢，谢谢”）。",
+      "interpretation": "听觉表现与视觉动作高度一致，排除了敷衍或纯被动的客套。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "双手合十与道谢有时可能属于常规社交礼仪或求人相助时的客套（偏neutral），但目标人物全程眉眼弯曲且语调充满笑意，有力支持了积极正向的喜悦情绪。"
+}

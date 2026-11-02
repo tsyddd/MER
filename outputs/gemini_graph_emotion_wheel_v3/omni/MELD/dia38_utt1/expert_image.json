@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "目标人物Joey在对话中表现出明显的积极情绪。他的面部表情从最初的平静逐渐转变为微笑，并伴有手放胸口的姿态，这是典型的表达骄傲和喜悦的非语言信号。这些视觉表现与他所说的话“I'm so proud”（我好骄傲）高度一致，共同指向一种积极的情感状态。",
+  "open_emotion": "pride",
+  "answer": "joy",
+  "mapping_reason": "在当前语境下，Joey因学生获得试镜机会而感到骄傲。这种骄傲是一种积极的情感体验，与'joy'（喜悦）家族中的'愉悦'（amused）、'兴奋'（excited）等词在语义上接近。虽然'pride'（骄傲）是一个更具体的词，但它在情绪轮中被归类为'joy'的子类，因为它是一种由成功或成就带来的积极情绪。因此，将'pride'映射到'joy'是合理的。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "Joey的嘴角微微上扬，眼神专注地看着对方。",
+      "interpretation": "这是积极情绪的初步迹象，表明他正在愉快地回应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01",
+      "observation": "Joey将双手放在胸前，同时面部表情变得更加柔和，嘴角上扬。",
+      "interpretation": "手放胸口是表达真诚、感动或骄傲的常见姿态，与积极情绪相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_07",
+      "observation": "Joey的嘴角上扬，露出一个明显的笑容。",
+      "interpretation": "这是喜悦的直接视觉表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "subtitle",
+      "anchor": "Awww, one of my students got an audition. I'm so proud.",
+      "observation": "Joey说：“我好骄傲。”",
+      "interpretation": "字幕内容直接表达了积极的情感，与视觉表现一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。所有视觉和文本证据都一致地支持Joey处于一种积极的情绪状态。"
+}

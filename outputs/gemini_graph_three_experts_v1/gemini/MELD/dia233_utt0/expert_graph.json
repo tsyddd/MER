@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "依据节点〔person_0〕和〔person_1〕，Rachel身体叉腰朝向对方并平静注视发问；图谱记载其说话语调清晰连贯，仅在句末带有疑问升调〔person_2〕，神情与语调均未表现出愤怒、恐惧或厌恶等强烈情绪外露，属于平稳探询的客观状态。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "person_2"
+  ]
+}

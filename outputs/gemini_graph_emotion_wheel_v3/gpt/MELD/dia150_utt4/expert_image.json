@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是画面右侧的Janice，不是左侧背对镜头的男子或中间坐着的男子。她对着左侧说话时，表情由凝视、手抵下巴，转为手按胸前、眉部收拢和嘴角下垂[E1][E2]。字幕表明她正在道别[E3]；结合可见变化，较支持失落，而非仅凭抱臂判断情绪。",
+  "open_emotion": "失落",
+  "answer": "sadness",
+  "mapping_reason": "这里的失落表现为道别时的低落，按情绪轮映射到sadness；画面不足以判断悲伤有多强烈。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.000秒）至frame_02（0.667秒）",
+      "observation": "Janice面向左侧男子，一只手抵着下巴，另一臂横在身前；说话时嘴唇张开，未见笑容。",
+      "interpretation": "她的表达较克制；这一姿态单独不足以确定情绪，但可作为后续变化的参照。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03（1.001秒）至frame_07（2.294秒）",
+      "observation": "Janice将手从下巴移到胸前，仍看向左侧；后几帧眉部收拢、嘴角下垂，头略微倾斜。",
+      "interpretation": "这些同时出现的变化较支持道别时的低落感，而不只是平稳地陈述一句话。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“Good-bye Chandler Bing.”",
+      "observation": "字幕内容是一句向Chandler Bing道别的话。",
+      "interpretation": "为画面中的表情变化提供道别语境；字幕本身不能证明说话语调或情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的相反解释是她在郑重或略带表演性地道别：抱臂、按胸口和皱眉都不能单独证明难过。没有提供音频，也看不清更细微的面部变化，因此失落是较有支持的解释，而非确定无疑。"
+}

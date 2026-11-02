@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia132_utt2",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "Phoebe在柜台前向护士描述一名男子，结合节点process_1、process_2与person_1、person_2，她一边在身前自然翻动手势比划，一边以平稳、带思考停顿的语气陈述其年龄和外貌，神态放松平和，没有展现出愤怒、悲伤或极度兴奋等情绪波动，呈现中性（neutral）状态。",
+  "output": "Phoebe在柜台前向护士描述一名男子，结合节点process_1、process_2与person_1、person_2，她一边在身前自然翻动手势比划，一边以平稳、带思考停顿的语气陈述其年龄和外貌，神态放松平和，没有展现出愤怒、悲伤或极度兴奋等情绪波动，呈现中性（neutral）状态。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 66.48805141448975,
+  "node_count": 8,
+  "edge_count": 7
+}

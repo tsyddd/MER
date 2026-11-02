@@ -1,0 +1,10 @@
+{
+  "reason": "我独立核对目标人物为画面右侧戴口罩男子：frame_02至frame_04中他持续面向对方、眼睛收窄，frame_05至frame_07又双手合十致意；这些直接视觉表现与[image:E1]、[image:E2]的观察基本一致。字幕原话“正要感谢您呢！谢谢！谢，谢谢。”明确表达连续感谢，支持礼貌互动中带有积极情绪，也与[audio_subtitle:E1]相符，但因audio_provided=false，无法核验实际语气。合十和眼部变化也可能只是礼貌性致谢、口罩遮挡了嘴部，因此不足以证明强烈喜悦；不过综合语言、互动动作和视觉变化，happy比neutral更能解释当前表现。图谱中的连续感谢过程[graph:E2]只能作为间接整理，不能替代原始音轨或直接图谱核验。",
+  "answer": "happy",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "audio_subtitle:E1",
+    "graph:E2"
+  ]
+}

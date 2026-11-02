@@ -1,0 +1,108 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "目标说话人说出“诚实，是做生意的根本”。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "男性嘴部张开并开合。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "男性头部和上半身向前下方倾斜。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "男性头部和上半身变得较为 upright，视线朝向画面右下方。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "画面中是一名男性的近景，他穿着深色上衣。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "男性身后墙面上悬挂着多幅竖向装饰牌。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "同一男性的头部和上半身姿态由向前下方倾斜变为较为直立",
+      "entity_anchor": "同一男性的头部和上半身姿态"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "嘴部持续开合提供口部动作信息，头部和上半身向前下方倾斜提供姿态信息，联合后补充出男性在前倾姿态下进行口部表达的可观察表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "嘴部开合提供口部动作信息，头部和上半身变得较为直立且视线朝向画面右下方提供朝向与姿态信息，联合后补充出男性在该朝向和姿态下进行口部表达的可观察表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "前向下倾斜提供初始姿态信息，随后变得较为直立并看向画面右下方提供后续姿态与视线信息，联合后补充出男性由前倾到直立并调整视线的可观察变化。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "男性近景及深色上衣限定了主体和拍摄对象，身后多幅竖向装饰牌补充了背景环境信息，联合后更完整地限定了人物所处的室内场景。",
+      "entity_anchor": null
+    }
+  ]
+}

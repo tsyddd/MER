@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "目标人物身体斜靠在沙发上，姿态放松。从frame_00到frame_04，其面部呈现明显的露齿笑容，嘴角充分上扬，双眼微眯，两颊肌肉隆起，整体展现出调侃、戏谑且轻松的状态；后续帧（frame_05至frame_07）笑容自然收敛并开口说话，面容未出现眉头紧蹙、眼眶收缩等负向情绪特征，视觉主导表现为愉悦调侃。",
+  "open_emotion": "戏谑",
+  "answer": "happy",
+  "mapping_reason": "目标人物面部呈现持续的露齿微笑与眼角笑纹，伴随调侃自若的神态，符合happy家族中戏谑、愉悦与轻松的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_04（0.0s-1.72s）",
+      "observation": "目标人物斜靠在沙发上，嘴角明显向两侧上扬，露出上下齿，眼角微眯，苹果肌隆起。",
+      "interpretation": "面部具备典型的AU6与AU12动作特征，表现出明显的笑意与戏谑放松神态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05至frame_07（2.16s-3.00s）",
+      "observation": "笑容虽逐渐收敛，但眉宇舒展，无紧锁眉心或下垂嘴角的负向动作，姿态保持倚靠。",
+      "interpretation": "进一步确认其交流状态自若，无焦虑紧绷或悲伤沉重。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "结合字幕涉及“交代”及音轨偏低缓的语调，这种笑意可能带有官场语境下的自嘲或无奈成分，但画面中无足以推翻笑容主导的负面表情证据。"
+}

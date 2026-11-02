@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013200",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "angry",
+  "emotion_analysis": "当前人物正直视对方并激烈说话，字幕指责对方“背信弃义”且不断抬价，表达明显的责备和不满。其眉头紧锁、眼神锐利、嘴部张开，整体呈现愤怒情绪。",
+  "output": "当前人物正直视对方并激烈说话，字幕指责对方“背信弃义”且不断抬价，表达明显的责备和不满。其眉头紧锁、眼神锐利、嘴部张开，整体呈现愤怒情绪。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 19.189203023910522,
+  "node_count": null,
+  "edge_count": null
+}

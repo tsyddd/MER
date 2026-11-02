@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标是画面左侧穿粉色上衣的Rachel，而非右侧背对镜头的人。她从低头抿唇转为直视对方说话，眉头持续收紧，配合字幕中的质问，最支持克制的不满或愤怒[E1][E2][E3]。末帧神情有所缓和，因此不宜判断为强烈怒气[E4]。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒",
+      "observation": "Rachel低头，嘴唇紧闭，一手撑在旁边，另一手叉腰。",
+      "interpretation": "姿态和表情显得紧绷，但单凭叉腰不能判定愤怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 1.209540727582251秒",
+      "observation": "她抬眼看向右侧人物，眉间收紧，张口说话；到frame_04仍维持较严肃的目光。",
+      "interpretation": "持续的紧绷表情与直接面对对方说话，比平静交谈更符合不满。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Did you get all this stuff for Joey to try and drive me out of the apartment?",
+      "observation": "字幕是一句询问对方是否借购买物品把自己赶出公寓的质问。",
+      "interpretation": "话语内容支持将可见的紧绷理解为不满；没有音频，不能据此推断语调。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_07 @ 4.295954997964547秒",
+      "observation": "她仍看向对方，但眉毛抬起，嘴角较前几帧略有上扬。",
+      "interpretation": "也可能是带疑惑的询问，限制了对强烈愤怒的判断。",
+      "polarity": "counter"
+    }
+  ],
+  "counterevidence": "最强的相反解释是疑惑或担忧：末帧抬眉且表情趋缓，质问也可能出于求证。但此前连续的皱眉、紧绷姿态和字幕所示的指责，使克制的不满更有支持。"
+}

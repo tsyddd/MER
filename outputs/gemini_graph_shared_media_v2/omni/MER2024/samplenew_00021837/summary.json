@@ -1,0 +1,16 @@
+{
+  "reason": "目标人物在所有帧中均保持坐姿端正，面部表情平静，无明显情绪化特征。其语调平稳，语速正常，无音高或音量的明显变化。字幕内容为客观陈述，不包含情绪化词汇。三位专家的证据均一致指向中性情绪：graph专家指出其语调沉稳、句间停顿和抿嘴动作是中性陈述的典型表现；audio_subtitle专家认为其语气平稳且无情绪起伏；image专家综合视觉与听觉信息，确认其表现符合中性状态。无任何证据支持其他情绪标签。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "graph:E1",
+    "graph:E2",
+    "graph:E3",
+    "audio_subtitle:E1",
+    "audio_subtitle:E2",
+    "audio_subtitle:E3",
+    "image:E1",
+    "image:E2",
+    "image:E3",
+    "image:E4"
+  ]
+}

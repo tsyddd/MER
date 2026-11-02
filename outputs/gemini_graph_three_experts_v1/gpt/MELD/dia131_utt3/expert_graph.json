@@ -1,0 +1,9 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载Rachel对Phoebe说“​​Oh, everything went great.”〔process_0〕，同时抬头、摊开掌心并展开外套配合交流〔person_1〕。这些表现显示她在进行正常且较为开放的回应，但缺乏足以确认强烈喜悦或其他情绪的证据，因此判断为中性。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "process_0",
+    "person_1"
+  ]
+}

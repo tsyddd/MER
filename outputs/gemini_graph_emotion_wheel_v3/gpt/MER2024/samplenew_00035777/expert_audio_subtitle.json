@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者把“诚实”作为做生意的原则郑重强调，而不是在表达喜悦；画面中前倾、皱眉和绷紧的面部状态，使这句话更像带有不满的告诫[E1][E2]。但台词没有明确责备对象，愤怒判断主要依赖视觉与言语行为的结合。",
+  "open_emotion": "不满",
+  "answer": "angry",
+  "mapping_reason": "这里的“不满”表现为带有告诫意味的强调，最接近angry所涵盖的责备、对抗倾向；证据不足以判断为强烈愤怒。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“诚实，是做生意的根本。”",
+      "observation": "说话者陈述一项原则，而非提问或描述自己的情绪。",
+      "interpretation": "这句话可以用于郑重告诫，但仅凭字面不能确定他在生气。",
+      "polarity": "uncertain"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02（0.68秒）至frame_03（1.04秒）",
+      "observation": "说话者向前倾身，眉头紧皱，面部绷紧。",
+      "interpretation": "与原则性强调结合，更支持带不满的告诫，而非轻松的日常陈述。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_06（2.08秒）至frame_07（2.44秒）",
+      "observation": "说话者仍皱眉，神情严肃。",
+      "interpretation": "严肃状态延续，支持其表达并非单纯愉快；但严肃本身不能证明愤怒。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "最强替代解释是认真讲述生意原则：台词没有直接指责谁，皱眉也可能只是郑重。未提供音频，无法用语调或音量进一步区分告诫与平实强调。"
+}

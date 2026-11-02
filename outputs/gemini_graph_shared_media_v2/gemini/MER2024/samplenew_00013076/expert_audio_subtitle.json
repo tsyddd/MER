@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物在音轨中语调明快上扬，伴随抑制不住的轻笑声连声道谢[E1]，其言语行为是真切表达感激与喜悦；视觉上双手合十且眼角明显含笑[E2]，语义、韵律与体态高度一致，明确呈现happy情绪。",
+  "answer": "happy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00 - 00:02.64",
+      "observation": "目标人物语速轻快，语调上扬且带有明显的笑声与气息起伏，连声说道“正要感谢您呢！谢谢！谢，谢谢”",
+      "interpretation": "语气热忱欢快，带有明显的笑意，反映出真实的欣喜与感激，有力支持happy。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05 @ 1.88s",
+      "observation": "目标人物双眼弯起呈笑意，双手合十作揖致意，体态放松微倾",
+      "interpretation": "戴口罩下的眼部笑意和作揖动作与感激喜悦的言语相符，印证其愉悦的状态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是认为该表达属于社交礼节性的中性（neutral）客套，但音轨中明显的发笑声和高昂上扬的语调打破了中性程式化回应，故排除neutral。"
+}

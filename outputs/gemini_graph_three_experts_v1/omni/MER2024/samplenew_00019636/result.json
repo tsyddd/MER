@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00019636",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "d1653847d3cf6cfc09cc8eb7628fbb69523753b496954bbdaa066c61ccdb6896",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "音频专家识别出疑问和难以置信的语气，指向'surprise'；但图像与图谱专家均基于多帧视觉细节（如皱眉、眼神专注）和文本内容，一致判断为'worried'。图谱中'person_1'的语调低沉沉静与音频的上扬语调存在冲突，但图谱和图像的证据更具体且一致指向怀疑与思索，因此优先采纳'worried'。",
+  "output": "音频专家识别出疑问和难以置信的语气，指向'surprise'；但图像与图谱专家均基于多帧视觉细节（如皱眉、眼神专注）和文本内容，一致判断为'worried'。图谱中'person_1'的语调低沉沉静与音频的上扬语调存在冲突，但图谱和图像的证据更具体且一致指向怀疑与思索，因此优先采纳'worried'。\n<answer>worried</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 49.80262517929077
+}

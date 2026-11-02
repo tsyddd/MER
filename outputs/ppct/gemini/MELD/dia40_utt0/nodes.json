@@ -1,0 +1,72 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Monica说出“Yeah baby!”",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Monica坐在沙发上，面带微笑，低头视线略偏向下方",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Chandler的手臂环搭在Monica的肩上，转头注视着Monica",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Monica抬头面向前方，嘴角上扬露齿微笑",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Monica以轻快上扬的语调说话",
+      "time_index": 1,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "Monica、Chandler与另一位女性同伴坐在室内沙发的交流场景中",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "temporal_relations": []
+}

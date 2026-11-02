@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Joey's statement 'No-no, she kicked our butts' is delivered in a fast-paced, high-energy tone with a rising inflection, indicating excitement and amusement. The audience laughter following the line confirms the humorous and boastful nature of the remark. His facial expression in the frames shows a wide-eyed, open-mouthed look of mock surprise and pride, aligning with the playful tone of the words. The phrase 'You could be on the Olympic standing-there team' is a clear joke, further supporting a joyful and teasing emotional state.",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00.000 - 00:03.999",
+      "observation": "Joey speaks rapidly with a high-pitched, energetic tone, and the audience laughs immediately after.",
+      "interpretation": "The energetic delivery and audience laughter indicate a humorous and joyful intent.",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "No-no, she kicked our butts. You could be on the Olympic standing-there team.",
+      "observation": "The words 'kicked our butts' and the absurd 'Olympic standing-there team' are clearly hyperbolic and comedic.",
+      "interpretation": "The content is a joke, which supports a joyful or teasing emotional state.",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 @ 00:00.000",
+      "observation": "Joey's eyes are wide and his mouth is open in a look of mock surprise and excitement.",
+      "interpretation": "His facial expression matches the playful and boastful tone of his words.",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "A possible counter-interpretation is that Joey is expressing anger or frustration. However, this is contradicted by the high-energy, laughing tone of his voice and the audience's laughter, which confirm the statement is meant to be humorous rather than aggressive."
+}

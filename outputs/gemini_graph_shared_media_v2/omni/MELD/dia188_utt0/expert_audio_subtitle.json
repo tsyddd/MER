@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者在听到他人话语后，以短促、上扬的语调说出“What?”，这是典型的表示惊讶或难以置信的反应。音频中没有其他背景声音干扰，语调清晰地传达了意外感。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00:00.417 - 00:00:00.500",
+      "observation": "说话者以短促、上扬的语调说出“What?”。",
+      "interpretation": "这种语调是表达惊讶或难以置信的典型方式，表明说话者对刚刚听到的内容感到意外。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "What?",
+      "observation": "字幕显示说话者说的是“What?”。",
+      "interpretation": "该词在对话中通常用于表示对信息的意外或要求重复，与惊讶情绪相符。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有明确的相反解释。虽然该短语也可能表示疑问，但其上扬的语调强烈支持惊讶的判断。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia132_utt2",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "Phoebe is speaking in a calm, even tone, describing someone as 'very attractive' without any vocal indicators of strong emotion. Her facial expression is neutral, and she is engaged in a descriptive conversation with another person.",
+  "output": "Phoebe is speaking in a calm, even tone, describing someone as 'very attractive' without any vocal indicators of strong emotion. Her facial expression is neutral, and she is engaged in a descriptive conversation with another person.\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 183.09508633613586,
+  "node_count": 10,
+  "edge_count": 8
+}

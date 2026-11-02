@@ -1,0 +1,14 @@
+{
+  "reason": "Joey的言语内容（'I'm so proud'）和字幕直接表达了骄傲的积极情感。他的面部表情从平静过渡到微笑，手放胸前的姿势是真诚和骄傲的典型肢体语言。音频中温暖的语调与这些视觉线索一致，共同指向喜悦。尽管图谱提到'轻叹声调'，但结合上下文，这更像是一种欣慰的感叹，而非悲伤。因此，所有证据都支持joy。",
+  "answer": "joy",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "audio_subtitle:E2",
+    "audio_subtitle:E3",
+    "image:E1",
+    "image:E2",
+    "image:E3",
+    "image:E4",
+    "graph:E1"
+  ]
+}

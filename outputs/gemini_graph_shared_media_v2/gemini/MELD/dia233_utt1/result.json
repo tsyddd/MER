@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia233_utt1",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "28377b2eb5597e7f5b05f1f254a992b627c9f9588a264363ea2c03cb09ddd88d",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "回看视频与音轨，Rachel在00:01至00:04间语调急促尖锐且在句尾明显加重[audio_subtitle:E1]，伴随直视对方、摊手反问与嘴角下撇的紧绷质问神态[image:E1][image:E2]。台词中虽提及'fish freaked me out'，但语境表明此为指责对方举措不当的论据而非当下经历恐惧或厌恶。综合互动语境与言行表现，其核心情绪为对对方行为的指责与气恼（anger）。",
+  "output": "回看视频与音轨，Rachel在00:01至00:04间语调急促尖锐且在句尾明显加重[audio_subtitle:E1]，伴随直视对方、摊手反问与嘴角下撇的紧绷质问神态[image:E1][image:E2]。台词中虽提及'fish freaked me out'，但语境表明此为指责对方举措不当的论据而非当下经历恐惧或厌恶。综合互动语境与言行表现，其核心情绪为对对方行为的指责与气恼（anger）。\n<answer>anger</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 65.24210166931152
+}

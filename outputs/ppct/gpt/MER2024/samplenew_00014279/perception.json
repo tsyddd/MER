@@ -1,0 +1,83 @@
+{
+  "process": {
+    "nodes": [
+      {
+        "id": "process_0",
+        "type": "process",
+        "content": "女性对着男性说：“你除了这些卑劣的手段，还会什么？”",
+        "evidence_sources": [
+          "visual",
+          "subtitle"
+        ],
+        "time_index": 1,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "process_1",
+        "type": "process",
+        "content": "女性对着男性说：“真是无耻之极。”",
+        "evidence_sources": [
+          "visual",
+          "subtitle"
+        ],
+        "time_index": 2,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  },
+  "person": {
+    "nodes": [
+      {
+        "id": "person_0",
+        "type": "person",
+        "content": "女性额头上有一处红色伤痕，头发扎起。",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_1",
+        "type": "person",
+        "content": "女性注视着男性，嘴部开合。",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_2",
+        "type": "person",
+        "content": "画面切换后，男性面向女性。",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 3,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  },
+  "context": {
+    "nodes": [
+      {
+        "id": "context_0",
+        "type": "context",
+        "content": "女性与男性近距离面对面，女性为当前说话者，男性为交流对象。",
+        "evidence_sources": [
+          "visual",
+          "subtitle"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  }
+}

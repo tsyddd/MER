@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "目标人物在镜头前始终保持神情庄重、克制，目光坚定注视前方，双臂平稳向前递交文书[E1]，面部未出现皱眉怒目或嘴角下撇等剧烈情绪变化，音调平缓有力[E2]，整体处于严肃而冷静的neutral状态。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_05 @ 1.52s",
+      "observation": "目标人物眼神平视前方，面部肌肉放松但端正，双手端平向前呈递材料，无明显眉头紧锁或咬牙等表现",
+      "interpretation": "举止与神态展现出正式、沉着、克制的请愿/递交仪态，符合严肃中立的行为表现",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.0s - 2.0s",
+      "observation": "发音清晰稳定，语调沉着平正，无哭腔、颤抖或高声呵斥",
+      "interpretation": "听觉表现辅助验证了其克制与冷静，排除了angry或worried的可能",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "可能因处于集会抗议背景而容易被误判为angry或worried，但目标人物面部无愤怒扭曲或焦虑皱眉，音调沉稳克制，缺乏支持激越情绪的明确特征。"
+}

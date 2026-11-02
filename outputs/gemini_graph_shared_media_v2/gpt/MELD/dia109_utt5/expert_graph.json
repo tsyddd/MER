@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "Janice面向同桌男士，把“残酷剧场”的假设直接说给对方听；这不是已经发生的制作木偶事件。[E2] 图谱process_1所记的比划动作可由画面核实，但与画面中的手势是同一事实，不能重复计权。[E3] 更有区分力的是她随后前倾、皱眉并紧绷地看向对方，呈现出责备意味，因此选择anger。[E1] 图谱对语调的描述未经原音轨核验，不据此判断。[E4]",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_06 @ 6.297953443617927秒",
+      "observation": "Janice朝对面的男士前倾，眉头收紧、嘴部紧绷，双手靠拢在胸前。",
+      "interpretation": "在当前对话中，这种定向而紧绷的表情比单纯活泼地讲述更支持不满或责备。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Because you know, you could make little puppets out of them, and you could use them in your theater of cruelty.",
+      "observation": "她用“you could”向对方提出做木偶并用于“your theater of cruelty”的设想。",
+      "interpretation": "话语指向对方，带有批评意味；设想内容不能当作已经发生的事，也不能仅凭“cruelty”一词判定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "图谱记载Janice抬起双手在胸前配合说话比划；画面中可见这一动作。",
+      "interpretation": "它将手势纳入她对男士说话的当前事件链，但手势本身不证明愤怒，也不是独立于画面的第二份情绪证据。",
+      "polarity": "uncertain"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱转述其语调高亢、带鼻音且抑扬顿挫；本次没有提供原音轨。",
+      "interpretation": "不能亲耳核验这一声音描述，亦不据此将语调判为愤怒。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "她比划“小木偶”也可能是在戏谑或夸张地开玩笑；但当前画面中的皱眉、紧绷表情及话语对对方的责备指向，使这一解释不如anger贴切。缺少原音轨，无法进一步核对玩笑语气。"
+}

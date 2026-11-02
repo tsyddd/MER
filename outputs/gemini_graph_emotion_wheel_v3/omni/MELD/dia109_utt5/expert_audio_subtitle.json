@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者Janice的语调带有明显的夸张和嘲讽色彩，她用一种戏剧化的方式说出'you could make little puppets out of them, and you could use them in your theater of cruelty'，这并非字面意义上的恐惧或厌恶，而是一种带有表演性质的、对他人行为的强烈否定和讽刺。她的表情和手势也支持这种夸张的表演风格。因此，主导情绪是带有表演性质的讽刺和否定。",
+  "open_emotion": "讽刺",
+  "answer": "disgust",
+  "mapping_reason": "在MELD项目的情绪轮中，'disgust'（厌恶）被定义为对令人反感、恶心或难以接受的对象的排斥与厌弃。Janice的言论和表演方式，虽然带有喜剧色彩，但其核心是对他人行为的强烈否定和排斥，表达了她认为对方的行为是令人反感和难以接受的。这种通过夸张和戏剧化语言来表达的强烈否定和排斥，最符合'disgust'的范畴，因为它超越了简单的中性或惊讶，是一种带有表演性质的、对他人行为的负面评价和疏离感。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:07",
+      "observation": "说话者Janice的语调高昂、夸张，带有明显的表演和嘲讽色彩。",
+      "interpretation": "这种语调表明她并非在进行严肃的陈述，而是在用一种戏剧化的方式表达自己的观点，其核心是强烈的否定和排斥。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Because you know, you could make little puppets out of them, and you could use them in your theater of cruelty.",
+      "observation": "字幕内容为'你可以用它们做小木偶，然后在你的残酷剧院里使用它们'。",
+      "interpretation": "这句话是一种夸张的比喻，用来表达对对方行为的极度反感和否定，认为其行为如同'残酷剧院'一般残忍。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00-frame_07",
+      "observation": "说话者Janice的表情夸张，手势丰富，身体语言充满戏剧性。",
+      "interpretation": "她的视觉表现与音频中的夸张语调一致，共同营造了一种强烈的、带有表演性质的讽刺和否定氛围。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽然Janice的语调和表情带有喜剧色彩，但其言语内容和表演方式的核心是强烈的否定和排斥，而非单纯的惊讶或中性。'surprise'或'neutral'无法准确描述其主导情绪。"
+}

@@ -1,0 +1,9 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载Rachel在说出“Oh my God!”时表现出嘴巴大张、语调拔高带惊叹感（person_0），随后身体前倾并抬手比划强调“You’re a 30 year old virgin!”（person_1），这些视听行为共同指向一种震惊与难以置信的情绪状态。结合其话语内容与动作演进，可判断其情绪为惊讶。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "person_0",
+    "person_1"
+  ]
+}

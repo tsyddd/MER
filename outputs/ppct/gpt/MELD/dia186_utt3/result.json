@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia186_utt3",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "sadness",
+  "emotion_analysis": "当前人物是Joey，画面中他坐在扶手椅上并手持电话讲话，嘴部开合与字幕“I'm sorry I gotta cancel tonight baby”同步。person_0与person_1通过person_joint共同表明其正在通话，process_0与process_1通过simultaneous/process_joint表明他在通话中道歉并取消今晚安排；其低垂眼神和略显疲惫、歉意的表情更符合轻度难过，而非明显愤怒或惊讶。",
+  "output": "当前人物是Joey，画面中他坐在扶手椅上并手持电话讲话，嘴部开合与字幕“I'm sorry I gotta cancel tonight baby”同步。person_0与person_1通过person_joint共同表明其正在通话，process_0与process_1通过simultaneous/process_joint表明他在通话中道歉并取消今晚安排；其低垂眼神和略显疲惫、歉意的表情更符合轻度难过，而非明显愤怒或惊讶。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 96.50308299064636,
+  "node_count": 5,
+  "edge_count": 3
+}

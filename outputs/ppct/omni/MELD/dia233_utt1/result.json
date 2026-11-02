@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia233_utt1",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "disgust",
+  "emotion_analysis": "The speaker's voice is high-pitched and fast-paced with a complaining tone, and her facial expression is animated. She explicitly states, 'you know how fish freaked me out!', indicating a strong negative reaction to the topic of fish.",
+  "output": "The speaker's voice is high-pitched and fast-paced with a complaining tone, and her facial expression is animated. She explicitly states, 'you know how fish freaked me out!', indicating a strong negative reaction to the topic of fish.\n<answer>disgust</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 139.67224884033203,
+  "node_count": 7,
+  "edge_count": 4
+}

@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "目标人物在前7帧中神情沉稳庄严，双目平视对方，眉宇舒展端正无明显怒容或惊恐，动作上双手平稳、恭敬而坚决地递出文书，整体表现为严肃郑重的情境传达。",
+  "open_emotion": "庄重",
+  "answer": "neutral",
+  "mapping_reason": "目标人物表现出庄重、严肃与平稳坚定的交流姿态，无攻击对抗（angry）、无明显恐惧顾虑（worried）或悲哀失落（sad），依据情绪轮规范归入平稳无明显情绪过载的 neutral 类别。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01至frame_04",
+      "observation": "目标人物面部肌肉端正自然，说话时口型清晰开合，双眼沉静注视前方，无咬牙切齿或剧烈皱眉。",
+      "interpretation": "表明其态度镇定、正色直言，情绪处于稳定受控状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04至frame_06",
+      "observation": "目标人物双手向前平举递出文书，身姿挺拔端正。",
+      "interpretation": "举止郑重有力，体现请愿递交的严肃庄重，非冲动对峙动作。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "背景有抗议示威条幅与人群，言辞铿锵可能被误判为带有愤怒（angry），但其个人表情并无显性敌意扭曲，主要为主导的庄重与严肃。"
+}

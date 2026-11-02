@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "在与蓝衣女子的面对面互动中，紫衣女子言语间伴随明显的抽噎与哽咽[E2]，面部呈现强烈的哭泣状态[E1]。图谱节点person_0准确记录了其紧蹙眉心与眼眶含泪的表现，结合图谱person_1所描述的发声颤抖，反映出紫衣女子正处于悲痛难过的情感体验中。尽管台词开头有“没想到”，但语义是因对方的牺牲或犯傻行为感到极度心痛与哀伤，而非惊讶或对抗性愤怒。",
+  "open_emotion": "悲伤",
+  "answer": "sad",
+  "mapping_reason": "紫衣女子当前表现出持续的抽泣、流泪与嘴角下撇，指向对已发生既成事实的心痛、哀伤与难过，完全符合情绪轮中sad（悲伤：伤心、失落、低落）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "紫衣女子眉头紧皱，眼眶泛红含泪，嘴角下撇并伴随抽泣的嘴部抽动",
+      "interpretation": "强烈的悲伤哭泣表情，展现内心的极大痛苦与哀伤",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "紫衣女子说话时伴随剧烈的哽咽声、吸气抽搭与哭腔",
+      "interpretation": "声音带出的哭泣动态证实其处于难过与失控的悲伤状态",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "紫衣女子眉心紧蹙，眼眶含泪，目光注视对面人物",
+      "interpretation": "图谱中的面部状态记录直接对应哀伤痛心的情感表达",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词含有'没想到'可能引起surprise的猜想，但人物声线全为抽噎哭腔，表情为持续流泪悲戚，并非即时意外，故排除surprise。"
+}

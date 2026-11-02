@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia259_utt10",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "58b737d28f4b46ef9301ad868ad5a56df1abb9892a3c373e0e689e4505ea1b8c",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "graph和audio_subtitle均一致指出Monica语速快、音量高、语调尖锐且表达强烈不满，符合'anger'的特征；image虽显示其在不同帧中呈现中性、喜悦和惊讶，但这些状态未在音频和文本中体现，且与整体激烈表达不符，故以听觉和文本描述为准。",
+  "output": "graph和audio_subtitle均一致指出Monica语速快、音量高、语调尖锐且表达强烈不满，符合'anger'的特征；image虽显示其在不同帧中呈现中性、喜悦和惊讶，但这些状态未在音频和文本中体现，且与整体激烈表达不符，故以听觉和文本描述为准。\n<answer>anger</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 47.25830960273743
+}

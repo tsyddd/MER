@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia259_utt10",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "Monica's high-pitched, fast-paced, and emphatic tone of voice, combined with her repeated use of the word 'and' and outward hand gestures, indicates strong negative emotion. Her open mouth and focused expression while speaking further support this. The content of her speech, 'The joke is not funny, and it's offensive to women, and doctors, and monkeys!', explicitly conveys her disapproval and indignation.",
+  "output": "Monica's high-pitched, fast-paced, and emphatic tone of voice, combined with her repeated use of the word 'and' and outward hand gestures, indicates strong negative emotion. Her open mouth and focused expression while speaking further support this. The content of her speech, 'The joke is not funny, and it's offensive to women, and doctors, and monkeys!', explicitly conveys her disapproval and indignation.\n<answer>anger</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 99.69182229042053,
+  "node_count": 6,
+  "edge_count": 3
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia186_utt3",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "Joey坐在扶手椅上打电话，神态平静自然，虽然台词在道歉推掉晚上的约会，但表情和语调平稳轻松，没有表现出强烈的悲伤、愤怒或喜悦等情绪，属于中性状态。",
+  "output": "Joey坐在扶手椅上打电话，神态平静自然，虽然台词在道歉推掉晚上的约会，但表情和语调平稳轻松，没有表现出强烈的悲伤、愤怒或喜悦等情绪，属于中性状态。\n<answer>neutral</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 7.451679944992065,
+  "node_count": null,
+  "edge_count": null
+}

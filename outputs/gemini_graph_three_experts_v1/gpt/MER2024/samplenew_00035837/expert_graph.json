@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "说话人头部微倾、视线向下垂落，且以轻弱微哑的气音、缓慢低平的语调表达〔person_0〕〔person_1〕〔person_2〕。图谱记载其说出“再也没有亲人了”〔process_1〕，结合当前低垂、低缓的表现，更符合悲伤情绪。",
+  "answer": "sad",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "person_2",
+    "process_1"
+  ]
+}

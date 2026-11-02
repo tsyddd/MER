@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia186_utt0",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "ce61aa500b449acf27aca857327845af67ac7b2a64a913c11593cd28ac6f91bf",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "嫌弃",
+      "mapped_label": "disgust",
+      "mapping_reason": "这里的嫌弃指对令他觉得难堪的安排表示排斥，最接近情绪轮中disgust的反感与不愿接受；并非声称他有恶心反应。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "不满",
+      "mapped_label": "anger",
+      "mapping_reason": "这里的不满主要表现为对提议的拒绝和反对，按情绪轮中轻度责备、对抗的边界映射为anger；并不表示他正在强烈发怒。"
+    },
+    "image": {
+      "open_emotion": "反感",
+      "mapped_label": "disgust",
+      "mapping_reason": "这里的反感主要指对难以接受的尴尬局面及其进一步扩大的排斥，按情绪轮最接近disgust；这不表示他出现了恶心等强烈厌恶反应。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "disgust",
+  "emotion_analysis": "目标是右侧的Chandler；我核对第1至第3帧，见他张口回应并抬手朝右侧示意，与[image:E1]的观察相符，但手势本身不能确定情绪。字幕中他连续说“no”，又说“Ross and Joey is embarrassing enough”，明确表达不愿让难堪的局面扩大；[audio_subtitle:E1]对此的记录可信，但未提供音轨，无法核实语气。后段他抿嘴、斜视右侧的变化也与排斥相容[image:E2]。相较于将拒绝解读为对抗性的不满，话语更直接指向对尴尬安排的反感，且没有明确责备，因此取最接近的disgust。",
+  "output": "目标是右侧的Chandler；我核对第1至第3帧，见他张口回应并抬手朝右侧示意，与[image:E1]的观察相符，但手势本身不能确定情绪。字幕中他连续说“no”，又说“Ross and Joey is embarrassing enough”，明确表达不愿让难堪的局面扩大；[audio_subtitle:E1]对此的记录可信，但未提供音轨，无法核实语气。后段他抿嘴、斜视右侧的变化也与排斥相容[image:E2]。相较于将拒绝解读为对抗性的不满，话语更直接指向对尴尬安排的反感，且没有明确责备，因此取最接近的disgust。\n<answer>disgust</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 99.35524344444275
+}

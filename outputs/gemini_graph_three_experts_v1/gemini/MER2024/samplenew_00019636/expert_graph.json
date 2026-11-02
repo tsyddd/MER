@@ -1,0 +1,12 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载男子在昏暗环境中说话，发声语调低沉沉静〔person_1〕，神态上伴随垂眼抬眸〔person_0〕与手抵领口定视前方的沉思举止〔person_4〕。尽管台词涉及对他人年龄的质疑及转述回忆〔process_0, process_1〕，但表达过程平静克制，未见明显的情绪起伏，属于客观平静的中立状态。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_1",
+    "person_0",
+    "person_4",
+    "process_0",
+    "process_1"
+  ]
+}

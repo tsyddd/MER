@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia66_utt1",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "根据图谱与音视频线索，空乘人员（Flight Attendant）在客舱内面向乘客致意（person_0结合person_1），以规范、清晰且平稳的职业礼貌语调表达“Thank you! Enjoy your flight?”（process_0），随后专注等待并接收乘客反应（process_1）。其表现符合标准职业服务礼貌，未展现出明显的极端情感波动，情绪状态判定为neutral。",
+  "output": "根据图谱与音视频线索，空乘人员（Flight Attendant）在客舱内面向乘客致意（person_0结合person_1），以规范、清晰且平稳的职业礼貌语调表达“Thank you! Enjoy your flight?”（process_0），随后专注等待并接收乘客反应（process_1）。其表现符合标准职业服务礼貌，未展现出明显的极端情感波动，情绪状态判定为neutral。\n<answer>neutral</answer>",
+  "label": "joy",
+  "elapsed_seconds": 49.71928548812866,
+  "node_count": 8,
+  "edge_count": 7
+}

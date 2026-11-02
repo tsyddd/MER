@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia233_utt0",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "a94f5575d3aaa8dce6c1acd443e893d451a7588d0c29ef22d0ffe8091580c26e",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "目标人物Rachel在所有帧中均保持双臂交叉、身体前倾的防御姿态，面部肌肉紧绷，眉毛微皱，未见笑容或哭泣迹象，这些视觉线索与字幕中质问性话语内容一致。音频中，她的语调在句尾上扬，表现出难以置信和被冒犯的感觉，这与字幕中的质问语气相符。专家的视觉分析[graph:E2]和[graph:E3]均指出其姿态和表情是防御性的，支持愤怒的判断。音频专家[audio_subtitle:E1]和[graph:E1]也一致认为其话语内容和语调是愤怒的典型表现。综合来看，视觉、语言和韵律证据高度一致，共同指向愤怒情绪。",
+  "output": "目标人物Rachel在所有帧中均保持双臂交叉、身体前倾的防御姿态，面部肌肉紧绷，眉毛微皱，未见笑容或哭泣迹象，这些视觉线索与字幕中质问性话语内容一致。音频中，她的语调在句尾上扬，表现出难以置信和被冒犯的感觉，这与字幕中的质问语气相符。专家的视觉分析[graph:E2]和[graph:E3]均指出其姿态和表情是防御性的，支持愤怒的判断。音频专家[audio_subtitle:E1]和[graph:E1]也一致认为其话语内容和语调是愤怒的典型表现。综合来看，视觉、语言和韵律证据高度一致，共同指向愤怒情绪。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 146.83682441711426
+}

@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "画面中目标人物双眉微蹙、眉头紧锁，眼神垂敛向下，嘴唇微颤轻张，面部肌肉呈现下垂与哀戚状态[E1]，配合音轨中低沉哽咽、带有哭腔的陈述[E2]，明确表现为悲伤（sad）。",
+  "answer": "sad",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_03 @ 0.92s",
+      "observation": "目标人物眉头微蹙，双眼低垂略显湿润，嘴角微向下撇，面部整体神态沉重哀伤。",
+      "interpretation": "眉心微聚、目光低垂与嘴角下沉是悲伤情绪的典型肌肉表现，支持悲伤。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.0s - 2.16s",
+      "observation": "语音语调低沉发颤，尾音略带哽咽与吸气声。",
+      "interpretation": "哽咽颤抖的声音强化了悲伤而非中立或担忧的判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "眉眼微蹙可能在静态下被误判为担忧（worried），但其眼神下垂低落、缺乏担忧特有的警觉与紧绷，且音调带有明显的哀悼悲痛感，因此排除worried。"
+}

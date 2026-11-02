@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035599",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "2e41d1566b0d6d612ec8cac9b6fe7ea8a5c74329bc5ef3be50b67f145d3e328a",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "图谱与图片专家均描述了眉头紧蹙、视线下移和表情低落等视觉表现，彼此一致，支持悲伤判断。音频字幕专家未获得音频，字幕内容也未呈现明显情绪，因此其“中性”结论证据较弱；图谱中的语调描述与其可能存在同源或不可独立核验的问题，不作为主要依据。",
+  "output": "图谱与图片专家均描述了眉头紧蹙、视线下移和表情低落等视觉表现，彼此一致，支持悲伤判断。音频字幕专家未获得音频，字幕内容也未呈现明显情绪，因此其“中性”结论证据较弱；图谱中的语调描述与其可能存在同源或不可独立核验的问题，不作为主要依据。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 69.5169427394867
+}

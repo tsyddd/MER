@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00041734",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "ef82d3fe06a46b4125e3eacb1a9f355331f80a204ee0f71866c99305b2e54746",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "graph和audio_subtitle均指出说话人语调上扬、语速快且音量高，表现出强烈质问与不解；graph明确将此归为'surprise'，而audio_subtitle倾向'angry'，但图像显示其眉头紧锁、嘴角下撇，呈现痛苦与担忧，与'worried'高度一致。综合判断，图像证据直接反映面部情绪状态，且与质问情境相符，故优先采纳'worried'。",
+  "output": "graph和audio_subtitle均指出说话人语调上扬、语速快且音量高，表现出强烈质问与不解；graph明确将此归为'surprise'，而audio_subtitle倾向'angry'，但图像显示其眉头紧锁、嘴角下撇，呈现痛苦与担忧，与'worried'高度一致。综合判断，图像证据直接反映面部情绪状态，且与质问情境相符，故优先采纳'worried'。\n<answer>worried</answer>",
+  "label": "angry",
+  "elapsed_seconds": 49.13555884361267
+}

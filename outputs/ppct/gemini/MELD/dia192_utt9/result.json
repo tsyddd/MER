@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia192_utt9",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "根据图谱与视频观察，Monica原本处于后方背景（context_0），在听到内容后张大嘴巴注视前方（person_1），快速从房间后方走近（process_0），并伴随较高音量和尾音上扬的语调喊出“What?! Excuse me!”（process_1，person_2）。这一连串意外、难以置信的言行举止明确表现出她的震惊与意外反应。",
+  "output": "根据图谱与视频观察，Monica原本处于后方背景（context_0），在听到内容后张大嘴巴注视前方（person_1），快速从房间后方走近（process_0），并伴随较高音量和尾音上扬的语调喊出“What?! Excuse me!”（process_1，person_2）。这一连串意外、难以置信的言行举止明确表现出她的震惊与意外反应。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 43.08967065811157,
+  "node_count": 6,
+  "edge_count": 4
+}

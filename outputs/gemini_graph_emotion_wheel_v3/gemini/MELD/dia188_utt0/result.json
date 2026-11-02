@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia188_utt0",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "b97e68d51fd419e726abf41fc684b1dd95e92043178dcef7d7b2a8c69202319d",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "平常",
+      "mapped_label": "neutral",
+      "mapping_reason": "Joey当前的语气与肢体语言均处于放松、平稳的常态交流状态，缺乏强烈效价或激活度，符合情绪轮中neutral（日常平稳、无明确主导情绪）的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "平常",
+      "mapped_label": "neutral",
+      "mapping_reason": "Joey当前的言语和韵律仅表现出平淡、日常的口语反问，缺乏强烈的正负向情感唤起，符合neutral（平稳、日常且没有明确主导情绪的表达）的定义。"
+    },
+    "image": {
+      "open_emotion": "平稳",
+      "mapped_label": "neutral",
+      "mapping_reason": "Joey的面部和体态均处于日常交谈状态，无明显正向或负向情绪激活，完全符合neutral（平稳、日常且没有明确主导情绪的表达）的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "核查实际音轨与各帧画面，Joey在行走中随口说出“What?”，语调短促平缓且音量中等偏低[audio_subtitle:E2]，未见惊讶的高挑升调或对抗性重音；视觉上他在frame_00至frame_03仅自然张嘴发音[image:E1]，眉部与眼部肌肉舒展放松，随后低头继续前行[graph:E2]。三个专家均指出该疑问仅为日常发话而非意外反应，跨模态证据一致表明其处于平稳、无明确主导情绪的状态。",
+  "output": "核查实际音轨与各帧画面，Joey在行走中随口说出“What?”，语调短促平缓且音量中等偏低[audio_subtitle:E2]，未见惊讶的高挑升调或对抗性重音；视觉上他在frame_00至frame_03仅自然张嘴发音[image:E1]，眉部与眼部肌肉舒展放松，随后低头继续前行[graph:E2]。三个专家均指出该疑问仅为日常发话而非意外反应，跨模态证据一致表明其处于平稳、无明确主导情绪的状态。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 59.292367696762085
+}

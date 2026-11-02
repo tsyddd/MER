@@ -1,0 +1,9 @@
+{
+  "reason": "独立回看各模态表现，目标人物Janice在道别时呈现出高度一致的哀伤与失落：视觉上从frame_03至frame_07，她眉头内侧微蹙抬起呈八字愁容，嘴角下撇，一手贴抚胸口呈自我安抚的收缩体态[image:E1][audio_subtitle:E2]；实际音轨中念出'Good-bye Chandler Bing'语速极慢，音调下沉并伴有明显的哭腔与叹息颤音[audio_subtitle:E1]。尽管Janice的表现带有角色固有的戏剧化特征，但现场毫无喜悦、嘲讽或愤怒对抗迹象，视听线索共同指向分手道别带来的主导情绪sadness。",
+  "answer": "sadness",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E2",
+    "audio_subtitle:E1"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia239_utt2",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "Chandler面对来人时眉头微皱并摊手，表现出疑惑和意外。他的字幕是在询问对方是否摔倒以及是否吸毒，属于当前的惊讶质问，而非叙述过去或表达强烈愤怒。",
+  "output": "Chandler面对来人时眉头微皱并摊手，表现出疑惑和意外。他的字幕是在询问对方是否摔倒以及是否吸毒，属于当前的惊讶质问，而非叙述过去或表达强烈愤怒。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 29.683204889297485,
+  "node_count": null,
+  "edge_count": null
+}

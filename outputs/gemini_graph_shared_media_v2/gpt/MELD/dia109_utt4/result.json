@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia109_utt4",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "b1102943bbcf1af1e117a380fae997536de4112a2f80180e05feb45af20ee7b2",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "字幕“Oh, are you sure?”是求证，不单凭疑问句判定情绪；[audio_subtitle:E1]对此的限定可信。回看第1、2帧，右侧的Janice面向对座者抬眉、张口，与意外后追问相符，支持[image:E1]的观察。后续手势[image:E2]主要表明她继续强调所说的话，不能另算惊讶证据。普通确认是最强反证，但开头的“Oh”结合抬眉表情，使轻度惊讶比中性更贴切；未提供音轨，不能核验语调。",
+  "output": "字幕“Oh, are you sure?”是求证，不单凭疑问句判定情绪；[audio_subtitle:E1]对此的限定可信。回看第1、2帧，右侧的Janice面向对座者抬眉、张口，与意外后追问相符，支持[image:E1]的观察。后续手势[image:E2]主要表明她继续强调所说的话，不能另算惊讶证据。普通确认是最强反证，但开头的“Oh”结合抬眉表情，使轻度惊讶比中性更贴切；未提供音轨，不能核验语调。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 71.20852017402649
+}

@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "Ross当前向对面的人提出指控，随即要求对方省下时间并坦白；这是他本人当下的言语交锋，而非已证实对方拿走了东西。[E1][E2] 他边说边向前伸手，随后抬起双手、皱眉强调，视觉表现与责备、施压的语义相符。[E3] 这些动作和图谱中的同类描述是同一组视觉事实，不能重复算作独立证据。指控及要求坦白的事件语义，也使这些手势比单纯解释为惊讶或一般说明更接近恼火。",
+  "open_emotion": "恼火",
+  "answer": "anger",
+  "mapping_reason": "当前表达指向对他人的指控和责备，符合情绪轮中anger的恼火、对抗，而不是仅因意外产生的surprise。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_0、process_1、process_2",
+      "observation": "图谱按顺序记载Ross提出指控、劝对方省时间，最后要求坦白。",
+      "interpretation": "节点组织的是Ross当前的施压言语；顺序本身不证明指控属实，也不额外证明他的动机。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "“We know you took so just-just save yourself the time and confess!”",
+      "observation": "当前字幕包含直接指控及“save yourself the time and confess”的要求。",
+      "interpretation": "要求对方坦白比平常叙述更具责备和对抗性。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_03（1.3346656304355873秒）、frame_04（1.7934569408978203秒）",
+      "observation": "Ross说话时皱眉、张嘴，双手抬起并向前比划。",
+      "interpretation": "表情和手势与当前施压的言语相配，但单看手势不足以确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱称Ross语调坚定、语速较快。",
+      "interpretation": "未提供原音轨，故这只是无法亲耳核验的图谱转述，不作为确定语气的依据。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "Ross的手势也可能用于强调说明，不能单凭动作判为愤怒。图谱process_0写有“took it”，而所给字幕在“took”后直接接“so”；没有原音轨，不能核定这一措辞差异或声音特征。"
+}

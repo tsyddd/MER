@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00038936",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "画面中的女性在提及对方出意外时，眉头微蹙，眼神低垂后注视对方，流露出明显的关切与忧虑神情。配合温和小心、充满关怀的语气，其情绪表达为worried。",
+  "output": "画面中的女性在提及对方出意外时，眉头微蹙，眼神低垂后注视对方，流露出明显的关切与忧虑神情。配合温和小心、充满关怀的语气，其情绪表达为worried。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 6.5799620151519775,
+  "node_count": null,
+  "edge_count": null
+}

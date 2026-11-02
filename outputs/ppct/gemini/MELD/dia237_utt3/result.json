@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia237_utt3",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "结合节点person_0、person_1以及process_0，Joey在回答Monica关于食物的话题时，头部虽向上注视对方，但语气平静自然、音量适中，没有出现强烈的厌恶面部扭曲或情绪激动，整体呈现客观平淡的日常回应状态。",
+  "output": "结合节点person_0、person_1以及process_0，Joey在回答Monica关于食物的话题时，头部虽向上注视对方，但语气平静自然、音量适中，没有出现强烈的厌恶面部扭曲或情绪激动，整体呈现客观平淡的日常回应状态。\n<answer>neutral</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 48.088011741638184,
+  "node_count": 9,
+  "edge_count": 7
+}

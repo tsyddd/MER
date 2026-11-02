@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "画面中目标人物双眉内侧向上聚拢呈悲伤三角眉，眼眶含泪且嘴角下撇颤动，呈现典型的哭泣悲容[E1]；音频中伴随明显的哽咽与哭腔[E2]，明确指向极度悲伤。",
+  "answer": "sad",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.08",
+      "observation": "眉头紧蹙上提，双眼眯起含泪，鼻唇沟加深且嘴角明显向下牵拉，呈现持续的哭泣面容。",
+      "interpretation": "眉心内聚与唇角下拉的组合是强烈的悲伤表现，排除了单纯的平静或担忧。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.00-2.56",
+      "observation": "说出“没想到，你竟然这么傻”时声音颤抖、带着浓重哭腔与抽噎声。",
+      "interpretation": "听觉上明显的哭声和哽咽印证了视觉上的悲泣神情，确认为悲伤。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽因台词涉及他人而可能带有心疼与担忧（worried），但其面部肌肉呈现强烈的痛哭反应与抽泣，已超越普通的焦虑担忧，归为sad更为精准。"
+}

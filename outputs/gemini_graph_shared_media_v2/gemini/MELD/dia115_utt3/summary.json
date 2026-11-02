@@ -1,0 +1,9 @@
+{
+  "reason": "独立回看8帧画面与实际音轨，画面右侧的Ross在对话全程面部肌肉平稳放松，双眉舒展无紧蹙或挑起，仅随说话自然启闭双唇[image:E1]。音频中其语调低平且节奏均匀（00:00-00:04），既无高亢激烈的怒气，也无嘲弄时的明显笑意或厌恶鼻音[audio_subtitle:E1]。专家指出其台词虽具调侃贬损色彩但视听表现为典型的冷静克制陈述，该解释切合实际且有力排除了anger与disgust候选[image:E2]。综上，视听线索均稳定支持中性基调，判定为neutral。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E1",
+    "image:E2"
+  ]
+}

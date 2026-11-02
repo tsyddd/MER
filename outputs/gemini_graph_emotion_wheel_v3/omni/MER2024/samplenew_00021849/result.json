@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00021849",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "359093044a96c9b0d3bf12c8621869f06d99bda1905d519e91d11df175dc34b4",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "中性",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据【共同映射原则】，'中性'（neutral）被定义为当前主要为平稳叙述、自然交流或无明确主导情绪的表达。目标人物的行为是劝说，但其语调平稳，没有表现出愤怒、悲伤或担忧等强烈情绪的迹象。因此，该行为最符合中性情绪的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "平静",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据情绪轮的定义，'neutral'（中性）指当前主要为平稳叙述、自然交流或无明确主导情绪的表达。目标人物的言语是直接的指令，但其语调平稳，无明显情绪波动，且视觉上表情严肃但无激动迹象，符合中性情绪的特征。虽然内容是命令，但其表达方式是冷静和克制的，因此映射为'neutral'是合适的。"
+    },
+    "image": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "根据情绪轮定义，'worried'指对可能的负面结果、风险或未知情况的顾虑、焦虑和不安。该男性正在劝说对方离开，这暗示他可能认为当前环境存在某种风险或不安全因素，因此他的行为和语气表现出一种对对方安全的关切，这与'worried'的定义最为贴合。虽然他的表情也可能是中性的，但其劝说的行为和语境更强烈地指向了担忧。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "目标人物（男性）的言语内容“你先上我的车，先回去”是一个明确的劝说指令，其行为（身体前倾、手扶车门）和严肃表情也支持这一意图。音频证实其语调平稳，排除了愤怒或喜悦等强烈情绪。图像专家认为此行为源于对潜在风险的担忧，这与“worried”的定义（对可能负面结果的顾虑）高度吻合。虽然音频和图谱专家均认为情绪为中性，但图像专家的解释结合了行为、语言和语境，提供了更强的解释力。因此，选择“worried”作为最符合的标签。",
+  "output": "目标人物（男性）的言语内容“你先上我的车，先回去”是一个明确的劝说指令，其行为（身体前倾、手扶车门）和严肃表情也支持这一意图。音频证实其语调平稳，排除了愤怒或喜悦等强烈情绪。图像专家认为此行为源于对潜在风险的担忧，这与“worried”的定义（对可能负面结果的顾虑）高度吻合。虽然音频和图谱专家均认为情绪为中性，但图像专家的解释结合了行为、语言和语境，提供了更强的解释力。因此，选择“worried”作为最符合的标签。\n<answer>worried</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 204.8575632572174
+}

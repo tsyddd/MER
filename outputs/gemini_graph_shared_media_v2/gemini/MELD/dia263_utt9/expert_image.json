@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "Ross在片段中眉眼下垂、目光向下沉滞[E1]，随后抬眼说话时面部神情沉重，嘴角微微下撇无活力[E2]，配合其失落平缓的语调[E3]，整体表现出显著的沮丧与悲伤情绪。",
+  "answer": "sadness",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0s",
+      "observation": "Ross低垂双眼向下看，双肩略微耷拉，面部肌肉放松下垂。",
+      "interpretation": "低垂的视线与无精打采的体态展现出低落与失落的典型特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 0.6256245142666815s",
+      "observation": "Ross抬起视线向前看并张嘴说话，眉毛轻微蹙起，眼神暗淡，嘴角带有下撇趋势。",
+      "interpretation": "说话时的沉郁神情表明内心的无奈与伤感，而非中性陈述。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "0.0s - 1.4s",
+      "observation": "说话声调低沉平缓，语气微弱且伴随叹息感。",
+      "interpretation": "听觉上的低沉消极与视觉上的失落表现高度一致，印证了悲伤而非平静客观。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "面部没有强烈的哭泣或剧烈面部扭曲，容易被表面误判为neutral，但持续的低垂视线、耷拉的体态和哀伤的语调排除了纯粹的中立状态。"
+}

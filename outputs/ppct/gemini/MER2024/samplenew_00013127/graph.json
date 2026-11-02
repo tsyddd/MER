@@ -1,0 +1,109 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "男子对面前的人说话：\"以前啊，以为你圆滑伶俐\"",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "男子继续对面前的人说话：\"还真是小看你了\"",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "男子束发戴头冠，身着暗红色交领长袍，面带笑意注视前方对面的人，嘴唇张合",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "男子说话语调轻快，带有调侃意味",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "男子面带微笑，眼神专注地看着对方，嘴唇微张合动",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "在室外场地，红袍男子与一名背对镜头的浅色衣服男子相对而立交流，背景有人走动",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "红袍男子在对面前人说完“以前啊，以为你圆滑伶俐”之后，继续说出“还真是小看你了”",
+      "entity_anchor": "红袍男子的言语表达"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "红袍男子在张嘴说话的同时，伴随有轻快且带调侃意味的语调",
+      "entity_anchor": "红袍男子"
+    },
+    {
+      "source": "person_2",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "红袍男子在前半句面带笑意注视对方嘴唇张合之后，在后半句继续保持微笑并专注看着对方张合嘴唇说话",
+      "entity_anchor": "红袍男子"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0呈现前半句对以往认知的陈述，process_1呈现后半句得出转折结论，两者联合构成了完整的调侃性评价与互动话语过程",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供了视觉上面带微笑、注视交谈的神态与外貌特征，person_1提供了听觉上轻快且具调侃意味的语调，两者结合形成了该人物音画互补的言语表达表现",
+      "entity_anchor": null
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia259_utt10",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "Monica当前正在说“这个笑话不好笑，而且冒犯女性、医生和猴子”，字幕与process_0明确呈现了对笑话的强烈批评。她上半身前倾、持续说话，并结合向左侧及前方伸手的手势（person_0、person_1、process_1、process_2），显示出明确而激烈的对抗性表达，因此更符合愤怒而非中性或单纯厌恶。",
+  "output": "Monica当前正在说“这个笑话不好笑，而且冒犯女性、医生和猴子”，字幕与process_0明确呈现了对笑话的强烈批评。她上半身前倾、持续说话，并结合向左侧及前方伸手的手势（person_0、person_1、process_1、process_2），显示出明确而激烈的对抗性表达，因此更符合愤怒而非中性或单纯厌恶。\n<answer>anger</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 96.73363423347473,
+  "node_count": 11,
+  "edge_count": 14
+}

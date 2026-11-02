@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物是画面中央、坐在话筒前的男子。说话时表情和姿态变化不大，停顿后仍保持平稳；字幕内容也是对一户人家的事实性介绍。综合来看，当前最有支持的解释是平稳叙述，而非明显的悲伤或担忧。[E1][E2][E3]",
+  "open_emotion": "平稳叙述",
+  "answer": "neutral",
+  "mapping_reason": "当前主要是在自然、平稳地介绍情况，没有足够证据表明其他情绪占主导，符合neutral的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_02（1.12秒）",
+      "observation": "男子面向前方，身体保持坐姿，随讲话张口；未见明显的姿态或手势变化。",
+      "interpretation": "可见表现以稳定讲话为主。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03（1.68秒）至frame_04（2.24秒）",
+      "observation": "讲话间隙他合上嘴唇，视线仍朝前，坐姿基本不变。",
+      "interpretation": "停顿没有伴随明显的情绪反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“我印象最深的一户人家，祖祖辈辈种地。”",
+      "observation": "字幕是在介绍一户人家的经历，未直接提及损失、风险或责备。",
+      "interpretation": "文字内容与平稳叙述相符，但不能单凭字幕确定表情。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "frame_07（3.92秒）嘴角略有上扬，可能是轻微笑意；但这一短暂变化不足以证明喜悦占主导。片段未提供音频，不能据此判断语调。"
+}

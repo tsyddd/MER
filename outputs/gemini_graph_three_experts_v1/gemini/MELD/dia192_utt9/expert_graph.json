@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "根据图谱记载，Monica在背景中听到对话后主动向前移动介入现场〔process_0〕，面向前方大声质问并喊出“What?! Excuse me!”〔process_1〕。图谱记载其发音音量较大且尾音语调明显上扬〔person_2〕，这一主动冲上前打断并强烈质问的表现，直接反映出她因被冒犯而产生的愤怒情绪。",
+  "answer": "anger",
+  "evidence_refs": [
+    "process_0",
+    "process_1",
+    "person_2"
+  ]
+}

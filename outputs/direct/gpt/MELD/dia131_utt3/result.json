@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia131_utt3",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物Rachel在画面中面向他人解释，手势较多但表情总体克制，没有明显的笑容、哭泣或愤怒。字幕“哦，一切都很顺利”表达积极内容，但画面未显示强烈的喜悦情绪，因此更符合中性。",
+  "output": "目标人物Rachel在画面中面向他人解释，手势较多但表情总体克制，没有明显的笑容、哭泣或愤怒。字幕“哦，一切都很顺利”表达积极内容，但画面未显示强烈的喜悦情绪，因此更符合中性。\n<answer>neutral</answer>",
+  "label": "joy",
+  "elapsed_seconds": 24.26466679573059,
+  "node_count": null,
+  "edge_count": null
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia245_utt4",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "fear",
+  "emotion_analysis": "Monica's repeated 'No-no-no, no!' with a high-pitched, urgent tone and wide eyes indicates a strong negative reaction to an unexpected event, consistent with fear.",
+  "output": "Monica's repeated 'No-no-no, no!' with a high-pitched, urgent tone and wide eyes indicates a strong negative reaction to an unexpected event, consistent with fear.\n<answer>fear</answer>",
+  "label": "fear",
+  "elapsed_seconds": 5.324424982070923,
+  "node_count": null,
+  "edge_count": null
+}

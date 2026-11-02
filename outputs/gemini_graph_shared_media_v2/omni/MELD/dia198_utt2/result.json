@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia198_utt2",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "3e5a8a4993b19ac3f6e4c36023c416407d12023be7b4a0e80d447afe6996d7d7",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "Joey的言语内容是反驳和讽刺，其手势和语气与之匹配。图谱中节点person_1描述其语气为“平稳略带反驳”，与字幕中“No-no”开头的纠正语气一致。节点person_4描述其语速平缓、尾音轻落，与音频中话语的自然结束相符。这些视听证据共同支持其情绪为中性，即在进行一种带有调侃意味的反驳，而非表达愤怒、喜悦等强烈情绪。",
+  "output": "Joey的言语内容是反驳和讽刺，其手势和语气与之匹配。图谱中节点person_1描述其语气为“平稳略带反驳”，与字幕中“No-no”开头的纠正语气一致。节点person_4描述其语速平缓、尾音轻落，与音频中话语的自然结束相符。这些视听证据共同支持其情绪为中性，即在进行一种带有调侃意味的反驳，而非表达愤怒、喜悦等强烈情绪。\n<answer>neutral</answer>",
+  "label": "anger",
+  "elapsed_seconds": 154.48690485954285
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "在frame_01至frame_06中，目标女性面部眉心微拢、眉头内侧略微上扬，眼神专注且略显不安地凝视对方，伴随身体微前倾探询的姿态[E1]；结合音轨中压低而轻柔关切的语调[E2]与字幕表达的顾虑[E3]，整体表现明确指向担忧而非单纯的悲伤或平静。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.6400768092171061",
+      "observation": "目标女性眉头内侧微微抬起并聚拢，眼神紧盯倾听者，嘴唇微张诉说，神情显现顾虑与不安。",
+      "interpretation": "眉头微蹙与探询神情构成了明显的忧虑外在表征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.0-3.5s",
+      "observation": "语调放轻、放缓，带有小心翼翼且关切的叹息感。",
+      "interpretation": "进一步印证并非愤怒或严肃质问，而是关切与担忧。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "我主要是担心这事儿会牵连到您家老爷子",
+      "observation": "台词直接陈述核心关注点在于对老人受牵连的顾虑。",
+      "interpretation": "言语语义与视觉呈现的忧虑神态完全一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "眉头微蹙与嘴角微抿可能被误读为sad，但其眼神保持主动向前交流探询且缺乏悲伤的眼眶湿润或嘴角明显下沉，故排除sad。"
+}

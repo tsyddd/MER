@@ -1,0 +1,146 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Janice看着对面的男士说话",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Janice继续说话并向对方解释",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "Janice一边比划一边对男士说话",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Janice双手交叠抱于胸前，面向对面的男士，嘴唇张合",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Janice声音上扬，带有明显的语调起伏",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Janice松开环抱的双手，在胸前张开双手比划手势",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Janice竖起右手手指在胸前比画，头部微倾，嘴唇微张",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "在灯光昏暗的餐厅内，Janice与一名男士隔着餐桌相对而坐，桌上摆放着酒瓶与餐具",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "Janice先看着对面的男士说话，随后继续向对方解释",
+      "entity_anchor": "Janice与对面的男士的互动交流"
+    },
+    {
+      "source": "process_2",
+      "target": "process_1",
+      "relation": "after",
+      "reason": "Janice在向对方解释后，进一步配合手势比划对男士说话",
+      "entity_anchor": "Janice与对面的男士的互动交流"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "Janice双手抱胸张合嘴唇说话的同时，声音上扬带有明显的语调起伏",
+      "entity_anchor": "Janice"
+    },
+    {
+      "source": "person_2",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "Janice最初双手交叠环抱于胸前，之后松开双手在胸前展开比划",
+      "entity_anchor": "Janice的肢体动作变化"
+    },
+    {
+      "source": "person_3",
+      "target": "person_2",
+      "relation": "after",
+      "reason": "Janice在张开双手比划后，接着竖起右手手指在胸前比画",
+      "entity_anchor": "Janice的肢体动作变化"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0呈现Janice开启与男士的言语交流，process_1补充其随后持续进行阐述与解释，联合后展现了由发起询问推进到进一步解释说明的连续互动过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供Janice抱胸面向男士张口说话的视觉动作，person_1提供其声音上扬、语调起伏的听觉特征，视听结合完整构成了该时刻的言语表达表现。",
+      "entity_anchor": null
+    }
+  ]
+}

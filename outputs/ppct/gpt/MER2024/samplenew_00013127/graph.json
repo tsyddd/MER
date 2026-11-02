@@ -1,0 +1,134 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "目标人物面向画面右侧人物开口说话。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "目标人物说：“以前啊，以为你圆花伶俐”。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "目标人物说：“还真是小看你了”。",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "目标人物的头部和视线朝向画面右侧人物。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "目标人物在说话过程中嘴部反复开合。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "目标人物与画面右侧一名人物面对面交流。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "场景位于有木质建筑结构和其他行人的户外环境中。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "同一人物面向同一交流对象的连续说话行为，先开口后说出前半句内容",
+      "entity_anchor": "目标人物与画面右侧人物的交流"
+    },
+    {
+      "source": "process_2",
+      "target": "process_1",
+      "relation": "after",
+      "reason": "同一人物面向同一交流对象的连续说话行为，先说出前半句后说出后半句内容",
+      "entity_anchor": "目标人物与画面右侧人物的交流"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提供目标人物面向右侧人物开口这一互动行为，process_1提供该行为中的前半段具体话语；联合后补充了说话对象与当前发言内容，形成更完整的交流过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_0",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "process_0提供目标人物面向右侧人物开口说话的行为，process_2提供后半段具体话语；联合后明确了该次互动的对象及后续表达内容，增加了当前交流过程的信息。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_1",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "process_1提供“以前啊，以为你圆花伶俐”的前段话语，process_2提供“还真是小看你了”的后段话语；联合后形成连续完整的当前发言内容，明确表达的完整语义。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供目标人物头部和视线朝向右侧人物的可见表现，person_1提供说话时嘴部反复开合的可见表现；联合后表明目标人物正面向该人物进行口头交流，补充了交流指向与说话动作。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0提供目标人物与右侧人物面对面交流的场景关系，context_1提供木质建筑结构、其他行人和户外环境等背景信息；联合后更完整限定了这场面对面交流发生的具体户外场景。",
+      "entity_anchor": null
+    }
+  ]
+}

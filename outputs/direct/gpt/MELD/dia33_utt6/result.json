@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia33_utt6",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "sadness",
+  "emotion_analysis": "Rachel抱着持续哭闹的婴儿，眉头紧皱、面露无助和焦虑，身体也在不断安抚孩子。字幕表达了长时间无法止住哭声后的困扰与无奈，整体更接近悲伤而非愤怒。",
+  "output": "Rachel抱着持续哭闹的婴儿，眉头紧皱、面露无助和焦虑，身体也在不断安抚孩子。字幕表达了长时间无法止住哭声后的困扰与无奈，整体更接近悲伤而非愤怒。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 34.60568165779114,
+  "node_count": null,
+  "edge_count": null
+}

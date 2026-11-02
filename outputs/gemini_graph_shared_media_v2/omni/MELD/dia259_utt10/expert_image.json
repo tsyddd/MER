@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "Monica displays a sequence of facial expressions and gestures that align with the content of her speech. Her mouth is open in frames 00, 03, and 06, consistent with speaking. Her eyebrows are furrowed in frames 00, 03, and 06, a common indicator of anger or strong disapproval. Her head is tilted forward and her gaze is directed forward, indicating engagement and intensity. In frame 02, she briefly smiles, but this is immediately followed by a return to a more serious expression, suggesting the smile is not genuine but possibly a nervous tic or a momentary break in her frustration. The combination of furrowed brows and assertive speech points to anger.",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "Monica's eyebrows are furrowed and her mouth is open.",
+      "interpretation": "This combination of facial features is a strong visual cue for anger or frustration.",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 2.127",
+      "observation": "Monica's eyebrows are furrowed and her mouth is open.",
+      "interpretation": "The sustained furrowed brow during speech reinforces the expression of anger.",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_06 @ 4.213",
+      "observation": "Monica's eyebrows are furrowed and her mouth is open.",
+      "interpretation": "The expression is consistent with the delivery of a strong, negative statement.",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "subtitle",
+      "anchor": "The joke is not funny, and it's offensive to women, and doctors, and monkeys!",
+      "observation": "The subtitle contains the words 'not funny' and 'offensive'.",
+      "interpretation": "The content of the speech is explicitly negative and accusatory, which is consistent with the visual expression of anger.",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "The brief smile in frame_02 could be interpreted as a sign of nervousness or a forced smile, which might suggest a different emotion. However, this is a very short-lived expression that is immediately followed by a return to a furrowed-brow, angry expression, making it an anomaly rather than a dominant emotion."
+}

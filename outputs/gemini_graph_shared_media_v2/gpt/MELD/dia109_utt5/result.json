@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia109_utt5",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "d1e48fb5bc9702767bb92c6beba55179a3e73274b2c9fb39f96f11cbbfe48c20",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "目标是画面右侧与前景男子交谈的Janice；她起初抱臂，随后指点、前倾，至第6帧明显蹙眉，末帧又抱臂侧看对方，[image:E1][image:E2][image:E3]对这一变化的记录可信，但手势本身不能证明愤怒。字幕中“your theater of cruelty”指向对方，[audio_subtitle:E1]将其理解为讽刺性指责，与后段紧绷的表情相符。夸张的木偶说法也可能是玩笑，但后段的定向不满使anger更贴切；未提供音轨，不能用语气排除玩笑解释。",
+  "output": "目标是画面右侧与前景男子交谈的Janice；她起初抱臂，随后指点、前倾，至第6帧明显蹙眉，末帧又抱臂侧看对方，[image:E1][image:E2][image:E3]对这一变化的记录可信，但手势本身不能证明愤怒。字幕中“your theater of cruelty”指向对方，[audio_subtitle:E1]将其理解为讽刺性指责，与后段紧绷的表情相符。夸张的木偶说法也可能是玩笑，但后段的定向不满使anger更贴切；未提供音轨，不能用语气排除玩笑解释。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 79.9223358631134
+}

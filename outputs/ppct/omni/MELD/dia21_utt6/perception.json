@@ -1,0 +1,159 @@
+{
+  "process": {
+    "nodes": [
+      {
+        "id": "process_0",
+        "type": "process",
+        "content": "Phoebe speaks to Chandler.",
+        "evidence_sources": [
+          "audio"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "process_1",
+        "type": "process",
+        "content": "Chandler turns his head to face Phoebe.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 5,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "process_2",
+        "type": "process",
+        "content": "Chandler smiles at Phoebe.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 5,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  },
+  "person": {
+    "nodes": [
+      {
+        "id": "person_0",
+        "type": "person",
+        "content": "Phoebe has blonde hair and is wearing a pink and white plaid sleeveless top.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_1",
+        "type": "person",
+        "content": "Chandler has brown hair and is wearing a dark brown shirt.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_2",
+        "type": "person",
+        "content": "Phoebe's mouth is open as she speaks.",
+        "evidence_sources": [
+          "visual",
+          "audio"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_3",
+        "type": "person",
+        "content": "Phoebe's right hand is on Chandler's chest.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_4",
+        "type": "person",
+        "content": "Chandler's head is turned towards Phoebe.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 5,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_5",
+        "type": "person",
+        "content": "Chandler's mouth is open as he speaks.",
+        "evidence_sources": [
+          "visual",
+          "audio"
+        ],
+        "time_index": 5,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  },
+  "context": {
+    "nodes": [
+      {
+        "id": "context_0",
+        "type": "context",
+        "content": "The scene takes place indoors.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "context_1",
+        "type": "context",
+        "content": "Phoebe and Chandler are the only people in the scene.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "context_2",
+        "type": "context",
+        "content": "Phoebe is speaking to Chandler.",
+        "evidence_sources": [
+          "audio"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "context_3",
+        "type": "context",
+        "content": "Chandler is responding to Phoebe.",
+        "evidence_sources": [
+          "audio"
+        ],
+        "time_index": 5,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  }
+}

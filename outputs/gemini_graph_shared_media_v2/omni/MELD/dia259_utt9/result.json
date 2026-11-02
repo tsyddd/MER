@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia259_utt9",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "db05c16c44916312cd44a75a33353218abec775c99c4678488d5f402e1804724",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "音频中说话者以高音量、尖锐的语调说出“You are both idiots.”，这是愤怒情绪的典型表现，直接支持了“anger”的判断。字幕内容与音频语调一致，表明其情绪是愤怒而非中性或开玩笑。视觉上，她的表情紧绷，眉头微皱，与愤怒情绪相符。虽然图谱专家认为其姿态克制，但音频和字幕证据的指向性更强，且与视觉表现一致，因此应优先采纳。",
+  "output": "音频中说话者以高音量、尖锐的语调说出“You are both idiots.”，这是愤怒情绪的典型表现，直接支持了“anger”的判断。字幕内容与音频语调一致，表明其情绪是愤怒而非中性或开玩笑。视觉上，她的表情紧绷，眉头微皱，与愤怒情绪相符。虽然图谱专家认为其姿态克制，但音频和字幕证据的指向性更强，且与视觉表现一致，因此应优先采纳。\n<answer>anger</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 143.20025300979614
+}

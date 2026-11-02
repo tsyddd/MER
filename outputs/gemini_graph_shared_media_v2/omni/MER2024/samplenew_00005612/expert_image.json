@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标人物在多个帧中保持严肃、坚定的表情，眼神专注，姿态稳定，没有明显的情绪波动。字幕内容为请求转交文件，语气正式，与视觉表现一致。无任何迹象表明其情绪为愤怒、悲伤或惊讶。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "目标人物面部表情严肃，嘴唇微张，视线朝向画面右侧，姿态稳定。",
+      "interpretation": "该表情和姿态表明其处于专注或陈述状态，与中性情绪相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.6",
+      "observation": "目标人物持续保持严肃表情，视线未发生明显变化，姿态稳定。",
+      "interpretation": "缺乏情绪波动的视觉证据，支持中性情绪判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "字幕: 兄弟，转交，给总理，过目。",
+      "observation": "字幕内容为正式请求，语气平稳。",
+      "interpretation": "字幕内容与视觉表现一致，支持中性情绪判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_06 @ 1.8",
+      "observation": "目标人物在说话时，面部肌肉紧绷，但无明显情绪化特征。",
+      "interpretation": "该表现更符合严肃陈述，而非强烈情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无明确反证。"
+}

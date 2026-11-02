@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia153_utt11",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "fear",
+  "emotion_analysis": "Chandler's facial expression shows raised eyebrows and a tense mouth, and his hand gesture is dismissive. His statement about 'peeing every which way' under threat is delivered with a tone of nervousness and self-deprecating humor, indicating fear.",
+  "output": "Chandler's facial expression shows raised eyebrows and a tense mouth, and his hand gesture is dismissive. His statement about 'peeing every which way' under threat is delivered with a tone of nervousness and self-deprecating humor, indicating fear.\n<answer>fear</answer>",
+  "label": "fear",
+  "elapsed_seconds": 6.67811131477356,
+  "node_count": null,
+  "edge_count": null
+}

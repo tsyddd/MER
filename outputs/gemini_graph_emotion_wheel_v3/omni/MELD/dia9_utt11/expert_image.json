@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "Rachel的面部表情和姿态表现出明显的悲伤和失落。她先是睁大眼睛，嘴巴微张，似乎在陈述一个令人震惊的事实，随后视线向下，表情变得低落，身体姿态也显得有些垮塌。她的手势指向自己的衣物，强调了损失的个人物品。这些视觉线索与她所说的内容“Everything's ruined. My bed. My clothes. Look at my favorite blue sweater.”高度一致，共同指向一种因失去个人财物而产生的悲伤情绪。",
+  "open_emotion": "悲伤",
+  "answer": "sadness",
+  "mapping_reason": "根据MELD项目的情绪轮定义，'sadness'指因失落、损失或痛苦而难过、哀伤或低落。Rachel的视觉表现（低落的眼神、垮塌的姿态）和她所描述的“我的床、我的衣服、我最喜欢的蓝色毛衣都毁了”这一具体损失，都明确指向了因财产损失而产生的悲伤情绪。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "Rachel的眉毛微微皱起，眼睛睁大，嘴巴微张，表情显得惊讶和担忧。",
+      "interpretation": "这一表情是她开始陈述“一切都毁了”时的初始反应，表明她对当前状况的震惊和负面评价。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01",
+      "observation": "Rachel的视线向下，表情变得低落，身体姿态显得有些垮塌。",
+      "interpretation": "这一姿态和表情是悲伤情绪的典型表现，与她所描述的损失内容相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02",
+      "observation": "Rachel的手指指向自己的衣物，强调了她正在谈论的个人物品。",
+      "interpretation": "这一手势加强了她话语中的情感，表明这些物品对她有特殊意义，它们的损失加剧了她的悲伤。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "subtitle",
+      "anchor": "My bed. My clothes. Look at my favorite blue sweater.",
+      "observation": "字幕显示Rachel正在描述她失去的个人物品。",
+      "interpretation": "这些话语直接说明了她悲伤的原因，即个人财物的损失。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有明显的证据表明Rachel的情绪是愤怒、厌恶或恐惧。她的表情和姿态是低落和悲伤的，而不是对抗或惊恐的。"
+}

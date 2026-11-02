@@ -1,0 +1,100 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "说话人向同学们提问关于小毛驴的问题。",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "一名男同学举手并大声回答“我知道”。",
+      "time_index": 6,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "一名女性，穿着浅色带领衬衫，面向前方，嘴部开合，正在说话。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "一名男同学，穿着浅色衬衫，张着嘴，正在大声回答。",
+      "time_index": 6,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "场景为一个室内环境，背景有窗户和黑板。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "说话人正在与多名同学进行交流。",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "同一人物的同一可观察表现",
+      "entity_anchor": "同一人物"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0的听觉信息（提问）与process_1的听觉信息（回答）共同构成了一个完整的课堂问答过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0的视觉表现（说话）与person_1的视觉表现（回答）共同构成了一个完整的问答互动过程，联合后形成了可观察的课堂交流场景。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0的视觉信息（教室环境）与context_1的听觉信息（与同学交流）共同限定了一个完整的课堂任务场景。",
+      "entity_anchor": null
+    }
+  ]
+}

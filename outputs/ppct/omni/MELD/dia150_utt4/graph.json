@@ -1,0 +1,86 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Janice says 'Good-bye Chandler Bing.'",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Janice is standing with her arms crossed and her right hand touching her neck.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Chandler is sitting and looking down.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "A man in a grey shirt is sitting with his back to the camera.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "The scene is set in the Central Perk coffee shop.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "Janice is speaking to Chandler.",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0's visual posture (arms crossed, hand on neck) and person_1's visual posture (sitting, looking down) jointly provide a complete picture of their interaction, showing Janice's assertive stance and Chandler's passive, possibly uncomfortable, response.",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0's visual evidence (the 'Central Perk' sign) and context_1's audio evidence (Janice addressing Chandler) jointly establish the specific location and the direct addressee of the farewell, providing a complete context for the interaction.",
+      "entity_anchor": null
+    }
+  ]
+}

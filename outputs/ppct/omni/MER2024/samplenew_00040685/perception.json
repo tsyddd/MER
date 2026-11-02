@@ -1,0 +1,69 @@
+{
+  "process": {
+    "nodes": [
+      {
+        "id": "process_0",
+        "type": "process",
+        "content": "说话人正在对另一个人说话。",
+        "evidence_sources": [
+          "audio"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  },
+  "person": {
+    "nodes": [
+      {
+        "id": "person_0",
+        "type": "person",
+        "content": "说话人，男性，头戴金色冠饰，身穿带有金色刺绣的棕色古装，面部有胡须，正在对另一人说话。",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_1",
+        "type": "person",
+        "content": "另一人，男性，仅在画面左侧部分可见，背对镜头。",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  },
+  "context": {
+    "nodes": [
+      {
+        "id": "context_0",
+        "type": "context",
+        "content": "场景为室内，背景有深色带有图案的墙壁。",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "context_1",
+        "type": "context",
+        "content": "说话人正在向另一人陈述一件往事。",
+        "evidence_sources": [
+          "audio"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  }
+}

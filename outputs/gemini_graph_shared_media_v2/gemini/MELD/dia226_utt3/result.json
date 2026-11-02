@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia226_utt3",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "554a2426d1927843a8eb1d72198c70c94dfcdf5ba4a53d703518ea9653b7a645",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "独立核实可见Rachel在与Phoebe交谈时体态舒展自然，手势平稳随言语起伏比划[image:E1]，神情未见持续显著的痛苦或哀伤皱缩[image:E2]。核听实际音轨，其语调虽带轻微感叹与诉求，但语速均匀平缓，未体现[audio_subtitle:E1]所述的显著失落哭腔或沉重叹息。综合言语内容与视听线索，这属于日常对话中的平静倾诉，判定为中性。",
+  "output": "独立核实可见Rachel在与Phoebe交谈时体态舒展自然，手势平稳随言语起伏比划[image:E1]，神情未见持续显著的痛苦或哀伤皱缩[image:E2]。核听实际音轨，其语调虽带轻微感叹与诉求，但语速均匀平缓，未体现[audio_subtitle:E1]所述的显著失落哭腔或沉重叹息。综合言语内容与视听线索，这属于日常对话中的平静倾诉，判定为中性。\n<answer>neutral</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 72.59832549095154
+}

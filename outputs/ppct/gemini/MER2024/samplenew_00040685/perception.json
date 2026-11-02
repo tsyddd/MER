@@ -1,0 +1,105 @@
+{
+  "process": {
+    "nodes": [
+      {
+        "id": "process_0",
+        "type": "process",
+        "content": "目标人物面向左侧男子说话，讲述“铜木人一案”",
+        "evidence_sources": [
+          "visual",
+          "audio"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "process_1",
+        "type": "process",
+        "content": "目标人物继续说话，表示“父皇本已对我起了疑心”",
+        "evidence_sources": [
+          "visual",
+          "audio"
+        ],
+        "time_index": 1,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "process_2",
+        "type": "process",
+        "content": "目标人物继续说出“可当我拿着铜木人去求他的时候”",
+        "evidence_sources": [
+          "visual",
+          "audio"
+        ],
+        "time_index": 2,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  },
+  "person": {
+    "nodes": [
+      {
+        "id": "person_0",
+        "type": "person",
+        "content": "目标人物面朝左侧注视对方，双目圆睁，嘴唇开合",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_1",
+        "type": "person",
+        "content": "目标人物说话语调低缓沉稳，语速平稳，中间伴有停顿",
+        "evidence_sources": [
+          "audio"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_2",
+        "type": "person",
+        "content": "目标人物眉毛微挑，目光固定在左侧人物方向，面部表情紧绷",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 1,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_3",
+        "type": "person",
+        "content": "目标人物上身保持坐立姿态，头部轻微点动配合言语",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 2,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  },
+  "context": {
+    "nodes": [
+      {
+        "id": "context_0",
+        "type": "context",
+        "content": "室内暗光环境，背景有屏风与微弱灯火，左前方有一名背对镜头的男子在场并听其叙述",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  }
+}

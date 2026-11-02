@@ -1,0 +1,81 @@
+{
+  "process": {
+    "nodes": [
+      {
+        "id": "process_0",
+        "type": "process",
+        "content": "灰衣束发男子说出“也不知道，当年，三哥”",
+        "evidence_sources": [
+          "visual",
+          "audio"
+        ],
+        "time_index": 1,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  },
+  "person": {
+    "nodes": [
+      {
+        "id": "person_0",
+        "type": "person",
+        "content": "头戴发冠的男子侧身微倾，右手抬至胸前，目光垂向地面",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_1",
+        "type": "person",
+        "content": "灰衣束发男子微低着头，视线垂向下方，嘴唇微动",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 1,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_2",
+        "type": "person",
+        "content": "说话声语调低沉、语速平缓",
+        "evidence_sources": [
+          "audio"
+        ],
+        "time_index": 1,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  },
+  "context": {
+    "nodes": [
+      {
+        "id": "context_0",
+        "type": "context",
+        "content": "室内陈设古朴木质屏风与门窗",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "context_1",
+        "type": "context",
+        "content": "镜头切换为灰衣束发男子的近景",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 1,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  }
+}

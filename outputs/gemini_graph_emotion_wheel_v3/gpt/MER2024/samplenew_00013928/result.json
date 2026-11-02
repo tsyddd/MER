@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00013928",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "49b9882ec6625c755d0ee37646065921d1bf3d3dd712f15713cb364e31bc4877",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "开心",
+      "mapped_label": "happy",
+      "mapping_reason": "她当前的笑容及正向交流支持愉悦表达，故将“开心”映射为happy；问及收获并不表示对方确已获得收获。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "欣喜",
+      "mapped_label": "happy",
+      "mapping_reason": "当前肯定对方的表达与持续笑容共同支持正向愉悦，符合happy；并非仅凭疑问句或笑容单独定类。"
+    },
+    "image": {
+      "open_emotion": "愉快",
+      "mapped_label": "happy",
+      "mapping_reason": "持续的笑容、活跃的指向动作和鼓励性话语，支持当前的正向愉悦表达，因此映射为happy。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "happy",
+  "emotion_analysis": "前景黑衣女子从frame_00到frame_07持续露出笑容，举起纸张朝画面外的人示意，放下手后仍笑着交谈；[image:E1][image:E2]对目标和表情变化的描述可信，重复的笑容只算一项视觉证据。她说“我可看好你呀”，frame_05至frame_07的画面字幕又显示“怎么样 收获大大的吧”，肯定与询问相连，支持当前愉快、热络的表达[audio_subtitle:E1]。笑容也可能带有礼貌成分，问句本身更不能证明惊讶，但结合持续表情和主动互动，愉快比平稳中性更贴切。未提供音轨，不依据语调判断。",
+  "output": "前景黑衣女子从frame_00到frame_07持续露出笑容，举起纸张朝画面外的人示意，放下手后仍笑着交谈；[image:E1][image:E2]对目标和表情变化的描述可信，重复的笑容只算一项视觉证据。她说“我可看好你呀”，frame_05至frame_07的画面字幕又显示“怎么样 收获大大的吧”，肯定与询问相连，支持当前愉快、热络的表达[audio_subtitle:E1]。笑容也可能带有礼貌成分，问句本身更不能证明惊讶，但结合持续表情和主动互动，愉快比平稳中性更贴切。未提供音轨，不依据语调判断。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 68.41413426399231
+}

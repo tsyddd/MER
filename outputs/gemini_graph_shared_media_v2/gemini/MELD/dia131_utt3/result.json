@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia131_utt3",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "cd3d3c8c807c19df6b632ee4fea884ed6da5a8289e78f2f9813b77504e417e13",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物进门陈述'Oh, everything went great'时，实际音轨节奏平稳、语调呈自然的下行陈述，并无明显的笑腔或音高跃升，[audio:audio_subtitle:E1]的听觉核查可信度显著优于[graph:E2]对'欢快上扬'的主观夸大。画面中（frame 5至7）Rachel神情平静、嘴角未见上扬，其摊手动作仅为日常对话中的解释性身态[image:E2]，而非雀跃激动的积极表达。台词中的正面词汇在此仅用于客观说明事件结果顺利，音视觉证据均显示其处于平静日常的克制状态，故排除joy判定为中性。",
+  "output": "目标人物进门陈述'Oh, everything went great'时，实际音轨节奏平稳、语调呈自然的下行陈述，并无明显的笑腔或音高跃升，[audio:audio_subtitle:E1]的听觉核查可信度显著优于[graph:E2]对'欢快上扬'的主观夸大。画面中（frame 5至7）Rachel神情平静、嘴角未见上扬，其摊手动作仅为日常对话中的解释性身态[image:E2]，而非雀跃激动的积极表达。台词中的正面词汇在此仅用于客观说明事件结果顺利，音视觉证据均显示其处于平静日常的克制状态，故排除joy判定为中性。\n<answer>neutral</answer>",
+  "label": "joy",
+  "elapsed_seconds": 141.16070246696472
+}

@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "她说“我主要是担心这事儿会牵连到您家老爷子”，直接表达对尚未发生的负面后果的顾虑[E1]。说到可能“牵连”对方家人时，她眉头蹙起、神情严肃，与话语中的担忧一致[E2]。片段没有提供音频，不能据此判断语调或音量。",
+  "open_emotion": "担心",
+  "answer": "worried",
+  "mapping_reason": "担忧的对象是这件事可能带来的后续牵连，属于对未来负面结果的顾虑，因此映射为worried。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“我主要是担心这事儿会牵连到您家老爷子。”",
+      "observation": "说话者以“我主要是担心”表明态度，并指出“会牵连到”对方家人这一可能后果。",
+      "interpretation": "这是对未确定风险的明确顾虑，而非仅仅提到一件坏事。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02（1.320秒）至frame_05（3.280秒）",
+      "observation": "说话女子眉头蹙起，面向对方继续说话，神情严肃。",
+      "interpretation": "视觉表现与她表达顾虑的内容相符，但单凭表情不能确定情绪类别。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是她只是在冷静提醒对方风险；但“我主要是担心”明确指向她当前的顾虑。无音频，无法进一步核查声音中的情绪强度。"
+}

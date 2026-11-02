@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00014357",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "1c1a5d8dd0e2d03d755669d8aca384a001216ff52b560b1e66824436e87c8a0f",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "happy",
+  "emotion_analysis": "目标人物在多个帧中持续表现出露齿微笑和眼角皱纹，是快乐情绪的直接视觉证据。其说出的字幕内容为赞美之词，与笑容在语义上一致。音频证实其语调轻快上扬，与视觉表现同步。三位专家的证据均一致支持该判断，其中[graph:E1]描述了其积极的言语行为，[audio_subtitle:E1]和[image:E1]分别从音频和视觉角度提供了直接证据，三者互补且无冲突。",
+  "output": "目标人物在多个帧中持续表现出露齿微笑和眼角皱纹，是快乐情绪的直接视觉证据。其说出的字幕内容为赞美之词，与笑容在语义上一致。音频证实其语调轻快上扬，与视觉表现同步。三位专家的证据均一致支持该判断，其中[graph:E1]描述了其积极的言语行为，[audio_subtitle:E1]和[image:E1]分别从音频和视觉角度提供了直接证据，三者互补且无冲突。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 142.85267853736877
+}

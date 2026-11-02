@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物在对话中表达强烈的道谢，语调轻快上扬且饱含真切笑意，配合双手合十作揖与眼角弯起的笑意，呈现出明显积极、亲和且愉快的心理状态，属于正向情感表达。",
+  "open_emotion": "欣喜感激",
+  "answer": "happy",
+  "mapping_reason": "目标人物当前的真诚道谢伴随明显的笑意与热络语调，情绪体验高度正向愉悦，符合happy家族中欣喜、满足与正向人际互动的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "正要感谢您呢！谢谢！谢，谢谢。",
+      "observation": "台词表达直接感谢，连续使用叹号和重复致谢词语。",
+      "interpretation": "显示出其在言语互动中的主动热情与积极反馈态度。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.0-2.6秒",
+      "observation": "语调轻快上扬，语速连贯且伴随明显的含笑气息，重音落在“感谢”和“谢谢”上。",
+      "interpretation": "声音听觉特征呈现充沛的正向活力与真诚愉悦感，排除了机械客套。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05至frame_07",
+      "observation": "目标人物双手合十拜谢，戴着口罩的上半脸部眉眼明显弯起呈笑眼形态。",
+      "interpretation": "视觉体态与面部表情印证了声音传达出的亲切与开心情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "如果仅将该行为视作社交礼节性的寒暄客套，可能被误判为平淡的neutral，但其连续由衷的笑意语调和动作幅度明确超越了中性交流。"
+}

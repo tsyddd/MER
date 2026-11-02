@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "Chandler原本面向男士，随后转向刚出现的女子并改口招呼她；图谱节点process_0、process_2和process_3记录了这段当前互动的先后关系，但节点顺序本身不能证明他为何改口。[E1][E2] 字幕中的话语中断、突然的“Hi!”及重复提问，结合画面里的转身摊手，更支持他在当下有些措手不及，判断为surprise。[E2][E3] 未提供原音轨，不能据图谱转述断定实际语速或语调。[E4]",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_0, process_1, process_2, process_3",
+      "observation": "节点依次记述Chandler对男士说话、女子走出、他转向女子打招呼并继续提问。",
+      "interpretation": "明确这是Chandler当前转换对话对象的互动，而非女子的情绪或已经发生的跌落；顺序不单独构成情绪证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.9592909218755783秒；frame_04 @ 3.837163687502313秒",
+      "observation": "Chandler转身面向女子，随后朝她伸出摊开的手。",
+      "interpretation": "动作与突然改换对话对象相吻合，支持措手不及的判断，但摊手也可能只是普通交谈手势。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“Jeez, man did you fall.. Hi! So ah, did ya, did-did-did ya fall high?”",
+      "observation": "对男士的话未说完便出现“Hi!”，接着的提问含停顿式重复。",
+      "interpretation": "话语形式支持临时转向女子时的迟疑；问题本身不能证明有人真的跌落。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "节点称Chandler说话时有停顿与重复，并描述语速表现；本输入没有原音轨。",
+      "interpretation": "重复可与字幕核对，实际语速及语调只能保留为未亲耳核验的图谱转述。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "他也可能只是礼貌地向女子打招呼，摊手和重复提问不足以单独证明惊讶；但话语中断、对话对象转换及画面动作共同支持当下的措手不及，故未选neutral。"
+}

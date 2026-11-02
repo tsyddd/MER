@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia224_utt2",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "1a93519324deb7114b711ca1273c4ab6d476608084d6a740754472aedd789a3b",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "三份专家报告均一致指向目标人物无情绪波动：graph指出语调平缓、环境安静且无动作反应；audio_subtitle描述语调低沉缓慢、平稳无情绪；image显示表情平静、无情绪变化。所有证据来源相互支持，无冲突。",
+  "output": "三份专家报告均一致指向目标人物无情绪波动：graph指出语调平缓、环境安静且无动作反应；audio_subtitle描述语调低沉缓慢、平稳无情绪；image显示表情平静、无情绪变化。所有证据来源相互支持，无冲突。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 35.225045919418335
+}

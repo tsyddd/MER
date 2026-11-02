@@ -1,0 +1,78 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "说话人对另一人说“没想到，你竟然这么傻。”",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "说话人，女性，穿着紫色上衣，头发梳起，有发饰，面部表情悲伤，正在哭泣，嘴部有说话动作。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "另一人，女性，穿着浅蓝色上衣，戴着黑色帽子，侧脸对着说话人。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "场景在室外，背景有模糊的建筑和绿色植物。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "说话人正在与另一人进行对话。",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio",
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0 提供了说话者在对话中的具体表现（悲伤哭泣、嘴部动作），person_1 提供了对话对象的在场与互动姿态，联合后明确了这是一个双方参与的、带有情绪色彩的对话场景。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0 提供了室外环境的视觉信息，context_1 提供了人物间对话的互动信息，联合后将抽象的互动限定在了具体的室外场景中。",
+      "entity_anchor": null
+    }
+  ]
+}

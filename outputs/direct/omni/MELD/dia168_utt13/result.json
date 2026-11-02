@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia168_utt13",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "Ross's facial expression shows wide eyes and an open mouth, indicating shock. His tone of voice is high-pitched and urgent, matching the confrontational content of his words, which points to a state of surprise.",
+  "output": "Ross's facial expression shows wide eyes and an open mouth, indicating shock. His tone of voice is high-pitched and urgent, matching the confrontational content of his words, which points to a state of surprise.\n<answer>surprise</answer>",
+  "label": "anger",
+  "elapsed_seconds": 6.132040977478027,
+  "node_count": null,
+  "edge_count": null
+}

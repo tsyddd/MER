@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "字幕“我也不想跟你分开。”是直接表达不愿分离的情感陈述，不是疑问、反讽或引述；结合目标人物低垂视线、眼睑收紧和克制的面部表情，当前更像带有离别失落的悲伤，而非中性表达。[E1][E2]",
+  "answer": "sad",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "当前字幕原话“我也不想跟你分开。”",
+      "observation": "目标人物明确说自己不想与对方分开。",
+      "interpretation": "内容指向对分离的抗拒和失落，支持悲伤情绪；但仅凭字面不能单独确定强烈悲伤。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00至frame_05 @ 0.0至1.4秒",
+      "observation": "目标人物面向对方时视线下垂，眼睑收紧，嘴角下压，整体表情克制而低落。",
+      "interpretation": "这些可见表情与字幕中的分离不舍一致，支持当前存在悲伤。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_06至frame_07 @ 1.68至1.96秒",
+      "observation": "后段仍保持低头和沉静的面部状态，没有明显笑容或惊讶表情。",
+      "interpretation": "削弱happy和surprise等替代标签，但画面不足以判断悲伤强度。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是担忧或克制的忧虑：短句也可能是在平静地表达依恋，且当前没有可用音频，无法核实语调、停顿或音质。仅凭画面不能完全区分sad与worried；但低垂视线、下压嘴角及“分开”的明确语义更直接支持sad。"
+}

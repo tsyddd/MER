@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是街机旁的女性Monica，而非画面左侧的男子。她先转头看向对方，随后抬手强调话语，面部从较收敛转为睁眼、露齿的紧绷表达[E1][E2]。这些变化本身不能单独证明害怕；结合字幕中她说Ben今晚要来、而且不能看见“这个”[E3]，最有支持的解释是她在担忧即将发生的不利情况。",
+  "open_emotion": "担忧",
+  "answer": "fear",
+  "mapping_reason": "这里的担忧指向Ben到来后看见眼前事物这一预期中的负面后果，因此近似映射到fear；画面不足以支持强烈的恐惧。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.000秒）至frame_05（1.668秒）",
+      "observation": "Monica持续转头看向左侧的人；起初嘴唇闭合，之后睁眼、张口，至frame_05露齿且嘴角绷紧。",
+      "interpretation": "表情随交谈变得更紧，支持她对所说事情有所顾虑，但露齿并不能单独判定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03（1.001秒）至frame_07（2.336秒）",
+      "observation": "她抬起右手朝街机方向做短促手势，随后低头转回街机。",
+      "interpretation": "手势和转身显示她在强调眼前事物；手势本身不证明恐惧。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "But Ben is coming over tonight and he can’t see this.",
+      "observation": "字幕表明Ben今晚会来，而她认为他不能看见“这个”。",
+      "interpretation": "为画面中的紧绷表达提供了具体的负面后果预期。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "她没有明显退缩或惊恐动作，露齿表情也可能是说话时的强调，而非畏惧。没有提供音频，无法依据语调进一步区分担忧与急切。"
+}

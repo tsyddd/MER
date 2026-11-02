@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "结合当前面对面交谈的互动情境，目标年长女性在蓝衣女性低头沉默时身体前倾、眉头紧锁[E1, E2]，并伴随关切探询的语气提问[E3, E4]；图谱节点[person_0]与[process_0]所展现的专注前倾及对家中异常事件的追问，清晰表明其情绪指向担忧焦虑（worried）而非单纯的平静中立。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "图谱记录年长女性一手握茶杯，上身微向前倾，视线持续注视低头的蓝衣女性",
+      "interpretation": "前倾探询的肢体语言显示出其对对话方状态的强烈专注与不安，支持担忧情绪",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.6s",
+      "observation": "年长女性双眉微蹙、嘴角略向下耷拉，神色紧绷地凝视对方",
+      "interpretation": "紧锁的眉头与焦虑关切的神态直接反映出其内心担忧",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "是不是？家里又出什么事了？",
+      "observation": "台词内容为对家中是否发生不良事件的主动探问",
+      "interpretation": "语言语义具有明显的危机预警与忧虑色彩，排除了轻松或中立提问的可能",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "发音轻缓且语调急切上扬，带着压低的关切探询感",
+      "interpretation": "听觉特征与疑虑、关切的心理状态高度一致，印证担忧情绪",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "可能被解释为客观询问事实的平静中立（neutral），但其微蹙的眉头、紧绷的面部及探询家庭变故的焦急语意均排除了无情绪的中立状态。"
+}

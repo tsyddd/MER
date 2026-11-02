@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "Joey是在向他人举例说明如何应对“恐高”，不是说自己此刻害怕；“去楼顶”也是话语中的假设，非已发生的行动[E1][E2]。画面中，他皱眉、绷紧面部并连续抬手指向谈话对象，更支持当前表达带有恼怒，而非平静陈述[E3][E4]。字幕开头与图谱引语不一致，且未提供原音轨，因此不以图谱转述的措辞或语气作定论。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_0、process_1",
+      "observation": "图谱将Joey的话组织为先提出恐高情形、再说去楼顶。",
+      "interpretation": "这描述的是他提出的应对情形，不是Joey本人正在恐惧；图谱所涉声音内容未经原音轨核验。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "It have a fear of heights, you go to the top of the building!",
+      "observation": "当前字幕谈及恐高和去楼顶；开头“It have”与图谱的“You have”不一致。",
+      "interpretation": "语义上是在举例或提出做法，不能仅凭“fear”判断Joey的情绪，也不能确定图谱引语的准确措辞。",
+      "polarity": "uncertain"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.251249028533363秒",
+      "observation": "Joey看向画面左侧的谈话方向，眉头紧皱、面部绷紧，同时抬手做强调动作。",
+      "interpretation": "紧绷的表情与强调动作共同支持恼怒的表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_05 @ 2.127123348506717秒",
+      "observation": "Joey仍皱眉，伸出手指指向谈话方向。",
+      "interpretation": "持续针对谈话对象的指点和紧绷表情，比单次说明性手势更支持恼怒。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "他也可能只是在激动地解释一个例子，指点本身不能证明愤怒；但连续画面中的紧皱眉头和绷紧面部使“完全平静的说明”较不符合当前可见表达。没有原音轨，无法进一步核验语气。"
+}

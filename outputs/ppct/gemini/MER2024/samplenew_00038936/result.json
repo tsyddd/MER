@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00038936",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "白衣女子在与男子交流时神态平静放松，节点person_0和person_1同步表明其目视对方且语调平缓自然。随着process_0至process_1提及意外事件，其动作经由低头斟酌（person_2）再重新注视男子（person_3），语气和神色始终克制温和，没有明显的担忧或惊慌波动，整体处于平静客观的叙述状态。",
+  "output": "白衣女子在与男子交流时神态平静放松，节点person_0和person_1同步表明其目视对方且语调平缓自然。随着process_0至process_1提及意外事件，其动作经由低头斟酌（person_2）再重新注视男子（person_3），语气和神色始终克制温和，没有明显的担忧或惊慌波动，整体处于平静客观的叙述状态。\n<answer>neutral</answer>",
+  "label": "worried",
+  "elapsed_seconds": 51.29462718963623,
+  "node_count": 7,
+  "edge_count": 6
+}

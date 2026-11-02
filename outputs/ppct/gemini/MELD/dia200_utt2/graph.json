@@ -1,0 +1,190 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Joey sits on the kitchen counter and speaks to Chandler and Ross",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Joey gestures outward toward Chandler and Ross while continuing to speak",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "Joey asks who took it and lowers his hands",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Joey rests his left hand on his chest while talking",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Ross sits hunched forward with his hand resting on his forehead",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Chandler sits between them with his arms crossed over his knees and looks downward",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Joey extends his left hand open toward the others",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_4",
+      "type": "person",
+      "content": "Ross lowers his hand from his forehead to support his chin",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_5",
+      "type": "person",
+      "content": "Joey places both hands onto his lap and looks toward Ross and Chandler",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "In an apartment kitchen setting, Joey, Chandler, and Ross are gathered together discussing a missing item",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "Joey向钱德勒和罗斯伸出单手比划发生在他在厨房柜台上坐着开始说话之后",
+      "entity_anchor": "Joey"
+    },
+    {
+      "source": "process_2",
+      "target": "process_1",
+      "relation": "after",
+      "reason": "Joey放下双手询问究竟是谁拿的发生在向两人伸手比划说话之后",
+      "entity_anchor": "Joey"
+    },
+    {
+      "source": "person_3",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "Joey向前张开左手朝向他人发生在他将左手按在自己胸前之后",
+      "entity_anchor": "Joey"
+    },
+    {
+      "source": "person_5",
+      "target": "person_3",
+      "relation": "after",
+      "reason": "Joey将双手收回放在腿上发生在他向前伸出左手手掌之后",
+      "entity_anchor": "Joey"
+    },
+    {
+      "source": "person_4",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "Ross将手从额头移开托住下巴发生在他双手扶额低头坐着之后",
+      "entity_anchor": "Ross"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0呈现乔伊坐在柜台上对钱德勒和罗斯说话，process_1补充了他说话时向两人向外比划手势的动态，联合后展现了乔伊从开口陈述到主动用手势指向听众施加互动的完整交际过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_1",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "process_1记录了乔伊说话间向两人展开手势的动作，process_2补充了提问谁拿了后收回并放下双手的动作，联合后完整展现了乔伊从向对方求证到发问后收束动作的互动展开与收尾过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_0呈现乔伊说话时左手按胸指代自身，person_3补充了他随后将左手展开指向对方，联合后完整呈现了乔伊手势从指代自我转向指向对方的指示性肢体语言变化。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_4",
+      "relation": "person_joint",
+      "reason": "person_1展现罗斯身体前倾并用手捂住额头，person_4补充了他将手从额头移下托住下巴的动作，联合后展现了罗斯在倾听过程中保持蜷缩并转换手部支撑位置的连续体态细节。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_3",
+      "target": "person_5",
+      "relation": "person_joint",
+      "reason": "person_3展现乔伊向他人伸开左手进行表达，person_5补充了其随后将双手放回大腿并注视两人的体态，联合后展现了乔伊从强调手势到归位等待回应的完整动作轨迹。",
+      "entity_anchor": null
+    }
+  ]
+}

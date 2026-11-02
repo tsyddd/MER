@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "Monica从背景走向前景，并大声说出带有质问语气的台词，其动作与话语同步，表现出一种主动介入并打断当前情境的姿态。她的面部表情（张嘴、注视前方）与高音量、上扬尾音的语调相结合，共同指向一种因意外或冒犯而产生的强烈反应。该反应最符合‘惊讶’的语义，即面对违背预期的情况而感到意外和诧异，其质问的语气也带有惊讶的色彩。",
+  "open_emotion": "惊讶",
+  "answer": "surprise",
+  "mapping_reason": "根据MELD项目的情绪轮定义，'surprise'（惊讶）是因面对违背预期的信息而产生的意外、诧异或惊奇。Monica的反应是突然的、带有质问性的，这表明她对当前情境感到意外。她的高声质问和身体动作是这种意外情绪的外在表现，因此映射到'surprise'是合理的。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "Monica从背景中出现并向前移动。",
+      "interpretation": "表明她正在主动介入当前情境，其行为是即时的、有目的的。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:01.501",
+      "observation": "Monica说出了\"What?! Excuse me!\"，音量较大，尾音上扬。",
+      "interpretation": "高音量和上扬的尾音表明了强烈的质问和意外感，这是惊讶情绪的典型听觉特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "图谱节点process_1描述了Monica说出\"What?! Excuse me!\"。",
+      "interpretation": "该节点直接记录了她的言语行为，是分析其情绪的核心事件。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱节点person_1描述了Monica面向前方，视线注视前方并张开嘴巴。",
+      "interpretation": "该节点描述了与说话同步的面部表情，是惊讶情绪的视觉证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽然Monica的质问语气可能被解读为愤怒（anger），但其核心是因意外而产生的反应，而非因冒犯或不公而产生的对抗性情绪。因此，惊讶（surprise）是比愤怒（anger）更准确的描述。"
+}

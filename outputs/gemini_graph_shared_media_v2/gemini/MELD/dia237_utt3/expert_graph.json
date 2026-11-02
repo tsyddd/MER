@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "结合互动事件链，Monica正就食物向围坐众人征询，Joey抬头回应关于“whipped fish”的话题[process_0]。从事件语义看，“keeping it down”明确指向强忍恶心、避免呕吐的生理排斥情境，配合其面部嫌恶撇嘴的微表情[E1]，证明其当前处于对食物的不适与厌恶状态，而非纯粹客观中立叙述。",
+  "answer": "disgust",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 1.88s",
+      "observation": "Joey抬头注视Monica时，眉心紧缩、嘴角下撇并微微咧开呈不适苦相",
+      "interpretation": "在正面互动中流露出对谈论对象的生理性排斥表情，直接体现厌恶状态",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "We're talking about whipped fish, Monica. I'm just happy I'm keeping it down, y'know?",
+      "observation": "Joey明确表示对象是令人反胃的搅打鱼肉，并庆幸自己没有呕吐出来",
+      "interpretation": "事件核心语义集中在食物引起的恶心与难以下咽，构成了厌恶情绪的确凿语境支撑",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱记录Joey说话语调平缓音量适中，但实际音轨在00:01-00:05处咬字带有无可奈何的厌烦与轻微嫌恶感",
+      "interpretation": "核查纠正了图谱平缓描述的偏差，证实其语气伴随针对食物的反胃情绪，不支持完全中立",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强相反解释为neutral：依据图谱中Joey最终低头交叠双手的安静坐姿[person_3]，容易被解释为平淡就事论事；然而该解释割裂了“whipped fish”与“keeping it down”强烈的生理不适语义关联，因此未被采纳。"
+}

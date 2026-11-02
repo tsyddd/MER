@@ -1,0 +1,9 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载Gunther注视Chandler并张口发问，语调带有轻微疑问〔person_1〕，内容仅为询问里面是否有人〔process_0〕。其言行属于常规问话沟通，没有展现出愤怒、悲伤或喜悦等明显的情绪波动，整体情绪表现平稳中立。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_1",
+    "process_0"
+  ]
+}

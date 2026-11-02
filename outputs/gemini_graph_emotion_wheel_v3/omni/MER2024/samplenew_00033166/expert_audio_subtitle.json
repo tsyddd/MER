@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者以反问句式表达对某种情况的强烈质疑和难以置信，语气中带有明显的震惊和意外。结合其睁大的眼睛和微张的嘴巴的视觉表现，可以判断其情绪为惊讶。",
+  "open_emotion": "惊讶",
+  "answer": "surprise",
+  "mapping_reason": "根据情绪轮定义，'惊讶'（surprise）指因当前信息违背预期而产生的意外、诧异或震惊。说话者使用反问句'难道...不成？'，其语调上扬，表现出对所谈论事件的难以置信，这与'惊讶'的定义完全吻合。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "字幕内容：难道都要悉数倒戈？不成？",
+      "observation": "说话者使用了反问句式，句末带有'不成？'，这是一种典型的表达惊讶和难以置信的句式。",
+      "interpretation": "该句式表明说话者认为'悉数倒戈'是一件出乎意料、难以接受的事情，其核心情绪是惊讶。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "音频时间范围：00:00-00:02",
+      "observation": "说话者的语调在句末'不成？'部分明显上扬，语速平稳但带有强调。",
+      "interpretation": "上扬的语调是表达疑问和惊讶的典型韵律特征，与字幕内容共同证实了惊讶的情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "说话者的眉毛微微上扬，眼睛睁大，嘴巴微张，表情显得有些呆滞和震惊。",
+      "interpretation": "这些面部表情是人类表达惊讶时的典型生理反应，与言语内容和语调相一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。该片段中没有表现出愤怒、悲伤或担忧等其他情绪的明确证据。"
+}

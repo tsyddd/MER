@@ -1,0 +1,3 @@
+{
+  "text": "画面位于可见壁炉、壁灯、海报和花瓶的室内环境中〔context_0〕，Monica是画面中可见的人物〔context_1〕。她上半身向前倾，嘴部开合，正在说：“The joke is not funny, and it’s offensive to women, and doctors, and monkeys!”〔process_0〕〔person_0 person_joint person_1〕；字幕提到的笑话以及女性、医生和猴子，是她当前话语所涉及的对象〔context_2〕，并不等同于画面中正在发生这些对象相关的事件。随后，Monica向画面左侧伸出一只手并做手势〔process_1〕，这一动作与她对笑话及其冒犯对象的口头批评共同构成表达〔process_0 process_joint process_1〕。在后续过程中，她恢复较为直立的上半身姿势，同时转向画面右侧〔person_3 simultaneous person_4〕；接着将手臂向画面前方伸出并继续说话〔process_2〕，该说话行为承接了前面的发言〔process_2 after process_0〕，也显示其手势由向左侧伸出转为向前方伸展〔process_1 process_joint process_2〕。这些表现可能反映Monica正将注意力集中在当前对话中的笑话及其冒犯性上，并通过持续说话、转向和手势明确表达批评与回应；但仅凭这些材料，无法进一步确定她更具体的心理状态。"
+}

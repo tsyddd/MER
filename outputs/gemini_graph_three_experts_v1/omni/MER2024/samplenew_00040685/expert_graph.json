@@ -1,0 +1,9 @@
+{
+  "expert": "graph",
+  "reason": "目标人物在讲述过程中，面部表情紧绷（person_2），语调低缓沉稳且伴有停顿（person_1），结合其叙述内容涉及被父皇起疑心等危机情境，表现出克制而沉重的情绪状态。视听信息同步显示其严肃专注的仪态，未见明显情绪波动，符合'worried'的特征。",
+  "answer": "worried",
+  "evidence_refs": [
+    "person_1",
+    "person_2"
+  ]
+}

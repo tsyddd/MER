@@ -1,0 +1,104 @@
+{
+  "process": {
+    "nodes": [
+      {
+        "id": "process_0",
+        "type": "process",
+        "content": "男孩向对方说“哎呀，小区里最可爱最漂亮的”",
+        "evidence_sources": [
+          "visual",
+          "audio"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "process_1",
+        "type": "process",
+        "content": "男孩询问对方“小美眉需要我帮忙吗”",
+        "evidence_sources": [
+          "visual",
+          "audio"
+        ],
+        "time_index": 2,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  },
+  "person": {
+    "nodes": [
+      {
+        "id": "person_0",
+        "type": "person",
+        "content": "男孩面带笑容，身体微前倾，视线看向左前方，张嘴说话",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_1",
+        "type": "person",
+        "content": "男孩说话语调轻快上扬，语速较快",
+        "evidence_sources": [
+          "audio"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_2",
+        "type": "person",
+        "content": "男孩嘴角微收闭嘴停顿，视线仍朝向左前方",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 1,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_3",
+        "type": "person",
+        "content": "男孩再次面露笑容，边笑边张嘴说话",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 2,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  },
+  "context": {
+    "nodes": [
+      {
+        "id": "context_0",
+        "type": "context",
+        "content": "室内走廊或阳台旁，背景有窗框与绿色藤蔓植物装饰",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "context_1",
+        "type": "context",
+        "content": "男孩身穿红色运动外套内搭白色T恤，正面向画面外的人物交流",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia40_utt0",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "Monica says 'Yeah baby!' with a clear smile and happy expression, indicating a positive and affectionate emotion.",
+  "output": "Monica says 'Yeah baby!' with a clear smile and happy expression, indicating a positive and affectionate emotion.\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 4.063641548156738,
+  "node_count": null,
+  "edge_count": null
+}

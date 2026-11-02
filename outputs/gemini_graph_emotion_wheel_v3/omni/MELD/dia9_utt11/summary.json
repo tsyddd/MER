@@ -1,0 +1,9 @@
+{
+  "reason": "目标人物Rachel的言语内容（'Everything's ruined. My bed. My clothes. Look at my favorite blue sweater.'）和视觉表现（在沙发上坐着，双手捏着一件烧坏的蓝色毛衣，随后闭眼低头，再将毛衣举起展示）共同指向一种因财产损失而产生的负面情绪。她的肢体语言（捏物、垂头、闭眼）和话语内容（'ruined'）强烈支持一种悲伤或失落感。专家的视觉证据[graph:E4]和音频证据[audio_subtitle:E1]都一致地将她的颤抖声线和缓慢语速解释为悲伤的直接表现，与她的言语内容和面部表情形成互补。虽然[graph:E1]描述了她初始的惊讶表情，但后续的低落姿态和言语内容表明，主导情绪是悲伤而非惊讶。因此，综合所有证据，最准确的判断是'sadness'。",
+  "answer": "sadness",
+  "evidence_refs": [
+    "graph:E4",
+    "audio_subtitle:E1",
+    "image:E4"
+  ]
+}

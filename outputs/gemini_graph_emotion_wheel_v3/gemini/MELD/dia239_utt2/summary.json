@@ -1,0 +1,10 @@
+{
+  "reason": "回看视频与音轨，Chandler原本正面向洗手间准备抱怨，未料走出一名陌生女子，在frame_02至frame_04动作骤然顿挫且单手悬空发愣[image:E1]，与实际音轨在00:01-00:03处抱怨生硬中断并突兀拔高发出“Hi!”[audio_subtitle:E1]高度互补。[audio_subtitle:E2]对字幕中“did-did-did ya”严重结巴的分析切实可信，精准刻画出其认知预期被彻底打破时的慌乱与失态。尽管他在frame_05至frame_07迅速将双手插入口袋试图恢复常态[image:E2]，但这仅是尴尬掩饰，无法掩盖主导的措手不及，依规范映射为surprise。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E1",
+    "audio_subtitle:E2",
+    "image:E2"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Janice直接对Chandler说“Good-bye Chandler Bing.”，是在向他告别，而不是提问或引用别人。告别本身不必然表示难过，但她说话时眉头微蹙、神情低落，支持她此刻有失落感[E1][E2]。没有提供音频，不能判断语调或停顿。",
+  "open_emotion": "失落",
+  "answer": "sadness",
+  "mapping_reason": "此处的失落指面对告别时表现出的低落，按情绪轮映射为sadness；仅凭这一短句和画面，无法确定情绪强度。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Good-bye Chandler Bing.",
+      "observation": "Janice用告别语直接称呼Chandler。",
+      "interpretation": "明确是结束当前交流的言语行为；与画面结合，可支持失落的解读，但这句话单独不足以确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05，1.6266237370933718秒",
+      "observation": "Janice面对左侧人物，眉头微蹙，手贴在胸前，嘴角没有上扬。",
+      "interpretation": "她的表情与姿态更接近低落的告别，而非愉快或平常的寒暄。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "“Good-bye”也可以是平静的日常告别；没有音频可核对她是否以平稳或反讽的口吻说出，因此失落的判断主要依赖告别语与表情的结合。"
+}

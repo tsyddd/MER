@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "在当前事件链中，三人正围绕失窃的三明治进行现场排查。Joey坐在柜台上担任逻辑梳理者，先在[person_0]将手按在胸口声明自己没拿，随后在[process_1]与[person_3]中将手掌摊向Chandler和Ross完成逐一排除。这一排他推理链条迅速推导出一个违背常理的逻辑空白，使他在[process_2]发出收尾质问'then who did?'。实测音轨在末尾'who did'处语调明显拔高且带有强烈的探究重音，眼神聚焦在前倾沮丧的Ross和Chandler身上，充分体现出面对毫无合理解释的未知结果时的错愕与费解。",
+  "open_emotion": "诧异",
+  "answer": "surprise",
+  "mapping_reason": "Joey在逐一排除在场所有可能对象后，因结果打破预期、出现无法合理解释的谜团而产生强烈困惑与错愕，符合情绪轮中面对违背预期信息而引发诧异的主导特征，故映射至surprise家族。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_2",
+      "observation": "图谱记录Joey向同伴摊手发问究竟是谁拿了并随后收回双手等待回应。",
+      "interpretation": "体现了排除所有人之后逻辑出现真空断层，Joey正处于急切寻求反常答案的诧异状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:02-00:03",
+      "observation": "Joey说出'then who did?'时，句尾'did'语调显著上扬且伴随重音强调。",
+      "interpretation": "听觉上展现出违背常理预期的错愕反问语气，而非平淡陈述。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04",
+      "observation": "Joey身体前探，眉毛微挑，左手朝向听众呈完全开放询问手势。",
+      "interpretation": "视觉上呈现求证与困惑兼具的惊诧体态，强化了对离奇事实的质疑。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "如果仅看前两句平铺直叙的递进排查动作，容易误判为冷静客观的日常交谈（neutral），但末句陡然拔高的疑问重音与反常谜团语义明确推翻了平稳中性解释。"
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "从frame_02起，莫妮卡（Monica）注意到门口动态后神色突变，双眼圆睁、嘴张大，迅速扔下手头的书本并从沙发上猛烈前扑起身[E1][E2]；结合音轨中尖锐、慌乱急促的喊叫声[E3]，其神态与动作展现出强烈的惊恐与阻拦冲动，视觉与听觉综合支持恐惧（fear）。",
+  "answer": "fear",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.584s",
+      "observation": "莫妮卡原本靠坐在沙发上看书，转头看向门口方向时双眼睁大、嘴部张开，面部肌肉骤然紧绷。",
+      "interpretation": "突发性警觉与惊恐外显，表明其注意到了某种令其高度恐慌的状况。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.126s",
+      "observation": "莫妮卡急忙将手中的书本扔下，身体重心剧烈前倾，慌乱地从沙发上跃起向前扑去。",
+      "interpretation": "动作具有极高的逃避/抢险急迫性，符合遭遇突发危机时的恐慌本能反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "0.00s-1.80s",
+      "observation": "伴随高亢尖锐、充满慌乱与绝望感的\"No-no-no, no!\"尖叫。",
+      "interpretation": "语调完全是恐慌与极力阻止的惊惧状态，排除了平静或单纯生气的语调。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强反证为惊喜/惊讶（surprise），但莫妮卡伴随强烈的恐慌性尖叫并伴有身体前扑扑救动作，情绪体现的是避免灾难后果的惊慌惧怕，而非纯粹的中性惊讶。"
+}

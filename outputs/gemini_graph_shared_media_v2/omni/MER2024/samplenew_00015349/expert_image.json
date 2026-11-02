@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标人物在所有可见帧中均保持站立姿态，身体朝向对方，面部表情较为平静，无明显皱眉、张嘴或肌肉紧绷等特征。其视线稳定，未见回避或聚焦于特定物体。字幕内容为陈述性话语，音频语调平稳，无明显情绪起伏。综合视觉与听觉信息，未观察到支持强烈情绪的证据。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "目标人物面部表情平静，无明显情绪特征。",
+      "interpretation": "缺乏支持情绪的面部线索。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "目标人物身体姿态稳定，未见抱臂、前倾等动作。",
+      "interpretation": "姿态未表现出防御或攻击性。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "字幕: 再这么，烧下去的话，传到高家。",
+      "observation": "字幕内容为客观陈述，无情感色彩。",
+      "interpretation": "内容本身不支持情绪判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "0.0-2.84",
+      "observation": "音频中说话者语调平稳，无明显音量或语速变化。",
+      "interpretation": "听觉信息未提供情绪线索。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无法完全排除轻微担忧，但缺乏视觉或听觉上的明确支持。"
+}

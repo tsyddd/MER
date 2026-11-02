@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载Monica在面对前方说出台词时〔process_0〕，张嘴发声且语调平稳清晰〔person_2〕。同时，她视线看着正前方〔person_0〕，双手手指交叉紧握在胸前〔person_1〕，整体体态固定而克制，并未展现出愤怒或激烈的声调起伏。台词虽具有评价性，但其当前实际表达态度平静直述，情绪呈现为中性。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "process_0",
+    "person_2",
+    "person_0",
+    "person_1"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载女性在独自打电话时说话声音发紧且语速急促〔person_2〕，同时伴有双眉微蹙、目光微垂的神态表现〔person_1, person_3〕。结合她向对方急迫说明“现在事情越闹越大”等内容〔process_3〕，其紧张紧绷的表现明确反映出焦虑与担忧的情绪。",
+  "answer": "worried",
+  "evidence_refs": [
+    "person_1",
+    "person_2",
+    "person_3",
+    "process_3"
+  ]
+}

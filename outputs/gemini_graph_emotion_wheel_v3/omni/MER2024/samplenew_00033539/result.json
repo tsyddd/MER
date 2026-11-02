@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00033539",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "a415fec142e7ddeeb3ecfd6ae5f20bd235ccd0be39b7230d3d3b9654add4a754",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据情绪轮定义，'surprise'（惊讶）指因当前信息违背预期产生的意外、诧异或震惊。目标人物的初始反应（惊讶表情与疑问声）和后续追问（反问语调）均指向对突发信息的即时反应，符合'惊讶'的语义边界。该情绪与'worried'（担忧）或'angry'（愤怒）有清晰区分，因为其表达方向是求证而非焦虑或责备。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据情绪轮定义，'surprise'（惊讶）是因当前信息违背预期而产生的意外、诧异或震惊。说话者的话语“啊？真的”和上扬的语调，以及其睁大的眼睛和上扬的眉毛，都明确指向了这种即时的意外感，因此映射到'surprise'是准确的。"
+    },
+    "image": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据情绪轮定义，'surprise'指因当前信息违背预期产生的意外、诧异或震惊。目标人物的面部表情（睁大眼睛、上扬的眉毛）和语言内容（“啊？真的。”）都明确指向了对某事的即时意外反应，因此映射到'surprise'是准确的。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "目标人物在连续8帧中表现出睁大眼睛、眉毛上扬、嘴巴微张的典型惊讶表情，与字幕“啊？真的”和音频中上扬的疑问语调完全吻合。三位专家的证据均一致指向惊讶情绪，其中[graph:E1]、[audio_subtitle:E2]和[image:E1]等关键证据从视觉、音频和字幕三个模态提供了互补且无冲突的佐证，共同确认了其主导情绪为惊讶。",
+  "output": "目标人物在连续8帧中表现出睁大眼睛、眉毛上扬、嘴巴微张的典型惊讶表情，与字幕“啊？真的”和音频中上扬的疑问语调完全吻合。三位专家的证据均一致指向惊讶情绪，其中[graph:E1]、[audio_subtitle:E2]和[image:E1]等关键证据从视觉、音频和字幕三个模态提供了互补且无冲突的佐证，共同确认了其主导情绪为惊讶。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 178.0255753993988
+}

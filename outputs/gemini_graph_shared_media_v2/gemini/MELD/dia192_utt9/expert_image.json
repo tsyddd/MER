@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "目标人物Monica在后方背景中身穿浅色上衣与红裙。从[E1]与[E2]可见，Monica从房间走出探身时面部嘴角明显上扬、露齿微笑，步伐轻快，视觉呈现出明确的愉快（joy）神态。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_05 @ 1.084s",
+      "observation": "Monica从Chandler身后探出身走近，面部嘴角上扬，露出明显的笑容。",
+      "interpretation": "面部肌肉呈现典型的微笑形态，无皱眉或紧绷，支持正向愉悦情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_06 @ 1.293s",
+      "observation": "Monica继续向前走，目光看向前方，面部依然保持开朗笑容。",
+      "interpretation": "持续的笑意表明其并非严肃质问，而是带着戏谑与愉悦。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词为“What?! Excuse me!”且语调上扬尖锐，字面上看似惊讶（surprise）或愤怒抗议（anger），但视觉上毫无怒目圆睁、皱眉或惊恐僵硬表现，反而是明确的笑容，因此未采纳anger或surprise。"
+}

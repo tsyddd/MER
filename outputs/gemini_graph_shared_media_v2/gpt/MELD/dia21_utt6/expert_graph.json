@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "Phoebe在询问对方兄弟的情况时，注视男子并逐渐露出笑容，支持当前的愉快情绪[E1][E2]。图谱process_1记录男子随后微笑回应，画面也可核查这一互动；但他的笑容不能替代Phoebe本人的表情证据[E3]。图谱person_1称她语调轻松、带有轻笑；由于未提供原音轨，这只能作为未核实的转述[E4]。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.0009992228266904秒",
+      "observation": "Phoebe面对男子，手搭在他身前，嘴角上扬并露出笑容。",
+      "interpretation": "她本人在当前交谈中显露笑意，支持joy。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "So your brother's straigh huh? Seriously.",
+      "observation": "当前话语是在向男子追问其兄弟的情况。",
+      "interpretation": "明确了她的笑容发生在当下询问中，而非对已知答案的反应；话语本身不能单独判定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "图谱记载男子在Phoebe说话后看着她微笑；后续画面可见男子微笑。",
+      "interpretation": "这是互动中的回应，不是Phoebe情绪的独立直接证据，也不能仅凭先后顺序推断她为何发笑。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱转述Phoebe说话时语调轻松、带有轻笑声。",
+      "interpretation": "若准确则与joy相符，但没有原音轨，无法亲耳核验。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "她的问题也可能只是认真求证；但当前画面中她持续面向对方露出笑容，因此未将单纯好奇作为最终判断。缺少原音轨，无法确认是否确有轻笑。"
+}

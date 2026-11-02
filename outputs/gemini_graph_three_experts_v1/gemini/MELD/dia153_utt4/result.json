@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia153_utt4",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "1701ec52f64cb4d931ebb2a39270db0f0b109d59cf49cceb1bc9a7c9f35dd50e",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "三位专家一致指出Joey此时处于客观陈述与举例的状态。音频中他语调平稳自然且就事论事，视觉画面中其面部平静专注并伴随说明性手势，台词中虽提及恐惧词汇但仅为论述例子，无强烈情绪波动，综合判定为中性。",
+  "output": "三位专家一致指出Joey此时处于客观陈述与举例的状态。音频中他语调平稳自然且就事论事，视觉画面中其面部平静专注并伴随说明性手势，台词中虽提及恐惧词汇但仅为论述例子，无强烈情绪波动，综合判定为中性。\n<answer>neutral</answer>",
+  "label": "fear",
+  "elapsed_seconds": 37.41008996963501
+}

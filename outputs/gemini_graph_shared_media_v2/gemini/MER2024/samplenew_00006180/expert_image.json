@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "女教师在镜头前神态平稳柔和，眉毛无紧蹙或明显上扬[E1]，说话提问时面容自然，并无强烈夸张的情感外露；配合平稳亲和的教学语气[E2]，整体处于平静温和的常态交流状态。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 1.63s",
+      "observation": "女教师正面面向镜头前方，眉毛舒展平顺，眼部及嘴角肌肉平缓自然，无大笑、紧绷或惊愕动作",
+      "interpretation": "面部没有强烈的正向狂喜或负向情绪肌肉运动，符合平和自然的日常互动",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0:00-0:03",
+      "observation": "女教师语气轻柔平静，以常规叙述与提问向学生表达'老师也没见过，同学们有没有知道的'",
+      "interpretation": "语调温和中正，未出现高亢兴奋或负面激动的情感起伏",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "在frame_05提问时嘴角略有轻微上挑，可能呈现微弱亲和微笑，容易被解读为happy；但其面部颧肌并无明显提拉且眼神平静，属于常规教学仪态，不足以支撑happy。"
+}

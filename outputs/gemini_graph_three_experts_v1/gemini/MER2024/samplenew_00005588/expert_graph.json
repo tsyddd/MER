@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载男子在与对方交谈时面向左侧并专注注视对方〔person_0, person_1〕。在表达“过去的事 不怪你”时〔process_0〕，图谱记载其说话语调低沉、语速平缓〔person_2〕，整体神态与声调均表现得十分平静稳定，未见明显的激动或情绪波澜，符合中性状态。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "process_0",
+    "person_2"
+  ]
+}

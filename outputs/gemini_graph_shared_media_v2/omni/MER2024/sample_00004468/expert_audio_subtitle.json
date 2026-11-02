@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者以一种带有明显质问和惊讶的语气说出这句话，语调上扬，尤其在句尾。字幕显示其话语为“哎，仇院长，离婚，你怎么这么高兴呢？”，这表明她对对方在院长离婚这件事上的反应感到意外和不解。这种语气和内容的结合，最符合“surprise”（惊讶）的定义。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:04",
+      "observation": "说话者以一种上扬的、带有质问意味的语调说出“哎，仇院长，离婚，你怎么这么高兴呢？”。",
+      "interpretation": "这种语调直接表达了说话者对听话者反应的意外和不解，是“surprise”情绪的直接体现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "哎，仇院长，离婚，你怎么这么高兴呢？",
+      "observation": "字幕内容为“哎，仇院长，离婚，你怎么这么高兴呢？”。",
+      "interpretation": "话语内容本身就在询问对方为何高兴，这表明说话者认为对方的高兴是不合常理的，从而引出自己的惊讶之情。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 @ 00:00",
+      "observation": "说话者表情严肃，眉头微蹙，眼神专注地看着对方。",
+      "interpretation": "这种表情与她话语中的质问和惊讶相符，表明她正在认真地审视对方的反应，进一步支持了惊讶的情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的替代解释是“angry”（生气）。虽然语气中带有质问，但缺乏愤怒的音量、语速或攻击性词汇。说话者的表情是惊讶和不解，而非愤怒。因此，“surprise”是比“angry”更准确的判断。"
+}

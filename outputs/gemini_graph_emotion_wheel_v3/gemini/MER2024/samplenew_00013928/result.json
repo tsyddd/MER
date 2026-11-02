@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00013928",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "49b9882ec6625c755d0ee37646065921d1bf3d3dd712f15713cb364e31bc4877",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "开心",
+      "mapped_label": "happy",
+      "mapping_reason": "开放情绪'开心'体现了当前正在发生的正向愉悦、欣喜与满足，与情绪轮中happy（喜悦）'当前正向愉悦、满足或兴奋'的定义完全吻合。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "欣喜",
+      "mapped_label": "happy",
+      "mapping_reason": "开放情绪'欣喜'对应正向愉悦、积极热情的心理状态，符合情绪轮中happy（喜悦）的定义。"
+    },
+    "image": {
+      "open_emotion": "欣喜",
+      "mapped_label": "happy",
+      "mapping_reason": "目标人物表现出明显的面部笑容与轻快的肢体互动，符合正向愉悦与兴奋特征，直接映射至happy类别。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "happy",
+  "emotion_analysis": "独立回看视频与音频，目标人物在整个片段中均展现出极其明显的真实愉悦状态。视觉上如[image:E1]所述，从frame_01至frame_06目标人物眼角弯起、两颊苹果肌隆起且持续露齿灿笑，配合挥动纸张的轻快动作[image:E2]，排除了消极或克制状态；听觉上如[audio_subtitle:E1]核实，其语调上扬并伴随爽朗笑声，言语互动充满热情与认可。多模态证据高度一致指向当前强烈的正向愉悦与兴奋，符合情绪轮中happy的定义。",
+  "output": "独立回看视频与音频，目标人物在整个片段中均展现出极其明显的真实愉悦状态。视觉上如[image:E1]所述，从frame_01至frame_06目标人物眼角弯起、两颊苹果肌隆起且持续露齿灿笑，配合挥动纸张的轻快动作[image:E2]，排除了消极或克制状态；听觉上如[audio_subtitle:E1]核实，其语调上扬并伴随爽朗笑声，言语互动充满热情与认可。多模态证据高度一致指向当前强烈的正向愉悦与兴奋，符合情绪轮中happy的定义。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 47.63184857368469
+}

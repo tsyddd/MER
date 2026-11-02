@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Rachel说“Yes, I did. Thank you very much, it was excellent.”，肯定对方并表达感谢与赞赏；她说话时持续微笑，语言与表情一致，支持当前的愉悦感[E1][E2]。没有音频，不能判断她的语调或声音强弱。",
+  "open_emotion": "愉悦",
+  "answer": "joy",
+  "mapping_reason": "愉悦属于joy所指的当前正向体验；这里的肯定、感谢和笑容共同支持这一映射。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“Yes, I did. Thank you very much, it was excellent.”",
+      "observation": "Rachel作肯定回答，随后道谢并称赞“it was excellent”。",
+      "interpretation": "这是积极评价和感谢，不只是出现了一个正向词。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01（0.709秒）至frame_06（4.171秒）",
+      "observation": "右侧的Rachel面向交谈对象，多帧露出明显笑容，并伴有手势。",
+      "interpretation": "表情与话语中的积极评价一致，支持愉悦的判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "道谢和称赞也可能只是礼貌表达；但持续的笑容使单纯礼貌比真实愉悦稍弱。无音频，无法进一步核查是否带有反讽或勉强的语气。"
+}

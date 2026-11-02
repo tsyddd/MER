@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00035599",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "2e41d1566b0d6d612ec8cac9b6fe7ea8a5c74329bc5ef3be50b67f145d3e328a",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "哀伤",
+      "mapped_label": "sad",
+      "mapping_reason": "开放情绪‘哀伤’体现了因既成损失或不幸事实引发的心情低落、压抑与伤感，在MER2024情绪轮中完全符合sad（悲伤）的定义范畴。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "哀伤",
+      "mapped_label": "sad",
+      "mapping_reason": "开放情绪‘哀伤’指向对不可挽回的失去与惨痛事实的低落、心痛反应，声音带哭腔且神态凄切，完全符合情绪轮中sad（悲伤/哀痛）的定义。"
+    },
+    "image": {
+      "open_emotion": "哀伤",
+      "mapped_label": "sad",
+      "mapping_reason": "开放情绪'哀伤'直接归属于sad（悲伤）家族，符合对已发生悲剧或逝去事物的缅怀、失落与沉痛体验。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "目标人物在讲述台词“手里还握着一截风筝线”时，实际音轨呈现低沉且带有明显颤抖抽泣与哭腔的语调[audio_subtitle:E1]，语义明确聚焦于既成不幸事实与丧失；在画面中，从frame_00至frame_07人物眉心微蹙内聚、眼眶含泪且目光持续低垂落寞[image:E1][image:E2]。各模态一致展现出对已发生悲剧的深切哀痛与低落状态，而非指向未知风险的担忧或无情绪的中性叙述，最终判定为sad。",
+  "output": "目标人物在讲述台词“手里还握着一截风筝线”时，实际音轨呈现低沉且带有明显颤抖抽泣与哭腔的语调[audio_subtitle:E1]，语义明确聚焦于既成不幸事实与丧失；在画面中，从frame_00至frame_07人物眉心微蹙内聚、眼眶含泪且目光持续低垂落寞[image:E1][image:E2]。各模态一致展现出对已发生悲剧的深切哀痛与低落状态，而非指向未知风险的担忧或无情绪的中性叙述，最终判定为sad。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 59.83986783027649
+}

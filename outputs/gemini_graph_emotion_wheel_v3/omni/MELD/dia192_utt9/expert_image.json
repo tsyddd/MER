@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "Monica的面部表情和姿态表现出强烈的惊讶。她的眉毛上扬，眼睛睁大，嘴巴微张，这是典型的惊讶表情。同时，她的身体姿态是坐姿，但头部和上半身有轻微的后仰，显示出对突发情况的反应。这些视觉线索与她所说的话“Excuse me!”（什么？！）高度一致，表明她对某事感到非常意外和震惊。",
+  "open_emotion": "惊讶",
+  "answer": "surprise",
+  "mapping_reason": "根据情绪轮的定义，'surprise'（惊讶）是面对违背预期的信息而感到意外、诧异或惊奇。Monica的面部表情（睁大的眼睛、上扬的眉毛）和她所说的话“Excuse me!”（什么？！）都明确指向了这种情绪。她的表情和话语共同构成了一个清晰的惊讶信号，因此映射到'surprise'是准确的。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "Monica的眉毛上扬，眼睛睁大，嘴巴微张。",
+      "interpretation": "这是典型的惊讶表情，表明她对某事感到意外。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01",
+      "observation": "Monica的身体姿态有轻微的后仰。",
+      "interpretation": "这是一种对突发情况的本能反应，支持惊讶的情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "What?! Excuse me!",
+      "observation": "字幕显示Monica说“What?! Excuse me!”。",
+      "interpretation": "这句话直接表达了她的意外和震惊，与视觉表情一致。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:01.501",
+      "observation": "音频中可以听到Monica说“Excuse me!”，语调上扬，带有明显的惊讶和质问意味。",
+      "interpretation": "音频语调与视觉表情和字幕内容相符，共同证实了惊讶的情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有发现与惊讶情绪相矛盾的证据。"
+}

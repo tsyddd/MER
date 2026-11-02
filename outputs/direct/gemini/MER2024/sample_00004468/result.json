@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00004468",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "画面中的女医生眉头微皱，眼神中流露着疑惑与不解，同时语气带着明显的诧异与探究，对对方因院长离婚而高兴的表现感到非常意外与吃惊。",
+  "output": "画面中的女医生眉头微皱，眼神中流露着疑惑与不解，同时语气带着明显的诧异与探究，对对方因院长离婚而高兴的表现感到非常意外与吃惊。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 8.922722578048706,
+  "node_count": null,
+  "edge_count": null
+}

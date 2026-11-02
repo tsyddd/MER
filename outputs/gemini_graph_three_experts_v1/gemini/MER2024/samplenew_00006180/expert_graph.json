@@ -1,0 +1,12 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载女老师在课堂提问过程中，正视前方、语速平缓且语调和缓清晰〔person_0, person_1〕。在向全班提问并倾听学生回答时，其神态自然专注，仅视线聚焦于前方学生并微张嘴唇聆听〔process_1, process_3, person_4〕，整体呈现出正常平稳的教学互动状态，无强烈情绪波动，情绪判断为中立。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "process_1",
+    "process_3",
+    "person_4"
+  ]
+}

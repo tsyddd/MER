@@ -1,0 +1,97 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "说话人说出“我也不想跟你分开”",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "说话人，女性，身穿粉色花纹传统服饰，头发盘起，视线向下，嘴部有开合动作",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "男性，位于画面前景，背对镜头，仅可见后脑和肩膀",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "女性，位于背景，身穿黄色传统服饰，站立，身体部分被遮挡",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "场景为室内，有木质结构和窗户，光线从窗外照入",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "说话人正在与前景的男性进行交流",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_2",
+      "type": "context",
+      "content": "背景中还有另一名女性在场",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0的视觉表现（女性，粉色服饰，盘发）与person_1的视觉表现（男性，前景背影）共同构成了一个完整的对话场景，明确了互动双方的身份和位置。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0的视觉信息（室内环境）与context_1的视觉信息（人物间的互动）共同限定了这是一个发生在室内的对话情境。",
+      "entity_anchor": null
+    }
+  ]
+}

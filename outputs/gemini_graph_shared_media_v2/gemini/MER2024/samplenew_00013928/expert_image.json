@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "目标人物在片段中全程保持开怀大笑的神态，眼角弯起、苹果肌提升且露出牙齿[E1]，并伴有轻快向前扬手递纸的肢体动作，结合其高昂欢悦的语调[E2]，明确表现出开心与喜悦的情绪。",
+  "answer": "happy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.8s",
+      "observation": "目标人物眉眼弯起，嘴角大幅度向两侧并向上咧开露齿大笑，手中拿着白色纸张向前挥动递出。",
+      "interpretation": "面部肌肉提升、眼周收缩的Duchenne式笑容与外向的手势动作，是典型且强烈的快乐表征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "说话声音清脆上扬，语速轻快，尾音伴有明显的笑意和赞许语气。",
+      "interpretation": "轻快带有笑意的语气印证了视觉上的笑容是真诚由衷的喜悦，排除了礼貌假笑或嘲讽的可能。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽有可能被误解为日常打招呼的寻常社交神态（neutral），但其面部表情展开程度过大且笑容持续贯穿全过程，远超出中性平静的基线。"
+}

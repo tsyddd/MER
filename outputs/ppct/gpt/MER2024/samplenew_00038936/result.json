@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00038936",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "主人物在户外与画面右侧穿深色服装的人面对面交流，先看向对方，随后低头再抬头，相关节点为context_0、context_1、person_1、person_2、person_3及其视线变化关系。她说“最近听他们说，你好像出了点意外”，这是对听闻内容的当前转述，并非正在发生的意外；结合低头、紧蹙眉头和关注对方的表情，更符合担忧情绪。",
+  "output": "主人物在户外与画面右侧穿深色服装的人面对面交流，先看向对方，随后低头再抬头，相关节点为context_0、context_1、person_1、person_2、person_3及其视线变化关系。她说“最近听他们说，你好像出了点意外”，这是对听闻内容的当前转述，并非正在发生的意外；结合低头、紧蹙眉头和关注对方的表情，更符合担忧情绪。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 73.4366226196289,
+  "node_count": 8,
+  "edge_count": 7
+}

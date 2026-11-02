@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia233_utt0",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "Rachel单手叉腰质询对方，眼神带着审视与难以置信，语调在句末明显上扬，表达出刚发现对方真实意图时的惊讶与质疑。",
+  "output": "Rachel单手叉腰质询对方，眼神带着审视与难以置信，语调在句末明显上扬，表达出刚发现对方真实意图时的惊讶与质疑。\n<answer>surprise</answer>",
+  "label": "anger",
+  "elapsed_seconds": 9.075291633605957,
+  "node_count": null,
+  "edge_count": null
+}

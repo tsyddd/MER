@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Phoebe 正在向前台人员描述所寻人物的外形特征，语音语调平稳自然，属于典型的事实信息陈述言语行为，没有强烈的积极或消极情绪起伏，判定为 neutral。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:01 - 00:04",
+      "observation": "Phoebe 连续说出 'and um, he's like early to mid-thirties, very attractive'，语调平和，语速从容，音高变化平缓，为典型的陈述性语气。",
+      "interpretation": "言语行为是向他人提供辨认特征，即便是补充评价词 'very attractive' 也是平直道出，缺乏高涨的兴奋感或情绪起伏，符合中性交流状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.88s",
+      "observation": "Phoebe 面向对方平视，表情自然放松，双手配合言语做描述性说明动作。",
+      "interpretation": "视觉呈现与平稳陈述的韵律高度一致，没有出现明显的笑容、皱眉或惊诧神情，支持日常中性沟通的判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的替代解释是 joy，因台词中出现了积极词汇 'very attractive'；但从音频韵律看，该句末尾音调平稳收敛，未出现升调兴奋或笑意，视觉上也无喜悦表情，仅作为外貌特征描述，故排除 joy。"
+}

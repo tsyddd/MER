@@ -1,0 +1,12 @@
+{
+  "expert": "graph",
+  "reason": "Monica围绕Ben今晚要来以及“他不能看到这个”进行连续说明〔process_0〕〔process_1〕，并将注意力转向街机操作〔person_2〕〔person_3〕。图谱记载她语调平稳连续〔person_1〕，当前没有明显的愤怒、悲伤或惊恐表现，因此判断为中性。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "process_0",
+    "process_1",
+    "person_2",
+    "person_3",
+    "person_1"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia66_utt2",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "当前目标人物Rachel面向左侧女性说“Thank you very much, it was excellent”（process_0），画面中多次露出明显笑容，且与对方保持互动（person_0、person_1、person_2）。随后对方触碰Rachel的额头和头发（process_1），Rachel仍以笑容和伸手回应，整体表现为积极愉快而非紧张或冲突。",
+  "output": "当前目标人物Rachel面向左侧女性说“Thank you very much, it was excellent”（process_0），画面中多次露出明显笑容，且与对方保持互动（person_0、person_1、person_2）。随后对方触碰Rachel的额头和头发（process_1），Rachel仍以笑容和伸手回应，整体表现为积极愉快而非紧张或冲突。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 78.00795984268188,
+  "node_count": 9,
+  "edge_count": 9
+}

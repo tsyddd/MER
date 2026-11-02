@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013200",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "angry",
+  "emotion_analysis": "该人物面部肌肉紧绷，眉毛紧锁，嘴巴微张，语气激动，正在指责对方背信弃义并抬价。",
+  "output": "该人物面部肌肉紧绷，眉毛紧锁，嘴巴微张，语气激动，正在指责对方背信弃义并抬价。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 4.013753414154053,
+  "node_count": null,
+  "edge_count": null
+}

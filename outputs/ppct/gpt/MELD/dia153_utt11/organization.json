@@ -1,0 +1,3 @@
+{
+  "text": "室内有Chandler和Joe两人，Chandler正在与Joe交流〔context_0 context_joint context_1〕；Joe穿着格纹衬衫，一只手臂用吊带固定，并低头看向身前〔context_1 context_joint context_2〕〔person_3 person_joint person_4〕。Chandler面向并注视Joe，张嘴说话，起初双手放在腰部〔person_0 person_joint person_1〕〔person_0 person_joint person_2〕，同时用手指向Joe〔process_1〕。他说：“Yeah, Joe, I assure you if I'm staring down the barrel of a gun, I'm pretty much peeing every which way.”〔process_0〕这句话是在当前交流中对“如果我正盯着枪口时会有什么反应”的假设性说明，不能视为画面中此刻真的出现了枪口。随后，Chandler抬起一只手并继续对Joe做手势〔process_2〕，再将手向前并横向挥动〔process_3〕，最后向身体一侧伸手〔process_4〕；这些动作依次构成从指向Joe到持续挥手、再到改变方向并收束的连续手势〔process_2 after process_1〕〔process_3 after process_2〕〔process_4 after process_3〕。这些表现可能反映Chandler正把注意力集中在Joe身上，并通过指向和连续手势强调自己对该假设情境的口头回应；但仅凭现有材料，无法进一步明确其心理状态。"
+}

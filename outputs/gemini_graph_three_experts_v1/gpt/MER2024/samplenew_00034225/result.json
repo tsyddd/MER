@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00034225",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "12ed0aa9b273f368e8bd1e8523c70a683154346bda47b6b5ca66053f7fff6640",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "三份专家输出均指向“担忧”：字幕内容体现顾虑，图谱中的连续自我追问也支持这一判断，图像专家则描述出略显紧张的面部状态。图谱提到神态和语调较平缓，但这与内在担忧并不矛盾；音频专家未获得音频，因此不作听觉判断。",
+  "output": "三份专家输出均指向“担忧”：字幕内容体现顾虑，图谱中的连续自我追问也支持这一判断，图像专家则描述出略显紧张的面部状态。图谱提到神态和语调较平缓，但这与内在担忧并不矛盾；音频专家未获得音频，因此不作听觉判断。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 90.19364666938782
+}

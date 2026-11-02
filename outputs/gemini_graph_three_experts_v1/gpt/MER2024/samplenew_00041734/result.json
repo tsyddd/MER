@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00041734",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "ef82d3fe06a46b4125e3eacb1a9f355331f80a204ee0f71866c99305b2e54746",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "三份专家输出均将情绪指向担忧：图片提到眉头紧皱、目光固定和持续紧张，字幕中的“为什么要辞职？”也体现出对情况的关切。图谱中的语调上扬、语气急促与字幕追问可能存在同源重复，且音频专家明确未提供音频，因此不将其作为独立听觉证据；综合视觉与字幕线索，当前情绪更接近担心而非愤怒。",
+  "output": "三份专家输出均将情绪指向担忧：图片提到眉头紧皱、目光固定和持续紧张，字幕中的“为什么要辞职？”也体现出对情况的关切。图谱中的语调上扬、语气急促与字幕追问可能存在同源重复，且音频专家明确未提供音频，因此不将其作为独立听觉证据；综合视觉与字幕线索，当前情绪更接近担心而非愤怒。\n<answer>worried</answer>",
+  "label": "angry",
+  "elapsed_seconds": 84.52256655693054
+}

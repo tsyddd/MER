@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "Monica在对话中表现出强烈的反对和责备。她的面部表情（皱眉、紧闭的嘴唇）和手势（在说话时用手势强调）与她所说的内容一致，即她认为某事是不可接受的。她的视线集中在Rachel身上，表明这是她直接的表达对象。这些视觉线索与她所说的话“我永远不会认为你背叛你的丈夫是可以接受的”相匹配，表明她正在表达一种强烈的道德反对，这更符合愤怒（anger）而非单纯的悲伤（sadness）或厌恶（disgust）。",
+  "open_emotion": "愤怒",
+  "answer": "anger",
+  "mapping_reason": "根据情绪轮的定义，'anger'（愤怒）是对冒犯、受阻或不公的恼火、责备与对抗。Monica的言语内容（'never gonna think it's okay'）和她坚定、带有责备意味的语气，以及她皱眉和手势等视觉表现，都指向了她正在表达一种因道德冒犯而产生的对抗性情绪，因此最符合'anger'的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "Monica的眉毛皱起，嘴唇紧闭，表情显得很严肃和坚决。",
+      "interpretation": "这是一个典型的表达反对、不赞同或愤怒的面部表情。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01",
+      "observation": "Monica在说话时，右手抬起并做出手势，似乎在强调她的观点。",
+      "interpretation": "手势加强了她话语的力度，表明她正在积极地表达一个坚定的立场。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "字幕内容",
+      "observation": "字幕显示：'Rachel! I'm never gonna think it's okay for you to cheat on your husband!'",
+      "interpretation": "这句话表达了对背叛行为的绝对否定和强烈的道德谴责，是愤怒情绪的直接语言证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "Monica的语调坚定、有力，带有一种不容置疑的责备感。",
+      "interpretation": "音频中的语气与她的话语内容和面部表情一致，共同构建了一个表达愤怒的场景。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有明显的证据表明Monica的情绪是悲伤（sadness）或恐惧（fear）。她的表情和语气中没有表现出失落、哀伤或害怕的迹象。虽然她的话很强烈，但其核心是道德上的责备，而非对自身安全的恐惧。"
+}

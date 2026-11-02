@@ -1,0 +1,86 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "目标人物开口说“啊”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "目标人物接着说“真的”",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "目标人物双眉紧蹙，眉心出现竖纹，双眼看向右前方，嘴巴微张",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "目标人物发出短促的升调疑问声",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "目标人物嘴巴开合说话，面部保持皱眉神态，视线持续停留在右侧",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "目标人物以带有反问疑问的语调说出后续词句",
+      "time_index": 1,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "目标人物处于室内，身后有音响和置物架，身穿红色上衣配马甲并系着蓝色围裙",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "temporal_relations": []
+}

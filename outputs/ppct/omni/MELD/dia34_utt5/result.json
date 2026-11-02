@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia34_utt5",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "The audio shows Rachel speaking in a high-pitched, loud voice, which is a direct indicator of surprise. Her facial expression, with an open mouth and wide eyes, visually confirms this emotion. The subtitle 'Oh my God! You're a 30 year old virgin!' provides the context for her shocked reaction.",
+  "output": "The audio shows Rachel speaking in a high-pitched, loud voice, which is a direct indicator of surprise. Her facial expression, with an open mouth and wide eyes, visually confirms this emotion. The subtitle 'Oh my God! You're a 30 year old virgin!' provides the context for her shocked reaction.\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 198.8079330921173,
+  "node_count": 13,
+  "edge_count": 12
+}

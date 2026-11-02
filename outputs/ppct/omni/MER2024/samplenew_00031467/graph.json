@@ -1,0 +1,76 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "说话人对坐着的男性说：皇上闻着，正好，消乏，安睡。",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio",
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "女性，身穿浅绿色传统服饰，头发盘起，佩戴发饰，手持一个碗。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "男性，身穿金色传统服饰，坐在沙发上，头部靠在手臂上。",
+      "time_index": 7,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "场景为室内，有深色木质家具、盆栽植物和一盏亮着的台灯。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "说话人与坐着的男性面对面，中间隔着一张小桌子。",
+      "time_index": 7,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0 提供了说话者的视觉表现（女性，服饰，手持碗），person_1 提供了听话者的视觉表现（男性，服饰，姿态），联合后完整呈现了两人面对面互动的场景。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0 提供了室内环境的背景信息（家具、植物、台灯），context_1 提供了人物间的空间关系（面对面，中间有桌子），联合后完整限定了人物互动的具体情境。",
+      "entity_anchor": null
+    }
+  ]
+}

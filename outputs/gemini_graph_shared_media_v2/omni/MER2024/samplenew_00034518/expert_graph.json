@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "年长女性（目标人物）在当前互动中，通过身体姿态（前倾、注视）和言语内容（询问家庭是否出事）表现出对另一方的关切。其语调（音频）也带有疑问和担忧，与视觉姿态一致。图谱中`person_0`和`person_1`的联合描述完整呈现了这种关切的多模态特征。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "年长女性手握茶杯，上身微向前倾，视线持续看向蓝衣女性。",
+      "interpretation": "该姿态表明她正专注地与对方交流，是表达关切的典型身体语言。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "年长女性以带有疑问和关切的语调说出“是不是？家里又出什么事了？”",
+      "interpretation": "其语调中的担忧与言语内容直接表达了对家庭状况的忧虑，是判断其情绪的核心依据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "图谱节点`person_0`描述了年长女性的身体姿态。",
+      "interpretation": "该节点与`person_1`（语调）结合，共同构成了判断其情绪的多模态证据链。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "蓝衣女性的低头回避姿态可能被解释为对问题的回避或不耐烦，但这属于另一方的反应，不能直接用于判断年长女性的情绪。"
+}

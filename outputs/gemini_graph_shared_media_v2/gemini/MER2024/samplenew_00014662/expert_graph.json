@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "目标人物在与对方交流中围绕潜在不良后果展开陈述，图谱节点[person_2]记录其双眉微蹙的忧虑神态，结合当前话语明确表达对他人长辈受波及的顾虑[process_0, process_1]，构成了典型因忧虑未发之事而产生的关切与不安，判定为worried。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱记录女性双眉微蹙，嘴唇持续张合发音",
+      "interpretation": "眉头微紧的微表情配合言语互动，直接体现出内心存在顾虑与担忧的情绪反应",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "我主要是担心这事儿会牵连到您家老爷子",
+      "observation": "目标人物当前台词直接表达'担心这事儿会牵连到您家老爷子'",
+      "interpretation": "明确将负面事件可能带来的连锁风险与他人长辈关联，事件语义聚焦于未来潜在危害的关切与焦虑",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04 @ 2.64s",
+      "observation": "女性注视对方，眼神关切，眉心聚拢，神态急切探询",
+      "interpretation": "核实了图谱中的蹙眉动作，排除了冷漠平淡的客观陈述",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽语调克制平缓容易被误判为neutral，但其话语主题完全聚焦于潜在风险（牵连长辈）且全程伴随蹙眉的关切神情，事件语义及微表情均证明其处于担忧而非中立状态。"
+}

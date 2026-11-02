@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia21_utt6",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "bf42e3a608598de26188e2d4e2714eda6e90f3de2c795d77c68bb3237d71f5d1",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "Phoebe在frame_00至frame_04由表情较克制转为明显微笑，持续看着男子并与他保持接触；[image:E1]的表情变化可直接核实，接触本身则不能单独证明情绪[image:E2]。字幕“So your brother's straigh huh? Seriously.”是在求证，仅凭“Seriously”不足以判定惊讶[audio_subtitle:E1]。笑容可能带有礼貌成分，但她在说话期间逐渐展露的笑意，比字幕中的潜在惊讶更支持joy；后几帧男子的笑容不能代替她的表现。",
+  "output": "Phoebe在frame_00至frame_04由表情较克制转为明显微笑，持续看着男子并与他保持接触；[image:E1]的表情变化可直接核实，接触本身则不能单独证明情绪[image:E2]。字幕“So your brother's straigh huh? Seriously.”是在求证，仅凭“Seriously”不足以判定惊讶[audio_subtitle:E1]。笑容可能带有礼貌成分，但她在说话期间逐渐展露的笑意，比字幕中的潜在惊讶更支持joy；后几帧男子的笑容不能代替她的表现。\n<answer>joy</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 77.06612515449524
+}

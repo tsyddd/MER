@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Ross说“Y'know, like-like write a play.”，是在向对方举例提出一个想法；重复的“like-like”使表达略显边想边说，但句子本身没有明确的喜悦、愤怒或威胁评价[E1]。画面中他面向对方并配合手势说明，整体更像日常讨论[E2]。",
+  "open_emotion": "平常",
+  "answer": "neutral",
+  "mapping_reason": "当前主要是日常、解释性的表达，映射为neutral；这不表示Ross完全没有态度，而是现有字幕和画面不足以支持更明确的主导情绪。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Y'know, like-like write a play.",
+      "observation": "Ross以举例的方式提出“写个剧本”，其中重复了“like”。",
+      "interpretation": "言语行为是提出想法，重复措辞可体现组织语言，不能单独判作紧张或兴奋。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04（1.251秒）至frame_07（2.211秒）",
+      "observation": "Ross面向对方说话，抬起一只手作说明手势；末尾张口、眉毛略抬。",
+      "interpretation": "动作与解释想法相符，未见足以明确判为喜悦或愤怒的表情。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "较强的替代解释是他对想法有些兴奋：末尾张口和手势可支持这一点。但没有音频，无法核实强调方式；字幕和画面也不足以确认兴奋是主导情绪。"
+}

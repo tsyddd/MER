@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia168_utt13",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "d4f4337f36452e71eb92ed229fc09628e4b5b5772a515f3e6f5a2fe6ba4ccce4",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "音频专家明确说明未提供音频，因此不能作听觉判断；其字幕显示Ross直接指责并要求对方坦白，措辞强硬。图像专家观察到紧皱眉头、集中目光和强调手势，支持对抗与不满；图谱中的语气和动作描述与此一致，但可能与其他来源同源，故不作为独立证据。",
+  "output": "音频专家明确说明未提供音频，因此不能作听觉判断；其字幕显示Ross直接指责并要求对方坦白，措辞强硬。图像专家观察到紧皱眉头、集中目光和强调手势，支持对抗与不满；图谱中的语气和动作描述与此一致，但可能与其他来源同源，故不作为独立证据。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 64.41277694702148
+}

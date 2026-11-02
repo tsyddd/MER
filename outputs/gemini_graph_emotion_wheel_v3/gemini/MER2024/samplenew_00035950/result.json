@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00035950",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "521bc59b8292512714ce7a1cf82373756b611bf8bd876b6099b6bd083d1d6d57",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "哀伤",
+      "mapped_label": "sad",
+      "mapping_reason": "开放情绪'哀伤'体现了目标人物对自身既成处境的失落、困惑与自怜叹息；在情绪轮中，对已发生负面处境的心酸、低落与叹惋严格归属于sad家族，而非对抗性的angry或纯事务性的neutral。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "凄凉悲伤",
+      "mapped_label": "sad",
+      "mapping_reason": "目标人物在遭遇自身困境时表达出深刻的痛心与哀叹，声音带有哭腔叹息，无攻击对抗倾向，严格契合悲伤（sad）定义中当前失落、伤心、低落的核心特征。"
+    },
+    "image": {
+      "open_emotion": "哀痛",
+      "mapped_label": "sad",
+      "mapping_reason": "目标人物因自身处境与命运自嘲、心碎，表现为带哭腔的哀叹、含泪凝视与跪地哀诉，属于失去与痛苦的核心体验，完全符合sad（悲伤）的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "独立核对音轨与画面，目标人物在陈述‘怎么到了自己身上，就这样不明白’时，语音伴随清晰的颤抖、抽噎哭腔与叹息尾音，声学特征充满凄苦；画面中如[image:E1]所示眉心微蹙上扬且眼中含泪，至frame 4至frame 5口型发颤、面带痛苦哭诉之色，并在末尾如[image:E2]孤立跪坐于地。三位专家对低落叹息[graph:E1]与哭腔哀叹[audio_subtitle:E2]的观察可信且互补，有力排除了中性陈述；台词虽含自问，但毫无对抗愤怒或意外惊诧，全部线索高度契合对自身命运悲凉自伤的悲伤情绪。",
+  "output": "独立核对音轨与画面，目标人物在陈述‘怎么到了自己身上，就这样不明白’时，语音伴随清晰的颤抖、抽噎哭腔与叹息尾音，声学特征充满凄苦；画面中如[image:E1]所示眉心微蹙上扬且眼中含泪，至frame 4至frame 5口型发颤、面带痛苦哭诉之色，并在末尾如[image:E2]孤立跪坐于地。三位专家对低落叹息[graph:E1]与哭腔哀叹[audio_subtitle:E2]的观察可信且互补，有力排除了中性陈述；台词虽含自问，但毫无对抗愤怒或意外惊诧，全部线索高度契合对自身命运悲凉自伤的悲伤情绪。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 68.6925916671753
+}

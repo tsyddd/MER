@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "Monica最初坐在沙发上，手持书本和高脚杯，视线投向门口方向。她随即发出急促、高亢的喊声“No-no-no, no!”，并迅速将手中的物品放下，身体前倾，最终从沙发上起身向前冲去。这一系列动作表明她对门口的突发情况做出了即时的、带有强烈制止意味的反应。她的喊声和肢体动作共同指向一种对突发负面事件的强烈抗拒和阻止意图。",
+  "open_emotion": "抗拒",
+  "answer": "anger",
+  "mapping_reason": "根据当前证据，Monica的表达是急促、高亢的喊叫（'No-no-no, no!'）和迅速的肢体动作，其语义和行为模式是直接的、对抗性的制止。这与'anger'（愤怒）中对冒犯、不公或受阻情况的责备与对抗的定义相符。虽然场景可能带有惊吓成分，但她的核心行为是主动的、带有对抗性的阻止，而非被动的恐惧或惊讶，因此映射到'anger'更为准确。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:00.000",
+      "observation": "Monica发出急促、高亢的喊声“No-no-no, no!”。",
+      "interpretation": "该声音表现出强烈的即时性、否定性和制止意图，是情绪表达的核心证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03",
+      "observation": "Monica身体前倾，双臂向下放开手中的物品。",
+      "interpretation": "该动作是为快速起身而进行的准备，与喊叫形成联合的应急反应，表明其意图是立即采取行动。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_07",
+      "observation": "Monica瞪大双眼，身体呈向前倾斜站起的姿态。",
+      "interpretation": "该姿态表现出高度的警觉和准备行动的状态，是其情绪和意图的直接视觉体现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "Monica坐在沙发上张口大喊“No-no-no, no!”。",
+      "interpretation": "该节点描述了Monica在沙发上的核心行为，是连接其视觉状态与听觉表达的关键。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽然Monica的反应可能包含惊讶或恐惧的成分，但其主导行为是主动的、对抗性的制止，而非被动的惊吓或逃离。因此，'surprise'或'fear'的解释力不如'anger'。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia178_utt2",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "Monica is holding a baby and smiling while speaking to Phoebe. Her facial expression shows a clear smile, and her tone of voice is light and positive as she says, 'Pheebs, it's going great.' This combination of a smiling face and cheerful speech indicates a happy emotional state.",
+  "output": "Monica is holding a baby and smiling while speaking to Phoebe. Her facial expression shows a clear smile, and her tone of voice is light and positive as she says, 'Pheebs, it's going great.' This combination of a smiling face and cheerful speech indicates a happy emotional state.\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 347.9671382904053,
+  "node_count": 22,
+  "edge_count": 23
+}

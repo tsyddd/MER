@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013127",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "happy",
+  "emotion_analysis": "目标人物在与对方交谈时始终面带明显的笑容，眼神愉悦且神态轻松，语气中带有欣赏与调侃的笑意，整体情绪积极明快。",
+  "output": "目标人物在与对方交谈时始终面带明显的笑容，眼神愉悦且神态轻松，语气中带有欣赏与调侃的笑意，整体情绪积极明快。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 7.268615961074829,
+  "node_count": null,
+  "edge_count": null
+}

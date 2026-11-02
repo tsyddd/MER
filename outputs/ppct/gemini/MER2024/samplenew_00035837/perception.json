@@ -1,0 +1,105 @@
+{
+  "process": {
+    "nodes": [
+      {
+        "id": "process_0",
+        "type": "process",
+        "content": "说话人说出“我知道在这个世上”",
+        "evidence_sources": [
+          "visual",
+          "audio"
+        ],
+        "time_index": 1,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "process_1",
+        "type": "process",
+        "content": "说话人说出“再也没有亲人了”",
+        "evidence_sources": [
+          "visual",
+          "audio"
+        ],
+        "time_index": 2,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  },
+  "person": {
+    "nodes": [
+      {
+        "id": "person_0",
+        "type": "person",
+        "content": "说话人头部微倾，视线向下垂落",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_1",
+        "type": "person",
+        "content": "说话人嘴部微弱开合，以轻弱微哑的气音发声",
+        "evidence_sources": [
+          "visual",
+          "audio"
+        ],
+        "time_index": 1,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_2",
+        "type": "person",
+        "content": "说话法语速缓慢，语调低平轻微",
+        "evidence_sources": [
+          "audio"
+        ],
+        "time_index": 1,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_3",
+        "type": "person",
+        "content": "说话人发音结束，双唇微抿闭合",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 2,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  },
+  "context": {
+    "nodes": [
+      {
+        "id": "context_0",
+        "type": "context",
+        "content": "室内深色背景墙前，说话人坐在黑色靠背椅上",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "context_1",
+        "type": "context",
+        "content": "说话人身穿灰色西装外套与蓝色衬衫，颈部贴有浅色敷料胶布",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  }
+}

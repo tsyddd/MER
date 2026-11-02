@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "Joey在通话中表示要取消今晚的计划，其面部表情和声音语调均表现出一种低落和无奈的状态。他的头部微偏，视线朝下，嘴唇开合，声调平缓低沉，这些视听线索共同指向一种因不得不取消计划而产生的失落感。尽管他没有表现出强烈的悲伤或沮丧，但其整体表现更偏向于一种平稳的失落，而非中性或积极情绪。",
+  "open_emotion": "失落",
+  "answer": "sadness",
+  "mapping_reason": "根据当前证据，Joey的面部表情（头部微偏、视线朝下）和声音语调（平缓低沉）共同表现出一种因取消计划而产生的失落感。这种情绪与'悲伤'（sadness）的定义相符，即因失落、损失或痛苦而难过、哀伤或低落。虽然情绪强度较弱，但其主导情绪是失落，因此映射到'sadness'是合理的。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "Joey靠坐在扶手椅上，右手握着手机贴在右耳旁，左手搭在扶手上，头部微偏，视线朝向前方略偏下方。",
+      "interpretation": "Joey的身体姿态和面部朝向表现出一种低落和无奈的状态，这与他取消计划的言语内容相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "Joey的声调平缓低沉。",
+      "interpretation": "Joey的低沉声调与他取消计划的言语内容相符，表现出一种失落和无奈的情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "I'm sorry I gotta cancel tonight baby",
+      "observation": "Joey说：“I'm sorry I gotta cancel tonight baby”",
+      "interpretation": "Joey的言语内容表明他正在取消一个计划，这通常是导致失落感的原因。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "Joey说话时声调平缓低沉。",
+      "interpretation": "Joey的低沉声调与他取消计划的言语内容相符，表现出一种失落和无奈的情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "Joey的面部表情和声音语调虽然表现出失落，但并未达到强烈悲伤的程度。然而，根据当前证据，这种失落感是主导情绪，因此映射到'sadness'是合理的。"
+}

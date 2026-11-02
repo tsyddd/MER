@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物是前7帧中的男性，末帧女性为旁人。男性持续看向对方并张口说话；frame_02至frame_05中眉头略收紧、眼睛睁大，嘴部由张开转为抿紧/突出，显示对局势的紧张质疑。字幕“难道都要悉数倒戈？不成？”与这种视觉上的担忧和难以置信相符，但无音频，无法进一步判断语气强弱。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.56秒；frame_05 @ 1.40秒",
+      "observation": "男性目标人物面向右侧对话对象，眉间略有收紧，眼睛睁开，嘴部在说话过程中张开后收紧。",
+      "interpretation": "持续的紧张凝视与收紧的眉部更支持担忧、质疑，而非放松或愉悦。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.00秒至frame_06 @ 1.68秒",
+      "observation": "男性表情整体克制，没有明显笑容；视线始终集中在对方，嘴部多次变化，姿态保持正面对话。",
+      "interpretation": "缺少快乐表情，持续关注对方并反复开口更符合带有忧虑的质问。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "当前字幕：“难道都要悉数倒戈？不成？”",
+      "observation": "字幕表达对众人可能倒戈的质疑和否定。",
+      "interpretation": "语义支持担忧或惊疑；但字幕本身不能确定是担忧还是愤怒。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "眉头收紧、嘴部收紧也可能表示愤怒或强烈质问，且frame_02和frame_05的眼神较锐利；但未见明显瞪视、夸张张口或攻击性姿态，结合字幕中的担忧语义，未采用angry。"
+}

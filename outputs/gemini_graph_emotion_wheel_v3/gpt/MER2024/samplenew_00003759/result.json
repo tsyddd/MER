@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00003759",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "d4dc715827dd04c5c7e8bd03b9c748a147a401e0b3bbb9649b82a034b9612827",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "当前反应指向对转述信息是否属实的即时意外，符合surprise的预期违背；没有足够证据表明她主要在担心后果或责备对方。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "当前反应主要指向对转述消息感到意外并立即求证，符合surprise的预期违背，而非仅因句子是疑问句就判为惊讶。"
+    },
+    "image": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "当前表现偏向对所获信息感到意外并求证，符合surprise所指的即时诧异；没有足够证据将其判为担忧或愤怒。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "目标是棕色外套女子；summary核对第2至7帧，她持续注视对方、睁大眼睛，至第7帧张口幅度更大，[image:E1]对这一视觉变化的描述可信，但张口也可能只是说话动作。画面字幕是“是吗，他真这么说的”，与提供字幕中的“才”字不一致；这句求证配合表情，比仅凭疑问句更支持即时诧异，[audio_subtitle:E1]的语义判断可采纳。第8帧“我骗你干吗啊”属于黄色毛衣女子的回应，[graph:E3]对人物归属的提醒可由画面核实，不能将她的辩解算作目标情绪。普通核实消息仍是可能的解释，但目标的连续表情变化使诧异更占主导；未提供音轨，不据此判断语气。",
+  "output": "目标是棕色外套女子；summary核对第2至7帧，她持续注视对方、睁大眼睛，至第7帧张口幅度更大，[image:E1]对这一视觉变化的描述可信，但张口也可能只是说话动作。画面字幕是“是吗，他真这么说的”，与提供字幕中的“才”字不一致；这句求证配合表情，比仅凭疑问句更支持即时诧异，[audio_subtitle:E1]的语义判断可采纳。第8帧“我骗你干吗啊”属于黄色毛衣女子的回应，[graph:E3]对人物归属的提醒可由画面核实，不能将她的辩解算作目标情绪。普通核实消息仍是可能的解释，但目标的连续表情变化使诧异更占主导；未提供音轨，不据此判断语气。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 87.16050863265991
+}

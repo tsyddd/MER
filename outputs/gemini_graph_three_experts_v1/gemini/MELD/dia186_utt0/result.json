@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia186_utt0",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "ce61aa500b449acf27aca857327845af67ac7b2a64a913c11593cd28ac6f91bf",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "三位专家对目标人物 Chandler 的表现判断高度一致。图像与图谱分析表明其面部神态平缓自然，仅有日常交流的辅助手势而无激烈表情，音频专家也指出其语气平稳无剧烈情绪起伏，综合判断其处于中性状态。",
+  "output": "三位专家对目标人物 Chandler 的表现判断高度一致。图像与图谱分析表明其面部神态平缓自然，仅有日常交流的辅助手势而无激烈表情，音频专家也指出其语气平稳无剧烈情绪起伏，综合判断其处于中性状态。\n<answer>neutral</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 41.282867193222046
+}

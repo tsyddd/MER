@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物是左侧穿蓝衬衫的金发男子，不是右侧转身的深衣男子。[E1]他持续看向画面右侧，身体略向前，面部变化不大；[E2]随后张口，结合字幕可判断他在询问是否有人，但提问本身不足以说明惊讶或害怕。当前最有支持的解释是平常的询问。",
+  "open_emotion": "平常",
+  "answer": "neutral",
+  "mapping_reason": "他的可见表达较平稳，询问没有伴随明确的惊吓、对抗或其他主导情绪，因此映射为neutral。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.000秒）至frame_07（1.752秒）",
+      "observation": "左侧男子始终朝画面右侧看，身体略向前；未见明显后缩、激烈手势或大幅面部变化。",
+      "interpretation": "支持较克制、平稳的当前表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01（0.250秒）至frame_03（0.751秒）",
+      "observation": "左侧男子的嘴由闭合转为张开，视线仍朝右侧。",
+      "interpretation": "与发问相符，但张口不能单独视为惊讶。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Someone in there?",
+      "observation": "字幕是一句询问是否有人在里面的话。",
+      "interpretation": "支持他正在确认情况；句子本身没有明确表达害怕或愤怒。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "持续注视右侧和略向前的姿态也可能表示警觉或疑惑；但画面没有足够清晰的威胁反应或突出的惊讶表情。未提供音频，不能依据语调进一步判断。"
+}

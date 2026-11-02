@@ -1,0 +1,24 @@
+{
+  "expert": "graph",
+  "reason": "结合事件链与情境互动，Monica听到他人言论后立即从背景房间快步冲向前[process_0]，伴随极高亢、具攻击性的尖锐质问语调喊出话语[E2, person_2]，呈现出因被冒犯而主动迎击、介入打断的对抗态势，核心情绪为愤怒（anger）。事件语义上这种强压迫感的走向对方与严厉反诘，排除了单纯不带敌意的惊讶。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "Monica从房间后景快速迈步走向客厅前方互动中心。",
+      "interpretation": "主动拉近距离并介入现场的身体推进动作，反映出其强烈的对抗意图与情绪宣泄冲动，支持愤怒的行动倾向。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.10s-1.20s",
+      "observation": "实际音轨中Monica以极高音调且尖锐上扬的质问声调大声喊出'Excuse me!'。",
+      "interpretation": "核查发现音频实为'Excuse me!'（图谱process_1所称'What?!'在音轨中不明显），该高亢尖利的语调具有明显的质问与斥责色彩，对应被冒犯后的愤怒反击。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "替代解释可能认为其情绪为surprise（对他人言论感到震惊诧异）。然而单纯的惊愕通常伴随停滞或退缩反应，而Monica不仅音调尖利充满指责感，行动上更展现出大步冲上前对峙的侵略性身势，因此anger更贴合其被激怒后的防御反弹特征。"
+}

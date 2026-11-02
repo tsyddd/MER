@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia263_utt9",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sadness",
+  "emotion_analysis": "罗斯低垂着头，神情沮丧且眼神满是无奈与失落。在说出“I'm gonna have to give him up”时，他的语调低沉轻微，透露出强烈的伤感与难过情绪。",
+  "output": "罗斯低垂着头，神情沮丧且眼神满是无奈与失落。在说出“I'm gonna have to give him up”时，他的语调低沉轻微，透露出强烈的伤感与难过情绪。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 7.454649448394775,
+  "node_count": null,
+  "edge_count": null
+}

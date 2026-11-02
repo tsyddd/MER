@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia259_utt9",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "disgust",
+  "emotion_analysis": "当前目标人物是Monica，字幕节点process_0显示她说“You are both idiots.”，这是对他人的直接贬斥。视觉节点person_0、person_1、person_2及其after关系显示她双手交握、低头侧视并前倾，表情带有轻蔑和不满，但未见明显愤怒或恐惧，因此更符合disgust。",
+  "output": "当前目标人物是Monica，字幕节点process_0显示她说“You are both idiots.”，这是对他人的直接贬斥。视觉节点person_0、person_1、person_2及其after关系显示她双手交握、低头侧视并前倾，表情带有轻蔑和不满，但未见明显愤怒或恐惧，因此更符合disgust。\n<answer>disgust</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 55.082494020462036,
+  "node_count": 4,
+  "edge_count": 5
+}

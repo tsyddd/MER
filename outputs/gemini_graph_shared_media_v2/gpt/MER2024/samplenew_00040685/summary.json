@@ -1,0 +1,9 @@
+{
+  "reason": "回看frame_00至frame_07，中央人物始终紧盯左侧男子，双眼睁大、眉间收紧；[image:E1]对这一紧绷表现的描述可信，但它本身不足以区分担忧和愤怒。字幕中的“父皇本已对我起了疑心”是对过去处境的叙述，为当前的警觉表情提供了担忧的语境[audio_subtitle:E1]，不能仅凭这段往事判定情绪。[audio_subtitle:E2]将持续对视解释为质问和不满，是最强的愤怒解释；但画面没有更明确的攻击性表现，综合取担忧。未提供音轨，无法核实语气。",
+  "answer": "worried",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E1",
+    "audio_subtitle:E2"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载棕色外套女子向对方询问“是吗 他真这么说的”〔process_0〕，语速较快且语调明显上扬〔person_1〕。随后其睁大双眼、嘴部微张注视对方等待回应〔person_2〕，神态与发问方式充分体现了意外与吃惊的情绪反应。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "process_0",
+    "person_1",
+    "person_2"
+  ]
+}

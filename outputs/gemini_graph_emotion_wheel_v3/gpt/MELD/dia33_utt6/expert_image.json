@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是抱着襁褓的Rachel。她从低头查看襁褓转为抬头说话，眉部收紧、嘴张大，随后转身仍在调整怀抱[E1][E2]。这些变化结合她说“已经好几个小时了，还不停地哭”[E3]，最支持她因持续无法安抚而感到烦躁；这不是仅凭张口或皱眉作出的判断。",
+  "open_emotion": "烦躁",
+  "answer": "anger",
+  "mapping_reason": "烦躁指向当前受阻所引起的不满，依此映射到anger；这里不意味着她在对襁褓中的对象发怒。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.000秒）至frame_03（2.211秒）",
+      "observation": "Rachel起初低头看怀中襁褓，随后抬头，眉部收紧，张口说话时面部呈紧绷状态。",
+      "interpretation": "从查看到紧绷表达的变化，支持她正受到困扰，但单独不足以区分烦躁与担忧。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01（0.751秒）至frame_05（3.712秒）",
+      "observation": "她一边调整襁褓和托抱姿势，一边持续说话，之后抱着襁褓转向右侧。",
+      "interpretation": "持续忙于应对眼前状况，与受阻时的烦躁相符；动作本身并非发怒的证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“Oh come on, what am I gonna do, its been hours and it  won’t stop crying.”",
+      "observation": "字幕中的Rachel说不知该怎么办，并指出哭声已持续数小时、仍未停止。",
+      "interpretation": "话语明确给出了持续受阻的对象，使烦躁比单凭画面判断更有依据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "她始终托抱并调整襁褓，眉部和口型也可能体现担忧而非不满；没有音频，无法凭语调进一步区分。"
+}

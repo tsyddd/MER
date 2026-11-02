@@ -1,0 +1,82 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Monica说Ben今晚要过来，而且不能看到眼前的这个东西。",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Monica将右手伸向街机的控制面板。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Monica看向画面左侧。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Monica抬起并移动右手，同时保持头部朝向画面左侧。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Monica低头转向街机控制面板。",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "Monica位于一台街机旁，画面左侧有另一名人物。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "字幕提到Ben将在今晚到来。",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "temporal_relations": []
+}

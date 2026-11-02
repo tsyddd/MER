@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035837",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "50fa078e2d97eec8a574cbe583ec63c1368c6298089bae3bc9b79dd5c68cb064",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "三份专家报告均一致指出目标人物语速缓慢、音调低沉、低头凝视、表情凝重，并结合台词内容'再也没有亲人了'，所有证据共同指向悲伤情绪。无任何冲突信息，因此采纳一致结论。",
+  "output": "三份专家报告均一致指出目标人物语速缓慢、音调低沉、低头凝视、表情凝重，并结合台词内容'再也没有亲人了'，所有证据共同指向悲伤情绪。无任何冲突信息，因此采纳一致结论。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 44.9255051612854
+}

@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "目标人物是从赤裸上身男子身旁俯身离开的女学生，而非画面中站立的两名男子。她边道歉边迅速避开当前互动，更支持一时惊讶，而非持续恐惧[E1][E2]。图谱process_0也记录了她低头快速离开的动作，但这与画面属于同一事实，不能重复计作独立证据[E3]；图谱所述急促语速没有原音轨可供核验[E4]。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.0009992228266904秒至frame_06 @ 1.9602901447022687秒",
+      "observation": "女学生俯身、低头，从赤裸上身男子身旁迅速移向左侧并离开画面。",
+      "interpretation": "当前互动中的回避和匆忙离开支持突然受惊讶后的反应，但不能单凭动作断定她害怕谁。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "“I’m so sorry!”",
+      "observation": "当前字幕是一句道歉。",
+      "interpretation": "与匆忙避开的动作合看，更像对眼前突发互动的即时回应；道歉本身不能证明具体起因。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "图谱记录女学生弯腰低头、快速离开。",
+      "interpretation": "与画面中的动作大体相符，但图谱称她穿过书架过道，画面更明确显示她移向左侧；该节点也不能建立她离开的原因。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱转述她说话较快、带有急促感。",
+      "interpretation": "未提供原音轨，无法亲耳核验语速；保留为有来源但不确定的音频转述，不据此决定标签。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "低头快走也可能表示害怕或单纯尴尬；但当前没有可核实的受威胁表现或持续恐惧反应，因此未选fear。字幕和动作也不足以确定她为何道歉。"
+}

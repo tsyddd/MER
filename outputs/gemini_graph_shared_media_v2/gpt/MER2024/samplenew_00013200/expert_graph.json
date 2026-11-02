@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "当前互动中，目标人物持续直视对方并直接指责其“背信弃义”“一个劲儿地抬价”，结合逐步睁大双眼、紧盯对方的对峙式表达，更支持愤怒而非单纯惊讶。图谱节点person_0与person_3分别记录直视和后续双眼睁大，person_3相对person_0的顺序关系说明当前注视强度进一步增强；但图谱关于急促高声的person_1属于音频转述，本片段未提供原音轨，不能亲耳核验。",
+  "answer": "angry",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "当前字幕",
+      "observation": "字幕原话为“可是，你背信弃义，你一个劲地抬价。”",
+      "interpretation": "这是针对当前对方行为的直接指责，语义上具有明显的责备和对抗性，支持愤怒判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0s；frame_01 @ 0.44s；frame_02 @ 0.84s",
+      "observation": "目标人物持续平视并直视对面的男子，面部紧绷，嘴部持续说话。",
+      "interpretation": "视线锁定与紧张的当面发言构成当前互动中的对峙表现，支持愤怒而非中性。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05 @ 2.16s；frame_06 @ 2.56s；frame_07 @ 3.0s",
+      "observation": "后段目标人物双眼明显睁大，仍持续注视对方，张口强调说话。",
+      "interpretation": "双眼睁大也可能表示惊讶，但在前述指责和持续对峙语境中，更像情绪升级后的怒视；这与图谱节点person_3所述表现一致。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱转述目标人物语速急促、音量较高。当前没有提供原音轨，无法亲耳核验该听觉事实。",
+      "interpretation": "若该转述准确，它会进一步支持愤怒；但只能作为不确定的补充，不能替代当前可核实的画面和字幕证据。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "最强的替代解释是surprise：后段双眼睁大、张口可能表现惊讶。但画面中的持续直视、紧绷对峙和字幕中的直接指责共同指向责备性情绪，因此未采用惊讶；仍缺少原音轨对语速和音量节点person_1的直接核验。"
+}

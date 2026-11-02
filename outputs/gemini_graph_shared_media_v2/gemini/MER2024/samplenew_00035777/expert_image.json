@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "画面中目标人物身体前倾、咬牙切齿、怒目圆睁，面部肌肉强烈收紧[E1]，配合音轨中极为严厉斥责的怒吼声[E2]，明确表现出愤怒的情绪状态。",
+  "answer": "angry",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.36",
+      "observation": "目标人物身体向前俯冲，双眼圆睁怒视下方，双唇大张并咬紧牙关，面部肌肉极度紧绷并伴随剧烈动作模糊",
+      "interpretation": "咬牙切齿且带有攻击性前倾的姿态是典型的愤怒训斥特征，排除了平和或单纯忧虑的可能",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.0s - 1.8s",
+      "observation": "男子以极高音量、粗粝且充满斥责力量的语调大声吼出台词",
+      "interpretation": "高强度爆破音与呵斥语调证实视觉上的紧咬牙关是发怒训话而非惊恐或痛苦",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "在后半段（frame_06至frame_07）其眉头抬起、双眼圆睁，可能被单独某一帧误认为是惊讶或担忧，但结合动作连贯性看属于训斥时的怒视发威，故排除worried与surprise。"
+}

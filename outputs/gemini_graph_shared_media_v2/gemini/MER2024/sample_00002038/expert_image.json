@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "画面中目标人物双眉紧缩且内侧向上聚拢[E1]，眼神带有明显的疑虑与不安，配合嘴唇微张的试探性提问[E2]，整体视觉与语音呈现出典型的困惑与担忧状态[E3]。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.24",
+      "observation": "目标人物眉心紧皱，眉头向中央聚拢并微向上挑，额间形成明显纵向纹路，眼神略带茫然与警惕",
+      "interpretation": "眉部的聚拢与轻微上挑通常反映内在的担忧、困惑或不安感",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05 @ 0.56",
+      "observation": "面部肌肉保持绷紧，嘴唇微张露出齿列，视线定格在来人方向，神态充满戒备与试探",
+      "interpretation": "持续的紧张戒备态势排除了放松的neutral或积极情绪，指向担忧不安",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "他，是谁呀？",
+      "observation": "人物发出带有疑问的台词“他，是谁呀？”",
+      "interpretation": "表明面对眼前人产生了认知障碍与陌生感，结合其紧绷表情，强化了worried判断",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "眉头上挑且微聚拢有时与悲伤（sad）重叠，但画面中人物并未出现哭泣、嘴角明显下撇或精神萎靡，而是保持警惕与发问的专注探究，因而更倾向于worried而非单纯的sad。"
+}

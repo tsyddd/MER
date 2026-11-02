@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "Joey在当前对话中先提出“怕高”的假设，再说“去楼顶”；这不是他本人正在害怕或登楼[E1]。他随即皱眉、绷紧面部并向交谈对象指点[E2]，更像在不耐烦地强调自己的说法，而非表达对高度的恐惧。图谱的person_1记录了指点动作[E3]，但与画面属于同一事实，不能算作额外的情绪证据。",
+  "open_emotion": "恼火",
+  "answer": "anger",
+  "mapping_reason": "当前皱眉和强调式指点呈现轻度不满，最接近情绪轮中anger的“恼火”；并无证据表明Joey本人正面临高度威胁。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“It have a fear of heights, you go to the top of the building!”",
+      "observation": "话语把怕高与去楼顶连在一起，表述的是设想中的做法。",
+      "interpretation": "“fear”是话题内容，不能直接判为Joey当前的恐惧。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03（1.251秒）至frame_05（2.127秒）",
+      "observation": "Joey说话时眉头收紧、面部紧绷，抬手后以食指向前指点。",
+      "interpretation": "这些当前表现支持他在带着不满强调观点，而非平稳陈述。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_0、process_1、person_1",
+      "observation": "图谱将两段话记为先后相接，并记录Joey由摊手转为指点。",
+      "interpretation": "图谱有助于区分假设内容和当前互动；其中话语的音频来源只是图谱转述，未收到原音轨，不能据此判断语调。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "指点和皱眉也可能只是用力解释，不必然表示责备；字幕开头与图谱转述措辞不一致，且无原音轨可核验，因此对恼火的判断以可见的当前表现为主，强度不宜夸大。"
+}

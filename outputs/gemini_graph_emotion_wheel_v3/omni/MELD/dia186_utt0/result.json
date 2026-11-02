@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia186_utt0",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "ce61aa500b449acf27aca857327845af67ac7b2a64a913c11593cd28ac6f91bf",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "尴尬",
+      "mapped_label": "disgust",
+      "mapping_reason": "根据MELD项目的情绪轮定义，“disgust”（厌恶）涵盖了对令人反感、恶心或难以接受对象的排斥与厌弃。Chandler的言语“Ross and Joey is embarrassing enough”直接表达了对Ross和Joey行为的负面评价，其手部动作和面部神态也表现出一种强调和轻微排斥的姿态。虽然“尴尬”一词更贴近Chandler的主观感受，但在数据集的情绪轮中，“disgust”是唯一能涵盖这种对他人行为进行负面评价和排斥的类别。因此，将“尴尬”映射到“disgust”是合理的近似投影，尽管存在一定的语义损失。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "尴尬",
+      "mapped_label": "neutral",
+      "mapping_reason": "在MELD项目的情绪轮中，'尴尬'（embarrassment）没有被列为一个独立的Level1标签。根据其定义，尴尬是一种社交情境下的负面情绪，但其强度和表现形式多样。在本片段中，Chandler的言语和表情虽然与'尴尬'相关，但他的整体表现更偏向于一种日常的、非强烈的社交反应，没有表现出强烈的悲伤、愤怒或恐惧。因此，将其映射到'neutral'（中性）是合适的，因为它代表了一种平稳、日常且没有明确主导情绪的表达，尽管其背后有社交不适的成分。"
+    },
+    "image": {
+      "open_emotion": "surprise",
+      "mapped_label": "surprise",
+      "mapping_reason": "The visual evidence shows a clear sequence of surprise: an initial gasp or open-mouthed reaction (frame_00-frame_01), followed by a look of processing and reaction (frame_02-frame_07). This aligns with the definition of 'surprise' as being 'faced with an unexpected event or information'. The audio confirms this, as Chandler says, 'Ross and Joey is embarrassing enough,' which is a reaction to a situation he finds surprising or amusing."
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "Chandler的言语内容'Ah, no-no-no just Ross. Ross and Joey is embarrassing enough.'（[audio_subtitle:E1]）表明他正在对Ross和Joey的行为做出负面评价，认为其令人尴尬。他的面部表情（[image:E1]）从张嘴的惊讶状态转变为带有夸张和无奈的反应，这与他话语中表达的社交不适感相符。虽然专家们对情绪的解释不同，但视觉证据显示了一个从惊讶到反应的动态过程，而音频内容则明确指向了对他人行为的负面评价。综合来看，Chandler的反应是日常的、非强烈的社交反应，没有表现出强烈的悲伤、愤怒或恐惧，因此最符合'neutral'（中性）的定义，即一种平稳、日常且没有明确主导情绪的表达。",
+  "output": "Chandler的言语内容'Ah, no-no-no just Ross. Ross and Joey is embarrassing enough.'（[audio_subtitle:E1]）表明他正在对Ross和Joey的行为做出负面评价，认为其令人尴尬。他的面部表情（[image:E1]）从张嘴的惊讶状态转变为带有夸张和无奈的反应，这与他话语中表达的社交不适感相符。虽然专家们对情绪的解释不同，但视觉证据显示了一个从惊讶到反应的动态过程，而音频内容则明确指向了对他人行为的负面评价。综合来看，Chandler的反应是日常的、非强烈的社交反应，没有表现出强烈的悲伤、愤怒或恐惧，因此最符合'neutral'（中性）的定义，即一种平稳、日常且没有明确主导情绪的表达。\n<answer>neutral</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 203.69620323181152
+}

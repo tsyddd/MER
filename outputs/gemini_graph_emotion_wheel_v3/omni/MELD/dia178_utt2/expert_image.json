@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "Monica's facial expression and body language across the frames show a clear positive emotional state. She is consistently smiling, with visible crinkling around her eyes, and her head is tilted in a warm, affectionate manner. Her gaze is directed towards Chandler and the baby, indicating engagement and positive regard. The combination of her smile, relaxed posture, and gaze direction supports a positive emotional interpretation.",
+  "open_emotion": "affection",
+  "answer": "joy",
+  "mapping_reason": "The observed affectionate smile and warm gaze are consistent with the 'joy' category, which encompasses positive experiences such as happiness and delight. While 'affection' is a more specific open emotion, it maps to 'joy' as it is a form of positive emotional experience. The visual evidence does not support a stronger negative emotion or a state of surprise.",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "Monica is holding a baby and has a slight smile on her face.",
+      "interpretation": "The smile indicates a positive emotional state.",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01",
+      "observation": "Monica's smile widens, and her eyes crinkle at the corners.",
+      "interpretation": "This is a Duchenne smile, often associated with genuine happiness.",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05",
+      "observation": "Monica is smiling broadly and looking at Chandler and the baby.",
+      "interpretation": "Her gaze and smile indicate positive engagement and delight.",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "subtitle",
+      "anchor": "Look at Chandler with little baby girl Chandler.",
+      "observation": "The subtitle contains a positive and playful comment.",
+      "interpretation": "The content of the speech supports a joyful and amused emotional state.",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "There is no visual evidence of negative emotions such as anger, sadness, or fear. The scene is calm and the interaction is positive."
+}

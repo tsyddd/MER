@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "Monica在〔process_0〕中急促高声喊“No-no-no, no!”，随后在〔process_1〕和〔process_2〕中迅速放下物品并冲向门边，表现出对眼前情境的强烈紧张和紧急干预。图谱记载她在〔person_4〕中瞪大双眼、身体前倾起身，这些当前反应更符合恐惧。",
+  "answer": "fear",
+  "evidence_refs": [
+    "process_0",
+    "process_1",
+    "process_2",
+    "person_4"
+  ]
+}

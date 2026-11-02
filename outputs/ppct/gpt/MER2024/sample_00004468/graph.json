@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "人物说出字幕内容：“哎，朕，仇院长，离婚，你怎么这么高兴呢？”",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "女性头发向后束起，身体正面朝向镜头，手持一件绿色边框、橙色封面的文件夹置于胸前",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "人物头部向画面右侧倾斜，双眼闭合，嘴部张开",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "人物睁眼并看向画面右侧，头部逐渐转为较直的姿态，嘴部持续张开",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "画面为室内场景，背景可见玻璃隔断或透明墙面",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "画面中可见一名女性，穿白色外衣和条纹领口服装",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_2",
+      "type": "context",
+      "content": "字幕中出现“仇院长”这一称呼",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "同一人物的头部姿态和眼睛、嘴部状态在前后帧发生变化",
+      "entity_anchor": "同一女性人物"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供人物的发型、朝向及手持文件夹等外观与持物信息，person_1提供头部姿态、眼睛和嘴部状态，联合后更完整呈现人物当时的可见外观与面部表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_0提供人物的发型、朝向及手持文件夹等外观与持物信息，person_2提供人物转头、视线方向和持续说话的可见状态，联合后补充了人物外观与当前动作表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1提供人物闭眼、头部倾斜和张嘴的面部状态，person_2提供随后睁眼、看向画面右侧及头部回正的状态，联合后增加了人物面部与视线变化的可观察信息。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0提供室内玻璃隔断或透明墙面的环境信息，context_1提供人物的性别、白色外衣和条纹领口服装信息，联合后更完整限定了人物所在的室内场景及其外观。",
+      "entity_anchor": null
+    }
+  ]
+}

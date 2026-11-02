@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物在持续的婴儿啼哭背景下，话语'what am I gonna do'表达出束手无策的无助与崩溃感。音频中Rachel的音调显著升高并带有明显的颤抖与抽泣式哭腔（sobbing/whining），在尾音'crying'处更是几近哽咽，语速紧凑而气息不稳，视觉上眉头紧锁、嘴角下拉，充分表现出因长时间受困于婴儿啼哭而产生的痛苦、无助与沮丧崩溃，而非针对他人的对抗攻击。",
+  "open_emotion": "沮丧崩溃",
+  "answer": "sadness",
+  "mapping_reason": "开放情绪体现为身心俱疲、难以承受困境的痛苦无助与哭腔崩溃，符合情绪轮中因承受痛苦与无力感而陷入沮丧、低落的sadness家族范畴。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Oh come on, what am I gonna do, its been hours and it won’t stop crying.",
+      "observation": "说话者使用修辞性反问'what am I gonna do'及对持续困境的描述'its been hours'，展现出面对无法安抚的婴儿时的无力感与心理防线失守。",
+      "interpretation": "言语行为体现为求助与哀叹，而非命令或责难。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:01-00:04",
+      "observation": "声音音调高亢且伴随明显的哭腔颤音，尤其在'hours'和'won't stop crying'处音质沙哑破碎、带抽泣换气。",
+      "interpretation": "强烈的哽咽与哭腔直接反映出内心悲伤、痛苦与崩溃状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_03",
+      "observation": "面部出现典型的眉头蹙起、嘴角下撇以及面部肌肉紧绷抽搐的快要啼哭的神情。",
+      "interpretation": "视觉悲苦面容与听觉哭腔高度一致，佐证其陷入哀伤失落情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "话语开头的'Oh come on'带有一定的焦躁与烦乱倾向，易被误判为恼怒（anger），但音轨中主导的声音特征为抽泣与呜咽的哭腔，缺乏anger的攻击性和低沉爆发力，因此更属于sadness范畴。"
+}

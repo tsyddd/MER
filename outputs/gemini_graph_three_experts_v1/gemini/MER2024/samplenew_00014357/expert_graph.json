@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载男孩面带笑容且身体微前倾（person_0），同时说话语调轻快上扬、语速较快（person_1）。在短暂停顿后，他再次面露笑容，边笑边主动热情地与对方搭话（person_3）。这些持续的微笑表情与轻快语调综合表明其情绪状态为开心（happy）。",
+  "answer": "happy",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "person_3"
+  ]
+}

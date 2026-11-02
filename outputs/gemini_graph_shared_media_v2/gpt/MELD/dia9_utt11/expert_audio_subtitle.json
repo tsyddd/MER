@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Rachel说“Everything’s ruined. My bed. My clothes”，是在陈述自己的损失，而非提问或引述；她随后举起毛衣让同伴看，低落的表情与话语一致，较支持sadness[E1][E2][E3]。没有音频，不能判断她的语调或音量。",
+  "answer": "sadness",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Everything’s ruined. My bed. My clothes. Look at my favorite blue sweater.",
+      "observation": "Rachel说床、衣服都毁了，并请同伴看她最喜欢的蓝色毛衣。",
+      "interpretation": "这是对自身损失的直接陈述，支持难过，而不只是提到了负面话题。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.0844158247289146秒",
+      "observation": "Rachel低头看着手中的衣物，嘴角下垂。",
+      "interpretation": "表情和视线与她所说的损失相符，支持低落的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_06 @ 2.127123348506717秒",
+      "observation": "Rachel举起手中的蓝色衣物给同伴看。",
+      "interpretation": "这一动作核对了“Look at my favorite blue sweater”的指向，表明她正展示受损的个人物品。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "“Everything’s ruined”也可能带有愤怒或震惊；但字幕没有指责对象，画面中也未见明确的愤怒动作。缺少音频，无法进一步区分她说这句话时是否带有怒气。"
+}

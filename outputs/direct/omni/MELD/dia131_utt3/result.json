@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia131_utt3",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "Rachel says 'everything went great' in a cheerful tone, and her facial expression shows a smile, indicating happiness.",
+  "output": "Rachel says 'everything went great' in a cheerful tone, and her facial expression shows a smile, indicating happiness.\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 3.502537250518799,
+  "node_count": null,
+  "edge_count": null
+}

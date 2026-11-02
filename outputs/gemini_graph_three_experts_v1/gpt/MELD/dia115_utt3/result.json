@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia115_utt3",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "3c926295d3796c3783dc09d63fc430c57ea2b6d5e57398d0b9b8039178cc2219",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "字幕内容被描述为带有贬低、指责和敌意，支持其表达恼怒；但图谱与图像所见的站姿、注视和表情较稳定，未呈现明显外显愤怒。由于图像证据主要反映外在表现，而字幕直接体现言语态度，综合取“anger”。",
+  "output": "字幕内容被描述为带有贬低、指责和敌意，支持其表达恼怒；但图谱与图像所见的站姿、注视和表情较稳定，未呈现明显外显愤怒。由于图像证据主要反映外在表现，而字幕直接体现言语态度，综合取“anger”。\n<answer>anger</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 95.91388201713562
+}

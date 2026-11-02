@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Chandler的言语内容为'Ah, no-no-no just Ross. Ross and Joey is embarrassing enough.'，表明他认为Ross和Joey在一起已经足够令人尴尬，因此他想排除自己。他的语气是快速、略带急促的，但没有表现出愤怒、悲伤或恐惧等强烈情绪。他的表情（从视觉上看）是夸张的，带有无奈和一丝笑意，这与他话语中表达的尴尬和想撇清关系的意图相符。综合来看，他的情绪是无奈的、觉得好笑的，但又不想被卷入其中。",
+  "open_emotion": "尴尬",
+  "answer": "neutral",
+  "mapping_reason": "在MELD项目的情绪轮中，'尴尬'（embarrassment）没有被列为一个独立的Level1标签。根据其定义，尴尬是一种社交情境下的负面情绪，但其强度和表现形式多样。在本片段中，Chandler的言语和表情虽然与'尴尬'相关，但他的整体表现更偏向于一种日常的、非强烈的社交反应，没有表现出强烈的悲伤、愤怒或恐惧。因此，将其映射到'neutral'（中性）是合适的，因为它代表了一种平稳、日常且没有明确主导情绪的表达，尽管其背后有社交不适的成分。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "字幕内容",
+      "observation": "Chandler说：'Ah, no-no-no just Ross. Ross and Joey is embarrassing enough.'",
+      "interpretation": "Chandler明确表示Ross和Joey已经足够令人尴尬，他想把自己排除在外，这表明他正在处理一种社交上的尴尬情境。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "Chandler的语调是快速、略带急促的，但没有明显的音高变化或音量波动，听起来像是在快速解释或辩解。",
+      "interpretation": "这种语调表明他可能有些着急或想尽快澄清，但没有表现出愤怒或恐惧等强烈情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "Chandler的面部表情是夸张的，嘴巴张开，眉毛上扬，看起来像是在做鬼脸或表达一种无奈的、觉得好笑的情绪。",
+      "interpretation": "这种表情与他话语中表达的尴尬和想撇清关系的意图相符，但其夸张的表演性质使其更像是一种日常的、非严肃的反应，而非真正的悲伤或愤怒。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽然Chandler的言语和表情与'尴尬'相关，但'尴尬'本身不是一个被允许的Level1标签。他的反应是日常的、非强烈的，因此'neutral'是更合适的映射。"
+}

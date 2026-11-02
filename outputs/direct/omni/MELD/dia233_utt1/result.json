@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia233_utt1",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "Rachel's facial expression shows wide eyes and a slightly open mouth, indicating surprise. Her tone of voice is high-pitched and incredulous, matching the content of her speech about someone getting a fish, which she finds shocking.",
+  "output": "Rachel's facial expression shows wide eyes and a slightly open mouth, indicating surprise. Her tone of voice is high-pitched and incredulous, matching the content of her speech about someone getting a fish, which she finds shocking.\n<answer>surprise</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 6.35308575630188,
+  "node_count": null,
+  "edge_count": null
+}

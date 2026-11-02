@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00029282",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "sad",
+  "emotion_analysis": "主人物眼眶含泪，眉头紧皱，嘴角下压，面部呈现明显的痛苦和悲伤。字幕内容虽带有责备意味，但当前表情主要体现难过而非愤怒。",
+  "output": "主人物眼眶含泪，眉头紧皱，嘴角下压，面部呈现明显的痛苦和悲伤。字幕内容虽带有责备意味，但当前表情主要体现难过而非愤怒。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 19.844017505645752,
+  "node_count": null,
+  "edge_count": null
+}

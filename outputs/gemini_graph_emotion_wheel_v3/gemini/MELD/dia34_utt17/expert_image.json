@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "目标人物Monica（黑发、淡紫色衣服）在片段中对Rachel（金发、粉色毛外套）讲话。从frame_02到frame_07，Monica端坐面向Rachel，眼神紧盯对方，眉宇紧锁，嘴角下压且抿紧，神情严肃而充满不赞同；在frame_05至frame_07讲话时眼神专注且略微瞪大，配合音频中对“never”和“cheat”的重读与严厉斥责语调[E1, E2]，表现出明显的道德谴责与恼火对抗，属于愤怒/愤慨情绪。",
+  "open_emotion": "愤慨",
+  "answer": "anger",
+  "mapping_reason": "“愤慨/indignant”表达了对违背原则行为的责备、恼火与强烈不赞同，直接对应情绪轮中的anger家族。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_05, 2.54s - frame_07, 3.58s",
+      "observation": "Monica端坐于沙发上，身体前倾面对Rachel，双眼紧盯着对方，眉头紧蹙，说话时神态严厉且目光坚定微瞪。",
+      "interpretation": "展现出不容妥协、正颜厉色的质问与指责姿态，支持其内心的不满与愤慨。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00 - 00:03",
+      "observation": "音频中Monica以拔高且紧绷的语调大声斥责，在'never'与'cheat'处明显加强重音。",
+      "interpretation": "强烈的言语重音与指责声调证实了视觉上的严厉神态并非中性陈述，而是明确的恼怒与斥责。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "在frame_02与frame_03未大动作张嘴时，面容偏向克制与沉静，可能容易被孤立误判为中性，但结合动态发力与音频的连续严厉斥责，中性解释不成立。"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00006180",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "4a765d2b2802a7f8b7c5268ad405ddb73b3790b0239521f2f89cddf88ddba4d0",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "平常",
+      "mapped_label": "neutral",
+      "mapping_reason": "“平常”对应情绪轮中有当前表现支持的平稳交流，而不是因缺少音轨才判为neutral。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "平和询问",
+      "mapped_label": "neutral",
+      "mapping_reason": "“平和询问”在此体现为自然交流，而非因意外消息产生的惊讶；按情绪轮映射为neutral。"
+    },
+    "image": {
+      "open_emotion": "平静探询",
+      "mapped_label": "neutral",
+      "mapping_reason": "她有提问时的表情变化，但没有足够证据表明喜悦、担忧或意外反应占主导；按当前平稳交流的表现映射为neutral。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标是女教师；frame_06喊“我知道”的是男学生，不能把他的兴奋归给她，[image:E2]对此的目标区分可信。她在frame_00至frame_03抬眉、张口，结合“同学们，有没有知道的？”是在向全班征询答案，而非对意外消息作出反应，[image:E1][audio_subtitle:E2]可由画面和字幕核对。frame_05及frame_07虽有轻微笑意，但不足以表明喜悦占主导，整体更像平稳的课堂交流。最强反证是短暂睁大眼睛可能显得诧异；然而没有明确的预期落空线索，且未提供音轨，不能借语调强化这一解释。",
+  "output": "目标是女教师；frame_06喊“我知道”的是男学生，不能把他的兴奋归给她，[image:E2]对此的目标区分可信。她在frame_00至frame_03抬眉、张口，结合“同学们，有没有知道的？”是在向全班征询答案，而非对意外消息作出反应，[image:E1][audio_subtitle:E2]可由画面和字幕核对。frame_05及frame_07虽有轻微笑意，但不足以表明喜悦占主导，整体更像平稳的课堂交流。最强反证是短暂睁大眼睛可能显得诧异；然而没有明确的预期落空线索，且未提供音轨，不能借语调强化这一解释。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 89.75449228286743
+}

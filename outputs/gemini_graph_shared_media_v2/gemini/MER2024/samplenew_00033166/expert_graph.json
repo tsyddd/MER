@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "结合图谱互动节点[process_0]与[person_1]，白衣男子针对局势向对方质问反问，语调急促且眉头微蹙[E1][E2]，台词明确表现出对部属全盘背叛的焦虑不安[E3]，整体情境与神态均指向担忧忧虑。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱记录白衣男子发声音调上扬、语速连贯且无明显停顿，实际音轨核实其语速紧促并带有焦急反问感",
+      "interpretation": "急促且连续的言语节奏体现出内心的焦灼与紧迫感，支持担忧情绪",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.56s",
+      "observation": "白衣男子双眉微蹙，眼神凝重注视对方，面部紧绷",
+      "interpretation": "眉心微聚与关切严肃的眼神反映面对不利情境时的焦虑心境，而非轻松平静",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "难道都要悉数倒戈？不成？",
+      "observation": "台词使用质问反问句探讨众人是否会倒戈背叛",
+      "interpretation": "事件语义指向对失控背叛局面的忧心与防范，为担忧情绪提供了明确的事件诱因",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词虽含严厉质问成分，易被误判为愤怒（angry），但他并未出现怒目圆睁或咬牙切齿的攻击性激昂特征，声调更多流露出对全面失控的忧患与焦灼，故排除angry。"
+}

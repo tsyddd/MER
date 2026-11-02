@@ -1,0 +1,9 @@
+{
+  "reason": "目标人物Rachel在全程保持单手叉腰的对峙身体姿态[image:E1]，并在提问结束后紧闭嘴角下压、严肃凝视对方（如frame_06所示），展现出显著的不悦与防卫姿态。音轨与台词中，她在“drive me out”处加重音调，言语行为具有明显的质问与兴师问罪色彩[audio_subtitle:E1]，整体呈现受冒犯后的压抑恼火。专家[graph:E1]因其未大声咆哮而判定为中立（neutral），忽视了这种冷峻对质背后的敌意与负面情绪张力，故判定为anger。",
+  "answer": "anger",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E1",
+    "graph:E1"
+  ]
+}

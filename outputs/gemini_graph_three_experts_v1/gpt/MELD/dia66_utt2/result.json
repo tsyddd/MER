@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia66_utt2",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "5a18845c511d8d042e0aafc9325f0ce10daa1e74888c7cd85c82140504ee351d",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "三份专家输出均指向积极愉快：图片专家描述了笑容和放松姿态，字幕专家指出肯定、感谢与赞赏；图谱中的微笑和礼貌语调与前述信息一致，但可能与其他来源存在同源描述，不能作为独立证据。虽然未提供音频、无法据此判断听觉特征，但现有视觉与字幕证据相互印证，故判断为愉快情绪。",
+  "output": "三份专家输出均指向积极愉快：图片专家描述了笑容和放松姿态，字幕专家指出肯定、感谢与赞赏；图谱中的微笑和礼貌语调与前述信息一致，但可能与其他来源存在同源描述，不能作为独立证据。虽然未提供音频、无法据此判断听觉特征，但现有视觉与字幕证据相互印证，故判断为愉快情绪。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 58.47026038169861
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013928",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "49b9882ec6625c755d0ee37646065921d1bf3d3dd712f15713cb364e31bc4877",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "happy",
+  "emotion_analysis": "图谱与图片都描述了持续微笑、眼睛微眯及挥动纸张等视觉表现，指向愉快积极；但图谱中的语调判断并非独立音频证据，且audio_subtitle明确未提供音频。字幕内容表达支持和轻松互动，与视觉证据一致，因此判断为开心。",
+  "output": "图谱与图片都描述了持续微笑、眼睛微眯及挥动纸张等视觉表现，指向愉快积极；但图谱中的语调判断并非独立音频证据，且audio_subtitle明确未提供音频。字幕内容表达支持和轻松互动，与视觉证据一致，因此判断为开心。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 63.955610275268555
+}

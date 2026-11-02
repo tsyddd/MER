@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00021849",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "根据节点person_0、person_2与process_0，车外男子身体前倾搭在车窗边，神情平静专注，以低沉平稳的语调对车内女子说出‘你先上我的车，先回去’，整体面部表情和语气均无明显情绪波动，属于客观平静的沟通状态。",
+  "output": "根据节点person_0、person_2与process_0，车外男子身体前倾搭在车窗边，神情平静专注，以低沉平稳的语调对车内女子说出‘你先上我的车，先回去’，整体面部表情和语气均无明显情绪波动，属于客观平静的沟通状态。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 40.37959623336792,
+  "node_count": 5,
+  "edge_count": 2
+}

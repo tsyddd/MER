@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia66_utt2",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "Rachel speaks with a clear, upbeat tone and a smile, indicating a positive and pleased emotional state. Her words, 'Thank you very much, it was excellent,' directly express satisfaction.",
+  "output": "Rachel speaks with a clear, upbeat tone and a smile, indicating a positive and pleased emotional state. Her words, 'Thank you very much, it was excellent,' directly express satisfaction.\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 5.084417343139648,
+  "node_count": null,
+  "edge_count": null
+}

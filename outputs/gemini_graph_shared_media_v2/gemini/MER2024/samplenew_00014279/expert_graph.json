@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "结合图谱中女子对男子的连续指责与斥责事件链[process_1, process_3]，画面中女子额头带伤虽显虚弱，但双目紧盯对方、咬牙切齿[E1]，台词与气音语调充满强烈的痛恨与谴责[E2]，语义由质疑递进至道德痛斥，核心情绪为愤怒。",
+  "answer": "angry",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_03 @ 2.68s",
+      "observation": "女子眉头微蹙，目光凌厉直视对面男子，咬紧牙关，口型呈现咬牙斥责状",
+      "interpretation": "虽因身体负伤气息虚弱，但紧咬牙关直视对方的神情体现出强烈的怨恨与愤怒",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "木则：你除了这些卑劣的手段，还会什么？真是无耻之极。",
+      "observation": "女子当面斥责男子手段卑劣并定性其‘无耻之极’",
+      "interpretation": "事件语义表现为直接的对质与道德批判，对应图谱节点[process_1]与[process_3]，构成典型的愤怒宣泄与斥责",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_3",
+      "observation": "图谱节点记录女子对男子说‘真是无耻之极’，与process_2反诘质问形成指责递进",
+      "interpretation": "说明其言语互动属于层层加码的主动攻击与斥责，而非被动悲伤或担忧恐惧",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "女子发声轻微且额头带伤（person_0、person_2），容易被误判为因受挫受制而产生的sad或worried；但其台词具有极强的主动攻击性，目光坚定含恨，并无退缩或悲哀哭泣迹象，故排除sad与worried。"
+}

@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "音频中说话者语调低沉缓慢，音量较小，语气平稳，无明显情绪波动，符合中性情绪的特征。",
+  "answer": "neutral",
+  "evidence_refs": []
+}

@@ -1,0 +1,24 @@
+{
+  "expert": "graph",
+  "reason": "在当前互动事件中，Monica面对画外二人进行即时评价[context_1, process_0]。图谱中节点[person_2]虽称其发声清晰平稳，但实际核查音轨与画面的全过程发现，Monica语调轻松带笑，面部始终维持上扬微笑[E1, E2]，双手抱拳胸前的俏皮姿态反映出友善调侃而非攻击，事件语义表明台词是一句玩笑式调侃，因而表现为欢愉（joy）。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱记录Monica面对画外对象开口发声，核查真实音频可辨其语调轻快且夹带笑意",
+      "interpretation": "修正图谱中单纯平稳的描述，轻快带笑的发音直接体现调侃和积极情绪而非严肃斥责",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.21s",
+      "observation": "Monica在说话时双唇微抿上翘，嘴角含笑，双手交叠握于胸前",
+      "interpretation": "表情与肢体语言一致呈现出轻松、愉悦和戏谑的神态，否定了敌对或愤怒情绪",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "依据字幕\"You are both idiots\"的字面贬抑语义，最强替代假说是愤怒（anger）或平淡叙述（neutral）；但Monica持续的微笑面容与轻快的戏谑语调直接推翻了负面情绪的可能。"
+}

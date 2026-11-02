@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物在台词中明确表达了对对方独处的不放心，并提出对潜在风险的假设（'万一要想不开'）。音频中语调充满关切与急促追问，音调微微提高，伴随着明显的忧虑感，符合对未发生风险和负面后果的焦虑与关切。",
+  "open_emotion": "担忧",
+  "answer": "worried",
+  "mapping_reason": "在给定的情绪轮中，worried强调对可能发生的负面后果、未知风险或焦虑顾虑。目标人物对对方可能'想不开'表达明确的不放心，直接映射为worried。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "那，你一个人在家，我还不放心呢，你万一要想不开，怎么办呢？",
+      "observation": "台词使用'不放心'和'万一要想不开怎么办'表达对对方心理状况的设想与发问。",
+      "interpretation": "明确表明说话者当前关注的是尚未发生但可能存在危险的负面结果，呈现出关切与顾虑。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:01-00:04",
+      "observation": "语调略带急促和探询，在后半句'万一要想不开怎么办呢'音调微扬且节奏加快。",
+      "interpretation": "声音中的紧迫感和急切询问体现了内心的不安与牵挂，而非平缓叙述。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01-frame_05",
+      "observation": "目标人物面部眉头微聚，目光关切地锁定对方，神色严肃凝重。",
+      "interpretation": "视觉表情与口语中的担忧语境高度一致，排除反讽或玩笑的可能。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽带有皱眉和凝重面部特征，但评价对象为未来可能发生的危险行为而非已成既定事实的损失，因此并非sad。"
+}

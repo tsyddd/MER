@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "Rachel面对对方提出质疑并进行反驳，配合双手张开摆动的强调性动作〔process_0〕〔person_1〕。图谱记载她语速较快、语调微扬且有重音强调〔person_2〕，整体表现出当前的恼怒和对抗性。",
+  "answer": "anger",
+  "evidence_refs": [
+    "process_0",
+    "person_1",
+    "person_2"
+  ]
+}

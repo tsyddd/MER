@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00021849",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "359093044a96c9b0d3bf12c8621869f06d99bda1905d519e91d11df175dc34b4",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "平稳",
+      "mapped_label": "neutral",
+      "mapping_reason": "当前可核实的表达主要是平稳地作出实际安排，没有足够证据表明其他情绪占主导，因此映射为neutral；这不等于断言他毫无关切。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "平常",
+      "mapped_label": "neutral",
+      "mapping_reason": "“平常”指当前以实际安排和自然交流为主，映射为neutral；这不表示他一定不关心对方。"
+    },
+    "image": {
+      "open_emotion": "关切",
+      "mapped_label": "worried",
+      "mapping_reason": "此处的关切指向让对方先乘车回去，较接近情绪轮中对他人处境的担心，因此映射为worried；画面不能证明他有强烈焦虑。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标是车窗外说话的男子；回看第1至8帧，他俯身看向车内女子，神情认真但变化不大，这与[graph:E1]的视觉描述相符。字幕原话“你先上，我的车，先回去。”是行动安排，[audio_subtitle:E1]对此的判断可信，但没有音轨可核验语调。[image:E2]所见的眉头略收可以支持关切，却不足以说明他正在担忧某个尚未发生的坏结果；结合当前平稳、克制的表达，取neutral。",
+  "output": "目标是车窗外说话的男子；回看第1至8帧，他俯身看向车内女子，神情认真但变化不大，这与[graph:E1]的视觉描述相符。字幕原话“你先上，我的车，先回去。”是行动安排，[audio_subtitle:E1]对此的判断可信，但没有音轨可核验语调。[image:E2]所见的眉头略收可以支持关切，却不足以说明他正在担忧某个尚未发生的坏结果；结合当前平稳、克制的表达，取neutral。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 80.20908808708191
+}

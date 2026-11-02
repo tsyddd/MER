@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00036745",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "56b7ab0a274b240942c2ca3a5bf6aff985c05e2aab602a0289a32a97d1119e4a",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "果断",
+      "mapped_label": "neutral",
+      "mapping_reason": "‘果断’是一种描述行动意愿和决策状态的开放情绪词。在当前语境下，该词最准确地捕捉了目标人物在陈述完信息后，以平稳语调主动承担任务的表达。根据【共同映射原则】，当主导情绪为平稳、无明确情感色彩的表达时，应映射为‘neutral’。该人物的语调、表情和动作均未表现出任何强烈的正负向情感，因此‘neutral’是对其当前情绪状态最合适的映射。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "中性",
+      "mapped_label": "neutral",
+      "mapping_reason": "说话者的话语内容是关于一个行动的陈述，其语调平稳，没有表现出任何强烈的积极或消极情绪。根据情绪轮的定义，'neutral'适用于当前主要为平稳叙述或自然交流的表达，这与观察到的语调和话语内容相符。"
+    },
+    "image": {
+      "open_emotion": "平静",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据情绪轮定义，'neutral'指当前主要为平稳叙述、自然交流或无明确主导情绪的表达。目标人物的面部表情、姿态和语调均未表现出明显的喜悦、悲伤、愤怒、担忧或惊讶等主导情绪，其表达状态符合平稳叙述的特征，因此映射为'neutral'。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物在陈述完信息后，以平稳的语调说出‘我去查’，其肢体动作（抬手指向屏幕）与言语内容（主动承接任务）一致，表现出一种明确的行动意愿。三位专家均观察到其语调平稳、无明显情绪波动，面部表情平静，符合‘neutral’的定义。其中，[audio_subtitle:E2]和[image:E4]直接证实了其语调平稳，[image:E1]和[image:E2]证实了其表情平静，这些证据共同支持了中性情绪的判断。",
+  "output": "目标人物在陈述完信息后，以平稳的语调说出‘我去查’，其肢体动作（抬手指向屏幕）与言语内容（主动承接任务）一致，表现出一种明确的行动意愿。三位专家均观察到其语调平稳、无明显情绪波动，面部表情平静，符合‘neutral’的定义。其中，[audio_subtitle:E2]和[image:E4]直接证实了其语调平稳，[image:E1]和[image:E2]证实了其表情平静，这些证据共同支持了中性情绪的判断。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 185.50377345085144
+}

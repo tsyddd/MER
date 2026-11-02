@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia109_utt5",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "d1e48fb5bc9702767bb92c6beba55179a3e73274b2c9fb39f96f11cbbfe48c20",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "讥讽式不满",
+      "mapped_label": "anger",
+      "mapping_reason": "这里的不满指向对方被称作“残酷剧场”的做法，带有责备意味，因此映射到anger；不能仅凭“残酷”一词推断她感到厌恶。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "不满",
+      "mapped_label": "anger",
+      "mapping_reason": "当前表达的重点是对对方行为的责备，符合anger家族中的不满；证据不足以称为强烈愤怒。"
+    },
+    "image": {
+      "open_emotion": "不满",
+      "mapped_label": "anger",
+      "mapping_reason": "此处的不满指向对方被称作“cruelty”的做法，带有责备意味，因此映射到anger；画面不足以支持强烈愤怒。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "画面右侧的Janice起初略带笑意，随后比画木偶、前倾，至frame_06眉头收紧，frame_07重新抱臂；[image:E2]对表情变化的描述可直接由画面核实。字幕中的“your theater of cruelty”指向对方，使这些变化更像讥讽式责备，而非单纯兴致勃勃地讲解；[audio_subtitle:E1]的措辞观察可信，但其语用判断仍是解释。开头的笑意和比画也可能带有玩笑成分，且未提供音轨核实语调；综合当前话语与视觉变化，主导表现更接近不满。",
+  "output": "画面右侧的Janice起初略带笑意，随后比画木偶、前倾，至frame_06眉头收紧，frame_07重新抱臂；[image:E2]对表情变化的描述可直接由画面核实。字幕中的“your theater of cruelty”指向对方，使这些变化更像讥讽式责备，而非单纯兴致勃勃地讲解；[audio_subtitle:E1]的措辞观察可信，但其语用判断仍是解释。开头的笑意和比画也可能带有玩笑成分，且未提供音轨核实语调；综合当前话语与视觉变化，主导表现更接近不满。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 84.40173840522766
+}

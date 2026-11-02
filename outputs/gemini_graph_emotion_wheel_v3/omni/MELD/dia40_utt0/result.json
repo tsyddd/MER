@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia40_utt0",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "254c3294b62a3335eb4728ae3603d205e9201e73ba279aea4479f5c9c586672e",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "愉悦",
+      "mapped_label": "joy",
+      "mapping_reason": "根据观察，Monica的露齿微笑和轻快上扬的语调是典型的喜悦表现。该情绪与她与Chandler的亲密互动情境相符，符合'joy'（喜悦）的定义，即当前开心、愉悦、满足或兴奋的正向体验。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "兴奋",
+      "mapped_label": "joy",
+      "mapping_reason": "根据MELD项目适配情绪轮的定义，'joy'指当前开心、愉悦、满足或兴奋的正向体验。Monica的言语内容'Yeah baby!'、上扬的语调和灿烂的笑容，都明确指向一种积极、愉悦和兴奋的情感状态，因此映射到'joy'是准确的。"
+    },
+    "image": {
+      "open_emotion": "兴奋",
+      "mapped_label": "joy",
+      "mapping_reason": "根据MELD项目的情绪轮，'joy'（喜悦）被定义为'当前开心、愉悦、满足或兴奋的正向体验'。Monica的微笑、积极的姿态以及说'Yeah baby!'时的兴奋语气，都明确指向一种积极的情感状态。'兴奋'是'joy'家族中一个非常贴切的开放情绪词，因此映射到'joy'是准确的。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "Monica在多个连续帧中表现出明显的微笑，嘴角上扬，眼睛周围有皱纹，这是典型的喜悦表情。她的视线与旁边的Chandler有互动，姿态放松，显示出积极的社交参与。字幕显示她说'Yeah baby!'，这是一句表达兴奋和喜爱的口语，与她的面部表情和姿态高度一致。音频中她的语调上扬，充满活力，进一步支持了喜悦的判断。三个专家的证据均一致指向joy，且所有模态的证据都相互印证，没有矛盾。",
+  "output": "Monica在多个连续帧中表现出明显的微笑，嘴角上扬，眼睛周围有皱纹，这是典型的喜悦表情。她的视线与旁边的Chandler有互动，姿态放松，显示出积极的社交参与。字幕显示她说'Yeah baby!'，这是一句表达兴奋和喜爱的口语，与她的面部表情和姿态高度一致。音频中她的语调上扬，充满活力，进一步支持了喜悦的判断。三个专家的证据均一致指向joy，且所有模态的证据都相互印证，没有矛盾。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 158.86013650894165
+}

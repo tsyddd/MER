@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00014357",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "happy",
+  "emotion_analysis": "该人物面带笑容，表情轻松愉快，正在用一种亲昵的语气说话，表现出明显的愉悦情绪。",
+  "output": "该人物面带笑容，表情轻松愉快，正在用一种亲昵的语气说话，表现出明显的愉悦情绪。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 4.2057507038116455,
+  "node_count": null,
+  "edge_count": null
+}

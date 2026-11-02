@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia186_utt3",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "66500757c83860e7bc8c787d8e2b59268fb274c5b6c0b4d08dfd117efb6c20d2",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "歉疚",
+      "mapped_label": "sadness",
+      "mapping_reason": "歉疚不等同于悲伤；此处它指向因取消约定而产生的低落、自责，近似映射到sadness。该标签不能完整表达歉意的关系语义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "歉疚",
+      "mapped_label": "sadness",
+      "mapping_reason": "歉疚不是sadness的同义词；在允许标签中，这里的歉意与不得不取消约会所呈现的低落更接近sadness，而非愤怒或恐惧。这是近似映射，不能据此断定他有强烈悲伤。"
+    },
+    "image": {
+      "open_emotion": "歉疚",
+      "mapped_label": "sadness",
+      "mapping_reason": "歉疚不是情绪轮中的独立类别；此处针对取消约定的歉意，结合低落、收敛的面部表现，近似映射为sadness，而非愤怒或恐惧。该映射不表示他正强烈哀伤。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "字幕“I’m sorry I gotta cancel tonight baby”表明Joey正为取消今晚的安排道歉，而不是在描述已发生的损失[audio_subtitle:E1]。画面中他起初闭眼、抿嘴，随后垂眼说话，表情收敛；这些可核实的变化与歉疚相容，但不足以证明强烈悲伤[image:E1][image:E2]。放松的坐姿和礼貌道歉的可能性是主要反证，不过结合话语与表情，当前表现比单纯平静通知更接近歉疚。歉疚并不等同于悲伤，在允许标签中近似归入sadness；未提供音轨，不能用图谱转述的声调来加强判断[graph:E4]。",
+  "output": "字幕“I’m sorry I gotta cancel tonight baby”表明Joey正为取消今晚的安排道歉，而不是在描述已发生的损失[audio_subtitle:E1]。画面中他起初闭眼、抿嘴，随后垂眼说话，表情收敛；这些可核实的变化与歉疚相容，但不足以证明强烈悲伤[image:E1][image:E2]。放松的坐姿和礼貌道歉的可能性是主要反证，不过结合话语与表情，当前表现比单纯平静通知更接近歉疚。歉疚并不等同于悲伤，在允许标签中近似归入sadness；未提供音轨，不能用图谱转述的声调来加强判断[graph:E4]。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 77.62284660339355
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00030944",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "女子在与对方交谈时始终眉心微皱、眼神流露关切（参考person_0、person_2），并伴随缓和而充满关怀的语调（参考person_1）。同时，她接连说出“我还不放心呢”以及“你万一要想不开怎么办呢”（参考process_1、process_2），言语与神态充分体现出对对方安全与心理状态的忧虑与牵挂。",
+  "output": "女子在与对方交谈时始终眉心微皱、眼神流露关切（参考person_0、person_2），并伴随缓和而充满关怀的语调（参考person_1）。同时，她接连说出“我还不放心呢”以及“你万一要想不开怎么办呢”（参考process_1、process_2），言语与神态充分体现出对对方安全与心理状态的忧虑与牵挂。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 55.92588567733765,
+  "node_count": 9,
+  "edge_count": 11
+}

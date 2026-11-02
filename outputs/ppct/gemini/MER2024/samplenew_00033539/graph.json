@@ -1,0 +1,143 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "目标人物开口说“啊”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "目标人物接着说“真的”",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "目标人物双眉紧蹙，眉心出现竖纹，双眼看向右前方，嘴巴微张",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "目标人物发出短促的升调疑问声",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "目标人物嘴巴开合说话，面部保持皱眉神态，视线持续停留在右侧",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "目标人物以带有反问疑问的语调说出后续词句",
+      "time_index": 1,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "目标人物处于室内，身后有音响和置物架，身穿红色上衣配马甲并系着蓝色围裙",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "目标人物在开口发出“啊”之后，紧接着说出“真的”",
+      "entity_anchor": "目标人物的言语表达"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "目标人物在双眉紧蹙、嘴巴微张的同时发出短促的升调疑问声",
+      "entity_anchor": "目标人物初始的视听表现"
+    },
+    {
+      "source": "person_2",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "目标人物在最初微张嘴皱眉后，继续开合嘴部说话并保持皱眉神态",
+      "entity_anchor": "目标人物的面部神态与动作"
+    },
+    {
+      "source": "person_3",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "目标人物在发出前声短促升调疑问后，紧接着以反问语调说出后续词句",
+      "entity_anchor": "目标人物的语音语调表达"
+    },
+    {
+      "source": "person_3",
+      "target": "person_2",
+      "relation": "simultaneous",
+      "reason": "目标人物在嘴巴开合说话并维持皱眉的同时，发出带有反问语调的声音",
+      "entity_anchor": "目标人物后续的视听表现"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0 提供首先开口发出单字感叹“啊”，process_1 提供紧随其后的追问“真的”，两端联合构成了从初始反应到跟进求证的完整言语互动过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0 提供双眉紧蹙、眉心竖纹与微张嘴巴的面部视觉细节，person_1 提供短促的升调疑问声（audio），两端联合补充了视觉神态与听觉声调，展现出更立体的初发疑问表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_2",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_2 提供嘴巴开合说话并保持皱眉注视的动态面部表现，person_3 提供说话时带有反问意味的疑问语调（audio），视听两端联合完整补充了说话时的动作与声调特征。",
+      "entity_anchor": null
+    }
+  ]
+}

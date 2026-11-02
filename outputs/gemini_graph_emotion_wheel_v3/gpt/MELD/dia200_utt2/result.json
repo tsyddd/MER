@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia200_utt2",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "2223d26305da5c16666ed91ea00f333b6d907f4eba1818669a8c3acca13b8f5f",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "困惑",
+      "mapped_label": "surprise",
+      "mapping_reason": "乔伊的困惑指向排除几种可能后仍无法解释“谁拿了它”的意外结果，最接近情绪轮中面对违背预期信息的surprise。这是近似映射：现有证据不足以称他明显震惊。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "困惑",
+      "mapped_label": "surprise",
+      "mapping_reason": "这里的困惑指排除已知人选后，对未知答案产生的意外感，近似映射为surprise；证据不足以称为强烈震惊。"
+    },
+    "image": {
+      "open_emotion": "疑惑",
+      "mapped_label": "surprise",
+      "mapping_reason": "他在核对几人都没拿之后追问是谁拿的，呈现对未预料结果的疑惑；在给定标签中最接近surprise，但这只是近似映射，不表示他明显受到惊吓或强烈震惊。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "字幕中乔伊逐一排除几个人后追问“then who did?”，[audio_subtitle:E1]准确概括了这处疑问，但问句本身并不证明他震惊。回看画面，右侧穿红衣的乔伊先指向自己，再朝同伴摊手、看向对方；[image:E1][image:E2]对动作的描述可信，与寻求答案的语义相合。最强的反证是这些动作也可能只是平常推理；但在排除已有答案后仍追问是谁拿的，更支持轻微的意外与不解，近似归入surprise，而非强烈震惊。未提供音轨，不能据此判断语气。",
+  "output": "字幕中乔伊逐一排除几个人后追问“then who did?”，[audio_subtitle:E1]准确概括了这处疑问，但问句本身并不证明他震惊。回看画面，右侧穿红衣的乔伊先指向自己，再朝同伴摊手、看向对方；[image:E1][image:E2]对动作的描述可信，与寻求答案的语义相合。最强的反证是这些动作也可能只是平常推理；但在排除已有答案后仍追问是谁拿的，更支持轻微的意外与不解，近似归入surprise，而非强烈震惊。未提供音轨，不能据此判断语气。\n<answer>surprise</answer>",
+  "label": "anger",
+  "elapsed_seconds": 90.81664562225342
+}

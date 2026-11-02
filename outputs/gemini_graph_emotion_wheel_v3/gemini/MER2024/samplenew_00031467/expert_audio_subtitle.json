@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物语速轻柔平稳，音量适中且气息舒缓，言语行为属于温和关照的日常交代，没有强烈的情感起伏或激动表现；面容平静含笑，属于温和从容的自然交流状态。",
+  "open_emotion": "平和体贴",
+  "answer": "neutral",
+  "mapping_reason": "说话人虽然语气温柔带有关怀，但整体语调和缓、情绪处于平静稳定的常态交流，无明显的兴奋欣喜或负面情绪，符合情绪轮中平稳叙述与自然交流的neutral范畴。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "发音轻柔婉转、语调平缓从容，节奏舒缓，无高昂兴奋或紧促焦虑的音调变化。",
+      "interpretation": "体现出内心平静、温和从容的说话状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "皇上闻着，正好，消乏，安睡。",
+      "observation": "话语内容为安抚、照料对方的日常表述，用词平和周到。",
+      "interpretation": "属于说明与体贴关照的言语行为，没有强烈的正负向情绪宣泄。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01 (0.32s)",
+      "observation": "面部神情柔和自然，眉眼舒展，神态淡定端庄。",
+      "interpretation": "与平稳舒缓的声音特征高度一致，表明其处于平稳放松的状态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "由于语带体贴与淡淡微笑，可能被误判为happy，但其声音无上扬欢快或兴奋特征，仅为温婉常态。"
+}

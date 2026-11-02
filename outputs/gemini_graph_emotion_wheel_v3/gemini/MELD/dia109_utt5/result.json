@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia109_utt5",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "d1e48fb5bc9702767bb92c6beba55179a3e73274b2c9fb39f96f11cbbfe48c20",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "戏谑逗乐",
+      "mapped_label": "joy",
+      "mapping_reason": "Janice当前的表达核心在于以夸张的假设展开讽刺戏谑并自顾自大笑取乐，体验带有明确的正向愉悦与幽默调侃色彩，符合情绪轮中joy家族涵盖的“愉悦/amused”范畴。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "愤慨",
+      "mapped_label": "anger",
+      "mapping_reason": "目标人物通过反讽与挖苦宣泄对对方残忍行为的强烈不满与指责，言语行为具有对抗性和攻击性，完全符合anger家族中'因冒犯、受阻或不公而恼火、责备与对抗'的定义。"
+    },
+    "image": {
+      "open_emotion": "愤慨嘲弄",
+      "mapped_label": "anger",
+      "mapping_reason": "目标人物通过防御性抱胸姿态、指向性手势和讽刺言辞表达对对方行为的指责与不满对抗，符合情绪轮中anger（对受阻或不公的恼火、责备与对抗）的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "目标人物在谈话初始双手抱胸，随后在比划木偶手势时面部紧绷微撇，在句末说完后立即重新环抱双臂紧紧防卫，眼神冷峻注视对方（frame 7）[image:E1]。台词将对方的行为斥为“残酷剧场（theater of cruelty）”[audio_subtitle:E2]，其声调尖锐高亢、充满反讽与言语对抗。尽管graph专家指出句尾有笑声并判定为joy[graph:E2]，但核验音频与画面可知，该笑声是极具戏剧化反讽的干涩嘲笑，且frame 7中其表情瞬间转为冷淡对峙，毫无愉悦成分，核心情绪属于因被冒犯而产生的讥讽指责与不满对抗，归入anger。",
+  "output": "目标人物在谈话初始双手抱胸，随后在比划木偶手势时面部紧绷微撇，在句末说完后立即重新环抱双臂紧紧防卫，眼神冷峻注视对方（frame 7）[image:E1]。台词将对方的行为斥为“残酷剧场（theater of cruelty）”[audio_subtitle:E2]，其声调尖锐高亢、充满反讽与言语对抗。尽管graph专家指出句尾有笑声并判定为joy[graph:E2]，但核验音频与画面可知，该笑声是极具戏剧化反讽的干涩嘲笑，且frame 7中其表情瞬间转为冷淡对峙，毫无愉悦成分，核心情绪属于因被冒犯而产生的讥讽指责与不满对抗，归入anger。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 88.60744738578796
+}

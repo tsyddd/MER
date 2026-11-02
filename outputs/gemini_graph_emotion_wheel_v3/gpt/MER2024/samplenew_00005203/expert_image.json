@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是画面右侧穿粉色衣服的女子，不是左前景的人或后方站立者。她在说话前后始终垂眼、眉间收紧，开口后又抿住嘴，表情显得克制而低落[E1][E2]。字幕中的“不想跟你分开”表明她表达的是对分别的不舍[E3]。视觉与字幕合看，最支持不舍；但画面没有清晰泪水，不能据此推断更强烈的悲痛。",
+  "open_emotion": "不舍",
+  "answer": "sad",
+  "mapping_reason": "此处的不舍指向分别带来的失落，更接近sad的低落、伤感，而非对未知后果的担忧。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.00秒）至frame_03（0.84秒）",
+      "observation": "右侧女子低垂视线，眉间收紧；说话时嘴唇张开，随后合拢。",
+      "interpretation": "持续的收敛表情支持低落的表达，但单凭眉形不能确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04（1.12秒）至frame_07（1.96秒）",
+      "observation": "她仍看向下方，嘴角没有上扬，末尾抿住嘴，姿态变化很小。",
+      "interpretation": "没有转为轻松或愉快的可见表现，与克制的不舍相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“我也不想跟你分开。”",
+      "observation": "字幕明确表达不愿与对方分别。",
+      "interpretation": "为视觉上的低落提供了与分别有关的语义背景。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "她的表情较克制，没有清晰可辨的泪水或明显哭泣；仅凭画面也可能理解为对即将分别的担忧。当前字幕没有明确提及未知风险，因此不舍比担忧更有支持。未提供音频，无法判断语调。"
+}

@@ -1,0 +1,172 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "女性说：“那，你一个人在家”",
+      "time_index": 1,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "女性说：“我还不放心呢”",
+      "time_index": 3,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "女性说：“你万一要想不开，怎么办呢”",
+      "time_index": 5,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "女性坐在沙发上，头部略低，视线向下",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "女性将视线转向画面右侧的男性",
+      "time_index": 5,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "女性嘴部开合",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "女性与一名男性同处室内，分别坐在沙发两侧并相互面对",
+      "time_index": 7,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "女性与男性进行交流",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "同一女性连续表达不同话语，后一句发生在前一句之后",
+      "entity_anchor": "同一女性的说话行为"
+    },
+    {
+      "source": "process_2",
+      "target": "process_1",
+      "relation": "after",
+      "reason": "同一女性连续表达不同话语，后一句发生在前一句之后",
+      "entity_anchor": "同一女性的说话行为"
+    },
+    {
+      "source": "person_2",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "同一女性在同一时刻保持头部略低、视线向下并进行嘴部开合",
+      "entity_anchor": "同一女性"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "同一女性的视线由向下转向画面右侧男性，后续状态发生在先前状态之后",
+      "entity_anchor": "同一女性的视线状态"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "“女性说：那，你一个人在家”提供独处这一处境信息，“女性说：我还不放心呢”提供由此产生的明确担忧表达，联合后形成从独处情境到不放心反应的连续互动过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_0",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "“女性说：那，你一个人在家”指出对方独自在家，“女性说：你万一要想不开，怎么办呢”补充了对该处境的具体风险设想及询问，联合后更完整呈现说话者围绕独处可能后果的劝说过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_1",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "“女性说：我还不放心呢”表达持续的不放心，“女性说：你万一要想不开，怎么办呢”进一步给出不放心所针对的具体可能情况，联合后增加了担忧理由和追问信息。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "女性坐在沙发上、头部略低且视线向下，提供其当时的姿态和视线状态；随后将视线转向男性，补充了面向交流对象的视线变化，联合后呈现从低头向下看到转向男性的可观察行为变化。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "女性坐在沙发上、头部略低且视线向下，提供其姿态与视线信息；女性嘴部开合补充了发言时的口部动作，联合后更完整描述其坐姿、视线和说话相关的可见表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "女性将视线转向画面右侧男性，提供其面向交流对象的视线信息；女性嘴部开合补充了口部动作，联合后更完整限定其正在面向男性进行可见的言语交流。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "女性与男性同处室内、分别坐在沙发两侧并相互面对，提供交流场所、双方位置和朝向；女性与男性进行交流补充了双方正在发生的互动，联合后更完整限定了室内沙发两侧面对面交谈的场景。",
+      "entity_anchor": null
+    }
+  ]
+}

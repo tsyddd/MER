@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia237_utt3",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "ce972a653956a31614b7e25f45b63c679edd7dc7223fe0ddbbd92ef5105cd4d2",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "反胃",
+      "mapped_label": "disgust",
+      "mapping_reason": "“反胃”指向对食物的生理性排斥，最接近disgust；但没有直接证据证明Joey实际呕吐。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "反胃",
+      "mapped_label": "disgust",
+      "mapping_reason": "“反胃”是对食物难以接受的排斥感，符合disgust；句中的“happy”表达的是勉强没吐出来的庆幸，不足以将当前主导情绪判为joy。"
+    },
+    "image": {
+      "open_emotion": "反胃",
+      "mapped_label": "disgust",
+      "mapping_reason": "此处的反胃指向对食物难以接受的排斥，按情绪轮最接近disgust；画面并不能单独证实他有实际的生理恶心反应。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "disgust",
+  "emotion_analysis": "目标人物Joey在字幕中谈到“whipped fish”，随即说自己庆幸还能“keeping it down”；[audio_subtitle:E1]准确对应原字幕，较直接地支持他对食物反胃，而非单凭“happy”判断喜悦。画面中他先皱眉、神情紧绷，随后短暂扬起嘴角；[image:E2]的观察可信，但笑意本身不足以推翻整句话所表达的勉强忍受。没有提供音轨，无法核验语气，也不能据此断言他实际呕吐；就当前可核实证据而言，反胃最接近disgust。",
+  "output": "目标人物Joey在字幕中谈到“whipped fish”，随即说自己庆幸还能“keeping it down”；[audio_subtitle:E1]准确对应原字幕，较直接地支持他对食物反胃，而非单凭“happy”判断喜悦。画面中他先皱眉、神情紧绷，随后短暂扬起嘴角；[image:E2]的观察可信，但笑意本身不足以推翻整句话所表达的勉强忍受。没有提供音轨，无法核验语气，也不能据此断言他实际呕吐；就当前可核实证据而言，反胃最接近disgust。\n<answer>disgust</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 88.1552848815918
+}

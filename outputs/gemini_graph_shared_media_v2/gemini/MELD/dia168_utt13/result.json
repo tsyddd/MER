@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia168_utt13",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "d4f4337f36452e71eb92ed229fc09628e4b5b5772a515f3e6f5a2fe6ba4ccce4",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "独立回看音频与视频画面，Ross在对话中全程处于主动指控和逼问态势。如[audio_subtitle:E1]所述，其音轨在00:00至00:03间语调急促高亢，尾句重音强调'and confess!'，表现出强烈的质问与问责冲劲；画面上如[image:E1]所示，Ross从第0帧起便身体前倾、嘴部大张逼近对方，后续伴随双手摊开施压的手势，具有明显的对峙感与攻击性。尽管手势摊开可能被个别视角误判为困惑或中立交涉，但结合其直接指控认罪的言语内容与严厉压迫的声调，确凿排除了neutral，应判定为愤怒。",
+  "output": "独立回看音频与视频画面，Ross在对话中全程处于主动指控和逼问态势。如[audio_subtitle:E1]所述，其音轨在00:00至00:03间语调急促高亢，尾句重音强调'and confess!'，表现出强烈的质问与问责冲劲；画面上如[image:E1]所示，Ross从第0帧起便身体前倾、嘴部大张逼近对方，后续伴随双手摊开施压的手势，具有明显的对峙感与攻击性。尽管手势摊开可能被个别视角误判为困惑或中立交涉，但结合其直接指控认罪的言语内容与严厉压迫的声调，确凿排除了neutral，应判定为愤怒。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 58.927712202072144
+}

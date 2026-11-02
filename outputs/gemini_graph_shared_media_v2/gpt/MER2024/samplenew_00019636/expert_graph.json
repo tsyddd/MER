@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "目标人物围绕胡十四娘的真实年龄与“人面花得以永葆青春”这一转述进行判断，当前表现更像带有疑虑和不安的思索，而非单纯平静陈述或愤怒。[E1][E2]",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 2.48秒；frame_03 @ 3.72秒",
+      "observation": "男子眉头收紧、目光斜向下方，随后嘴部持续开合并保持凝重表情。",
+      "interpretation": "这些可见的紧张和审视表现，与他对胡十四娘年龄真实性的疑问相配，支持担忧/疑虑而非开心或惊讶。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "当前字幕原话：“真的一百多岁了，我怎么看也不像啊！”",
+      "observation": "他说自己无法从外表看出对方已有一百多岁，直接表达不相信或不确定。",
+      "interpretation": "事件语义将面部凝重区分为对年龄与青春术真实性的担忧性思索，而不是无情绪的叙述。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04 @ 4.92秒；frame_05 @ 6.16秒；frame_06 @ 7.40秒",
+      "observation": "男子抬起右手抵在颈前衣领处，之后仍保持该姿势并定视前方，眉眼依旧紧绷。",
+      "interpretation": "持续的自我触碰和紧绷注视强化了当前的不安或顾虑；图谱节点person_3与person_4实际记录了这一动作和延续状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱将声音描述为“男子发声语调低沉沉静”。",
+      "interpretation": "该节点属于图谱的音频转述；本次未提供原音轨，不能亲耳核验，因此只能作为不确定的辅助信息，不能单独决定情绪。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "表情也可能只是中性、困惑的沉思，画面没有明显哭泣、激烈动作或明确恐惧反应；若有原音轨，仍需核验语气是否只是平静质疑。相比之下，当前字幕中的自我质疑与持续紧绷动作使worried比neutral更合适。"
+}

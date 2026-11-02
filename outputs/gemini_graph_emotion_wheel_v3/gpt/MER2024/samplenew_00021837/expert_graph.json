@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "目标人物当前是在介绍一户令他印象深刻的人家，再补充其“祖祖辈辈种地”的背景，而不是表达自己遭遇损失或担忧后果。[E1][E2]画面中他端坐发言，句间闭嘴、随后继续说话，结束时神情较为平稳；这些动作与自然陈述相符，未见明确的悲伤或焦虑反应。[E3]",
+  "open_emotion": "平稳",
+  "answer": "neutral",
+  "mapping_reason": "当前以平稳陈述为主，没有足够的当前表达支持其他情绪占主导，因此映射为neutral；这不是因为缺少音轨才选择中性。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_0、process_1",
+      "observation": "图谱将发言组织为先提及“我印象最深的一户人家”，再说明“祖祖辈辈种地”。",
+      "interpretation": "这是目标人物对他人家庭背景的当前叙述；先后顺序不意味着他因此产生了某种情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "我印象最深的一户人家，祖祖辈辈种地。",
+      "observation": "字幕呈现的是对一户人家的介绍，没有直接表达责备、损失或对未来结果的顾虑。",
+      "interpretation": "语义更支持平常陈述，而非将所述人家的经历当作目标人物当前的悲伤或担忧。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_07（3.92秒）",
+      "observation": "他面向前方发言，期间短暂闭嘴，末帧仍坐姿端正、表情较平稳。",
+      "interpretation": "可见表现与克制的叙述相符；闭嘴停顿本身不足以判为伤感。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_0、person_1",
+      "observation": "图谱称其语速平稳、语调沉稳，并称话语出现停顿；这些声音描述有图谱来源，但本次未提供原音轨。",
+      "interpretation": "只能作为未能亲耳核验的图谱转述，不将语调当作直接听到的证据。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "“印象最深”可能意味着这户人家对他有特殊意义，抿唇也可能被解读为沉思；但字幕未说明该意义是痛苦经历，画面亦不足以将其判为悲伤或担忧。图谱、组织文本与画面关于表情和停顿的重复描述不算独立证据。"
+}

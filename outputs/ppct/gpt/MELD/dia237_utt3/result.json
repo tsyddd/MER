@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia237_utt3",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "disgust",
+  "emotion_analysis": "Joey在〔process_0〕中说自己“很高兴能把它咽下去”，结合话题是whipped fish〔context_1〕，表达出对食物引发不适、勉强忍住呕吐的反应。画面中他先低头后抬头回应旁人并双手相握〔person_0〕〔person_2〕，这些节点通过person_joint关系共同显示其不适而非单纯平静交谈。",
+  "output": "Joey在〔process_0〕中说自己“很高兴能把它咽下去”，结合话题是whipped fish〔context_1〕，表达出对食物引发不适、勉强忍住呕吐的反应。画面中他先低头后抬头回应旁人并双手相握〔person_0〕〔person_2〕，这些节点通过person_joint关系共同显示其不适而非单纯平静交谈。\n<answer>disgust</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 135.47368717193604,
+  "node_count": 7,
+  "edge_count": 6
+}

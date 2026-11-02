@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00021849",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "画面中男性角色身体前倾，手扶车窗，表情严肃，语气平稳地对车内女性说话。字幕内容为指令性话语，结合其沉稳的语调和面部表情，整体情绪状态偏向冷静和关切。",
+  "output": "画面中男性角色身体前倾，手扶车窗，表情严肃，语气平稳地对车内女性说话。字幕内容为指令性话语，结合其沉稳的语调和面部表情，整体情绪状态偏向冷静和关切。\n<answer>worried</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 6.752402067184448,
+  "node_count": null,
+  "edge_count": null
+}

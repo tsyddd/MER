@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia259_utt9",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "db05c16c44916312cd44a75a33353218abec775c99c4678488d5f402e1804724",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "字幕“You are both idiots.”带有责备意味，但仅凭措辞不能判定Monica在生气[audio_subtitle:E1]。画面中她说话时前倾，至末尾仍带笑意；这一可直接核实的变化支持带笑的表达，但笑容本身不必然等于喜悦[image:E2]。相较于愤怒，她当前的面部表现更支持joy；未提供音轨，无法核实语气，也不采信任何未经直接核验的声音描述。",
+  "output": "字幕“You are both idiots.”带有责备意味，但仅凭措辞不能判定Monica在生气[audio_subtitle:E1]。画面中她说话时前倾，至末尾仍带笑意；这一可直接核实的变化支持带笑的表达，但笑容本身不必然等于喜悦[image:E2]。相较于愤怒，她当前的面部表现更支持joy；未提供音轨，无法核实语气，也不采信任何未经直接核验的声音描述。\n<answer>joy</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 61.75196027755737
+}

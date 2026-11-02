@@ -1,0 +1,8 @@
+{
+  "reason": "目标是右侧穿红毛衣的Joey。字幕逐一排除拿走东西的人，最后问“then who did?”；[audio_subtitle:E1]对话语是在梳理情况的判断有依据。画面中他指向自己、再向同伴摊手，[image:E1]所见的抬眉张口也属实，但张口可能只是说话，手势与逐项追问相符，不足以确定为惊讶。没有提供音轨，无法核验问句语气；因此在neutral与surprise之间选择neutral。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "image:E1"
+  ]
+}

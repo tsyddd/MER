@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia168_utt13",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "结合person_0（正对前方伸手直指）与person_1（语气急促坚定）的联合表现，以及process_0至process_2从正面指控过渡到严厉命令对方招认的连贯施压过程，Ross展现出强烈的质问与愤慨态度，判定为anger。",
+  "output": "结合person_0（正对前方伸手直指）与person_1（语气急促坚定）的联合表现，以及process_0至process_2从正面指控过渡到严厉命令对方招认的连贯施压过程，Ross展现出强烈的质问与愤慨态度，判定为anger。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 42.58372378349304,
+  "node_count": 8,
+  "edge_count": 8
+}

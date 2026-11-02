@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "Chandler在向女子打招呼后，继续提问时语速出现停顿与重复（process_3），同时右手向前伸展摊开（person_2），表现出言语上的迟疑与肢体上的试探，结合其动作从摊手到插兜的转变（person_3 after person_2），可能暗示紧张或不确定的情绪状态。图谱记载的音频派生描述支持其言语中的停顿与重复，表明其情绪并非完全自然流畅。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "process_3",
+    "person_2",
+    "person_3"
+  ]
+}

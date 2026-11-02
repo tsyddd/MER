@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "目标人物Chandler双手叉腰站立，交流时神情专注且伴随配合言语解释的平稳手势[E1][E2]，并未表现出眉间紧缩咬牙的愤怒或面容惊恐退缩等强烈情绪，视觉整体呈现镇定自若的日常对话陈述状态。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0s",
+      "observation": "Chandler身穿黑色短袖正对镜头与Joey交谈，双手叉腰，面部肌肉放松，眼神直视对方。",
+      "interpretation": "站姿自然端正，未见身体紧绷防御或攻击性倾向，奠定平静对话的基调。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 3.253s",
+      "observation": "Chandler单手在身前做出下压摆动的手势，眉毛微动，嘴唇开合保持正常语速表达。",
+      "interpretation": "手势为典型的会话强调与澄清说明，面部无过度夸张的愤怒扭曲或恐惧收缩，符合客观陈述事实/自嘲表达。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词提及被枪指着（staring down the barrel of a gun）及失禁，容易被联想为fear；但Chandler在画面中身体完全未退缩，表情从容甚至带有自嘲的笃定感，故排除fear。"
+}

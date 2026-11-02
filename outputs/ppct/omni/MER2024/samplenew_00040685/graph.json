@@ -1,0 +1,68 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "说话人正在对另一个人说话。",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "说话人，男性，头戴金色冠饰，身穿带有金色刺绣的棕色古装，面部有胡须，正在对另一人说话。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "另一人，男性，仅在画面左侧部分可见，背对镜头。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "场景为室内，背景有深色带有图案的墙壁。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "说话人正在向另一人陈述一件往事。",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0 提供了说话者的面部表情、服饰和姿态等视觉信息，person_1 提供了对话对象的侧面轮廓和位置信息，二者联合后明确了说话者正在与另一人进行对话的互动场景。",
+      "entity_anchor": null
+    }
+  ]
+}

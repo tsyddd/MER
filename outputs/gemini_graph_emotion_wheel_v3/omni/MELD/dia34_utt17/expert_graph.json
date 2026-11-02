@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "莫妮卡在与瑞秋的对话中，以高声呼喊和坚定语气表达了对瑞秋出轨行为的强烈反对。她的面部表情和声音表现（音量高、语气坚定）共同指向一种因不公或冒犯而产生的强烈负面情绪。该情绪的核心是她对瑞秋行为的道德评判，而非单纯的悲伤、恐惧或惊讶。因此，最准确的开放情绪是“愤怒”。该情绪在数据集情绪轮中被归类为“anger”，因为它直接对应于对冒犯、不公的责备与对抗。",
+  "open_emotion": "愤怒",
+  "answer": "anger",
+  "mapping_reason": "根据数据集情绪轮的定义，'anger'（愤怒）是针对冒犯、受阻或不公的恼火、责备与对抗。莫妮卡的言语内容“I’m never gonna think it’s okay for you to cheat on your husband!”直接表达了对瑞秋行为的道德谴责，这是一种因不公而产生的责备。她的高声呼喊和坚定语气是这种责备的外在表现，与'anger'的语义家族完全匹配。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:03.587",
+      "observation": "莫妮卡以高亢、响亮的音量说出“Rachel! I’m never gonna think it’s okay for you to cheat on your husband!”",
+      "interpretation": "高亢响亮的音量和直接的言辞表明莫妮卡正在表达一种强烈的、不容置疑的反对意见，这是愤怒情绪的典型声音特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01",
+      "observation": "莫妮卡从侧身坐姿转向瑞秋，身体和头部朝向对方，张开嘴巴大声说话。",
+      "interpretation": "这一动作表明她正在主动、直接地与瑞秋进行严肃的交流，其姿态和表情（尽管不完全清晰）与她高声说话的行为一致，共同构成了一个对抗性的互动场景。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "字幕内容",
+      "observation": "字幕显示莫妮卡说：“Rachel! I’m never gonna think it’s okay for you to cheat on your husband!”",
+      "interpretation": "字幕内容证实了莫妮卡正在对瑞秋的出轨行为进行道德评判，其内容是愤怒情绪的直接来源。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "node_id: person_2",
+      "observation": "图谱节点描述莫妮卡“目光直视瑞秋，语气坚定，持续开合嘴唇说话”",
+      "interpretation": "该节点描述了莫妮卡在说话时的专注和坚定，这与愤怒情绪中“责备与对抗”的特征相符，是其情绪状态的有力佐证。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "莫妮卡的语气虽然坚定，但并未表现出歇斯底里或攻击性，这可能被解释为一种失望或担忧。然而，其言语内容是直接的道德谴责，而非对后果的忧虑，因此“anger”比“sadness”或“fear”更准确。"
+}

@@ -1,0 +1,9 @@
+{
+  "expert": "graph",
+  "reason": "男孩在说话时面带笑容，身体微前倾，视线朝向左前方，且说话语调轻快上扬、语速较快，这些视听特征共同表明其情绪状态为积极主动。相关证据包括节点person_0（视觉表现）和person_1（音频派生描述），二者同时发生，支持其情绪为happy。",
+  "answer": "happy",
+  "evidence_refs": [
+    "person_0",
+    "person_1"
+  ]
+}

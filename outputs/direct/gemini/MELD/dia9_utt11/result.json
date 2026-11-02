@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia9_utt11",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sadness",
+  "emotion_analysis": "Rachel坐在沙发上展示被火灾损坏的衣物，面带难过和沮丧的表情，语气沉痛哀怨，表现出失去物品后的伤心失落。",
+  "output": "Rachel坐在沙发上展示被火灾损坏的衣物，面带难过和沮丧的表情，语气沉痛哀怨，表现出失去物品后的伤心失落。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 5.7010533809661865,
+  "node_count": null,
+  "edge_count": null
+}

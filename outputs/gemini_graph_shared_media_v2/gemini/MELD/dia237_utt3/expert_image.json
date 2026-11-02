@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "Joey在抬头回应Monica时呈现出皱眉、嘴唇紧缩及略带反胃苦涩的面部状态[E1]，结合台词与语音中谈及'whipped fish'和'keeping it down'[E2]，视觉与言语表现高度契合对难吃食物的反感与厌恶（disgust）。",
+  "answer": "disgust",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_03 @ 2.8361644646756226",
+      "observation": "Joey抬头仰视Monica，双眉微聚微蹙，嘴角下撇略带歪嘴的勉强表情",
+      "interpretation": "生动表现出提到令人恶心的事物时的生理性反感与排斥神态",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "I don't know. We're talking about whipped fish, Monica. I'm just happy I'm keeping it down, y'know?",
+      "observation": "台词明确表示自己在谈论搅拌成泥的鱼，庆幸自己没有吐出来",
+      "interpretation": "直接印证了其反胃与厌恶的情绪动因",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "他在后段双手交叠于桌前低头克制（frame_07），动作相对收敛可能看似neutral，但前期明显的反胃面部表情与台词主题排除了纯粹中性的可能。"
+}

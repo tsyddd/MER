@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "目标人物在整个片段中面部肌肉放松平展，眉毛无紧蹙或抬升，目光稳定直视对方[E1]；说话时语调平稳低沉无剧烈情绪起伏[E2]，整体呈现出沉稳、克制的中性状态。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.04",
+      "observation": "目标人物双眉平展未起皱，眼神专注直视前方，嘴唇在平稳说话后自然合拢，嘴角无明显上扬或下撇拉扯",
+      "interpretation": "面部没有愤怒、悲伤或焦虑的紧绷收缩，展现出克制、平稳的常态表情",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00 - 00:02",
+      "observation": "声音低沉平缓，语速均匀，没有叹息、哭腔或激动颤抖",
+      "interpretation": "听觉上证实其处于平静客观的宽慰表态中，支持中性（neutral）判断",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "话语内容涉及‘过去的事不怪你’，常带有宽慰或轻微感伤（sad/worried），但视觉上缺乏眼部泛泪、嘴角下垂或锁眉等悲伤/担忧的特征，故不采纳。"
+}

@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "催眠磁带的声音语调平缓柔和、音量平稳（person_0），播放内容为“Deeper.”（process_0），男子处于静止平躺状态（person_1），无明显动作或反应，环境安静，未表现出情绪波动。结合图谱记载，当前无任何证据表明目标人物存在情绪表达。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_0",
+    "process_0",
+    "person_1"
+  ]
+}

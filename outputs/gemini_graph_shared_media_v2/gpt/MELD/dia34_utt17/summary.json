@@ -1,0 +1,9 @@
+{
+  "reason": "独立回看第3至8帧，目标是穿浅紫色上衣的Monica：她转向Rachel，随后抬眼直视对方并开口说话；[image:E2]对这一变化的描述可信，但抬眉本身不能证明愤怒。字幕中“Rachel! I’m never gonna think it’s okay for you to cheat on your husband!”是对Rachel的直接否定，[audio_subtitle:E1]据此判断为责备，比单凭出轨话题推断厌恶更有依据。最强反证是她在第5、7帧略带笑意、没有明显怒容，[image:E4]对此的观察可信；但微笑不自动表示喜悦，结合直接责备的措辞，更支持克制的不满。未提供音轨，不能用音量或语调进一步确认。",
+  "answer": "anger",
+  "evidence_refs": [
+    "image:E2",
+    "audio_subtitle:E1",
+    "image:E4"
+  ]
+}

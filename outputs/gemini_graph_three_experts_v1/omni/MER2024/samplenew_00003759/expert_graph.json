@@ -1,0 +1,9 @@
+{
+  "expert": "graph",
+  "reason": "棕色外套女子在提问时语调上扬且语速较快（person_1），提问后睁大双眼、嘴部微张注视对方（person_2），表现出对回应的期待与关注，符合惊讶情绪的典型表现。该情绪由其面部表情和语调共同支撑。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "person_1",
+    "person_2"
+  ]
+}

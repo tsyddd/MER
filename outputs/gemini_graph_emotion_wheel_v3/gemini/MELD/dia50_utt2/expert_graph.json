@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "在图书走道内发生不合规亲密行为被他人当场撞破的情境下〔context_0〕，目标人物Female Student面临被问责与惩罚的负面后果威胁。结合图谱节点，她采取了低头躬身、极速从男子身旁穿过并逃离现场的身体回避动作〔person_0, process_0〕，并在逃窜的同时发出急促短促的道歉声〔person_1, process_1〕。这种视听同步的慌乱逃跑与仓皇应对，充分体现了其被抓现行后的惊慌与惧怕后果的应激状态。",
+  "open_emotion": "惊慌",
+  "answer": "fear",
+  "mapping_reason": "目标人物在违规行为被当场撞见时面临潜在惩处威胁，其低头躬身逃跑与急促道歉反映出高度的逃避倾向与惊慌失措（panicked），符合情绪轮中面向负面后果预期和威胁相关恐慌的定义，因而映射为fear。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "Female Student弯腰低头从书架过道快速穿过离开",
+      "interpretation": "面对突发被撞破的场面，目标人物本能采取身体蜷缩、快速撤离的回避反应，说明其处于极度慌乱逃跑状态",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00至frame_03",
+      "observation": "画面中赤裸上身的男子正忙乱套衣服，Female Student压低身体、垂头贴着地面快速穿过过道避开视线",
+      "interpretation": "视觉呈现出被当场抓现行后的仓皇潜逃体态，体现出规避惩罚威胁的恐慌行为",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00-00:01",
+      "observation": "目标人物伴随粗重短促的气声迅速说出\"so sorry!\"",
+      "interpretation": "急促慌张且微弱的气声道歉反映出其惊慌失措与急于脱身的心理",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "如果仅将\"I'm so sorry!\"理解为礼貌性致歉或单纯尴尬羞愧，可能被误判为中性或悲伤；但结合现场男子慌忙穿衣、目标人物猫腰全速奔逃的动作，其核心动力是对被抓惩罚的恐惧与慌乱逃脱。"
+}

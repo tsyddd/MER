@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00021868",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "525b131426b19ccc086afb01c3de0dac946463a250271f0d8e2481091c04e506",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "图谱与图片都提到低头、目光下垂和神情压抑，视觉表现整体一致；但图谱中的低沉语调并未得到音频专家核验，不能作为独立听觉证据。字幕仅是片段性回忆表述，未明确指向具体情绪；结合眉头微蹙、嘴唇紧闭等视觉线索，当前更偏向担忧。",
+  "output": "图谱与图片都提到低头、目光下垂和神情压抑，视觉表现整体一致；但图谱中的低沉语调并未得到音频专家核验，不能作为独立听觉证据。字幕仅是片段性回忆表述，未明确指向具体情绪；结合眉头微蹙、嘴唇紧闭等视觉线索，当前更偏向担忧。\n<answer>worried</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 85.19593095779419
+}

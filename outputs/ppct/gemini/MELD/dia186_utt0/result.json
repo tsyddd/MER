@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia186_utt0",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "Chandler在面对身旁互动时摆手拒绝并收拢手势（person_0、person_1），配合从打断到陈述调侃的完整话语（process_0、process_1、process_2），神态和语气均表现为平和从容的冷面调侃。其面部表情与动作（person_2）未出现强烈的愤怒、厌恶或悲伤等情绪波动，整体处于平静自然的常态。",
+  "output": "Chandler在面对身旁互动时摆手拒绝并收拢手势（person_0、person_1），配合从打断到陈述调侃的完整话语（process_0、process_1、process_2），神态和语气均表现为平和从容的冷面调侃。其面部表情与动作（person_2）未出现强烈的愤怒、厌恶或悲伤等情绪波动，整体处于平静自然的常态。\n<answer>neutral</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 93.07927584648132,
+  "node_count": 7,
+  "edge_count": 8
+}

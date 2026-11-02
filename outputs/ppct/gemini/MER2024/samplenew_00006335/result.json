@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00006335",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "结合context_0与process_0，男子在日式房间内手持电话求证增兵情况，台词为客观确认信息。依据person_0与person_1的联合线索（person_joint），男子面部神态沉稳，虽带疑问但语气低沉平缓，未表现出明显的惊诧、愤怒或慌乱情绪。",
+  "output": "结合context_0与process_0，男子在日式房间内手持电话求证增兵情况，台词为客观确认信息。依据person_0与person_1的联合线索（person_joint），男子面部神态沉稳，虽带疑问但语气低沉平缓，未表现出明显的惊诧、愤怒或慌乱情绪。\n<answer>neutral</answer>",
+  "label": "angry",
+  "elapsed_seconds": 8.559084177017212,
+  "node_count": 4,
+  "edge_count": 2
+}

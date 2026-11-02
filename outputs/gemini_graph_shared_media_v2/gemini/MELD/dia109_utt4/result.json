@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia109_utt4",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "b1102943bbcf1af1e117a380fae997536de4112a2f80180e05feb45af20ee7b2",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "目标人物Janice在接收到对方话语后，开场即以极高亢且急促升调的语气发出“Oh, are you sure? Really?”的反问[audio_subtitle:E1]，具备鲜明的听觉突发性与探询感。视觉上回看frame_00至frame_02，她双臂交叉抱胸、眉毛明显上挑且双眼睁大直视对方[image:E1]，面部神态高度契合出乎意料的讶异反应。尽管后半段（frame_04起）她松开双臂比划劝说可能带有日常交谈或轻快的表象，但其核心驱动情绪完全来自对对方回答的意外与难以置信，足以排除平淡无波的neutral，最终确定为surprise。",
+  "output": "目标人物Janice在接收到对方话语后，开场即以极高亢且急促升调的语气发出“Oh, are you sure? Really?”的反问[audio_subtitle:E1]，具备鲜明的听觉突发性与探询感。视觉上回看frame_00至frame_02，她双臂交叉抱胸、眉毛明显上挑且双眼睁大直视对方[image:E1]，面部神态高度契合出乎意料的讶异反应。尽管后半段（frame_04起）她松开双臂比划劝说可能带有日常交谈或轻快的表象，但其核心驱动情绪完全来自对对方回答的意外与难以置信，足以排除平淡无波的neutral，最终确定为surprise。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 71.5938036441803
+}

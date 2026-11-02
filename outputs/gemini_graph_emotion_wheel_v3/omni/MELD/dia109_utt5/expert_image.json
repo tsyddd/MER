@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "目标人物Janice在对话中表现出强烈的戏剧化和夸张的表演。她的面部表情（如睁大眼睛、扬眉、张嘴）和手势（如双手在胸前比划）都指向一种带有强烈情绪的表达。结合字幕内容“theater of cruelty”（残酷剧场），她的语气和表现更倾向于一种夸张的、带有表演性质的厌恶或反感，而非字面意义上的恐惧、悲伤或愤怒。这种表演化的表达是其角色Janice的典型特征。",
+  "open_emotion": "厌恶",
+  "answer": "disgust",
+  "mapping_reason": "根据情绪轮定义，disgust（厌恶）是对令人反感、恶心或难以接受对象的排斥与厌弃。Janice的台词“theater of cruelty”（残酷剧场）和她夸张的表演，共同指向了对某种行为或想法的强烈反感和排斥。她的表情和姿态并非指向恐惧（fear）或悲伤（sadness），而是对“残酷剧场”这一概念的戏剧化表达，因此最符合disgust的范畴。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "Janice双臂交叉，身体后倾，表情严肃。",
+      "interpretation": "这是一个防御性或带有评判意味的姿态，为后续的强烈表达做铺垫。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03",
+      "observation": "Janice双手在胸前比划，表情夸张，嘴巴微张。",
+      "interpretation": "这是一个典型的表演性手势，配合台词，表现出对“残酷剧场”这一概念的戏剧化描述和强烈反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04",
+      "observation": "Janice的手势和面部表情保持夸张，眼神专注。",
+      "interpretation": "持续的夸张表演强化了她对所谈论内容的强烈情感，这种情感是排斥和反感。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "subtitle",
+      "anchor": "Because you know, you could make little puppets out of them, and you could use them in your theater of cruelty.",
+      "observation": "字幕内容为“残酷剧场”。",
+      "interpretation": "该短语是表达强烈厌恶和排斥的关键词，是Janice情绪的直接来源。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "她的表情和姿态非常夸张，可能被误认为是惊讶（surprise）或愤怒（anger）。然而，惊讶通常与意外相关，而愤怒则带有对抗性，但她的表演更偏向于一种对“残酷”概念的戏剧化、表演性的反感，因此更符合disgust。"
+}

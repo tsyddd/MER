@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00030944",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "人物说“我还不放心呢”，并担心对方独自在家时可能“想不开”，表达了明显的担忧。她眉头微蹙、目光下垂，神情严肃而不安，符合担心情绪。",
+  "output": "人物说“我还不放心呢”，并担心对方独自在家时可能“想不开”，表达了明显的担忧。她眉头微蹙、目光下垂，神情严肃而不安，符合担心情绪。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 20.70255470275879,
+  "node_count": null,
+  "edge_count": null
+}

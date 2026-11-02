@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00021849",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "359093044a96c9b0d3bf12c8621869f06d99bda1905d519e91d11df175dc34b4",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "音频专家明确指出说话人语调低沉平缓、语速平稳克制，无明显焦虑或情绪起伏；图像专家虽观察到其趴在车窗眉头微蹙且神情关切，但结合图谱与音频中平稳安抚、安排对方先上车的克制表现，整体未表现出强烈的忧虑波动，应判定为中性。",
+  "output": "音频专家明确指出说话人语调低沉平缓、语速平稳克制，无明显焦虑或情绪起伏；图像专家虽观察到其趴在车窗眉头微蹙且神情关切，但结合图谱与音频中平稳安抚、安排对方先上车的克制表现，整体未表现出强烈的忧虑波动，应判定为中性。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 43.05948519706726
+}

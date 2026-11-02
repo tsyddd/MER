@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia0_utt2",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "结合节点person_0（低头端坐）与person_2（平缓低沉语调），瑞秋在男子拉开距离后（process_0与process_1）神态平静自然。在说出“Y'know what?”时，其语气与面部微表情均无明显情绪波动或夸张起伏，体现了内敛克制的对话状态，整体情绪表现为neutral。",
+  "output": "结合节点person_0（低头端坐）与person_2（平缓低沉语调），瑞秋在男子拉开距离后（process_0与process_1）神态平静自然。在说出“Y'know what?”时，其语气与面部微表情均无明显情绪波动或夸张起伏，体现了内敛克制的对话状态，整体情绪表现为neutral。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 62.28539538383484,
+  "node_count": 7,
+  "edge_count": 5
+}

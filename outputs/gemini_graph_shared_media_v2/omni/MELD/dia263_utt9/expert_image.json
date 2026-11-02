@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标人物Ross在所有帧中均保持坐姿，视线主要向下或平视，面部表情较为平静。在字幕显示其说出“I'm gonna have to give him up”（我得把他放弃了）时，他的嘴部有轻微张开，但无明显皱眉、嘴角下撇等典型悲伤或愤怒的面部特征。其姿态和表情未表现出强烈的情绪波动，与字幕内容所暗示的放弃决定相符，但视觉上缺乏支持强烈情绪的证据。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "目标人物Ross坐姿端正，视线向下，面部表情平静。",
+      "interpretation": "该姿态和表情是中性情绪的典型表现，未显示出悲伤、愤怒或惊讶等强烈情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 0.6256245142666815",
+      "observation": "目标人物Ross的视线从向下转为平视前方，嘴部有轻微张开。",
+      "interpretation": "视线和嘴部动作与说话行为一致，但面部肌肉未表现出与字幕内容（放弃）相匹配的悲伤或痛苦。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "I'm gonna have to give him up.",
+      "observation": "字幕内容为“I'm gonna have to give him up.”",
+      "interpretation": "该话语内容暗示了放弃和可能的悲伤，但视觉上未观察到与之匹配的强烈情绪表达。",
+      "polarity": "uncertain"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_07 @ 1.4180822323378113",
+      "observation": "目标人物Ross保持坐姿，视线平视前方，表情无明显变化。",
+      "interpretation": "在整个片段中，其面部和姿态保持稳定，缺乏情绪波动的视觉证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "视觉上未观察到与字幕内容（放弃）相匹配的悲伤或痛苦表情，如皱眉、嘴角下撇等，因此无法支持“sadness”标签。"
+}

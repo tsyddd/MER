@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia34_utt5",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "Rachel当前说出“你是一个30岁的处女”并以“ Oh my God!”开头，画面中嘴部张开、眉毛抬起并配合手势，表现出明显的即时惊讶。证据来自process_0与person_0，且person_1和process_1显示她随后用手势并触碰身旁女性，强化了这次直接反应。",
+  "output": "Rachel当前说出“你是一个30岁的处女”并以“ Oh my God!”开头，画面中嘴部张开、眉毛抬起并配合手势，表现出明显的即时惊讶。证据来自process_0与person_0，且person_1和process_1显示她随后用手势并触碰身旁女性，强化了这次直接反应。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 59.42915177345276,
+  "node_count": 7,
+  "edge_count": 6
+}

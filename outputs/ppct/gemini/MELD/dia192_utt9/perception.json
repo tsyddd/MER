@@ -1,0 +1,81 @@
+{
+  "process": {
+    "nodes": [
+      {
+        "id": "process_0",
+        "type": "process",
+        "content": "Monica从房间后方向前移动",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 1,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "process_1",
+        "type": "process",
+        "content": "Monica说出\"What?! Excuse me!\"",
+        "evidence_sources": [
+          "visual",
+          "audio"
+        ],
+        "time_index": 1,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  },
+  "person": {
+    "nodes": [
+      {
+        "id": "person_0",
+        "type": "person",
+        "content": "Monica身穿黄色长袖上衣和红色长裙",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_1",
+        "type": "person",
+        "content": "Monica面向前方，视线注视前方并张开嘴巴",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 1,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_2",
+        "type": "person",
+        "content": "Monica的发音音量较大，尾音语调上扬",
+        "evidence_sources": [
+          "audio"
+        ],
+        "time_index": 1,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  },
+  "context": {
+    "nodes": [
+      {
+        "id": "context_0",
+        "type": "context",
+        "content": "在公寓客厅内，Chandler双手抱着一包纸巾站立，Phoebe低头在餐桌上写字，Monica在背景中",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  }
+}

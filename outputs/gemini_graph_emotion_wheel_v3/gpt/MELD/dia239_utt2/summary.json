@@ -1,0 +1,10 @@
+{
+  "reason": "Chandler在女子出现后转身面向她并摊掌，这一可核实的视觉变化支持[image:E1]，但动作本身不能证明惊讶。字幕中他把“did you fall..”转成“Hi!”，随后重复“did-did-did ya”[graph:E1][audio_subtitle:E2]；结合画面，这更像一时措手不及，而非平稳地继续交谈。后几帧他收手、面部紧绷[image:E2]，也可能是局促，但没有足够线索表明他在畏惧威胁。未提供音轨，因此不依据语调或语速判断。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "image:E1",
+    "graph:E1",
+    "audio_subtitle:E2",
+    "image:E2"
+  ]
+}

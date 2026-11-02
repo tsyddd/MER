@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia192_utt9",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "253cfc3d29025f100a084a4a4129a2710aa0f001fea7ff86d0942be80fadcdf5",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "愤慨",
+      "mapped_label": "anger",
+      "mapping_reason": "开放情绪'愤慨'源于对冒犯、不当言行的抗议与不满对抗，在情绪轮中明确归属于anger家族；相较于单纯意外的surprise，其核心在于对他人言行的责备与反弹。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "愤慨",
+      "mapped_label": "anger",
+      "mapping_reason": "莫妮卡因钱德勒对自己购买或使用物品的挑剔而感到被冒犯并立刻质问反驳，这种出于反感与受侵犯感产生的责备、对抗属于典型的愤慨与恼火，在情绪轮中严格对应anger家族。"
+    },
+    "image": {
+      "open_emotion": "愤慨",
+      "mapped_label": "anger",
+      "mapping_reason": "Monica因受到冒犯或质疑而表现出强烈的质问、反诘与身体逼近对峙，符合anger家族中“对冒犯、受阻或不公的恼火、责备与对抗”的定义，映射为anger。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "视觉回看显示Monica在frame_04猛然折返并大步跨向前台直视Chandler，呈现出明确的逼近与介入对峙姿态[image:E1]。音轨中她在00:00-00:01以极高亢尖锐、充满质问与对抗感的语调喊出“Excuse me!”[audio_subtitle:E2]，配合字幕的强烈反问短语[audio_subtitle:E1]，体现出被言论激惹后的强烈不满。最强反证为台词首句“What?!”可能带有surprise色彩，但其实际发音具攻击性尾音且肢体主动迎击对质，核心是针对冒犯的恼火责备而非被动意外，严格归属于anger。",
+  "output": "视觉回看显示Monica在frame_04猛然折返并大步跨向前台直视Chandler，呈现出明确的逼近与介入对峙姿态[image:E1]。音轨中她在00:00-00:01以极高亢尖锐、充满质问与对抗感的语调喊出“Excuse me!”[audio_subtitle:E2]，配合字幕的强烈反问短语[audio_subtitle:E1]，体现出被言论激惹后的强烈不满。最强反证为台词首句“What?!”可能带有surprise色彩，但其实际发音具攻击性尾音且肢体主动迎击对质，核心是针对冒犯的恼火责备而非被动意外，严格归属于anger。\n<answer>anger</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 79.49568819999695
+}

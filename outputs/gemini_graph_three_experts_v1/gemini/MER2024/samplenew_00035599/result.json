@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035599",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "2e41d1566b0d6d612ec8cac9b6fe7ea8a5c74329bc5ef3be50b67f145d3e328a",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "三位专家提供的线索高度一致且互为印证。图像特征显示人物眉头微蹙、神态凄楚且视线低垂下移，音频专家亦指出其语调低沉轻柔、伴有气声颤抖与叹息哀伤感，多模态特征均明显指向悲伤情绪。",
+  "output": "三位专家提供的线索高度一致且互为印证。图像特征显示人物眉头微蹙、神态凄楚且视线低垂下移，音频专家亦指出其语调低沉轻柔、伴有气声颤抖与叹息哀伤感，多模态特征均明显指向悲伤情绪。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 29.588869094848633
+}

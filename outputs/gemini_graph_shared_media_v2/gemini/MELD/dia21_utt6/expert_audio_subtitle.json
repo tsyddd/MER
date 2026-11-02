@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "菲比用轻快调侃的语调说出疑问句，并伴随明显的轻笑，言语行为属于充满善意的调情与逗弄，结合视觉上温柔注视与微笑，明确表现出愉悦情绪[E1][E2]。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00 - 00:02",
+      "observation": "目标人物在说“So your brother's straight, huh?”时语调上扬且带笑意，句末伴有轻柔放松的咯咯笑声（chuckle）",
+      "interpretation": "带有笑意的调侃语调及随后的笑声表现出轻松、愉悦和戏谑的正面情感状态，支持joy",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.00s",
+      "observation": "菲比手搭在男伴胸前，面带明朗笑意注视对方",
+      "interpretation": "肢体亲昵与面部微笑同听觉上的调侃笑声完全一致，排除中性或负面情绪",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "若仅将台词视为单纯打探情况的问句，可能被误判为neutral；但该解释被明显的笑意、轻笑声以及亲昵调情的互动语境直接否定。"
+}

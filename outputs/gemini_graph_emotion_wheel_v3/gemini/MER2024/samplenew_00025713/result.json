@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00025713",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "6276692c6cfc354003e575f92e375614a390c427cbb800fa58633127fa42f7c5",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "惊诧",
+      "mapped_label": "surprise",
+      "mapping_reason": "白衣少年在接收到突发信息时表现出睁大双眼、张口发愣及结巴发问的生理与言语反应，核心是由信息违背预期带来的即时意外感，符合情绪轮中surprise（惊讶）的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "吃惊",
+      "mapped_label": "surprise",
+      "mapping_reason": "开放情绪‘吃惊’是对违背预期的突发信息产生的即时意外反应，高度符合情绪轮中surprise（因当前信息违背预期产生的意外、诧异或震惊）的定义。"
+    },
+    "image": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "目标人物因对方获知其秘密或意外事实而表现出即时的瞳孔睁大、张嘴发愣反应，完全符合surprise（因当前信息违背预期产生的意外与诧异）的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "独立核对原始媒体可证实，目标人物在听到对方话语后迅速产生强烈的认知违背；[image:E1]准确捕捉到frame_06至frame_07中白衣少年双眼睁大、嘴唇微张呈圆形定格的发愣神态，[audio_subtitle:E1]指出的音频00:00-00:02间言语结巴与急促停顿亦完全属实。结合字幕原话“你。你。怎么知道的？”，反问句式直接表明事件彻底超出其心理预期。虽然结巴质问在情境上略带心虚，但当前核心反应是突获信息瞬间的错愕与吃惊，而非对后续风险持续权衡的worried，故最终归入surprise最为确切。",
+  "output": "独立核对原始媒体可证实，目标人物在听到对方话语后迅速产生强烈的认知违背；[image:E1]准确捕捉到frame_06至frame_07中白衣少年双眼睁大、嘴唇微张呈圆形定格的发愣神态，[audio_subtitle:E1]指出的音频00:00-00:02间言语结巴与急促停顿亦完全属实。结合字幕原话“你。你。怎么知道的？”，反问句式直接表明事件彻底超出其心理预期。虽然结巴质问在情境上略带心虚，但当前核心反应是突获信息瞬间的错愕与吃惊，而非对后续风险持续权衡的worried，故最终归入surprise最为确切。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 55.11669611930847
+}

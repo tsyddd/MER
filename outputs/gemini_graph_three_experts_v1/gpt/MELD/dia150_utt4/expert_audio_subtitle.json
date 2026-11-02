@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。字幕仅为简短告别语“Good-bye Chandler Bing.”，没有足够语言证据表明特定情绪，因此按中性处理。",
+  "answer": "neutral",
+  "evidence_refs": []
+}

@@ -1,0 +1,101 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Monica说：“Yeah baby!”",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle",
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Monica坐着，嘴部张开。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Monica闭上嘴。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Monica将头部和视线转向画面左侧的女性。",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Monica嘴角上扬并露出牙齿。",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "Monica坐在室内餐饮场所的沙发上，旁边坐着一名男性，画面左侧有一名女性。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "同一人物的嘴部状态由张开变为闭合，Monica在嘴部张开之后闭上嘴。",
+      "entity_anchor": "同一人物Monica的嘴部状态"
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_0提供Monica坐着且嘴部张开的可见状态，person_2提供她将头部和视线转向左侧女性的可见动作；联合后补充说明她在坐着张口时面向该女性。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_0提供Monica嘴部张开的可见状态，person_3提供嘴角上扬并露出牙齿的可见表现；联合后形成更完整的张口露齿面部表现信息。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_2",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_2提供Monica转头并将视线指向左侧女性的可见动作，person_3提供嘴角上扬并露出牙齿的可见表现；联合后说明她面向该女性时同时出现这一面部表现。",
+      "entity_anchor": null
+    }
+  ]
+}

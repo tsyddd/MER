@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载莫妮卡面朝身旁的瑞秋大声喊出对方名字，音量较高（person_1，process_0）。随后她目光直视瑞秋，语气坚定地正面斥责对方，明确表示绝不认可其背叛丈夫的行为（person_2，process_1）。其提高音量的严厉告诫与直视姿态展现出明显的斥责与愤怒情绪。",
+  "answer": "anger",
+  "evidence_refs": [
+    "person_1",
+    "process_0",
+    "person_2",
+    "process_1"
+  ]
+}

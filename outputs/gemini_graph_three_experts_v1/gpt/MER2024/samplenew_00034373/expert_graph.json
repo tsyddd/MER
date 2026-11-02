@@ -1,0 +1,9 @@
+{
+  "expert": "graph",
+  "reason": "女子当前眼含泪光、视线斜下方且眉头微蹙，表现出明显的悲伤和低落状态〔person_0〕。图谱记载其声音偏低、语调微颤并带有哽咽和短暂停顿，进一步支持其当前情绪为悲伤〔person_1〕。",
+  "answer": "sad",
+  "evidence_refs": [
+    "person_0",
+    "person_1"
+  ]
+}

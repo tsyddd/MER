@@ -1,0 +1,65 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "画面中的女性说出字幕“甚至，连一件衣裳。”",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle",
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "女性面部朝向镜头方向，视线偏向画面左侧",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "女性嘴部在说话过程中开合",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "一名身穿传统服饰、佩戴头饰的女性位于室内窗前",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "simultaneous",
+      "reason": "同一女性同时面部朝向镜头并开口说话",
+      "entity_anchor": "同一女性"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "面部朝向镜头方向且视线偏向画面左侧提供了人物的朝向与视线信息，嘴部开合提供了可观察的说话动作；二者联合后补充限定为面向画面左侧对象进行说话的可见表现。",
+      "entity_anchor": null
+    }
+  ]
+}

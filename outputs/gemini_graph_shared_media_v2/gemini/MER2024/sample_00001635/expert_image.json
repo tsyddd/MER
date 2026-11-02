@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "目标人物在被质询时眼神微瞪且视线紧扣对方，面部紧绷，嘴部伴随急促辩解微张[E1]，配合音轨中短促慌乱的惊叫与急切声调[E2]，整体呈现出被当场撞破后的慌张与不安，视觉表现强力支持worried。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_05 @ 1.0867924528301887",
+      "observation": "目标人物双眼圆睁直视对方，眉眼微紧，微张着嘴急促吐字，神态拘谨紧张",
+      "interpretation": "体现了突发情境下的不知所措与惶恐不安，符合担忧（worried）的表现",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.00-1.40s",
+      "observation": "发音初始为带有急促抽吸的短惊呼'呀'，随后慌张颤抖地吐出'我不知...'",
+      "interpretation": "佐证其并非平静陈述，而是伴随心虚与不安的辩解反应",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "开头短促的'呀'及略睁大的眼睛可能被初判为surprise，但其眉眼持续的局促、下垂嘴角及紧张辩解表明其主要情绪是被抓包后的慌乱担忧而非单纯惊讶。"
+}

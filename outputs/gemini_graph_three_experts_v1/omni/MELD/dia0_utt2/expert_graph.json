@@ -1,0 +1,9 @@
+{
+  "expert": "graph",
+  "reason": "瑞秋在组织文本中被描述为‘以平缓低沉的语调说话’〔person_2〕，且其坐姿为‘略微低头’〔person_0〕，二者联合体现沉静内敛的表达特征。该语调与姿态未表现出强烈情绪波动，符合‘neutral’标签的典型表现。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_0",
+    "person_2"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00019636",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "d1653847d3cf6cfc09cc8eb7628fbb69523753b496954bbdaa066c61ccdb6896",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "怀疑",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据【易混边界与类别缺失】原则，'surprise'（惊讶）适用于因当前信息违背预期而产生的意外、诧异或震惊。目标人物在听到“一百多岁”这一信息后，立即用“我怎么看也不像啊”来表达其强烈的怀疑，这是一种典型的对意外信息的即时反应。虽然他的语调和神态也带有沉思和不确定，但主导情绪是信息带来的意外感，因此映射到'surprise'是合适的。'worried'（担忧）和'sad'（悲伤）不适用，因为没有表现出对负面后果的顾虑或对损失的哀伤。'angry'（愤怒）也不符合，因为没有责备或对抗的迹象。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "怀疑",
+      "mapped_label": "neutral",
+      "mapping_reason": "虽然说话者表达了怀疑，但这种怀疑是陈述性语言的一部分，而非一种强烈的情绪爆发。他的语调平稳，没有表现出愤怒、悲伤或担忧等情绪。在当前的语境下，这种带有疑问的陈述更符合一种中性的、思考性的交流状态，因此映射为neutral。"
+    },
+    "image": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据情绪轮定义，'surprise'指因当前信息违背预期产生的意外、诧异或震惊。目标人物的面部表情（睁大眼睛、眉毛上扬）和姿态（抬头、手势）是惊讶的典型视觉表现，且与他所说'我怎么看也不像啊'的台词内容完全吻合，因此映射为'surprise'是准确的。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "目标人物在听到“一百多岁”这一信息后，立即用“我怎么看也不像啊”表达怀疑。其视觉表现（frame_02-frame_03睁大眼睛、抬头）和姿态（frame_04-frame_07抬手摸颈部）是惊讶的典型特征，与台词内容高度一致。音频中语调虽平稳，但结合其表达内容和视觉线索，主导情绪是信息带来的意外感。专家image的证据（[image:E1]）直接描述了惊讶表情，可信度高，且与事实相符。",
+  "output": "目标人物在听到“一百多岁”这一信息后，立即用“我怎么看也不像啊”表达怀疑。其视觉表现（frame_02-frame_03睁大眼睛、抬头）和姿态（frame_04-frame_07抬手摸颈部）是惊讶的典型特征，与台词内容高度一致。音频中语调虽平稳，但结合其表达内容和视觉线索，主导情绪是信息带来的意外感。专家image的证据（[image:E1]）直接描述了惊讶表情，可信度高，且与事实相符。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 213.96275568008423
+}

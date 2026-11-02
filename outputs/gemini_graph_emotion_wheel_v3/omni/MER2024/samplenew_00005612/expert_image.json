@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物在多个连续帧中保持严肃、专注的面部表情，视线稳定地望向一侧，姿态沉稳，无明显情绪波动。其在字幕中说出的台词“请您转交给总理过目”为中性陈述，无明显情感色彩。音频中语调平稳，无激动或低落迹象。综合来看，其表现符合中性状态。",
+  "open_emotion": "中性",
+  "answer": "neutral",
+  "mapping_reason": "根据情绪轮定义，'neutral'指当前主要为平稳叙述、自然交流或无明确主导情绪的表达。目标人物的面部表情、姿态和台词内容均未表现出喜悦、悲伤、愤怒、担忧或惊讶等主导情绪，其表达状态平稳，因此映射为'neutral'。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "目标人物面部表情严肃，眼神专注，无明显笑容、皱眉或湿润眼眶等情绪迹象。",
+      "interpretation": "面部表情稳定，未表现出强烈情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "字幕内容",
+      "observation": "字幕显示台词为“请您转交给总理过目”。",
+      "interpretation": "该台词为中性陈述，无情感色彩。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "音频中说话者语调平稳，无明显激动或低落。",
+      "interpretation": "声音语调与中性表达一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无"
+}

@@ -1,0 +1,10 @@
+{
+  "reason": "Chandler在台词中虽然使用了“embarrassing”一词[audio_subtitle:E1]，但整体语义仅为日常的冷幽默推拒与调侃，并非宣泄真实的负面情绪。回看画面，他在说话时虽有抬手推拒的手势[image:E1]和轻微的斜视调侃神态[image:E2]，但面部缺乏皱鼻、撇嘴等厌恶动作，也未见笑肌收缩等显著喜悦特征。听觉上其语调从开头的急促否定平顺过渡到句尾的自然落调，声学能量稳定平缓[audio_subtitle:E2]，未产生高唤醒情绪爆发。综合多模态线索，排除disgust与joy的假说，确定为低唤醒度的常态交流状态。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "image:E1",
+    "image:E2",
+    "audio_subtitle:E2"
+  ]
+}

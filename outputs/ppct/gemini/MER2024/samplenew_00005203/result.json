@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00005203",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sad",
+  "emotion_analysis": "结合节点person_0、person_1与person_2，粉衣女子神态哀伤、眼眶泛红且视线微垂，同时伴随着低缓轻弱且带有哽咽的语调倾诉“我也不想跟你分开”（process_0），整体面部神情与声音表现出强烈的不舍与伤感。",
+  "output": "结合节点person_0、person_1与person_2，粉衣女子神态哀伤、眼眶泛红且视线微垂，同时伴随着低缓轻弱且带有哽咽的语调倾诉“我也不想跟你分开”（process_0），整体面部神情与声音表现出强烈的不舍与伤感。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 59.74991035461426,
+  "node_count": 7,
+  "edge_count": 6
+}

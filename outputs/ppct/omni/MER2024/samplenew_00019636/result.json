@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00019636",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "说话人对“胡十四娘一百多岁”的说法表现出明显的怀疑，通过台词“我怎么看也不像啊”和略带迟疑的语气，结合其抬头、视线移动和手部靠近颈部的肢体动作，表现出对所述内容的不确定和思考状态。",
+  "output": "说话人对“胡十四娘一百多岁”的说法表现出明显的怀疑，通过台词“我怎么看也不像啊”和略带迟疑的语气，结合其抬头、视线移动和手部靠近颈部的肢体动作，表现出对所述内容的不确定和思考状态。\n<answer>worried</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 119.37379431724548,
+  "node_count": 6,
+  "edge_count": 3
+}

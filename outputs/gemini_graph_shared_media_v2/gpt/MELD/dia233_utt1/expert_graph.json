@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "Rachel当前是在面对另一名女子提出带有责备意味的反驳，而不是正在遭遇鱼。[E1]中的“鱼把我吓坏了”是她对过去感受的陈述；图谱节点process_0[E2]帮助厘清前半句是假设性的比较，不能推断对方真的送了鱼。她说话时紧绷的表情和手势[E3]更支持当前的不满，因此选择anger。图谱与字幕对话语的记录属于同源信息，不算两份独立证据；未收到原音轨，图谱中的语调描述也无法亲耳核验。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Honey, if you wanted to do that, you might as well just gotten him a fish, you know how fish freaked me out!",
+      "observation": "Rachel用“还不如给他弄条鱼”回应对方，并说鱼曾让自己害怕。",
+      "interpretation": "整句话是在反驳对方；害怕指向她所述的过去经历，不直接证明当前是fear。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "节点将前半句话记录为Rachel面对女子说出的假设性比较。",
+      "interpretation": "它说明当前互动的对象是对面的女子，但只是对字幕语义的组织，不构成独立的情绪证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_06 @ 3.753747085600089秒",
+      "observation": "Rachel正面朝对方，眉头收紧，嘴部紧绷；此前说话时手臂向外摆动。",
+      "interpretation": "这些当前可见表现与她话语中的不满相符，较不像正在面对危险时的恐惧。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "“fish freaked me out”可以让人想到fear，但它描述的是过去对鱼的感受；当前画面与对话更支持她在责备对方。没有原音轨，不能依据图谱转述的语速或重音进一步判定。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035599",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "2e41d1566b0d6d612ec8cac9b6fe7ea8a5c74329bc5ef3be50b67f145d3e328a",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "独立核对音视频可知，目标人物在陈述往事时伴随极其明显的抽噎颤音与哽咽哭腔[audio_subtitle:E1]，语气悲怆压抑。画面中从frame_03到frame_05，其双眉微蹙、眼眶含泪且目光持续低垂下敛[image:E1]，嘴角微向下撇，展现出强烈的哀戚沉痛神态。尽管蹙眉易与担忧（worried）混淆，但台词追述已成事实的伤痛细节且通篇呈现低落哭腔而非紧张焦虑，综合视听线索确认为悲伤。",
+  "output": "独立核对音视频可知，目标人物在陈述往事时伴随极其明显的抽噎颤音与哽咽哭腔[audio_subtitle:E1]，语气悲怆压抑。画面中从frame_03到frame_05，其双眉微蹙、眼眶含泪且目光持续低垂下敛[image:E1]，嘴角微向下撇，展现出强烈的哀戚沉痛神态。尽管蹙眉易与担忧（worried）混淆，但台词追述已成事实的伤痛细节且通篇呈现低落哭腔而非紧张焦虑，综合视听线索确认为悲伤。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 51.45156645774841
+}

@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "音频中说话者语调低沉，语速缓慢，音量较小，带有明显的停顿和颤抖，表现出深切的歉意和情感负担。结合字幕内容“I'm so sorry!”，可判断其情绪为悲伤。",
+  "answer": "sadness",
+  "evidence_refs": []
+}

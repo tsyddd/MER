@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "结合情境图谱与音画信息，当前处于突发尴尬事件的处置阶段。图谱节点[process_0]与[person_0]记录了目标人物弯腰低头、压低身体从两名男性面前快速穿过逃离的避险动作，配合音频中急促压低的致歉声[person_1]，表明其情绪属于因违规被当场抓包而产生的慌乱恐慌（fear），而非刚发现时的惊愕（surprise）或心平气和的陈述（neutral）。",
+  "answer": "fear",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "Female Student弯腰低头从书架过道快速穿过离开",
+      "interpretation": "目标人物在被抓包后以极低姿态迅速逃跑避险，身体动作体现出规避惩罚与视线接触的恐慌与慌乱",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0s",
+      "observation": "目标人物将头压低至腰部以下，双手护头快速从画面右下方钻出书架过道离开",
+      "interpretation": "典型的畏缩躲避行为，显示出害怕被认出或面对后果的慌惧心理",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00-00:01",
+      "observation": "低声、短促且带有微弱颤音与慌张感的'I'm so sorry!'",
+      "interpretation": "语音表现与图谱中的[person_1]互补，反映出人物急于脱身、诚惶诚恐的惧怕心理状态",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是surprise（惊讶）或neutral（中性）：若仅凭字幕'I'm so sorry!'可能误判为日常客套道歉（neutral）或突发撞见的吃惊（surprise）；但事件链显示打断事件此前已发生，目标人物此时处于主动逃匿过程，身体高度蜷缩低伏并伴随急促气声，表明其焦点在于逃离恐慌而非初遇时的吃惊，故排除surprise与neutral。"
+}

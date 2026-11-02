@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia168_utt13",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "d4f4337f36452e71eb92ed229fc09628e4b5b5772a515f3e6f5a2fe6ba4ccce4",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "愤慨指控",
+      "mapped_label": "anger",
+      "mapping_reason": "Ross的主导情绪是针对对方行为的直接责难、指控与强硬对抗，符合情绪轮中anger（对冒犯/受阻的恼火、责备与对抗）的定义，因此映射为anger。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "恼火",
+      "mapped_label": "anger",
+      "mapping_reason": "当前语言行为属于直接的指控与责备施压，伴随高音量与对抗性语调，完全符合anger家族中因对方行为而产生恼火、愤慨与对抗的定义。"
+    },
+    "image": {
+      "open_emotion": "愤慨",
+      "mapped_label": "anger",
+      "mapping_reason": "Ross的表现属于针对不当行为（偷窃）的责备、质问与对质，契合情绪轮中anger（愤怒：对冒犯、受阻或不公的恼火、责备与对抗）的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "通过核对原始帧与实际音轨，Ross在说出\"confess!\"时语速急促且音调明显拔高加重[audio_subtitle:E1]，言语内容构成直接的偷窃指控与逼迫认罪。视觉上，Ross在frame_03至frame_04身体前倾，双臂外摊并伴随强调性的下压逼问手势，神情严肃紧绷[image:E1]。尽管台词中\"save yourself the time\"带有劝说字面含义，但其高能量的责难语气与身体对抗性明确排除了平稳中性，体现了因受阻与对抗产生的主导怒意与责备。",
+  "output": "通过核对原始帧与实际音轨，Ross在说出\"confess!\"时语速急促且音调明显拔高加重[audio_subtitle:E1]，言语内容构成直接的偷窃指控与逼迫认罪。视觉上，Ross在frame_03至frame_04身体前倾，双臂外摊并伴随强调性的下压逼问手势，神情严肃紧绷[image:E1]。尽管台词中\"save yourself the time\"带有劝说字面含义，但其高能量的责难语气与身体对抗性明确排除了平稳中性，体现了因受阻与对抗产生的主导怒意与责备。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 54.7958824634552
+}

@@ -1,0 +1,8 @@
+{
+  "reason": "目标人物为空乘人员（画面左侧侧身），独立核查音轨与画面可知，空乘在检票时说出“Thank you! Enjoy your flight?”，动作规范、体态平稳[image:E1]。专家[audio_subtitle:E1]指出其语调上扬且有礼貌共鸣，但这属于客舱迎宾的标准程式化职业礼仪，而非发自内心的快乐或愉悦体验。视觉上空乘面部无明显情绪波动，整体表现平稳克制、处于日常工作流程中，依照规范应判定为neutral。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E1"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia34_utt17",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "55de13de7623a6e85879feac678dde89b7dbd56f0daf4dc5a1f20e9a6a71f9c9",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "愤慨",
+      "mapped_label": "anger",
+      "mapping_reason": "莫妮卡的表现核心是对其朋友出轨行为的严厉责备、道德谴责与正面观念对抗，符合情绪轮中anger关于‘对冒犯、受阻或不公的恼火、责备与对抗’的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "愤慨",
+      "mapped_label": "anger",
+      "mapping_reason": "Monica对对方违背道德与原则的行为提出严正责备与反驳对抗，完全符合anger家族中“愤慨/责备与对抗”的定义。"
+    },
+    "image": {
+      "open_emotion": "愤慨",
+      "mapped_label": "anger",
+      "mapping_reason": "“愤慨/indignant”表达了对违背原则行为的责备、恼火与强烈不赞同，直接对应情绪轮中的anger家族。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "目标人物Monica在听到Rachel的言论后表现出强烈的原则性谴责。音轨中她以拔高、紧绷且严厉的语调呼喊并重读关键短语[audio_subtitle:E1]，视觉上从frame_02至frame_07始终目光坚定地直视对方、神情紧绷严肃[image:E1]。尽管出轨话题容易带有道德排斥或令人反感的底色，但她的表达重心是正面质问、责难与观念交锋而非退缩回避，充分体现了对受阻或不当行为的责备与对抗，应归入anger家族。",
+  "output": "目标人物Monica在听到Rachel的言论后表现出强烈的原则性谴责。音轨中她以拔高、紧绷且严厉的语调呼喊并重读关键短语[audio_subtitle:E1]，视觉上从frame_02至frame_07始终目光坚定地直视对方、神情紧绷严肃[image:E1]。尽管出轨话题容易带有道德排斥或令人反感的底色，但她的表达重心是正面质问、责难与观念交锋而非退缩回避，充分体现了对受阻或不当行为的责备与对抗，应归入anger家族。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 57.38878345489502
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物在通话时双目睁大、眉心微蹙，身体微向前倾且手紧握听筒[E1]，配合急迫求证的语调[E2]和焦急质问的台词[E3]，体现出对煤矿局势突变的紧张与焦虑，视觉特征最支持worried。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.52",
+      "observation": "目标人物眉心略微收紧，眼睛睁大并直视前方，右手紧贴耳边持听筒，神态紧绷严肃",
+      "interpretation": "显示出在接收不良消息时的紧迫感与担忧神态",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.0s-2.3s",
+      "observation": "语速偏急促，语尾带有向上挑起的急切质问语气",
+      "interpretation": "反映出对当前事态不合预期的急躁与焦虑，而非平静陈述",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "关东军不是已经增兵甲子沟、煤矿了吗？",
+      "observation": "话语内容为对既定防备部署出现变故的质疑求证",
+      "interpretation": "显示局势出现失控风险，强化了担忧的情境",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "由于反问句带有一定突发性，易被解读为surprise；但他面部未见下颌明显下垂的纯粹惊讶特征，眉眼间紧缩更偏向于对危机局面的担忧与焦虑。"
+}

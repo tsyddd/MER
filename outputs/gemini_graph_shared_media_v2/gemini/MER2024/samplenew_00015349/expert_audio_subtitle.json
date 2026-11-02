@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物在音频中用刻意压低的嗓音和急促的气息说话，结合话语内容对事态恶化（'吵下去……传到高家'）发出后果预警，韵律和言语意图均明确指向担忧与忧虑[E1][E2]。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00 - 00:02",
+      "observation": "目标说话声量明显压低，带有较重且急促的气声，语调节奏紧张收敛。",
+      "interpretation": "压低声音私语并加快语速，常用于在顾忌他人听见时表达紧迫与焦虑，支持worried。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "再这么，烧下去的话，传到高家。",
+      "observation": "实际话语为'再这么吵下去的话，传到高家'，属于提示不良后果的假定预警句。",
+      "interpretation": "言语行为在于制止争端并提醒严重后果，核心诉求是对事情外传产生忧虑。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.64s",
+      "observation": "人物眉头微蹙，眼神凝重地注视对方。",
+      "interpretation": "面部神情与压低声线的紧张担忧状态一致，不属于中性平静。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "若仅根据没有大声呼喊而推测为neutral，或者因提到'吵下去'推断为angry；但音轨中无爆发性重音与攻击性音调，而是明显的低声焦急与规劝，故排除angry与neutral。"
+}

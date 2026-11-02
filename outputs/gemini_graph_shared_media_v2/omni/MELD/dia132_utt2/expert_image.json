@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "Phoebe maintains a steady, engaged expression throughout the clip. Her eyes are open and focused on the person she is addressing, and her mouth is slightly parted as if in the middle of speaking. Her hands are actively gesturing, which supports the idea that she is in the process of describing someone. There are no clear indicators of strong emotion such as a smile, frown, or raised eyebrows. The visual evidence is consistent with someone calmly narrating a story.",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "Phoebe's eyes are open and directed towards the person she is speaking to. Her facial expression is relatively still, with a neutral mouth.",
+      "interpretation": "This indicates she is focused on her conversation and not displaying any strong emotion.",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 1.25125",
+      "observation": "Phoebe's mouth is slightly open, and her head is tilted slightly, consistent with speaking.",
+      "interpretation": "This is a natural posture for someone in the middle of a sentence.",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04 @ 2.5025",
+      "observation": "Phoebe's hands are raised and gesturing, indicating she is actively describing something.",
+      "interpretation": "This is a common behavior when narrating a story or describing a person, and does not indicate a specific emotion.",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "subtitle",
+      "anchor": "And umm, hes like early to mid-thirties, very attractive.",
+      "observation": "The subtitle contains the words 'very attractive'.",
+      "interpretation": "While the words could suggest a positive emotion, Phoebe's facial expression remains neutral, suggesting she is simply relaying information.",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "The word 'attractive' in the subtitle could suggest 'joy' or 'surprise'. However, this is not supported by her facial expression, which lacks a smile or widened eyes. The strongest evidence is her neutral facial expression, which overrides the potential emotional implication of the words."
+}

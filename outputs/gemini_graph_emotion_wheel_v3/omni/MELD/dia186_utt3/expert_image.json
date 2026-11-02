@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "Joey在通话中，面部表情和姿态显示出一种无奈和歉意。他的眉毛略微皱起，眼神向下，嘴巴微张，似乎在解释或道歉。这些视觉线索与他所说的话“I'm sorry I gotta cancel tonight baby”（很抱歉我今晚得取消了，宝贝）高度一致，表明他正在表达一种因不得不取消计划而产生的遗憾和抱歉的情绪。",
+  "open_emotion": "抱歉",
+  "answer": "sadness",
+  "mapping_reason": "根据情绪轮的定义，'sadness'（悲伤）是因失落、损失或痛苦而难过、哀伤或低落的体验。Joey因取消计划而感到遗憾，这是一种轻微的失落感，符合悲伤情绪的范畴。他的表情和话语都指向一种温和的负面情绪，而非愤怒、厌恶或恐惧等更强烈的情绪。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "Joey的眉毛略微皱起，眼神向下，表情显得有些无奈。",
+      "interpretation": "皱眉和向下看的眼神通常与负面情绪或思考有关，表明他正在处理一个不愉快的情况。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01",
+      "observation": "Joey的嘴巴微张，似乎正在说话。",
+      "interpretation": "这个姿态与他正在解释或道歉的语境相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "I'm sorry I gotta cancel tonight baby",
+      "observation": "字幕显示他正在说抱歉。",
+      "interpretation": "直接的言语内容表明他正在表达歉意。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "Joey的语气听起来有些无奈和抱歉。",
+      "interpretation": "音频中的语气与他的面部表情和字幕内容一致，共同支持了他正在表达歉意的判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "Joey的表情和语气虽然带有负面色彩，但并不强烈，没有达到愤怒或恐惧的程度。他的姿态是放松的，没有表现出紧张或焦虑。因此，可以排除anger和fear。"
+}

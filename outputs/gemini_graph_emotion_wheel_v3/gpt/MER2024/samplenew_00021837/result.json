@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00021837",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "4ea7680e20f81851cd4a88935382e146f7572d96f8fec674a7c229992a63b048",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "平稳",
+      "mapped_label": "neutral",
+      "mapping_reason": "当前以平稳陈述为主，没有足够的当前表达支持其他情绪占主导，因此映射为neutral；这不是因为缺少音轨才选择中性。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "平常叙述",
+      "mapped_label": "neutral",
+      "mapping_reason": "当前表达以交代事实为主，符合neutral中平常交流、无明确主导情绪的定义；这不排除他对这户人家另有感受。"
+    },
+    "image": {
+      "open_emotion": "平稳叙述",
+      "mapped_label": "neutral",
+      "mapping_reason": "当前主要是在自然、平稳地介绍情况，没有足够证据表明其他情绪占主导，符合neutral的定义。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "回看8帧，目标男子始终坐在话筒前平稳讲话，frame_03至frame_04的闭嘴停顿未伴随明显情绪变化，[image:E2]的观察可信。字幕“我印象最深的一户人家，祖祖辈辈种地”是在介绍背景；[audio_subtitle:E1]对“印象最深”不等于悲喜的判断合理，但仅凭字幕也不能确定情绪。最强反证是frame_07嘴角略有上扬，不过这短暂变化不足以表明喜悦占主导，整体更接近平常叙述。未提供音轨，不能核验语调。",
+  "output": "回看8帧，目标男子始终坐在话筒前平稳讲话，frame_03至frame_04的闭嘴停顿未伴随明显情绪变化，[image:E2]的观察可信。字幕“我印象最深的一户人家，祖祖辈辈种地”是在介绍背景；[audio_subtitle:E1]对“印象最深”不等于悲喜的判断合理，但仅凭字幕也不能确定情绪。最强反证是frame_07嘴角略有上扬，不过这短暂变化不足以表明喜悦占主导，整体更接近平常叙述。未提供音轨，不能核验语调。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 68.923819065094
+}

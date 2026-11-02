@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "目标人物Rachel在与乘务员对话过程中全程展露明显的露齿笑容，眼周肌肉放松且伴随颧肌上提（[E1]、[E2]），结合抬手整理头发的轻松体态，视觉上呈现出愉悦、开朗的状态，音频语调亦轻快热情，支持joy。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.71s",
+      "observation": "Rachel嘴角大幅上扬，露出牙齿，面向左侧对话者展现明朗的笑容。",
+      "interpretation": "明显的微笑和开朗面部表情展示出积极愉悦的情感状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05 @ 3.50s",
+      "observation": "Rachel右手轻抚头发，面部保持宽阔的笑意，眼睛微眯。",
+      "interpretation": "放松的身体动作配合持续的笑容，进一步印证其处于轻松高兴的心情中，而非单纯敷衍的客套。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "若仅将此类微笑解读为空乘场景下的礼貌社交客套（neutral），其笑容幅度过大、持续时间贯穿整个交谈过程，且伴随轻快的肢体互动，单纯归为neutral缺乏充分说服力。"
+}

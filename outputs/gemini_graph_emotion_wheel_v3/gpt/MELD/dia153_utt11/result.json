@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia153_utt11",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "b023c80896f2e13dc2c986e2f32b6b993f29f3e06532e4de681ae7bcdce52d22",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "平稳",
+      "mapped_label": "neutral",
+      "mapping_reason": "他当前主要是在说明一个假设，而非表现出明确占主导的害怕、愤怒或其他情绪；按本轮定义映射为neutral。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "不耐烦",
+      "mapped_label": "anger",
+      "mapping_reason": "不耐烦在此表现为对Joe的说法带有纠正意味的轻微恼火，按情绪轮映射到anger；证据不支持强烈愤怒。"
+    },
+    "image": {
+      "open_emotion": "不耐烦",
+      "mapped_label": "anger",
+      "mapping_reason": "这里的不耐烦主要表现为对话中的反驳和恼火，最接近anger；画面不足以支持强烈愤怒。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "目标是黑色T恤的Chandler，而非手臂吊着的Joey；他在第1帧皱眉叉腰，至第5帧仍蹙眉并向外挥手，[image:E1][image:E2]对这些可见变化的描述可信。字幕中的“Yeah, Joe, I assure you”结合表情和手势，更像带着轻微不耐烦地坚持自己的说法，而不只是平稳说明[audio_subtitle:E1]。不过，graph专家指出枪口由“if”引出、并非当前危险，这一字幕判断成立[graph:E1]；因此不把台词中假设的害怕当作当前情绪。没有提供音轨，无法核实语气；就现有可见表现，轻微恼火比中性更贴切。",
+  "output": "目标是黑色T恤的Chandler，而非手臂吊着的Joey；他在第1帧皱眉叉腰，至第5帧仍蹙眉并向外挥手，[image:E1][image:E2]对这些可见变化的描述可信。字幕中的“Yeah, Joe, I assure you”结合表情和手势，更像带着轻微不耐烦地坚持自己的说法，而不只是平稳说明[audio_subtitle:E1]。不过，graph专家指出枪口由“if”引出、并非当前危险，这一字幕判断成立[graph:E1]；因此不把台词中假设的害怕当作当前情绪。没有提供音轨，无法核实语气；就现有可见表现，轻微恼火比中性更贴切。\n<answer>anger</answer>",
+  "label": "fear",
+  "elapsed_seconds": 89.61726355552673
+}

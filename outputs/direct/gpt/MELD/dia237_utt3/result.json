@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia237_utt3",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "disgust",
+  "emotion_analysis": "Joey面对“whipped fish”时表情明显不适，眉头紧皱并带有反胃、勉强忍住的感觉。字幕提到他庆幸自己能把食物咽下去，当前情绪主要体现为对食物的厌恶，而非单纯开心。",
+  "output": "Joey面对“whipped fish”时表情明显不适，眉头紧皱并带有反胃、勉强忍住的感觉。字幕提到他庆幸自己能把食物咽下去，当前情绪主要体现为对食物的厌恶，而非单纯开心。\n<answer>disgust</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 26.410728454589844,
+  "node_count": null,
+  "edge_count": null
+}

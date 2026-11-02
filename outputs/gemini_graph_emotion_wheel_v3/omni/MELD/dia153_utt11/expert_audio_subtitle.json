@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Chandler's statement is a hyperbolic and humorous way of expressing his fear in a hypothetical situation. The audience laughter following the line confirms its comedic intent. His tone is light and self-deprecating, not genuinely fearful or angry.",
+  "open_emotion": "humor",
+  "answer": "joy",
+  "mapping_reason": "The speaker's statement is a joke, and the audience's laughter indicates a positive, humorous context. While the topic is fear, the speaker's delivery and the social context frame it as a source of amusement, which aligns with the 'joy' category.",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "字幕: Yeah, Joe, I assure you if I'm staring down the barrel of a gun, I'm pretty much peeing every which way.",
+      "observation": "The speaker makes a hyperbolic and comical statement about his fear.",
+      "interpretation": "The statement is intended to be funny, not a literal expression of fear.",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "音频时间: 00:05.672 - 00:05.672",
+      "observation": "The audience laughs immediately after the speaker finishes his line.",
+      "interpretation": "The audience laughter confirms the line was delivered and received as a joke.",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "音频时间: 00:00.000 - 00:05.672",
+      "observation": "The speaker's tone is light and self-deprecating, not panicked or aggressive.",
+      "interpretation": "The tone supports the interpretation of the line as a humorous exaggeration.",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "The topic of the statement is fear, which could be interpreted as a negative emotion. However, the context and delivery clearly frame it as a joke, making 'joy' the most appropriate label."
+}

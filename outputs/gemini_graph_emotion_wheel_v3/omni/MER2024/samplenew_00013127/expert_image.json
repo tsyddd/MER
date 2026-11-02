@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物在对话中表现出持续的微笑和轻松的面部表情，同时字幕内容为一种带有赞赏意味的评价，表明其情绪偏向正面。音频中语调平稳，无明显激动或负面情绪，与视觉表现一致。",
+  "open_emotion": "赞赏",
+  "answer": "happy",
+  "mapping_reason": "该人物的微笑和轻松姿态与字幕中‘还真是小看你了’的评价相符，这是一种对他人能力的认可，属于积极情绪。因此，映射到‘happy’是合适的。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "目标人物在整个片段中保持微笑，嘴角上扬，眼神看向对方。",
+      "interpretation": "微笑通常表示愉悦或满意，是积极情绪的视觉表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "字幕内容",
+      "observation": "字幕显示：‘以前啊，以为你圆花伶俐，还真是小看你了。’",
+      "interpretation": "这句话表达了对对方能力的认可和赞赏，是一种积极的评价。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "音频中说话者的语调平稳，没有明显的激动或负面情绪。",
+      "interpretation": "平稳的语调与字幕内容和视觉表现一致，支持了积极情绪的判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。"
+}

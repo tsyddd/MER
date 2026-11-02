@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物是画面右侧戴黑帽、留胡须的男性。其从frame_00到frame_04持续直视对方，眉头收紧、嘴部紧绷并逐渐张开；frame_05至frame_07双眼明显睁大、张口并前倾，形成持续的指责性面部变化。字幕“可是，你背信弃义，你一个劲地抬价。”提供了明确的责备语境，但无音频可核验语调。综合看，视觉上最支持愤怒而非单纯惊讶。",
+  "answer": "angry",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0s至frame_04 @ 1.72s",
+      "observation": "右侧目标人物持续注视左侧对方，眉部收紧，嘴唇由紧闭转为张开，面部肌肉较为紧张。",
+      "interpretation": "持续的直接对视、收紧眉部和紧张口部更符合对他人的责备或对抗表达，支持angry。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05 @ 2.16s至frame_07 @ 3.0s",
+      "observation": "目标人物前倾，双眼睁大，张口幅度增大，随后仍保持强烈注视。",
+      "interpretation": "表情强度在片段后段上升，配合前倾和持续注视，支持情绪激化而非平静或中性。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "当前字幕：“可是，你背信弃义，你一个劲地抬价。”",
+      "observation": "字幕内容直接指责对方背信弃义并抬高价格。",
+      "interpretation": "责备性话语与画面中的紧张、对抗性表情相互印证，支持angry；这是字幕语义而非单独的视觉事实。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "frame_05至frame_07的睁眼和张口也可能表现惊讶或激动；但目标人物此前已持续皱眉、紧盯对方并逐步加强指责性姿态，且字幕明确为责备内容，因此未采用surprise。无音频，无法用语调进一步区分。"
+}

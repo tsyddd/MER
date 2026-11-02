@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物Rachel（右侧着粉红色外套的女性）在片段初始frame_00即表现出嘴巴大张呈‘O’型、双眼睁大注视Monica的突发反应；随后的frame_01中双手抬起比划，神态充满难以置信的意外与冲击。结合字幕“Oh my God! You’re a 30 year old virgin!”及音轨中高亢惊呼的语调，清晰表现出在得知意外事实后的极度震惊与诧异。",
+  "open_emotion": "震惊",
+  "answer": "surprise",
+  "mapping_reason": "面对超出预期的惊人信息（30岁还是处女）产生强烈的冲击感与不可思议反应，符合情绪轮中surprise（惊讶/惊奇/震惊）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 (0.0s)",
+      "observation": "Rachel双眼圆睁，嘴唇圆张成明显‘O’字形，视线紧盯身旁同伴，身体向侧倾斜。",
+      "interpretation": "突发性的面部张口与睁眼动作展现了初听闻消息时的本能震惊与意外反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 (0.50s) - frame_03 (1.46s)",
+      "observation": "Rachel右手扬起伴随言语动作，眉毛挑起且身体前倾逼近对方，表情带有强烈的难以置信感。",
+      "interpretation": "动态手势与持续注视强化了其面对打破预期事实时的诧异与惊奇。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00 - 00:03",
+      "observation": "语音以高昂音调惊呼‘Oh my God!’并在‘virgin’处重读且音调上扬。",
+      "interpretation": "听觉上的高音感叹与突发声调进一步印证其受惊奇驱使的情绪爆发，而非平静中性。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "在frame_05至frame_07中，其面部略微收敛并显露微皱眉的疑惑神态，可能被误读为关切或轻微不满，但这属于震惊过后追问确认的自然延伸，不改变主导的惊讶属性。"
+}

@@ -1,0 +1,64 @@
+{
+  "gpt": {
+    "metrics": {
+      "MER2024": {
+        "expected": 40,
+        "audit_valid": 40,
+        "correct": 31,
+        "accuracy": 0.775
+      },
+      "MELD": {
+        "expected": 40,
+        "audit_valid": 40,
+        "correct": 31,
+        "accuracy": 0.775
+      },
+      "ALL": {
+        "expected": 80,
+        "audit_valid": 80,
+        "correct": 62,
+        "accuracy": 0.775
+      }
+    },
+    "complete": true,
+    "usage": {
+      "prompt_tokens": 884334,
+      "completion_tokens": 168287,
+      "total_tokens": 1052621
+    },
+    "recorded_responses": 406,
+    "successful_stage_response_seconds": 6442.26078915596,
+    "usage_scope": "Recorded responses; historical overwritten attempts, network failures and separate probes may be absent. Sum of successful stage response times is not end-to-end wall time."
+  },
+  "gemini": {
+    "metrics": {
+      "MER2024": {
+        "expected": 40,
+        "audit_valid": 40,
+        "correct": 30,
+        "accuracy": 0.75
+      },
+      "MELD": {
+        "expected": 40,
+        "audit_valid": 40,
+        "correct": 24,
+        "accuracy": 0.6
+      },
+      "ALL": {
+        "expected": 80,
+        "audit_valid": 80,
+        "correct": 54,
+        "accuracy": 0.675
+      }
+    },
+    "complete": true,
+    "usage": {
+      "prompt_tokens": 3416685,
+      "completion_tokens": 348207,
+      "total_tokens": 3764892
+    },
+    "recorded_responses": 416,
+    "successful_stage_response_seconds": 4054.873594045639,
+    "usage_scope": "Recorded responses; historical overwritten attempts, network failures and separate probes may be absent. Sum of successful stage response times is not end-to-end wall time."
+  }
+}

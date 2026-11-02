@@ -1,0 +1,12 @@
+{
+  "expert": "graph",
+  "reason": "根据图谱记载，Ross在厨房环境中面向Joey相对站立并注视对方提出建议（process_0，person_0，context_1）。其嘴唇随说话正常开合，语音中带有边思考边表达的轻微词语重复“like-like”（person_1，person_2），整体表现平稳自然，没有表现出明显的极端情绪倾向，属于中性状态。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "process_0",
+    "person_0",
+    "person_1",
+    "person_2",
+    "context_1"
+  ]
+}

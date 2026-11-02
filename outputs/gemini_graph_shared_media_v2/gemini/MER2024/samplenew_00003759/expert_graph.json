@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "目标人物（棕色外套女子）在听到对方转述的内容后，表现出强烈的不可置信与意外[E1][E2]，图谱节点person_1和person_2记录了其语调上扬提问及眼睛睁大、嘴巴微张的动态过程[E3]，音频中高扬的反问语调配合放大的面部表情共同锁定了意外惊讶的情绪，排除了单纯中立询问或担忧。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "目标人物以高音调、急促且明显的上扬疑问语气说出“是吗，他真这么说的”",
+      "interpretation": "言语疑问重音落在反问上，明确传达对对方所传达信息的事前未预料与吃惊，而非平铺直叙",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_06 @ 1.80s",
+      "observation": "棕色外套女子双眼圆睁，眉毛微扬，嘴巴张大注视对方",
+      "interpretation": "典型的惊讶生理反应，显示信息超出其预期",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱指出棕色外套女子在提问后睁大双眼、嘴部微张注视对方",
+      "interpretation": "该节点记录了互动中其接收并等待确认信息时的即时惊讶神态",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "若仅看台词文字“是吗 他真这么说的”，可能被误判为平静核实事实（neutral）或对他人言论的担忧（worried）；但结合实际音轨中毫无沉重感的上扬声调及视觉上明显的圆眼张口反应，可排除neutral与worried。"
+}

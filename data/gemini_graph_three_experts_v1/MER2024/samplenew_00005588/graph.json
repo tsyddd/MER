@@ -1,0 +1,102 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "男子对面前的人说话：\"过去的事 不怪你\"",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "男子头戴发冠，身着深色古装长袍，面向左侧站立",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "男子视线注视左前方的人物",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "男子说话时语调低沉、语速平缓",
+      "time_index": 1,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内场景，后方排列着多盏烛火灯台",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "男子与左侧背影人物相对站立并进行交谈",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "男子面向左侧站立的同时，视线注视着左前方的人物",
+      "entity_anchor": "男子"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供了男子身着古装长袍面向左侧的身体朝向，person_1补充了其目光凝视左前方的视线方向，二者联合构成了男子面向并专注注视对方的完整姿态与神情表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1提供了男子注视对方的视觉目光状态，person_2补充了男子低沉、平缓的听觉声音特征，二者联合将视觉凝视与平稳语调结合，构成了更立体完整的人物言语表达特征。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0提供了昏暗且陈设多盏烛火灯台的室内物理环境，context_1提供了男子与背影人物相对而立交谈的人际空间关系，二者联合完整限定了室内昏暗烛光下两人相对交谈的场景与对象情境。",
+      "entity_anchor": null
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "乔伊是在逐一排除拿走物品的人选后，向面前两人追问“那是谁拿的”[E1]。图谱节点person_0、person_3所记的手势变化可在画面中核对：他先指向自己，再向两人摊手，随后收手[E2][E3]；这是同一段表达过程的重复记录，不是独立的情绪证据。结合提问内容，动作更像在梳理和求证，而非明显受惊或发怒，因此选neutral。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "And if she didnt take it, and I didnt take it; and you  didnt take it, then who did?",
+      "observation": "乔伊逐一排除几个人拿走物品的可能，最后询问是谁拿的。",
+      "interpretation": "问题的语义表明他正在求证；单凭疑问句不足以判为惊讶。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "person_0, person_3",
+      "observation": "图谱记录乔伊说话时先把手放在胸前，随后向其他人张开手。",
+      "interpretation": "手势与字幕中的“我”“你”相呼应，支持他在逐项说明；图谱的动作描述不能单独证明情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.9592909218755783秒；frame_04 @ 1.8768735428000445秒；frame_07 @ 3.294955775137856秒",
+      "observation": "乔伊先把手放在胸前，继而向同伴摊手，末尾收回手并看向他们。",
+      "interpretation": "画面核实了图谱所述的互动顺序，但未见明确的惊跳或激烈怒态；这些动作与平常的解释、发问相容。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "“那是谁拿的”也可能表达困惑或惊讶；但字幕没有提供语调，且未收到原音轨，不能亲耳核验声音。图谱涉及声音的描述只能视为转述；可核实的画面不足以将这次追问判为surprise。"
+}

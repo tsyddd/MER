@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013127",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "d2115c97acf3c6e01bbce09ee0045d9eebc8b28101f778a38355f8f3c0e262a8",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "happy",
+  "emotion_analysis": "图像专家和图谱专家均指出目标人物面带微笑、眼神明亮，图谱还补充其语调轻快并带有调侃意味，这些视觉与文本线索一致指向积极情绪；音频专家虽认为语气平稳、态度中性，但未提供具体听觉证据支持，且字幕内容本身具有玩笑性质，与‘happy’更契合。综合判断，视觉证据权重更高且一致，故采纳‘happy’。",
+  "output": "图像专家和图谱专家均指出目标人物面带微笑、眼神明亮，图谱还补充其语调轻快并带有调侃意味，这些视觉与文本线索一致指向积极情绪；音频专家虽认为语气平稳、态度中性，但未提供具体听觉证据支持，且字幕内容本身具有玩笑性质，与‘happy’更契合。综合判断，视觉证据权重更高且一致，故采纳‘happy’。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 29.40686058998108
+}

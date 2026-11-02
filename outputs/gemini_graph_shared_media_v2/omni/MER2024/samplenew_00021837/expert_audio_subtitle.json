@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者语气平稳，语速正常，没有明显的情绪起伏。字幕内容为客观陈述，无情绪化词汇。视觉上表情平静，无明显情绪波动。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "说话者语调平稳，没有明显的音高或音量变化。",
+      "interpretation": "平稳的语调通常与中性情绪相关，缺乏表达强烈情感的声学线索。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "我印象最深的一户人家，祖祖辈辈种地。",
+      "observation": "字幕内容为客观描述，不包含任何情绪化的词语。",
+      "interpretation": "内容本身不带有情绪色彩，支持中性情绪的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 @ 00:00",
+      "observation": "说话者表情平静，眼神专注。",
+      "interpretation": "面部表情与平稳的语调一致，没有表现出愤怒、悲伤或喜悦等情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无法完全排除说话者在回忆时带有轻微的怀旧或感慨，但缺乏足够的声学或视觉证据支持这种判断。"
+}

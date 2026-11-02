@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia259_utt10",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "58b737d28f4b46ef9301ad868ad5a56df1abb9892a3c373e0e689e4505ea1b8c",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "愤慨",
+      "mapped_label": "anger",
+      "mapping_reason": "Monica的情绪指向笑话带来的冒犯与受阻体验，通过坚决反驳与语调爆发进行责备对抗；在情绪轮中，因冒犯而不满责备明确归入anger家族。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "愤慨",
+      "mapped_label": "anger",
+      "mapping_reason": "“愤慨”反映了说话者针对冒犯性言行产生的强烈恼火、责备与对抗心理，符合情绪轮中对anger（对冒犯、受阻或不公的恼火、责备与对抗）的核心定义。"
+    },
+    "image": {
+      "open_emotion": "愤慨",
+      "mapped_label": "anger",
+      "mapping_reason": "Monica表现出因内容冒犯而针对对方的严厉斥责与对抗态度，符合anger家族中“对冒犯、受阻或不公的恼火、责备与对抗”的定义，故映射为anger。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "目标人物Monica的台词明确针对笑话的冒犯性提出严厉斥责与排比反驳[audio_subtitle:E1]；实际音频中她语速紧凑有力、音调明显拔高并在结尾爆发式加重[audio_subtitle:E2]。回看画面，Monica从开端便上半身前倾逼近、神情紧绷[image:E1]，并在第6帧（4.21s）双肩微张、嘴部大张全力高喊[image:E3]，配合手势形成了鲜明的主动对抗姿态。尽管台词提及“monkeys”具有情景喜剧的荒诞幽默，但其语调与面部张力均极其严肃逼真，无任何喜悦或中立迹象，完全符合因冒犯而产生的恼火、责备与对抗，应归入anger家族。",
+  "output": "目标人物Monica的台词明确针对笑话的冒犯性提出严厉斥责与排比反驳[audio_subtitle:E1]；实际音频中她语速紧凑有力、音调明显拔高并在结尾爆发式加重[audio_subtitle:E2]。回看画面，Monica从开端便上半身前倾逼近、神情紧绷[image:E1]，并在第6帧（4.21s）双肩微张、嘴部大张全力高喊[image:E3]，配合手势形成了鲜明的主动对抗姿态。尽管台词提及“monkeys”具有情景喜剧的荒诞幽默，但其语调与面部张力均极其严肃逼真，无任何喜悦或中立迹象，完全符合因冒犯而产生的恼火、责备与对抗，应归入anger家族。\n<answer>anger</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 53.257962465286255
+}

@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。字幕使用“最可爱”“最漂亮”等明显赞美性表达，体现当前积极、愉悦的态度。",
+  "answer": "happy",
+  "evidence_refs": []
+}

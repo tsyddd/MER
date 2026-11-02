@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "在情境交互中，Monica将手搭在Joey肩上询问或安抚，Joey抬头对Monica回话〔process_0〕。他针对的话题是“whipped fish”（鱼肉泥），并直言“I'm just happy I'm keeping it down, y'know?”〔process_2〕。结合音轨与视觉观察，Joey虽然字面使用了“happy”，但实际表达的是强忍呕吐感、勉强没有吐出来的生理反胃体验，说话时嘴角略撇、神情苦涩，核心评价对象是令人恶心的食物，属于典型的排斥与反胃情绪，而非真正的中性或快乐。",
+  "open_emotion": "反胃",
+  "answer": "disgust",
+  "mapping_reason": "Joey当前的评价对象是令人反感的食物（whipped fish），其核心体验是对恶心刺激的生理排斥（努力不吐出来），在情绪轮中精确归属于对令人反感、恶心对象排斥的disgust家族。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "We're talking about whipped fish, Monica. I'm just happy I'm keeping it down, y'know?",
+      "observation": "Joey明确指出在谈论鱼肉泥，并称自己能咽住不吐出来就不错了",
+      "interpretation": "语义聚焦于食物引发的反胃感与恶心排斥，字面庆幸实为讽刺食物令人作呕",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "process_2",
+      "observation": "图谱记录Joey对Monica补充说明只要没吐出来就已经很庆幸",
+      "interpretation": "事件链上Joey对Monica解释自己的身体抗拒反应，体现出对该食物的排斥厌恶",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02 (1.88s)",
+      "observation": "Joey仰头看向Monica时眉头微蹙、下半张脸带有勉强与嫌弃的不适神态",
+      "interpretation": "面部神情印证了其并非处于积极体验，而是忍耐反胃带来的不适",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "00:03-00:06",
+      "observation": "Joey说“keeping it down, y'know?”时语调微弱且带有无奈与嫌弃的尾音",
+      "interpretation": "语音语调表现出强忍恶心、自嘲苦撑的状态",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "字面出现了“happy”一词且语调整体偏日常对话，容易被表面字义误判为joy或纯客观陈述的neutral；但结合“keeping it down”这一抑制呕吐的具体语用事件，可明确排除积极喜悦与平静中性。"
+}

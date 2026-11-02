@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia21_utt6",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "bf42e3a608598de26188e2d4e2714eda6e90f3de2c795d77c68bb3237d71f5d1",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "戏谑",
+      "mapped_label": "joy",
+      "mapping_reason": "根据观察，Phoebe的语调轻松并带有轻笑声，同时她的表情是微笑的。这与'joy'（喜悦）情绪轮中描述的'开心、愉悦、满足或兴奋的正向体验'相符。虽然她的言辞带有调侃（'So your brother's straight, huh?'），但其表达方式是愉悦和戏谑的，因此映射到'joy'而非'neutral'或'anger'。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "反讽",
+      "mapped_label": "joy",
+      "mapping_reason": "反讽是一种复杂的言语行为，但其核心是通过夸张或与字面意思相反的表达来传达一种轻松、戏谑或好笑的情绪。在当前语境下，Phoebe的反讽行为是为了表达她对对方言论的不相信和觉得好笑，这是一种积极的、愉悦的社交互动，因此映射到'joy'（喜悦）最为合适。"
+    },
+    "image": {
+      "open_emotion": "开心",
+      "mapped_label": "joy",
+      "mapping_reason": "Phoebe的面部表情（微笑、眼角皱纹）、身体姿态（开放、靠近对方）和对话内容（调侃的玩笑）都指向一种积极、愉快的情绪。这与'joy'（喜悦）的定义相符，即当前开心、愉悦、满足或兴奋的正向体验。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "Phoebe的面部表情（[image:E1]）和身体姿态（[image:E2]）均显示为微笑和开放，与字幕中的调侃性话语（[image:E3]）及音频中上扬的语调和轻笑声（[image:E4]）一致，共同指向一种戏谑的喜悦。尽管专家[graph]和[audio_subtitle]的解释存在差异（一个强调轻松语调，一个强调反讽），但其核心证据（[graph:E3]、[audio_subtitle:E1]）均支持其情绪为积极的社交愉悦，而非中性或负面。综合来看，所有可核实证据均指向joy。",
+  "output": "Phoebe的面部表情（[image:E1]）和身体姿态（[image:E2]）均显示为微笑和开放，与字幕中的调侃性话语（[image:E3]）及音频中上扬的语调和轻笑声（[image:E4]）一致，共同指向一种戏谑的喜悦。尽管专家[graph]和[audio_subtitle]的解释存在差异（一个强调轻松语调，一个强调反讽），但其核心证据（[graph:E3]、[audio_subtitle:E1]）均支持其情绪为积极的社交愉悦，而非中性或负面。综合来看，所有可核实证据均指向joy。\n<answer>joy</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 161.71001434326172
+}

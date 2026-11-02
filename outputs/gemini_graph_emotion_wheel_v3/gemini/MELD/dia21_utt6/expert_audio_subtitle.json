@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Phoebe在近距离面对男伴时说出'So your brother's straight, huh?'，语调尾音上扬并伴随明显的轻笑声（chuckle）[E1]。言语行为属于戏谑挑逗而非严肃质问，结合画面中她双手扶住对方胸膛并展露笑容[E2]，整体传达出轻松愉悦、打趣玩味的互动状态。",
+  "open_emotion": "愉悦打趣",
+  "answer": "joy",
+  "mapping_reason": "说话者的调侃语气、亲密肢体接触与伴随的笑声体现了正向愉快的戏谑与调情体验，依据情绪轮定义，打趣愉悦属于正向开心/愉悦范畴，映射为joy。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:01.5",
+      "observation": "Phoebe以轻快上扬的语调念出'So your brother's straight, huh?'并在句尾带出短促的笑声与气音。",
+      "interpretation": "表明其意图是调侃和打趣，带有轻松愉悦的正向情感色彩。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02至frame_04",
+      "observation": "Phoebe身体贴近男伴，双手轻搭对方胸口，嘴角微扬，眼神含笑注视对方。",
+      "interpretation": "面部表情与亲昵肢体动作与音频中的笑意一致，排除了质疑或负面严肃情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词中的疑问句式'huh?'和词语'Seriously'表面可能类似怀疑或惊讶，但结合笑声与亲密氛围，明显属于情侣间的调情戏谑而非真正的意外（surprise）。"
+}

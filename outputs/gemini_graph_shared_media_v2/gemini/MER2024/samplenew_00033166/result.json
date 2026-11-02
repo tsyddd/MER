@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00033166",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "601e004fdfc952c53a92b0a0ecef60e492bda4cb92d703eefffcf73140a33a83",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "独立回看8帧画面与实际音轨（00:00-00:01），白衣男子发问“难道都要悉数倒戈不成”时语速紧促且音调带有焦灼感，眉心微蹙、眼神凝重，如[graph:E2]所观察到的，整体呈现出面对失控背叛局面的忧患与焦灼心境。反观[image:E1]将正常发音口型夸大为“咬牙切齿的攻击性发力”，以及[audio_subtitle:E2]将施压反诘直接等同于愠怒，均忽略了其神态中缺乏怒视或攻击性特征的事实。此外，frame 7中女方望向他时流露出的关切与忧心神色，进一步佐证了当前情境是焦虑忧虑而非威吓发怒，故排除angry取worried。",
+  "output": "独立回看8帧画面与实际音轨（00:00-00:01），白衣男子发问“难道都要悉数倒戈不成”时语速紧促且音调带有焦灼感，眉心微蹙、眼神凝重，如[graph:E2]所观察到的，整体呈现出面对失控背叛局面的忧患与焦灼心境。反观[image:E1]将正常发音口型夸大为“咬牙切齿的攻击性发力”，以及[audio_subtitle:E2]将施压反诘直接等同于愠怒，均忽略了其神态中缺乏怒视或攻击性特征的事实。此外，frame 7中女方望向他时流露出的关切与忧心神色，进一步佐证了当前情境是焦虑忧虑而非威吓发怒，故排除angry取worried。\n<answer>worried</answer>",
+  "label": "angry",
+  "elapsed_seconds": 80.14076781272888
+}

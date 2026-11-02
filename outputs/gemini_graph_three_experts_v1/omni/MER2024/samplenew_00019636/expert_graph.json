@@ -1,0 +1,13 @@
+{
+  "expert": "graph",
+  "reason": "男子在组织文本中表现出沉思与怀疑的叙述状态，其语调低沉沉静（person_1），眼神从垂眼抬眸到注视斜下方（person_0, person_2），并伴随手抵衣领的肢体动作（person_3, person_4），结合其话语内容‘我怎么看也不像啊’（process_1），表明其对所述事实持怀疑态度，整体情绪为‘worried’。",
+  "answer": "worried",
+  "evidence_refs": [
+    "person_1",
+    "person_0",
+    "person_2",
+    "person_3",
+    "person_4",
+    "process_1"
+  ]
+}

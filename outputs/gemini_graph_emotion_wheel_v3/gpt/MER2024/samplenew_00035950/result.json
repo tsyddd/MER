@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00035950",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "521bc59b8292512714ce7a1cf82373756b611bf8bd876b6099b6bd083d1d6d57",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "不满",
+      "mapped_label": "angry",
+      "mapping_reason": "此处的不满指向对方表现出的不一致，带有责问倾向，符合angry家族中的轻度生气或责备，并不表示强烈愤怒。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "不满",
+      "mapped_label": "angry",
+      "mapping_reason": "此处的不满指向对方的自我认识，带有责备意味，因此按情绪轮映射为angry；现有证据不足以判断为强烈愤怒。"
+    },
+    "image": {
+      "open_emotion": "不满",
+      "mapped_label": "angry",
+      "mapping_reason": "这里的不满指向对方‘到了自己身上’却不明白的表现，带有责备意味，因此按情绪轮映射为angry；这不表示她表现出强烈愤怒。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "angry",
+  "emotion_analysis": "字幕“怎么到了自己身上，就这样不明白”指出对方在自身事情上的反差，支持克制的责问；[graph:E1]对字面的记录可核实，但“不满”是专家解释，不能仅凭反问定论。画面中目标女子前段略带笑意、后段嘴角收紧，仍持续朝对方说话[image:E1][image:E2]，与轻度责备相符，但不支持强烈愤怒。平和提醒是最强的另一种解释；由于未提供音轨，无法用语调进一步区分，综合台词指向与表情变化，取轻度不满，映射为angry。",
+  "output": "字幕“怎么到了自己身上，就这样不明白”指出对方在自身事情上的反差，支持克制的责问；[graph:E1]对字面的记录可核实，但“不满”是专家解释，不能仅凭反问定论。画面中目标女子前段略带笑意、后段嘴角收紧，仍持续朝对方说话[image:E1][image:E2]，与轻度责备相符，但不支持强烈愤怒。平和提醒是最强的另一种解释；由于未提供音轨，无法用语调进一步区分，综合台词指向与表情变化，取轻度不满，映射为angry。\n<answer>angry</answer>",
+  "label": "sad",
+  "elapsed_seconds": 82.54584169387817
+}

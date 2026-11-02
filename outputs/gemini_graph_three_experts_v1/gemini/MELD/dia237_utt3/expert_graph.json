@@ -1,0 +1,12 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载Joey在面向Monica说话时语调平缓且音量适中（node person_1），面部仅随说话轻微变化（node person_2）。说完后Joey视线转向桌面，双手十指交叉静坐（node person_3），尽管台词提及食物相关内容（node process_0, process_2），但其行为与言语表现均无明显的情绪起伏，整体呈现出平静中立的状态。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_1",
+    "person_2",
+    "person_3",
+    "process_0",
+    "process_2"
+  ]
+}

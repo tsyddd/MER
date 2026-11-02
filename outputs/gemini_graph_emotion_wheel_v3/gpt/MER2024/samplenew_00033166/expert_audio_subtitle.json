@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者以“难道……不成？”向对方提出带反诘意味的质问，而非平稳地询问信息[E1]。他在说话过程中持续直视对方，后段眉眼收紧，表情与不满的表达相符[E2]。",
+  "open_emotion": "不满",
+  "answer": "angry",
+  "mapping_reason": "此处的不满指向对方可能“悉数倒戈”的行为，并以质问表达，符合angry类别中的责备、对抗倾向；不能仅凭“倒戈”一词判断情绪。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "难道都要悉数倒戈？不成？",
+      "observation": "台词采用“难道……不成？”的反诘形式，所问的是对方是否都要倒戈。",
+      "interpretation": "较像对这一行为表示不认可并质问对方，支持不满，而非单纯求取答案。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05（1.4秒）至frame_06（1.68秒）",
+      "observation": "说话者面向对方，眉眼收紧，嘴部由张开说话转为紧闭。",
+      "interpretation": "表情与较严厉的质问一致，但单凭画面不足以确定情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "反诘也可能源于对倒戈一事的意外或担忧；字幕很短，且未提供音频，无法用实际语调区分质问、惊讶与忧虑。因此判断为不满有一定限制。"
+}

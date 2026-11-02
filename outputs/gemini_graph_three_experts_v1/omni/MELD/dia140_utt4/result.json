@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia140_utt4",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "8fef145f22a30b21db1df9aa0b95769ecea3ec4535f7bae7d08d725b3cc323a7",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "三份专家报告均一致指向Ross表现出犹豫、专注和思考的状态：graph指出其言语重复与注视行为反映边思索边表达，audio_subtitle描述语速缓慢、音调平稳无情绪波动，image显示其皱眉专注、表情严肃。尽管image中眉毛微皱可能被误读为负面情绪，但结合上下文与其余证据，该状态更符合中性思考而非明确情绪。因此综合判断为中性。",
+  "output": "三份专家报告均一致指向Ross表现出犹豫、专注和思考的状态：graph指出其言语重复与注视行为反映边思索边表达，audio_subtitle描述语速缓慢、音调平稳无情绪波动，image显示其皱眉专注、表情严肃。尽管image中眉毛微皱可能被误读为负面情绪，但结合上下文与其余证据，该状态更符合中性思考而非明确情绪。因此综合判断为中性。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 42.64233326911926
+}

@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "主要人物在说话时语速急促、音量较高（person_1），同时头部微倾、嘴部持续开合（person_2），双眼睁大注视对方（person_3），这些视觉与听觉特征共同表明其情绪激动，结合台词内容“背信弃义”“抬价”等指责性语言，可判断其情绪为愤怒。相关证据包括person_1、person_2和person_3的节点描述。",
+  "answer": "angry",
+  "evidence_refs": [
+    "person_1",
+    "person_2",
+    "person_3"
+  ]
+}

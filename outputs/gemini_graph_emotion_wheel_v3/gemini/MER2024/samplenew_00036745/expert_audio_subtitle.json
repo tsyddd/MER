@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物在听到旁人交代情况后，以极短促平稳、果断干脆的语调回应'我去查'。声音语速正常，没有声调挑高、颤抖或压抑感，面部表情专注冷静，属于典型的客观沟通与工作执行状态，无突出的正负向主导情绪。",
+  "open_emotion": "冷静平稳",
+  "answer": "neutral",
+  "mapping_reason": "目标人物语调干脆平定、神态从容专注，言语行为为直接的行动陈述，符合neutral中'平稳叙述、自然交流、无明显主导情绪反应'的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:02-00:03",
+      "observation": "目标人物回应'我去查'时，音调平稳自然，下行收尾果断，无情绪激昂、焦急或颤抖。",
+      "interpretation": "表明其心理状态冷静自若，处于常规办案工作节奏中，无激烈情绪起伏。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "我去查",
+      "observation": "台词内容为简短明确的事实行动表态，不含情感修饰词或主观感叹。",
+      "interpretation": "言语行为仅为信息确认与任务认领，呈现出务实、中立的沟通意图。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05至frame_07",
+      "observation": "目标人物注视前方，嘴角自然收紧，眼神专注而无皱眉、瞪眼等强烈情绪表情。",
+      "interpretation": "视觉表情与平静果断的说话语气高度一致，印证中性状态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "由于涉及案件线索交接，案情本身具有悬疑性，容易被推测具有担忧或紧张情绪；但说话人韵律与表情极其稳定，无担忧表现。"
+}

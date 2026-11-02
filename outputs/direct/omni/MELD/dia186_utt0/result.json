@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia186_utt0",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "Chandler's facial expression shows raised eyebrows and a slightly open mouth, indicating surprise. His tone of voice is also surprised and incredulous as he says the line.",
+  "output": "Chandler's facial expression shows raised eyebrows and a slightly open mouth, indicating surprise. His tone of voice is also surprised and incredulous as he says the line.\n<answer>surprise</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 4.43733024597168,
+  "node_count": null,
+  "edge_count": null
+}

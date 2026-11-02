@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "目标人物在整个片段中面部眉眼舒展，嘴角持续大幅度上扬并露出牙齿微笑[E1]，结合语调轻快含笑[E2]，表现出轻松愉快的调侃与喜悦状态。",
+  "answer": "happy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0s",
+      "observation": "目标人物注视对方，面部肌肉放松，嘴角明显向上扬起露齿而笑，且在frame_05至frame_07持续保持开朗笑容",
+      "interpretation": "持续的展颜露齿微笑与舒展的眼角肌肉构成了明确的愉悦/开心特征，支持happy判断",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.0s-3.2s",
+      "observation": "说话语音语调上扬、轻快，伴有明显的笑意和调侃语气",
+      "interpretation": "声音中的笑意与面部表情吻合，排除了严肃、冷笑或讽刺性愤怒的可能",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词中包含“还真是小看你了”，表面语义可能产生轻微惊讶或讽刺的歧义，但目标人物始终保持灿烂笑容且无蹙眉、瞪眼等负向反应，因此不成立为surprise或angry。"
+}

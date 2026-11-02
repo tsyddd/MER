@@ -1,0 +1,102 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "正对镜头的束发男子对面前的背对男子说话：\"再这么吵下去的话\"",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "束发男子继续说道：\"传到高家\"",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "束发男子身穿浅棕色长袍，面朝对面的灰衣男子，嘴部开合说话",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "束发男子发声低沉，语调平稳克制",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "背对镜头的灰衣男子站立在侧前方，保持静止聆听姿态",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内木质房间，室内摆放有木箱、矮几及窗格，束发男子与灰衣男子相对而立交谈",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "束发男子在说完“再这么吵下去的话”后，继续说出“传到高家”",
+      "entity_anchor": "束发男子"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "束发男子在嘴部开合说话的同时，发出低沉且平稳克制的声音",
+      "entity_anchor": "束发男子"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0记录束发男子说出前半句假设前提，process_1记录其紧接着说出后半句后果，联合后构成了男子向前者完整陈述告诫内容的互动过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供了束发男子的站立面向与开口说话的视觉动态，person_1补充了其平稳克制、低沉的发声特征，联合后完整呈现了该人物交谈时的视听表现。",
+      "entity_anchor": null
+    }
+  ]
+}

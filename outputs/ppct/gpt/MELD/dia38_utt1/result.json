@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia38_utt1",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "Joey面向对方张嘴表达，字幕说“我的一名学生获得了试镜机会。我太自豪了”，这是他当前对学生的积极评价。视觉上他双手放在胸前并短暂仰头，相关节点person_0、person_1、person_3及其person_joint关系共同呈现出投入和欣慰的表达，指向joy。",
+  "output": "Joey面向对方张嘴表达，字幕说“我的一名学生获得了试镜机会。我太自豪了”，这是他当前对学生的积极评价。视觉上他双手放在胸前并短暂仰头，相关节点person_0、person_1、person_3及其person_joint关系共同呈现出投入和欣慰的表达，指向joy。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 56.102644205093384,
+  "node_count": 7,
+  "edge_count": 4
+}

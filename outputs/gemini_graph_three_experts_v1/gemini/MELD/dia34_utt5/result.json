@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia34_utt5",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "4372539d1352a67af87f434a2856e5389f0e24e45435ccb679dbf48998afbc94",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "三份专家输出在视觉和听觉表现上高度一致。音频专家指出的极高音调、骤增音量以及难以置信的惊呼，与图像专家记录的双眼睁大、张嘴呈“O”型等典型震惊面部神态完全吻合，图谱文本亦辅助印证了这种强烈的震惊反应。各模态证据相互支撑，一致表明其情绪为惊讶。",
+  "output": "三份专家输出在视觉和听觉表现上高度一致。音频专家指出的极高音调、骤增音量以及难以置信的惊呼，与图像专家记录的双眼睁大、张嘴呈“O”型等典型震惊面部神态完全吻合，图谱文本亦辅助印证了这种强烈的震惊反应。各模态证据相互支撑，一致表明其情绪为惊讶。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 34.517629623413086
+}

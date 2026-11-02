@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Monica在听到一个声音后，立即用急促、高亢的语调说出“No-no-no, no!”，表现出强烈的否定和抗拒。她的身体从坐姿猛地前倾，显示出一种突然的、受惊吓的反应。这种急促的拒绝和身体的突然动作，表明她对某个未见事件的出现感到非常意外和害怕。",
+  "open_emotion": "害怕",
+  "answer": "fear",
+  "mapping_reason": "根据MELD项目的情绪轮定义，'fear'指面向威胁、危险或令人害怕的负面后果，表现出畏惧、惊恐或威胁相关的焦虑。Monica的急促拒绝和受惊的身体语言，是对一个突发负面事件的直接反应，符合'fear'的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00:01.710040338995596",
+      "observation": "Monica用急促、高亢的语调说出“No-no-no, no!”。",
+      "interpretation": "急促的语调和重复的否定词表明她正在强烈地抗拒或否认某个突然出现的、令人不安的事物。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_07",
+      "observation": "Monica的身体从坐姿猛地前倾，头部转向声音来源方向。",
+      "interpretation": "这是一个典型的受惊吓或突然反应的身体姿态，表明她被某个突发事件所惊动。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "No-no-no, no!",
+      "observation": "字幕显示说话者在说“No-no-no, no!”。",
+      "interpretation": "这句话是明确的、强烈的否定，表达了说话者对当前情况的抗拒和不安。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有明显的证据表明Monica的情绪是愤怒（anger）或厌恶（disgust），因为她的反应是被动的、受惊的，而不是主动的对抗或排斥。"
+}

@@ -1,0 +1,12 @@
+{
+  "expert": "graph",
+  "reason": "Chandler先以“Ah, no-no-no just”打断并抬手摆动，随后指明Ross，最后评价“Ross and Joey is embarrassing enough”〔process_0〕〔process_1〕〔process_2〕。同时，他将手收于胸前并向右上方斜视〔person_1〕〔person_2〕，整体表现出对相关行为的明显嫌弃和不赞同。",
+  "answer": "disgust",
+  "evidence_refs": [
+    "process_0",
+    "process_1",
+    "process_2",
+    "person_1",
+    "person_2"
+  ]
+}

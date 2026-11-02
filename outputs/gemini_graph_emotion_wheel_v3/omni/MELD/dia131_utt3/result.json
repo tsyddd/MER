@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia131_utt3",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "cd3d3c8c807c19df6b632ee4fea884ed6da5a8289e78f2f9813b77504e417e13",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "满意",
+      "mapped_label": "joy",
+      "mapping_reason": "根据当前证据，Rachel的言语内容（\"everything went great\"）和配合的摊手姿态，共同表达了对某件事情的积极评价和满足感。这与数据集情绪轮中joy的定义（当前开心、愉悦、满足或兴奋的正向体验）高度吻合。虽然她的表情并非极度兴奋，但其言语和姿态的组合明确指向一种积极的、满足的情绪状态。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "开心",
+      "mapped_label": "joy",
+      "mapping_reason": "根据MELD项目的情绪轮定义，'joy'指当前开心、愉悦、满足或兴奋的正向体验。说话者Rachel的语调上扬，内容为'everything went great'，表达了事情进展顺利的正面评价，与'开心'这一开放情绪词高度匹配，因此映射到'joy'是合理的。"
+    },
+    "image": {
+      "open_emotion": "joy",
+      "mapped_label": "joy",
+      "mapping_reason": "The open emotion 'joy' is mapped to the 'joy' label because Rachel's wide smile, engaged posture, and the positive context of her statement 'everything went great' are all strong indicators of a positive and happy emotional state. The visual evidence of her smiling is a direct manifestation of joy."
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "目标人物Rachel的言语内容（'Oh, everything went great'）和配合的摊手姿态，共同表达了对某件事情的积极评价和满足感。她的面部表情为宽大的上扬微笑，与音频中上扬的语调和积极的话语内容完全一致。三个专家的证据均指向joy：[image:E1]描述了其微笑表情，[audio_subtitle:E1]分析了其上扬的语调，[graph:E1]则整合了其动作与话语。这些证据相互印证，共同支持joy的判断。",
+  "output": "目标人物Rachel的言语内容（'Oh, everything went great'）和配合的摊手姿态，共同表达了对某件事情的积极评价和满足感。她的面部表情为宽大的上扬微笑，与音频中上扬的语调和积极的话语内容完全一致。三个专家的证据均指向joy：[image:E1]描述了其微笑表情，[audio_subtitle:E1]分析了其上扬的语调，[graph:E1]则整合了其动作与话语。这些证据相互印证，共同支持joy的判断。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 156.52125239372253
+}

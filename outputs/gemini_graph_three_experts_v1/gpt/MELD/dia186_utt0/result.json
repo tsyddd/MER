@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia186_utt0",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "ce61aa500b449acf27aca857327845af67ac7b2a64a913c11593cd28ac6f91bf",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "disgust",
+  "emotion_analysis": "图谱与图片描述均提到目标人物皱眉、侧目及紧绷表情，字幕内容也表达了对情境“令人尴尬”的拒绝和负面评价，三者方向一致。由于图谱中的动作描述可能与图片或字幕同源，不能视为完全独立证据，但现有证据整体更支持嫌弃而非惊讶或中性。",
+  "output": "图谱与图片描述均提到目标人物皱眉、侧目及紧绷表情，字幕内容也表达了对情境“令人尴尬”的拒绝和负面评价，三者方向一致。由于图谱中的动作描述可能与图片或字幕同源，不能视为完全独立证据，但现有证据整体更支持嫌弃而非惊讶或中性。\n<answer>disgust</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 68.68118810653687
+}

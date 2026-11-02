@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00015349",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "bcd55e14af684d9817d928d38f4c0f9621768146d95143886c11d6eb856c9942",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "顾虑",
+      "mapped_label": "worried",
+      "mapping_reason": "顾虑指向尚未发生、可能带来负面影响的结果，符合worried对风险和不确定性的定义；当前没有足够证据表明他在责备对方或因意外信息而震惊。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "担心",
+      "mapped_label": "worried",
+      "mapping_reason": "话语关注尚未发生的负面结果及其蔓延风险，符合worried的预期性顾虑；并非针对已发生损失的悲伤。"
+    },
+    "image": {
+      "open_emotion": "担心",
+      "mapped_label": "worried",
+      "mapping_reason": "担心继续烧下去可能造成后续影响，关注点是未来风险，因此映射为worried，而非对既成损失的sad。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "8帧中，目标是左侧正面说话的男子；他面向右侧人物，神情严肃但动作克制，[image:E1]的观察可信，单凭画面却不足以定类。字幕“再这么，烧下去的话，传到高家”提出的是继续下去可能产生的后果，[graph:E1]据此解读为顾虑，比单纯平稳陈述更能解释这句提醒；字幕具体用字存在分歧，不宜确定所指事件。没有提供音轨，无法核验语气，也未见足以支持责备或震惊的表现，因此取对潜在后果的担忧。",
+  "output": "8帧中，目标是左侧正面说话的男子；他面向右侧人物，神情严肃但动作克制，[image:E1]的观察可信，单凭画面却不足以定类。字幕“再这么，烧下去的话，传到高家”提出的是继续下去可能产生的后果，[graph:E1]据此解读为顾虑，比单纯平稳陈述更能解释这句提醒；字幕具体用字存在分歧，不宜确定所指事件。没有提供音轨，无法核验语气，也未见足以支持责备或震惊的表现，因此取对潜在后果的担忧。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 71.28891634941101
+}

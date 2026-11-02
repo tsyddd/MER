@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia153_utt4",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "1701ec52f64cb4d931ebb2a39270db0f0b109d59cf49cceb1bc9a7c9f35dd50e",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "逻辑性",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据MELD项目的情绪轮，'neutral'（中性）被定义为当前平稳、日常且没有明确主导情绪的表达。Joey的言语和肢体动作共同指向一个平静的、非情绪化的逻辑陈述过程，没有表现出任何强烈的正向或负向情绪，因此最符合'neutral'的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "嘲弄",
+      "mapped_label": "anger",
+      "mapping_reason": "虽然'嘲弄'不是一个直接的情绪轮标签，但它属于一种对抗性的、带有负面色彩的言语行为。在MELD情绪轮中，'anger'（愤怒）包含了对冒犯、不公的责备与对抗，Joey的反讽言语是一种言语上的对抗和挑衅，因此映射到'anger'是合理的。尽管情绪强度可能不强，但其对抗性是明确的。"
+    },
+    "image": {
+      "open_emotion": "中性",
+      "mapped_label": "neutral",
+      "mapping_reason": "Joey的面部表情没有明显的皱眉、咧嘴笑或惊恐等强烈情绪特征。他的眼神和手势表明他正在积极参与对话，但没有表现出愤怒、悲伤、喜悦、恐惧或厌恶等情绪。因此，他的情绪状态最符合中性。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "Joey的言语内容是反讽和挑衅，他用夸张的语气说'你有恐高症，那你去大楼顶上'，这是一种典型的反讽表达，意在嘲笑或戏弄对方。他的语调上扬，节奏较快，带有明显的嘲弄意味，与字幕中的反讽内容一致。视觉上，他的表情和手势也支持这种挑衅的态度。虽然'嘲弄'不是一个直接的情绪轮标签，但它属于一种对抗性的、带有负面色彩的言语行为。在MELD情绪轮中，'anger'（愤怒）包含了对冒犯、不公的责备与对抗，Joey的反讽言语是一种言语上的对抗和挑衅，因此映射到'anger'是合理的。尽管情绪强度可能不强，但其对抗性是明确的。[audio_subtitle:E1][audio_subtitle:E2][audio_subtitle:E3]",
+  "output": "Joey的言语内容是反讽和挑衅，他用夸张的语气说'你有恐高症，那你去大楼顶上'，这是一种典型的反讽表达，意在嘲笑或戏弄对方。他的语调上扬，节奏较快，带有明显的嘲弄意味，与字幕中的反讽内容一致。视觉上，他的表情和手势也支持这种挑衅的态度。虽然'嘲弄'不是一个直接的情绪轮标签，但它属于一种对抗性的、带有负面色彩的言语行为。在MELD情绪轮中，'anger'（愤怒）包含了对冒犯、不公的责备与对抗，Joey的反讽言语是一种言语上的对抗和挑衅，因此映射到'anger'是合理的。尽管情绪强度可能不强，但其对抗性是明确的。[audio_subtitle:E1][audio_subtitle:E2][audio_subtitle:E3]\n<answer>anger</answer>",
+  "label": "fear",
+  "elapsed_seconds": 161.27866339683533
+}

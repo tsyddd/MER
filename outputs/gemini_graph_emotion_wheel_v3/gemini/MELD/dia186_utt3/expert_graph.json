@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "Joey在当前事件中正靠坐在扶手椅上打电话通知对方取消约会[E1]。尽管言语中包含'I'm sorry'[E3]，但他斜靠椅背的肢体姿态极度放松，眼神和面部未出现悲伤或愧疚引起的眉头皱起，音轨中的语调平缓低沉且随性[E2]，属于日常、平静的事实性陈述与推脱，并未表现出真正的情绪波动。",
+  "open_emotion": "平缓",
+  "answer": "neutral",
+  "mapping_reason": "Joey当前的言语和语调呈现为日常、从容的沟通，缺乏明显的负向或正向情绪激起，符合情绪轮中neutral关于‘平稳、日常且没有明确主导情绪的表达’之定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "Joey靠坐在扶手椅上，右手持机贴耳，身体姿态松弛舒展",
+      "interpretation": "体现出放松无压力的日常状态，排除强烈的焦虑或紧迫感",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:01",
+      "observation": "Joey说出整句话时声调低缓柔和，语速平稳，无哽咽、哀伤或激动颤音",
+      "interpretation": "表明其虽然表达歉意但情绪完全处于常态水平",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "I’m sorry I gotta cancel tonight baby",
+      "observation": "台词为向对方致歉并告知今晚取消约会",
+      "interpretation": "文本虽有歉意词汇，但在当前语境下仅为社交说辞，非真实的哀伤或低落",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词含有'I'm sorry'且开头微闭眼，容易被推测为带有歉意或轻微sadness，但结合平稳放松的肢体与语调可排除实质的悲伤情绪。"
+}

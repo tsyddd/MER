@@ -1,0 +1,9 @@
+{
+  "expert": "graph",
+  "reason": "束发男子（person_0）在说话时嘴部开合，其声音特征（person_1）被描述为低沉且平稳克制，表明其情绪状态稳定，未表现出激动或负面情绪。结合其话语内容为告诫性陈述，语气克制，无明显情绪波动，符合neutral标签的特征。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_0",
+    "person_1"
+  ]
+}

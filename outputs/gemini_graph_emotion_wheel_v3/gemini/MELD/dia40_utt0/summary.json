@@ -1,0 +1,9 @@
+{
+  "reason": "独立回看音频与视频核验，目标人物Monica（穿白色外套）在说出台词“Yeah baby!”时，语调轻快且伴随明显的笑意[audio_subtitle:E1]，音轨表现高度积极兴奋[image:E2]；视觉上她在0.83秒至1.46秒（frame_04至frame_07）嘴角充分展开并展露明亮的露齿微笑[image:E1]，整个人呈现出亲密自然的放松与愉悦状态。三位专家意见高度一致，音频中的兴奋活力与视觉上的真实露齿笑容形成互补，排除了中性或单纯客套的可能，完全符合joy的定义。",
+  "answer": "joy",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "image:E1",
+    "image:E2"
+  ]
+}

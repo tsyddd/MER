@@ -1,0 +1,3 @@
+{
+  "text": "在户外场地，主人物与画面右侧一名穿深色服装的人面对面交流〔context_0 context_joint context_1〕。主人物站立并看向对方〔person_0 person_joint person_1〕，先说“不过，我最近听他们说”〔process_0〕；随后继续说“你好像出了点意外”〔process_1 after process_0〕，这句话是对所听内容的当前转述，并不表示画面中正在发生意外。说话过程中，主人物先低头、视线向下〔person_2 after person_1〕，之后又抬头看向画面右侧的另一人物〔person_3 after person_2〕。这些表现可能反映主人物在交流中持续关注对方，并根据对方的反应调整视线和应对方式；但仅凭现有材料，无法进一步明确其心理状态。"
+}

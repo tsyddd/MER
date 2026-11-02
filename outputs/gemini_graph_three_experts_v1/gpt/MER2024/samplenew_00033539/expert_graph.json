@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "目标人物双眉紧蹙、眉心出现竖纹并持续看向右侧〔person_0〕〔person_2〕，表现出明显的紧张和疑虑。图谱记载其先发出短促升调疑问声，随后以反问语调说“真的”〔person_1〕〔person_3〕，显示其正在带着担忧即时求证信息。",
+  "answer": "worried",
+  "evidence_refs": [
+    "person_0",
+    "person_2",
+    "person_1",
+    "person_3"
+  ]
+}

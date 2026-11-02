@@ -1,0 +1,117 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Monica面对前方说出\"You are both idiots.\"",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Monica视线看着正前方",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Monica双手手指交叉紧握在胸前",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Monica张嘴发声，语调平稳清晰",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内场景，Monica身后有电视机、法文海报、台灯及插花花瓶",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "Monica正与前方未入镜的人员进行交谈",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_2",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "Monica在开口发声表达的同时视线保持正视前方",
+      "entity_anchor": "Monica"
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "simultaneous",
+      "reason": "Monica双手手指交叉紧握在胸前的同时张嘴发声说话",
+      "entity_anchor": "Monica"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供视线正向注视的朝向信息，person_1提供双手十指紧扣于胸前的肢体动作，联合后呈现出面向前方时专注且手部紧扣的完整体态表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_0确定了发话时的视线注视方向，person_2提供了口部动作及平稳清晰的言语声学特征，联合后呈现出直接面向前方对象稳定表达的交互面貌。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1展现了胸前手指交叉紧握的动作状态，person_2提供了口头平稳发声的声音事实，联合后补充了发声表达时伴随的手部固定姿势。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0交代了具有海报与电视等陈设的室内物理环境，context_1明确了与画面外人员对谈的交往对象情境，联合后完整限定了室内空间中与画外人员对话的现场格局。",
+      "entity_anchor": null
+    }
+  ]
+}

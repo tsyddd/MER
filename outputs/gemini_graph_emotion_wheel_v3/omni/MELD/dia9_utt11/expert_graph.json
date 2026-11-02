@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "目标人物Rachel的言语内容（'Everything's ruined. My bed. My clothes. Look at my favorite blue sweater.'）和视觉表现（在沙发上坐着，双手捏着一件烧坏的蓝色毛衣，随后闭眼低头，再将毛衣举起展示）共同指向一种因财产损失而产生的负面情绪。她的肢体语言（捏物、垂头、闭眼）和话语内容（'ruined'）强烈支持一种悲伤或失落感。图谱中的节点'person_1'（闭眼低头）是当前情绪的关键视觉证据，它直接反映了Rachel的沮丧状态。尽管图谱中没有明确的情绪标签，但该节点与她的言语内容高度一致，共同指向悲伤。因此，开放情绪词为'悲伤'，映射到数据集的'sadness'标签。",
+  "open_emotion": "悲伤",
+  "answer": "sadness",
+  "mapping_reason": "根据当前证据，Rachel的言语内容（'ruined'）和视觉表现（闭眼、低头、展示受损物品）共同指向一种因财产损失而产生的负面情绪。该情绪与'sadness'的定义（因失落、损失或痛苦而难过、哀伤或低落）高度匹配。虽然她的语气可能带有抱怨的成分，但其核心是针对损失的哀伤，而非针对他人的愤怒或对威胁的恐惧，因此最准确的映射是'sadness'。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_03",
+      "observation": "Rachel闭上眼睛，低下头。",
+      "interpretation": "该动作是悲伤或沮丧情绪的典型面部表情，表明她正在处理负面情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "Rachel说：'Everything's ruined. My bed. My clothes. Look at my favorite blue sweater.'",
+      "interpretation": "话语内容直接表达了对个人财物被毁的绝望和失落感，是悲伤情绪的直接语言证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01",
+      "observation": "Rachel双手捏着一件蓝色衣物。",
+      "interpretation": "该动作表明她正在展示一件对她有特殊意义的物品（'favorite blue sweater'），这加强了损失带来的悲伤感。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "node:person_1",
+      "observation": "图谱节点描述为'Rachel闭上眼睛低下头'。",
+      "interpretation": "该节点是图谱中对Rachel悲伤情绪的直接视觉描述，与当前画面和音频内容一致，为情绪判断提供了关键支持。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。"
+}

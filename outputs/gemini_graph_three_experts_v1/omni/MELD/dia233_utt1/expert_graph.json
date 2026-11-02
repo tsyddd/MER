@@ -1,0 +1,9 @@
+{
+  "expert": "graph",
+  "reason": "Rachel语速较快且语调微扬，重音强调地表达对对方行为的质疑与反驳，同时双手向两侧张开并轻微摆动以加强语气，表现出对对方行为的强烈不满和不耐烦，符合'anger'的情绪特征。相关证据包括节点person_2（语调微扬重音强调）和person_1（手势加强语气）。",
+  "answer": "anger",
+  "evidence_refs": [
+    "person_1",
+    "person_2"
+  ]
+}

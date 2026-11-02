@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "乔伊在当前互动中逐一排除可能拿走“它”的人，最后追问“那是谁拿的”[E1]。画面中，他先指向自己，再向两名听者摊手，呈现出边推理边寻求答案的状态[E2]。图谱的process_2也记录了这一追问，但其音频来源只是转述，不能据此判断语调[E3]。这些证据更支持乔伊对答案感到困惑，而非正在责备某个人；罗斯和钱德勒的低头姿态不能代替乔伊的情绪证据。",
+  "open_emotion": "困惑",
+  "answer": "surprise",
+  "mapping_reason": "乔伊的困惑指向排除几种可能后仍无法解释“谁拿了它”的意外结果，最接近情绪轮中面对违背预期信息的surprise。这是近似映射：现有证据不足以称他明显震惊。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "And if she didn’t take it, and I didn’t take it; and you didn’t take it, then who did?",
+      "observation": "乔伊以条件句排除数人拿走“它”的可能，末尾追问是谁拿的。",
+      "interpretation": "追问体现他当前对答案的不解；条件句本身不证明任何人确实拿了它。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01（0.459秒）至frame_07（3.295秒）",
+      "observation": "乔伊说话时先将手放在胸前，随后朝两名听者摊手，最后收起手势并看向他们。",
+      "interpretation": "手势配合从自己转向他人的问话过程，支持他在寻求解释；单凭手势不能判断语调或强烈情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_2",
+      "observation": "图谱记载乔伊询问是谁拿的，并放下手。",
+      "interpretation": "提问内容得到当前字幕支持，收手动作也大体可见；但未提供原音轨，图谱中的音频派生信息不能当作亲耳核验的语气证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "追问也可能只是平常的逻辑询问，而非明显惊讶。图谱person_5称他把双手放在腿上，但最后一帧有一只手移向腰侧，不能照单全收；画面和字幕也不足以证实他在指责听者。"
+}

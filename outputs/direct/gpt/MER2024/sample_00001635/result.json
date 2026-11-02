@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00001635",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "画面中人物眼睛睁大、眉毛略抬，嘴唇张开并持续解释，表情显得紧张不安。字幕内容是在否认自己知道包是对方的，体现出辩解和担忧，而非愤怒或开心。",
+  "output": "画面中人物眼睛睁大、眉毛略抬，嘴唇张开并持续解释，表情显得紧张不安。字幕内容是在否认自己知道包是对方的，体现出辩解和担忧，而非愤怒或开心。\n<answer>worried</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 21.629281044006348,
+  "node_count": null,
+  "edge_count": null
+}

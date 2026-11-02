@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia259_utt9",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "莫妮卡双手合十置于胸前，身体前倾，面带掩饰不住的灿烂笑容，语调轻松戏谑，展现出明显的愉悦与打趣心态。",
+  "output": "莫妮卡双手合十置于胸前，身体前倾，面带掩饰不住的灿烂笑容，语调轻松戏谑，展现出明显的愉悦与打趣心态。\n<answer>joy</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 7.067359447479248,
+  "node_count": null,
+  "edge_count": null
+}

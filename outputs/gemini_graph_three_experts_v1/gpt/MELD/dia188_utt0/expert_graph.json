@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "Joey说出“What?”时张开嘴并将右臂微微向外侧伸展，呈现出对当前情况的即时反应〔process_0〕〔person_0〕。随后他合上嘴、低头看向地面且双臂垂下〔person_1〕，综合这些当前行为，最符合惊讶。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "process_0",
+    "person_0",
+    "person_1"
+  ]
+}

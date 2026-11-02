@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00025713",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "目标人物是穿白色上衣的男孩，画面中他眉毛明显上扬、眼睛睁大，随后张口并露出吃惊的表情。字幕“你。你。怎么知道的？”表达了对对方知情的意外和疑惑，当前情绪更符合惊讶。",
+  "output": "目标人物是穿白色上衣的男孩，画面中他眉毛明显上扬、眼睛睁大，随后张口并露出吃惊的表情。字幕“你。你。怎么知道的？”表达了对对方知情的意外和疑惑，当前情绪更符合惊讶。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 20.28526210784912,
+  "node_count": null,
+  "edge_count": null
+}

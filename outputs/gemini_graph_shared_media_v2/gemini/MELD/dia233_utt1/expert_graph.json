@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "在当前互动事件链中，Rachel就对方之前的行为提出假设与抗议（引用图谱节点[process_0]），并用自身以往反感鱼的事实来质问对方（引用节点[process_1]）。结合音轨核实，其语速急促、尾音上扬带有明显指责与恼怒意味[E1]，配合同步摊手与皱眉撇嘴的不满表情[E2]，整体呈现出因对方无理举动而产生的气恼情绪（anger）。虽然台词中提及'freaked me out'[E3]，但事件语义表明这仅是转述以往喜好以作反驳依据，而非当前体验恐惧。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:04",
+      "observation": "语速偏快，语调急促且在句尾明显加重上扬，伴随不耐烦与质问的责备声调",
+      "interpretation": "经核实图谱节点[person_2]的音频描述准确，表现出与他人争论时的气恼与烦躁，支持anger判断",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 1.251249028533363",
+      "observation": "Rachel双眉微蹙、撇嘴斜视，双手向外摊开展现困惑与抗拒姿态",
+      "interpretation": "该表情与动作对应图谱[person_1]所述的强调手势，体现出对互动对象做法的反感与抗议",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Honey, if you wanted to do that, you might as well just gotten him a fish, you know how fish freaked me out!",
+      "observation": "言语中指出对方行为荒谬并指责对方忽视自己的感受",
+      "interpretation": "语义结构为对他人行为的质问与批评，说明情绪指向对对方决定的不满",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的替代解释是fear（因台词出现'freaked me out'）或disgust。但事件链分析表明，鱼并未出现在当下现实情境中，'害怕鱼'仅为论证对方荒谬的转述论据，其当下的身体与语调均指向与对方对峙时的恼怒与指责，故排除fear与disgust。"
+}

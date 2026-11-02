@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是穿棕色外套、面对黄色毛衣女性说话的女性；黄色毛衣女性是交谈对象。目标从注视对方、开口询问，变化为睁大眼睛、张大嘴并微微前倾，视觉上最支持听到消息后的诧异[E1][E2]。字幕中的求证问句与这一解释相符[E3]；但说话时张口也可能只是发音动作，不能仅凭口型判断情绪。",
+  "open_emotion": "诧异",
+  "answer": "surprise",
+  "mapping_reason": "当前表现偏向对所获信息感到意外并求证，符合surprise所指的即时诧异；没有足够证据将其判为担忧或愤怒。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01（0.32秒）至frame_02（0.60秒）、frame_06（1.80秒）",
+      "observation": "棕色外套女性持续看着黄色毛衣女性，眼睛明显睁大，至frame_06嘴张得更大。",
+      "interpretation": "连续变化比单一张口更支持即时的意外反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03（0.92秒）至frame_06（1.80秒）",
+      "observation": "她上身朝交谈对象略微前倾，维持直视，表情比起初更活跃。",
+      "interpretation": "与急于确认对方所说内容相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "「是吗？才真这么说的。」",
+      "observation": "当前提供的字幕是询问并确认所听到的话。",
+      "interpretation": "语义支持诧异地求证，但字幕本身不能证明语气。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "frame_04（1.20秒）她说话时嘴角上扬，也可能带有高兴或兴奋；且张大嘴部分属于说话动作。没有音轨可核对语调，因此诧异的性质和强度仍有限定。"
+}

@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "字幕中的“Deeper.”是简短的引导指令，没有疑问、责备或感叹等明确情绪表达[E1]。画面中的男子躺在床上，但他的表情不能当作目标说话者“Hypnosis Tape”的情绪证据[E2]。仅据现有材料，目标表达更接近平常的指令。",
+  "open_emotion": "平常",
+  "answer": "neutral",
+  "mapping_reason": "“平常”对应情绪轮中日常、无明确主导情绪的表达；此判断限于字幕语用，不能推断录音的实际语气。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“Deeper.”",
+      "observation": "目标话语只有一个祈使词，没有附带评价或情绪词。",
+      "interpretation": "更像例行引导，而非明确的情绪宣泄。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_07（0.626秒）",
+      "observation": "画面中一名男子躺在床上；目标说话者是“Hypnosis Tape”，未在画面中出现。",
+      "interpretation": "画面可辅助理解指令语境，但不能用男子的表情判断录音说话者的情绪。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "最强替代解释是录音可能以带有安抚感的语气说出这句话；但未提供音频，无法核实语调、节奏或音质。短句本身对情绪的区分力有限。"
+}

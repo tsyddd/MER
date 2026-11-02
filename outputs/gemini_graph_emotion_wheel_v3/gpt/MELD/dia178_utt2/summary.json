@@ -1,0 +1,9 @@
+{
+  "reason": "目标人物是抱婴儿的Monica；她在frame_00至frame_01先抬眉、抿嘴，随后露出笑意，单看开头不足以判断情绪[image:E1]。frame_04至frame_07，她转头并低头看婴儿时持续微笑，这一视觉变化可信，但微笑本身不必然代表喜悦[image:E2]。字幕中她说“Pheebs, it’s going great”，对当前进展的正向评价与笑容相互支持[audio_subtitle:E1]；虽无音轨可核查语气，现有证据仍更支持愉悦，而非平常的礼貌表达。",
+  "answer": "joy",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "audio_subtitle:E1"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物在言语中使用了极具批判与斥责意味的词汇，语调压低咬紧、重音明显，言语行为属于强烈的质问与谴责，表达了明显的愤怒情绪。",
+  "answer": "angry",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "你除了这些卑劣的手段 还会什么 真是无耻之极",
+      "observation": "台词使用反问句式与强负面评价词“卑劣的手段”、“无耻之极”直接指责对方",
+      "interpretation": "言语行为展现出对对方恶劣行为的极端愤慨与道德谴责，是愤怒的典型语言标志",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:01 - 00:06",
+      "observation": "女性声音紧绷低沉，发音时带明显的气声与咬牙切齿感，并在“手段”、“无耻之极”处强化重音与收尾力度",
+      "interpretation": "压抑而有力的谴责韵律体现出被压抑又克制不住爆发的怒意",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "由于额头带伤且眉头微蹙，视觉上可能被误判为worried或sad，但听觉上语调坚定有力且充满攻诘性，完全缺乏担忧的迟疑或悲伤的哭腔与虚弱，故排除。"
+}

@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "Rachel转头看向Monica时嘴巴大张，并以拔高的惊叹语调说出“Oh my God!”（person_0、process_0），随后前倾并抬手比划继续说话（person_1），主要表现为当下的惊讶反应。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "person_0",
+    "process_0",
+    "person_1"
+  ]
+}

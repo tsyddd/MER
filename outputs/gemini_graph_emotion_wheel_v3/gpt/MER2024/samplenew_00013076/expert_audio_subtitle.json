@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物说“正要感谢您呢！谢谢！谢，谢谢。”，是在主动表达感谢，而非仅仅谈及感谢这一话题[E1]。他面向对方，随后双手合十，眼部呈笑意，与话语中的感激相符[E2][E3]。未提供音频，不能判断语调或音量。",
+  "open_emotion": "感激",
+  "answer": "happy",
+  "mapping_reason": "感激不是喜悦的同义词；此处主动道谢并伴有笑意，呈现当前正向情感，因而最接近happy。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "正要感谢您呢！谢谢！谢，谢谢。",
+      "observation": "目标人物主动表示要感谢对方，并连续道谢。",
+      "interpretation": "话语行为支持他此刻的感激，而不只是陈述一件事。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05（1.88秒）至frame_06（2.28秒）",
+      "observation": "右侧人物面对对方双手合十，眼部呈笑意。",
+      "interpretation": "动作和表情与感谢的话语一致，支持正向情感表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01（0.36秒）至frame_03（1.12秒）",
+      "observation": "右侧人物面向对方说话时，眼部持续呈笑意，并有手势。",
+      "interpretation": "为道谢并非纯粹平板的礼节性表达提供视觉支持。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "道谢也可能只是礼貌行为，单凭字幕不能确定情绪强度；口罩遮住下半张脸，且没有音频可核对韵律。但可见的笑意与合十动作使感激比纯粹中性的解释更有支持。"
+}

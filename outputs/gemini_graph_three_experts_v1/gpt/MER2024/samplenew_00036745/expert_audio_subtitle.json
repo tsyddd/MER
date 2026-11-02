@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断目标人物的声调、音量、语速或停顿。字幕内容为事实性陈述与行动安排，未明确表达当下的喜怒哀乐等情绪，因此仅能判断为中性。",
+  "answer": "neutral",
+  "evidence_refs": []
+}

@@ -1,0 +1,161 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Monica开口说出“The joke is not funny”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Monica继续陈述“and it’s offensive to women, and doctors”",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "Monica强调说出“and monkeys!”",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Monica上身微向前倾，双眼注视前方交流对象",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Monica语速较快，语调严肃坚决",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Monica右手向身体外侧挥动做手势",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Monica嘴部大幅张开，音量增大且语调明显上扬",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内客厅环境，Monica身处电视机与复古装饰海报前",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "Monica在身体微向前倾注视前方的同时，语速较快且语调严肃坚决",
+      "entity_anchor": "Monica"
+    },
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "Monica在开口说完“The joke is not funny”之后，继续陈述“and it’s offensive to women, and doctors”",
+      "entity_anchor": "Monica的话语表达"
+    },
+    {
+      "source": "process_2",
+      "target": "process_1",
+      "relation": "after",
+      "reason": "Monica在陈述冒犯对象后，紧接着强调说出“and monkeys!”",
+      "entity_anchor": "Monica的话语表达"
+    },
+    {
+      "source": "person_2",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "Monica在初始身体微向前倾注视前方之后，右手向身体外侧挥动做手势配合陈述",
+      "entity_anchor": "Monica的肢体动作"
+    },
+    {
+      "source": "person_3",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "Monica在最初严肃坚决说话之后，嘴部大幅张开，音量增大且语调明显上扬以进行强调",
+      "entity_anchor": "Monica的声音与面部表达"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0给出对笑话不搞笑的直接否定定论，process_1紧接说明其冒犯女性和医生的具体理由，联合呈现了从抛出判断到展开指控的连贯批评陈述过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_1",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "process_1陈述冒犯女人和医生的指控，process_2进一步追加猴子这一出人意料的强调项，联合构成了反驳力度层层递进的完整说理过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供了身体前倾直视交流对象的躯干体态，person_1提供了快速且严肃坚决的语音特征，视听结合完整展现了其面对对方时严肃对峙的表达状态。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_0提供了向前倾身直视的躯干姿势，person_2补充了右手向外挥动强调的手部动作，联合呈现了躯干与手臂协同配合的完整肢体语言。",
+      "entity_anchor": null
+    }
+  ]
+}

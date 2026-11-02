@@ -1,0 +1,3 @@
+{
+  "text": "在客厅环境中，门边墙壁上有一个破损的孔洞，Rachel背对镜头站在那里。Monica最初坐在沙发上，双手分别拿着一本书和一只高脚杯，视线投向门边方向〔person_1〕。她随即发出急促、高亢的喊声“No-no-no, no!”，声音与她注视门边的姿态同步发生〔person_2, person_1, person_joint〕。紧接着，她迅速将手中的书本和杯子移开并放下，身体前倾，动作与喊叫形成联合的应急反应过程〔process_0, process_1, process_joint〕。随后，她从沙发上起身，瞪大双眼，向前冲出，整个过程由放下物品到起身前冲连续完成〔process_1, process_2, after〕。整个场景中，Monica与门边的Rachel处于同一空间，空间布局由门口破损与沙发位置共同确立〔context_0, context_1, context_joint〕。"
+}

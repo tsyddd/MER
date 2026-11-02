@@ -1,0 +1,127 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Joey说：“I don't know. We're talking about whipped fish, Monica. I'm just happy I'm keeping it down, y'know?”",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Joey坐着，起初低头，随后抬头看向站在他旁边的女性。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Joey说话时嘴部开合，并保持坐姿。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "在较宽画面中，Joey双手在身前相握。",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "画面位于带有厨房和客厅区域的室内空间，Joey与三名女性在场。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "Joey在与场内人物交谈，字幕内容涉及whipped fish，并称呼Monica。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_2",
+      "type": "context",
+      "content": "较宽画面显示几人在餐桌旁。",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供Joey坐着并抬头看向旁边女性的姿态与视线，person_1提供其保持坐姿并正在说话的可见表现，联合后更完整呈现Joey面向旁人进行回应的互动状态。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_0提供Joey坐姿及看向旁边女性的身体朝向，person_2提供其双手在身前相握的手部姿态，联合后补充了同一时段中Joey的整体身体状态。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1提供Joey说话时嘴部开合及坐姿，person_2提供较宽画面中双手相握的动作，联合后更完整呈现其坐着说话并保持手部姿态的可见表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0提供带有厨房和客厅的室内空间及多名女性在场，context_1提供Joey与场内人物交谈、话题涉及whipped fish并称呼Monica的信息，联合后明确了室内多人交谈的场景、参与者关系和谈话对象。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_2",
+      "relation": "context_joint",
+      "reason": "context_0提供厨房客厅式室内空间及多人在场，context_2提供几人位于餐桌旁的空间布局，联合后更完整限定了多人在住宅室内餐桌区域交谈的场景。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_1",
+      "target": "context_2",
+      "relation": "context_joint",
+      "reason": "context_1提供围绕whipped fish并称呼Monica的交谈内容，context_2提供几人在餐桌旁的客观位置，联合后补充了该谈话发生的具体用餐区域和场景限定。",
+      "entity_anchor": null
+    }
+  ]
+}

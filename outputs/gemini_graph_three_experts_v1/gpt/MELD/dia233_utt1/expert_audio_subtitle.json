@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。字幕中“鱼把我吓坏了”直接表达了对鱼的强烈害怕，当前情绪更符合恐惧。",
+  "answer": "fear",
+  "evidence_refs": []
+}

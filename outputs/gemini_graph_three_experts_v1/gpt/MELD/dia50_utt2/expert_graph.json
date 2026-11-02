@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "Female Student弯腰低头并快速穿过书架过道离开〔process_0〕，同时以较快且急促的语速说“I'm so sorry!”〔person_1〕〔process_1〕，这些表现与突然遭遇尴尬场面后的惊讶和慌乱相符。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "process_0",
+    "person_1",
+    "process_1"
+  ]
+}

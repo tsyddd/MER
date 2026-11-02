@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia150_utt4",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "b948f663757dd9d93d653315d388ec7b3f3b77e98f96b4337073cdbfe157409b",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "图像专家详细指出了目标人物眉头聚拢上扬、嘴角下撇的失落面部表情及抱胸紧攥的内敛肢体动作，这与图谱记录的防御姿态及依依道别的情境高度吻合。音频专家虽然记录语调平缓沉稳而判定为中性，但这种语速与略带拉长的声调恰恰符合悲伤、怅惘时的低落表达，综合判定其情绪为悲伤。",
+  "output": "图像专家详细指出了目标人物眉头聚拢上扬、嘴角下撇的失落面部表情及抱胸紧攥的内敛肢体动作，这与图谱记录的防御姿态及依依道别的情境高度吻合。音频专家虽然记录语调平缓沉稳而判定为中性，但这种语速与略带拉长的声调恰恰符合悲伤、怅惘时的低落表达，综合判定其情绪为悲伤。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 40.78866171836853
+}

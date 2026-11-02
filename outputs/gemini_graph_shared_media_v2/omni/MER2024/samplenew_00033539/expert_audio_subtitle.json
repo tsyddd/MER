@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者以升调发出“啊？”，表现出即时的惊讶，随后的“真的”语气肯定，表明她正在确认一个出乎意料的事实。字幕和音频内容一致，且与她睁大眼睛、眉毛上扬的视觉表情相符，共同指向惊讶情绪。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:01",
+      "observation": "说话者发出升调的“啊？”，语速较快。",
+      "interpretation": "升调和快速的语速是典型的惊讶或疑问的语音特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "啊？真的。",
+      "observation": "字幕显示为“啊？真的。”。",
+      "interpretation": "话语内容“啊？”直接表达了惊讶，“真的”则用于确认，这与惊讶情绪相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 @ 00:00",
+      "observation": "说话者眼睛睁大，眉毛上扬，表情显得意外。",
+      "interpretation": "面部表情与“惊讶”的情绪高度一致，为音频和字幕提供了视觉支持。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无明确的相反解释。虽然“真的”一词可以用于强调，但结合前面的“啊？”和惊讶的表情，其主要功能是表达对某事的确认和意外，而非单纯的强调。"
+}

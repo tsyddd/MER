@@ -1,0 +1,11 @@
+{
+  "reason": "目标是穿黑衣的Chandler；前两帧他皱眉、叉腰，随后持续朝Joey做较大幅度的强调手势，这些画面观察可信，但手势单独不能证明愤怒[image:E1][image:E2]。字幕中的“if I'm staring down the barrel of a gun”是假设，不表示他此刻害怕；“I assure you”配合紧绷的表情，更像带着不耐烦地强调观点[audio_subtitle:E1]。最强的另一种解释是他只是在认真说明，手势也确有解释作用[graph:E2]；但持续的面部紧绷使anger比neutral更贴切。未提供音轨，图谱关于语调平稳的转述无法亲耳核验，不作为取舍依据[graph:E4]。",
+  "answer": "anger",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "audio_subtitle:E1",
+    "graph:E2",
+    "graph:E4"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "在与男士对坐交谈的事件链中，Janice先是松开交叉的双臂抬手屈伸手指模拟木偶动作[process_1, person_2]，生动配合假设性提议（用它们做成小木偶放进残酷剧场）[process_2]；音频末尾（00:05.5-00:07.3）在说出“theater of cruelty”后立即爆发其标志性的高亢笑声，显示其言语和肢体是在进行戏剧化的讽刺调侃与自我逗乐，属于主导的戏谑取乐体验，而非真正的敌对对抗或消极指责。",
+  "open_emotion": "戏谑逗乐",
+  "answer": "joy",
+  "mapping_reason": "Janice当前的表达核心在于以夸张的假设展开讽刺戏谑并自顾自大笑取乐，体验带有明确的正向愉悦与幽默调侃色彩，符合情绪轮中joy家族涵盖的“愉悦/amused”范畴。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "图谱记录Janice抬起双手在胸前配合说话做手势比划，结合person_2手指屈伸摆动",
+      "interpretation": "以夸张的肢体动作模拟木偶，表现出戏剧化的表演性与游戏感",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:05.5-00:07.3",
+      "observation": "Janice在句末念出“theater of cruelty”后伴随着放声高亢的连续笑声",
+      "interpretation": "明确的笑声确证其话语性质为自我娱乐的调侃逗趣，具有典型的愉悦表现",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_03-frame_05",
+      "observation": "Janice面部表情生动，嘴角上扬，手指在空中灵活比划",
+      "interpretation": "视觉上呈现轻松活跃的互动状态，无愤怒或厌恶的紧绷对抗迹象",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词提及“theater of cruelty”（残酷剧场）带有指责男士冷酷的字面含义，若脱离句末的大笑音轨与夸张动作，容易被孤立误读为愤怒指责或中性讽刺陈述。"
+}

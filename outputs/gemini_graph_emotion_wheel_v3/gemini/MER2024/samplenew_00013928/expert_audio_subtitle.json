@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物在对话中音调轻快上扬，语带明朗笑意与鼓励，结合'我可看好你呀！怎么样？'的肯定与热情询问，跨模态表情始终保持灿烂笑容与弯眼露齿，展现出强烈的正向愉悦与欣喜情绪。",
+  "open_emotion": "欣喜",
+  "answer": "happy",
+  "mapping_reason": "开放情绪'欣喜'对应正向愉悦、积极热情的心理状态，符合情绪轮中happy（喜悦）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "目标人物语音语调轻快、上扬，说话间夹带明显的爽朗笑意与轻笑声",
+      "interpretation": "听觉韵律展现出高度的正向唤醒与亲切欢悦的态度",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "我可看好你呀！怎么样？",
+      "observation": "台词表达支持、赞赏及充满期待的关切询问",
+      "interpretation": "言语行为体现出鼓励与乐见其成的积极互动意图",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02 (0.8s) 至 frame_06 (2.4s)",
+      "observation": "面部苹果肌隆起，眼睛弯起，持续展露开怀露齿的大幅度微笑",
+      "interpretation": "视觉表情与声音的笑意完全吻合，印证了内心真实的欢喜",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽带有日常寒暄性质，但音调高昂且伴有笑声与开怀表情，明显超出平稳叙述的neutral范畴。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia224_utt2",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "音频中为一段低沉、平稳的男声念出“Deeper”，语速缓慢，无明显情绪波动。该声音来自背景的催眠录音带，而非目标人物的直接表达。目标人物躺在床上，无任何面部表情或肢体动作变化，整体场景安静，无情绪线索。",
+  "output": "音频中为一段低沉、平稳的男声念出“Deeper”，语速缓慢，无明显情绪波动。该声音来自背景的催眠录音带，而非目标人物的直接表达。目标人物躺在床上，无任何面部表情或肢体动作变化，整体场景安静，无情绪线索。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 7.539577484130859,
+  "node_count": null,
+  "edge_count": null
+}

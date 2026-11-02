@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "目标人物Phoebe在对话中，面部表情保持稳定，眼神主要集中在对话对象身上，没有明显的皱眉、嘴角上扬或下撇等情绪化变化。她的手势在说话过程中有轻微的展开和移动，但动作幅度不大，姿态开放，没有表现出防御或攻击性。结合字幕内容，她正在描述一个男性，语气平稳，没有表现出强烈的个人情感。综合来看，她的视觉表现与中性、日常的陈述状态最为吻合。",
+  "open_emotion": "中性",
+  "answer": "neutral",
+  "mapping_reason": "根据MELD项目的情绪轮定义，'neutral'指当前平稳、日常且没有明确主导情绪的表达。Phoebe的面部表情、视线和姿态均未表现出joy、sadness、anger、fear、disgust或surprise等情绪的典型特征，其行为模式与日常陈述或描述的语境相符，因此映射为'neutral'。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "Phoebe的面部表情平静，嘴角没有明显上扬或下撇，眼神直视前方。",
+      "interpretation": "面部表情没有表现出明显的正向或负向情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01",
+      "observation": "Phoebe的双手在身前，有轻微的展开和移动，但没有做出强调或攻击性的手势。",
+      "interpretation": "手势是描述性而非情绪化的，与中性陈述的语境一致。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_07",
+      "observation": "Phoebe的视线始终集中在对话对象身上，姿态稳定。",
+      "interpretation": "视线和姿态表明她正在专注地进行对话，没有表现出回避或对抗。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "subtitle",
+      "anchor": "And umm, hes like early to mid-thirties, very attractive.",
+      "observation": "字幕内容为对一个男性的外貌和年龄的描述。",
+      "interpretation": "该陈述内容本身是中性的，不带有强烈的情感色彩，与Phoebe的视觉表现相符。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。"
+}

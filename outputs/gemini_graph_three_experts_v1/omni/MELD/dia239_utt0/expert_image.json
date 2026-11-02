@@ -1,0 +1,6 @@
+{
+  "expert": "image",
+  "reason": "目标人物Gunther在所有帧中均保持直视前方，面部表情平静，无明显情绪波动，姿态稳定，符合中性情绪的特征。",
+  "answer": "neutral",
+  "evidence_refs": []
+}

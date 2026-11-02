@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "目标人物Joey（身穿Rangers球衣）在[E1]中发问时面部放松、无显著眉部上挑或收缩，后续帧[E2]中身体姿态自然转向身旁同伴，神情与语调平静，无强烈情绪激活。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0s",
+      "observation": "Joey在开口发声时面容放松，眉眼平缓，未见明显的抬眉、睁大眼或皱眉动作。",
+      "interpretation": "排除强烈的惊恐、愤怒或惊讶反应，表现为日常自然的询问状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05 @ 0.375s",
+      "observation": "Joey发问后嘴唇自然闭合，头部轻微侧向身侧戴帽子的同伴，肢体放松站立。",
+      "interpretation": "缺乏情绪激活迹象，整体神态处于平稳的中性状态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "单字疑问句'What?'有时伴随轻微惊讶或困惑，但Joey视觉上缺乏眼部睁大、眉毛上扬等惊讶典型特征，且语调短促平直，未构成surprise。"
+}

@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "Monica当前对画外的两人说“You are both idiots.”，这是她本人的当下发话，而非转述。[E2] 图谱的process_0也记录了这次发话，但与字幕属于同一事实，不能重复算作两份证据。话语有责备的字面意味；不过她说话时及说完后持续带笑、向前倾身[E1]，双手交握于胸前[E3]，整体更像带着笑意的调侃，而不是正在恼怒地对抗。",
+  "open_emotion": "觉得好笑",
+  "answer": "joy",
+  "mapping_reason": "当前可见的笑意支持愉悦、觉得好笑的正向体验，因此映射为joy；这不等于说“idiots”本身是赞美。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_05（1.501秒）至frame_07（2.127秒）",
+      "observation": "Monica向前倾身，嘴角上扬，随后仍保持笑意。",
+      "interpretation": "持续的笑意支持她对当前互动感到好笑；这些帧是同一表情的延续，不算多份独立证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "You are both idiots.",
+      "observation": "当前台词直接称对方为“idiots”。",
+      "interpretation": "字面上可能是责备，构成愤怒解释的依据；结合当前表情，也可能是调侃，单凭措辞不能定为愤怒。",
+      "polarity": "counter"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱记录她双手手指交叉握在胸前；画面中可核实这一姿势。",
+      "interpretation": "这是发话时投入互动的姿态，但单独不能证明开心或紧张。",
+      "polarity": "uncertain"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱称她发声时“语调平稳清晰”。",
+      "interpretation": "本题未提供原音轨，无法亲耳核验该声音描述；保留为图谱转述，不作为最终判断的主要依据。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "称对方为“idiots”也可能表达不满；若仅看字幕，可以合理地读作责备。这里优先依据可核实的当前表情作取舍，而不把笑意解释成已知的说话动机。"
+}

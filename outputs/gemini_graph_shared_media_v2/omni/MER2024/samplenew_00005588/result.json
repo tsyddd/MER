@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00005588",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "3c05565a2f5988a34215ae155e7337af3fdfc1912e5b57502601b56c3ef3ae72",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物在烛光下说出“过去的事，不怪你”，其语调低沉平缓，与字幕内容一致。图谱中节点process_0记录了该话语，person_2描述了其低沉语调，context_0的昏暗烛光环境与person_1的注视状态共同营造出一种沉重、私密的氛围。综合来看，该话语内容、语调和环境共同指向一种试图和解或放下过往的复杂情绪，而非简单的中性或积极情绪。",
+  "output": "目标人物在烛光下说出“过去的事，不怪你”，其语调低沉平缓，与字幕内容一致。图谱中节点process_0记录了该话语，person_2描述了其低沉语调，context_0的昏暗烛光环境与person_1的注视状态共同营造出一种沉重、私密的氛围。综合来看，该话语内容、语调和环境共同指向一种试图和解或放下过往的复杂情绪，而非简单的中性或积极情绪。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 176.5193338394165
+}

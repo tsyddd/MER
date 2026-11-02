@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00035950",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "521bc59b8292512714ce7a1cf82373756b611bf8bd876b6099b6bd083d1d6d57",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "困惑",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据情绪轮的定义，'surprise'（惊讶）是因当前信息违背预期而产生的意外、诧异或震惊。目标人物的台词“怎么到了自己身上”直接表达了她对自己所处情境的意外和不解，这与'惊讶'的核心特征相符。虽然她的语调中带有无奈，但主导情绪是当前情境与预期不符所带来的意外感，因此映射到'surprise'是合理的。'worried'（担忧）和'sad'（悲伤）虽然也与负面情绪相关，但它们更侧重于对未来的焦虑或对已发生损失的哀伤，而此处的焦点是“为什么偏偏是我”这种即时的意外感。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "委屈",
+      "mapped_label": "sad",
+      "mapping_reason": "根据情绪轮定义，'sad'（悲伤）包含失落、伤心、沮丧等情绪。说话者表达的是一种因自身遭遇而感到的困惑和委屈，这是一种失落和低落的情绪状态，因此映射到'sad'是合适的。虽然'委屈'更具体，但'委屈'在当前情绪轮中没有直接对应，而'sad'是其最接近的家族。"
+    },
+    "image": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据情绪轮的定义，'surprise'（惊讶）是因当前信息违背预期而产生的意外、诧异或震惊。目标人物的台词“怎么到了自己身上，就这样不明白”直接表达了她对自己所处状况的意外和不解。她的视觉表现，特别是帧04中张大的嘴巴，是惊讶情绪的典型生理反应。因此，该情绪最准确地映射到'surprise'。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "目标人物的台词“怎么到了自己身上，就这样不明白”直接表达了对自身处境的意外和不解。其在帧04中张大的嘴巴是惊讶的典型生理反应，与音频中带有惊讶和不解的语调（[audio_subtitle:E2]）及字幕内容（[image:E2]）共同指向惊讶情绪。尽管有专家将其映射为'sad'，但其核心是当前情境违背预期的意外感，而非对已发生损失的哀伤，因此'surprise'更准确。",
+  "output": "目标人物的台词“怎么到了自己身上，就这样不明白”直接表达了对自身处境的意外和不解。其在帧04中张大的嘴巴是惊讶的典型生理反应，与音频中带有惊讶和不解的语调（[audio_subtitle:E2]）及字幕内容（[image:E2]）共同指向惊讶情绪。尽管有专家将其映射为'sad'，但其核心是当前情境违背预期的意外感，而非对已发生损失的哀伤，因此'surprise'更准确。\n<answer>surprise</answer>",
+  "label": "sad",
+  "elapsed_seconds": 229.90660738945007
+}

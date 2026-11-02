@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia178_utt2",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "Monica is smiling and speaking in a cheerful tone, expressing positive feelings about the situation. Her facial expression and the content of her speech, 'it's going great,' indicate happiness.",
+  "output": "Monica is smiling and speaking in a cheerful tone, expressing positive feelings about the situation. Her facial expression and the content of her speech, 'it's going great,' indicate happiness.\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 5.513240575790405,
+  "node_count": null,
+  "edge_count": null
+}

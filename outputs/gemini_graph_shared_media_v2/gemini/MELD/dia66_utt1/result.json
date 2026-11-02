@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia66_utt1",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "c398d30886c2843c21af96c15c9bcdddf2dff86a4ef358b1b57842960c047eb1",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "目标人物为空乘人员（画面左侧背侧身站立者），在接待乘客时其言行展现出充分的正面积极情绪。核对实际音轨，其说出“Thank you! Enjoy your flight?”时语调轻快上扬且带有鲜明的笑意共鸣，与[audio_subtitle:E1]和[graph:E1]对听觉特征的观察高度吻合。同时结合[image:E1]指出的视觉表现（如frame 5至frame 6处侧脸嘴角上扬、露齿微笑），音视频线索互为支撑。尽管存在例行公事式职业礼貌（neutral）的可能，但其声音的活力起伏与自然的笑意表达已明显超出平直敷衍的程序化规范，故最终判定为joy。",
+  "output": "目标人物为空乘人员（画面左侧背侧身站立者），在接待乘客时其言行展现出充分的正面积极情绪。核对实际音轨，其说出“Thank you! Enjoy your flight?”时语调轻快上扬且带有鲜明的笑意共鸣，与[audio_subtitle:E1]和[graph:E1]对听觉特征的观察高度吻合。同时结合[image:E1]指出的视觉表现（如frame 5至frame 6处侧脸嘴角上扬、露齿微笑），音视频线索互为支撑。尽管存在例行公事式职业礼貌（neutral）的可能，但其声音的活力起伏与自然的笑意表达已明显超出平直敷衍的程序化规范，故最终判定为joy。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 69.95079064369202
+}

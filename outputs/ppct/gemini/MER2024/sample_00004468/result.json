@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00004468",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "根据图谱节点person_3与process_2的关联，目标人物在提到裘院长离婚后，眉毛微扬、眼睛微睁注视对方，并以明显的疑问语调质问“你怎么这么高兴呢”。结合听觉中的好奇与诧异语气，体现出她对对方反常喜悦反应的意外与困惑，当前表达情绪为surprise。",
+  "output": "根据图谱节点person_3与process_2的关联，目标人物在提到裘院长离婚后，眉毛微扬、眼睛微睁注视对方，并以明显的疑问语调质问“你怎么这么高兴呢”。结合听觉中的好奇与诧异语气，体现出她对对方反常喜悦反应的意外与困惑，当前表达情绪为surprise。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 56.63500380516052,
+  "node_count": 10,
+  "edge_count": 8
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia9_utt11",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "e2a50d6b01ecc35a810613a0879b6c7baee7d96f1dcefc36a846281bb0277898",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "字幕内容直接表达“一切都毁了”及对床铺和衣物损失的哀叹，支持悲伤判断。图片专家也描述了低头、眼睑低垂和低落姿态；graph的相关描述与这些证据一致，但可能与图像或字幕同源，因此不作独立加权。",
+  "output": "字幕内容直接表达“一切都毁了”及对床铺和衣物损失的哀叹，支持悲伤判断。图片专家也描述了低头、眼睑低垂和低落姿态；graph的相关描述与这些证据一致，但可能与图像或字幕同源，因此不作独立加权。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 58.056211709976196
+}

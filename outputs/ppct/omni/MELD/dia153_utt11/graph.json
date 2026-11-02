@@ -1,0 +1,185 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Chandler speaks to Joey.",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Chandler raises his right hand and gestures.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "Chandler extends his right hand forward.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Chandler wears a black t-shirt.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Joey has his right arm in a sling.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Chandler's mouth is open while speaking.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Chandler's right hand is raised.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_4",
+      "type": "person",
+      "content": "Chandler's right hand is extended forward.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_5",
+      "type": "person",
+      "content": "Joey's head is turned towards Chandler.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_6",
+      "type": "person",
+      "content": "Chandler's head is turned towards Joey.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "The scene takes place in a room with a purple wall and a wooden shelf.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "Joey is the person being spoken to.",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_2",
+      "type": "context",
+      "content": "Chandler is the speaker.",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0 provides the audio of Chandler speaking, while process_1 provides the visual of his hand gesture; together, they form a complete description of his current action.",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_0 provides the visual of Chandler's black t-shirt, while person_2 provides the visual of his open mouth; together, they confirm the speaker's identity and the act of speaking.",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_3",
+      "target": "person_4",
+      "relation": "person_joint",
+      "reason": "person_3 provides the visual of Chandler's raised right hand, while person_4 provides the visual of it being extended forward; together, they form a complete description of his gesture.",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_5",
+      "target": "person_6",
+      "relation": "person_joint",
+      "reason": "person_5 provides the visual of Joey's head turned towards Chandler, while person_6 provides the visual of Chandler's head turned towards Joey; together, they confirm the mutual focus of their interaction.",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0 provides the visual of the room's purple wall and shelf, while context_1 provides the audio identifying Joey as the listener; together, they more fully establish the scene and the participants.",
+      "entity_anchor": null
+    }
+  ]
+}

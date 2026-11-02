@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "束发男子先说“再这么吵下去的话”，随后补充“传到高家”，内容体现出对相关话语传开的顾虑（process_0、process_1）。图谱记载其发声低沉、语调平稳克制，结合其持续告诫的表达，当前情绪更符合担忧而非愤怒（person_1）。",
+  "answer": "worried",
+  "evidence_refs": [
+    "process_0",
+    "process_1",
+    "person_1"
+  ]
+}

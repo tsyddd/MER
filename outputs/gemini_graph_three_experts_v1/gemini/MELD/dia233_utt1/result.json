@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia233_utt1",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "28377b2eb5597e7f5b05f1f254a992b627c9f9588a264363ea2c03cb09ddd88d",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "audio_subtitle专家与graph专家均指出Rachel语速快、带有责备语调和明显重音，肢体动作伴随强烈的反驳与质疑，展现出对对方做法的恼火与生气；image专家观察到的五官紧蹙与撇嘴虽带有嫌弃意味，但结合其高调门和主动指责的对抗性表达，整体核心情绪应判定为愤怒（anger）。",
+  "output": "audio_subtitle专家与graph专家均指出Rachel语速快、带有责备语调和明显重音，肢体动作伴随强烈的反驳与质疑，展现出对对方做法的恼火与生气；image专家观察到的五官紧蹙与撇嘴虽带有嫌弃意味，但结合其高调门和主动指责的对抗性表达，整体核心情绪应判定为愤怒（anger）。\n<answer>anger</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 45.106789350509644
+}

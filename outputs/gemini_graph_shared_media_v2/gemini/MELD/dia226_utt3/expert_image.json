@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "目标人物Rachel（左侧穿粉紫色针织开衫）在与Phoebe交谈过程中姿态自然放松，手势在胸前随语流比划[E1]；虽然因表达诉求而有轻微抬眉与眉心聚拢，但面部无嘴角下撇、眼眶泛红等明确哀伤特征，整体表现为平稳的日常倾诉状态[E2]，支持neutral。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.92s",
+      "observation": "Rachel双手抬至胸前展开比划，身体倚靠在沙发靠背上，动作舒展自如。",
+      "interpretation": "姿态与手势属于典型的日常对话强调动作，身体无紧绷或颓丧缩陷迹象。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.79s",
+      "observation": "Rachel注视着对方，唇部微抿后自然发音，未见明显的嘴角下沉或持续愁苦神情。",
+      "interpretation": "面部肌群活动主要服务于言语表达，情绪基调稳定克制，支撑中性状态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "frame_02至frame_04中眉毛微蹙、带有轻微无奈之色，可能被解读为因无法让伴侣敞开心扉而产生的轻度失落或悲伤（sadness）；但该微表情仅为伴随口语叙述的轻微困扰，缺乏持续强烈的哀伤视觉表征，故未采纳。"
+}

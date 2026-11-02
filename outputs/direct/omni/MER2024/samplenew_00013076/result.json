@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013076",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "happy",
+  "emotion_analysis": "该人物在说“正要感谢您呢！谢谢！谢，谢谢。”时，双手合十做出感谢的姿势，结合其话语内容，表现出明显的感激之情。",
+  "output": "该人物在说“正要感谢您呢！谢谢！谢，谢谢。”时，双手合十做出感谢的姿势，结合其话语内容，表现出明显的感激之情。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 5.94864821434021,
+  "node_count": null,
+  "edge_count": null
+}

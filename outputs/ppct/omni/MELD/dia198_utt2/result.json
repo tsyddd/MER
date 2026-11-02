@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia198_utt2",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "Joey is speaking with an open mouth and gesturing with his hands, indicating active and expressive communication. His statement, 'No-no, she kicked our butts. You could be on the Olympic standing-there team,' is delivered in a tone that suggests he is making a strong, emphatic point.",
+  "output": "Joey is speaking with an open mouth and gesturing with his hands, indicating active and expressive communication. His statement, 'No-no, she kicked our butts. You could be on the Olympic standing-there team,' is delivered in a tone that suggests he is making a strong, emphatic point.\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 155.77227973937988,
+  "node_count": 12,
+  "edge_count": 9
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00004468",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "030d3dde52545bf65625b56493419caddcff773c9828571517a26fff72171282",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "angry",
+  "emotion_analysis": "我独立回看frame_00至frame_07，目标人物持续眉头紧锁、双眉下压并面向画外对象说话，后段目光更直接，呈现明显紧绷和质问感。字幕原话“哎，朕，仇院长，离婚，你怎么这么高兴呢？”将质问对象指向对方的“高兴”，并非目标人物在表达开心；[audio_subtitle:E1]对这一语义区分可信，但未提供音轨，不能核验语调。视觉证据[image:E1]与[image:E2]相互补充，支持不满或恼怒；最强反证是也可能在担忧或惊讶，不过持续下压的眉形、紧绷面部和直接质问比单纯惊讶更支持angry。",
+  "output": "我独立回看frame_00至frame_07，目标人物持续眉头紧锁、双眉下压并面向画外对象说话，后段目光更直接，呈现明显紧绷和质问感。字幕原话“哎，朕，仇院长，离婚，你怎么这么高兴呢？”将质问对象指向对方的“高兴”，并非目标人物在表达开心；[audio_subtitle:E1]对这一语义区分可信，但未提供音轨，不能核验语调。视觉证据[image:E1]与[image:E2]相互补充，支持不满或恼怒；最强反证是也可能在担忧或惊讶，不过持续下压的眉形、紧绷面部和直接质问比单纯惊讶更支持angry。\n<answer>angry</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 145.3738498687744
+}

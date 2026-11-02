@@ -1,0 +1,187 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "女子对面前的男子说出对方名字",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "女子指责对方“你除了这些卑劣的手段”",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "女子质问对方“还会什么”",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual",
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_3",
+      "type": "process",
+      "content": "女子对男子说“真是无耻之极”",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual",
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "女子额头中央有一处暗红色伤痕印记",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "女子目光注视着对面的男子",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "女子发音音量较低，带有明显的喘息声与停顿",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "女子嘴唇微启微合，牙齿微露",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_4",
+      "type": "person",
+      "content": "男子目光直视女子，嘴唇微合未言语",
+      "time_index": 4,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "女子与一名束发男子面对面近距离相对",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "女子在喊出男子名字后，接着开口指责对方施展卑劣手段",
+      "entity_anchor": "女子"
+    },
+    {
+      "source": "process_2",
+      "target": "process_1",
+      "relation": "after",
+      "reason": "女子在指责对方手段卑劣之后，紧接着继续质问对方还会什么",
+      "entity_anchor": "女子"
+    },
+    {
+      "source": "process_3",
+      "target": "process_2",
+      "relation": "after",
+      "reason": "女子在质问对方还会什么之后，继续对其斥责评价其无耻至极",
+      "entity_anchor": "女子"
+    },
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "simultaneous",
+      "reason": "女子在凝视对面的男子的同时，发出微弱且带有喘息的声音",
+      "entity_anchor": "女子"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0指出女子先开口点明对方名字木则，process_1提供随后跟进的具体指责内容，联合后构成直呼其名并立即发起言语控诉的完整互动开端。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_1",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "process_1指出对对方手段卑劣的界定，process_2提供对其能力的质问反诘，二者结合形成以“除了……还会什么”为结构的完整反诘指责表述。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_2",
+      "target": "process_3",
+      "relation": "process_joint",
+      "reason": "process_2提供女子对男子的反问质疑，process_3提供随后的定性断言斥责，联合后完整展现由反诘逼问推进至定性痛骂的指责递进过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_1提供女子目光紧盯对方的视觉专注神态，person_3提供其说话时嘴唇微启、牙齿微露的面部细节，联合后更全面地展现其近距离直视对方时的面部神情。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_2",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_2提供听觉上低音量、伴随明显喘息与停顿的发声状态，person_3提供视觉上嘴唇微启微合的口型表现，视听联合展现其说话时微弱且伴有气促的言语表现特征。",
+      "entity_anchor": null
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia239_utt0",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "b7c708f8d9735f8954957fb30790839e5a1cfb9b416c9423567de212ceab0391",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "中性",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据MELD项目的情绪轮定义，'neutral'表示当前平稳、日常且没有明确主导情绪的表达。Gunther的提问是日常的、中性的互动，他的面部表情和语调均未表现出任何强烈的正向或负向情绪，因此最符合'neutral'的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "中性",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据MELD项目适配情绪轮的定义，'neutral'指当前平稳、日常且没有明确主导情绪的表达。Gunther的提问是日常性的，语调平稳，无情绪色彩，符合该定义。"
+    },
+    "image": {
+      "open_emotion": "中性",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据MELD项目的情绪轮定义，'neutral'指当前平稳、日常且没有明确主导情绪的表达。Gunther的面部表情、姿态和视线均未表现出任何强烈的情绪特征，其言语内容为一个简单的日常询问，与中性情绪的定义相符。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物Gunther的提问行为是当前互动的核心。图谱节点person_1描述了他面朝右侧注视Chandler并张口发问，语调带有轻微疑问，这与字幕'Someone in there?'和音频中的疑问语气完全一致。他的表情是中性的，没有表现出愤怒、悲伤或厌恶等情绪的迹象。音频中他的语调平稳，没有明显的音高变化，缺乏表达强烈情感的韵律特征。综合来看，他的视觉表现、言语内容和音频韵律均指向一个平稳、日常的询问行为，没有明确的主导情绪，因此最符合'neutral'的定义。",
+  "output": "目标人物Gunther的提问行为是当前互动的核心。图谱节点person_1描述了他面朝右侧注视Chandler并张口发问，语调带有轻微疑问，这与字幕'Someone in there?'和音频中的疑问语气完全一致。他的表情是中性的，没有表现出愤怒、悲伤或厌恶等情绪的迹象。音频中他的语调平稳，没有明显的音高变化，缺乏表达强烈情感的韵律特征。综合来看，他的视觉表现、言语内容和音频韵律均指向一个平稳、日常的询问行为，没有明确的主导情绪，因此最符合'neutral'的定义。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 146.43749690055847
+}

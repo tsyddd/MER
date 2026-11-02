@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载戴口罩男子在与绿衣男子交流时，先抬头注视对方（person_1），随后连续表达感谢话语（process_0与process_1），并做出双手合十的感谢手势（person_2）。这些行为表明其情绪为积极且真诚的感谢，符合'happy'标签的特征。",
+  "answer": "happy",
+  "evidence_refs": [
+    "person_1",
+    "process_0",
+    "process_1",
+    "person_2"
+  ]
+}

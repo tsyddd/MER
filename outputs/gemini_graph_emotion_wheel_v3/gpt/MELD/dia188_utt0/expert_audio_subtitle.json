@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Joey问“What?”[E1]，是在对眼前情况寻求解释；他同时低头看向地面，并做出向下指示的手势[E2]。话语和动作合在一起，更像一时困惑，而非明确的责备或害怕。",
+  "open_emotion": "困惑",
+  "answer": "surprise",
+  "mapping_reason": "此处的困惑指对眼前情况感到意外、尚未弄明白，近似映射到surprise；这不表示强烈震惊。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "What?",
+      "observation": "当前字幕是一句简短疑问。",
+      "interpretation": "支持Joey正在寻求解释，但单凭这个词不能确定情绪强度。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00（0.000秒）至frame_05（0.375秒）",
+      "observation": "穿白色球衣的Joey低头看向地面，手臂向下伸出，随后收回。",
+      "interpretation": "动作与针对眼前事物发问的困惑相符。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "“What?”也可能只是平常的询问；画面没有清晰的强烈惊讶表情，且未提供音频，无法用语调进一步区分。"
+}

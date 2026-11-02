@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标是右侧穿红色毛衣的Joey，而非左侧低头或中间坐着的男子。他先抬眉、张口并指向自己，随后转为向旁人摊手，表情和动作呈现出追问中的疑惑；字幕中的问题与这一变化相符[E1][E2][E3]。在给定标签中，轻度的surprise最贴近，但不能仅凭张口认定为强烈震惊。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.4587913104622331秒",
+      "observation": "Joey抬眉、张口，右手指向自己。",
+      "interpretation": "面部与指向自己的动作共同支持他正在对一种可能性作出疑问反应；张口也可能只是说话。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.4180822323378113秒；frame_06 @ 2.8361644646756226秒",
+      "observation": "他转向中间的男子，先向对方伸出手，之后掌心向上摊开。",
+      "interpretation": "动作从指自己转为向旁人追问，支持疑惑的表达，而非单一姿势所能确定的情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“And if she didn’t take it, and I didn’t take it; and you didn’t take it, then who did?”",
+      "observation": "字幕列举几人都没有拿，最后提出“那是谁拿的”。",
+      "interpretation": "文字支持将上述手势理解为追问；它不是可见表情，也不能证明说话语调。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的相反解释是neutral：Joey始终坐着，手势也可能只是平常地逐项说明，画面没有明确的突然退缩或持续瞪大眼睛。因此这里判断为追问中的轻度surprise，而非强烈震惊。"
+}

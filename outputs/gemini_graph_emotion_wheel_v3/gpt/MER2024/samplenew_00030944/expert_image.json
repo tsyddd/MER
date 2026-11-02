@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物是穿蓝色上衣、坐在沙发上的短发女性，不是frame_07中面对她的男子。她说话时多次垂眼、眉头略收，随后转向对方，表情较为严肃[E1][E2]。字幕明确表达她担心对方独自在家可能出事[E3]；视觉表现与这种顾虑相符。",
+  "open_emotion": "担心",
+  "answer": "worried",
+  "mapping_reason": "她关注的是对方独自在家后可能发生的负面结果，符合worried所指的对风险和不确定后果的顾虑。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_04（3.08秒）",
+      "observation": "女性坐着说话，视线多次向下，眉头略收，嘴部随说话开合，未见明显笑容。",
+      "interpretation": "表情较为凝重，支持她正认真顾虑某事；仅凭这些动作不能单独确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05（3.84秒）至frame_07（5.36秒）",
+      "observation": "她抬眼看向右侧的男子，随后仍保持较严肃的神情；末帧双手放在膝间，身体朝向对方。",
+      "interpretation": "持续关注谈话对象，没有出现明显的轻松或喜悦转变。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“那，你一个人在家，我还不放心呢，你万一要想不开，怎么办呢？”",
+      "observation": "字幕中，她表示“不放心”，并提出对方独自在家可能“想不开”的情况。",
+      "interpretation": "话语所关注的是尚未发生的风险，支持担心，而非对已发生损失的悲伤。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "frame_05嘴角似有短暂上扬，也可能是交谈中的缓和表情；画面不足以据此判断为开心。没有提供音频，无法用语调核实担忧的强度。"
+}

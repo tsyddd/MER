@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia50_utt2",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "fcd38a66edaf51c357f7f05241b31338cc6543efc841a51ccf79324b15367974",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "fear",
+  "emotion_analysis": "目标人物在被抓包后，身体极度低伏、弯腰护头快速夺路而逃，正如[image:E1]所指出的仓皇逃离动作，具有极高的视觉可信度。独立核对音频（00:00-00:01）亦可清晰听到女学生伴随急促气喘、声调高且发颤的致歉“I’m so sorry!”，与[audio_subtitle:E1]对慌乱畏缩语调的描述高度吻合。尽管突发相遇常伴随短暂震惊，但其并未停顿愣住，而是立刻采取低姿态避险与逃避追责的行为，表明其主导情绪已转为恐惧害怕（fear）而非单纯的惊讶（surprise）。",
+  "output": "目标人物在被抓包后，身体极度低伏、弯腰护头快速夺路而逃，正如[image:E1]所指出的仓皇逃离动作，具有极高的视觉可信度。独立核对音频（00:00-00:01）亦可清晰听到女学生伴随急促气喘、声调高且发颤的致歉“I’m so sorry!”，与[audio_subtitle:E1]对慌乱畏缩语调的描述高度吻合。尽管突发相遇常伴随短暂震惊，但其并未停顿愣住，而是立刻采取低姿态避险与逃避追责的行为，表明其主导情绪已转为恐惧害怕（fear）而非单纯的惊讶（surprise）。\n<answer>fear</answer>",
+  "label": "fear",
+  "elapsed_seconds": 68.63294792175293
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia224_utt2",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "音频中播放的催眠录音内容为“Deeper”，其语调低沉、平稳，旨在引导放松。人物躺在床上，双眼紧闭，处于被动接受状态，无任何情绪化的面部表情或肢体语言。综合视听线索，该场景旨在营造一种平静、放松的氛围。",
+  "output": "音频中播放的催眠录音内容为“Deeper”，其语调低沉、平稳，旨在引导放松。人物躺在床上，双眼紧闭，处于被动接受状态，无任何情绪化的面部表情或肢体语言。综合视听线索，该场景旨在营造一种平静、放松的氛围。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 58.67118763923645,
+  "node_count": 4,
+  "edge_count": 1
+}

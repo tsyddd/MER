@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia263_utt9",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "sadness",
+  "emotion_analysis": "Ross由低头转为抬头并面向前方说话，相关节点为person_0、person_1、person_2及其after、simultaneous关系。字幕节点process_0表明他将不得不放弃某人，当前表达带有明显的失落和无奈，但画面未显示愤怒或恐惧，因此判断为悲伤。",
+  "output": "Ross由低头转为抬头并面向前方说话，相关节点为person_0、person_1、person_2及其after、simultaneous关系。字幕节点process_0表明他将不得不放弃某人，当前表达带有明显的失落和无奈，但画面未显示愤怒或恐惧，因此判断为悲伤。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 45.97335767745972,
+  "node_count": 6,
+  "edge_count": 5
+}

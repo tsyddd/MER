@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "目标人物在当前片段中表现出急切辩解的状态。她直视前方，同时以急促连贯的语调说出“我不知道这件旗袍是你的”，这表明她正试图快速澄清或否认某事。图谱中的节点process_0和person_1描述了这一核心事件，其急促的语调与辩解内容高度一致，共同指向一种急于撇清关系的情绪。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "女子嘴唇张合吐字，语调急促连贯。",
+      "interpretation": "急促的语调表明说话者情绪紧张，急于表达，这与辩解或否认时的焦虑状态相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "女子说出“我不知道这件旗袍是你的”。",
+      "interpretation": "该话语内容是一种直接的否认，通常发生在需要澄清误会或试图撇清责任的情境中，这与焦虑或担忧的情绪状态相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "女子面向前方，目光直视正前方。",
+      "interpretation": "直视前方的视线表明她正直接面对对话对象，没有回避，这强化了她急于解释和澄清的意图，是焦虑情绪在行为上的体现。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "一种可能的替代解释是，她正在表达惊讶（surprise）。然而，图谱中明确描述其语调为“急促连贯”，这与惊讶时可能出现的短促、音调上扬的反应不符。因此，尽管有惊讶的可能，但当前证据更强烈地支持焦虑（worried）的判断。"
+}

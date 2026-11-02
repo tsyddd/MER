@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是沙发上的深发女子Monica，不是门边背对镜头的长发女子。她从坐着持书转为迅速前倾、伸手，随后猛地回头，眼睛睁大、嘴张开，呈现突然被打断般的反应[E1][E2]。字幕中的连续否定表明她在阻止或反对某事[E3]，但不能仅凭这些判断她感到害怕或愤怒。",
+  "open_emotion": "吃惊",
+  "answer": "surprise",
+  "mapping_reason": "当前最清楚的是突发、出乎预期的反应，因此将“吃惊”映射为surprise；反对的具体原因不可见。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02（0.584秒）至frame_05（1.418秒）",
+      "observation": "Monica坐在沙发上持书，张口并抬手，随后快速前倾、伸手；门边长发女子是另一人。",
+      "interpretation": "动作由坐姿迅速转为主动反应，支持突发性。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_06（1.710秒）至frame_07（2.002秒）",
+      "observation": "Monica迅速回头，最后一帧眼睛睁大、嘴张开。",
+      "interpretation": "与此前动作连在一起，更支持她正对某事感到意外；单凭张口不能确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“No-no-no, no!”",
+      "observation": "字幕是连续的否定话语。",
+      "interpretation": "支持她在即时反对或阻止某事，但未说明原因，也不能代替音轨语调。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "快速伸手和连续说“不”也可能是焦急地制止某事，而非单纯吃惊；片段未显示她所针对的对象或明确威胁，无法据此确认恐惧。"
+}

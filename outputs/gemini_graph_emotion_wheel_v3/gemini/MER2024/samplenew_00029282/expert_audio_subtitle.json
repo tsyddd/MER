@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物在说出台词时带有极重、破碎的哭腔与抽泣声，语声颤抖哽咽。台词虽然包含‘没想到’这类表面具意外色彩的词语，但在当前的言语行为中，‘没想到你竟然这么傻’实际表达的是对对方付出的极度心疼、难过与悲痛，而非中性的陈述或惊讶。视觉上满面泪痕、嘴角抽搐下撇的痛哭表情也印证了声音中强烈的悲伤情绪。",
+  "open_emotion": "悲痛",
+  "answer": "sad",
+  "mapping_reason": "开放词‘悲痛’表达因痛苦、心疼及不幸引发的极度悲伤与失落，符合MER情绪轮中sad（伤心、哀痛、低落）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00 - 00:02.56",
+      "observation": "发音时伴有明显的吸气抽噎声与哭腔，声调发颤、音色破碎哽咽。",
+      "interpretation": "反映出强烈的悲伤与克制不住的哭泣状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "没想到，你竟然这么傻。",
+      "observation": "以心疼感叹的句式评价对方‘这么傻’。",
+      "interpretation": "言语行为并非责备或指责，而是面对对方令人心痛的行为所流露的心碎与哀伤。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 - frame_07",
+      "observation": "眉头深锁、眼含泪光、嘴角剧烈下扯抽搐，呈现典型的痛哭容貌。",
+      "interpretation": "与声音中的哭腔高度一致，确立主导情感为悲伤痛苦。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词含有‘没想到’，且有对对方‘傻’的评价，字面上可能被误认为surprise或angry，但音频中的抽泣哭腔与面部哀痛完全排除了愤怒对抗或单纯的诧异。"
+}

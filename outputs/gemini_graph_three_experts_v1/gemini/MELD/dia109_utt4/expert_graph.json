@@ -1,0 +1,13 @@
+{
+  "expert": "graph",
+  "reason": "根据节点〔process_1〕与〔process_2〕记载，Janice在餐厅与男士交流时持续进行陈述与解释，动作上从双手环抱转为在胸前自然配合手势比划〔person_0〕〔person_2〕。图谱记载其说话时虽语调有所起伏〔person_1〕，且伴随头部微倾与手指比画〔person_3〕，但整体属于正常的交谈解释状态，未表现出愤怒、恐惧、喜悦等显著极端情绪，符合客观中立的表达特征。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "process_1",
+    "process_2",
+    "person_0",
+    "person_1",
+    "person_2",
+    "person_3"
+  ]
+}

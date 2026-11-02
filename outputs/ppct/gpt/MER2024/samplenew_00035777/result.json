@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035777",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "angry",
+  "emotion_analysis": "目标男性在近景中由前倾姿态（person_1）配合持续张口说话（person_0），随后仍保持紧绷的面部表情并转为较直立、看向右下方（person_2），person_1与person_2的“after”关系显示其姿态发生调整但表达仍较强烈。字幕“诚实，是做生意的根本”是其当前说出的观点（process_0），结合皱眉、紧抿或张口强调的表情与前倾动作，更符合带有明显严厉和激动色彩的angry，而非平静陈述。",
+  "output": "目标男性在近景中由前倾姿态（person_1）配合持续张口说话（person_0），随后仍保持紧绷的面部表情并转为较直立、看向右下方（person_2），person_1与person_2的“after”关系显示其姿态发生调整但表达仍较强烈。字幕“诚实，是做生意的根本”是其当前说出的观点（process_0），结合皱眉、紧抿或张口强调的表情与前倾动作，更符合带有明显严厉和激动色彩的angry，而非平静陈述。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 104.3132712841034,
+  "node_count": 6,
+  "edge_count": 5
+}

@@ -1,0 +1,12 @@
+{
+  "expert": "graph",
+  "reason": "Joey先以平稳、略带反驳的方式纠正对方，并配合指向和摊手等强调手势〔person_0〕〔person_1〕〔process_0〕。随后他继续用调侃性的说法回应，语速平缓、尾音轻落，整体表现为克制自然而非强烈情绪〔process_1〕〔person_4〕。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "process_0",
+    "process_1",
+    "person_4"
+  ]
+}

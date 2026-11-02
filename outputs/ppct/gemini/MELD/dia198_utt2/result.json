@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia198_utt2",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "Joey在反驳并调侃对方时（process_0结合process_1），配合食指指向与向前摊手的手势（person_0、person_2），语调整体平稳克制（person_1），句末放下手自然注视对方且尾音轻落（person_3与person_4同时发生），并无激烈愤怒或夸张欣喜，整体表现为平和客观的日常反驳，处于中性情绪状态。",
+  "output": "Joey在反驳并调侃对方时（process_0结合process_1），配合食指指向与向前摊手的手势（person_0、person_2），语调整体平稳克制（person_1），句末放下手自然注视对方且尾音轻落（person_3与person_4同时发生），并无激烈愤怒或夸张欣喜，整体表现为平和客观的日常反驳，处于中性情绪状态。\n<answer>neutral</answer>",
+  "label": "anger",
+  "elapsed_seconds": 52.02911710739136,
+  "node_count": 8,
+  "edge_count": 9
+}

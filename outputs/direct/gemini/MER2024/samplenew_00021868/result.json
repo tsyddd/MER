@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00021868",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "镜头中的男子神情平静内敛，眼神低垂，说话语调低沉平缓，没有表现出强烈的悲伤、愤怒或担忧等激烈情绪，整体处于冷静的陈述状态。",
+  "output": "镜头中的男子神情平静内敛，眼神低垂，说话语调低沉平缓，没有表现出强烈的悲伤、愤怒或担忧等激烈情绪，整体处于冷静的陈述状态。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 7.8743438720703125,
+  "node_count": null,
+  "edge_count": null
+}

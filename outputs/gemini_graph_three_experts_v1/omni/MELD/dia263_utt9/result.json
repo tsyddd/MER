@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia263_utt9",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "748766277a851f3c168859458c00ae3a054753904e4b2ab4fc17828900a7ca74",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "音频描述明确指出语气低沉、语速缓慢且带有无奈和失落感，符合悲伤情绪的典型特征；图像和文本虽显示平静状态，但音频作为听觉证据更具情绪辨识力，且与话语内容'放弃某人'高度一致，因此优先采纳音频判断。",
+  "output": "音频描述明确指出语气低沉、语速缓慢且带有无奈和失落感，符合悲伤情绪的典型特征；图像和文本虽显示平静状态，但音频作为听觉证据更具情绪辨识力，且与话语内容'放弃某人'高度一致，因此优先采纳音频判断。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 36.802677631378174
+}

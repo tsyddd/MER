@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia50_utt2",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "fear",
+  "emotion_analysis": "女学生在图书馆书架后被当场抓包，神情慌乱地弯腰躲避并迅速逃离现场。她声音紧绷、急促而惶恐地喊出“I'm so sorry!”，表现出被抓现行后的惊慌与害怕受罚的情绪。",
+  "output": "女学生在图书馆书架后被当场抓包，神情慌乱地弯腰躲避并迅速逃离现场。她声音紧绷、急促而惶恐地喊出“I'm so sorry!”，表现出被抓现行后的惊慌与害怕受罚的情绪。\n<answer>fear</answer>",
+  "label": "fear",
+  "elapsed_seconds": 11.160434246063232,
+  "node_count": null,
+  "edge_count": null
+}

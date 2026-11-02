@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013200",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "angry",
+  "emotion_analysis": "结合节点person_0、person_1与person_3的联合表现，目标人物紧盯对方并怒目圆睁，头部前倾进行逼视。在音频中，他语速急促、音量高亢且充满斥责意味（person_1、process_0），强烈指责对方背信弃义的行为，明显处于愤慨状态。",
+  "output": "结合节点person_0、person_1与person_3的联合表现，目标人物紧盯对方并怒目圆睁，头部前倾进行逼视。在音频中，他语速急促、音量高亢且充满斥责意味（person_1、process_0），强烈指责对方背信弃义的行为，明显处于愤慨状态。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 50.820961475372314,
+  "node_count": 6,
+  "edge_count": 5
+}

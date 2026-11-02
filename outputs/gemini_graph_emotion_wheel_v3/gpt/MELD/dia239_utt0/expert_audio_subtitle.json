@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Gunther问“Someone in there?”，是在确认里面是否有人；问句本身没有表达惊讶或害怕。[E1] 他看向所问方向，表情较平稳，与日常询问一致。[E2]",
+  "open_emotion": "平常",
+  "answer": "neutral",
+  "mapping_reason": "当前可见的是平稳的确认性询问，没有明确占主导的情绪反应，因此映射为neutral。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Someone in there?",
+      "observation": "字幕是一句询问里面是否有人的短问句。",
+      "interpretation": "其言语行为是确认情况，不能仅凭疑问句判定惊讶或担忧。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02（0.5005秒）至frame_03（0.7507秒）",
+      "observation": "左侧的Gunther看向右方，开口说话，面部未见明显夸张的情绪动作。",
+      "interpretation": "可见表现与平常询问相符。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "这句短问话也可能带有疑惑；但没有音频，无法核实语调，现有字幕和画面不足以进一步判定为惊讶或恐惧。"
+}

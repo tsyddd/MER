@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00013200",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "e4bae7c80b439e4a7f0b4b40b4f348c523e3f9346140a2af207f7d850c976f73",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "愤慨",
+      "mapped_label": "angry",
+      "mapping_reason": "开放情绪“愤慨”体现了面对他人不公或冒犯行为时的生气与严厉责备倾向，符合情绪轮中angry家族的核心定义，故映射为angry。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "愤慨",
+      "mapped_label": "angry",
+      "mapping_reason": "开放情绪'愤慨'是对违约与不公行为的强烈责备与对抗心理，与情绪轮中angry家族定义的'对受阻、冒犯或不公的生气、责备、敌意及对抗倾向'高度契合，直接映射至angry。"
+    },
+    "image": {
+      "open_emotion": "愤慨",
+      "mapped_label": "angry",
+      "mapping_reason": "目标人物在面对他人背约时表现出明显的怒目、斥责和敌对责备倾向，符合angry家族关于受到违背、冒犯时产生敌意与对抗的表现定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "angry",
+  "emotion_analysis": "目标人物在台词中直接谴责对方“背信弃义，你一个劲地抬价”，音频在“背信弃义”与“抬价”上音量骤升、咬字重读加力，伴随极强的责备压迫感[audio_subtitle:E2]。视觉上，目标人物从前段咬牙逼近[image:E1]到frame 5至frame 7双目怒瞪、下颌张开发难[image:E2]，整体呈现出被欺骗冒犯后的对抗与声讨态势。虽然睁大双眼的视觉特征容易被误判为surprise，但结合持续的正面质问与高唤醒斥责语调，实为怒目而视而非接收突发意外信息，主导情绪明确属于angry。",
+  "output": "目标人物在台词中直接谴责对方“背信弃义，你一个劲地抬价”，音频在“背信弃义”与“抬价”上音量骤升、咬字重读加力，伴随极强的责备压迫感[audio_subtitle:E2]。视觉上，目标人物从前段咬牙逼近[image:E1]到frame 5至frame 7双目怒瞪、下颌张开发难[image:E2]，整体呈现出被欺骗冒犯后的对抗与声讨态势。虽然睁大双眼的视觉特征容易被误判为surprise，但结合持续的正面质问与高唤醒斥责语调，实为怒目而视而非接收突发意外信息，主导情绪明确属于angry。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 57.82856202125549
+}

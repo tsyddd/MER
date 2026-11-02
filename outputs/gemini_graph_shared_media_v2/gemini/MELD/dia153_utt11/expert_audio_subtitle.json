@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Chandler使用虚拟条件句及夸张的自嘲修辞（'peeing every which way'）来回应Joey，言语行为属于冷静的反驳与讽刺说明[E1]。其语调平稳从容、节奏规整、音量适中，虽提及枪口与失禁等极端情境，但说话者当下并无实际恐慌或愤怒，整体呈典型的冷幽默客观陈述状态[E2]。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Yeah, Joe, I assure you if I'm staring down the barrel of a gun, I'm pretty much peeing every which way.",
+      "observation": "句中通过假设条件句进行自嘲与情景反驳，词汇虽涉及危险意象，但实际功能为消解严肃气氛的讽刺表述。",
+      "interpretation": "字面上的恐惧词汇不等于实际当下的情绪体验，其交际意图仅为冷幽默陈述。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0:00-0:04",
+      "observation": "Chandler发音清晰稳定，重音落在'assure you'与'peeing'上，音质松弛无颤抖或急促喘息，随后引发背景观众笑声。",
+      "interpretation": "韵律特征展示出从容自信与掌控对话节奏的状态，排除了真实恐惧或激烈愤怒的声学表征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04 @ 3.253s",
+      "observation": "Chandler面部表情平静，单手轻微摆动以示强调，身体姿态放松。",
+      "interpretation": "视觉上缺乏惊恐瞪眼、皱眉或攻击性身体动作，与中性稳定的交流姿态一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "因涉及'staring down the barrel of a gun'等危险描写及滑稽反差，可能被误判为joy（幽默/开玩笑）或fear（受词义误导）；但其语调极为冷静克制，面部无笑容或惊惶，故判定为neutral。"
+}

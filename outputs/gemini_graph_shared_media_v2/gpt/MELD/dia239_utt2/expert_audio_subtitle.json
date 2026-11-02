@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "钱德勒说到一半突然改口打招呼，并在接下来的问句中反复卡顿；结合他转向刚出现的女子及张手的动作，更支持一时的惊讶，而不是单纯平静地提问[E1][E2][E3]。没有音频，不能据此判断实际语调。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Jeez, man did you fall.. Hi!",
+      "observation": "原先的话未说完，随即转为“Hi!”。",
+      "interpretation": "突然转换话语对象和内容，支持他对眼前变化感到意外。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "So ah, did ya, did-did-did ya fall high?",
+      "observation": "问句中有“ah”和重复的“did”。",
+      "interpretation": "表达显得仓促、不流畅；单凭文字不能确定这是惊讶还是紧张。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04 @ 3.837163687502313秒",
+      "observation": "钱德勒面对女子，眉毛抬起，一手向外摊开。",
+      "interpretation": "动作与突然招呼、临时接续问话的解释相符。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的替代解释是紧张或害怕：重复词语也可能出于局促。但字幕没有明确表达恐惧，画面也不足以确认害怕；缺少音频，无法进一步用语调区分。"
+}

@@ -1,0 +1,10 @@
+{
+  "reason": "Rachel的言语内容（'what am I gonna do, it's been hours and it won't stop crying'）和高亢急促的语调（[audio_subtitle:E1]）直接表达了她的无助和沮丧。她的面部表情（[image:E1]）和肢体语言（[image:E2]）也一致地表现出痛苦和焦虑。虽然[graph:E1]将她的表情解释为焦虑，但[graph:E2]的音频分析准确地捕捉到了其高亢、带有哭腔的绝望语调，这与'sadness'的情绪标签高度吻合。尽管有专家认为是'anger'，但Rachel的语调并非攻击性或低沉的愤怒，而是无助的哭腔，因此'sadness'是更准确的描述。",
+  "answer": "sadness",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "audio_subtitle:E1",
+    "image:E3"
+  ]
+}

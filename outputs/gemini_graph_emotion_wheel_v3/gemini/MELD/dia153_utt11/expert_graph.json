@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "在当前对话中，Chandler针对Joey提出的假设情境进行回应。图谱节点[process_1]明确指出其关于'面对枪口吓得尿裤子'的表述纯属假设情境陈述，而非当前正在发生的真实威胁；结合音频核实，Chandler发声时语速平稳、音调自然，并无惊恐颤抖或激动笑意[person_1]；视觉上他双手叉腰并配合单手挥动，表现出日常交流与死板幽默（deadpan）的陈述姿态，属于典型的平稳中性互动。",
+  "open_emotion": "平常",
+  "answer": "neutral",
+  "mapping_reason": "Chandler在交谈中表现冷静平稳、实事求是地陈述看法，没有出现强烈恐惧、愤怒或欣喜等主导情绪，符合情绪轮中neutral（平稳、平常、无明显情绪）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "图谱记录Chandler配合手势对Joey说如果自己面对枪口会吓得尿裤子，以此陈述假设情境。",
+      "interpretation": "表明台词中的极端情境属于对假想状态的言语调侃与说明，而非当前真实的危险体验。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:04",
+      "observation": "Chandler说出'Yeah, Joe, I assure you...'时，语调平稳沉着、连贯自如，未出现呼吸急促或高亢破音。",
+      "interpretation": "听觉上证实其表达处于放松稳定的日常交谈状态，无情绪失控征兆。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04",
+      "observation": "Chandler面部神态平静，右手在身前轻微摆动以辅助说明，未出现皱眉惊恐或大笑表情。",
+      "interpretation": "面部与肢体展现出中性的言语互动常态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词内容描述了'staring down the barrel of a gun'等危险恐慌词汇，容易被误判为fear；但事件语义表明该内容仅为假设性举例修辞，其当下真实状态完全平稳。"
+}

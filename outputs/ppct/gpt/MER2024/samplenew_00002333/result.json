@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00002333",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "happy",
+  "emotion_analysis": "当前主人物坐在沙发上说话，画面中嘴部持续开合，且前几帧可见明显笑容和较放松的面部表情。依据图谱节点process_0与process_1及其process_joint关系，可确认他正在表达字幕内容；节点person_0与person_1及其person_joint关系显示其后靠坐姿和说话动作，整体更符合愉快而非悲伤、愤怒或担忧。",
+  "output": "当前主人物坐在沙发上说话，画面中嘴部持续开合，且前几帧可见明显笑容和较放松的面部表情。依据图谱节点process_0与process_1及其process_joint关系，可确认他正在表达字幕内容；节点person_0与person_1及其person_joint关系显示其后靠坐姿和说话动作，整体更符合愉快而非悲伤、愤怒或担忧。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 39.788557291030884,
+  "node_count": 5,
+  "edge_count": 2
+}

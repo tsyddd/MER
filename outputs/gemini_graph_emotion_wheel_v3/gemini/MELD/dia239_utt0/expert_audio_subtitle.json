@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Gunther在询问洗手间/门内情况时，话语简短，语调呈轻度上升的常规询问音调，音量适中且节奏平稳，没有任何高唤醒的紧张、愤怒或极度惊讶痕迹；视觉上面部神情放松自然，属于日常、平淡的情景互动。",
+  "open_emotion": "平淡询问",
+  "answer": "neutral",
+  "mapping_reason": "目标人物的言语行为仅为日常信息确认，语调平稳无明显情感偏向，符合情绪轮中neutral（平稳、日常且无明显主导情绪）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "0.0s-0.7s",
+      "observation": "Gunther说出'Someone in there?'时音质平稳，末尾仅有轻微的常规疑问句升调，无剧烈的音高跳跃或颤抖。",
+      "interpretation": "体现出日常且平和的探询态度，缺乏强烈情感色彩。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01-frame_03",
+      "observation": "Gunther侧身站立，面部表情自然放松，眉头微平，仅嘴部根据发音张合，未见瞪眼、皱眉或嘴角下撇。",
+      "interpretation": "视觉上无显著的情绪激活体征，与中性言语表现一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "疑问句式可能隐含一定程度的好奇或轻微疑惑，但缺乏明显的音高突变或睁眼张嘴等强烈惊异反应，不足以支撑surprise标签。"
+}

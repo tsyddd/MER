@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "目标是左侧空乘，而非笑容明显的右侧乘客。她向乘客致谢并祝其旅途愉快[E1]，随后继续面向对方[E2][E3]；这是连贯的礼貌服务互动。画面中她的表情较平稳，后段略带笑意，但没有足够证据表明喜悦占主导[E2]。图谱对语调的描述来自未提供的音轨，不能作为亲耳核实的依据[E4]。",
+  "open_emotion": "平和礼貌",
+  "answer": "neutral",
+  "mapping_reason": "当前表达以平稳、日常的礼貌交流为主，较符合neutral；这里并非因缺少音轨而默认中性，也不把礼貌用语直接等同于joy。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“Thank you!  Enjoy your flight?”",
+      "observation": "当前字幕是致谢和祝旅途愉快的话语。",
+      "interpretation": "结合图谱process_0，这是空乘对乘客发起的礼貌交流；话语本身不足以证明她正在开心。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05（1.5014988342400355秒）至frame_07（2.127123348506717秒）",
+      "observation": "左侧空乘持续朝向右侧女子，面部较平稳，后段嘴角略有上扬。",
+      "interpretation": "支持礼貌、温和的当前表达；右侧女子更明显的笑容不能归给空乘。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "节点称空乘说完后仍面向女子，接收互动。",
+      "interpretation": "与画面中的持续朝向相符，补足当前互动顺序；节点顺序本身不证明她因对方的反应而产生某种情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "节点转述空乘语调上扬、语速平稳、声音清晰，但本次未提供原音轨。",
+      "interpretation": "保留为未经亲耳核验的音频派生描述，不用它单独判定情绪。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "空乘后段略带笑意，可以解释为轻微愉悦；但也符合礼貌性的服务微笑。现有可核实画面与话语不足以将joy判为主导情绪。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035777",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "16f51d5dc6065a268e5e910bb5bfbb8899c3b3f3bb04d1e2c3670d7e68263a35",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "happy",
+  "emotion_analysis": "图像专家指出男子多帧呈现咧嘴大笑、眼角皱纹等典型开心特征，整体情绪积极；音频专家认为语气坚定、音量大、语速快，带有训诫意味，判断为愤怒；图谱专家结合声音洪亮、身体前倾等动作，认为情绪由激昂转为收敛，当前状态更接近中性。图像证据直接反映面部表情，且多帧一致显示积极情绪，相较音频的主观语气判断更具客观性，因此优先采纳图像证据。",
+  "output": "图像专家指出男子多帧呈现咧嘴大笑、眼角皱纹等典型开心特征，整体情绪积极；音频专家认为语气坚定、音量大、语速快，带有训诫意味，判断为愤怒；图谱专家结合声音洪亮、身体前倾等动作，认为情绪由激昂转为收敛，当前状态更接近中性。图像证据直接反映面部表情，且多帧一致显示积极情绪，相较音频的主观语气判断更具客观性，因此优先采纳图像证据。\n<answer>happy</answer>",
+  "label": "angry",
+  "elapsed_seconds": 51.03698682785034
+}

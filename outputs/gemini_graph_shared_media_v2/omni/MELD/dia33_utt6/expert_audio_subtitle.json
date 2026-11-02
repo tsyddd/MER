@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者在音频中表现出高亢、急促的语调，音量大，语速快，带有明显的哭腔和绝望感。字幕内容“what am I gonna do, it's been hours and it won't stop crying”直接表达了她的无助和沮丧。视觉上，她的表情痛苦，眉头紧锁，嘴巴张开，与声音中的绝望情绪完全一致。综合视听证据，她的主要情绪是绝望和沮丧。",
+  "answer": "sadness",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:05.172",
+      "observation": "说话者的声音高亢、急促，带有明显的哭腔和绝望感。",
+      "interpretation": "这种语调和音质是悲伤和沮丧情绪的典型表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Oh come on, what am I gonna do, its been hours and it won’t stop crying.",
+      "observation": "字幕内容表达了说话者的无助和沮丧。",
+      "interpretation": "话语内容直接支持了悲伤的情绪判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04 @ 00:00:02.961",
+      "observation": "说话者的表情痛苦，眉头紧锁，嘴巴张开。",
+      "interpretation": "面部表情与声音中的绝望情绪一致，加强了悲伤的判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽然说话者的语调听起来有些激动，但其核心内容是表达无助和沮丧，而非愤怒。没有证据表明她有愤怒的情绪。"
+}

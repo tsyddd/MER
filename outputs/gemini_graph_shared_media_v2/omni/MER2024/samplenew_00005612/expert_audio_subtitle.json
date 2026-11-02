@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者语气平稳，无明显情绪波动，内容为中性请求。字幕与音频一致，表达的是客观指令。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "说话者以平稳的语调说出“请您转交给总理过目”。",
+      "interpretation": "语调平稳，无明显情绪色彩，符合中性表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "00:00-00:02",
+      "observation": "字幕显示“请您转交给总理过目”。",
+      "interpretation": "字幕内容为中性请求，与音频一致，无情绪化词汇。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 @ 00:00",
+      "observation": "说话者表情严肃，目光坚定。",
+      "interpretation": "表情严肃，但这是在正式场合下的常态，不构成情绪表达。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无明确反证，但需注意，仅凭字幕和音频无法完全排除轻微的严肃或急切情绪，但当前证据更支持中性判断。"
+}

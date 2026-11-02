@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "Monica边向前移动边说出“What?! Excuse me!”〔process_0〕〔process_1〕，并面向前方注视、张嘴〔person_1〕。图谱记载她发音音量较大且尾音上扬〔person_2〕，结合主动靠近介入和质问式表达，当前更符合愤怒情绪。",
+  "answer": "anger",
+  "evidence_refs": [
+    "process_0",
+    "process_1",
+    "person_1",
+    "person_2"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "reason": "Monica在多个连续帧中表现出明显的微笑，嘴角上扬，眼睛周围有皱纹，这是典型的喜悦表情。她的视线与旁边的Chandler有互动，姿态放松，显示出积极的社交参与。字幕显示她说'Yeah baby!'，这是一句表达兴奋和喜爱的口语，与她的面部表情和姿态高度一致。音频中她的语调上扬，充满活力，进一步支持了喜悦的判断。三个专家的证据均一致指向joy，且所有模态的证据都相互印证，没有矛盾。",
+  "answer": "joy",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "image:E3",
+    "image:E4",
+    "audio_subtitle:E1",
+    "audio_subtitle:E2",
+    "audio_subtitle:E3",
+    "graph:E1",
+    "graph:E2",
+    "graph:E3",
+    "graph:E4"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "乔伊在讨论失踪物品时持续说话并向钱德勒和罗斯张开手势〔process_0〕〔process_1〕，随后询问是谁拿了它并把双手放回腿上等待回应〔process_2〕〔person_5〕。这些行为体现出以提问和互动为主的表达，未见明确的愤怒、悲伤或喜悦迹象。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "process_0",
+    "process_1",
+    "process_2",
+    "person_5"
+  ]
+}

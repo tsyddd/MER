@@ -1,0 +1,13 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载Monica在直视对方并上身前倾时，语速较快且语调严肃坚决〔person_0, person_1〕。随后她严正指责该笑话不好笑且冒犯了女性和医生〔process_0, process_1〕，并伴随挥手手势、嘴部大张且音量明显增大〔person_2, person_3〕，展现出强烈的愤怒与反驳情绪。",
+  "answer": "anger",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "process_0",
+    "process_1",
+    "person_2",
+    "person_3"
+  ]
+}

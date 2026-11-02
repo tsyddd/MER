@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，因此无法判断声调、音量、语速或停顿。仅从字幕中的“Oh my God!”及对年龄与处境的强调来看，当前主要表现为强烈的惊讶。",
+  "answer": "surprise",
+  "evidence_refs": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia109_utt4",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "b1102943bbcf1af1e117a380fae997536de4112a2f80180e05feb45af20ee7b2",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "audio_subtitle专家指出了关键台词“Oh, are you sure?”及其带有突出意外感的高音调与反问语气，体现了对对方决定的惊讶；而image与graph专家主要基于正常的交谈姿态与平稳神态判断为neutral，忽略了反问句和惊奇语气中蕴含的情绪。鉴于听觉线索对该反问语境下的情绪指向更直接明确，综合判定为surprise。",
+  "output": "audio_subtitle专家指出了关键台词“Oh, are you sure?”及其带有突出意外感的高音调与反问语气，体现了对对方决定的惊讶；而image与graph专家主要基于正常的交谈姿态与平稳神态判断为neutral，忽略了反问句和惊奇语气中蕴含的情绪。鉴于听觉线索对该反问语境下的情绪指向更直接明确，综合判定为surprise。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 36.646225929260254
+}

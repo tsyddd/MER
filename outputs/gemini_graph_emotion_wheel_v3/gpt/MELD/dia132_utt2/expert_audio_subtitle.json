@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Phoebe在描述一名男子的年龄和外貌，话语以提供信息为主。[E1] “very attractive”是对对方外貌的正面评价，但不足以表明她此刻感到喜悦。画面中她面对听者持续说明、配合手势，未见明显的兴奋或其他主导情绪反应。[E2] 本片段没有音频，不能据此判断语调。",
+  "open_emotion": "平常",
+  "answer": "neutral",
+  "mapping_reason": "当前表达主要是平稳地陈述人物特征，符合neutral所指的日常、无明确主导情绪的表达；这不否定她对所描述对象有正面评价。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "And umm, he’s like early to mid-thirties, very attractive.",
+      "observation": "话语描述一名男子的大致年龄，并评价其外貌。",
+      "interpretation": "句子的主要言语行为是介绍人物特征；正面形容词不直接等于说话者当前的喜悦。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02（1.25125秒）至frame_07（4.379375秒）",
+      "observation": "Phoebe面向听者说话，双手随说明动作，面部表情总体较为平稳。",
+      "interpretation": "视觉表现与日常说明相符，未提供明确的强烈情绪线索。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "“very attractive”也可能带有欣赏意味；若有音频，语气或可帮助区分欣赏与平常描述，但本片段未提供音轨，不能核实这一点。"
+}

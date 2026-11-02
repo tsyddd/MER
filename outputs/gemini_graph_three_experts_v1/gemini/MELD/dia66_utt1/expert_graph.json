@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "根据节点process_0和person_0，空乘人员在客舱中面向乘客礼貌致意并说出“Thank you! Enjoy your flight?”；图谱记载其语调上扬、语速平稳且声音清晰（person_1），整体表现出专业规范的常规客舱服务仪态，未表现出强烈的情绪波动，情绪属于中立。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "process_0",
+    "person_0",
+    "person_1"
+  ]
+}

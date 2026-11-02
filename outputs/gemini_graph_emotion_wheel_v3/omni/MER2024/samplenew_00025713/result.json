@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00025713",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "6276692c6cfc354003e575f92e375614a390c427cbb800fa58633127fa42f7c5",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据情绪轮定义，'surprise'（惊讶）是因当前信息违背预期而产生的意外、诧异或震惊。目标人物的反应是即时的、非预期的，其睁大眼睛和张嘴的面部表情是惊讶的直接证据。该情绪与担忧（关注未来风险）或悲伤（关注已发生损失）有本质区别，因此映射为'surprise'是准确的。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据情绪轮定义，'surprise'（惊讶）指因当前信息违背预期产生的意外、诧异或震惊。目标人物的台词和语调明确表达了对“被知道”的意外，这与'surprise'的定义完全吻合。"
+    },
+    "image": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据情绪轮定义，'surprise'（惊讶）是因当前信息违背预期而产生的意外、诧异或震惊。目标人物的面部表情（睁大眼睛、上扬的眉毛、微张的嘴）与字幕中表达的即时疑问完全一致，表明他正在经历一个被打破预期的瞬间。该反应是直接的，而非对未来的焦虑（worried）或对冒犯的对抗（angry），因此最符合'surprise'的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "目标人物的台词“你。你。怎么知道的？”及其上扬的疑问语调，结合其睁大眼睛、上扬眉毛和微张嘴巴的面部表情，共同构成了对当前信息违背预期的即时反应。专家的视觉、音频和字幕分析均一致指向惊讶（surprise）这一情绪。其中，[image:E1]和[audio_subtitle:E2]提供了直接且互补的证据，证实了惊讶的生理和语言表现。尽管[graph:E1]提到了短暂的垂目，但该动作是短暂的，且紧随其后的是睁大眼睛的强烈反应，因此更应被视为惊讶过程中的一个瞬间，而非主导情绪。综合来看，所有证据都强烈支持惊讶这一结论。",
+  "output": "目标人物的台词“你。你。怎么知道的？”及其上扬的疑问语调，结合其睁大眼睛、上扬眉毛和微张嘴巴的面部表情，共同构成了对当前信息违背预期的即时反应。专家的视觉、音频和字幕分析均一致指向惊讶（surprise）这一情绪。其中，[image:E1]和[audio_subtitle:E2]提供了直接且互补的证据，证实了惊讶的生理和语言表现。尽管[graph:E1]提到了短暂的垂目，但该动作是短暂的，且紧随其后的是睁大眼睛的强烈反应，因此更应被视为惊讶过程中的一个瞬间，而非主导情绪。综合来看，所有证据都强烈支持惊讶这一结论。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 221.47918891906738
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00036745",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "当前人物坐在电脑前面向前方，嘴部开合并在随后抬手指向左侧前方，相关节点为person_0、person_1、person_2，且person_2发生在person_0之后并与person_1共同构成说话伴随手势。字幕中的process_0与process_1是在转述前两天与汪淼观测的事情，当前表达是process_2“我去查”，体现正在说明调查行动。画面和表达未显示明确的愤怒、悲伤、喜悦、担忧或惊讶，因此判定为中性。",
+  "output": "当前人物坐在电脑前面向前方，嘴部开合并在随后抬手指向左侧前方，相关节点为person_0、person_1、person_2，且person_2发生在person_0之后并与person_1共同构成说话伴随手势。字幕中的process_0与process_1是在转述前两天与汪淼观测的事情，当前表达是process_2“我去查”，体现正在说明调查行动。画面和表达未显示明确的愤怒、悲伤、喜悦、担忧或惊讶，因此判定为中性。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 125.51142144203186,
+  "node_count": 11,
+  "edge_count": 7
+}

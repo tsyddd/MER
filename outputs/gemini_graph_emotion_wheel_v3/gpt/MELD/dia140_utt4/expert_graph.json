@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "Ross当前面对Joey提出“写一出戏”的想法，而非描述自己已经写过戏。[E1] 画面中他始终朝向Joey，边说边有小幅手势；虽显得认真，但没有足以判定愤怒、恐惧或喜悦的当前反应。[E2] 图谱的process_0记录的是同一次当面发言，与字幕和画面相互对应，不能当作额外的情绪证据。[E3] 图谱另称语音中有词语重复，但未提供原音轨，无法亲耳核验，更不能由重复直接推断焦虑。[E4] 因而当前较有依据的是平稳地表达想法。",
+  "open_emotion": "平稳",
+  "answer": "neutral",
+  "mapping_reason": "当前表达以向Joey说明一个想法为主，未见明确占主导的情绪反应，故将“平稳”映射为neutral；这不等于仅因缺少音轨而选择中性。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Y'know, like-like write a play.",
+      "observation": "当前话语提出“写一出戏”这个想法。",
+      "interpretation": "语义是当面举例或提议，不是已发生事件，也未明确表达威胁、损失或责备。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_07（2.2105秒）",
+      "observation": "Ross面向Joey说话，期间有小幅手部动作，表情较认真。",
+      "interpretation": "支持他在专注交流；单凭认真表情和手势不足以判定强烈负面情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "节点记录Ross面向Joey说出当前这句话。",
+      "interpretation": "明确了目标人物和当前互动；其内容与字幕、画面属同一事件，不是独立的情绪证明。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "节点转述Ross语音中有“like-like”的轻微重复。",
+      "interpretation": "未收到原音轨，无法核验声音表现；即使重复属实，也可能是在斟酌措辞，不能单独证明焦虑。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "Ross略皱眉并配合手势，也可能被读作紧张或不满；但当前话语没有指向威胁或冒犯，画面也不足以支持这些情绪成为主导。图谱未记录的手势可由画面补充，不能据此扩写此前谈话或推定说话原因。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00029282",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "sad",
+  "emotion_analysis": "画面中main person与右侧人物处于面对面交流位置（context_0、context_1），并说出“没想到，你竟然这么傻”（process_0）。其眉头紧蹙、嘴角下压，随后视线由右侧人物转向下方（person_0、person_1；after关系），整体呈现明显的悲伤和受挫状态。",
+  "output": "画面中main person与右侧人物处于面对面交流位置（context_0、context_1），并说出“没想到，你竟然这么傻”（process_0）。其眉头紧蹙、嘴角下压，随后视线由右侧人物转向下方（person_0、person_1；after关系），整体呈现明显的悲伤和受挫状态。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 38.630021810531616,
+  "node_count": 5,
+  "edge_count": 3
+}

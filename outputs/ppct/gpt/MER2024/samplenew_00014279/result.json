@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00014279",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "angry",
+  "emotion_analysis": "当前人物是女性，她正注视男性并连续发言；节点person_1与context_0表明她处于近距离面对面交流中。节点process_0和process_1通过after与process_joint相连，内容是质问并斥责男性“卑劣”“无耻”，体现出明显的愤怒和指责，而非转述或假设。",
+  "output": "当前人物是女性，她正注视男性并连续发言；节点person_1与context_0表明她处于近距离面对面交流中。节点process_0和process_1通过after与process_joint相连，内容是质问并斥责男性“卑劣”“无耻”，体现出明显的愤怒和指责，而非转述或假设。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 38.818838119506836,
+  "node_count": 6,
+  "edge_count": 3
+}

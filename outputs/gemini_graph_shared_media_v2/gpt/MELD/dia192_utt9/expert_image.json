@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标是穿浅黄色上衣、红色裤子的深发女子 Monica，不是前景的金发女子。她从后方走向餐桌，后几帧面向金发女子、嘴部张开；结合字幕中的“What?!”，[E1][E2][E3]最支持惊讶。面部较小，无法可靠辨认更细微的表情。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_04 @ 0.8758743199733541秒",
+      "observation": "Monica 从男子身后走出，朝餐桌方向移动。",
+      "interpretation": "显示她开始对桌边的人作出反应；单凭移动不能确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_06 @ 1.2929573294844752秒；frame_07 @ 1.5014988342400355秒",
+      "observation": "Monica 面向前景的金发女子，身体略向前，嘴部张开。",
+      "interpretation": "与即时的惊讶反应相符，但画面不足以确认她是否皱眉或怒视。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "What?! Excuse me!",
+      "observation": "字幕以“What?!”开头。",
+      "interpretation": "措辞支持意外或不敢相信的反应；它不是可见表情，也不能据此判断语调。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "“Excuse me!”也可能表示恼怒或被冒犯；但画面未清楚呈现持续怒视、紧绷的面部或其他更有力的愤怒特征，因此未选 anger。"
+}

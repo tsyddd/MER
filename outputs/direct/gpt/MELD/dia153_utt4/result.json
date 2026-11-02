@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia153_utt4",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "当前目标人物Joey坐在沙发上持续指向前方并挥手解释，眉头紧皱、嘴部用力，表现出明显的激动和不耐烦。字幕是在举例说明“害怕高处”这一假设情境，并非表示他本人正在恐惧，因此不选fear。",
+  "output": "当前目标人物Joey坐在沙发上持续指向前方并挥手解释，眉头紧皱、嘴部用力，表现出明显的激动和不耐烦。字幕是在举例说明“害怕高处”这一假设情境，并非表示他本人正在恐惧，因此不选fear。\n<answer>anger</answer>",
+  "label": "fear",
+  "elapsed_seconds": 27.705013751983643,
+  "node_count": null,
+  "edge_count": null
+}

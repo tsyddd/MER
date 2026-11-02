@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035777",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "音频中人物以严肃、强调的语气说出“诚实是做生意的根本”，其面部表情严肃，嘴部动作与话语同步，结合组织文本中“表情严肃”和“庄重、强调的态度”的描述，表明其情绪为严肃的陈述，而非愤怒或喜悦。该情绪与台词内容的庄重性一致。",
+  "output": "音频中人物以严肃、强调的语气说出“诚实是做生意的根本”，其面部表情严肃，嘴部动作与话语同步，结合组织文本中“表情严肃”和“庄重、强调的态度”的描述，表明其情绪为严肃的陈述，而非愤怒或喜悦。该情绪与台词内容的庄重性一致。\n<answer>neutral</answer>",
+  "label": "angry",
+  "elapsed_seconds": 50.36371970176697,
+  "node_count": 3,
+  "edge_count": 0
+}

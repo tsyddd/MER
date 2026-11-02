@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/sample_00001635",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "33e676dfa4457845fb12373ba65d5f414546b0623de9d024d66ecd7d1c0e8f8c",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "惊诧",
+      "mapped_label": "surprise",
+      "mapping_reason": "“惊诧”表示对当前信息或对方话语产生即时、出乎预期的反应，与画面中睁大眼睛、张口并迅速收紧嘴唇的变化相符，因此映射为surprise。现有证据没有足够支持已发生损失所导致的sad，也没有明确的未来风险评价来优先映射worried。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "不安",
+      "mapped_label": "worried",
+      "mapping_reason": "“不安”主要指向对被误解、被责问或负面后果的顾虑，符合当前防御性否认和紧张面部表现，因此映射为worried；这不是对明确危险的恐惧，也不是单纯因为疑问式表情而判定为surprise。"
+    },
+    "image": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "“诧异”表示因当前信息违背预期而产生的即时意外感，符合画面中持续的睁眼、张口和抬眉表现，因此映射为Level1标签surprise。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "独立回看frame_00至frame_07可见目标人物持续睁大眼睛、抬眉并张口，最直接支持对当前信息的即时诧异，而非平稳叙述。实际字幕仅为“我：不。”，是即时否认，不能单独证明担忧或愤怒；当前无音轨，无法核验任何语调转述。图像专家对连续视觉变化的概括可信[image:E1]，其“surprise”解释比音频字幕专家依据防御性否认推断的担忧[ audio_subtitle:E2]更贴合可直接核验的表情；后者也承认惊讶是强替代解释。因此在缺少明确未来风险或后果评价的情况下，取surprise。",
+  "output": "独立回看frame_00至frame_07可见目标人物持续睁大眼睛、抬眉并张口，最直接支持对当前信息的即时诧异，而非平稳叙述。实际字幕仅为“我：不。”，是即时否认，不能单独证明担忧或愤怒；当前无音轨，无法核验任何语调转述。图像专家对连续视觉变化的概括可信[image:E1]，其“surprise”解释比音频字幕专家依据防御性否认推断的担忧[ audio_subtitle:E2]更贴合可直接核验的表情；后者也承认惊讶是强替代解释。因此在缺少明确未来风险或后果评价的情况下，取surprise。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 236.41391730308533
+}

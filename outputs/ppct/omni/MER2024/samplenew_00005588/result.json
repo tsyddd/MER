@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00005588",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "音频中人物说‘过去的事，不怪你’，结合其平静的语气和面部表情，表明他正在试图安抚对方，化解矛盾。该行为与‘neutral’情绪相符。",
+  "output": "音频中人物说‘过去的事，不怪你’，结合其平静的语气和面部表情，表明他正在试图安抚对方，化解矛盾。该行为与‘neutral’情绪相符。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 57.80805540084839,
+  "node_count": 3,
+  "edge_count": 0
+}

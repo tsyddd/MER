@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00031467",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "ce0718d332667e1a8f68aff97e3bf70bb490b84c29c19b6a35c15f5d91354a74",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物在对话时，面部表情保持稳定，嘴角有轻微上扬，眼神专注，姿态放松，与音频中平稳的语调和字幕中陈述性、安抚性的语言内容一致。三位专家均从不同角度支持中性情绪的判断：[image:E1]和[graph:E1]分别从视觉和图谱转述中确认了其平静状态和温和语调；[audio_subtitle:E1]则从音频和字幕的语义与韵律上提供了补充证据。尽管[graph:E1]的描述是间接的，但其内容与可核实的音频特征相符，可信度较高。综合来看，所有证据共同指向一种平静且带有关切的中性情绪。",
+  "output": "目标人物在对话时，面部表情保持稳定，嘴角有轻微上扬，眼神专注，姿态放松，与音频中平稳的语调和字幕中陈述性、安抚性的语言内容一致。三位专家均从不同角度支持中性情绪的判断：[image:E1]和[graph:E1]分别从视觉和图谱转述中确认了其平静状态和温和语调；[audio_subtitle:E1]则从音频和字幕的语义与韵律上提供了补充证据。尽管[graph:E1]的描述是间接的，但其内容与可核实的音频特征相符，可信度较高。综合来看，所有证据共同指向一种平静且带有关切的中性情绪。\n<answer>neutral</answer>",
+  "label": "happy",
+  "elapsed_seconds": 144.20911765098572
+}

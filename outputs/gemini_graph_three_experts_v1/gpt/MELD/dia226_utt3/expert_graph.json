@@ -1,0 +1,12 @@
+{
+  "expert": "graph",
+  "reason": "Rachel面对Phoebe表达希望某人敞开心扉的愿望，内容体现诉求而非明确的负面情绪〔process_0〕。图谱记载她以平缓略带感叹的语调说话并看向Phoebe〔person_1〕〔person_0〕，同时手势由展开到收束〔person_2〕〔person_3〕，整体更符合平静的中性状态。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "process_0",
+    "person_1",
+    "person_0",
+    "person_2",
+    "person_3"
+  ]
+}

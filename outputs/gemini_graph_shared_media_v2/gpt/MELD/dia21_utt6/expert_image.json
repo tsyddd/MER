@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "目标人物是金发女性Phoebe，不是后几帧正面可见的男子。她从较克制的表情转为明显微笑，同时看着对方、保持接触；这些可见变化最支持joy，但不足以判断笑容是否带有礼貌成分。[E1][E2]",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒；frame_03 @ 1.0009992228266904秒",
+      "observation": "Phoebe起初嘴唇微张、笑意不明显，随后嘴角上扬，露出牙齿。",
+      "interpretation": "笑容逐渐变明显，支持愉快的表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.6673328152177936秒；frame_04 @ 1.2929573294844752秒",
+      "observation": "她面向男子、看着他的脸，一只手持续搭在他的肩部附近。",
+      "interpretation": "与逐渐明显的笑容合看，支持她在这段互动中表现愉快；接触本身不单独证明情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "笑容也可能是礼貌或略带紧张的回应；字幕的问话无法消除这种歧义。后几帧Phoebe背对镜头，不能用男子的笑容替代她的表情判断。"
+}

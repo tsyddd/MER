@@ -1,0 +1,108 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Ross面向Joey说话，说出“Y'know, like-like write a play.”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Ross注视着对面的Joey",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Ross嘴唇随说话开合",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Ross语音中包含“like-like”的轻微词语重复",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内厨房区域，背景有橱柜、冰箱和纸巾盒",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "Ross与背对镜头的Joey相对站立交流",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "Ross在注视Joey的同时伴随嘴唇的开合动作",
+      "entity_anchor": "Ross"
+    },
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "simultaneous",
+      "reason": "Ross语音中重复词语的发声与其面部嘴唇开合动作同步发生",
+      "entity_anchor": "Ross"
+    },
+    {
+      "source": "context_1",
+      "target": "context_0",
+      "relation": "simultaneous",
+      "reason": "Ross与Joey面对面站立交流的交互状态发生在厨房物理空间环境中",
+      "entity_anchor": "同一室内交流现场"
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_0提供了Ross直接注视对方的视觉专注，person_2提供了听觉上的词语重复停顿，两者联合补充了Ross当面向对方提出建议时边思索边表达的可观察表现",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0提供了室内厨房的具体物理环境，context_1提供了两人相对站立近距离交流的站位格局，两者联合完整限定了在私密生活空间中二人面对面谈话的场景",
+      "entity_anchor": null
+    }
+  ]
+}

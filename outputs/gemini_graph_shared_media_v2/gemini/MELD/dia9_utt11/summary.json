@@ -1,0 +1,9 @@
+{
+  "reason": "独立核对原始画面及音轨，Rachel在诉说损失时伴有极度明显的抽噎哭腔与叹息[audio_subtitle:E1]，视觉上面部呈八字眉与嘴角下撇，并在第3帧闭目低头流露出心碎沮丧[image:E1]；随后其失落地拎起被烧毁的毛衣展示[image:E2]，完全符合面对重大个人损失的心痛反应。专家对愤怒或厌恶的替代解释反驳可信，音轨与面容均无攻击性吼叫或鼻面紧绷，三方互补证据完全锁定sadness。",
+  "answer": "sadness",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "image:E1",
+    "image:E2"
+  ]
+}

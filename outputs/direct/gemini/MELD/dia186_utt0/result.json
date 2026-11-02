@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia186_utt0",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "钱德勒在回答时表情轻松平稳，伴随随意的摆手手势，语气偏向日常调侃与吐槽，并未表现出强烈的厌恶、愤怒或喜悦等极端情绪，属于中性状态。",
+  "output": "钱德勒在回答时表情轻松平稳，伴随随意的摆手手势，语气偏向日常调侃与吐槽，并未表现出强烈的厌恶、愤怒或喜悦等极端情绪，属于中性状态。\n<answer>neutral</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 13.486129522323608,
+  "node_count": null,
+  "edge_count": null
+}

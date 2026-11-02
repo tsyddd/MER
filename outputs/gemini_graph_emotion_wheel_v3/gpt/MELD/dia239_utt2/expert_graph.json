@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "Chandler原本面对男士说话，女子出现后随即转向她，原话从未说完的提问切换为“Hi!”及带重复的另一句提问[E1][E2]。画面中他朝女子摊手，随后收手插入口袋[E3]。这一连串当前互动更像一时措手不及，而不是对女子发怒或害怕。图谱节点process_2有助于确认互动对象已转为女子；但图谱关于语速的描述没有原音轨可亲耳核验，不能据此断言他的语调。",
+  "open_emotion": "措手不及",
+  "answer": "surprise",
+  "mapping_reason": "他在互动对象突然变化时中断原话、改口问候，符合面对出乎预期的情况而一时意外的surprise；没有足够的威胁或畏惧证据将其归为fear。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“Jeez, man did you fall.. Hi! So ah, did ya, did-did-did ya fall high?”",
+      "observation": "一句未完的话后接“Hi!”，随后提问中有文字呈现的停顿和重复。",
+      "interpretation": "支持Chandler在当前对话中临时切换说话对象和说法；字幕本身不能证明实际语调。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "process_2",
+      "observation": "图谱记载Chandler转向走出的女子，对她说“Hi!”。",
+      "interpretation": "明确当前问候针对女子，而非沿续对身旁男士的谈话；该节点的音频来源部分仅作为图谱转述。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01（0.959秒）至frame_07（6.715秒）",
+      "observation": "女子出现后，Chandler转身面向她，摊开手臂；后几帧放下手并将手插入口袋。",
+      "interpretation": "画面核实了互动对象的转换和姿态变化，与临时改口的解释相符；姿态本身并不能单独证明惊讶。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "停顿与重复也可能只是说话习惯或社交局促；没有原音轨，无法核实图谱所说的语速变化。图谱中的事件先后不能证明女子出现是他改口的唯一原因，因此这里判断的是较弱的、一时措手不及的惊讶。"
+}

@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标人物在对话时，面部表情保持稳定，嘴角有轻微上扬，眼神专注，姿态放松。字幕内容为“皇上闻着，正好，消乏，安睡”，语气温和，与视觉上的平静状态一致。音频中语调平稳，无明显情绪波动，支持了视觉观察。综合来看，其表现更符合中性状态。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "目标人物面带微笑，眼神看向画面右侧，姿态自然。",
+      "interpretation": "微笑和自然的姿态表明其情绪稳定，无明显紧张或激动。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.32",
+      "observation": "目标人物表情保持稳定，视线未发生明显变化。",
+      "interpretation": "持续稳定的面部表情支持中性情绪的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "字幕: 皇上闻着，正好，消乏，安睡。",
+      "observation": "字幕内容为陈述性语句，语气平和。",
+      "interpretation": "字幕内容与视觉表现一致，无情绪化表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "0.0-2.28",
+      "observation": "音频中说话者语调平稳，无明显情绪起伏。",
+      "interpretation": "平稳的语调与视觉上的中性状态相符。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无明确反证。"
+}

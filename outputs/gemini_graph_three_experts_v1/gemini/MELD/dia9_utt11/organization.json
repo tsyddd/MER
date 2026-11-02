@@ -1,0 +1,3 @@
+{
+  "text": "在室内客厅中，Rachel、Phoebe和Monica坐在沙发上，Chandler与Joey立于一旁，背景中还有一名消防员〔context_0〕。起初，Rachel坐在沙发上口头抱怨自己的床和衣服被毁了〔process_0〕；此时她双手在身前捏着一件蓝色衣物且视线望向前方〔person_0〕，并伴随闭上眼睛低下头的神态动作〔person_1〕，两者共同呈现了她说话时的肢体与神情表现〔person_0 person_joint person_1〕。随后，在低头闭眼之后，Rachel单手将蓝色毛衣提起到胸前高处〔person_2 after person_1〕〔person_2〕；在先前的口头陈述之后，她将烧损的蓝色毛衣提起到空中展示给众人看并继续说话〔process_1 after process_0〕〔process_1〕。这两段行为共同构成了她从口头诉说到以实物展示证明受损情况的完整互动过程〔process_0 process_joint process_1〕。"
+}

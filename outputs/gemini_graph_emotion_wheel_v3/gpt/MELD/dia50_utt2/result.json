@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia50_utt2",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "fcd38a66edaf51c357f7f05241b31338cc6543efc841a51ccf79324b15367974",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "慌张",
+      "mapped_label": "fear",
+      "mapping_reason": "这里的慌张表现为对当前不利互动的急切回避，故近似映射到fear；这不等于她害怕人身危险，标签也无法完整表达其中可能有的窘迫。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "愧疚",
+      "mapped_label": "sadness",
+      "mapping_reason": "愧疚不是sadness的同义词；在允许标签中，这句针对已发生状况的歉意更接近因自身行为而难过的sadness，而非指责性的anger或面向威胁的fear。这是近似映射。"
+    },
+    "image": {
+      "open_emotion": "歉疚",
+      "mapped_label": "sadness",
+      "mapping_reason": "歉疚是对自身行为的负面感受；在现有标签中近似映射到sadness。但道歉不等同于悲伤，画面也不足以确认强烈的失落或哀伤。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "frame_00至frame_03中，目标女学生在画面右下方低身移动，脸部被遮挡；[image:E1]对姿态的描述可信，但不能仅凭动作判定情绪。字幕“I’m so sorry!”明确是道歉，[audio_subtitle:E1]据此判断有歉意较有依据，却不能把“sorry”直接当作悲伤自述。低身离开也可能是仓促避让，但画面和字幕没有显示她畏惧威胁或预期危险，因此不采纳将回避动作映射为恐惧的解释。当前最接近歉疚，因标签中没有对应类别，近似归入sadness；这不意味着她表现出哀伤。",
+  "output": "frame_00至frame_03中，目标女学生在画面右下方低身移动，脸部被遮挡；[image:E1]对姿态的描述可信，但不能仅凭动作判定情绪。字幕“I’m so sorry!”明确是道歉，[audio_subtitle:E1]据此判断有歉意较有依据，却不能把“sorry”直接当作悲伤自述。低身离开也可能是仓促避让，但画面和字幕没有显示她畏惧威胁或预期危险，因此不采纳将回避动作映射为恐惧的解释。当前最接近歉疚，因标签中没有对应类别，近似归入sadness；这不意味着她表现出哀伤。\n<answer>sadness</answer>",
+  "label": "fear",
+  "elapsed_seconds": 104.02765274047852
+}

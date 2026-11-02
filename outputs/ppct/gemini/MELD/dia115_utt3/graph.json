@@ -1,0 +1,184 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Ross对Chandler说话：'Shielding your face and shrieking like a girl'",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Ross继续对Chandler说出下半句：'is not a backhand.'",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Ross身体朝向Chandler站立，目光注视Chandler",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Ross随着发声嘴部持续张合",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Ross以平稳语速和清晰音量说话",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Ross在两句语段之间出现短暂说话停顿",
+      "time_index": 1,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_4",
+      "type": "person",
+      "content": "Ross保持注视Chandler并微动下颌说出句尾",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内走廊楼梯口旁，挂有窗帘和壁灯",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "现场有Ross和Chandler两人相对站立，Chandler为交流对象",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "Ross在说前半句'Shielding your face and shrieking like a girl'之后，继续说出了下半句'is not a backhand.'",
+      "entity_anchor": "Ross对Chandler的言语表达过程"
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "simultaneous",
+      "reason": "Ross在平稳清晰说话的同时，其嘴部伴随发声持续张合",
+      "entity_anchor": "Ross的发声表现"
+    },
+    {
+      "source": "person_3",
+      "target": "person_2",
+      "relation": "after",
+      "reason": "Ross在说完前半句平稳语速的发声后，在两句之间出现了短暂的言语停顿",
+      "entity_anchor": "Ross的言语节奏"
+    },
+    {
+      "source": "person_4",
+      "target": "person_3",
+      "relation": "after",
+      "reason": "Ross在短暂语段停顿之后，微动下颌说出句尾并保持对Chandler的注视",
+      "entity_anchor": "Ross的发声与神态"
+    },
+    {
+      "source": "person_4",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "Ross在最初面向并注视Chandler之后，持续保持注视并在句末微动下颌",
+      "entity_anchor": "Ross的姿态与目光注视"
+    },
+    {
+      "source": "context_1",
+      "target": "context_0",
+      "relation": "simultaneous",
+      "reason": "走廊楼梯口的物理环境与Ross和Chandler相对站立的互动场景同时存在",
+      "entity_anchor": "走廊场景物理与人际环境"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0呈现前序前半句叙述，process_1补充后序语义转折与句尾结论，联合后完整构成Ross对Chandler进行动作评价的连续互动过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供身体朝向与视线注视的体态信息，person_1提供说话时的口部运动视觉，联合后完整呈现Ross正面对话时的姿势与发话神态。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1提供说话嘴部张合的视觉表现，person_2提供平稳语速和清晰音量的听觉表现，视听联合完整刻画其发声表达状态。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_2",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_2提供基础的平稳语速与清晰音量特征，person_3补充句间的节奏性停顿，联合后完整展现其言语输出的声学节奏结构。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0明确室内走廊楼梯口的物理环境，context_1确定两人近距离相对站立的人际空间格局，联合后完整界定了面对面交谈的现实场景情境。",
+      "entity_anchor": null
+    }
+  ]
+}

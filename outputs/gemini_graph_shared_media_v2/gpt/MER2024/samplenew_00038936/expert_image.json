@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标人物是画面中央穿白衣的女性，身份清晰。她从面向旁人讲话逐渐转为低头、眉头收紧、嘴唇抿起，随后重新抬眼凝视对方，整体表现出对对方状况的关注与不安。[E1][E2][E3] 字幕提到“出了点意外”，与这种担忧性的视觉变化一致。[E4]",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.56秒",
+      "observation": "目标女性眉头轻微收紧，视线转向下方，嘴唇呈收拢状态。",
+      "interpretation": "这些可见变化支持她在表达关切或不安，而非保持完全放松的中性表情。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 2.12秒至frame_05 @ 2.64秒",
+      "observation": "她持续低头，眉间皱褶更明显，面部肌肉较为紧张。",
+      "interpretation": "从前几帧到此处的收紧和回避直视更符合担忧或顾虑。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_06 @ 3.16秒至frame_07 @ 3.68秒",
+      "observation": "她重新抬眼看向右侧男子，眉头仍略皱，嘴角没有上扬。",
+      "interpretation": "持续的严肃关注和凝视削弱了礼貌微笑或轻松交流的解释。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "subtitle",
+      "anchor": "当前字幕",
+      "observation": "字幕为“不过，我最近听他们说，你好像出了点意外。”",
+      "interpretation": "谈及对方可能遭遇意外的内容，为画面中的关切和不安提供跨模态支持；这里依据字幕而非听觉。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "她没有明显哭泣、夸张张口或大幅度动作，表情仍受到控制，因此也可能带有克制的悲伤或严肃询问；但低头、皱眉和持续关注对方共同使worried比sad或neutral更符合当前可见表现。"
+}

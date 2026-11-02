@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者在音频中以平稳的语调说出'Someone in there?'，这是一个典型的疑问句，其语调在句末上扬，表明其主要言语行为是提问。字幕内容与音频完全一致，且无其他情绪化词汇。视觉上，说话者（Gunther）的表情平静，没有表现出愤怒、悲伤或喜悦等强烈情绪。综合视听信息，其行为最符合中性状态下的提问。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00.000 - 00:01.752",
+      "observation": "音频中说话者以平稳的语调说出'Someone in there?'，句末有明显的升调。",
+      "interpretation": "该语调是标准的疑问句式，表明说话者的主要意图是提问，而非表达其他情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Someone in there?",
+      "observation": "字幕显示的文本为'Someone in there?'。",
+      "interpretation": "该文本是一个直接的疑问句，没有包含任何情绪化的词汇，其字面意义与提问行为一致。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 - frame_07",
+      "observation": "说话者（Gunther）的表情平静，眼神专注，没有明显的皱眉、咧嘴等情绪化面部特征。",
+      "interpretation": "视觉上没有提供任何支持其处于愤怒、悲伤或喜悦等情绪状态的线索，与中性提问的行为相符。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的替代解释是'surprise'。然而，音频中没有表现出惊讶的语调（如突然的音量提升或音高变化），且视觉上表情也无惊讶的迹象，因此该解释缺乏支持。"
+}

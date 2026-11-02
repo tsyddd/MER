@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "莫妮卡以较高音量喊出“Rachel!”并转向对方，随后持续直视瑞秋、以坚定语气明确否定其欺骗丈夫的行为（process_0、person_1、person_2、process_1）。这些当前片段中的强烈指责和严肃表现表明她处于愤怒情绪。",
+  "answer": "anger",
+  "evidence_refs": [
+    "process_0",
+    "person_1",
+    "person_2",
+    "process_1"
+  ]
+}

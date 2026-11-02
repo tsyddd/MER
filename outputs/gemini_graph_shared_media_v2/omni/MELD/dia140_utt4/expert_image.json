@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "Ross在对话中表现出明显的犹豫和不确定。他的眉毛微微皱起，眼神在说话时有轻微的游移，嘴唇微张，似乎在努力组织语言。这些视觉线索与他口中的犹豫语句“Y'know, like-like write a play”高度吻合，表明他正在思考或试图表达一个不太确定的想法。没有观察到任何强烈的情绪迹象，如愤怒或悲伤。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "Ross的眉毛微微皱起，眼神看向对方，表情显得有些犹豫和不确定。",
+      "interpretation": "皱眉和犹豫的眼神是思考或不确定的常见视觉表现，与他接下来的犹豫话语相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.3336664076088968",
+      "observation": "Ross的嘴唇微张，似乎正在说话，但表情依然保持在一种思考的状态。",
+      "interpretation": "嘴唇的微张是说话的准备动作，结合其犹豫的眼神，支持了他正在努力组织语言的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Y'know, like-like write a play.",
+      "observation": "字幕显示Ross的用词是“like-like”，这是一种典型的犹豫或不确定的表达方式。",
+      "interpretation": "字幕内容直接证实了Ross的言语中存在犹豫，这与他的视觉表现一致。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "0.0-2.210539950408941",
+      "observation": "音频中可以听到Ross的语调犹豫，尤其是在重复“like”这个词时。",
+      "interpretation": "音频中的犹豫语调与视觉上的犹豫表情和字幕中的犹豫用词相互印证，共同指向一种不确定的状态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有观察到任何支持愤怒、悲伤或喜悦等强烈情绪的视觉证据，例如皱眉、流泪或微笑。因此，尽管罗斯的表达方式有些犹豫，但没有足够的证据表明他处于这些特定的情绪状态中。"
+}

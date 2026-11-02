@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia263_utt9",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sadness",
+  "emotion_analysis": "结合图谱节点，Ross最初垂头向下看（person_0），随后抬起头正视前方并开口说话（person_1 after person_0），同时以低缓沉重的语调说出要放弃宠物的决定“I'm gonna have to give him up.”（process_0，person_2 simultaneous person_1）。整段表现神情落寞、语气低落，充分传达出难过与伤感的情绪。",
+  "output": "结合图谱节点，Ross最初垂头向下看（person_0），随后抬起头正视前方并开口说话（person_1 after person_0），同时以低缓沉重的语调说出要放弃宠物的决定“I'm gonna have to give him up.”（process_0，person_2 simultaneous person_1）。整段表现神情落寞、语气低落，充分传达出难过与伤感的情绪。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 52.93488025665283,
+  "node_count": 5,
+  "edge_count": 3
+}

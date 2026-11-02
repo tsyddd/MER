@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物（女性学生）在画面中仅在前两帧短暂出现，随后被遮挡。在可见的帧中，她身体前倾，似乎在道歉或试图解释，但其面部表情因角度和遮挡而无法辨认。字幕显示她说了“I'm so sorry!”，这与她的姿态一致。然而，由于缺乏清晰的面部特写，无法从视觉上确认其情绪是真诚的道歉、尴尬还是其他。因此，视觉证据不足以支持任何具体情绪，但其姿态和字幕内容共同指向一种试图缓和局面的意图。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "女性学生身体前倾，头部低垂，似乎在向他人道歉。",
+      "interpretation": "该姿态是道歉或解释的常见视觉表现，与字幕内容相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "I'm so sorry!",
+      "observation": "字幕显示女性学生说“I'm so sorry!”。",
+      "interpretation": "这直接表明了她的言语内容，支持了她正在道歉的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "女性学生的面部被遮挡，无法看清其表情。",
+      "interpretation": "由于无法观察到面部表情，无法从视觉上确认其情绪是真诚的还是敷衍的。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "视觉证据不足以区分真诚的道歉（sadness）和尴尬的道歉（neutral）。"
+}

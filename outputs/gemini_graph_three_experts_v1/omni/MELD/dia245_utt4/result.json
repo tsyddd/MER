@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia245_utt4",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "1528c89a9e48293f5c22e3f68968c73260009900840f78dcfab7366d2748796f",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "fear",
+  "emotion_analysis": "音频中Monica的台词语速快、音调高且急促，表现出强烈的抗拒和紧张感，符合恐惧情绪的典型特征；图像显示她嘴巴张开、眼睛睁大，身体迅速转向左侧，表现出对突发事件的即时反应，符合惊讶情绪；图谱描述其行为带有紧急、激动和制止意图，倾向于愤怒。综合判断，音频与图像分别指向恐惧和惊讶，但音频中急促的抗拒语气更突出，且图像中的惊讶反应可能源于突发刺激，而音频的语调更直接反映情绪状态，因此优先采纳音频线索。",
+  "output": "音频中Monica的台词语速快、音调高且急促，表现出强烈的抗拒和紧张感，符合恐惧情绪的典型特征；图像显示她嘴巴张开、眼睛睁大，身体迅速转向左侧，表现出对突发事件的即时反应，符合惊讶情绪；图谱描述其行为带有紧急、激动和制止意图，倾向于愤怒。综合判断，音频与图像分别指向恐惧和惊讶，但音频中急促的抗拒语气更突出，且图像中的惊讶反应可能源于突发刺激，而音频的语调更直接反映情绪状态，因此优先采纳音频线索。\n<answer>fear</answer>",
+  "label": "fear",
+  "elapsed_seconds": 52.76243448257446
+}

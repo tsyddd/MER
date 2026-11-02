@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia239_utt2",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "83c5e47c0148450bbc1edd40f39fe6e36178e18810553475144f0c7751aa6c95",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "措手不及",
+      "mapped_label": "surprise",
+      "mapping_reason": "目标人物在遭遇完全违背预期的场景转变时，原先行为被强行打断，伴随语调拔高与语流结巴的失措反应，符合情绪轮中面对意外信息与未料情境的“surprise”（惊讶）定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "意外",
+      "mapped_label": "surprise",
+      "mapping_reason": "面对违背预期的突发人物出现而瞬间发懵、言语中断与结巴，属于“意外/惊愕”体验，对应项目情绪轮中的surprise家族。"
+    },
+    "image": {
+      "open_emotion": "意外",
+      "mapped_label": "surprise",
+      "mapping_reason": "钱德勒因为走出洗手间的人完全出乎意料而出现话语骤停、扬眉睁眼与肢体凝滞，符合情绪轮中面对违背预期的信息而感到诧异、惊奇与意外的定义，精准映射为surprise。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "回看视频与音轨，Chandler原本正面向洗手间准备抱怨，未料走出一名陌生女子，在frame_02至frame_04动作骤然顿挫且单手悬空发愣[image:E1]，与实际音轨在00:01-00:03处抱怨生硬中断并突兀拔高发出“Hi!”[audio_subtitle:E1]高度互补。[audio_subtitle:E2]对字幕中“did-did-did ya”严重结巴的分析切实可信，精准刻画出其认知预期被彻底打破时的慌乱与失态。尽管他在frame_05至frame_07迅速将双手插入口袋试图恢复常态[image:E2]，但这仅是尴尬掩饰，无法掩盖主导的措手不及，依规范映射为surprise。",
+  "output": "回看视频与音轨，Chandler原本正面向洗手间准备抱怨，未料走出一名陌生女子，在frame_02至frame_04动作骤然顿挫且单手悬空发愣[image:E1]，与实际音轨在00:01-00:03处抱怨生硬中断并突兀拔高发出“Hi!”[audio_subtitle:E1]高度互补。[audio_subtitle:E2]对字幕中“did-did-did ya”严重结巴的分析切实可信，精准刻画出其认知预期被彻底打破时的慌乱与失态。尽管他在frame_05至frame_07迅速将双手插入口袋试图恢复常态[image:E2]，但这仅是尴尬掩饰，无法掩盖主导的措手不及，依规范映射为surprise。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 81.40472388267517
+}

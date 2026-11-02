@@ -1,0 +1,146 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Phoebe面向柜台红衣女子说话",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Phoebe对红衣女子说出“And umm, he’s like early to mid-thirties”",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "Phoebe对红衣女子说出“very attractive”",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Phoebe面朝前方的红衣女子，视线落在对方身上",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Phoebe抬起双手在腰腹前翻动比划，嘴部配合说话张合",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Phoebe语速平稳，语气自然带停顿",
+      "time_index": 1,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Phoebe双手在身前微张摆动，视线继续注视红衣女子",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内柜台前，Phoebe与背对镜头的红衣女子相对而立，身后站着一名拿着纸张的男子",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "Phoebe面向红衣女子开始交谈后，接着说出描述对方年龄段的语句",
+      "entity_anchor": "Phoebe对红衣女子的言语表达"
+    },
+    {
+      "source": "process_2",
+      "target": "process_1",
+      "relation": "after",
+      "reason": "Phoebe在说完前半句年龄描述后，紧接着补充描述“very attractive”",
+      "entity_anchor": "Phoebe对红衣女子的言语表达"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "Phoebe在起始注视对方后，抬起双手在腰腹前翻动比划并配合说话",
+      "entity_anchor": "Phoebe的肢体与面部动作"
+    },
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "simultaneous",
+      "reason": "Phoebe在双手翻动比划配合说话的同时，保持平稳自然的语速与停顿",
+      "entity_anchor": "Phoebe的言语表达状态"
+    },
+    {
+      "source": "person_3",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "Phoebe在腰腹前翻动比划后，双手在身前微张摆动继续表达",
+      "entity_anchor": "Phoebe的手势动作"
+    },
+    {
+      "source": "process_1",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "process_1 提供 Phoebe 对目标人物年龄段的描述，process_2 提供对其外貌特征的补充，两者联合构成了 Phoebe 完整陈述所描述对象外貌特征的互动过程",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1 提供双手在腰腹前翻动比划及嘴部张合的视觉动作，person_2 提供平稳且带有停顿的口语声调听觉特征，视听联合完整呈现出她一边思考一边辅助手势进行描述的状态",
+      "entity_anchor": null
+    }
+  ]
+}

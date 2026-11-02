@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00014279",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "angry",
+  "emotion_analysis": "画面中女子额头带伤，紧盯对方，咬牙质问'你除了这些卑劣的手段，还会什么？真是无耻之极'，语气和表情均透露出强烈的愤恨与斥责。",
+  "output": "画面中女子额头带伤，紧盯对方，咬牙质问'你除了这些卑劣的手段，还会什么？真是无耻之极'，语气和表情均透露出强烈的愤恨与斥责。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 7.188495874404907,
+  "node_count": null,
+  "edge_count": null
+}

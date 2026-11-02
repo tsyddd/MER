@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载男子在说话时面带笑意（person_0），语调轻快且带有调侃意味（person_1），并持续保持微笑注视对方（person_2），表明其情绪为轻松调侃。结合其话语内容‘以前啊，以为你圆滑伶俐，还真是小看你了’，属于带有玩笑性质的评价，未体现负面情绪。因此，目标人物情绪为‘happy’。",
+  "answer": "happy",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "person_2"
+  ]
+}

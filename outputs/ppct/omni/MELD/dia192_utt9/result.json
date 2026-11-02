@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia192_utt9",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "Monica's utterance 'Excuse me!' is delivered with a high-pitched, sharp tone, indicating a sudden interruption. Her facial expression shows wide eyes and raised eyebrows, consistent with surprise or shock. The context of her standing and directly addressing someone who is focused on writing suggests she is reacting to an unexpected or startling event.",
+  "output": "Monica's utterance 'Excuse me!' is delivered with a high-pitched, sharp tone, indicating a sudden interruption. Her facial expression shows wide eyes and raised eyebrows, consistent with surprise or shock. The context of her standing and directly addressing someone who is focused on writing suggests she is reacting to an unexpected or startling event.\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 147.62525272369385,
+  "node_count": 9,
+  "edge_count": 12
+}

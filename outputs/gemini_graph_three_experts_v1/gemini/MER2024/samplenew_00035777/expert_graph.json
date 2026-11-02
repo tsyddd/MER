@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载男子大声训诫时声音洪亮且发音用力高亢〔person_0〕，同时身体前倾、面部肌肉紧绷并咧嘴露齿〔person_1〕；随后其头部挺正，目光注视前方偏下方且嘴角下撇〔person_3〕，神态与发声均体现出严厉斥责与愤慨的态度，符合愤怒情绪特征。",
+  "answer": "angry",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "person_3"
+  ]
+}

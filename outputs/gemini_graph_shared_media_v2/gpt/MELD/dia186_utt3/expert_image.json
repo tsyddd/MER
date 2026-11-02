@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标是坐在扶手椅上打电话的Joey，而非画面左侧站立的人。他起初闭眼、嘴角收紧，随后垂眼说话，表情较克制但呈现歉疚或低落的迹象[E1][E2]。字幕中的道歉与这一视觉判断相符，但不能单凭道歉断定情绪[E3]。综合判断为sadness，而非明显的愤怒或惊讶。",
+  "answer": "sadness",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒",
+      "observation": "Joey闭着眼，眉间略收紧，嘴唇抿起、嘴角微向下。",
+      "interpretation": "这些同时出现的面部特征支持低落或歉疚的判断；画面不足以辨认更细微的表情。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.5422083333333333秒至frame_07 @ 1.9185833333333333秒",
+      "observation": "他继续靠坐、持电话，视线偏下；说话时张口，结束时嘴唇重新合拢，没有明显转为笑容。",
+      "interpretation": "前后持续的垂眼和克制表情，比一瞬间的闭眼更支持低落的解释。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Im sorry I gotta cancel tonight baby",
+      "observation": "字幕显示他在道歉并说今晚必须取消约定。",
+      "interpretation": "话语内容与歉疚感相符，但道歉也可能只是礼貌表达，不能作为独立的视觉证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "他姿态放松，没有哭泣或明显强烈的悲伤动作；也可能只是在平静、礼貌地解释取消约定。不过持续的垂眼与收紧的面部表情，使轻微低落比neutral更有视觉支持。"
+}

@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "Ross当前面对Chandler，评价的是对方所说的“反手击打”，而不是自己正在遮脸或尖叫。[E1] 这句话有揶揄意味，但画面中Ross的姿态和表情较克制，未见明显愤怒表现[E2]。图谱将前后两段话连为一次评价[E3]，有助于区分言语调侃与真实争吵；其语速、音量描述因未提供原音轨，只能保留为未核实的图谱转述[E4]。综合当前可核实证据，选neutral。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“Shielding your face and shrieking like a girl... is not a backhand.”",
+      "observation": "Ross用整句话否定某种动作算作“反手击打”。",
+      "interpretation": "“遮脸、尖叫”是话语中描述的动作，不是Ross当前的行为；措辞可带揶揄，但单凭内容不足以判定愤怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_06 @ 4.6296214055734435秒",
+      "observation": "画面右侧的Ross面对Chandler站立，表情和姿态较克制，没有明显激烈动作。",
+      "interpretation": "支持他在平静地交谈，而非明显发怒；不能仅凭站姿推断情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_0、process_1",
+      "observation": "图谱将前半句与“is not a backhand”列为Ross对Chandler的连续发话。",
+      "interpretation": "完整句意是对所谈动作作评价，有助于避免把“尖叫”误当成Ross当前的情绪表现；图谱顺序不说明额外因果。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱称Ross语速平稳、音量清晰，但本次未提供原音轨。",
+      "interpretation": "这是有来源但无法亲耳核验的音频转述，不作为确定其语调的依据。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "揶揄措辞也可能表示恼怒或轻蔑；但当前画面未见足以支持明显愤怒或厌恶的表情、动作，且没有原音轨可核验语调，因此未采用这些标签。"
+}

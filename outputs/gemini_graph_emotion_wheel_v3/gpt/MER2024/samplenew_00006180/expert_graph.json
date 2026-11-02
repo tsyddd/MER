@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "目标是女老师。她在当前片段中说明自己没见过小毛驴，接着向全班提问；喊出“我知道”的是男学生，不是她[E2][E3]。她说话及提问时表情较平稳，随后注视前方，没有持续的责备、担忧或明显惊愕表现[E1]。因此当前以平常的课堂交流为主。图谱遗漏了首帧可见的学生提问文字；图谱所述语调因未提供原音轨，不能亲耳核验[E4]。",
+  "open_emotion": "平常",
+  "answer": "neutral",
+  "mapping_reason": "“平常”对应情绪轮中有当前表现支持的平稳交流，而不是因缺少音轨才判为neutral。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）、frame_04（3.2115秒）、frame_07（5.6306秒）",
+      "observation": "女老师面向学生讲话、提问，之后仍注视前方；表情总体平稳。",
+      "interpretation": "支持她以自然交流为主；注视学生本身不足以判为惊讶。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "“哎，同学们，有没有知道的？”",
+      "observation": "女老师把问题转向全班。",
+      "interpretation": "话语是在征询答案，不是对学生表示责备或对后果表达担忧。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_1、process_2",
+      "observation": "图谱将女老师提问与男学生回答列为相继的互动事件。",
+      "interpretation": "有助于区分两人的表达：男学生积极喊答不能转作女老师的兴奋情绪；图谱顺序也不足以推断她因回答而高兴或惊讶。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱转述女老师语速平缓、语调和缓清晰，但本次未提供原音轨。",
+      "interpretation": "这项声音描述不能亲耳核验，仅作保留不确定性的图谱转述，不作为最终判断的主要依据。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "女老师在frame_03（2.4191秒）短暂睁大眼睛，也可能被解读为诧异；但结合她正在向全班提问、随后平稳注视学生，尚不足以确认惊讶是主导情绪。首帧字幕另有学生询问小毛驴长相，图谱未收录，不能把图谱当作完整对话。"
+}

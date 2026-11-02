@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00013076",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "e796dd3141342719140120ba7aa857e918a2cb64ad25a93033187111d322a6bb",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "感激的喜悦",
+      "mapped_label": "happy",
+      "mapping_reason": "根据数据集情绪轮的定义，'happy'（喜悦）指当前正向愉悦、满足或兴奋。目标人物的言语内容“正要感谢您呢！谢谢！谢，谢谢。”直接表达了积极的情感。其肢体语言，特别是双手合十的致谢手势，是一种真诚的、带有满足感的表达，而非简单的礼貌。这种言语与肢体的协同作用，表明其情绪是积极且发自内心的，因此映射为'happy'是合理的。虽然'感谢'本身不是情绪轮中的标签，但其背后的情感体验是喜悦和满足。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "感激",
+      "mapped_label": "happy",
+      "mapping_reason": "感激是一种积极的情绪，与喜悦（happy）同属于积极情绪家族。虽然感激和喜悦不完全等同，但在当前语境下，说话者正在表达对他人帮助的感谢，这是一种积极的社交互动，其情绪状态更接近于喜悦而非中性。因此，将感激映射到happy是合理的。"
+    },
+    "image": {
+      "open_emotion": "感激",
+      "mapped_label": "happy",
+      "mapping_reason": "根据情绪轮定义，'happy'（喜悦）包含因好事发生而产生的愉悦、满足或兴奋。目标人物正在表达感谢，这是一种积极的社交互动，其面部表情和手势均支持其处于一种满足和愉悦的状态，因此映射为'happy'是合适的。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "happy",
+  "emotion_analysis": "目标人物在对话中明确表达了感谢，字幕内容为“正要感谢您呢！谢谢！谢，谢谢。”，音频语调平稳真诚，无负面情绪迹象。其视觉表现包括眼部肌肉活动（符合微笑特征）和双手合十的致谢手势，这些非语言线索与言语内容一致，共同指向一种积极的、发自内心的感激情绪。虽然图谱和专家描述中使用了“感激”这一开放情绪词，但根据数据集情绪轮的定义，'happy'（喜悦）涵盖因好事发生而产生的愉悦、满足或兴奋，因此将此情境下的感激映射为'happy'是合理的。所有专家证据均支持这一结论，无矛盾观察。",
+  "output": "目标人物在对话中明确表达了感谢，字幕内容为“正要感谢您呢！谢谢！谢，谢谢。”，音频语调平稳真诚，无负面情绪迹象。其视觉表现包括眼部肌肉活动（符合微笑特征）和双手合十的致谢手势，这些非语言线索与言语内容一致，共同指向一种积极的、发自内心的感激情绪。虽然图谱和专家描述中使用了“感激”这一开放情绪词，但根据数据集情绪轮的定义，'happy'（喜悦）涵盖因好事发生而产生的愉悦、满足或兴奋，因此将此情境下的感激映射为'happy'是合理的。所有专家证据均支持这一结论，无矛盾观察。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 197.08634662628174
+}

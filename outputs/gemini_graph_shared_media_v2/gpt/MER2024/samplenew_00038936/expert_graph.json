@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "当前互动围绕白衣女子向男子转述“听他们说”并询问其“出了点意外”展开〔process_0〕〔process_1〕；这属于对对方可能遭遇不测的关切，而非她本人正在经历过去事件。她在提及意外时低头、眉眼收紧，随后又抬头注视男子，形成对当前对方状况的担忧表现〔person_2〕。字幕与画面支持“担心/忧虑”而非单纯中性；图谱中的平缓语调仅是音频派生转述，未收到原音轨，不能亲耳核验。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "当前字幕原话",
+      "observation": "字幕为“不过，我最近听他们说，你好像出了点意外。”",
+      "interpretation": "她正在向面前男子提及可能发生的意外并进行关切式询问，当前情绪语义更接近担忧而非平静陈述。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 2.12秒至 frame_05 @ 2.64秒",
+      "observation": "她低头并将视线移向下方，眉头收紧、嘴角下压，面部显得紧张凝重。",
+      "interpretation": "这些当前可见的面部和姿态变化与听到或提及对方遭遇意外时的忧虑相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱记录白衣女子“低头，视线向下移”，并将其置于对方面前交谈过程中。",
+      "interpretation": "该节点与画面一致，说明她在当前言语互动中出现回避式低头和视线下移，强化了对意外话题的担心；它是图谱组织节点，不单独证明具体心理原因。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱转述其“语调平缓平稳”，但本次未提供原音轨。",
+      "interpretation": "该信息可能支持她并非强烈激动或愤怒，但只能作为未亲耳核验的补充，不能抵消画面和字幕共同呈现的忧虑。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "她随后重新抬头注视男子〔person_3〕，且图谱转述语调平稳，存在“礼貌而平静地传达消息”的替代解释；但低头、眉眼收紧与“出了点意外”的当前话题结合得更紧密，因此未采用neutral。"
+}

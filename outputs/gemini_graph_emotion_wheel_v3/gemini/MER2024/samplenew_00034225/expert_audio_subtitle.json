@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物在片段中说出台词‘怎么？她不好对付啊’，后续紧跟‘我是不是给你惹麻烦了’[E1]。言语行为属于带有自我归因顾虑的试探性询问；音轨中说话者语调偏低、语气克制且带有些许探询与轻声迟疑[E2]；视觉上其双眼凝视对方、神态小心翼翼且带有不安神色[E3]，核心关注点在于对未解决问题及可能造成的麻烦感到焦虑与不安，而非纯粹的意外震惊。",
+  "open_emotion": "忐忑",
+  "answer": "worried",
+  "mapping_reason": "‘忐忑’表现为对潜在负面结果、自身责任及未知麻烦的顾虑与不安，在情绪轮中紧密对应强调风险预期与心理焦虑的worried类别。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "怎么 她不好对付啊 / 我 我是不是给你惹麻烦了",
+      "observation": "目标人物在询问对方遭遇后立即自我追问是否惹了麻烦",
+      "interpretation": "表明其心理评价方向是对未知不良后果与受责的担忧",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "‘怎么，她不好对付啊’语调轻缓、音量适中偏低，句尾带有试探性探寻语气",
+      "interpretation": "体现出小心试探而非大惊小怪或平铺直叙的中性叙述",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05至frame_07",
+      "observation": "人物微探身躯，眼神紧盯对方，嘴唇微张后轻抿，神态紧张",
+      "interpretation": "佐证了其内心忐忑不安的情绪状态",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "疑问句式与微张的嘴形可能被初步推断为surprise，但语音中缺少高音高和突发冲击感，且后续语义明确指向对不良后果的顾虑，排除了单纯惊讶。"
+}

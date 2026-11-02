@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia140_utt4",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "8fef145f22a30b21db1df9aa0b95769ecea3ec4535f7bae7d08d725b3cc323a7",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据提供的情绪轮定义，'surprise'（惊讶）被定义为“面对违背预期的信息而意外、诧异或惊奇”。Ross的言语中出现的“like-like”重复，是其在提出“写剧本”这一新想法时，组织语言和思考的直接表现。这表明他可能正在处理一个新奇或需要斟酌的想法，其状态是思考和犹豫，这与“惊讶”所描述的对新信息的即时反应和思考过程最为接近。虽然该情绪不完全等同于震惊，但在当前语境下，它是对Ross当前思考状态最合理的描述。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "neutral",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据MELD项目适配情绪轮的定义，'neutral'表示当前平稳、日常且没有明确主导情绪的表达。Ross的言语和语调都符合这一描述，没有证据表明他正在体验任何一种主导的、非中性的情绪。"
+    },
+    "image": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据情绪轮的定义，'surprise'（惊讶）是面对违背预期的信息而产生的意外、诧异或惊奇。Ross的面部表情（眉毛上扬、眼睛睁大、嘴巴微张）和身体姿态（略微后倾）是惊讶的直接视觉表现。他的言语内容“Y'know, like-like write a play.”也暗示了他正在回应一个让他感到意外的想法。因此，该表现最符合'surprise'的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "Ross的面部表情（眉毛上扬、眼睛睁大、嘴巴微张）和身体姿态（略微后倾）是惊讶的典型视觉表现，与图像专家的描述一致。音频中“like-like”的重复是语言犹豫的标志，表明他在思考，这与惊讶时的即时反应相符。字幕内容“Y'know, like-like write a play.”也暗示了他正在回应一个出乎意料的想法。虽然音频专家认为语调平稳，但视觉证据和言语内容共同支持惊讶的判断。",
+  "output": "Ross的面部表情（眉毛上扬、眼睛睁大、嘴巴微张）和身体姿态（略微后倾）是惊讶的典型视觉表现，与图像专家的描述一致。音频中“like-like”的重复是语言犹豫的标志，表明他在思考，这与惊讶时的即时反应相符。字幕内容“Y'know, like-like write a play.”也暗示了他正在回应一个出乎意料的想法。虽然音频专家认为语调平稳，但视觉证据和言语内容共同支持惊讶的判断。\n<answer>surprise</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 148.10688042640686
+}

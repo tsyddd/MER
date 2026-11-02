@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "目标是画面右侧面向前景男子说话的Janice，而非后方用餐的女子。她从抱臂、略带笑意地看向对方，转为双手比画并前倾说话；到后段眉头收紧、嘴部绷紧，最后重新抱臂并侧看对方[E1][E2][E3]。这些变化结合字幕中的“theater of cruelty”，更支持她在带着讥讽表达不满，而非单纯愉快地开玩笑[E4]。",
+  "open_emotion": "不满",
+  "answer": "anger",
+  "mapping_reason": "此处的不满指向对方被称作“cruelty”的做法，带有责备意味，因此映射到anger；画面不足以支持强烈愤怒。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.000秒）至frame_02（2.085秒）",
+      "observation": "Janice起初抱臂看向前景男子，嘴角略扬；随后松开双臂，开始用双手比画。",
+      "interpretation": "她在主动表达观点；起初的笑意不能单独证明她很开心。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03（3.128秒）至frame_06（6.298秒）",
+      "observation": "她举起手指比画并逐渐前倾；到frame_06，眉头明显收紧，嘴部绷紧。",
+      "interpretation": "相较开头，表达变得更尖锐，支持不满的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_07（7.341秒）",
+      "observation": "她重新抱臂，头转向前景男子，嘴角不再上扬。",
+      "interpretation": "这一收束姿态与前一帧的紧绷表情相接，支持她正在表达异议；抱臂本身不能单独定性情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "subtitle",
+      "anchor": "“Because you know, you could make little puppets out of them, and you could use them in your theater of cruelty.”",
+      "observation": "字幕将对方的做法称为“your theater of cruelty”。",
+      "interpretation": "措辞带有针对对方的责备意味，与画面中的表情变化相符；字幕不能证明她实际说话的语调。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "开头略带笑意、途中模仿小木偶的手势，也可能是在戏谑地说话；没有音轨，无法核实语调。因此最稳妥的判断是带讥讽的不满，而非强烈愤怒。"
+}

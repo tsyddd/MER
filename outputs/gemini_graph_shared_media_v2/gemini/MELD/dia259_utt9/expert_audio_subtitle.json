@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Monica在说出台词时语调轻快且伴随明显的笑意与调侃语调[E1]，其言语行为并非字面上的攻击或羞辱，而是亲近好友间的打趣；视觉上始终保持面带微笑、身体前倾的姿态[E2]，语义与韵律表情呈现善意戏谑，支持joy。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00 - 00:02",
+      "observation": "Monica说出'Girl, you are both idiots'时语速轻快，语调上扬且尾音带有轻微笑意与气音，全无严厉谴责或愤怒的爆发性重音。",
+      "interpretation": "语调和韵律表明说话者态度是在开玩笑和打趣对方，具有高度愉悦和戏谑的情感色彩。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.21s至frame_07 @ 2.13s",
+      "observation": "Monica双手合十抱在胸前，面带微笑，眼神注视对方并身体微微前倾。",
+      "interpretation": "微笑的神情与放松逗趣的肢体语言证实了她当前处于欢乐调侃的状态，而非生气或厌恶。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "字面含有贬义词'idiots'，常态下可能指向anger或disgust，但由于其语音韵律轻柔欢快并带有笑意，完全排除了负面攻击情绪。"
+}

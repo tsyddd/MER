@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/sample_00004468",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "030d3dde52545bf65625b56493419caddcff773c9828571517a26fff72171282",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据情绪轮定义，'surprise'（惊讶）指因当前信息违背预期产生的意外、诧异或震惊。目标人物的质问并非出于愤怒或悲伤，而是直接针对对方情绪的反常，其面部表情（眉毛上扬、眼睛睁大）和疑问语气都指向对突发情况的即时反应，因此映射为'surprise'最为准确。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据情绪轮定义，'surprise'（惊讶）是因当前信息违背预期而产生的意外或诧异。说话者听到对方对“院长离婚”这一事件表现出高兴，这与她可能的预期（如悲伤、担忧或中立）相悖，因此她表现出惊讶。她的反问语气和上扬的语调是这种情绪的直接体现。"
+    },
+    "image": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据情绪轮的定义，'surprise'（惊讶）是因当前信息违背预期而产生的意外、诧异或震惊。目标人物的面部表情（眉毛上扬、眼睛睁大、嘴巴微张）和她对“仇院长离婚”这一突发信息的反应，完全符合该情绪的定义。她的表情是即时的、直接的，而非对后果的担忧或对事件的愤怒。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "目标人物在听到“仇院长离婚”这一信息后，立即以疑问的语调和表情质询对方“你怎么这么高兴呢”。其面部表情（眉毛上扬、眼睛睁大、嘴巴微张）和上扬的疑问语调，均是惊讶情绪的直接表现。三位专家的证据均指向“惊讶”：[image:E1]和[graph:E1]从视觉和行为上确认了惊讶的表情和反应；[audio_subtitle:E1]从语音韵律上证实了疑问和意外的语气。这些证据共同支持了惊讶的判断，且无矛盾证据。",
+  "output": "目标人物在听到“仇院长离婚”这一信息后，立即以疑问的语调和表情质询对方“你怎么这么高兴呢”。其面部表情（眉毛上扬、眼睛睁大、嘴巴微张）和上扬的疑问语调，均是惊讶情绪的直接表现。三位专家的证据均指向“惊讶”：[image:E1]和[graph:E1]从视觉和行为上确认了惊讶的表情和反应；[audio_subtitle:E1]从语音韵律上证实了疑问和意外的语气。这些证据共同支持了惊讶的判断，且无矛盾证据。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 162.21787095069885
+}

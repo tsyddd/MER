@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00019636",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "d1653847d3cf6cfc09cc8eb7628fbb69523753b496954bbdaa066c61ccdb6896",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "目标人物在谈及胡十四娘年龄及“人面花”时，视觉上从初期的惊疑迅速转为眉头紧锁、目光凝滞，并在第5至7帧持续将右手握拳紧抵咽喉与领口[image:E2]，呈现出下意识的自我抚慰与防御体态。实际音轨在后半句显著放慢且转为低沉气声的自语[audio_subtitle:E1]，充满后怕与疑虑，绝非[graph:E3]所称的面部舒展与纯粹客观中立。虽然开篇带有短暂的质疑与困惑，但贯穿后半程的动作和语气均鲜明指向面对诡异事件时的忌惮与不安，故判定为worried。",
+  "output": "目标人物在谈及胡十四娘年龄及“人面花”时，视觉上从初期的惊疑迅速转为眉头紧锁、目光凝滞，并在第5至7帧持续将右手握拳紧抵咽喉与领口[image:E2]，呈现出下意识的自我抚慰与防御体态。实际音轨在后半句显著放慢且转为低沉气声的自语[audio_subtitle:E1]，充满后怕与疑虑，绝非[graph:E3]所称的面部舒展与纯粹客观中立。虽然开篇带有短暂的质疑与困惑，但贯穿后半程的动作和语气均鲜明指向面对诡异事件时的忌惮与不安，故判定为worried。\n<answer>worried</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 84.84158611297607
+}

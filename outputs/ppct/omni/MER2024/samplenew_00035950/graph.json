@@ -1,0 +1,132 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "说话人正在说话。",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "说话人戴着华丽的头饰，穿着传统服饰。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "说话人的嘴部在开合，正在发声。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "说话人的视线朝向画面左侧。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "说话人的声调带有疑问和不解的语气。",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "场景位于一个室内，背景有画作和台灯。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "在第7帧，场景切换到一个更大的房间，有其他人物在场。",
+      "time_index": 7,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0 提供了说话人的整体外貌和服饰信息，person_1 提供了其嘴部开合的动态细节，联合后可观察到说话人正在发声的具体生理动作。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_0 提供了说话人的整体外貌和服饰信息，person_2 提供了其视线方向的细节，联合后可观察到说话人正在注视画面左侧的特定方向。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_0 提供了说话人的整体外貌和服饰信息，person_3 提供了其声调带有疑问和不解的语气信息，联合后可观察到说话人不仅在说话，而且其语气也表现出疑问和不解。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1 提供了说话人嘴部开合的动态细节，person_2 提供了其视线方向的细节，联合后可观察到说话人正在注视画面左侧并同步进行发声。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_1 提供了说话人嘴部开合的动态细节，person_3 提供了其声调带有疑问和不解的语气信息，联合后可观察到说话人正在发出带有疑问和不解语气的声音。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_2",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_2 提供了说话人视线朝向画面左侧的细节，person_3 提供了其声调带有疑问和不解的语气信息，联合后可观察到说话人正在注视画面左侧并发出疑问和不解的语气。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0 提供了初始场景的室内环境信息，context_1 提供了场景切换后包含其他人物的更大房间信息，联合后可观察到场景从一个简单的室内环境扩展为一个包含其他人物的复杂社交空间。",
+      "entity_anchor": null
+    }
+  ]
+}

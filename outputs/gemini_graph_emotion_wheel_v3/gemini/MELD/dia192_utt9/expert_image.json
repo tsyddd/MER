@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "目标人物Monica在片段前半段（frame_00至frame_03）原本正走向后方房间，在听到对方言语后于frame_04猛然折返并探出身来。frame_05至frame_07中，她大步向前逼近画面中央的Chandler，双眼直视、面部紧绷且带着难以置信与责备的神态；结合音轨中尖锐、上扬且带挑衅质问语调的“Excuse me!”，清晰表明其受到冒犯并立即发起对峙与反诘。",
+  "open_emotion": "愤慨",
+  "answer": "anger",
+  "mapping_reason": "Monica因受到冒犯或质疑而表现出强烈的质问、反诘与身体逼近对峙，符合anger家族中“对冒犯、受阻或不公的恼火、责备与对抗”的定义，映射为anger。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_04至frame_07",
+      "observation": "Monica在后方听到话语后迅速折返并大步向前迈进，双眼圆睁锁定对方，身体前倾呈现对峙逼近姿态。",
+      "interpretation": "展现出被冒犯后强烈的反击与质问冲动，支持愤慨对峙。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.0秒-1.5秒",
+      "observation": "伴随Monica走近，女声以高亢、尖锐且充满反问质问的语调说出“Excuse me!”。",
+      "interpretation": "听觉语调具明显的挑衅与责备色彩，排除了单纯日常中性发问或真正开心的可能。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "Monica在frame_06嘴角似乎略有咧开，可能产生调侃或诧异假象，但结合其急促逼近的肢体动作及音轨中的尖锐质问语调，实为愤怒反诘时的表情变化。"
+}

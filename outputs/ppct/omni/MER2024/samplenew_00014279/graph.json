@@ -1,0 +1,77 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "说话人对另一人说出“你除了这些卑劣的手段，还会什么？真是无耻之极。”",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "一名女性，额头上有一个红色的圆点，正看着另一人。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "一名男性，背对镜头，只能看到后脑勺和右耳。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "场景似乎在室内，背景模糊。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "说话人正在与另一人进行对话。",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0 提供了说话者的面部表情和可见的红色圆点，person_1 提供了对话的接收者视角，联合后完整呈现了两人之间的互动场景。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0 提供了模糊的室内背景，context_1 提供了对话的互动事实，联合后更完整地限定了这是一个发生在室内的对话场景。",
+      "entity_anchor": null
+    }
+  ]
+}

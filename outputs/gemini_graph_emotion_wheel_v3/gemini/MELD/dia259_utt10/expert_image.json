@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物Monica在片段中全程身体明显前倾，面部紧绷且眼神专注聚焦于对方，呈现出主动逼近的对抗姿态[E1]。在说话过程中，她配合手势强调观点[E2]，并在后段（frame_06）伴随剧烈的张嘴和身体摆动，音轨中语调高昂、尖锐且带有强烈的责备感[E3]，体现出强烈的愤慨与斥责情绪。",
+  "open_emotion": "愤慨",
+  "answer": "anger",
+  "mapping_reason": "Monica表现出因内容冒犯而针对对方的严厉斥责与对抗态度，符合anger家族中“对冒犯、受阻或不公的恼火、责备与对抗”的定义，故映射为anger。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 (0.0s) - frame_01 (0.71s)",
+      "observation": "Monica身穿蓝色高领毛衣，上半身前倾靠近镜头方向，双眉微蹙，面部神情严肃且具有压迫感。",
+      "interpretation": "展现出主动逼近、针对对方言论展开对抗的身体姿态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 (1.42s)",
+      "observation": "Monica右手向外侧用力挥动，面部下颌紧绷并继续发话。",
+      "interpretation": "强调性手势强化了其批评与据理力争的坚定态度。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_06 (4.21s)",
+      "observation": "Monica双肩微张、头部前伸，嘴部大张，面部表情达到极高的动作幅度。",
+      "interpretation": "体现情绪激昂、斥责到达高潮的强烈爆发力。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "Monica在frame_01和frame_07嘴角隐约有轻微上挑的表情痕迹，但结合台词和连续动作来看，属于讽刺、挖苦式的冷笑而非喜悦。"
+}

@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者以升调发出'啊？'，表现出明显的惊讶，随后的'真的'语气肯定但带有确认意味，整体语调和节奏显示其情绪为惊讶。",
+  "answer": "surprise",
+  "evidence_refs": []
+}

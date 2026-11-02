@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "目标人物梅晓歌在会议场景中陈述一段关于他印象最深的人家的往事。他的语速平稳，语调沉稳，没有明显的情绪起伏。在说“我印象最深的一户人家”时，他张嘴发声，目光平视前方，表现出一种平静的叙述状态。在说“祖祖辈辈种地”时，他同样保持平稳的语调和沉稳的神态。整个过程没有表现出喜悦、悲伤、愤怒、担忧或惊讶等强烈情绪的迹象。因此，他的情绪是中性的。",
+  "open_emotion": "平静",
+  "answer": "neutral",
+  "mapping_reason": "根据情绪轮的定义，'neutral'（中性）指当前主要为平稳叙述、自然交流或无明确主导情绪的表达。梅晓歌的语速平稳、语调沉稳，面部表情没有明显的情绪波动，其行为符合在正式场合进行平稳叙述的特征，因此映射为'neutral'。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "梅晓歌以平稳的语速和沉稳的语调说出“我印象最深的一户人家”",
+      "interpretation": "平稳的语速和沉稳的语调表明其情绪状态稳定，没有明显的情绪波动。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "梅晓歌身穿白衬衫端坐，视线平视前方，张嘴发音",
+      "interpretation": "端坐的姿态和视线平视前方表明其处于一个正式、专注的交流状态，没有表现出情绪化的姿态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:02-00:03",
+      "observation": "梅晓歌以平稳的语速和沉稳的语调说出“祖祖辈辈种地”",
+      "interpretation": "与前一句相比，语调和语速保持一致，没有出现情绪化的变化。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_03",
+      "observation": "梅晓歌说完后闭嘴抿唇，视线注视前方",
+      "interpretation": "闭嘴抿唇和凝神注视是陈述结束后的自然状态，没有表现出情绪化的反应。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00029282",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sad",
+  "emotion_analysis": "紫衣女子眉心紧蹙、眼眶含泪〔person_0〕，嘴角下撇并伴随抽泣哽咽〔person_1, person_2〕，眼角带泪注视对方〔person_3〕。结合其说出“没想到，你竟然这么傻”时颤抖的哭腔〔process_0, process_1〕，充分体现出因心疼与难过而伤心落泪的悲伤状态。",
+  "output": "紫衣女子眉心紧蹙、眼眶含泪〔person_0〕，嘴角下撇并伴随抽泣哽咽〔person_1, person_2〕，眼角带泪注视对方〔person_3〕。结合其说出“没想到，你竟然这么傻”时颤抖的哭腔〔process_0, process_1〕，充分体现出因心疼与难过而伤心落泪的悲伤状态。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 54.46958374977112,
+  "node_count": 8,
+  "edge_count": 8
+}

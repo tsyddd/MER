@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载女性在交流中直陈“我主要是担心这事儿”、“会牵连到您家老爷子”〔process_0, process_1〕，表达了明确的担忧。同时其神态呈现双眉微蹙〔person_2〕，结合言辞与面部特征充分体现出其内心的顾虑与不安，当前情绪对应为worried。",
+  "answer": "worried",
+  "evidence_refs": [
+    "process_0",
+    "process_1",
+    "person_2"
+  ]
+}

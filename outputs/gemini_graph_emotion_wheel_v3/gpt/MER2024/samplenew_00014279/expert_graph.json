@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "女子在当前面对面的交谈中，先反问男子除了“卑劣的手段”还会什么，继而斥其“无耻之极”[E1][E2]。这是她本人当下对对方的责备，而不是已核实的男子行为。她说话时直视对方、眉头微蹙[E3]，与言语中的对抗方向相符；这一表情不另算一份独立的情绪证据。",
+  "open_emotion": "愤慨",
+  "answer": "angry",
+  "mapping_reason": "当前表达的核心是针对对方的明确责备和斥责，因此将“愤慨”映射为angry，而非仅凭皱眉推断担忧。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“你除了这些卑劣的手段，还会什么？真是无耻之极。”",
+      "observation": "女子用反问质疑对方，并直接斥其无耻。",
+      "interpretation": "话语指向当前交谈对象，体现责备和对抗。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "process_1、process_2、process_3",
+      "observation": "图谱将这段话组织为女子对男子的指责、质问和斥责。",
+      "interpretation": "与字幕所示的当前互动一致；它组织了事件关系，但与字幕同源，不作为额外的独立证明，也不能据此认定男子确曾使用所指手段。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02（1.8秒）至frame_06（5.36秒）",
+      "observation": "女子面对男子说话，目光朝向他，眉头微蹙。",
+      "interpretation": "支持这是当面对人的严肃表达；表情本身也可能有其他解释，需结合话语判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱转述女子发声较轻、伴有喘息与停顿。",
+      "interpretation": "未提供原音轨，无法亲耳核验，也不据此推定她悲伤或担忧。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "皱眉和额头伤痕单独看可能让人想到疼痛或担忧，但伤痕不是情绪证据；当前反问与斥责比这些替代解释更直接。图谱称她先说出男子名字，现有字幕仅以“木则：”标注，不能确认她在片段中喊了这个名字。"
+}

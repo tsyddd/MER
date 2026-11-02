@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "她对面前的人说“没想到，你竟然这么傻”，其中“没想到”表达意外，但整句更像带着痛楚的感叹，而非兴奋的发现或明确的斥责[E1]。连续画面中，她眉头紧锁、眼眶湿润，表情由勉强维持转为低头，支持当前以难过为主[E2][E3]。",
+  "open_emotion": "难过",
+  "answer": "sad",
+  "mapping_reason": "当前话语中的痛楚感叹与持续低落的表情相符，因此将“难过”映射为sad；“没想到”虽含意外之意，却不足以使surprise成为主导情绪。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "没想到，你竟然这么傻。",
+      "observation": "说话者用“没想到”引出对对方“这么傻”的评价。",
+      "interpretation": "这是带意外意味的感叹；单凭这句话不能断定她在责骂或惊喜。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02（0.72秒）至frame_05（1.84秒）",
+      "observation": "正面说话的女子持续皱眉、眼眶湿润，嘴部呈绷紧后张开的变化。",
+      "interpretation": "持续的痛苦表情比短暂惊讶或对抗性愤怒更支持难过。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_06（2.2秒）至frame_07（2.56秒）",
+      "observation": "她垂下目光，眉头仍紧锁。",
+      "interpretation": "后续没有转为轻松或对抗的表情，支持低落情绪仍在延续。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "“没想到”可支持意外，“这么傻”也可能是轻微责备；但画面中的持续痛苦表情使这两种解释弱于难过。未提供音频，无法判断语调或是否带哭腔。"
+}

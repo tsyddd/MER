@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载Monica在怀抱婴儿时面带微笑注视前方〔person_0〕，随后转头看向房间另一侧且嘴角微扬〔person_3〕。同时，图谱记载其语调轻柔且欢快〔person_4〕，积极地向同伴分享当前进展十分顺利〔process_1〕，这些表情与声音特征共同表现出明显的喜悦情绪。",
+  "answer": "joy",
+  "evidence_refs": [
+    "person_0",
+    "person_3",
+    "person_4",
+    "process_1"
+  ]
+}

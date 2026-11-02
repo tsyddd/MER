@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035837",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "50fa078e2d97eec8a574cbe583ec63c1368c6298089bae3bc9b79dd5c68cb064",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "独立回看全帧与音轨，目标人物眼神始终低垂散落、嘴角下沉（如frame 0-7），视觉上展现出极度低落与消沉的萎靡姿态[image:E1]。音轨中（0:00-0:02）其声线极度微弱沙哑且伴有叹息般的气音[audio_subtitle:E2]，配合字幕“再也没有亲人了”的孤绝自白[audio_subtitle:E1]，构成了典型哀痛绝望的情绪表征。反证方面，虽然面部没有强烈的哭泣抽搐、语调平缓，看似接近无动于衷的平静，但微弱无力的声带状态和消沉神态完全排除了中性客观（neutral），而是极致哀伤下的压抑表现，故确定为sad。",
+  "output": "独立回看全帧与音轨，目标人物眼神始终低垂散落、嘴角下沉（如frame 0-7），视觉上展现出极度低落与消沉的萎靡姿态[image:E1]。音轨中（0:00-0:02）其声线极度微弱沙哑且伴有叹息般的气音[audio_subtitle:E2]，配合字幕“再也没有亲人了”的孤绝自白[audio_subtitle:E1]，构成了典型哀痛绝望的情绪表征。反证方面，虽然面部没有强烈的哭泣抽搐、语调平缓，看似接近无动于衷的平静，但微弱无力的声带状态和消沉神态完全排除了中性客观（neutral），而是极致哀伤下的压抑表现，故确定为sad。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 53.80195927619934
+}

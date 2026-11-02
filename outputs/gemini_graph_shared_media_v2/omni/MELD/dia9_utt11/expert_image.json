@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "Rachel's facial expression and body language across the frames indicate distress. Her brow is furrowed, her mouth is slightly open, and her head is tilted down, consistent with sadness. She is holding a blue sweater, which she mentions in the subtitle, and her posture is slumped. The audio confirms her emotional state with the line 'Everything's ruined.'",
+  "answer": "sadness",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "Rachel has a furrowed brow, her mouth is slightly open, and her head is tilted down.",
+      "interpretation": "These are common visual cues for sadness or distress.",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.084",
+      "observation": "Rachel's eyes are downcast and her shoulders are slumped.",
+      "interpretation": "This posture reinforces the expression of sadness.",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Everything's ruined. My bed. My clothes. Look at my favorite blue sweater.",
+      "observation": "The subtitle explicitly states that her possessions are ruined.",
+      "interpretation": "This provides context for her sad expression, indicating a loss.",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "0.0-2.502",
+      "observation": "Rachel's voice is shaky and sounds distressed.",
+      "interpretation": "The tone of her voice matches the sad expression on her face.",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "There is no strong visual or auditory evidence to support any other emotion like anger, joy, or surprise. Her expression is consistently one of sadness."
+}

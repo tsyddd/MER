@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013928",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "49b9882ec6625c755d0ee37646065921d1bf3d3dd712f15713cb364e31bc4877",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "happy",
+  "emotion_analysis": "三位专家提供的线索高度一致且互为印证。图像专家指出目标人物全程笑容明朗、嘴角上扬露齿且肢体动作欢快，音频专家亦证实其语调轻快上扬、伴随笑意与热情，图谱信息同样记录了其积极鼓励的行为神态。视听证据共同表明人物处于愉悦欢快的状态，故判定为happy。",
+  "output": "三位专家提供的线索高度一致且互为印证。图像专家指出目标人物全程笑容明朗、嘴角上扬露齿且肢体动作欢快，音频专家亦证实其语调轻快上扬、伴随笑意与热情，图谱信息同样记录了其积极鼓励的行为神态。视听证据共同表明人物处于愉悦欢快的状态，故判定为happy。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 29.194539785385132
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia40_utt0",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "Monica's utterance 'Yeah baby!' is accompanied by a clear smile and direct eye contact with Chandler, who reciprocates with a smile. This mutual gaze and positive facial expression indicate a moment of shared amusement or affection.",
+  "output": "Monica's utterance 'Yeah baby!' is accompanied by a clear smile and direct eye contact with Chandler, who reciprocates with a smile. This mutual gaze and positive facial expression indicate a moment of shared amusement or affection.\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 71.72423791885376,
+  "node_count": 5,
+  "edge_count": 2
+}

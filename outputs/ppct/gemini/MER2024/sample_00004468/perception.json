@@ -1,0 +1,129 @@
+{
+  "process": {
+    "nodes": [
+      {
+        "id": "process_0",
+        "type": "process",
+        "content": "目标人物开口说出“哎，甄”",
+        "evidence_sources": [
+          "visual",
+          "audio"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "process_1",
+        "type": "process",
+        "content": "目标人物继续说话提到“裘院长离婚”",
+        "evidence_sources": [
+          "visual",
+          "audio"
+        ],
+        "time_index": 1,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "process_2",
+        "type": "process",
+        "content": "目标人物向对方发问“你怎么这么高兴呢”",
+        "evidence_sources": [
+          "visual",
+          "audio"
+        ],
+        "time_index": 2,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  },
+  "person": {
+    "nodes": [
+      {
+        "id": "person_0",
+        "type": "person",
+        "content": "目标人物闭眼后睁开，头部微侧，目视前下方转为平视前方",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_1",
+        "type": "person",
+        "content": "目标人物双手抱住文件夹于胸前",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_2",
+        "type": "person",
+        "content": "目标人物眉头微蹙，视线集中于右前方，嘴唇持续张合",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 1,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_3",
+        "type": "person",
+        "content": "目标人物眉毛微扬，眼睛睁大注视前方，发出疑问语调",
+        "evidence_sources": [
+          "visual",
+          "audio"
+        ],
+        "time_index": 2,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  },
+  "context": {
+    "nodes": [
+      {
+        "id": "context_0",
+        "type": "context",
+        "content": "目标人物身穿白色大褂和条纹衬衫，身处室内办公环境",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "context_1",
+        "type": "context",
+        "content": "目标人物怀中持有橙绿色文件夹",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "context_2",
+        "type": "context",
+        "content": "目标人物正在与画外在场人员对话",
+        "evidence_sources": [
+          "visual",
+          "audio"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Joey谈到“whipped fish”后说自己能“keeping it down”就已经很高兴，重点不是表达开心，而是暗示这食物令他反胃[E1]。他说话时皱眉、仰头看向Monica，表情与这种不适相符[E2]。没有提供音频，无法判断语调或声音变化。",
+  "open_emotion": "反胃",
+  "answer": "disgust",
+  "mapping_reason": "“反胃”是对食物难以接受的排斥感，符合disgust；句中的“happy”表达的是勉强没吐出来的庆幸，不足以将当前主导情绪判为joy。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“We're talking about whipped fish, Monica. I'm just happy I'm keeping it down, y'know?”",
+      "observation": "Joey提到食物后说，自己能让它留在胃里就已经很高兴。",
+      "interpretation": "“keeping it down”在此暗示想吐或难以下咽，支持对食物反胃的解释，而非仅按“happy”字面判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01（0.959秒）至frame_02（1.877秒）",
+      "observation": "Joey抬头看向Monica，眉头紧蹙，嘴部表情紧绷。",
+      "interpretation": "表情与他所说的食物不适相容；单凭表情不能确定反胃，需结合话语判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_03（2.836秒）",
+      "observation": "Joey短暂露出笑意。",
+      "interpretation": "这也可能是玩笑式表达，不能据此排除他对食物的排斥。",
+      "polarity": "counter"
+    }
+  ],
+  "counterevidence": "最强的替代解释是Joey在开玩笑，或为没吐出来而感到庆幸；短暂笑意及“happy”支持这种读法。但“whipped fish”与“keeping it down”的连用更直接指向反胃。缺少音频，无法用语气进一步区分。"
+}

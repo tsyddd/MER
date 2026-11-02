@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "主要人物直接指责对方“背信弃义、抬价”〔process_0〕，并持续平视锁定对方〔person_0〕。图谱记载其语速急促、音量较高〔person_1〕，随后双眼睁大注视对方〔person_3〕，表现出明显的激动和对抗性。",
+  "answer": "angry",
+  "evidence_refs": [
+    "process_0",
+    "person_0",
+    "person_1",
+    "person_3"
+  ]
+}

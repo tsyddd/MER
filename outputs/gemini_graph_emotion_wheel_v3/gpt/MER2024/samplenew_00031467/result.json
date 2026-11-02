@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00031467",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "ce0718d332667e1a8f68aff97e3bf70bb490b84c29c19b6a35c15f5d91354a74",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "平和",
+      "mapped_label": "neutral",
+      "mapping_reason": "当前是较平稳的劝说与说明，没有足够证据表明喜悦、担忧或其他情绪占主导，因此将“平和”映射为neutral。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "平和",
+      "mapped_label": "neutral",
+      "mapping_reason": "“平和”指当前以自然、温和的交流为主，没有足够证据表明某种更明确的情绪占主导，因此映射为neutral。"
+    },
+    "image": {
+      "open_emotion": "平和",
+      "mapped_label": "neutral",
+      "mapping_reason": "平和的目光、姿态与持续说明相符；虽有轻微笑意，但不足以支持当前以喜悦为主导，因此映射为neutral。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "字幕“皇上闻着，正好，消乏，安睡”是在向对方说明用途，而非表达对坏结果的担忧；这一解读与字幕相符，但不能据此判断语调[audio_subtitle:E1]。前七帧中，浅绿色衣服女子面向右侧持续说话，姿态和神情较平稳，支持自然交流的判断[image:E1]。她偶有轻微笑意，是喜悦的可能反证，但笑意并未明显扩大，仅凭这一点不足以判定喜悦占主导[image:E2]；本题未提供音轨，不将任何语调描述视为亲耳核实。",
+  "output": "字幕“皇上闻着，正好，消乏，安睡”是在向对方说明用途，而非表达对坏结果的担忧；这一解读与字幕相符，但不能据此判断语调[audio_subtitle:E1]。前七帧中，浅绿色衣服女子面向右侧持续说话，姿态和神情较平稳，支持自然交流的判断[image:E1]。她偶有轻微笑意，是喜悦的可能反证，但笑意并未明显扩大，仅凭这一点不足以判定喜悦占主导[image:E2]；本题未提供音轨，不将任何语调描述视为亲耳核实。\n<answer>neutral</answer>",
+  "label": "happy",
+  "elapsed_seconds": 83.71617531776428
+}

@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Joey 在话语中直接否定对方并进行言语挖苦，其核心意图在于对输掉比赛的受挫现实进行直白纠正，并对同伴毫无贡献的消极表现施加讽刺责备。音频中开头短促坚决的否定以及后续重音突出的嘲讽语调，配合视觉上指向对方的指责手势，均体现出鲜明的不满与恼火。",
+  "open_emotion": "恼火",
+  "answer": "anger",
+  "mapping_reason": "开放情绪‘恼火’（annoyed）属于面对受阻或同伴懈怠时产生的负向责备情绪，符合情绪轮中 anger 家族对冒犯、受阻及不满的定义范围。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "No-no, she kicked our butts. You could be on the Olympic standing-there team.",
+      "observation": "Joey 使用强烈的否定词开场，直指‘被击溃’的事实，并以‘奥运站桩队’挖苦指责同伴。",
+      "interpretation": "言语行为展现了针对输球现实的受挫感及对队友站着不动的不满与指责。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0:00-0:03",
+      "observation": "Joey 起句‘No-no’发音短促且音调微沉，随后在‘she kicked our butts’与‘standing-there team’处加重音量与下沉重音，语调带着明显的抱怨与反驳口吻。",
+      "interpretation": "韵律特征排除了完全平静陈述的可能，体现出带有挖苦和责怪意味的情绪起伏。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01-frame_03",
+      "observation": "Joey 伴随说话伸出食指向对方比划、强调，面部眉头微收、神态严肃。",
+      "interpretation": "肢体手势与面部动作强化了对同伴的批评对抗态度，而非纯粹的欢快打趣。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词具有情景喜剧典型的吐槽幽默色彩，尾句引发罐头笑声，容易被误读为调侃戏谑（joy）或日常对话（neutral）；但结合其受挫语境与言辞指责本质，其主导情绪仍偏向低烈度的烦闷与恼火。"
+}

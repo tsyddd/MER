@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia150_utt4",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sadness",
+  "emotion_analysis": "结合节点person_0、person_1与person_2、person_3，Janice在说出道别台词时伴随微弱延展的语调，随后双手环抱胸前；其眉心微蹙、眼神低垂流露出依依不舍与失落的神态，整体表现符合悲伤情绪。",
+  "output": "结合节点person_0、person_1与person_2、person_3，Janice在说出道别台词时伴随微弱延展的语调，随后双手环抱胸前；其眉心微蹙、眼神低垂流露出依依不舍与失落的神态，整体表现符合悲伤情绪。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 47.641873359680176,
+  "node_count": 7,
+  "edge_count": 6
+}

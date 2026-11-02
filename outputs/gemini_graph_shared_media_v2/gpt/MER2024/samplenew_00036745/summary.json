@@ -1,0 +1,10 @@
+{
+  "reason": "我独立回看了全部帧：目标人物持续皱眉、嘴部紧绷，随后抬眉睁眼并指向前方，整体更像对异常情况的警觉与担忧，而非单纯平静陈述。[image:E1][image:E2] 字幕可核实“我去查”，与这种紧迫的核查行动相互支持；但本段没有音轨，不能核验任何语调转述。[audio_subtitle:E1] 中性是最强反证，不过持续的紧张面部变化和指向动作使worried比neutral更合适；图谱专家也明确承认其关于平稳语调的部分无法直接核验。[graph:E1]",
+  "answer": "worried",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "audio_subtitle:E1",
+    "graph:E1"
+  ]
+}

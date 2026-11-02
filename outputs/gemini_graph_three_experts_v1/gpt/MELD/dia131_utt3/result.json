@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia131_utt3",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "cd3d3c8c807c19df6b632ee4fea884ed6da5a8289e78f2f9813b77504e417e13",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "字幕字面仅表示事情进展顺利，且未提供音频，不能据此判断语气；图谱所述开放手势与图片中的表情线索存在冲突。图片专家在多帧中观察到皱眉、抿嘴、低头和紧绷状态，这些直接视觉证据更持续地指向恼怒，因此取“anger”。",
+  "output": "字幕字面仅表示事情进展顺利，且未提供音频，不能据此判断语气；图谱所述开放手势与图片中的表情线索存在冲突。图片专家在多帧中观察到皱眉、抿嘴、低头和紧绷状态，这些直接视觉证据更持续地指向恼怒，因此取“anger”。\n<answer>anger</answer>",
+  "label": "joy",
+  "elapsed_seconds": 75.32491636276245
+}

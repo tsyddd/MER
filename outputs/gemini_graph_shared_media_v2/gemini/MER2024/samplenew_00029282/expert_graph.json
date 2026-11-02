@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "在当前人际互动中，紫衣女子面对蓝衣女子既成事实的举动说出‘没想到，你竟然这么傻’，语义为对已知结局的痛心而非对未知威胁的焦灼[E3]。视觉上眉心紧蹙内收微扬伴随泪水盈眶、嘴角下撇抽动[E1]，听觉上语音带有剧烈抽噎与哽咽哭腔[E2]，视听跨模态线索紧密呼应，明确指向强烈的悲伤心痛情绪。",
+  "answer": "sad",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.72",
+      "observation": "紫衣女子眉心紧蹙向上微扬，眼眶湿润含泪，嘴角显著下撇，伴随抽泣动作",
+      "interpretation": "呈现典型的悲伤哭泣表情，支持悲痛与心碎的情感状态",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "话语‘没想到你竟然这么傻’伴随强烈而颤抖的抽噎断续声与哭腔",
+      "interpretation": "实际音轨与哭泣面容一致，体现极度悲伤带来的发声失控",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "图谱节点记录紫衣女子眉心紧蹙、眼眶含泪并注视对方",
+      "interpretation": "结合言语互动事件，体现其因对方做出的傻事而引发强烈的情感触动与悲伤",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词‘你竟然这么傻’包含责怪语义可能诱发angry或worried的猜测，但语音无攻击性升调，而是明显的痛哭抽泣，且事件是对既成结局的心痛而非对未定风险的焦虑，故排除angry与worried。"
+}

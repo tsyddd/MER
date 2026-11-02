@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00002333",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "happy",
+  "emotion_analysis": "画面中人物面部表情为微笑，身体姿态放松，结合其说出的“像这娘，交代你”这句带有调侃意味的台词，整体情绪表现为轻松愉快。",
+  "output": "画面中人物面部表情为微笑，身体姿态放松，结合其说出的“像这娘，交代你”这句带有调侃意味的台词，整体情绪表现为轻松愉快。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 5.173541069030762,
+  "node_count": null,
+  "edge_count": null
+}

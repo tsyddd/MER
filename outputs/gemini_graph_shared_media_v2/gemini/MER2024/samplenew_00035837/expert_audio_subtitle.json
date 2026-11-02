@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标在字幕中陈述失去所有至亲的孤绝现实，音轨中呈现极度微弱、低沉沙哑且带有强烈气声哽咽的声学特征，视听语言高度统一地表达了深深的悲伤。",
+  "answer": "sad",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "我知道，在这个世上，再也没有亲人了。",
+      "observation": "人物陈述自己在这个世上再无亲人，言语行为为直白的丧失事实叙述。",
+      "interpretation": "语义核心为彻底的孤独与至亲丧失，直接承载强烈的哀伤与绝望意图。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0:00 - 0:02",
+      "observation": "发音音量极低微，气息虚弱无力，音质沙哑且带有明显的叹息与低落哽咽感，句尾语调沉降。",
+      "interpretation": "低能量、气声化和低沉语调是压抑的悲伤（sadness）非常典型的韵律特征，反映出极度的心灰意冷。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.56s",
+      "observation": "人物视线低垂无光，嘴角与面部整体呈现低垂无生气的状态。",
+      "interpretation": "消沉的面部状态与低语低泣的声音相吻合，证实并非情绪平静。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释为neutral（认为其表情平淡、音调平直克制），但音轨中明显的声带无力、微弱气声与话语里极具毁灭性的丧亲自白表明这是悲伤至极后的心碎低诉，而非中性冷漠。"
+}

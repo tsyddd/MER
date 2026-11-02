@@ -1,0 +1,9 @@
+{
+  "expert": "graph",
+  "reason": "灰衣束发男子微低着头，视线垂向下方，嘴唇微动〔person_1〕，同时其说话声语调低沉、语速平缓〔person_2〕，二者同步呈现其正在低语的状态，结合其姿态与声音共同营造出一种压抑或沉思的氛围，符合'worried'情绪特征。",
+  "answer": "worried",
+  "evidence_refs": [
+    "person_1",
+    "person_2"
+  ]
+}

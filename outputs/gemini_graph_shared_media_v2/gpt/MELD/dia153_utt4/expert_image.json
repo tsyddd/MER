@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物是坐在沙发上、穿格子衬衫的Joey，而非右侧穿黑衣的人。他持续看向画面左侧，手势从摊手转为用力挥动、指向左侧，期间眉头收紧、嘴部张开并绷紧；这些连续变化更支持带有恼怒的强调，而不是单纯陈述[E1][E2]。字幕显示他在举例说明「恐高就去楼顶」，但不能据此认定他本人正在害怕[E3]。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒；frame_03 @ 1.251249028533363秒",
+      "observation": "Joey起初朝画面左侧摊手，随后抬手挥动；眉头收紧，嘴张开且面部绷紧。",
+      "interpretation": "手势和面部动作一同增强，支持恼怒地强调观点。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.710040338995596秒；frame_05 @ 2.127123348506717秒",
+      "observation": "他抬起食指后指向左侧，目光仍朝该方向，嘴唇随之抿紧。",
+      "interpretation": "延续的定向手势和紧绷表情支持较强硬的表达；单凭指人本身不能确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "It have a fear of heights, you go to the top of the building!",
+      "observation": "字幕提到恐高以及去楼顶。",
+      "interpretation": "这是话语内容，不是Joey正在表现恐惧的视觉证据；没有提供音频，无法核查语调。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "最强的相反解释是他只是在激动地举例、并未生气：持续指向左侧也可能是为了说明观点。未采用这一解释，是因为挥手、紧眉和绷紧的口部在片段中同时出现并增强；但缺少音轨，无法进一步区分恼怒与强烈强调。"
+}

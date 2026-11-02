@@ -1,0 +1,115 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "女子开口说话：‘手里还握着一截风筝线。’",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio",
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "女子眉毛微蹙，嘴唇开合说话",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "女子说话语调低沉，带有颤音与抽噎停顿感",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "女子头部微微低垂，视线向下移",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内环境，背景有红色垂帘与暖光灯影",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "一名盘发梳髻、着古装服饰的女子位于画面中央",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "女子在开口说话的同时，伴随着低沉且带有抽噎停顿的语音语调",
+      "entity_anchor": "女子"
+    },
+    {
+      "source": "person_2",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "女子在开口说话后，头部进一步微微低垂并将视线向下移",
+      "entity_anchor": "女子"
+    },
+    {
+      "source": "context_1",
+      "target": "context_0",
+      "relation": "simultaneous",
+      "reason": "室内红色垂帘背景与位于画面中央的古装女子共同构成同一场景画面",
+      "entity_anchor": "室内拍摄场景"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供了女子眉毛微蹙与嘴唇开合的面部视觉信息，person_1提供了语调低沉且带颤音抽噎的听觉特征，联合后完整展现了说话时的视听多模态表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_0提供了面部表情细节，person_2提供了头部微低与视线下移的体态动作，联合后补充呈现了由微蹙神态到低头垂视的连贯身体动作形态。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0提供了室内红帘与暖光的空间环境，context_1提供了位于中央的古装发髻女子主体，联合后完整限定了古装室内场景与特定的人物主体定位。",
+      "entity_anchor": null
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "reason": "Phoebe的面部表情（[image:E1]）和身体姿态（[image:E2]）均显示为微笑和开放，与字幕中的调侃性话语（[image:E3]）及音频中上扬的语调和轻笑声（[image:E4]）一致，共同指向一种戏谑的喜悦。尽管专家[graph]和[audio_subtitle]的解释存在差异（一个强调轻松语调，一个强调反讽），但其核心证据（[graph:E3]、[audio_subtitle:E1]）均支持其情绪为积极的社交愉悦，而非中性或负面。综合来看，所有可核实证据均指向joy。",
+  "answer": "joy",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "image:E3",
+    "image:E4",
+    "graph:E3",
+    "audio_subtitle:E1"
+  ]
+}

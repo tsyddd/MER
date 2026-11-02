@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "Janice的告别语调和肢体动作共同指向一种夸张的、带有个人风格的告别，而非真正的悲伤或愤怒。图谱中的节点'person_1'描述了其独特的鼻音和拖长语调，这与她标志性的、令人不适的说话方式一致，通常用于表达一种过度热情或令人反感的亲密感。她的手势（指颈旁）和姿态（双臂交叉）是其标志性行为的一部分，旨在强调她的话语，而非表达中性或负面情绪。因此，这种表达方式最符合'joy'，即一种夸张的、自我感觉良好的情绪，而非字面意义上的快乐。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "Janice说话带独特的鼻音和拖长语调",
+      "interpretation": "该描述与Janice角色标志性的、令人不适的说话方式相符，这种夸张的语调是其角色设定的一部分，用于表达一种过度热情或令人反感的亲密感，而非字面意义上的悲伤或愤怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "Janice抬起右手食指指在颈旁，面部朝向前方",
+      "interpretation": "这是Janice角色的标志性手势，通常与她夸张的告别语调一起出现，用以强调她的话语，是其角色个性的一部分。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "Janice放下抬起的手指，双臂交叉抱在胸前",
+      "interpretation": "该姿态是Janice在表达时的常见身体语言，与她的语调和手势共同构成了其角色特有的、夸张的表达方式。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "subtitle",
+      "anchor": "Good-bye Chandler Bing.",
+      "observation": "字幕显示Janice正在对Chandler说再见。",
+      "interpretation": "结合其夸张的语调和手势，这句告别并非出于真正的悲伤，而是一种角色性的、自我感觉良好的表达。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "一种可能的替代解释是'anger'，因为Janice的说话方式可能被解读为挑衅。然而，她的语调并非愤怒的咆哮或尖叫，而是带有鼻音的拖长语调，这与她角色的设定更为一致。此外，她的肢体语言（如双臂交叉）在愤怒时通常会伴随更紧张的姿态，而此处的姿态更像是其标志性的、带有强调意味的表达。因此，'anger'的解释力弱于'joy'。"
+}

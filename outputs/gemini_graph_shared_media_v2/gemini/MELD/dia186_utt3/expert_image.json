@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物Joey靠在扶手椅上闭眼并微微低头[E1]，面部线条下垂且带有叹息般的张口状态[E2]，配合柔和低沉的致歉语调[E3]，整体表现出内疚与遗憾的悲伤/歉意情绪（sadness）。",
+  "answer": "sadness",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0s",
+      "observation": "Joey身体倚靠在扶手椅中，双眼闭合，头部微倾，嘴角微向下抿，无笑容或攻击性神态",
+      "interpretation": "闭目与松垮的体态显示出无奈与歉疚，符合抑制或遗憾的低唤醒度悲伤表现",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.5422083333333333s",
+      "observation": "Joey双眼仍呈半闭/垂视状态，眉心微紧，唇部微张吐字，面部神情显得低落与为难",
+      "interpretation": "垂视和微弱的眉眼收缩进一步体现其向对方解释取消计划时的为难与抱歉心境",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "0.0s-1.9s",
+      "observation": "Joey说话声音平缓、轻柔，语速偏慢且语气中带有明显的歉意",
+      "interpretation": "温和低沉的致歉声线排除了愤怒或喜悦，增强了出于内疚/遗憾的悲伤表达",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "反方可能认为Joey坐姿放松、未出现明显的抽泣或剧烈面部扭曲，更倾向于日常事务性的平淡中立（neutral）；但全程闭眼、垂头及明显的致歉语气表明其并非全然无情绪卷入，而是处于温和的歉疚与遗憾之中。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00005612",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "画面中的主要人物神情庄重严肃，双手递交请愿书，语气平稳且坚定，没有显露愤怒、悲伤、恐惧或喜悦等极端情绪，属于中性状态。",
+  "output": "画面中的主要人物神情庄重严肃，双手递交请愿书，语气平稳且坚定，没有显露愤怒、悲伤、恐惧或喜悦等极端情绪，属于中性状态。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 6.471283197402954,
+  "node_count": null,
+  "edge_count": null
+}

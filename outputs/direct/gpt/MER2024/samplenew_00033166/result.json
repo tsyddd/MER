@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00033166",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "目标人物是画面中的男性，正在直接质问对方。其眉眼略显紧张、目光警觉，字幕表达了对众人可能倒戈的担忧和难以置信，整体更符合担忧而非单纯惊讶。",
+  "output": "目标人物是画面中的男性，正在直接质问对方。其眉眼略显紧张、目光警觉，字幕表达了对众人可能倒戈的担忧和难以置信，整体更符合担忧而非单纯惊讶。\n<answer>worried</answer>",
+  "label": "angry",
+  "elapsed_seconds": 27.954662561416626,
+  "node_count": null,
+  "edge_count": null
+}

@@ -1,0 +1,9 @@
+{
+  "reason": "回看视频与音轨，Rachel在00:01至00:04间语调急促尖锐且在句尾明显加重[audio_subtitle:E1]，伴随直视对方、摊手反问与嘴角下撇的紧绷质问神态[image:E1][image:E2]。台词中虽提及'fish freaked me out'，但语境表明此为指责对方举措不当的论据而非当下经历恐惧或厌恶。综合互动语境与言行表现，其核心情绪为对对方行为的指责与气恼（anger）。",
+  "answer": "anger",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "image:E1",
+    "image:E2"
+  ]
+}

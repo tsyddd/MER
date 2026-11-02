@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia115_utt3",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "3c926295d3796c3783dc09d63fc430c57ea2b6d5e57398d0b9b8039178cc2219",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "三方专家意见高度一致。audio_subtitle专家指出Ross语气平稳从容、无明显情绪起伏；image与graph专家同样观察到其在交谈中面部肌肉放松、神态自然平静，未显露愤怒或喜悦等剧烈情绪，综合判定为中性。",
+  "output": "三方专家意见高度一致。audio_subtitle专家指出Ross语气平稳从容、无明显情绪起伏；image与graph专家同样观察到其在交谈中面部肌肉放松、神态自然平静，未显露愤怒或喜悦等剧烈情绪，综合判定为中性。\n<answer>neutral</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 28.664871215820312
+}

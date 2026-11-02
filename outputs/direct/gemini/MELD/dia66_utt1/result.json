@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia66_utt1",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "空乘人员在乘客下机时面带微笑，语气轻快热情且礼貌地表达感谢并询问飞行体验，整体表现出愉悦、友善的积极情绪（joy）。",
+  "output": "空乘人员在乘客下机时面带微笑，语气轻快热情且礼貌地表达感谢并询问飞行体验，整体表现出愉悦、友善的积极情绪（joy）。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 15.06354570388794,
+  "node_count": null,
+  "edge_count": null
+}

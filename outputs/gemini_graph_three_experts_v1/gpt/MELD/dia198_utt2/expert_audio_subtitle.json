@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。字幕中的“No-no”及夸张的“奥运站着不动队”带有明显调侃和幽默感，表现出当前的轻松愉快态度。",
+  "answer": "joy",
+  "evidence_refs": []
+}

@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "Monica的面部表情和语音语调共同指向一种积极的情绪。她从低头微笑转为抬头露齿微笑，同时以轻快上扬的语调说出“Yeah baby!”，这表明她正处于一种愉悦和满足的状态。该情绪与她与Chandler的亲密互动情境相符。",
+  "open_emotion": "愉悦",
+  "answer": "joy",
+  "mapping_reason": "根据观察，Monica的露齿微笑和轻快上扬的语调是典型的喜悦表现。该情绪与她与Chandler的亲密互动情境相符，符合'joy'（喜悦）的定义，即当前开心、愉悦、满足或兴奋的正向体验。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "Monica坐在沙发上，面带微笑，视线略向下偏。",
+      "interpretation": "Monica的初始状态是放松和愉悦的，为后续的积极情绪表达奠定了基础。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02",
+      "observation": "Monica抬头面向前方，嘴角上扬露出牙齿微笑。",
+      "interpretation": "露齿微笑是喜悦情绪的直接视觉证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00.000 - 00:01.459",
+      "observation": "Monica以轻快上扬的语调说出“Yeah baby!”。",
+      "interpretation": "轻快上扬的语调是喜悦情绪的直接听觉证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_3",
+      "observation": "图谱节点person_3描述了Monica以轻快上扬的语调说话。",
+      "interpretation": "该节点证实了Monica的语音语调是轻快上扬的，这与她的面部表情一致，共同支持了喜悦的情绪判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。所有证据均一致指向喜悦情绪。"
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者在说“You are both idiots”时，语调尖锐、音量高，带有明显的愤怒和指责意味。字幕内容与音频语调一致，表明其情绪是愤怒而非中性或开玩笑。视觉上，她的表情紧绷，与愤怒情绪相符。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00.000 - 00:02.127",
+      "observation": "音频中说话者以高音量、尖锐的语调说出“You are both idiots.”",
+      "interpretation": "这种语调是愤怒情绪的典型表现，直接支持了“anger”的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "You are both idiots.",
+      "observation": "字幕显示的文本是“You are both idiots.”",
+      "interpretation": "该文本内容本身具有强烈的负面和指责性，与愤怒情绪相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 - frame_07",
+      "observation": "说话者的面部表情紧绷，眉头微皱，嘴角向下，眼神坚定。",
+      "interpretation": "这些面部表情与音频中表达的愤怒情绪一致，提供了视觉上的支持。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的替代解释是“disgust”（厌恶）。然而，音频中的语调是愤怒的指责，而非厌恶的轻蔑或反感，且字幕内容是直接的攻击，因此“anger”是更准确的判断。"
+}

@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载梅晓歌在室内会议发言场景中端坐并平视前方，语速平稳、语调沉稳，对着麦克风进行陈述〔context_0, person_0〕。在发言间隙及结束后，他表现为闭嘴抿唇、神情专注且平静，没有明显的激烈情绪波动〔person_1, person_3〕。其整体行为和神态符合正式、沉稳的客观发言状态，表现为中性（neutral）。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "context_0",
+    "person_0",
+    "person_1",
+    "person_3"
+  ]
+}

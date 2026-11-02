@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标是前景穿格纹衬衫的Ross，不是他身后穿条纹衫的人。他从张口说话转为眉头收紧、眯眼并连续挥手强调，视觉上最支持带有怒意的质问，而不只是平静陈述[E1][E2]。字幕中的催促坦白与这一表现相符，但不能单凭台词判定情绪[E3]。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒；frame_02 @ 0.8758743199733541秒",
+      "observation": "Ross起初张口、眉毛抬起；随后眉头收紧，眼睛眯起，嘴部形状也变得紧绷。",
+      "interpretation": "面部表现从较开放的说话状态转向更紧绷的表达，支持怒意。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.3346656304355873秒；frame_05 @ 2.2522482513600535秒",
+      "observation": "Ross先将双手举到胸前摊动，之后又用一只手向外挥动；说话时眉头仍收紧。",
+      "interpretation": "连续强调手势与紧绷面部共同支持带有怒意的质问，但手势本身不能证明愤怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "We know you took so just-just save yourself the time and confess!",
+      "observation": "字幕显示说话者催促对方坦白。",
+      "interpretation": "措辞与画面中的强烈强调相符；字幕不提供可听见的语调。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的相反解释是Ross只是在急切劝说：张口和挥手也可能是普通的说话强调。未采用这一解释，是因为他在连续数帧中同时呈现收紧的眉眼和较用力的手势；没有音频，无法进一步核实语调。"
+}

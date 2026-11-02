@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00041734",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "ef82d3fe06a46b4125e3eacb1a9f355331f80a204ee0f71866c99305b2e54746",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "愤怒",
+      "mapped_label": "angry",
+      "mapping_reason": "根据数据集定义，'angry'指对受阻、冒犯或不公的生气、责备、敌意及对抗倾向。目标人物的质问行为（'不是，你为什么要辞职？'）和紧随其后的追问（'啊？'）构成了一个带有责备和对抗性的互动。她的语调上扬且急促，与皱眉的面部表情相结合，共同支持了“愤怒”这一开放情绪词。该情绪词与'angry'标签的语义边界高度一致，没有需要特别说明的近似或信息损失。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "愤怒",
+      "mapped_label": "angry",
+      "mapping_reason": "根据情绪轮定义，'angry'指对受阻、冒犯或不公的生气、责备、敌意及对抗倾向。说话者质问对方辞职的原因，其语气和表情表现出强烈的责备和对抗性，符合'angry'的特征。虽然其中也包含担忧的成分，但主导情绪是责备和对抗。"
+    },
+    "image": {
+      "open_emotion": "愤怒",
+      "mapped_label": "angry",
+      "mapping_reason": "根据情绪轮定义，'angry'指对受阻、冒犯或不公的生气、责备、敌意及对抗倾向。目标人物的面部表情（皱眉、张嘴）和质问的语气（音频）共同指向一种对抗和责备的态势，符合'angry'的定义。虽然字幕是疑问句，但其表达方式并非中性或担忧，而是带有情绪色彩的质问。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "angry",
+  "emotion_analysis": "目标人物的言语内容“不是，你为什么要辞职？”结合其急促、上扬的质问语气和紧绷的面部表情（如皱眉、嘴角下撇），共同指向一种责备和对抗性的负面情绪。三位专家均一致认为其情绪为“愤怒”，并映射到“angry”标签。其中，[audio:E1]和[visual:E1]提供了直接的听觉和视觉证据，与[subtitle:E1]的质问内容形成互补，共同支持了愤怒的判断。虽然字幕是疑问句，但其表达方式并非中性，而是带有强烈情绪色彩的质问，因此不支持neutral或surprise的判断。",
+  "output": "目标人物的言语内容“不是，你为什么要辞职？”结合其急促、上扬的质问语气和紧绷的面部表情（如皱眉、嘴角下撇），共同指向一种责备和对抗性的负面情绪。三位专家均一致认为其情绪为“愤怒”，并映射到“angry”标签。其中，[audio:E1]和[visual:E1]提供了直接的听觉和视觉证据，与[subtitle:E1]的质问内容形成互补，共同支持了愤怒的判断。虽然字幕是疑问句，但其表达方式并非中性，而是带有强烈情绪色彩的质问，因此不支持neutral或surprise的判断。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 198.65961050987244
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00005612",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "277d5c5900a033008ef8204e177794173a0a9d543a995a1fbb51814e27394ff0",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "三位专家对目标人物的情态观察高度一致。语音专家指出其语调低沉平静且语速适中，图像与图谱专家均观察到其面容严肃专注、动作克制稳重地递送文件，各模态均无愤怒、悲伤或喜悦等剧烈情绪波动，表现为典型的工作交接中性状态。",
+  "output": "三位专家对目标人物的情态观察高度一致。语音专家指出其语调低沉平静且语速适中，图像与图谱专家均观察到其面容严肃专注、动作克制稳重地递送文件，各模态均无愤怒、悲伤或喜悦等剧烈情绪波动，表现为典型的工作交接中性状态。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 31.057215690612793
+}

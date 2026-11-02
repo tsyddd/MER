@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00033166",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "angry",
+  "emotion_analysis": "结合person_0、person_1与process_0，白衣男子凝视对方且神情严肃冷峻，以音调上扬、连贯且带质问威严的语气说出“难道都要悉数倒戈不成”，展现出对下属或众人倒戈背叛的不满与愠怒。",
+  "output": "结合person_0、person_1与process_0，白衣男子凝视对方且神情严肃冷峻，以音调上扬、连贯且带质问威严的语气说出“难道都要悉数倒戈不成”，展现出对下属或众人倒戈背叛的不满与愠怒。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 47.092381715774536,
+  "node_count": 5,
+  "edge_count": 2
+}

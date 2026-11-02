@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物是深色上衣的Chandler，不是左侧蓝衬衫男子或随后进门的女子。他从面向左侧转为看向进门者，随即抬眉、伸出手掌，之后收起手势并紧绷面部；这一变化更支持他被来人打断后有些措手不及[E1][E2]。字幕中的话语中断和迟疑与此相符[E3]，但不能据此推断语调。",
+  "open_emotion": "措手不及",
+  "answer": "surprise",
+  "mapping_reason": "这里的措手不及主要指面对突然出现的人而产生的意外反应，最接近surprise；后续拘谨不等于持续强烈惊讶。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01（0.959秒）至frame_03（2.878秒）",
+      "observation": "Chandler转头看向进门的女子，转身面对她，一只手掌向上伸出。",
+      "interpretation": "注意力和动作随来人出现而迅速改变，支持意外反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04（3.837秒）至frame_06（5.756秒）",
+      "observation": "他起初眉毛抬起、手掌仍向外；随后眉头收紧，放下手，嘴部显得紧绷。",
+      "interpretation": "反应从即时的意外转为拘谨，并非一直保持惊讶表情。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“Jeez, man did you fall.. Hi! So ah, did ya, did-did-did ya fall high?”",
+      "observation": "字幕显示原话被“Hi!”打断，之后有重复和迟疑。",
+      "interpretation": "与画面中注意力突然转向进门者相符；字幕不提供可核实的语调。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "frame_05至frame_07（4.796至6.715秒）的皱眉、收手和紧绷嘴部也可解释为尴尬或不自在；画面不足以证明他感到害怕或愤怒。"
+}

@@ -1,0 +1,10 @@
+{
+  "reason": "目标人物Monica的台词明确针对笑话的冒犯性提出严厉斥责与排比反驳[audio_subtitle:E1]；实际音频中她语速紧凑有力、音调明显拔高并在结尾爆发式加重[audio_subtitle:E2]。回看画面，Monica从开端便上半身前倾逼近、神情紧绷[image:E1]，并在第6帧（4.21s）双肩微张、嘴部大张全力高喊[image:E3]，配合手势形成了鲜明的主动对抗姿态。尽管台词提及“monkeys”具有情景喜剧的荒诞幽默，但其语调与面部张力均极其严肃逼真，无任何喜悦或中立迹象，完全符合因冒犯而产生的恼火、责备与对抗，应归入anger家族。",
+  "answer": "anger",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "audio_subtitle:E2",
+    "image:E1",
+    "image:E3"
+  ]
+}

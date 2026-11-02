@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物在听到或面对对方时，开头发出一声短促而略带抽泣感的惊呼声，随即以急促、颤抖且略带慌乱的语调说出辩解台词[E1]，语速较快且气息不稳，言语行为属于面对突发质问时的慌张辩白[E2]；视觉上其双眼睁大、神情无措，印证了其害怕承担后果、内心忐忑不安的情绪状态[E3]。",
+  "open_emotion": "慌乱不安",
+  "answer": "worried",
+  "mapping_reason": "说话人由于担心被问责或产生负面后果，表现出明显的焦虑、紧张与慌乱，符合worried家族中对未知风险和受责的顾虑与不安定义。",
+  "evidence": [
+    {
+      "anchor": "0.00-0.60",
+      "id": "E1",
+      "interpretation": "短促的气音惊呼与颤抖急促的起声，体现出瞬间的紧张与惶恐。",
+      "observation": "音频开头可听到明显的短促气声感叹，随后紧接着慌张急促的发音。",
+      "polarity": "support",
+      "source": "audio"
+    },
+    {
+      "anchor": "我不知道这件旗袍是你的",
+      "id": "E2",
+      "interpretation": "以否定知情权的方式进行紧急自我辩解，表明自身处于被追责的被动焦虑处境。",
+      "observation": "字幕及台词表达为在情急之下为穿错衣服进行辩护与澄清。",
+      "polarity": "support",
+      "source": "subtitle"
+    },
+    {
+      "anchor": "frame_04至frame_07",
+      "id": "E3",
+      "interpretation": "面部神情惶惑无措，与急促不安的口吻高度一致。",
+      "observation": "目标人物眉眼紧绷、嘴唇微张急促开合，流露出心虚与忐忑神色。",
+      "polarity": "support",
+      "source": "visual"
+    }
+  ],
+  "counterevidence": "开头的急促叹词可能带有即时意外成分（surprise），但其核心语调重心在急迫地推卸过失与自我辩解，而非单纯震惊。"
+}

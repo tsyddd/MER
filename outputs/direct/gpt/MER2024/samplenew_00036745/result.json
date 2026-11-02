@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00036745",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "人物正面对他人说明前两天的观测情况，并表示要去调查。其表情严肃、眉头略紧，语气对应的情绪更接近担忧和警觉，而非惊讶或愤怒。",
+  "output": "人物正面对他人说明前两天的观测情况，并表示要去调查。其表情严肃、眉头略紧，语气对应的情绪更接近担忧和警觉，而非惊讶或愤怒。\n<answer>worried</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 39.4884569644928,
+  "node_count": null,
+  "edge_count": null
+}

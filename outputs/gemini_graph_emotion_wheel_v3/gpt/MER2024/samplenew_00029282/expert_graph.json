@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "目标是紫衣女子。她在当前面对面交流中对蓝衣女子说“没想到，你竟然这么傻”，同时持续蹙眉、眼眶湿润，后段垂下目光，呈现难过而非平稳评价的状态[E1][E2][E3]。图谱的说话节点只给出话语先后，不能据此推断她们此前发生了什么；声音节点也不能在没有原音轨时当作亲耳核实的证据[E4]。",
+  "open_emotion": "难过",
+  "answer": "sad",
+  "mapping_reason": "当前较明确的是低落、欲哭的表达，符合sad所指的伤心状态。“没想到”虽可表达意外，但结合持续的面部表现，不足以把即时惊讶判为主导情绪。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_05（1.84秒）",
+      "observation": "紫衣女子面对对方说话时眉心紧蹙、眼眶湿润，嘴部表情绷紧。",
+      "interpretation": "这些是当前难过的表情线索；仅凭湿润眼睛本身不能定类。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_06（2.2秒）至frame_07（2.56秒）",
+      "observation": "她说话过程中目光逐渐下垂，眉头仍紧蹙。",
+      "interpretation": "低落表现延续到片段末尾，比一瞬间的惊讶更能解释当前状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“没想到，你竟然这么傻。”",
+      "observation": "当前话语是她对面前人物的评价，未说明所指的具体事情。",
+      "interpretation": "“没想到”提供意外这一替代解释，“这么傻”也可能被听作责备；但仅凭文字不能判定她在生气，需结合当前表情取舍。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_0、person_1",
+      "observation": "person_0记载蹙眉、含泪，与画面所见属于同一表情事实；person_1另记载说话声哽咽颤抖。",
+      "interpretation": "前者不是独立新增的视觉证据；后者是图谱转述的音频信息，本次未提供原音轨，不能亲耳核验，也不应直接否定。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "“没想到”可能指向surprise，“这么傻”可能带有不满；但片段没有呈现明确的即时震惊或对抗表达。图谱所述哽咽及后段泪痕的细节均不宜作为已独立核实的决定性依据。"
+}

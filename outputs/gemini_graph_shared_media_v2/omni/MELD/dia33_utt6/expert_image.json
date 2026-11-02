@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "Rachel's facial expression shows wide eyes, a furrowed brow, and an open mouth, consistent with distress. Her body language, including holding the baby tightly and a tense posture, supports this. The audio confirms her words express exasperation and helplessness, aligning with the visual cues.",
+  "answer": "sadness",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_04 @ 2.961289367528959",
+      "observation": "Rachel's eyes are wide and her brow is furrowed, with her mouth open in a distressed expression.",
+      "interpretation": "This facial expression is a strong visual indicator of emotional distress, such as sadness or frustration.",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05 @ 3.712038784648977",
+      "observation": "Rachel's mouth is open as if she is speaking or crying out, and her body is tense.",
+      "interpretation": "This posture and expression are consistent with someone who is overwhelmed and distressed.",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:04.000",
+      "observation": "Rachel says, 'Oh come on, what am I gonna do, its been hours and it won't stop crying.'",
+      "interpretation": "Her words explicitly state her helplessness and frustration, which is the primary driver of her emotional state.",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_07 @ 4.421079900817882",
+      "observation": "Rachel turns her head away from the camera, still holding the baby tightly.",
+      "interpretation": "This gesture can be interpreted as a sign of being overwhelmed and seeking a moment to compose herself.",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "While her expression has elements of frustration, the core of her distress is her inability to soothe the baby, which is a classic sign of sadness or helplessness in a caregiving context. The audio and visual evidence overwhelmingly point to sadness as the primary emotion."
+}

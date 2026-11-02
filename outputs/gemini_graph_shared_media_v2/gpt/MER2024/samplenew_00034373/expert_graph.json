@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "当前片段中，女子面对他人连续倾诉“甚至，连一件衣裳”，画面显示含泪、蹙眉和不稳定的面部表达，整体更支持悲伤而非中性或愤怒。图谱节点person_0与组织文本都描述了同一组视觉事实，不能重复计数；节点person_1关于低声、颤抖和哽咽的内容属于图谱转述，因未提供原音轨而不能亲耳核验。事件语义也可解释为忧虑或委屈，但当前泪光与蹙眉更直接支持sad。",
+  "answer": "sad",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07 @ 0.0–2.04秒",
+      "observation": "女子眼中可见泪光，眉头持续微蹙，视线多落向斜下方，嘴部张合并呈现不稳定的说话表情。",
+      "interpretation": "这些当前可见的面部表现共同支持悲伤、受压抑的情绪；它们不是背景陈设，而是目标人物的直接表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "当前字幕：“甚至，连一件衣裳。”",
+      "observation": "女子正在补充式地倾诉，话语带有强调和列举意味。",
+      "interpretation": "结合当前含泪、蹙眉的视觉表达，这句话更像是在表达受损、委屈或失落，支持sad；但字幕本身不能单独证明情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "图谱节点person_0记录“眼含泪光、视线落在斜下方、眉头微蹙”。",
+      "interpretation": "该节点与当前帧中的视觉事实一致，说明目标人物正处于明显的负性、克制状态；它与组织文本属于同源视觉描述，只作为一次事实使用。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱节点person_1转述其音量偏低、语调微颤并伴随哽咽与短暂停顿，但本次没有提供原音轨。",
+      "interpretation": "若该音频派生描述准确，会进一步支持悲伤；但只能标为图谱转述，不能当作本模型亲耳听见的证据。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "最强的替代解释是worried或委屈：蹙眉、斜下视线和连续倾诉也可能表示担忧或请求，而不一定是纯粹悲伤。当前没有可核验的原音轨或更明确的事件后果来区分这些解释；但泪光与持续低落的视觉表达使sad比neutral、angry或happy更合适。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00021849",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "359093044a96c9b0d3bf12c8621869f06d99bda1905d519e91d11df175dc34b4",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物（男性）在所有可见帧中均保持身体前倾、手扶车顶边缘的姿态，视线稳定地注视着车内女性，面部表情无明显变化，未见皱眉、微笑等情绪化特征。其话语内容为“你先上我的车，先回去”，属于中性指令。音频证实其语调平稳，无明显情绪起伏。综合视觉、音频和字幕证据，所有线索均指向一种冷静、克制的交流状态，无任何证据支持愤怒、悲伤或喜悦等情绪。因此，最符合的标签是中性。",
+  "output": "目标人物（男性）在所有可见帧中均保持身体前倾、手扶车顶边缘的姿态，视线稳定地注视着车内女性，面部表情无明显变化，未见皱眉、微笑等情绪化特征。其话语内容为“你先上我的车，先回去”，属于中性指令。音频证实其语调平稳，无明显情绪起伏。综合视觉、音频和字幕证据，所有线索均指向一种冷静、克制的交流状态，无任何证据支持愤怒、悲伤或喜悦等情绪。因此，最符合的标签是中性。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 137.26413559913635
+}

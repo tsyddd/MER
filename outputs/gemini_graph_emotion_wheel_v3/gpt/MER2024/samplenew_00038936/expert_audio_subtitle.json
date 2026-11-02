@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "她说“不过，我最近听他们说，你好像出了点意外”，用“听他们说”“好像”表明消息尚未核实，关注对方可能遭遇的不利情况[E1]。说到“意外”时，她低头、眉头微蹙，随后抬眼看向对方，视觉表现与关切相符[E2]。",
+  "open_emotion": "担心",
+  "answer": "worried",
+  "mapping_reason": "当前表达侧重对未经确认的不利情况的顾虑，符合worried所指的担忧，而非对意外消息的即时震惊。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“不过，我最近听他们说，你好像出了点意外。”",
+      "observation": "她以转折开启话题，并用“听他们说”“好像”限定消息的确定性。",
+      "interpretation": "这是向对方提起可能发生的不利情况，支持担心的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04（2.12秒）至frame_07（3.68秒）",
+      "observation": "她说到“意外”时低头、眉头微蹙，之后抬眼看向对方。",
+      "interpretation": "表情和视线变化与谨慎关切的语义一致，但不能单凭皱眉定类。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "“出了点意外”也可能是在试探性求证，不能仅凭这句话确定担忧的强度；没有提供音频，无法判断语调或停顿。"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia263_utt9",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "748766277a851f3c168859458c00ae3a054753904e4b2ab4fc17828900a7ca74",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "失落",
+      "mapped_label": "sadness",
+      "mapping_reason": "他面对即将不得不放弃的事，表现出低落而克制的反应，最接近sadness中的失落；这不意味着已经确认发生了失去。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "失落",
+      "mapped_label": "sadness",
+      "mapping_reason": "当前表达的重心是不得不放弃所带来的失落，符合sadness中因损失而低落的定义；短片段不足以判断情绪强度。"
+    },
+    "image": {
+      "open_emotion": "失落",
+      "mapped_label": "sadness",
+      "mapping_reason": "此处的失落指面对不得不放弃时的低落，最接近sadness；画面不支持将其描述为强烈哀伤。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "字幕“I’m gonna have to give him up”表明Ross面对自己不得不作出的放弃，支持失落的解读，但不能据此认定失去已经发生[audio_subtitle:E1]。画面中他从垂眼转为抬头说话，表情始终克制；这一观察可信，却不能单独证明悲伤[image:E1][image:E2]。平稳的姿态也容许“只是在陈述决定”的解释，但结合话语中的不得已，当前表现更接近克制的失落，而非没有主导情绪。未提供音轨，不能用语调进一步判断。",
+  "output": "字幕“I’m gonna have to give him up”表明Ross面对自己不得不作出的放弃，支持失落的解读，但不能据此认定失去已经发生[audio_subtitle:E1]。画面中他从垂眼转为抬头说话，表情始终克制；这一观察可信，却不能单独证明悲伤[image:E1][image:E2]。平稳的姿态也容许“只是在陈述决定”的解释，但结合话语中的不得已，当前表现更接近克制的失落，而非没有主导情绪。未提供音轨，不能用语调进一步判断。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 74.11465454101562
+}

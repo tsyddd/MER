@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "镜头从旁人切至说话的目标人物（frame_03至frame_07）[E1]，其眉毛保持自然展平状态，双眼微垂凝视前方下方，面部肌肉放松，口型微动说话时嘴角与面颊无牵拉变形[E2]，语气低沉平稳[E3]，整体呈现沉静、克制的常规叙述状态，符合neutral。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_03 @ 0.92s",
+      "observation": "画面切至目标人物正面近景，其头部微正，面部光照均匀，目光垂视，眉心与额头平展无皱纹。",
+      "interpretation": "缺乏明显的眉部收缩（如皱眉愤怒或眉头紧蹙担忧），呈现平静的面部基线。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_06 @ 1.80s",
+      "observation": "目标人物嘴唇微张合吐字，嘴角未见明显下耷或向上扬起，眼神低垂而沉静。",
+      "interpretation": "排除了喜悦（嘴角上提）或剧烈悲伤（嘴角下拉、面部肌肉抽搐），表现为平和沉思的客观陈述状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "0.00s - 2.12s",
+      "observation": "台词‘也不知道，当年，三哥’语速均匀，语调低沉平缓，没有抽泣、叹息或音调剧烈起伏。",
+      "interpretation": "听觉表现与视觉的平静克制一致，支持中性叙述的情绪判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "目标人物眼神下敛且台词涉及旧人旧事，容易被误解读为伤感（sad）或忧虑（worried）；但其内眉角无上抬隆起，唇颊未显颓丧颤动，音频亦无哽咽，不足以支撑悲伤标签。"
+}

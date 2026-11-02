@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "根据图谱节点person_0和process_0记载，目标人物围巾男子语调严肃稳重，眼神注视前方并平和地说出“请您转交给总理过目”。同时结合process_1和person_1，他双手平举托物向前递送，行为庄重克制，未见愤怒、担忧或悲伤等剧烈情绪波动，表现为稳定的中性状态。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_0",
+    "process_0",
+    "process_1",
+    "person_1"
+  ]
+}

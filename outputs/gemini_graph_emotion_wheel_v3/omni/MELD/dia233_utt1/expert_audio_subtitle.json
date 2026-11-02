@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者在表达对某人行为的强烈不满和厌恶，认为对方的行为（给某人买鱼）是毫无意义且令人反感的。她的语气尖锐、语速快，带有明显的责备和不耐烦，这与'anger'（愤怒）的特征相符。虽然她提到了'fish freaked me out'，但这里的'freaked me out'是作为比喻来强调她对这种行为的反感，而不是在描述自己对鱼的恐惧。因此，主导情绪是愤怒。",
+  "open_emotion": "愤怒",
+  "answer": "anger",
+  "mapping_reason": "根据提供的情绪轮定义，'anger'（愤怒）被描述为对冒犯、受阻或不公的恼火、责备与对抗。说话者使用了'you might as well just gotten him a fish'这种带有讽刺和责备意味的表达，以及尖锐的语气，这些都直接指向了'anger'。虽然她提到了'fear'（恐惧）的词，但其语境是比喻性的，用来加强她对行为的厌恶，而非描述她自身的恐惧状态。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "字幕内容",
+      "observation": "说话者说：'you might as well just gotten him a fish'。",
+      "interpretation": "这句话是一种讽刺和责备，暗示对方的行为是愚蠢且毫无意义的，直接表达了说话者的不满和愤怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:04",
+      "observation": "说话者的语调尖锐，语速快，语气中充满了责备和不耐烦。",
+      "interpretation": "这种语调和节奏是愤怒情绪的典型声音表现，与字幕内容中的责备语气相吻合。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "说话者在字幕中提到了'fish freaked me out'，这可能会让人联想到'fear'（恐惧）。然而，结合上下文，'freaked me out'在这里是作为比喻，用来形容她对'给某人买鱼'这个行为的反感程度，而不是在描述她对鱼本身的恐惧。因此，这并不支持'fear'作为主导情绪。"
+}

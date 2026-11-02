@@ -1,0 +1,59 @@
+{
+  "process": {
+    "nodes": [
+      {
+        "id": "process_0",
+        "type": "process",
+        "content": "Rachel说：“你是不是把这些东西都买来给Joey试着把我赶出公寓？”",
+        "evidence_sources": [
+          "subtitle"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  },
+  "person": {
+    "nodes": [
+      {
+        "id": "person_0",
+        "type": "person",
+        "content": "Rachel站立，左臂伸向旁边的台面，右手放在髋部，视线朝向对面的女性。",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_1",
+        "type": "person",
+        "content": "Rachel说话时嘴部开合。",
+        "evidence_sources": [
+          "visual",
+          "subtitle"
+        ],
+        "time_index": 1,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  },
+  "context": {
+    "nodes": [
+      {
+        "id": "context_0",
+        "type": "context",
+        "content": "场景位于室内起居空间，可见厨房台面、餐具和其他物品；Rachel与另一名女性面对面交流。",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "reason": "目标人物Ross的语调低沉平和，没有表现出愤怒、恐惧或惊讶等强烈情绪，这与音频和视觉证据一致。他的面部表情平静，没有明显的皱眉或嘴角变化，符合中性情绪的视觉特征。尽管字幕内容“I'm gonna have to give him up”暗示了失落，但其克制的平静表达更符合中性（neutral）的定义，因为它没有表现出主导的积极或消极情绪。因此，综合音频、字幕和视觉证据，最合理的标签是中性。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "image:E3",
+    "image:E4",
+    "audio_subtitle:E1",
+    "audio_subtitle:E2"
+  ]
+}

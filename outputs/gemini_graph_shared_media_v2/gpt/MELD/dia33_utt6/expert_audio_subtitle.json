@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Rachel说“ Oh come on”并抱怨婴儿“won’t stop crying”，是在表达持续照料受阻的烦躁，而非单纯询问信息[E1]。她说话时皱眉、张口并调整怀抱的动作，与这种不耐烦相符[E2]。片段没有音频，不能据此判断语调或音量。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Oh come on, what am I gonna do, its been hours and it  won’t stop crying.",
+      "observation": "话语以“Oh come on”起头，随后问自己该怎么办，并强调哭闹已持续数小时。",
+      "interpretation": "疑问句在此伴随对持续困境的抱怨，支持烦躁、受挫的表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 2.210539950408941秒",
+      "observation": "Rachel抱着婴儿，皱眉张口，面部显得紧绷。",
+      "interpretation": "表情与抱怨中的烦躁一致；画面本身不能证明她用了何种语调。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "“what am I gonna do”也可能是在表达焦虑或无助；但“Oh come on”及对哭闹持续数小时的抱怨，更支持此处的烦躁。没有音频，无法进一步用声音区分两者。"
+}

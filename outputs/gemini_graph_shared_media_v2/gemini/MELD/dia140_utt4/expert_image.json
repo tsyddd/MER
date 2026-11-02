@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "Ross在整个片段中与对方平视交流，面部肌肉舒展自然，未见皱眉、挑眉或嘴角上扬/下撇等强烈情感动作[E1]，配合平稳日常的建议性语调[E2]，整体呈现出客观平淡的交谈状态。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_03 @ 0.959s",
+      "observation": "Ross面对Joey站立，面部表情平稳自然，眉毛未见紧蹙或高扬，眼神专注且稳定，无明显夸张的面部运动",
+      "interpretation": "缺乏愤怒、恐惧或极度悲喜的典型特征，支持平稳日常的中性状态",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.0s-2.2s",
+      "observation": "Ross以平和、寻常的语气说出'Y'know, like-like write a play'",
+      "interpretation": "语调没有激动、颤抖、高昂或低落等剧烈情绪起伏，符合普通交谈",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "Ross在提出写剧本的提议时说话稍有停顿和口型张大，可能被怀疑带有轻微的兴奋(joy)或惊讶(surprise)，但其眼周与唇角均无提拉微笑或瞪大双眼的动作，反证不成立。"
+}

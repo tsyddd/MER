@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标人物是画面中央穿红色外套的男孩。多个画面中他持续露齿大笑、嘴角明显上扬，眼睛略眯，且身体向前并朝画面左侧的人互动；这些可见变化最支持愉快、兴奋的表达。字幕“⼩区里最可爱，最漂亮的小美美。”也与友好、夸赞性的互动一致，但没有音频可供核验。[E1][E2][E3]",
+  "answer": "happy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒；frame_01 @ 0.52秒",
+      "observation": "目标人物嘴角大幅上扬并露齿，双颊抬起，面向画面左侧的人。",
+      "interpretation": "持续而明显的笑容是当前愉快表达的直接视觉支持。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 1.08秒；frame_03 @ 1.6秒；frame_04 @ 2.16秒",
+      "observation": "目标人物仍保持微笑，头部轻微侧倾，眼睛略眯，姿态较放松。",
+      "interpretation": "笑容跨多个时刻保持，且伴随轻松互动姿态，支持happy而非短暂的单一表情动作。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05 @ 2.68秒；frame_06 @ 3.24秒；frame_07 @ 3.76秒",
+      "observation": "目标人物在说话相关画面中再次露齿微笑，身体略向前，视线朝向画面左侧。",
+      "interpretation": "后段仍有积极的面部表现和参与互动的姿态，支持整体愉快状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "subtitle",
+      "anchor": "当前字幕：“小区里最可爱，最漂亮的小美美。”",
+      "observation": "字幕内容是对他人的可爱、漂亮的夸赞。",
+      "interpretation": "字幕语义与友好、愉快的互动相符，但字幕本身不能证明语气或替代视觉证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "部分后续画面中笑容幅度减小、嘴部短暂闭合，理论上可能是礼貌或调侃式微笑；但连续多帧的露齿笑、抬高的面颊和放松互动姿态更支持happy。无音频，无法进一步区分语气。"
+}

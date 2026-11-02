@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。仅依据“ What?”这一简短疑问词，当前语气更可能表达惊讶或意外反应。",
+  "answer": "surprise",
+  "evidence_refs": []
+}

@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Ross说“We know you took so just-just save yourself the time and confess!”是在指控并催促对方认罪，而非询问；配合皱眉和连续的强调手势，更支持他此刻带有怒意[E1][E2]。未提供音频，不能据此判断语调或音量。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "We know you took so just-just save yourself the time and confess!",
+      "observation": "Ross称“我们知道是你拿的”，随后命令对方别浪费时间、直接承认。",
+      "interpretation": "指控和催促体现对对方的不满；单凭命令句尚不能确定怒意强度。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.3346656304355873秒；frame_04 @ 1.7934569408978203秒",
+      "observation": "Ross皱眉、张口说话，双手抬起并连续比画。",
+      "interpretation": "紧绷的表情与强调动作同指控性话语一致，支持anger。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的替代解释是他只是在急切施压，未必真正生气；画面中的手势也可能只是强调。由于没有音频，无法用实际语气进一步区分，但皱眉与指控式命令共同使anger更合适。"
+}

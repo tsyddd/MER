@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Monica在音频中以急促、高亢的语调说出“No-no-no, no!”，表现出强烈的否定和阻止意图。她的声音带有明显的紧张感和急迫性，与字幕内容完全一致，共同指向一种受惊吓或被冒犯的情绪。视觉上，她从平静地坐着突然转头并张大嘴巴，与声音的爆发点同步，证实了情绪的突然转变。没有证据表明这是玩笑或反讽，其行为模式更符合对突发状况的本能反应。",
+  "answer": "fear",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00:01.710 - 00:00:02.001",
+      "observation": "Monica以急促、高亢的语调说出“No-no-no, no!”，声音中带有紧张和急迫感。",
+      "interpretation": "这种语调和节奏是恐惧或受惊吓时的典型声音特征，表明她正在对一个突发的、令人不安的事件做出反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "No-no-no, no!",
+      "observation": "字幕显示说话者在连续否定，表达强烈的拒绝。",
+      "interpretation": "连续的否定词加强了言语行为的紧迫性，与声音中的急促感相辅相成，共同构建了受惊吓时的反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_07 @ 00:00:01.710",
+      "observation": "Monica从平静地坐着突然转头，表情惊恐，嘴巴张开。",
+      "interpretation": "这一视觉变化与音频中的声音爆发点精确同步，证实了她的反应是即时且真实的，而非预设的表演。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的替代解释是“surprise”（惊讶）。然而，与单纯的惊讶不同，Monica的反应是带有强烈否定和阻止意图的，这超出了惊讶的范畴。因此，虽然惊讶是情绪的一部分，但“fear”更能全面描述其受惊吓和紧张的综合状态。"
+}

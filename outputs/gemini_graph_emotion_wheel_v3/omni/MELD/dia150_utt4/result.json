@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia150_utt4",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "b948f663757dd9d93d653315d388ec7b3f3b77e98f96b4337073cdbfe157409b",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "厌恶",
+      "mapped_label": "disgust",
+      "mapping_reason": "根据情绪轮定义，'disgust'（厌恶）是对令人反感、恶心或难以接受对象的排斥与厌弃。Janice的告别方式——其标志性的鼻音、拖长语调和特定手势——在剧中被反复用作一种令人不适的、令人反感的表达。虽然她口头上说的是告别，但其表达方式本身是令人反感的，因此目标人物的情绪是对其告别方式的厌恶，而非对Chandler本人的厌恶。这是一种对特定行为的排斥，符合'disgust'的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "厌恶",
+      "mapped_label": "disgust",
+      "mapping_reason": "根据MELD项目的定义，'disgust'指对令人反感、恶心或难以接受的对象的排斥与厌弃。Janice的言语行为（反讽的告别）和夸张的语调，明确地表达了她对Chandler的强烈反感和排斥，这与'disgust'的语义高度一致。"
+    },
+    "image": {
+      "open_emotion": "悲伤",
+      "mapped_label": "sadness",
+      "mapping_reason": "根据观察，目标人物Janice的面部表情（下垂的眼角、紧闭的嘴唇）、姿态（抱臂、前倾）以及她所说的话“Good-bye Chandler Bing”和低沉的语调，都明确指向了悲伤这一情绪。这与MELD项目情绪轮中'sadness'的定义——因失落、损失或痛苦而难过、哀伤或低落——完全吻合。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "disgust",
+  "emotion_analysis": "目标人物Janice的言语行为（反讽的告别）和夸张的语调，明确表达了她对Chandler的强烈反感和排斥，这与'disgust'的语义高度一致。虽然视觉证据显示其面部表情和姿态可能指向悲伤，但音频证据（语调、语速、颤抖）和字幕内容（告别语）共同指向一种反讽的言语行为，其真实意图是表达负面情绪。因此，'disgust'是更合理的解释。",
+  "output": "目标人物Janice的言语行为（反讽的告别）和夸张的语调，明确表达了她对Chandler的强烈反感和排斥，这与'disgust'的语义高度一致。虽然视觉证据显示其面部表情和姿态可能指向悲伤，但音频证据（语调、语速、颤抖）和字幕内容（告别语）共同指向一种反讽的言语行为，其真实意图是表达负面情绪。因此，'disgust'是更合理的解释。\n<answer>disgust</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 169.53427386283875
+}

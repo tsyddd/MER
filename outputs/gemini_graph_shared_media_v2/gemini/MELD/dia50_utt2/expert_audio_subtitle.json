@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物在图书馆偷情被当场撞破，在音频中发出短促、气声且充满慌乱的道歉声，结合仓皇穿衣逃离现场的言语与行为，表现出被抓现行时的惊慌与恐惧（fear）。",
+  "answer": "fear",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "0:00-0:01.3",
+      "observation": "可听到 Female Student 压低声线但呼吸急促、音调偏高且发颤的道歉声（'I’m so sorry!'）。",
+      "interpretation": "急促发颤的高音调气声反映出极度紧张、尴尬与惊慌失措的心理状态，符合恐惧/害怕惩罚的应激反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "I’m so sorry!",
+      "observation": "台词为短促直接的道歉句 'I’m so sorry!' 并带有叹号。",
+      "interpretation": "在被抓现行逃离时的脱口道歉，属于惊恐之下寻求免责与逃脱的情绪化表达，并非冷静礼貌的致歉。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.00s - frame_03 @ 1.00s",
+      "observation": "女学生蹲在地上慌乱抓起衣物，低头快速从书架旁侧身逃离。",
+      "interpretation": "肢体动作高度紧绷慌乱，与言语中流露出的惊恐害怕情绪高度一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "替代解释可能为 surprise（意外被发现的震惊），但从声音发颤、气喘及急迫道歉逃跑的求生逃避举动来看，其情绪重点已经由最初的瞬间震惊转化为被抓现行后的恐慌与害怕（fear）。"
+}

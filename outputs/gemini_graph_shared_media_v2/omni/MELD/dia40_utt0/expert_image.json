@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "Monica's facial expression shows a clear smile with visible teeth and crinkling around the eyes, indicating a positive emotional state. Her head is tilted slightly towards Chandler, and her gaze is directed at him, suggesting engagement and shared amusement. The smile is consistent across all frames, and her posture is relaxed. The audio confirms the phrase 'Yeah baby!' which, combined with her expression, supports a joyful interpretation.",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "Monica has a wide smile with her teeth visible and her eyes are crinkled at the corners.",
+      "interpretation": "This is a classic Duchenne smile, a strong visual indicator of genuine happiness or joy.",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_07 @ 1.4597905332889234",
+      "observation": "Monica maintains a consistent smile and her head is tilted towards Chandler.",
+      "interpretation": "The sustained smile and engaged posture indicate a continuous state of positive emotion.",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "0.0 - 1.4597905332889234",
+      "observation": "The audio contains the phrase 'Yeah baby!' spoken in a high-pitched, enthusiastic tone.",
+      "interpretation": "The energetic and positive tone of voice supports the visual evidence of joy.",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "subtitle",
+      "anchor": "Yeah baby!",
+      "observation": "The subtitle displays the phrase 'Yeah baby!'",
+      "interpretation": "This phrase is a common expression of excitement and approval, aligning with the joyful emotion.",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "There is no visual or auditory evidence to support any other emotion. The expression is clearly positive and not ambiguous."
+}

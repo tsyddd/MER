@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Rachel以“Oh my God!”开头，接着直接说出“a 30 year old virgin!”，是在回应刚得知的信息，而非平静陈述[E1]。她张口、皱眉并转向对方继续说话的画面，与惊讶相符[E2][E3]。没有音频，无法判断语调。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“Oh my God! Youre a 30 year old virgin!”",
+      "observation": "台词以感叹语开头，随后直接指出对方的情况。",
+      "interpretation": "表达对刚获知信息的惊讶，而不是单纯提及一个话题。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒",
+      "observation": "Rachel看向身旁的人，眉头抬起、嘴巴张开。",
+      "interpretation": "表情与惊讶的言语反应一致。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_06 @ 2.877872765626735秒",
+      "observation": "Rachel身体朝向对方，皱眉并继续张口说话。",
+      "interpretation": "显示她仍在对此作出明显反应，但单凭画面无法判定声音情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "皱眉和这句话的内容也可能被理解为嫌弃或评判；但话语主要是在感叹一项刚得知的事实，画面没有足够明确的厌恶表现，因此未选disgust。片段无音频，不能进一步用语调区分。"
+}

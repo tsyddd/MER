@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "女性在对话中眉头微蹙并以急促、语调上扬的语气发问“不是 你为什么要辞职”〔person_0, person_1〕，随后紧接着发出单字追问“啊”〔process_1〕，表现出对对方行为的强烈不解与情绪波动，符合‘surprise’的特征。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "process_1"
+  ]
+}

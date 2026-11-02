@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00014662",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "f797ce76093f00b080e0bcaf2c7690927a4e4391deedfdf8240b8fab343a4016",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "开放情绪‘担忧’直指对未来不确定性与牵连风险的顾虑和不安，完全契合情绪轮中worried关于‘对可能负面结果、未知风险的顾虑与预期’的定义，故直接映射为worried。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "说话者的核心意图在于对未来潜在负面牵连提出顾虑与预警，言语内容与语气完全聚焦于风险与不安，符合情绪轮中'worried'（对可能负面结果的顾虑、焦虑与不安）的定义。"
+    },
+    "image": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "目标人物的核心表现是对未来负面影响的不安与顾虑，完美符合情绪轮中worried（对可能负面结果、未知风险的顾虑与焦虑）的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "目标女性在画面中（frame_01至frame_06）双眉微蹙且内侧微抬，眼神专注探询，如[image:E1]所述表现出克制但紧绷的关切神态，该视觉观察真实可信。台词明确强调‘我主要是担心这事会牵连到您家老爷子’[audio_subtitle:E1]，关注点直指尚未发生的负面牵连与潜在风险，而非既成损失。虽然其神态与语调相对礼貌收敛[audio_subtitle:E2]，但言语内容对风险的预警配合微蹙的眉心，排除了无情绪主导的平常叙述，完整支持担忧（worried）这一核心情绪。",
+  "output": "目标女性在画面中（frame_01至frame_06）双眉微蹙且内侧微抬，眼神专注探询，如[image:E1]所述表现出克制但紧绷的关切神态，该视觉观察真实可信。台词明确强调‘我主要是担心这事会牵连到您家老爷子’[audio_subtitle:E1]，关注点直指尚未发生的负面牵连与潜在风险，而非既成损失。虽然其神态与语调相对礼貌收敛[audio_subtitle:E2]，但言语内容对风险的预警配合微蹙的眉心，排除了无情绪主导的平常叙述，完整支持担忧（worried）这一核心情绪。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 57.07596278190613
+}

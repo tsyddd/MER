@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载女子面带笑容，右手挥动纸张并说‘我可看好你呀’（person_0），随后放下手保持微笑（person_1），接着以轻快上扬的语调询问‘怎么样？收获大大的吧’（person_2）。这些行为和语调表明其情绪积极，符合‘happy’标签。",
+  "answer": "happy",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "person_2"
+  ]
+}

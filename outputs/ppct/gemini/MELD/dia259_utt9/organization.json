@@ -1,0 +1,3 @@
+{
+  "text": "在身后陈列着电视机、法文海报、台灯及插花花瓶的室内场景中〔context_0〕，Monica正与前方未入镜的人员交谈〔context_1〕，构成了其展开对谈的现场格局〔context_0 context_joint context_1〕。交谈过程中，Monica视线直接看着正前方〔person_0〕，双手手指交叉紧握在胸前〔person_1〕，呈现出面向前方时专注且手部紧扣的肢体形态〔person_0 person_joint person_1〕；与此同时，她张嘴发声且语调平稳清晰〔person_2〕，其发声表达与视线注视以及手部姿势保持同步〔person_2 simultaneous person_0〕〔person_1 simultaneous person_2〕，结合构成了面向前方对象稳定表达、手部固定紧握的交互表现〔person_0 person_joint person_2〕〔person_1 person_joint person_2〕，在此状态下面对前方直接说出“You are both idiots.”〔process_0〕。这些表现可能反映出她当下注意力完全集中于画外的交谈对象，以一种平静、直接且明确的姿态表达对对方行为的否定与评判。"
+}

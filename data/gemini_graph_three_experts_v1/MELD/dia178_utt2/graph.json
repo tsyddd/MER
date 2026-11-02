@@ -1,0 +1,145 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Monica抱着婴儿说话：\"Nope, sound like me.\"",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Monica抱着婴儿面向前方说话：\"Pheebs, it’s going great. Look at Chandler with little baby girl Chandler.\"",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Monica双手抱住婴儿贴在胸前，面带微笑注视前方",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Monica语调轻松自然",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Phoebe坐在沙发边，目光先看向前方后垂下看向桌面玩具，面带微笑",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Monica怀抱婴儿，转头看向房间另一侧，嘴角微扬",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_4",
+      "type": "person",
+      "content": "Monica用较为轻柔、欢快的语气说话",
+      "time_index": 2,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内客厅与厨房区域，Monica怀抱着一个婴儿，Phoebe坐在旁边",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "Monica在说出否定回应后，继续抱着婴儿面向前方对Phoebe说话",
+      "entity_anchor": "Monica"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "Monica面带微笑注视前方的同时语调轻松自然地发声",
+      "entity_anchor": "Monica"
+    },
+    {
+      "source": "person_3",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "Monica先前抱住婴儿注视前方，随后怀抱婴儿转头看向房间另一侧",
+      "entity_anchor": "Monica"
+    },
+    {
+      "source": "person_4",
+      "target": "person_3",
+      "relation": "simultaneous",
+      "reason": "Monica转头看向房间另一侧时，同时以较为轻柔欢快的语气说话",
+      "entity_anchor": "Monica"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0呈现Monica就声音像自己进行简短回应，process_1呈现她接着转向呼唤Pheebs并指出正在照看婴儿的Chandler；两节点联合完整呈现了Monica从短促承接回应到主动向同伴发起分享的连续言语互动过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供了Monica怀抱婴儿、面带微笑注视前方的视觉神态，person_1提供了其说话时轻松自然的语音特征；视觉动作与听觉表现联合，互补呈现了Monica抱婴儿说话时放松自如的言行状态。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_3",
+      "target": "person_4",
+      "relation": "person_joint",
+      "reason": "person_3呈现了Monica转头看向房间另一侧且嘴角微扬的视觉反应，person_4提供了其说话时轻柔欢快的语气特征；视听模态互补，共同展现出Monica被旁侧情景吸引并欢快分享的完整个人表现。",
+      "entity_anchor": null
+    }
+  ]
+}

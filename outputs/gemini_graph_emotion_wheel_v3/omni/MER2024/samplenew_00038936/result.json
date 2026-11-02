@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00038936",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "c613bc4c8eed706c8b1610a8aeb9393921c5fc05b8cbb31814da46e58a8148c8",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "根据情绪轮的定义，'worried'（担忧）指对可能的负面结果、未知风险或受责的顾虑、焦虑、不安，强调预期与不确定性。目标人物在听到对方可能出事的消息后，其低头、重新抬头的视线变化以及严肃的表情，都表现出一种对未知情况的关切和不安，这与'worried'的定义相符。虽然她的语调平稳，但非言语行为（低头）是判断其情绪的关键证据。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "中性",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据情绪轮的定义，'neutral'指当前主要为平稳叙述、自然交流或无明确主导情绪的表达。说话者的语调平稳，内容为转述他人言论，且无其他模态证据显示其有强烈的情绪波动，因此符合中性情绪的特征。"
+    },
+    "image": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "根据情绪轮定义，'worried'指对可能的负面结果、风险或未知情况的顾虑、焦虑和不安。目标人物在听到“出了点意外”这一可能带来负面后果的陈述后，其表情和姿态表现出明显的忧虑和关切，这与'worried'的定义完全吻合。她的表情是克制的，但并非中性，而是对信息的直接反应。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "目标人物在听到“你好像出了点意外”这一负面信息后，其面部表情和姿态发生了明显变化。从最初的平静倾听，到后来的视线向下、眉头微蹙、嘴唇紧抿，这些视觉证据（[image:E1], [image:E2], [image:E3]）强烈表明她正在处理一个令人担忧的消息。虽然她的语调平稳（[audio_subtitle:E2]），但非言语行为是判断其情绪的关键。专家image和graph均指出其低头和凝重表情是担忧的直接证据，而audio_subtitle专家认为其语调平稳，情绪为中性。然而，视觉证据显示的克制性担忧比平稳语调更能反映其真实情绪状态，因此选择'worried'。",
+  "output": "目标人物在听到“你好像出了点意外”这一负面信息后，其面部表情和姿态发生了明显变化。从最初的平静倾听，到后来的视线向下、眉头微蹙、嘴唇紧抿，这些视觉证据（[image:E1], [image:E2], [image:E3]）强烈表明她正在处理一个令人担忧的消息。虽然她的语调平稳（[audio_subtitle:E2]），但非言语行为是判断其情绪的关键。专家image和graph均指出其低头和凝重表情是担忧的直接证据，而audio_subtitle专家认为其语调平稳，情绪为中性。然而，视觉证据显示的克制性担忧比平稳语调更能反映其真实情绪状态，因此选择'worried'。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 199.2911672592163
+}

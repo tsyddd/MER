@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia153_utt4",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "1701ec52f64cb4d931ebb2a39270db0f0b109d59cf49cceb1bc9a7c9f35dd50e",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "音频专家指出乔伊语调上扬、语速快且带有挑衅戏谑意味，图像专家观察到其面部表情激动并伴有指向性手势，两者均支持'anger'；而图谱专家虽基于动作和话语内容推断为'joy'，但未考虑语气中的挑衅成分。综合听觉与视觉证据，情绪更倾向为'anger'。",
+  "output": "音频专家指出乔伊语调上扬、语速快且带有挑衅戏谑意味，图像专家观察到其面部表情激动并伴有指向性手势，两者均支持'anger'；而图谱专家虽基于动作和话语内容推断为'joy'，但未考虑语气中的挑衅成分。综合听觉与视觉证据，情绪更倾向为'anger'。\n<answer>anger</answer>",
+  "label": "fear",
+  "elapsed_seconds": 57.68167972564697
+}

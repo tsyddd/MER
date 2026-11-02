@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "Rachel的面部表情呈现明显的嘴角向下、眉心微蹙与低垂闭目的沮丧神态[E1]，随后神情低落、无力地展示残破衣物[E2]，配合表达物品尽毁的台词[E3]，体现出受损后的伤心与悲痛，支持sadness。",
+  "answer": "sadness",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.00s - frame_03 @ 1.08s",
+      "observation": "Rachel眉心微蹙，眉头微抬呈八字，嘴角向下撇，随后低头闭眼，面部肌肉放松但带有哀伤的下沉感",
+      "interpretation": "面部特征呈现典型的失落与悲伤，而非愤怒的紧绷或中立的平静",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05 @ 1.79s - frame_07 @ 2.50s",
+      "observation": "Rachel身体微缩，伸手将受损的蓝色毛衣提起向周围人展示，动作迟缓且神态低落",
+      "interpretation": "对心爱物品损坏的痛惜姿态，强化了悲哀沮丧的解释",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Everything’s ruined. My bed. My clothes. Look at my favorite blue sweater.",
+      "observation": "台词述说所有心爱物品都被毁坏",
+      "interpretation": "提供了视觉上哀伤行为的直接情境诱因，排除了嫌恶或单纯吃惊的可能性",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "可能被误判为anger或disgust（面对烧焦物品的烦躁或厌恶），但其眉眼没有怒目圆睁或鼻翼耸起等特征，反而是眉头微蹙向下、嘴角下坠与闭眼叹气的受挫表现，故不支持anger/disgust。"
+}

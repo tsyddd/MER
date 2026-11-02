@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00040685",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "00b59cea7eb95d8df3713bcb9b7defc0e8f79ae664b527d4cc419d1d058a6afa",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "回看frame_00至frame_07，中央人物始终紧盯左侧男子，双眼睁大、眉间收紧；[image:E1]对这一紧绷表现的描述可信，但它本身不足以区分担忧和愤怒。字幕中的“父皇本已对我起了疑心”是对过去处境的叙述，为当前的警觉表情提供了担忧的语境[audio_subtitle:E1]，不能仅凭这段往事判定情绪。[audio_subtitle:E2]将持续对视解释为质问和不满，是最强的愤怒解释；但画面没有更明确的攻击性表现，综合取担忧。未提供音轨，无法核实语气。",
+  "output": "回看frame_00至frame_07，中央人物始终紧盯左侧男子，双眼睁大、眉间收紧；[image:E1]对这一紧绷表现的描述可信，但它本身不足以区分担忧和愤怒。字幕中的“父皇本已对我起了疑心”是对过去处境的叙述，为当前的警觉表情提供了担忧的语境[audio_subtitle:E1]，不能仅凭这段往事判定情绪。[audio_subtitle:E2]将持续对视解释为质问和不满，是最强的愤怒解释；但画面没有更明确的攻击性表现，综合取担忧。未提供音轨，无法核实语气。\n<answer>worried</answer>",
+  "label": "angry",
+  "elapsed_seconds": 177.91576218605042
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "结合图谱中他人事件（婴儿持续啼哭[process_0]）与Rachel转述的过去数小时未果困境[process_3]，Rachel在当前互动中并非被动无助，而是通过高亢急促的怒吼音调[person_2]与紧绷大张的嘴部表情[person_3]宣泄烦躁，充分证实其情绪为anger而非sadness。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "图谱记录婴儿发出持续啼哭声，与音频00:00-00:05贯穿的刺耳婴儿哭声完全吻合。",
+      "interpretation": "持续的外在压力源构成了Rachel当下焦虑与焦躁爆发的情境触发点。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:04",
+      "observation": "Rachel大声喊出“Oh come on, what am I gonna do, its been hours and it won’t stop crying”，音调极高且伴随急促冲动的质问吼声，直接核实了图谱[person_2]的描述。",
+      "interpretation": "高分贝、强力度的发泄性语调体现出极度的抓狂与愤怒，有力排除了低唤被动的悲伤。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_03 @ 2.210539950408941",
+      "observation": "Rachel眉头紧皱、嘴角向下用力张大嘴喊叫，神情极度紧绷焦躁（对应图谱[person_3]）。",
+      "interpretation": "视觉呈现出因受挫而产生的情绪失控与宣泄，与听觉怒吼形成跨模态互补支持anger。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "替代解释可能认为其抱婴踱步发愁符合sadness或fear（因婴儿哭闹而束手无策），但Rachel发声时具备强烈的攻击性喊叫声学特征，且台词“come on”带有明显的责难与烦躁，非低能量的哀伤或恐慌退缩，故排除sadness。"
+}

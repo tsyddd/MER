@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia150_utt4",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "b948f663757dd9d93d653315d388ec7b3f3b77e98f96b4337073cdbfe157409b",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "音频描述为低沉缓慢、沉重伤感，指向'sadness'；图像显示眉毛上扬、眼睛睁大等典型'surprise'特征；图谱虽提'joy'但其依据（如夸张告别）与音频和图像不一致。音频与图像在情绪上冲突，但音频提供更直接的听觉线索，且图像中'惊讶'的肢体表现（手放颈部、紧张姿态）与音频的沉重语调不匹配。综合判断，音频证据更可靠，故采纳'sadness'。",
+  "output": "音频描述为低沉缓慢、沉重伤感，指向'sadness'；图像显示眉毛上扬、眼睛睁大等典型'surprise'特征；图谱虽提'joy'但其依据（如夸张告别）与音频和图像不一致。音频与图像在情绪上冲突，但音频提供更直接的听觉线索，且图像中'惊讶'的肢体表现（手放颈部、紧张姿态）与音频的沉重语调不匹配。综合判断，音频证据更可靠，故采纳'sadness'。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 52.48458909988403
+}

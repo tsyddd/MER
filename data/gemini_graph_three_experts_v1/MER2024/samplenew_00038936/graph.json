@@ -1,0 +1,127 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "白衣女子对面前的男子说“不过，我最近听他们说”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "白衣女子继续对男子说“你好像出了点意外”",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "白衣女子目视前方男子，面部放松，嘴部开合说话",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "白衣女子语调平缓平稳",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "白衣女子低头，视线向下移",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "白衣女子重新抬头，目光注视男子",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室外空旷场地，白衣女子与一名黑衣男子相对而立交谈",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "白衣女子先说出前半句引出话题，随后接着说出后半句内容，构成言语互动的先后承接",
+      "entity_anchor": "白衣女子与黑衣男子的言语交流"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "白衣女子在开口说话时的目视动作与平缓的语调属于同一时刻的同步言语行为",
+      "entity_anchor": "白衣女子的言语表达表现"
+    },
+    {
+      "source": "person_2",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "白衣女子先前正视对方说话，随后视线向下移并低头，头部姿态发生先后变化",
+      "entity_anchor": "白衣女子的视线与头部姿态"
+    },
+    {
+      "source": "person_3",
+      "target": "person_2",
+      "relation": "after",
+      "reason": "白衣女子低头视线下移之后，重新抬起头正视男子，构成视线与头部的连续动作变化",
+      "entity_anchor": "白衣女子的视线与头部姿态"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "将前半句的话题引言与后半句提及意外相连接，完整构成了白衣女子向对方求证意外情况的连贯言语交流过程",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "视觉上面视对方且神情放松的说话动作与听觉上平稳平缓的语调相互补充，完整呈现了女子开口交谈时平静自然的身体与声音表现",
+      "entity_anchor": null
+    }
+  ]
+}

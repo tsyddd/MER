@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载白衣男子对对面的女子说出具有严厉反问性质的言语“难道都要悉数倒戈不成”〔process_0〕。同时，其双眼紧盯女子、嘴部持续开合〔person_0〕，配合音调上扬且语速连贯的声音特征〔person_1〕，体现出面对背叛情况时强烈的质问与不满情绪，因而判定其情绪为愤怒（angry）。",
+  "answer": "angry",
+  "evidence_refs": [
+    "process_0",
+    "person_0",
+    "person_1"
+  ]
+}

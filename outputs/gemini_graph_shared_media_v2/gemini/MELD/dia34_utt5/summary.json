@@ -1,0 +1,8 @@
+{
+  "reason": "独立核查frame_00及实际音频显示，Rachel在获知真相瞬间双眼瞪大、嘴部张成夸张的'O'形，如[image:E1]所述展现了本能的惊愕生理反应。音频00:00-00:01处伴随急促吸气以极高音调喊出'Oh my God!'，正如[audio_subtitle:E2]所指出的爆发性声调，精准体现了突发认知失调与不可置信。虽然其后带有八卦调侃色彩，但起始核心完全由突发事实带来的巨大冲击所主导，因此排除joy，确认为surprise。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E2"
+  ]
+}

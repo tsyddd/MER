@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "目标是“Hypnosis Tape”，不是画面中躺在床上的男子。八帧均未显示目标说话者，无法从目标的面部、视线或姿态判断情绪[E2]。唯一可用的目标表达是字幕中的简短指令“Deeper.”[E1]；它未明确表达喜怒等情绪，因此仅暂按平常的指令表达判断，视觉证据不足以核实。",
+  "open_emotion": "平常",
+  "answer": "neutral",
+  "mapping_reason": "“平常”对应情绪轮中日常、无明确主导情绪的neutral；此处主要依据字幕的指令形式作有限判断，并非从画面确认目标表情平稳。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Deeper.",
+      "observation": "字幕只有一个简短指令词。",
+      "interpretation": "文字没有明确表达某种主导情绪，弱支持平常表达；缺少音轨，不能判断语气。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00（0.000秒）至frame_07（0.626秒）",
+      "observation": "画面持续显示床上的男子，未显示名为“Hypnosis Tape”的目标说话者；男子的姿态变化很小。",
+      "interpretation": "男子的可见表现不能当作目标说话者的情绪证据。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "最强限制是目标始终不可见，且没有音频；“Deeper.”也可能以不同语气说出，因此neutral只是低把握度的映射，不能视为视觉上证实的平静。"
+}

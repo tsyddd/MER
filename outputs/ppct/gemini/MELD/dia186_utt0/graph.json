@@ -1,0 +1,144 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Chandler开口说“Ah, no-no-no just”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Chandler说出“Ross”",
+      "time_index": 1,
+      "evidence_sources": [
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "Chandler接着说“Ross and Joey is embarrassing enough.”",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual",
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Chandler张开嘴，右手抬起在身前摆动",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Chandler右手收回屈于胸前上方",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Chandler眼神向右上方斜视，嘴唇动作伴随说话",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内沙发旁，Chandler与Ross并排坐在橙色沙发上，右侧站着一名手持黑色镶钻皮包的女性",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "Chandler在说出“Ah, no-no-no just”之后接着说出“Ross”",
+      "entity_anchor": "Chandler的话语表达"
+    },
+    {
+      "source": "process_2",
+      "target": "process_1",
+      "relation": "after",
+      "reason": "Chandler在说出“Ross”之后接着说出“Ross and Joey is embarrassing enough.”",
+      "entity_anchor": "Chandler的话语表达"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "Chandler在身前摆动右手之后将右手收回屈于胸前上方",
+      "entity_anchor": "Chandler的手部动作"
+    },
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "Chandler右手屈于胸前后，进一步向右上方斜视并伴随嘴唇动作说话",
+      "entity_anchor": "Chandler的体态与神态"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提供打断否认并开始指定的言语起头（“Ah, no-no-no just”），process_1提供紧接着说出的具体人名（“Ross”），二者联合构成了Chandler打断并指明对象的完整言语动作。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_1",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "process_1提供指明的人名对象（“Ross”），process_2提供随后的调侃与评价陈述（“Ross and Joey is embarrassing enough.”），二者联合构成了从纠正对象到给出调侃理由的完整互动话语表达。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供抬手摆动的起步手势，person_1提供右手向内收拢屈于胸前的动作，二者联合呈现了Chandler手部动作从挥动到收回胸前的完整动作轨迹。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1提供手部屈于胸前维持的肢体姿势，person_2提供眼神斜视与嘴唇动作的面部神态，二者联合构成了肢体动作与面部表情互相补充的完整人物表现。",
+      "entity_anchor": null
+    }
+  ]
+}

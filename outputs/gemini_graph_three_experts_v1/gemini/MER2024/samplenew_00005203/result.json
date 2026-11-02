@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00005203",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "80ed71fa2ffabbd46e09fee5b9edb8082b0b4d584293ba2c216376d47e0f2d8d",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "三位专家意见高度一致。图像专家观察到人物双眼低垂、面带泪光且嘴角下垂，音频专家捕捉到低沉微弱、夹杂哽咽的语调，结合表达不想分开的台词，各模态线索均明确指向悲伤情绪。",
+  "output": "三位专家意见高度一致。图像专家观察到人物双眼低垂、面带泪光且嘴角下垂，音频专家捕捉到低沉微弱、夹杂哽咽的语调，结合表达不想分开的台词，各模态线索均明确指向悲伤情绪。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 26.5253963470459
+}

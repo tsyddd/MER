@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "目标是frame_00至frame_06中围灰围巾、面向画面左侧说话的男子；frame_07切到戴眼镜的男子和军装男子，不能用他们的表情判断目标。目标说话时持续看向左侧，随后伸臂递出物件，动作明确而表情紧绷[E1][E2]。结合字幕中的转交请求[E3]，视觉上最有把握的是他在郑重提出要求；尚不足以认定他在责备、担忧或惊讶。",
+  "open_emotion": "郑重",
+  "answer": "neutral",
+  "mapping_reason": "这里的郑重指专注、严肃地提出请求，而非明确的愉悦、愤怒或忧虑；在给定标签中映射为neutral。这不表示他面无表情或毫无情绪。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01（0.32秒）至frame_03（0.92秒）",
+      "observation": "目标持续朝画面左侧看，随说话张口，未见明显笑容；背景人物面部模糊。",
+      "interpretation": "表现为专注地向对方陈述，而非从旁人表情推断其情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04（1.20秒）至frame_06（1.80秒）",
+      "observation": "目标向左前方伸出手臂、递出物件，随后闭口并维持注视。",
+      "interpretation": "动作与提出转交请求相符；动作有力度，但单凭伸臂不能认定为愤怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "兄弟，转交，给总理，过目。",
+      "observation": "字幕内容是请对方转交物件供人过目。",
+      "interpretation": "提供了动作和话语的任务背景，没有直接表达责备或对坏结果的忧虑。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_00（0.00秒）、frame_06（1.80秒）",
+      "observation": "目标开口时面部较紧，伸臂后嘴唇收紧。",
+      "interpretation": "也可能被理解为急切或不满；仅凭这些短暂表情无法排除较强情绪。",
+      "polarity": "counter"
+    }
+  ],
+  "counterevidence": "最强的相反解释是目标神情紧绷、伸臂有力，可能带有急切或不满；但画面未显示明确的责备对象或持续对抗，且未提供音轨，不能借语气进一步判定。"
+}

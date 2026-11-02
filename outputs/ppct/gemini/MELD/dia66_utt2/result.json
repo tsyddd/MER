@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia66_utt2",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "结合person_0与person_2，Rachel在机舱门口与空乘对话时全程面带灿烂微笑，神态愉悦友好；音频与台词（process_1）中她语气温和真诚地表达谢意与夸奖（“Thank you very much, it was excellent”），整体展现出愉快开朗的情绪状态。",
+  "output": "结合person_0与person_2，Rachel在机舱门口与空乘对话时全程面带灿烂微笑，神态愉悦友好；音频与台词（process_1）中她语气温和真诚地表达谢意与夸奖（“Thank you very much, it was excellent”），整体展现出愉快开朗的情绪状态。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 56.81847929954529,
+  "node_count": 9,
+  "edge_count": 9
+}

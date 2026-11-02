@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "男子先询问“他不好对付啊”，随后又追问“我是不是给你惹麻烦了”（process_0、process_1），话题转向担心自己是否给对方造成影响。图谱记载其神态平静、语调平缓且略带疑问（person_0、person_1），但连续的自我追问更符合当前的担忧情绪。",
+  "answer": "worried",
+  "evidence_refs": [
+    "process_0",
+    "process_1",
+    "person_0",
+    "person_1"
+  ]
+}

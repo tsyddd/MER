@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "片段中Chandler坐在沙发上回应站立的女性。根据事件链，他先用手势与语言打断并拒绝同行（[E1]），随后屈手收回，以平稳、一本正经的冷面幽默口吻解释理由（[E2]）。结合真实音轨，Chandler语气平缓淡定、音调起伏不大，面部虽有说话动作和微弱眼神变化，但未表现出强烈的喜悦大笑、愤怒或厌恶，属于日常冷幽默式的平稳吐槽表达。",
+  "open_emotion": "冷面调侃",
+  "answer": "neutral",
+  "mapping_reason": "Chandler的表达呈现典型的死板冷幽默（deadpan），言语内容虽含揶揄，但其肢体、语调和神情均维持在冷静、克制而平稳的基线状态，无主导性的兴奋正向情绪（joy）或敌意对抗（anger），依据情绪轮定义应映射至平稳无明显情绪波动的neutral。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "Chandler开口说话，右手抬起并在身前轻微摆动做出否决动作",
+      "interpretation": "以从容姿态打断并划清界限",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "Chandler在说出理由时右手收回胸前，眼神斜向右侧，面部神态平静",
+      "interpretation": "神态从容日常，未展现夸张的面部情绪起伏",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "语音语调平直沉稳，语速自然，无高亢兴奋的大笑或愤怒颤音",
+      "interpretation": "听觉表现平稳，符合冷面陈述的特征",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词提及“embarrassing enough”且语境具戏谑嘲讽性质，背景伴有观众笑声，容易被误判为joy或disgust，但目标人物本人表现克制平淡，并未沉浸于明显的愉悦或排斥中。"
+}

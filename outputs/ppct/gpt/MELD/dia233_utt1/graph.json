@@ -1,0 +1,127 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Rachel说：“Honey, if you wanted to do that, you might as well just gotten him a fish, you know how fish freaked me out!”",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle",
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Rachel在说话时挥动手臂并向前方的另一名女子做手势。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Rachel面向另一名女子，嘴部张开。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Rachel的手臂从抬起、向外伸展变为垂在身体两侧。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Rachel的嘴部在说话过程中持续开合。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内房间中有Rachel和另一名女子在场。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "Rachel正在与面向她的另一名女子交流。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "simultaneous",
+      "reason": "Rachel在说话的同时向面前的另一名女子挥动手臂并做手势",
+      "entity_anchor": "Rachel的说话与手势行为"
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "simultaneous",
+      "reason": "Rachel面向另一名女子说话时，嘴部同时持续开合",
+      "entity_anchor": "Rachel"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提供了Rachel的具体言语内容，process_1提供了她在说话时向另一名女子挥臂做手势的可见行为，联合后补充出言语与指向性手势共同构成的当前交流过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供了Rachel面向另一名女子并张嘴的可见表现，person_1提供了她手臂由抬起外伸到垂下的动作变化，联合后增加了她在交流中同时进行面向对方和手势变化的完整可观察表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1提供了Rachel手臂姿态的前后变化，person_2提供了她说话过程中嘴部持续开合的表现，联合后补充出手势变化与持续说话并行的同一人物可见行为。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0限定了室内房间内有Rachel和另一名女子在场，context_1进一步限定两人正面对面交流，联合后更完整地确定了当前互动发生的场景、参与者和交流关系。",
+      "entity_anchor": null
+    }
+  ]
+}

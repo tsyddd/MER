@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物在对话时，面部表情保持平稳，嘴角有轻微上扬，眼神自然，姿态放松，手持茶杯，整体表现符合平静交流的状态。字幕内容为陈述性话语，无明显情绪色彩。音频中语调平稳，无激动或低落迹象。综合来看，其表达状态为中性。",
+  "open_emotion": "平静",
+  "answer": "neutral",
+  "mapping_reason": "根据情绪轮定义，'neutral'指当前主要为平稳叙述、自然交流或无明确主导情绪的表达。目标人物的面部表情、姿态和语调均未表现出强烈的情感倾向，且其话语内容为中性陈述，因此映射为'neutral'。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "目标人物面部表情稳定，嘴角有轻微上扬，眼神自然，姿态放松，手持茶杯。",
+      "interpretation": "这些视觉特征表明其处于一种平静、自然的交流状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "字幕内容",
+      "observation": "字幕内容为“皇上闻着，正好，消乏，安睡。”",
+      "interpretation": "该话语为陈述性内容，旨在描述一种状态或效果，不包含强烈的情感色彩。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "音频中说话者语调平稳，无明显起伏。",
+      "interpretation": "平稳的语调支持其情绪状态为中性。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。"
+}

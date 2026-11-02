@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia188_utt0",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "Joey's facial expression shows raised eyebrows and an open mouth, consistent with surprise. His utterance 'What?' is delivered in a high-pitched, questioning tone, indicating a reaction to something unexpected.",
+  "output": "Joey's facial expression shows raised eyebrows and an open mouth, consistent with surprise. His utterance 'What?' is delivered in a high-pitched, questioning tone, indicating a reaction to something unexpected.\n<answer>surprise</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 5.598275184631348,
+  "node_count": null,
+  "edge_count": null
+}

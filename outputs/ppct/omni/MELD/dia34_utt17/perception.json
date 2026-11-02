@@ -1,0 +1,388 @@
+{
+  "process": {
+    "nodes": [
+      {
+        "id": "process_0",
+        "type": "process",
+        "content": "Monica speaks to Rachel.",
+        "evidence_sources": [
+          "audio"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "process_1",
+        "type": "process",
+        "content": "Rachel raises her right hand to her chest.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "process_2",
+        "type": "process",
+        "content": "Rachel gestures with her right hand.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 1,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "process_3",
+        "type": "process",
+        "content": "Rachel turns her head to look at Monica.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 2,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "process_4",
+        "type": "process",
+        "content": "Rachel looks at Monica.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 3,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "process_5",
+        "type": "process",
+        "content": "Rachel looks at Monica.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 4,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "process_6",
+        "type": "process",
+        "content": "Rachel looks at Monica.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 5,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "process_7",
+        "type": "process",
+        "content": "Rachel looks at Monica.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 6,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "process_8",
+        "type": "process",
+        "content": "Rachel looks at Monica.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 7,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  },
+  "person": {
+    "nodes": [
+      {
+        "id": "person_0",
+        "type": "person",
+        "content": "Rachel has blonde hair.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_1",
+        "type": "person",
+        "content": "Rachel wears a pink robe.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_2",
+        "type": "person",
+        "content": "Rachel wears patterned pants.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_3",
+        "type": "person",
+        "content": "Rachel sits on a couch.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_4",
+        "type": "person",
+        "content": "Rachel's mouth is open.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_5",
+        "type": "person",
+        "content": "Rachel's mouth is open.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 1,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_6",
+        "type": "person",
+        "content": "Rachel's mouth is open.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 2,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_7",
+        "type": "person",
+        "content": "Rachel's mouth is open.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 3,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_8",
+        "type": "person",
+        "content": "Rachel's mouth is open.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 4,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_9",
+        "type": "person",
+        "content": "Rachel's mouth is open.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 5,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_10",
+        "type": "person",
+        "content": "Rachel's mouth is open.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 6,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_11",
+        "type": "person",
+        "content": "Rachel's mouth is open.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 7,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_12",
+        "type": "person",
+        "content": "Monica has dark hair.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 2,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_13",
+        "type": "person",
+        "content": "Monica wears a light purple robe.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 2,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_14",
+        "type": "person",
+        "content": "Monica sits on a couch.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 2,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_15",
+        "type": "person",
+        "content": "Monica's mouth is open.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 2,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_16",
+        "type": "person",
+        "content": "Monica's mouth is open.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 3,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_17",
+        "type": "person",
+        "content": "Monica's mouth is open.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 4,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_18",
+        "type": "person",
+        "content": "Monica's mouth is open.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 5,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_19",
+        "type": "person",
+        "content": "Monica's mouth is open.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 6,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_20",
+        "type": "person",
+        "content": "Monica's mouth is open.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 7,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  },
+  "context": {
+    "nodes": [
+      {
+        "id": "context_0",
+        "type": "context",
+        "content": "The scene takes place indoors.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "context_1",
+        "type": "context",
+        "content": "Monica and Rachel are sitting on a couch.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "context_2",
+        "type": "context",
+        "content": "Monica is speaking to Rachel.",
+        "evidence_sources": [
+          "audio"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "context_3",
+        "type": "context",
+        "content": "Other people are in the background.",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  }
+}

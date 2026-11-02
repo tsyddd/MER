@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "Janice的面部表情和姿态在对话中保持一致，没有明显的情绪波动。她的眉毛没有皱起，嘴角没有上扬或下撇，眼神稳定，姿态也未表现出紧张或激动。这些视觉线索表明她的情绪是中性的。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "Janice的眉毛平直，嘴角没有明显动作，眼神直视前方。",
+      "interpretation": "这些面部特征是中性情绪的典型表现，没有显示出愤怒、悲伤或喜悦的迹象。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_07 @ 2.2939565523111654",
+      "observation": "Janice的姿势稳定，一只手放在下巴附近，另一只手放在胸前，没有大幅度的动作。",
+      "interpretation": "这种克制的姿态表明她的情绪是平静的，没有表现出激动或强烈的情感。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Good-bye Chandler Bing.",
+      "observation": "字幕显示她正在说“Good-bye Chandler Bing.”",
+      "interpretation": "告别的话语本身是中性的，不带有强烈的情感色彩，这与她的视觉表现一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "音频中她的语调可能带有某种情感色彩，但由于音频不是视觉模态，且问题要求主要基于视觉表现进行判断，因此不作为主要依据。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035950",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "521bc59b8292512714ce7a1cf82373756b611bf8bd876b6099b6bd083d1d6d57",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "音频和文本分析一致指出说话者语调低沉、语速缓慢，带有委屈和失落感，与graph中描述的叹息、无奈相符；图像虽显示微笑和积极姿态，但仅最后一帧出现跪姿，且整体情绪未体现强烈喜悦，与音频情绪基调冲突时优先采信听觉与文本证据。",
+  "output": "音频和文本分析一致指出说话者语调低沉、语速缓慢，带有委屈和失落感，与graph中描述的叹息、无奈相符；图像虽显示微笑和积极姿态，但仅最后一帧出现跪姿，且整体情绪未体现强烈喜悦，与音频情绪基调冲突时优先采信听觉与文本证据。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 51.305808544158936
+}

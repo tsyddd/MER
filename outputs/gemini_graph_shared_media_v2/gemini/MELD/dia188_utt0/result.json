@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia188_utt0",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "b97e68d51fd419e726abf41fc684b1dd95e92043178dcef7d7b2a8c69202319d",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "独立核对原始画面与实际音轨可知，Joey在画面中神情松弛，开口发问时既未出现明显的挑眉瞠目也无紧绷皱眉[image:E1]；实际音频中发出的“What?”短促平缓，音量与音调均无剧烈起伏或重音冲击[audio_subtitle:E1]。专家一致认为台词“What?”在此处仅为日常随口发问而非情绪爆发[graph:E1]，其可信度极高。最强反证为单字疑问句常携带惊讶（surprise）或不耐烦，但音画线索均无高唤醒特征，因此明确判定为中性。",
+  "output": "独立核对原始画面与实际音轨可知，Joey在画面中神情松弛，开口发问时既未出现明显的挑眉瞠目也无紧绷皱眉[image:E1]；实际音频中发出的“What?”短促平缓，音量与音调均无剧烈起伏或重音冲击[audio_subtitle:E1]。专家一致认为台词“What?”在此处仅为日常随口发问而非情绪爆发[graph:E1]，其可信度极高。最强反证为单字疑问句常携带惊讶（surprise）或不耐烦，但音画线索均无高唤醒特征，因此明确判定为中性。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 54.71027588844299
+}

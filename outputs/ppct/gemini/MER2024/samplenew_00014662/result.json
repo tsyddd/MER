@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00014662",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "分析图谱中的实际节点与边，女性在说话过程中神态微蹙（person_2 after person_0），结合台词（process_0 process_joint process_1）明确表达出“我主要是担心这事儿会牵连到您家老爷子”，语调认真且充满关切与顾虑，情绪表现为担忧。",
+  "output": "分析图谱中的实际节点与边，女性在说话过程中神态微蹙（person_2 after person_0），结合台词（process_0 process_joint process_1）明确表达出“我主要是担心这事儿会牵连到您家老爷子”，语调认真且充满关切与顾虑，情绪表现为担忧。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 46.03802943229675,
+  "node_count": 9,
+  "edge_count": 8
+}

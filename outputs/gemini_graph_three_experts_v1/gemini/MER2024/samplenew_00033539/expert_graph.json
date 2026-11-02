@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载目标人物在开言时双眉紧蹙且眉心出现竖纹（person_0），并在说话过程中持续保持皱眉神态（person_2），展现出紧锁眉头的愁容；同时其伴随短促升调的疑问声与反问求证语调追问“真的”（person_1、person_3），体现出对当前状况的不安与关切，综合视听表现判断其情绪为worried。",
+  "answer": "worried",
+  "evidence_refs": [
+    "person_0",
+    "person_2",
+    "person_1",
+    "person_3"
+  ]
+}

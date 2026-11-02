@@ -1,0 +1,3 @@
+{
+  "text": "在室内客厅中，场景可见沙发、门及其他室内陈设，另一名人物背对镜头站在门旁〔context_0 context_joint context_1〕；Monica位于沙发区域〔context_2〕，起初坐在沙发上，手中拿着一本书〔person_0〕。随后她说出“No-no-no, no!”〔process_0〕，并向画面左侧移动，离开原先的坐姿位置〔process_1〕；这一言语行为与移动行为共同构成连续的可观察反应〔process_0 process_joint process_1〕。在移动过程中，她的身体前倾并继续向左侧移动〔person_2 after person_0〕，同时头部转向画面左侧〔person_1 simultaneous person_2〕，呈现出头部朝向与身体移动方向一致的状态〔person_1 person_joint person_2〕。之后，她又转头面向画面右侧〔person_3 after person_1〕。这些表现可能反映Monica当下的注意力随着客厅中门旁人物或左右两侧的变化而转移，并通过否定性言语和离开原位置的动作作出即时应对；但仅凭现有材料，无法进一步明确其具体心理状态。"
+}

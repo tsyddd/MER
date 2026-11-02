@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "Rachel当前抱着婴儿调整姿势，随即问自己该怎么办，并抱怨哭声一直不停[E1][E2]。图谱节点process_1记录了她抱婴晃动的当前互动；画面可核实这一动作，它与她话中的无计可施相结合，支持她正为安抚不成而烦躁，但晃动本身不能单独证明情绪[E3]。她所说的“已经好几个小时”是当前抱怨，不是画面证实的时长。图谱还转述了急促、大声的语调；由于未收到原音轨，这一点不能亲耳核验，也不作为最终判断的主要依据[E4]。",
+  "open_emotion": "烦躁",
+  "answer": "anger",
+  "mapping_reason": "烦躁指向哭声持续、安抚受阻时的恼火与不满，依本情绪轮最接近anger；这里不意味着强烈愤怒或对婴儿的责备。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“Oh come on, what am I gonna do, its been hours and it  won’t stop crying.”",
+      "observation": "Rachel问自己该怎么办，并说哭声一直不停、已经持续数小时。",
+      "interpretation": "这是一句针对当前难以安抚状况的抱怨，支持烦躁；持续时长仅是她的说法。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02（1.4597905332889234秒）至frame_04（2.961289367528959秒）",
+      "observation": "Rachel抱着包裹中的婴儿，眉头收紧，张口说话，并调整怀抱姿势。",
+      "interpretation": "紧绷的神情与抱怨同时出现，支持她当下并不平静；张口本身只说明正在说话。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "图谱记录Rachel抱着婴儿在门边晃动；画面可核实她抱婴并移动、调整姿势。",
+      "interpretation": "该节点帮助确定抱怨发生在当前安抚互动中，不是关于他人的转述；它与画面属同源事实，不另算独立的表情证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱称Rachel说话语调偏高、音量较大且语速急促。",
+      "interpretation": "若准确可进一步支持焦躁，但本次没有原音轨，无法亲耳核验这些声音特征。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "“我该怎么办”也可能表示担忧或无助；但当前话语主要指向哭声不停这一受阻状况，没有明确的危险预期，故不足以判为fear。图谱所称婴儿哭声同样不能在无原音轨时直接核实。"
+}

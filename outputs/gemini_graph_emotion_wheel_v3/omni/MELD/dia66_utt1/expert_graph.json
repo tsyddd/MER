@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "目标人物（右侧女子）在与空乘人员互动时，其面部表情和行为表现出积极的社交参与。她首先嘴角上扬微笑，随后微张嘴回应，目光持续注视对方，这些行为与空乘人员的问候语形成连贯的社交反馈。图谱中的节点person_2和person_3分别记录了她的静态微笑和动态回应，表明她处于一个积极、开放的互动状态。尽管她的面部有滑稽的涂画痕迹，但这并未影响其社交表情的积极性质，反而可能暗示一种轻松或玩笑的氛围。综合来看，她的行为最符合一种被积极社交情境所激发的愉悦感。",
+  "open_emotion": "愉悦",
+  "answer": "joy",
+  "mapping_reason": "根据MELD项目适配情绪轮的定义，'joy'指当前开心、愉悦、满足或兴奋的正向体验。目标人物的微笑和积极回应是其愉悦情绪的直接表现，且该情绪与当前的社交互动（空乘的问候）直接相关，因此映射到'joy'是准确的。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "右侧女子嘴角上扬，面部有微笑表情。",
+      "interpretation": "微笑是愉悦情绪的典型面部表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01至frame_07",
+      "observation": "右侧女子微张嘴，目光注视着空乘人员。",
+      "interpretation": "该行为是积极社交互动的信号，表明她正在愉快地参与对话。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "节点person_2描述了右侧女子的微笑表情。",
+      "interpretation": "图谱节点确认了目标人物的微笑，这是其愉悦情绪的直接证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_3",
+      "observation": "节点person_3描述了右侧女子微张嘴回应的行为。",
+      "interpretation": "该行为是社交互动中的积极反馈，支持其处于愉悦状态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "图谱中提到女子面部有黑色涂画痕迹，这可能被解释为一种滑稽或不寻常的特征，但其后续的微笑和回应行为表明，她并未因此感到不适或厌恶，反而将其融入了轻松的互动中，因此该特征并未构成对愉悦情绪的反证。"
+}

@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "目标人物面部神情紧绷，眉眼凝重专注，伴随前倾探身的姿态[E1]；结合音轨中压低声线、急促警告的语气[E2]及字幕内容，视觉与听觉均明显表现出对事态传扬扩大的焦虑与不安，支持worried。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.2s",
+      "observation": "正对镜头的目标男子双眉微蹙，双眼紧盯前方，身体微向前倾，神情严肃而紧绷。",
+      "interpretation": "面部没有大幅度愤怒或悲戚的表情拉扯，而是呈现出高度防备与忧虑的状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "语速偏急促且特意压低气声耳语，语气带有紧张与顾虑感。",
+      "interpretation": "压低声音说话是为了避人耳目，体现对“传到高家”之后果的忌惮与担忧。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽因距离较远导致面部微表情不够细腻，容易被误认为克制客观的neutral，但他刻意压低声音与前倾耳语的体态排除了毫无情绪波动的平静状态。"
+}

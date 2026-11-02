@@ -1,0 +1,9 @@
+{
+  "reason": "目标人物Joey在说话时虽有抬食指和翻掌的交际手势（如[image:E1]在frame_01-frame_03所示），但其面部肌肉放松、眉眼平缓，完全没有紧皱双眉或怒目等愤怒生理特征。实际核听音轨（对应[image:E3]），Joey说出台词时音量适中、语调自然平直，表现为非常从容的平淡陈述，缺乏[audio_subtitle:E2]所称的攻击性恼火或强烈对抗。尽管台词带有讽刺调侃成分，但其视听表现均属于平稳日常的客观交流，应映射为neutral。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "image:E1",
+    "image:E3",
+    "audio_subtitle:E2"
+  ]
+}

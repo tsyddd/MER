@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标人物在多个帧中表现出担忧的面部特征，如眉头微蹙、眼神专注且略带忧虑。她的嘴部在说话时有张合，但整体表情较为克制，没有明显的悲伤或愤怒迹象。字幕内容“我主要是担心这事会牵连到您家老爷子”直接表达了担忧的情绪，与她的面部表情一致。音频中她的语调平稳，没有表现出激动或愤怒，进一步支持了担忧的判断。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.0",
+      "observation": "目标人物眉头微蹙，眼神专注，嘴唇微张，似乎在说话。",
+      "interpretation": "这些面部特征是担忧或认真思考时的典型表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "我主要是担心这事会牵连到您家老爷子。",
+      "observation": "字幕内容明确表达了说话者的担忧。",
+      "interpretation": "字幕内容与视觉表现高度一致，为情绪判断提供了直接支持。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.6400768092171061",
+      "observation": "目标人物的眉毛仍然保持微蹙状态，眼神没有放松。",
+      "interpretation": "持续的微蹙眉毛表明担忧的情绪仍在持续。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "0.0-3.960475257030844",
+      "observation": "音频中说话者的语调平稳，没有明显的激动或愤怒。",
+      "interpretation": "平稳的语调排除了愤怒或激动的可能性，与担忧的情绪相符。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有明确的反证。虽然表情较为克制，但字幕和面部特征都指向担忧，而非中性。"
+}

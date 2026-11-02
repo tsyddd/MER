@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia186_utt3",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sadness",
+  "emotion_analysis": "Joey's facial expression shows a frown and downturned mouth, and his tone of voice is apologetic and slightly dejected, indicating he is sorry about having to cancel plans.",
+  "output": "Joey's facial expression shows a frown and downturned mouth, and his tone of voice is apologetic and slightly dejected, indicating he is sorry about having to cancel plans.\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 5.061145544052124,
+  "node_count": null,
+  "edge_count": null
+}

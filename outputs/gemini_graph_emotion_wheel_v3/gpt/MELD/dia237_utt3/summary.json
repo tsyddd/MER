@@ -1,0 +1,8 @@
+{
+  "reason": "目标人物Joey在字幕中谈到“whipped fish”，随即说自己庆幸还能“keeping it down”；[audio_subtitle:E1]准确对应原字幕，较直接地支持他对食物反胃，而非单凭“happy”判断喜悦。画面中他先皱眉、神情紧绷，随后短暂扬起嘴角；[image:E2]的观察可信，但笑意本身不足以推翻整句话所表达的勉强忍受。没有提供音轨，无法核验语气，也不能据此断言他实际呕吐；就当前可核实证据而言，反胃最接近disgust。",
+  "answer": "disgust",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "image:E2"
+  ]
+}

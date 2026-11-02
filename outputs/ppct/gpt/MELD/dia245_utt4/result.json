@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia245_utt4",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "Monica在沙发区域起身并向画面左侧前倾移动，随后转头改变朝向（person_0、person_1、person_2、person_3及其after关系）。她同时说出“No-no-no, no!”（process_0），画面中张口、眉眼张开的反应更符合突发受惊或意外反应，而非平静或明确愤怒。",
+  "output": "Monica在沙发区域起身并向画面左侧前倾移动，随后转头改变朝向（person_0、person_1、person_2、person_3及其after关系）。她同时说出“No-no-no, no!”（process_0），画面中张口、眉眼张开的反应更符合突发受惊或意外反应，而非平静或明确愤怒。\n<answer>surprise</answer>",
+  "label": "fear",
+  "elapsed_seconds": 110.30804467201233,
+  "node_count": 9,
+  "edge_count": 11
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia119_utt5",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "fb723911feb1977e95353e9e5cd3a600d355b69ec46c0c99064139b522a98aa9",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "fear",
+  "emotion_analysis": "字幕中Monica说Ben今晚会来，而且“he can’t see this”；这表明她在意即将发生的事，但单凭这句话不能确定情绪[audio_subtitle:E1]。画面中她在frame_04至frame_05睁大眼睛、嘴部绷紧并抬手强调，这项可核实的视觉变化比平静提醒更支持紧张担忧[image:E2]。露齿不宜直接当作喜悦，且未提供音轨，无法核验语气；综合话语与表情，选择fear。",
+  "output": "字幕中Monica说Ben今晚会来，而且“he can’t see this”；这表明她在意即将发生的事，但单凭这句话不能确定情绪[audio_subtitle:E1]。画面中她在frame_04至frame_05睁大眼睛、嘴部绷紧并抬手强调，这项可核实的视觉变化比平静提醒更支持紧张担忧[image:E2]。露齿不宜直接当作喜悦，且未提供音轨，无法核验语气；综合话语与表情，选择fear。\n<answer>fear</answer>",
+  "label": "fear",
+  "elapsed_seconds": 72.50221991539001
+}

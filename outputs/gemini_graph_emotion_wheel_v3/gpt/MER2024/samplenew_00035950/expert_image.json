@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是frame_00至frame_06中戴华丽头饰、面向画面右侧说话的女子；frame_07远景中她位于前景左侧，不能把其他人的反应算作她的情绪。她说话时视线持续朝右，先有轻微笑意，随后张口幅度增大、嘴角收紧[E1][E2]。字幕中的反问带有责备意味[E3]。综合看，较像克制地表达不满，而不是单纯愉快；但画面没有明显的怒目或激烈动作，判断限于轻度不满。",
+  "open_emotion": "不满",
+  "answer": "angry",
+  "mapping_reason": "这里的不满指向对方‘到了自己身上’却不明白的表现，带有责备意味，因此按情绪轮映射为angry；这不表示她表现出强烈愤怒。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01（0.52秒）至frame_03（1.56秒）",
+      "observation": "女子面向右侧说话，眼睛睁开，嘴角略向上，随后嘴唇逐渐收拢。",
+      "interpretation": "她在有笑意的同时持续向对方表达意见；笑意本身不足以确定为喜悦。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04（2.04秒）至frame_06（3.08秒）",
+      "observation": "她张口幅度一度增大，之后嘴角较前收紧，仍看向右侧。",
+      "interpretation": "表情从轻微带笑转为较紧，支持话语中的不满，但不支持强烈愤怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“怎么到了自己身上，就这样不明白。”",
+      "observation": "字幕以反问方式指出对方在自身事情上不明白。",
+      "interpretation": "为视觉上较克制的表达提供了责备语境；字幕不能证明具体语调。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的相反解释是平和地提醒对方：frame_01至frame_03有轻微笑意，全段也未见明显皱眉或对抗手势。没有音频，无法凭语调进一步区分温和提醒与不满。"
+}

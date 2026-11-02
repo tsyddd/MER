@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia226_utt3",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "554a2426d1927843a8eb1d72198c70c94dfcdf5ba4a53d703518ea9653b7a645",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "音频中Rachel的语调平稳，没有明显的情绪起伏，内容是关于希望某人能更开放地分享感受，这是一种中性的愿望表达。[audio_subtitle:E1] 视频中她的面部表情放松，带有轻微的微笑，手势开放，表明她处于一种平静的对话状态。[image:E1] 尽管图谱专家认为其语调带有感叹，暗示了失望，但音频本身并未表现出强烈的悲伤或愤怒，因此'neutral'是更符合所有证据的标签。",
+  "output": "音频中Rachel的语调平稳，没有明显的情绪起伏，内容是关于希望某人能更开放地分享感受，这是一种中性的愿望表达。[audio_subtitle:E1] 视频中她的面部表情放松，带有轻微的微笑，手势开放，表明她处于一种平静的对话状态。[image:E1] 尽管图谱专家认为其语调带有感叹，暗示了失望，但音频本身并未表现出强烈的悲伤或愤怒，因此'neutral'是更符合所有证据的标签。\n<answer>neutral</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 172.2538459300995
+}

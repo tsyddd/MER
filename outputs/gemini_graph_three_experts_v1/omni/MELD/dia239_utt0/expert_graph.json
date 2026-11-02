@@ -1,0 +1,8 @@
+{
+  "expert": "graph",
+  "reason": "Gunther在图谱中被描述为面朝右侧注视着Chandler并张口发问，语调带有轻微疑问，其行为与提问内容（询问里面是否有人）一致，未表现出强烈情绪波动。相关节点person_1明确记载其语调带有轻微疑问，但无愤怒、悲伤或喜悦等情绪线索。因此，Gunther当前情绪为中性。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_1"
+  ]
+}

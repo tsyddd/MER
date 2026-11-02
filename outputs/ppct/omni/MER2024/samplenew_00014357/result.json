@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00014357",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "happy",
+  "emotion_analysis": "目标人物面带笑容，嘴部有开合动作，正在说出赞美的话语，其表情和行为与字幕内容一致，表现出积极的情绪。",
+  "output": "目标人物面带笑容，嘴部有开合动作，正在说出赞美的话语，其表情和行为与字幕内容一致，表现出积极的情绪。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 56.18297338485718,
+  "node_count": 3,
+  "edge_count": 0
+}

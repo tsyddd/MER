@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "Rachel在听到对方说话后，嘴部瞬间张成圆形并伴随睁大双眼，身体前倾且手部出现自发的惊愕手势[E1][E2]，配合台词与语调呈现出强烈的震惊与难以置信[E3]，符合surprise表现。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0s",
+      "observation": "Rachel双目睁大，嘴唇张大成'O'型，面部呈现典型的目瞪口呆反应。",
+      "interpretation": "突发性张口与瞪眼是受到意外刺激时的典型惊愕动作，支持惊讶判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.96s",
+      "observation": "Rachel头部前探，眉毛高挑同时嘴巴维持大张状态，右手微举停滞。",
+      "interpretation": "动态中的定格与持续性张嘴反应突显出强烈的不可置信与震惊，支持惊讶。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "语气急速拔高，伴随吸气与重音喊出'Oh my God!'。",
+      "interpretation": "高音调、突发性的惊呼声与视觉上的张口相呼应，排除愤怒或厌恶。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "后续帧（如frame_04至frame_07）眉心略有收拢，容易被误读为批评性愤怒或厌恶，但这是探寻实情时的困惑聚焦，且全程无厌恶撇嘴或愤怒咬牙表现。"
+}

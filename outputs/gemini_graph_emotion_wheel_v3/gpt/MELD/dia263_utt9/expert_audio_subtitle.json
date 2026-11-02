@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Ross说“I'm gonna have to give him up”，是在表达自己不得不放弃某人；“have to”带有非自愿的意味，而“give him up”指向失去。[E1] 他起初低头闭眼，随后才抬头开口，视觉表现与不情愿的失落感相符[E2]。因此将当前情绪判断为失落，而不是仅因句子短、语气未知就判为中性。",
+  "open_emotion": "失落",
+  "answer": "sadness",
+  "mapping_reason": "当前表达的重心是不得不放弃所带来的失落，符合sadness中因损失而低落的定义；短片段不足以判断情绪强度。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "I'm gonna have to give him up.",
+      "observation": "Ross用“have to”说明放弃并非随意选择，说自己要“give him up”。",
+      "interpretation": "话语指向不情愿的失去，支持失落。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_03（0.626秒）",
+      "observation": "Ross起初低头闭眼，之后抬头开口；未见笑容或明显对抗动作。",
+      "interpretation": "表情与放弃某人的失落解读相符，但单凭画面不能确定情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "也可能只是在平静陈述一个不得已的决定；片段没有提供音频，无法用语调或停顿进一步区分。"
+}

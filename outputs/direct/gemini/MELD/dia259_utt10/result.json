@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia259_utt10",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "莫妮卡在台词中严肃且强烈地指责笑话既不好笑又具冒犯性，身体前倾并伴随激动的肢体动作与强调语调，表情紧绷严肃，充分表现出愤怒（anger）。",
+  "output": "莫妮卡在台词中严肃且强烈地指责笑话既不好笑又具冒犯性，身体前倾并伴随激动的肢体动作与强调语调，表情紧绷严肃，充分表现出愤怒（anger）。\n<answer>anger</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 6.02581000328064,
+  "node_count": null,
+  "edge_count": null
+}

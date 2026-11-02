@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "Joey在互动中以连贯的假设句向他人提供建议，引用[process_1]与[person_1]，其从摊手到食指指点的动作配合语气平稳坚定的论述，呈现出理性、严肃的说理状态，无攻击性愤怒或恐慌表现，判定为neutral。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "It have a fear of heights, you go to the top of the building!",
+      "observation": "原字幕开头的'It have'经实际音轨核实为'You have'，Joey在陈述一个假言推理的情境建议",
+      "interpretation": "语言内容属于逻辑说理和类比建议，而非宣泄情绪或表达个人感受",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "Joey抬起右手食指向前侧指点，头部微动并持续注视前方",
+      "interpretation": "指点手势配合论述过程[process_1]，是典型的强调说理态势，表情专注但平和，没有情绪失控的迹象",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "Joey发音清晰，语调干脆直接，节奏平稳，未出现愤怒的高亢嘶吼或颤抖声",
+      "interpretation": "语调表明他在平静、确信地表达观点，支持中立的沟通基调",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "指点动作与微皱的眉头容易被误判为anger，但Joey的声音平稳且眉眼无怒目紧锁特征，仅属于正经说理时的正常强调体态，故排除anger。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00003759",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "d4dc715827dd04c5c7e8bd03b9c748a147a401e0b3bbb9649b82a034b9612827",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "三位专家提供的线索高度吻合。音频专家指出说话人音调拔高且带有不可置信的追问语气，图像专家观察到其双眼睁大、眉毛上挑且嘴部张开的典型吃惊面部特征，图谱专家也记录了其询问“是吗 他真这么说的”时意外的神态与语调。多模态证据均一致指向目标人物此时处于吃惊、难以置信的状态。",
+  "output": "三位专家提供的线索高度吻合。音频专家指出说话人音调拔高且带有不可置信的追问语气，图像专家观察到其双眼睁大、眉毛上挑且嘴部张开的典型吃惊面部特征，图谱专家也记录了其询问“是吗 他真这么说的”时意外的神态与语调。多模态证据均一致指向目标人物此时处于吃惊、难以置信的状态。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 42.442936420440674
+}

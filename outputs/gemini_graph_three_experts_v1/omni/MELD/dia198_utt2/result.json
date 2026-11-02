@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia198_utt2",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "3e5a8a4993b19ac3f6e4c36023c416407d12023be7b4a0e80d447afe6996d7d7",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "音频专家指出Joey语调夸张、语速快且上扬，表现出戏谑轻松的态度，符合'joy'；图像专家认为其表情平静专注，无明显情绪迹象，支持'neutral'；图谱专家描述其动作冷静带讽刺，也倾向'neutral'。尽管音频有戏谑特征，但视觉与行为分析更一致指向中性状态，且音频的'joy'可能源于讽刺而非真实愉悦，因此取更稳健的'neutral'。",
+  "output": "音频专家指出Joey语调夸张、语速快且上扬，表现出戏谑轻松的态度，符合'joy'；图像专家认为其表情平静专注，无明显情绪迹象，支持'neutral'；图谱专家描述其动作冷静带讽刺，也倾向'neutral'。尽管音频有戏谑特征，但视觉与行为分析更一致指向中性状态，且音频的'joy'可能源于讽刺而非真实愉悦，因此取更稳健的'neutral'。\n<answer>neutral</answer>",
+  "label": "anger",
+  "elapsed_seconds": 46.52405023574829
+}

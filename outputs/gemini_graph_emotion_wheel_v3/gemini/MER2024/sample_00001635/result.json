@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/sample_00001635",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "33e676dfa4457845fb12373ba65d5f414546b0623de9d024d66ecd7d1c0e8f8c",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "慌乱",
+      "mapped_label": "worried",
+      "mapping_reason": "主导情绪为面对突发质问和潜在追责时的紧张、局促与慌乱辩解。在情绪轮中，对受责风险的不安、心理预期上的忐忑属于worried家族，因此映射为worried。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "慌乱不安",
+      "mapped_label": "worried",
+      "mapping_reason": "说话人由于担心被问责或产生负面后果，表现出明显的焦虑、紧张与慌乱，符合worried家族中对未知风险和受责的顾虑与不安定义。"
+    },
+    "image": {
+      "open_emotion": "忐忑不安",
+      "mapped_label": "worried",
+      "mapping_reason": "目标人物的表情与言语反应体现了被撞破后对可能面临的责怪与冲突的紧张防备，符合情绪轮中worried（对可能负面结果或受责的顾虑、不安）的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "综合回看全片段，目标人物在开头发出短促抽气惊呼后，迅速以结巴急促的语调辩解台词（00:00-00:01位置）[audio_subtitle:E1]，视觉上面部双眼圆睁、神情紧张局促并伴随紧绷的嘴部急促开合[image:E2]。三个专家一致指出的慌乱辩白行为具有高度可信性，图谱转述的台词背景也支持其正处于私穿他人衣服被当场发现的窘境[graph:E3]。尽管开头的吸气和瞪眼带有一定受惊吓的即时意外成分（surprise），但其持续的核心动机是害怕被问责、急于自证无辜的紧张防御，因此最符合worried对潜在受责风险顾虑不安的定义。",
+  "output": "综合回看全片段，目标人物在开头发出短促抽气惊呼后，迅速以结巴急促的语调辩解台词（00:00-00:01位置）[audio_subtitle:E1]，视觉上面部双眼圆睁、神情紧张局促并伴随紧绷的嘴部急促开合[image:E2]。三个专家一致指出的慌乱辩白行为具有高度可信性，图谱转述的台词背景也支持其正处于私穿他人衣服被当场发现的窘境[graph:E3]。尽管开头的吸气和瞪眼带有一定受惊吓的即时意外成分（surprise），但其持续的核心动机是害怕被问责、急于自证无辜的紧张防御，因此最符合worried对潜在受责风险顾虑不安的定义。\n<answer>worried</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 63.94083380699158
+}

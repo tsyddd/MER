@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者质问对方是否为了把Joey的东西搬进来而试图赶她离开公寓，话语内容带有明显的指责和不满。音频中，她的语调在句尾上扬，表现出一种难以置信和被冒犯的感觉，这与字幕中的质问语气一致。她的表情也显得有些受伤和困惑，与话语内容相符。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Did you get all this stuff for Joey to try and drive me out of the apartment?",
+      "observation": "字幕显示说话者在质问对方，内容是关于对方是否在试图赶她离开公寓。",
+      "interpretation": "质问的内容表明说话者感到被冒犯和不公，这是愤怒情绪的典型表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:04.296",
+      "observation": "说话者的语调在句尾明显上扬，带有一种难以置信和被冒犯的感觉。",
+      "interpretation": "这种上扬的语调加强了话语中的质问和不满，是愤怒情绪的声学表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 - frame_07",
+      "observation": "说话者的表情显得有些受伤和困惑，眉头微皱，眼神直视对方。",
+      "interpretation": "这种表情与话语内容相符，表明她对对方的行为感到不满和受伤。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽然说话者的表情中也带有一丝受伤，但其话语内容和语调更侧重于表达愤怒和质问，因此愤怒是更主要的情绪。"
+}

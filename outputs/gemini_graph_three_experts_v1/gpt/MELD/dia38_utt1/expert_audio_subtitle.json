@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。字幕中Joey用“Awww”和“I’m so proud”直接表达欣慰与自豪，当前情绪最符合喜悦。",
+  "answer": "joy",
+  "evidence_refs": []
+}

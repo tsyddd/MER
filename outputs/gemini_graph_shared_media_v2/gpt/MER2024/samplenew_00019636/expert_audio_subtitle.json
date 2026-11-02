@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "字幕中“真的一百多岁了”和“我怎么看也不像啊”表达对年龄与外貌不符的明显惊疑，后面“她说”引出对他人话语的引述，不应直接当作目标人物的情绪。[E1] 画面中他持续皱眉、低头思索并触碰下巴，与这种困惑和惊疑相符。[E2] 无可用音频，无法判断语调、节奏或音量。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "当前字幕原话：“真的一百多岁了，我怎么看也不像啊！”",
+      "observation": "说话者质疑一百多岁的年龄与外貌之间的不一致，使用“真的”和“怎么看也不像”强化不相信与意外感。",
+      "interpretation": "主要支持对信息感到惊疑的surprise，而非字面上的单纯陈述；“她说，她用了人面花”属于对他人话语的引述。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 @ 1.24s至frame_07 @ 8.64s",
+      "observation": "目标人物多次皱眉、视线下移，随后抬手触碰下巴，表情持续凝重并带有思索。",
+      "interpretation": "与对年龄和返老还童说法感到困惑、意外相符，支持surprise。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0s至frame_07 @ 8.64s",
+      "observation": "未见明显笑容、哭泣或强烈激动动作，整体动作克制。",
+      "interpretation": "限制happy、sad和angry的判断，但克制的外在表现不能单独证明neutral。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "最强替代解释是worried或neutral：皱眉和凝重也可能表示担忧或严肃思考。但字幕明确包含对“真的一百多岁”和“怎么看也不像”的质疑，当前片段更直接支持惊疑；缺少音频，因此无法用语调进一步区分surprise与worried。"
+}

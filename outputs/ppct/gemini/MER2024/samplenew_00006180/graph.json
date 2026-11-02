@@ -1,0 +1,183 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "女老师开口说道：“小毛驴儿，老师也没见过哎”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "女老师向班级提问：“同学们，有没有知道的？”",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "教室里的男同学举起右手并高声回答：“我知道！”",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_3",
+      "type": "process",
+      "content": "女老师看向回答问题的学生并聆听回应",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "女老师正视前方，面部朝向讲台下方学生，嘴唇开合讲话",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "女老师说话语速平缓，语调和缓清晰",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "女老师微微抬头面向台下，嘴唇微张提问",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "学生张大嘴巴大声喊叫，右臂举起",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_4",
+      "type": "person",
+      "content": "女老师视线聚焦于前方学生，嘴唇微张",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "教室内，女老师站在讲台前，后方有窗户与黑板，下方有多名穿制服的学生",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "女老师在说明自己也没见过小毛驴后，接着面向班级学生提问有没有人知道",
+      "entity_anchor": "女老师的授课表达"
+    },
+    {
+      "source": "process_2",
+      "target": "process_1",
+      "relation": "after",
+      "reason": "男同学在女老师提出问题后，举手并高声回应“我知道”",
+      "entity_anchor": "课堂师生问答互动"
+    },
+    {
+      "source": "process_3",
+      "target": "process_2",
+      "relation": "after",
+      "reason": "女老师在男同学举手喊出回答后，面向该同学注视并聆听回应",
+      "entity_anchor": "课堂师生问答互动"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "女老师在开口说话时，面部唇形开合与和缓清晰的语调发音同步呈现",
+      "entity_anchor": "女老师"
+    },
+    {
+      "source": "person_2",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "女老师在正视前方陈述完后，微微抬头面向台下微张嘴唇进行提问",
+      "entity_anchor": "女老师"
+    },
+    {
+      "source": "person_4",
+      "target": "person_2",
+      "relation": "after",
+      "reason": "女老师在完成提问动作后，视线进一步聚焦在前方的学生身上微张嘴唇聆听",
+      "entity_anchor": "女老师"
+    },
+    {
+      "source": "process_1",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "process_1 提供女老师向全班抛出问题，process_2 提供男同学积极举手并高声应答，二者联合构成完整的课堂提问与应答互动链条。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_2",
+      "target": "process_3",
+      "relation": "process_joint",
+      "reason": "process_2 提供男学生举手大声回应，process_3 提供女老师视线聚焦并聆听反馈，联合呈现出学生答题与教师关注接收的完整师生反馈过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0 提供女老师面向学生开口讲话的视觉表现，person_1 提供其语速平缓和缓的听觉特征，视听互补完整刻画了女老师讲课说话时的可见与可听状态。",
+      "entity_anchor": null
+    }
+  ]
+}

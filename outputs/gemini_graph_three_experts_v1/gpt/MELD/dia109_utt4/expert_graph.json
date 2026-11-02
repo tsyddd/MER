@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "Janice持续面向男士说话并进行解释，随后配合张开双手和竖指比画，表现为主动说明和交流〔process_1〕〔person_2〕〔person_3〕。图谱记载其声音上扬且语调起伏明显〔person_1〕，但现有证据不足以支持愤怒、悲伤等具体情绪判断。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "process_1",
+    "person_2",
+    "person_3",
+    "person_1"
+  ]
+}

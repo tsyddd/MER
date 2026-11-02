@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia50_utt2",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "fcd38a66edaf51c357f7f05241b31338cc6543efc841a51ccf79324b15367974",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "尴尬",
+      "mapped_label": "surprise",
+      "mapping_reason": "尽管‘尴尬’（embarrassment）是更精确的开放情绪词，但该词不在数据集的情绪轮中。在所有允许的标签中，‘surprise’（惊讶）最能捕捉到目标人物因意外撞见赤裸上身的男子而产生的即时、非预期的反应。她的快速道歉和仓皇逃离是这种意外的直接后果，因此‘surprise’是当前标签空间下最接近的合理映射。此映射存在信息损失，因为它未能完全捕捉到社交不适的成分，但基于当前证据和标签空间的限制，这是最合理的近似。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "懊悔",
+      "mapped_label": "sadness",
+      "mapping_reason": "根据MELD项目的情绪轮，'sadness'（悲伤）被定义为因失落、损失或痛苦而难过、哀伤或低落。说话者道歉的语调和内容表明其可能因做错事而感到痛苦和失落，因此'懊悔'这一开放情绪最贴切地映射到'sadness'类别。"
+    },
+    "image": {
+      "open_emotion": "歉意",
+      "mapped_label": "sadness",
+      "mapping_reason": "在MELD项目的情绪轮中，'sadness'（悲伤）被定义为因失落、损失或痛苦而难过、哀伤或低落。虽然'歉意'（apology）是一个独立的社交情绪，但在此情境下，它最接近的家族是'悲伤'。因为道歉通常源于对自身行为造成负面影响的懊悔和难过，这种情绪与悲伤的语义核心——对负面后果的内省和痛苦——最为接近。尽管'neutral'（中性）在字面上可能被误认为是无情绪，但该人物有明确的、非中性的行为和言语表达，因此'neutral'不适用。'anger'（愤怒）、'fear'（恐惧）、'disgust'（厌恶）和'surprise'（惊讶）与当前的语境和表现完全不符。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "目标人物在图书馆场景中，从第0帧到第7帧持续表现出弯腰、低头、脱外套等连贯的肢体动作，同时说出“I'm so sorry!”的道歉话语。图像专家指出其姿态与道歉内容一致，指向明确的歉意表达；音频专家则分析其语调低沉、语速缓慢，带有停顿，符合悲伤或懊悔的语境。尽管图谱专家认为其情绪为尴尬，但该词未在数据集标签中，其映射为'surprise'（惊讶）虽捕捉到意外性，但未能涵盖社交不适的核心。综合来看，视觉与音频证据共同指向一个因过失而产生的内省性负面情绪，与'sadness'（悲伤）的语义边界最为接近，即因行为后果而感到痛苦和失落。因此，选择'sadness'作为最合理的映射。",
+  "output": "目标人物在图书馆场景中，从第0帧到第7帧持续表现出弯腰、低头、脱外套等连贯的肢体动作，同时说出“I'm so sorry!”的道歉话语。图像专家指出其姿态与道歉内容一致，指向明确的歉意表达；音频专家则分析其语调低沉、语速缓慢，带有停顿，符合悲伤或懊悔的语境。尽管图谱专家认为其情绪为尴尬，但该词未在数据集标签中，其映射为'surprise'（惊讶）虽捕捉到意外性，但未能涵盖社交不适的核心。综合来看，视觉与音频证据共同指向一个因过失而产生的内省性负面情绪，与'sadness'（悲伤）的语义边界最为接近，即因行为后果而感到痛苦和失落。因此，选择'sadness'作为最合理的映射。\n<answer>sadness</answer>",
+  "label": "fear",
+  "elapsed_seconds": 196.98993563652039
+}

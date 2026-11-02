@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物是画面中央的女性。frame_00至frame_07中，她持续看向画面右侧，眉头明显收紧，眼睛睁开，嘴巴半张并在连续帧中保持紧绷的询问姿态；字幕“他，是谁呀？”表明她正在确认一个身份不明的人。整体更像对未知对象及其可能后果的顾虑，而非单纯平稳提问。[E1][E2]",
+  "open_emotion": "忐忑",
+  "answer": "worried",
+  "mapping_reason": "“忐忑”强调面对未知对象时的不确定和顾虑，符合worried关于风险、未知结果或不安的定义。当前缺少音频，无法用语调进一步区分担忧与惊讶。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07（0.0至0.8秒）",
+      "observation": "中央女性持续望向画面右侧，眉头收紧，眼神集中，嘴巴半张，面部肌肉保持紧绷。",
+      "interpretation": "持续的紧张和定向注视支持她对眼前未知人物感到不安或顾虑。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "当前字幕“他，是谁呀？”",
+      "observation": "她询问画面外或旁侧人物的身份。",
+      "interpretation": "询问对象身份本身体现了当前的不确定性，与忐忑/担忧方向相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00至frame_07（0.0至0.8秒）",
+      "observation": "眼睛和嘴部呈现一定程度的睁大与张开。",
+      "interpretation": "这些特征也可能表示即时惊讶，是对worried判断的有限反证，但没有看到足够明显的瞬时冲击或快速表情转变。",
+      "polarity": "counter"
+    }
+  ],
+  "counterevidence": "她的张口和眼睛睁开也可解释为surprise；但跨越8帧的持续皱眉、紧绷注视和身份追问，使“对未知情况的忐忑”比单纯意外更有视觉支持。无音频，无法核实语气。"
+}

@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Chandler说到“did you fall..”时突然转为“Hi!”，随后重复“did-did-did ya”，话语转换和卡顿显示他面对来人有些措手不及[E1][E2]。画面中他转向进门的女子并摊手，支持这一变化与她的出现有关[E3]。没有音频，不能据此判断实际语调。",
+  "open_emotion": "措手不及",
+  "answer": "surprise",
+  "mapping_reason": "当前可见的反应指向对来人出现的意外，最接近surprise；重复措辞也可能带有局促感，但不足以证明他在害怕负面后果。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“Jeez, man did you fall.. Hi!”",
+      "observation": "一句话中断后转为招呼。",
+      "interpretation": "支持注意对象突然改变，表现出意外。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "“So ah, did ya, did-did-did ya fall high?”",
+      "observation": "招呼后有“ah”和重复的“did”。",
+      "interpretation": "支持他一时未能顺畅接续原话；仅凭字幕不能判断声音是否紧张。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01（0.959秒）至frame_05（4.796秒）",
+      "observation": "女子出现在门口后，Chandler转身面向她，随后伸手摊掌。",
+      "interpretation": "视觉上将话语的突然转向与女子到来联系起来。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是局促或试图掩饰刚才的话，而非单纯惊讶；字幕中的卡顿也符合这种解释。缺少音轨和更明确的话语背景，不能进一步确定他的动机。"
+}

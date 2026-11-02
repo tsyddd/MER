@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035837",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "50fa078e2d97eec8a574cbe583ec63c1368c6298089bae3bc9b79dd5c68cb064",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "目标人物在所有帧中均保持低头、眼神低垂的姿态，面部肌肉紧绷，表情凝重，未见笑容或激动迹象，视觉证据一致指向悲伤。音频中其语速缓慢、语调低沉平稳，无明显颤抖，与字幕内容“再也没有亲人了”共同构成一种沉重的陈述感，符合悲伤情绪的表达。三个专家的证据均支持“sad”：[image:E1]、[image:E2]、[image:E3]、[image:E4]从视觉上确认了悲伤的面部表现；[audio_subtitle:E1]、[audio_subtitle:E2]、[audio_subtitle:E3]从听觉和语义上提供了支持；[graph:E1]、[graph:E2]、[graph:E3]从发声特征上佐证了悲伤的生理表现。尽管音频语调平稳，但结合内容和视觉，其情绪并非中性，而是内敛的悲伤。无任何证据支持其他情绪标签。",
+  "output": "目标人物在所有帧中均保持低头、眼神低垂的姿态，面部肌肉紧绷，表情凝重，未见笑容或激动迹象，视觉证据一致指向悲伤。音频中其语速缓慢、语调低沉平稳，无明显颤抖，与字幕内容“再也没有亲人了”共同构成一种沉重的陈述感，符合悲伤情绪的表达。三个专家的证据均支持“sad”：[image:E1]、[image:E2]、[image:E3]、[image:E4]从视觉上确认了悲伤的面部表现；[audio_subtitle:E1]、[audio_subtitle:E2]、[audio_subtitle:E3]从听觉和语义上提供了支持；[graph:E1]、[graph:E2]、[graph:E3]从发声特征上佐证了悲伤的生理表现。尽管音频语调平稳，但结合内容和视觉，其情绪并非中性，而是内敛的悲伤。无任何证据支持其他情绪标签。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 165.7123384475708
+}

@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Janice说“ Oh, are you sure?”，是在追问并确认对方的话，而非表达确定的否定。[E1] 她面对谈话对象时扬眉、张口，表情与意外后求证的解读相符，因此在给定标签中选择surprise。[E2] 片段没有提供音频，不能据此判断她的语调或音量。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Oh, are you sure?",
+      "observation": "字幕是一句以“Oh”起头的确认式疑问句。",
+      "interpretation": "支持她对刚听到的信息作出反应并求证；疑问句本身不足以单独确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.5004996114133452秒",
+      "observation": "Janice面向对方，眉毛抬起，嘴张开，正在说话。",
+      "interpretation": "表情与带有意外感的追问一致，为surprise提供视觉支持。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "她也可能只是在怀疑或普通地确认信息；字幕很短，且没有音频可用于区分真诚惊讶与带反讽的质疑。交叉双臂也可作质疑解读，但不足以推翻扬眉、张口与“Oh”共同呈现的意外反应。"
+}

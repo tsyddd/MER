@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia259_utt9",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "Monica面带明显微笑，双手交握并前倾，整体姿态显得放松而带有调侃意味。字幕“You are both idiots.”在画面中更像是带笑的玩笑式评价，而非真正愤怒或厌恶。",
+  "output": "Monica面带明显微笑，双手交握并前倾，整体姿态显得放松而带有调侃意味。字幕“You are both idiots.”在画面中更像是带笑的玩笑式评价，而非真正愤怒或厌恶。\n<answer>joy</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 29.635551929473877,
+  "node_count": null,
+  "edge_count": null
+}

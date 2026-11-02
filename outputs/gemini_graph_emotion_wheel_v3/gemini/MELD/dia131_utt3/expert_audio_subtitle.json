@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物Rachel在进门回应朋友时，语调平稳顺畅，音质自然，末尾平缓降调，没有任何高亢的音高起伏或笑意[E1]。字幕中的“everything went great”虽含正面词汇，但在语用上仅是针对此前事件顺利进展的日常交代，属于陈述性言语行为而非主观情感的宣泄[E2]。画面中她手头利落地整理外套，神情放松平常[E3]，整体表现平稳而无主导情绪波动。",
+  "open_emotion": "平常",
+  "answer": "neutral",
+  "mapping_reason": "目标人物语调平稳、表现日常，未表现出明显的喜悦兴奋或负向情绪，符合neutral家族中平常、无明确主导情绪的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:01",
+      "observation": "Rachel说出整句台词时语速适中，音调平缓连贯，句末自然回落，无兴奋上扬或笑腔",
+      "interpretation": "声音缺少正向激起与情感起伏，体现日常随和的陈述状态",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Oh, everything went great.",
+      "observation": "字幕字面包含正面评价词“great”",
+      "interpretation": "此处的great是对客观过程顺利的事实说明，不代表本人当前处于强烈的joy情绪中",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04-frame_06",
+      "observation": "Rachel面部肌肉放松，无明显咧嘴微笑，边说边专注收拢外套并自然摊手",
+      "interpretation": "体态与表情表现为日常惯常行为，印证了其平稳状态",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "词汇字面出现“great”，且有摊手动作，可能被误判为joy家族中的“满意”或“开心”，但音轨缺乏喜悦共鸣与高能量，表情亦无笑容支持。"
+}

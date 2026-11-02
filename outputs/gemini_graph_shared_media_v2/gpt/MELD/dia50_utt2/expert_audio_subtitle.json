@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物说“I’m so sorry!”[E1]，是在表达歉意，而非描述自己“难过”。结合画面中她在突发混乱里俯身避让的动作[E2]，这句急促的道歉更可能伴随惊慌；但没有音频，也看不清她的表情，判断有限。",
+  "answer": "fear",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "I’m so sorry!",
+      "observation": "字幕是一句带感叹号的道歉。",
+      "interpretation": "道歉是言语行为，不能仅凭“sorry”认定悲伤；在当前混乱情境下也可表达惊慌。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒至frame_02 @ 0.6673328152177936秒",
+      "observation": "一名女子在挥动衣物的男子旁俯身、避让。",
+      "interpretation": "动作与受到现场动静惊扰相符，但单凭动作不能确定她的内心感受。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是sadness：真诚的歉意可能出于懊悔。不过字幕没有说明她因何道歉，画面也未显示明确的悲伤表情；未提供音频，无法用语调区分惊慌与懊悔。"
+}

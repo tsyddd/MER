@@ -1,0 +1,9 @@
+{
+  "expert": "graph",
+  "reason": "女子端着小碗面向男子说话，语调平缓柔和（person_1），内容为‘皇上闻着，正好，消乏，安睡’，表现出关切与安抚意图，其行为与语调一致，未见情绪波动。结合其动作与声音的同步性（person_0与person_1），可判断情绪为中性。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_0",
+    "person_1"
+  ]
+}

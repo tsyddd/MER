@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia168_utt13",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "罗斯在质问对方时表情严肃急切，双手配合说话用力比划，语气强硬且充满指责与愤怒，要求对方承认拿了东西。",
+  "output": "罗斯在质问对方时表情严肃急切，双手配合说话用力比划，语气强硬且充满指责与愤怒，要求对方承认拿了东西。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 9.806275606155396,
+  "node_count": null,
+  "edge_count": null
+}

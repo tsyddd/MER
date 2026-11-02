@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia33_utt6",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "42676d691bc7435fdaa13fee5000f399ed11ddb8973351645244f7085bfc901a",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "fear",
+  "emotion_analysis": "音频中Rachel语调高亢急促并带颤抖，结合其重复表达无助感的言语内容，指向恐惧；图像显示其紧锁眉头、微张嘴巴，呈现担忧与困扰，也支持恐惧情绪；图谱虽提及焦躁与无助，但未提供独立于音频/图像的新证据。综合判断，音频与图像一致指向恐惧，图谱描述可视为佐证而非独立证据。",
+  "output": "音频中Rachel语调高亢急促并带颤抖，结合其重复表达无助感的言语内容，指向恐惧；图像显示其紧锁眉头、微张嘴巴，呈现担忧与困扰，也支持恐惧情绪；图谱虽提及焦躁与无助，但未提供独立于音频/图像的新证据。综合判断，音频与图像一致指向恐惧，图谱描述可视为佐证而非独立证据。\n<answer>fear</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 52.80073547363281
+}

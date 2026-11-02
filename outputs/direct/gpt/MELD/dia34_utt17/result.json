@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia34_utt17",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "目标人物是Monica。她面向Rachel，表情严肃并带有明显的责备和不赞同；字幕中明确表示她绝不认为Rachel出轨是可以接受的，体现出强烈的愤怒/谴责情绪。",
+  "output": "目标人物是Monica。她面向Rachel，表情严肃并带有明显的责备和不赞同；字幕中明确表示她绝不认为Rachel出轨是可以接受的，体现出强烈的愤怒/谴责情绪。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 41.455350399017334,
+  "node_count": null,
+  "edge_count": null
+}

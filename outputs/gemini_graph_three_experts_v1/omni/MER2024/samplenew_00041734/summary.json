@@ -1,0 +1,4 @@
+{
+  "reason": "graph和audio_subtitle均指出说话人语调上扬、语速快且音量高，表现出强烈质问与不解；graph明确将此归为'surprise'，而audio_subtitle倾向'angry'，但图像显示其眉头紧锁、嘴角下撇，呈现痛苦与担忧，与'worried'高度一致。综合判断，图像证据直接反映面部情绪状态，且与质问情境相符，故优先采纳'worried'。",
+  "answer": "worried"
+}

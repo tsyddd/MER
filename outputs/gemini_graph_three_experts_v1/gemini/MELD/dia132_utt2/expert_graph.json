@@ -1,0 +1,12 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载Phoebe在向红衣女子描述人物特征时语速平稳且语气自然带停顿〔person_2〕，言语表达主要为客观陈述年龄与外貌〔process_1, process_2〕。配合其抬手比划及微张摆动的自然肢体动作〔person_1, person_3〕，整体表现专注且平静，无明显情绪波动，属于中性状态。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_2",
+    "process_1",
+    "process_2",
+    "person_1",
+    "person_3"
+  ]
+}

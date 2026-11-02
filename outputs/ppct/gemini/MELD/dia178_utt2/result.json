@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia178_utt2",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "根据图谱节点person_0、person_3与person_4，Monica怀抱婴儿时始终面带微笑、嘴角微扬，神态十分温柔放松。同时在process_1中，她伴随着轻柔欢快的语调向Phoebe分享Chandler带婴儿的温馨画面，整体呈现出明显的愉悦与开心情绪。",
+  "output": "根据图谱节点person_0、person_3与person_4，Monica怀抱婴儿时始终面带微笑、嘴角微扬，神态十分温柔放松。同时在process_1中，她伴随着轻柔欢快的语调向Phoebe分享Chandler带婴儿的温馨画面，整体呈现出明显的愉悦与开心情绪。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 40.65325307846069,
+  "node_count": 8,
+  "edge_count": 7
+}

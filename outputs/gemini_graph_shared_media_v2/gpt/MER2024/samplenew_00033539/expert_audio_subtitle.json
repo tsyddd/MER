@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "“啊？真的。”包含疑问与确认，不是单纯陈述；结合持续皱眉、眉间紧缩和疑惑的注视，表现出对信息的担忧或不安，而非明确愉快情绪。[E1][E2]由于未提供音频，无法判断语调、音量或停顿。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "当前字幕“啊？真的。”",
+      "observation": "说话内容先以“啊？”发出疑问，随后用“真的”进行确认。",
+      "interpretation": "这是对所听信息的质疑或不安确认，支持担忧而非平静陈述。[E2]",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00至frame_07 @ 0.0–1.96秒",
+      "observation": "目标人物眉间持续紧皱，双眉内收，嘴部张开并面向画外说话者。",
+      "interpretation": "表情与疑问内容一致，显示困惑和担忧；不能仅凭“真的”这一情绪相关词判断为惊喜。[E1]",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05至frame_07 @ 1.4–1.96秒",
+      "observation": "后段仍保持紧张、皱眉的面部状态，没有明显微笑或放松。",
+      "interpretation": "削弱happy和neutral解释，支持带有忧虑的反应。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是surprise：疑问句“啊？真的。”也可能表示惊讶。但画面中持续的眉间紧缩和缺少明显睁大眼、抬眉等惊讶特征，使担忧解释更合适；由于没有音频，仍缺少语调和重音方面的区分证据。"
+}

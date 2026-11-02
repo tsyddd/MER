@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia224_utt2",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "1a93519324deb7114b711ca1273c4ab6d476608084d6a740754472aedd789a3b",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "本段目标主体为床头录音设备播放的催眠磁带（Hypnosis Tape），画面中物理播放设备并无生物面部表情[image:E1]。核查实际音轨（0.00s-0.62s），发音女声以极度平缓、单调且无抑扬顿挫的声线念出台词“Deeper.”，符合[audio_subtitle:E2]关于催眠磁带平直低沉、无情绪起伏的准确描述。该语音纯属功能性催眠指令，完全缺乏主观情绪唤醒或人际情感色彩，故排除joy或sadness等倾向，明确裁定为neutral。",
+  "output": "本段目标主体为床头录音设备播放的催眠磁带（Hypnosis Tape），画面中物理播放设备并无生物面部表情[image:E1]。核查实际音轨（0.00s-0.62s），发音女声以极度平缓、单调且无抑扬顿挫的声线念出台词“Deeper.”，符合[audio_subtitle:E2]关于催眠磁带平直低沉、无情绪起伏的准确描述。该语音纯属功能性催眠指令，完全缺乏主观情绪唤醒或人际情感色彩，故排除joy或sadness等倾向，明确裁定为neutral。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 54.63303232192993
+}

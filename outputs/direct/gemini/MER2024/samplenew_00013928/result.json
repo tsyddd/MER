@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013928",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "happy",
+  "emotion_analysis": "画面中的女士满脸笑容，眼神洋溢着喜悦，手中挥舞着纸张热情走向对方。其言语和语调欢快上扬，整体神态展现出十分愉快和欣喜的情感。",
+  "output": "画面中的女士满脸笑容，眼神洋溢着喜悦，手中挥舞着纸张热情走向对方。其言语和语调欢快上扬，整体神态展现出十分愉快和欣喜的情感。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 7.6329100131988525,
+  "node_count": null,
+  "edge_count": null
+}

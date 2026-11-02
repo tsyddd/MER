@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Monica直接否定笑话并指责它冒犯他人[E1]；前倾、挥手和伸手的动作与这一抗议相符[E2][E3]。判断为anger，但无法凭字幕和画面确认她的语气。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "The joke is not funny, and its offensive to women, and doctors, and monkeys!",
+      "observation": "她说笑话不好笑，并连续列举受到冒犯的对象。",
+      "interpretation": "这是明确的反对和指责，而非单纯提及负面词语，支持愤怒的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 1.4180822323378113秒",
+      "observation": "Monica一只手向外挥出，正在说话。",
+      "interpretation": "动作加强了她提出异议的表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_06 @ 4.212538396062322秒",
+      "observation": "她身体前倾，张口并向前伸手。",
+      "interpretation": "与字幕中持续的抗议相符。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "frame_01和frame_07可见笑意，最强替代解释是她在半开玩笑地抗议；但字幕的直接否定与反复指责更支持anger。没有音频，无法核查语调是否带有玩笑意味。"
+}

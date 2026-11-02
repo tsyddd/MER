@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia226_utt3",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sadness",
+  "emotion_analysis": "Rachel's facial expression shows a slight frown and her eyes are wide, indicating concern. Her tone of voice is soft and pleading as she expresses a wish for someone to open up, which conveys a sense of worry or helplessness.",
+  "output": "Rachel's facial expression shows a slight frown and her eyes are wide, indicating concern. Her tone of voice is soft and pleading as she expresses a wish for someone to open up, which conveys a sense of worry or helplessness.\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 6.43584418296814,
+  "node_count": null,
+  "edge_count": null
+}

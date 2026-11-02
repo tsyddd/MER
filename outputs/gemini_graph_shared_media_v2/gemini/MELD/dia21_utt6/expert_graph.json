@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "结合当前互动事件链，Phoebe在近距离面对男伴询问时手抚对方胸口并展露笑容[E1]，同时伴随轻快且带笑的语气[E2]，图谱节点person_1的轻笑特征经真实音频验证属实[E3]，共同指向轻松愉悦的互动氛围（joy）。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.2929573294844752",
+      "observation": "Phoebe注视着男伴，嘴角明显上扬带笑，右手轻搭在对方胸前",
+      "interpretation": "亲昵的肢体接触与面部微笑表明其在互动中处于轻松、愉悦的状态",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "Phoebe说出台词时语调轻快戏谑，并在句末发出清晰的轻笑声",
+      "interpretation": "声学上的笑意与调侃语调直接体现其发话时的快乐与开心情绪",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱记录Phoebe说话语调轻松并带有轻笑声",
+      "interpretation": "图谱描绘与真实音轨完全一致，反映出当前发话处于愉悦的情调而非严肃询问",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "若单从字幕“So your brother's straight, huh?”字面看可能被误判为中立事实询问（neutral），但现场的轻笑声与明显的笑容证明这是一种戏谑调侃的正向情绪交互，故排除neutral。"
+}

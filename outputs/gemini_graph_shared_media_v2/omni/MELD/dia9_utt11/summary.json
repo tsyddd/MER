@@ -1,0 +1,10 @@
+{
+  "reason": "Rachel的言语内容（'Everything's ruined. My bed. My clothes. Look at my favorite blue sweater.'）直接表达了对个人财物被毁的沮丧和无奈，这是判断其情绪为'sadness'的最直接证据。她的肢体语言，如闭眼低头（frame_03）和展示烧损衣物（frame_07），与言语内容一致，共同强化了这种情绪。音频中她的声音颤抖且语速缓慢，进一步证实了其情绪状态。虽然有专家认为可能是'surprise'，但其缓慢、哀伤的语调和对个人物品的强调更符合'sadness'的特征。",
+  "answer": "sadness",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "image:E1",
+    "image:E2",
+    "audio:E1"
+  ]
+}

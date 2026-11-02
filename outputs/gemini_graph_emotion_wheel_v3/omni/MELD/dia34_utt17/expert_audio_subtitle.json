@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者语气坚定，语速较快，音量中等偏高，带有明显的责备和否定意味。她明确表达了对“背叛丈夫”这一行为的强烈不认同，情绪指向明确的道德评判，而非单纯的惊讶或悲伤。",
+  "open_emotion": "责备",
+  "answer": "anger",
+  "mapping_reason": "根据MELD项目情绪轮的定义，'anger'（愤怒）是针对冒犯、不公或受阻等情况产生的恼火、责备与对抗情绪。说话者直接表达了对他人行为的强烈道德反对，其言语行为（'I'm never gonna think it's okay...'）和声音特质（坚定、快速、中高音量）都符合对冒犯行为进行责备的特征，因此映射到'anger'是合适的。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "字幕内容",
+      "observation": "说话者说：'I'm never gonna think it's okay for you to cheat on your husband!'",
+      "interpretation": "这句话直接表达了对'背叛丈夫'这一行为的绝对否定和道德谴责，是典型的责备性言语行为。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "说话者语气坚定，语速较快，音量中等偏高。",
+      "interpretation": "这种语调和节奏表现出一种不容置疑的决绝和对抗性，是情绪激动的直接体现，支持了责备和愤怒的判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。"
+}

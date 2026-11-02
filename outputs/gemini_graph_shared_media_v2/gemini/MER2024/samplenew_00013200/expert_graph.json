@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "目标人物在当前互动中正面对另一人进行强烈道德谴责与利益质问（process_0），配合真实音轨中高亢急促的斥责语调[E2]与怒目瞪视的攻击性神态[E3]，事件语义明确指向对他人背信行为的愤怒反应[E1]。",
+  "answer": "angry",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "图谱节点process_0记录目标人物直接对对方斥责‘可是你背信弃义，你一个劲儿地抬价’，与字幕一致",
+      "interpretation": "指责对方违约、不守信义的当前事件语义确立了人际对抗与声讨的负向高唤醒情境，排除了中性或悲伤",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "发声语调高扬、音量大且语气严厉急促，重音落在‘背信弃义’与‘抬价’上",
+      "interpretation": "直接核验真实音轨确认了图谱person_1所转述的急促高音量，体现强烈的斥责与怒火",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_07 @ 3.0s",
+      "observation": "目标人物双眼圆睁瞪视对方，眉弓压低，嘴角紧绷微撇（对应图谱person_3）",
+      "interpretation": "此为怒目圆睁的施压神态，支撑其愤怒情绪的集中爆发",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "眼睛睁大并直视（person_3）在孤立视觉下可能被替代解释为意外震惊（surprise），但结合指责对方背信弃义的台词语义及音轨中主动且充满攻击性的严厉斥责，排除了受惊反应，确认为愤怒。"
+}

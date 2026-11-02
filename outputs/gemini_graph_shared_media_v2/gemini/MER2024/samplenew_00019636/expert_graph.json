@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "目标人物在与他人交谈中，先对胡十四娘的年龄提出质疑，随后转述回忆当晚关于人面花的对话[E1][E2]。核查音频与图谱节点[person_1]，其语调低沉沉静，并无惊叫或情绪起伏；肢体上抬手轻抵衣领[person_3]，眼神定视前方[person_4]，呈现专注梳理线索的沉思态。事件语义上属于理智客观的案情/细节回溯，当前情绪表现稳定中立[E3]。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "男子说出“我怎么看也不像啊”，表达对其年龄的质疑与审视。",
+      "interpretation": "属于对话中的认知质疑与事实推敲，不带有强烈情绪爆发。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:05-00:08",
+      "observation": "男子以平缓低沉的语速陈述“那晚她说她用了人面花，得以永葆青春”。",
+      "interpretation": "证实图谱中[person_1]的低沉沉静特征，体现平稳陈述与回忆推导的情态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_06 @ 7.4s",
+      "observation": "目标人物手抵颈前领口，双眼凝视前方，面部肌肉舒展克制。",
+      "interpretation": "对应[person_3]和[person_4]，显示为冷静思考的体态语言，支撑平静中立状态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词中有“真的一百多岁了，我怎么看也不像啊”的质疑反问，易被误判为surprise或worried；但实际音轨平缓克制且表情无挑眉、圆睁或蹙眉等惊慌忧虑特征，其疑问系基于事实矛盾的理性推测而非情绪性惊愕。"
+}

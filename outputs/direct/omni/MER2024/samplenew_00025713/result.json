@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00025713",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "该人物在说出“你。你。怎么知道的？”时，面部表情显示出明显的惊讶，眉毛上扬，眼睛睁大，嘴巴微张，这是典型的惊讶情绪表现。",
+  "output": "该人物在说出“你。你。怎么知道的？”时，面部表情显示出明显的惊讶，眉毛上扬，眼睛睁大，嘴巴微张，这是典型的惊讶情绪表现。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 5.985264301300049,
+  "node_count": null,
+  "edge_count": null
+}

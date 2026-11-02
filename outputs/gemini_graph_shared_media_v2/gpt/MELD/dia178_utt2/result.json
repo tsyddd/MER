@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia178_utt2",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "3401018186bc11e65dff479d6b5d94730c37d902accf3de7809420f24e09c974",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "目标人物Monica在开头表情较克制，但随后抱着婴儿露齿微笑，低头看婴儿时仍带笑；这一视觉变化可由画面核实，支持愉快而非仅凭瞬间礼貌微笑判断[image:E2][image:E3]。字幕中她说“Pheebs, it’s going great”，与表情相互印证[audio_subtitle:E1]。虽不能仅凭措辞排除反讽，但持续的笑容更支持真诚的积极态度；未提供音轨，图谱所述欢快语气无法直接核验，不作为额外依据[graph:E3]。",
+  "output": "目标人物Monica在开头表情较克制，但随后抱着婴儿露齿微笑，低头看婴儿时仍带笑；这一视觉变化可由画面核实，支持愉快而非仅凭瞬间礼貌微笑判断[image:E2][image:E3]。字幕中她说“Pheebs, it’s going great”，与表情相互印证[audio_subtitle:E1]。虽不能仅凭措辞排除反讽，但持续的笑容更支持真诚的积极态度；未提供音轨，图谱所述欢快语气无法直接核验，不作为额外依据[graph:E3]。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 68.19753503799438
+}

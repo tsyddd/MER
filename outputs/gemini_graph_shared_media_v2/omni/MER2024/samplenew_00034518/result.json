@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00034518",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "3fed6d6059d74c2412d0aa8019d55bbdcde203bd9f2c07e116f6616c4aef8d9e",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "目标人物（老年女性）的面部表情（皱眉、专注的眼神）[image:E1]、言语内容（询问家庭是否出事）[subtitle:E2]和语调（平稳中带有关切）[audio:E3]三者高度一致，共同指向担忧的情绪。专家`image`的分析全面整合了多模态证据，其结论可信。专家`audio_subtitle`仅根据平稳语调和中性字幕判断为中性，但忽略了表情和内容的关键信息，其分析不完整。因此，应采纳`image`专家的综合判断。",
+  "output": "目标人物（老年女性）的面部表情（皱眉、专注的眼神）[image:E1]、言语内容（询问家庭是否出事）[subtitle:E2]和语调（平稳中带有关切）[audio:E3]三者高度一致，共同指向担忧的情绪。专家`image`的分析全面整合了多模态证据，其结论可信。专家`audio_subtitle`仅根据平稳语调和中性字幕判断为中性，但忽略了表情和内容的关键信息，其分析不完整。因此，应采纳`image`专家的综合判断。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 131.42484331130981
+}

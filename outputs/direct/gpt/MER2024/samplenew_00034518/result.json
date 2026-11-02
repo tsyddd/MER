@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00034518",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "目标人物是画面右侧的年长女性，她正看向对面的年轻女性并询问“是不是？家里又出什么事了？”。她眉头微蹙、目光关注，结合询问内容表现出对家中情况的担忧。",
+  "output": "目标人物是画面右侧的年长女性，她正看向对面的年轻女性并询问“是不是？家里又出什么事了？”。她眉头微蹙、目光关注，结合询问内容表现出对家中情况的担忧。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 19.871354818344116,
+  "node_count": null,
+  "edge_count": null
+}

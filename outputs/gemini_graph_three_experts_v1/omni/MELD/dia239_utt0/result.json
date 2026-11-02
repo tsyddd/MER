@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia239_utt0",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "b7c708f8d9735f8954957fb30790839e5a1cfb9b416c9423567de212ceab0391",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "三份专家报告均一致指向中性情绪：graph指出其语调轻微疑问且无强烈情绪线索，audio_subtitle描述语气平稳无波动，image显示面部表情平静姿态稳定。所有证据来源相互支持，无冲突。",
+  "output": "三份专家报告均一致指向中性情绪：graph指出其语调轻微疑问且无强烈情绪线索，audio_subtitle描述语气平稳无波动，image显示面部表情平静姿态稳定。所有证据来源相互支持，无冲突。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 39.78934836387634
+}

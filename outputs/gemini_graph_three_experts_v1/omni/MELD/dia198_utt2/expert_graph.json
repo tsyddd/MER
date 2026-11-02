@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "Joey在反驳时抬起食指并以平稳略带反驳的语气说话（person_0, person_1），随后摊手强调并说出调侃话语，最后放下手保持注视且语速平缓尾音轻落（person_3, person_4），整体表现冷静且带有讽刺意味，符合'neutral'情绪特征。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "person_3",
+    "person_4"
+  ]
+}

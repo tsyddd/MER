@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "目标人物在整个片段中面部肌肉舒展，嘴角持续上扬并多次露齿微笑[E1]，眼神温和注视对方[E2]，配合其交谈时轻快调侃的语态，呈现出明确的愉悦、赞许与笑意。",
+  "open_emotion": "欣喜",
+  "answer": "happy",
+  "mapping_reason": "目标人物展现出持续且自然的露齿笑容与愉悦神情，属于积极正向的情感体验，符合情绪轮中happy（喜悦/欣喜）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 (0.0s), frame_05 (2.36s), frame_06 (2.8s), frame_07 (3.28s)",
+      "observation": "目标人物嘴角明显向上抬起，露出上排牙齿，面颊肌群提起，眼角呈现自然放松的笑意弧度",
+      "interpretation": "表明其处于放松且愉快的正向心境中",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 (0.48s) - frame_04 (1.88s)",
+      "observation": "说话时眉心完全平展无紧蹙，目光专注且柔和地注视对方",
+      "interpretation": "排除了对立、不满或戒备态度，体现亲切友好的互动倾向",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词中包含“小看你了”字样，单看文字可能被误解为批评或不满，但其全程露齿含笑的面部表情彻底否定了负向情绪。"
+}

@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载Female Student在现场身体前倾弯腰、低头避开他人视线〔person_0〕，快速从过道仓皇离开〔process_0〕。同时图谱记载其说话语速较快且带有急促感〔person_1〕，慌忙喊出道歉“I'm so sorry!”〔process_1〕。这种低头逃避、急促言语以及慌乱逃离现场的举止表现，反映出其因撞见尴尬场面并被发现而产生的惊慌恐惧心理。",
+  "answer": "fear",
+  "evidence_refs": [
+    "person_0",
+    "process_0",
+    "person_1",
+    "process_1"
+  ]
+}

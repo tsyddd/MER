@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00021837",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "梅晓歌端坐在会议席前平稳地发言叙述，面部神色冷静严肃，说话语气平静从容，整体表现为平稳客观的中性状态。",
+  "output": "梅晓歌端坐在会议席前平稳地发言叙述，面部神色冷静严肃，说话语气平静从容，整体表现为平稳客观的中性状态。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 6.854807138442993,
+  "node_count": null,
+  "edge_count": null
+}

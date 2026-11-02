@@ -1,0 +1,120 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Rachel面向对面的金发女子说话：\"Honey, if you wanted to do that, you might as well just gotten him a fish...\"",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Rachel继续说道：\"...you know how fish freaked me out!\"",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Rachel视线注视着对面的女子",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Rachel双手向身体两侧张开并轻微摆动",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Rachel语速较快且语调微扬，重音强调",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Rachel放下抬起的双手，保持站姿挺直面对对方",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内客厅场景中，Rachel与一名背对镜头的女子面对面站立交流",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "Rachel在说完前半句话后，紧接着说出后半句强调自己对鱼的恐惧",
+      "entity_anchor": "Rachel的话语表达"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "Rachel在说话注视对方的同时，双手向两侧张开并摆动以作强调",
+      "entity_anchor": "Rachel"
+    },
+    {
+      "source": "person_3",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "Rachel在向两侧张开双手摆动之后，将抬起的手放下恢复站姿",
+      "entity_anchor": "Rachel的手部动作"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提供Rachel提出荒谬替代方案的前半句言语行为，process_1提供说明其自身心理原因的后半句，联合后完整呈现了她对对方行为提出质疑与反驳的互动过程",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1提供Rachel双手向两侧张开摆动的视觉手势，person_2提供语速较快且语调微扬重音强调的听觉表现，联合后补全了她在表述该句时多模态的强化表达表现",
+      "entity_anchor": null
+    }
+  ]
+}

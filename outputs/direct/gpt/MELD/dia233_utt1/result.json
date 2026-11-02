@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia233_utt1",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "fear",
+  "emotion_analysis": "Rachel正面对另一人说话，眉头紧皱、眼睛睁大，嘴部张开并伴随明显的紧张和不安。字幕明确提到鱼会让她感到害怕，当前表情与这种受惊和畏惧相符。",
+  "output": "Rachel正面对另一人说话，眉头紧皱、眼睛睁大，嘴部张开并伴随明显的紧张和不安。字幕明确提到鱼会让她感到害怕，当前表情与这种受惊和畏惧相符。\n<answer>fear</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 21.847612142562866,
+  "node_count": null,
+  "edge_count": null
+}

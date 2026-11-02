@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "目标人物Joey在画面中面向同伴，从frame_01起双手交叠贴于胸口，头部微倾，面部呈现出带有感动意味的欣慰微笑（嘴角上扬，眼角微眯，见frame_04至frame_07）。双手捂胸与温和微笑的组合是典型的感动与自豪表达，结合字幕中对学生获得试镜机会的夸赞及音频中温柔感叹的语调，充分体现出内心的欣慰与喜悦[E1][E2]。",
+  "open_emotion": "欣慰",
+  "answer": "joy",
+  "mapping_reason": "“欣慰/自豪”是一种正向的满足与喜悦情感体验，完全符合情绪轮中关于joy（开心、愉悦、满足）的定义界定。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01至frame_07 (0.50s - 3.42s)",
+      "observation": "Joey双手交叠放在胸口，眉心微收但嘴角始终带着温柔上扬的笑容",
+      "interpretation": "双手捂心并微笑展现出被打动、为对方感到高兴和骄傲的温情状态",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00 - 00:03",
+      "observation": "Joey以柔软舒缓的感叹声“Awww”开头，随后语气充满暖意与赞许",
+      "interpretation": "听觉表现进一步佐证其内心积极温和的喜悦与欣慰感",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "其眉毛在部分瞬间微蹙，形似微弱的悲伤或担忧特征，但配合持续的捂胸姿势与笑意，排除负面情绪的可能。"
+}

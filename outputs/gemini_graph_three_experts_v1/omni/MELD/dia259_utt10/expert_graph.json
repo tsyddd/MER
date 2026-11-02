@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "Monica在表达过程中语速较快，语调严肃坚决〔person_1〕，并在强调‘and monkeys!’时嘴部大幅张开，音量增大且语调明显上扬〔person_3〕，结合其身体前倾、直视交流对象的态势〔person_0〕，表现出对笑话内容的强烈否定与情绪激动，符合‘anger’的特征。",
+  "answer": "anger",
+  "evidence_refs": [
+    "person_1",
+    "person_3",
+    "person_0"
+  ]
+}

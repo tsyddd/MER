@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00021849",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "359093044a96c9b0d3bf12c8621869f06d99bda1905d519e91d11df175dc34b4",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "目标人物俯身探进车窗，神情专注且双眉微蹙，目光始终关切地注视车内神情低落的女性[image:E1]。结合实际音轨核验，男声语调轻柔克制，以放慢且略带叹息的安抚韵律说出“你先上我的车，先回去”[audio_subtitle:E2]，并非公事公办的事务交代。尽管有观点认为其面容平稳未显露激烈波动而归为中性[graph:E2]，但这种内敛低沉的语调与探身劝慰的体态紧密结合，实质体现出对女方处境的体贴安抚与担忧关切，故判定为worried。",
+  "output": "目标人物俯身探进车窗，神情专注且双眉微蹙，目光始终关切地注视车内神情低落的女性[image:E1]。结合实际音轨核验，男声语调轻柔克制，以放慢且略带叹息的安抚韵律说出“你先上我的车，先回去”[audio_subtitle:E2]，并非公事公办的事务交代。尽管有观点认为其面容平稳未显露激烈波动而归为中性[graph:E2]，但这种内敛低沉的语调与探身劝慰的体态紧密结合，实质体现出对女方处境的体贴安抚与担忧关切，故判定为worried。\n<answer>worried</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 67.31244206428528
+}

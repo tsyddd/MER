@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00014662",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "f797ce76093f00b080e0bcaf2c7690927a4e4391deedfdf8240b8fab343a4016",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "三位专家分析高度一致。字幕与语音内容明确表达了对事件牵连对方家人的忧虑，同时图像中目标人物双眉微蹙、神情凝重关切，视觉神态与言辞、语调相互印证，一致表明其内心充满担忧与顾虑。",
+  "output": "三位专家分析高度一致。字幕与语音内容明确表达了对事件牵连对方家人的忧虑，同时图像中目标人物双眉微蹙、神情凝重关切，视觉神态与言辞、语调相互印证，一致表明其内心充满担忧与顾虑。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 27.578633308410645
+}

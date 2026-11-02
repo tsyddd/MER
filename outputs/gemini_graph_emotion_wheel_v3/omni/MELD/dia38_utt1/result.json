@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia38_utt1",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "283890143b6bd15c34d0fcc959b56cb32cb859b30cd2d4facc4a2608311bfdd4",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "欣慰",
+      "mapped_label": "joy",
+      "mapping_reason": "根据MELD项目的情绪轮，'joy'（喜悦）被定义为'当前开心、愉悦、满足或兴奋的正向体验'。Joey的言语内容（'I'm so proud'）和他真诚的微笑、肢体语言共同指向一种满足和高兴的状态，这与'joy'的定义高度吻合。'欣慰'是'joy'的一种具体表现形式，因此映射是准确的。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "joy",
+      "mapped_label": "joy",
+      "mapping_reason": "说话者明确表达了'proud'（骄傲）的情感，这是一种积极的情感体验，与'joy'（喜悦）的情绪家族相符。其温暖的语气和微笑的表情也支持这一判断。"
+    },
+    "image": {
+      "open_emotion": "pride",
+      "mapped_label": "joy",
+      "mapping_reason": "在当前语境下，Joey因学生获得试镜机会而感到骄傲。这种骄傲是一种积极的情感体验，与'joy'（喜悦）家族中的'愉悦'（amused）、'兴奋'（excited）等词在语义上接近。虽然'pride'（骄傲）是一个更具体的词，但它在情绪轮中被归类为'joy'的子类，因为它是一种由成功或成就带来的积极情绪。因此，将'pride'映射到'joy'是合理的。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "Joey的言语内容（'I'm so proud'）和字幕直接表达了骄傲的积极情感。他的面部表情从平静过渡到微笑，手放胸前的姿势是真诚和骄傲的典型肢体语言。音频中温暖的语调与这些视觉线索一致，共同指向喜悦。尽管图谱提到'轻叹声调'，但结合上下文，这更像是一种欣慰的感叹，而非悲伤。因此，所有证据都支持joy。",
+  "output": "Joey的言语内容（'I'm so proud'）和字幕直接表达了骄傲的积极情感。他的面部表情从平静过渡到微笑，手放胸前的姿势是真诚和骄傲的典型肢体语言。音频中温暖的语调与这些视觉线索一致，共同指向喜悦。尽管图谱提到'轻叹声调'，但结合上下文，这更像是一种欣慰的感叹，而非悲伤。因此，所有证据都支持joy。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 163.19663190841675
+}

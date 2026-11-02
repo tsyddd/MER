@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标在叙述自己被父皇怀疑的经历时，声音压低、带有沉重的气息与心有余悸的紧绷感[E1]，眼神圆睁前倾[E2]，整体呈现出面临危机与猜忌时的忧虑和紧张。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:06",
+      "observation": "目标说话时声音压低、带有明显的换气与叹气感，在说'父皇本已对我起了疑心'时语速放缓、语气沉重凝重。",
+      "interpretation": "低沉压抑的韵律表明其并非客观平淡地陈述，而是在回忆和倾诉极度凶险的情境，透露出后怕与担忧。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 2.72s",
+      "observation": "双目圆睁，眉头微锁，身体向前探向倾听者，神态紧绷。",
+      "interpretation": "面部神情与低沉紧张的语音相呼应，强化了忧虑重重的情绪状态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "若仅看句式可能被视作平静的案情叙述（neutral），但音轨中呼吸急促压抑的音质及视觉上紧绷圆睁的双眼排除了纯粹中性的可能。"
+}

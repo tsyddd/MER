@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00006180",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "4a765d2b2802a7f8b7c5268ad405ddb73b3790b0239521f2f89cddf88ddba4d0",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "图谱描述和字幕内容均指向平缓、直接的课堂回应，未见明确的负面或积极情绪；但图像专家观察到眉毛微抬、眼睛睁大，提示轻微担忧。由于该视觉线索较弱，且没有音频可核验语气，综合取中性判断。",
+  "output": "图谱描述和字幕内容均指向平缓、直接的课堂回应，未见明确的负面或积极情绪；但图像专家观察到眉毛微抬、眼睛睁大，提示轻微担忧。由于该视觉线索较弱，且没有音频可核验语气，综合取中性判断。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 87.01621675491333
+}

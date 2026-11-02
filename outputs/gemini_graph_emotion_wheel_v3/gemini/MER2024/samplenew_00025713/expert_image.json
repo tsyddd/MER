@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "目标人物在听到对方话语后，眼神专注发愣，且在frame_06至frame_07中嘴唇明显张开成圆形，伴随身体短暂停顿，面部呈现出强烈的意外与吃惊反应；结合台词的结巴质问，显示出事情违背其预期的震惊状态。",
+  "open_emotion": "诧异",
+  "answer": "surprise",
+  "mapping_reason": "目标人物因对方获知其秘密或意外事实而表现出即时的瞳孔睁大、张嘴发愣反应，完全符合surprise（因当前信息违背预期产生的意外与诧异）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_06-07 (2.12s-2.48s)",
+      "observation": "目标人物眼神凝视对方，眉毛微挑，嘴巴自然张开呈半开状态并定格，神态发愣。",
+      "interpretation": "面部出现典型的意外、吃惊表情特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "你。你。怎么知道的？",
+      "observation": "台词采用重复结巴的疑问句式“你。你。怎么知道的？”。",
+      "interpretation": "语言内容直接表明事情出乎自身意料，进一步印证其诧异的心理反应。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "话语结巴和秘密被戳穿的情境可能带有少许心虚或担忧，但当前表情和反应核心是事情突如其来的不可置信与意外。"
+}

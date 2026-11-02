@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia119_utt5",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "fear",
+  "emotion_analysis": "Monica's facial expression shows a slight frown and her eyes are wide, indicating concern. Her statement, 'But Ben is coming over tonight and he can't see this,' combined with her worried expression, suggests she is anxious about a situation she wants to keep hidden.",
+  "output": "Monica's facial expression shows a slight frown and her eyes are wide, indicating concern. Her statement, 'But Ben is coming over tonight and he can't see this,' combined with her worried expression, suggests she is anxious about a situation she wants to keep hidden.\n<answer>fear</answer>",
+  "label": "fear",
+  "elapsed_seconds": 194.36395597457886,
+  "node_count": 8,
+  "edge_count": 6
+}

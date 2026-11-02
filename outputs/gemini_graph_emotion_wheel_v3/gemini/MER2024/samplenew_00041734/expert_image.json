@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "画面中的主要说话人（中年女性）从frame_00至frame_06始终保持双眉紧蹙、内眉角向上收拢的忧虑面容，伴随身体前探和焦急注视；其紧迫追问辞职原因的语态与神情表明其主导心理是对辞职后果及未知的焦虑与关切，而非攻击性敌意。",
+  "open_emotion": "焦急忧虑",
+  "answer": "worried",
+  "mapping_reason": "目标人物表现出因对方突然辞职而产生的焦虑、不安与深切关切，重点落在对不可预见后果的顾虑上，符合情绪轮中worried（担忧）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_03 (0.00s-1.16s)",
+      "observation": "目标女性眉心明显紧锁，眉头向内上方聚拢，双眼焦急凝视前方，面部呈现明显的忧虑收缩褶皱。",
+      "interpretation": "表现出对接收到辞职信息后的震惊与强烈不安，伴随紧迫的心理关切。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04至frame_06 (1.52s-2.28s)",
+      "observation": "女性头部略微前倾，嘴唇微张微颤，眉眼间持续保持紧绷与困惑凝视。",
+      "interpretation": "姿态急切且专注，表明其正在焦灼地等待解释，流露出对潜在风险的担忧。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“不是，你，为什么要辞职？”",
+      "observation": "台词核心在于追问对方辞职的动机。",
+      "interpretation": "辞职直接关联生计与未来稳定性，其质问动机源于对可能带来的负面风险产生顾虑。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "急促发问与质问语调表面上带有一定的严厉与意外，容易被误读为angry或surprise，但其眉眼收缩形态呈八字忧虑状，缺少攻击对抗或纯粹目瞪口呆的表现。"
+}

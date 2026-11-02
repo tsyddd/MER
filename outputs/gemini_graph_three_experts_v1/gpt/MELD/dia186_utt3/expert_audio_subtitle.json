@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断语调、音量、语速或停顿。字幕表达了因取消今晚安排而道歉的遗憾语气，当前情绪更接近悲伤。",
+  "answer": "sadness",
+  "evidence_refs": []
+}

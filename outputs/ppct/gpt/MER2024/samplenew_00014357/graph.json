@@ -1,0 +1,185 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "目标人物说：“哎呀，小区里最可爱最漂亮的。”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "目标人物说：“小美眉需要我帮忙吗？”",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "目标人物面向画面左侧，视线朝向画面左下方。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "目标人物嘴部张开，牙齿可见。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "目标人物头部向一侧倾斜。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "目标人物上身向前倾。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "场景为室内，背景可见窗户、木质结构和绿植。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "字幕中将交流对象称为“小美眉”。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "同一人物在同一互动中的连续言语，后一句在前一句之后说出",
+      "entity_anchor": "同一说话人物"
+    },
+    {
+      "source": "person_3",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "同一人物在不同时间的身体状态，后续画面中上身向前倾",
+      "entity_anchor": "同一人物"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "simultaneous",
+      "reason": "同一人物在同一时刻同时面向左侧、张口且头部倾斜",
+      "entity_anchor": "同一人物"
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "simultaneous",
+      "reason": "同一人物在同一时刻同时面向左侧且头部倾斜",
+      "entity_anchor": "同一人物"
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "simultaneous",
+      "reason": "同一人物在同一时刻同时张口且头部倾斜",
+      "entity_anchor": "同一人物"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "先称赞交流对象“最可爱最漂亮”，随后询问其是否需要帮助，联合后形成从赞美到主动提供帮助的完整当前互动过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "面向画面左侧并将视线朝向左下方，同时嘴部张开且牙齿可见，联合后补充表明目标人物正朝左下方对象进行可观察的说话行为。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "面向画面左侧并将视线朝向左下方，头部又向一侧倾斜，联合后更完整限定了其朝左下方对象交流时的头部朝向与姿态。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "面向画面左侧并将视线朝向左下方，上身同时向前倾，联合后更完整表现其朝左下方对象靠近并进行交流的身体指向。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "嘴部张开且牙齿可见，头部又向一侧倾斜，联合后补充了说话时口部状态与头部姿态这两类可观察表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "嘴部张开且牙齿可见，同时上身向前倾，联合后补充了说话时的口部状态与身体前倾姿态。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_2",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "头部向一侧倾斜且上身向前倾，联合后更完整限定了目标人物在交流中的头部和上身姿态。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "室内窗户、木质结构和绿植限定了交流发生的物理场景，字幕称交流对象为“小美眉”，联合后进一步完整限定了该场景中的交流对象。",
+      "entity_anchor": null
+    }
+  ]
+}

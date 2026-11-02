@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物的语调上扬，语速较快，表现出对听到信息的即时反应。她重复了“是吗”和“他真这么说的”，这表明她对所听到的内容感到意外和难以置信，这是一种典型的惊讶情绪表现。",
+  "open_emotion": "惊讶",
+  "answer": "surprise",
+  "mapping_reason": "根据情绪轮定义，'surprise'（惊讶）是因当前信息违背预期而产生的意外或诧异。目标人物的言语内容和语调都强烈支持这一解释，她并非在表达愤怒、悲伤或担忧，而是对一个出乎意料的说法做出反应。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "字幕: 是吗？才真这么说的。",
+      "observation": "目标人物说出了“是吗？才真这么说的”这句话。",
+      "interpretation": "这句话是典型的反问句，用于表达对所听信息的怀疑和意外，是惊讶情绪的直接语言证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "说话者的语调在“是吗”和“才真这么说的”部分明显上扬。",
+      "interpretation": "上扬的语调是表达惊讶、疑问或难以置信的常见韵律特征，与字幕内容共同证实了惊讶的情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。"
+}

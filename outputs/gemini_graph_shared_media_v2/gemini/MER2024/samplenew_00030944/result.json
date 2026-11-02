@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00030944",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "7bd9f3e867f21d2ec668fb44dc3c0e1322c116ee3685ad30869d4f13503a1273",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "独立核对原始画面与音频可见，目标人物在frame_03至frame_07中双眉微聚、目光紧盯对方，神情凝重而关切[image:E1]。音频中其语调在“不放心呢”与“怎么办呢”处带有明显的悬心与发愁气息[audio_subtitle:E2]，结合字幕直陈对对方孤身一人且可能做出极端举动的深切顾虑[audio_subtitle:E1]。三位专家的分析互相补充且与实际视音频线索完全吻合；其交互姿态为积极关注与探询，无消沉或退缩表现，从而排除了悲伤（sad），确认为担忧。",
+  "output": "独立核对原始画面与音频可见，目标人物在frame_03至frame_07中双眉微聚、目光紧盯对方，神情凝重而关切[image:E1]。音频中其语调在“不放心呢”与“怎么办呢”处带有明显的悬心与发愁气息[audio_subtitle:E2]，结合字幕直陈对对方孤身一人且可能做出极端举动的深切顾虑[audio_subtitle:E1]。三位专家的分析互相补充且与实际视音频线索完全吻合；其交互姿态为积极关注与探询，无消沉或退缩表现，从而排除了悲伤（sad），确认为担忧。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 50.770901918411255
+}

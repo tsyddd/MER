@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00033166",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "601e004fdfc952c53a92b0a0ecef60e492bda4cb92d703eefffcf73140a33a83",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "忧虑",
+      "mapped_label": "worried",
+      "mapping_reason": "目标人物的核心关注点是对‘悉数倒戈’这一尚未完全成真但极具破坏性的局势风险产生的焦虑与防备，符合情绪轮中worried关于‘对可能负面结果、未知风险的顾虑与不安’的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "忧心忡忡",
+      "mapped_label": "worried",
+      "mapping_reason": "开放情绪‘忧心忡忡’聚焦于对负面后果与未卜局势的焦虑、不安，完全契合情绪轮中worried（担忧）所定义的对未知风险或坏结果的顾虑特征。"
+    },
+    "image": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "目标人物表现出对潜在背叛风险和不利局面的不安与疑虑，根据情绪轮定义，对未知风险和负面后果的顾虑与焦虑归属于worried家族。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "目标人物在第0-4帧中双眼紧盯对方、眉心微敛紧绷，配合急促的口型呈现出专注而忐忑的神色[image:E1]。音轨中其语调急迫而紧绷，以反问语气吐出‘难道都要悉数倒戈不成’，尾音沉重凝实，并无怒吼或外显攻击性[audio_subtitle:E2]。台词内容直指对众人背叛失控局面的强烈危机预期[graph:E2]，整体多模态线索高度收拢于对可能恶化局势的焦虑不安，而非对抗性的愤怒或单纯的意外震惊。",
+  "output": "目标人物在第0-4帧中双眼紧盯对方、眉心微敛紧绷，配合急促的口型呈现出专注而忐忑的神色[image:E1]。音轨中其语调急迫而紧绷，以反问语气吐出‘难道都要悉数倒戈不成’，尾音沉重凝实，并无怒吼或外显攻击性[audio_subtitle:E2]。台词内容直指对众人背叛失控局面的强烈危机预期[graph:E2]，整体多模态线索高度收拢于对可能恶化局势的焦虑不安，而非对抗性的愤怒或单纯的意外震惊。\n<answer>worried</answer>",
+  "label": "angry",
+  "elapsed_seconds": 69.2364513874054
+}

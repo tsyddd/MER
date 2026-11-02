@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia109_utt4",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "珍妮丝在听到对方的话后挑起眉毛、身体前倾，语气带着明显的意外与不解，连续追问确认，表现出轻微的惊讶。",
+  "output": "珍妮丝在听到对方的话后挑起眉毛、身体前倾，语气带着明显的意外与不解，连续追问确认，表现出轻微的惊讶。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 14.325764894485474,
+  "node_count": null,
+  "edge_count": null
+}

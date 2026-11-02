@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "将frame_03至frame_07中占据近景的浅色衣袍男子作为目标；frame_00至frame_02的华服男子是另一人。目标持续垂眼、眉间略收紧，嘴唇从轻合到微张，整体表现较克制，视觉上更接近不安而非明显的喜悦、愤怒或即时惊讶[E1][E2]。字幕只提供了不确定的语义线索，不能据此确认他在担心什么[E3]。",
+  "open_emotion": "不安",
+  "answer": "worried",
+  "mapping_reason": "不安在此指对未知事情的顾虑，按情绪轮映射为worried；但片段没有明确呈现所担忧的具体后果，因此判断强度有限。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_03（0.92秒）至frame_05（1.52秒）",
+      "observation": "浅色衣袍男子视线向下，眉间略收紧，面部动作较少。",
+      "interpretation": "持续收敛的神态支持轻度顾虑的解释，但单凭垂眼不能确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_06（1.80秒）至frame_07（2.12秒）",
+      "observation": "他仍向下看，嘴唇由轻合转为微张，未见明显笑容或突然睁大眼睛。",
+      "interpretation": "前后变化更像克制地思索或表达不安，不支持强烈的即时惊讶。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "「也不知道，当年，三哥。」",
+      "observation": "字幕出现「也不知道」，但这是一句未完的话。",
+      "interpretation": "语义涉及未知，可辅助理解不安；它本身没有说明负面后果，也不能确证说话者。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "最强的相反解释是平静思索：目标没有明显激烈的表情或动作，字幕也未交代具体风险。画面不足以确认他是因已发生的损失而悲伤，且不能把前段华服男子的表现算作目标的情绪。"
+}

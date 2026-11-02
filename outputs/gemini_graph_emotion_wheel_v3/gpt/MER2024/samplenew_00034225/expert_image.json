@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "目标是画面中央穿深色衣服的男子，左前景人物只见背影。[E1]他持续看向对方，眉毛略抬、眼睛睁大；[E2]说话时张口并略向前探，表现出追问。结合字幕中的「不好对付」[E3]，以及末帧画面文字对是否惹麻烦的询问[E4]，更像是在顾虑可能造成的后果，而非单纯因消息意外而惊讶。",
+  "open_emotion": "忐忑",
+  "answer": "worried",
+  "mapping_reason": "忐忑指向对尚不确定的麻烦或后果感到不安，符合worried所强调的预期性顾虑。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_06（1.8秒）",
+      "observation": "中央男子一直望向左前景的人，眉毛略抬，眼睛较睁大。",
+      "interpretation": "持续关注对方反应，支持有所顾虑的解释；这些面部特征本身不能单独定类。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03（0.88秒）至frame_06（1.8秒）",
+      "observation": "他多次张口说话，头部相较开头略向对方探出。",
+      "interpretation": "表现为持续追问，而不只是瞬间的意外反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "「怎么？他不好对付啊。」",
+      "observation": "字幕中的问话提到对方可能不好对付。",
+      "interpretation": "问话涉及潜在困难，与顾虑相符；字幕不能证明说话语调。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_07（2.08秒）",
+      "observation": "画面上的文字为「我 我是不是给你惹麻烦了」。",
+      "interpretation": "画面文字将追问指向自己是否造成麻烦，支持对后果不安的解释；这不是听觉证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "抬眉、睁眼和张口也可以表示诧异；画面中没有足够清晰的细微表情可进一步确认。不过他的追问并未停留在瞬间意外，而是转向可能造成的麻烦，因此担忧的支持更强。"
+}

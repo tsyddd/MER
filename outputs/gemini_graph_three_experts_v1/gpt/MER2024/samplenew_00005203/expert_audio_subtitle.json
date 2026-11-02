@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。仅从字幕“我也不想跟你分开”看，目标人物表达了不愿分离的低落与不舍，因此选择sad。",
+  "answer": "sad",
+  "evidence_refs": []
+}

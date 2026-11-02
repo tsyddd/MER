@@ -1,0 +1,93 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "女子开口说出“甚至”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "女子接着说出“连一件衣裳”",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "女子头戴发饰耳坠，眼含泪光，视线落在斜下方，眉头微蹙",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "女子发音音量偏低，语调微颤且带有哽咽与短暂停顿",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内场景，背景为暗红色的透光方格木窗",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "女子在开口说出“甚至”之后，紧接着说出“连一件衣裳”",
+      "entity_anchor": "女子"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "女子在眼含泪光、眉头微蹙的同时，伴随着微颤哽咽且偏低的声音发音",
+      "entity_anchor": "女子"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提供女子起始词句'甚至'，process_1提供后续补充'连一件衣裳'，两端联合构成女子连贯倾诉的完整叙述过程",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供含泪、蹙眉及斜下视线的面部视觉表现，person_1提供低音量、微颤伴随哽咽的语音表现，两者结合多模态互补地展现了人物悲伤隐忍的整体外在状态",
+      "entity_anchor": null
+    }
+  ]
+}

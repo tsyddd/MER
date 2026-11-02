@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia9_utt11",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "e2a50d6b01ecc35a810613a0879b6c7baee7d96f1dcefc36a846281bb0277898",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "心痛难过",
+      "mapped_label": "sadness",
+      "mapping_reason": "开放情绪词‘心痛难过’源于对心爱衣物及床铺被毁坏的悲痛与委屈体验；在情绪轮中，因不可挽回的财产损失引发的低落、哀伤与痛苦直接归属于sadness（悲伤）家族。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "沮丧难过",
+      "mapped_label": "sadness",
+      "mapping_reason": "开放情绪'沮丧难过'（sadness/distress）源于对心爱财物受损的巨大失落与痛心，完美契合情绪轮中sadness家族的定义。"
+    },
+    "image": {
+      "open_emotion": "沮丧",
+      "mapped_label": "sadness",
+      "mapping_reason": "因个人重要物品被毁而呈现的面部失落、心痛及沮丧姿态，符合情绪轮中sadness（因失落或损失而难过、沮丧）的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "目标人物Rachel在台词中哀叹心爱的床、衣服及蓝色毛衣尽毁，音频中伴随着明显的低沉颤音、鼻音与抽泣哭腔[audio_subtitle:E2]，直接传达出因财物受损带来的痛心体验。画面核验显示，Rachel在frame_00至frame_03呈现眉头微蹙、嘴角下垂并闭目垂首的心碎神态[image:E1]，随后颓丧地提起烧焦衣物，身体语言缺乏对抗性。虽有对灾后损失的哀怨诉苦，但音轨全无攻击性发怒或责问质感，主导情绪完全落在面对不可挽回损失的难过与沮丧，准确归入sadness。",
+  "output": "目标人物Rachel在台词中哀叹心爱的床、衣服及蓝色毛衣尽毁，音频中伴随着明显的低沉颤音、鼻音与抽泣哭腔[audio_subtitle:E2]，直接传达出因财物受损带来的痛心体验。画面核验显示，Rachel在frame_00至frame_03呈现眉头微蹙、嘴角下垂并闭目垂首的心碎神态[image:E1]，随后颓丧地提起烧焦衣物，身体语言缺乏对抗性。虽有对灾后损失的哀怨诉苦，但音轨全无攻击性发怒或责问质感，主导情绪完全落在面对不可挽回损失的难过与沮丧，准确归入sadness。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 56.48214077949524
+}

@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "Phoebe当前面向男子发问，微笑逐渐明显，手仍搭在对方胸前[E1]。字幕中的“Seriously”可以是诧异的追问，但整句是在询问对方兄弟的情况[E2]；结合她当下的笑容，更接近带着逗趣意味的问话，而非受到惊吓。图谱节点process_0也将这段互动记为Phoebe发问，但它与字幕描述的是同一句话，不能算独立佐证。男子随后微笑是他的反应，不能直接当作Phoebe的情绪证据。",
+  "open_emotion": "逗趣",
+  "answer": "joy",
+  "mapping_reason": "逗趣表现为她在当前互动中的轻快、愉悦表达，最接近joy；这里不表示强烈兴奋。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_03（1.0009992228266904秒）",
+      "observation": "Phoebe看着面前的男子，手搭在他胸前，脸上露出笑容。",
+      "interpretation": "支持她在这次问话中表现出轻快的正向情绪；手部动作本身不足以单独判定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "“So your brother's straigh huh? Seriously.”",
+      "observation": "她问的是对方兄弟的情况，并追加“Seriously.”",
+      "interpretation": "为当前笑容提供问话语境；仅凭措辞也可能解读为诧异，不能单独证明愉悦。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱转述Phoebe说话语调轻松，并带有轻笑声。",
+      "interpretation": "若准确，可进一步支持逗趣；但未收到原音轨，无法亲耳核验，故不作为最终判断的主要依据。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "“Seriously”容许惊讶的解释；现有画面中的笑容与当下互动更支持逗趣。图谱process_0未涵盖字幕中的“Seriously”，也未提供男子如何回答，不能由节点先后推断更多因果。"
+}

@@ -1,0 +1,150 @@
+{
+  "process": {
+    "nodes": [
+      {
+        "id": "process_0",
+        "type": "process",
+        "content": "画面中的女性询问“小毛驴长得什么样子”。",
+        "evidence_sources": [
+          "visual",
+          "subtitle"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "process_1",
+        "type": "process",
+        "content": "画面中的女性说自己也没有见过小毛驴。",
+        "evidence_sources": [
+          "visual",
+          "subtitle"
+        ],
+        "time_index": 1,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "process_2",
+        "type": "process",
+        "content": "画面中的女性询问同学们是否有人知道小毛驴的样子。",
+        "evidence_sources": [
+          "visual",
+          "subtitle"
+        ],
+        "time_index": 2,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "process_3",
+        "type": "process",
+        "content": "一名男学生回应“我知道”。",
+        "evidence_sources": [
+          "visual",
+          "subtitle"
+        ],
+        "time_index": 3,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  },
+  "person": {
+    "nodes": [
+      {
+        "id": "person_0",
+        "type": "person",
+        "content": "画面中的女性面向前方，保持坐姿或站姿上身直立。",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_1",
+        "type": "person",
+        "content": "画面中的女性说话时嘴部开合。",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_2",
+        "type": "person",
+        "content": "画面中的女性头部向一侧倾斜。",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 1,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_3",
+        "type": "person",
+        "content": "画面中的女性恢复面向前方，继续嘴部开合。",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 2,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_4",
+        "type": "person",
+        "content": "一名男学生张嘴说话。",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 3,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  },
+  "context": {
+    "nodes": [
+      {
+        "id": "context_0",
+        "type": "context",
+        "content": "场景位于教室内，可见窗户、黑板和多名学生。",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "context_1",
+        "type": "context",
+        "content": "字幕中出现对女性的称呼“老师”，并出现对在场学生的称呼“同学们”。",
+        "evidence_sources": [
+          "subtitle"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "context_2",
+        "type": "context",
+        "content": "交流内容围绕小毛驴的外形展开。",
+        "evidence_sources": [
+          "subtitle"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  }
+}

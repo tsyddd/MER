@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia109_utt5",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "Janice的台词内容是关于在‘残酷剧院’中使用木偶，这是一种荒诞和讽刺的说法。她的声音高亢、响亮、语速快且带有戏剧性，同时伴随着夸张的手势和肢体语言，这些都表明她正在用一种滑稽的方式来表达，以达到讽刺或搞笑的效果。",
+  "output": "Janice的台词内容是关于在‘残酷剧院’中使用木偶，这是一种荒诞和讽刺的说法。她的声音高亢、响亮、语速快且带有戏剧性，同时伴随着夸张的手势和肢体语言，这些都表明她正在用一种滑稽的方式来表达，以达到讽刺或搞笑的效果。\n<answer>joy</answer>",
+  "label": "anger",
+  "elapsed_seconds": 847.8541769981384,
+  "node_count": 16,
+  "edge_count": 3
+}

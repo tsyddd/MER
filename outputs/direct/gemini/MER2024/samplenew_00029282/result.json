@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00029282",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sad",
+  "emotion_analysis": "画面中的女性眉头紧蹙、眼眶含泪且神情极其悲痛，嘴角向下抽泣，伴随着带有明显哭腔与哽咽的声音，体现出极度悲伤的情绪。",
+  "output": "画面中的女性眉头紧蹙、眼眶含泪且神情极其悲痛，嘴角向下抽泣，伴随着带有明显哭腔与哽咽的声音，体现出极度悲伤的情绪。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 5.806166172027588,
+  "node_count": null,
+  "edge_count": null
+}

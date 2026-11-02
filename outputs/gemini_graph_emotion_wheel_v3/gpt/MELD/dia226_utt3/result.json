@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia226_utt3",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "554a2426d1927843a8eb1d72198c70c94dfcdf5ba4a53d703518ea9653b7a645",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "失落",
+      "mapped_label": "sadness",
+      "mapping_reason": "这里的失落指对期待中的情感交流尚未实现而感到低落，近似映射到sadness；证据不支持将其理解为强烈悲伤。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "失落",
+      "mapped_label": "sadness",
+      "mapping_reason": "当前表达的重心是期望情感交流却未能如愿，因而将轻微的失落映射为sadness；这不意味着她表现出强烈悲伤。"
+    },
+    "image": {
+      "open_emotion": "失落",
+      "mapped_label": "sadness",
+      "mapping_reason": "此处的失落指希望获得更多情感交流却未能如愿，最接近sadness家族；这是轻度、近似的映射，画面不足以支持强烈悲伤。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "独立回看，目标是左侧穿紫色上衣的Rachel：她在第0帧略带笑意，说话时眉头收拢、嘴角趋平，并向右侧女子摊手解释；[image:E1]对这一变化的描述可信，但手势本身不能判定情绪。字幕“I wish I could get him to open up a little bit, share some feelings”表达希望获得更多情感交流；[audio_subtitle:E1]据此理解为未满足的愿望有依据，但没有直接责备对方。末帧的短暂笑意以及缺少强烈悲伤表现，限制了情绪强度，却不足以推翻轻微失落这一解释；本片段未提供音轨，无法核验语调。",
+  "output": "独立回看，目标是左侧穿紫色上衣的Rachel：她在第0帧略带笑意，说话时眉头收拢、嘴角趋平，并向右侧女子摊手解释；[image:E1]对这一变化的描述可信，但手势本身不能判定情绪。字幕“I wish I could get him to open up a little bit, share some feelings”表达希望获得更多情感交流；[audio_subtitle:E1]据此理解为未满足的愿望有依据，但没有直接责备对方。末帧的短暂笑意以及缺少强烈悲伤表现，限制了情绪强度，却不足以推翻轻微失落这一解释；本片段未提供音轨，无法核验语调。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 93.0313458442688
+}

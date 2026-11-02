@@ -1,0 +1,10 @@
+{
+  "reason": "目标人物Rachel抱着婴儿，表情痛苦，声音颤抖，语速快，音量高，表现出极大的无助和焦虑。她的话语“what am I gonna do”（我该怎么办）和“it won't stop crying”（它不停地哭）直接表达了她对无法安抚婴儿的挫败感和不知所措。这种无助感和对持续负面事件（婴儿哭闹）的无力应对，最符合悲伤（sadness）的特征，即因无法控制的负面情况而感到难过和沮丧。三个专家的证据均指向此结论，其中[graph:E3]和[audio_subtitle:E2]直接引用了其表达无助的原话，[image:E1]和[image:E2]则证实了其痛苦的表情，这些证据相互印证，共同支持了该判断。",
+  "answer": "sadness",
+  "evidence_refs": [
+    "graph:E3",
+    "audio_subtitle:E2",
+    "image:E1",
+    "image:E2"
+  ]
+}

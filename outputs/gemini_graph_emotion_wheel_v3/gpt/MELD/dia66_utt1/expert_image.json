@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是左侧侧脸的深发女子，即说出服务用语的乘务员；右侧长发女子的明显笑容不能算作目标的表情。目标在说话时面向对方，随后嘴角略微上扬，整体变化较轻微[E1][E2]。结合字幕中的礼貌用语[E3]，更像平稳的职业性回应，而非明确的喜悦。",
+  "open_emotion": "平稳",
+  "answer": "neutral",
+  "mapping_reason": "当前可见表现以平稳交谈为主；轻微笑意与礼貌用语不足以确定有占主导的愉悦体验，因此映射为neutral。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_03（0.918秒）",
+      "observation": "左侧女子侧身看向右侧女子，嘴部随交谈张合；画面仅呈现其侧脸。",
+      "interpretation": "可确认她在与对方交谈，但侧脸不足以支持更细微的表情判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05（1.501秒）至frame_07（2.127秒）",
+      "observation": "左侧女子仍面向对方，嘴角较前略有上扬；右侧女子的笑容更明显。",
+      "interpretation": "目标的轻微笑意可以是礼貌回应，不能把右侧女子更强的笑容归给她。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“Thank you!  Enjoy your flight?”",
+      "observation": "字幕是致谢和祝旅途愉快的用语。",
+      "interpretation": "与画面中的平稳交谈相符，但字幕不能证明目标说话时的语调或内心感受。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "目标在后几帧确有轻微笑意，可能表示愉快；但侧脸所见的笑容幅度有限，也符合礼貌性的服务互动。没有音频可供核查语调。"
+}

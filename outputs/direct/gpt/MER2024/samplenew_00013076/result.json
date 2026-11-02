@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013076",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "happy",
+  "emotion_analysis": "当前人物面对对方，眼睛呈笑意，双手合十并持续作感谢手势。字幕内容为“正要感谢您呢！谢谢！”，与其表达感谢和积极情绪一致，因此判断为开心。",
+  "output": "当前人物面对对方，眼睛呈笑意，双手合十并持续作感谢手势。字幕内容为“正要感谢您呢！谢谢！”，与其表达感谢和积极情绪一致，因此判断为开心。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 27.73592185974121,
+  "node_count": null,
+  "edge_count": null
+}

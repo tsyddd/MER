@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia50_utt2",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "fear",
+  "emotion_analysis": "目标人物是女性学生。字幕节点process_0显示她在同一时段说“I’m so sorry!”，并与process_1中的蹲伏、向通道后方移动以及process_0-process_1的联合关系相对应；随后process_2和person_1显示她继续后退并躲到男性身后，且与process_1、person_0分别存在after关系。当前行为体现出回避和紧张，更符合fear。",
+  "output": "目标人物是女性学生。字幕节点process_0显示她在同一时段说“I’m so sorry!”，并与process_1中的蹲伏、向通道后方移动以及process_0-process_1的联合关系相对应；随后process_2和person_1显示她继续后退并躲到男性身后，且与process_1、person_0分别存在after关系。当前行为体现出回避和紧张，更符合fear。\n<answer>fear</answer>",
+  "label": "fear",
+  "elapsed_seconds": 59.8435845375061,
+  "node_count": 7,
+  "edge_count": 7
+}

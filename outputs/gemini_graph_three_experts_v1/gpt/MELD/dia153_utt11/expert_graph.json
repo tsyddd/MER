@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "Chandler双手叉腰、面朝Joey回应，并以平稳清晰的语调说明情况，表现为稳定的交流状态〔person_0〕〔person_1〕。他描述的是面对枪口时可能害怕的假设情境，并非当前正在经历恐惧，且随后仍注视Joey保持站立〔process_1〕〔person_3〕。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "process_1",
+    "person_3"
+  ]
+}

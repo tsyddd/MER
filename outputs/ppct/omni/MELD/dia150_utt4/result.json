@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia150_utt4",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "Janice's facial expression shows a wide-eyed, open-mouthed look, and her tone of voice is high-pitched and strained, indicating a strong emotional reaction. She is directly addressing Chandler with a farewell, and her posture is confrontational. This combination of visual and auditory cues points to a state of intense, negative emotion.",
+  "output": "Janice's facial expression shows a wide-eyed, open-mouthed look, and her tone of voice is high-pitched and strained, indicating a strong emotional reaction. She is directly addressing Chandler with a farewell, and her posture is confrontational. This combination of visual and auditory cues points to a state of intense, negative emotion.\n<answer>anger</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 77.75215029716492,
+  "node_count": 6,
+  "edge_count": 2
+}

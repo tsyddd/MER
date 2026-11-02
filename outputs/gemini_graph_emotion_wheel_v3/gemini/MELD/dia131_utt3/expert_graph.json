@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "在当前互动事件链中，Rachel与Ross刚进门面对Phoebe和Joey的询问〔context_0〕。她在整理外套后抬头摊开双手〔person_1〕，以极其轻快、带有笑意且上扬的语调说出“Oh, everything went great.”〔process_0〕。图谱所记录的向前摊手与发话动作，结合实际音轨中毫无阴阳怪气或沉重感的明朗语调，明确指向她对刚结束事件的顺利进展感到欣喜与满意，而非仅仅是平淡中性的例行公事汇报。",
+  "open_emotion": "欣喜",
+  "answer": "joy",
+  "mapping_reason": "Rachel当前对所陈述事件的进展表现出积极、愉悦与满意的正向体验，符合情绪轮中joy（喜悦）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "图谱记录Rachel面向Phoebe说出“Oh, everything went great.”，承接从低头整理衣物到抬头沟通的姿态转变。",
+      "interpretation": "表明其发话目标是直接回应同伴对事件进展的关切，构成当前情绪表达的核心语境。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:01",
+      "observation": "Rachel说出“Oh, everything went great.”时语调轻快、上扬，尾音带明显笑意与轻松感。",
+      "interpretation": "排除中性陈述或反讽语调，印证其内心的愉悦与满足。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05",
+      "observation": "Rachel抬头面向对方，面部放松，嘴角自然上翘，双手向外摊开展现开放姿态。",
+      "interpretation": "身体动作与神情同步传递出事情顺利解决后的舒畅与开心。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "单看台词字面可能被怀疑为客套的日常汇报（neutral），但实际音轨中轻快上扬的笑意音调与舒展姿态排除了纯中性叙述。"
+}

@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者在说“甚至连一件衣裳”时，声音颤抖，带有明显的哭腔，语速缓慢，音量较低，表现出一种深切的悲伤和失落感。结合其眼眶湿润、表情哀伤的视觉表现，可以判断其情绪为悲伤。",
+  "open_emotion": "悲伤",
+  "answer": "sad",
+  "mapping_reason": "根据情绪轮定义，'sad'（悲伤）指当前失落、伤心、哀痛或低落的情绪。说话者的声音颤抖、带有哭腔，以及其哀伤的表情，都直接支持了悲伤这一情绪。虽然话语内容“甚至连一件衣裳”可能暗示了某种不公或委屈，但其当前的表达方式主要是情感的流露，而非对抗或责备，因此更符合悲伤的特征。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "说话者的声音颤抖，带有哭腔，语速缓慢。",
+      "interpretation": "声音的颤抖和哭腔是悲伤情绪的典型表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00-frame_07",
+      "observation": "说话者眼眶湿润，表情哀伤。",
+      "interpretation": "湿润的眼眶和哀伤的表情是悲伤情绪的直接视觉证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "甚至，连一件衣裳。",
+      "observation": "字幕内容为“甚至连一件衣裳”。",
+      "interpretation": "这句话暗示了某种微不足道的待遇，可能引发失落和悲伤的情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。"
+}

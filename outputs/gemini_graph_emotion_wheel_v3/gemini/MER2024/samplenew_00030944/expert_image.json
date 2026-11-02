@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "目标人物在片段中眉心微聚、眉头轻锁，眼神紧盯着交流对象，面部肌肉呈现紧绷而关切的状态[E1]；其目光持续注视对方，伴随说话时双唇微张、表情凝重[E2]。结合字幕内容表达对对方一人在家的安全顾虑及可能出现的严重后果，其神态与姿态均展现出对未知风险的焦虑与关切。",
+  "open_emotion": "担忧",
+  "answer": "worried",
+  "mapping_reason": "目标人物的情绪核心在于对对方可能发生不幸后果的焦虑与顾虑，符合worried家族关于对负面结果和风险预期的定义，因此直接映射为worried。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01 (0.76s) - frame_04 (3.08s)",
+      "observation": "目标人物眉心微皱，双眼关切凝视前方，嘴角下垂且微张说话，面部神色凝重",
+      "interpretation": "体现出内心对眼前局面的不安与关切",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "你万一要想不开怎么办呢",
+      "observation": "台词表达对对方独处时可能发生极端情况的假设与牵挂",
+      "interpretation": "明确了视觉关切表象背后的焦虑原因是对负面后果的担忧",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "目标人物神态克制，身体姿态较为平稳，可能被解读为平稳交谈（neutral）或略带同情伤感（sad），但眉眼的紧绷与具体的危机预期强化了worried属性。"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00013200",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "e4bae7c80b439e4a7f0b4b40b4f348c523e3f9346140a2af207f7d850c976f73",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "愤怒",
+      "mapped_label": "angry",
+      "mapping_reason": "根据数据集情绪轮的定义，'angry'（愤怒）的情绪核心是针对受阻、冒犯或不公的生气、责备和对抗倾向。在当前片段中，目标人物使用了“背信弃义”这一带有强烈道德谴责色彩的词语，并以急促高音量的语调进行指责，同时配合双眼睁大等面部表情，这些都构成了明确的责备和对抗姿态。其情绪的指向是对方的行为，而非对未来的担忧或对已发生损失的悲伤，因此映射到'angry'是准确且无信息损失的。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "愤怒",
+      "mapped_label": "angry",
+      "mapping_reason": "说话者使用了‘背信弃义’这一带有强烈道德谴责意味的词语，并以高亢、快速的语调进行指责，其言语行为和声音韵律均表现出对抗和责备的倾向，符合‘愤怒’情绪的定义。"
+    },
+    "image": {
+      "open_emotion": "愤怒",
+      "mapped_label": "angry",
+      "mapping_reason": "根据情绪轮定义，'angry'指对受阻、冒犯或不公的生气、责备、敌意及对抗倾向。目标人物的面部表情（紧锁的眉毛、锐利的眼神）、姿态（身体前倾，面向对方）以及字幕和音频中指责性的语言（'背信弃义'、'抬价'）和质问的语调，都明确指向了责备和对抗的愤怒情绪，而非担忧、悲伤或惊讶。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "angry",
+  "emotion_analysis": "目标人物在与另一人对话时，其面部表情（如紧锁的眉毛、锐利的眼神）和声音特征（语调高亢、语速快）均表现出强烈的对抗性。字幕内容“可是你背信弃义，你一个劲地抬价”直接表达了对其行为的道德谴责。专家的视觉、音频和字幕证据均一致支持其处于愤怒状态。其中，[image:E1]和[audio_subtitle:E2]提供了直接且互补的证据，共同指向因对方行为而产生的责备和对抗情绪，符合'angry'的定义。",
+  "output": "目标人物在与另一人对话时，其面部表情（如紧锁的眉毛、锐利的眼神）和声音特征（语调高亢、语速快）均表现出强烈的对抗性。字幕内容“可是你背信弃义，你一个劲地抬价”直接表达了对其行为的道德谴责。专家的视觉、音频和字幕证据均一致支持其处于愤怒状态。其中，[image:E1]和[audio_subtitle:E2]提供了直接且互补的证据，共同指向因对方行为而产生的责备和对抗情绪，符合'angry'的定义。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 190.4799325466156
+}

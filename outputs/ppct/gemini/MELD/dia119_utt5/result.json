@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia119_utt5",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "结合节点person_0、person_1与process_0，Monica在对身旁男子说明情况时神情平稳，语调自然连贯，未出现剧烈的情绪起伏；随后的动作（person_2、person_3）显示她仅是将注意力转移至街机控制台上准备采取行动，整体表现处于务实且客观陈述的neutral状态。",
+  "output": "结合节点person_0、person_1与process_0，Monica在对身旁男子说明情况时神情平稳，语调自然连贯，未出现剧烈的情绪起伏；随后的动作（person_2、person_3）显示她仅是将注意力转移至街机控制台上准备采取行动，整体表现处于务实且客观陈述的neutral状态。\n<answer>neutral</answer>",
+  "label": "fear",
+  "elapsed_seconds": 53.46799325942993,
+  "node_count": 7,
+  "edge_count": 7
+}

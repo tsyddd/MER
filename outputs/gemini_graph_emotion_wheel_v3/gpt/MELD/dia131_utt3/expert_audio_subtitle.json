@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Rachel说“Oh, everything went great.”，字面是在报喜，但她说话时先低头、闭眼，随后摊开双手露出略显勉强的笑容；这些画面使这句肯定话更像带反讽的失意表达，而非单纯开心[E1][E2]。没有音频，不能据此判断她的语调。",
+  "open_emotion": "失望",
+  "answer": "sadness",
+  "mapping_reason": "此处将“失望”近似映射到sadness：判断依据是肯定话语与表情、动作之间的不一致，提示事情可能不如她所说的顺利；但片段未说明具体损失，映射有局限。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Oh, everything went great.",
+      "observation": "Rachel用肯定句称一切都很顺利。",
+      "interpretation": "字面支持愉快的解释，但是否反讽须结合画面，不能仅凭“great”判定情绪。",
+      "polarity": "uncertain"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02（0.542秒）、frame_04（1.084秒）至frame_06（1.627秒）",
+      "observation": "Rachel低头看手中的物品，短暂闭眼，随后摊开双手，露出较紧的笑容。",
+      "interpretation": "这一连串表现与轻松报喜不完全一致，较支持勉强、失意的解读。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是她确实在高兴地报告好消息：句子字面如此，后段也有笑容和开放的手势。缺少音频及后续话语，无法确认反讽或失望的程度。"
+}

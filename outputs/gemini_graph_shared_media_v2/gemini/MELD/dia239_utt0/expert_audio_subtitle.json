@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Gunther以平稳常态的语调发出简短询问，韵律上无剧烈音高起伏或紧张度，结合画面中平静的探询表情，言语行为属于单纯的日常信息求证，表达中性状态。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Someone in there?",
+      "observation": "台词为简单的常规疑问句，旨在向对方核实是否有人在里面，无带有情绪色彩的词汇。",
+      "interpretation": "属于常规信息确认的言语行为，语言本身没有明显的感情偏向。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.0s - 0.7s",
+      "observation": "Gunther发音音量中等，语速自然，语调仅呈现问句末端微弱的标准上升，音色平实且无紧绷或气声。",
+      "interpretation": "排除带有强烈情绪如愤怒、恐惧或惊讶的高唤醒声学特征，符合客观平静（neutral）沟通特点。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.250s",
+      "observation": "Gunther面部放松，眉头微蹙但没有夸张的挑眉、睁大眼睛或嘴角下撇。",
+      "interpretation": "视觉上配合声音呈现自然的日常探询神态，支持中性情绪状态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "疑问句句式可能被误判为带有轻微的surprise（惊讶/好奇），但音轨中无音高突升或突发性重音，视觉面部亦无震惊特征，故排除surprise。"
+}

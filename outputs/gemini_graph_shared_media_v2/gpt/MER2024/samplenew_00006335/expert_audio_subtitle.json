@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "字幕“关东军不是已经增兵甲子沟、煤矿了吗？”以反问形式表达对军事增兵情况的担忧或质疑；画面中人物持续眉头紧蹙、目光专注并紧握电话，严肃状态与忧虑语义一致，因此判断为worried，而非仅凭疑问句判为surprise或angry。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "当前字幕原话",
+      "observation": "说话者说“关东军不是已经增兵甲子沟、煤矿了吗？”，使用“不是……吗”的反问结构。",
+      "interpretation": "该反问是在强调一个令人不安的事实并寻求确认，支持担忧或警觉，而不只是中性提问。[E1]",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00至frame_07 @ 0.0至2.64秒",
+      "observation": "人物始终手持电话，眉头明显收紧，眼神专注，面部表情严肃。",
+      "interpretation": "持续的紧张、凝重视觉状态与字幕中对增兵事实的担忧相互一致，支持worried。[E2]",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "由于未提供音频，无法核实语调、停顿和音量；该反问也可能是较为平静的事实核询，因而neutral仍是较弱的替代解释。但画面中的紧蹙眉和凝重表情使其不如worried符合当前表达。"
+}

@@ -1,0 +1,63 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "说话人对另一人说“没想到，你竟然这么傻。”",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "说话人，女性，穿着紫色上衣，头发梳起，有发饰，面部表情悲伤，正在哭泣，嘴部有说话动作。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "另一人，女性，穿着浅蓝色上衣，戴着黑色帽子，侧脸对着说话人。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "场景在室外，背景有模糊的建筑和绿色植物。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "说话人正在与另一人进行对话。",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio",
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "temporal_relations": []
+}

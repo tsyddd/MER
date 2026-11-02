@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia226_utt3",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "554a2426d1927843a8eb1d72198c70c94dfcdf5ba4a53d703518ea9653b7a645",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "图像专家指出Rachel眉毛微皱、嘴唇紧闭，表现出不悦，与音频专家判断的平和语调及无情绪波动相矛盾；graph专家虽结合多模态线索推断为'悲伤'，但其描述中'无奈与希望'更接近'neutral'而非'anger'或'sadness'。综合来看，图像与音频存在冲突，但音频未提供情绪波动，且graph中'倾诉'与'期待'更符合中性关切，故取最一致的'neutral'。",
+  "output": "图像专家指出Rachel眉毛微皱、嘴唇紧闭，表现出不悦，与音频专家判断的平和语调及无情绪波动相矛盾；graph专家虽结合多模态线索推断为'悲伤'，但其描述中'无奈与希望'更接近'neutral'而非'anger'或'sadness'。综合来看，图像与音频存在冲突，但音频未提供情绪波动，且graph中'倾诉'与'期待'更符合中性关切，故取最一致的'neutral'。\n<answer>neutral</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 64.90343523025513
+}

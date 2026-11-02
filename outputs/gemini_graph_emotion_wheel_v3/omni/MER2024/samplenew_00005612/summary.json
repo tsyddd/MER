@@ -1,0 +1,9 @@
+{
+  "reason": "目标人物在多个连续帧中表情严肃、眼神专注，姿态沉稳，无明显情绪波动。其台词“请您转交给总理过目”为中性陈述，无情感色彩。音频中语调平稳，节奏正常，音量适中，无激动或低落迹象。综合来看，其表现符合中性状态。[image:E1] [audio_subtitle:E1] [subtitle:E1]",
+  "answer": "neutral",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E1",
+    "subtitle:E1"
+  ]
+}

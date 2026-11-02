@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia233_utt1",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "28377b2eb5597e7f5b05f1f254a992b627c9f9588a264363ea2c03cb09ddd88d",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "图像专家观察到皱眉、锐利眼神、紧抿嘴唇及强调性手势，明确指向当前的愤怒；图谱结论也支持其处于反驳和对抗状态，但其中部分描述可能与视觉或音频来源重复，不能视为完全独立证据。字幕“鱼把我吓坏了”表达的是被吓到的内容，未必等同于此刻的外显情绪，且音频专家未提供实际音轨，因此综合取愤怒。",
+  "output": "图像专家观察到皱眉、锐利眼神、紧抿嘴唇及强调性手势，明确指向当前的愤怒；图谱结论也支持其处于反驳和对抗状态，但其中部分描述可能与视觉或音频来源重复，不能视为完全独立证据。字幕“鱼把我吓坏了”表达的是被吓到的内容，未必等同于此刻的外显情绪，且音频专家未提供实际音轨，因此综合取愤怒。\n<answer>anger</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 85.93900084495544
+}

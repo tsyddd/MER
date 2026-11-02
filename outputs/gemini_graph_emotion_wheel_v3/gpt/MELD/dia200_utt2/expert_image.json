@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物是右侧穿红色条纹上衣的Joey，并非低头坐着的另外两人。他从指向自己转为朝同伴摊手，视线也随之移向对方，像是在逐一核对后提出疑问[E1][E2]。字幕中的反问支持他对结果感到不解，但“不解”主要是结合话语得出的解释，而非单凭表情就能确认[E3]。",
+  "open_emotion": "疑惑",
+  "answer": "surprise",
+  "mapping_reason": "他在核对几人都没拿之后追问是谁拿的，呈现对未预料结果的疑惑；在给定标签中最接近surprise，但这只是近似映射，不表示他明显受到惊吓或强烈震惊。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01（0.459秒）至frame_02（0.959秒）",
+      "observation": "Joey张口说话，抬手指向自己，随后低头看向手势。",
+      "interpretation": "动作符合正在核对自己是否做过某事，而非单凭张口判定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03（1.418秒）至frame_06（2.836秒）",
+      "observation": "Joey转向中间的同伴，伸出掌心向上的手，之后收回手并再次摊手；面部没有明显笑容。",
+      "interpretation": "视线和手势的转移支持他在向同伴寻求答案。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“And if she didn’t take it, and I didn’t take it; and you didn’t take it, then who did?”",
+      "observation": "话语逐一排除可能的人，最后询问是谁拿的。",
+      "interpretation": "反问为视觉上的询问姿态提供了疑惑的语义依据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "Joey的动作有条理，未见明显睁大眼或骤然退缩；也可能只是在平静地推理。因此surprise的支持限于轻微的意外与不解，不能解读为震惊。"
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Monica在音频中音调急剧升高且紧绷，以强烈的排比重音连续进行严厉批评与控诉[E1]，语义明确斥责笑话不可笑且具有侮辱性[E2]，结合视觉上前倾逼近的对抗姿态[E3]，充分体现出愤怒（anger）情绪。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "0.0s-4.8s",
+      "observation": "说话人音量大且音调高亢紧绷，随着“offensive to women”、“and doctors”、“and monkeys”层层加重语势与重音，带有明显的质问与愤慨语气",
+      "interpretation": "强烈的言语冲击力与抗议式语调展现了明显的怒气与攻击性，支持anger",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "The joke is not funny, and it’s offensive to women, and doctors, and monkeys!",
+      "observation": "使用否定词与强烈负面评价词（not funny, offensive），并用并列递进句式进行严肃声讨",
+      "interpretation": "言语行为属于强烈的批评与斥责，表达对该笑话的义愤",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_06 @ 4.21s",
+      "observation": "身体前倾，瞪视对方，面部肌肉紧绷，张口大声争辩",
+      "interpretation": "身体语言呈现侵略性和激动状态，印证声音中的愤怒",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "词义包含'offensive'可能被误解读为disgust（反感/厌恶），但其发音方式充满冲撞力与严厉斥责，而非鄙夷退缩，故更符合anger。"
+}

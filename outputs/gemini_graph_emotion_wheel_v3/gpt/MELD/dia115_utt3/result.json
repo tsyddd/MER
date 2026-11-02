@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia115_utt3",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "3c926295d3796c3783dc09d63fc430c57ea2b6d5e57398d0b9b8039178cc2219",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "不满",
+      "mapped_label": "anger",
+      "mapping_reason": "这里的不满指向对Chandler所称动作的否定和责备，按情绪轮归入anger；画面不支持将其说成强烈愤怒。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "恼火",
+      "mapped_label": "anger",
+      "mapping_reason": "这里的恼火主要体现为对对方做法的批评，符合anger中责备、不满的方向；证据不支持强烈愤怒。"
+    },
+    "image": {
+      "open_emotion": "平稳",
+      "mapped_label": "neutral",
+      "mapping_reason": "Ross当前的面部和姿态未显示明确占主导的愤怒、喜悦或其他强烈反应，因此将“平稳”映射为neutral；这不表示他的话没有揶揄意味。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "核对字幕，Ross用“shrieking like a girl”挖苦对方，并明确否定其动作算作“backhand”；[audio_subtitle:E1]对这句带刺纠正的解读有依据，但它也可能是揶揄。画面右侧的Ross在前几帧面向对方说话，末尾略低头，未见激烈动作；[image:E1]对其表现克制的观察可信，却不足以把有明确责备方向的话语判为中性。综合措辞与画面，更接近轻度不满，而非强烈愤怒。",
+  "output": "核对字幕，Ross用“shrieking like a girl”挖苦对方，并明确否定其动作算作“backhand”；[audio_subtitle:E1]对这句带刺纠正的解读有依据，但它也可能是揶揄。画面右侧的Ross在前几帧面向对方说话，末尾略低头，未见激烈动作；[image:E1]对其表现克制的观察可信，却不足以把有明确责备方向的话语判为中性。综合措辞与画面，更接近轻度不满，而非强烈愤怒。\n<answer>anger</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 85.99384832382202
+}

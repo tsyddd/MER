@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00021868",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "525b131426b19ccc086afb01c3de0dac946463a250271f0d8e2481091c04e506",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "低落",
+      "mapped_label": "sad",
+      "mapping_reason": "当前可见的持续低落神情更接近情绪轮中sad的低落表达；这是对当下表现的判断，不等于已证实他因某件往事而悲伤。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "迟疑不安",
+      "mapped_label": "worried",
+      "mapping_reason": "当前较有依据的是面对未知时的顾虑，因此将“迟疑不安”映射到worried；字幕未说出具体担忧的后果，这一映射有一定限制。"
+    },
+    "image": {
+      "open_emotion": "不安",
+      "mapped_label": "worried",
+      "mapping_reason": "不安在此指对未知事情的顾虑，按情绪轮映射为worried；但片段没有明确呈现所担忧的具体后果，因此判断强度有限。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "前3帧的华服男子不是目标；第4至8帧的浅衣男子持续垂眼、眉间微蹙，神情显得低落，[graph:E1]对这一可见表现的描述可信。字幕“也不知道，当年，三哥。”确有不确定之意，但话题指向过去，未提到尚未发生的负面后果，因此[audio_subtitle:E1]不足以支持担忧。低落也可能只是斟酌话语，且片段未提供音轨；综合当前表情，选择sad，不推断具体往事。",
+  "output": "前3帧的华服男子不是目标；第4至8帧的浅衣男子持续垂眼、眉间微蹙，神情显得低落，[graph:E1]对这一可见表现的描述可信。字幕“也不知道，当年，三哥。”确有不确定之意，但话题指向过去，未提到尚未发生的负面后果，因此[audio_subtitle:E1]不足以支持担忧。低落也可能只是斟酌话语，且片段未提供音轨；综合当前表情，选择sad，不推断具体往事。\n<answer>sad</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 84.40620541572571
+}

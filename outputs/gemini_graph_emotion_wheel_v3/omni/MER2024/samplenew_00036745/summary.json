@@ -1,0 +1,12 @@
+{
+  "reason": "目标人物在陈述完信息后，以平稳的语调说出‘我去查’，其肢体动作（抬手指向屏幕）与言语内容（主动承接任务）一致，表现出一种明确的行动意愿。三位专家均观察到其语调平稳、无明显情绪波动，面部表情平静，符合‘neutral’的定义。其中，[audio_subtitle:E2]和[image:E4]直接证实了其语调平稳，[image:E1]和[image:E2]证实了其表情平静，这些证据共同支持了中性情绪的判断。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "audio_subtitle:E2",
+    "image:E1",
+    "image:E2",
+    "image:E3",
+    "image:E4"
+  ]
+}

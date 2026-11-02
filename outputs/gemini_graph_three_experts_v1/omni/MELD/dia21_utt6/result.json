@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia21_utt6",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "bf42e3a608598de26188e2d4e2714eda6e90f3de2c795d77c68bb3237d71f5d1",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "图像专家和图谱专家均指出Phoebe面带微笑、姿态亲昵，与'joy'一致；音频专家认为语调上扬并带讽刺，符合'surprise'。但图谱专家补充了轻笑声和调侃姿态，且音频中的'seriously'更可能表达惊讶而非讽刺，结合多源证据，'surprise'更贴合其对话语境。",
+  "output": "图像专家和图谱专家均指出Phoebe面带微笑、姿态亲昵，与'joy'一致；音频专家认为语调上扬并带讽刺，符合'surprise'。但图谱专家补充了轻笑声和调侃姿态，且音频中的'seriously'更可能表达惊讶而非讽刺，结合多源证据，'surprise'更贴合其对话语境。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 29.09878945350647
+}

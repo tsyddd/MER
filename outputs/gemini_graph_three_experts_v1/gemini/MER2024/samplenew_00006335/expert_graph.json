@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载男子在日式室内手持电话听筒通话〔context_0, person_0〕，向对方核实‘关东军不是已经增兵甲子沟煤矿了吗’〔process_0〕。虽然其语气低沉且带有疑问〔person_1〕，但面部神态平静，仅为常态下的信息核实与询问，并未显现出愤怒、悲伤或焦虑等强烈情绪，当前状态属于中性。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "context_0",
+    "person_0",
+    "process_0",
+    "person_1"
+  ]
+}

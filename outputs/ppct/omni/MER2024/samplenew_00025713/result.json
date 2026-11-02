@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00025713",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "音频中说话者语速较快，音量中等，内容为“你。你。怎么知道的？”，表现出对信息来源的惊讶与追问。视觉上，其面部表情和嘴部动作与该话语内容一致，注意力集中在对方的言语上。该表达结合了惊讶的语气和追问的内容，符合“surprise”情绪。",
+  "output": "音频中说话者语速较快，音量中等，内容为“你。你。怎么知道的？”，表现出对信息来源的惊讶与追问。视觉上，其面部表情和嘴部动作与该话语内容一致，注意力集中在对方的言语上。该表达结合了惊讶的语气和追问的内容，符合“surprise”情绪。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 75.41970872879028,
+  "node_count": 6,
+  "edge_count": 1
+}

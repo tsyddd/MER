@@ -1,0 +1,15 @@
+{
+  "reason": "目标人物Rachel的质问内容（'Did you get all this stuff for Joey to try and drive me out of the apartment?'）直接表达了对他人行为的怀疑和不满，指控对方试图将自己赶出公寓，这是愤怒情绪的典型表达。她的面部表情（眉头紧锁、眼神直视）和身体姿态（左手叉腰）与质问的语气相匹配，显示出一种对抗和责备的态势。三个专家的证据均一致支持这一判断：[image:E1]、[image:E2]、[image:E3]从视觉上证实了其愤怒的表情和对抗姿态；[audio_subtitle:E1]、[audio_subtitle:E2]、[audio_subtitle:E3]从音频和字幕上证实了其责备的语义和尖锐的质问语气；[graph:E1]、[graph:E2]、[graph:E3]从图谱上描述了其清晰连贯且带有疑问升调的语调，支持了严肃质问的语境。综合来看，所有证据共同指向一种因感到被针对或不公而产生的愤怒情绪。",
+  "answer": "anger",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "image:E3",
+    "audio_subtitle:E1",
+    "audio_subtitle:E2",
+    "audio_subtitle:E3",
+    "graph:E1",
+    "graph:E2",
+    "graph:E3"
+  ]
+}

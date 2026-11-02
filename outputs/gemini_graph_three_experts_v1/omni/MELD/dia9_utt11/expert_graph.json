@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "Rachel在组织文本中表现出闭眼低头的动作（person_1），随后单手举起烧损的蓝色毛衣进行展示（person_2），结合她抱怨床和衣服被毁的言语内容（process_0），这些行为共同指向一种对损失的懊恼或无奈情绪。图谱记载中，她先闭眼低头再展示物品，暗示情绪波动后的整理与表达，符合对损失的负面情绪反应。",
+  "answer": "sadness",
+  "evidence_refs": [
+    "person_1",
+    "person_2",
+    "process_0"
+  ]
+}

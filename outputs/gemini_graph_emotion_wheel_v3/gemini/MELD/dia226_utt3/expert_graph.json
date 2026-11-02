@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "围绕目标人物Rachel的当前互动，她在咖啡馆沙发上向Phoebe讲述自己对交往对象的期许[process_0]。从图谱记录的语音特征[person_1]并结合实际音轨核查可知，Rachel在说出愿望时语调平稳自然，语速平缓，并未伴随哭腔、沉重叹息或激烈的起伏；其双手抬起比划并收回[person_2, person_3]属于日常陈述时的辅助性手势，面部肌肉放松、神态自如，整体呈现出平稳且客观的闺蜜倾诉状态。",
+  "open_emotion": "平稳倾诉",
+  "answer": "neutral",
+  "mapping_reason": "Rachel虽在言语中透露出希望对方敞开心扉的期许，但整体表现平淡从容、没有明显的悲伤失落或烦躁对抗，情绪基调处于日常平稳的交谈状态，契合neutral定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱记录Rachel以平缓略带感叹的语调说话，经核查实际音轨其声调平稳、语速温和自然，无剧烈情绪起伏。",
+      "interpretation": "表明Rachel此时仅处于日常闲聊交流状态，未被强烈的负向情绪驱动。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02",
+      "observation": "Rachel面向Phoebe交谈时，双手自然抬起在胸前张开比划，神态平静专注，眼眶与唇角无下垂或紧绷迹象。",
+      "interpretation": "视觉体态属于典型的说明性谈话手势，支持其当前表现平稳无主导极端情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Y’know, I wish I could get him to open up a little bit, share some feelings.",
+      "observation": "台词表达的是对伴侣沟通方式的常规愿望与感慨。",
+      "interpretation": "语义虽包含一定期许，但属于日常情感分享话题，未达到失落或受阻的负面情感烈度。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词中的“wish”与双手微摊动作容易被理解为因对方不愿沟通而产生的失落或沮丧（sadness），但音轨中无低沉哀婉的腔调，面部亦无沮丧哀伤的神情，故排除了实质性的悲伤。"
+}

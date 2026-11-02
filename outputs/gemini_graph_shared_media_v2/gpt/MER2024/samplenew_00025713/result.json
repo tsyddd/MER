@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00025713",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "6276692c6cfc354003e575f92e375614a390c427cbb800fa58633127fa42f7c5",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "目标人物是白衣少年；frame_05至frame_07中其眉毛抬高、眼睛睁大且嘴巴明显张开，构成连续的突发反应，支持surprise[image:E1]。[graph:E1]对后段视觉变化的转述与画面一致，但图谱中的声音部分因audio_provided=false不能直接核验。字幕“你。你。怎么知道的？”显示他在得知对方知情后立即追问，和上述视觉变化相互补充[ audio_subtitle:E1]。前段短暂皱眉、闭眼也可解释为担忧或防备，但不足以超过后段持续睁眼张口的惊讶表现。",
+  "output": "目标人物是白衣少年；frame_05至frame_07中其眉毛抬高、眼睛睁大且嘴巴明显张开，构成连续的突发反应，支持surprise[image:E1]。[graph:E1]对后段视觉变化的转述与画面一致，但图谱中的声音部分因audio_provided=false不能直接核验。字幕“你。你。怎么知道的？”显示他在得知对方知情后立即追问，和上述视觉变化相互补充[ audio_subtitle:E1]。前段短暂皱眉、闭眼也可解释为担忧或防备，但不足以超过后段持续睁眼张口的惊讶表现。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 206.2839891910553
+}

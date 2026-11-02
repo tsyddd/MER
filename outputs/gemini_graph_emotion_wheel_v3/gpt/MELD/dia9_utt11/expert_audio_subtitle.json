@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Rachel说“My bed. My clothes.”，逐一列出受损的私人物品，又说“Look at my favorite blue sweater.”，强调自己特别珍惜的东西也遭到损坏[E1][E2]。她随后低头拿起毛衣，神情低落[E3]；话语和画面共同指向失落，而非主要在责备他人。本片段未提供音频，不能判断语调或音量。",
+  "open_emotion": "失落",
+  "answer": "sadness",
+  "mapping_reason": "失落针对已经发生的损失，符合sadness所涵盖的因失去或损坏而难过的体验。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“Everythings ruined. My bed. My clothes.”",
+      "observation": "Rachel说东西都毁了，并接连点出床和衣服。",
+      "interpretation": "她关注的是已经发生的损失，支持失落。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "“Look at my favorite blue sweater.”",
+      "observation": "她请人看自己最喜欢的蓝色毛衣。",
+      "interpretation": "“favorite”说明这件受损物品对她有个人价值，加重失落的解释。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_03（1.084秒）至frame_07（2.502秒）",
+      "observation": "Rachel垂下目光，随后拿起并展示手中的衣物，表情未见笑意。",
+      "interpretation": "动作与话语中的损失相呼应，较符合低落而非愉快或平常的表达。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "“Everythings ruined”也可能表达恼火；但当前话语没有明确责备对象，画面更突出她对受损衣物的注视。没有音频，无法进一步用声音区分失落与愤怒。"
+}

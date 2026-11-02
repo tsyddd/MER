@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标人物在多个帧中表现出睁大眼睛、眉毛上扬、嘴巴微张的面部特征，这些是惊讶的典型视觉表现。字幕内容“怎么？他不好对付啊。”与音频中的疑问语气一致，支持了惊讶的判断。没有观察到皱眉、嘴角下撇等与悲伤或愤怒相关的特征，也没有微笑等与快乐相关的特征，因此惊讶是最符合视觉和文本证据的解释。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.6",
+      "observation": "目标人物的眉毛明显上扬，眼睛睁大，嘴巴微张。",
+      "interpretation": "这是惊讶或震惊的典型面部表情。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 0.88",
+      "observation": "目标人物的眉毛保持上扬，眼睛睁大，嘴巴张开幅度更大。",
+      "interpretation": "表情的强度增加，进一步支持惊讶的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "怎么？他不好对付啊。",
+      "observation": "字幕显示了带有疑问语气的句子。",
+      "interpretation": "字幕内容与视觉上的惊讶表情相符，共同指向惊讶的情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "音频中可以听到“怎么？他不好对付啊。”这句话，语调上扬，带有疑问和意外感。",
+      "interpretation": "音频的语调与视觉表情一致，证实了惊讶的情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无明确的反证。虽然表情较为克制，但睁大的眼睛和上扬的眉毛是惊讶的有力证据，不足以支持neutral或worried的判断。"
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者语气平稳，语速正常，没有明显的音高或音量变化，表明情绪稳定。字幕内容为陈述性话语，无明显情绪词，结合其表情和姿态，未表现出愤怒、悲伤或喜悦等强烈情绪。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00.000 - 00:02.840",
+      "observation": "说话者语调平稳，节奏正常，无明显情绪波动。",
+      "interpretation": "平稳的语调和正常的语速通常与中性情绪相关，未表现出激动或低落。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "再这么，烧下去的话，传到高家。",
+      "observation": "字幕内容为客观陈述，无情绪化词汇。",
+      "interpretation": "话语内容本身不带有明显情绪色彩，支持中性判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 - frame_07",
+      "observation": "说话者表情平静，姿态稳定，无明显情绪变化。",
+      "interpretation": "视觉表现与音频和字幕一致，均未显示强烈情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无明确反证，但若说话者语调有细微变化或字幕有情绪词，则可能支持其他情绪。"
+}

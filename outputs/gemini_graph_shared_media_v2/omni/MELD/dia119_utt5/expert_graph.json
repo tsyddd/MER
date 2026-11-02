@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "Monica的言语内容（'But Ben is coming over tonight and he can't see this'）和其将手伸向街机的动作表明，她正在为某个即将发生的情况做准备，可能是在隐藏或处理某件事情。她的表情从平静到略带一丝狡黠的微笑，结合其动作，更倾向于一种带有秘密或小计谋的情绪，而非中性。图谱中的节点'process_1'描述了她说话并伸手的动作，这与她试图隐藏某物的行为相符，支持了她情绪并非中性的判断。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:02.335",
+      "observation": "Monica说：'But Ben is coming over tonight and he can't see this.'",
+      "interpretation": "这句话表明她正在为一个即将到来的事件做准备，并且这个事件是需要被隐藏的。这暗示了一种秘密或小计谋的氛围。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 00:01.001",
+      "observation": "Monica将一只手伸向街机控制台表面。",
+      "interpretation": "这个动作表明她正在与街机互动，可能是在隐藏或准备某样东西，这与她言语中提到的'he can't see this'相呼应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "节点'process_1'描述了Monica说话并伸手的动作。",
+      "interpretation": "该节点将她的言语和动作连接起来，表明她正在为某个事件做准备，这与'joy'的情绪相符，因为她可能在计划一个惊喜或恶作剧。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "一个可能的替代解释是'neutral'，因为她的语调听起来很平稳。然而，她的表情和动作表明她不仅仅是中性的，而是在积极参与一个情境。"
+}

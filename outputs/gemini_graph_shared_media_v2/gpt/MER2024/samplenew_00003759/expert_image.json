@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物是穿黄色花纹上衣的女性。她在frame_00中直视旁人，眉毛略抬、眼睛睁开，嘴唇先抿紧；到frame_06至frame_07转头后张口、眼睛短暂闭合，整体呈现对信息的即时反应。字幕“是吗？才真这么说的。”与这种带有询问和意外色彩的表情相符，但因缺少音轨，不能进一步判断语气强弱。[E1][E2]",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒",
+      "observation": "目标人物面向旁人，眉毛略抬、眼睛睁开，嘴唇抿紧，视线集中在对方身上。",
+      "interpretation": "抬眉和集中注视支持对刚听到的信息感到意外或需要确认。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_06至frame_07 @ 1.8至2.12秒",
+      "observation": "目标人物转向一侧，嘴巴张开，眼睛在frame_07中闭合，正在做出明显的口部反应。",
+      "interpretation": "相较前段的抿嘴，张口反应更支持即时的惊讶或反问表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "当前字幕“是吗？才真这么说的。”",
+      "observation": "字幕包含“是吗？”这一确认式问句。",
+      "interpretation": "语义与惊讶、难以置信的视觉解释相符，但字幕不能单独证明具体语气。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "目标人物没有持续明显的张大眼睛、后仰或强烈夸张表情；抿嘴和后段张口也可能是质疑或轻微恼怒。由于没有音轨，无法用语调区分惊讶与防御性回应。"
+}

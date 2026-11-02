@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia50_utt2",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "fear",
+  "emotion_analysis": "目标人物为画面中躲在男性身后的女学生。她处于混乱的肢体冲突场景中并说“I'm so sorry!”，表现出明显的害怕和紧张，而非平静或喜悦。",
+  "output": "目标人物为画面中躲在男性身后的女学生。她处于混乱的肢体冲突场景中并说“I'm so sorry!”，表现出明显的害怕和紧张，而非平静或喜悦。\n<answer>fear</answer>",
+  "label": "fear",
+  "elapsed_seconds": 21.32197141647339,
+  "node_count": null,
+  "edge_count": null
+}

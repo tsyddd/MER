@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者Janice用一种刻意、夸张且带有明显嘲讽意味的语调说出'Good-bye Chandler Bing'。她的语速缓慢，每个词都拖长了音，尤其在'Chandler Bing'上，表现出一种夸张的、不真诚的告别。这种表达方式与字幕内容'Good-bye Chandler Bing'相结合，强烈暗示了她对Chandler的厌恶和反感，而非字面意义上的告别。因此，这是一种典型的反讽和厌恶的言语行为。",
+  "open_emotion": "厌恶",
+  "answer": "disgust",
+  "mapping_reason": "根据MELD项目的定义，'disgust'指对令人反感、恶心或难以接受的对象的排斥与厌弃。Janice的言语行为（反讽的告别）和夸张的语调，明确地表达了她对Chandler的强烈反感和排斥，这与'disgust'的语义高度一致。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "说话者Janice用一种缓慢、拖长且带有明显嘲讽意味的语调说出'Good-bye Chandler Bing'。",
+      "interpretation": "这种夸张的语调和语速表明她并非真心告别，而是在用一种讽刺的方式表达对Chandler的厌恶和反感。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Good-bye Chandler Bing.",
+      "observation": "字幕显示的告别语是'Good-bye Chandler Bing'。",
+      "interpretation": "该字幕内容与说话者的反讽语调形成鲜明对比，证实了这是一种反讽的言语行为，其真实意图是表达负面情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。"
+}

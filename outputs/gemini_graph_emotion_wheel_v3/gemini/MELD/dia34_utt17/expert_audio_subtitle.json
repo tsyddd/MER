@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Monica在听到Rachel的言论后，用极其严厉、高亢且斥责的语调直接回击。音频中她在开头重读呼唤“Rachel!”，随后以坚定、快速且加重音量的语气强调“never gonna think it's okay for you to cheat on your husband!”，带有明确的道德谴责与对抗态度，表明对对方出轨想法的强烈愤慨与不满。",
+  "open_emotion": "愤慨",
+  "answer": "anger",
+  "mapping_reason": "Monica对对方违背道德与原则的行为提出严正责备与反驳对抗，完全符合anger家族中“愤慨/责备与对抗”的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00 - 00:03.5",
+      "observation": "Monica以高声调喊出“Rachel!”，并在“never”和“cheat on your husband”上施加重音，语速紧凑且音量较大，带有明显的质问与斥责质感。",
+      "interpretation": "语调和重音显示出说话者强烈的恼怒、坚定立场与严肃指责。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Rachel! I’m never gonna think it’s okay for you to cheat on your husband!",
+      "observation": "言语行为为直接否定与道德谴责，坚决表明绝不认同对方出轨。",
+      "interpretation": "话语内容明确指向对不当行为的排斥与责备对抗，语义本身具备强烈的怒气效价。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02至frame_07 (1.04s - 3.58s)",
+      "observation": "Monica身体端坐转向Rachel，双眼直视对方，神情严肃紧绷，嘴角紧抿且面带责备之意。",
+      "interpretation": "视觉表情与坚决斥责的语音语义完全一致，佐证了愤慨情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽然情境具有夸张的喜剧戏剧性，且言辞中可能包含对朋友荒谬行为的不可思议感（偏惊讶），但Monica发声的重心是严肃定性与道德对抗，并非被动惊诧。"
+}

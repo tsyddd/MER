@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "Gunther当前是在向Chandler询问里面是否有人[E1]；随后Chandler转身面向他[E2]，画面与图谱的动作顺序相符，但不能据此推断Gunther因对方转身而产生某种情绪。Gunther发问时神情较平稳，没有明显惊吓或愤怒表现[E3]。字幕与图谱对提问的描述属同一事件，不算两份独立的情绪证据。图谱person_1所述的“轻微疑问语调”是音频派生转述；未收到原音轨，无法亲耳核验，也不据此定性。综合可核实的当前表现，选择neutral。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Someone in there?",
+      "observation": "当前字幕是一句询问里面是否有人的话。",
+      "interpretation": "说明Gunther正在求取信息；疑问句本身不等于惊讶或恐惧。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "图谱记载Chandler随后转头、转身面向Gunther；后段画面可见这一动作。",
+      "interpretation": "这是他人对当前提问的动作回应，只能帮助界定互动，不能充当Gunther情绪变化的证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.5004996114133452秒",
+      "observation": "Gunther面向右侧开口，眉眼和身体姿态未见明显夸张变化。",
+      "interpretation": "与平稳发问相符，未见足以支持惊吓或愤怒的当前表情。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "“Someone in there?”也可能出于担心或惊讶；但仅凭问句无法区分这些动机，当前画面也未见相应的明显情绪表现。"
+}

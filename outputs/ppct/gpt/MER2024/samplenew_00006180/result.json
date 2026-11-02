@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00006180",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物是课堂中的女教师，当前画面中她面向学生直立发言并连续提问，对应person_0、person_1、person_3及process_0、process_1、process_2。字幕内容是询问小毛驴外形并表示自己没见过，属于课堂信息询问；虽有张嘴和短暂歪头，但没有足以确认愤怒、悲伤、开心或惊讶的表情证据。男学生后续“我知道”及其笑脸对应process_3、person_4，不属于目标人物。",
+  "output": "目标人物是课堂中的女教师，当前画面中她面向学生直立发言并连续提问，对应person_0、person_1、person_3及process_0、process_1、process_2。字幕内容是询问小毛驴外形并表示自己没见过，属于课堂信息询问；虽有张嘴和短暂歪头，但没有足以确认愤怒、悲伤、开心或惊讶的表情证据。男学生后续“我知道”及其笑脸对应process_3、person_4，不属于目标人物。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 81.81322860717773,
+  "node_count": 12,
+  "edge_count": 15
+}

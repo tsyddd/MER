@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "Monica的面部表情和手势表现出强烈的不满和激动。她的眉毛皱起，嘴巴张开，眼神坚定，伴随着强调性的手势，这些是愤怒情绪的典型视觉表现。字幕内容“这个笑话不好笑，而且冒犯了女性、医生和猴子”直接表达了她的负面评价，与视觉上的激动状态一致。音频中她的语调尖锐、语速快，进一步证实了愤怒的情绪。",
+  "open_emotion": "愤怒",
+  "answer": "anger",
+  "mapping_reason": "根据MELD项目的情绪轮，'anger'（愤怒）被定义为对冒犯、受阻或不公的恼火、责备与对抗。Monica的言语内容直接表达了对某个笑话的强烈不满和责备，其面部表情（皱眉、张嘴）和肢体语言（手势）也表现出对抗和激动的状态，这些视觉和听觉证据共同指向了'anger'这一类别。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "Monica的眉毛皱起，嘴巴微张，表情显得激动和不满。",
+      "interpretation": "这是愤怒或强烈不满的典型面部表情。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02",
+      "observation": "Monica张开嘴巴，似乎在大声说话，同时右手抬起做出手势。",
+      "interpretation": "强调性的手势和张开的嘴是表达强烈情绪（如愤怒）时的常见姿态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "The joke is not funny, and it's offensive to women, and doctors, and monkeys!",
+      "observation": "字幕内容为对某个笑话的强烈负面评价。",
+      "interpretation": "言语内容直接表达了对某事的愤怒和谴责，为视觉表现提供了语义支持。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "00:00-00:04",
+      "observation": "音频中Monica的语调尖锐、语速快，语气激动。",
+      "interpretation": "激动的语调与愤怒的情绪状态相符，强化了视觉信息。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。所有证据都一致指向愤怒情绪，没有与之矛盾的视觉或听觉信息。"
+}

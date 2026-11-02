@@ -1,0 +1,9 @@
+{
+  "reason": "独立核验视频与音频，Rachel在下飞机回应空乘时，全程展现出放松自然的灿烂露齿微笑[image:E1][image:E2]，并在实际音频00:01-00:04中以轻快上扬、含笑的语调真诚回应“Yes, I did. Thank you very much, it was excellent.”[audio_subtitle:E2]。最强反证认为这可能仅是机舱场景下的礼貌社交客套（neutral），但其强烈的积极词汇评价结合持续明朗的笑容与轻快声调，明显超越了平稳中性的常规礼节边界，属于明确的正向愉悦体验，应判定为joy。",
+  "answer": "joy",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "audio_subtitle:E2"
+  ]
+}

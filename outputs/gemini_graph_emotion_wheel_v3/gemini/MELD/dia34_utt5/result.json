@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia34_utt5",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "4372539d1352a67af87f434a2856e5389f0e24e45435ccb679dbf48998afbc94",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "震惊",
+      "mapped_label": "surprise",
+      "mapping_reason": "Rachel面对违背预期的事实产生强烈的认知冲击与惊呼，根据情绪轮定义，因突破预期的惊异反应属于surprise家族，故映射为surprise。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "震惊",
+      "mapped_label": "surprise",
+      "mapping_reason": "当前言语行为为对意外事实的惊呼与感叹，音高突升、重音突出，符合情绪轮中面对违背预期的突发事实而感到诧异与震惊的surprise定义。"
+    },
+    "image": {
+      "open_emotion": "震惊",
+      "mapped_label": "surprise",
+      "mapping_reason": "面对超出预期的惊人信息（30岁还是处女）产生强烈的冲击感与不可思议反应，符合情绪轮中surprise（惊讶/惊奇/震惊）的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "回看原始画面与音轨，Rachel在frame_00即呈现极为标准的突发惊讶神态：双眼睁大、嘴唇张成明显的圆形[image:E1]；音频中起手以极高音调和吸气感大声惊呼“Oh my God!”[audio_subtitle:E1]，随后以强调重音道出“You’re a 30 year old virgin!”，多模态线索高度一致且互补。虽然随后带有八卦探询或调侃的互动色彩，但其核心驱动完全来自于面对打破常理预期的私密事实时的巨大心理冲击，符合情绪轮中surprise（震惊/诧异）的定义。",
+  "output": "回看原始画面与音轨，Rachel在frame_00即呈现极为标准的突发惊讶神态：双眼睁大、嘴唇张成明显的圆形[image:E1]；音频中起手以极高音调和吸气感大声惊呼“Oh my God!”[audio_subtitle:E1]，随后以强调重音道出“You’re a 30 year old virgin!”，多模态线索高度一致且互补。虽然随后带有八卦探询或调侃的互动色彩，但其核心驱动完全来自于面对打破常理预期的私密事实时的巨大心理冲击，符合情绪轮中surprise（震惊/诧异）的定义。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 54.161004066467285
+}

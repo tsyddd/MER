@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia109_utt4",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "b1102943bbcf1af1e117a380fae997536de4112a2f80180e05feb45af20ee7b2",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据MELD项目的情绪轮定义，'surprise'（惊讶）指面对违背预期的信息而感到意外、诧异或惊奇。Janice的反问语调和随之而来的强调性手势，是她对当前对话内容感到意外和难以置信的直接表现，这与'惊讶'的语义完全吻合。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据提供的情绪轮定义，'surprise'（惊讶）被描述为'面对违背预期的信息而意外、诧异或惊奇'。说话者Janice的反问语气和上扬的语调，结合她的话语内容，表明她对听到的信息感到意外和难以置信，这与'surprise'的定义完全吻合。"
+    },
+    "image": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据情绪轮的定义，'surprise'是面对违背预期的信息而产生的意外、诧异或惊奇。Janice的面部表情（睁大的眼睛、上扬的眉毛）和手势（摊开的双手）是惊讶的直接视觉证据，与她所说的话“Are you sure?”（你确定吗？）在语义上完全吻合，表明她对某事感到意外和难以置信。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "目标人物Janice的语调上扬，说出'Oh, are you sure?'，表现出对信息的怀疑和意外。她的面部表情从平静转为睁大眼睛、张开嘴巴，同时手势从抱臂变为摊开双手，这些视觉和语言线索共同指向惊讶情绪。三个专家的证据均一致支持此判断，其中[graph:E4]和[audio_subtitle:E2]分别从声学和视觉角度提供了关键佐证。",
+  "output": "目标人物Janice的语调上扬，说出'Oh, are you sure?'，表现出对信息的怀疑和意外。她的面部表情从平静转为睁大眼睛、张开嘴巴，同时手势从抱臂变为摊开双手，这些视觉和语言线索共同指向惊讶情绪。三个专家的证据均一致支持此判断，其中[graph:E4]和[audio_subtitle:E2]分别从声学和视觉角度提供了关键佐证。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 212.94114804267883
+}

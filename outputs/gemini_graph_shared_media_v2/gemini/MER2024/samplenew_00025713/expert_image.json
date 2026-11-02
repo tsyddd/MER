@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物（穿白色长袖的主体少年）在听到对方说话后，眼睛圆睁、视线固定在对方身上，并在[E1]和[E2]中嘴巴逐渐张大呈‘O’型，伴随[E3]中结巴质问台词，呈现出被猝不及防揭晓事实后的典型惊诧与意外反应（surprise）。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.36s",
+      "observation": "目标人物双眼睁大，双眉平展微扬，下唇微张，视线迅速侧向看向说话对象，身体呈定格姿态。",
+      "interpretation": "表现出接收到突发信息时的愣怔与初步惊异。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_07 @ 2.48s",
+      "observation": "双眼圆瞪，瞳孔微敛，下颌明显下落，嘴部大张呈圆形，神态僵滞凝视对方。",
+      "interpretation": "眼部扩大与张嘴形成典型的惊愕/吃惊视觉特征，强力支持surprise。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "你。你。怎么知道的？",
+      "observation": "字幕连续停顿、结巴发问‘你。你。怎么知道的？’",
+      "interpretation": "印证了因秘密被道破而产生的意外与不敢置信。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "秘密被戳穿时可能伴随慌乱或担忧（worried），但其眉心并无皱缩或上提拉扯的担忧愁容，主要特征全集中在瞪眼张嘴的突发惊愕构型，因此surprise更为贴切。"
+}

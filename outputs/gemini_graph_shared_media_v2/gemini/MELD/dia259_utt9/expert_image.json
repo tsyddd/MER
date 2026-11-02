@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物全程保持双手在胸前紧扣的前倾姿态，面部嘴角明显上扬并展现出明显的笑意[E1]，结合音轨中轻快且含笑的语调[E2]，表明台词[E3]属于戏谑调侃而非真正攻击，整体呈现出愉悦开心的状态。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_05 @ 1.50s",
+      "observation": "Monica 双手在胸前紧扣，身体前倾，嘴角显著上扬微笑，眼周肌肉收缩舒展。",
+      "interpretation": "展现出看热闹或调侃时的愉悦、兴奋神态，而非愤怒或冷淡。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0:00-0:02",
+      "observation": "说话语调轻快上扬，伴随明显的笑意。",
+      "interpretation": "排除了愤怒、厌恶或严肃指责的可能，强化了戏谑愉悦的情绪表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "You are both idiots.",
+      "observation": "台词内容为批评指责对方。",
+      "interpretation": "字面语义可能被误认为愤怒或反感，但与视觉上的持续微笑及轻快语调存在反差，属于典型的玩笑嘲弄。",
+      "polarity": "counter"
+    }
+  ],
+  "counterevidence": "台词字面指责对方为'idiots'，可能被解释为anger或disgust，但由于其面部完全没有皱眉、怒视或撇嘴等负面表情，反而全程面带笑意且语调欢快，因此否定负面情绪。"
+}

@@ -1,0 +1,101 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Monica从房间后方向前移动",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Monica说出\"What?! Excuse me!\"",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Monica身穿黄色长袖上衣和红色长裙",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Monica面向前方，视线注视前方并张开嘴巴",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Monica的发音音量较大，尾音语调上扬",
+      "time_index": 1,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "在公寓客厅内，Chandler双手抱着一包纸巾站立，Phoebe低头在餐桌上写字，Monica在背景中",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "simultaneous",
+      "reason": "Monica在向前移动的同时说出台词",
+      "entity_anchor": "Monica"
+    },
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "simultaneous",
+      "reason": "Monica在张开嘴巴说话的同时发出了音量较大且尾音上扬的声音",
+      "entity_anchor": "Monica"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "Monica边从房间后方向前靠近边大声喊出质问语句，两者联合完整呈现了她主动从背景走近介入并打断现场的互动过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "视觉上面向前方注视并张嘴与听觉上较大音量且尾音上扬的语调相互补充，完整呈现了Monica此时强烈质问的言语外显状态。",
+      "entity_anchor": null
+    }
+  ]
+}

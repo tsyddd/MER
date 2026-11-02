@@ -1,0 +1,113 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "棕色外套女子面向黄色针织衫女子说话：“是吗 他真这么说的”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "黄色针织衫女子张口回应对方",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "黄色针织衫女子抿唇，目光平视对面",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "棕色外套女子面朝对方说话，嘴部张合，语调上扬且语速较快",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "棕色外套女子睁大双眼，嘴部微张注视对方",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "黄色针织衫女子侧身坐着，嘴唇张开",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内客厅场景，背景有绿植与柜子，黄色针织衫女子与棕色外套女子相对而坐交谈",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "在两人的交谈互动中，黄色针织衫女子在棕色外套女子发问后张口予以回应",
+      "entity_anchor": "两人对话互动"
+    },
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "棕色外套女子在语速较快地说话提问后，转为睁大双眼、微张嘴注视对方听取回应",
+      "entity_anchor": "棕色外套女子"
+    },
+    {
+      "source": "person_3",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "黄色针织衫女子在起初抿唇聆听后，转为张开口部准备发话",
+      "entity_anchor": "黄色针织衫女子"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "棕色外套女子提出疑问的行为与黄色针织衫女子张口回应的行为联合，构成了完整的问答互动交互过程",
+      "entity_anchor": null
+    }
+  ]
+}

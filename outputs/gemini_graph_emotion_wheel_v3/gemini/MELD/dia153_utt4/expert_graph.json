@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "围绕目标人物Joey的互动事件链显示，Joey靠在沙发上正向他人提出克服恐惧的假设类比[context_0]。从初始摊手陈述假设[person_0, process_0]到抬起食指指点强调建议[person_1, process_1]，其行为链条展现的是一种认真举例、陈述常理的互动过程。实际音轨中Joey语调笃定自然，面部表情专注且未见皱眉发怒、惊恐或明显笑意，整体处于平稳、就事论事的交流状态。",
+  "open_emotion": "理所当然",
+  "answer": "neutral",
+  "mapping_reason": "“理所当然”或平常论理（matter-of-fact）体现其在当前情境下平静、笃定地给出建议，没有愤怒的对抗责难，亦无恐惧威胁或喜悦狂欢，依据情绪轮边界准确映射至neutral（平常/平稳）。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "Joey说出应对结论\"you go to the top of the building!\"配合食指指点动作",
+      "interpretation": "表明其在以理所当然的逻辑向对方输出建议，属于常规的言语论述交互",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04",
+      "observation": "Joey神情认真专注，右手抬起食指向前指点，眼神直视前方交流对象，面部无攻击性扭曲或笑容",
+      "interpretation": "展现出平稳且笃定的沟通姿态，缺乏强烈效价驱动的情绪波动",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:01-00:03",
+      "observation": "Joey语气连贯笃定，虽带有陈述观点的着重强调，但声线平实稳定无激愤喊叫或颤抖",
+      "interpretation": "听觉特征印证其情绪处于平稳的日常讨论状态，而非愤怒或惊恐",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "手指前指的强调动作容易被孤立误读为生气责备（anger），但事件语义是提出'脱敏/直面恐惧'的逻辑论证，且音轨与面部均无攻击性，排除了愤怒情绪。"
+}

@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "Monica面对门边方向连说“No-no-no, no!”[E1]，随即放低手中物品、前倾起身[E2]。这是一段她本人在当前互动中试图制止某事的反应，而非单纯看到意外后的短暂诧异。图谱process_1所述动作与画面部分吻合[E3]，但不能仅凭动作顺序断定她要阻止的具体事情。她的表现更接近担心接下来会发生不好的事所引发的惊慌。",
+  "open_emotion": "惊慌",
+  "answer": "fear",
+  "mapping_reason": "这里的惊慌指面向可能出现的负面后果、急于制止的反应，因此近似映射到fear；片段未交代她预期的具体后果，不能进一步断言她害怕何种危险。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“No-no-no, no!”",
+      "observation": "Monica当前连续否定、制止。",
+      "interpretation": "话语指向正在发生或将要发生的事，支持她对此感到急迫；字幕本身不提供语调。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02（0.584秒）至frame_07（2.002秒）",
+      "observation": "Monica从沙发上转向门边，放低手中书本，身体前倾并开始起身；末帧张口、双眼睁大。",
+      "interpretation": "连贯的起身动作与制止话语相配，支持急于介入，而不只是静坐时感到意外。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "图谱记述Monica迅速移开放下手中物品。",
+      "interpretation": "其动作方向可由画面部分核查，但与[E2]是同一动作事实，不算独立的第二份证明；图谱所称杯子在这些帧中不够清楚。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱转述Monica发声急促、音量较大、语调高亢。",
+      "interpretation": "未收到原音轨，不能亲耳核验这一声音描述，也不据此决定情绪。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "睁眼、张口也可能表示惊讶；当前更有区分力的是她连续说“不”并立即动身介入。画面未证实图谱process_2所称已经“向前冲出”，门边孔洞也不能单独作为她恐惧的证据。"
+}

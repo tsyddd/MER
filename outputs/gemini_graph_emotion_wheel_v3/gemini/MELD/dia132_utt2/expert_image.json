@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "目标人物Phoebe（画面中心金发女子）在与前台护士对话时，面部神态平静自然，眉毛与眼神放松，嘴部仅随着言语开合描述，伴随双手手势辅助说明，没有出现嘴角上扬、皱眉或睁大双眼等强烈情感表征。语调与神态均属于常规客观叙述，无明显主导的喜怒哀乐情绪。",
+  "open_emotion": "平常",
+  "answer": "neutral",
+  "mapping_reason": "Phoebe当前表现平稳、自然，属于日常交流中的信息描述状态，符合情绪轮中neutral（平常、无明确主导情绪）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01-frame_07 (0.63s-4.38s)",
+      "observation": "Phoebe双眼平视前台工作人员，面部肌群松弛平整，说话时双手自然平摊并配合言语作比划动作，无大幅度情绪化面部抽动。",
+      "interpretation": "表明其处于平稳专注地描述人物特征的日常交际状态，缺乏强烈的情绪倾向。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:04",
+      "observation": "语音语调平稳、语速适中，仅在思考词句时有轻微停顿（'And umm...'）。",
+      "interpretation": "进一步印证其当前处于中性的陈述状态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词中包含“very attractive”，但其面部并未显露害羞、欣喜或兴奋等明显的joy特征，仅为客观陈述。"
+}

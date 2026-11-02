@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "目标人物在向榻上皇帝陈述时，自陈台词'怎么到了自己身上，就这样不明白'，图谱节点[person_2]指出其声音伴随明显叹息感，结合实际音轨中落寞凄楚的哭腔语气[E1]与双目含泪的委顿神情[E2]，显现出面对自身处境的悲凉与凄苦，情绪应定为sad。",
+  "answer": "sad",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "女子说话语调低回轻微，伴随呼气叹息与微弱颤音",
+      "interpretation": "语调带有明显的自嘲与凄凉感，支持悲伤自怨的心境",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 2.04s",
+      "observation": "女子微仰面容，眼眶微润，嘴角微向下牵动，眼神透出落寞无助",
+      "interpretation": "面部微表情传达出哀伤内敛的神态，而非平静叙事",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "女子声音平稳带叹息感，语速适中",
+      "interpretation": "图谱记录的叹息声与音轨中落寞的叙述结合，体现面对自身悲剧结局的悲叹",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽跪于殿前可能引发担惊受怕（worried）的猜测，但其发言为针对既定命运的感慨与沉痛反思，缺乏焦灼紧张的急促体态与语调，故排除worried。"
+}

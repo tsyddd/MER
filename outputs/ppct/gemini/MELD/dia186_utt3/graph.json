@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Joey手持手机正在通电话，说道：“I'm sorry I gotta cancel tonight baby”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Joey靠坐在绿色扶手椅上，右手握着手机贴在右耳旁，左手搭在扶手上",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Joey说话时嘴唇开合，头部微偏，视线朝向前方略偏下方",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Joey说话时声调平缓低沉",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内场景中，Joey坐在扶手椅上打电话，身旁站着另一名人员",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "Joey在靠坐于扶手椅上且右手持手机贴耳的同时，嘴唇开合说话且头部微偏",
+      "entity_anchor": "Joey"
+    },
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "simultaneous",
+      "reason": "Joey说话时嘴唇开合的面部动作与其平缓低沉的发声声调同步呈现",
+      "entity_anchor": "Joey"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供了Joey靠在扶手椅上持手机通话的身体姿态，person_1补充了其头部微偏、视线下垂的面部及神态表现，二者联合完整展现出Joey在通话时的躯体姿态与面部神态细节。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1提供了Joey说话时嘴唇开合与微偏头垂视的视觉动作表现，person_2补充了其低沉平缓的说话声调，二者视听联合完整呈现了Joey说话时的表达方式与语音语调特征。",
+      "entity_anchor": null
+    }
+  ]
+}

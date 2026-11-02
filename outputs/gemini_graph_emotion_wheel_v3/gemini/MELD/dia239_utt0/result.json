@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia239_utt0",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "b7c708f8d9735f8954957fb30790839e5a1cfb9b416c9423567de212ceab0391",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "平稳",
+      "mapped_label": "neutral",
+      "mapping_reason": "目标人物的日常发问缺乏强效价或高唤醒特征，符合情绪轮中对neutral‘平稳、日常且无明显主导情绪’的界定。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "平淡询问",
+      "mapped_label": "neutral",
+      "mapping_reason": "目标人物的言语行为仅为日常信息确认，语调平稳无明显情感偏向，符合情绪轮中neutral（平稳、日常且无明显主导情绪）的定义。"
+    },
+    "image": {
+      "open_emotion": "平常",
+      "mapped_label": "neutral",
+      "mapping_reason": "Gunther的表情与举止属于日常平稳、无显著情绪波动的正常询问，符合情绪轮中neutral（平常、平稳）的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "独立核对音画可知，Gunther在走出门旁通道向Chandler询问'Someone in there?'时，如[image:E1]所述面部肌肉放松、眉毛平整无挑起或收紧；音频中[audio_subtitle:E1]也显示其语调平稳低沉，仅带常规问句语调，毫无音高骤升或强烈的情绪起伏。尽管疑问句带有日常探询性质，但缺乏瞪眼、张嘴或高唤醒特征，反证不足以构成surprise，最终判定为无明显主导情绪的平稳中性状态。",
+  "output": "独立核对音画可知，Gunther在走出门旁通道向Chandler询问'Someone in there?'时，如[image:E1]所述面部肌肉放松、眉毛平整无挑起或收紧；音频中[audio_subtitle:E1]也显示其语调平稳低沉，仅带常规问句语调，毫无音高骤升或强烈的情绪起伏。尽管疑问句带有日常探询性质，但缺乏瞪眼、张嘴或高唤醒特征，反证不足以构成surprise，最终判定为无明显主导情绪的平稳中性状态。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 56.992953300476074
+}

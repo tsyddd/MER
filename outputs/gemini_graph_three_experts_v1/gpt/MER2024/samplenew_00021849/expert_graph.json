@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载车外男子身体前倾、注视车内女子并开口劝她先上车回去（person_0、process_0）。其发声语调被记录为低沉平缓，当前表现较为克制，未见明显愤怒、悲伤或惊讶证据（person_2）。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_0",
+    "process_0",
+    "person_2"
+  ]
+}

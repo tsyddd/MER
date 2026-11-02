@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物是游戏机旁的Monica，而非画面左侧的人。她从转头说话转为睁大眼睛、绷紧嘴部并抬手强调，随后低头转向游戏机；这些变化更支持对眼前情况的担忧，最接近fear，而非单纯平静陈述[E1][E2]。字幕说明她担心Ben今晚会看到“this”，与视觉表现相符，但语气不可核实[E3]。",
+  "answer": "fear",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒 至 frame_02 @ 0.6673333333333333秒",
+      "observation": "Monica转头看向画面左侧的人，嘴唇由抿合变为张开说话。",
+      "interpretation": "表情从克制转为明显参与对话；单凭这一变化尚不足以判定情绪。",
+      "polarity": "uncertain"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.3346666666666667秒 至 frame_05 @ 1.6683333333333332秒",
+      "observation": "她眼睛睁大，嘴角向两侧拉紧、露出牙齿，同时抬起右手向游戏机方向比划。",
+      "interpretation": "紧绷的面部与强调手势共同支持担忧或紧张；没有明显的持续皱眉或对人逼近来支持愤怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "But Ben is coming over tonight and he cant see this.",
+      "observation": "字幕称Ben今晚要来，而且不能看到“this”。",
+      "interpretation": "话语内容与对某件事被看见的担忧相符；这不是可见表情，也不能据此推断语调。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "她也可能只是在着重解释一件急事，短暂露齿和手势不能单独证明恐惧；但眼睛睁大、嘴部绷紧与字幕所述顾虑同时出现，使fear比neutral或anger更有依据。"
+}

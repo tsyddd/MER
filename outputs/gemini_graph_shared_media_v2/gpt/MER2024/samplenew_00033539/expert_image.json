@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物为画面中央的女性。她在frame_00至frame_07中持续看向右侧，眉头明显收紧并形成额间皱纹，眼睛睁开，嘴巴张开说话；这些变化最支持对信息感到意外或难以置信，而非单纯中性表情。[E1][E2]字幕“啊？真的。”也与视觉上的惊讶反应一致。[E3]",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0s至frame_03 @ 0.84s",
+      "observation": "目标人物眉头收紧、额间有明显皱纹，眼睛睁开，嘴巴处于张开状态，并注视画面右侧。",
+      "interpretation": "面部突然收紧并伴随张口，支持对所听信息产生惊讶或不敢相信的反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.12s至frame_07 @ 1.96s",
+      "observation": "她继续面向右侧，眉头仍然紧皱，嘴巴持续张开或形成说话口型，整体姿态没有明显放松。",
+      "interpretation": "反应持续存在，支持惊讶状态；但紧皱眉也使担忧或困惑成为次要可能。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "当前字幕",
+      "observation": "字幕内容为“啊？真的。”",
+      "interpretation": "反问和“真的”直接表达对信息的意外确认，与视觉上的惊讶最吻合。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "紧皱眉和持续收紧的面部也可能表示担忧或困惑，但画面中没有明显低头、悲伤下垂或明确愤怒姿态；且当前没有音轨可用于判断语气，因此未采用worried或angry。"
+}

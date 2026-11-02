@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013127",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "d2115c97acf3c6e01bbce09ee0045d9eebc8b28101f778a38355f8f3c0e262a8",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "happy",
+  "emotion_analysis": "我独立核看frame_00至frame_07：目标人物始终面向对方，嘴角上扬并多帧露齿，后段笑意仍在；字幕原话“以前啊，以为你圆滑伶俐，还真是小看你了”是对对方能力的认可和调侃。图像专家对前后段持续笑容的定位[image:E1][image:E2]与回看一致，可信度较高；字幕专家对语义的判断[audio_subtitle:E1]提供了互补支持。当前没有音轨，不能核实语调，图谱所谓“轻快语调”[graph:E4]只能作为间接转述；尽管存在社交性调侃或中性微笑的可能，但持续笑容且无明显惊愕或负面变化，最适合判为开心。",
+  "output": "我独立核看frame_00至frame_07：目标人物始终面向对方，嘴角上扬并多帧露齿，后段笑意仍在；字幕原话“以前啊，以为你圆滑伶俐，还真是小看你了”是对对方能力的认可和调侃。图像专家对前后段持续笑容的定位[image:E1][image:E2]与回看一致，可信度较高；字幕专家对语义的判断[audio_subtitle:E1]提供了互补支持。当前没有音轨，不能核实语调，图谱所谓“轻快语调”[graph:E4]只能作为间接转述；尽管存在社交性调侃或中性微笑的可能，但持续笑容且无明显惊愕或负面变化，最适合判为开心。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 170.43005561828613
+}

@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Janice说“Oh, are you sure?”，先以“Oh”回应，再追问对方是否确定；这更像对刚听到的信息感到意外并寻求确认，而不是单纯陈述。[E1]她面向对方、扬眉并略微前倾，与追问相符。[E2]没有提供音频，无法判断语调是否进一步支持惊讶或反讽。",
+  "open_emotion": "诧异",
+  "answer": "surprise",
+  "mapping_reason": "当前的意外感主要体现在回应和确认性提问中，按情绪轮映射为surprise；这是较轻、尚未得到音轨核实的判断。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Oh, are you sure?",
+      "observation": "以“Oh”起句，随后询问对方是否确定。",
+      "interpretation": "表现出对信息的即时反应和求证，支持轻微诧异；疑问句本身不等于惊讶。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02（1.0427秒）",
+      "observation": "Janice看向对面的人，扬眉、略微前倾，正在说话。",
+      "interpretation": "表情与求证式回应一致，但不能单凭扬眉确定情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的替代解释是她只是在怀疑对方说法、进行普通确认；短句和画面都不足以排除这一点，且没有音频可核查语调。"
+}

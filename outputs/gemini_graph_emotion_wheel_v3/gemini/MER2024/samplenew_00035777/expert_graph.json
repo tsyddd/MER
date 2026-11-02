@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "目标人物在当前互动中正对违背诚信的行为进行严厉斥责。视频前段男子身体前倾低头，咬牙切齿、面部肌肉高度紧绷（对应图谱节点[person_1]），随后逐渐挺正身姿但眼神依然锋利凌厉、嘴角紧绷下撇（对应[person_3]）。结合真实音轨，其说出“诚实是做生意的根本”时声调高亢激昂、咬字极重且伴随怒吼质感（核实图谱[person_0]与[process_0]）。事件语义体现出对商业欺诈或违规行为的强烈冒犯感与问责对抗倾向，构成典型的愤慨表达。",
+  "open_emotion": "愤慨",
+  "answer": "angry",
+  "mapping_reason": "开放情绪“愤慨”体现了对违背原则行为的强烈不满、指责与道德对抗，完全符合情绪轮中angry家族关于受阻、冒犯及责备对抗的定义，故精确映射为angry。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_03 (0.00s-1.04s)",
+      "observation": "男子身体前倾，紧咬牙关并咧嘴露齿，面部肌肉紧绷，眼神凌厉逼人",
+      "interpretation": "展现出极具压迫感与攻击性的愤怒斥责神态",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "“诚实是做生意的根本”发音短促有力、音量高亢、带有明显的怒斥重音",
+      "interpretation": "听觉上证实其并非平静说理，而是处于愤怒训斥状态",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱记录男子身体前倾低头、面部肌肉紧绷且咧嘴露齿大张",
+      "interpretation": "该节点准确概括了其在发话前半程的激昂愤怒体态",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词内容为生意准则，若仅看后半程身躯挺正（如frame_07）可能被误判为严肃平静的说理（neutral），但结合前半程强烈的咬牙低吼与音频的怒斥重音，可明确排除中性假象。"
+}

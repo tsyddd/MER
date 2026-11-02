@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia198_utt2",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "3e5a8a4993b19ac3f6e4c36023c416407d12023be7b4a0e80d447afe6996d7d7",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物Joey（左侧穿白色上衣者）在整段说话过程中神情自然平稳，如[image:E1]所示眉眼舒展、面部无紧绷或怒意，伴随的手势仅为配合陈述的肢体动作。听觉上核验音轨可知，如[audio_subtitle:E2]所述，Joey说出吐槽台词时语调匀速平直、尾音下落，完全缺乏愤怒的高亢紧绷感或喜悦的笑腔。虽然台词内容是在调侃同伴，但其采用了冷面陈述的表达方式，并无强烈的情感唤起，综合视听表现判定为neutral最为确切。",
+  "output": "目标人物Joey（左侧穿白色上衣者）在整段说话过程中神情自然平稳，如[image:E1]所示眉眼舒展、面部无紧绷或怒意，伴随的手势仅为配合陈述的肢体动作。听觉上核验音轨可知，如[audio_subtitle:E2]所述，Joey说出吐槽台词时语调匀速平直、尾音下落，完全缺乏愤怒的高亢紧绷感或喜悦的笑腔。虽然台词内容是在调侃同伴，但其采用了冷面陈述的表达方式，并无强烈的情感唤起，综合视听表现判定为neutral最为确切。\n<answer>neutral</answer>",
+  "label": "anger",
+  "elapsed_seconds": 63.927058935165405
+}

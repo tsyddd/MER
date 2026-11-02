@@ -1,0 +1,9 @@
+{
+  "expert": "graph",
+  "reason": "目标人物低着头、视线垂向下方并微动嘴唇〔person_1〕；图谱记载其说话声语调低沉、语速平缓〔person_2〕，整体表现出当前的低落和沉郁。",
+  "answer": "sad",
+  "evidence_refs": [
+    "person_1",
+    "person_2"
+  ]
+}

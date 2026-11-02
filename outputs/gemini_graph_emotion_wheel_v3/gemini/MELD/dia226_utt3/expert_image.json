@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "目标人物Rachel在倾诉时眉心聚拢、眉毛内角上抬，嘴角微向下撇，同时伴有向外摊手的无奈手势，配合低缓带有叹息意味的语调，表达出对无法走进对方内心的失落与沮丧。",
+  "open_emotion": "失落",
+  "answer": "sadness",
+  "mapping_reason": "当前语境下'失落'源于未能让对方敞开心扉的受挫与难过，表现为明显的内眉上扬及委屈神态，在情绪轮中归入因求而不得导致的低落与沮丧家族（sadness）。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02至frame_04 (0.92s-1.38s)",
+      "observation": "Rachel眉毛内角聚拢上抬（呈轻微八字眉），嘴角略微下撇，双手在胸前微曲张开比划，神态显得委屈无助。",
+      "interpretation": "面部呈现典型的悲伤/沮丧微表情特征，手势强化了表达内心受挫时的无力感。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Y’know, I wish I could get him to open up a little bit, share some feelings.",
+      "observation": "台词表达出对对方封闭情感状态的渴望与无可奈何。",
+      "interpretation": "语义明确指向情感沟通受阻带来的落寞与难过体验。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "在frame_00片段开始时Rachel面部肌肉相对放松且略带微笑，整体身体姿态仍处于与朋友闲聊的坐姿，可能被部分解释为平稳的中性倾诉（neutral）。"
+}

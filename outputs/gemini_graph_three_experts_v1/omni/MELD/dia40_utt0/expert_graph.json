@@ -1,0 +1,9 @@
+{
+  "expert": "graph",
+  "reason": "Monica在组织文本中被描述为抬头面向前方，嘴角上扬露齿微笑（person_2），同时以轻快上扬的语调说话（person_3），两者同步发生，表明其情绪状态为积极愉悦。图谱记载的视觉与听觉特征共同支持这一判断。",
+  "answer": "joy",
+  "evidence_refs": [
+    "person_2",
+    "person_3"
+  ]
+}

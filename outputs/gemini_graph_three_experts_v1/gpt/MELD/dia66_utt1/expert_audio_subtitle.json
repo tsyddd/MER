@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。字幕内容是礼貌性的“谢谢，祝您旅途愉快？”，未显示明显的负面或强烈情绪，因此按中性判断。",
+  "answer": "neutral",
+  "evidence_refs": []
+}

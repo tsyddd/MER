@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "Janice当前是在对面男士面前提出“做小木偶”的假设，并把它接到“你的残酷剧场”这一针对对方的说法上；她不是在描述已经发生的制作木偶事件。[E1] 她边说边用手指比划，随后前倾、蹙眉，最后重新抱臂，较支持带有责备意味的不满，而非单纯兴致勃勃地讲述设想。[E2][E3] 图谱的手势节点与画面是同一动作的重复记录；台词语义则补充了她的表达所指向的人，有助于区分“生动讲解”和“针对对方的讥讽”。",
+  "open_emotion": "讥讽式不满",
+  "answer": "anger",
+  "mapping_reason": "这里的不满指向对方被称作“残酷剧场”的做法，带有责备意味，因此映射到anger；不能仅凭“残酷”一词推断她感到厌恶。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Because you know, you could make little puppets out of them, and you could use them in your theater of cruelty.",
+      "observation": "Janice用“你可以”提出假设，并将“残酷剧场”归于谈话对象。",
+      "interpretation": "措辞可读作针对对方的讥讽或责备；木偶和剧场不是当前实际发生的事。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 3.1281225713334075秒至frame_07 7.3406609673957295秒",
+      "observation": "Janice朝对面男士抬手比划；到frame_06前倾、眉头收紧，末帧重新抱臂。",
+      "interpretation": "在这段针对对方的发言中，表情和姿态比平稳陈述更显不满，但抱臂本身不足以单独判定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_1、process_3",
+      "observation": "图谱记录Janice说话时抬手比划，之后重新抱臂；这一动作顺序可由画面核查。",
+      "interpretation": "节点帮助串起她当前发言中的动作变化，并非独立于画面的第二份情绪证据；顺序也不证明抱臂由某种情绪造成。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "比划木偶也可能只是为了形象地解释想法；单看动作不能排除这一解释。图谱person_1转述其声调高亢、抑扬顿挫，但未提供原音轨，无法亲耳核验，也不据此推断她在发怒。"
+}

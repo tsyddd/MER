@@ -1,0 +1,59 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "说话人对另一人说：可是你背信弃义，你一个劲地抬价。",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "一名戴着黑色帽子、留着胡子的男子，面向另一人，嘴部在开合，正在说话。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "一名戴着黑色帽子的男子，背对镜头，侧脸可见，面向说话人。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "场景中有两个男人在交谈，背景中有鸟笼。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0 提供了说话时的面部表情和嘴部动作，person_1 提供了其作为对话对象的侧脸和朝向，联合后明确了两人正在进行面对面的对话互动。",
+      "entity_anchor": null
+    }
+  ]
+}

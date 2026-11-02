@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "目标人物正在通过电话进行质询，其话语内容为‘关东军不是已经增兵甲子沟煤矿了吗’，这是一个反问句，表达了对已知信息的强烈怀疑和不认同。他的语气低沉且带有明显的疑问和挑战意味，表明他并不相信对方所言，或对当前局势感到震惊和难以置信。这种对信息的质疑和对现实的挑战是惊讶情绪的典型表现，而非单纯的愤怒或担忧。因此，最符合的开放情绪词是‘惊讶’，映射到数据集中的‘surprise’标签。",
+  "open_emotion": "惊讶",
+  "answer": "surprise",
+  "mapping_reason": "根据情绪轮定义，'surprise'指因当前信息违背预期产生的意外、诧异或震惊。目标人物的反问句式和低沉的质问语气，表明他接收到的信息与他的预期严重不符，从而产生了强烈的意外感。这与'angry'（责备/对抗）或'worried'（对后果的顾虑）的动机不同，其核心是信息的意外性，因此映射为'surprise'是准确的。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "字幕内容",
+      "observation": "字幕显示目标人物说：‘关东军不是已经增兵甲子沟煤矿了吗’。",
+      "interpretation": "这是一个反问句，表达了对已知信息的强烈怀疑和不认同，是惊讶情绪的直接语言证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "音频中，目标人物的语调低沉，句末上扬，带有明显的疑问和挑战意味。",
+      "interpretation": "这种语调表明说话者并非在陈述事实，而是在质询和挑战对方的说法，这是惊讶情绪在语音上的典型表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "目标人物面部表情严肃，眉头微皱，眼神专注。",
+      "interpretation": "这种表情与他质问的语气相符，表现出对信息的认真对待和内心的惊讶，而非愤怒或悲伤。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "node_id: process_0",
+      "observation": "图谱节点描述了男子手持电话听筒对着话筒说话。",
+      "interpretation": "该节点证实了说话行为，为分析其话语内容和语气提供了上下文。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽然目标人物的语气低沉，可能被解读为‘angry’，但其话语内容是反问而非直接的指责或命令，且没有表现出攻击性或敌意，因此更符合‘surprise’而非‘angry’。"
+}

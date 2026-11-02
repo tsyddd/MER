@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "男子面向对面的人开口询问“怎么？他不好对付啊”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "男子接着开口说“我，我是不是给你惹麻烦了”",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "男子目光注视着前方的交流对象，神态平静",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "男子以平缓且略带疑问的语调说话",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "男子头部略微前倾，嘴巴张开说话",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "男子嘴唇微敛收拢",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "在木质结构的室内空间中，男子与身前穿着青色衣袍的人面对面交谈",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "同一男子在开口询问“怎么？他不好对付啊”之后，接着说出“我，我是不是给你惹麻烦了”。",
+      "entity_anchor": "男子"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "同一男子在注视交流对象神态平静的同时，伴随平缓且略带疑问的语调开口说话。",
+      "entity_anchor": "男子"
+    },
+    {
+      "source": "person_2",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "同一男子在神态平静注视对方之后，头部略微前倾、嘴巴明显张大说话。",
+      "entity_anchor": "男子"
+    },
+    {
+      "source": "person_3",
+      "target": "person_2",
+      "relation": "after",
+      "reason": "同一男子在头部前倾、张大嘴说话之后，嘴唇微敛收拢发声。",
+      "entity_anchor": "男子"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提供了男子向对方询问对手是否难对付的发问行为，process_1提供了男子进一步自我怀疑与追问的言语行为，二者联合呈现了男子由试探外在因由转为担忧自身连累对方的连贯递进互动过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供了男子视觉上面向对方注视的神态，person_1从音轨补充了平缓且带疑问的语调，二者联合形成了视觉注视与听觉疑问相互印证的完整言谈状态表达。",
+      "entity_anchor": null
+    }
+  ]
+}

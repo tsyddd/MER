@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "节点person_0显示白衣女子在说话时面部放松、神态自然；图谱记载节点person_1表明其语调平缓平稳；虽然在节点process_1中提及对方“好像出了点意外”，但女子全程无显著的情绪波动或焦躁神色，整体处于平静的中立交流状态。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "process_1"
+  ]
+}

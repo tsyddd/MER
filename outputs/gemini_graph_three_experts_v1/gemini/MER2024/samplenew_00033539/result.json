@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00033539",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "a415fec142e7ddeeb3ecfd6ae5f20bd235ccd0be39b7230d3d3b9654add4a754",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "图像与图谱专家均指出目标人物面部双眉紧蹙、眉心聚拢显出明显愁容，嘴角向下且神情焦虑紧绷。音频专家虽关注到其升调反问呈现意外感，但该语调结合强烈的忧虑神态，更符合得知突发坏消息时伴随担忧与关切的求证反应，故综合判定为worried。",
+  "output": "图像与图谱专家均指出目标人物面部双眉紧蹙、眉心聚拢显出明显愁容，嘴角向下且神情焦虑紧绷。音频专家虽关注到其升调反问呈现意外感，但该语调结合强烈的忧虑神态，更符合得知突发坏消息时伴随担忧与关切的求证反应，故综合判定为worried。\n<answer>worried</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 37.92143678665161
+}

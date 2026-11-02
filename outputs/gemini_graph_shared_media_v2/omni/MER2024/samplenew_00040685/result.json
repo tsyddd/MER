@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00040685",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "00b59cea7eb95d8df3713bcb9b7defc0e8f79ae664b527d4cc419d1d058a6afa",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "目标人物在讲述其父皇已对其起疑心后，仍决定拿着‘铜木人’去求见，这一行为在图谱中被描述为‘process_2’。该节点与‘process_1’（父皇起疑心）形成转折关系，表明其在不利处境下仍采取主动行动。结合其面部表情紧绷、目光锁定对方（person_2），以及语调低缓沉稳（person_1），这些视听信息共同指向一种在压力下仍试图掌控局面的克制与沉重感，而非纯粹的愤怒或悲伤。因此，该行为的语义和情绪状态最符合‘worried’。",
+  "output": "目标人物在讲述其父皇已对其起疑心后，仍决定拿着‘铜木人’去求见，这一行为在图谱中被描述为‘process_2’。该节点与‘process_1’（父皇起疑心）形成转折关系，表明其在不利处境下仍采取主动行动。结合其面部表情紧绷、目光锁定对方（person_2），以及语调低缓沉稳（person_1），这些视听信息共同指向一种在压力下仍试图掌控局面的克制与沉重感，而非纯粹的愤怒或悲伤。因此，该行为的语义和情绪状态最符合‘worried’。\n<answer>worried</answer>",
+  "label": "angry",
+  "elapsed_seconds": 176.86619520187378
+}

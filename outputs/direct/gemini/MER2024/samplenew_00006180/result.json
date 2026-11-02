@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00006180",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "女老师在课堂上面对学生的提问，神态自然平和，语气亲切温和地向全班询问是否有人知道，整体处于平稳的日常教学状态，未表现出明显的极端情绪。",
+  "output": "女老师在课堂上面对学生的提问，神态自然平和，语气亲切温和地向全班询问是否有人知道，整体处于平稳的日常教学状态，未表现出明显的极端情绪。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 7.859360694885254,
+  "node_count": null,
+  "edge_count": null
+}

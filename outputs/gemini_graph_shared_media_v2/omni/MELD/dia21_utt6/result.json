@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia21_utt6",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "bf42e3a608598de26188e2d4e2714eda6e90f3de2c795d77c68bb3237d71f5d1",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "Phoebe的语调轻松并带有轻笑声，同时她的面部表情（微笑）和肢体语言（手搭在对方胸前）与之同步，表明她的情绪是积极的。男子的微笑回应也构成了一个轻松的互动闭环，进一步支持了这一判断。音频中观众的笑声证实了该言论的幽默意图。虽然字幕中的'Seriously'可能暗示怀疑，但结合其语调和表情，这更可能是一种调侃，而非严肃的质问。",
+  "output": "Phoebe的语调轻松并带有轻笑声，同时她的面部表情（微笑）和肢体语言（手搭在对方胸前）与之同步，表明她的情绪是积极的。男子的微笑回应也构成了一个轻松的互动闭环，进一步支持了这一判断。音频中观众的笑声证实了该言论的幽默意图。虽然字幕中的'Seriously'可能暗示怀疑，但结合其语调和表情，这更可能是一种调侃，而非严肃的质问。\n<answer>joy</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 150.34839463233948
+}

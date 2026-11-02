@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "年长女性在台词中询问“是不是家里又出什么事了”，言语行为表现出对可能存在的家庭变故与风险的揣测与关切。音频中其语调轻柔微沉、带有探询与紧张的试探感，伴随视觉上微蹙的眉头与注视对方的目光，充分体现了对未明负面情况的不安与关怀。",
+  "open_emotion": "担忧",
+  "answer": "worried",
+  "mapping_reason": "说话人主动关注潜在的家庭负面问题，属于对不确定负面结果的顾虑与关切，契合worried中关于未知风险与不安的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "是不是？家里又出什么事了？",
+      "observation": "台词使用疑问句式推测家庭可能发生了问题，其中“又出什么事”指向负面变故的可能发生。",
+      "interpretation": "体现出对潜在家庭困难或危机的高度关注与顾虑心理。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "目标人物语速平缓，声调略低且带有探问上扬的试探语气，音色柔和但略显紧绷。",
+      "interpretation": "声音韵律表现出小心翼翼的询问与牵挂，而非中性的日常陈述。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01-frame_05",
+      "observation": "目标人物端着茶杯，面部眉头微蹙，眼神始终关切地凝视着对方。",
+      "interpretation": "面部神情与言语中的焦虑担忧意图高度一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "语气较为克制，并未出现大呼小叫或明显的惊慌，可能被误判为平稳的neutral，但台词内容与探寻式关切语气排除了纯粹中性。"
+}

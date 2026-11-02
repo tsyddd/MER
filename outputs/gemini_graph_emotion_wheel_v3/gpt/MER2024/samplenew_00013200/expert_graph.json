@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "当前片段里，右侧主要人物面对另一名男子，指责对方“背信弃义”“一个劲地抬价”[E1]。图谱节点process_0记录的是这次当面指责，与字幕同源，不算第二份独立证据；它有助于确定责备指向的是眼前的谈话对象，而非转述他人的情绪[E2]。他随后仍盯着对方，前倾并睁大双眼[E3]；结合指责语义，这更像对受阻行为的不满，而不是单凭睁眼判断为惊讶。图谱另称其说话急促、音量较高，但未提供原音轨，不能亲耳核实[E4]。",
+  "open_emotion": "恼火",
+  "answer": "angry",
+  "mapping_reason": "当前表达以对对方行为的责备和对抗为主，符合angry所涵盖的不满与恼火；并不需要确认被指责的行为确曾发生。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“可是，你背信弃义，你一个劲地抬价。”",
+      "observation": "主要人物当面说出对对方失信、抬价的指责。",
+      "interpretation": "明确的责备语义支持当前的恼火；话语本身不能证明此前交易经过。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "节点将这句话组织为主要人物对面前男子所说。",
+      "interpretation": "明确当前互动的说话者与指责对象；与字幕描述的是同一次发言，不作为独立加权的情绪证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05（2.16秒）至frame_07（3.0秒）",
+      "observation": "右侧人物身体前倾，双眼睁大，持续看向对面男子。",
+      "interpretation": "在当面指责的语境中支持其对抗性的表达；睁眼本身也可能有其他解释。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱转述其语速急促、音量较高。",
+      "interpretation": "若准确可补充表达强度，但未收到原音轨，不能据此声称亲耳听到了语调。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "睁大双眼单独看也可能表示惊讶；此处没有明确的突发信息，当前可核实的指责话语更支持恼火。图谱中的声音描述未经原音轨核验，不用于决定类别。"
+}

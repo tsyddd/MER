@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "白衣少年连续重复发问“你怎么知道的”，且随后重新睁大眼睛、张开嘴部〔process_0〕〔person_3〕，表现出对对方知情的明显意外反应。图谱记载其发音断续、带有重复字音〔person_1〕，进一步支持当前的惊讶状态。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "process_0",
+    "person_3",
+    "person_1"
+  ]
+}

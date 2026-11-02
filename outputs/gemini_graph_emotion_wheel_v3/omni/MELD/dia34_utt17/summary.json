@@ -1,0 +1,11 @@
+{
+  "reason": "莫妮卡的言语内容（'I'm never gonna think it's okay for you to cheat on your husband!'）直接表达了对背叛行为的绝对否定和道德谴责，这是愤怒情绪的直接来源。她的音频表现（坚定、有力、中高音量）和视觉表现（皱眉、紧闭的嘴唇、强调性手势）共同支持了这一判断。尽管有专家认为其语气可能带有责备，但根据MELD项目情绪轮的定义，这种针对冒犯行为的责备与对抗正是'anger'的核心特征。因此，综合音频、字幕和视觉证据，'anger'是最佳匹配。",
+  "answer": "anger",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "image:E1",
+    "image:E2",
+    "image:E3",
+    "image:E4"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia186_utt0",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "ce61aa500b449acf27aca857327845af67ac7b2a64a913c11593cd28ac6f91bf",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "disgust",
+  "emotion_analysis": "graph和audio_subtitle专家均基于行为和语调判断为disgust，且与话语内容'embarrassing enough'一致；image专家仅从静态帧推断surprise，但缺乏动态连贯性支持，且与音频语调不符，故采信更全面的听觉与行为证据。",
+  "output": "graph和audio_subtitle专家均基于行为和语调判断为disgust，且与话语内容'embarrassing enough'一致；image专家仅从静态帧推断surprise，但缺乏动态连贯性支持，且与音频语调不符，故采信更全面的听觉与行为证据。\n<answer>disgust</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 61.19169211387634
+}

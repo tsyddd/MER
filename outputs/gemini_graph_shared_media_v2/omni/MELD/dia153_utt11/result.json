@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia153_utt11",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "b023c80896f2e13dc2c986e2f32b6b993f29f3e06532e4de681ae7bcdce52d22",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "Chandler的陈述内容是关于一个假设性情境的夸张描述，其语调平稳清晰，肢体动作（抬手、叉腰）为解释性姿态，无恐惧或愤怒迹象。音频中观众的笑声明确证实了该陈述的喜剧意图，与图像中其面部表情和手势一致。尽管内容涉及恐惧，但整体表现是幽默的，因此应归为joy。",
+  "output": "Chandler的陈述内容是关于一个假设性情境的夸张描述，其语调平稳清晰，肢体动作（抬手、叉腰）为解释性姿态，无恐惧或愤怒迹象。音频中观众的笑声明确证实了该陈述的喜剧意图，与图像中其面部表情和手势一致。尽管内容涉及恐惧，但整体表现是幽默的，因此应归为joy。\n<answer>joy</answer>",
+  "label": "fear",
+  "elapsed_seconds": 148.47881984710693
+}

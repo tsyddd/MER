@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Rachel在回应空乘人员的问候时，语气明朗轻快，言语中充满真诚的感谢与积极评价（'it was excellent'）。结合视觉上面带灿烂自然的笑容，其整体表达展现出愉悦、满意的心情，属于明确的正向情绪状态。",
+  "open_emotion": "愉悦",
+  "answer": "joy",
+  "mapping_reason": "目标人物在言语和声音中表现出对航程经历的满意与开心，符合joy类别中关于当前愉悦、满足的正向体验定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Yes, I did. Thank you very much, it was excellent.",
+      "observation": "目标人物用积极正向的词汇'excellent'和感激之词'Thank you very much'正面回应对方。",
+      "interpretation": "言语行为展现出由衷的满足与积极评价，传递出良好的心情。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:01-00:04",
+      "observation": "Rachel发音语调轻快上扬，语速流畅自然，音色明亮温和。",
+      "interpretation": "声学韵律特征明显偏向轻松愉悦与温和友善，而非平淡敷衍。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01至frame_03",
+      "observation": "Rachel面带明显笑意，嘴角上扬露出牙齿，神态放松。",
+      "interpretation": "视觉表情与声音的轻快高度一致，佐证其内心的正向愉悦体验。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "此类道别与致谢常带有社交礼貌成分，若仅视为常规寒暄可能被误判为neutral，但Rachel明朗上扬的语调与灿烂笑容表明其带有充分真实的愉悦感。"
+}

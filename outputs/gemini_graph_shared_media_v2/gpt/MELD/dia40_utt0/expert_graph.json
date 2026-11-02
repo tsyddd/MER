@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "Monica在当前交流中转向左侧同伴，笑容逐渐变得明显[E1]；当前字幕“Yeah baby!”与这一表现相符[E2]，支持joy。图谱person_1提供了Chandler正搂着并看向她的互动关系[E3]，但不能据此推断是谁令她高兴。图谱对语调的描述因未提供原音轨而只能保留为未核实的转述[E4]；图谱中重复记载的微笑也不另算一项证据。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_07 @ 1.4597905332889234秒",
+      "observation": "Monica面向左侧同伴，露齿微笑。",
+      "interpretation": "这是她在当前互动中的积极表情，支持joy。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "“Yeah baby!”",
+      "observation": "当前字幕给出Monica的肯定式感叹。",
+      "interpretation": "话语内容与画面中的笑容相合；字幕本身不能证明语调。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱记载Chandler的手臂搭在Monica肩上，并转头看她；画面可核对这一互动。",
+      "interpretation": "这说明她的表情出现在与他人相处的当下，但不证明两者之间的情绪因果。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_3",
+      "observation": "图谱转述Monica说话时语调轻快上扬；本次未提供原音轨。",
+      "interpretation": "该声音描述无法亲耳核验，不作为最终判断的独立依据。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "笑容也可能只是礼貌回应；但她持续露齿微笑，且当前话语是肯定式感叹，因此较之neutral更支持joy。未提供原音轨，无法进一步判断语调。"
+}

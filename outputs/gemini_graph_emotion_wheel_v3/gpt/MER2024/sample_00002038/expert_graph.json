@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "目标人物正看向画面右侧并询问“他是谁呀？”，当前互动集中在辨认一个不明身份的人。八帧中她持续双眉紧蹙、眉心隆起且张口发问，表现出对眼前对象身份的即时诧异，而非平稳叙述。[E1][E2] 图谱节点person_2关于低音量和上扬语调的内容属于音频派生转述；本片段未提供可亲耳核验的音轨，因此仅作不确定的辅助证据。[E3]",
+  "open_emotion": "诧异",
+  "answer": "surprise",
+  "mapping_reason": "“诧异”强调当前对象或信息超出预期，符合她面对右侧不明人物时的紧蹙眉、注视和身份追问。现有证据没有明确显示她正在预期某种负面后果，因此不映射为worried；也没有足够的责备或对抗表现映射为angry。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07，0.0至0.8秒",
+      "observation": "女性持续将视线投向画面右侧，双眉紧蹙、眉心隆起，张口发问。",
+      "interpretation": "持续注视并伴随明显眉部紧张，支持她对眼前人物或信息感到即时诧异，而非完全平稳交流。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "当前字幕“他，是谁呀？”",
+      "observation": "目标人物直接询问画面右侧相关人物的身份。",
+      "interpretation": "身份未知或出乎预期是当前互动焦点，支持“诧异”的事件语义；字幕本身不能单独证明担忧或愤怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_0、person_0、person_1",
+      "observation": "图谱记录她开口询问“他是谁呀”、双眉紧蹙，并将视线朝向画面右侧。",
+      "interpretation": "这些节点与当前画面观察相互印证，说明情绪指向正在出现或被关注的右侧对象；但节点顺序不提供更具体的因果或人物关系。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱转述其音量偏低、语调上扬并呈疑问语气，但audio_provided=false。",
+      "interpretation": "疑问语气可辅助说明她在即时确认信息，但由于未提供原音轨，不能亲耳核验该音频特征。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "画面中的紧蹙眉也可能表示对陌生人的不安或警惕；但没有明确的威胁、负面后果预期或害怕内容，字幕只表达身份询问，因此在允许标签中暂映射为surprise。"
+}

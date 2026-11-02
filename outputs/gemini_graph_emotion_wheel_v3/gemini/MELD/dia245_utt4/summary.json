@@ -1,0 +1,8 @@
+{
+  "reason": "独立核对音轨与画面，目标人物Monica目睹突发状况时，在00:00-00:02发出尖锐高亢、极具危机感的连续叫喊“No-no-no, no!”[audio_subtitle:E1]，音调急促且伴随慌乱颤音。画面frame_02至frame_04中，她瞬间双眼圆睁、神情惊骇，慌乱将手中的书本抛下并仓皇从沙发上猛扑向前[image:E1]。整套语言与动作均表现出面对不可控负面后果时的惊慌阻拦与恐慌应激，缺乏anger的攻击性或纯surprise的被动反应，符合fear家族定义。",
+  "answer": "fear",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "image:E1"
+  ]
+}

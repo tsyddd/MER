@@ -1,0 +1,232 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "说话人正在发言。",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "说话人说出“我印象最深的一户人家”。",
+      "time_index": 1,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "说话人说出“祖祖辈辈种地”。",
+      "time_index": 5,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "一名男性，穿着白色衬衫，坐在桌前。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "说话人的嘴部在开合，正在说话。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "说话人的视线朝向前方。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "说话人的声调平稳，语速正常。",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "场景为室内，有一张桌子。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "桌上有一个麦克风。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_2",
+      "type": "context",
+      "content": "桌上有一个姓名牌，上面写着“梅晓歌”。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_3",
+      "type": "context",
+      "content": "说话人是梅晓歌。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "同一人物的同一可观察表现",
+      "entity_anchor": "同一人物"
+    },
+    {
+      "source": "process_2",
+      "target": "process_1",
+      "relation": "after",
+      "reason": "同一人物的同一可观察表现",
+      "entity_anchor": "同一人物"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "同一人物的同一可观察表现",
+      "entity_anchor": "同一人物"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0 提供了说话人正在发言的宏观信息，process_1 提供了说话人说出具体内容的细节，联合后可以完整观察到发言的全过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_0",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "process_0 提供了说话人正在发言的宏观信息，process_2 提供了说话人说出具体内容的细节，联合后可以完整观察到发言的全过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_1",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "process_1 提供了说话人说出“我印象最深的一户人家”的细节，process_2 提供了说话人说出“祖祖辈辈种地”的细节，联合后可以完整观察到发言的具体内容。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0 提供了说话人的整体外貌和衣着信息，person_1 提供了说话人嘴部开合的动态细节，联合后可以完整观察到说话人的面部动作与外貌。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_0 提供了说话人的整体外貌和衣着信息，person_2 提供了说话人视线方向的细节，联合后可以完整观察到说话人的面部动作与外貌。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_0 提供了说话人的整体外貌和衣着信息，person_3 提供了说话人声调平稳、语速正常的听觉信息，联合后可以完整观察到说话人的外貌与声音特征。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0 提供了室内场景的宏观信息，context_1 提供了桌上有麦克风的细节，联合后可以完整观察到发言场景的环境与设备。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_2",
+      "relation": "context_joint",
+      "reason": "context_0 提供了室内场景的宏观信息，context_2 提供了桌上有姓名牌的细节，联合后可以完整观察到发言场景的环境与标识。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_3",
+      "relation": "context_joint",
+      "reason": "context_0 提供了室内场景的宏观信息，context_3 提供了说话人姓名的细节，联合后可以完整观察到发言场景的环境与人物身份。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_1",
+      "target": "context_2",
+      "relation": "context_joint",
+      "reason": "context_1 提供了桌上有麦克风的细节，context_2 提供了桌上有姓名牌的细节，联合后可以完整观察到发言场景的设备与标识。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_1",
+      "target": "context_3",
+      "relation": "context_joint",
+      "reason": "context_1 提供了桌上有麦克风的细节，context_3 提供了说话人姓名的细节，联合后可以完整观察到发言场景的设备与人物身份。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_2",
+      "target": "context_3",
+      "relation": "context_joint",
+      "reason": "context_2 提供了桌上有姓名牌的细节，context_3 提供了说话人姓名的细节，联合后可以完整观察到发言场景的标识与人物身份。",
+      "entity_anchor": null
+    }
+  ]
+}

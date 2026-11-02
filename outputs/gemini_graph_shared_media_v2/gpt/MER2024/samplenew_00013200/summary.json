@@ -1,0 +1,9 @@
+{
+  "reason": "我独立回看frame_00至frame_04，目标人物持续直视对方、眉眼收紧并张口指责；frame_05至frame_07中双眼睁大、身体前倾，表现强度进一步上升。字幕“可是，你背信弃义，你一个劲地抬价。”是可直接核对的明确责备，audio_subtitle专家对其语义的判断可信[ audio_subtitle:E1 ]。后段睁眼张口虽可支持surprise，但与持续对峙和指责性语言结合时，更符合愤怒；图谱所称语速和音量因无音轨不能核验，不作为决定依据。",
+  "answer": "angry",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "image:E1",
+    "image:E2"
+  ]
+}

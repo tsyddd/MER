@@ -1,0 +1,8 @@
+{
+  "reason": "通过核实实际音频与字幕[audio_subtitle:E1]，Chandler原在调侃抱怨洗手间内的人，但在门开瞬间话语骤然截断并音高突增惊呼'Hi!'，随后言语错乱卡壳把原本的'fall in'硬掰为'fall high'，听觉证据完全可信。画面上[image:E2]在frame_04（3.84s）处正面相对时，Chandler挑眉愣住且单手僵停在半空，身体姿态展现出明显的错愕。最强反证joy（搭讪意图）或neutral（常态寒暄）均无法合理解释其猝不及防的语流断裂与肢体僵滞，两者互补充分证明其核心情绪为预期违背引发的意外错愕。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "image:E2"
+  ]
+}

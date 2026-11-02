@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "目标人物当前陈述自己“再也没有亲人了”[E1]。图谱的process_1记录了这句陈述，但它与字幕是同一言语事实，不能算作两份独立证据[E2]。画面中她持续低垂视线、神情收敛[E3]，与谈及已发生的亲属失去相符，主导情绪更接近哀伤，而非担忧尚未发生的后果。图谱对声音的描述因未提供原音轨而不能亲耳核实[E4]，最终判断主要依据当前可核查的字幕和画面。",
+  "open_emotion": "哀伤",
+  "answer": "sad",
+  "mapping_reason": "她当前表达的是对已发生的亲属失去的低落感受，符合sad所指的哀痛，而不是以未来风险为中心的worried。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“我知道，在这个世上，再也没有亲人了。”",
+      "observation": "当前字幕呈现目标人物以第一人称说自己再也没有亲人。",
+      "interpretation": "陈述的焦点是已发生的失去，为哀伤判断提供语义依据；亲属状况本身无法仅凭此句核实。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "process_0、process_1",
+      "observation": "图谱将她的陈述分为“我知道在这个世上”和“再也没有亲人了”两个相接的节点。",
+      "interpretation": "process_1明确了当前陈述的失去对象；它与字幕同源，不构成额外的独立情绪证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_07（2.76秒）",
+      "observation": "她在说话期间大体保持视线低垂、表情收敛，没有明显兴奋或对抗动作。",
+      "interpretation": "这种当前表现与哀伤相容，但单凭低垂视线不能定类，须结合陈述内容。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱称她语速缓慢、语调低平。",
+      "interpretation": "这是有来源的音频派生转述；未收到原音轨，不能将其当作亲耳核验的声音证据。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "低垂视线和克制表达也可能是平静叙述；字幕所述亲属情况亦未获独立核实。但她当前谈及的明确是失去，而非未知风险或即时意外，因此不优先解释为worried、surprise或neutral。"
+}

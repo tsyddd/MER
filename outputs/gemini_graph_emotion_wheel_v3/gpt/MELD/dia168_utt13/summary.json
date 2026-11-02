@@ -1,0 +1,9 @@
+{
+  "reason": "回看frame_00至frame_06，穿棕色格纹衬衫的Ross在说话时逐渐皱眉、眯眼，并抬手向前比划；[image:E1]和[image:E2]对此的描述可信，但手势本身不能确定情绪。字幕原话“We know you took so just-just save yourself the time and confess!”直接指认并要求对方坦白，[audio_subtitle:E1]对其责备方向的判断有依据。最强的另一种解释是他只是在急切催促，但将言语中的指责与持续强调的表情动作合看，更接近恼火；本片段未提供音轨，不能据此判断实际语调。",
+  "answer": "anger",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "audio_subtitle:E1"
+  ]
+}

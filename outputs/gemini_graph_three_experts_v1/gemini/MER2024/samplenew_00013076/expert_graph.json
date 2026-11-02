@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载戴口罩男子抬头看向绿衣男子，并说出“正要感谢您呢！”〔process_0〕，随后连声表达“谢谢！谢，谢谢。”〔process_1〕。同时，他双手合十立于胸前做出感谢手势〔person_2〕。这些言语与肢体动作充分体现出其真诚道谢时的积极愉悦态度，情绪状态对应为happy。",
+  "answer": "happy",
+  "evidence_refs": [
+    "process_0",
+    "process_1",
+    "person_2"
+  ]
+}

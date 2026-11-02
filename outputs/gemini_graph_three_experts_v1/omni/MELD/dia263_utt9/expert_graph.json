@@ -1,0 +1,9 @@
+{
+  "expert": "graph",
+  "reason": "Ross在说话时语调低缓、平和〔person_2〕，同时抬头看向正前方并张嘴说话〔person_1〕，这些行为表明其情绪状态较为平静，无明显激动或负面情绪。结合其话语内容'I'm gonna have to give him up.'，虽涉及放弃，但其表现未体现强烈悲伤或愤怒，更符合中性情绪。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_1",
+    "person_2"
+  ]
+}

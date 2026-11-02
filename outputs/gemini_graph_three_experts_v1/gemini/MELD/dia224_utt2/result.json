@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia224_utt2",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "1a93519324deb7114b711ca1273c4ab6d476608084d6a740754472aedd789a3b",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "三份专家报告均指明目标发声主体为催眠磁带，其播音语调平缓低沉、节奏舒缓，无任何强烈的情感波动。视觉与听觉证据均表现出冷静、客观且平稳的机械指导状态，三者高度一致归结为中性。",
+  "output": "三份专家报告均指明目标发声主体为催眠磁带，其播音语调平缓低沉、节奏舒缓，无任何强烈的情感波动。视觉与听觉证据均表现出冷静、客观且平稳的机械指导状态，三者高度一致归结为中性。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 24.505443572998047
+}

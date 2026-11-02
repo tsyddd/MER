@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物在指出Ben即将到来且不能看到游戏机内容的现实顾虑时，言语行为属于客观陈述与理性提示。语音节奏匀速平缓，句尾自然回落，整体音质稳定无剧烈起伏；面部神态虽带有日常交谈中的随和微笑，但并无显著的情绪宣泄或强烈正负情感投入，表现出平稳日常的沟通状态。",
+  "open_emotion": "平稳阐述",
+  "answer": "neutral",
+  "mapping_reason": "目标人物在面对突发情境时以理性的事实陈述为主，语调与姿态均表现为常态交流，未体现明显的主导性情绪起伏，符合neutral作为平稳、日常且无明确主导情绪的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "But Ben is coming over tonight and he can’t see this.",
+      "observation": "目标人物提出事实理由（Ben要来且不能看见），为日常论证与沟通行为，句式结构规范，无夸张的情感形容词或情绪语气助词。",
+      "interpretation": "说话者专注于解决眼前问题的逻辑陈述，态度务实克制。[E1]",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "语句发音清晰平稳，语速中等，音调位于中音区，在句末'see this'处自然降调，没有气促、破音或拔高音量。",
+      "interpretation": "声学韵律呈现典型的陈述句特征，缺乏恐惧或愤怒的激动波动，声音状态平和。[E2]",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01至frame_05",
+      "observation": "Monica面向同伴交流并伸手指向机台，面部表情自然放松，嘴角略带日常交谈的微笑，眉眼平展无紧蹙或圆睁动作。",
+      "interpretation": "视觉表情与平静平缓的语调相符，未形成强烈的情绪高峰。[E3]",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "目标人物伴有轻微嘴角上扬和轻松动作，容易被替代解释为戏谑或被逗乐（joy），但其本质属于面对荒诞场景时的交际性放松表现，核心言语功能仍是平稳的事实说明。"
+}

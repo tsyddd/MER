@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia140_utt4",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "8fef145f22a30b21db1df9aa0b95769ecea3ec4535f7bae7d08d725b3cc323a7",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "图像专家在多帧中描述了紧皱眉头、张口幅度增大及更严厉的表情，直接指向恼怒；字幕内容虽偏中性，但未提供实际音频，无法据此判断语气。图谱关于注视和说话的描述较弱，且可能与图像同源，因此综合取“anger”。",
+  "output": "图像专家在多帧中描述了紧皱眉头、张口幅度增大及更严厉的表情，直接指向恼怒；字幕内容虽偏中性，但未提供实际音频，无法据此判断语气。图谱关于注视和说话的描述较弱，且可能与图像同源，因此综合取“anger”。\n<answer>anger</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 70.0530014038086
+}

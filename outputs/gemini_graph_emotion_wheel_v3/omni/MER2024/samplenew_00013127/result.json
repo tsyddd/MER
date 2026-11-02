@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00013127",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "d2115c97acf3c6e01bbce09ee0045d9eebc8b28101f778a38355f8f3c0e262a8",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "戏谑的喜悦",
+      "mapped_label": "happy",
+      "mapping_reason": "开放情绪词“戏谑的喜悦”描述了目标人物在调侃对方时所表现出的愉悦和轻松感。根据情绪轮的定义，“happy”（喜悦）指当前正向愉悦、满足或兴奋的情绪。目标人物的微笑、专注的眼神以及轻快的语调，都是其内心愉悦的直接表现，因此该情绪可以准确地映射到“happy”类别。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "平静",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据情绪轮的定义，'neutral'（中性）指当前主要为平稳叙述、自然交流或无明确主导情绪的表达。说话者的语调平稳，内容为一种中性的评价，没有表现出任何强烈的主导情绪，因此最符合'neutral'的定义。"
+    },
+    "image": {
+      "open_emotion": "赞赏",
+      "mapped_label": "happy",
+      "mapping_reason": "该人物的微笑和轻松姿态与字幕中‘还真是小看你了’的评价相符，这是一种对他人能力的认可，属于积极情绪。因此，映射到‘happy’是合适的。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "happy",
+  "emotion_analysis": "目标人物在整个片段中持续微笑，眼神专注，这是积极情绪的直接视觉证据。字幕内容“以前啊，以为你圆滑伶俐，还真是小看你了”是一种带有赞赏和调侃意味的评价，表明其情绪偏向正面。音频中语调轻快，带有调侃意味，与视觉和字幕证据共同支持一种愉悦的互动状态。尽管有专家认为语调平稳而判断为中性，但其微笑和语调的轻快感是更直接的情绪表现。因此，综合视听证据，最合适的标签是'happy'。",
+  "output": "目标人物在整个片段中持续微笑，眼神专注，这是积极情绪的直接视觉证据。字幕内容“以前啊，以为你圆滑伶俐，还真是小看你了”是一种带有赞赏和调侃意味的评价，表明其情绪偏向正面。音频中语调轻快，带有调侃意味，与视觉和字幕证据共同支持一种愉悦的互动状态。尽管有专家认为语调平稳而判断为中性，但其微笑和语调的轻快感是更直接的情绪表现。因此，综合视听证据，最合适的标签是'happy'。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 166.93678402900696
+}

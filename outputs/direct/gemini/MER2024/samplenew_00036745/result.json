@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00036745",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "画面中的男子坐在电脑前向对方陈述情况并表示“我去查”，神态认真自然，语调沉稳平实，没有明显的愤怒、担忧或惊讶等情绪起伏，表现为客观平静的中性状态。",
+  "output": "画面中的男子坐在电脑前向对方陈述情况并表示“我去查”，神态认真自然，语调沉稳平实，没有明显的愤怒、担忧或惊讶等情绪起伏，表现为客观平静的中性状态。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 6.634685516357422,
+  "node_count": null,
+  "edge_count": null
+}

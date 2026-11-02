@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "目标人物头部微倾且视线向下垂落〔person_0〕，呈现出明显的消沉神态。图谱记载其发声伴随轻弱微哑的气音〔person_1〕，语速缓慢且语调低平轻微〔person_2〕，结合说出“再也没有亲人了”时无助低落的言语表达〔process_1〕，整体表现符合悲伤情绪。",
+  "answer": "sad",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "person_2",
+    "process_1"
+  ]
+}

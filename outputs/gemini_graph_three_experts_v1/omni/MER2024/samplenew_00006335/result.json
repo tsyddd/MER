@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00006335",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "a0bf56d9fb9db16ede1f6dafeaeb4ef47157197d9bed5ab5ad9436046022afb9",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "音频分析显示说话者语调上扬并带有质问语气，结合台词内容表现出对已知情况的惊讶和质疑，情绪偏向惊讶；图像分析显示目标人物表情严肃、眉头微皱，整体情绪偏向中性；图谱分析则认为其语气低沉并带有疑问，符合'worried'标签。其中音频证据直接反映说话时的情绪表达，且与台词内容高度一致，因此优先采纳音频判断。",
+  "output": "音频分析显示说话者语调上扬并带有质问语气，结合台词内容表现出对已知情况的惊讶和质疑，情绪偏向惊讶；图像分析显示目标人物表情严肃、眉头微皱，整体情绪偏向中性；图谱分析则认为其语气低沉并带有疑问，符合'worried'标签。其中音频证据直接反映说话时的情绪表达，且与台词内容高度一致，因此优先采纳音频判断。\n<answer>surprise</answer>",
+  "label": "angry",
+  "elapsed_seconds": 50.78666591644287
+}

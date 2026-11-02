@@ -1,0 +1,158 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "打电话",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "说“不，不是我”",
+      "time_index": 1,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "说“是我一朋友”",
+      "time_index": 2,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_3",
+      "type": "process",
+      "content": "说“他现在在网上被人诽谤了”",
+      "time_index": 3,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_4",
+      "type": "process",
+      "content": "说“现在事情越闹越大”",
+      "time_index": 4,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_5",
+      "type": "process",
+      "content": "说“所以”",
+      "time_index": 5,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "女性，长发，穿着白色上衣和浅色外套，戴着一条彩色丝巾，左手腕戴着手表，右手拿着手机贴在耳边",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "女性，面部表情严肃，嘴部在说话",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内环境，背景有模糊的窗户和墙壁",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "该片段为连续的视频帧，时间顺序从0到5",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "同一人物的同一可观察表现",
+      "entity_anchor": "同一人物"
+    },
+    {
+      "source": "process_2",
+      "target": "process_1",
+      "relation": "after",
+      "reason": "同一人物的同一可观察表现",
+      "entity_anchor": "同一人物"
+    },
+    {
+      "source": "process_3",
+      "target": "process_2",
+      "relation": "after",
+      "reason": "同一人物的同一可观察表现",
+      "entity_anchor": "同一人物"
+    },
+    {
+      "source": "process_4",
+      "target": "process_3",
+      "relation": "after",
+      "reason": "同一人物的同一可观察表现",
+      "entity_anchor": "同一人物"
+    },
+    {
+      "source": "process_5",
+      "target": "process_4",
+      "relation": "after",
+      "reason": "同一人物的同一可观察表现",
+      "entity_anchor": "同一人物"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0 提供了可见的打电话动作和穿着细节，person_1 提供了说话时的面部表情和嘴部动作，联合后完整呈现了人物在通话中的具体行为和情绪状态。",
+      "entity_anchor": null
+    }
+  ]
+}

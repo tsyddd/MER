@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00041734",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "ef82d3fe06a46b4125e3eacb1a9f355331f80a204ee0f71866c99305b2e54746",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "回看frame_01至frame_06，说话的女性持续蹙眉、倾身并注视交谈对象；[image:E2]对这些可见变化的描述可信，frame_07出现的男性不是目标人物。字幕原话“不是，你，为什么要辞职？”确实是追问原因，但单凭问句不能判定她在责备对方[audio_subtitle:E1]。皱眉也可能表示生气，不过画面更突出紧张和关切，缺少明确敌意；又因未提供音轨，不能用语气作进一步判断，因此选择worried。",
+  "output": "回看frame_01至frame_06，说话的女性持续蹙眉、倾身并注视交谈对象；[image:E2]对这些可见变化的描述可信，frame_07出现的男性不是目标人物。字幕原话“不是，你，为什么要辞职？”确实是追问原因，但单凭问句不能判定她在责备对方[audio_subtitle:E1]。皱眉也可能表示生气，不过画面更突出紧张和关切，缺少明确敌意；又因未提供音轨，不能用语气作进一步判断，因此选择worried。\n<answer>worried</answer>",
+  "label": "angry",
+  "elapsed_seconds": 162.71088075637817
+}

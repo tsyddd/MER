@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Monica直接叫住Rachel，并用“never”明确否定她的行为，话语是在责备，而非仅仅陈述看法[E1]。她随后持续看向Rachel，表情严肃，与这种责备一致[E2]。综合判断为anger；没有音轨，不能据此判断她是否提高了音量。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“Rachel! I’m never gonna think it’s okay for you to cheat on your husband!”",
+      "observation": "Monica点名Rachel，以“never”强调自己绝不会认为这种行为可以接受。",
+      "interpretation": "直接、强调式的否定支持带有愤怒的责备；句中的“okay”并非她认可该行为。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05 @ 2.544206358017838",
+      "observation": "Monica面向Rachel，抬眼直视她，神情严肃。",
+      "interpretation": "与直接责备的言语行为一致，但画面本身不能证明她的音量或语调。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的替代解释是disgust：她明确反对出轨，可能是在表达厌恶。但当前更可辨认的是对Rachel本人的直接责备，而非明显的嫌恶表情；缺少音轨也限制了进一步区分。"
+}

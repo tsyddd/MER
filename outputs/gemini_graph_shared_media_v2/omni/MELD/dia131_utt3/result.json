@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia131_utt3",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "cd3d3c8c807c19df6b632ee4fea884ed6da5a8289e78f2f9813b77504e417e13",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "综合分析，视觉证据显示Rachel在说'Oh, everything went great.'时，面部表情为张嘴大笑，眼角有明显皱纹，是典型的喜悦表现；同时她手持物品并做出手势，姿态积极。音频中她的语调高昂、语速轻快，与字幕内容一致，共同指向joy。尽管音频专家认为语调平稳而判断为neutral，但其未充分考虑面部表情这一关键视觉证据。因此，应以更全面的视听证据为准。",
+  "output": "综合分析，视觉证据显示Rachel在说'Oh, everything went great.'时，面部表情为张嘴大笑，眼角有明显皱纹，是典型的喜悦表现；同时她手持物品并做出手势，姿态积极。音频中她的语调高昂、语速轻快，与字幕内容一致，共同指向joy。尽管音频专家认为语调平稳而判断为neutral，但其未充分考虑面部表情这一关键视觉证据。因此，应以更全面的视听证据为准。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 134.8772096633911
+}

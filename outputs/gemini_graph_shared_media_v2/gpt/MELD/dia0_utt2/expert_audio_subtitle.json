@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "字幕只有“Y'know what?”这一简短话语，单凭文字无法确定具体情绪；但Rachel在连续画面中回避对视、嘴唇紧抿并逐渐起身，呈现出明显的紧张和不满，结合对方逼近的互动姿态，更支持将其理解为带有恼怒的回应，而非单纯中性发问。[E1][E2]",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "当前字幕原话：\"Y'know what?\"",
+      "observation": "这是一个引出后续决定或反驳的短句，形式上像反应性话语，但没有足够词汇直接标明情绪。",
+      "interpretation": "语义本身有限，不能单独区分愤怒、沮丧或中性；因此主要依赖视觉语境判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02至frame_07 @ 0.3337–1.1261秒",
+      "observation": "Rachel持续低头或侧看，表情收紧，随后身体向上移动，未表现出明显笑容或放松姿态。",
+      "interpretation": "这些可见反应与被逼问后产生的不满、抗拒相符，支持anger；也使纯粹neutral解释较弱。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00至frame_03 @ 0.0–0.5005秒",
+      "observation": "男性角色俯身靠近Rachel，明显侵入她的近距离空间，而Rachel保持僵硬并将注意力移开。",
+      "interpretation": "互动中的压力和回避为恼怒或受挫提供语境支持，但仅凭画面不能确认愤怒强度。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是sadness或受压下的紧张：Rachel的低头和沉重表情也可能表示难过，而不是生气。由于audio_provided=false，无法用语调、音量或节奏进一步区分；若有后续字幕或音频，尤其是语气加重、打断或哭腔，将有助于判定。"
+}

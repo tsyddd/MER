@@ -1,0 +1,94 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "灰衣束发男子说出“也不知道，当年，三哥”",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "头戴发冠的男子侧身微倾，右手抬至胸前，目光垂向地面",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "灰衣束发男子微低着头，视线垂向下方，嘴唇微动",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "说话声语调低沉、语速平缓",
+      "time_index": 1,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内陈设古朴木质屏风与门窗",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "镜头切换为灰衣束发男子的近景",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "simultaneous",
+      "reason": "灰衣束发男子在嘴唇微动说话的同时，其发出的说话声呈现语调低沉、语速平缓的听觉特征",
+      "entity_anchor": "灰衣束发男子"
+    },
+    {
+      "source": "context_1",
+      "target": "context_0",
+      "relation": "after",
+      "reason": "画面在展示带有古朴木质屏风门窗的环境全景后，镜头切换至灰衣束发男子的面部近景",
+      "entity_anchor": "画面景别与镜头呈现"
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1 提供了灰衣束发男子微低着头、视线垂下且嘴唇微动的面部视觉表现，person_2 补充了其发言时低沉平缓的听觉特征，两者联合全面呈现了该说话人物在音画维度的沉郁状态表现。",
+      "entity_anchor": null
+    }
+  ]
+}

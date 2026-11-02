@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00004468",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "030d3dde52545bf65625b56493419caddcff773c9828571517a26fff72171282",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "audio_subtitle与graph指出目标人物以拉长上扬的“哎”开场，并用充满诧异的探询语调质问对方在他人离婚时为何如此高兴，展现出强烈的意外与惊讶。虽然image专家观察到紧蹙眉头与质问逼视的神态并推断为angry，但在音频明确的诧异语调及反常探问语境下，该质问表情实质源于对对方反应的意外，故判定为surprise。",
+  "output": "audio_subtitle与graph指出目标人物以拉长上扬的“哎”开场，并用充满诧异的探询语调质问对方在他人离婚时为何如此高兴，展现出强烈的意外与惊讶。虽然image专家观察到紧蹙眉头与质问逼视的神态并推断为angry，但在音频明确的诧异语调及反常探问语境下，该质问表情实质源于对对方反应的意外，故判定为surprise。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 40.52454972267151
+}

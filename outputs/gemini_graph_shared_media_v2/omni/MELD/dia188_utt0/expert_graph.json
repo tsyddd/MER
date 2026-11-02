@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "Joey在发出“What?”的疑问后，迅速收敛了动作，从张嘴和手臂微展的姿态变为合嘴、低头、视线转向地面且双臂下垂的姿态。这种从主动发问到迅速内敛的转变，结合他发问时的惊讶语调，表明他可能是在表达惊讶后迅速调整了情绪或姿态。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "Joey说出“What?”",
+      "interpretation": "Joey的言语内容“What?”直接表达了惊讶或疑问的情绪，这是判断其情绪的直接证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "Joey张开嘴巴，视线朝前下方，右臂微微向外侧伸展",
+      "interpretation": "这一姿态是发问的典型动作，与他发出的“What?”相吻合，支持了惊讶的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "Joey合上嘴，低头视线转向地面，双臂垂在身侧",
+      "interpretation": "这一姿态是发问后迅速收敛的动作，表明惊讶的情绪可能很快被抑制或转变为其他状态，但发问瞬间的惊讶是明确的。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽然Joey在发问后迅速收敛了动作，但发问瞬间的惊讶是明确的。没有其他证据表明他当时是愤怒、悲伤或喜悦。"
+}

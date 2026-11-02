@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物为画面中央手持电话的男性。连续画面中他保持直视前方，眉间略有收紧，嘴部张合说话，整体姿态端正但表情克制，结合字幕所表达的追问内容，最支持“worried”而非单纯中性。[E1][E2]",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07 @ 0.0–2.64秒",
+      "observation": "目标人物眉间持续轻微收紧，目光集中向前，嘴部在多个帧中张开或收拢，保持手持电话的紧张专注姿态。",
+      "interpretation": "持续的皱眉、专注凝视和克制的说话状态支持其对所谈事项存在担忧或顾虑，但不显示强烈愤怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "当前字幕：关东军不是已经增兵甲子沟、煤矿了吗？",
+      "observation": "字幕是带有质疑和确认意味的反问，涉及增兵和煤矿情况。",
+      "interpretation": "语言内容为视觉上较中性的严肃表情提供了担忧/顾虑的跨模态支持；该判断来自字幕，不是画面直接可见事实。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02至frame_07 @ 0.76–2.64秒",
+      "observation": "表情变化幅度较小，没有明显张大眼睛、张大嘴或激烈手势，姿态基本稳定。",
+      "interpretation": "不支持惊讶或强烈愤怒，也表明其担忧表现较为克制。",
+      "polarity": "counter"
+    }
+  ],
+  "counterevidence": "最强的相反解释是neutral：人物没有明显激烈表情，可能只是平静地在电话中询问。由于没有音频，无法用语气进一步区分礼貌询问、紧张询问或担忧；但持续轻微皱眉、集中目光及字幕内容使worried比neutral更有支持。"
+}

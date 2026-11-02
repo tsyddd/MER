@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035837",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "50fa078e2d97eec8a574cbe583ec63c1368c6298089bae3bc9b79dd5c68cb064",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "三份专家输出高度一致，视觉上目标人物双眼垂落、嘴角下沉并呈现明显的消沉姿态；听觉上伴有哭腔、微弱气音与低缓语调，配合其表达失去亲人的绝望台词，各模态线索均明确指向悲伤状态。",
+  "output": "三份专家输出高度一致，视觉上目标人物双眼垂落、嘴角下沉并呈现明显的消沉姿态；听觉上伴有哭腔、微弱气音与低缓语调，配合其表达失去亲人的绝望台词，各模态线索均明确指向悲伤状态。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 28.148261308670044
+}

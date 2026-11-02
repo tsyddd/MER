@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00034518",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "当前目标人物是年长女性；她面向年轻女性并注视对方（person_0），随后嘴部开合发问“是不是？家里又出什么事了？”（process_0、person_2）。person_2 after person_0及person_0与person_2的person_joint关系表明这是她当前针对年轻女性的直接询问，结合其关切的表情和询问家庭是否出事的内容，表现出担忧。",
+  "output": "当前目标人物是年长女性；她面向年轻女性并注视对方（person_0），随后嘴部开合发问“是不是？家里又出什么事了？”（process_0、person_2）。person_2 after person_0及person_0与person_2的person_joint关系表明这是她当前针对年轻女性的直接询问，结合其关切的表情和询问家庭是否出事的内容，表现出担忧。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 79.54854393005371,
+  "node_count": 5,
+  "edge_count": 2
+}

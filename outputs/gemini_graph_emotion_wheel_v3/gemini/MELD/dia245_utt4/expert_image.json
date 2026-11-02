@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物Monica在沙发上看书时被门边的动静惊动，面部瞬间呈现出睁大眼睛、微张嘴巴的惊愕与戒备神情，随后神态极为仓促慌乱，迅速扔下手中的书并从沙发上猛然起身冲向前；结合音频中急促尖锐的制止喊叫，其肢体和表情展现出面对突发负面状况时强烈的紧张与惊慌防备反应。",
+  "open_emotion": "惊慌",
+  "answer": "fear",
+  "mapping_reason": "Monica表现出因突发状况可能导致糟糕后果而产生的急迫恐慌与阻拦冲动，符合fear家族中对威胁或负面后果相关的惊恐与高度焦虑定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 (0.58s) - frame_04 (1.13s)",
+      "observation": "Monica原本倚靠在沙发上看书，转头看向门边方向时双眼圆睁、嘴唇张开，随即慌张地扔下手中的书册，身体迅速前倾企图起身。",
+      "interpretation": "突发的剧烈动作和警惕神色表明她感知到了令人担忧的突发事件。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_06 (1.71s) - frame_07 (2.00s)",
+      "observation": "Monica快速从沙发上爬起向前奔冲，面部眼眉紧张上挑，眼神充满慌乱与急迫。",
+      "interpretation": "仓皇奔走的身体姿态强化了面对潜在破坏或危险时的惊慌反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00 - 00:02",
+      "observation": "音轨中传出高音调且急促的“No-no-no, no!”惊叫声。",
+      "interpretation": "尖锐而慌急的语调证实了她当下慌张制止的恐慌心理而非纯粹的愤怒责怪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "如果仅看她急切制止的行为，也可能被解读为因他人莽撞行为而产生的恼火（anger）或瞬间的意外（surprise），但其动作充满仓皇回避灾难的惊慌感，且缺乏愤怒所特有的面部紧绷敌意。"
+}

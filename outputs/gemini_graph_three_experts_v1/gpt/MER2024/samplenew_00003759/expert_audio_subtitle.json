@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。仅从字幕“是吗？才真这么说的。”看，表达了对所述内容的意外或质疑，当前情绪更接近惊讶。",
+  "answer": "surprise",
+  "evidence_refs": []
+}

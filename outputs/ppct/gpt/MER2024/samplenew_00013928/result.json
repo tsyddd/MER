@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013928",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "happy",
+  "emotion_analysis": "当前人物面带明显笑容，眼睛微眯，持续对画面前方对象交流。字幕中的“我可看好你呀！怎么样？”以及“收获大大的吧”是对对方的支持和积极追问，结合process_2、process_3及其连续互动关系，表现出愉快情绪。",
+  "output": "当前人物面带明显笑容，眼睛微眯，持续对画面前方对象交流。字幕中的“我可看好你呀！怎么样？”以及“收获大大的吧”是对对方的支持和积极追问，结合process_2、process_3及其连续互动关系，表现出愉快情绪。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 65.00254464149475,
+  "node_count": 10,
+  "edge_count": 8
+}

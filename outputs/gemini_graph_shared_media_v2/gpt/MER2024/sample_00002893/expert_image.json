@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标人物为画面中央手持手机的女性。她在连续画面中眉头持续向内收紧、眉中部上提，嘴唇多次张开并逐渐抿紧，目光偏向前方且面部保持紧绷；字幕提到朋友被诽谤且“现在事情越闹越大”，与对当前问题的担忧更吻合。[E1][E2][E3]",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒 至 frame_03 @ 3.0秒",
+      "observation": "目标人物眉头内收，眉中部上提，眼睑略收窄，嘴唇张开后保持紧绷。",
+      "interpretation": "这些变化显示持续的面部紧张和关注，支持担忧而非放松或愉快表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 3.96秒 至 frame_07 @ 6.96秒",
+      "observation": "她的眉形仍明显收紧，嘴角下压或抿住，头部和持手机的姿态基本稳定，没有明显微笑。",
+      "interpretation": "表情持续克制但带有紧张和不安，符合担忧状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "当前字幕原话：“不，不是，我，是我一朋友，他现在在网上被人诽谤了，现在事情越闹越大，所以。”",
+      "observation": "字幕内容明确涉及朋友遭诽谤以及事态扩大。",
+      "interpretation": "该语言内容为视觉上的紧绷眉眼和抿唇提供了担忧语境，但不是视觉事实本身。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_05 @ 4.96秒 至 frame_07 @ 6.96秒",
+      "observation": "眼睛和嘴部略显下垂，整体表情也可被看作低落，但未见明确泪光或哭泣动作。",
+      "interpretation": "存在悲伤的外观线索，但其紧张、持续关注和字幕中的问题升级更直接支持担忧。",
+      "polarity": "counter"
+    }
+  ],
+  "counterevidence": "下垂的眉眼和抿唇也可能表示悲伤；但画面未显示明确哭泣或泪光，且眉部更突出的是内收和紧绷，因此未采用sad。"
+}

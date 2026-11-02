@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia188_utt0",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "Joey 在街上停下脚步并转身询问他人，其面部表情平静自然，语气属于普通的随口发问，没有表现出强烈的喜怒哀乐或受惊情绪。",
+  "output": "Joey 在街上停下脚步并转身询问他人，其面部表情平静自然，语气属于普通的随口发问，没有表现出强烈的喜怒哀乐或受惊情绪。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 7.861266851425171,
+  "node_count": null,
+  "edge_count": null
+}

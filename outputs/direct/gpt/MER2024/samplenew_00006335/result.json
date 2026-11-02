@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00006335",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "人物手持电话严肃询问，眉头微蹙、神情凝重。字幕是在追问关东军增兵和煤矿的情况，体现出对局势的担忧，而非愤怒或惊讶。",
+  "output": "人物手持电话严肃询问，眉头微蹙、神情凝重。字幕是在追问关东军增兵和煤矿的情况，体现出对局势的担忧，而非愤怒或惊讶。\n<answer>worried</answer>",
+  "label": "angry",
+  "elapsed_seconds": 108.19471740722656,
+  "node_count": null,
+  "edge_count": null
+}

@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00034225",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "12ed0aa9b273f368e8bd1e8523c70a683154346bda47b6b5ca66053f7fff6640",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "目标人物的言语和神态核心聚焦于对尚未明确的潜在负面影响（是否给对方添了麻烦）的顾虑与试探，符合情绪轮中worried对未知风险、连累他人产生不安和预期的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "忐忑",
+      "mapped_label": "worried",
+      "mapping_reason": "‘忐忑’表现为对潜在负面结果、自身责任及未知麻烦的顾虑与不安，在情绪轮中紧密对应强调风险预期与心理焦虑的worried类别。"
+    },
+    "image": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "开放词‘诧异’指因当前状况违背原有预期而产生的意外反应，符合本情绪轮中surprise（因当前信息违背预期产生的意外、诧异或震惊）的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "独立核查音轨与原帧，目标人物在00:00-00:02发问时语气轻缓低柔、带试探性气声[audio_subtitle:E2]，并未表现出高音调冲击或急促震惊，[image:E1]将发音口型（frame_03、frame_05）片面解释为惊诧并不充分。结合视觉上身体微前倾紧盯对方的探询神态与台词向“我是不是给你惹麻烦了”的递进[graph:E1]，人物关注的核心在于未知局面及自身是否造成不利后果的顾虑。这种对潜在风险与连累他人的忐忑不安，在情绪轮中明确对应worried。",
+  "output": "独立核查音轨与原帧，目标人物在00:00-00:02发问时语气轻缓低柔、带试探性气声[audio_subtitle:E2]，并未表现出高音调冲击或急促震惊，[image:E1]将发音口型（frame_03、frame_05）片面解释为惊诧并不充分。结合视觉上身体微前倾紧盯对方的探询神态与台词向“我是不是给你惹麻烦了”的递进[graph:E1]，人物关注的核心在于未知局面及自身是否造成不利后果的顾虑。这种对潜在风险与连累他人的忐忑不安，在情绪轮中明确对应worried。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 66.69818615913391
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Janice说“you could make little puppets out of them”并接着说“your theater of cruelty”，是在用夸张比喻指责对方，而非认真建议做木偶[E1]。她随后皱眉前倾，结束时抱臂看向对方，视觉表现与不满相符[E2][E3]。没有音频，无法判断语调是否让这句话更偏向玩笑。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“Because you know, you could make little puppets out of them, and you could use them in your theater of cruelty.”",
+      "observation": "以“木偶”和“残酷剧场”形容对方可能做的事。",
+      "interpretation": "夸张的措辞构成对对方的讽刺性指责，支持不满，而非字面上的提议。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_06 @ 6.297953443617927秒",
+      "observation": "Janice皱眉、身体前倾，双手收在身前，面向对方说话。",
+      "interpretation": "紧绷的表情和姿态支持她正在表达不满。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_07 @ 7.3406609673957295秒",
+      "observation": "Janice重新抱臂，侧头看向对方，表情严肃。",
+      "interpretation": "话语结束后的姿态延续了不满的表达。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的替代解释是带玩笑意味的调侃：木偶和“残酷剧场”的说法明显夸张，且片段前段她的表情较轻松。但后段皱眉前倾及抱臂的表现更支持指责性的不满；没有音频，不能进一步核实其语调。"
+}

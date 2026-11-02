@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "Ross在说话时出现‘like-like’的词语重复（person_2），同时伴随嘴唇开合（person_1）和注视Joey（person_0）的行为，这些同步动作表明他在表达建议时存在犹豫或思考，而非强烈情绪。组织文本指出该行为可能反映‘边思索边表达’，无愤怒、悲伤或喜悦等明显情绪线索。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_2",
+    "person_1",
+    "person_0"
+  ]
+}

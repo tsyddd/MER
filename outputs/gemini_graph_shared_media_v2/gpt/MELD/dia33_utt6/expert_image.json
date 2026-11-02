@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标是抱着襁褓的Rachel。她从低头查看婴儿转为抬头皱眉、张口说话，并持续调整抱姿；结合字幕中不知该怎么办的表述，最支持焦虑不安，故在给定标签中选fear[E1][E2][E3]。",
+  "answer": "fear",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒；frame_02 @ 1.4597905332889234秒",
+      "observation": "Rachel先低头看怀中的襁褓，随后抬头，眉部收紧，嘴张开。",
+      "interpretation": "表情和视线的变化支持她正在为眼前状况感到不安，但张口本身不能确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 2.210539950408941秒；frame_04 @ 2.961289367528959秒",
+      "observation": "她持续皱眉、张口说话，同时将襁褓贴近身体并调整托抱的双手。",
+      "interpretation": "这些连续表现比单帧表情更支持紧张、焦急的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“Oh come on, what am I gonna do, its been hours and it  won’t stop crying.”",
+      "observation": "字幕写到她不知道该怎么办，并说哭声已经持续数小时。",
+      "interpretation": "话语内容与画面中的焦急表现相符；字幕不能证明她的语调，也不能据此确认哭声实际可闻。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "“Oh come on”和皱眉也可能表示烦躁或愤怒；但画面中没有明确针对他人的攻击性动作，而“不知道怎么办”的字幕与持续调整抱姿的表现更支持焦虑不安。"
+}

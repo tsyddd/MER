@@ -1,0 +1,118 @@
+{
+  "direct/gpt": {
+    "complete": true,
+    "metrics": {
+      "MER2024": {
+        "expected": 40,
+        "valid": 40,
+        "correct": 24,
+        "accuracy": 0.6
+      },
+      "MELD": {
+        "expected": 40,
+        "valid": 40,
+        "correct": 28,
+        "accuracy": 0.7
+      },
+      "ALL": {
+        "expected": 80,
+        "valid": 80,
+        "correct": 52,
+        "accuracy": 0.65
+      }
+    },
+    "recorded_usage": {
+      "prompt_tokens": 136255,
+      "completion_tokens": 11854,
+      "total_tokens": 148109
+    },
+    "recorded_responses": 80
+  },
+  "ppct/gpt": {
+    "complete": true,
+    "metrics": {
+      "MER2024": {
+        "expected": 40,
+        "valid": 40,
+        "correct": 31,
+        "accuracy": 0.775
+      },
+      "MELD": {
+        "expected": 40,
+        "valid": 40,
+        "correct": 31,
+        "accuracy": 0.775
+      },
+      "ALL": {
+        "expected": 80,
+        "valid": 80,
+        "correct": 62,
+        "accuracy": 0.775
+      }
+    },
+    "recorded_usage": {
+      "prompt_tokens": 884334,
+      "completion_tokens": 168287,
+      "total_tokens": 1052621
+    },
+    "recorded_responses": 406
+  },
+  "direct/gemini": {
+    "complete": true,
+    "metrics": {
+      "MER2024": {
+        "expected": 40,
+        "valid": 40,
+        "correct": 33,
+        "accuracy": 0.825
+      },
+      "MELD": {
+        "expected": 40,
+        "valid": 40,
+        "correct": 27,
+        "accuracy": 0.675
+      },
+      "ALL": {
+        "expected": 80,
+        "valid": 80,
+        "correct": 60,
+        "accuracy": 0.75
+      }
+    },
+    "recorded_usage": {
+      "prompt_tokens": 734048,
+      "completion_tokens": 25937,
+      "total_tokens": 759985
+    },
+    "recorded_responses": 80
+  },
+  "ppct/gemini": {
+    "complete": true,
+    "metrics": {
+      "MER2024": {
+        "expected": 40,
+        "valid": 40,
+        "correct": 30,
+        "accuracy": 0.75
+      },
+      "MELD": {
+        "expected": 40,
+        "valid": 40,
+        "correct": 24,
+        "accuracy": 0.6
+      },
+      "ALL": {
+        "expected": 80,
+        "valid": 80,
+        "correct": 54,
+        "accuracy": 0.675
+      }
+    },
+    "recorded_usage": {
+      "prompt_tokens": 3416685,
+      "completion_tokens": 348207,
+      "total_tokens": 3764892
+    },
+    "recorded_responses": 416
+  }
+}

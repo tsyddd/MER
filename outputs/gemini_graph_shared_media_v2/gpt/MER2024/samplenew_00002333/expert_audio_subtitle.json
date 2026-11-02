@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "字幕“像这娘，交代你。”是陈述性话语，没有明显疑问或否定形式；画面中说话者持续露出笑容，眼睛略眯，整体姿态放松，与轻松愉快的表达相一致。[E1][E2] 但由于未提供音频，无法核实语调、节奏或是否带有反讽。",
+  "answer": "happy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "当前片段字幕：像这娘，交代你。",
+      "observation": "字幕呈现为一句陈述，没有明确疑问、否定或直接情绪词。",
+      "interpretation": "更像是在进行轻松的叙述或交代，未显示出当前说话者的悲伤、愤怒或担忧。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00至frame_04 @ 0.0–1.72秒",
+      "observation": "说话者嘴角上扬并持续微笑，眼睛略眯，身体靠坐在沙发上，姿态较放松。",
+      "interpretation": "面部表情和身体状态支持愉快、轻松的情绪判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05至frame_07 @ 2.16–3.00秒",
+      "observation": "后段笑容减弱，嘴部张开继续说话，但没有出现明显皱眉、紧张或痛苦表情。",
+      "interpretation": "情绪表现有所收敛，但仍缺少支持愤怒、悲伤或担忧的视觉证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是说话者可能带着调侃或反讽而微笑；字幕本身不足以排除这种语用含义，且未提供音频来核实语调。不过当前画面中持续的笑容和放松姿态仍更直接支持happy。"
+}

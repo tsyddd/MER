@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "目标人物在镜头切换至特写后（frame_03至frame_07），面部肌肉平稳放松，眉毛舒展未紧蹙，视线微向下垂视，嘴型配合低缓语调平稳开合，神情收敛克制，整体呈现出沉静陈述与回忆的平稳状态，无激烈的表情起伏。",
+  "open_emotion": "平稳",
+  "answer": "neutral",
+  "mapping_reason": "目标人物当前处于平静、自然的沉思叙述交流状态，未展现显著的负向悲伤对抗或正向欣喜，符合neutral定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_03至frame_07 (0.92s - 2.12s)",
+      "observation": "目标人物面容平静，眉眼舒展无皱眉或抬眉动作，视线微垂偏下，嘴角自然微抿并伴随轻微发音闭合，神态平稳自然。",
+      "interpretation": "面部各肌肉群未见明显的情绪化拉扯，表现为冷静自然的沉思与讲述状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.00s - 2.12s",
+      "observation": "伴随台词“也不知道，当年，三哥”，语调低沉徐缓、起伏极小，无哭腔、颤抖或激昂重音。",
+      "interpretation": "语气平缓如实陈述，印证视觉上的平稳表现。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "目标人物视线下敛且提及旧人旧事，容易被解读为潜隐的怀旧或感伤，但因缺乏蹙眉、嘴角下挂等悲伤外显特征，不足以认定为主导的sad情绪。"
+}

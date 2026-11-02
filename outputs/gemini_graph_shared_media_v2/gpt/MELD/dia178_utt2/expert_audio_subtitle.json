@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Monica说“it’s going great”，直接表达事情进展顺利；她随后抱着婴儿面带笑容，与这句话一致[E1][E2]。“Nope”只是对前文的否定，不能据此判断她在生气[E3]。没有音频，无法核查语调。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“Pheebs, it’s going great. Look at Chandler with little baby girl Chandler.”",
+      "observation": "Monica称事情进展顺利，并让对方看婴儿。",
+      "interpretation": "当前话语呈积极态度，支持joy。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 3.294955775137856秒；frame_07 @ 5.797453832204582秒",
+      "observation": "Monica抱着婴儿，先朝旁边露出笑容，随后低头对婴儿微笑。",
+      "interpretation": "表情与话语中的积极态度一致。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“Nope, sound like me.”",
+      "observation": "开头有一句否定回应。",
+      "interpretation": "否定的是前文说法；单凭“Nope”不能推断愤怒，也不足以推翻后续的积极表达。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "“it’s going great”也可能是反讽；但可见的笑容更支持她在真诚地表达愉快。由于没有音频，仍无法用语调排除反讽。"
+}

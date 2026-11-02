@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia188_utt0",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "b97e68d51fd419e726abf41fc684b1dd95e92043178dcef7d7b2a8c69202319d",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "三位专家意见高度一致。图谱与图像专家均指出Joey面部表情平和、肢体动作迅速收敛放松，没有激烈情绪表现；音频专家亦证实其单字发音平稳自然，语调无明显起伏，综合判断为中性状态。",
+  "output": "三位专家意见高度一致。图谱与图像专家均指出Joey面部表情平和、肢体动作迅速收敛放松，没有激烈情绪表现；音频专家亦证实其单字发音平稳自然，语调无明显起伏，综合判断为中性状态。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 40.73690962791443
+}

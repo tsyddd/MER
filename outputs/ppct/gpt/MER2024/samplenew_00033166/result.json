@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00033166",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "angry",
+  "emotion_analysis": "当前目标人物为男子，节点person_0显示他面向右侧人物并持续开合嘴部，process_0确认他正在说“难道都要悉数倒戈？不成？”。结合context_0与context_1所示的室内面对面交流关系，以及其紧绷、质问的面部表情，当前表达带有明显的责问和不满。",
+  "output": "当前目标人物为男子，节点person_0显示他面向右侧人物并持续开合嘴部，process_0确认他正在说“难道都要悉数倒戈？不成？”。结合context_0与context_1所示的室内面对面交流关系，以及其紧绷、质问的面部表情，当前表达带有明显的责问和不满。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 48.729204416275024,
+  "node_count": 5,
+  "edge_count": 1
+}

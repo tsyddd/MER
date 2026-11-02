@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。字幕“Deeper.”本身仅表示程度加深，没有明确的情绪表达，因此判为中性。",
+  "answer": "neutral",
+  "evidence_refs": []
+}

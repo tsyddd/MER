@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "Phoebe's facial expression and body language are consistently positive throughout the clip. She maintains direct eye contact with the other person, has a clear smile, and her posture is open and engaged. These visual cues, combined with the context of the dialogue, point to a lighthearted and amused emotional state.",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "Phoebe is looking at the other person with a slight smile and her hand is placed on their chest.",
+      "interpretation": "This indicates a friendly and engaged interaction, consistent with amusement.",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.667",
+      "observation": "Phoebe's smile is more pronounced, and her eyes are crinkled at the corners, suggesting a genuine smile.",
+      "interpretation": "This is a strong visual indicator of positive emotion, such as joy.",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.293",
+      "observation": "Phoebe is smiling broadly and looking directly at the other person.",
+      "interpretation": "This sustained, broad smile reinforces the interpretation of joy.",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "subtitle",
+      "anchor": "So your brother's straigh huh? Seriously.",
+      "observation": "The subtitle contains the phrase 'Seriously,' which is often used to express disbelief or amusement.",
+      "interpretation": "This supports the visual evidence of amusement and joy, as the speaker is reacting to something she finds funny.",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "There is no visual evidence to support any other emotion. The absence of frowning, tears, or tense body language rules out sadness, anger, and fear. The context is not one of disgust or surprise."
+}

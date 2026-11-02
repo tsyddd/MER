@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00006335",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "说话者语气带有明显的质问和惊讶，结合台词内容，表现出对已知情况的意外和怀疑，符合惊讶情绪的特征。",
+  "output": "说话者语气带有明显的质问和惊讶，结合台词内容，表现出对已知情况的意外和怀疑，符合惊讶情绪的特征。\n<answer>surprise</answer>",
+  "label": "angry",
+  "elapsed_seconds": 5.489904880523682,
+  "node_count": null,
+  "edge_count": null
+}

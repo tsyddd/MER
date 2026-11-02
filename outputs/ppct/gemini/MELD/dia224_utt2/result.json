@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia224_utt2",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "根据图谱中节点person_0和process_0，目标说话人催眠磁带（Hypnosis Tape）正在播放指令“Deeper.”。其发音语调极其平稳、舒缓且不带任何情绪波动，属于标准的引导性催眠录音语气，因此整体呈现neutral情绪。",
+  "output": "根据图谱中节点person_0和process_0，目标说话人催眠磁带（Hypnosis Tape）正在播放指令“Deeper.”。其发音语调极其平稳、舒缓且不带任何情绪波动，属于标准的引导性催眠录音语气，因此整体呈现neutral情绪。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 37.91865396499634,
+  "node_count": 4,
+  "edge_count": 0
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "画面中目标女性在提及对方近况时，从直视说话转为垂眸微蹙眉头[E1]，随后重新抬眼探询对方反应，眼神充满关切与紧绷[E2]，结合其询问对方遭遇意外的语调[E3]，整体表现为明显的担忧而非客观陈述或纯粹悲伤。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_04 @ 2.12s",
+      "observation": "目标女性双眼下垂避开直视，眉头微蹙，嘴角轻微下撇与收缩",
+      "interpretation": "在说到负面消息时出现回避性低头与紧缩表情，体现对事件的挂虑与不安",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_07 @ 3.68s",
+      "observation": "视线重新抬起注视对面人物，眉心依然聚拢，目光带着探询与关切",
+      "interpretation": "探询式凝视与未舒展的眉头表现出对对方安危的关怀与担忧",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:01 - 00:03",
+      "observation": "语音语气轻缓平稳但带有一丝试探与关切的微弱下沉",
+      "interpretation": "辅助排除了愤怒或惊讶，指向关怀询问中的担忧",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "垂眸蹙眉的瞬间若单看静态帧可能被误认为sad，但其随后立刻抬头凝视对方并主动探问状况，动作意图为关切对方而非沉浸在自身悲痛中。"
+}

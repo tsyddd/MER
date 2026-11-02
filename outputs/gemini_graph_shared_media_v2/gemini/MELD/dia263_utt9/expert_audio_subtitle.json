@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物在说出含有无奈放弃语义的话语时，语调低沉微弱、节奏迟缓且带有沉重的降调，配合视觉上低垂的目光与沮丧神态，明确表达出失落与难过情绪[E1][E2]。",
+  "answer": "sadness",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "I'm gonna have to give him up.",
+      "observation": "语句表述了被迫放弃（'have to give him up'）的无奈决定，言语行为属于沉痛的坦白与接受现实",
+      "interpretation": "语义本身传达出被迫割爱的心酸与无力感，为悲伤情绪提供核心语境",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00 - 00:01",
+      "observation": "说话者音量偏低、语速沉缓，尾音呈明显下沉的叹息感，整体发音能量低弱且缺乏活力",
+      "interpretation": "低能量、下垂的韵律特征是失落与抑郁悲伤（sadness）的典型声音表现",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.21s",
+      "observation": "人物视线低垂，面部肌肉放松下垂，眉头微蹙，姿态呈现颓丧感",
+      "interpretation": "与声音中的沉郁相一致，排除了平静中性或轻描淡写说明情况的可能",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是neutral（仅仅在陈述事实决定）。但说话时下沉的气息、极低的音量以及神情的沮丧明显带有情感痛苦，不符合客观无波动的neutral。"
+}

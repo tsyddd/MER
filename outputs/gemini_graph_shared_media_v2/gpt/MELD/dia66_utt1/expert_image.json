@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标是画面右侧面向左侧女子说话的金发女子。她从轻微闭口笑转为持续露齿微笑，并保持看向对方的视线[E1][E2]；结合字幕中的礼貌祝愿[E3]，最支持轻度的joy，而非强烈兴奋。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒；frame_02 @ 0.6256245142666815秒",
+      "observation": "右侧金发女子起初嘴角微扬，随后笑容扩大、露出牙齿。",
+      "interpretation": "笑容的可见增强支持积极情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.209540727582251秒；frame_07 @ 2.127123348506717秒",
+      "observation": "她转向并注视左侧女子，持续微笑；左侧女子的表情不作为目标人物的证据。",
+      "interpretation": "持续的面向对方的笑容支持友好的积极表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Thank you!  Enjoy your flight?",
+      "observation": "字幕呈现感谢及祝愿。",
+      "interpretation": "与友好表达相符，但不能单凭措辞判定内心情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的相反解释是工作场合的礼貌微笑，未必代表明显愉悦；因此仅判断为画面支持的轻度joy，不推断更强烈的情绪。"
+}

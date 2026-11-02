@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "目标人物当前斜靠沙发说话，画面中持续出现嘴角上扬、露齿和眼角微眯，整体更支持轻松愉快而非中性或负面情绪。图谱节点person_1记录了初始露齿微笑，person_4仅说明随后笑容收敛；这属于同一表情变化的图谱/画面互补，不足以推翻当前的愉快表达。图谱中的语音节点person_3为音频转述，因未提供原音轨不能亲耳核验；且字幕“像这娘，交代你。”与图谱所述“向中央交代”不一致，因此不将话语内容或该声音描述作为主要依据。",
+  "answer": "happy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_04 @ 0.0–1.720秒",
+      "observation": "男子嘴角上扬并露齿，眼角微眯，面部呈明显笑容。",
+      "interpretation": "这是当前表达中最直接的正向情绪线索，支持happy。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05至frame_07 @ 2.160–3.000秒",
+      "observation": "笑容逐渐收敛，但人物仍保持面对前方偏右侧的说话状态，未出现皱眉、哭泣或明显紧张表情。",
+      "interpretation": "表情从较明显的笑转为较克制，不足以支持sad、angry或worried；结合前段笑容，仍更接近轻松愉快。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱记录男子“嘴角上扬露齿，眼角微眯，面带笑容”。",
+      "interpretation": "该节点与当前画面中的笑容是同一视觉事实，支持happy，但不能因图谱重复描述而视为独立的第二条视觉证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "subtitle",
+      "anchor": "当前字幕“像这娘，交代你。”",
+      "observation": "字幕内容显示人物正在说话，但措辞存在辨识不确定性，且与图谱节点process_0所述“向中央交代”不一致。",
+      "interpretation": "话语语义无法可靠指向特定负面情绪，因此仅作为当前互动背景，不改变由面部表情支持的判断。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "最强的相反解释是后半段笑容收敛，可能表示中性或情绪转为克制；但画面未显示明确的负面表情，且前半段连续的露齿微笑仍是当前片段中更有区分力的表达。图谱节点person_3关于带笑气声和轻微叹气声因未提供原音轨只能视为转述，不能作为已亲耳核验的证据。"
+}

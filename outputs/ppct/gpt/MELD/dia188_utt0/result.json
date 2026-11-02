@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia188_utt0",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物是左侧穿白色运动衫的人，他说出字幕“What?”，同时低头看向下方并将右臂伸向右下方，随后放回身侧。节点process_0与person_0、person_1及其simultaneous关系表明这是简短疑问回应和普通动作，未见明确的愤怒、悲伤、喜悦或恐惧等强烈情绪证据。",
+  "output": "目标人物是左侧穿白色运动衫的人，他说出字幕“What?”，同时低头看向下方并将右臂伸向右下方，随后放回身侧。节点process_0与person_0、person_1及其simultaneous关系表明这是简短疑问回应和普通动作，未见明确的愤怒、悲伤、喜悦或恐惧等强烈情绪证据。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 137.39993166923523,
+  "node_count": 6,
+  "edge_count": 4
+}

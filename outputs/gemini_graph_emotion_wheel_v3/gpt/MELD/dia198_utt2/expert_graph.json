@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "Joey先纠正对先前事情的说法，再把话锋转向眼前对方，讽刺其只是站着不动[E1][E2]。他说话时朝对方做强调手势，随后仍皱眉注视对方[E3][E4]。这些当前表现更像带有责备意味的轻微不满，而不是因过去“被打败”而难过。",
+  "open_emotion": "不满",
+  "answer": "anger",
+  "mapping_reason": "不满针对眼前对方的表现，并通过讽刺和强调表达出来，接近情绪轮中轻度的责备、对抗，故映射为anger；这不表示强烈愤怒。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_0、process_1",
+      "observation": "图谱将Joey的话组织为先反驳“she kicked our butts”，再对对方说“standing-there team”。",
+      "interpretation": "前句谈的是过去的结果，后句才是当前针对对方的评价；节点顺序本身不证明前句导致他的情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "“No-no, she kicked our butts. You could be on the Olympic standing-there team.”",
+      "observation": "Joey否定先前说法，并用虚构的“奥运站着不动队”形容对方。",
+      "interpretation": "后半句是针对对方当前表现的讽刺，支持轻微责备；它与E1是同一句话的描述，并非独立的第二次言语事件。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_03（1.710秒）",
+      "observation": "Joey面向右侧人物说话，伸手向前做强调手势。",
+      "interpretation": "手势支持他正在着重表达意见，但单独不能证明愤怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_06（3.420秒）",
+      "observation": "Joey放下手后仍看向右侧，眉头微蹙，神情严肃。",
+      "interpretation": "与针对对方的讽刺合看，更支持不满，而非单纯轻松开玩笑。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "这句话也可能是朋友间的玩笑，手势和皱眉不足以单独排除该解释。图谱person_1、person_4及组织文本描述了平稳语气和句尾发音，但未提供原音轨，不能亲耳核验；这些只能保留为图谱转述，不作为最终判断的直接听觉证据。"
+}

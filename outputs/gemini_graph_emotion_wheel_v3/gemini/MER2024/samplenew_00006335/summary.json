@@ -1,0 +1,10 @@
+{
+  "reason": "目标人物在电话中针对已定部署提出反问“关东军不是已经增兵甲子沟、煤矿了吗？”，言语行为具有强烈的认知预期违背特征[audio_subtitle:E1]。经独立核验音轨00:00-00:02，其语调急促且尾音“了吗”明显上扬质问，与画面中镜片后双眼圆睁、眉头抬起的神态相呼应[image:E1][audio_subtitle:E2]。相比于专家转述所谓沉重忧虑的判断[graph:E2]，实际音视频充分展现了其初闻意外消息时的即时错愕与诧异，符合surprise定义。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "image:E1",
+    "audio_subtitle:E2",
+    "graph:E2"
+  ]
+}

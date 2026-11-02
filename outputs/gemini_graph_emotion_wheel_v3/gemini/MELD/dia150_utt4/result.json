@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia150_utt4",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "b948f663757dd9d93d653315d388ec7b3f3b77e98f96b4337073cdbfe157409b",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "难过",
+      "mapped_label": "sadness",
+      "mapping_reason": "开放情绪'难过'直接对应因情感破裂、失落道别而产生的低落哀伤体验，严格符合MELD情绪轮中sadness的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "伤感",
+      "mapped_label": "sadness",
+      "mapping_reason": "开放情绪'伤感'体现因分别与失落带来的哀伤和低落体验，完全符合情绪轮中sadness的定义。"
+    },
+    "image": {
+      "open_emotion": "难过",
+      "mapped_label": "sadness",
+      "mapping_reason": "Janice表现出的失落、难过与离别悲戚，在MELD情绪轮中属于因失落或痛苦而难过的典型sadness范畴。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "独立回看各模态表现，目标人物Janice在道别时呈现出高度一致的哀伤与失落：视觉上从frame_03至frame_07，她眉头内侧微蹙抬起呈八字愁容，嘴角下撇，一手贴抚胸口呈自我安抚的收缩体态[image:E1][audio_subtitle:E2]；实际音轨中念出'Good-bye Chandler Bing'语速极慢，音调下沉并伴有明显的哭腔与叹息颤音[audio_subtitle:E1]。尽管Janice的表现带有角色固有的戏剧化特征，但现场毫无喜悦、嘲讽或愤怒对抗迹象，视听线索共同指向分手道别带来的主导情绪sadness。",
+  "output": "独立回看各模态表现，目标人物Janice在道别时呈现出高度一致的哀伤与失落：视觉上从frame_03至frame_07，她眉头内侧微蹙抬起呈八字愁容，嘴角下撇，一手贴抚胸口呈自我安抚的收缩体态[image:E1][audio_subtitle:E2]；实际音轨中念出'Good-bye Chandler Bing'语速极慢，音调下沉并伴有明显的哭腔与叹息颤音[audio_subtitle:E1]。尽管Janice的表现带有角色固有的戏剧化特征，但现场毫无喜悦、嘲讽或愤怒对抗迹象，视听线索共同指向分手道别带来的主导情绪sadness。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 53.540679931640625
+}

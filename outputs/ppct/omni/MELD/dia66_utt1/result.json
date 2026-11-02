@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia66_utt1",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "音频中空乘人员说“Thank you! Enjoy your flight?”，其语调平和且带有微笑，表明这是一种礼貌的告别。结合其在客舱内与乘客互动的场景，这属于服务结束后的常规交流，情绪为中性。",
+  "output": "音频中空乘人员说“Thank you! Enjoy your flight?”，其语调平和且带有微笑，表明这是一种礼貌的告别。结合其在客舱内与乘客互动的场景，这属于服务结束后的常规交流，情绪为中性。\n<answer>neutral</answer>",
+  "label": "joy",
+  "elapsed_seconds": 70.42729949951172,
+  "node_count": 6,
+  "edge_count": 1
+}

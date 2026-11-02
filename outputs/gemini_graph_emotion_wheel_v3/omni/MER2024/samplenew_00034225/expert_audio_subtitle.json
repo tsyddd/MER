@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物的语调在疑问句结尾处明显上扬，表现出对信息的意外和探究，同时字幕内容“怎么？他不好对付啊”直接表达了对某人难以应对的惊讶。其面部表情也与这种意外的语气相符。",
+  "open_emotion": "惊讶",
+  "answer": "surprise",
+  "mapping_reason": "根据情绪轮定义，'surprise'指因当前信息违背预期产生的意外、诧异或震惊。目标人物的疑问句式和上扬的语调，结合其表情，共同指向了对“他不好对付”这一信息的即时意外反应，因此映射为'surprise'。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "说话者以疑问语气说出“怎么？他不好对付啊”，句末音调上扬。",
+      "interpretation": "上扬的语调是表达惊讶和意外的典型韵律特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "怎么？他不好对付啊",
+      "observation": "字幕显示的话语是“怎么？他不好对付啊”。",
+      "interpretation": "话语内容直接表达了对某人难以应对的意外和疑问，是惊讶情绪的直接语言证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "目标人物的眉毛上扬，眼睛睁大，嘴巴微张。",
+      "interpretation": "这些面部表情是惊讶情绪的典型生理表现，与音频中的惊讶语气和字幕内容一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。所有模态的证据都一致指向惊讶情绪，没有冲突的解释。"
+}

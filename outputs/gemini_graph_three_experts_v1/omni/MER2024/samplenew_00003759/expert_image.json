@@ -1,0 +1,6 @@
+{
+  "expert": "image",
+  "reason": "目标人物在对话中，面部表情从平静逐渐转变为惊讶，最终在最后一帧中，其嘴巴张开，眼神睁大，表现出明显的惊讶情绪。",
+  "answer": "surprise",
+  "evidence_refs": []
+}

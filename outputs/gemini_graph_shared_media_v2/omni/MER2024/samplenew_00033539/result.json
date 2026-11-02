@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00033539",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "a415fec142e7ddeeb3ecfd6ae5f20bd235ccd0be39b7230d3d3b9654add4a754",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "目标人物在连续8帧中表现出眉毛上扬、眼睛睁大、嘴巴微张的典型惊讶表情，与音频中短促升调的“啊？”和字幕“啊？真的。”完全同步。专家graph、audio_subtitle和image均一致指出，视觉、听觉和文本证据共同指向惊讶情绪。其中，[image:E1]提供了最直接的视觉证据，而[graph:E3]和[graph:E4]则从组织文本层面证实了视觉与听觉线索的关联性。尽管[graph:E1]和[graph:E2]的描述较为抽象，但其内容与可核实的证据相符，可信度高。三者证据高度互补且无冲突，因此最终判断为惊讶。",
+  "output": "目标人物在连续8帧中表现出眉毛上扬、眼睛睁大、嘴巴微张的典型惊讶表情，与音频中短促升调的“啊？”和字幕“啊？真的。”完全同步。专家graph、audio_subtitle和image均一致指出，视觉、听觉和文本证据共同指向惊讶情绪。其中，[image:E1]提供了最直接的视觉证据，而[graph:E3]和[graph:E4]则从组织文本层面证实了视觉与听觉线索的关联性。尽管[graph:E1]和[graph:E2]的描述较为抽象，但其内容与可核实的证据相符，可信度高。三者证据高度互补且无冲突，因此最终判断为惊讶。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 149.54100108146667
+}

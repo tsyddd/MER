@@ -1,0 +1,9 @@
+{
+  "reason": "目标人物在谈话初始双手抱胸，随后在比划木偶手势时面部紧绷微撇，在句末说完后立即重新环抱双臂紧紧防卫，眼神冷峻注视对方（frame 7）[image:E1]。台词将对方的行为斥为“残酷剧场（theater of cruelty）”[audio_subtitle:E2]，其声调尖锐高亢、充满反讽与言语对抗。尽管graph专家指出句尾有笑声并判定为joy[graph:E2]，但核验音频与画面可知，该笑声是极具戏剧化反讽的干涩嘲笑，且frame 7中其表情瞬间转为冷淡对峙，毫无愉悦成分，核心情绪属于因被冒犯而产生的讥讽指责与不满对抗，归入anger。",
+  "answer": "anger",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E2",
+    "graph:E2"
+  ]
+}

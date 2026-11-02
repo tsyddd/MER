@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "Phoebe在与男子近距离互动时，以轻松的语调说出带有调侃意味的句子，并伴有轻笑声。男子的微笑回应表明这是一个非对抗性的、带有玩笑性质的交流。她的表情和语气共同指向一种愉悦和戏谑的情绪，而非愤怒、悲伤或恐惧。",
+  "open_emotion": "戏谑",
+  "answer": "joy",
+  "mapping_reason": "根据观察，Phoebe的语调轻松并带有轻笑声，同时她的表情是微笑的。这与'joy'（喜悦）情绪轮中描述的'开心、愉悦、满足或兴奋的正向体验'相符。虽然她的言辞带有调侃（'So your brother's straight, huh?'），但其表达方式是愉悦和戏谑的，因此映射到'joy'而非'neutral'或'anger'。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "Phoebe的语调轻松，并在句末带有轻笑声。",
+      "interpretation": "音频中的语调和笑声表明她的情绪是轻松和愉悦的，而非严肃或负面的。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00-frame_07",
+      "observation": "Phoebe在说话时面带微笑，与男子进行近距离互动。",
+      "interpretation": "她的面部表情和身体语言（手搭在对方胸前）表明她处于一种放松和愉悦的状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱节点person_1描述Phoebe的语调轻松并带有轻笑声。",
+      "interpretation": "该节点直接描述了Phoebe的声学特征，是支持其情绪为愉悦的关键证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "图谱节点process_0描述了Phoebe对男子说：\"So your brother's straight, huh?\"。",
+      "interpretation": "该节点提供了当前互动的语义内容，是理解其情绪背景的基础。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "图谱中没有提供任何与负面情绪（如anger, sadness, fear, disgust）相关的证据。虽然字幕中包含'Seriously.'，但这通常用于加强语气或表达惊讶，结合其轻松的语调，更可能表示一种戏谑的强调，而非严肃的质问。"
+}

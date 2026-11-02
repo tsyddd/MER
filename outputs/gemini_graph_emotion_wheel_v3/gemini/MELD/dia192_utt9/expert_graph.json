@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "Monica在听到前方对话后，立刻从公寓后方的背景中快步走向前台介入互动（如节点process_0所述），同时在音频中发出尖锐高亢、充满质问语气的呼喊[E1][E2]。字幕中的'What?! Excuse me!'结合她疾步走近的肢体动态，表明她因感到自身或规则受到冒犯而采取直接对抗和打断行动，属于典型的因被冒犯而产生的恼火与抗议反应，而非单纯的意外。",
+  "open_emotion": "愤慨",
+  "answer": "anger",
+  "mapping_reason": "开放情绪'愤慨'源于对冒犯、不当言行的抗议与不满对抗，在情绪轮中明确归属于anger家族；相较于单纯意外的surprise，其核心在于对他人言行的责备与反弹。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "What?! Excuse me!",
+      "observation": "字幕为强烈的质问与反诘短语'What?! Excuse me!'",
+      "interpretation": "语言语义体现出对正在发生的事件感到强烈不适与被冒犯，借此打断并质问他人",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:01",
+      "observation": "音轨中Monica以极高音调、突发且尖锐的声音喊出'Excuse me!'",
+      "interpretation": "语调具有高唤醒度的抗议感，核实了图谱节点person_2中提及的发音特征，体现明显的恼火与情绪反弹",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "图谱记录Monica从房间后方向前移动并与台词同步介入",
+      "interpretation": "从背景主动走向主互动区的行为模式，体现出主动干预与对质的意图，支撑对抗性情绪倾向",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "如果仅依据台词词面'What?!'，可能被误判为单纯的惊奇或意外（surprise），但音频中尖锐而具有侵略性的语调及主动向前对质的体态排除了被动惊诧的解释。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia9_utt11",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "e2a50d6b01ecc35a810613a0879b6c7baee7d96f1dcefc36a846281bb0277898",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "目标是左侧拿衣物的Rachel；她在frame_03垂下视线、嘴角下压，这一可核对的变化支持低落的判断[image:E2]。字幕中她说床和衣服都毁了，随后在frame_06举起衣物，与她所说的“Look at my favorite blue sweater”相对应[audio_subtitle:E1][image:E3]。物品受损也可能令人愤怒，但画面中较明确的是低落而非愤怒表现；未提供音轨，无法凭语调进一步判断。",
+  "output": "目标是左侧拿衣物的Rachel；她在frame_03垂下视线、嘴角下压，这一可核对的变化支持低落的判断[image:E2]。字幕中她说床和衣服都毁了，随后在frame_06举起衣物，与她所说的“Look at my favorite blue sweater”相对应[audio_subtitle:E1][image:E3]。物品受损也可能令人愤怒，但画面中较明确的是低落而非愤怒表现；未提供音轨，无法凭语调进一步判断。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 73.37463998794556
+}

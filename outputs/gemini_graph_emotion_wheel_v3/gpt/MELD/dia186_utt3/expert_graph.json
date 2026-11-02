@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "Joey当前在电话中向对方道歉，并说自己不得不取消今晚的安排[E1][E3]；这是他正在作出的告知，不是已经发生的画面事件。说话时，他短暂闭眼、眉头微蹙，神情显得不轻松[E2]。这些证据更支持他对取消约定感到歉疚，而非单纯平静地传达日程变化。图谱所述声调因未提供原音轨，不能作为已亲耳核实的依据[E4]。",
+  "open_emotion": "歉疚",
+  "answer": "sadness",
+  "mapping_reason": "歉疚不等同于悲伤；此处它指向因取消约定而产生的低落、自责，近似映射到sadness。该标签不能完整表达歉意的关系语义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“I’m sorry I gotta cancel tonight baby”",
+      "observation": "Joey向通话对象道歉，并说自己不得不取消今晚的安排。",
+      "interpretation": "歉意针对他当前作出的取消告知；“今晚”是所谈安排，并非画面中已发生的事件。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_03（0.834秒）",
+      "observation": "Joey持电话说话，短暂闭眼，眉头微蹙，嘴唇收紧后张开。",
+      "interpretation": "面部表现与歉疚相容，但仅凭闭眼不能确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "节点将当前事件组织为Joey打电话，说自己要取消今晚的安排。",
+      "interpretation": "它明确了歉意所处的当前互动；其话语内容与字幕同源，不算另一份独立情绪证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱转述Joey说话声调平缓低沉。",
+      "interpretation": "若准确，可与低落表达相容；但未提供原音轨，无法核实声调，不能据此定论。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "“I'm sorry”也可能只是礼貌措辞，短暂闭眼也可能是说话习惯；没有可核实的语调证据，因此不宜推断为强烈悲伤。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00041734",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "ef82d3fe06a46b4125e3eacb1a9f355331f80a204ee0f71866c99305b2e54746",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "audio_subtitle与graph专家均指出说话人以急促上扬的语调和末尾拔高的反问“啊？”质问对方辞职，表现出强烈的难以置信与突发意外感。image专家虽观察到其双眉紧蹙并判断为担忧，但该凝重神态实为面对突发辞职事件时的震惊追问表现，故综合判定为惊讶。",
+  "output": "audio_subtitle与graph专家均指出说话人以急促上扬的语调和末尾拔高的反问“啊？”质问对方辞职，表现出强烈的难以置信与突发意外感。image专家虽观察到其双眉紧蹙并判断为担忧，但该凝重神态实为面对突发辞职事件时的震惊追问表现，故综合判定为惊讶。\n<answer>surprise</answer>",
+  "label": "angry",
+  "elapsed_seconds": 31.96268606185913
+}

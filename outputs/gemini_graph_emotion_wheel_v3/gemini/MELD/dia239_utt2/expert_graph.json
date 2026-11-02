@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "综合事件链组织，Chandler原本正面向身旁男士抱怨洗手间使用过久（[E1]对应process_0与process_1），未料到门内突然走出一位女性。意外的人员出现打破了原有的互动走向，促使其在话语中途猛然刹车并仓促改口转向女子（[E2]），肢体与言语均显露出被打乱节奏后的慌乱与结巴（[E3]对应person_2），表现出强烈的突发意外感。",
+  "open_emotion": "措手不及",
+  "answer": "surprise",
+  "mapping_reason": "目标人物在遭遇完全违背预期的场景转变时，原先行为被强行打断，伴随语调拔高与语流结巴的失措反应，符合情绪轮中面对意外信息与未料情境的“surprise”（惊讶）定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "图谱记录一名女子从洗手间门内走出，直接打破了Chandler原本正在进行的对话流程（process_0）。",
+      "interpretation": "突发的人物登场构成了违背预期的事件触发点，导致Chandler的情绪与互动目标发生急转。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:01-00:03",
+      "observation": "Chandler低沉的抱怨语调在“did you fall...”处突然刹住，随后以突兀上扬的高调发出“Hi!”，紧接着出现明显的音节磕绊与结巴。",
+      "interpretation": "语调断裂与语流混乱体现了其面对突发状况时思维与言语调控不及的失措。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01至frame_04",
+      "observation": "Chandler急促转头面向女子，手臂外摊且眼神发愣，神情在瞬间定格并显得有些慌乱。",
+      "interpretation": "身体动作与神态的骤然转换印证了被突如其来的情景所震惊与打乱。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "他在向女子打招呼时试图挤出社交微笑并展开搭讪，可能被表面解读为愉悦或好感（joy），但结合整个事件的前后反差与结巴表现，其主导驱动力是对眼前意外局面的仓促应付。"
+}

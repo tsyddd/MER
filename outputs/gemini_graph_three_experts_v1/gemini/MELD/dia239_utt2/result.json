@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia239_utt2",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "83c5e47c0148450bbc1edd40f39fe6e36178e18810553475144f0c7751aa6c95",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "音频专家明确捕捉到Chandler以音调明显拔高的短促感叹词“Jeez”开场，伴随骤然停顿与结巴，呈现出受意外触发的典型惊诧语调。图像和图谱专家虽因其插兜、摊手等动作偏向局促而判定为中性，但视觉上的平静更多是搭讪掩饰反应，不足以否定音频中鲜明的瞬间惊讶表现，故判定为surprise。",
+  "output": "音频专家明确捕捉到Chandler以音调明显拔高的短促感叹词“Jeez”开场，伴随骤然停顿与结巴，呈现出受意外触发的典型惊诧语调。图像和图谱专家虽因其插兜、摊手等动作偏向局促而判定为中性，但视觉上的平静更多是搭讪掩饰反应，不足以否定音频中鲜明的瞬间惊讶表现，故判定为surprise。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 56.627025842666626
+}

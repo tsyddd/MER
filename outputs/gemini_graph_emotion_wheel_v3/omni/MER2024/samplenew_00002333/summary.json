@@ -1,0 +1,13 @@
+{
+  "reason": "目标人物在所有帧中均保持微笑，嘴部有张开动作，与音频中说出的“像这娘，交代你”同步。其语调平稳，无明显情绪波动，结合字幕内容为陈述句，整体表现更符合一种平稳的交流状态。尽管有微笑表情，但缺乏与之匹配的强烈积极事件或文本支持，因此不映射为'happy'。综合视觉、听觉与文本，其表现最符合'neutral'的定义。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "image:E3",
+    "image:E4",
+    "audio_subtitle:E1",
+    "audio_subtitle:E2",
+    "audio_subtitle:E3"
+  ]
+}

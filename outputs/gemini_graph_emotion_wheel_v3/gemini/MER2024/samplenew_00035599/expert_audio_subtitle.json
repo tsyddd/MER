@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物在讲述‘手里还握着一截风筝线’时，语音轻微、颤抖并带有明显的抽泣哽咽与叹息感，语速缓慢且句末语调低沉收尾；面部神态眼神低垂含泪、眉头微蹙，呈现出对已发生惨痛逝去之事的沉痛哀悼与难过，没有对抗愤怒或对未知的担忧焦虑，表现出深切的哀伤情绪。",
+  "open_emotion": "哀伤",
+  "answer": "sad",
+  "mapping_reason": "开放情绪‘哀伤’指向对不可挽回的失去与惨痛事实的低落、心痛反应，声音带哭腔且神态凄切，完全符合情绪轮中sad（悲伤/哀痛）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "0.0s-2.1s",
+      "observation": "目标人物声音发颤、音量较低且带有微弱的哭腔与哽咽气流，句末逐渐低沉收敛。",
+      "interpretation": "展现出压抑但极度悲痛难过的心绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "手里还握着一截风筝线。",
+      "observation": "台词描述了悲剧发生时遗留的关键物证细节，表达对死者/事故的痛心陈述。",
+      "interpretation": "语义聚焦于已经造成的不可逆创伤与丧失，承载强烈的悲剧感。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04至frame_07",
+      "observation": "眉心微蹙内收，双目含泪失神，视线微向下垂，嘴唇微张颤动后呈现落寞微抿。",
+      "interpretation": "表情与哀伤的语调高度契合，印证其正沉浸在悲痛之中。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽因语调克制缓慢可能被表面误判为中性叙述或担忧，但其气声中的抽噎哭腔与眼眶含泪明确排除了neutral与worried。"
+}

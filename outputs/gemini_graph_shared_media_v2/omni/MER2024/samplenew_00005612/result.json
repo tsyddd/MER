@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00005612",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "277d5c5900a033008ef8204e177794173a0a9d543a995a1fbb51814e27394ff0",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物在多个帧中表情严肃，眼神专注，姿态稳定，无明显情绪波动。其话语内容为正式请求，音频语调平稳，无情绪色彩。专家证据中，[image:E1]、[image:E2]、[image:E3]、[image:E4]均从视觉角度支持其情绪为中性；[audio_subtitle:E1]、[audio_subtitle:E2]从音频和字幕角度支持其为中性请求。三者证据一致，无冲突。",
+  "output": "目标人物在多个帧中表情严肃，眼神专注，姿态稳定，无明显情绪波动。其话语内容为正式请求，音频语调平稳，无情绪色彩。专家证据中，[image:E1]、[image:E2]、[image:E3]、[image:E4]均从视觉角度支持其情绪为中性；[audio_subtitle:E1]、[audio_subtitle:E2]从音频和字幕角度支持其为中性请求。三者证据一致，无冲突。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 164.3772714138031
+}

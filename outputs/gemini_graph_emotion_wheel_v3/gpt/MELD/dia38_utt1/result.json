@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia38_utt1",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "283890143b6bd15c34d0fcc959b56cb32cb859b30cd2d4facc4a2608311bfdd4",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "欣慰的自豪",
+      "mapped_label": "joy",
+      "mapping_reason": "这种自豪指向学生获得机会所带来的正向满足，按情绪轮映射为joy；该标签不能完整保留‘为他人骄傲’的具体对象。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "欣慰",
+      "mapped_label": "joy",
+      "mapping_reason": "当前表达的欣慰是对学生获得机会的正向满足感，依本情绪轮映射为joy。"
+    },
+    "image": {
+      "open_emotion": "欣慰",
+      "mapped_label": "joy",
+      "mapping_reason": "此处的欣慰指为学生获得试镜机会而感到满足的正向体验，按情绪轮映射为joy。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "目标是左侧蓝衬衫的Joey。字幕中他谈到学生获得试镜机会，并说“I’m so proud”；[audio_subtitle:E2]准确引用了这句可核实的话，但不能据此推断语调。画面中他将双手放在胸前，随后逐渐露出笑容，[image:E2]对这一变化的描述可信。前几帧眉头略收，笑容本身也未必代表喜悦；但结合他明确表达的自豪，当前表现更接近欣慰的正向满足。未提供音轨，无法核验是否带有反讽语气。",
+  "output": "目标是左侧蓝衬衫的Joey。字幕中他谈到学生获得试镜机会，并说“I’m so proud”；[audio_subtitle:E2]准确引用了这句可核实的话，但不能据此推断语调。画面中他将双手放在胸前，随后逐渐露出笑容，[image:E2]对这一变化的描述可信。前几帧眉头略收，笑容本身也未必代表喜悦；但结合他明确表达的自豪，当前表现更接近欣慰的正向满足。未提供音轨，无法核验是否带有反讽语气。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 68.89024114608765
+}

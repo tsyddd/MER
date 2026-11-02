@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。字幕中的“Oh come on”以及对孩子持续哭泣的抱怨体现出明显的烦躁和挫败感，当前情绪更接近愤怒。",
+  "answer": "anger",
+  "evidence_refs": []
+}

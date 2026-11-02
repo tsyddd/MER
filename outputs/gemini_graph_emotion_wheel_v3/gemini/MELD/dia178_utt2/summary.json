@@ -1,0 +1,8 @@
+{
+  "reason": "目标人物Monica怀抱婴儿，在后半段[image:E1]（frame_04至frame_07）中眉眼舒展，嘴角持续上扬并露出自然开朗的微笑，表现出清晰的温柔与喜爱。在实际音轨中，如[audio_subtitle:E2]所述，她在说出“Pheebs, it’s going great...”时语调轻快上扬且夹杂明显笑意，言语语义与听觉韵律高度协同。虽然开头“Nope, sound like me”相对平缓，但整体跨模态线索均明确传达出当前沉浸于温馨场景的愉悦与满足，排除了平淡中性的可能，归入joy家族。",
+  "answer": "joy",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E2"
+  ]
+}

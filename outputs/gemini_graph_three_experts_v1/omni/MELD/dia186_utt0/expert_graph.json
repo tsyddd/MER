@@ -1,0 +1,8 @@
+{
+  "expert": "graph",
+  "reason": "Chandler在说话时眼神向右上方斜视，嘴唇动作伴随话语，且其话语内容为‘Ross and Joey is embarrassing enough’，表现出一种带有调侃意味的无奈或不以为然，结合其手部动作从摆动到收回胸前的连贯表现，整体情绪偏向于对他人行为的轻微反感或厌烦。图谱记载的视觉信息（person_2）显示其眼神与面部动作，与话语内容一致，表明其情绪并非中性或积极，而是带有轻微负面色彩。",
+  "answer": "disgust",
+  "evidence_refs": [
+    "person_2"
+  ]
+}

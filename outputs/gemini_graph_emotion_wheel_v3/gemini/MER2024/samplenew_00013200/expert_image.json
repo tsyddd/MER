@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物（右侧戴瓜皮帽男子）在整个片段中身体前倾，紧盯对方，眉头紧锁、下颌紧绷并咬牙质问[E1]。随着话语推进至后半程，其双眼怒目圆睁，嘴角横向拉扯且口型用力张开斥责[E2]。结合台词指责对方‘背信弃义’，视觉展现出极强的指责、对抗与激愤神态，属于明确的愤怒情绪。",
+  "open_emotion": "愤慨",
+  "answer": "angry",
+  "mapping_reason": "目标人物在面对他人背约时表现出明显的怒目、斥责和敌对责备倾向，符合angry家族关于受到违背、冒犯时产生敌意与对抗的表现定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01 (0.44s) - frame_04 (1.72s)",
+      "observation": "目标人物面部紧绷，双眉微压，嘴角下拉并咬牙切齿地向对方逼近倾斜。",
+      "interpretation": "表现出压抑不住的恼怒与针对对方的敌意质问。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05 (2.16s) - frame_07 (3.00s)",
+      "observation": "目标人物双眼圆睁、眼白显露，下颌用力张开，目光如炬直视对方。",
+      "interpretation": "展现出怒目圆睁的激动控诉状态，表明愤怒情绪的爆发。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "可是，你背信弃义，你一个劲地抬价。",
+      "observation": "台词为直接针对对方不守信用的严厉指责。",
+      "interpretation": "明确了视觉神态是因受冒犯而产生的责备与愤慨，排除了单纯惊讶或担忧。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "在frame_06和frame_07中眼睛圆睁的动作单看容易与surprise（震惊/意外）混淆，但其眼神充满压迫感且伴随严厉斥责，实为怒目而视而非单纯诧异。"
+}

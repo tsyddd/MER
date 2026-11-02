@@ -1,0 +1,9 @@
+{
+  "reason": "目标人物是左侧白衬衫的Joey；字幕中他先说“No-no, she kicked our butts”，再用“奥运会站着不动队”挖苦眼前的人，这一言语证据可信，但不能仅凭纠正前一句判定情绪[audio_subtitle:E2]。画面中他伸手强调后，在frame_04至frame_07眉头收紧、神情转严肃，支持话语带有轻度责备，而不只是平静陈述[image:E1][image:E2]。短暂上扬的嘴角和夸张比喻也容许玩笑解释；但没有音轨可核实语气，综合当前言语指向与表情变化，主导表现更接近不满。",
+  "answer": "anger",
+  "evidence_refs": [
+    "audio_subtitle:E2",
+    "image:E1",
+    "image:E2"
+  ]
+}

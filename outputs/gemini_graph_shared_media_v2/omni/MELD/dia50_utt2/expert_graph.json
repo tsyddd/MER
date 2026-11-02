@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "图谱中描述了女性学生弯腰低头快速穿过走道离开（process_0），同时说出道歉话语（process_1），两者被标记为同时发生。她的身体姿态（person_0）和急促的语调（person_1）相互印证，表明她处于仓促慌乱的状态。这种行为模式与在尴尬情境下试图快速脱身的特征高度一致。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "Female Student弯腰低头从书架过道快速穿过离开",
+      "interpretation": "该动作表明她试图迅速避开视线，是一种对突发尴尬情况的本能反应，支持了她因意外撞见而感到惊讶的情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "Female Student说话语速较快、带有急促感",
+      "interpretation": "急促的语调是惊讶或慌乱情绪的典型表现，与仓皇离开的行为相符，进一步支持了惊讶的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "I'm so sorry!",
+      "observation": "字幕显示她说了道歉的话",
+      "interpretation": "道歉是面对意外或冒犯时的直接反应，这与惊讶的情绪相符，是判断其情绪状态的重要线索。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽然她的行为也带有慌乱和尴尬的成分，但图谱中明确指出其语速较快、带有急促感，且行为是快速逃离，这更符合惊讶的即时反应，而非长期的尴尬或后悔。"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia21_utt6",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "bf42e3a608598de26188e2d4e2714eda6e90f3de2c795d77c68bb3237d71f5d1",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "逗趣",
+      "mapped_label": "joy",
+      "mapping_reason": "逗趣表现为她在当前互动中的轻快、愉悦表达，最接近joy；这里不表示强烈兴奋。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "愉悦",
+      "mapped_label": "joy",
+      "mapping_reason": "当前可见的笑容支持正向、愉悦的体验，因此映射为joy；问句本身不构成surprise的充分证据。"
+    },
+    "image": {
+      "open_emotion": "愉悦",
+      "mapped_label": "joy",
+      "mapping_reason": "当前可见的笑容逐渐展开、面向对方的互动姿态，符合joy所涵盖的轻度正向愉悦；没有足够证据将其解释为兴奋。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "独立回看frame_00至frame_04，Phoebe面对男子时从抿嘴逐渐露出笑容；[image:E1]对这一变化的描述可信，比单看她的手势更有区分力。字幕中的“Seriously”确有意外、求证的意味，但[audio_subtitle:E1]也指出，措辞本身不足以判定惊讶；本段没有提供音轨，不能核实语调。她持续展开的笑容更支持轻度愉悦，而非以惊讶为主；frame_05以后主要可见的是男子的表情，不用于替代她的表现。",
+  "output": "独立回看frame_00至frame_04，Phoebe面对男子时从抿嘴逐渐露出笑容；[image:E1]对这一变化的描述可信，比单看她的手势更有区分力。字幕中的“Seriously”确有意外、求证的意味，但[audio_subtitle:E1]也指出，措辞本身不足以判定惊讶；本段没有提供音轨，不能核实语调。她持续展开的笑容更支持轻度愉悦，而非以惊讶为主；frame_05以后主要可见的是男子的表情，不用于替代她的表现。\n<answer>joy</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 78.22005534172058
+}

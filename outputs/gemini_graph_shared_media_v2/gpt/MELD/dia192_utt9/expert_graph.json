@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "Monica在走近时说出“What?! Excuse me!”[E1][E2]；其中“What?!”更直接呈现她对当前互动的惊讶，而不是明确的愤怒。图谱的process_0与画面所见的移动一致，但移动本身不能证明她为何开口。图谱person_2转述了较大音量和上扬尾音[E3]，因未提供原音轨，不能把它当作亲耳核实的语气证据。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "What?! Excuse me!",
+      "observation": "当前台词以“What?!”开头，接着说“Excuse me!”。",
+      "interpretation": "对眼前情况发问，支持惊讶；后半句也可能是质问，不能单凭台词定为愤怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_07 @ 1.5014988342400355秒",
+      "observation": "Monica从后方向餐桌方向走近，面向前方，嘴巴张开。",
+      "interpretation": "与她正在介入当前互动相符；画面没有给出足以确认愤怒的明显表情。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱称Monica说话音量较大、尾音上扬。",
+      "interpretation": "若准确，可与惊讶的问句相合；但没有原音轨，无法核验该声音描述，也不能将其视作独立的亲耳证据。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "“Excuse me!”也可表示不满或质问，这是最强的愤怒解释；但当前画面未见明确怒容，原音轨又不可核验，因此未采用anger。"
+}

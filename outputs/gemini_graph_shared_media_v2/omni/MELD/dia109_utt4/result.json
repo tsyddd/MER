@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia109_utt4",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "b1102943bbcf1af1e117a380fae997536de4112a2f80180e05feb45af20ee7b2",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "综合分析，Janice的肢体语言和声音特征共同指向一种带有强调和解释意味的互动。她从抱胸的静态姿态转变为张开双手和竖起手指的动态手势，表明她正在积极地阐述或强调某个观点。同时，她的声音上扬，语调起伏，这与她试图说服或解释的意图相符。虽然音频和字幕显示了疑问句'Oh, are you sure?'，但其语气并非愤怒或悲伤，而是表现出一种探究和难以置信的态度。视觉上，她身体前倾，手势活跃，表明她正在积极地参与对话并寻求确认。因此，她的主要情绪是惊讶和难以置信，而非中性或愤怒。",
+  "output": "综合分析，Janice的肢体语言和声音特征共同指向一种带有强调和解释意味的互动。她从抱胸的静态姿态转变为张开双手和竖起手指的动态手势，表明她正在积极地阐述或强调某个观点。同时，她的声音上扬，语调起伏，这与她试图说服或解释的意图相符。虽然音频和字幕显示了疑问句'Oh, are you sure?'，但其语气并非愤怒或悲伤，而是表现出一种探究和难以置信的态度。视觉上，她身体前倾，手势活跃，表明她正在积极地参与对话并寻求确认。因此，她的主要情绪是惊讶和难以置信，而非中性或愤怒。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 159.46341919898987
+}

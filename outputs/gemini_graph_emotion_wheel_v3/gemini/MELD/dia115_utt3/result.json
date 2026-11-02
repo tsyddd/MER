@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia115_utt3",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "3c926295d3796c3783dc09d63fc430c57ea2b6d5e57398d0b9b8039178cc2219",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "平稳陈述",
+      "mapped_label": "neutral",
+      "mapping_reason": "Ross的话语内容虽然具有调侃色彩，但其交际态度、语调及肢体语言均处于稳定、克制且没有主导极端情感波动的常态沟通状态，符合情绪轮中neutral关于平稳、日常、没有明确主导情绪的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "平常",
+      "mapped_label": "neutral",
+      "mapping_reason": "Ross的言语行为虽然属于讽刺性纠错，但在声音与韵律上完全处于平稳、克制且冷淡的陈述状态，没有体现出anger的高能量对抗或disgust的排斥，符合情绪轮中neutral（平常/平稳）的定义。"
+    },
+    "image": {
+      "open_emotion": "平淡客观",
+      "mapped_label": "neutral",
+      "mapping_reason": "Ross在评价对方动作时神态平静、语气平缓，未见明显的情绪爆发或显著偏向，符合情绪轮中对neutral‘平稳、日常且没有明确主导情绪表达’的界定。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物Ross在面向Chandler陈述时，双眉自然舒展、无皱眉或瞪眼等面部形变，神态保持镇定放松[image:E1]。从音轨核实，Ross以极度平缓、低沉且节奏均匀的冷幽默口吻（deadpan）陈述整句话，在'girl'后留有清晰停顿并平缓降调收尾，完全无攻击性吼叫或笑声起伏[audio_subtitle:E2]。台词语义虽在吐槽与纠正对方动作，但跨模态呈现出高度平稳且克制的日常交际状态，缺乏愤怒（anger）或愉悦（joy）的外显主导倾向，准确归入neutral。",
+  "output": "目标人物Ross在面向Chandler陈述时，双眉自然舒展、无皱眉或瞪眼等面部形变，神态保持镇定放松[image:E1]。从音轨核实，Ross以极度平缓、低沉且节奏均匀的冷幽默口吻（deadpan）陈述整句话，在'girl'后留有清晰停顿并平缓降调收尾，完全无攻击性吼叫或笑声起伏[audio_subtitle:E2]。台词语义虽在吐槽与纠正对方动作，但跨模态呈现出高度平稳且克制的日常交际状态，缺乏愤怒（anger）或愉悦（joy）的外显主导倾向，准确归入neutral。\n<answer>neutral</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 64.96700239181519
+}

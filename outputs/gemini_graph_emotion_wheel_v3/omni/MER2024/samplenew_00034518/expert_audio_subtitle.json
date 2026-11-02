@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者以询问的语气说出这句话，结合其语调中的担忧和关切，表明她正在担心可能发生的负面事件。",
+  "open_emotion": "担忧",
+  "answer": "worried",
+  "mapping_reason": "根据情绪轮定义，'worried'指对可能的负面结果、风险或未知的顾虑和焦虑。说话者询问'家里又出什么事了'，表达了对家庭中可能出现问题的担忧和不安，这与'worried'的定义完全吻合。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "字幕内容：是不是？家里又出什么事了？",
+      "observation": "字幕显示说话者在询问是否家里又发生了什么事。",
+      "interpretation": "这句话直接表达了对家庭中可能发生的负面事件的担忧。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "音频时间 00:00-00:02",
+      "observation": "说话者的语调平稳，但带有一种关切和担忧的语气。",
+      "interpretation": "语调中的担忧和关切与字幕内容一致，共同支持了'worried'的情绪判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。"
+}

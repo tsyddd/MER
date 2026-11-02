@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00036745",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "男子坐在电脑前客观陈述线索（process_0、process_1），同时做出指向屏幕的手势（person_1），语气平稳且果断地表示“我去查”（person_3、process_2）。整个过程中面部表情沉稳冷静，无明显强烈的情感波动，属于客观专注的工作中立状态。",
+  "output": "男子坐在电脑前客观陈述线索（process_0、process_1），同时做出指向屏幕的手势（person_1），语气平稳且果断地表示“我去查”（person_3、process_2）。整个过程中面部表情沉稳冷静，无明显强烈的情感波动，属于客观专注的工作中立状态。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 47.69648790359497,
+  "node_count": 8,
+  "edge_count": 8
+}

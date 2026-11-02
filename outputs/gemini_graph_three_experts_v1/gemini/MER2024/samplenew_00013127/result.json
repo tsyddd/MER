@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013127",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "d2115c97acf3c6e01bbce09ee0045d9eebc8b28101f778a38355f8f3c0e262a8",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "happy",
+  "emotion_analysis": "图像专家提供了目标人物整组画面中持续露齿笑、嘴角大幅上扬的清晰视觉特征，图谱信息亦补充其神态轻松且带有调侃意味。音频专家虽指出其语调平稳克制而判定为中立，但在明确而强烈的愉悦面部表情主导下，平缓语调更符合轻松愉快的交谈状态，故判定为快乐。",
+  "output": "图像专家提供了目标人物整组画面中持续露齿笑、嘴角大幅上扬的清晰视觉特征，图谱信息亦补充其神态轻松且带有调侃意味。音频专家虽指出其语调平稳克制而判定为中立，但在明确而强烈的愉悦面部表情主导下，平缓语调更符合轻松愉快的交谈状态，故判定为快乐。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 32.08020734786987
+}

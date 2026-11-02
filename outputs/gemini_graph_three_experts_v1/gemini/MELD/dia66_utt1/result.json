@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia66_utt1",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "c398d30886c2843c21af96c15c9bcdddf2dff86a4ef358b1b57842960c047eb1",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "audio_subtitle专家捕捉到空乘人员带有微笑感和热情的服务语调，但image专家指出其神态自然平静、嘴角仅为礼貌平稳的放松状态，无剧烈情绪表现。综合graph对客舱常规服务情境的描述，这种表现更符合职业规范下的礼貌平和仪态，缺乏超出常规的真正喜悦情绪，故判定为中立。",
+  "output": "audio_subtitle专家捕捉到空乘人员带有微笑感和热情的服务语调，但image专家指出其神态自然平静、嘴角仅为礼貌平稳的放松状态，无剧烈情绪表现。综合graph对客舱常规服务情境的描述，这种表现更符合职业规范下的礼貌平和仪态，缺乏超出常规的真正喜悦情绪，故判定为中立。\n<answer>neutral</answer>",
+  "label": "joy",
+  "elapsed_seconds": 34.430402755737305
+}

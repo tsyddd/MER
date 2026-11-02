@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "Rachel在与对方交谈时身体前倾、双手摊开做出质问姿态[E1]，面部持续紧绷，眉心微蹙且嘴角下拉撇嘴[E2]，配合音轨中充满质问与埋怨的拔高语调[E3]，体现出强烈的责备与生气（anger）。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 1.25s",
+      "observation": "Rachel身体侧倾，双臂向两侧摊开做出反问手势，目光直视对方，嘴微张发声。",
+      "interpretation": "摊手配合质问的身势表现出对对方行为的不满与反驳，支持生气或责怪情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 2.50s",
+      "observation": "Rachel眉头紧皱，下唇微翘且嘴角明显下撇，直视前方人物。",
+      "interpretation": "不悦、严肃的质问神态表明其内心的不快与指责，而非中立或喜悦。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:02-00:04",
+      "observation": "在说到'you know how fish freaked me out'时音调明显拔高，带有强烈的埋怨和逼问感。",
+      "interpretation": "听觉上的埋怨与质问进一步排除了单纯的恐惧或中立陈述，强化了愤怒/生气的表达。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词提及'fish freaked me out'且frame_04有撇嘴神态，可能被误判为disgust或fear；但其目光直视、身体毫不退缩并主动摊手质问，缺乏恐惧的退缩表现或典型的皱鼻厌恶反应，故不采纳。"
+}

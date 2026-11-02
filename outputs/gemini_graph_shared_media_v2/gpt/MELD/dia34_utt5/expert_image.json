@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标是右侧穿粉色外套的Rachel，而非左侧穿白衣的女子。Rachel起初看着对方，张口、抬眉，随后转向她并伸手，持续带着难以置信的神情；字幕中的惊叹与这一变化相符。[E1][E2][E3] 最有视觉支持的标签是surprise。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒",
+      "observation": "Rachel看向左侧女子，眉毛抬起、嘴巴张开。",
+      "interpretation": "面部变化支持她对眼前信息感到意外。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.5005秒 至 frame_03 @ 1.4598秒",
+      "observation": "Rachel仍看着对方，边张口边伸出一只手，随后将手放到对方身旁。",
+      "interpretation": "她的目光和动作持续指向对方，与即时的惊讶反应相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Oh my God! You’re a 30 year old virgin!",
+      "observation": "字幕以惊叹开头，直接说出令说话者意外的事实。",
+      "interpretation": "文字内容支持惊讶的解释；它不是可听到的语调证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "frame_04至frame_07中Rachel眉头收紧、表情趋于严肃，也可被理解为担忧或不赞同；但这些画面不足以盖过开头明显的张口、抬眉反应，且不能仅凭皱眉判为愤怒或厌恶。"
+}

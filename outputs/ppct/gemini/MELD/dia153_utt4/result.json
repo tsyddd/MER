@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia153_utt4",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "在给定的交谈情境中，节点context_0显示Joey与Ross坐在沙发上交流。Joey先是微摊右手陈述假设（person_0、process_0），随后抬起食指指向前方并自然地说出应对建议（person_1、process_1）。其语调与面部表情整体平稳自然，仅是在认真说明自己的看法，并无强烈的情感波动，应判定为neutral。",
+  "output": "在给定的交谈情境中，节点context_0显示Joey与Ross坐在沙发上交流。Joey先是微摊右手陈述假设（person_0、process_0），随后抬起食指指向前方并自然地说出应对建议（person_1、process_1）。其语调与面部表情整体平稳自然，仅是在认真说明自己的看法，并无强烈的情感波动，应判定为neutral。\n<answer>neutral</answer>",
+  "label": "fear",
+  "elapsed_seconds": 38.201942920684814,
+  "node_count": 5,
+  "edge_count": 4
+}

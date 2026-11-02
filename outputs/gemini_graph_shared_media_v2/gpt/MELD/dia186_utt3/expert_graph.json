@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "Joey当前是在电话中亲自取消今晚的安排，而非转述他人的决定；道歉话语与闭眼、抿嘴的表情结合，更支持轻微的难过或歉疚，而非单纯陈述安排[E1][E2]。图谱process_0确认了通话事件，但与字幕描述同源，不另算一份情绪证据[E3]。图谱称语调平缓低沉；因未提供原音轨，只能保留为未核实的转述，不能据此断言听到了悲伤语气[E4]。",
+  "answer": "sadness",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "I'm sorry I gotta cancel tonight baby",
+      "observation": "Joey向电话另一端的人道歉，并说自己不得不取消今晚的安排。",
+      "interpretation": "这是当前互动中的歉意表达；单凭措辞不足以判定情绪，但为表情提供了语义背景。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒",
+      "observation": "Joey持电话时闭眼、眉头微蹙、嘴唇紧抿；随后说话时视线偏低。",
+      "interpretation": "这些当前表情与道歉相结合，较符合低落、歉疚的表达，但不能单独证明强烈悲伤。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "图谱记载Joey正在通话，并说要取消今晚的安排。",
+      "interpretation": "节点明确了当前事件及说话者；其话语也见于字幕，不能当作独立的第二份情绪证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱称Joey说话时声调平缓低沉。",
+      "interpretation": "这是音频派生节点的转述；未收到原音轨，无法亲耳核验语调，不据此决定标签。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "也可能只是礼貌地取消安排，闭眼和抿嘴反映斟酌说辞而非难过。画面与道歉语境共同使轻微低落更可取，但缺少可核验的语调，无法进一步确认情绪强度。"
+}

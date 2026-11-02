@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00033539",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "a415fec142e7ddeeb3ecfd6ae5f20bd235ccd0be39b7230d3d3b9654add4a754",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "音频和图谱专家均指出目标人物表现出惊讶情绪，音频中升调的'啊？'和反问语气的'真的'支持该判断；图像专家认为其表情悲伤，但该判断与音频和图谱中一致的惊讶表现存在冲突。综合来看，视听证据在惊讶上达成一致，而图像判断可能受局部表情或视角影响，因此优先采纳多源一致的惊讶判断。",
+  "output": "音频和图谱专家均指出目标人物表现出惊讶情绪，音频中升调的'啊？'和反问语气的'真的'支持该判断；图像专家认为其表情悲伤，但该判断与音频和图谱中一致的惊讶表现存在冲突。综合来看，视听证据在惊讶上达成一致，而图像判断可能受局部表情或视角影响，因此优先采纳多源一致的惊讶判断。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 46.04111361503601
+}

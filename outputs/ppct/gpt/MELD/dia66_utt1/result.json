@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia66_utt1",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "目标人物是画面右侧的Flight Attendant，当前面向并注视左侧女子（person_0），张嘴进行口头交流（person_1），并有手臂横放身前（person_2）；person_0与person_1的联合关系表明其正在回应对方。字幕中的“Thank you! Enjoy your flight?”是礼貌、友好的当下表达，且画面中目标人物持续微笑，体现出愉快情绪。",
+  "output": "目标人物是画面右侧的Flight Attendant，当前面向并注视左侧女子（person_0），张嘴进行口头交流（person_1），并有手臂横放身前（person_2）；person_0与person_1的联合关系表明其正在回应对方。字幕中的“Thank you! Enjoy your flight?”是礼貌、友好的当下表达，且画面中目标人物持续微笑，体现出愉快情绪。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 57.53741812705994,
+  "node_count": 6,
+  "edge_count": 3
+}

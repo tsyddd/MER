@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "目标主体为催眠磁带/播放机（Hypnosis Tape），画面中对应床头书架上的播放设备[E1]，其发出的声音为极其平稳、单调的催眠诱导语音[E2]，毫无激烈情绪起伏，判定为neutral。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0s",
+      "observation": "画面中央为仰卧睡眠的男性，床头架上方放置着录音播放设备，作为音源的目标录音机保持静态无表情。",
+      "interpretation": "目标为播放催眠磁带的物理装置/录音，本身无法展现人类面部与肢体情绪，表现需依赖其输出内容。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.00s-0.62s",
+      "observation": "音轨中传出平缓、轻柔且语调毫无波澜的单字词语音“Deeper.”。",
+      "interpretation": "催眠指导语调呈机械且高度平稳的单调特征，无任何高兴、愤怒、恐惧等情绪色彩，支持中性。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "舒缓轻柔的催眠声音有时可能被误认为放松或温和的joy，但其发音过于平淡且缺乏笑意与愉悦共鸣，故不采纳。"
+}

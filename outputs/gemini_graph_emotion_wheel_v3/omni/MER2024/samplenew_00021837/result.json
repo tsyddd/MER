@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00021837",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "4ea7680e20f81851cd4a88935382e146f7572d96f8fec674a7c229992a63b048",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "平静",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据情绪轮的定义，'neutral'（中性）指当前主要为平稳叙述、自然交流或无明确主导情绪的表达。梅晓歌的语速平稳、语调沉稳，面部表情没有明显的情绪波动，其行为符合在正式场合进行平稳叙述的特征，因此映射为'neutral'。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "平静",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据情绪轮的定义，'neutral'（中性）是指当前主要为平稳叙述、自然交流或无明确主导情绪的表达。说话者的语调平稳，内容为中性叙述，没有表现出任何主导情绪，因此映射为'neutral'。"
+    },
+    "image": {
+      "open_emotion": "回忆",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据情绪轮的定义，'neutral'指当前主要为平稳叙述、自然交流或无明确主导情绪的表达。该人物的面部表情、姿态和语调（音频中为平稳的叙述声）均支持其处于一种平静的叙述状态，没有证据表明他当前正体验着喜悦、悲伤、愤怒、担忧或惊讶等主导情绪。因此，'neutral'是对其当前表达状态最准确的描述。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物梅晓歌在陈述一段往事时，语速平稳，语调沉稳，无明显情绪起伏。视觉上，他坐姿端正，面部表情平静，眼神专注，无明显情绪波动。尽管在说“祖祖辈辈种地”时嘴角有极其短暂的上扬，但该变化微弱且短暂，不足以构成主导情绪。三位专家均一致认为其情绪为中性，其中[graph:E1]和[graph:E3]从音频语调和视觉姿态上支持其平稳叙述的状态，[image:E3]虽观察到微小表情变化但认为其不足以改变整体中性判断。因此，综合所有证据，其当前情绪为中性。",
+  "output": "目标人物梅晓歌在陈述一段往事时，语速平稳，语调沉稳，无明显情绪起伏。视觉上，他坐姿端正，面部表情平静，眼神专注，无明显情绪波动。尽管在说“祖祖辈辈种地”时嘴角有极其短暂的上扬，但该变化微弱且短暂，不足以构成主导情绪。三位专家均一致认为其情绪为中性，其中[graph:E1]和[graph:E3]从音频语调和视觉姿态上支持其平稳叙述的状态，[image:E3]虽观察到微小表情变化但认为其不足以改变整体中性判断。因此，综合所有证据，其当前情绪为中性。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 192.10624241828918
+}

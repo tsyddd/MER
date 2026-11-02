@@ -1,0 +1,14 @@
+{
+  "expert": "graph",
+  "reason": "Ross在说话时语调坚定、语速较快（person_1），并伴随指向对方、双手抬起、手心向上等手势（person_0, person_2, person_3），其言语内容为直接指控与施压认罪（process_0, process_1, process_2），视听信息一致表明其情绪为施加压力的坚定态度。",
+  "answer": "anger",
+  "evidence_refs": [
+    "person_1",
+    "person_0",
+    "person_2",
+    "person_3",
+    "process_0",
+    "process_1",
+    "process_2"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Joey说的是以“恐高”为例、主张去楼顶的劝说句；“fear”描述的是假设中的恐惧，并非他此刻害怕。[E1] 他随话语皱眉、张口并反复挥手，随后指向对方，表现出带有不耐烦的强调，而不只是平静陈述。[E2][E3]",
+  "open_emotion": "不耐烦",
+  "answer": "anger",
+  "mapping_reason": "此处的不耐烦偏向对交流受阻的轻微恼火，最接近anger；并不表示强烈愤怒。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "It have a fear of heights, you go to the top of the building!",
+      "observation": "字幕用恐高和去楼顶构成一个例子或主张。",
+      "interpretation": "句中的“fear”不是Joey对自身当前情绪的陈述；整句是在向人强调观点。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03（1.251249028533363秒）至frame_04（1.710040338995596秒）",
+      "observation": "Joey皱眉、张口，举起的手从挥动转为竖指。",
+      "interpretation": "表情和动作使这句主张显得急切、带有不耐烦，而非单纯平稳说明。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05（2.127123348506717秒）至frame_07（2.961289367528959秒）",
+      "observation": "Joey继续指向画面左侧，目光也朝该方向。",
+      "interpretation": "持续的指向动作支持他正着力向别人申辩或强调观点。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是Joey只是在用力举例劝说，并没有恼火；字幕本身不含责备或冒犯。未提供音频，无法用音量、语调或节奏进一步区分，因此对anger的判断限于字幕与视觉。"
+}

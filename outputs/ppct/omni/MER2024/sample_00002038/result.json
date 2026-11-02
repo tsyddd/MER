@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00002038",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "音频和字幕均显示目标人物正在提问“他是谁呀？”，其面部表情痛苦且嘴部张开，表现出困惑和警觉，注意力集中在未知人物上。",
+  "output": "音频和字幕均显示目标人物正在提问“他是谁呀？”，其面部表情痛苦且嘴部张开，表现出困惑和警觉，注意力集中在未知人物上。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 77.00894856452942,
+  "node_count": 4,
+  "edge_count": 1
+}

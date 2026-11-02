@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035837",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "50fa078e2d97eec8a574cbe583ec63c1368c6298089bae3bc9b79dd5c68cb064",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "字幕中的“再也没有亲人了”表达失去与孤独，指向悲伤；音频专家未提供音频，不能据此判断听觉特征。图谱所述低垂视线、低缓表现与图片专家观察到的低落姿态相互一致，但可能存在同源描述，因此主要依据字幕语义与图像表现综合判断。",
+  "output": "字幕中的“再也没有亲人了”表达失去与孤独，指向悲伤；音频专家未提供音频，不能据此判断听觉特征。图谱所述低垂视线、低缓表现与图片专家观察到的低落姿态相互一致，但可能存在同源描述，因此主要依据字幕语义与图像表现综合判断。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 74.54283332824707
+}

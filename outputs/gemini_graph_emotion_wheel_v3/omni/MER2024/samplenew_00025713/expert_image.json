@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "目标人物在连续帧中表现出明显的惊讶反应。其眉毛上扬，眼睛睁大，嘴巴微张，这些是典型的惊讶表情特征。结合字幕内容“你。你。怎么知道的？”，表明他正在对一个出乎意料的信息做出即时反应。该反应是直接的、即时的，而非对潜在负面后果的持续担忧，因此更符合惊讶而非担忧或愤怒。",
+  "open_emotion": "惊讶",
+  "answer": "surprise",
+  "mapping_reason": "根据情绪轮定义，'surprise'（惊讶）是因当前信息违背预期而产生的意外、诧异或震惊。目标人物的面部表情（睁大眼睛、上扬的眉毛、微张的嘴）与字幕中表达的即时疑问完全一致，表明他正在经历一个被打破预期的瞬间。该反应是直接的，而非对未来的焦虑（worried）或对冒犯的对抗（angry），因此最符合'surprise'的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "目标人物眉毛上扬，眼睛睁大，嘴巴微张。",
+      "interpretation": "这是典型的惊讶表情，表明对当前信息的即时反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01",
+      "observation": "目标人物的眉毛保持上扬，眼睛睁大，视线向一侧移动。",
+      "interpretation": "表情持续，表明惊讶状态未消退，正在处理信息。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "字幕内容",
+      "observation": "字幕显示“你。你。怎么知道的？”",
+      "interpretation": "该话语表达了对信息来源的即时疑问，是惊讶情绪的直接语言证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_07",
+      "observation": "目标人物的嘴巴张得更大，眼睛睁得更圆，表情达到顶峰。",
+      "interpretation": "面部表情的强度变化表明惊讶情绪在持续并可能增强。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。目标人物的表情和话语都明确指向惊讶，没有证据支持其他情绪。"
+}

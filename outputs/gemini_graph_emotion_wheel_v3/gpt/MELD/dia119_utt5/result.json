@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia119_utt5",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "fb723911feb1977e95353e9e5cd3a600d355b69ec46c0c99064139b522a98aa9",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "担忧",
+      "mapped_label": "fear",
+      "mapping_reason": "她对Ben今晚可能看到眼前东西表现出预期性的担忧，最接近情绪轮中面向负面后果的fear；这是较弱的近似投影，片段没有显示她惊恐，也没有交代具体后果。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "担忧",
+      "mapped_label": "fear",
+      "mapping_reason": "这里的担忧指向即将发生的、她不希望出现的后果，因此近似映射到fear；证据支持担心，但不足以称为强烈害怕。"
+    },
+    "image": {
+      "open_emotion": "担忧",
+      "mapped_label": "fear",
+      "mapping_reason": "这里的担忧指向Ben到来后看见眼前事物这一预期中的负面后果，因此近似映射到fear；画面不足以支持强烈的恐惧。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "fear",
+  "emotion_analysis": "字幕中Monica说“But Ben is coming over tonight and he can’t see this”，明确表达了对Ben今晚看到眼前物件这一结果的顾虑；[audio_subtitle:E1]对此的解读可信。画面中她看向左侧男子，表情逐渐绷紧，并朝街机做手势后转回街机，[image:E1][image:E2]与这份顾虑相符，但手势和露齿本身不能证明恐惧。她也可能只是在交代要求，且没有提供音轨可核对语气；综合当前话语与表情，较弱的、面向不希望发生之结果的担忧仍比平稳陈述更贴切，近似归入fear。",
+  "output": "字幕中Monica说“But Ben is coming over tonight and he can’t see this”，明确表达了对Ben今晚看到眼前物件这一结果的顾虑；[audio_subtitle:E1]对此的解读可信。画面中她看向左侧男子，表情逐渐绷紧，并朝街机做手势后转回街机，[image:E1][image:E2]与这份顾虑相符，但手势和露齿本身不能证明恐惧。她也可能只是在交代要求，且没有提供音轨可核对语气；综合当前话语与表情，较弱的、面向不希望发生之结果的担忧仍比平稳陈述更贴切，近似归入fear。\n<answer>fear</answer>",
+  "label": "fear",
+  "elapsed_seconds": 83.7354485988617
+}

@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia132_utt2",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "f084672e7cf9dd79896fb1df6be44f63d0e81e8653bd27ac9cb35d8247ef8c65",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "平常",
+      "mapped_label": "neutral",
+      "mapping_reason": "“平常”对应情绪轮中当前表达平稳、没有明确主导情绪的neutral；这里的判断依据是她描述他人时的当前表现，而非仅因缺少音轨。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "平常",
+      "mapped_label": "neutral",
+      "mapping_reason": "当前表达主要是平稳地陈述人物特征，符合neutral所指的日常、无明确主导情绪的表达；这不否定她对所描述对象有正面评价。"
+    },
+    "image": {
+      "open_emotion": "平常",
+      "mapped_label": "neutral",
+      "mapping_reason": "当前可见表现以平稳交谈为主，没有足够的面部或姿态变化支持某种明确的主导情绪，因此映射为neutral。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "核对八帧，Phoebe始终面向左侧女子说话，手势随描述展开，表情总体平稳；[image:E2]对手势的观察可信，但手势本身不能判作兴奋。字幕是在介绍一名男子的年龄和外貌，[audio_subtitle:E1]对话语用途的判断与原字幕相符。最可能的反证是“very attractive”带有欣赏意味，但它评价的是对方，结合当前画面不足以表明Phoebe正感到喜悦；本片段无音轨，无法核验语气，因此取平常交谈的表现。",
+  "output": "核对八帧，Phoebe始终面向左侧女子说话，手势随描述展开，表情总体平稳；[image:E2]对手势的观察可信，但手势本身不能判作兴奋。字幕是在介绍一名男子的年龄和外貌，[audio_subtitle:E1]对话语用途的判断与原字幕相符。最可能的反证是“very attractive”带有欣赏意味，但它评价的是对方，结合当前画面不足以表明Phoebe正感到喜悦；本片段无音轨，无法核验语气，因此取平常交谈的表现。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 75.85274481773376
+}

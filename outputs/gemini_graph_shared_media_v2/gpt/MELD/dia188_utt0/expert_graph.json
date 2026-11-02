@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "Joey当前说的是简短的“What?”，同时向外伸手并低头看向前方，较像对眼前情况的即时惊讶反应，而非单纯陈述[E1][E2]。图谱person_0记录的是同一动作，不能当作独立佐证[E3]；process_0涉及声音的部分只是图谱转述，未收到原音轨，无法核验语气[E4]。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "What?",
+      "observation": "当前字幕只有一句“What?”",
+      "interpretation": "简短反问支持即时惊讶，但仅凭文字不能判断语气。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒至frame_05 @ 0.3753747085600089秒",
+      "observation": "左侧穿白色球衣的Joey向前下方看，手臂先向外伸出，随后放下。",
+      "interpretation": "动作与反问同时出现，支持他正对眼前情况作出反应；姿态变化本身不证明反问导致了动作。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "节点记录Joey张嘴、视线朝前下方、右臂微微向外伸展。",
+      "interpretation": "与画面所见大体一致，但属于同一姿态的重复描述，不增加一份独立证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "节点称Joey说出“What?”，并标注音频来源。",
+      "interpretation": "话语内容有字幕对应；由于未收到原音轨，声音及语气仍只能视为未核验的图谱转述。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "“What?”也可能只是中性地询问信息；画面没有明显瞪眼等强烈惊讶表情。未采用neutral，是因为当前反问与向外伸手的即时反应更支持轻微惊讶，但无法凭缺失的音轨进一步确认强度。"
+}

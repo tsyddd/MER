@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者语气平稳，语速正常，没有明显的音量、语调或节奏变化，表明其情绪状态较为平静。结合字幕内容“再这么烧下去的话，传到高家”，这是一种对潜在后果的陈述和担忧，而非愤怒的指责或悲伤的哀叹。因此，主导情绪是担忧。",
+  "open_emotion": "担忧",
+  "answer": "worried",
+  "mapping_reason": "根据情绪轮定义，'worried'指对可能的负面结果、风险或未知的顾虑、焦虑和不安。说话者陈述了一个可能发生的负面后果（“传到高家”），其语气平稳，表明这是一种对未来的预期性担忧，而非当下的愤怒或悲伤，因此映射到'worried'是合适的。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "说话者语速平稳，音量正常，没有明显的音调起伏或停顿。",
+      "interpretation": "平稳的语调和节奏表明说话者情绪稳定，没有激动或失控的迹象。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "再这么烧下去的话，传到高家。",
+      "observation": "字幕内容为对一个潜在负面后果的陈述。",
+      "interpretation": "该陈述表达了对“烧下去”这一行为可能引发的后续问题的顾虑，这是担忧情绪的典型表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "说话者的面部表情平静，没有明显的皱眉、瞪眼等情绪化特征。",
+      "interpretation": "视觉上的平静表情与音频中的平稳语调一致，共同支持了情绪稳定、无明显激动的判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。音频中没有表现出愤怒的迹象，如音量提高或语速加快；也没有表现出悲伤的迹象，如语调低沉或迟缓。"
+}

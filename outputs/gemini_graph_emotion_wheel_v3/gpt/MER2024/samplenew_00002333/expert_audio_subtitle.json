@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物在frame_00至frame_04持续带有明显笑意，眼睛略眯、嘴角上扬，身体靠在沙发上，整体呈放松且轻松的互动状态[E1]。当前字幕为“像这娘，交代你。”，更像是在进行对话性陈述，本身不直接表达悲伤、担忧或愤怒[E2]。由于audio_provided=false，无法判断语调、音量或节奏。",
+  "open_emotion": "轻松愉悦",
+  "answer": "happy",
+  "mapping_reason": "“轻松愉悦”体现了当前面部表情和姿态中的正向情绪反应，因而映射到Level1的happy；判断并非仅依据字幕内容，而是主要依据持续笑意和放松状态。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_04（0.0至1.72秒）",
+      "observation": "目标人物嘴角上扬、眼睛略眯，身体后靠在沙发上，面部整体较放松。",
+      "interpretation": "这些视觉表现支持当前存在轻微的轻松愉悦，而非明显的紧张、悲伤或对抗。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "当前字幕“像这娘，交代你。”",
+      "observation": "字幕内容是对话性话语，未直接出现表示悲伤、担忧、愤怒或惊讶的情绪词。",
+      "interpretation": "语义不构成强烈负面情绪证据，但也不能单独证明开心。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "frame_05至frame_07中笑意减弱、嘴部张开且表情更趋平常，可能只是说话过程中的自然表情；字幕语义也不足以排除礼貌性微笑或普通闲聊，因此“轻松愉悦”的强度和确定性有限。"
+}

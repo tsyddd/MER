@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia33_utt6",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "42676d691bc7435fdaa13fee5000f399ed11ddb8973351645244f7085bfc901a",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "图像专家虽观察到目标人物抱婴儿时眉头紧蹙且嘴角下撇而推断为悲伤，但音频专家明确指出其发声伴随大音量、声调拔高与急促呼喊，展现出强烈的焦躁与暴躁抓狂。结合图谱记录的高语调和大声抱怨，其面部张口与紧绷神态在动态语音配合下体现的是烦躁抓狂的愤怒情绪而非悲伤。",
+  "output": "图像专家虽观察到目标人物抱婴儿时眉头紧蹙且嘴角下撇而推断为悲伤，但音频专家明确指出其发声伴随大音量、声调拔高与急促呼喊，展现出强烈的焦躁与暴躁抓狂。结合图谱记录的高语调和大声抱怨，其面部张口与紧绷神态在动态语音配合下体现的是烦躁抓狂的愤怒情绪而非悲伤。\n<answer>anger</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 41.25414299964905
+}

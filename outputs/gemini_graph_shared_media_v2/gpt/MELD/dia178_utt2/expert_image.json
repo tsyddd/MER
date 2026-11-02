@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标是抱着婴儿的黑发女性Monica，不是frame_02至frame_03中的金发女性。她从起初较克制的表情转为明显、持续的笑容，并低头看向婴儿[E1][E2][E3]；字幕中的积极表述与此相符[E4]。视觉上最支持joy。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.834166019022242秒",
+      "observation": "Monica抱着婴儿，看向画面右侧，嘴角略微上扬。",
+      "interpretation": "呈现轻微笑意，但单凭这一帧不足以确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 3.294955775137856秒",
+      "observation": "Monica仍抱着婴儿，转向旁人时露齿微笑。",
+      "interpretation": "比先前更明显的笑容支持愉快的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_07 @ 5.797453832204582秒",
+      "observation": "Monica低头看着怀中的婴儿，仍带着笑容。",
+      "interpretation": "笑容在视线转向婴儿后仍持续，支持joy而非仅凭瞬间表情判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "subtitle",
+      "anchor": "Pheebs, its going great.",
+      "observation": "字幕包含对当前情况的积极表述。",
+      "interpretation": "与画面中的笑容相符；字幕不作为可见表情或听觉语调的证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "起初的笑容较克制，也可能只是礼貌微笑；但随后露齿微笑、低头看婴儿时仍保持笑容，加上字幕的积极措辞，使joy更有支持。"
+}

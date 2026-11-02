@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia188_utt0",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "Joey面向另一人并抬手示意，字幕只有“What?”，表现出对当前情况的即时疑惑和意外反应。画面中没有明显的愤怒、悲伤或恐惧迹象。",
+  "output": "Joey面向另一人并抬手示意，字幕只有“What?”，表现出对当前情况的即时疑惑和意外反应。画面中没有明显的愤怒、悲伤或恐惧迹象。\n<answer>surprise</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 20.770705461502075,
+  "node_count": null,
+  "edge_count": null
+}

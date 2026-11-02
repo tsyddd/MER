@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00021849",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "音频中男性说‘你先上我的车，先回去’，语气平稳，无明显情绪波动。结合画面，他身体前倾，手搭在车门框上，姿态是主动安排对方离开，而非表达愤怒或悲伤等强烈情绪，整体状态符合中性指令的特征。",
+  "output": "音频中男性说‘你先上我的车，先回去’，语气平稳，无明显情绪波动。结合画面，他身体前倾，手搭在车门框上，姿态是主动安排对方离开，而非表达愤怒或悲伤等强烈情绪，整体状态符合中性指令的特征。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 82.36362147331238,
+  "node_count": 6,
+  "edge_count": 3
+}

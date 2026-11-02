@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00002038",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "5df67b783a7d621f4c168fbbed45377607d79f7076828cb28063569a3c555671",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "我核看frame_00至frame_07，目标女性持续眉心收紧、视线固定向画面右侧、嘴微张，未见笑容或明显瞬时惊跳，这是对原始帧的直接核验。[image:E1]字幕“他，是谁呀？”确实是即时身份追问，与持续紧绷的视觉状态互补；该问句本身不能单独区分担忧和惊讶。[audio_subtitle:E1]最强反证是surprise，但表情在0.0至0.8秒间持续而非短暂扩张，因此取worried；原始音轨缺失，不能核实任何语调转述。",
+  "output": "我核看frame_00至frame_07，目标女性持续眉心收紧、视线固定向画面右侧、嘴微张，未见笑容或明显瞬时惊跳，这是对原始帧的直接核验。[image:E1]字幕“他，是谁呀？”确实是即时身份追问，与持续紧绷的视觉状态互补；该问句本身不能单独区分担忧和惊讶。[audio_subtitle:E1]最强反证是surprise，但表情在0.0至0.8秒间持续而非短暂扩张，因此取worried；原始音轨缺失，不能核实任何语调转述。\n<answer>worried</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 176.04669857025146
+}

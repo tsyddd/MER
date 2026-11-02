@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载年长女性上身微向前倾且视线持续注视蓝衣女性〔person_0〕，并以带有疑问和关切的语调发问〔person_1〕。同时，她在交谈中主动开口询问对方“是不是？家里又出什么事了？”〔process_0〕。这一系列关切发问与专注前倾的举止，充分体现出对对方家庭状况的担忧与挂虑，情绪为worried。",
+  "answer": "worried",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "process_0"
+  ]
+}

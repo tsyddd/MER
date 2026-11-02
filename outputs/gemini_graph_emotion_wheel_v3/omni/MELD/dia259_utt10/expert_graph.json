@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "Monica的表达从否定笑话的趣味性，到列举其冒犯女性、医生，再到出人意料地补充冒犯猴子，构成了一种层层递进的、带有强烈情绪的反驳。她的语速加快，语调在最后部分明显上扬，配合身体前倾和手势，表现出一种被冒犯后的激动和义愤。这种情绪最符合对不公或冒犯行为的愤怒反应。",
+  "open_emotion": "愤怒",
+  "answer": "anger",
+  "mapping_reason": "根据当前证据，Monica的表达内容（“offensive”）和方式（语速快、音量大、语调上扬）都指向一种因受到冒犯而产生的对抗性情绪。这与‘anger’（愤怒）的定义——对冒犯、受阻或不公的恼火、责备与对抗——高度吻合。虽然她的表达也带有些许惊讶（surprise）的成分，但主导情绪是因冒犯而产生的愤怒。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:04",
+      "observation": "Monica的语速较快，语调严肃坚决，尤其在说到“and monkeys!”时，音量增大且语调明显上扬。",
+      "interpretation": "快速且上扬的语调是情绪激动的典型表现，表明她并非在平静地陈述，而是在强烈地表达自己的不满和义愤。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "Monica上身微向前倾，双眼注视前方交流对象。",
+      "interpretation": "身体前倾是一种积极的、带有对抗性的姿态，表明她正在直接地、严肃地与对方交锋。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02",
+      "observation": "Monica右手向身体外侧挥动做手势。",
+      "interpretation": "手势是为加强话语力度而做出的肢体语言，配合其愤怒的言辞，起到了强调和渲染情绪的作用。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "subtitle",
+      "anchor": "The joke is not funny, and it's offensive to women, and doctors, and monkeys!",
+      "observation": "字幕内容明确指出，该笑话被评价为“offensive”（冒犯的）。",
+      "interpretation": "表达内容本身是负面的，且带有强烈的道德评判色彩，这是引发愤怒情绪的直接原因。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽然Monica的表达方式带有夸张和戏剧化的成分，但其核心内容（“offensive”）和基本的视听证据（严肃的语调、对抗的姿态）都指向一种真实的愤怒情绪，而非仅仅是中性或惊讶。"
+}

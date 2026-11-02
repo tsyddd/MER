@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "目标人物Gunther在所有帧中均保持站立姿态，身体朝向右侧，视线也朝向右侧，似乎在与画面外的某人对话。他的面部表情没有明显变化，没有皱眉、张嘴或抬眉等强烈情绪的视觉线索。字幕显示他问出'Someone in there?'，这是一个中性的询问句。音频中他的语调平稳，没有表现出愤怒、悲伤或恐惧的迹象。综合来看，他的视觉表现与中性、日常的询问行为一致。",
+  "open_emotion": "中性",
+  "answer": "neutral",
+  "mapping_reason": "根据MELD项目的情绪轮定义，'neutral'指当前平稳、日常且没有明确主导情绪的表达。Gunther的面部表情、姿态和视线均未表现出任何强烈的情绪特征，其言语内容为一个简单的日常询问，与中性情绪的定义相符。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "Gunther的面部表情在所有帧中都保持稳定，没有明显的皱眉、微笑或张嘴等表情变化。",
+      "interpretation": "面部表情的稳定性表明他没有经历强烈的情绪波动。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "Gunther的身体朝向和视线始终朝向画面右侧，与一个正在对话的人保持一致。",
+      "interpretation": "该姿态表明他正处于一个正常的社交互动中，而非表现出特定的情绪反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Someone in there?",
+      "observation": "字幕内容为一个简单的询问句。",
+      "interpretation": "该言语内容本身是中性的，不带有强烈的情感色彩。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "00:00-00:01",
+      "observation": "音频中Gunther的语调平稳，没有明显的音高或音量变化。",
+      "interpretation": "平稳的语调与中性情绪的表达一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。"
+}

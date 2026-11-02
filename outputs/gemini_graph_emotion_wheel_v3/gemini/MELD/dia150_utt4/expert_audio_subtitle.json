@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物在说出道别语句时，声线低沉颤抖、带明显的气声与下沉语调，结合抱臂扶胸、眉头微蹙的哀伤体态，清晰地传达出失落与难过的主导情感状态。",
+  "open_emotion": "伤感",
+  "answer": "sadness",
+  "mapping_reason": "开放情绪'伤感'体现因分别与失落带来的哀伤和低落体验，完全符合情绪轮中sadness的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "说'Good-bye Chandler Bing'时语速放慢，末尾声调下沉并伴有轻微颤音和哽咽般的叹息声",
+      "interpretation": "声音带有强烈的悲楚感与不舍，体现离别时的哀伤情绪",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04",
+      "observation": "右手抓紧胸前衣物，八字眉微聚，嘴角略微向下撇，眼神哀怨地望向对方",
+      "interpretation": "面部与肢体语言均呈现典型的难过与心碎反应，佐证声音中的负向悲伤效价",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Good-bye Chandler Bing.",
+      "observation": "使用全名进行正式、决绝的道别表达",
+      "interpretation": "在语境中强化了关系破裂或离别的沉重感",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "角色表达风格略显戏剧化，可能让人怀疑是否含有表演性夸张，但其声音韵律中实际散发的颤抖与低沉确实符合真实的伤感情绪表达。"
+}

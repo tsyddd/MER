@@ -1,0 +1,3 @@
+{
+  "text": "在室内背景有音响和置物架、身穿红色上衣配马甲并系着蓝色围裙的环境中〔context_0〕，目标人物最初开口说“啊”〔process_0〕；此时她双眉紧蹙、眉心浮现竖纹，双眼注视着右前方且嘴巴微张〔person_0〕，并同步发出短促的升调疑问声〔person_1 simultaneous person_0〕，视觉神态与听觉声调共同构成了其初发的疑问状态〔person_0 person_joint person_1〕。随后，目标人物紧接着说出“真的”〔process_1 after process_0〕，与此前的发声联合构成了从初始反应到跟进求证的互动过程〔process_0 process_joint process_1〕；在这个过程中，她嘴部开合说话，面部持续保持皱眉神态且视线维持在右侧〔person_2 after person_0〕，同时以反问疑问语调讲出词句〔person_3 after person_1〕，说话动作与反问语调相互同步〔person_3 simultaneous person_2〕并共同丰富了其后续的言语举止〔person_2 person_joint person_3〕。这些表现可能反映出目标人物当下的注意力紧密集中在交流对象所传达的内容上，面对突发或意外信息时处于感到诧异、困惑并试图进一步确认真伪的心理应对状态。"
+}

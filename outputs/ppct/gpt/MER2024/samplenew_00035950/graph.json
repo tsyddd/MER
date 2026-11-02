@@ -1,0 +1,108 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "主人物说出字幕内容：“怎么到了自己身上，就这样不明白。”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "主人物佩戴 ornate 头饰和耳饰，穿着带有红色图案的服装。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "主人物的头部和视线朝向画面右侧。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "主人物在室内地面上跪坐。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "场景为带有传统装饰、灯笼和屏风的室内空间。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "画面中还有一名坐在中央的人以及其他站立人物，主人物位于他们前方。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "simultaneous",
+      "reason": "同一人物的服饰状态与头部、视线朝向在同一时刻同时存在",
+      "entity_anchor": "同一人物"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供主人物的服饰与装饰外观信息，person_1提供其头部和视线朝向信息，联合后更完整呈现主人物的可见外貌及当前指向。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_0提供主人物的服饰与装饰外观信息，person_2提供其在室内地面跪坐的姿态信息，联合后更完整呈现主人物的外观与身体状态。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1提供主人物头部和视线朝向画面右侧的信息，person_2提供其跪坐姿态信息，联合后补充呈现主人物当前的朝向与身体姿态。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0提供传统装饰、灯笼和屏风构成的室内场景信息，context_1提供场内人物分布及主人物位于其他人物前方的信息，联合后更完整限定了场景的空间环境与人物关系位置。",
+      "entity_anchor": null
+    }
+  ]
+}

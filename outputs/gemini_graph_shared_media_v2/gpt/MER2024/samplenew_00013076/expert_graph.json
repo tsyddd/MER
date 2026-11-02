@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "目标人物是戴口罩男子。当前互动从低头、视线向下〔person_0〕转为抬头看向对方〔person_1〕，随后合十致意〔person_2〕，并连续表达感谢〔process_0〕〔process_1〕。这些证据共同指向当下因受助或被照顾而产生的积极、感激情绪，最接近happy。图谱中的言语属于图谱转述；由于未提供原音轨，不能亲耳核验语调，但字幕与画面动作相互印证。",
+  "answer": "happy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.36秒至frame_03 @ 1.12秒",
+      "observation": "戴口罩男子抬头并持续看向对面的绿衣男子，眼部呈较放松、略弯的状态。",
+      "interpretation": "从先前低头回到面对对方的注视，结合眼部积极表情，支持其当前互动中带有友善和积极情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05 @ 1.88秒至frame_07 @ 2.64秒",
+      "observation": "戴口罩男子双手在胸前合十，面向对方保持感谢式手势。",
+      "interpretation": "这是当前对话中的直接致意动作，与感激和积极情绪相符；它不是背景陈设，而是目标人物对对方的即时反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "当前字幕：“正要感谢您呢！谢谢！谢，谢谢。”",
+      "observation": "字幕呈现目标人物当面反复表达感谢。",
+      "interpretation": "当前语言明确表达正向的感谢和礼貌回应，使单纯neutral的解释较弱；但字幕本身不能证明具体语调。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "process_1；person_2",
+      "observation": "图谱记录其连声说“谢谢！谢，谢谢。”并双手合十致意。",
+      "interpretation": "图谱把言语和手势组织为连续的当面感谢过程，能帮助区分“紧张或单纯惊讶”等替代解释；这些节点与字幕、画面存在同源或互补印证，但不作为原始音频的直接替代。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "口罩遮挡了嘴部，合十也可能是礼貌、请求或单纯社交仪式，眼部状态不足以单独区分happy与neutral；且未提供原音轨，无法核验语气。由于当前字幕明确为反复感谢，画面又同步呈现合十致意，感激性的积极情绪比neutral或worried更能解释整段互动。"
+}

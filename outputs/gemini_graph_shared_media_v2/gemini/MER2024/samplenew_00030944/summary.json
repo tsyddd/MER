@@ -1,0 +1,9 @@
+{
+  "reason": "独立核对原始画面与音频可见，目标人物在frame_03至frame_07中双眉微聚、目光紧盯对方，神情凝重而关切[image:E1]。音频中其语调在“不放心呢”与“怎么办呢”处带有明显的悬心与发愁气息[audio_subtitle:E2]，结合字幕直陈对对方孤身一人且可能做出极端举动的深切顾虑[audio_subtitle:E1]。三位专家的分析互相补充且与实际视音频线索完全吻合；其交互姿态为积极关注与探询，无消沉或退缩表现，从而排除了悲伤（sad），确认为担忧。",
+  "answer": "worried",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E1",
+    "audio_subtitle:E2"
+  ]
+}

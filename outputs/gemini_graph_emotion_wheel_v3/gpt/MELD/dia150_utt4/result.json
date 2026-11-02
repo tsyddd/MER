@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia150_utt4",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "b948f663757dd9d93d653315d388ec7b3f3b77e98f96b4337073cdbfe157409b",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "不舍",
+      "mapped_label": "sadness",
+      "mapping_reason": "这里的不舍指向当面告别带来的低落，最接近sadness；这是近似映射，不意味着已能确认强烈的丧失感。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "失落",
+      "mapped_label": "sadness",
+      "mapping_reason": "此处的失落指面对告别时表现出的低落，按情绪轮映射为sadness；仅凭这一短句和画面，无法确定情绪强度。"
+    },
+    "image": {
+      "open_emotion": "失落",
+      "mapped_label": "sadness",
+      "mapping_reason": "这里的失落表现为道别时的低落，按情绪轮映射到sadness；画面不足以判断悲伤有多强烈。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "右侧的Janice在前几帧手抵下巴、看向左侧，随后说话时将手移到胸前，眉部收拢、嘴角下垂；[image:E1][image:E2]对这一变化的描述与画面相符。字幕“Good-bye Chandler Bing.”确认她正在道别，但这句话本身不能证明难过[image:E3]。郑重的告别也可能有类似姿态，不过持续的低落表情使“失落”比平稳寒暄更贴近当前表现，故映射为sadness。未提供音轨，不能据此判断语调。",
+  "output": "右侧的Janice在前几帧手抵下巴、看向左侧，随后说话时将手移到胸前，眉部收拢、嘴角下垂；[image:E1][image:E2]对这一变化的描述与画面相符。字幕“Good-bye Chandler Bing.”确认她正在道别，但这句话本身不能证明难过[image:E3]。郑重的告别也可能有类似姿态，不过持续的低落表情使“失落”比平稳寒暄更贴近当前表现，故映射为sadness。未提供音轨，不能据此判断语调。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 79.79398441314697
+}

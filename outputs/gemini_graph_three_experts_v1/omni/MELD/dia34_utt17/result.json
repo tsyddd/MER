@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia34_utt17",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "55de13de7623a6e85879feac678dde89b7dbd56f0daf4dc5a1f20e9a6a71f9c9",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "音频和图谱专家均指出莫妮卡语气坚定、带有责备且表达强烈反对，与愤怒情绪一致；图像专家认为其表情趋于平静并带微笑，倾向中性。但音频与图谱在语速、音量和言辞上一致支持愤怒，且图像未覆盖完整对话过程，故采信更具动态一致性的视听证据。",
+  "output": "音频和图谱专家均指出莫妮卡语气坚定、带有责备且表达强烈反对，与愤怒情绪一致；图像专家认为其表情趋于平静并带微笑，倾向中性。但音频与图谱在语速、音量和言辞上一致支持愤怒，且图像未覆盖完整对话过程，故采信更具动态一致性的视听证据。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 45.06559896469116
+}

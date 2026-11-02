@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载目标束发男子在交谈时发声低沉，语调平稳克制〔person_1〕，面部仅呈现正常的开口说话状态〔person_0〕。虽然其台词陈述了事情闹大后的假设后果〔process_0, process_1〕，但台词主题不等于当前情绪，其整体表现冷静克制，无明显忧虑或激动态势，情绪表现为中立。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "process_0",
+    "process_1"
+  ]
+}

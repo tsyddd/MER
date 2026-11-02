@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia132_utt2",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "f084672e7cf9dd79896fb1df6be44f63d0e81e8653bd27ac9cb35d8247ef8c65",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "字幕中Phoebe说的是“he’s like early to mid-thirties, very attractive”，在描述第三人；这条证据可信，但“very attractive”不能直接证明她正在高兴[audio_subtitle:E1]。画面中她面向听者，双手随话语作说明性动作，表情变化不大，这与平静陈述相符[image:E2]。开头略有笑意是喜悦的反证，但没有形成持续、明确的喜悦表情[image:E3]。图谱专家关于语气的说法无法在未提供音轨的情况下核验，因此不据此取舍[graph:E4]；综合可核实线索，选择neutral。",
+  "output": "字幕中Phoebe说的是“he’s like early to mid-thirties, very attractive”，在描述第三人；这条证据可信，但“very attractive”不能直接证明她正在高兴[audio_subtitle:E1]。画面中她面向听者，双手随话语作说明性动作，表情变化不大，这与平静陈述相符[image:E2]。开头略有笑意是喜悦的反证，但没有形成持续、明确的喜悦表情[image:E3]。图谱专家关于语气的说法无法在未提供音轨的情况下核验，因此不据此取舍[graph:E4]；综合可核实线索，选择neutral。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 68.675954580307
+}

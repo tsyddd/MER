@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "画面中央的Ross先垂眼、微低头，随后抬眼说话，表情始终克制，没有出现笑容或明显激烈的动作[E1][E2]。单看画面也可能是平静地陈述；但字幕中的“give him up”表达了不得不放弃的意思[E3]，与这种低落、收敛的表现相互支持。最有依据的解释是失落，而非强烈悲痛。",
+  "open_emotion": "失落",
+  "answer": "sadness",
+  "mapping_reason": "此处的失落指面对不得不放弃时的低落，最接近sadness；画面不支持将其描述为强烈哀伤。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.000秒）至frame_01（0.209秒）",
+      "observation": "Ross坐在画面中央，头略低、视线向下，嘴唇闭合；背景右侧的旁人不是目标。",
+      "interpretation": "呈现收敛、低落的开端，但这些动作单独不足以确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02（0.417秒）至frame_07（1.418秒）",
+      "observation": "他抬起视线并张口说话，姿态仍较稳定，未见笑容或明显激烈的面部、肢体变化。",
+      "interpretation": "前后表现持续克制，与轻度失落相容；也保留了平静陈述的可能。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "I'm gonna have to give him up.",
+      "observation": "字幕写的是“I'm gonna have to give him up.”",
+      "interpretation": "“不得不放弃”提供了失落的语义依据；字幕本身不能证明说话语调。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "Ross抬眼后的表情和姿态相当平稳，画面没有明确的哭泣或强烈悲伤迹象，因此也可能是在克制地、平静地陈述；片段未提供音频，无法用语调进一步区分。"
+}

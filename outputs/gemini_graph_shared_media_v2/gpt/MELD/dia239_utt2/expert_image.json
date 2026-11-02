@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标人物是穿深绿色上衣的Chandler，不是左侧蓝衬衫男子或门口的女子。他从与旁人交谈转为迅速看向门口女子，随后抬眉、摊手，表现出短暂的意外反应[E1][E2]。字幕中的话语突然转向“Hi!”与这一变化相符，但不能据此推断语调[E3]。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒；frame_01 @ 0.959秒",
+      "observation": "Chandler原本面向左侧男子，随后转身看向门口出现的女子。",
+      "interpretation": "注意力突然转移，支持他对女子出现感到意外。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 3.837秒",
+      "observation": "Chandler面对女子，眉毛抬起，一只手向外摊开。",
+      "interpretation": "与前一刻的转身合看，支持短暂惊讶；单独的摊手不足以确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Jeez, man did you fall.. Hi! So ah, did ya, did-did-did ya fall high?",
+      "observation": "话语中途转为“Hi!”，之后出现重复、停顿。",
+      "interpretation": "与视觉上的突然转向相符，但文字不能证明说话时的语调。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_05 @ 4.796秒；frame_07 @ 6.715秒",
+      "observation": "之后Chandler放低手，眉头趋于紧皱，站在原地继续看着女子。",
+      "interpretation": "限制了持续惊讶的判断，也可能是局促或困惑。",
+      "polarity": "counter"
+    }
+  ],
+  "counterevidence": "后几帧的紧眉和收手更像局促或困惑，而非持续惊讶[E4]；但开头突转视线、抬眉与话语中断共同支持以短暂的surprise作为当前片段最强解释。"
+}

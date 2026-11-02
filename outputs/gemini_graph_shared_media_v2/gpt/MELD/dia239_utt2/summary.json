@@ -1,0 +1,10 @@
+{
+  "reason": "目标是穿深绿色上衣的Chandler；frame_01他转向门口出现的女子，[image:E1]所述注意力转移可直接从画面核实，但转身本身不能证明情绪。字幕从“Jeez, man did you fall..”突然转为“Hi!”，随后重复“did”，[audio_subtitle:E1]与[image:E3]描述的话语变化可核实，并与转身、frame_04的抬眉摊手相互支持，较符合短暂的惊讶。最强反证是frame_05至frame_07他收手、皱眉，[image:E4]可信，说明惊讶并未持续，也可能带有局促；但它不足以抹去前段的意外反应。未提供音轨，因此不依据语调判断。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E1",
+    "image:E3",
+    "image:E4"
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Joey抬头面向身旁的Monica说话：\"I don't know. We're talking about whipped fish, Monica.\"",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Monica一只手搭在Joey的肩头",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "Joey继续对Monica说：\"I'm just happy I'm keeping it down, y'know?\"",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_3",
+      "type": "process",
+      "content": "Monica手拿小勺站在桌边，众人围绕餐桌就坐",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Joey头部向左上方抬起，目光注视身侧站立的Monica，嘴部开合说话",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Joey说话语调平缓，音量适中",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Joey保持仰头注视Monica的姿态，面部伴随说话动作轻微变化",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Joey视线转向下方看着桌面，双手十指交叉叠放在餐桌上，身体前倾静坐",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内公寓厨房与餐桌区域，Monica身穿围裙站在Joey身旁，桌旁还坐着其他朋友",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_2",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "Joey在面向Monica说完前一句话后，继续对她补充说明下一句",
+      "entity_anchor": "Joey对Monica的对话表达"
+    },
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "simultaneous",
+      "reason": "Monica手搭在Joey肩头的同时，Joey正抬头面向她说话",
+      "entity_anchor": "Joey与Monica的互动"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "Joey抬头说话的视觉动作与语调平缓的听觉表现同步发生",
+      "entity_anchor": "Joey"
+    },
+    {
+      "source": "person_2",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "Joey在开始抬头说话后，继续保持仰头注视并伴随说话动作",
+      "entity_anchor": "Joey"
+    },
+    {
+      "source": "person_3",
+      "target": "person_2",
+      "relation": "after",
+      "reason": "Joey在对Monica说话后，转而低头看向桌面双手交叠静坐",
+      "entity_anchor": "Joey"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_1中Monica手搭在Joey肩头的肢体接触，与process_0中Joey抬头直接对她开口回话相结合，完整呈现了两人在桌旁近距离肢体安抚与面对面言语交流的即时互动过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供了Joey仰头注视Monica并说话的面部与姿态动作，person_1补充了其说话时平缓的语调与适中音量，视听结合完整展现了Joey此刻的表达状态。",
+      "entity_anchor": null
+    }
+  ]
+}

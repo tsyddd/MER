@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "在事件链中，Monica先面向身旁男子陈述事实背景'But Ben is coming over tonight'，随后补充行动缘由'and he can't see this'并自然将注意力与肢体动作转向街机控制台[E1, E3]。图谱节点person_1及真实音轨均证实其发声平稳连贯，无急促惊恐或恼火声调；画面中其神情舒展平稳[E2]，整体呈现出务实、就事论事的日常沟通状态。",
+  "open_emotion": "平常",
+  "answer": "neutral",
+  "mapping_reason": "Monica陈述客观情况并付诸操作，语调与神态均平稳自然，无明显的负面冲撞或正向亢奋，符合情绪轮中'平稳、日常且没有明确主导情绪'的neutral定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱记录Monica语调平稳连续，经真实音轨核验，其整句语调平缓，没有急迫、颤抖或尖锐起伏",
+      "interpretation": "表明其在陈述事情时内心平静，未受强烈情绪驱使",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01",
+      "observation": "Monica面向身旁同伴说话时，眉眼放松，无皱眉、瞠目或嘴角下撇动作",
+      "interpretation": "排除了处于愤怒、恐惧等高唤醒负向情绪的可能",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "But Ben is coming over tonight and he can’t see this.",
+      "observation": "台词内容是交代Ben要来以及不能让他看到的客观原因，紧接着伴随转向街机的动作",
+      "interpretation": "属于明确的任务导向型事实说明，未表现出情感宣泄",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词中'can't see this'涉及避免不良后果，易被误解为对潜在麻烦的担忧（fear），但实际表现中语速适中、动作从容有序，缺乏威胁应激或焦虑特征。"
+}

@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "视觉上目标人物Ross面部肌肉放松，眉毛平展无皱起，躯干站姿自然平稳，口部仅随正常言语开合[E1]；结合音频中平稳克制的陈述语调[E2]，没有愤怒的发力或开心的笑意特征，判定为neutral。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0s - frame_07 @ 5.42s",
+      "observation": "画面右侧的Ross侧对镜头与左侧Chandler交谈，双眉平整未见紧蹙或耸起，面颊肌肉无提拉或紧绷，仅唇部随发音自然启闭，双肩自然下垂，身体姿态保持静止站立。",
+      "interpretation": "缺乏愤怒（皱眉瞪眼、身体前逼）或喜悦（颧肌上提、咧嘴笑）等强情绪的典型视觉特征，支持中立平稳状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00 - 00:04",
+      "observation": "Ross用平稳、不紧不慢的语调念出'Shielding your face and shrieking like a girl... is not a backhand'，音量平缓，尾音没有上扬或咆哮爆破。",
+      "interpretation": "言语呈现冷静、死板吐槽（deadpan）的陈述特征，印证了视觉上的平淡克制，排除了怒意迸发的可能性。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词内容具有嘲弄与否定意味，容易被主观推断为带有嫌弃（disgust）或生气（anger），但其面部并未出现鼻翼皱起、上唇提起或咬牙瞪眼的肌肉运动，因而排除这些情绪。"
+}

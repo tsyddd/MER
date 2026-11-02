@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00005203",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "80ed71fa2ffabbd46e09fee5b9edb8082b0b4d584293ba2c216376d47e0f2d8d",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "目标人物在说出“我也不想跟你分开”时，其视觉表现（[image:E1]）与听觉表现（[audio_subtitle:E1]）共同指向一种低落的情绪。她的目光微垂，嘴唇开合，表现出一种沉重的倾诉感。音频中她的声音轻微、语调低缓，缺乏能量，这与图谱中‘person_1’节点的描述一致。综合来看，这些线索共同支持了‘sad’这一情绪判断。",
+  "output": "目标人物在说出“我也不想跟你分开”时，其视觉表现（[image:E1]）与听觉表现（[audio_subtitle:E1]）共同指向一种低落的情绪。她的目光微垂，嘴唇开合，表现出一种沉重的倾诉感。音频中她的声音轻微、语调低缓，缺乏能量，这与图谱中‘person_1’节点的描述一致。综合来看，这些线索共同支持了‘sad’这一情绪判断。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 162.1266384124756
+}

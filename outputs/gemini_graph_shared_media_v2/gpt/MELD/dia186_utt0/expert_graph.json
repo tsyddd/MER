@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "Chandler在当前互动中先否定、限定对象，再说“Ross and Joey is embarrassing enough”[E1][E2]；他随后侧目并露出紧绷的表情[E3]。言语中的排斥与表情相互补充，更支持轻度的厌恶，而非单纯惊讶。图谱与字幕对话语的重复描述不算两份独立证据；未提供原音轨，不能核验图谱转述的声音信息。",
+  "answer": "disgust",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“Ah, no-no-no just Ross. Ross and Joey is embarrassing enough.”",
+      "observation": "Chandler否定后限定为Ross，并说Ross和Joey已经够令人难堪。",
+      "interpretation": "这是对当前提议的排斥性回应；“embarrassing”评价的是所提及的情况，不能据此推定具体往事。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "process_0、process_1、process_2",
+      "observation": "图谱将Chandler的话组织为否定开头、点名Ross、接着作出评价的当下话语链。",
+      "interpretation": "这一顺序有助于把话语理解为当前的拒绝，而不是他人在说话；其中音频来源只是图谱转述，未获原音轨核验，且不能由顺序推断未给出的因果。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_06 @ 2.6693333333333333秒；frame_07 @ 3.128125秒",
+      "observation": "Chandler看向右侧，嘴部收紧，随后呈现略带龇牙的紧绷表情。",
+      "interpretation": "结合他正在表达的排斥，比单凭张嘴判断为惊讶更支持厌恶；画面本身不足以确定情绪强度。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "也可能是在平静地开玩笑，且字幕并未说明语气；但否定式回应与后段紧绷表情共同支持轻度厌恶。没有原音轨，无法进一步核验语调。"
+}

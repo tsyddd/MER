@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00001635",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "音频中人物发出“呀”的声音，表现出突然的反应，随后说“我不知道”，结合其睁大的眼睛和惊讶的表情，符合受到意外情况时的惊讶情绪。",
+  "output": "音频中人物发出“呀”的声音，表现出突然的反应，随后说“我不知道”，结合其睁大的眼睛和惊讶的表情，符合受到意外情况时的惊讶情绪。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 12.04739236831665,
+  "node_count": null,
+  "edge_count": null
+}

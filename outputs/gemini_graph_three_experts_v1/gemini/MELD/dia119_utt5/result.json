@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia119_utt5",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "fb723911feb1977e95353e9e5cd3a600d355b69ec46c0c99064139b522a98aa9",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "图像专家明确指出Monica在交谈过程中面部始终带有明显的微笑，肢体轻快且神情轻松愉悦，展现出清晰的正向情绪。音频专家捕捉到的较快语速和高音调更符合情景喜剧中戏剧化的生动调侃与兴奋互动，而非真实的恐慌（fear）；图谱专家判定为中立则忽视了强烈的微笑神态。综合视觉面部特征，判定其情绪为喜悦（joy）。",
+  "output": "图像专家明确指出Monica在交谈过程中面部始终带有明显的微笑，肢体轻快且神情轻松愉悦，展现出清晰的正向情绪。音频专家捕捉到的较快语速和高音调更符合情景喜剧中戏剧化的生动调侃与兴奋互动，而非真实的恐慌（fear）；图谱专家判定为中立则忽视了强烈的微笑神态。综合视觉面部特征，判定其情绪为喜悦（joy）。\n<answer>joy</answer>",
+  "label": "fear",
+  "elapsed_seconds": 44.045294761657715
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035837",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sad",
+  "emotion_analysis": "该女性在字幕和音频中说出‘我知道，在这个世上，再也没有亲人了’，其语调低沉，语速缓慢，结合其低头、视线向下的视觉表现，共同指向一种深切的悲伤情绪。",
+  "output": "该女性在字幕和音频中说出‘我知道，在这个世上，再也没有亲人了’，其语调低沉，语速缓慢，结合其低头、视线向下的视觉表现，共同指向一种深切的悲伤情绪。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 47.18559241294861,
+  "node_count": 3,
+  "edge_count": 0
+}

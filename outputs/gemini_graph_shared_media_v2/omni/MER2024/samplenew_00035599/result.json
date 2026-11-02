@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035599",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "2e41d1566b0d6d612ec8cac9b6fe7ea8a5c74329bc5ef3be50b67f145d3e328a",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "音频中说话者语调低沉、颤抖，带有哽咽感，是悲伤的直接听觉证据。字幕内容“手里还握着一截风筝线”具有强烈的失落象征意义，与音频情绪一致。视觉上，人物低头、视线向下，表情凝重，与悲伤状态相符。图像专家认为表情平静、语调平稳，但其判断与音频的颤抖和哽咽感直接矛盾，且未充分考虑字幕的象征性。综合视听证据，悲伤是唯一被多模态线索共同支持的结论。",
+  "output": "音频中说话者语调低沉、颤抖，带有哽咽感，是悲伤的直接听觉证据。字幕内容“手里还握着一截风筝线”具有强烈的失落象征意义，与音频情绪一致。视觉上，人物低头、视线向下，表情凝重，与悲伤状态相符。图像专家认为表情平静、语调平稳，但其判断与音频的颤抖和哽咽感直接矛盾，且未充分考虑字幕的象征性。综合视听证据，悲伤是唯一被多模态线索共同支持的结论。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 155.43791937828064
+}

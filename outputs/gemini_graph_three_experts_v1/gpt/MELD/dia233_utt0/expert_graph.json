@@ -1,0 +1,9 @@
+{
+  "expert": "graph",
+  "reason": "Rachel左手叉腰、身体朝向对方并持续直视，呈现出明显的对峙姿态〔person_0〕。她以清晰连贯且带疑问升调的语气质问对方〔person_2〕，结合当前发问内容，表现出不满和恼怒。",
+  "answer": "anger",
+  "evidence_refs": [
+    "person_0",
+    "person_2"
+  ]
+}

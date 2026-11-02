@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "目标人物Janice在面对Chandler时，肢体动作收缩，一手紧扣胸口，面部呈现明显的皱眉和嘴角下垂的哀伤神态[E1]；配合音轨中极其缓慢、拉长且低沉不舍的道别语调[E2]，视觉与听觉一致指向依依不舍与失落悲伤的情感。",
+  "open_emotion": "难过",
+  "answer": "sadness",
+  "mapping_reason": "Janice表现出的失落、难过与离别悲戚，在MELD情绪轮中属于因失落或痛苦而难过的典型sadness范畴。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_03至frame_07 (1.00s-2.29s)",
+      "observation": "Janice将一手贴抚在胸前，双臂紧抱胸口，眉头聚拢微扬，眼神低落凝视对方，嘴角下撇。",
+      "interpretation": "防御收敛的身体姿态与悲伤的面部表情展现出离别时的伤感与不舍。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "以极慢且沉重拖长的语调念出'Good-bye Chandler Bing'。",
+      "interpretation": "声调低回、带有鼻音且缺乏活力，强化了言语中的难过与告别意味。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "Janice平时的言行具有戏剧化和夸张特征，身体动作可能包含一定的做作或仪式感，但当前视听线索均无愤怒、嘲讽或喜悦特征，主导情绪仍为悲伤。"
+}

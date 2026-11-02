@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "男子发话时身体前倾低头、面部肌肉紧绷并咧嘴露齿大张〔person_1〕，且图谱记载其声音洪亮、发音用力、音量较高〔person_0〕，呈现明显的激烈和紧张状态。随后其嘴角下撇、嘴唇微闭〔person_3〕，但整体当前表现更符合愤怒。",
+  "answer": "angry",
+  "evidence_refs": [
+    "person_1",
+    "person_0",
+    "person_3"
+  ]
+}

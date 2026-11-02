@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Rachel说：“Y'know what?”",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "一名男子俯身靠近Rachel并与她面对面互动",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Rachel坐在餐桌旁，身体朝向前方并面向靠近她的男子",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "场景位于室内厨房和餐桌区域，画面中有Rachel和一名男子",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "Rachel与该男子在餐桌旁进行面对面交流",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "simultaneous",
+      "reason": "Rachel说话与该男子俯身靠近并面对面互动发生在同一互动过程中",
+      "entity_anchor": "Rachel与该男子的面对面互动"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提供Rachel的当下言语“Y'know what?”；process_1提供男子俯身靠近并与Rachel面对面互动的可见行为。联合后可观察地补充出该言语发生在两人近距离面对面交流的当前互动过程中。",
+      "entity_anchor": null
+    }
+  ]
+}

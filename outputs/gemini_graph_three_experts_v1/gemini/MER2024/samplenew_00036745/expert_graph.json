@@ -1,0 +1,14 @@
+{
+  "expert": "graph",
+  "reason": "根据图谱记载，男子在办公环境中陈述线索并主动提出“我去查”〔process_0, process_1, process_2〕。在此过程中，男子目光注视前方且伴随自然的指点动作〔person_0, person_1, person_2〕，图谱记载其语调平稳、果断〔person_3〕，整体表现专注且冷静，无明显波动情绪，处于中立状态。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "process_0",
+    "process_1",
+    "process_2",
+    "person_0",
+    "person_1",
+    "person_2",
+    "person_3"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "在当前对话互动中，Ross正与背对镜头的Joey在厨房近距离交谈，针对眼前的话题向Joey提出建议“Y'know, like-like write a play.”[process_0]。从图谱节点[person_0]与[person_2]的关联可看出，Ross目视对方，虽带有“like-like”的停顿与轻微重复，但核对实际音轨可知，其语调从容平缓，属于边思考边构思提议的典型口语特征，并无恐惧焦虑的紧迫感，亦无愤怒或悲伤等强情绪特征，整体表现为平稳的日常建议交流。",
+  "open_emotion": "平稳",
+  "answer": "neutral",
+  "mapping_reason": "Ross在当前语境中就剧本创作给出日常建议，神态与语调均平稳自然，无激化情绪波动；在情绪轮中归属于无明显主导负向或正向体验的平静基线状态，精准映射为neutral。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "图谱记录Ross面向Joey说出“Y'know, like-like write a play.”的建议性发话动作。",
+      "interpretation": "确立了当前事件是Ross作为提议者向Joey给出常态化交流建议，无冲突或对抗背景。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "音轨中Ross发音节奏平缓，轻微的词语停顿带自然的探讨语调，无高亢喊叫、颤抖或压抑哭腔。",
+      "interpretation": "排除了言语重复源于紧张威胁的假设，确认其属于平缓陈述。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04",
+      "observation": "Ross双眉舒展、面部肌肉平稳自然，注视Joey。",
+      "interpretation": "面部没有愤怒的皱眉、惊讶的挑眉或喜悦的明显笑肌收缩，维持中性交流面容。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词中的词语重复（like-like）若孤立看可能被曲解为犹豫或紧张焦虑，但结合平缓从容的语调及完全舒展的面部表情，足以排除fear或anger的可能。"
+}

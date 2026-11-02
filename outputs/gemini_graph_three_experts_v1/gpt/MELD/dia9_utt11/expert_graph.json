@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "Rachel抱怨自己的床和衣服被毁，并闭眼低头，表现出对受损情况的难过与沮丧〔process_0〕〔person_1〕。她随后提起烧损的毛衣向众人展示，进一步强化了当前的悲伤情绪〔person_2〕〔process_1〕。",
+  "answer": "sadness",
+  "evidence_refs": [
+    "process_0",
+    "person_1",
+    "person_2",
+    "process_1"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia153_utt11",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "b023c80896f2e13dc2c986e2f32b6b993f29f3e06532e4de681ae7bcdce52d22",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "图像专家基于8帧画面指出目标人物持续皱眉、嘴部紧绷并以强调性手势表达不耐烦，这为当前恼怒提供了较直接且一致的证据。字幕中的调侃和轻松感，以及“害怕”的假设情境，不能直接证明其当前情绪；图谱所述平稳交流与图像表现存在冲突，因而优先采信连续画面的外显情绪线索。",
+  "output": "图像专家基于8帧画面指出目标人物持续皱眉、嘴部紧绷并以强调性手势表达不耐烦，这为当前恼怒提供了较直接且一致的证据。字幕中的调侃和轻松感，以及“害怕”的假设情境，不能直接证明其当前情绪；图谱所述平稳交流与图像表现存在冲突，因而优先采信连续画面的外显情绪线索。\n<answer>anger</answer>",
+  "label": "fear",
+  "elapsed_seconds": 71.27100110054016
+}

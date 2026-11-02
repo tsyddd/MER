@@ -1,0 +1,9 @@
+{
+  "expert": "graph",
+  "reason": "Rachel在对话中面带微笑注视对方（person_2），且语调被描述为客气平缓（person_1），同时其行为表现为礼貌致谢并准备离开，整体情境未体现负面情绪或强烈情感波动。结合其言语内容与面部表现，符合中性情绪特征。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_2",
+    "person_1"
+  ]
+}

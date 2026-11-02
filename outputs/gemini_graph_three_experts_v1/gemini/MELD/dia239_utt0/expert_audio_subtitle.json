@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "在音频中，目标说话人Gunther以低沉平稳、语气平淡的音调询问台词“Someone in there?”。整体语速适中，没有表现出惊讶、恐惧或愤怒等强烈的情绪波动，属于常规中性的询问。",
+  "answer": "neutral",
+  "evidence_refs": []
+}

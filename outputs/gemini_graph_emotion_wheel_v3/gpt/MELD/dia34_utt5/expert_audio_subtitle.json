@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Rachel以“Oh my God!”开头，接着说“You’re a 30 year old virgin!”，是在回应刚得知的信息，而非平静陈述。[E1]她张口、皱眉并转向对方的画面表现与诧异相符。[E2]没有音频，无法判断实际语调或音量。",
+  "open_emotion": "诧异",
+  "answer": "surprise",
+  "mapping_reason": "当前主导反应是对出乎预期的信息感到诧异，符合surprise；句中谈及的事实本身不能证明她在厌恶或责备。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“Oh my God! You’re a 30 year old virgin!”",
+      "observation": "先发出感叹，再重复对方年龄与处境这一信息。",
+      "interpretation": "感叹和重复信息支持她感到意外，而不是仅作日常陈述。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_02（0.959秒）",
+      "observation": "右侧的Rachel张口、皱眉，看向身旁的人，并伸手作出动作。",
+      "interpretation": "表情和动作与字幕中的诧异反应一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "这句话也可能带有调侃或评判意味，但仅凭字幕与画面，缺少实际语调来确认；不能据此把她的主导情绪判为厌恶。"
+}

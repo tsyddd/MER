@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话人针对车内状态低落的女性提出照料与安置建议[E1]，其发音低沉温和、语速平稳缓慢且带有轻微叹息与安抚感[E2]，配合其探身微蹙眉的关切神情[E3]，整体传达出关切与担心的情绪（worried）。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "你先上我的车 先回去",
+      "observation": "目标人物对车内女性说出带有安排、照料性质的劝导话语",
+      "interpretation": "言语行为展现出对对方现状的介入与保护意图，并非纯客观交代事务，体现对当事人的关心与担忧",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0:00-0:02",
+      "observation": "目标男声声线压低、音量较轻且尾音微收，节奏沉稳平缓",
+      "interpretation": "低沉且小心翼翼的安抚韵律表明其试图稳定对方情绪，透露出内敛的忧虑与关切",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_03 @ 0.92s",
+      "observation": "目标人物俯身靠在车窗前，双眉微锁，目光聚焦注视车内女性",
+      "interpretation": "面部神情与身体前倾的姿态与温和关切的话语一致，支持担忧（worried）的判断",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释为neutral，因其语调相对平缓克制，缺乏激烈的恐慌或急促焦虑；但结合低沉安抚的气息与探身蹙眉的专注注视，其平稳语速属于刻意安抚对方时的内敛担忧，而非毫无情绪倾向的中性。"
+}

@@ -1,0 +1,168 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Rachel说：“Yes, I did. Thank you very much, it was excellent.”",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "一只手从左侧伸到Rachel的额头和头发处。",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "Rachel向右侧移动并部分离开画面。",
+      "time_index": 4,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Rachel面向左侧的女性。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Rachel张嘴说话。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Rachel向左侧伸出手臂。",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "场景位于飞机客舱的舱门或通道附近。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "Rachel与左侧的一名女性在画面中相对站立。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_2",
+      "type": "context",
+      "content": "一名男性在左侧后方出现。",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_2",
+      "target": "process_1",
+      "relation": "after",
+      "reason": "Rachel在与左侧女性互动时，先有一只手伸到她的额头和头发处，随后Rachel向右侧移动并部分离开画面",
+      "entity_anchor": "Rachel与伸手者之间的互动"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "simultaneous",
+      "reason": "Rachel面向左侧女性的同时张嘴说话",
+      "entity_anchor": "Rachel"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "Rachel的字幕言语提供了明确的口头回应，伸到其额头和头发处的手提供了同步的身体接触信息，联合后补充出言语回应伴随身体互动的当前过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_0",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "Rachel的口头回应提供了交流内容，随后向右侧移动并部分离开画面提供了行为结果，联合后形成从回应到离开的连续互动过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_1",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "手伸到Rachel额头和头发处提供了接触行为，Rachel随后向右侧移动并部分离开画面提供了后续反应，联合后补充出接触后离开的连续过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "Rachel面向左侧女性提供了交互朝向，张嘴说话提供了可见的言语行为，联合后明确了她正朝向该女性进行口头交流。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "Rachel面向左侧女性提供了交互朝向，向左侧伸出手臂提供了定向动作，联合后补充出她朝该女性进行接近或互动的身体表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "Rachel张嘴说话提供了口头交流的可见表现，向左侧伸出手臂提供了同步的身体动作，联合后补充出言语与手势共同构成的互动表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "飞机客舱舱门或通道附近限定了场景位置，Rachel与左侧女性相对站立限定了场景中的人物关系与空间布局，联合后更完整地确定了飞机内两人面对面互动的场景。",
+      "entity_anchor": null
+    }
+  ]
+}

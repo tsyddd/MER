@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "根据节点person_0与process_1，瑞秋坐在餐桌旁略微低头，开口接话询问；同时图谱记载中节点person_2表明她以平缓低沉的语调说话。整体体态与声音表现沉静内敛，未显露愤怒、喜悦或悲伤等剧烈情感波动，因此其当前情绪为中性。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_0",
+    "process_1",
+    "person_2"
+  ]
+}

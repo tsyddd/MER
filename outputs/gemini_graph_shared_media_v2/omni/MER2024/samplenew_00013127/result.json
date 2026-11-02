@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013127",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "d2115c97acf3c6e01bbce09ee0045d9eebc8b28101f778a38355f8f3c0e262a8",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "happy",
+  "emotion_analysis": "目标人物在对话中全程面带微笑，眼神专注，姿态放松，这是积极情绪的直接视觉证据。字幕内容为“以前啊，以为你圆滑伶俐，还真是小看你了”，这是一种带有赞赏意味的调侃，表达了对对方的肯定。音频语调平稳，无明显情绪波动，与视觉和字幕信息一致。三位专家的证据均指向积极情绪：[graph:E1]描述其语调轻快，[audio_subtitle:E1]指出其语调平稳，[image:E1]观察到其面带微笑。三者证据互补，共同支持“happy”的判断。虽然字幕中“小看你了”字面可能被误解，但结合其积极的表情和语调，可明确判断为正面情绪。",
+  "output": "目标人物在对话中全程面带微笑，眼神专注，姿态放松，这是积极情绪的直接视觉证据。字幕内容为“以前啊，以为你圆滑伶俐，还真是小看你了”，这是一种带有赞赏意味的调侃，表达了对对方的肯定。音频语调平稳，无明显情绪波动，与视觉和字幕信息一致。三位专家的证据均指向积极情绪：[graph:E1]描述其语调轻快，[audio_subtitle:E1]指出其语调平稳，[image:E1]观察到其面带微笑。三者证据互补，共同支持“happy”的判断。虽然字幕中“小看你了”字面可能被误解，但结合其积极的表情和语调，可明确判断为正面情绪。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 150.94317078590393
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标是画面右侧穿格纹衬衫的Ross，而非左侧背对镜头的人。他先看向对方，随后短暂垂眼，再抬眼并伸手说话[E1][E2]；这些变化更像是在组织和强调话语。字幕内容也与提出一个想法相符[E3]。虽有抬眉、张口的瞬间，但不足以判定为惊讶；当前最有支持的标签是neutral。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒；frame_01 @ 0.3336664076088968秒",
+      "observation": "Ross面向左侧人物，随后垂下视线；眉间略收，嘴部随说话改变形状。",
+      "interpretation": "可见他在交谈，但没有持续、鲜明的喜怒或惊惧表情。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.251249028533363秒；frame_06 @ 1.8768735428000445秒；frame_07 @ 2.210539950408941秒",
+      "observation": "Ross重新看向对方，伸出手臂；说话时一度抬眉、张大嘴，末帧嘴部又放松。",
+      "interpretation": "表情和手势随话语短暂增强，更符合说话时的强调，尚不足以单独支持惊讶或愤怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Y'know, like-like write a play.",
+      "observation": "字幕呈现Ross提出“写一个剧本”的想法。",
+      "interpretation": "文字可辅助理解其手势和口型是在表达想法；它不提供语调，也不能单独证明情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "frame_06的抬眉、张口可能被解读为惊讶或兴奋；但这一状态短暂，前后仍是面向对方交谈的表现，且没有音轨可核实语调，因此未采用这些标签。"
+}

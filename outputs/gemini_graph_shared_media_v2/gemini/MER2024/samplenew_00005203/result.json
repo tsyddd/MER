@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00005203",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "80ed71fa2ffabbd46e09fee5b9edb8082b0b4d584293ba2c216376d47e0f2d8d",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "独立核验原始视频与音轨，目标粉衣女子在画面各帧（如frame_01与frame_04）中双眉呈内高外低八字微蹙、眼眶含泪且嘴角显著向下撇，呈现极度哀戚的欲泣神态，验证了[image:E1]的可信性。音轨00:00-00:02处女子吐出“我也不想跟你分开”时伴有显著的声线颤抖与哽咽哭腔，与[audio_subtitle:E2]高度吻合。针对台词涉及分离可能诱发的担忧（worried）假说，其实际视听线索通篇被失落悲戚的哭腔与下撇嘴角主导，缺乏焦虑紧张的语速上扬或警戒神态，故明确判定为sad。",
+  "output": "独立核验原始视频与音轨，目标粉衣女子在画面各帧（如frame_01与frame_04）中双眉呈内高外低八字微蹙、眼眶含泪且嘴角显著向下撇，呈现极度哀戚的欲泣神态，验证了[image:E1]的可信性。音轨00:00-00:02处女子吐出“我也不想跟你分开”时伴有显著的声线颤抖与哽咽哭腔，与[audio_subtitle:E2]高度吻合。针对台词涉及分离可能诱发的担忧（worried）假说，其实际视听线索通篇被失落悲戚的哭腔与下撇嘴角主导，缺乏焦虑紧张的语速上扬或警戒神态，故明确判定为sad。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 55.92233371734619
+}

@@ -1,0 +1,10 @@
+{
+  "reason": "字幕中Phoebe说的是“he’s like early to mid-thirties, very attractive”，在描述第三人；这条证据可信，但“very attractive”不能直接证明她正在高兴[audio_subtitle:E1]。画面中她面向听者，双手随话语作说明性动作，表情变化不大，这与平静陈述相符[image:E2]。开头略有笑意是喜悦的反证，但没有形成持续、明确的喜悦表情[image:E3]。图谱专家关于语气的说法无法在未提供音轨的情况下核验，因此不据此取舍[graph:E4]；综合可核实线索，选择neutral。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "image:E2",
+    "image:E3",
+    "graph:E4"
+  ]
+}

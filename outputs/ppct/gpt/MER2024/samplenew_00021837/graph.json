@@ -1,0 +1,111 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "说出“我印象最深的一户人家”",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "说出“祖祖辈辈种地”",
+      "time_index": 1,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "男子坐在桌前，身体保持直立",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "男子面向前方，嘴部开合",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "人物位于桌前，面前设有麦克风",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "桌面名牌上写有“梅晓歌”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_2",
+      "type": "context",
+      "content": "桌面左侧放有一个透明容器",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "同一人物连续说话，先说出“我印象最深的一户人家”，随后说出“祖祖辈辈种地”",
+      "entity_anchor": "同一人物的连续说话行为"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "“说出我印象最深的一户人家”先指出叙述对象，“祖祖辈辈种地”进一步补充该家庭的代际职业特征，联合后形成对这户人家的更完整可观察描述。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "“男子坐在桌前，身体保持直立”提供坐姿与姿态信息，“男子面向前方，嘴部开合”提供其当面说话的可见表现，联合后完整限定为男子端坐并面向前方发言。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "“人物位于桌前，面前设有麦克风”限定了人物处于带有发言设备的桌前场景，“桌面名牌上写有梅晓歌”补充了该场景中的人物身份信息，联合后更完整限定为梅晓歌在设有麦克风的桌前发言场景。",
+      "entity_anchor": null
+    }
+  ]
+}

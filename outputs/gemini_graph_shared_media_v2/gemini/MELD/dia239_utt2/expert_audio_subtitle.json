@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Chandler在音频中原本正以不耐烦的语气催促洗手间里的人（'did you fall...'），但在看到走出的女性瞬间话语骤然中断，音调突兀拔高并惊呼'Hi!'[E1]，紧接着因措手不及而出现明显的结巴与词语混乱（'did-did-did ya fall high?'）[E2]，听觉节奏的剧烈断裂与语言错乱鲜明体现了意外震惊与猝不及防的'surprise'。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:01 - 00:03",
+      "observation": "原句'did you fall--'未说完便急促刹车，紧接着发出短促、音调明显拔高的'Hi!'，伴随气流微弱吸入感。",
+      "interpretation": "语流的中断与音高的骤升反映出对眼前出现异性完全没有心理准备，符合遭遇意外刺激时的惊愕反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "So ah, did ya, did-did-did ya fall high?",
+      "observation": "台词中出现'So ah'停顿、连珠炮式的反复卡壳结巴'did-did-did ya'，以及把原本要说的'fall in'慌乱错说成'fall high'。",
+      "interpretation": "言语行为发生严重的认知紊乱与无意识口误，印证了突发情境带来的强烈惊奇与手足无措。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.96s - frame_04 @ 2.88s",
+      "observation": "钱德勒原本侧身面向门口准备抱怨，看到出来的女性后身体顿住，双眼睁大，随后局促地摊开双手。",
+      "interpretation": "肢体动作的急停与面部短暂停滞与语音的中断完全吻合，佐证了瞬间的意外反应。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是joy（看到漂亮女性后的搭讪欣喜）：'Hi!'和打招呼带有社交向好意味，但由于其话语逻辑严重受阻、音调失控拔高且伴随慌乱口误，表明搭讪是在惊愕状态下的狼狈掩饰，核心驱动情绪仍为surprise。"
+}

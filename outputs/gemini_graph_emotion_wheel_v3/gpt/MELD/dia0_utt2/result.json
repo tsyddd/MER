@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia0_utt2",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "3970f5e11853554fbfc18f31e31c06de8bbd17661ed1c904623e938e0536b1f7",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "matter-of-fact",
+      "mapped_label": "neutral",
+      "mapping_reason": "“matter-of-fact”表示当前表达平稳、克制且缺乏明确主导情绪，最符合neutral关于日常或无明显情绪反应的定义。虽然语境可能带有轻微严肃或准备反驳的意味，但现有视觉和字幕不足以支持anger、sadness或fear；图谱中的低沉语调属于间接音频转述，未收到原音轨，不能亲耳核验。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "irritated",
+      "mapped_label": "anger",
+      "mapping_reason": "“irritated”主要体现对当前互动的轻度不满或不耐烦，属于对受阻或令人烦恼情境的负面反应，因此映射到Level1的anger；但该判断受限于字幕极短且缺少音频，强度和具体语用意图并不确定。"
+    },
+    "image": {
+      "open_emotion": "恼火",
+      "mapped_label": "anger",
+      "mapping_reason": "“恼火”主要指向对当前互动或被打扰状态的不满与轻度对抗，符合anger所涵盖的恼火、不满与责备。画面未显示强烈愤怒，因此是该标签下的弱强度表达。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "我核对了frame_00至frame_07：Rachel在男子贴近后持续收敛表情，后段视线下移、嘴唇收紧并略向后侧保持距离，表现出轻微不耐或被打扰，而非明确平稳的日常状态。该视觉变化与[image:E2]所述的回避和收紧姿态相互支持，但不足以推断强烈愤怒。字幕“Y'know what?”本身只是转折式回应，[audio_subtitle:E1]正确指出其可能带有反驳意味但不能单独定情绪；由于没有音轨，无法核验语调，图谱中的音频转述也不作为直接证据。综合当前视觉互动和弱语言线索，选择anger而非neutral。",
+  "output": "我核对了frame_00至frame_07：Rachel在男子贴近后持续收敛表情，后段视线下移、嘴唇收紧并略向后侧保持距离，表现出轻微不耐或被打扰，而非明确平稳的日常状态。该视觉变化与[image:E2]所述的回避和收紧姿态相互支持，但不足以推断强烈愤怒。字幕“Y'know what?”本身只是转折式回应，[audio_subtitle:E1]正确指出其可能带有反驳意味但不能单独定情绪；由于没有音轨，无法核验语调，图谱中的音频转述也不作为直接证据。综合当前视觉互动和弱语言线索，选择anger而非neutral。\n<answer>anger</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 191.62530899047852
+}

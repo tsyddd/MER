@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia34_utt17",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "55de13de7623a6e85879feac678dde89b7dbd56f0daf4dc5a1f20e9a6a71f9c9",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "莫妮卡在对话中明确表达了对“背叛丈夫”这一行为的绝对否定，其话语内容（'I'm never gonna think it's okay for you to cheat on your husband!'）是判断其情绪的核心语言证据。音频分析指出，她的语调高、语速快、语气坚决，尤其在关键词上带有强调，这是愤怒情绪的直接声音表现。视觉证据显示，她面部表情紧绷，眉毛皱起，同时伴有强调的手势，这些非语言线索与她话语的严厉性高度一致。尽管有专家提出'厌恶'（disgust）作为可能的解释，但其语气中的高能量和强度更符合'愤怒'的特征。因此，综合语言、韵律和视觉证据，可以确定其情绪为愤怒。",
+  "output": "莫妮卡在对话中明确表达了对“背叛丈夫”这一行为的绝对否定，其话语内容（'I'm never gonna think it's okay for you to cheat on your husband!'）是判断其情绪的核心语言证据。音频分析指出，她的语调高、语速快、语气坚决，尤其在关键词上带有强调，这是愤怒情绪的直接声音表现。视觉证据显示，她面部表情紧绷，眉毛皱起，同时伴有强调的手势，这些非语言线索与她话语的严厉性高度一致。尽管有专家提出'厌恶'（disgust）作为可能的解释，但其语气中的高能量和强度更符合'愤怒'的特征。因此，综合语言、韵律和视觉证据，可以确定其情绪为愤怒。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 136.6959900856018
+}

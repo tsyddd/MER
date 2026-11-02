@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Monica在音频中语气轻快明朗，话语'Pheebs, it’s going great. Look at Chandler...'表达了积极肯定的赞美与欣喜，结合视觉上面带温柔微笑抱着婴儿的表情，确认为joy。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:01.8 - 00:05.5",
+      "observation": "Monica接话'Pheebs, it’s going great. Look at Chandler with little baby girl Chandler'时，语调轻柔微扬、节奏轻松，声音中带有明显的温和愉悦感。",
+      "interpretation": "说话人借由上扬的语调和积极的言语表达对当前情境的满意与快乐，表现出joy。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 3.29s - frame_07 @ 5.80s",
+      "observation": "Monica怀抱婴儿边走边说话，嘴角持续扬起明朗的笑容，眼神柔和专注。",
+      "interpretation": "面部展露出的真实微笑与温暖肢体互动进一步印证了内心的欣喜与幸福感。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "若仅看抱着婴儿的日常动作可能被误判为平静放松的neutral，但台词中明确的积极评价'it’s going great'配合持续的笑意与温暖语调排除了中性。"
+}

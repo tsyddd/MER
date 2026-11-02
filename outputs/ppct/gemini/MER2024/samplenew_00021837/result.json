@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00021837",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "在室内会议发言场景下〔context_0〕，梅晓歌端坐并目光平视前方，语气沉稳平稳地陈述“我印象最深的一户人家”及“祖祖辈辈种地”〔person_0〕〔process_0〕〔process_1〕。发言过程中他自然停顿、闭嘴抿唇，神情沉静庄重〔person_1〕〔person_3〕，没有明显的悲喜、愤怒或担忧等情绪波动，整体表现为客观沉着的平静状态。",
+  "output": "在室内会议发言场景下〔context_0〕，梅晓歌端坐并目光平视前方，语气沉稳平稳地陈述“我印象最深的一户人家”及“祖祖辈辈种地”〔person_0〕〔process_0〕〔process_1〕。发言过程中他自然停顿、闭嘴抿唇，神情沉静庄重〔person_1〕〔person_3〕，没有明显的悲喜、愤怒或担忧等情绪波动，整体表现为客观沉着的平静状态。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 63.329559087753296,
+  "node_count": 7,
+  "edge_count": 7
+}

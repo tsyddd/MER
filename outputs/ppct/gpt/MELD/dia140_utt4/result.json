@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia140_utt4",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "当前人物是Ross，画面中他面向并注视另一名男子（person_0），嘴部张开处于说话状态（person_1），并抬手配合手势（process_1）。字幕内容是“Y'know, like-like write a play.”（process_0），与手势共同构成正常的想法表达（process_0与process_1的process_joint关系），未见足以支持愤怒、悲伤、喜悦、惊讶、恐惧或厌恶的明确线索。",
+  "output": "当前人物是Ross，画面中他面向并注视另一名男子（person_0），嘴部张开处于说话状态（person_1），并抬手配合手势（process_1）。字幕内容是“Y'know, like-like write a play.”（process_0），与手势共同构成正常的想法表达（process_0与process_1的process_joint关系），未见足以支持愤怒、悲伤、喜悦、惊讶、恐惧或厌恶的明确线索。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 24.0087411403656,
+  "node_count": 5,
+  "edge_count": 3
+}

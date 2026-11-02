@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia119_utt5",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "fb723911feb1977e95353e9e5cd3a600d355b69ec46c0c99064139b522a98aa9",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "独立核验原始音视频，Monica在说话时眉头舒展、面部肌肉放松平稳[image:E1]，随后自然转头伸手准备操作街机，动作从容务实。音轨中其陈述台词“But Ben is coming over tonight and he can’t see this”时语调均匀平稳，节奏从容无颤音或升调慌乱[audio_subtitle:E1]，专家对客观语音与视觉表现的描述完全可信。台词虽涉及避免让孩子看到街机画面的规避诉求，但实际表意为冷静告知理由与付诸行动，完全缺乏恐惧或愤怒的激动特征，综合判定为中性。",
+  "output": "独立核验原始音视频，Monica在说话时眉头舒展、面部肌肉放松平稳[image:E1]，随后自然转头伸手准备操作街机，动作从容务实。音轨中其陈述台词“But Ben is coming over tonight and he can’t see this”时语调均匀平稳，节奏从容无颤音或升调慌乱[audio_subtitle:E1]，专家对客观语音与视觉表现的描述完全可信。台词虽涉及避免让孩子看到街机画面的规避诉求，但实际表意为冷静告知理由与付诸行动，完全缺乏恐惧或愤怒的激动特征，综合判定为中性。\n<answer>neutral</answer>",
+  "label": "fear",
+  "elapsed_seconds": 54.75782084465027
+}

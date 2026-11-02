@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia140_utt4",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "8fef145f22a30b21db1df9aa0b95769ecea3ec4535f7bae7d08d725b3cc323a7",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "三位专家一致指出Ross处于平稳自然的日常对话状态。视觉证据表明其面部放松、神态平静，音频证据显示其语调轻松随意且无强烈波动，图谱分析也确认其仅在平静提出建议，故一致判定为中性。",
+  "output": "三位专家一致指出Ross处于平稳自然的日常对话状态。视觉证据表明其面部放松、神态平静，音频证据显示其语调轻松随意且无强烈波动，图谱分析也确认其仅在平静提出建议，故一致判定为中性。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 28.612212657928467
+}

@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "目标说话人说出字幕内容“再这么烧下去的话”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "目标说话人继续说出字幕内容“传到高家”",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "目标说话人站立，面向另一名人物",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "另一名人物背对镜头站立，面向目标说话人",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "木质室内空间中有两名穿古装的人物，目标说话人与另一名人物正在面对面交流",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "同一目标说话人的连续发言，先说“再这么烧下去的话”，后说“传到高家”",
+      "entity_anchor": "同一目标说话人及其连续说话行为"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提供说话人先说“再这么烧下去的话”的前半段，process_1提供其后续“传到高家”的结果指向；联合后形成更完整的连续口头警告内容，明确火势持续可能传到高家这一当前互动过程。",
+      "entity_anchor": null
+    }
+  ]
+}

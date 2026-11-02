@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物直视对方，以“卑劣的手段”和“无耻之极”当面指责其行为[E1][E2]。这不是单纯询问信息；“还会什么”在前句限定下是带有贬责的反问。她说话时眉头收紧、神情严肃[E3]，与责备的语义一致，主导情绪判断为愤慨。未提供音频，不能判断语调或音量。",
+  "open_emotion": "愤慨",
+  "answer": "angry",
+  "mapping_reason": "愤慨针对她认为不当的手段，表现为明确的责备和对抗，符合angry的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“你除了这些卑劣的手段，还会什么？”",
+      "observation": "用“卑劣”评价对方手段，并以反问直接指向对方。",
+      "interpretation": "表达指责，而非中性求问。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "“真是无耻之极。”",
+      "observation": "进一步直接谴责对方。",
+      "interpretation": "强化了愤慨和对抗性的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_06，5.36秒",
+      "observation": "女子面对男子，眉头收紧，神情严肃，正处于说话状态。",
+      "interpretation": "视觉表现与台词中的指责一致，但不能据此推断声音特征。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "她眼周显得湿润、额头有伤，也可能同时感到委屈或难过；但当前话语明确指向对方行为并持续谴责，较能支持愤慨为主导情绪。无音频限制了对表达强度的判断。"
+}

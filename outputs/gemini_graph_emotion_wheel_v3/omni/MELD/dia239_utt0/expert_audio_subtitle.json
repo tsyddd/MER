@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物Gunther的语调平稳，没有明显的情绪起伏，结合其字幕内容“Someone in there?”（里面有人吗？），这是一个典型的日常询问，没有表现出喜悦、愤怒、悲伤、恐惧、厌恶或惊讶等强烈情绪。因此，最符合的判断是中性。",
+  "open_emotion": "中性",
+  "answer": "neutral",
+  "mapping_reason": "根据MELD项目适配情绪轮的定义，'neutral'指当前平稳、日常且没有明确主导情绪的表达。Gunther的提问是日常性的，语调平稳，无情绪色彩，符合该定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "字幕: Someone in there?",
+      "observation": "字幕显示目标人物说了一句简单的问句。",
+      "interpretation": "该问句是日常对话中常见的询问，不包含明确的正向或负向情绪词。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "音频时间 00:00-00:01",
+      "observation": "说话者语调平稳，没有明显的音高变化、语速变化或音量波动。",
+      "interpretation": "平稳的语调通常与中性情绪相关，缺乏表达强烈情感的韵律特征。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。"
+}

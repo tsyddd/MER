@@ -1,0 +1,152 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "紫衣女子对蓝衣女子说话：\"没想到\"",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "紫衣女子继续说话：\"你竟然这么傻\"",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "紫衣女子眉心紧蹙，眼眶含泪，目光注视对面人物",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "紫衣女子说话声音带有明显的哽咽与颤抖",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "紫衣女子嘴角下撇，嘴唇开合伴随吸气",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "紫衣女子双眼微垂，眼角有泪痕，维持注视",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室外庭院回廊场景，背景可见绿植与木质建筑构件",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "紫衣女子与背对镜头微侧的蓝衣女子近距离面对面站立交流",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "紫衣女子说出“你竟然这么傻”发生在说出“没想到”之后",
+      "entity_anchor": "紫衣女子的言语表达"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "紫衣女子说话带哽咽颤抖的声音表现与其紧蹙眉心、眼眶含泪的神情同时发生",
+      "entity_anchor": "紫衣女子"
+    },
+    {
+      "source": "person_2",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "紫衣女子嘴角下撇、伴随吸气说话的神态变化发生在初始眉心紧蹙注视之后",
+      "entity_anchor": "紫衣女子面部神情变化"
+    },
+    {
+      "source": "person_3",
+      "target": "person_2",
+      "relation": "after",
+      "reason": "紫衣女子双眼微垂且眼角显出泪痕发生在嘴角下撇与吸气说话之后",
+      "entity_anchor": "紫衣女子面部神情变化"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提供前半句起承言语，process_1提供后半句具体评价内容，二者按时序连接形成完整的连续言语表达互动过程",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供紧蹙眉心与含泪眼眶的视觉面部表现，person_1提供发音时的哽咽与颤抖听觉线索，视听结合完整展现其哭泣发声状态",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_0提供眉眼区域的紧蹙与含泪细节，person_2补充了嘴角下撇及伴随吸气的下半脸动态，共同拼合出完整的面部哭泣动作",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0提供了室外庭院回廊的宏观物理环境，context_1界定了两名女子近距离面对面站立的微观交互格局，联合后完整限定了该段交流的场景与空间关系",
+      "entity_anchor": null
+    }
+  ]
+}

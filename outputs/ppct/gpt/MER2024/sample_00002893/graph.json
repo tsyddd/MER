@@ -1,0 +1,239 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "女性将手机贴在左耳旁进行通话",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "女性说“不，不是我”",
+      "time_index": 1,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "女性说“是我一朋友”",
+      "time_index": 2,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_3",
+      "type": "process",
+      "content": "女性说她的一个朋友现在在网上被人诽谤了",
+      "time_index": 3,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_4",
+      "type": "process",
+      "content": "女性说现在事情越闹越大",
+      "time_index": 5,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_5",
+      "type": "process",
+      "content": "女性说“所以”",
+      "time_index": 7,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "女性站立，长发垂至肩部以下",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "女性在通话过程中嘴部开合",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "画面中有一名女性，位于室内空间",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "女性正在与电话另一端的人交流",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_2",
+      "type": "context",
+      "content": "交流内容涉及她的一位朋友在网上被人诽谤，以及相关事情持续扩大",
+      "time_index": 3,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "同一女性在同一通话互动中的后续言语行为",
+      "entity_anchor": "同一女性及其通话互动"
+    },
+    {
+      "source": "process_2",
+      "target": "process_1",
+      "relation": "after",
+      "reason": "同一女性连续表达中的后续言语内容",
+      "entity_anchor": "同一女性的连续陈述"
+    },
+    {
+      "source": "process_3",
+      "target": "process_2",
+      "relation": "after",
+      "reason": "同一女性连续陈述中先说明朋友身份，后说明朋友遭遇",
+      "entity_anchor": "同一女性及其朋友这一谈话对象"
+    },
+    {
+      "source": "process_4",
+      "target": "process_3",
+      "relation": "after",
+      "reason": "同一女性连续陈述中先说明被诽谤，后说明事情扩大",
+      "entity_anchor": "同一女性所述同一事件"
+    },
+    {
+      "source": "process_5",
+      "target": "process_4",
+      "relation": "after",
+      "reason": "同一女性对同一事件作出后续承接说明",
+      "entity_anchor": "同一女性所述同一事件"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "女性将手机贴在耳旁进行通话，女性说出否认内容；联合后补充了通话中的具体言语行为，形成更完整的当前通话过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_0",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "女性将手机贴在耳旁进行通话，女性说明是自己的一位朋友；联合后明确了通话行为及其所谈及的对象。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_0",
+      "target": "process_3",
+      "relation": "process_joint",
+      "reason": "女性将手机贴在耳旁进行通话，女性说明朋友在网上被人诽谤；联合后呈现了通话行为及其正在传达的事件内容。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_0",
+      "target": "process_4",
+      "relation": "process_joint",
+      "reason": "女性将手机贴在耳旁进行通话，女性说明事情越闹越大；联合后补充了通话行为及事件发展的信息。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_1",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "女性先说“不，不是我”，随后说明“是我一朋友”；联合后形成从否认到澄清对象的完整言语过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_2",
+      "target": "process_3",
+      "relation": "process_joint",
+      "reason": "女性说明是自己的一位朋友，并进一步说明该朋友在网上被人诽谤；联合后明确了谈话对象及其遭遇的具体事件。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_3",
+      "target": "process_4",
+      "relation": "process_joint",
+      "reason": "女性说明朋友在网上被人诽谤，并说明事情越闹越大；联合后补充了事件内容及其持续扩大的发展信息。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "女性站立且长发垂至肩部以下，通话过程中嘴部开合；联合后补充了同一人物的整体姿态与可见说话表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "画面显示女性处于室内空间，且她正在与电话另一端的人交流；联合后限定了室内通话这一完整场景。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_2",
+      "relation": "context_joint",
+      "reason": "画面显示一名女性位于室内空间，交流内容涉及朋友遭网络诽谤及事情扩大；联合后同时限定了场景位置与谈话所涉及的事件。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_1",
+      "target": "context_2",
+      "relation": "context_joint",
+      "reason": "女性正在与电话另一端的人交流，且交流内容涉及朋友遭网络诽谤及事情扩大；联合后明确了交流对象和具体谈话主题。",
+      "entity_anchor": null
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话人询问“是不是？家里又出什么事了？”，言语行为表现出对负面事件的预判与焦急探询，语调带有明显的关切与忧虑[E1]，结合微蹙的双眉与向前探视的体态[E2]，明确支持担忧情绪。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "是不是？家里又出什么事了？",
+      "observation": "说话者使用疑问句“是不是？家里又出什么事了？”，在音频中以放轻但紧绷探询的语气说出，重音落在“又出什么事”。",
+      "interpretation": "用词具有对不良事态再次发生的预判与顾虑，体现出明显的担忧与牵挂。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.6",
+      "observation": "老妇人端着茶杯，目光紧紧注视对方，眉头紧锁，嘴角下抿。",
+      "interpretation": "面部担忧神态与言语内容高度一致，强化了忧虑的意图表达。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释为寻常客观询问（neutral），但句中的“又出什么事了”带有强烈的负面事件预设，且音调带有紧绷与试探感，不符合客观平静的中性沟通。"
+}

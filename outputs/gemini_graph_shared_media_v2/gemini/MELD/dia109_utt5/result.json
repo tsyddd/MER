@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia109_utt5",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "d1e48fb5bc9702767bb92c6beba55179a3e73274b2c9fb39f96f11cbbfe48c20",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "目标人物Janice在片段首尾均采取防备性的双臂环抱姿势，专家[graph:E1]虽敏锐指出其肢体收紧并重构防御，却误将其归为无情绪波动的冷静中立，低估了语境中的火药味。回看实际音轨，Janice在句尾以极其尖锐高亢的重音咬住“theater of CRUELTY”[audio_subtitle:E2]，带有明确的攻击性与指控色彩。结合frame_06说出该词时眉心紧蹙的微表情及frame_07话毕后冷眼对峙的紧绷姿态[image:E2]，视觉与听觉互补证实其处于充满敌意与冷嘲热讽的愤怒状态，而非中性或愉悦。",
+  "output": "目标人物Janice在片段首尾均采取防备性的双臂环抱姿势，专家[graph:E1]虽敏锐指出其肢体收紧并重构防御，却误将其归为无情绪波动的冷静中立，低估了语境中的火药味。回看实际音轨，Janice在句尾以极其尖锐高亢的重音咬住“theater of CRUELTY”[audio_subtitle:E2]，带有明确的攻击性与指控色彩。结合frame_06说出该词时眉心紧蹙的微表情及frame_07话毕后冷眼对峙的紧绷姿态[image:E2]，视觉与听觉互补证实其处于充满敌意与冷嘲热讽的愤怒状态，而非中性或愉悦。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 96.29870009422302
+}

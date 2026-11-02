@@ -1,0 +1,200 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "婴儿发出持续的啼哭声",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Rachel怀抱裹在毯子里的婴儿在门边踱步晃动",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "Rachel开口说出“Oh come on, what am I gonna do”",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_3",
+      "type": "process",
+      "content": "Rachel继续说出“it's been hours and it won't stop crying”",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_4",
+      "type": "process",
+      "content": "Rachel抱着婴儿侧身并在原地轻微转身",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Rachel双臂交叠环抱胸前的婴儿包被，右手一度抬起触碰后颈发丝",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Rachel眉心聚拢，视线低垂看着婴儿随后移向前方",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Rachel说话语调偏高，音量较大且语速较急促",
+      "time_index": 1,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Rachel嘴巴张大说话，面部表情紧绷",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_4",
+      "type": "person",
+      "content": "Rachel身体重心随步伐轻微左右晃动",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内门边区域，墙上挂有镜子与画作，Rachel正抱着哭闹的婴儿",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "simultaneous",
+      "reason": "在婴儿持续发出啼哭声的同时，Rachel怀抱着婴儿在门边踱步晃动以尝试安抚",
+      "entity_anchor": "母婴安抚互动"
+    },
+    {
+      "source": "process_3",
+      "target": "process_2",
+      "relation": "after",
+      "reason": "Rachel在说出前半句“Oh come on, what am I gonna do”之后，紧接着说出后半句“it's been hours and it won't stop crying”",
+      "entity_anchor": "Rachel的言语表达"
+    },
+    {
+      "source": "process_4",
+      "target": "process_1",
+      "relation": "after",
+      "reason": "Rachel在怀抱婴儿于门边初始晃动之后，进一步侧身并在原地轻微转身",
+      "entity_anchor": "Rachel抱婴儿的动作姿态"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "Rachel在双臂交叠环抱婴儿并抬手触碰后颈的同时，眉心聚拢低头注视婴儿",
+      "entity_anchor": "Rachel的肢体与神态"
+    },
+    {
+      "source": "person_3",
+      "target": "person_2",
+      "relation": "simultaneous",
+      "reason": "Rachel以偏高急促的语调大声说话的同时，嘴巴张大且面部神情紧绷",
+      "entity_anchor": "Rachel的发声与面部动作"
+    },
+    {
+      "source": "person_4",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "Rachel在最初环抱婴儿调整发丝之后，随着情绪表达身体重心开始随步伐左右晃动",
+      "entity_anchor": "Rachel的身体动作"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提供婴儿持续的听觉啼哭刺激，process_1提供Rachel抱婴踱步晃动的安抚动作，二者联合完整呈现婴儿哭闹与看护者安抚的当前双向互动过程",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_2",
+      "target": "process_3",
+      "relation": "process_joint",
+      "reason": "process_2提供Rachel提出疑问的上半句言语动作，process_3提供解释情况的下半句言语动作，二者联合构成前后连贯的完整言语表述过程",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供双臂抱婴与抬手触颈的手部肢体动作，person_1提供皱眉聚拢与视线转移的面部/眼神变化，二者联合补充了Rachel在动作与面部两方面的焦躁体态表现",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_2",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_2提供高音调、急促且大音量的听觉言语特征，person_3提供嘴巴大张且面部紧绷的视觉发声形态，视听结合完整还原了Rachel说话时的外在生理与声学表现",
+      "entity_anchor": null
+    }
+  ]
+}

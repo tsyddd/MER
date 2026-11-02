@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Rachel问“Did you get all this stuff for Joey to try and drive me out of the apartment?”，把对方的举动解释为要赶她走，是带有责问意味的疑问，而非单纯索取信息[E1]。她面对对方时眉头紧锁、一手叉腰，表情与责问一致[E2]。因此更支持anger；没有音频，不能判断语调或音量。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Did you get all this stuff for Joey to try and drive me out of the apartment?",
+      "observation": "Rachel以疑问句询问对方是否借给Joey添置东西来把自己赶出公寓。",
+      "interpretation": "句子包含对对方意图的负面归因，支持带不满的责问；疑问形式本身并不证明愤怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.8351652418489324秒",
+      "observation": "Rachel面对另一人，眉头紧锁，一手叉腰，神情严肃。",
+      "interpretation": "表情和姿态与字幕中的责问相符，支持不满而非轻松闲谈。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "也可能主要是担心自己被赶走，而非生气；但当前问句直接质疑对方的意图，配合紧绷的表情，更支持anger。没有音频，无法用语调进一步区分。"
+}

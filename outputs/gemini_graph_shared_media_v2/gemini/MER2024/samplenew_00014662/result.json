@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00014662",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "f797ce76093f00b080e0bcaf2c7690927a4e4391deedfdf8240b8fab343a4016",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "独立核对视频frame_01至frame_06与音频，目标女性在诉说时眉心微拢且内侧上扬，眼神专注而关切地探询对方反应，与[image:E1]观察到的微蹙神态高度一致；音轨中语调放轻、语速轻缓且略带小心谨慎[audio_subtitle:E2]，结合台词原话明确点明顾虑‘担心这事会牵连到您家老爷子’，多模态线索统一指向对潜在风险的忧虑。虽表情克制未大呼小叫，但主动探询的眼神与关切语气排除了sad，持续的蹙眉神态与明显的主观情绪投入也排除了冷漠的neutral。",
+  "output": "独立核对视频frame_01至frame_06与音频，目标女性在诉说时眉心微拢且内侧上扬，眼神专注而关切地探询对方反应，与[image:E1]观察到的微蹙神态高度一致；音轨中语调放轻、语速轻缓且略带小心谨慎[audio_subtitle:E2]，结合台词原话明确点明顾虑‘担心这事会牵连到您家老爷子’，多模态线索统一指向对潜在风险的忧虑。虽表情克制未大呼小叫，但主动探询的眼神与关切语气排除了sad，持续的蹙眉神态与明显的主观情绪投入也排除了冷漠的neutral。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 53.91832709312439
+}

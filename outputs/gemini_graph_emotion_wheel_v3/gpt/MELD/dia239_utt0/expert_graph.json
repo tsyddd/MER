@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "Gunther当前向Chandler询问里面是否有人[E1][E2]，随后Chandler转身面向他[E3]。Gunther的提问和画面中的神态更像平常地确认情况：他注视对方、开口说话，未见明显惊吓、恼怒或愉悦的表达[E2]。图谱process_0记录的是这次提问，与字幕和画面指向同一事件，不能算额外的情绪证据[E1]。",
+  "open_emotion": "平常询问",
+  "answer": "neutral",
+  "mapping_reason": "当前有可观察的平稳询问表现，但没有足以支持其他情绪主导的反应，因此映射为neutral；疑问句本身不等于惊讶或恐惧。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "图谱记录Gunther询问Chandler里面是否有人。",
+      "interpretation": "明确当前互动是Gunther发起询问，而非Chandler的情绪表达；该记录与字幕同源，不重复计为独立情绪线索。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02（0.5004996114133452秒）",
+      "observation": "Gunther面向右侧开口说话，姿态较平稳，面部未见明显强烈反应。",
+      "interpretation": "支持将此刻理解为平常询问，而非受到惊吓或正在对抗。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Someone in there?",
+      "observation": "当前话语是在询问里面是否有人。",
+      "interpretation": "话语指向确认情况；仅凭疑问形式不能推断他害怕或感到意外。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "“里面是否有人”也可能出于担心或警觉，但片段没有给出Gunther对威胁的明确预期。图谱person_1所述轻微疑问语调属于音频派生转述；未收到原音轨，无法亲耳核验，也不因此断定该转述错误。Chandler随后转身不能单凭节点顺序扩写为Gunther产生某种情绪的原因。"
+}

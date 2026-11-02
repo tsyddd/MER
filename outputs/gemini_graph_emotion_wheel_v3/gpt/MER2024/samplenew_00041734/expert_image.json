@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是frame_00至frame_06中说话的女性；frame_07切到另一名男子，不能把他的表情算作她的反应。她从凝视对方、嘴微张，转为皱眉、侧头并前倾发问，随后仍保持紧蹙的眉头和注视[E1][E2]。结合字幕中的辞职提问[E3]，视觉上最支持她对这一决定感到关切、不安，而不是平稳询问。没有音频，不能据此判断语调。",
+  "open_emotion": "关切不安",
+  "answer": "worried",
+  "mapping_reason": "她持续关注对方辞职这一可能带来后果的决定；在给定标签中，关切不安最接近worried。字幕没有说明她具体担心什么，因而不推断特定风险。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_02（0.76秒）",
+      "observation": "女性始终看向画面左侧的对话对象，眉头逐渐收紧，张口说话时头部侧倾。",
+      "interpretation": "表情由凝视转为更明显的关切式追问，支持不安，而非单凭皱眉定类。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03（1.16秒）至frame_06（2.28秒）",
+      "observation": "她身体和头部略向前，继续注视对方；说话结束后眉头仍紧蹙、嘴微张。",
+      "interpretation": "反应持续，较不像只有一瞬的意外。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "「不是，你，为什么要辞职？」",
+      "observation": "字幕显示她追问对方辞职的原因。",
+      "interpretation": "为她持续的追问提供对象，但并未直接说出具体担忧。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "皱眉和追问也可能表示诧异或不满；字幕中的疑问句本身不足以证明担忧。画面未见明确责备手势，也没有可用音频检验语气，因此判断限于较温和的关切不安。"
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者在音频中以高音调、快速的语速说出“是吗？才真这么说的？”，表现出强烈的惊讶和难以置信。字幕内容与音频一致，且其表情（睁大眼睛，张开嘴巴）与这种惊讶的语气完全吻合，没有矛盾。因此，最符合的标签是“surprise”。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "说话者以高音调、快速的语速说出“是吗？才真这么说的？”，语气充满惊讶。",
+      "interpretation": "这种高亢且急促的语调是表达惊讶的典型特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "是吗？才真这么说的。",
+      "observation": "字幕显示的文本为“是吗？才真这么说的。”",
+      "interpretation": "该文本内容本身就在询问和确认一件令人意外的事情，与惊讶的情绪相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_07 @ 00:02.12",
+      "observation": "说话者的表情是睁大眼睛，嘴巴微张，显得非常吃惊。",
+      "interpretation": "面部表情与音频中的惊讶语气和字幕内容完全一致，共同强化了惊讶的情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。该片段中，音频、字幕和视觉信息高度一致，均指向惊讶的情绪，没有证据表明说话者在表达其他情绪。"
+}

@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "Janice在对话中表现出高亢、带有鼻音且抑扬顿挫的语调，同时配合抬起双手在胸前做手势的动作，这些视听线索共同指向一种夸张、戏剧化的表达方式。她的肢体语言（如抱胸、手势）和声音特征（如语调）在当前情境下并非指向愤怒或恐惧等负面情绪，而是更符合一种带有表演性质的、非字面意义的夸张陈述。背景环境（餐厅）和对话内容（关于“残酷剧场”）也支持这是一种夸张的玩笑或戏剧化表达，而非真实的情绪流露。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:07",
+      "observation": "Janice的语调高亢，带有明显的鼻音，语速抑扬顿挫。",
+      "interpretation": "这种夸张的声调和语调变化是表演性或戏剧化表达的典型特征，通常用于喜剧效果，支持joy的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 00:01.0427075237778025",
+      "observation": "Janice抬起双手在胸前做手势比划。",
+      "interpretation": "手势是其言语内容的补充和强调，与夸张的语调相结合，共同营造了一种生动、戏剧化的氛围，支持joy的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱描述Janice的语调为高亢、带有鼻音，语速抑扬顿挫。",
+      "interpretation": "该描述与音频内容一致，为分析其情绪提供了关键的听觉证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "Janice在说出关于木偶和残酷剧场的台词时，同步抬起双手在胸前比划手势配合表达。",
+      "interpretation": "该节点描述了其言语与手势的同步性，表明这是一种有意识的、生动的表达行为，而非无意识的情绪流露，支持joy的判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "一种可能的替代解释是，Janice正在表达一种强烈的厌恶或恐惧（disgust/fear），因为她的台词内容（“残酷剧场”）听起来很可怕。然而，这种解释与她高亢、戏剧化的语调和夸张的手势相矛盾，这些表现更符合一种喜剧性的夸张，而非真实的负面情绪。因此，joy是更合理的判断。"
+}

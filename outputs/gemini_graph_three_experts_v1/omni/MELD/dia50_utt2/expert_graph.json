@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "Female Student身体前倾弯腰、头部低下（person_0），同时以较快语速说出\"I'm so sorry!\"（person_1），动作与话语同步发生（process_0与process_1），表明其处于仓皇逃离的急促状态。结合环境背景中赤裸上身男子的存在，其行为与言语共同指向尴尬情境下的慌乱反应。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "process_0",
+    "process_1"
+  ]
+}

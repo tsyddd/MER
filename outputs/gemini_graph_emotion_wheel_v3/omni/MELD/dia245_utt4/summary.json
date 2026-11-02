@@ -1,0 +1,13 @@
+{
+  "reason": "Monica的反应是急促、高亢的喊叫（'No-no-no, no!'）和迅速的肢体动作，其语义和行为模式是直接的、对抗性的制止。这与'anger'（愤怒）中对冒犯、不公或受阻情况的责备与对抗的定义相符。虽然她的视觉表现（张大的嘴巴、睁大的眼睛）和听觉表现（急促的“不”声）也带有惊讶或恐惧的成分，但其主导行为是主动的、对抗性的阻止，而非被动的惊吓或逃离。因此，'anger'的解释力更强。",
+  "answer": "anger",
+  "evidence_refs": [
+    "graph:E1",
+    "graph:E2",
+    "graph:E3",
+    "audio_subtitle:E1",
+    "audio_subtitle:E2",
+    "image:E1",
+    "image:E2"
+  ]
+}

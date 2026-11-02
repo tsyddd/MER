@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00041734",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "当前目标人物是前段画面中的女性，而非后段出现的男性。她身体略向前倾、眉头紧皱并看向右侧交流对象（person_0、person_1），字幕显示她追问“为什么要辞职”（process_0、context_1），体现出对对方决定的担忧和急于寻求解释。",
+  "output": "当前目标人物是前段画面中的女性，而非后段出现的男性。她身体略向前倾、眉头紧皱并看向右侧交流对象（person_0、person_1），字幕显示她追问“为什么要辞职”（process_0、context_1），体现出对对方决定的担忧和急于寻求解释。\n<answer>worried</answer>",
+  "label": "angry",
+  "elapsed_seconds": 144.52416610717773,
+  "node_count": 7,
+  "edge_count": 2
+}

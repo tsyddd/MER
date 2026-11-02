@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00041734",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "ef82d3fe06a46b4125e3eacb1a9f355331f80a204ee0f71866c99305b2e54746",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "angry",
+  "emotion_analysis": "目标人物在多个帧中表现出皱眉、紧闭的嘴唇和紧绷的面部肌肉，这些是愤怒的常见视觉特征。字幕内容“不是，你为什么要辞职？”是质问的句式，与视觉表现一致。音频中该句的语调尖锐且带有质问感，进一步支持了愤怒的判断。虽然在某些帧中她的眼神也带有担忧的成分，但整体面部表情和质问的语调更强烈地指向愤怒。专家image的分析直接引用了视觉和音频证据，其结论angry与我的独立核验一致，可信度高。",
+  "output": "目标人物在多个帧中表现出皱眉、紧闭的嘴唇和紧绷的面部肌肉，这些是愤怒的常见视觉特征。字幕内容“不是，你为什么要辞职？”是质问的句式，与视觉表现一致。音频中该句的语调尖锐且带有质问感，进一步支持了愤怒的判断。虽然在某些帧中她的眼神也带有担忧的成分，但整体面部表情和质问的语调更强烈地指向愤怒。专家image的分析直接引用了视觉和音频证据，其结论angry与我的独立核验一致，可信度高。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 154.78492212295532
+}

@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Monica的台词是'What?! Excuse me!'，这是一个典型的表达惊讶和打断的短语。她的语调在'What?!'部分明显上扬，表现出强烈的意外和质问，这与'惊讶'的情绪高度一致。'Excuse me!'部分虽然有礼貌的成分，但结合前半句和质问的语气，其主要功能是打断和表达震惊，而非单纯的礼貌。因此，主导情绪是惊讶。",
+  "open_emotion": "惊讶",
+  "answer": "surprise",
+  "mapping_reason": "根据MELD项目的情绪轮定义，'surprise'指面对违背预期的信息而感到意外、诧异或惊奇。Monica的台词和语调都明确指向了这种因突发情况而产生的意外反应，因此映射到'surprise'是准确的。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "What?! Excuse me!",
+      "observation": "Monica说'What?! Excuse me!'。",
+      "interpretation": "这句话是典型的表达惊讶和打断的短语，表明她对正在发生的事情感到意外和难以置信。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:01.501",
+      "observation": "Monica的语调在'What?!'部分明显上扬，表现出强烈的意外和质问。",
+      "interpretation": "上扬的语调是表达惊讶和质问的典型韵律特征，与字幕内容共同证实了惊讶的情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。"
+}

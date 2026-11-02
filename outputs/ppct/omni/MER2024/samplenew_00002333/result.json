@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00002333",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "happy",
+  "emotion_analysis": "目标人物面带笑容，嘴部有开合动作，正在说出“像这娘，交代你”这句话。其面部表情和说话的语气都表现出一种轻松、调侃的状态，没有表现出愤怒、悲伤或担忧等负面情绪。",
+  "output": "目标人物面带笑容，嘴部有开合动作，正在说出“像这娘，交代你”这句话。其面部表情和说话的语气都表现出一种轻松、调侃的状态，没有表现出愤怒、悲伤或担忧等负面情绪。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 53.14339327812195,
+  "node_count": 3,
+  "edge_count": 0
+}

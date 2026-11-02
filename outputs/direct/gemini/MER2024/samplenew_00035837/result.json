@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035837",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sad",
+  "emotion_analysis": "画面中的女性目光低垂、神情落寞悲伤，配合台词“我知道在这个世上再也没有亲人了”以及微弱低沉的语调，充分表达出失去亲人的悲伤情绪。",
+  "output": "画面中的女性目光低垂、神情落寞悲伤，配合台词“我知道在这个世上再也没有亲人了”以及微弱低沉的语调，充分表达出失去亲人的悲伤情绪。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 6.821500778198242,
+  "node_count": null,
+  "edge_count": null
+}

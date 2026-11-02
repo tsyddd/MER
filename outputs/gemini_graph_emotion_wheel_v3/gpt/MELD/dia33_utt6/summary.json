@@ -1,0 +1,10 @@
+{
+  "reason": "Rachel从frame_00低头看襁褓，到frame_02—frame_04抬头说话、眉头收紧并调整怀抱；[image:E1]的描述与画面相符，但表情本身不足以区分烦躁和担忧。字幕中的“Oh come on, what am I gonna do”及“its been hours and it won’t stop crying”[audio_subtitle:E1][audio_subtitle:E2]，把她的困扰指向哭声持续不停、安抚受阻。问“怎么办”也可表达无助，但当前没有明确的危险预期；结合话语与表情，主导表现更接近受挫后的烦躁，映射为anger。未提供音轨，[graph:E4]转述的语调和音量无法核实，不用于取舍。",
+  "answer": "anger",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E1",
+    "audio_subtitle:E2",
+    "graph:E4"
+  ]
+}

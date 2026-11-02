@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia153_utt4",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "1701ec52f64cb4d931ebb2a39270db0f0b109d59cf49cceb1bc9a7c9f35dd50e",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "恼火",
+      "mapped_label": "anger",
+      "mapping_reason": "当前皱眉和强调式指点呈现轻度不满，最接近情绪轮中anger的“恼火”；并无证据表明Joey本人正面临高度威胁。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "不耐烦",
+      "mapped_label": "anger",
+      "mapping_reason": "此处的不耐烦偏向对交流受阻的轻微恼火，最接近anger；并不表示强烈愤怒。"
+    },
+    "image": {
+      "open_emotion": "恼火",
+      "mapped_label": "anger",
+      "mapping_reason": "当前表现更接近带有责问意味的不满，映射到anger；指点和皱眉本身不足以单独证明愤怒，判断依赖其连续动作及字幕语义。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "回看第0至7帧，目标人物Joey从摊手转为持续指向画面左侧，眉头收紧、说话时面部紧绷；[image:E1][image:E2]对这些动作的描述可信，但“责问”仍是解释而非可直接观察的事实。字幕以恐高和去楼顶举例，[audio_subtitle:E1]据此指出“fear”并非Joey此刻的恐惧，这一判断合理。手势也可能只是用力解释，且没有音轨可核对语气；综合他持续定向指点与紧绷表情，当前更接近轻微恼火，而非平稳陈述。",
+  "output": "回看第0至7帧，目标人物Joey从摊手转为持续指向画面左侧，眉头收紧、说话时面部紧绷；[image:E1][image:E2]对这些动作的描述可信，但“责问”仍是解释而非可直接观察的事实。字幕以恐高和去楼顶举例，[audio_subtitle:E1]据此指出“fear”并非Joey此刻的恐惧，这一判断合理。手势也可能只是用力解释，且没有音轨可核对语气；综合他持续定向指点与紧绷表情，当前更接近轻微恼火，而非平稳陈述。\n<answer>anger</answer>",
+  "label": "fear",
+  "elapsed_seconds": 83.2507655620575
+}

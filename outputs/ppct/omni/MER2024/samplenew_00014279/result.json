@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00014279",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "angry",
+  "emotion_analysis": "音频中说话者使用了“卑劣的手段”和“无耻之极”等带有强烈谴责和鄙夷的词语，其面部表情紧绷，眼神锐利，显示出明显的愤怒情绪。这些视听证据共同指向了愤怒的情绪状态。",
+  "output": "音频中说话者使用了“卑劣的手段”和“无耻之极”等带有强烈谴责和鄙夷的词语，其面部表情紧绷，眼神锐利，显示出明显的愤怒情绪。这些视听证据共同指向了愤怒的情绪状态。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 72.97511863708496,
+  "node_count": 5,
+  "edge_count": 2
+}

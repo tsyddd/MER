@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia178_utt2",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "Monica抱着婴儿并在后续画面中低头注视婴儿，相关节点为process_0、person_3和person_4，且person_4 after person_3显示她的注意力持续转向婴儿。她说“it’s going great”并面带明显笑容，process_1与person_2及process_0通过process_joint共同支持其积极、愉悦的当前表达，因此判断为joy。",
+  "output": "Monica抱着婴儿并在后续画面中低头注视婴儿，相关节点为process_0、person_3和person_4，且person_4 after person_3显示她的注意力持续转向婴儿。她说“it’s going great”并面带明显笑容，process_1与person_2及process_0通过process_joint共同支持其积极、愉悦的当前表达，因此判断为joy。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 115.11631321907043,
+  "node_count": 10,
+  "edge_count": 8
+}

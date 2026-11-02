@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00004468",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "angry",
+  "emotion_analysis": "人物持续皱眉、目光锐利，张口质问，表情呈现明显的不满和责备。字幕是在质问对方为何高兴，并非表达人物自己的高兴情绪。",
+  "output": "人物持续皱眉、目光锐利，张口质问，表情呈现明显的不满和责备。字幕是在质问对方为何高兴，并非表达人物自己的高兴情绪。\n<answer>angry</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 43.68664073944092,
+  "node_count": null,
+  "edge_count": null
+}

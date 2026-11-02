@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia50_utt2",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sadness",
+  "emotion_analysis": "The female student's voice is shaky and her words 'I'm so sorry' are delivered in a tone of distress and apology, indicating she is upset and regretful.",
+  "output": "The female student's voice is shaky and her words 'I'm so sorry' are delivered in a tone of distress and apology, indicating she is upset and regretful.\n<answer>sadness</answer>",
+  "label": "fear",
+  "elapsed_seconds": 5.098171710968018,
+  "node_count": null,
+  "edge_count": null
+}

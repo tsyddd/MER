@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00003759",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "画面中身穿棕色外套的女性说话时眼睛睁大、眉毛上挑，嘴巴因难以置信而张开，配合高昂而充满疑问的语调询问对方，表现出明显的惊讶情绪。",
+  "output": "画面中身穿棕色外套的女性说话时眼睛睁大、眉毛上挑，嘴巴因难以置信而张开，配合高昂而充满疑问的语调询问对方，表现出明显的惊讶情绪。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 7.777706623077393,
+  "node_count": null,
+  "edge_count": null
+}

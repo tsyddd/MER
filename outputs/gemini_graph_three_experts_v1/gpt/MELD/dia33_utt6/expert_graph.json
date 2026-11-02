@@ -1,0 +1,12 @@
+{
+  "expert": "graph",
+  "reason": "Rachel眉心聚拢、面部紧绷，并以偏高、较大音量且急促的语调表达无奈和抱怨〔person_1〕〔person_2〕〔person_3〕。她同时抱着持续啼哭的婴儿来回踱步安抚〔process_0〕〔process_1〕，这些当前表现更符合恼怒情绪。",
+  "answer": "anger",
+  "evidence_refs": [
+    "person_1",
+    "person_2",
+    "person_3",
+    "process_0",
+    "process_1"
+  ]
+}

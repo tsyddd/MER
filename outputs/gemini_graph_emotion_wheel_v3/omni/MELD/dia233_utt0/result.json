@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia233_utt0",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "a94f5575d3aaa8dce6c1acd443e893d451a7588d0c29ef22d0ffe8091580c26e",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "愤怒",
+      "mapped_label": "anger",
+      "mapping_reason": "根据当前证据，Rachel的质问内容和对抗性姿态表明她正在对一个她认为是冒犯或不公的行为进行责备。这与'anger'（愤怒）的定义——对冒犯、受阻或不公的恼火、责备与对抗——高度吻合。虽然她的语调是疑问句式，但其内容和整体表现指向的是责备而非单纯的惊讶。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "愤怒",
+      "mapped_label": "anger",
+      "mapping_reason": "根据MELD项目的情绪轮定义，'anger'指对冒犯、受阻或不公的恼火、责备与对抗。说话者的话语内容（'try and drive me out of the apartment'）直接表达了她认为自己受到了不公对待，其质问的语气和表情也符合责备与对抗的特征，因此映射到'anger'是准确的。"
+    },
+    "image": {
+      "open_emotion": "愤怒",
+      "mapped_label": "anger",
+      "mapping_reason": "根据情绪轮的定义，'anger'（愤怒）是对冒犯、受阻或不公的恼火、责备与对抗。Rachel的质问和她紧锁的眉头、对抗性的姿态，都与这一定义高度吻合。她的表情和姿态是直接的、针对他人的，而不是内向的悲伤或对外部威胁的恐惧。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "目标人物Rachel的质问内容（'Did you get all this stuff for Joey to try and drive me out of the apartment?'）直接表达了对他人行为的怀疑和不满，指控对方试图将自己赶出公寓，这是愤怒情绪的典型表达。她的面部表情（眉头紧锁、眼神直视）和身体姿态（左手叉腰）与质问的语气相匹配，显示出一种对抗和责备的态势。三个专家的证据均一致支持这一判断：[image:E1]、[image:E2]、[image:E3]从视觉上证实了其愤怒的表情和对抗姿态；[audio_subtitle:E1]、[audio_subtitle:E2]、[audio_subtitle:E3]从音频和字幕上证实了其责备的语义和尖锐的质问语气；[graph:E1]、[graph:E2]、[graph:E3]从图谱上描述了其清晰连贯且带有疑问升调的语调，支持了严肃质问的语境。综合来看，所有证据共同指向一种因感到被针对或不公而产生的愤怒情绪。",
+  "output": "目标人物Rachel的质问内容（'Did you get all this stuff for Joey to try and drive me out of the apartment?'）直接表达了对他人行为的怀疑和不满，指控对方试图将自己赶出公寓，这是愤怒情绪的典型表达。她的面部表情（眉头紧锁、眼神直视）和身体姿态（左手叉腰）与质问的语气相匹配，显示出一种对抗和责备的态势。三个专家的证据均一致支持这一判断：[image:E1]、[image:E2]、[image:E3]从视觉上证实了其愤怒的表情和对抗姿态；[audio_subtitle:E1]、[audio_subtitle:E2]、[audio_subtitle:E3]从音频和字幕上证实了其责备的语义和尖锐的质问语气；[graph:E1]、[graph:E2]、[graph:E3]从图谱上描述了其清晰连贯且带有疑问升调的语调，支持了严肃质问的语境。综合来看，所有证据共同指向一种因感到被针对或不公而产生的愤怒情绪。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 181.44938564300537
+}

@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是左侧穿紫色上衣的Rachel，而非右侧主要以背影入镜的女子。她起初带一点笑意，随后看向对方说话时眉头收拢、嘴角趋平，并反复摊开双手；这些变化更像是在表达愿望未能实现的失落，而非持续的愉快[E1][E2]。字幕中的“wish I could”与“share some feelings”说明她希望对方更愿意表达感受，为这一解释提供语义支持[E3]。",
+  "open_emotion": "失落",
+  "answer": "sadness",
+  "mapping_reason": "此处的失落指希望获得更多情感交流却未能如愿，最接近sadness家族；这是轻度、近似的映射，画面不足以支持强烈悲伤。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_04（1.793秒）",
+      "observation": "Rachel起初略带笑意；说话过程中眉头逐渐收拢，嘴角趋平，在frame_04呈现皱眉表情。",
+      "interpretation": "表情由轻松转为不舒展，支持她对所谈之事并不满意。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02（0.918秒）至frame_06（2.711秒）",
+      "observation": "Rachel始终朝向右侧女子，数次抬起并摊开双手；frame_06双手张开、眉毛抬起。",
+      "interpretation": "手势和面部变化显示她在着力表达自己的诉求，但单靠手势不能判定具体情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“Y’know, I wish I could get him to open up a little bit, share some feelings.”",
+      "observation": "字幕表达希望“他”能多敞开心扉、分享感受。",
+      "interpretation": "未满足的愿望使失落比针对对方的愤怒更有语义依据；字幕不能证明她说话的语调。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "frame_00和frame_07可见短暂笑意，且没有持续低头或哭泣等强烈悲伤表现；她也可能只是在平和地表达一点无奈，因此失落的判断应保持轻度。"
+}

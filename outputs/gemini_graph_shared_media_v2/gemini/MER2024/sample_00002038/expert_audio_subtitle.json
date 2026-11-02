@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物在音频中用微弱、发虚且微带颤抖的气声询问[E1]，语调迟疑且尾音微扬，体现出面对陌生境况时的戒备与不安；配合字幕中对身份的迟疑发问[E2]，以及视觉上紧缩的眉头[E3]，整体表现为担忧与不安（worried）。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "0.0s-0.8s",
+      "observation": "目标人物以较低音量、微颤的气声低语发问“他是谁呀”，语速略滞缓，尾音带着轻微的疑问上挑。",
+      "interpretation": "虚弱、谨慎且略带颤音的韵律特征反映出内心的警惕、疑虑与缺乏安全感，支持担忧不安的情绪状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "他，是谁呀？",
+      "observation": "台词使用逗号停顿且为疑问句“他，是谁呀？”。",
+      "interpretation": "言语行为表现出对眼前对象的认知受阻与困惑，并非中性的简单询问，而是带有迟疑与防备。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.24",
+      "observation": "眉心紧锁，下唇紧绷微张，眼神显露困惑与防备。",
+      "interpretation": "痛苦紧绷的面部表情印证了声音中的不安，排除了平静的neutral。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "可能被误认为是sad或surprise；但语音中没有哭腔或沉重拖音，也没有突发惊吓时的高音量升调与吸气声，更偏向因认不出眼前人而产生的紧张与担忧，故排除sad与surprise。"
+}

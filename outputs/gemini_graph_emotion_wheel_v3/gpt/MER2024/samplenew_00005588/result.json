@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00005588",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "3c05565a2f5988a34215ae155e7337af3fdfc1912e5b57502601b56c3ef3ae72",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "伤感",
+      "mapped_label": "sad",
+      "mapping_reason": "伤感在此指面对过去之事时表现出的低落与沉重，按情绪轮映射为sad；这不意味着已知过去具体发生了什么。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "伤感",
+      "mapped_label": "sad",
+      "mapping_reason": "当前表情与对已发生之事的宽慰相结合，更接近情绪轮中低落、哀伤的sad；并非在担忧尚未发生的结果。"
+    },
+    "image": {
+      "open_emotion": "伤感",
+      "mapped_label": "sad",
+      "mapping_reason": "伤感在此指面对过去的事流露出的低落与感触，最接近sad。字幕没有说明具体损失，因此这一判断主要依赖目标持续的面部表现，而非推断过往经历。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "独立回看8帧，右侧戴冠男子始终望向左侧，眼周泛红、目光湿润，神情克制；[image:E1]对这一表现的描述可信，但不能单凭眼部状态断定他在流泪。字幕“过去的事，不怪你”[audio_subtitle:E1]是在宽慰对方，结合神情，更像对已发生之事感到伤感，而非责备或担忧未来。后几帧嘴角略放松[image:E2]是平静宽慰的反证，但不足以抵消持续的沉重感；未提供音轨，不能据语调进一步判断。",
+  "output": "独立回看8帧，右侧戴冠男子始终望向左侧，眼周泛红、目光湿润，神情克制；[image:E1]对这一表现的描述可信，但不能单凭眼部状态断定他在流泪。字幕“过去的事，不怪你”[audio_subtitle:E1]是在宽慰对方，结合神情，更像对已发生之事感到伤感，而非责备或担忧未来。后几帧嘴角略放松[image:E2]是平静宽慰的反证，但不足以抵消持续的沉重感；未提供音轨，不能据语调进一步判断。\n<answer>sad</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 84.49373626708984
+}

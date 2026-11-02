@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速和停顿。仅从字幕看，说话人承认此前低估了对方，带有对对方表现出乎意料的意味。",
+  "answer": "surprise",
+  "evidence_refs": []
+}

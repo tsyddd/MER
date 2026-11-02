@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "Janice当前面向对面的男士发问，而非叙述过去的事。她说“Oh, are you sure?”[E1]，起初抱臂、抬眉看向对方，随后松开双手并配合手势继续表达[E2][E3]。这一互动更像对对方所说内容感到意外并求确认，而不是单纯陈述。图谱的手势节点与画面描述的是同一动作，不能算两份独立情绪证据；图谱所述语调因未提供原音轨，不能亲耳核验[E4]。",
+  "open_emotion": "诧异",
+  "answer": "surprise",
+  "mapping_reason": "当前反问及面部、手势表现支持她对信息感到意外，符合surprise的诧异含义；没有足够证据表明她在害怕负面后果。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Oh, are you sure?",
+      "observation": "Janice以“Oh”开头，询问对方是否确定。",
+      "interpretation": "她在回应并确认对方的信息，支持意外的解读，但问句本身不能单独证明情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_02（1.043秒）",
+      "observation": "Janice抱臂面向对方，抬眉、张口说话，头微倾。",
+      "interpretation": "她的表情与正在发出的确认式疑问相配合，支持诧异，而非仅凭抬眉判定惊讶。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_2、person_3",
+      "observation": "图谱记录Janice从抱臂转为在胸前比划，随后竖起手指；相应动作可在后续画面看到。",
+      "interpretation": "这些节点帮助定位她在当前交流中的表达变化，但动作不证明她为何发问，也不构成独立于画面的重复证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱称Janice声音上扬、语调起伏；本次未提供原音轨。",
+      "interpretation": "这是未经亲耳核验的音频派生转述，不据此确定她的语气或情绪。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "“Are you sure?”也可能只是平常的核实；图谱将后续说话称为“解释”，但没有给出具体话语，节点先后也不足以推断她因何意外。因此结论主要依据当前问句与可见表达，强度有限。"
+}

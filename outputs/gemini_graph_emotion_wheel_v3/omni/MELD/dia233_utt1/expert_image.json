@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "目标人物Rachel在对话中表现出明显的面部紧张和身体僵硬。她的眉毛紧锁，眉头皱起，眼睛睁大，嘴巴微张，这些是典型的恐惧或厌恶的面部特征。她的身体姿态是直立的，但肩膀略微后缩，显示出一种防御或不适的姿态。结合字幕内容，她正在表达对“鱼”的强烈负面感受，这与她的面部表情和姿态高度一致，表明她当前的情绪是恐惧或厌恶。虽然她的表情也带有一丝惊讶，但主导情绪是恐惧或厌恶。",
+  "open_emotion": "恐惧",
+  "answer": "fear",
+  "mapping_reason": "根据情绪轮的定义，'fear'是面向威胁、危险或令人害怕的负面后果而表现出的畏惧、惊恐或威胁相关的焦虑。Rachel的面部表情（紧锁的眉毛、睁大的眼睛、微张的嘴巴）和身体姿态（僵硬、后缩）是恐惧的典型表现。她的言语内容（'fish freaked me out'）直接表达了对鱼的恐惧，这与她的非语言行为完全吻合，因此将她的开放情绪词'恐惧'映射到'fear'是准确的。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "Rachel的眉毛紧锁，眉头皱起，眼睛睁大，嘴巴微张。",
+      "interpretation": "这些是恐惧或厌恶的典型面部特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01",
+      "observation": "Rachel的身体姿态是直立的，但肩膀略微后缩。",
+      "interpretation": "这是一种防御或不适的姿态，与恐惧情绪相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "字幕",
+      "observation": "字幕内容为：'Honey, if you wanted to do that, you might as well just gotten him a fish, you know how fish freaked me out!'",
+      "interpretation": "Rachel明确表达了对鱼的恐惧，这为她的面部表情和姿态提供了直接的语义支持。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "00:00-00:04",
+      "observation": "Rachel的语调尖锐，语速快，带有明显的紧张和激动。",
+      "interpretation": "这种紧张的语调与她所表达的恐惧内容一致，加强了恐惧情绪的表现。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽然Rachel的表情也带有一丝惊讶（如睁大的眼睛），但她的眉毛是向下压的，这更符合恐惧或厌恶的特征，而非单纯的惊讶。因此，惊讶不是主导情绪。"
+}

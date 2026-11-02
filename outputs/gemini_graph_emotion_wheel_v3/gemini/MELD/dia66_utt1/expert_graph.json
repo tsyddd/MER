@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "目标人物为空乘人员（Flight Attendant，画面左侧侧身人物）。结合音轨与图谱事件链[process_0]，空乘在客舱通道内主动向乘客致以规范且充满热情的问候“Thank you! Enjoy your flight?”。音频核验显示其发音语调轻快上扬、带有鲜明的微笑感与服务热情[person_1]，并非单调平淡的程序化念白，展现出亲切愉快的正向服务情绪。",
+  "open_emotion": "亲切欢快",
+  "answer": "joy",
+  "mapping_reason": "空乘人员在交互中展现出轻快、友善且上扬的积极情感体验，符合情绪轮中joy关于开心、愉悦及正向亲和表达的定义；虽带有职业礼仪属性，但其正向感染力显著强于平淡的中性基调，故映射为joy。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:01",
+      "observation": "空乘人员说出“Thank you! Enjoy your flight?”时语调明显上扬，尾音轻快且伴随清晰的笑意共鸣",
+      "interpretation": "体现出主动、亲切且充满热情愉悦的情绪状态",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Thank you!  Enjoy your flight?",
+      "observation": "台词为客舱登机时的礼貌致谢与祝愿",
+      "interpretation": "语义承载正向的祝福与友善的互动意图",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱记录空乘人员语调上扬、语速平稳、声音清晰",
+      "interpretation": "与真实音轨交叉印证其发音带有正向轻快特征，支持亲切欢快的情感判断",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "客舱问候属于标准服务程式，若仅看台词模板容易被解释为平淡常规的neutral，但音轨中鲜明的轻快笑意排除了纯粹中性的可能。"
+}

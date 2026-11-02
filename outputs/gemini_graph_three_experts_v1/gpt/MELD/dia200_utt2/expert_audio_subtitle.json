@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。仅从字幕看，Joey连续排除相关人物后追问“then who did?”，体现出对结果的疑惑和意外。",
+  "answer": "surprise",
+  "evidence_refs": []
+}

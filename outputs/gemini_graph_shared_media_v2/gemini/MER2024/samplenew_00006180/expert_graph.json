@@ -1,0 +1,24 @@
+{
+  "expert": "graph",
+  "reason": "目标人物（女老师）在课堂教学互动中向学生陈述并提问，结合图谱节点[person_1]所描述的平和语速与实际音轨核验，其语调亲和、平稳，面部神情从容松弛[E1][E2]，未表现出强烈的笑容或惊讶反应，符合中性教学沟通状态。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "女老师说话语速平缓，语调和缓清晰",
+      "interpretation": "图谱音视频信息与实际音轨00:00-00:03一致，说明其表达处于平静、克制的常规教学状态，支持neutral",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 3.21",
+      "observation": "女老师面朝学生提问，眉眼舒展，神色自然无大幅度笑意或皱眉",
+      "interpretation": "面部特征未达happy的笑容标准，亦无worried或surprise的紧张，表现为客观平稳的互动态势",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "由于师生课堂问答互动轻松，容易被误判为happy；但女老师面部始终未见嘴角明显扬起或欢欣表情，音调也仅为平缓和蔼的陈述，故未采纳happy。"
+}

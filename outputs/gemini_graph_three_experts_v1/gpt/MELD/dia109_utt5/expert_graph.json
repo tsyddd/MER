@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "Janice以高亢、带鼻音且抑扬顿挫的语调说话，这是图谱记载的音频表现〔person_1〕；她注视对方、抱臂，并在谈及“残酷剧场”时用手势强调表达〔person_0〕〔process_1〕〔process_2〕，整体呈现出较强的对抗和不满感。",
+  "answer": "anger",
+  "evidence_refs": [
+    "person_1",
+    "person_0",
+    "process_1",
+    "process_2"
+  ]
+}

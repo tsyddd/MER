@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Monica以轻松欢快的声调说出'Yeah baby!'，音调明亮且伴有愉悦的笑意[E1]，台词与语调传递出强烈的赞同与高兴；同时视觉上面带灿烂笑容[E2]，与听觉上的积极情绪高度一致。",
+  "open_emotion": "开心",
+  "answer": "joy",
+  "mapping_reason": "Monica表现出愉悦、开朗的正向情绪体验，符合情绪轮中joy的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "0.00-0.80",
+      "observation": "Monica用轻快、略带调侃且充满笑意的声调喊出'Yeah baby!'",
+      "interpretation": "表明说话人当前处于积极、欢欣的情感互动中",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04-frame_07",
+      "observation": "Monica嘴角上扬、展露牙齿开怀大笑，神态亲昵自然",
+      "interpretation": "面部表情直接印证了言语中的愉悦与兴奋感",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词语气轻快，可能带有一定的随口附和成分，但面部开怀的笑容完全排除了纯应酬或中性状态。"
+}

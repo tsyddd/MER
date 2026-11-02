@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00034373",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "5a1be975f29db4b905cf5235ac6aedcea3f1639cf54f65f8e4b8e84c66b5d091",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "图像专家与图谱中的视觉描述均指出眉头紧蹙、眼神湿润及面部收紧，体现明显的不安与紧张；但图谱中的声音判断与音频字幕专家所述“没有提供音频”存在冲突，且两者均不足以提供独立听觉证据。综合可核验的视觉表现，当前情绪更偏向担忧而非中性或明确悲伤。",
+  "output": "图像专家与图谱中的视觉描述均指出眉头紧蹙、眼神湿润及面部收紧，体现明显的不安与紧张；但图谱中的声音判断与音频字幕专家所述“没有提供音频”存在冲突，且两者均不足以提供独立听觉证据。综合可核验的视觉表现，当前情绪更偏向担忧而非中性或明确悲伤。\n<answer>worried</answer>",
+  "label": "sad",
+  "elapsed_seconds": 85.93137574195862
+}

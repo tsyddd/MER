@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "Chandler当前先说“no-no-no just Ross”，再评价“Ross and Joey is embarrassing enough”[E1][E2]。他是在限制谈及的对象，并对继续牵涉他人表现出排斥；右手向外抬起、随后收回并斜视右侧，与这一拒绝语义相符[E3]。画面动作本身不能单独证明厌恶，判断主要依据他当前话语的评价方向，而不是Ross或Joey的情绪。",
+  "open_emotion": "嫌弃",
+  "answer": "disgust",
+  "mapping_reason": "这里的嫌弃指对令他觉得难堪的安排表示排斥，最接近情绪轮中disgust的反感与不愿接受；并非声称他有恶心反应。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“Ah, no-no-no just Ross. Ross and Joey is embarrassing enough.”",
+      "observation": "Chandler先限定为“just Ross”，随后说Ross和Joey已足够令人尴尬。",
+      "interpretation": "否定并限定对象，连同负面评价，支持他不愿再扩大这一安排。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "process_0、process_1、process_2",
+      "observation": "图谱将Chandler的话组织为否定、指明Ross、再作“embarrassing enough”的评价。",
+      "interpretation": "这有助于区分当前的拒绝与单纯因听到人名而惊讶；节点顺序不说明他拒绝的具体缘由。图谱涉及音频的部分仅是转述。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01（0.459秒）至frame_07（3.128秒）",
+      "observation": "Chandler抬手于身前，随后收回，后段斜视右侧并继续说话。",
+      "interpretation": "这些动作与当面限定、拒绝的表达相容，但也可能只是说话手势，不能独立确定情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "这句话也可能是带玩笑意味的调侃，而非强烈厌恶；没有提供原音轨，不能核验语调。图谱与字幕对同一句话的记载不是两份独立的听觉证据。"
+}

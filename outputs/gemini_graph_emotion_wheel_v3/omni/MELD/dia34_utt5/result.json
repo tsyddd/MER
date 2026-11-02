@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia34_utt5",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "4372539d1352a67af87f434a2856e5389f0e24e45435ccb679dbf48998afbc94",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据MELD项目适配情绪轮的定义，'surprise'是因面对违背预期的信息而产生的意外、诧异或惊奇。Rachel的反应是典型的惊讶：她因发现Monica是30岁的处女这一出乎意料的事实而瞬间睁大眼睛、张大嘴巴并发出高声惊呼。这一系列表现与'惊讶'的语义家族完全匹配，且有直接的视听证据支持。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据MELD项目的情绪轮定义，'surprise'指面对违背预期的信息而感到意外、诧异或惊奇。Rachel的台词和语调明确表达了她对'30岁还是处男'这一信息的意外，因此映射到'surprise'是准确的。"
+    },
+    "image": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据情绪轮定义，'surprise'指面对违背预期的信息而感到意外、诧异或惊奇。Rachel的面部表情（睁大眼睛、张嘴）和身体姿态（前倾）是惊讶的典型视觉表现。音频中的感叹词'OH MY GOD!'和字幕内容'You're a 30 year old virgin!'共同构成了一个违背预期的、令人意外的信息，这与'surprise'的定义完全吻合。因此，该开放情绪词被准确映射到'surprise'。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "目标人物Rachel在说出“Oh my God! You're a 30 year old virgin!”时，其面部表情（睁大眼睛、眉毛上扬、嘴巴微张）、身体姿态（前倾）和音频语调（高亢、夸张）均表现出强烈的意外与震惊。专家的图像、音频和字幕证据均一致支持这一判断。虽然该事件可能引发其他情绪，但当前最直接、最主导的表达是惊讶。因此，根据MELD项目适配情绪轮的定义，'surprise'是对此情境下主导情绪的准确映射。",
+  "output": "目标人物Rachel在说出“Oh my God! You're a 30 year old virgin!”时，其面部表情（睁大眼睛、眉毛上扬、嘴巴微张）、身体姿态（前倾）和音频语调（高亢、夸张）均表现出强烈的意外与震惊。专家的图像、音频和字幕证据均一致支持这一判断。虽然该事件可能引发其他情绪，但当前最直接、最主导的表达是惊讶。因此，根据MELD项目适配情绪轮的定义，'surprise'是对此情境下主导情绪的准确映射。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 172.4019491672516
+}

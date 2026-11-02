@@ -1,0 +1,3 @@
+{
+  "text": "在室内客厅中，Rachel、Phoebe、Monica坐在沙发上，Chandler和Joey站在一旁，背景中还有一名消防员〔context_0〕。起初，Rachel坐在沙发上说话，抱怨自己的床和衣服全被毁了〔process_0〕；此时她双手在身前捏着一件蓝色衣物且视线望向前方〔person_0〕，随后闭上眼睛低下头〔person_0 person_joint person_1〕。紧接着，Rachel单手将这件烧损的蓝色毛衣提起到胸前高处〔person_2 after person_1〕，展示给众人看并继续说话，提及自己最喜欢的蓝色毛衣〔process_1 after process_0〕〔process_0 process_joint process_1〕。这些表现可能反映出Rachel当下的注意力完全集中在火灾造成的个人财物损失上，正通过低头叹息与展示受损物品的举动向在场同伴诉说损失，处于沮丧与难以接受现状的应对状态。"
+}

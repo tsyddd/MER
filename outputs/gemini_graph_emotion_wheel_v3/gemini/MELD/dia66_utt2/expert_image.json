@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物Rachel（画面中央金发女性）在与机舱乘务员对话过程中全程展现出明显且自然的露齿微笑与弯眼表情，肢体动作轻快自然（如整理头发、调整背包并道谢），语音语调轻快友好，整体呈现出愉悦、开心的正面情绪状态。",
+  "open_emotion": "开心",
+  "answer": "joy",
+  "mapping_reason": "Rachel的面部表情表现出充分的露齿笑容与欣喜神态，属于正面愉悦体验，直接映射至joy类别。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01至frame_04 (0.71s - 2.09s)",
+      "observation": "Rachel面向乘务员交谈时，嘴角持续大幅度上扬并露出牙齿，眼角微缩，面容舒展明亮。",
+      "interpretation": "表明其在对话过程中处于愉快、轻松且积极的情感反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05至frame_06 (3.50s - 4.17s)",
+      "observation": "Rachel轻抬右手拂理额前碎发并整理背包带，脸上笑容依然保持且更加灿烂。",
+      "interpretation": "肢体语言放松自如，伴随持续的真诚笑容，强化了愉悦的情绪表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:01 - 00:04",
+      "observation": "Rachel语调轻快上扬，语气真诚且充满谢意地说出'Yes, I did. Thank you very much, it was excellent.'",
+      "interpretation": "听觉上轻快愉悦的语调印证了视觉上的开心与满意。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "面部虽有被涂画胡子的异常外貌，但其本人在此刻显然未意识到或不在意，行为动作并未表现出尴尬或掩饰，而是纯粹的礼貌与愉快。"
+}

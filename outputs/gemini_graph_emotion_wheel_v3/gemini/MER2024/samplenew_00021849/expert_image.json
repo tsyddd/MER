@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "画面中车窗外弯腰的中年男子（目标人物）神态沉着，身体微微前倾贴近车窗与车内人员交流。在[frame_01]至[frame_06]期间，他开口说话时面部肌肉平缓，眼神专注直视前方，未见明显的眉心深锁、嘴角抽动或大幅度情绪化表情变化。结合音轨中低沉、平缓而冷静的语调（'你先上我的车，先回去'），整体呈现出冷静交代与平稳沟通的特征，无强烈情绪起伏。",
+  "open_emotion": "平稳",
+  "answer": "neutral",
+  "mapping_reason": "目标人物在对话中神态从容、语调平缓，属于典型的平稳叙述与自然交流，符合neutral（中性）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01-frame_05 (0.32s-1.52s)",
+      "observation": "车窗外的中年男子弯腰交谈，面部肌肉放松，眉眼平稳，开口动作自然，无剧烈紧绷或情绪化牵拉",
+      "interpretation": "表现出冷静、克制的沟通状态，缺乏明显负向或正向主导情绪",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.0s-2.0s",
+      "observation": "男声低缓、沉稳，语速平缓，吐字清晰无颤音",
+      "interpretation": "声音平淡镇定，支持平稳、中性的状态判定",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "男子前倾身体靠近车窗且神情略微严肃，可能被解读为对当前事态或对方处境的关切与担忧（worried）。"
+}

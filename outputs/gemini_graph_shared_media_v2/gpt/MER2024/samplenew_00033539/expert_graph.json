@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "目标人物在整个片段中持续皱眉、眉心有竖纹并看向右前方，结合字幕“啊？真的。”构成对当前信息的即时惊讶与求证，而非平静陈述。[E1][E2] 图谱节点process_0与process_1支持其言语顺序，person_0/person_2支持持续皱眉；其中图谱中的声音节点只能作为转述，因未提供原音轨而不能亲耳核验。[E3]",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0s至frame_07 @ 1.96s",
+      "observation": "目标人物双眉持续紧蹙、眉心出现竖纹，嘴巴张合说话，视线保持在右前方。",
+      "interpretation": "持续的疑问式面部表现支持其正在对当前互动内容感到意外或难以置信；画面中的音响和置物架仅为背景，不作为情绪证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "当前字幕“啊？真的。”",
+      "observation": "字幕呈现先发出带问号的“啊”，随后追问“真的”。",
+      "interpretation": "这是一种针对当前信息的即时反应和求证，语义上更接近惊讶、难以置信，而不是中性的陈述。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_0、process_1、person_0、person_2",
+      "observation": "图谱记录目标人物先说“啊”再说“真的”，并记录其皱眉、面向右侧；person_1和person_3还转述为疑问/反问语调。",
+      "interpretation": "言语顺序与视觉节点共同组织出“听到当前信息后立即求证”的事件链，支持surprise；但声音部分是图谱转述，未有原音轨可直接核验。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "皱眉也可能表示担忧或困惑，因此worried是合理替代解释；但当前字幕中的“啊？真的。”明确指向对新信息的即时意外和求证，且没有足够证据表明她在担心某个未来后果，故未采用worried。"
+}

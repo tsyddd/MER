@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00025713",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "主人物头部转向右侧并面向右侧对象回应（person_0、person_2及其person_joint关系），字幕“你。你。怎么知道的？”表现出对对方知情的意外询问。随后出现短暂闭眼和张嘴（person_1、person_2），结合当下睁大眼睛、张口的表情，更符合惊讶而非中性或担忧。",
+  "output": "主人物头部转向右侧并面向右侧对象回应（person_0、person_2及其person_joint关系），字幕“你。你。怎么知道的？”表现出对对方知情的意外询问。随后出现短暂闭眼和张嘴（person_1、person_2），结合当下睁大眼睛、张口的表情，更符合惊讶而非中性或担忧。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 50.85324668884277,
+  "node_count": 6,
+  "edge_count": 2
+}

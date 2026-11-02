@@ -1,0 +1,10 @@
+{
+  "reason": "目标是左侧穿粉色上衣的Rachel；她在frame_01抬手说话，至frame_05仍皱眉、嘴唇收紧，[image:E1][image:E2]对这些画面表现的记录可信，支持她正在表达不满。字幕中的“you might as well just gotten him a fish”是在反驳对方的做法，[audio_subtitle:E1]的责备解读与画面相符，但没有音轨，不能核实语气。“fish freaked me out”指她所说的害怕经历，末帧略显担忧的神态[image:E4]也不足以表明她此刻正因眼前危险而恐惧；综合取anger。",
+  "answer": "anger",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "audio_subtitle:E1",
+    "image:E4"
+  ]
+}

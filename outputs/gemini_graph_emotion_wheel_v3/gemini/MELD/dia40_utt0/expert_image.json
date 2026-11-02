@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "目标人物Monica（身穿白色外套的黑发女性）依偎在伴侣身边，从说话状态自然过渡为展颜露齿的笑容[E1]，结合音轨中兴奋高昂的语调[E2]，表现出明显的开心与兴奋体验。",
+  "open_emotion": "开心",
+  "answer": "joy",
+  "mapping_reason": "Monica表现出明亮、开怀的笑容与兴奋的互动体验，完全契合joy家族关于愉悦、开心及兴奋的正向情感定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_04至frame_07 (0.83s-1.46s)",
+      "observation": "Monica嘴角明显上扬并展现出露齿笑容，双眼含笑，神态放松且愉快地看着前方交流对象。",
+      "interpretation": "显示出明确且持续的正向喜悦情绪，并非克制或中性的面部表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.00s-0.85s",
+      "observation": "Monica以高昂上扬、充满活力的声调喊出“Yeah baby!”。",
+      "interpretation": "声音中的兴奋与积极语调进一步排除了敷衍、被动或中性态度，强化了喜悦情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "片段前半部分（frame_00至frame_03）Monica嘴唇闭合时微笑相对内敛，可能被误判为普通的温和反应，但后半程充分绽开的笑容和高昂声调排除了单纯的平稳中性。"
+}

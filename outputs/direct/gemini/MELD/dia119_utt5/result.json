@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia119_utt5",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "Monica在说明Ben今晚要来且不能看到游戏机上的不雅记录，表情认真平静，语调平稳陈述事实，没有表现出强烈的愤怒、恐惧或喜悦等极端情绪，属于中性表达。",
+  "output": "Monica在说明Ben今晚要来且不能看到游戏机上的不雅记录，表情认真平静，语调平稳陈述事实，没有表现出强烈的愤怒、恐惧或喜悦等极端情绪，属于中性表达。\n<answer>neutral</answer>",
+  "label": "fear",
+  "elapsed_seconds": 7.0925328731536865,
+  "node_count": null,
+  "edge_count": null
+}

@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00038936",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "c613bc4c8eed706c8b1610a8aeb9393921c5fc05b8cbb31814da46e58a8148c8",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "关切",
+      "mapped_label": "worried",
+      "mapping_reason": "白衣女子针对未确证的负面事件（对方出了意外）进行试探性询问，核心在于对他人境况的顾虑与关心，符合worried家族中关于对负面情况、不确定性抱持关切（concerned）的定义，故映射为worried。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "关切",
+      "mapped_label": "worried",
+      "mapping_reason": "说话人对对方发生的潜在负面意外表达试探性的询问与挂念，符合worried家族中关于对负面情况感到关切、担心的核心定义。"
+    },
+    "image": {
+      "open_emotion": "关切担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "目标人物通过垂眸、轻微蹙眉及专注探询的凝视，表现出对对方受损或潜在不利状况的顾虑与关切，契合worried中关于对他者负面结果/风险的不安与关心特征。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "独立回看原视频与音轨，白衣女子在说出台词后半句“你好像出了点意外”时，于frame_04至frame_05出现明显的垂眸、低头并微蹙眉头，随后在frame_06至frame_07抬眼专注凝视对方[image:E1][image:E2]；实际音轨00:01-00:03处声线放轻放缓，语调带出小心试探的询问感[audio_subtitle:E1]。三位专家均观察到其面部凝神收紧与语调关切特征，尽管前半句语气相对平缓，但整体指向对对方意外风险与安危的顾虑，非单纯客观叙述。这一关切探问表现符合担忧（worried）的定义。",
+  "output": "独立回看原视频与音轨，白衣女子在说出台词后半句“你好像出了点意外”时，于frame_04至frame_05出现明显的垂眸、低头并微蹙眉头，随后在frame_06至frame_07抬眼专注凝视对方[image:E1][image:E2]；实际音轨00:01-00:03处声线放轻放缓，语调带出小心试探的询问感[audio_subtitle:E1]。三位专家均观察到其面部凝神收紧与语调关切特征，尽管前半句语气相对平缓，但整体指向对对方意外风险与安危的顾虑，非单纯客观叙述。这一关切探问表现符合担忧（worried）的定义。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 53.26640844345093
+}

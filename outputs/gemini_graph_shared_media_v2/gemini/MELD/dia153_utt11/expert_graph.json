@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "图谱节点[person_1]指明Chandler在陈述时语调平稳清晰，核查实际音频也证实其语速均匀、冷静客观，毫无颤抖或惊慌。虽然在节点[process_1]与字幕中提到了面对枪口会害怕失禁的描述，但这纯属对假想情境（if I'm staring down...）的理性解释与自嘲，其在当前现实互动中表情克制，叉腰站立动作稳定，整体呈现平静叙述的客观状态，符合neutral。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱记录Chandler语调平稳清晰地说明情况",
+      "interpretation": "体现言语表达沉稳有序，没有剧烈情绪起伏",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00 - 00:04",
+      "observation": "Chandler声音自然连贯，音调平稳，末尾没有惊呼或颤抖",
+      "interpretation": "听觉核验表明他在冷静交流，并非处于恐惧或愤怒中",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04 @ 3.25秒",
+      "observation": "Chandler右手平举在身前做解释性手势，眼神专注平静地看着Joey",
+      "interpretation": "肢体语言旨在阐释观点，神态自若无恐惧惊骇",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词提及被枪指着会吓尿，表面上容易被误判为fear；但语义上这只是对假设情形的自嘲性反驳，当前实际互动中他并无恐慌体征，故排除fear。"
+}

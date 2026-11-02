@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Phoebe的语调上扬，带有明显的反讽和调侃意味。她重复了对方的话，但用一种夸张的、不以为然的语气，表明她不相信对方的说法，并对此感到好笑。她的表情也与这种反讽的语气一致。",
+  "open_emotion": "反讽",
+  "answer": "joy",
+  "mapping_reason": "反讽是一种复杂的言语行为，但其核心是通过夸张或与字面意思相反的表达来传达一种轻松、戏谑或好笑的情绪。在当前语境下，Phoebe的反讽行为是为了表达她对对方言论的不相信和觉得好笑，这是一种积极的、愉悦的社交互动，因此映射到'joy'（喜悦）最为合适。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "So your brother's straigh huh? Seriously.",
+      "observation": "Phoebe说：'So your brother's straigh huh? Seriously.'",
+      "interpretation": "她重复了对方的话，并用反问的语气，表明她对此表示怀疑和调侃。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "Phoebe的语调上扬，带有明显的反讽和调侃意味。",
+      "interpretation": "她的语调变化表明她不是在进行严肃的提问，而是在用一种戏谑的方式表达自己的观点。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有明显的证据表明Phoebe感到愤怒、悲伤、恐惧或厌恶。她的行为和语气都指向一种轻松的社交互动，而非负面情绪。"
+}

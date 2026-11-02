@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "Chandler当前是在向Joey解释自己的假设反应，而不是正在面对枪口：[E1]。图谱的process_1也记录了这一互动，但它与字幕描述的是同一句话，不能算独立证据。画面中他用手势说明后继续面向Joey交谈[E2][E3]，更支持当前表达为neutral；图谱所述语调因未提供原音轨，只能保留为未核实的转述[E4]。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Yeah, Joe, I assure you if I'm staring down the barrel of a gun, I'm pretty much peeing every which way.",
+      "observation": "Chandler向Joe描述“如果”自己面对枪口会怎样。",
+      "interpretation": "害怕是话语中的假设情境，不能直接当作他此刻的情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 2.419081455164502秒",
+      "observation": "Chandler面向Joey说话，抬手作说明手势。",
+      "interpretation": "动作配合当下的解释，没有显示他正因眼前危险而恐惧。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05 @ 4.0457051922578735秒",
+      "observation": "Chandler继续面向Joey交谈，手臂向侧面伸出。",
+      "interpretation": "手势延续其说明；单凭动作幅度不足以判为愤怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱称Chandler说话时语调平稳清晰。",
+      "interpretation": "这是有来源的音频派生描述，但未收到原音轨，不能亲耳核实，也不作为最终判断的主要依据。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "Chandler皱眉、手势较明显，可能显得烦躁；但当前可核实的言语和动作主要是在解释假设，缺少足以确认愤怒的进一步表现。"
+}

@@ -1,0 +1,172 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Rachel对面前的人说“Yes, I did.”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Rachel接着说“Thank you very much, it was excellent.”",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "Rachel转身朝机舱出口方向走去",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Rachel脸上画着涂鸦胡子，面朝左侧女子微笑着",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Rachel说话语调客气平缓",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Rachel面带微笑注视着对方",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Rachel抬手整理头侧的头发",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_4",
+      "type": "person",
+      "content": "Rachel将身体转向背对前方并背好单肩包",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "客机机舱机门附近，Rachel正面对站在机舱门口的机组乘务人员，后方有其他乘客跟随",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "Rachel在对乘务员说“Yes, I did.”之后，接着说出“Thank you very much, it was excellent.”",
+      "entity_anchor": "Rachel的言语表达"
+    },
+    {
+      "source": "process_2",
+      "target": "process_1",
+      "relation": "after",
+      "reason": "Rachel在向乘务员致谢后，转身朝机舱出口方向走去",
+      "entity_anchor": "Rachel的行为动作"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "Rachel在面朝左侧女子微笑说话的同时，语调表现得客气平缓",
+      "entity_anchor": "Rachel的神态与语音表现"
+    },
+    {
+      "source": "person_2",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "Rachel在最初面对女子微笑后，持续保持微笑注视着对方",
+      "entity_anchor": "Rachel的面部神态"
+    },
+    {
+      "source": "person_3",
+      "target": "person_2",
+      "relation": "after",
+      "reason": "Rachel在注视对方微笑之后，抬手整理头侧的头发",
+      "entity_anchor": "Rachel的肢体动作"
+    },
+    {
+      "source": "person_4",
+      "target": "person_3",
+      "relation": "after",
+      "reason": "Rachel在整理完头发之后，将身体转向背对前方并背好单肩包",
+      "entity_anchor": "Rachel的肢体动作"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提供对乘务员问话的肯定回答，process_1提供随后的致谢与称赞，两者联合构成了Rachel针对机组询问的完整语言应答闭环。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_1",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "process_1提供言语上的道谢与评价，process_2提供转身离开的物理动作，两者联合构成了与乘务员告别并下机的完整互动过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供了Rachel脸上画着涂鸦胡子且微笑的视觉面貌，person_1提供了其平缓客气的声调（audio），音画联合补充呈现出她在带有滑稽面部标记的同时表现得极其礼貌自然的状态。",
+      "entity_anchor": null
+    }
+  ]
+}

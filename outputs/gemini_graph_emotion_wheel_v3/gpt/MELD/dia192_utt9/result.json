@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia192_utt9",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "253cfc3d29025f100a084a4a4129a2710aa0f001fea7ff86d0942be80fadcdf5",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "不满",
+      "mapped_label": "anger",
+      "mapping_reason": "这里的“不满”主要表现为面向当前互动的质问，接近情绪轮中责备、对抗方向的anger；证据不足以断定她强烈愤怒。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "不满",
+      "mapped_label": "anger",
+      "mapping_reason": "此处的不满指向对他人话语的反驳，按情绪轮中责备、对抗的方向，最接近anger；这不表示她必然强烈愤怒。"
+    },
+    "image": {
+      "open_emotion": "不满",
+      "mapped_label": "anger",
+      "mapping_reason": "此处的不满主要表现为对他人话语的反问与回应，较接近情绪轮中责备、对抗方向的anger；画面不足以支持强烈愤怒。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "核对frame_05至frame_07，目标人物Monica从男子身后走向餐桌，末帧张口并伸手，符合正在回应桌边人物，但动作本身不能证明愤怒；[image:E1]对此的限定可信。字幕“What?! Excuse me!”中的“What?!”可表示意外，但连着“Excuse me!”更像提出异议，支持不满而非单纯惊讶[audio_subtitle:E1]。画面中她似有轻微笑意，且没有提供音轨，无法核实语气或断言强烈愤怒；综合当前话语与互动方向，选择anger。",
+  "output": "核对frame_05至frame_07，目标人物Monica从男子身后走向餐桌，末帧张口并伸手，符合正在回应桌边人物，但动作本身不能证明愤怒；[image:E1]对此的限定可信。字幕“What?! Excuse me!”中的“What?!”可表示意外，但连着“Excuse me!”更像提出异议，支持不满而非单纯惊讶[audio_subtitle:E1]。画面中她似有轻微笑意，且没有提供音轨，无法核实语气或断言强烈愤怒；综合当前话语与互动方向，选择anger。\n<answer>anger</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 82.25432753562927
+}

@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "Janice在与男士对话时，其肢体语言和声音特征表现出一种夸张、戏剧化且带有强烈个人色彩的表达方式。她先是双臂交叉抱胸，随后抬起双手在胸前做出生动的手势比划，同时以高亢、带鼻音且抑扬顿挫的语调说出关于“木偶”和“残酷剧场”的话语。这种表达方式并非基于对事实的陈述，而是通过一种富有想象力和表演性的语言来强调或戏谑对方的观点，其核心在于一种夸张的、带有表演性质的戏剧化表达，而非真实的愤怒、恐惧或厌恶。因此，最贴切的开放情绪是“戏剧化”或“夸张的表演”，这映射到数据集情绪轮中，最接近的标签是“surprise”，因为其表达方式出人意料且具有强烈的冲击力，旨在让对方感到惊讶或被戏谑。",
+  "open_emotion": "戏剧化",
+  "answer": "surprise",
+  "mapping_reason": "根据数据集情绪轮的定义，'surprise'（惊讶）是因面对违背预期的信息而产生的意外、诧异或惊奇。Janice的表达方式——高亢的声调、夸张的手势以及关于“残酷剧场”的离奇想法——完全违背了普通对话的预期，旨在制造一种强烈的冲击和意外感。尽管她的语气可能带有轻微的戏谑或厌恶，但主导情绪是其表达方式的出人意料和戏剧性，这与'surprise'的语义家族最为契合。其他情绪如'anger'或'disgust'需要更直接的对抗或排斥证据，而'joy'则与这种带有表演性质的负面戏谑不符。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "Janice双臂交叉抱在胸前，面朝男士注视对方。",
+      "interpretation": "这一姿态表明她正处于一个专注且带有一定防御或审视意味的对话状态，为后续的戏剧化表达提供了背景。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02至frame_05",
+      "observation": "Janice抬起双手在胸前配合话语做出手势比划。",
+      "interpretation": "这一动作是其戏剧化表达的关键组成部分，表明她正在通过肢体语言来生动地描绘一个想象中的场景。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00-00:07",
+      "observation": "Janice以高亢、带有鼻音且抑扬顿挫的语调说出“Because you know, you could make little puppets out of them, and you could use them in your theater of cruelty.”",
+      "interpretation": "这种夸张的声调和离奇的内容共同构成了其戏剧化表达的核心，旨在制造一种强烈的、出人意料的效果。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "Janice 语调高亢带有鼻音，语速抑扬顿挫。",
+      "interpretation": "该节点描述了Janice声音的戏剧化特征，是其夸张表达方式的直接证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有直接的证据表明Janice感到愤怒、悲伤或恐惧。她的表达方式虽然夸张，但缺乏这些情绪所特有的生理和行为线索（如面部肌肉的特定收缩、攻击性姿态等）。"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00035837",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "50fa078e2d97eec8a574cbe583ec63c1368c6298089bae3bc9b79dd5c68cb064",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "哀伤",
+      "mapped_label": "sad",
+      "mapping_reason": "她当前表达的是对已发生的亲属失去的低落感受，符合sad所指的哀痛，而不是以未来风险为中心的worried。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "失落",
+      "mapped_label": "sad",
+      "mapping_reason": "当前表达着重于已发生的失去，符合sad所指的失落与低落，而非对未来风险的担忧。"
+    },
+    "image": {
+      "open_emotion": "失落",
+      "mapped_label": "sad",
+      "mapping_reason": "失落指向已发生的亲人离去，按情绪轮映射为sad；这一判断主要由克制的表情和字幕共同支持，视觉本身不能单独确定悲伤。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "字幕“我知道，在这个世上，再也没有亲人了”是目标女子对自身处境的陈述，焦点在已经发生的失去；[audio_subtitle:E1]对此的解释可信，但不能据此独立核实亲属状况。八帧中她大多垂眼、神情收敛，与失落相容，不过这种表情单独不足以定类[image:E1]。frame_03至frame_05可见嘴角短暂轻微上扬，但没有持续的愉悦表现[image:E2]；结合字幕，克制的失落比喜悦或平稳叙述更能解释当前表现。未提供音轨，因此不依据语调判断。",
+  "output": "字幕“我知道，在这个世上，再也没有亲人了”是目标女子对自身处境的陈述，焦点在已经发生的失去；[audio_subtitle:E1]对此的解释可信，但不能据此独立核实亲属状况。八帧中她大多垂眼、神情收敛，与失落相容，不过这种表情单独不足以定类[image:E1]。frame_03至frame_05可见嘴角短暂轻微上扬，但没有持续的愉悦表现[image:E2]；结合字幕，克制的失落比喜悦或平稳叙述更能解释当前表现。未提供音轨，因此不依据语调判断。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 68.0777337551117
+}

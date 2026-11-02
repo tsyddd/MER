@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035599",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sad",
+  "emotion_analysis": "女子在开口说出台词时眉毛微蹙（person_0），同时伴随着低沉且带有抽噎停顿与颤音的语调（person_1），两者同步发生（person_1 simultaneous person_0）。随后她眼帘低垂、头部微微低下（person_2 after person_0），面容充满悲伤与感伤，充分印证其极度悲痛的情绪状态。",
+  "output": "女子在开口说出台词时眉毛微蹙（person_0），同时伴随着低沉且带有抽噎停顿与颤音的语调（person_1），两者同步发生（person_1 simultaneous person_0）。随后她眼帘低垂、头部微微低下（person_2 after person_0），面容充满悲伤与感伤，充分印证其极度悲痛的情绪状态。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 49.4710488319397,
+  "node_count": 6,
+  "edge_count": 6
+}

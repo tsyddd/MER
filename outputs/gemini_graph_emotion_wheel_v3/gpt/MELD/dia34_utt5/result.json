@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia34_utt5",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "4372539d1352a67af87f434a2856e5389f0e24e45435ccb679dbf48998afbc94",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "当前反应指向出乎预期的信息，符合surprise的诧异；没有可核实的威胁或责备表达足以改判为fear或anger。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "当前主导反应是对出乎预期的信息感到诧异，符合surprise；句中谈及的事实本身不能证明她在厌恶或责备。"
+    },
+    "image": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "Rachel当前的表情变化和话语指向对出乎预期的信息感到意外，符合surprise；字幕本身不能证明她感到害怕或厌恶。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "目标是右侧穿粉色外套的Rachel；frame_00至frame_02她看向身旁女子，张口、抬眉，随后伸手比划，[image:E1]的视觉描述与画面相符。字幕“Oh my God! You’re a 30 year old virgin!”以惊叹开头，支持她对信息感到诧异；[audio_subtitle:E1]引用的字幕可核对，但未提供音轨，不能据此判断语调。后几帧她皱眉注视对方，[image:E2]所述也可核对，可能带有质疑，但没有比意外反应更明确的责备或排斥证据，因此取惊讶。",
+  "output": "目标是右侧穿粉色外套的Rachel；frame_00至frame_02她看向身旁女子，张口、抬眉，随后伸手比划，[image:E1]的视觉描述与画面相符。字幕“Oh my God! You’re a 30 year old virgin!”以惊叹开头，支持她对信息感到诧异；[audio_subtitle:E1]引用的字幕可核对，但未提供音轨，不能据此判断语调。后几帧她皱眉注视对方，[image:E2]所述也可核对，可能带有质疑，但没有比意外反应更明确的责备或排斥证据，因此取惊讶。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 68.65300130844116
+}

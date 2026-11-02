@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "目标女子在当前说话过程中眉头微蹙，随后持续垂眼、神情低落[E1][E2]。图谱节点process_0对应她正在说“手里还握着一截风筝线”，但这句话只是在描述一个细节，不能据此断定她此刻握着线，或推断已经发生了什么损失[E3]。图谱对声音的描述可能补充情绪线索，但未提供原音轨，不能当作亲耳核实的事实[E4]。综合可核实的当前画面，判断为低落。",
+  "open_emotion": "低落",
+  "answer": "sad",
+  "mapping_reason": "低落属于sad所涵盖的当前情绪表现；这里主要依据她说话时持续的低垂神情，而非把风筝线的叙述推断为已发生的损失。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_03（0.92秒）",
+      "observation": "女子说话时眉头微蹙，神情不舒展。",
+      "interpretation": "支持她当前并非平稳、愉悦地叙述，但单凭皱眉不足以定类。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04（1.24秒）至frame_07（2.16秒）",
+      "observation": "她继续垂眼说话，神情显得低落。",
+      "interpretation": "与前段表情构成持续的当前表现，更支持低落，而非获知消息瞬间的惊讶。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“手里还握着一截风筝线。”",
+      "observation": "字幕描述握着一截风筝线，未明说说话者是谁，也未交代事情的结果。",
+      "interpretation": "提供当前话语内容，却不足以单独证明悲伤或担忧。",
+      "polarity": "uncertain"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱转述女子语调低沉，带有颤音与抽噎般停顿。",
+      "interpretation": "若转述准确，可补充支持低落；由于没有原音轨，此声音特征无法亲耳核验。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "皱眉和垂眼也可能表示担忧；但当前话语未指出尚未发生的风险，画面也未显示明确的警觉反应，因此不优先判为worried。"
+}

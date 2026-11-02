@@ -1,0 +1,8 @@
+{
+  "reason": "目标人物Janice在接收到对方出人意料的答复后，首句以显著拔高的感叹调发问，音轨核验显示其“Oh, are you sure?”尾音强烈上挑[audio_subtitle:E2]，充满对打破既有预期的诧异感。画面前段frame 0至frame 2中她抱臂微挑眉毛且嘴部微张[image:E1]，神态专注而带有探究与不敢置信，有效排除了平稳客观的中性（neutral）。尽管后半段她展开手势提出做木偶的提议看似轻松活跃，但当前语句的核心驱动力仍是对对方决定的意外反应，因此准确归入surprise家族。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "audio_subtitle:E2",
+    "image:E1"
+  ]
+}

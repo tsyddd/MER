@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia198_utt2",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "3e5a8a4993b19ac3f6e4c36023c416407d12023be7b4a0e80d447afe6996d7d7",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "目标是左侧白衬衫的Joey；[image:E2]所述的手势展开后收起、眉头蹙起，可在对应画面核实，显示他从强调话语转为较严肃地看向对方。字幕中的“standing-there team”是针对对方的挖苦，[audio_subtitle:E1]据此读出责备有一定依据，但措辞本身不能证明愤怒。最强反证是这句话也可能只是朋友间的玩笑；结合后段持续蹙眉，仍以带有不满的责备更贴合当前表现，尽管并非强烈发怒。未提供音轨，不能用语调进一步区分两种解释。",
+  "output": "目标是左侧白衬衫的Joey；[image:E2]所述的手势展开后收起、眉头蹙起，可在对应画面核实，显示他从强调话语转为较严肃地看向对方。字幕中的“standing-there team”是针对对方的挖苦，[audio_subtitle:E1]据此读出责备有一定依据，但措辞本身不能证明愤怒。最强反证是这句话也可能只是朋友间的玩笑；结合后段持续蹙眉，仍以带有不满的责备更贴合当前表现，尽管并非强烈发怒。未提供音轨，不能用语调进一步区分两种解释。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 83.06015992164612
+}

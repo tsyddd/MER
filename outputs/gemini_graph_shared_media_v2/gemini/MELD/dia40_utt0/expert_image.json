@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "目标人物Monica从frame_00的微笑逐渐绽开为frame_04至frame_07明显的露齿大笑[E1]，眼神明亮舒展，姿态放松，结合欢快亲昵的语音内容[E2]，视觉表现明确指向愉悦与开心情绪。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_05 @ 1.0427075237778025",
+      "observation": "Monica面部肌肉上扬，嘴角大幅拉开露出整齐牙齿，眼角伴有笑意，正对前方倾听并回应。",
+      "interpretation": "面部呈现典型的真实微笑与开心神情，表明内心情绪愉悦活跃，有力支持joy。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Yeah baby!",
+      "observation": "台词为口语化的积极赞同/庆祝短语“Yeah baby!”。",
+      "interpretation": "语言内容强化了视觉上看到的亲密与愉悦氛围，排除了勉强假笑或礼貌性回应的可能。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强相反解释为平静交谈的neutral，但Monica在整个后半段均呈现明显的露齿笑容且面部特征极其生动活跃，缺乏支持neutral的平淡面容与僵硬表现。"
+}

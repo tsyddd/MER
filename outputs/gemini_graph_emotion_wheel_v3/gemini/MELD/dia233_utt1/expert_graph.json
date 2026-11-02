@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "在当前对话事件链中，Rachel就对方的某一决定展开反驳。从图谱节点[process_0]与[process_1]的言语链条可见，Rachel用假设性反讽（“you might as well just gotten him a fish”）以及搬出自己排斥鱼的既定事实进行质问。尽管台词中提到了“freaked me out”，但这属于转述自身对鱼的心理反应，而非当前面临即时危险的恐惧；她的实际互动目的是因对方的行为未顾及自己而进行责备与抱怨。结合视觉上摊开双手、眉心紧蹙的不满神态[E2]以及急促指责的音调[E3]，其主导情绪为指向对方的恼火与气恼，属于愤怒家族。",
+  "open_emotion": "恼火",
+  "answer": "anger",
+  "mapping_reason": "Rachel针对对方不当做法提出质问与反驳，呈现出责备与烦躁的不满对抗姿态，符合情绪轮中anger（对受阻或不公的恼火、责备与对抗）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "图谱记录Rachel以带有反讽假设的句式质问对方“you might as well just gotten him a fish”",
+      "interpretation": "体现出对对方决定的直接反对与言语责难",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02",
+      "observation": "Rachel双臂摊开，嘴角下拉，眉头紧锁注视对方",
+      "interpretation": "强烈的肢体强调与不悦表情表明其正在向对方表达不满",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:01-00:04",
+      "observation": "语速偏快，语调急促上挑并在“fish”、“freaked me out”处加重音",
+      "interpretation": "语气带有鲜明的责怪与烦躁情绪，强化了对抗性指责",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词提及“fish freaked me out”容易被表面词义误判为fear，但结合事件语境，这仅为支撑其指责对方而引述的个人偏好，非当前面临即时威胁的恐惧表现。"
+}

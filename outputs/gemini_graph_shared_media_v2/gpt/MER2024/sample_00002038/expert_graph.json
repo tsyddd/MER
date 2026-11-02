@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "当前片段中女性持续蹙眉、眉心隆起并朝画面右侧注视，随后询问“他是谁呀？”。这些当前证据共同指向对眼前人物或情况的不安与疑虑，因此判断为worried；图谱中的person_0和person_1与画面可核实表现一致，而声音节点仅作为图谱转述保留不确定性。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00–frame_07 @ 0.0–0.8秒",
+      "observation": "女性在连续画面中双眉紧蹙、眉心隆起，视线持续朝向画面右侧。",
+      "interpretation": "持续的面部紧张和对特定方向的警觉注视支持当前存在担忧或疑虑，而非轻松中性状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "当前字幕：“他，是谁呀？”",
+      "observation": "女性正在询问画面右侧相关人物的身份。",
+      "interpretation": "对眼前人物身份的即时追问与蹙眉表情结合，更符合不安/疑虑；单凭问句本身不能确定是担忧还是惊讶。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_0；person_1",
+      "observation": "图谱分别记录“女性双眉紧蹙，眉心隆起”和“女性视线朝向画面右侧方向”。",
+      "interpretation": "这两个图谱节点与原始画面相互核对后成立，并共同连接当前询问对象与紧张表情，支持worried。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱转述女性“发声音量偏低，语调上扬呈疑问语气”，但当前未提供原音轨，无法亲耳核验。",
+      "interpretation": "该声音信息可作为有来源但未直接核验的辅助证据；它支持疑问状态，却不能单独证明担忧。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "最强的替代解释是surprise：询问“他是谁呀？”和张口表情也可能表示突然惊讶。但画面中从frame_00到frame_07持续存在蹙眉与凝视，缺少明显短暂、扩大的惊讶表现，因此优先采用worried；仍缺少原音轨和更完整上下文来进一步区分担忧与惊讶。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00034518",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "画面中正对镜头的年长女性眉头紧锁，眼神充满忧虑地看着对方。她口中关切地询问“是不是家里又出什么事了”，语气和神态均展现出明显的担忧与不安。",
+  "output": "画面中正对镜头的年长女性眉头紧锁，眼神充满忧虑地看着对方。她口中关切地询问“是不是家里又出什么事了”，语气和神态均展现出明显的担忧与不安。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 6.308145523071289,
+  "node_count": null,
+  "edge_count": null
+}

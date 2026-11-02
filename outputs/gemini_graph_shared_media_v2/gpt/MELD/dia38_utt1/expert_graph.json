@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "Joey在当前对话中说自己为学生获得试镜机会感到骄傲；试镜是他提到的事，并非画面中正在发生的事[E1]。他面对听话者双手按胸，随后露出笑容[E2][E3]，与欣喜、骄傲的表达相符。图谱所述柔和声调因未提供原音轨，只能保留为未核实的转述，不能作为听觉证据[E4]。因此选择joy。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Awww, one of my students got an audition. I’m so proud.",
+      "observation": "Joey说一名学生获得试镜机会，并明确说“I’m so proud”。",
+      "interpretation": "这是Joey对所述消息表达的当前感受，不是学生的情绪，也不表示试镜正在现场发生。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_07 @ 3.420080677991192秒",
+      "observation": "Joey面向对方，双手按在胸前，嘴角上扬。",
+      "interpretation": "可见的笑容与他表达骄傲时的欣喜相符；表情与姿势各提供不同的外显线索。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱记载Joey双手交叉按在胸前；该动作可在画面中核对。",
+      "interpretation": "该节点帮助定位当前说话者的动作，但与画面中的按胸动作是同一事实，不重复计作独立证据，也不能单凭节点顺序推断动作原因。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱称Joey发出轻叹，语速平稳柔和；输入未提供原音轨。",
+      "interpretation": "这是未能亲耳核验的图谱音频转述，不据此确定他的语调或否定该节点。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "按胸和轻叹也可能表示感伤或担忧；但轻叹无法核验，且当前字幕明确表达骄傲、画面末尾有笑容，故未采用sadness。"
+}

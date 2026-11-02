@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "在事件链中，Phoebe与男子保持亲密站姿，右手轻搭在其胸口[person_0]，以轻松带笑的语调向对方发出带有调侃意味的询问[person_1][E2]，随后两人对视微笑互动[process_1]。整套肢体接触与发声表现出愉悦、打趣的调情氛围，具有明确的正向效价。",
+  "open_emotion": "amused",
+  "answer": "joy",
+  "mapping_reason": "开放情绪'amused'（感到好笑、愉悦调侃）属于正向愉悦体验，根据情绪轮映射规则，归入包含开心、愉悦与满足体验的joy家族。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01至frame_04",
+      "observation": "Phoebe近距离凝视面前男子，右手轻搭在男子胸膛，面带微笑并开口交谈。",
+      "interpretation": "亲昵自然的肢体语言与笑意表明其享受当下的互动，非严肃或冷淡状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "Phoebe语调轻快上扬，在说出'huh?'后伴有明显的轻笑声。",
+      "interpretation": "印证图谱节点[person_1]的描述，声音中的笑意直接体现了其戏谑、开心的情绪状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "图谱记录Phoebe注视男子且右手搭在男子胸前说话。",
+      "interpretation": "体现双方互动亲密无隔阂，为当前言语的调侃性质提供情境支撑。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "如果仅从台词字面来看，询问性疑问句易被误判为neutral，但结合音频中的轻笑声及手搭胸膛的亲近肢体动作，排除了单纯客观询问的neutral假说。"
+}

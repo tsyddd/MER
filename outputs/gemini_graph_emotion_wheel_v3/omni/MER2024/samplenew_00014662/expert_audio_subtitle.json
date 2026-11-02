@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者在音频中表达了对某件事可能牵连到对方家老爷子的担忧。她的语调平稳，没有明显的音高或语速变化，表明这是一种平静的陈述，而非激动的表达。字幕内容直接证实了她正在表达一种顾虑。综合来看，她的主要情绪是针对未来可能发生的负面结果的忧虑。",
+  "open_emotion": "担忧",
+  "answer": "worried",
+  "mapping_reason": "根据情绪轮的定义，'worried'（担忧）指对可能的负面结果、风险或未知的顾虑、焦虑和不安。说话者明确使用了'担心'一词，并表达了对'牵连'这一负面后果的顾虑，这与'worried'的定义完全吻合。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "我主要是担心这事会牵连到您家老爷子。",
+      "observation": "字幕显示说话者使用了'担心'一词，并表达了对'牵连'这一负面后果的顾虑。",
+      "interpretation": "这直接表明了说话者的核心情绪是担忧。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:04",
+      "observation": "说话者的语调平稳，没有明显的音高或语速变化，声音清晰。",
+      "interpretation": "平稳的语调支持了这是一种平静的陈述，而非激动的表达，与担忧的情绪相符。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。"
+}

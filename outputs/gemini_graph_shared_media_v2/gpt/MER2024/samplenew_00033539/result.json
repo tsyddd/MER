@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00033539",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "a415fec142e7ddeeb3ecfd6ae5f20bd235ccd0be39b7230d3d3b9654add4a754",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "我核对了frame_00至frame_07：目标人物持续眉头紧蹙、张口并看向右侧，字幕为“啊？真的？”，呈现对新信息的即时意外与求证。图像专家对眉间紧缩和张口的观察可信，但其“惊讶”解释与担忧仍有重叠[image:E1]；字幕专家确认疑问和确认语义，但明确指出无音轨，不能核验语调[ audio_subtitle:E1 ]。持续皱眉是worried的最强反证，不过缺少明确的未来威胁或悲伤表现，因此取surprise。",
+  "output": "我核对了frame_00至frame_07：目标人物持续眉头紧蹙、张口并看向右侧，字幕为“啊？真的？”，呈现对新信息的即时意外与求证。图像专家对眉间紧缩和张口的观察可信，但其“惊讶”解释与担忧仍有重叠[image:E1]；字幕专家确认疑问和确认语义，但明确指出无音轨，不能核验语调[ audio_subtitle:E1 ]。持续皱眉是worried的最强反证，不过缺少明确的未来威胁或悲伤表现，因此取surprise。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 186.36815357208252
+}

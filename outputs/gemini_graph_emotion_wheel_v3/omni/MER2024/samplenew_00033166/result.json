@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00033166",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "601e004fdfc952c53a92b0a0ecef60e492bda4cb92d703eefffcf73140a33a83",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "惊讶与愤怒",
+      "mapped_label": "angry",
+      "mapping_reason": "根据情绪轮定义，'angry'（愤怒）指对受阻、冒犯或不公的生气、责备、敌意及对抗倾向。目标人物的质问语气和上扬的语调是责备和对抗的直接表现，其惊讶源于对“悉数倒戈”这一可能性的难以置信，这种惊讶是愤怒情绪的前奏和组成部分。因此，主导情绪是愤怒。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据情绪轮定义，'惊讶'（surprise）指因当前信息违背预期而产生的意外、诧异或震惊。说话者使用反问句'难道...不成？'，其语调上扬，表现出对所谈论事件的难以置信，这与'惊讶'的定义完全吻合。"
+    },
+    "image": {
+      "open_emotion": "愤怒",
+      "mapped_label": "angry",
+      "mapping_reason": "根据情绪轮定义，'angry'指对受阻、冒犯或不公的生气、责备、敌意及对抗倾向。目标人物的台词“难道都要悉数倒戈？不成？”是一种强烈的反问，表达了对他人行为的强烈不满和挑战。其面部表情（微蹙的眉毛、专注的眼神、微张的嘴唇）与这种对抗性的台词内容高度一致，共同构成了一个明确的责备和对抗姿态，因此最符合'angry'的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "angry",
+  "emotion_analysis": "目标人物的台词“难道都要悉数倒戈？不成？”是一个带有强烈质问和挑战意味的反问句，其语调高昂，与音频中上扬的语调特征相符，表明其情绪并非中性。虽然有专家认为这是惊讶，但惊讶通常是对意外信息的即时反应，而此处的反问句式和对抗性语调更侧重于表达对他人行为的不满和责备。结合其严肃的表情和专注的眼神，这些视觉表现与对抗性言语内容高度一致，共同指向一种责备和对抗的倾向，因此更符合'angry'的定义。[audio_subtitle:E1]、[image:E2]、[image:E3]。",
+  "output": "目标人物的台词“难道都要悉数倒戈？不成？”是一个带有强烈质问和挑战意味的反问句，其语调高昂，与音频中上扬的语调特征相符，表明其情绪并非中性。虽然有专家认为这是惊讶，但惊讶通常是对意外信息的即时反应，而此处的反问句式和对抗性语调更侧重于表达对他人行为的不满和责备。结合其严肃的表情和专注的眼神，这些视觉表现与对抗性言语内容高度一致，共同指向一种责备和对抗的倾向，因此更符合'angry'的定义。[audio_subtitle:E1]、[image:E2]、[image:E3]。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 199.83299684524536
+}

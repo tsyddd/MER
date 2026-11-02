@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "男子大声说出“诚实是做生意的根本”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "男子声音洪亮，发音用力且音量较高",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "男子身体前倾低头，面部肌肉紧绷，咧嘴露齿大张",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "男子头部及上半身逐渐抬起挺正",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "男子目光注视前方偏下方，嘴角下撇，嘴唇微闭",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内墙壁上挂着多排黑色立轴字牌",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "一名留有短胡须的中年男子身穿灰褐色中式斜襟棉服",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "男子在身体前倾低头并咧嘴露齿大张之后，头部及上半身逐渐抬起挺正",
+      "entity_anchor": "同一男子"
+    },
+    {
+      "source": "person_3",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "男子在面部紧绷、咧嘴露齿大张之后，转为嘴角下撇、嘴唇微闭",
+      "entity_anchor": "同一男子"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "男子在声音洪亮、发音用力高亢的同时，身体前倾低头且咧嘴露齿大张",
+      "entity_anchor": "同一男子"
+    },
+    {
+      "source": "person_3",
+      "target": "person_2",
+      "relation": "simultaneous",
+      "reason": "男子头部及上半身抬起挺正的同时，目光注视前方偏下方且嘴唇微闭",
+      "entity_anchor": "同一男子"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供听觉上大声用力、音量较高的发声事实，person_1提供视觉上身体前倾低头、面部紧绷且咧嘴大张的动作，二者音画互补完整呈现男子发话时激昂用力的表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_2",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_2描述男子头部及身躯由前倾逐渐挺正的姿态变化，person_3补充其目光下视、嘴角下撇收拢的面容神态，二者结合构成了发声后半段体态与神情的完整表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0指明背景挂满黑色立轴字牌的室内陈设，context_1界定了身着传统斜襟棉服的中年男子形象，两者结合更全面限定了具有传统商贾或书斋氛围的特定场景与人物身份情境。",
+      "entity_anchor": null
+    }
+  ]
+}

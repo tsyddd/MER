@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Monica说“Pheebs, it’s going great”，是在向对方表达事情进展顺利；随后用“Look at Chandler with little baby girl Chandler”邀请对方关注眼前情景。[E1] 她说话期间面带笑容，并低头看着怀中的婴儿，[E2]与正向表达一致。没有提供音频，无法判断语调是否带有反讽。",
+  "open_emotion": "愉悦",
+  "answer": "joy",
+  "mapping_reason": "当前话语的正向评价与持续的笑容共同支持愉悦，符合joy所指的开心、愉悦体验。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“Pheebs, it’s going great. Look at Chandler with little baby girl Chandler.”",
+      "observation": "Monica称事情进展很好，并邀请对方看眼前的情景。",
+      "interpretation": "这是当前的正向评价，而非仅仅提到一个情绪词。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04（3.295秒）至frame_07（5.797秒）",
+      "observation": "Monica抱着婴儿，持续微笑，转头后又低头看向婴儿。",
+      "interpretation": "表情与话语中的正向评价相符，支持她此刻感到愉悦。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "“it’s going great”也可能是礼貌话或反讽；但现有画面未显示明显的表情冲突。由于没有音频，不能用语调进一步排除这一解释。"
+}

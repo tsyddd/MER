@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00003759",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "d4dc715827dd04c5c7e8bd03b9c748a147a401e0b3bbb9649b82a034b9612827",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "中性",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据观察，目标人物在当前片段中的行为主要是对另一方话语的回应，其面部表情和姿态（抿唇、张口、侧身）是自然的交流状态，没有表现出强烈的正向或负向情绪。虽然她可能在思考或评估对方的话，但其当前的表达是平稳的，符合“平稳叙述、自然交流或无明确主导情绪的表达”的定义，因此映射为neutral。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据情绪轮定义，'surprise'（惊讶）是因当前信息违背预期而产生的意外或诧异。目标人物的言语内容和语调都强烈支持这一解释，她并非在表达愤怒、悲伤或担忧，而是对一个出乎意料的说法做出反应。"
+    },
+    "image": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据情绪轮的定义，'surprise'（惊讶）是因当前信息违背预期而产生的意外、诧异或震惊。目标人物的面部表情（睁大的眼睛、上扬的眉毛）和话语内容（“是吗？”）都强烈支持这一情绪。她的表情和语气并非愤怒、悲伤或担忧，而是对一个新信息的即时反应。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "目标人物的言语内容“是吗？他真这么说的？”和上扬的语调是惊讶情绪的直接证据。她的面部表情（睁大的眼睛、上扬的眉毛）与言语和语调共同支持了惊讶的判断。虽然专家graph认为其行为是平稳的交流，但该解释未能充分考虑其言语和语调的即时反应特征。相比之下，audio_subtitle和image专家的证据（字幕、音频语调、面部表情）是直接且互补的，共同指向惊讶。因此，应采纳更具体的多模态证据。",
+  "output": "目标人物的言语内容“是吗？他真这么说的？”和上扬的语调是惊讶情绪的直接证据。她的面部表情（睁大的眼睛、上扬的眉毛）与言语和语调共同支持了惊讶的判断。虽然专家graph认为其行为是平稳的交流，但该解释未能充分考虑其言语和语调的即时反应特征。相比之下，audio_subtitle和image专家的证据（字幕、音频语调、面部表情）是直接且互补的，共同指向惊讶。因此，应采纳更具体的多模态证据。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 177.23955941200256
+}

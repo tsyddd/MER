@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物为画面中身着白色中式练功服、扎马尾的女子。从视觉序列来看，前期（frame_00至frame_03）她平视对方开口交谈；在提到对方发生事故时（frame_04至frame_05），头部与视线明显微垂，眉头微蹙并伴有嘴唇紧敛；随后的frame_06至frame_07中，她重新抬眸凝视对方，眉心聚拢、神情凝重关切，体现出对对方遭遇意外的顾虑与探询不安，视觉表现明显由初始的叙述转向担心的情感倾斜。",
+  "open_emotion": "关切担忧",
+  "answer": "worried",
+  "mapping_reason": "目标人物通过垂眸、轻微蹙眉及专注探询的凝视，表现出对对方受损或潜在不利状况的顾虑与关切，契合worried中关于对他者负面结果/风险的不安与关心特征。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_04至frame_05 (2.12s-2.64s)",
+      "observation": "女子目光下落，双眉向内微聚，头部低垂，面部肌肉呈现轻微的凝滞与收紧。",
+      "interpretation": "在提及负面事件时表现出下意识的情感沉重与关切回避，体现出内心不安。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_06至frame_07 (3.16s-3.68s)",
+      "observation": "女子重新抬眼看向对方，双眼专注凝视，眉头微敛，嘴唇微阖。",
+      "interpretation": "展现出确认对方安危状况的探询与挂念神色，强化了担忧情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "不过 我最近听他们说 你好像出了点意外",
+      "observation": "台词提及对方遇到意外状况并进行试探性询问。",
+      "interpretation": "语言内容证实了其关注点在于对方的不幸遭遇，为视觉上的关切神态提供了合理背景支持。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "片段前半段（frame_00至frame_02）面部肌肉较为松弛，语气开头接近平常平稳陈述，可能引起初始为中性（neutral）的解释；但后半段微表情显著向关切收拢，排除了纯粹中性。"
+}

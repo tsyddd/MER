@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "目标人物在初始阶段双眉紧蹙、眉心出现竖纹，同时发出短促的升调疑问声（person_0与person_1），表现出惊讶或质疑；随后他开口说“真的”，语调带有反问意味（person_3），且面部保持皱眉神态（person_2），视听信息一致显示其情绪为对某事的难以置信或求证，符合'surprise'标签。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "person_2",
+    "person_3"
+  ]
+}

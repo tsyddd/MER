@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Phoebe问“So your brother's straigh huh? Seriously.”，是在向对方确认信息；“Seriously”是追问，不能单凭这个词判为震惊。[E1] 她说话时看着对方，表情逐渐转为明显的笑容，支持她对这段交流感到愉悦。[E2]",
+  "open_emotion": "愉悦",
+  "answer": "joy",
+  "mapping_reason": "当前可见的笑容支持正向、愉悦的体验，因此映射为joy；问句本身不构成surprise的充分证据。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "So your brother's straigh huh? Seriously.",
+      "observation": "字幕是一句关于对方兄弟的确认性问话，随后以“Seriously”追问。",
+      "interpretation": "表达了兴趣和求证，但词句本身不足以确定她是震惊还是开心。",
+      "polarity": "uncertain"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02（0.667秒）至frame_04（1.293秒）",
+      "observation": "Phoebe面对对方，嘴角上扬，笑容逐渐变得明显。",
+      "interpretation": "与愉悦地继续交谈相符，支持joy。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的替代解释是她因消息出乎意料而感到惊讶：“Seriously”确有求证意味。但画面未见明显受惊反应；且未提供音频，无法用语调进一步区分惊讶与愉悦。"
+}

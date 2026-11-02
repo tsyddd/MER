@@ -1,0 +1,77 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "女性说出“我知道，在这个世上”。",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle",
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "女性说出“再也没有亲人了”。",
+      "time_index": 1,
+      "evidence_sources": [
+        "subtitle",
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "女性保持坐姿，头部略微向下，视线朝下方。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "女性颈部可见白色绷带。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "画面中一名女性坐在椅子上。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "同一女性的同一段连续言语中，先说出“我知道，在这个世上”，之后说出“再也没有亲人了”",
+      "entity_anchor": "同一女性的连续言语"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提供女性对世界现状的认知表述“我知道，在这个世上”，process_1补充具体事实“再也没有亲人了”；联合后形成完整的认知与失去亲人的当前言语过程。",
+      "entity_anchor": null
+    }
+  ]
+}

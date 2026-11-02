@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia9_utt11",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "e2a50d6b01ecc35a810613a0879b6c7baee7d96f1dcefc36a846281bb0277898",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "Rachel的言语内容（'Everything's ruined. My bed. My clothes. Look at my favorite blue sweater.'）直接表达了对个人财物被毁的沮丧和无奈，这是判断其情绪为'sadness'的最直接证据。她的肢体语言，如闭眼低头（frame_03）和展示烧损衣物（frame_07），与言语内容一致，共同强化了这种情绪。音频中她的声音颤抖且语速缓慢，进一步证实了其情绪状态。虽然有专家认为可能是'surprise'，但其缓慢、哀伤的语调和对个人物品的强调更符合'sadness'的特征。",
+  "output": "Rachel的言语内容（'Everything's ruined. My bed. My clothes. Look at my favorite blue sweater.'）直接表达了对个人财物被毁的沮丧和无奈，这是判断其情绪为'sadness'的最直接证据。她的肢体语言，如闭眼低头（frame_03）和展示烧损衣物（frame_07），与言语内容一致，共同强化了这种情绪。音频中她的声音颤抖且语速缓慢，进一步证实了其情绪状态。虽然有专家认为可能是'surprise'，但其缓慢、哀伤的语调和对个人物品的强调更符合'sadness'的特征。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 159.6572265625
+}

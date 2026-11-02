@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物是画面中央女性。前段她面向画面右侧，眼睛睁开、嘴部明显张开，呈现即时反应；后段嘴部逐渐收拢但仍保持注视。多项可见特征最支持surprise，后段的克制表情使worried仍有一定可能。[E1][E2] 字幕“我：不。”可与否认或即时反应相容，但不能单独确定情绪。[E3]",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒至frame_02 @ 0.4075471698113208秒",
+      "observation": "目标人物看向画面右侧，眼睛睁开，嘴巴张开。",
+      "interpretation": "睁眼与张口同时出现，构成对眼前信息的即时反应，支持surprise。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 0.6339622641509435秒至frame_07 @ 1.4943396226415095秒",
+      "observation": "目标人物继续看向画面右侧，嘴部由张开逐渐收拢，面部保持较严肃。",
+      "interpretation": "表情后段趋于克制，仍与前段反应连续，但也限制了对强烈惊讶的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "当前字幕“我：不。”",
+      "observation": "提供的字幕为简短否定。",
+      "interpretation": "可与受到信息刺激后的即时否认相容，但字幕本身不能区分surprise、worried或其他情绪。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "frame_03至frame_07中嘴部收拢、表情持续严肃，可能更接近担忧或紧张；但画面缺少更明确的皱眉、明显眉眼变化或其他特征来优先支持worried，且没有音频可核对语气。"
+}

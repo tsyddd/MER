@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Monica的“What?!”是对眼前话语或举动的即时疑问，“Excuse me!”延续了难以置信的反应，较支持惊讶；但没有音频，无法凭语调判断她是否带着怒意。[E1][E2]",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "What?! Excuse me!",
+      "observation": "字幕以“What?!”起句，紧接“Excuse me!”。",
+      "interpretation": "两句连用更像即时的惊讶与质疑，而非平静陈述；单凭文字仍不能确定声音强度。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_06 @ 1.2929573294844752秒",
+      "observation": "Monica从后方走向桌边，面向其他人，嘴部张开。",
+      "interpretation": "动作与正在作出反应相符，但这一帧不足以区分惊讶和不满。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "“Excuse me!”也可能是在表达受冒犯后的愤怒。由于没有音频，且画面未显示明确的愤怒表情，不能仅凭这句抗议将其判为anger。"
+}

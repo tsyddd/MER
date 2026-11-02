@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "目标人物Monica在画面中面部肌肉放松，眼神平静注视对方并开口陈述，无皱眉、张大眼睛或明显嘴部弧度起伏[E1]；肢体动作自然伸手准备操作游戏机[E2]，结合音轨中平稳的解释性语气，整体呈现日常沟通的平静状态，支持neutral。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.334s",
+      "observation": "Monica平视左侧交谈对象，眉毛舒展无紧锁或抬起，嘴唇微张正常说话，无嘴角下拉或上扬。",
+      "interpretation": "面部没有显现恐惧、愤怒或喜悦等特征性表情肌肉拉扯，处于平稳交谈状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.001s",
+      "observation": "Monica保持头部直立，右手自然伸向游戏机操控区准备操作，姿态松弛从容。",
+      "interpretation": "肢体没有防御、退缩或攻击性动作，动作目的明确自然，支持中性状态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词提及'he can't see this'可能带有一丝担忧或紧张（fear），但其面部眉眼平整、音调沉稳无紧促颤音，缺乏恐惧或焦虑的生理与表情支撑。"
+}

@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "围巾男子注视前方并持续发声，图谱记载其语调严肃稳重（person_0）；随后双手托物向前递出，表现为郑重而克制的请求姿态（person_1、process_1）。现有证据未显示明显的愤怒、悲伤、喜悦、担忧或惊讶，因此判断其当前情绪为中性。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "process_1"
+  ]
+}

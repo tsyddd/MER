@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00040685",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "根据节点person_0和person_1的视听联合证据，目标人物在向左侧男子叙述往事时目光集中注视对方，语气低缓沉稳且节奏平稳；结合节点person_2与person_3，其虽然神态严肃凝重并伴随轻微点头，但并未表现出愤怒、悲伤、惊恐或过度焦虑等极端情绪，整体处于克制、客观复盘事件的常态叙述中，判定为neutral。",
+  "output": "根据节点person_0和person_1的视听联合证据，目标人物在向左侧男子叙述往事时目光集中注视对方，语气低缓沉稳且节奏平稳；结合节点person_2与person_3，其虽然神态严肃凝重并伴随轻微点头，但并未表现出愤怒、悲伤、惊恐或过度焦虑等极端情绪，整体处于克制、客观复盘事件的常态叙述中，判定为neutral。\n<answer>neutral</answer>",
+  "label": "angry",
+  "elapsed_seconds": 49.43100547790527,
+  "node_count": 8,
+  "edge_count": 9
+}

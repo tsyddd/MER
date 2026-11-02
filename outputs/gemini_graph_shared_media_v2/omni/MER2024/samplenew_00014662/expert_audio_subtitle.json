@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者语气平稳，没有明显的音高或语速变化，表明情绪克制。话语内容为担忧某事会牵连到对方的长辈，直接表达了担忧的情绪。视觉上，说话者的表情严肃，眼神专注，与话语内容一致。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "我主要是担心这事会牵连到您家老爷子。",
+      "observation": "说话者明确说出“担心”一词，并陈述了担忧的具体内容。",
+      "interpretation": "直接的语言证据表明说话者的核心情绪是担忧。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:04",
+      "observation": "说话者的声音平稳，没有明显的颤抖、提高或降低，语速正常。",
+      "interpretation": "平稳的语调表明情绪是克制的，没有升级为愤怒或激动，与担忧相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02 @ 00:01.32",
+      "observation": "说话者的表情严肃，眉头微蹙，眼神专注。",
+      "interpretation": "面部表情与话语内容“担心”和“牵连”相匹配，强化了担忧的情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无明确的相反解释。虽然语调平稳，但这是担忧情绪的一种表现形式，而非中性。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00034225",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "12ed0aa9b273f368e8bd1e8523c70a683154346bda47b6b5ca66053f7fff6640",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "独立核查8帧与音频，目标人物在frame_03至frame_06身体微微前倾、眼神专注且略显局促，并在frame_07流露出小心翼翼的试探神态[image:E2]。graph专家依据眉毛未皱起判定为平静中性[graph:E1]，忽视了其压低嗓音试探发问的谨慎语调[audio_subtitle:E1]；音频与字幕‘她不好对付啊’紧连后文‘我是不是给你惹麻烦了’，明确揭示其并非客观闲聊，而是顾虑自己连累对方[audio_subtitle:E2]。综合视觉上的忐忑探询与言语中的不安自责，其情绪应定为担忧（worried）而非单纯中性或惊异。",
+  "output": "独立核查8帧与音频，目标人物在frame_03至frame_06身体微微前倾、眼神专注且略显局促，并在frame_07流露出小心翼翼的试探神态[image:E2]。graph专家依据眉毛未皱起判定为平静中性[graph:E1]，忽视了其压低嗓音试探发问的谨慎语调[audio_subtitle:E1]；音频与字幕‘她不好对付啊’紧连后文‘我是不是给你惹麻烦了’，明确揭示其并非客观闲聊，而是顾虑自己连累对方[audio_subtitle:E2]。综合视觉上的忐忑探询与言语中的不安自责，其情绪应定为担忧（worried）而非单纯中性或惊异。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 58.37185454368591
+}

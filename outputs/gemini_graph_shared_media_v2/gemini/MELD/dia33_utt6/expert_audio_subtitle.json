@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "在音频中，Rachel的声音带有明显的哭腔、委屈抽噎和无助的颤音（尤其在'what am I gonna do'与'won't stop crying'处音调拉高并伴随哭泣式滑音）[E1]；字幕语义表达无助与绝望感[E2]，配合画面中嘴角下撇、眉头深锁的哭相[E3]，体现出强烈的无助悲伤与沮丧情绪，而非对抗性愤怒。",
+  "answer": "sadness",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00.80 - 00:04.50",
+      "observation": "伴随着婴儿持续尖锐的哭声，Rachel说话时语调极高且带有明显的哭腔与颤抖音，句尾'crying'以近乎哀嚎的抽噎声收尾。",
+      "interpretation": "语调中的哭腔和发声断裂反映出高度的情感崩溃与无助悲伤（distress/sadness），非平稳或严厉的声调。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Oh come on, what am I gonna do, its been hours and it won’t stop crying.",
+      "observation": "Rachel表达自己不知所措（'what am I gonna do'）并对数小时的无法安抚感到绝望。",
+      "interpretation": "言语行为是陷入绝境的哀叹与诉苦，表达了无力感与悲伤沮丧。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_03 @ 2.21秒",
+      "observation": "Rachel抱着婴儿，面部眉头微蹙下垂，嘴巴咧开呈哭泣状的痛苦表情。",
+      "interpretation": "视觉表情与哭诉的声音高度一致，确认为难过与崩溃的悲伤状态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释为anger（因'Oh come on'及长时间无法安抚婴儿引发的烦躁愤怒）。未采纳的原因是其语调中缺乏攻击性的重音或严厉音质，完全被颤抖的哭腔和哀怨的声调主导，且面部呈现明显的哭容而非怒容。"
+}

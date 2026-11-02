@@ -1,0 +1,119 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "男子弯腰靠近瑞秋后向后拉开距离",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "瑞秋开口说：“Y'know what?”",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "瑞秋坐在餐桌旁的椅子上，面向前方略微低头",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "男子身穿黑色衣物，双手撑在桌边或身侧，俯身看着瑞秋",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "瑞秋以平缓低沉的语调说话",
+      "time_index": 1,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内餐厅兼厨房区域，餐桌上摆有茶壶、杯子等物品，背景有一台白色冰箱",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "瑞秋与俯身的男子正在餐桌旁互动",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "在男子弯腰靠近并向后拉开距离之后，瑞秋开口说出“Y'know what?”",
+      "entity_anchor": "瑞秋与男子的互动"
+    },
+    {
+      "source": "person_2",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "瑞秋在坐在餐桌旁略微低头之后，开口以平缓低沉的语调说话",
+      "entity_anchor": "瑞秋"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "男子俯身贴近后拉开距离的身体动作与瑞秋随即开口接话形成前后连贯的互动过程，联合展现了由身体接触/靠近转向言语交流的完整互动流程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "瑞秋在餐桌前低头坐定的体态与平缓低沉的言语声调互为补充，联合构成其沉静内敛的整体外在表达特征。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "室内厨房/餐厅的具体环境与桌上物品，同双人在餐桌旁近距离相对的客观互动情境相结合，更完整限定了场景的空间与人际互动关系背景。",
+      "entity_anchor": null
+    }
+  ]
+}

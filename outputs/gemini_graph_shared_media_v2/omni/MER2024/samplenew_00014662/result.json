@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00014662",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "f797ce76093f00b080e0bcaf2c7690927a4e4391deedfdf8240b8fab343a4016",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "目标人物在多个帧中表现出眉头微蹙、眼神专注的面部特征，这与她所说的内容“我主要是担心这事会牵连到您家老爷子”高度一致，直接表达了担忧的情绪。音频中她的语调平稳，没有激动或愤怒的迹象，进一步支持了这一判断。虽然有专家认为她可能在表达惊讶，但其后续的追问“不是吗”更符合寻求确认的担忧者心态，而非惊讶。因此，综合视觉、语言和语调证据，最符合的标签是“worried”。",
+  "output": "目标人物在多个帧中表现出眉头微蹙、眼神专注的面部特征，这与她所说的内容“我主要是担心这事会牵连到您家老爷子”高度一致，直接表达了担忧的情绪。音频中她的语调平稳，没有激动或愤怒的迹象，进一步支持了这一判断。虽然有专家认为她可能在表达惊讶，但其后续的追问“不是吗”更符合寻求确认的担忧者心态，而非惊讶。因此，综合视觉、语言和语调证据，最符合的标签是“worried”。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 155.6091184616089
+}

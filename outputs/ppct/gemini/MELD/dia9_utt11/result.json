@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia9_utt11",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sadness",
+  "emotion_analysis": "在火灾后的客厅场景中（context_0），Rachel带着委屈沮丧的语气诉说床和衣服都被毁了（process_0），并神情难过地闭眼低头（person_0与person_1联合），随后将烧毁的蓝色毛衣提起向众人展示（person_2紧随person_1，process_1紧随process_0）。这种对心爱衣物被毁的痛心与无奈神态，清晰体现出她的悲伤情绪。",
+  "output": "在火灾后的客厅场景中（context_0），Rachel带着委屈沮丧的语气诉说床和衣服都被毁了（process_0），并神情难过地闭眼低头（person_0与person_1联合），随后将烧毁的蓝色毛衣提起向众人展示（person_2紧随person_1，process_1紧随process_0）。这种对心爱衣物被毁的痛心与无奈神态，清晰体现出她的悲伤情绪。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 47.476173877716064,
+  "node_count": 6,
+  "edge_count": 4
+}

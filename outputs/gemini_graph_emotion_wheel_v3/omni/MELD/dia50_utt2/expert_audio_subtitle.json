@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者在音频中说“I'm so sorry!”，其语调低沉、语速缓慢，带有明显的停顿和拖长音，表现出一种沉重、懊悔或悲伤的情绪。字幕内容与音频一致，且没有视觉上显示其有其他情绪的面部表情或肢体语言。综合来看，该表达最符合悲伤或懊悔的语境。",
+  "open_emotion": "懊悔",
+  "answer": "sadness",
+  "mapping_reason": "根据MELD项目的情绪轮，'sadness'（悲伤）被定义为因失落、损失或痛苦而难过、哀伤或低落。说话者道歉的语调和内容表明其可能因做错事而感到痛苦和失落，因此'懊悔'这一开放情绪最贴切地映射到'sadness'类别。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:02.294",
+      "observation": "说话者说'I'm so sorry!'，语调低沉，语速缓慢，有明显的停顿。",
+      "interpretation": "这种语调和节奏通常用于表达沉重的情感，如悲伤、懊悔或失望。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "I'm so sorry!",
+      "observation": "字幕显示说话者在道歉。",
+      "interpretation": "道歉的内容表明说话者可能因某种过失而感到痛苦或失落，这与悲伤情绪相符。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽然'fear'（恐惧）也可能在道歉时出现，但说话者的语调没有表现出惊慌或害怕的迹象，更多是沉重和懊悔，因此'fear'的可能性较低。"
+}

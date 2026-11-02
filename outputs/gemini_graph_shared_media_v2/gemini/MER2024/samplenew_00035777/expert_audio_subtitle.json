@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标在音频中以极大音量、极为用力且咬牙切齿的语调喊出“诚实是做生意的根本”[E1]，具有明显的训斥与宣泄特征，配合画面中露齿咬牙、眉头紧锁的愤怒神态[E2]，明确支持angry。",
+  "answer": "angry",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00 - 00:02",
+      "observation": "目标发音音量极大，声调高亢紧绷，在“诚实”及“根本”处咬字沉重且带有明显的咆哮感与斥责声势。",
+      "interpretation": "重音和紧绷发声体现出强烈的攻击性与训诫意图，直接支持愤怒情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.36",
+      "observation": "目标身体前倾，面部肌肉紧绷，咬紧牙关外露，目光凶狠直视下方。",
+      "interpretation": "典型的咬牙切齿怒容与音频中的愤怒训斥完全一致，排除了平静说理或中性表达。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽台词内容为经商道理的言语告诫，表面上可被解释为严肃正经的劝诫（neutral），但其咬牙切齿的发音方式与咆哮的声量远超正常讲理范畴，故排除中性。"
+}

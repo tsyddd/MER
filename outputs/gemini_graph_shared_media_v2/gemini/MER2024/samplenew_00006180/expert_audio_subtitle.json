@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "女老师以温和自然的常态语气回答学生并向全班提问，语速适中、音调平稳，伴随平静放松的教学神态，属于典型中性状态[E1][E2]。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:04",
+      "observation": "目标人物用轻柔温和、音量平稳的语气说出“小毛驴，老师也没见过哎，同学们，有没有知道的”，句末疑问自然微扬，无急促、高亢或低沉的情绪化韵律",
+      "interpretation": "常规课堂引导与问答语气平实从容，表明情绪处于平和稳定的日常工作状态，支持neutral",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "小毛驴，老师也没见过哎，同学们，有没有知道的？",
+      "observation": "言语行为是对学生疑问的如实陈述与转向全班的教学提问",
+      "interpretation": "语句本身不包含主观情感倾向或情绪化词汇，反映客观交流意图，支持neutral",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04 @ 3.21s",
+      "observation": "女教师面部神态舒展放松，眼神温和正视前方，嘴角自然微动",
+      "interpretation": "面部表情与平稳语调相互印证，缺乏明显的开心笑容或焦虑紧绷，支持neutral",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释为happy（亲切和蔼的教态）。但其语调平缓柔和，音高未出现明显上扬或欢快笑意，仅为职业性亲和与常规互动，未达到happy的表达强度。"
+}

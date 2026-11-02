@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00013200",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "e4bae7c80b439e4a7f0b4b40b4f348c523e3f9346140a2af207f7d850c976f73",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "恼火",
+      "mapped_label": "angry",
+      "mapping_reason": "当前表达以对对方行为的责备和对抗为主，符合angry所涵盖的不满与恼火；并不需要确认被指责的行为确曾发生。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "愤慨",
+      "mapped_label": "angry",
+      "mapping_reason": "当前的愤慨针对对方被指责的行为，带有明确责备和对抗倾向，符合angry的定义。"
+    },
+    "image": {
+      "open_emotion": "恼火",
+      "mapped_label": "angry",
+      "mapping_reason": "当前表达指向对方的背信和抬价，视觉上也有持续、强化的当面指责；因此将「恼火」映射为angry。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "angry",
+  "emotion_analysis": "右侧男子是当前说话者；字幕“可是，你背信弃义，你一个劲地抬价”直接指责面前的人，[audio_subtitle:E1]的责备语义可信，但不能据此断定此前确有失信。frame_05至frame_07，他前倾、持续注视对方并睁大眼强调话语，[image:E2]对这一视觉变化的描述可核实。睁眼单独看也可能是惊讶，但这里没有突发信息，持续的当面责备更支持恼火。未提供音轨，不能核实语气或音量。",
+  "output": "右侧男子是当前说话者；字幕“可是，你背信弃义，你一个劲地抬价”直接指责面前的人，[audio_subtitle:E1]的责备语义可信，但不能据此断定此前确有失信。frame_05至frame_07，他前倾、持续注视对方并睁大眼强调话语，[image:E2]对这一视觉变化的描述可核实。睁眼单独看也可能是惊讶，但这里没有突发信息，持续的当面责备更支持恼火。未提供音轨，不能核实语气或音量。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 69.59977293014526
+}

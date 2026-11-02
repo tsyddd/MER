@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia33_utt6",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "42676d691bc7435fdaa13fee5000f399ed11ddb8973351645244f7085bfc901a",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "字幕中的“Oh come on”及对孩子持续哭泣的抱怨，直接体现出烦躁和挫败感。图片所示的紧皱眉头与紧绷姿态虽也可被解读为难过或焦虑，但与抱怨语境相比，当前更应归为恼怒；图谱中的听觉描述不作为独立证据重复计入。",
+  "output": "字幕中的“Oh come on”及对孩子持续哭泣的抱怨，直接体现出烦躁和挫败感。图片所示的紧皱眉头与紧绷姿态虽也可被解读为难过或焦虑，但与抱怨语境相比，当前更应归为恼怒；图谱中的听觉描述不作为独立证据重复计入。\n<answer>anger</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 67.83509039878845
+}

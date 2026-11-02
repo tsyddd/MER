@@ -1,0 +1,127 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Rachel说：“Oh my God! You’re a 30 year old virgin!”",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle",
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Rachel将左手伸向身旁女性，并与其上臂接触。",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Rachel坐在沙发上，嘴部开合。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Rachel用双手做手势，随后左手向身旁伸出。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "身旁女性起初低头看向前方，随后转头看向Rachel。",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "Rachel与另一名女性并排坐在沙发上，周围还有其他人在场。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "Rachel正与身旁女性进行交流。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "Rachel先说出字幕中的话，随后将左手伸向身旁女性并与其上臂接触，追踪同一人物的连续行为",
+      "entity_anchor": "Rachel"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "Rachel先嘴部开合，随后用双手做手势并向身旁女性伸出左手，追踪同一人物的连续表现",
+      "entity_anchor": "Rachel"
+    },
+    {
+      "source": "context_1",
+      "target": "context_0",
+      "relation": "simultaneous",
+      "reason": "Rachel与身旁女性并排坐在沙发上的场景中，同时正在进行交流，追踪同一互动情境",
+      "entity_anchor": "Rachel与身旁女性的互动"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提供Rachel通过字幕可观察到的口头表达内容，process_1提供她伸手并接触身旁女性的可观察动作；联合后补充出该发言伴随对身旁女性的直接互动行为。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供Rachel坐在沙发上并开合嘴部的可见表现，person_1提供她用双手做手势并伸手的可见表现；联合后更完整呈现Rachel在交流中的说话与手势动作。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0限定了Rachel与另一名女性并排坐在沙发上且周围有人在场，context_1进一步限定两人正在交流；联合后更完整限定了多人在场的沙发场景及其中的面对面交流任务。",
+      "entity_anchor": null
+    }
+  ]
+}

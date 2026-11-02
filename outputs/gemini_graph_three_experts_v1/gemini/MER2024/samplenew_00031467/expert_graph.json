@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "根据图谱记载，女子双手端着小碗面向男子说话〔person_0, process_1〕，台词为安抚照拂的劝慰话语〔process_0〕。同时，图谱记载其语调平缓柔和〔person_1〕，整体表现沉稳温和，无明显的极端情绪波动，呈现平稳的平静状态。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_0",
+    "process_1",
+    "process_0",
+    "person_1"
+  ]
+}

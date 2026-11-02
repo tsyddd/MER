@@ -1,0 +1,82 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Joey说：“I'm sorry I gotta cancel tonight baby.”",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Joey在讲话，并将手放在耳侧进行通话。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Joey坐在扶手椅上，左手放在耳侧，右臂搭在扶手上。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Joey说话时嘴部开合。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "场景位于室内，Joey坐在扶手椅上；画面左侧有另一名人物部分入镜。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "simultaneous",
+      "reason": "同一通话互动中，Joey说出字幕内容并同时讲话、将手放在耳侧通话",
+      "entity_anchor": "Joey的同一通话互动"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提供了取消今晚安排的具体话语内容，process_1提供了讲话并手放耳侧通话的可见行为；联合后可观察到Joey正在通过电话表达取消今晚安排的互动过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供了Joey坐在扶手椅上并以左手放在耳侧的姿态，person_1提供了说话时嘴部开合的表现；联合后补充呈现了Joey坐在椅上进行电话交谈的完整可见状态。",
+      "entity_anchor": null
+    }
+  ]
+}

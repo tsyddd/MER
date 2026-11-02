@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00031467",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "ce0718d332667e1a8f68aff97e3bf70bb490b84c29c19b6a35c15f5d91354a74",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "三份专家报告均一致指向目标人物情绪稳定：graph描述其语调平缓柔和并具安抚意图，audio_subtitle确认语调平稳无波动，image显示其表情平静姿态自然。所有证据来源相互印证，未见矛盾，综合判断为中性。",
+  "output": "三份专家报告均一致指向目标人物情绪稳定：graph描述其语调平缓柔和并具安抚意图，audio_subtitle确认语调平稳无波动，image显示其表情平静姿态自然。所有证据来源相互印证，未见矛盾，综合判断为中性。\n<answer>neutral</answer>",
+  "label": "happy",
+  "elapsed_seconds": 42.66837215423584
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia259_utt9",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "Monica's facial expression shows a clear smile and crinkled eyes, indicating amusement. Her tone of voice is light and playful, not aggressive or harsh. The words 'idiots' are delivered in a teasing manner, consistent with a friendly joke among acquaintances.",
+  "output": "Monica's facial expression shows a clear smile and crinkled eyes, indicating amusement. Her tone of voice is light and playful, not aggressive or harsh. The words 'idiots' are delivered in a teasing manner, consistent with a friendly joke among acquaintances.\n<answer>joy</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 5.846208095550537,
+  "node_count": null,
+  "edge_count": null
+}

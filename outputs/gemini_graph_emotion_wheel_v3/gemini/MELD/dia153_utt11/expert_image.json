@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物 Chandler 在片段中直面 Joey 讲话，双手叉腰并在 frame_04 至 frame_05 做出手掌向下的澄清/摆手手势，面部虽有轻微蹙眉与强调口型，但整体神态克制、平稳，结合音频中淡定自若的冷嘲与陈述语调，表明其处于平静客观、就事论事的交流状态，未展现强烈的负面或正面情绪爆发。",
+  "open_emotion": "matter-of-fact",
+  "answer": "neutral",
+  "mapping_reason": "目标人物在对话中以平静、理智且带有冷面幽默的方式陈述假设，面部与肢体均处于日常交流范畴，缺乏 joy、anger、fear 等明确的主导情绪，符合 neutral 情绪家族关于平稳、日常且无明确主导情绪的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_02 (0.00s - 1.63s)",
+      "observation": "Chandler 双手叉腰直视 Joey，面部肌肉放松，眼神平静稳定，口型随说话自然开合。",
+      "interpretation": "显示出正常、日常的对话姿态，无紧张、恐惧或激愤表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04至frame_05 (3.25s - 4.05s)",
+      "observation": "Chandler 抬起右手向前微压并摆动，眉毛轻微收拢，随即放下手恢复叉腰。",
+      "interpretation": "动作意在辅助言语解释与强调论点，并非出于攻击性对抗或恐慌防卫。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "0:00 - 0:03",
+      "observation": "Chandler 语调平缓、从容，节奏稳定，没有颤抖、急促或高亢破音。",
+      "interpretation": "平淡且略带讽刺自嘲的语调证实当前心理状态平稳，支持中性判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词提及被枪指着（staring down the barrel of a gun）和尿裤子，且他在 frame_04 有轻微蹙眉，可能被误判为恐惧或厌恶，但实际上仅为假设性修辞和幽默表达，并非当前即时体验。"
+}

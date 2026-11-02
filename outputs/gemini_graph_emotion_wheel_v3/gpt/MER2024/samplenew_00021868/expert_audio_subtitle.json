@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "字幕中的“也不知道”表达不确定，“当年，三哥”则将话题引向过去；这不是明确的责备或惊呼。画面里后半段人物垂眼、眉间略紧，神情与迟疑不安的理解相符[E1][E2]。片段没有音频，不能据此判断他的语调或停顿。",
+  "open_emotion": "迟疑不安",
+  "answer": "worried",
+  "mapping_reason": "当前较有依据的是面对未知时的顾虑，因此将“迟疑不安”映射到worried；字幕未说出具体担忧的后果，这一映射有一定限制。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“也不知道，当年，三哥。”",
+      "observation": "话语以“也不知道”表达未知，后续内容在本片段中不完整。",
+      "interpretation": "支持说话时有所迟疑，但不足以确定他具体担心什么。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04（1.20秒）至frame_07（2.12秒）",
+      "observation": "后半段人物垂眼，眉间略紧，表情收敛。",
+      "interpretation": "与不安的解释相符，但单凭表情不能确定情绪类别。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是平静地回忆或陈述往事：“也不知道”可以只是字面上的信息不确定。字幕残缺且没有音频，无法核实是否存在带有担忧意味的韵律。"
+}

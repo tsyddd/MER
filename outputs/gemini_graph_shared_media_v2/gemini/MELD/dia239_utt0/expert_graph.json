@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "图谱节点[person_1]与[process_0]指明Gunther此时正主动面向Chandler发起日常询问；结合音频[E2]和面部特征[E3]，其语调与表情均保持平静随和，无明显戏剧化情绪起伏，符合neutral。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱记录Gunther面朝右侧注视Chandler并张口发问，行为属于常规人际互动开端",
+      "interpretation": "表明当前事件为平静的日常信息询问，缺乏强情绪诱因",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:01",
+      "observation": "Gunther念出'Someone in there?'时声线平稳低沉，仅有句尾轻微的自然疑问升调",
+      "interpretation": "缺乏惊讶所需的高唤醒度音高跳跃，也无愤怒或厌恶的紧绷挤压感",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.5004996114133452",
+      "observation": "Gunther面部放松，双眉处于自然常态，无抬眉或皱眉动作",
+      "interpretation": "直接排除了因意外发现而产生的surprise或因打扰而产生的anger",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽因询问'Someone in there?'可能被推测为对室内情况产生好奇或惊讶(surprise)，但音轨中无抽气或音调突升，面部亦无睁眼扬眉表现，故排除surprise。"
+}

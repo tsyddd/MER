@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00021868",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "525b131426b19ccc086afb01c3de0dac946463a250271f0d8e2481091c04e506",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "独立核查画面（frame_03至frame_07）与音轨可知，目标人物面容平静放松，眉毛平展无收缩，唇角无明显下拉，说话语调低平沉稳且节奏均匀，如[image:E1]与[audio_subtitle:E1]所述。[graph:E2]声称音轨伴有轻微叹息气声并由此推断为sad，但实际听觉回核中该句‘也不知道，当年，三哥’仅为轻声平稳叙述，无叹气、哽咽或情绪颤音。虽然台词涉及旧人旧事具有回忆色彩，但缺乏显著的哀戚或焦虑生理表征，整体处于沉思与克制叙述的中性状态。",
+  "output": "独立核查画面（frame_03至frame_07）与音轨可知，目标人物面容平静放松，眉毛平展无收缩，唇角无明显下拉，说话语调低平沉稳且节奏均匀，如[image:E1]与[audio_subtitle:E1]所述。[graph:E2]声称音轨伴有轻微叹息气声并由此推断为sad，但实际听觉回核中该句‘也不知道，当年，三哥’仅为轻声平稳叙述，无叹气、哽咽或情绪颤音。虽然台词涉及旧人旧事具有回忆色彩，但缺乏显著的哀戚或焦虑生理表征，整体处于沉思与克制叙述的中性状态。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 54.74086022377014
+}

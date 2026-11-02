@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "当前片段围绕她在电话中为朋友澄清并说明网络诽谤事态升级展开：字幕中的“现在事情越闹越大”指向正在恶化的外部事件，而非她本人已遭受该事。她持续蹙眉、目光下垂，整体更符合对事态发展的担忧；虽有紧张感，也不足以单独判断为悲伤或愤怒。[E1][E2][E3]",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "当前字幕原话：‘不，不是，我，是我一朋友，他现在在网上被人诽谤了，现在事情越闹越大，所以。’",
+      "observation": "她否认事情发生在自己身上，随后转述朋友遭到诽谤且事态不断扩大。",
+      "interpretation": "对正在升级、尚未解决的事件进行解释，语义上支持担忧而非直接的个人受害或愤怒表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒；frame_01 @ 1.0秒",
+      "observation": "她闭眼片刻后睁开，视线向下，随后双眉微蹙。",
+      "interpretation": "这些是当前通话中的紧绷和忧虑性面部表现，与对朋友处境及事态发展的担心相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_3",
+      "observation": "图谱节点person_3记录她双眉微蹙并持续说话；该节点与画面帧中的蹙眉相互对应。",
+      "interpretation": "图谱中的可视节点支持当前表达处于紧张、担忧状态，但不能单独确定为悲伤。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "process_3",
+      "observation": "图谱节点process_3记录她说‘现在事情越闹越大’，与字幕内容一致；图谱另有person_2关于声音发紧、语速急促的转述。",
+      "interpretation": "事态升级强化担忧的事件语义；但person_2属于图谱转述且未收到原音轨，不能作为亲耳核验的独立听觉证据。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "她在谈论朋友而非自身，且画面未见明确哭泣或激烈愤怒，因此也可能只是严肃、紧张地解释情况；但‘事情越闹越大’的当前事件语义结合持续蹙眉和下垂视线，使worried比sad、angry或neutral更合适。"
+}

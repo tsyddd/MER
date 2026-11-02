@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia34_utt17",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "Monica以严肃且坚决的语气责备Rachel，声音提高并带有明显的斥责与愤怒情绪，眼神专注而严厉，表达了对出轨行为的强烈反对与生气。",
+  "output": "Monica以严肃且坚决的语气责备Rachel，声音提高并带有明显的斥责与愤怒情绪，眼神专注而严厉，表达了对出轨行为的强烈反对与生气。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 6.585016489028931,
+  "node_count": null,
+  "edge_count": null
+}

@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "当前片段中目标人物是女老师。她先说明自己没见过小毛驴，再向全班提问，随后一名男同学回答“我知道”，女老师转而注视并聆听该学生〔process_3〕。当前可核实的画面主要呈现课堂中的关注与接收反馈，未见足以支持愤怒、悲伤或担忧的明确表现，因此判断为neutral。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_06 @ 4.838171504838171秒",
+      "observation": "男学生在前景张口大笑式喊话，女老师位于后方并面向学生，处于学生回答后的互动阶段。",
+      "interpretation": "事件语义是学生应答、教师接收反馈，而非目标人物自身情绪爆发；画面支持其保持课堂关注。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_07 @ 5.63063063063063秒",
+      "observation": "女老师正视前方，嘴唇微张，眉眼保持清醒关注，没有明显皱眉、哭泣或强烈惊愕姿态。",
+      "interpretation": "当前表情更符合聆听或继续课堂交流的中性状态；张口本身不能单独推出惊讶。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "当前字幕原话：“同学们，有没有知道的？”“我知道。”",
+      "observation": "字幕显示教师提问后学生主动回答，目标人物并未在当前末段表达情绪化评价。",
+      "interpretation": "师生问答链条支持课堂互动中的中性关注，而不是明确的高兴、担忧或惊讶。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "process_3",
+      "observation": "图谱将当前后续动作记为“女老师看向回答问题的学生并聆听回应”，并标注为视觉节点。",
+      "interpretation": "该节点与frame_07的注视和微张嘴唇相互印证，说明当前核心行为是接收学生回答；图谱中的语音节点仅为转述，因audio_provided=false不能亲耳核验。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "frame_07中女老师眼睛略睁大、嘴唇微张，存在轻微惊讶或意外的替代解释；但这些视觉表现也可由聆听学生回答造成，且当前字幕和process_3明确指向课堂接收反馈，缺少更强的惊讶证据。"
+}

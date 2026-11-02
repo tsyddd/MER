@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是右侧穿粉色外套的Rachel，不是左侧微笑的女子。Rachel先看向对方、张口且眉毛抬起，随后继续盯着对方说话，眉头逐渐收紧，并伸手靠近对方[E1][E2]。结合字幕中的惊叹和对意外信息的直接复述[E3]，最有支持的解释是诧异；后段的皱眉也可能带有不赞同，但不足以把主导情绪判为愤怒或厌恶。",
+  "open_emotion": "诧异",
+  "answer": "surprise",
+  "mapping_reason": "Rachel当前的表情变化和话语指向对出乎预期的信息感到意外，符合surprise；字幕本身不能证明她感到害怕或厌恶。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_02（0.959秒）",
+      "observation": "Rachel转向左侧女子，张着嘴，眉毛抬起；左侧女子则低头微笑。",
+      "interpretation": "目标人物与旁人的表现不同，Rachel呈现即时的意外反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03（1.460秒）至frame_07（3.378秒）",
+      "observation": "Rachel持续看着左侧女子，一只手伸到对方身旁；说话时眉头逐渐收紧，嘴形不断变化。",
+      "interpretation": "她仍在关注并回应刚获知的信息，但皱眉也使不赞同成为可能的次要解释。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“Oh my God! You’re a 30 year old virgin!”",
+      "observation": "字幕以惊叹开头，并直接复述对方的情况。",
+      "interpretation": "话语内容支持意外、难以置信的解读；没有提供可供判断语调的音频。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "后几帧Rachel眉头收紧，可能是在质疑或不赞同；仅凭画面和字幕无法完全排除这一解释，但未见明确的排斥或对抗动作。"
+}

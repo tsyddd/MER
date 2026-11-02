@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00014279",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "8a93788f7988ee7297cf059d2b609d25c7836c71056843455b447ed540c3a17b",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "angry",
+  "emotion_analysis": "我核对前7帧，目标人物持续直视男子、眉头紧蹙并连续说话；字幕“你除了这些卑劣的手段，还会什么？真是无耻之极”是可直接核实的反问和强烈贬斥[image:E1][audio_subtitle:E1]。图像专家对紧张凝视的观察可信，但将其解释为担忧的区分力有限；额头伤痕和湿润眼神可构成受伤或担忧的反证，却不能取代明确的攻击性言语。图谱所称低声、喘息和停顿未有实际音轨支持，不能作为亲耳核验的证据[graph:E4]。综合语言内容与持续对抗性注视，当前最合适的原始标签是愤怒。",
+  "output": "我核对前7帧，目标人物持续直视男子、眉头紧蹙并连续说话；字幕“你除了这些卑劣的手段，还会什么？真是无耻之极”是可直接核实的反问和强烈贬斥[image:E1][audio_subtitle:E1]。图像专家对紧张凝视的观察可信，但将其解释为担忧的区分力有限；额头伤痕和湿润眼神可构成受伤或担忧的反证，却不能取代明确的攻击性言语。图谱所称低声、喘息和停顿未有实际音轨支持，不能作为亲耳核验的证据[graph:E4]。综合语言内容与持续对抗性注视，当前最合适的原始标签是愤怒。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 181.68204283714294
+}

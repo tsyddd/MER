@@ -1,0 +1,160 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "目标人物面向左侧男子说话，讲述“铜木人一案”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "目标人物继续说话，表示“父皇本已对我起了疑心”",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "目标人物继续说出“可当我拿着铜木人去求他的时候”",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "目标人物面朝左侧注视对方，双目圆睁，嘴唇开合",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "目标人物说话语调低缓沉稳，语速平稳，中间伴有停顿",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "目标人物眉毛微挑，目光固定在左侧人物方向，面部表情紧绷",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "目标人物上身保持坐立姿态，头部轻微点动配合言语",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内暗光环境，背景有屏风与微弱灯火，左前方有一名背对镜头的男子在场并听其叙述",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "目标人物在讲述“铜木人一案”之后，继续陈述“父皇本已对我起了疑心”",
+      "entity_anchor": "目标人物的言语叙述"
+    },
+    {
+      "source": "process_2",
+      "target": "process_1",
+      "relation": "after",
+      "reason": "目标人物在陈述父皇起疑心之后，继续说出“可当我拿着铜木人去求他的时候”",
+      "entity_anchor": "目标人物的言语叙述"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "目标人物在面朝左侧双目圆睁、嘴唇开合说话的同时，声音呈现出低缓沉稳且伴有停顿的语调与语速",
+      "entity_anchor": "目标人物的言语表达状态"
+    },
+    {
+      "source": "person_2",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "目标人物在初次双目圆睁注视对方之后，进一步展现出眉毛微挑且面部表情紧绷的神态",
+      "entity_anchor": "目标人物的面部神态"
+    },
+    {
+      "source": "person_3",
+      "target": "person_2",
+      "relation": "after",
+      "reason": "目标人物在面部表情紧绷之后，上身保持坐立姿态并以头部轻微点动配合言语陈述",
+      "entity_anchor": "目标人物的体态动作"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0给出讲述案由的前提，process_1补充被父皇起疑心的情境，联合展现了目标人物向对方层层交代自身危机处境的叙述推进过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_1",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "process_1阐明原本被疑心的被动处境，process_2引入持物求见的主动行动转折，联合构成从叙述背景到事件关键行动的完整交代过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供了双目圆睁注视对方的面部视觉形态，person_1补充了低缓沉稳且带停顿的听觉语音特征，视听联合完整呈现了其严肃专注的说话表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_2",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_2描述了眉毛微挑与表情紧绷的面部细节，person_3补充了端坐体态与头部微动的躯体动作，面部与躯干表现互相补充构成其整体言语仪态。",
+      "entity_anchor": null
+    }
+  ]
+}

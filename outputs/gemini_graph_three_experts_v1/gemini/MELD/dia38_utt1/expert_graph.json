@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "节点 process_0 中 Joey 表示自己的一名学生获得了试镜机会并感到非常自豪；节点 person_1 记录其双手抬起交叉按在胸前，图谱记载其发出轻叹声调且语速柔和（person_2）；随后节点 person_3 显示其头部微斜、嘴角上扬微笑着注视对方，这些肢体与面部微笑特征共同表现出明显的欣慰与喜悦。",
+  "answer": "joy",
+  "evidence_refs": [
+    "process_0",
+    "person_1",
+    "person_2",
+    "person_3"
+  ]
+}

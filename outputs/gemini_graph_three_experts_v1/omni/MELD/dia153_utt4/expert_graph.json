@@ -1,0 +1,9 @@
+{
+  "expert": "graph",
+  "reason": "Joey在组织文本中表现出从摊手到抬起食指指点的肢体动作变化，配合其话语内容'You have a fear of heights'和'you go to the top of the building!'，其语气和动作显示出一种带有挑战性或劝说性的表达意图。图谱记载的两个process节点（process_0和process_1）显示其言语具有连续性和推进性，结合其姿态变化，表明其情绪并非中性或消极，而是带有积极的强调意图。因此，其情绪更接近于'joy'。",
+  "answer": "joy",
+  "evidence_refs": [
+    "process_0",
+    "process_1"
+  ]
+}

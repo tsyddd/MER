@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "Monica当前抱着婴儿，对Phoebe说“it’s going great”，随后持续微笑并看向怀中的婴儿；言语内容与可见表情共同支持joy，而不只是礼貌回应。[E1][E2] 图谱process_1记录了她向Phoebe分享的言语互动，但图谱所述欢快语气因未收到原音轨，只能保留为未核实的转述。[E3]",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_07 @ 5.797453832204582秒",
+      "observation": "Monica抱着婴儿，低头看向婴儿并微笑。",
+      "interpretation": "这是目标人物在当前互动中的愉快表情；抱婴儿这一动作本身不足以判断情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "“Pheebs, it’s going great. Look at Chandler with little baby girl Chandler.”",
+      "observation": "Monica向Phoebe说事情进展很好，并请她看Chandler和女婴。",
+      "interpretation": "积极评价为微笑提供了互动语境，使单纯礼貌性微笑的解释较弱；Chandler的情况只是她话语中的描述，画面未显示。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_1；person_4",
+      "observation": "process_1记录Monica向Phoebe说上述话语；person_4将其语气描述为轻柔、欢快。",
+      "interpretation": "言语节点与字幕相符，但不是额外的独立情绪证据；语气仅是图谱转述，未收到原音轨，无法亲耳核验。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "开头的“Nope”也可能只是平常的否定回应，单凭它不能判断愉快；但随后明确的积极评价和持续微笑，更支持当前情绪为joy。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia132_utt2",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "f084672e7cf9dd79896fb1df6be44f63d0e81e8653bd27ac9cb35d8247ef8c65",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "图像专家观察到Phoebe眉毛微皱、嘴唇紧闭，表现出不悦和无奈，倾向于disgust；但音频与文本专家均指出其语气平稳、语速正常，内容为客观描述，无情绪波动，支持neutral。图像描述的情绪状态可能源于短暂面部表情而非真实情绪，且音频与文本证据更直接反映说话时的整体状态，因此优先采纳音频与文本专家判断。",
+  "output": "图像专家观察到Phoebe眉毛微皱、嘴唇紧闭，表现出不悦和无奈，倾向于disgust；但音频与文本专家均指出其语气平稳、语速正常，内容为客观描述，无情绪波动，支持neutral。图像描述的情绪状态可能源于短暂面部表情而非真实情绪，且音频与文本证据更直接反映说话时的整体状态，因此优先采纳音频与文本专家判断。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 28.166348457336426
+}

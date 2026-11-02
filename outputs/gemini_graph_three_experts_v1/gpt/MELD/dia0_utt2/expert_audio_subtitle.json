@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。字幕“Y'know what?”本身未明确表达特定情绪，因此按中性处理。",
+  "answer": "neutral",
+  "evidence_refs": []
+}

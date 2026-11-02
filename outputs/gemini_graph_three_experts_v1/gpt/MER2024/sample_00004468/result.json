@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00004468",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "030d3dde52545bf65625b56493419caddcff773c9828571517a26fff72171282",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "图谱描述了先蹙眉后眉毛微扬、眼睛睁大并带有追问表现，指向惊讶；图片专家则依据紧皱眉头和锐利眼神判断为生气，二者在面部紧张感上有一致但对情绪方向存在冲突。音频字幕专家未获得音频，且字幕只是询问他人是否高兴，不能提供可靠的听觉或自身情绪证据；综合带有时间变化和追问信息的描述，取惊讶。",
+  "output": "图谱描述了先蹙眉后眉毛微扬、眼睛睁大并带有追问表现，指向惊讶；图片专家则依据紧皱眉头和锐利眼神判断为生气，二者在面部紧张感上有一致但对情绪方向存在冲突。音频字幕专家未获得音频，且字幕只是询问他人是否高兴，不能提供可靠的听觉或自身情绪证据；综合带有时间变化和追问信息的描述，取惊讶。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 89.29676246643066
+}

@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是画面右侧正面说话的男子，左侧背对镜头者是交谈对象。男子持续盯着对方，身体前倾；说话过程中眉头收紧，随后睁大眼睛、张口强调，表现出对抗性的指责，而非短暂的意外反应[E1][E2]。字幕中的责备内容与这一视觉解释相符[E3]；未提供音频，不能判断语调。",
+  "open_emotion": "恼火",
+  "answer": "angry",
+  "mapping_reason": "当前表达指向对方的背信和抬价，视觉上也有持续、强化的当面指责；因此将「恼火」映射为angry。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_04（1.72秒）",
+      "observation": "右侧男子面对左侧人物，保持注视并前倾，眉部逐渐收紧，嘴部随说话动作变化。",
+      "interpretation": "持续面向对方的紧绷表达支持正在进行的指责。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05（2.16秒）至frame_07（3.0秒）",
+      "observation": "男子进一步前倾，眼睛睁大，嘴张开；frame_06手抬至胸前附近。",
+      "interpretation": "表情和姿态随讲话增强，支持其强调不满；单凭睁大眼睛不能判为愤怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "「可是，你背信弃义，你一个劲地抬价。」",
+      "observation": "字幕直接指称对方背信并不断抬价。",
+      "interpretation": "话语的责备对象明确，与画面中的对抗性表达相互印证。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "后段睁大眼睛也可能被看作惊讶，且画面无法证明语气强烈；但其持续面向对方强调指责，结合字幕，比即时意外更支持恼火。"
+}

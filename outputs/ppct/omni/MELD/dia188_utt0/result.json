@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia188_utt0",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "Joey's mouth is moving as he speaks the word 'What?' and he is looking towards the right side of the frame, indicating he is asking a question in response to something he has just heard or seen.",
+  "output": "Joey's mouth is moving as he speaks the word 'What?' and he is looking towards the right side of the frame, indicating he is asking a question in response to something he has just heard or seen.\n<answer>surprise</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 153.50704169273376,
+  "node_count": 11,
+  "edge_count": 8
+}

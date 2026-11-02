@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00014357",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "happy",
+  "emotion_analysis": "画面中的男孩始终面带灿烂笑容，眼神明亮且神情愉悦。音频中他的语调欢快、充满热情与讨好的笑意，整体表现出明显的快乐情绪。",
+  "output": "画面中的男孩始终面带灿烂笑容，眼神明亮且神情愉悦。音频中他的语调欢快、充满热情与讨好的笑意，整体表现出明显的快乐情绪。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 9.4175705909729,
+  "node_count": null,
+  "edge_count": null
+}

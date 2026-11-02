@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "Joey的面部表情和手势表明他正在提出一个建议或进行解释。他的眉毛略微抬起，眼睛睁大，嘴巴微张，显示出一种积极和投入的状态。他的右手抬起并做出手势，似乎在强调或说明某事。这些视觉线索与他所说的话“你去大楼顶上”相匹配，表明他正在积极地参与对话，情绪是中性的，没有表现出强烈的负面或正面情绪。",
+  "open_emotion": "中性",
+  "answer": "neutral",
+  "mapping_reason": "Joey的面部表情没有明显的皱眉、咧嘴笑或惊恐等强烈情绪特征。他的眼神和手势表明他正在积极参与对话，但没有表现出愤怒、悲伤、喜悦、恐惧或厌恶等情绪。因此，他的情绪状态最符合中性。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "Joey的眉毛略微抬起，眼睛睁大，嘴巴微张。",
+      "interpretation": "这些面部特征表明他正在积极地参与对话，但没有表现出强烈的负面或正面情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "Joey的右手抬起并做出手势。",
+      "interpretation": "这个手势表明他正在强调或说明某事，这与他所说的话相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "It have a fear of heights, you go to the top of the building!",
+      "observation": "Joey说：“你有恐高症，你就去大楼顶上！”，这是一句带有挑战意味的建议。",
+      "interpretation": "这句话表明Joey正在提出一个解决方案，他的语气和表情与这句话的语境相符。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有明显的证据表明Joey表现出愤怒、悲伤、喜悦、恐惧或厌恶等情绪。"
+}

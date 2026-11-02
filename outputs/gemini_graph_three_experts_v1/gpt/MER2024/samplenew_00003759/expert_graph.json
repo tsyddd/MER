@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "目标人物当前主要是在对话中抿唇后张口回应，图谱未显示其明显的喜怒哀乐或担忧表现，整体情绪较为中性（person_0、process_1、person_3）。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_0",
+    "process_1",
+    "person_3"
+  ]
+}

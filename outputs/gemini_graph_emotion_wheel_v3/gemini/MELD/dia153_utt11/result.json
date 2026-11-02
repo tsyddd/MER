@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia153_utt11",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "b023c80896f2e13dc2c986e2f32b6b993f29f3e06532e4de681ae7bcdce52d22",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "平常",
+      "mapped_label": "neutral",
+      "mapping_reason": "Chandler在交谈中表现冷静平稳、实事求是地陈述看法，没有出现强烈恐惧、愤怒或欣喜等主导情绪，符合情绪轮中neutral（平稳、平常、无明显情绪）的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "平淡自嘲",
+      "mapped_label": "neutral",
+      "mapping_reason": "当前表达属于平稳、克制的冷幽默反诘（deadpan），既无真实的威胁性恐惧体验，也无激烈的对抗性恼火，符合neutral在情绪轮中代表的平稳、日常且无明确主导情绪的表达区间。"
+    },
+    "image": {
+      "open_emotion": "matter-of-fact",
+      "mapped_label": "neutral",
+      "mapping_reason": "目标人物在对话中以平静、理智且带有冷面幽默的方式陈述假设，面部与肢体均处于日常交流范畴，缺乏 joy、anger、fear 等明确的主导情绪，符合 neutral 情绪家族关于平稳、日常且无明确主导情绪的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物 Chandler 在针对 Joey 的假设情境进行回应时，台词虽涉及面对枪口等极端词汇，但语用上完全属于死板幽默（deadpan）的假设性自嘲与反驳，并非身处险境的即时反应[audio_subtitle:E1]。音频听觉上语调平缓稳定、毫无颤抖或恐惧破音[audio_subtitle:E2]；视觉上在 frame_01 至 frame_05 期间双手叉腰并轻微挥手辅助说明，神态自然克制且未见惊恐、愤怒扭曲或开怀大笑[image:E1][image:E2]。综合跨模态表现，当前状态处于无明显强烈主导情绪的平稳日常交谈，准确映射为中性。",
+  "output": "目标人物 Chandler 在针对 Joey 的假设情境进行回应时，台词虽涉及面对枪口等极端词汇，但语用上完全属于死板幽默（deadpan）的假设性自嘲与反驳，并非身处险境的即时反应[audio_subtitle:E1]。音频听觉上语调平缓稳定、毫无颤抖或恐惧破音[audio_subtitle:E2]；视觉上在 frame_01 至 frame_05 期间双手叉腰并轻微挥手辅助说明，神态自然克制且未见惊恐、愤怒扭曲或开怀大笑[image:E1][image:E2]。综合跨模态表现，当前状态处于无明显强烈主导情绪的平稳日常交谈，准确映射为中性。\n<answer>neutral</answer>",
+  "label": "fear",
+  "elapsed_seconds": 116.21596813201904
+}

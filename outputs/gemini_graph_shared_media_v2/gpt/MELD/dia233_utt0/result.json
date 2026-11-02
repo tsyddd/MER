@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia233_utt0",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "a94f5575d3aaa8dce6c1acd443e893d451a7588d0c29ef22d0ffe8091580c26e",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "独立回看第0至4帧，左侧的Rachel先低头抿唇，随后皱眉直视对方，神情紧绷；[image:E2]对这一变化的描述可信。字幕原话“Did you get all this stuff for Joey to try and drive me out of the apartment?”是在质疑对方是否有意赶她走，[audio_subtitle:E1]准确对应字幕，但所质疑的意图并未得到证实。第7帧她抬眉、神情略有缓和，[image:E4]因此限制了愤怒的强度判断；综合持续紧绷的表情与当面责问，仍以克制的不满最为贴切。未提供音轨，不能核验语调。",
+  "output": "独立回看第0至4帧，左侧的Rachel先低头抿唇，随后皱眉直视对方，神情紧绷；[image:E2]对这一变化的描述可信。字幕原话“Did you get all this stuff for Joey to try and drive me out of the apartment?”是在质疑对方是否有意赶她走，[audio_subtitle:E1]准确对应字幕，但所质疑的意图并未得到证实。第7帧她抬眉、神情略有缓和，[image:E4]因此限制了愤怒的强度判断；综合持续紧绷的表情与当面责问，仍以克制的不满最为贴切。未提供音轨，不能核验语调。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 69.03037238121033
+}

@@ -1,0 +1,8 @@
+{
+  "reason": "独立回看，Rachel在frame_02至frame_04低头整理衣物、表情收敛，frame_05至frame_06虽摊手并略微扬起嘴角，神情仍显紧绷。[audio_subtitle:E2]对这一变化的观察可信，但将其解释为失意并非可直接核实的事实；[image:E2]据摊手和笑意判断愉快，也不足以排除勉强回应。字幕原话“Oh, everything went great.”字面积极，却不能单凭措辞排除反讽；本片段没有音轨可核对语气。综合持续紧绷的表情与较勉强的笑意，当前更接近失望，近似归入sadness，但无法确认她所谈的事情实际进展如何。",
+  "answer": "sadness",
+  "evidence_refs": [
+    "audio_subtitle:E2",
+    "image:E2"
+  ]
+}

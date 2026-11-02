@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia237_utt3",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "Joey's facial expression shows a slight frown and raised eyebrows, and his tone of voice is hesitant and uncertain, as heard in the audio. These cues indicate he is expressing confusion or disbelief about the topic of 'whipped fish'.",
+  "output": "Joey's facial expression shows a slight frown and raised eyebrows, and his tone of voice is hesitant and uncertain, as heard in the audio. These cues indicate he is expressing confusion or disbelief about the topic of 'whipped fish'.\n<answer>surprise</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 636.7035143375397,
+  "node_count": 47,
+  "edge_count": 0
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00002893",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "画面中人物眉头微蹙、神情紧张，正在急切解释情况。字幕提到朋友被人诽谤且事情越闹越大，表现出明显的担忧和焦虑。",
+  "output": "画面中人物眉头微蹙、神情紧张，正在急切解释情况。字幕提到朋友被人诽谤且事情越闹越大，表现出明显的担忧和焦虑。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 15.611904621124268,
+  "node_count": null,
+  "edge_count": null
+}

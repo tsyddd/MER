@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00002333",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "0e9fbf235f4db8f0d6cbb4c5b79681cf485a4b2bfdd80a92849380e07b412f8e",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "轻松愉悦",
+      "mapped_label": "happy",
+      "mapping_reason": "“轻松愉悦”是当前表达中的正向情绪，符合happy关于当前正向愉悦或满足的定义。这里的判断主要基于可见的持续微笑，而不是字幕内容或沙发等背景陈设。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "轻松愉悦",
+      "mapped_label": "happy",
+      "mapping_reason": "“轻松愉悦”体现了当前面部表情和姿态中的正向情绪反应，因而映射到Level1的happy；判断并非仅依据字幕内容，而是主要依据持续笑意和放松状态。"
+    },
+    "image": {
+      "open_emotion": "轻松愉悦",
+      "mapped_label": "happy",
+      "mapping_reason": "前半段持续可见的笑容与放松姿态支持当前正向感受，因此映射为happy；这不等于仅凭一次微笑断定开心。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "happy",
+  "emotion_analysis": "我回看frame_00至frame_04，男子说话时持续嘴角上扬、露齿，眼睛略眯；[image:E1]对此的描述可信，支持当前轻松愉悦，而不只是一次偶然口型。frame_05至frame_07笑意减弱、神情趋平，[image:E3]是重要反证，但后段变化不足以抹去前段较持续的正向表现。画面字幕实际为“向中央交待”，与所给字幕文字不一致，不能据此推断情绪；未提供音轨，也无法核验语调。综合可见表情变化，选择happy。",
+  "output": "我回看frame_00至frame_04，男子说话时持续嘴角上扬、露齿，眼睛略眯；[image:E1]对此的描述可信，支持当前轻松愉悦，而不只是一次偶然口型。frame_05至frame_07笑意减弱、神情趋平，[image:E3]是重要反证，但后段变化不足以抹去前段较持续的正向表现。画面字幕实际为“向中央交待”，与所给字幕文字不一致，不能据此推断情绪；未提供音轨，也无法核验语调。综合可见表情变化，选择happy。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 131.21654653549194
+}

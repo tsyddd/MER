@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00021868",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "525b131426b19ccc086afb01c3de0dac946463a250271f0d8e2481091c04e506",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "悲伤",
+      "mapped_label": "sad",
+      "mapping_reason": "根据情绪轮定义，'悲伤'（sad）对应于对已经发生的损失、痛苦或低落的情绪。目标人物正在回忆一段往事（'当年'），并以一种不确定和低沉的语气开始叙述（'也不知道'），这表明他正沉浸在对过去事件的失落和哀伤中。他的视线低垂和沉静的语调是悲伤情绪的典型外在表现，因此该情绪最符合'sad'的范畴。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "平静",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据情绪轮定义，'neutral'指当前主要为平稳叙述、自然交流或无明确主导情绪的表达。说话者的语调平稳，无明显情绪波动，内容为对过去的陈述，符合中性情绪的特征。"
+    },
+    "image": {
+      "open_emotion": "平静",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据情绪轮定义，'neutral'指当前主要为平稳叙述、自然交流或无明确主导情绪的表达。目标人物的视觉表现（姿态、视线、面部）和音频语调均平稳，无明显情绪特征，符合该定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物在片段中保持坐姿，视线向下，表情平静，无明显情绪波动。其姿态和面部特征在多个帧中保持一致，未见皱眉、张口、抬眉等典型情绪表达。字幕内容为陈述性话语，无情绪色彩。音频中语调平稳，无明显情绪起伏。综合来看，其表现符合中性状态。",
+  "output": "目标人物在片段中保持坐姿，视线向下，表情平静，无明显情绪波动。其姿态和面部特征在多个帧中保持一致，未见皱眉、张口、抬眉等典型情绪表达。字幕内容为陈述性话语，无情绪色彩。音频中语调平稳，无明显情绪起伏。综合来看，其表现符合中性状态。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 172.35519695281982
+}

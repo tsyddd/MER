@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia109_utt5",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "d1e48fb5bc9702767bb92c6beba55179a3e73274b2c9fb39f96f11cbbfe48c20",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "音频分析指出语调上扬且带有讽刺夸张语气，符合joy的特征；图像分析虽显示手势变化和情绪激动，但动作序列更偏向表达强调而非愤怒，且与音频的戏谑基调一致。综合听觉与视觉线索，情绪更倾向joy而非anger。",
+  "output": "音频分析指出语调上扬且带有讽刺夸张语气，符合joy的特征；图像分析虽显示手势变化和情绪激动，但动作序列更偏向表达强调而非愤怒，且与音频的戏谑基调一致。综合听觉与视觉线索，情绪更倾向joy而非anger。\n<answer>joy</answer>",
+  "label": "anger",
+  "elapsed_seconds": 44.09783697128296
+}

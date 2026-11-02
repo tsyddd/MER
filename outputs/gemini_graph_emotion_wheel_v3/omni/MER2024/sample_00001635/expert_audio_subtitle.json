@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者在音频中以一个短促、上扬的语气词“呀”开头，表现出对当前情境的即时意外。紧接着的“我：不”是直接的否定，结合其睁大的眼睛和微张的嘴的视觉表现，表明她正在回应一个出乎意料的指控或问题，并立即进行否认。这种由意外引发的即时反应和否定，最符合“惊讶”的特征。",
+  "open_emotion": "惊讶",
+  "answer": "surprise",
+  "mapping_reason": "根据情绪轮定义，'surprise'（惊讶）指因当前信息违背预期而产生的意外、诧异或震惊。说话者的语气和表情都表明她对正在发生的事情感到意外，并立即做出反应，这与'惊讶'的定义完全吻合。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:01",
+      "observation": "说话者发出一个短促、上扬的语气词“呀”。",
+      "interpretation": "这个语气词是典型的惊讶或意外的表达，表明她对当前情境的即时反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "我：不。",
+      "observation": "字幕显示说话者说“我：不。”。",
+      "interpretation": "这是一个直接的否定，表明她正在回应一个她没有预料到的问题或指控。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "说话者的眉毛微微上扬，眼睛睁大，嘴巴微张。",
+      "interpretation": "这些面部表情是惊讶的典型生理表现，与她话语中的意外感相一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有明显的证据表明说话者处于愤怒、悲伤或担忧等情绪中。她的反应是即时的、针对当前事件的，而非对过去事件的反思或对未来的忧虑。"
+}

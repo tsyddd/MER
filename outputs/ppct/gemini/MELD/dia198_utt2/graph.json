@@ -1,0 +1,161 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Joey反驳并说“No-no, she kicked our butts”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Joey继续对对面的人说“You could be on the Olympic standing-there team”",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Joey抬起右手食指指向前方，目光注视前方",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Joey以平稳略带反驳的语气开口说话",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Joey摊开右手向前做强调手势",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Joey将右手放下，身体保持站立，目光注视对面人物",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_4",
+      "type": "person",
+      "content": "Joey语速平缓，尾音轻落",
+      "time_index": 2,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内客厅场景，背景有收音机和电视机，Chandler双手叉腰站在Joey身旁，对面站着另一名背对镜头的人物",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "Joey在反驳说完前半句“No-no, she kicked our butts”之后，继续向对方说出后半句“You could be on the Olympic standing-there team”。",
+      "entity_anchor": "Joey的话语表达"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "Joey在抬起右手食指指向前方的同时，以平稳略带反驳的语气开口说话。",
+      "entity_anchor": "Joey"
+    },
+    {
+      "source": "person_2",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "Joey在以食指指向前方之后，将右手摊开向前做出强调手势。",
+      "entity_anchor": "Joey的手势动作"
+    },
+    {
+      "source": "person_3",
+      "target": "person_2",
+      "relation": "after",
+      "reason": "Joey在向前摊手强调之后，将右手放下并保持站立注视对面人物。",
+      "entity_anchor": "Joey的手部及身体姿态"
+    },
+    {
+      "source": "person_4",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "Joey在最初以平稳反驳语气开口之后，句末语速放缓且尾音自然轻落。",
+      "entity_anchor": "Joey的声音表现"
+    },
+    {
+      "source": "person_4",
+      "target": "person_3",
+      "relation": "simultaneous",
+      "reason": "Joey在放下右手保持站立注视对方的同时，语速平缓地完成句尾发音。",
+      "entity_anchor": "Joey"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0 提供 Joey 对先前说法的直接反驳，process_1 提供其随后顺承展开的讽刺调侃，二者联合完整展现了 Joey 从反驳事实到进一步揶揄对方表现的言语互动过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0 提供了 Joey 抬起食指指向前方这一视觉身体手势，person_1 提供了他开口时平稳且带有反驳意味的语调，两者结合互补了 Joey 表达纠正与反驳时的视听综合呈现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_3",
+      "target": "person_4",
+      "relation": "person_joint",
+      "reason": "person_3 提供了 Joey 话毕放下手势并持续注视对方的视觉静态肢体反应，person_4 提供了其平缓且尾音下落的听觉语调特征，视听结合完整构成了其说完调侃语句后等待对方反应的自然状态。",
+      "entity_anchor": null
+    }
+  ]
+}

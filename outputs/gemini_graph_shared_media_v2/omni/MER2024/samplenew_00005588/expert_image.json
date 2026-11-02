@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标人物在整个片段中保持静止姿态，面部表情无明显变化。其眉毛微皱，眼神向下，嘴角无上扬或下撇，未见明显情绪波动。字幕内容为“过去的事，不怪你”，结合其克制的面部表现，视觉上最支持的解释是平静或中性，而非强烈情绪。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "目标人物面部表情平静，眉毛微皱，眼神向下，无明显情绪波动。",
+      "interpretation": "该表情在无其他线索时，最符合中性或克制状态，不支持强烈情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.36",
+      "observation": "目标人物保持相同姿态，无明显动作或表情变化。",
+      "interpretation": "连续帧间缺乏动态变化，支持其情绪状态稳定，未表现出激动或悲伤等。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "字幕: 过去的事，不怪你。",
+      "observation": "字幕内容为宽慰或释怀之语。",
+      "interpretation": "该话语内容与中性或平静情绪相符，不支持愤怒或惊讶。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "音频中说出“过去的事，不怪你。”，语调平稳，无明显情绪起伏。",
+      "interpretation": "音频语调与视觉表情一致，支持中性判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无明确反证。虽然字幕内容可能暗示悲伤或释怀，但视觉上无泪光、颤抖等表现，音频语调也无明显波动，因此无法支持悲伤或担忧等情绪。"
+}

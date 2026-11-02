@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Chandler的语调在说'Jeez, man did you fall..'时带有明显的惊讶和关切，音量和语速都比平时快，表现出对朋友状况的意外。随后的'Hi!'和重复的'...did ya fall high?'则带有明显的反讽和调侃意味，语调上扬，节奏拖长，表明他并非真的关心，而是在开玩笑。这种从惊讶到反讽的快速转变，结合他说话时的表情（在视觉上也应有相应表现），表明他的主要情绪是反讽和调侃。",
+  "open_emotion": "反讽",
+  "answer": "surprise",
+  "mapping_reason": "尽管Chandler的言辞和语调带有明显的反讽，但其核心情绪是因朋友的状况而感到意外和诧异。这种反讽是建立在惊讶的基础之上的，因此最符合'surprise'（惊讶）这一类别。'surprise'可以涵盖因意外情况而产生的各种反应，包括带有调侃意味的反应。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "Chandler说'Jeez, man did you fall..'时，语调上扬，语速较快，表现出惊讶和关切。",
+      "interpretation": "Chandler对朋友的状况感到意外和关切。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:04-00:07",
+      "observation": "Chandler重复说'...did ya fall high?'，语调上扬，节奏拖长，带有明显的反讽和调侃意味。",
+      "interpretation": "Chandler并非真的关心，而是在开玩笑和调侃朋友。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Jeez, man did you fall.. Hi! So ah, did ya, did-did-did ya fall high?",
+      "observation": "字幕显示Chandler的台词，从最初的惊讶到后来的反讽。",
+      "interpretation": "台词内容和语气变化共同表明Chandler的情绪是惊讶和反讽。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "Chandler的反讽语气可能被误解为'anger'（愤怒），但他的语调和内容并没有表现出真正的恼火或责备，因此'anger'不是最佳解释。"
+}

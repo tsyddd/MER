@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物以带有明显挑高起音的'Oh'开场，随后以连续上扬的疑问语调说出'are you sure? Really?'[E1]，配合视觉上面部挑眉与探询神态[E2]，显现出对对方拒绝出乎意料的惊讶与质疑态度。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00 - 00:01",
+      "observation": "听觉上，说话者以极具辨识度的高音调轻呼'Oh'开端，随后'are you sure? Really?'音高明显上扬且语速略有停顿探问。",
+      "interpretation": "高起音感叹词配合典型上扬语调是表露意外、惊讶与难以置信的直接声学线索，说明其对对方此前决定的意外反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.50s",
+      "observation": "Janice头部微倾，眉毛上挑，双眼睁大注视对方，嘴唇微张呈现典型的探问神情。",
+      "interpretation": "面部挑眉与瞪大眼睛的反应与音频中疑问语气高度吻合，支持其受到对方反应触发的惊讶情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释为joy，因为在后半句（约00:02之后）其展开手势生动比划并面露微笑提议做木偶，表现出热切轻快的交谈氛围；但该片段的核心言语行为是针对对方拒绝所做出的意外反问（'Oh, are you sure?'），轻快手势属于随后的劝说行为，因而未采纳joy。"
+}

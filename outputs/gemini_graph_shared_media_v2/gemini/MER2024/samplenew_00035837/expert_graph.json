@@ -1,0 +1,24 @@
+{
+  "expert": "graph",
+  "reason": "目标人物视线持续低垂[E1]，以低微沙哑的气音陈述失去所有至亲的现状[E2]，图谱节点person_0与person_2所表征的体态与语调在真实音画中均得到核实，其核心事件语义与衰微的表达状态排除了中立平静，指向悲伤情绪。",
+  "answer": "sad",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.4s",
+      "observation": "目标人物头部微垂，视线向下散落，神情落寞无神，与图谱节点person_0描述一致",
+      "interpretation": "低垂的视线与内敛的体态体现了向内沉沦的消沉状态，支持悲伤情感",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00 - 00:02",
+      "observation": "核验真实音轨，人物用极微弱、低哑的气音说出“我知道在这个世上再也没有亲人了”，语调低平微弱",
+      "interpretation": "陈述自己孤立无援的丧亲事实，结合虚弱的气息发声（契合person_1、person_2），体现深层的哀痛与绝望，直接锁定sad",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "低平语调与未失控的面部动作可能被替代解释为无情绪的客观陈述（neutral），但断绝所有至亲的极端孤独语义及极其衰弱低哑的气音，表明这是心灰意冷下的悲伤抑制而非中立客观。"
+}

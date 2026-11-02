@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "Monica在当前互动中主动发起对笑话的严厉指责。从事件链推进来看，她先直接定性否定（process_0），紧接着列举被冒犯的对象展开控诉（process_1），并在末尾以身体前倾、音量拔高加大批判力度（person_3与process_2递进）。这一完整的由表态到多重指控的过程，伴随严肃尖锐的语调与对峙体态，核心是对冒犯行为的强烈抗议与对抗，而非单纯中立陈述或嫌恶排斥。",
+  "open_emotion": "愤慨",
+  "answer": "anger",
+  "mapping_reason": "Monica的情绪指向笑话带来的冒犯与受阻体验，通过坚决反驳与语调爆发进行责备对抗；在情绪轮中，因冒犯而不满责备明确归入anger家族。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "The joke is not funny, and it’s offensive to women, and doctors, and monkeys!",
+      "observation": "Monica当面直指笑话不仅不好笑，而且构成了多层面的冒犯",
+      "interpretation": "话语语义具有强烈的批判性与指责性质，表明对事件的极度不满与抗议",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:03-00:04",
+      "observation": "Monica在念到“and monkeys!”时语调急剧上扬拔高，音量骤增",
+      "interpretation": "听觉上呈现出激动和情绪激化的对峙爆发，对应节点person_3的强调过程",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_06, 4.21s",
+      "observation": "Monica身体前倾，双目圆睁注视对方，嘴巴大张喊话",
+      "interpretation": "强烈的肢体前倾与面部张力展现出毫不退让的攻击性与反驳姿态",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "图谱记录了从指出不搞笑进阶到陈述冒犯对象的指控过程",
+      "interpretation": "逻辑递进的反驳链条体现出其层层施压、主动问责的对抗意图",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词提及“monkeys”具有情景喜剧的荒谬喜感，可能引发观众笑场或被误判为开玩笑，但Monica本人的语调和神情均全无笑意，属于极度严肃的愤怒控诉。"
+}

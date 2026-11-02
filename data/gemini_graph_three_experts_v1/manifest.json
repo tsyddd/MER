@@ -1,0 +1,642 @@
+{
+  "MER2024/sample_00001635": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/sample_00001635/graph.json",
+    "sha256": "33e676dfa4457845fb12373ba65d5f414546b0623de9d024d66ecd7d1c0e8f8c",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/sample_00001635/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/sample_00002038": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/sample_00002038/graph.json",
+    "sha256": "5df67b783a7d621f4c168fbbed45377607d79f7076828cb28063569a3c555671",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/sample_00002038/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/sample_00002893": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/sample_00002893/graph.json",
+    "sha256": "9d46ffb3a0e6d7ee83ce5711674ec38a79e6e03c6208bac88d0b6ce9c7023ef2",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/sample_00002893/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/sample_00004468": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/sample_00004468/graph.json",
+    "sha256": "030d3dde52545bf65625b56493419caddcff773c9828571517a26fff72171282",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/sample_00004468/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00002333": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00002333/graph.json",
+    "sha256": "0e9fbf235f4db8f0d6cbb4c5b79681cf485a4b2bfdd80a92849380e07b412f8e",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00002333/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00003759": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00003759/graph.json",
+    "sha256": "d4dc715827dd04c5c7e8bd03b9c748a147a401e0b3bbb9649b82a034b9612827",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00003759/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00005203": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00005203/graph.json",
+    "sha256": "80ed71fa2ffabbd46e09fee5b9edb8082b0b4d584293ba2c216376d47e0f2d8d",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00005203/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00005588": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00005588/graph.json",
+    "sha256": "3c05565a2f5988a34215ae155e7337af3fdfc1912e5b57502601b56c3ef3ae72",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00005588/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00005612": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00005612/graph.json",
+    "sha256": "277d5c5900a033008ef8204e177794173a0a9d543a995a1fbb51814e27394ff0",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00005612/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00006180": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00006180/graph.json",
+    "sha256": "4a765d2b2802a7f8b7c5268ad405ddb73b3790b0239521f2f89cddf88ddba4d0",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00006180/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00006335": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00006335/graph.json",
+    "sha256": "a0bf56d9fb9db16ede1f6dafeaeb4ef47157197d9bed5ab5ad9436046022afb9",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00006335/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00013076": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00013076/graph.json",
+    "sha256": "e796dd3141342719140120ba7aa857e918a2cb64ad25a93033187111d322a6bb",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00013076/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00013127": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00013127/graph.json",
+    "sha256": "d2115c97acf3c6e01bbce09ee0045d9eebc8b28101f778a38355f8f3c0e262a8",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00013127/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00013200": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00013200/graph.json",
+    "sha256": "e4bae7c80b439e4a7f0b4b40b4f348c523e3f9346140a2af207f7d850c976f73",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00013200/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00013928": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00013928/graph.json",
+    "sha256": "49b9882ec6625c755d0ee37646065921d1bf3d3dd712f15713cb364e31bc4877",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00013928/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00014279": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00014279/graph.json",
+    "sha256": "8a93788f7988ee7297cf059d2b609d25c7836c71056843455b447ed540c3a17b",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00014279/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00014357": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00014357/graph.json",
+    "sha256": "1c1a5d8dd0e2d03d755669d8aca384a001216ff52b560b1e66824436e87c8a0f",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00014357/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00014662": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00014662/graph.json",
+    "sha256": "f797ce76093f00b080e0bcaf2c7690927a4e4391deedfdf8240b8fab343a4016",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00014662/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00015349": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00015349/graph.json",
+    "sha256": "bcd55e14af684d9817d928d38f4c0f9621768146d95143886c11d6eb856c9942",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00015349/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00019636": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00019636/graph.json",
+    "sha256": "d1653847d3cf6cfc09cc8eb7628fbb69523753b496954bbdaa066c61ccdb6896",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00019636/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00021837": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00021837/graph.json",
+    "sha256": "4ea7680e20f81851cd4a88935382e146f7572d96f8fec674a7c229992a63b048",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00021837/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00021849": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00021849/graph.json",
+    "sha256": "359093044a96c9b0d3bf12c8621869f06d99bda1905d519e91d11df175dc34b4",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00021849/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00021868": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00021868/graph.json",
+    "sha256": "525b131426b19ccc086afb01c3de0dac946463a250271f0d8e2481091c04e506",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00021868/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00025713": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00025713/graph.json",
+    "sha256": "6276692c6cfc354003e575f92e375614a390c427cbb800fa58633127fa42f7c5",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00025713/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00029282": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00029282/graph.json",
+    "sha256": "e81a763258684129b06d506421613b3dbd812a365d2377fedae6ad08cf75907c",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00029282/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00030944": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00030944/graph.json",
+    "sha256": "7bd9f3e867f21d2ec668fb44dc3c0e1322c116ee3685ad30869d4f13503a1273",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00030944/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00031467": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00031467/graph.json",
+    "sha256": "ce0718d332667e1a8f68aff97e3bf70bb490b84c29c19b6a35c15f5d91354a74",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00031467/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00033166": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00033166/graph.json",
+    "sha256": "601e004fdfc952c53a92b0a0ecef60e492bda4cb92d703eefffcf73140a33a83",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00033166/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00033539": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00033539/graph.json",
+    "sha256": "a415fec142e7ddeeb3ecfd6ae5f20bd235ccd0be39b7230d3d3b9654add4a754",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00033539/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00034225": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00034225/graph.json",
+    "sha256": "12ed0aa9b273f368e8bd1e8523c70a683154346bda47b6b5ca66053f7fff6640",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00034225/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00034373": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00034373/graph.json",
+    "sha256": "5a1be975f29db4b905cf5235ac6aedcea3f1639cf54f65f8e4b8e84c66b5d091",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00034373/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00034518": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00034518/graph.json",
+    "sha256": "3fed6d6059d74c2412d0aa8019d55bbdcde203bd9f2c07e116f6616c4aef8d9e",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00034518/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00035599": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00035599/graph.json",
+    "sha256": "2e41d1566b0d6d612ec8cac9b6fe7ea8a5c74329bc5ef3be50b67f145d3e328a",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00035599/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00035777": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00035777/graph.json",
+    "sha256": "16f51d5dc6065a268e5e910bb5bfbb8899c3b3f3bb04d1e2c3670d7e68263a35",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00035777/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00035837": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00035837/graph.json",
+    "sha256": "50fa078e2d97eec8a574cbe583ec63c1368c6298089bae3bc9b79dd5c68cb064",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00035837/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00035950": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00035950/graph.json",
+    "sha256": "521bc59b8292512714ce7a1cf82373756b611bf8bd876b6099b6bd083d1d6d57",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00035950/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00036745": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00036745/graph.json",
+    "sha256": "56b7ab0a274b240942c2ca3a5bf6aff985c05e2aab602a0289a32a97d1119e4a",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00036745/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00038936": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00038936/graph.json",
+    "sha256": "c613bc4c8eed706c8b1610a8aeb9393921c5fc05b8cbb31814da46e58a8148c8",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00038936/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00040685": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00040685/graph.json",
+    "sha256": "00b59cea7eb95d8df3713bcb9b7defc0e8f79ae664b527d4cc419d1d058a6afa",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00040685/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MER2024/samplenew_00041734": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MER2024/samplenew_00041734/graph.json",
+    "sha256": "ef82d3fe06a46b4125e3eacb1a9f355331f80a204ee0f71866c99305b2e54746",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MER2024/samplenew_00041734/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia0_utt2": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia0_utt2/graph.json",
+    "sha256": "3970f5e11853554fbfc18f31e31c06de8bbd17661ed1c904623e938e0536b1f7",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia0_utt2/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia109_utt4": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia109_utt4/graph.json",
+    "sha256": "b1102943bbcf1af1e117a380fae997536de4112a2f80180e05feb45af20ee7b2",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia109_utt4/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia109_utt5": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia109_utt5/graph.json",
+    "sha256": "d1e48fb5bc9702767bb92c6beba55179a3e73274b2c9fb39f96f11cbbfe48c20",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia109_utt5/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia115_utt3": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia115_utt3/graph.json",
+    "sha256": "3c926295d3796c3783dc09d63fc430c57ea2b6d5e57398d0b9b8039178cc2219",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia115_utt3/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia119_utt5": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia119_utt5/graph.json",
+    "sha256": "fb723911feb1977e95353e9e5cd3a600d355b69ec46c0c99064139b522a98aa9",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia119_utt5/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia131_utt3": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia131_utt3/graph.json",
+    "sha256": "cd3d3c8c807c19df6b632ee4fea884ed6da5a8289e78f2f9813b77504e417e13",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia131_utt3/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia132_utt2": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia132_utt2/graph.json",
+    "sha256": "f084672e7cf9dd79896fb1df6be44f63d0e81e8653bd27ac9cb35d8247ef8c65",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia132_utt2/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia140_utt4": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia140_utt4/graph.json",
+    "sha256": "8fef145f22a30b21db1df9aa0b95769ecea3ec4535f7bae7d08d725b3cc323a7",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia140_utt4/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia150_utt4": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia150_utt4/graph.json",
+    "sha256": "b948f663757dd9d93d653315d388ec7b3f3b77e98f96b4337073cdbfe157409b",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia150_utt4/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia153_utt11": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia153_utt11/graph.json",
+    "sha256": "b023c80896f2e13dc2c986e2f32b6b993f29f3e06532e4de681ae7bcdce52d22",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia153_utt11/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia153_utt4": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia153_utt4/graph.json",
+    "sha256": "1701ec52f64cb4d931ebb2a39270db0f0b109d59cf49cceb1bc9a7c9f35dd50e",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia153_utt4/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia168_utt13": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia168_utt13/graph.json",
+    "sha256": "d4f4337f36452e71eb92ed229fc09628e4b5b5772a515f3e6f5a2fe6ba4ccce4",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia168_utt13/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia178_utt2": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia178_utt2/graph.json",
+    "sha256": "3401018186bc11e65dff479d6b5d94730c37d902accf3de7809420f24e09c974",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia178_utt2/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia186_utt0": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia186_utt0/graph.json",
+    "sha256": "ce61aa500b449acf27aca857327845af67ac7b2a64a913c11593cd28ac6f91bf",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia186_utt0/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia186_utt3": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia186_utt3/graph.json",
+    "sha256": "66500757c83860e7bc8c787d8e2b59268fb274c5b6c0b4d08dfd117efb6c20d2",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia186_utt3/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia188_utt0": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia188_utt0/graph.json",
+    "sha256": "b97e68d51fd419e726abf41fc684b1dd95e92043178dcef7d7b2a8c69202319d",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia188_utt0/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia192_utt9": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia192_utt9/graph.json",
+    "sha256": "253cfc3d29025f100a084a4a4129a2710aa0f001fea7ff86d0942be80fadcdf5",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia192_utt9/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia198_utt2": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia198_utt2/graph.json",
+    "sha256": "3e5a8a4993b19ac3f6e4c36023c416407d12023be7b4a0e80d447afe6996d7d7",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia198_utt2/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia200_utt2": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia200_utt2/graph.json",
+    "sha256": "2223d26305da5c16666ed91ea00f333b6d907f4eba1818669a8c3acca13b8f5f",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia200_utt2/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia21_utt6": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia21_utt6/graph.json",
+    "sha256": "bf42e3a608598de26188e2d4e2714eda6e90f3de2c795d77c68bb3237d71f5d1",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia21_utt6/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia224_utt2": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia224_utt2/graph.json",
+    "sha256": "1a93519324deb7114b711ca1273c4ab6d476608084d6a740754472aedd789a3b",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia224_utt2/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia226_utt3": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia226_utt3/graph.json",
+    "sha256": "554a2426d1927843a8eb1d72198c70c94dfcdf5ba4a53d703518ea9653b7a645",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia226_utt3/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia233_utt0": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia233_utt0/graph.json",
+    "sha256": "a94f5575d3aaa8dce6c1acd443e893d451a7588d0c29ef22d0ffe8091580c26e",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia233_utt0/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia233_utt1": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia233_utt1/graph.json",
+    "sha256": "28377b2eb5597e7f5b05f1f254a992b627c9f9588a264363ea2c03cb09ddd88d",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia233_utt1/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia237_utt3": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia237_utt3/graph.json",
+    "sha256": "ce972a653956a31614b7e25f45b63c679edd7dc7223fe0ddbbd92ef5105cd4d2",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia237_utt3/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia239_utt0": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia239_utt0/graph.json",
+    "sha256": "b7c708f8d9735f8954957fb30790839e5a1cfb9b416c9423567de212ceab0391",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia239_utt0/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia239_utt2": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia239_utt2/graph.json",
+    "sha256": "83c5e47c0148450bbc1edd40f39fe6e36178e18810553475144f0c7751aa6c95",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia239_utt2/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia245_utt4": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia245_utt4/graph.json",
+    "sha256": "1528c89a9e48293f5c22e3f68968c73260009900840f78dcfab7366d2748796f",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia245_utt4/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia259_utt10": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia259_utt10/graph.json",
+    "sha256": "58b737d28f4b46ef9301ad868ad5a56df1abb9892a3c373e0e689e4505ea1b8c",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia259_utt10/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia259_utt9": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia259_utt9/graph.json",
+    "sha256": "db05c16c44916312cd44a75a33353218abec775c99c4678488d5f402e1804724",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia259_utt9/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia263_utt9": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia263_utt9/graph.json",
+    "sha256": "748766277a851f3c168859458c00ae3a054753904e4b2ab4fc17828900a7ca74",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia263_utt9/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia33_utt6": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia33_utt6/graph.json",
+    "sha256": "42676d691bc7435fdaa13fee5000f399ed11ddb8973351645244f7085bfc901a",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia33_utt6/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia34_utt17": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia34_utt17/graph.json",
+    "sha256": "55de13de7623a6e85879feac678dde89b7dbd56f0daf4dc5a1f20e9a6a71f9c9",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia34_utt17/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia34_utt5": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia34_utt5/graph.json",
+    "sha256": "4372539d1352a67af87f434a2856e5389f0e24e45435ccb679dbf48998afbc94",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia34_utt5/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia38_utt1": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia38_utt1/graph.json",
+    "sha256": "283890143b6bd15c34d0fcc959b56cb32cb859b30cd2d4facc4a2608311bfdd4",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia38_utt1/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia40_utt0": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia40_utt0/graph.json",
+    "sha256": "254c3294b62a3335eb4728ae3603d205e9201e73ba279aea4479f5c9c586672e",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia40_utt0/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia50_utt2": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia50_utt2/graph.json",
+    "sha256": "fcd38a66edaf51c357f7f05241b31338cc6543efc841a51ccf79324b15367974",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia50_utt2/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia66_utt1": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia66_utt1/graph.json",
+    "sha256": "c398d30886c2843c21af96c15c9bcdddf2dff86a4ef358b1b57842960c047eb1",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia66_utt1/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia66_utt2": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia66_utt2/graph.json",
+    "sha256": "5a18845c511d8d042e0aafc9325f0ce10daa1e74888c7cd85c82140504ee351d",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia66_utt2/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  },
+  "MELD/dia9_utt11": {
+    "path": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/data/gemini_graph_three_experts_v1/MELD/dia9_utt11/graph.json",
+    "sha256": "e2a50d6b01ecc35a810613a0879b6c7baee7d96f1dcefc36a846281bb0277898",
+    "source": "/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/outputs/ppct/gemini/MELD/dia9_utt11/graph.json",
+    "source_provider": "gemini",
+    "source_model": "gemini-3.8-flash-high",
+    "contains_audio_derived_nodes": true
+  }
+}

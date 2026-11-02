@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标说话人在提及'你好像出了点意外'时，语调放轻且语速平缓，带有明显的试探与关切语气；台词内容指向对方遭遇的不测情况，展现出对对方安危的挂虑；视觉上面部微蹙眉并注视对方，进一步证实其并非客观陈述事实，而是流露出关切与忧心。",
+  "open_emotion": "关切",
+  "answer": "worried",
+  "mapping_reason": "说话人对对方发生的潜在负面意外表达试探性的询问与挂念，符合worried家族中关于对负面情况感到关切、担心的核心定义。",
+  "evidence": [
+    {
+      "anchor": "00:01-00:03",
+      "id": "E1",
+      "interpretation": "在说到'你好像出了点意外'时，音量轻柔且尾音带有探询与放缓的韵律，体现出小心翼翼的关切态度。",
+      "observation": "音轨中说话人声音放轻，语调柔和且带有探询式的关怀停顿。",
+      "polarity": "support",
+      "source": "audio"
+    },
+    {
+      "anchor": "不过 我最近听他们说 你好像出了点意外",
+      "id": "E2",
+      "interpretation": "通过委婉转折和不确定的揣测语气，表达对对方不良遭遇的关心与顾虑，属于典型的关怀言语行为。",
+      "observation": "字幕台词使用'不过'转折并以'你好像出了点意外'进行探问。",
+      "polarity": "support",
+      "source": "subtitle"
+    },
+    {
+      "anchor": "frame_04至frame_07",
+      "id": "E3",
+      "interpretation": "面部神情与声音中的关切试探相吻合，表明其对谈话对象的境况怀有担忧心绪。",
+      "observation": "目标人物眉头微皱，眼神专注而略带忧虑地看向对方。",
+      "polarity": "support",
+      "source": "visual"
+    }
+  ],
+  "counterevidence": "由于语调整体较为克制温和，可能被误判为普通的客观询问（neutral），但声音的轻柔试探及面部的微蹙表明其内心具有情感倾斜，而非纯客观交流。"
+}

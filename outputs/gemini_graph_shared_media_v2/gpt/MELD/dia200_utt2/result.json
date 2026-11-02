@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia200_utt2",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "2223d26305da5c16666ed91ea00f333b6d907f4eba1818669a8c3acca13b8f5f",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标是右侧穿红毛衣的Joey。字幕逐一排除拿走东西的人，最后问“then who did?”；[audio_subtitle:E1]对话语是在梳理情况的判断有依据。画面中他指向自己、再向同伴摊手，[image:E1]所见的抬眉张口也属实，但张口可能只是说话，手势与逐项追问相符，不足以确定为惊讶。没有提供音轨，无法核验问句语气；因此在neutral与surprise之间选择neutral。",
+  "output": "目标是右侧穿红毛衣的Joey。字幕逐一排除拿走东西的人，最后问“then who did?”；[audio_subtitle:E1]对话语是在梳理情况的判断有依据。画面中他指向自己、再向同伴摊手，[image:E1]所见的抬眉张口也属实，但张口可能只是说话，手势与逐项追问相符，不足以确定为惊讶。没有提供音轨，无法核验问句语气；因此在neutral与surprise之间选择neutral。\n<answer>neutral</answer>",
+  "label": "anger",
+  "elapsed_seconds": 89.82825756072998
+}

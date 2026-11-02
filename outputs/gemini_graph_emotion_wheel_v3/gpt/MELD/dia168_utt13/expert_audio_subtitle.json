@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Ross直接指认对方并催促其认罪，而非询问或引述；这是一种带有对抗性的责备。[E1]他随后皱眉、双手向外比划的画面与这种态度一致。[E2]",
+  "open_emotion": "恼火",
+  "answer": "anger",
+  "mapping_reason": "当前表达的重点是指责和施压，符合anger中因认为对方有过错而产生的恼火与对抗。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“We know you took so just-just save yourself the time and confess!”",
+      "observation": "Ross说“我们知道你拿了”，并要求对方“confess”。",
+      "interpretation": "这是直接指认并催促认罪，支持对抗性的恼火，而非单纯陈述事实。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03（1.335秒）至frame_04（1.793秒）",
+      "observation": "Ross皱眉，双手抬起并向外比划，面向谈话对象说话。",
+      "interpretation": "表情和动作与字幕中的施压语气相符；画面本身不能证明具体声调。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "也可能是在急于结束争论，而非强烈愤怒；片段没有提供音频，无法核实重音、音量或实际语调。"
+}

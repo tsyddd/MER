@@ -1,0 +1,64 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Gunther说：“Someone in there?”",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "右侧男子起初面向右侧。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "右侧男子转动头部并将视线移向左侧的男子。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内有两名男子，Gunther位于左侧，另一名男子位于右侧。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "同一人物先面向右侧，随后转动头部并将视线移向左侧男子",
+      "entity_anchor": "右侧男子"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供右侧男子起初面向右侧的信息，person_1补充其随后转头并将视线移向左侧男子的信息；联合后可观察到该男子从原先朝向右侧转为面向并关注左侧男子的连续可见变化。",
+      "entity_anchor": null
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00003759",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "d4dc715827dd04c5c7e8bd03b9c748a147a401e0b3bbb9649b82a034b9612827",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "目标人物在对话中表现出明显的惊讶。她的眉毛上扬，眼睛睁大，嘴巴微张，这些是惊讶的典型面部特征。她的视线始终集中在对话者身上，表明她正在专注地接收信息。字幕显示她正在说“是吗？才真这么说的”，这句台词本身也表达了对听到内容的意外和难以置信。音频中，她的语调高亢且急促，与惊讶的语气完全吻合。虽然图谱描述了她从倾听转向回应的互动过程，但并未将此行为与惊讶情绪关联，因此其证据不足以支持“neutral”标签。综合来看，视觉、音频和字幕信息高度一致，均指向惊讶的情绪。",
+  "output": "目标人物在对话中表现出明显的惊讶。她的眉毛上扬，眼睛睁大，嘴巴微张，这些是惊讶的典型面部特征。她的视线始终集中在对话者身上，表明她正在专注地接收信息。字幕显示她正在说“是吗？才真这么说的”，这句台词本身也表达了对听到内容的意外和难以置信。音频中，她的语调高亢且急促，与惊讶的语气完全吻合。虽然图谱描述了她从倾听转向回应的互动过程，但并未将此行为与惊讶情绪关联，因此其证据不足以支持“neutral”标签。综合来看，视觉、音频和字幕信息高度一致，均指向惊讶的情绪。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 181.46525287628174
+}

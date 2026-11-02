@@ -1,0 +1,9 @@
+{
+  "reason": "Monica在多个帧中面带微笑，眼睛周围有皱纹，表现出真诚的喜悦。她的语调轻松愉快，字幕内容如'it's going great'和对Chandler与婴儿的评论，都表明她对当前情景感到满意和愉悦。三位专家的证据均一致支持joy，其中[graph:E1]和[image:E1]从视觉上证实了她的积极表情，[audio_subtitle:E2]从听觉上确认了其积极的语调和内容。没有证据表明存在其他情绪。",
+  "answer": "joy",
+  "evidence_refs": [
+    "graph:E1",
+    "audio_subtitle:E2",
+    "image:E1"
+  ]
+}

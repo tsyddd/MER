@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00003759",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "d4dc715827dd04c5c7e8bd03b9c748a147a401e0b3bbb9649b82a034b9612827",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "目标人物因对方转述的事件超出自身预料而产生强烈的意外与不置信感，符合情绪轮中surprise（因当前信息违背预期产生的意外、诧异或震惊）的定义；事件语义聚焦于确认事实真伪而非潜在风险或受阻对抗，因而排除了worried与angry。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "震惊",
+      "mapped_label": "surprise",
+      "mapping_reason": "说话人由于听到违背预期的信息而产生强烈的意外与不可置信，语调与神态均高度吻合 surprise（惊讶）的定义。"
+    },
+    "image": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "目标人物因对方传达的信息明显出乎意料而产生强烈的意外与求证反应，符合MER2024情绪轮中surprise（惊讶）关于信息违背预期产生诧异的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "目标人物（棕色外套女子）在听到对方陈述后表现出典型且强烈的违背预期反应。回看音轨与字幕，0.0s-1.5s间她以极高音调和大幅上扬的急促反问语气说出“是吗？他真这么说的”，正如[audio_subtitle:E1]与[image:E3]所观察到的求证与不可置信感，可信度极高。视觉上frame_02至frame_06中，她双眼圆睁、挑眉且嘴部夸张大张[image:E1]，动作幅度明显，彻底排除了平淡中性；且其情绪核心在于当下信息的即时震撼而非敌意对抗或风险忧虑，最终明确判定为惊讶（surprise）。",
+  "output": "目标人物（棕色外套女子）在听到对方陈述后表现出典型且强烈的违背预期反应。回看音轨与字幕，0.0s-1.5s间她以极高音调和大幅上扬的急促反问语气说出“是吗？他真这么说的”，正如[audio_subtitle:E1]与[image:E3]所观察到的求证与不可置信感，可信度极高。视觉上frame_02至frame_06中，她双眼圆睁、挑眉且嘴部夸张大张[image:E1]，动作幅度明显，彻底排除了平淡中性；且其情绪核心在于当下信息的即时震撼而非敌意对抗或风险忧虑，最终明确判定为惊讶（surprise）。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 61.368154764175415
+}

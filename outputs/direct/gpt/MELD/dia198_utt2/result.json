@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia198_utt2",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "Joey正在面对他人说话并配合手势，表情严肃、眉头略皱，带有调侃和轻微不满，但没有明显的强烈愤怒或喜悦表现。字幕内容是玩笑式评价，当前情绪整体偏平稳。",
+  "output": "Joey正在面对他人说话并配合手势，表情严肃、眉头略皱，带有调侃和轻微不满，但没有明显的强烈愤怒或喜悦表现。字幕内容是玩笑式评价，当前情绪整体偏平稳。\n<answer>neutral</answer>",
+  "label": "anger",
+  "elapsed_seconds": 40.16094398498535,
+  "node_count": null,
+  "edge_count": null
+}

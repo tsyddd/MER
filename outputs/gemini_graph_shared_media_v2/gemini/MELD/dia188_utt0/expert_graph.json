@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "在当前街景互动中，Joey仅在行走停步时随口向身后同伴发问[process_0]，其语调与肢体动作[person_0][person_1]均处于平缓常态，未表现出偏向特定情感维度的强烈激活，符合中立基线。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "图谱记录Joey发出发问“What?”",
+      "interpretation": "表明其互动意图仅为开启对话或日常询问，本身不携带强烈情绪倾向",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.00-0.45秒话语'What?'",
+      "observation": "发音短促且音调平缓，没有升调惊呼或重音压迫感",
+      "interpretation": "缺乏惊讶的高音高跃升或愤怒的重读冲击，支持平淡客观的中立情绪",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.1251249028533363",
+      "observation": "Joey转头说话时眉眼松弛平缓，无扬眉睁眼或皱眉咬牙表现",
+      "interpretation": "面部无惊愕或敌对征象，与平淡发问的情境一致，支持neutral",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "发问'What?'常被误判为surprise（惊讶），但实际音轨平直无升调，且frame_00至frame_03中Joey眉眼无挑起或瞠目特征，故排除surprise。"
+}

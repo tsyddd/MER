@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia259_utt10",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "58b737d28f4b46ef9301ad868ad5a56df1abb9892a3c373e0e689e4505ea1b8c",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "Monica的语速快、音量大、语调在句末上扬，且字幕内容为直接的批评和指责，这些视听证据共同指向愤怒。图像专家指出其眉毛紧锁，与音频中的愤怒语调和字幕内容一致。尽管图像中有一帧出现短暂微笑，但该表情是短暂的，且与前后帧的愤怒表情不连贯，因此不构成对愤怒判断的有效反证。综合来看，多源证据均支持愤怒情绪。",
+  "output": "Monica的语速快、音量大、语调在句末上扬，且字幕内容为直接的批评和指责，这些视听证据共同指向愤怒。图像专家指出其眉毛紧锁，与音频中的愤怒语调和字幕内容一致。尽管图像中有一帧出现短暂微笑，但该表情是短暂的，且与前后帧的愤怒表情不连贯，因此不构成对愤怒判断的有效反证。综合来看，多源证据均支持愤怒情绪。\n<answer>anger</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 159.6828649044037
+}

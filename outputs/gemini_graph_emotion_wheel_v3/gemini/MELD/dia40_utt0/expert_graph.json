@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "在当前对话情境中，Monica依偎在Chandler怀中，与面前的友人互动。视觉上她由低头含蓄微笑展开为抬头正向露齿大笑（对应图谱节点person_2），配合听觉中伴有笑意的上扬语调说出“Yeah baby!”（对应节点person_3与process_0），整体事件链呈现出充分享受当下对话的愉快与兴奋状态。",
+  "open_emotion": "开心",
+  "answer": "joy",
+  "mapping_reason": "开放情绪‘开心’对应个体在人际互动中体验到的正向愉悦、欣喜与满足感，直接归属于情绪轮中的joy家族。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_04至frame_07",
+      "observation": "Monica抬头看向前方同伴，嘴角明显向上展开并露出牙齿灿烂微笑",
+      "interpretation": "面部持续展现典型的真诚笑意，表明其内在的正向愉悦体验",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:01",
+      "observation": "Monica以轻快且带着笑意的上扬声调说出“Yeah baby!”",
+      "interpretation": "语调富有感染力且充满兴致，印证了图谱节点person_3中的轻快上扬特征",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "节点记录Monica抬头面向前方，嘴角上扬露齿微笑，且发生在初始低头微笑之后（person_2 after person_0）",
+      "interpretation": "图谱中的时序变化准确对应了视觉上笑容逐渐放大、情绪进一步高涨的过程",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "如果脱离情境单看台词“Yeah baby!”可能被理解为夸张起哄，但结合其温柔自然的露齿笑容与亲密肢体语言，排除了嘲弄或单纯礼节性反应的可能。"
+}

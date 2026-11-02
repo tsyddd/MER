@@ -1,0 +1,5 @@
+EVOLUTION_PROMPT = '''你是多模态情感分析流程的独立错误审查器。这个样本已经被PPCT流程错误分类。请同时查看视频帧、字幕、真实标签、模型标签、证据节点、图谱、线索组织文本和最终Reason。你的任务是定位最早导致错误的环节，而不是为错误标签辩护。
+请按以下顺序审查：1) 证据是否把Process、Person、Context混淆或加入视频没有的内容；2) temporal/joint关系是否有实际视频依据；3) 线索组织文本是否把观察事实改成情绪解释；4) 最终Reason是否忽略了视频、字幕当前时间和目标人物，或被单一强线索带偏；5) 提出一条可以直接写进提示词的规则。
+参考Chain-of-Verification、Self-Refine和多模态情感分析中的证据对齐原则：指出可回看视频验证的事实，区分观察、关系和情绪判断。不要重新预测标签，不要输出长篇思维链。只返回合法JSON：{"sample_id":"...","error_type":"...","evidence_issue":"...","relation_issue":"...","reasoning_issue":"...","prompt_change":"...","revised_rule":"..."}。'''
+
+SKILL_REFLECTION_PROMPT = '''你是 SkillOpt 的离线反思与候选编辑器。目标是改进一个冻结模型使用的情感分析 skill 文档，不改变模型权重、标签集合、输入模态或schema。下面给出当前 skill 树和 development 轨迹（包含成功与失败样本）。归纳反复出现、可迁移的错误模式，提出最多3个最小编辑。每个编辑只能是 add、replace 或 delete 一个叶子规则，branch 必须是 evidence_fidelity、video_expert、ppct_expert、subtitle_expert、summary 之一；rule 必须是可检查的单句行为要求，不能包含具体sample_id、具体画面位置或真实标签泄漏。只返回JSON：{"rationale":"...","edits":[{"branch":"summary","operation":"add|replace|delete","rule":"..."}]}。'''

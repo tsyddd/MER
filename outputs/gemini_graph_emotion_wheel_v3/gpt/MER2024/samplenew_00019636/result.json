@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00019636",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "d1653847d3cf6cfc09cc8eb7628fbb69523753b496954bbdaa066c61ccdb6896",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "当前年龄说法与男子所见外貌不符，他明确表达出意外和不解，符合surprise的预期违背，而不只是一般疑问。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "当前表达的重点是年龄与所见外貌违背预期，符合surprise中的诧异；这不意味着他表现出强烈震惊。"
+    },
+    "image": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "当前疑问指向年龄与所见外貌之间的预期落差，因此将较克制的诧异映射为surprise；这不意味着他表现出强烈震惊。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "字幕中男子说“真的一百多岁了，我怎么看也不像啊”，明确指出年龄与外貌不符；[audio_subtitle:E1]对此作诧异的解释可信，但依据是字幕，不能当作已核实的语气。回看3.72秒，他蹙眉发问；到6.16—8.64秒转为手抵下巴的思索姿态，与[image:E2]所述一致。后半段是在转述人面花的说法，克制的思索也可能只是核对线索；但当前明确表达的预期落差，比单纯平稳叙述更支持较轻的诧异。未提供音轨，不据语调判断。",
+  "output": "字幕中男子说“真的一百多岁了，我怎么看也不像啊”，明确指出年龄与外貌不符；[audio_subtitle:E1]对此作诧异的解释可信，但依据是字幕，不能当作已核实的语气。回看3.72秒，他蹙眉发问；到6.16—8.64秒转为手抵下巴的思索姿态，与[image:E2]所述一致。后半段是在转述人面花的说法，克制的思索也可能只是核对线索；但当前明确表达的预期落差，比单纯平稳叙述更支持较轻的诧异。未提供音轨，不据语调判断。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 81.44917368888855
+}

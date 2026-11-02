@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "Monica在与他人对话时，其言语内容和肢体动作共同指向一个需要隐藏或快速处理某事的紧迫情境。她先是陈述了'Ben要来'这一事实，随即用'他不能看到这个'来强调隐藏的必要性，并立即伸手去操作街机，表明她正在处理一个需要立即行动的状况。这种从言语到行动的快速转变，结合其专注的面部表情，指向一种因时间压力和潜在后果而产生的紧张感。",
+  "open_emotion": "紧张",
+  "answer": "fear",
+  "mapping_reason": "根据MELD项目的情绪轮，'fear'被定义为对威胁、危险或令人害怕的负面后果表现出的畏惧、惊恐或焦虑。Monica的言语内容'Ben要来，他不能看到这个'暗示了她所处的环境或行为可能带来负面后果，而她随即采取的迅速行动表明她正试图避免这一后果。这种因潜在威胁而产生的紧迫和焦虑感，与'fear'的定义最为接近。虽然'担忧'或'焦虑'也是合理的开放情绪词，但'fear'是当前数据集允许的最能准确反映其情绪状态的标签。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "But Ben is coming over tonight and he can't see this.",
+      "observation": "Monica的言语内容是关于一个叫Ben的人即将来访，并且他不能看到某件事。",
+      "interpretation": "该内容表明存在一个需要被隐藏的、可能带来负面后果的状况，这为她的情绪提供了直接的语义背景。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04",
+      "observation": "在说'and he can't see this'时，Monica将手伸向街机控制台。",
+      "interpretation": "这是一个从言语到行动的快速转变，表明她正在处理一个需要立即行动的状况，这与因时间压力和潜在后果而产生的紧张感相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_07",
+      "observation": "在说完话后，Monica的身体前倾，视线转向街机。",
+      "interpretation": "这个动作表明她将注意力完全集中在需要处理的设备上，表现出一种专注和紧迫感。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "图谱节点process_0描述了Monica对身旁男子说话：'But Ben is coming over tonight'。",
+      "interpretation": "该节点证实了Monica正在向他人陈述一个关键情境，即Ben的来访，这是她后续所有行为的直接原因。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "图谱中描述Monica的语调为'平稳连续'，这可能被解读为情绪中性。然而，这种描述是基于音频的抽象概括，而从她的话语内容和迅速的肢体动作来看，这种'平稳'更可能是一种在压力下维持冷静的表象，而非内心的真实感受。因此，该图谱描述与基于内容和行为的分析存在差异，但后者提供了更丰富的上下文来解释其情绪。"
+}

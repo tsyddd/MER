@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00034225",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "根据person_0和person_1节点，男子在与人交谈时神态平稳，目光注视对方，语音平缓且仅带轻微探询疑问，未见明显的恐惧紧张或情绪激动。综合process_0中的言语发问，整体表现属于平静客观的常态交流。",
+  "output": "根据person_0和person_1节点，男子在与人交谈时神态平稳，目光注视对方，语音平缓且仅带轻微探询疑问，未见明显的恐惧紧张或情绪激动。综合process_0中的言语发问，整体表现属于平静客观的常态交流。\n<answer>neutral</answer>",
+  "label": "worried",
+  "elapsed_seconds": 51.05539679527283,
+  "node_count": 7,
+  "edge_count": 6
+}

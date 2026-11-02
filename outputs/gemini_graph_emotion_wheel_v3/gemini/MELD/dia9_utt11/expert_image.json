@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "目标人物Rachel（沙发最左侧穿深色皮衣者）面部眉头微蹙、嘴角下撇，并在frame_02至frame_03间闭眼显出心疼失落的神态。随后在拉远景镜头中（frame_04至frame_07），她低头看着手中被毁坏的衣物并提起来展示，身体姿态沉重无力，结合言语中对心爱之物毁坏的叹惋，整体呈现明确的难过与沮丧。",
+  "open_emotion": "沮丧",
+  "answer": "sadness",
+  "mapping_reason": "因个人重要物品被毁而呈现的面部失落、心痛及沮丧姿态，符合情绪轮中sadness（因失落或损失而难过、沮丧）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_03 (0.0s-1.08s)",
+      "observation": "Rachel眉头微蹙，嘴唇微张后嘴角向下收紧，frame_03闭眼垂头，表情流露心疼与难过。",
+      "interpretation": "反映面对损失时内心的痛苦与无可奈何的伤心。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04至frame_07 (1.42s-2.50s)",
+      "observation": "远景中Rachel身体前倾，将手中被烧损弄脏的蓝色衣服提起展示，视线落在衣物上，姿态颓丧。",
+      "interpretation": "体现对受损衣物的失落与心痛。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "Rachel在说话展示衣服时有一定程度的诉苦和抱怨，可能带有轻微烦躁或不满，但未表现出攻击性或愤怒的对抗动作，主导情感仍为受损带来的难过。"
+}

@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "目标人物Monica在抱婴儿的过程中全程面部表情温和放松。在后半段（frame_04至frame_07），她转向怀中的婴儿，嘴角明显上扬露出齿笑，眼神充满爱意与温柔，肢体动作稳定轻柔，展现出强烈的喜悦与喜爱感。配合台词与轻松欢快的声调，视觉上呈现出明确的正向愉快情感。",
+  "open_emotion": "欣喜",
+  "answer": "joy",
+  "mapping_reason": "Monica对怀抱婴儿表现出明显的喜爱与开朗微笑，符合joy中当前开心、愉悦与满足的正向体验定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_04至frame_07 (3.29s-5.80s)",
+      "observation": "Monica双手稳稳抱着婴儿，目光低垂注视着婴儿，嘴角持续向上拉起并露齿微笑，眼神温柔舒展。",
+      "interpretation": "展现出强烈的愉悦、喜爱与母性温情，非中性或礼貌假笑。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:02-00:05",
+      "observation": "Monica语调上扬、语速轻快，带有轻微的笑意和喜悦感（'Pheebs, it’s going great. Look at Chandler with little baby girl Chandler.'）。",
+      "interpretation": "听觉表现印证了视觉上的愉悦和正向情感状态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "在前半段（frame_00至frame_01），Monica面部微笑相对内敛克制，但整体仍无任何负向或冷漠的对抗/焦虑特征。"
+}

@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "“Someone in there?”是确认是否有人在场的疑问句，而非直接表达恐惧或愤怒[E1]。Gunther面向右侧、神情认真，画面支持他正在关注对方或房间内的情况，但未见足以支持更强情绪的表情变化[E2]。在现有证据下，选择neutral；没有音频，不能判断提问时的语气。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Someone in there?",
+      "observation": "字幕是一句询问是否有人在场的话。",
+      "interpretation": "言语行为是求证；问句本身不足以判定为害怕或惊讶，较符合平常的询问。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.5004996114133452秒",
+      "observation": "左侧的Gunther面向右侧，身体略向前，表情认真。",
+      "interpretation": "与关注并询问的语义相符，未显示明显的恐惧或愤怒。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的替代解释是fear：询问“里面有人吗”也可能出于警惕。但字幕没有说明他为何发问，静帧也未显示明确的惊恐；缺少音频，无法借语气进一步区分。"
+}

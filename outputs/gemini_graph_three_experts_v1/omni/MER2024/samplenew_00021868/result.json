@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00021868",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "525b131426b19ccc086afb01c3de0dac946463a250271f0d8e2481091c04e506",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "graph与audio_subtitle均指向负面情绪，graph强调压抑沉思的氛围，audio_subtitle描述回忆中的伤感，二者一致支持情绪为低落；image显示目标人物姿态沉稳内敛，面部无明显波动，倾向于neutral，但该状态更可能是情绪的外在表现而非情绪本身。综合判断，听觉与文本描述的伤感与沉思更贴近核心情绪，故采纳为sad。",
+  "output": "graph与audio_subtitle均指向负面情绪，graph强调压抑沉思的氛围，audio_subtitle描述回忆中的伤感，二者一致支持情绪为低落；image显示目标人物姿态沉稳内敛，面部无明显波动，倾向于neutral，但该状态更可能是情绪的外在表现而非情绪本身。综合判断，听觉与文本描述的伤感与沉思更贴近核心情绪，故采纳为sad。\n<answer>sad</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 39.16272830963135
+}

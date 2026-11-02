@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "目标人物Gunther（画面左侧白发、蓝衬衫男子）面部神情平稳[E1]，以自然的日常姿态注视对方发问并等待回应[E2]，没有怒目、挑眉或嘴角下垂等强烈情绪外显特征，判定为neutral。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.2502498057066726",
+      "observation": "Gunther注视右侧人物，面部肌肉放松，眉毛与嘴部保持平实自然，无瞪眼、张大嘴或面部紧绷",
+      "interpretation": "缺乏明显的惊讶、愤怒或恐惧特征，表现出日常对话的平淡表情",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05 @ 1.251249028533363",
+      "observation": "Gunther身体端正站立，视线随对方转动持续保持平稳对视，体态未见退缩或攻击性",
+      "interpretation": "显示出正常的询问与倾听状态，支持客观中立的情绪",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "眉毛略微聚拢可能被误读为担忧或疑惑，但缺少下眼睑紧绷与口部张开等特征，结合简短平稳的询问音调，不支持具有明显波动的负面情绪。"
+}

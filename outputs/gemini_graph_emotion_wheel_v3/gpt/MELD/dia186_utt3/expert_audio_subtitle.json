@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Joey在电话中说“我很抱歉，今晚得取消约会”，是在向对方道歉，而非单纯报告行程变化[E1]。他说话时闭眼、嘴角下压，表情与歉意相符[E2]。据此判断他当前更接近歉疚；片段没有音频，无法核实语调。",
+  "open_emotion": "歉疚",
+  "answer": "sadness",
+  "mapping_reason": "歉疚不是sadness的同义词；在允许标签中，这里的歉意与不得不取消约会所呈现的低落更接近sadness，而非愤怒或恐惧。这是近似映射，不能据此断定他有强烈悲伤。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“Im sorry I gotta cancel tonight baby”",
+      "observation": "先表达歉意，再告知对方今晚必须取消。",
+      "interpretation": "这是一句针对取消安排的道歉；“sorry”需结合整句言语行为理解，不能仅凭该词判定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_03（0.834秒）",
+      "observation": "Joey拿着电话，数帧中闭眼或垂眼，嘴角下压。",
+      "interpretation": "表情与道歉时的低落、歉疚相符，但单凭表情不足以确定强度。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "也可能只是礼貌地道歉、平静地通知对方；没有音频，无法用语调区分真切歉疚与惯常客套。"
+}

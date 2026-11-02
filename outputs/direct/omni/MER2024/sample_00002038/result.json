@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00002038",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "音频中人物的语气带有明显的疑问和不确定性，结合字幕“他是谁呀？”，表明其正在询问一个未知的人。她的表情和声音传达出一种困惑和意外，而非愤怒、悲伤或喜悦。",
+  "output": "音频中人物的语气带有明显的疑问和不确定性，结合字幕“他是谁呀？”，表明其正在询问一个未知的人。她的表情和声音传达出一种困惑和意外，而非愤怒、悲伤或喜悦。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 5.732071399688721,
+  "node_count": null,
+  "edge_count": null
+}

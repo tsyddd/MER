@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00031467",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "ce0718d332667e1a8f68aff97e3bf70bb490b84c29c19b6a35c15f5d91354a74",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "独立核对画面（frame 0至6）与音轨，目标人物眉眼自然舒展，面部肌肉放松，并无明显的提肌笑意或情绪起伏。[image:E1]将礼貌性恬淡表情过度解读为happy欠缺充分依据；相比之下，[audio_subtitle:E1]与[graph:E2]准确指出了女子语调轻柔平缓、面容安详克制的客观状态。综合言语内容与互动情境，女子情绪处于平稳舒缓的常态沟通中，判定为中性最为稳妥。",
+  "output": "独立核对画面（frame 0至6）与音轨，目标人物眉眼自然舒展，面部肌肉放松，并无明显的提肌笑意或情绪起伏。[image:E1]将礼貌性恬淡表情过度解读为happy欠缺充分依据；相比之下，[audio_subtitle:E1]与[graph:E2]准确指出了女子语调轻柔平缓、面容安详克制的客观状态。综合言语内容与互动情境，女子情绪处于平稳舒缓的常态沟通中，判定为中性最为稳妥。\n<answer>neutral</answer>",
+  "label": "happy",
+  "elapsed_seconds": 73.53277778625488
+}

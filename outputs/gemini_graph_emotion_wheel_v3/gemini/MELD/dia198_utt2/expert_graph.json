@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "围绕Joey的当前互动事件链展开：Joey在与对面人物交流时，先指出事实进行纠正“No-no, she kicked our butts”[process_0]，紧接着补充调侃“You could be on the Olympic standing-there team”[process_1]。在整个过程中，Joey通过抬手指向对方并摊开手强调[person_0, person_2]，但表情和音轨均表现为语速平稳、尾音自然下落[person_4]，并未展现激烈的愤慨（anger）或狂喜（joy），而是呈现出一种平稳、随意的调侃与陈述状态。",
+  "open_emotion": "平稳陈述",
+  "answer": "neutral",
+  "mapping_reason": "Joey在纠正对方并讽刺其‘站在那里’时，语气自然平缓、神情从容，属于平稳、日常且无激烈情绪波动的表达，依据情绪轮定义映射到neutral。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_4",
+      "observation": "图谱记录Joey说话时语速平缓，句尾声音自然轻落，经音频实际核验其音调没有激烈起伏。",
+      "interpretation": "表明其说话时处于平稳、日常的交流状态，缺乏强烈情感驱力。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "Joey吐字清晰平稳，音量适中，没有愤怒对抗的喊叫或开怀大笑的笑意。",
+      "interpretation": "排除因冒犯对抗而产生的anger及强正向愉悦的joy。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01-frame_03",
+      "observation": "Joey虽然有抬起食指并摊开手的手势[person_0, person_2]，但面部肌肉放松，眉毛未紧皱，嘴角未下撇或咧开大笑。",
+      "interpretation": "手势仅用于日常会话中的观点表达和调侃强调，不支持愤怒或悲伤等强情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词内容带有讽刺与揶揄成分（‘Olympic standing-there team’），可能被解读为带有轻微嘲弄的joy或不满排斥的anger，但其实际视听表现均偏向平淡从容的deadpan语调，不足以支撑强烈的非中性情绪。"
+}

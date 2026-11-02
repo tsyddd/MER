@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量或语速。字幕表达对过去之事的宽慰与不责怪，当前情绪更符合中性。",
+  "answer": "neutral",
+  "evidence_refs": []
+}

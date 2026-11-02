@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "目标人物在所有帧中均保持低头、视线向下、表情凝重的姿态。其面部肌肉紧绷，嘴角下撇，眉心微蹙，表现出一种压抑的悲伤感。字幕内容“我也不想跟你分开”直接表达了对分离的抗拒，与视觉上的悲伤表情高度一致。音频中该句的语调低沉、语速缓慢，进一步强化了悲伤的情绪。综合视听证据，主导情绪为悲伤。",
+  "open_emotion": "悲伤",
+  "answer": "sad",
+  "mapping_reason": "根据情绪轮定义，'sad'（悲伤）指当前失落、伤心、哀痛或低落的情绪，需要损失评价或相应表达支持。目标人物的视觉表现（低头、紧绷的面部表情）与台词内容（表达不愿分离的痛苦）共同指向一种因可能的分离而产生的失落与哀伤，因此映射为'sad'是准确的。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "目标人物全程低头，视线未与对话者接触，表情凝重。",
+      "interpretation": "低头和回避视线是悲伤或不愿面对现实的常见表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "目标人物的嘴角呈下撇状态，眉心有轻微的皱褶。",
+      "interpretation": "这是悲伤情绪在面部肌肉上的直接体现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "我也不想跟你分开。",
+      "observation": "字幕显示了台词内容。",
+      "interpretation": "台词内容直接表达了对分离的抗拒，为悲伤情绪提供了明确的语义支持。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "音频中说出“我也不想跟你分开”时，语调低沉，语速缓慢。",
+      "interpretation": "低沉缓慢的语调强化了话语中的悲伤和无奈感。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。所有视听证据均一致指向悲伤情绪，无任何反证。"
+}

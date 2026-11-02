@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia186_utt0",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "disgust",
+  "emotion_analysis": "Chandler的字幕明确说“Ross和Joey已经够丢人的了”，表达了对这种尴尬情形的明显负面评价。结合person_0中张嘴说话、person_1中抬手制止，以及person_3中转头向右侧看并伴随面部皱缩，person_0→person_1和person_2→person_3的连续关系显示他在回应并排斥当前互动，整体更接近厌恶而非中性。",
+  "output": "Chandler的字幕明确说“Ross和Joey已经够丢人的了”，表达了对这种尴尬情形的明显负面评价。结合person_0中张嘴说话、person_1中抬手制止，以及person_3中转头向右侧看并伴随面部皱缩，person_0→person_1和person_2→person_3的连续关系显示他在回应并排斥当前互动，整体更接近厌恶而非中性。\n<answer>disgust</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 147.53173112869263,
+  "node_count": 8,
+  "edge_count": 5
+}

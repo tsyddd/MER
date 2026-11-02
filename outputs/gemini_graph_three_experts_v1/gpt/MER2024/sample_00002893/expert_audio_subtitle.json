@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。仅从字幕看，说话人提到朋友遭到诽谤且事情“越闹越大”，并以未完句收尾，体现出对事态发展的担忧。",
+  "answer": "worried",
+  "evidence_refs": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia34_utt5",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "Rachel在听到Monica的秘密后转头看向对方，嘴巴大张且语调拔高惊呼“Oh my God!”（对应person_0与process_0），随后身体前倾、抬手比划并难以置信地脱口而出“You’re a 30 year old virgin!”（对应person_1与process_1），其强烈的惊异表情与错愕语态均明确指向惊讶情绪。",
+  "output": "Rachel在听到Monica的秘密后转头看向对方，嘴巴大张且语调拔高惊呼“Oh my God!”（对应person_0与process_0），随后身体前倾、抬手比划并难以置信地脱口而出“You’re a 30 year old virgin!”（对应person_1与process_1），其强烈的惊异表情与错愕语态均明确指向惊讶情绪。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 45.60825443267822,
+  "node_count": 6,
+  "edge_count": 6
+}

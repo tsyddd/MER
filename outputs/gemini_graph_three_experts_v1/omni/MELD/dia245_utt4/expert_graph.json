@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "Monica在沙发上突然张口大喊“No-no-no, no!”，声音急促且高亢（person_2），同时她迅速将手中的书本和杯子移开并放下（process_1），随后瞪大双眼从沙发上起身向前冲去（person_4）。这些行为表明她正处于一种紧急、激动且带有强烈制止意图的状态，符合‘anger’的情绪特征。",
+  "answer": "anger",
+  "evidence_refs": [
+    "person_2",
+    "process_1",
+    "person_4"
+  ]
+}

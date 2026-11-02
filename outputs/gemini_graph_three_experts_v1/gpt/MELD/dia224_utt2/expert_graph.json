@@ -1,0 +1,9 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载催眠磁带播放语音“Deeper.”〔process_0〕，且声音语调平缓柔和、音量平稳〔person_0〕，未显示明显的情绪激动或负面情绪表现。因此，目标人物当前情绪判断为中性。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "process_0",
+    "person_0"
+  ]
+}

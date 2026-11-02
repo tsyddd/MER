@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "目标人物在画面中眉头微蹙聚拢，双眼微垂凝视下方，嘴角下撇微抿，面部肌肉呈现明显的抽动与克制哭泣的状态[E1]。搭配低声哽咽的语调及台词表达分离的不舍[E2]，整体视觉与听觉表现均指向典型的伤感与难过反应，属于因离别而引发的哀伤。",
+  "open_emotion": "悲伤",
+  "answer": "sad",
+  "mapping_reason": "目标人物处于痛苦与离别的哀伤情境中，其悲伤、哀戚的面部表情和哭腔明确指向悲伤家族，符合sad标签的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07 (0.0s-1.96s)",
+      "observation": "粉衣女性眉头微蹙、眼眶含泪、视线垂落，嘴唇紧抿且嘴角略向下沉，呈现克制哭泣的面部姿态",
+      "interpretation": "面部特征体现明显的悲痛、低落与隐忍的哀伤情绪",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "我也不想跟你分开。",
+      "observation": "台词表达对被迫分离的不舍与无奈",
+      "interpretation": "强化了人物因面对既定分离而产生的难过与哀伤",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词提及未来的分离风险，可能引起对未来的担忧（worried），但人物当前的生理与外在表现完全聚焦于眼下的失落、心痛与哭泣，哀伤占绝对主导。"
+}

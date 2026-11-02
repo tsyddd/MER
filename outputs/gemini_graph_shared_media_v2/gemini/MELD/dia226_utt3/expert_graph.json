@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "事件链显示Rachel在咖啡馆沙发上与Phoebe进行日常互动倾诉[context_0]。虽然谈话内容涉及对伴侣不愿袒露心声的愿望[subtitle]，且手势有起伏比划[person_2]，但核验真实音轨与图谱节点[person_1]可知，其语调平稳从容、节奏自然，面部缺乏显著的哀伤或愤怒形变，属于平缓交流日常感受的常态表达，定为neutral。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱记录Rachel以平缓略带感叹的语调说话，与实际听觉中从容舒缓的声音完全吻合",
+      "interpretation": "平缓稳健的语音节奏排除了激动、愤怒或严重悲伤等高唤醒负向情绪",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.92s",
+      "observation": "Rachel双手抬至胸前张开比划，头部微偏注视倾听者，神态自然放松",
+      "interpretation": "肢体动作配合日常倾诉，没有防备、紧绷或痛苦的生理线索",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Y’know, I wish I could get him to open up a little bit, share some feelings.",
+      "observation": "台词表达对对方敞开心扉的假设性期望",
+      "interpretation": "事件语义属于平静的期望倾诉而非遭遇突发打击，符合中性交流情境",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词带有“I wish”的缺憾感及微蹙的眉头易被解读为sadness，但实际语流轻快流畅、无低落哭腔或沉重叹息，故未采纳sadness。"
+}

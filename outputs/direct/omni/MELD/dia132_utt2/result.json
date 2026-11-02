@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia132_utt2",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "Phoebe speaks in a calm, even tone while describing someone's age and attractiveness. Her facial expression is neutral, and there are no signs of strong emotion in her voice or body language.",
+  "output": "Phoebe speaks in a calm, even tone while describing someone's age and attractiveness. Her facial expression is neutral, and there are no signs of strong emotion in her voice or body language.\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 5.237528085708618,
+  "node_count": null,
+  "edge_count": null
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00003759",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "d4dc715827dd04c5c7e8bd03b9c748a147a401e0b3bbb9649b82a034b9612827",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "三份专家报告均一致指向惊讶情绪：graph指出语调上扬、语速快及面部表情（睁大双眼、嘴部微张）；audio_subtitle强调语调上扬和语速快体现意外与怀疑；image显示面部从平静转为惊讶，最终帧呈现张嘴、睁眼的典型惊讶特征。所有证据来源相互印证，无冲突。",
+  "output": "三份专家报告均一致指向惊讶情绪：graph指出语调上扬、语速快及面部表情（睁大双眼、嘴部微张）；audio_subtitle强调语调上扬和语速快体现意外与怀疑；image显示面部从平静转为惊讶，最终帧呈现张嘴、睁眼的典型惊讶特征。所有证据来源相互印证，无冲突。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 58.855836391448975
+}

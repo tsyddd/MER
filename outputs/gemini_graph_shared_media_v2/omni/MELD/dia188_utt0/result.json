@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia188_utt0",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "b97e68d51fd419e726abf41fc684b1dd95e92043178dcef7d7b2a8c69202319d",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "Joey在音频中以短促、上扬的语调说出“What?”，这是典型的表示惊讶或难以置信的反应，音频证据明确支持惊讶情绪。图像证据显示其面部表情平静，无明显情绪化特征，但字幕和音频内容一致，且音频语调是判断情绪的关键。虽然图像专家认为其姿态和表情中性，但音频中上扬的语调是直接且有力的证据，优先于缺乏情绪表现的视觉线索。因此，综合判断为惊讶。",
+  "output": "Joey在音频中以短促、上扬的语调说出“What?”，这是典型的表示惊讶或难以置信的反应，音频证据明确支持惊讶情绪。图像证据显示其面部表情平静，无明显情绪化特征，但字幕和音频内容一致，且音频语调是判断情绪的关键。虽然图像专家认为其姿态和表情中性，但音频中上扬的语调是直接且有力的证据，优先于缺乏情绪表现的视觉线索。因此，综合判断为惊讶。\n<answer>surprise</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 155.44702863693237
+}

@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断实际声调、音量、语速或停顿。仅从字幕中的“What?!”和“Excuse me!”及问号、感叹号来看，主要表现为对当前内容的突然意外或错愕。",
+  "answer": "surprise",
+  "evidence_refs": []
+}

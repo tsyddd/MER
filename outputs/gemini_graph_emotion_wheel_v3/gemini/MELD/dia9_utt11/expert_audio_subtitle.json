@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物Rachel在台词中罗列因意外造成的个人物品损失（'My bed. My clothes. Look at my favorite blue sweater.'），语用上属于典型的悲伤倾诉与哀怨。音轨中（00:00-00:02），她的语调低沉、拖长且带有轻微哭腔与鼻音，节奏缓慢无力，充分展现出失去心爱之物后的失落与难过。",
+  "open_emotion": "沮丧难过",
+  "answer": "sadness",
+  "mapping_reason": "开放情绪'沮丧难过'（sadness/distress）源于对心爱财物受损的巨大失落与痛心，完美契合情绪轮中sadness家族的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Everything’s ruined. My bed. My clothes. Look at my favorite blue sweater.",
+      "observation": "Rachel直陈所有的东西都被毁了，并特别强调自己最喜欢的蓝色毛衣。",
+      "interpretation": "语句核心语义在于对不可挽回的损失表达哀叹，属于典型的悲伤表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "Rachel发声伴随明显的哭腔、下沉的语调和低弱的音量，在念到'favorite blue sweater'时声音颤抖发哑。",
+      "interpretation": "带有抽泣与无力感的韵律特征直接反映出真实的难过与哀伤状态，而非中性陈述。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02 (0.71s)",
+      "observation": "Rachel眉头微蹙，嘴角下垂，神色落寞地看着被烧坏的衣物。",
+      "interpretation": "面部表情与语音中的哀伤哭腔高度契合，强化了悲伤的情感判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "话语中可能有对火灾后果的不满，若片面关注抱怨可能误判为轻度恼火（anger），但音轨中无攻击性重音或拔高的发怒音质，完全为主导的哭腔与失落感。"
+}

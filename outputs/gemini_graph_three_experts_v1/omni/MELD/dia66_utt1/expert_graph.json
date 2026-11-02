@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "空乘人员语调上扬、语速平稳、声音清晰（person_1），同时侧身面向女子并注视对方（person_0），表现出主动且规范的服务姿态。其行为与情境（context_0、context_1）一致，无情绪波动迹象，符合中性服务场景。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "context_0",
+    "context_1"
+  ]
+}

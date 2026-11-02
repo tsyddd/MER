@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/sample_00002038",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "5df67b783a7d621f4c168fbbed45377607d79f7076828cb28063569a3c555671",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据情绪轮定义，'惊讶'（surprise）指因当前信息违背预期而产生的意外、诧异或震惊。目标人物在未预料到的情况下，对一个突然出现的人物发出即时的疑问，其面部表情和声音语调都表现出一种未加修饰的意外感，这与'惊讶'的定义高度吻合。虽然表情紧绷，但其核心是信息的意外性，而非对后果的担忧或对冒犯的愤怒。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据情绪轮定义，'surprise'指因当前信息违背预期产生的意外、诧异或震惊。说话者在未知情况下发出疑问，其语调和表情都表现出对突发状况的即时反应，因此映射到'surprise'是合适的。"
+    },
+    "image": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据情绪轮定义，'surprise'指因当前信息违背预期产生的意外、诧异或震惊。目标人物的面部表情（睁大双眼、上扬眉毛）和提问内容（“他是谁呀？”）均指向对一个突然出现或未预期到的人的即时反应，因此映射到'surprise'最为准确。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "目标人物在连续8帧中表现出睁大双眼、眉毛上扬、鼻翼微张的典型惊讶表情，与字幕“他是谁呀？”和上扬的疑问语调完全同步。三个专家均一致认为这是对未知情况的即时反应，符合'惊讶'的定义。虽然背景昏暗可能暗示担忧，但当前表现的核心是信息的意外性，而非对后果的持续焦虑。因此，尽管存在其他可能性，但惊讶是最直接且被多模态证据支持的判断。",
+  "output": "目标人物在连续8帧中表现出睁大双眼、眉毛上扬、鼻翼微张的典型惊讶表情，与字幕“他是谁呀？”和上扬的疑问语调完全同步。三个专家均一致认为这是对未知情况的即时反应，符合'惊讶'的定义。虽然背景昏暗可能暗示担忧，但当前表现的核心是信息的意外性，而非对后果的持续焦虑。因此，尽管存在其他可能性，但惊讶是最直接且被多模态证据支持的判断。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 162.2969310283661
+}

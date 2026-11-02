@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。仅从字幕看，Monica用“never gonna think it’s okay”并以感叹号强烈谴责Rachel出轨，体现出明显的愤怒和不满。",
+  "answer": "anger",
+  "evidence_refs": []
+}

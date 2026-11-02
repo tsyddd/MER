@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia188_utt0",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "Joey在人行道上行走并注意到同伴状态时随口发问“What?”（process_0），其语调平稳自然，没有大幅度的起伏或惊愕感。结合画面中他张嘴发问后迅速自然垂手、视线落向地面的动作变化（person_0及随后的person_1），整体肢体与神态均无激烈情绪起伏，属于平静的日常询问。",
+  "output": "Joey在人行道上行走并注意到同伴状态时随口发问“What?”（process_0），其语调平稳自然，没有大幅度的起伏或惊愕感。结合画面中他张嘴发问后迅速自然垂手、视线落向地面的动作变化（person_0及随后的person_1），整体肢体与神态均无激烈情绪起伏，属于平静的日常询问。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 42.83935236930847,
+  "node_count": 4,
+  "edge_count": 2
+}

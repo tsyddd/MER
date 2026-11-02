@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013127",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "d2115c97acf3c6e01bbce09ee0045d9eebc8b28101f778a38355f8f3c0e262a8",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "happy",
+  "emotion_analysis": "图谱与图片专家都描述了持续微笑、表情放松等视觉线索，指向愉快情绪，但两者可能存在同源描述，不能视为完全独立证据。音频字幕仅体现对对方表现感到意外，且未提供音频，无法据此判断听觉情绪；综合现有线索选择愉快。",
+  "output": "图谱与图片专家都描述了持续微笑、表情放松等视觉线索，指向愉快情绪，但两者可能存在同源描述，不能视为完全独立证据。音频字幕仅体现对对方表现感到意外，且未提供音频，无法据此判断听觉情绪；综合现有线索选择愉快。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 84.00793671607971
+}

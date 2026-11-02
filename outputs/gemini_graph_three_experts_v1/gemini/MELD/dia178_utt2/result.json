@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia178_utt2",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "3401018186bc11e65dff479d6b5d94730c37d902accf3de7809420f24e09c974",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "多模态专家证据高度一致且无冲突。image与graph专家指明Monica怀抱婴儿时面带明朗微笑、神态温和放松，audio_subtitle专家记录其语调轻柔欢快且充满温情，视听线索均充分支持其处于愉悦欣喜的状态。",
+  "output": "多模态专家证据高度一致且无冲突。image与graph专家指明Monica怀抱婴儿时面带明朗微笑、神态温和放松，audio_subtitle专家记录其语调轻柔欢快且充满温情，视听线索均充分支持其处于愉悦欣喜的状态。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 24.19428253173828
+}

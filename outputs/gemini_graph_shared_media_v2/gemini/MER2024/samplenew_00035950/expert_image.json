@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物在特写镜头中眉心微蹙、眼眶含泪且眼神凄切，伴随张口诉说时展现出明显的悲戚苦楚；音频中语调发颤带有强烈哭腔[E2]，与画面中跪地凄楚诉说的悲伤神态高度吻合[E1][E3]。",
+  "answer": "sad",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_04 @ 2.04",
+      "observation": "目标人物眉心聚拢微蹙，眼眶湿润，张口说话时神情凄哀，眼角与嘴角带有向下的悲容牵引",
+      "interpretation": "显示出深切的自哀与痛苦神色，直接支持悲伤情绪",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "诉说台词“怎么到了自己身上，就这样不明白”时声音发颤，尾音伴有明显的抽泣哭腔",
+      "interpretation": "声学表现印证了视觉上的凄楚诉说，排除了平静或单纯愤怒的可能",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_07 @ 3.60",
+      "observation": "全景镜头中目标人物独自跪于地毯之上，身形拘谨低伏面朝坐席上的皇帝",
+      "interpretation": "身体姿态卑微弱势，配合前后的哭诉表现，强化了悲凄哀求的氛围",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽在言语倾诉时情绪激动张口较大，但缺少愤怒特有的瞪视、咬牙或强硬攻击性姿态，音频亦纯为哀怨哽咽，故不判定为angry。"
+}

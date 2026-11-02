@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "图谱中节点person_1（声音哽咽颤抖）与person_0（眉心紧蹙、眼眶含泪）同时发生，且与字幕内容“没想到，你竟然这么傻”共同指向一种因失望或心疼而产生的悲伤情绪。视觉上，从帧02到帧07，人物表情从紧蹙到泪痕，是悲伤情绪的连续表现。音频中声音的颤抖是悲伤的直接证据。",
+  "answer": "sad",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "紫衣女子说话时声音带有明显的哽咽与颤抖。",
+      "interpretation": "声音的哽咽和颤抖是悲伤情绪的直接听觉证据，与视觉上的哭泣状态一致。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 00:00.72",
+      "observation": "紫衣女子眉心紧蹙，眼眶含泪，目光注视对方。",
+      "interpretation": "这是悲伤情绪的典型面部表情，与音频中的哽咽声同步，共同支持悲伤的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "00:00-00:02",
+      "observation": "字幕内容为“没想到，你竟然这么傻。”",
+      "interpretation": "这句话表达了对另一方行为的失望和无奈，是引发悲伤情绪的直接原因。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_3",
+      "observation": "图谱节点person_3描述紫衣女子双眼微垂，眼角有泪痕。",
+      "interpretation": "该节点描述了悲伤情绪的延续和加深，是悲伤情绪的有力补充证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无明确的反证。虽然字幕内容“你竟然这么傻”可能带有责备意味，但结合其哽咽的语气和哭泣的面部表情，这种责备更可能源于失望和心疼，而非愤怒。"
+}

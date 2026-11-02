@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Rachel说自己希望能让“他”多敞开心扉、分享感受，表达的是一个尚未得到满足的愿望[E1]。她说话时眉头微蹙，伴随张手解释的动作[E2]；这些画面与轻微的失落相符，但不足以断定她在责备对方。",
+  "open_emotion": "失落",
+  "answer": "sadness",
+  "mapping_reason": "当前表达的重心是期望情感交流却未能如愿，因而将轻微的失落映射为sadness；这不意味着她表现出强烈悲伤。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“Y’know, I wish I could get him to open up a little bit, share some feelings.”",
+      "observation": "Rachel用“I wish I could”提出希望对方更敞开心扉、分享感受。",
+      "interpretation": "愿望句指向当前未得到满足的情感交流，而非直接责备或质问。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03（1.376秒）至frame_06（2.711秒）",
+      "observation": "Rachel面向对方说话，眉头微蹙，数次张开双手作解释状。",
+      "interpretation": "表情和动作与她谈及未满足的愿望相符，但本身不能确定情绪强度。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "也可能是对对方不愿分享感受感到轻微恼火；但字幕没有明确的责备措辞。此片段未提供音频，无法用语调或停顿区分这两种解释。"
+}

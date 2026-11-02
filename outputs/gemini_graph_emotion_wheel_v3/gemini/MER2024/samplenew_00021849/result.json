@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00021849",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "359093044a96c9b0d3bf12c8621869f06d99bda1905d519e91d11df175dc34b4",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "平稳",
+      "mapped_label": "neutral",
+      "mapping_reason": "目标人物在与对方沟通安排时神态从容、语调平缓，属于无剧烈起伏的自然交流，符合情绪轮中平稳叙述、自然交流的neutral定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "关切",
+      "mapped_label": "worried",
+      "mapping_reason": "说话者的核心情绪为对对方状态及当下处境的关怀与顾虑（concerned）。在情绪轮映射规则中，关注风险、未知或他人处境的关切与担忧归属于worried大类。"
+    },
+    "image": {
+      "open_emotion": "平稳",
+      "mapped_label": "neutral",
+      "mapping_reason": "目标人物在对话中神态从容、语调平缓，属于典型的平稳叙述与自然交流，符合neutral（中性）的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "独立核查视频与音频，车外男子在[frame_01-frame_05]身体前倾扶窗交流，面部肌肉舒展放松，并无蹙眉、瞪眼等紧绷表情[image:E1]；音频00:00-00:02中其语调低平沉稳、节律均匀，属冷静交代安排，核验真实可信。专家[audio_subtitle:E2]虽注意到其语气轻缓，但过度推断台词背景而定性为焦虑关切，缺乏worried所必需的紧张不安或风险顾虑证据。综合视觉与听觉基线，男子当前整体表现为理性平稳的自然交流，符合neutral定义。",
+  "output": "独立核查视频与音频，车外男子在[frame_01-frame_05]身体前倾扶窗交流，面部肌肉舒展放松，并无蹙眉、瞪眼等紧绷表情[image:E1]；音频00:00-00:02中其语调低平沉稳、节律均匀，属冷静交代安排，核验真实可信。专家[audio_subtitle:E2]虽注意到其语气轻缓，但过度推断台词背景而定性为焦虑关切，缺乏worried所必需的紧张不安或风险顾虑证据。综合视觉与听觉基线，男子当前整体表现为理性平稳的自然交流，符合neutral定义。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 73.03114318847656
+}

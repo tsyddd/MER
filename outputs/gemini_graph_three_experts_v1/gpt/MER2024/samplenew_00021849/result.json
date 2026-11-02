@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00021849",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "359093044a96c9b0d3bf12c8621869f06d99bda1905d519e91d11df175dc34b4",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "图像专家观察到目标人物眉头略收紧、视线低垂回避且姿态僵硬，直接支持轻微担忧。字幕内容本身偏中性，且图谱所述车外男子的克制表现与目标人物可能并非同一视角，因此不应抵消图像对目标人物状态的判断。",
+  "output": "图像专家观察到目标人物眉头略收紧、视线低垂回避且姿态僵硬，直接支持轻微担忧。字幕内容本身偏中性，且图谱所述车外男子的克制表现与目标人物可能并非同一视角，因此不应抵消图像对目标人物状态的判断。\n<answer>worried</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 81.13732576370239
+}

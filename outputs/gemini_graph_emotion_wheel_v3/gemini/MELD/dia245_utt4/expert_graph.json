@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "事件链始于他人（Rachel）在门边墙洞窥视的危险动作，目标人物Monica目睹后立即启动应急阻拦机制。图谱节点[process_0]与[person_2]准确记录了Monica在沙发上高亢急促地喊出“No-no-no, no!”，经音轨实际核验，其发声带有极高的音调和尖叫颤音，显示出突发威胁下的高度惊慌；紧接着图谱节点[process_1]与[process_2]记录她慌乱甩下书本和酒杯并猛烈向前扑起[E2]，动作慌张急迫。整套跨模态表现均指向对潜在恶果（秘密暴露或违规行为）的恐惧和惊慌阻拦。",
+  "open_emotion": "惊慌",
+  "answer": "fear",
+  "mapping_reason": "Monica当前面临不可控的负面后果威胁，表现为尖锐惊叫、双眼圆睁及慌忙起身阻拦的应急应激，符合情绪轮中fear（面向威胁、危险或令人害怕的负面后果，表现出惊恐与焦虑）的定义，故将“惊慌”映射至fear。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "音轨中Monica发出尖锐、高亢且短促的“No-no-no, no!”叫喊声",
+      "interpretation": "高音调的急促尖叫体现出面对突发威胁时的恐慌与竭力制止",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03至frame_07",
+      "observation": "Monica瞪大双眼，迅速将手中的书本和酒杯往旁一丢，身体大幅前倾猛冲起身",
+      "interpretation": "慌乱放下手头物品并飞身扑出的肢体动作印证了其急于化解危机的情绪恐慌",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_2",
+      "observation": "节点记录Monica从沙发上迅速起身向前冲出",
+      "interpretation": "将口头高喊转化为身体前冲的拦截行为，体现出害怕糟糕后果发生的防御驱动",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "大喊制止动作可能被表面解读为生气指责（anger）或单纯意外（surprise），但音轨中高频破音的尖叫与近乎失态的慌乱扑救，排除了攻击性对抗或中立的意外反应，确证其处于恐慌害怕的主导情绪下。"
+}

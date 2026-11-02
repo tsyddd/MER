@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标说话人在语音中以高音调和上扬语调说出反问句，带有极高的不可置信感[E1][E2]，视觉上双眼睁圆、嘴巴大张[E3]，核心言语意图与副语言特征均高度指向震惊与意外。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "0.00-1.60s",
+      "observation": "目标人物在说“是吗，他真这么说的”时，音调急剧拔高，重音落在“是吗”和“真”，句末语调上扬且语气急促。",
+      "interpretation": "高音调及强烈的不可置信语调是典型的惊讶、意外声学表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "是吗 他真这么说的",
+      "observation": "通过反问句式对对方所传达的信息进行再次求证。",
+      "interpretation": "言语行为体现出对已知信息超出预期的震惊反应，支持惊讶情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_06 @ 1.80",
+      "observation": "棕色外套女性双眼圆睁，嘴巴明显张大成吃惊状。",
+      "interpretation": "面部表情与语调的强烈惊讶表现高度一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "该反问句也可能带有因担忧或兴奋引发的探问，但语音中无担忧的颤音与低沉，也无欢快笑意，故排除worried和happy。"
+}

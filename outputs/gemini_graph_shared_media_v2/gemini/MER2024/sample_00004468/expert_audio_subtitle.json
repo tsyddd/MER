@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物以疑问语气词“哎？”开篇，语调明显上扬且充满困惑[E1]，随后以不解和质问的语调询问“你怎么这么高兴呢”，体现对对方异常反应的诧异与意外[E2]，视觉上眉头紧锁、目光直视对方，表现出明显的惊讶与困惑反应，故判断为surprise。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "0.0s - 0.8s",
+      "observation": "发端叹词“哎？”音高急剧上挑，音调呈明显的升调疑问态势，伴有短促吸气停顿。",
+      "interpretation": "起调的升调叹词明确传递出突发性的意外与不解，奠定了对眼前情况始料未及的惊讶基调。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "你怎么这么高兴呢？",
+      "observation": "反问句式指出对方在他人离婚时的反常正面情绪（“怎么这么高兴”）。",
+      "interpretation": "言语行为是对违背常规现象的探究与错愕，情绪焦点在于对反常行为的惊诧，而非自身感到高兴或愤怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05 @ 2.96s",
+      "observation": "双眉紧蹙，双眼瞪视，嘴唇半张微撇，面部呈现明显的困惑与错愕神情。",
+      "interpretation": "与声音中的疑问惊诧语调相互印证，排除了单纯平静陈述的neutral。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释为angry（带有谴责或责怪意味的质问），但听觉上语调并无高亢的爆发性爆发或咬牙切齿的攻击性重音，重在探究其反常反应的诧异与不解，故更符合surprise。"
+}

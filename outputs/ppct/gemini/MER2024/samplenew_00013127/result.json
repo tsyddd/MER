@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013127",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "happy",
+  "emotion_analysis": "根据节点person_0和person_2的视觉表现，红袍男子在与对方交流时始终面带灿烂微笑、神态放松；结合节点person_1与语音听觉线索，他说话语调轻快且富有调侃与称赞意味，整段表达洋溢着轻松愉快的互动氛围，判定为happy。",
+  "output": "根据节点person_0和person_2的视觉表现，红袍男子在与对方交流时始终面带灿烂微笑、神态放松；结合节点person_1与语音听觉线索，他说话语调轻快且富有调侃与称赞意味，整段表达洋溢着轻松愉快的互动氛围，判定为happy。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 72.08136796951294,
+  "node_count": 6,
+  "edge_count": 5
+}

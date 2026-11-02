@@ -1,0 +1,134 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Monica对身旁男子说话：'But Ben is coming over tonight'",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Monica继续说话：'and he can't see this'，同时伸手伸向街机操作台",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Monica侧身站立，头部转向身旁男子方向，嘴唇张合说话",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Monica语调平稳连续",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Monica将一只手伸向街机控制台表面",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Monica将视线从男子方向转向街机屏幕与控制台，身体前倾",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内环境中，Monica站在一台街机旁，左侧站着一名穿蓝黑格子衬衫的男子",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "Monica在对身旁男子说完'But Ben is coming over tonight'之后，继续说出'and he can't see this'并伴随动作",
+      "entity_anchor": "Monica的言语表达"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "Monica在张嘴对男子说话的同时，其语调保持平稳连续",
+      "entity_anchor": "Monica的发声与说话动作"
+    },
+    {
+      "source": "person_2",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "Monica在侧身面向男子说话之后，将手伸向街机控制台表面",
+      "entity_anchor": "Monica的肢体动作"
+    },
+    {
+      "source": "person_3",
+      "target": "person_2",
+      "relation": "after",
+      "reason": "Monica在伸手探向街机控制台之后，视线从男子处转回街机并身体前倾",
+      "entity_anchor": "Monica的体态与视线"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0呈现Monica向男子陈述Ben要来的情况，process_1补充其紧接着说明不能被看到并动手伸向街机，联合后构成从言语提示到转移注意力至街机操作的连贯互动过程",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供Monica面朝男子开口说话的视觉面部与身姿表现，person_1补充其讲话时平稳连续的声调特征，联合后形成视听结合的言语表达表现",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_2",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_2记录Monica单手伸向街机控制台的手部动作，person_3补充其视线转移至街机屏幕并身体前倾的姿势，联合后完整展现其将行动焦点由交谈转向直接操作街机的肢体态势",
+      "entity_anchor": null
+    }
+  ]
+}

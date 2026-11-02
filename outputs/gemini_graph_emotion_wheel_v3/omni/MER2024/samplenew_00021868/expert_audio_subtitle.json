@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者语气平稳，语速缓慢，没有明显的音高或音量变化，表现出一种平静的叙述状态。字幕内容为“也不知道，当年，三哥”，是陈述句，没有疑问、反讽或否定的语气。结合其表情，眼神低垂，似乎在回忆或沉思，整体情绪状态偏向中性。",
+  "open_emotion": "平静",
+  "answer": "neutral",
+  "mapping_reason": "根据情绪轮定义，'neutral'指当前主要为平稳叙述、自然交流或无明确主导情绪的表达。说话者的语调平稳，无明显情绪波动，内容为对过去的陈述，符合中性情绪的特征。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "说话者语速缓慢，音调平稳，没有明显的起伏。",
+      "interpretation": "平稳的语调表明说话者情绪稳定，没有强烈的积极或消极情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "也不知道，当年，三哥。",
+      "observation": "字幕内容为陈述句，没有疑问词或感叹词。",
+      "interpretation": "陈述句的语气通常较为中性，不带有强烈的情绪色彩。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "说话者表情平静，眼神低垂，似乎在回忆或沉思。",
+      "interpretation": "平静的表情和低垂的眼神与平稳的语调一致，支持中性情绪的判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无"
+}

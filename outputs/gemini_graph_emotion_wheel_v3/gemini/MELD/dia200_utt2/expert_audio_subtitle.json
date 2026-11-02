@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Joey在言语上使用排他性的推论句式，将所有预设的可能性逐一排除后抛出重音问句，语气充满困惑与意外[E1]；声学上，他在末句'then who did?'处音调明显上扬并加重，呈现出面对违背预期局面时的顿悟与惊诧[E2]；视觉上他的手势从指向自身转向对方，身体前倾定格注视，印证了其诧异的心理状态[E3]。",
+  "open_emotion": "诧异",
+  "answer": "surprise",
+  "mapping_reason": "Joey因常规预期的人选全部被排除而感到意外与困惑，符合surprise（面对违背预期信息而诧异、惊奇）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "And if she didn’t take it, and I didn’t take it; and you didn’t take it, then who did?",
+      "observation": "Joey采用连续否定的条件句列举可能人选，最后以疑问句'then who did?'收尾。",
+      "interpretation": "排除了所有合常理的答案，言语行为体现出对当前悬念的意外与极度困惑。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:02-00:03.3",
+      "observation": "在说'then who did?'时语调突然上挑且音量加强，'did'字带有显著的重音落点与发问感。",
+      "interpretation": "重音和升调体现出违背预期后的探询与惊诧，打破了平稳的陈述韵律。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01-frame_07",
+      "observation": "Joey起初按人称比划胸口与前方，最终身体前倾、双眼紧盯Ross，神态发愣且嘴唇微张。",
+      "interpretation": "肢体动作从配合叙述到陷入震惊定格，支持其诧异的情感反应。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "可能有人认为他只是在进行日常推理而倾向neutral，但其在尾句突出的重音发问、升调及前倾愣住的态势均显示出明确的意外冲击，并非无情绪的平稳陈述。"
+}

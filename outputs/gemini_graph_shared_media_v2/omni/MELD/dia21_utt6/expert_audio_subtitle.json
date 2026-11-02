@@ -1,0 +1,40 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Phoebe's statement 'So your brother's straight huh?' is delivered with a rising intonation and a playful, teasing tone, which is further emphasized by her smile and the audience's laughter. The word 'huh' functions as a tag question, inviting confirmation and adding to the lighthearted, joking nature of the remark. The context of the audience laughing indicates the line is intended to be humorous.",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00.000 - 00:01.500",
+      "observation": "The speaker's voice has a rising intonation and a playful, teasing tone.",
+      "interpretation": "The intonation and tone are characteristic of a joke or a teasing remark, not a serious inquiry.",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "So your brother's straigh huh? Seriously.",
+      "observation": "The use of 'huh' as a tag question and the follow-up 'Seriously' suggest a teasing or incredulous tone.",
+      "interpretation": "These linguistic cues are commonly used to express playful disbelief or to make a joke.",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:01.500 - 00:02.000",
+      "observation": "Audience laughter is heard immediately after the line.",
+      "interpretation": "The audience's laughter confirms that the line was delivered and received as humorous.",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_00 - frame_07",
+      "observation": "The speaker is smiling throughout the utterance.",
+      "interpretation": "The smile is consistent with a joyful or amused emotional state.",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "The line could be interpreted as 'neutral' if one focuses only on the literal meaning of the words without considering the tone and context. However, the strong evidence from the audio and visual cues overwhelmingly supports a joyful and teasing interpretation."
+}

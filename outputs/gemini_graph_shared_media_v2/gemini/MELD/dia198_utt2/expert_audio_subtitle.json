@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Joey在反驳并调侃同伴表现差时采用了冷面幽默（deadpan teasing）的表达方式。其声调稳定、节奏匀速、语尾自然下落，并未伴随笑腔或激动的高音，视觉上也呈现放松且未大笑的常态神情，符合中性情绪特征。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "No-no, she kicked our butts. You could be on the Olympic standing-there team.",
+      "observation": "Joey用荒谬的修辞（奥运站桩队）来反驳对方并进行言语调侃。",
+      "interpretation": "该话语为典型的冷幽默/吐槽言语行为，并不包含真正的愤怒或沮丧，纯属日常对话互动。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00 - 00:03",
+      "observation": "Joey的嗓音平稳自然，语速适中，重音清晰但音量未见激昂，全句无笑声或颤音伴随，句末语调平缓收尾。",
+      "interpretation": "韵律特征缺乏典型喜悦的高唤起度（如笑腔、高音调）或愤怒的紧绷感，表明其处于稳定、松弛的中性情绪状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.58s",
+      "observation": "Joey说话时神色认真，手指微动配合表达，嘴角并未泛起明显微笑。",
+      "interpretation": "面部表情呈现克制的冷面吐槽，与平稳声线呼应，支持情绪为中性。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "由于台词本质是幽默讽刺且引发背景观众哄笑，可能被误判为joy；但Joey本人声音无笑意流露且神情冷静，未表现出明显的喜悦状态。"
+}

@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "Monica面向门边说出连续否定，并立即放下手中物品、前倾起身[E1][E2]；这比单纯看到意外时的短暂惊讶，更像急于阻止某事的警觉反应。图谱中的门边人物节点帮助确定互动对象，但墙上的孔洞本身不能证明她害怕[E3]。音调描述仅来自图谱转述，未作为决定依据[E4]。",
+  "answer": "fear",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“No-no-no, no!”",
+      "observation": "Monica当前话语连续重复否定。",
+      "interpretation": "与随后急切行动结合，支持她正警觉地试图制止眼前情况；话语本身不能确定具体危险。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.583916秒至frame_07 @ 2.001998秒",
+      "observation": "Monica从沙发上前倾，移开手中物品并起身，末帧张口看向门边方向。",
+      "interpretation": "连续、迅速的当前行动支持紧张警觉；画面未显示她已冲到门边。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_0、person_1",
+      "observation": "图谱将Rachel定位在门边，将Monica定位在沙发上并记载她看向门边。",
+      "interpretation": "帮助区分Monica对眼前他人行动的反应与无对象的情绪表达；门边陈设不是情绪证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱称Monica发声急促、音量较大、语调高亢；本次未提供原音轨。",
+      "interpretation": "这是未能亲耳核验的图谱转述，不将其当作已听到的语调证据。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "也可能是对突发情况的惊讶，或因他人举动而生气；但连续否定后立即腾出双手起身，更支持警觉的制止反应。缺少原音轨和后续画面，无法确认她担心的具体后果。"
+}

@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "男子面带笑意并专注注视对方，持续嘴唇张合〔person_0〕；图谱记载其语调轻快且带有调侃意味〔person_1〕，后半段仍保持微笑〔person_2〕，整体表现出轻松愉快的当前情绪。",
+  "answer": "happy",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "person_2"
+  ]
+}

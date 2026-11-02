@@ -1,0 +1,91 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Joey面向前方说话：\"You have a fear of heights\"",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Joey继续说话：\"you go to the top of the building!\"",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Joey靠坐在沙发上，左臂固定在吊带中，右手微摊在身前，视线看向前方",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Joey抬起右手食指向前侧指点，头部微动并持续注视前方",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "在室内客厅中，Joey与Ross并排坐在浅色沙发上，正在与室内他人交谈",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "Joey在说完前半句\"You have a fear of heights\"之后，继续向前方说出后半句\"you go to the top of the building!\"",
+      "entity_anchor": "Joey的言语表达"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "Joey在保持靠坐姿势的基础上，从右手微摊变化为抬起右手食指向前指点",
+      "entity_anchor": "Joey的肢体动作与姿态"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提供假设前提的陈述，process_1提供紧接着给出的应对措施，两者联合完整呈现了Joey通过假设施设与结论论证向前推进论述的连贯口语表达过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0呈现Joey手臂固定及摊手的初始体态，person_1补充了他转为抬起食指指点的动作变化，两者联合展示了其手势动作由摊手说明增强为明确指向的具体肢体动态表现。",
+      "entity_anchor": null
+    }
+  ]
+}

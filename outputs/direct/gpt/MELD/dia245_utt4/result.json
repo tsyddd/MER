@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia245_utt4",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "fear",
+  "emotion_analysis": "Monica反复说“No-no-no, no!”并迅速转身、起身查看，表情明显紧张且张口惊呼。画面显示她像是受到突发情况惊吓，当前情绪更符合恐惧而非中性或愤怒。",
+  "output": "Monica反复说“No-no-no, no!”并迅速转身、起身查看，表情明显紧张且张口惊呼。画面显示她像是受到突发情况惊吓，当前情绪更符合恐惧而非中性或愤怒。\n<answer>fear</answer>",
+  "label": "fear",
+  "elapsed_seconds": 21.076574087142944,
+  "node_count": null,
+  "edge_count": null
+}

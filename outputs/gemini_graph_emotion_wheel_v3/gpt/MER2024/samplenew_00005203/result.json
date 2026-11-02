@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00005203",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "80ed71fa2ffabbd46e09fee5b9edb8082b0b4d584293ba2c216376d47e0f2d8d",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "不安",
+      "mapped_label": "worried",
+      "mapping_reason": "她在意的是可能发生的分开，而非已确认的损失；这种面向尚未确定结果的不安更接近worried。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "不舍",
+      "mapped_label": "sad",
+      "mapping_reason": "这里的“不舍”指向对分离的失落，最接近sad所涵盖的低落与伤心；并非把“分开”这个话题本身当作情绪证据。"
+    },
+    "image": {
+      "open_emotion": "不舍",
+      "mapped_label": "sad",
+      "mapping_reason": "此处的不舍指向分别带来的失落，更接近sad的低落、伤感，而非对未知后果的担忧。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "右侧粉衣女子在第1至8帧持续垂眼、眉间收紧，说完后抿住嘴；[image:E1]所述表情可核实，但单凭表情不能定类。字幕“我也不想跟你分开”表达的是当前的不舍，[audio_subtitle:E1]对此的判断与画面相互支持；本片段没有音轨，无法判断语调。虽然[graph:E1]认为尚未分开更支持担忧，但“尚未分开”不等于她正在担心未知风险；结合当前克制的低落表现，选择悲伤。",
+  "output": "右侧粉衣女子在第1至8帧持续垂眼、眉间收紧，说完后抿住嘴；[image:E1]所述表情可核实，但单凭表情不能定类。字幕“我也不想跟你分开”表达的是当前的不舍，[audio_subtitle:E1]对此的判断与画面相互支持；本片段没有音轨，无法判断语调。虽然[graph:E1]认为尚未分开更支持担忧，但“尚未分开”不等于她正在担心未知风险；结合当前克制的低落表现，选择悲伤。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 77.61240553855896
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标在整段语音中伴随极明显的哭腔与气声哽咽[E1]，台词叙述委屈心酸往事[E2]，配合眉心微蹙与泪光[E3]，体现出强烈的悲伤与心痛，而非担忧或中性。",
+  "answer": "sad",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "0.0s - 2.0s",
+      "observation": "目标说话时声音发颤、音量较低并伴随明显的抽泣、带泪哽咽的音质特征。",
+      "interpretation": "颤抖与带泪气声直接反映出无法抑制的悲痛与难过情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "甚至，连一件衣裳。",
+      "observation": "台词使用递进让步句式倾诉物质与处境的极端匮乏与委屈。",
+      "interpretation": "言语内容结合悲戚语气表达沉痛的心酸与哀伤。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.16s",
+      "observation": "目标眼眶泛泪光，眉头紧蹙呈八字眉，嘴角微微下撇颤动。",
+      "interpretation": "面部表情与语调中的哭腔高度一致，坐实悲伤表达。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "若考虑worried，其言语重心在于倾诉既成事实的委屈与悲惨经历，而非针对未知的焦虑或恐惧，声音更偏向抽泣而非急促紧绷，故排除worried。"
+}

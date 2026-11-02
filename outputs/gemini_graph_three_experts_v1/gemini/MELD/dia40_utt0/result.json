@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia40_utt0",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "254c3294b62a3335eb4728ae3603d205e9201e73ba279aea4479f5c9c586672e",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "图像专家观察到Monica坐在沙发上面带灿烂舒展的露齿笑容，神态愉悦；音频专家指出其以高亢上扬且充满激情的欢快语调喊出“Yeah baby!”，图谱信息也记录了相同的积极交流特征。各专家在面部表情与语调表现上高度一致，共同明确展现出兴奋与喜悦的情绪。",
+  "output": "图像专家观察到Monica坐在沙发上面带灿烂舒展的露齿笑容，神态愉悦；音频专家指出其以高亢上扬且充满激情的欢快语调喊出“Yeah baby!”，图谱信息也记录了相同的积极交流特征。各专家在面部表情与语调表现上高度一致，共同明确展现出兴奋与喜悦的情绪。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 30.18012309074402
+}

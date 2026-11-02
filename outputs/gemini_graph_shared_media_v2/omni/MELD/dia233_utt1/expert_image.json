@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "Rachel's facial expression shows a combination of raised eyebrows, wide eyes, and a slightly open mouth, which are consistent with surprise or disbelief. Her head is tilted slightly, and she is gesturing with her right hand, indicating active engagement in a conversation. The context from the subtitle, where she expresses that fish 'freaked me out,' supports the interpretation of her reaction as one of surprise or mild alarm, rather than anger or sadness. The visual cues do not suggest joy or disgust, and her expression is more animated than neutral.",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "Rachel has raised eyebrows, wide eyes, and a slightly open mouth.",
+      "interpretation": "These facial features are commonly associated with surprise or disbelief.",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.6256245142666815",
+      "observation": "Rachel's head is tilted slightly, and she is gesturing with her right hand.",
+      "interpretation": "This indicates active engagement and emphasis in her speech, consistent with expressing surprise.",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Honey, if you wanted to do that, you might as well just gotten him a fish, you know how fish freaked me out!",
+      "observation": "The subtitle indicates Rachel is reacting to a suggestion involving a fish.",
+      "interpretation": "Her statement about fish 'freaking me out' supports the interpretation of her expression as one of surprise or alarm.",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "While Rachel's expression could be interpreted as mild disgust due to the mention of fish, the visual cues such as wide eyes and raised eyebrows are more characteristic of surprise. The lack of facial grimacing or other signs of disgust makes 'surprise' a stronger interpretation."
+}

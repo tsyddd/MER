@@ -1,0 +1,8 @@
+{
+  "expert": "graph",
+  "reason": "Chandler在对话中语调平稳清晰地说明情况（person_1），并配合手势进行假设性描述，整体姿态和语调未表现出强烈情绪波动，符合中性情绪特征。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_1"
+  ]
+}

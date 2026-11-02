@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia239_utt0",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "b7c708f8d9735f8954957fb30790839e5a1cfb9b416c9423567de212ceab0391",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "音频中Gunther以平稳的语调说出'Someone in there?'，句末有明显的升调，表明其主要意图是提问，而非表达其他情绪。字幕内容与音频完全一致，且无其他情绪化词汇。视觉上，Gunther的表情平静，没有表现出愤怒、悲伤或喜悦等强烈情绪。三个专家的证据均一致支持中性情绪，其中音频证据直接证实了其提问的意图和语调，是最强的区分性证据。",
+  "output": "音频中Gunther以平稳的语调说出'Someone in there?'，句末有明显的升调，表明其主要意图是提问，而非表达其他情绪。字幕内容与音频完全一致，且无其他情绪化词汇。视觉上，Gunther的表情平静，没有表现出愤怒、悲伤或喜悦等强烈情绪。三个专家的证据均一致支持中性情绪，其中音频证据直接证实了其提问的意图和语调，是最强的区分性证据。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 136.67750549316406
+}

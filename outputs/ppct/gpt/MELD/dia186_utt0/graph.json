@@ -1,0 +1,129 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Chandler说：“Ah, no-no-no just Ross. Ross and Joey is embarrassing enough.”",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Chandler坐在沙发上，嘴部张开。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Chandler抬起一只手并向前伸出。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Chandler的手转为放在腿前的物体上方。",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Chandler转头并向右侧看。",
+      "time_index": 5,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "画面中两名男子并排坐在橙色沙发上，周围还有其他人。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "字幕中提到Ross和Joey。",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_2",
+      "type": "context",
+      "content": "Chandler腿前有一个带装饰图案的银色物体，右侧有人伸手接触该物体。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "Chandler张嘴说话提供了正在发言的可观察信息，抬手向前伸出补充了同步手势；联合后更完整呈现其说话并用手势强调的互动过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "抬手向前伸出体现手势开始，随后手转为停留在腿前物体上方体现手势落点；联合后增加了手部动作从伸出到指向或接近物体的连续可观察信息。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_2",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "手停留在腿前物体上方提供了对物体进行操作或指示的可观察信息，转头向右侧看补充了注意方向；联合后更完整限定了其面向右侧人物或物体的互动表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "两名男子并排坐在橙色沙发上并置于多人环境中提供了空间场景信息，字幕提到Ross和Joey补充了对话涉及的人物对象；联合后更完整限定了该沙发场景中的谈话对象。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_2",
+      "relation": "context_joint",
+      "reason": "沙发及周围人物提供了整体环境信息，银色装饰物及右侧人物伸手接触提供了具体互动对象和动作信息；联合后更完整限定了人物在该场景中围绕物体发生的互动。",
+      "entity_anchor": null
+    }
+  ]
+}

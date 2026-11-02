@@ -1,0 +1,129 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Janice对Chandler说\"Good-bye\"",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Janice继续说\"Chandler Bing.\"",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Janice抬起右手食指指在颈旁，面部朝向前方",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Janice说话带独特的鼻音和拖长语调",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Janice放下抬起的手指，双臂交叉抱在胸前",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Janice注视着Chandler，嘴巴微张并停顿",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "Central Perk咖啡馆内，Janice身穿豹纹服饰站立与背对镜头的Chandler交谈，周围有其他顾客坐在背景处",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "Janice在对Chandler说完\"Good-bye\"之后紧接着说出其名字\"Chandler Bing.\"",
+      "entity_anchor": "Janice的言语输出"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "Janice在抬起食指指向颈旁的同时伴随着带有独特鼻音和拖长语调的发声",
+      "entity_anchor": "Janice的表达动作与发声"
+    },
+    {
+      "source": "person_2",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "Janice在抬手指向颈旁后放下了手指，转为双臂交叉抱在胸前的姿态",
+      "entity_anchor": "Janice的手部与肢体姿态"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提供道别的起手用语，process_1提供指名道姓的称呼对象，联合后形成完整的正式道别言语过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供手指颈旁的特定手势与面部朝向，person_1提供带鼻音和拖长语调的发音特征，联合后呈现该人物在发声说话时的视听多模态表达细节。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_2",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_2提供双臂交叉抱胸的躯干肢体动作，person_3提供注视对方且嘴巴微张的面部神态，两者联合完整构成了发言结束后的身体姿态与视线表现。",
+      "entity_anchor": null
+    }
+  ]
+}

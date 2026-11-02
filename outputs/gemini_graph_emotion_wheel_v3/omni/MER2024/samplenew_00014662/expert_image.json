@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物在多个帧中表现出担忧的面部特征，如眉头微蹙、眼神专注且略带忧虑，同时其台词内容直接表达了对可能负面后果的顾虑。这些视觉表现与台词内容高度一致，共同指向担忧情绪。",
+  "open_emotion": "担忧",
+  "answer": "worried",
+  "mapping_reason": "根据情绪轮定义，'worried'指对可能的负面结果、风险或未知情况的顾虑、焦虑和不安。目标人物的台词“我主要是担心这事会牵连到您家老爷子”明确表达了对潜在负面后果的预期和不安，这与'worried'的定义完全吻合。其面部表情（如皱眉、专注的眼神）也支持这一解释。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "目标人物的眉毛有轻微的皱起，眼神显得专注而略带忧虑。",
+      "interpretation": "皱眉和忧虑的眼神是担忧情绪的典型面部表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "我主要是担心这事会牵连到您家老爷子。",
+      "observation": "字幕显示目标人物正在表达对某件事可能牵连到他人的担忧。",
+      "interpretation": "台词内容直接说明了其情绪的来源和性质，即对潜在负面后果的顾虑。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "目标人物的嘴唇微张，似乎在认真地陈述或解释某事。",
+      "interpretation": "这种姿态表明她正在严肃地表达自己的顾虑，而非轻松或愉快的交流。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。目标人物的视觉表现和台词内容都一致地指向担忧，没有证据表明其情绪是愤怒、悲伤或中性。"
+}

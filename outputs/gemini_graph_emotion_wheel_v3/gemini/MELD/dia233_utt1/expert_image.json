@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物Rachel（左侧穿粉色上衣）面向对话者展开倾诉与质问。在frame_01至frame_03中，她眉头蹙起、嘴角下撇，双手略微向外摊开，身体微向前倾，呈现出典型的抱怨与质问姿态；在frame_04至frame_06中，她紧抿双唇并下压嘴角，下巴微收，眼神紧锁对方，显露出明显的不满与恼火。结合字幕与音频中高亢带责备的语调，其核心情绪是对对方行为的不满与烦躁，而非单纯的恐惧或中性叙述。",
+  "open_emotion": "恼火",
+  "answer": "anger",
+  "mapping_reason": "Rachel当下的面部皱眉、摊手质问以及紧抿嘴角的表情展现了针对对方做法的烦躁、责备与抗议，符合anger家族中'恼火/annoyed'与'不满/displeased'的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01至frame_03（0.63s-1.88s）",
+      "observation": "Rachel眉心紧聚微蹙，嘴唇张开说话时嘴角向下拉扯，同时双手向外摊展并配合身体微倾。",
+      "interpretation": "表现出带有责难意味的摊手质询与烦躁态度。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04至frame_06（2.50s-3.13s）",
+      "observation": "Rachel闭嘴抿唇，下颌肌肉收紧，双眼直视对方，眉眼间持续紧绷。",
+      "interpretation": "显示出对对话者决定未予考虑自己感受的持续不满与恼怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Honey, if you wanted to do that, you might as well just gotten him a fish, you know how fish freaked me out!",
+      "observation": "台词表达了对对方做法的不解与指责，指出对方明知自己的顾虑却依然如此。",
+      "interpretation": "语境是因被忽视而进行抱怨与对峙，佐证了情绪是指向对方的恼火而非对即时危险的畏惧。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词提及'fish freaked me out'且frame_07中双眼圆睁，可能让人联想到fear或disgust，但画面中并无鱼的实体，她整体姿态为主动对峙与责备，畏惧仅为陈述过去的理由而非当下对人情绪。"
+}

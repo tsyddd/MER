@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035950",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "说话人（person_0）的嘴部在开合（person_1），声调带有疑问和不解的语气（person_3），台词内容为“怎么到了自己身上，就这样不明白”，表明其对自身处境感到困惑和不解。",
+  "output": "说话人（person_0）的嘴部在开合（person_1），声调带有疑问和不解的语气（person_3），台词内容为“怎么到了自己身上，就这样不明白”，表明其对自身处境感到困惑和不解。\n<answer>worried</answer>",
+  "label": "sad",
+  "elapsed_seconds": 153.3450927734375,
+  "node_count": 7,
+  "edge_count": 7
+}

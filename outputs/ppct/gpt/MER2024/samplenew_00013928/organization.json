@@ -1,0 +1,3 @@
+{
+  "text": "在室内商店中，后方还有另一人在场，女子正与画面前方的人交流〔context_0〕〔context_1〕。她手中拿着一张白色纸张〔person_0〕，先说“胖婶，可不是吗”，同时抬起拿纸的手，向前方挥动并指向前方〔process_0 process_1 process_joint〕；这一动作是在原有持纸状态之后出现的〔person_1 after person_0〕。随后她放下拿纸的手〔person_2 after person_1〕，并说“我可看好你”，字幕中也出现“我可看好你呀！怎么样？”；接着她又说“怎么样，收获大大的吧”，这是在表达看好之后对对方情况或收获的追问〔process_3 after process_2〕，从挥动指向、支持性话语到结果询问共同构成连续互动〔process_1 process_2 process_joint〕〔process_2 process_3 process_joint〕。说到后续话语时，她的视线转向画面右侧〔person_3〕。这些表现可能反映她当下注意着交流对象及其结果，并通过指向、支持和追问来维持互动；但仅凭现有材料，无法进一步明确其更具体的心理状态。"
+}

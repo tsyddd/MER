@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00035777",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "16f51d5dc6065a268e5e910bb5bfbb8899c3b3f3bb04d1e2c3670d7e68263a35",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "恼火",
+      "mapped_label": "angry",
+      "mapping_reason": "当前紧绷、用力的表达更接近情绪轮中angry的恼火及对抗倾向；字幕本身是一句原则性陈述，不能单凭内容判定愤怒。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "不满",
+      "mapped_label": "angry",
+      "mapping_reason": "这里的“不满”表现为带有告诫意味的强调，最接近angry所涵盖的责备、对抗倾向；证据不足以判断为强烈愤怒。"
+    },
+    "image": {
+      "open_emotion": "恼火",
+      "mapped_label": "angry",
+      "mapping_reason": "当前可见的紧绷表情和前倾强调，支持轻度恼火，按情绪轮映射为angry；字幕只说明他强调诚实的重要性，不能单独证明愤怒。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "angry",
+  "emotion_analysis": "我核对了画面：男子在第2至4帧前倾、蹙眉并露齿说话，至第6至8帧收住动作后仍眉头紧锁；[image:E1]和[image:E2]对此的描述可信，但属于同一段视觉变化，不能重复计权。字幕“诚实，是做生意的根本。”只是原则性陈述，没有明确责备对象，[audio_subtitle:E1]指出的限制成立。严肃说理是最强的替代解释；但说话结束后仍持续的紧绷神情，使当前表现更接近轻度恼火，而非平稳陈述。未提供音轨，不能凭转述判断语气。",
+  "output": "我核对了画面：男子在第2至4帧前倾、蹙眉并露齿说话，至第6至8帧收住动作后仍眉头紧锁；[image:E1]和[image:E2]对此的描述可信，但属于同一段视觉变化，不能重复计权。字幕“诚实，是做生意的根本。”只是原则性陈述，没有明确责备对象，[audio_subtitle:E1]指出的限制成立。严肃说理是最强的替代解释；但说话结束后仍持续的紧绷神情，使当前表现更接近轻度恼火，而非平稳陈述。未提供音轨，不能凭转述判断语气。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 88.48260116577148
+}

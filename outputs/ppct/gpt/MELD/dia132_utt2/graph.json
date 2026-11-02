@@ -1,0 +1,144 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Phoebe对面前的女性说：“And umm, he’s like early to mid-thirties, very attractive.”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Phoebe站立并面向左侧女性，嘴部张开。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Phoebe将双手抬至身前并做手势。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Phoebe的双手向身体两侧展开。",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Phoebe头部向一侧倾斜，同时双手保持在身前做手势。",
+      "time_index": 5,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_4",
+      "type": "person",
+      "content": "Phoebe双手进一步向两侧摊开。",
+      "time_index": 7,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "Phoebe与一名女性在室内面对面交流。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "两人后方有一名手持书册的男性，右下方有另一名在场人物。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "同一人物的双手从抬至身前进一步向身体两侧展开",
+      "entity_anchor": "Phoebe的双手手势"
+    },
+    {
+      "source": "person_4",
+      "target": "person_3",
+      "relation": "after",
+      "reason": "同一人物在保持手势的基础上，双手进一步向两侧摊开",
+      "entity_anchor": "Phoebe的双手手势"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供Phoebe面向对方且张口的可见表现，person_1提供双手抬至身前做手势的表现，联合后补充了她在面对交流时同步进行手势表达的可观察信息。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_0提供Phoebe面向左侧女性并张口的表现，person_3提供头部倾斜及双手在身前 gesturing 的表现，联合后更完整呈现了她面向对方进行交流时的姿态和手势配合。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_4",
+      "relation": "person_joint",
+      "reason": "person_0提供Phoebe面向女性且张口的表现，person_4提供双手进一步向两侧摊开的表现，联合后增加了她在交流过程中配合语言进行展开式手势的可观察信息。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_1提供双手抬至身前并做手势的表现，person_3提供头部倾斜且持续用双手做手势的表现，联合后补充了手势与头部姿态同时出现的可观察信息。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0提供Phoebe与一名女性在室内面对面交流的主体场景，context_1补充了后方手持书册的男性及右下方另一名在场人物，联合后更完整限定了交流发生的室内环境及周边人员。",
+      "entity_anchor": null
+    }
+  ]
+}

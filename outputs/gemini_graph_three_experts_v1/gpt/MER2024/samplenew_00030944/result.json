@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00030944",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "7bd9f3e867f21d2ec668fb44dc3c0e1322c116ee3685ad30869d4f13503a1273",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "字幕中的“还不放心”“万一要想不开，怎么办呢”直接表达了对对方安全状况的担忧；graph主要复述了这些文字及相关图谱描述，不能作为独立的听觉证据。image所述眉头微蹙、嘴角下压和不安神情与担忧相符，综合判断当前情绪为担忧。",
+  "output": "字幕中的“还不放心”“万一要想不开，怎么办呢”直接表达了对对方安全状况的担忧；graph主要复述了这些文字及相关图谱描述，不能作为独立的听觉证据。image所述眉头微蹙、嘴角下压和不安神情与担忧相符，综合判断当前情绪为担忧。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 78.075692653656
+}

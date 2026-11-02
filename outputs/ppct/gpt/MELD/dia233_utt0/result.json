@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia233_utt0",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "当前人物是Rachel，画面中她面向对方女性，右手叉腰、左臂伸向台面并持续说话（person_0、person_1，二者通过person_joint关联）。字幕内容是直接质问对方是否要让Joey把自己赶出公寓，结合皱眉和对抗性姿态，表现出明显的不满与愤怒。",
+  "output": "当前人物是Rachel，画面中她面向对方女性，右手叉腰、左臂伸向台面并持续说话（person_0、person_1，二者通过person_joint关联）。字幕内容是直接质问对方是否要让Joey把自己赶出公寓，结合皱眉和对抗性姿态，表现出明显的不满与愤怒。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 73.85612940788269,
+  "node_count": 4,
+  "edge_count": 1
+}

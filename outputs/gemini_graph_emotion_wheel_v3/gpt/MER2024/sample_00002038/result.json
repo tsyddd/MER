@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/sample_00002038",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "5df67b783a7d621f4c168fbbed45377607d79f7076828cb28063569a3c555671",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "“诧异”强调当前对象或信息超出预期，符合她面对右侧不明人物时的紧蹙眉、注视和身份追问。现有证据没有明确显示她正在预期某种负面后果，因此不映射为worried；也没有足够的责备或对抗表现映射为angry。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "uneasy",
+      "mapped_label": "worried",
+      "mapping_reason": "当前表现主要是对未知人物或情境的顾虑与不安，符合worried所强调的未知风险或不确定性。这里是近似投影：字幕没有明确说明她担心什么，也没有音频可核验语调，但视觉上的紧张警觉使其不宜直接判为neutral；疑问本身也不足以单独支持surprise。"
+    },
+    "image": {
+      "open_emotion": "忐忑",
+      "mapped_label": "worried",
+      "mapping_reason": "“忐忑”强调面对未知对象时的不确定和顾虑，符合worried关于风险、未知结果或不安的定义。当前缺少音频，无法用语调进一步区分担忧与惊讶。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "我核对了frame_00至frame_07：目标人物持续眉头紧蹙、侧视右方、嘴微张，并非短暂的惊愕表情；字幕“他，是谁呀？”显示她正在确认未知人物身份。持续紧张与不确定性更支持对未知情境的担忧，而不足以证明信息突然违背预期的surprise，故选择worried。[image:E1][image:E2]与[audio_subtitle:E2]对视觉紧张的判断可信，但其担忧解释仍属推断；[graph:E1]将同一表现解释为诧异，且图谱涉及的音调转述在无音轨时无法独立核验。",
+  "output": "我核对了frame_00至frame_07：目标人物持续眉头紧蹙、侧视右方、嘴微张，并非短暂的惊愕表情；字幕“他，是谁呀？”显示她正在确认未知人物身份。持续紧张与不确定性更支持对未知情境的担忧，而不足以证明信息突然违背预期的surprise，故选择worried。[image:E1][image:E2]与[audio_subtitle:E2]对视觉紧张的判断可信，但其担忧解释仍属推断；[graph:E1]将同一表现解释为诧异，且图谱涉及的音调转述在无音轨时无法独立核验。\n<answer>worried</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 193.05337524414062
+}

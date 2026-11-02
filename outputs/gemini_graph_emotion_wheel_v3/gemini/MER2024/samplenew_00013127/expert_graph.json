@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "在当前互动事件链中，目标人物（红袍男子）面对友人交谈，先提及过去印象'以为你圆滑伶俐'[process_0]，随后得出'还真是小看你了'[process_1]的评价。图谱节点[person_0]与[person_2]指出其全程面带笑意、眼神专注，结合实际音频中轻快、带笑且调侃的语气[person_1]，表明其当下处于轻松愉快的调侃与打趣状态，并非真正的贬损或惊讶，属于明显的正面愉悦互动。",
+  "open_emotion": "愉悦打趣",
+  "answer": "happy",
+  "mapping_reason": "目标人物的开放情绪为轻松愉快的调侃与赞许打趣，言语互动充满善意与愉悦感，符合情绪轮中happy（喜悦：正向愉悦、满足）的定义，因此映射为happy。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "男子面对对方，嘴角明显上扬露出牙齿，神情开朗舒展",
+      "interpretation": "显示出轻松愉悦且友善的即时表情",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_07",
+      "observation": "男子说完话后依然保持眼角微弯的温和笑意",
+      "interpretation": "表明愉快的正向情绪状态贯穿整个表达过程",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "语调轻快上扬，发音伴随气声笑意，呈现调侃调侃的戏谑语调",
+      "interpretation": "听觉特征与视觉微笑高度互补，确证其处于积极轻松的打趣情绪中",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱记录男子说话语调轻快，带有调侃意味",
+      "interpretation": "印证了言语表达中的戏谑与正向愉悦倾向",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词表层包含'小看你了'，字面上可能被误认为因预期落差引发的surprise或轻视，但结合其全程灿烂的笑容与轻快笑腔，排除了惊愕或严肃评判，实为正向友好的玩笑。"
+}

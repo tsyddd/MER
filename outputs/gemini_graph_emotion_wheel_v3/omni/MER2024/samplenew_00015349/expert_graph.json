@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "目标人物（束发男子）的语调低沉、平稳且克制，没有表现出愤怒或悲伤的激烈情绪。他的核心表达是提出一个假设性后果（“传到高家”），这表明他正在担忧某种行为可能带来的负面结果。这种对潜在风险的陈述和克制的语气，与“担忧”情绪的特征最为吻合。",
+  "open_emotion": "担忧",
+  "answer": "worried",
+  "mapping_reason": "根据情绪轮定义，'worried'指对可能的负面结果、风险或未知的顾虑、焦虑和不安。目标人物正在陈述一个假设性后果，其语气平稳克制，没有表现出愤怒或悲伤的特征，这与担忧情绪的语义和表现最为匹配。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "束发男子的语调低沉，语速平稳，没有明显的激动或愤怒。",
+      "interpretation": "该声音特征表明说话者情绪稳定，没有表现出愤怒或喜悦等强烈情绪，更倾向于一种冷静的陈述或告诫。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "再这么吵下去的话，传到高家。",
+      "observation": "字幕内容为一个假设性后果的陈述。",
+      "interpretation": "该陈述表明说话者正在警告对方，其行为可能会导致一个不希望发生的后果，这是担忧情绪的典型表达方式。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "图谱节点process_0记录了束发男子说出“再这么吵下去的话”这一过程。",
+      "interpretation": "该节点描述了说话者提出一个假设前提，这是担忧情绪中常见的表达结构，即先设定一个条件，再引出对后果的忧虑。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱节点person_1描述了束发男子的声音特征为“低沉，语调平稳克制”。",
+      "interpretation": "该描述与音频内容一致，证实了说话者情绪的克制性，排除了愤怒等情绪的可能性，支持了担忧的判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "音频中没有表现出明显的悲伤或喜悦情绪，因此可以排除sad和happy。虽然有“吵”字，但说话者的语气并非愤怒，而是冷静的告诫，因此可以排除angry。没有表现出对当前事件的意外，因此可以排除surprise。"
+}

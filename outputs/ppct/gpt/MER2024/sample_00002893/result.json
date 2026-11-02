@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00002893",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "当前人物是画面中的女性，正手持手机通话，画面可见她眉头紧蹙、神情凝重。字幕显示她澄清朋友遭到网络诽谤，且“现在事情越闹越大”，对应图谱中的process_3与process_4，并与通话节点process_0及情境节点context_1、context_2相连，表现出对事态发展的担忧。",
+  "output": "当前人物是画面中的女性，正手持手机通话，画面可见她眉头紧蹙、神情凝重。字幕显示她澄清朋友遭到网络诽谤，且“现在事情越闹越大”，对应图谱中的process_3与process_4，并与通话节点process_0及情境节点context_1、context_2相连，表现出对事态发展的担忧。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 133.9416573047638,
+  "node_count": 11,
+  "edge_count": 16
+}

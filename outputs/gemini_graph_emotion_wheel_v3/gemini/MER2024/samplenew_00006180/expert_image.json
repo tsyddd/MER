@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物为画面中的女教师（出现在frame_00-05及frame_07）。她在讲台上与学生互动，神情自然舒展，面部肌肉放松，眼神温和，并以平常的教学口吻向全班发问。整个过程中未出现强烈的眉眼收紧、大幅度嘴角上扬或下撇等极端情绪特征，整体表现平稳而亲切，属于典型的自然交流状态。",
+  "open_emotion": "平和",
+  "answer": "neutral",
+  "mapping_reason": "女教师在课堂互动中保持自然平静、温和从容的状态，符合情绪轮中平稳叙述、自然交流且无强烈主导情绪的neutral定义。",
+  "evidence": [
+    {
+      "anchor": "frame_00至frame_05 (0.0s - 4.00s)",
+      "id": "E1",
+      "interpretation": "表明其在向学生提问时情绪状态平稳从容，无焦虑或激动表现。",
+      "observation": "女教师面部肌肉自然放松，眉毛平展无紧蹙，嘴唇开合自然地说话，眼神温和正视前方。",
+      "polarity": "support",
+      "source": "visual"
+    },
+    {
+      "anchor": "frame_07 (5.63s)",
+      "id": "E2",
+      "interpretation": "反映出面对学生积极回答时的自然倾听状态，整体情绪平稳。",
+      "observation": "女教师微微侧头看向回答的学生，目光平静专注，神态从容。",
+      "polarity": "support",
+      "source": "visual"
+    },
+    {
+      "anchor": "0.0s - 3.8s",
+      "id": "E3",
+      "interpretation": "进一步印证其处于常态化的亲和交流之中，无强烈情绪波动。",
+      "observation": "女教师语调轻柔自然，以平稳温和的语气说出“小毛驴，老师也没见过诶，同学们，有没有知道的”。",
+      "polarity": "support",
+      "source": "audio"
+    }
+  ],
+  "counterevidence": "frame_06中举手抢答的男童表现出极为兴奋开心的神态，但该情绪属于学生个体而非目标教师。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00003759",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "当前目标人物为穿黄色上衣的女性，图谱中的person_1与person_2显示她先面向左侧人物，随后转头并开口回应；process_1记录其当前台词“我骗你干吗啊”。她是在对询问作直接辩解，画面中未见明显愤怒、悲伤或喜悦表情，因此判断为neutral。",
+  "output": "当前目标人物为穿黄色上衣的女性，图谱中的person_1与person_2显示她先面向左侧人物，随后转头并开口回应；process_1记录其当前台词“我骗你干吗啊”。她是在对询问作直接辩解，画面中未见明显愤怒、悲伤或喜悦表情，因此判断为neutral。\n<answer>neutral</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 50.793914794921875,
+  "node_count": 7,
+  "edge_count": 4
+}

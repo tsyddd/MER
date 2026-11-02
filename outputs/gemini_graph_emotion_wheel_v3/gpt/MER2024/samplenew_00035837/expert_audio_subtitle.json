@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物说“我知道，在这个世上，再也没有亲人了”，是在陈述自己已失去亲人的处境，而非提问或引述；“再也没有”将话语指向已经发生的失去[E1]。她说话时目光下垂，表情收敛，与失落的解释相符[E2]。",
+  "open_emotion": "失落",
+  "answer": "sad",
+  "mapping_reason": "当前表达着重于已发生的失去，符合sad所指的失落与低落，而非对未来风险的担忧。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“我知道，在这个世上，再也没有亲人了。”",
+      "observation": "目标人物以第一人称陈述自己如今没有亲人。",
+      "interpretation": "话语聚焦已经发生的失去，支持失落。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04（1.56秒）至frame_07（2.76秒）",
+      "observation": "她说后半句时目光下垂，表情较收敛。",
+      "interpretation": "视觉表现与话语中的失落一致，但单凭表情不能确定情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "她的表情并不激烈，也可能是在平静地陈述事实；片段未提供音频，不能依据语调或停顿进一步区分。"
+}

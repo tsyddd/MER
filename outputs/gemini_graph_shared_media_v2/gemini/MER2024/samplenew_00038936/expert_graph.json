@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "在当前人际互动中，白衣女子向对方转述听闻的消息并求证对方情况[process_1]。当话语进展到提及对方“出了点意外”时，女子表情由最初的平稳转向眉头微蹙、目光低垂[E1, person_2]，随后抬眼关切地注视对方[person_3]，语调轻柔且带有明显的关切与探询[E2]。事件语义是对他人不幸遭遇的探问，结合蹙眉凝视的微表情，明确指向对对方安危的担忧（worried）。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_05 @ 2.64s",
+      "observation": "白衣女子在说到“出了点意外”时，眉头收紧微蹙，眼神低垂并带有关切神色",
+      "interpretation": "体现出对对方遭遇不测的关切与忧心，而非单纯陈述客观事实",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:01-00:03",
+      "observation": "女子说出“你好像出了点意外”时语调轻缓柔和，尾音带探询关切",
+      "interpretation": "证实了其言语背后的关切情绪，支持对意外事件的担心",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "女子向面前男子说出“你好像出了点意外”",
+      "interpretation": "言语事件直接关联他人潜在的危险或事故，是触发worried的核心情境",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "若仅看前半句[process_0]，女子神情平静可能被解读为中立叙事（neutral），但随着言语触及具体意外事件，其皱眉与关切探询打破了中立状态，故排除neutral。"
+}

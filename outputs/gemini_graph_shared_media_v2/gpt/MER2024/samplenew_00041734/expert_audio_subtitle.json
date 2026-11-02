@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物说“不是，你，为什么要辞职？”，这是带有追问和质疑的疑问句，不是字面情绪词；结合其持续皱眉、眉心紧缩和倾身注视，主要表现为对对方辞职原因的担心与不安，而非单纯愤怒。[E1][E2]",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "当前字幕原话：“不是，你，为什么要辞职？”",
+      "observation": "句子包含否定式开头“不是”和“为什么”的直接追问，话语行为是要求解释并表达对辞职决定的不理解或担忧。",
+      "interpretation": "支持worried；疑问和追问指向对对方处境或决定的关切，但不能单独证明愤怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01至frame_04 @ 0.4至1.52秒",
+      "observation": "目标人物眉头明显紧皱，眉心收紧，嘴部张开说话，头部向一侧倾斜并持续看向对方。",
+      "interpretation": "这些面部和姿态表现与担忧、困惑相符，也带有质询色彩；整体没有足够强的攻击性表情来优先判为angry。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05至frame_06 @ 1.92至2.28秒",
+      "observation": "她仍保持凝视和皱眉，表情没有转为笑容或明显放松；末帧中另一名人物出现，目标人物仍处于严肃关注状态。",
+      "interpretation": "支持当前情绪是持续的忧虑或关切，而非happy或neutral。由于无音频，无法核实语调、音量或停顿。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的相反解释是angry：字幕中的“为什么”也可能是责备式质问，且皱眉可见于愤怒。但画面中更突出的是困惑、紧张和对对方的持续关注，缺少明显敌意或攻击性动作；若有更强烈的音量、重读或斥责语气才会更支持angry，目前无音频无法进一步区分。"
+}

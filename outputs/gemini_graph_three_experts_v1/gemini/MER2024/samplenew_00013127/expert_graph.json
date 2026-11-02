@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "目标人物在交流时始终面带笑意且持续保持微笑（person_0、person_2）。图谱记载其说话语调轻快并带有调侃意味（person_1），整体言行展现出轻松、愉悦的情感表现。",
+  "answer": "happy",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "person_2"
+  ]
+}

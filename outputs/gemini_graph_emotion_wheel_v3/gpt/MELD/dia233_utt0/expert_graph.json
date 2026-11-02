@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "Rachel当面质问对方是否弄来这些东西、借Joey把自己赶出公寓[E1]。她持续看着对方，表情紧绷，发问时一手叉腰[E2]；图谱的process_0也记录了这次当面发问[E3]，但它与字幕描述的是同一事件，不能算独立佐证。她质疑的是对方可能有意针对自己，并非已经确认对方的意图；结合当前表现，主导情绪更接近不满，而非对被赶走的畏惧。",
+  "open_emotion": "不满",
+  "answer": "anger",
+  "mapping_reason": "此处的不满指向她所质疑的针对性行为，并以当面质问表达，符合anger中因受冒犯而责备、对抗的方向；不意味着她已表现出强烈愤怒。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Did you get all this stuff for Joey to try and drive me out of the apartment?",
+      "observation": "Rachel询问对方是否为Joey弄来这些东西，目的是把自己赶出公寓。",
+      "interpretation": "疑问句将可能的排挤行为指向面前的人，具有当面质疑意味；其中的意图仍是假设，而非已证实的事实。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_07（4.296秒）",
+      "observation": "Rachel面向金发女子，一手叉腰；说话期间看着对方，眉间略紧、嘴部随发问开合。",
+      "interpretation": "她是在直接与对方交涉，紧绷的表情与质问内容相配；仅凭这些动作不能确定情绪类别。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "节点记录Rachel面向金发女子，提出是否借这些东西把自己赶出公寓的问题。",
+      "interpretation": "该节点把当前互动定位为Rachel本人的当面发问，而不是Joey的行为或已经发生的驱逐；它与字幕同源，不额外增加一份情绪证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "“把我赶出公寓”也可能引出担忧，但当前可核实的是Rachel当面质疑对方，缺少明确畏惧表现。图谱person_2转述了疑问升调；未提供原音轨，不能亲耳核验，也不据此判断她的语气。图谱person_0所述叉腰手别与画面不符，不能照搬。"
+}

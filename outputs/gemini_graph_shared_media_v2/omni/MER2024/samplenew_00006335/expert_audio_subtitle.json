@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者使用反问句式“不是……了吗？”，结合其严肃、低沉且带有质问意味的语调，表明其对“关东军已增兵”的情况持怀疑或不满态度，而非中性陈述。字幕内容与音频一致，强化了质问的语气。",
+  "answer": "angry",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "说话者以反问句式说出“关东军不是已经增兵甲子沟、煤矿了吗？”，语调低沉，尾音上扬，带有明显的质问和不满情绪。",
+      "interpretation": "反问句式和质问的语调表明说话者对所提及的事实持怀疑或反对态度，这是愤怒情绪的典型表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "关东军不是已经增兵甲子沟、煤矿了吗？",
+      "observation": "字幕内容为一个反问句。",
+      "interpretation": "反问句式本身就不表示中性，它通常用于表达惊讶、不满、讽刺或质问等情绪，这与愤怒相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 @ 00:00",
+      "observation": "说话者表情严肃，眉头微皱，眼神专注。",
+      "interpretation": "严肃的表情与质问的语气相匹配，共同支持了愤怒的情绪判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的替代解释是“surprise”（惊讶）。然而，与惊讶通常伴随的语调上扬和开放表情不同，该说话者的语调是低沉且带有压迫感的，表情也显得严肃而非意外，因此“surprise”不成立。"
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物为frame_03至frame_07中近景的男子；其视线持续向下，眉间略有收紧，嘴唇轻闭或微张，整体姿态克制，呈现对某事的顾虑与不安。字幕“也不知道，当年，三哥。”涉及对过去情况的不确定，和视觉上的担忧相符。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_03 @ 0.92s至frame_07 @ 2.12s",
+      "observation": "目标人物面部近景中持续低垂视线，眉间轻微收紧，嘴角没有上扬，表情变化幅度较小。",
+      "interpretation": "低头凝视与眉部紧张共同支持对某事有所顾虑，而非轻松或愉悦。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.2s至frame_07 @ 2.12s",
+      "observation": "目标人物保持相对僵直、克制的上身姿态，嘴唇由微张趋于闭合。",
+      "interpretation": "缺少明显放松或笑意，配合收敛的面部动作，更接近担忧性的压抑表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "当前字幕：“也不知道，当年，三哥。”",
+      "observation": "字幕表达对过去情况的不了解或不确定。",
+      "interpretation": "语义内容可与画面中的低视线和紧绷表情相互印证，支持担忧而非单纯中性。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "目标人物没有明显泪光、强烈皱眉或显著痛苦表情，因此也可能只是克制、沉思或轻度悲伤；但字幕中的不确定语义与持续的低视线使worried比neutral或sad更有视觉支持。"
+}

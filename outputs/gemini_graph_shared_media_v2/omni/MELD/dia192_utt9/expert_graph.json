@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "Monica从背景走向前景并大声说出质问性话语，其动作与话语同步，表明她正在主动介入一个场景。她的声音音量大且尾音上扬，这在图谱中被描述为‘发音音量较大，尾音语调上扬’，这与‘surprise’的情绪特征相符，即对某事感到震惊和难以置信。虽然她的话语内容是‘Excuse me’，但其强烈的语气表明这是一种带有惊讶的打断，而非礼貌的提醒。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "Monica的发音音量较大，尾音语调上扬",
+      "interpretation": "这种语调特征是惊讶情绪的典型表现，表明她对正在发生的事情感到震惊和难以置信。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "Monica从房间后方向前移动",
+      "interpretation": "这个动作表明她正在主动介入一个场景，这与她突然的质问行为一致，支持了她因惊讶而打断当前活动的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "Monica说出\"What?! Excuse me!\"",
+      "interpretation": "话语内容和语气（由E1描述）共同表明这是一种惊讶的质问，而不是愤怒或中性地提醒。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "一种可能的替代解释是‘anger’（愤怒）。Monica的音量大，可能被解读为愤怒。然而，图谱中明确描述其尾音‘上扬’，这更符合惊讶时的语气，而非愤怒时的低沉或强硬。因此，惊讶是比愤怒更合理的解释。"
+}

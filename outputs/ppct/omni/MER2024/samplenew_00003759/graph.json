@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "说话人对另一人说“是吗？才真这么说的。”",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "穿着黄色针织衫，短发，面向另一人，嘴部开合，正在说话。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "穿着棕色外套，黑色内搭，长发，面向说话人，嘴部开合，正在说话。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "两人坐在沙发上，背景有绿色植物和蓝色墙壁。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "说话人正在与另一人进行对话。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0 提供了说话时的面部表情和身体朝向，person_1 提供了说话时的面部表情和身体朝向，联合后完整呈现了两人对话时的互动姿态。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0 提供了对话发生的室内环境（沙发、植物、墙壁），context_1 提供了对话的互动性质，联合后完整限定了对话的场景和任务。",
+      "entity_anchor": null
+    }
+  ]
+}

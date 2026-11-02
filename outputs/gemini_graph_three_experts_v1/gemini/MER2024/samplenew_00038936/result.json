@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00038936",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "c613bc4c8eed706c8b1610a8aeb9393921c5fc05b8cbb31814da46e58a8148c8",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "audio_subtitle和image专家均指出目标人物在询问意外事件时表现出关切与担忧，画面中从第4帧起出现紧锁眉头、神情紧绷的细节，且语音语调带有试探与关怀。相较于graph判定平静中立的概括，多模态直接感知专家在微表情和语气细节上高度一致，故判定其为worried。",
+  "output": "audio_subtitle和image专家均指出目标人物在询问意外事件时表现出关切与担忧，画面中从第4帧起出现紧锁眉头、神情紧绷的细节，且语音语调带有试探与关怀。相较于graph判定平静中立的概括，多模态直接感知专家在微表情和语气细节上高度一致，故判定其为worried。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 29.98814821243286
+}

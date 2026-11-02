@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "Monica's facial expression and body language across the frames show a rapid escalation from a neutral state to a state of alarm. In frame_02, she is seated and holding a book, appearing calm. By frame_03, her eyes are wide and her mouth is open in a gasp, indicating a sudden reaction. In frame_04, she is holding a glass and her expression remains one of shock. From frame_05 to frame_08, she is seen turning her head sharply to her right, her mouth agape, and her body tensing, all of which are strong visual cues of fear or panic. This visual evidence is strongly supported by the audio, where she is heard shouting 'No-no-no, no!' in a panicked tone, which is a clear verbal expression of fear.",
+  "answer": "fear",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_03 @ 0.8758743199733541",
+      "observation": "Monica's eyes are wide open and her mouth is open in a gasp.",
+      "interpretation": "This is a classic visual sign of shock or fear, indicating a sudden and alarming reaction to an event.",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.1261241256800267",
+      "observation": "Monica is holding a glass and her facial expression shows wide eyes and an open mouth, consistent with shock.",
+      "interpretation": "Her continued state of alarm, even while holding an object, suggests her focus is on the source of her fear rather than her immediate surroundings.",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05 @ 1.4180822323378113",
+      "observation": "Monica is turning her head sharply to her right with a tense expression.",
+      "interpretation": "This rapid, reactive movement indicates she is responding to a sudden stimulus from that direction, a common behavior in a fearful state.",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "00:00:01.710040338995596 - 00:00:02.001998445653381",
+      "observation": "Monica is heard shouting, 'No-no-no, no!' in a panicked tone.",
+      "interpretation": "The verbal content and panicked delivery are a direct and unambiguous expression of fear.",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "There is no strong visual or audio evidence to support an alternative emotion. For example, her expression is not one of anger (no furrowed brows or clenched jaw) or sadness (no tears or downturned mouth). The audio is a clear 'no' of panic, not a laugh or a yell of joy. Therefore, fear is the only emotion that is consistently supported by all available evidence."
+}

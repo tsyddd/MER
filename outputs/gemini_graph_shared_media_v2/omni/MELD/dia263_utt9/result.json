@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia263_utt9",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "748766277a851f3c168859458c00ae3a054753904e4b2ab4fc17828900a7ca74",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "音频和字幕证据显示，说话者以低沉缓慢的语调说出'I'm gonna have to give him up'，句末有停顿，表现出无奈和接受现实的沉重感，这与悲伤情绪高度一致。视觉上，说话者表情凝重，眼神低垂，也支持这一判断。虽然图像专家认为表情平静、姿态中性，但音频中的语调是判断情绪的关键线索，且与字幕内容（放弃）直接相关。因此，综合音频和字幕证据，悲伤是更合理的判断。",
+  "output": "音频和字幕证据显示，说话者以低沉缓慢的语调说出'I'm gonna have to give him up'，句末有停顿，表现出无奈和接受现实的沉重感，这与悲伤情绪高度一致。视觉上，说话者表情凝重，眼神低垂，也支持这一判断。虽然图像专家认为表情平静、姿态中性，但音频中的语调是判断情绪的关键线索，且与字幕内容（放弃）直接相关。因此，综合音频和字幕证据，悲伤是更合理的判断。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 143.640944480896
+}

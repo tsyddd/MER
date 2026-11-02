@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00002333",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "happy",
+  "emotion_analysis": "分析图谱中的实际节点及关系，画面中男子斜靠在沙发上（person_0），嘴角上扬露齿且眼角微眯（person_1），同时伴有平缓且夹杂带笑气声的语调（person_3），两者同步（simultaneous）且视听联合（person_joint）清晰展现出其面带笑意的状态，符合happy情绪特征。",
+  "output": "分析图谱中的实际节点及关系，画面中男子斜靠在沙发上（person_0），嘴角上扬露齿且眼角微眯（person_1），同时伴有平缓且夹杂带笑气声的语调（person_3），两者同步（simultaneous）且视听联合（person_joint）清晰展现出其面带笑意的状态，符合happy情绪特征。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 41.94513654708862,
+  "node_count": 7,
+  "edge_count": 5
+}

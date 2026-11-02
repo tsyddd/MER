@@ -1,0 +1,111 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "莫妮卡对身旁的瑞秋喊出“Rachel!”",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "莫妮卡对瑞秋说出“I’m never gonna think it’s okay for you to cheat on your husband!”",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "莫妮卡身穿浅紫色衣服，侧身坐在沙发上",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "莫妮卡转向身旁的瑞秋，面朝对方张口发声，音量较高",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "莫妮卡目光直视瑞秋，语气坚定，持续开合嘴唇说话",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "在室内环境中，莫妮卡与身穿玫红色外套的瑞秋并排坐在沙发上交谈",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "莫妮卡在喊出“Rachel!”唤起对方注意后，紧接着对瑞秋表达自己的明确观点",
+      "entity_anchor": "莫妮卡对瑞秋的言语互动"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "莫妮卡最初侧身坐在沙发上，随后转向瑞秋并面朝对方张口发声",
+      "entity_anchor": "莫妮卡"
+    },
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "莫妮卡在转向瑞秋发声后，持续直视对方并以坚定语气继续开合嘴唇说话",
+      "entity_anchor": "莫妮卡"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提供了莫妮卡先高声呼喊对方名字以引起注意的动作，process_1补充了随后直接表明绝不赞同其出轨的言辞内容，两者联合完整呈现了莫妮卡从唤起对方注意转向正面告诫的互动流程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1提供了莫妮卡转向身旁瑞秋并大声张口呼喊的初始动作与音量表现，person_2补充了其眼神直视对方且语气坚定的持续说话神态，两者联合更全面地反映了莫妮卡严肃且专注的视听觉外在表现。",
+      "entity_anchor": null
+    }
+  ]
+}

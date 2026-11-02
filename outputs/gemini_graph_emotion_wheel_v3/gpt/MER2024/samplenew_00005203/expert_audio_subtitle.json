@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "她说“我也不想跟你分开”，是在向对方表达不舍，而非单纯陈述事实[E1]。说话时低头、眉头微蹙，表情与这份失落相符[E2]。本片段未提供音频，不能据此判断语调。",
+  "open_emotion": "不舍",
+  "answer": "sad",
+  "mapping_reason": "这里的“不舍”指向对分离的失落，最接近sad所涵盖的低落与伤心；并非把“分开”这个话题本身当作情绪证据。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“我也不想跟你分开。”",
+      "observation": "说话者明确表示不愿与对方分开。",
+      "interpretation": "这是一句向对方表达不舍的话，支持失落情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02（0.56秒）至frame_05（1.40秒）",
+      "observation": "画面中的女子低头，眉头微蹙，表情收紧。",
+      "interpretation": "表情与台词中的不舍一致，但单凭表情不足以确定情绪类别。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "她也可能是在担忧即将发生的分离；但现有话语侧重“不想分开”的失落，没有明确表达对未知后果的焦虑，因此不优先判为worried。"
+}

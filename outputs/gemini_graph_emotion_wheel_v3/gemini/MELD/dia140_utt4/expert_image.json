@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "目标人物Ross在整个片段中面向左侧的Joey交谈。从frame_00至frame_07，Ross的面部肌肉整体放松，眉毛未出现明显的紧锁（排除了愤怒或痛苦）或显著高挑（排除了强烈惊讶），眼神自然聚焦在对方身上，仅随说话节奏有常规的唇形张合和轻微手部动作，整体处于日常平静、提供建议的对话状态。",
+  "open_emotion": "平常",
+  "answer": "neutral",
+  "mapping_reason": "Ross在交谈过程中表现平稳、专注而自然，没有显著的愉悦、愤怒、悲伤等主导情绪波动，符合neutral的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_03 (0.00s-0.96s)",
+      "observation": "Ross注视对方，面部放松，伴随说话头部略微点动，眼神自然，无明显眉心收缩或嘴角上扬。",
+      "interpretation": "体现出日常交流的平稳状态，缺乏强烈情感色彩。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05至frame_07 (1.58s-2.21s)",
+      "observation": "Ross正说出台词，嘴唇开合自然，神情专注认真，眉毛无剧烈形变。",
+      "interpretation": "属于正常的日常言语表达，情绪基调平淡客观。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "他在建议对方时神态较为专注，若脱离动作幅度单独看微张的口型可能会被误读为带有轻微试探或困惑，但结合平顺的面部肌肉运动，该表现并非情绪化的反应。"
+}

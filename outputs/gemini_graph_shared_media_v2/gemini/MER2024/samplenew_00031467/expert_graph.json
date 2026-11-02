@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "结合事件链与情境，女子正端碗向疲乏斜倚的皇帝平缓进言[process_0]，动作从容端庄。视觉上其眉眼舒展平静，未见明显担忧或笑意起伏[E2]；实际音轨核验其语音温和低平，节奏平缓稳定[E3]，符合平正克制的平和沟通状态，故判定为neutral。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "图谱记录女子开口言及“皇上闻着，正好，消乏，安睡”，与端碗面向对方构成日常侍奉情境",
+      "interpretation": "表明当前互动为常规照拂进言，无突发或高情绪张力的事件冲击",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 0.96",
+      "observation": "女子目光平视对面，面容平和从容，眉毛平舒无紧皱，唇角放松无显著上扬或紧绷",
+      "interpretation": "面部肌肉缺乏忧虑紧绷或欢悦外显，支持其中性平稳的情绪状态",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "真实音轨中女子声音柔和平顺，吐字清晰轻稳，无音调急促或气息颤抖",
+      "interpretation": "核实了图谱中语调平缓的描述，印证了其内心稳定克制，无情绪波动",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "因对方斜倚扶额略显疲惫，此情境可能被推想为关切担忧（worried）或温柔顺服带来的喜悦（happy）；但女子眉宇平静舒展，语调波澜不惊，缺乏焦虑紧张或明显愉悦特征，故排除此类替代解释。"
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Monica说'Yeah baby!'时，语调上扬，充满活力，表现出兴奋和喜悦。她的笑容与话语内容和语气一致，共同指向积极情绪。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:01.459",
+      "observation": "Monica说'Yeah baby!'，语调上扬，音量适中偏高，语速正常。",
+      "interpretation": "上扬的语调和充满活力的语气是表达喜悦和兴奋的典型特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Yeah baby!",
+      "observation": "字幕显示说话内容为'Yeah baby!'。",
+      "interpretation": "这句话是表达赞同、兴奋和喜悦的常用口语。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 @ 00:00:00.000",
+      "observation": "Monica面带灿烂的笑容，眼睛弯起，表情非常开心。",
+      "interpretation": "视觉上的笑容与听觉上的喜悦语气和话语内容完全一致，强化了喜悦的情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。所有证据都一致指向joy。"
+}

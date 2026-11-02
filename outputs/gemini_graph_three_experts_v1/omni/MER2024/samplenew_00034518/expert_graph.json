@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "年长女性手握茶杯、上身微向前倾并持续注视蓝衣女性，同时以带有疑问和关切的语调发问，这些视觉与听觉表现同步发生，表明其情绪为关切。图谱记载的音频派生描述显示其语调具有关切特征（person_1），且身体姿态（person_0）与言语行为（process_0）联合构成担忧情境。",
+  "answer": "worried",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "process_0"
+  ]
+}

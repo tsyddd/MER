@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00041734",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "ef82d3fe06a46b4125e3eacb1a9f355331f80a204ee0f71866c99305b2e54746",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "震惊",
+      "mapped_label": "surprise",
+      "mapping_reason": "目标人物的即时评价对象是对方'辞职'这一完全出乎意料的事件，其高亢语调与追问直接表现出突发消息带来的认知冲击与意外感，符合MER2024情绪轮中surprise（因当前信息违背预期产生的意外、诧异或震惊）的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "焦急不安",
+      "mapped_label": "worried",
+      "mapping_reason": "目标人物在语调和台词上聚焦于辞职这一打乱生活预期的风险事件，表现出明显的焦虑与忧急，符合worried关于对未知风险、负面后果产生顾虑与不安的定义。"
+    },
+    "image": {
+      "open_emotion": "焦急忧虑",
+      "mapped_label": "worried",
+      "mapping_reason": "目标人物表现出因对方突然辞职而产生的焦虑、不安与深切关切，重点落在对不可预见后果的顾虑上，符合情绪轮中worried（担忧）的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "独立回听音轨与观察画面可知，女性在听到对方辞职的消息后，以极高亢急促的语调连续追问并追加短促上扬的尾音“啊？啊？”[audio:E2]，配合frame_00至frame_03中眉头骤紧、双眼圆睁的错愕神态[image:E1][visual:E3]，核心驱动力是对违背常理决定的强烈难以置信与认知冲击。专家[audio_subtitle:E1]与image专家将其判定为worried，主要依赖“辞职影响生计未来”的潜在剧情常识假设；但依据适配规范，预期违背的即时意外明确偏向surprise，当前并无沉重焦虑或持续担心的低落线索，其主导情绪为即时震惊。",
+  "output": "独立回听音轨与观察画面可知，女性在听到对方辞职的消息后，以极高亢急促的语调连续追问并追加短促上扬的尾音“啊？啊？”[audio:E2]，配合frame_00至frame_03中眉头骤紧、双眼圆睁的错愕神态[image:E1][visual:E3]，核心驱动力是对违背常理决定的强烈难以置信与认知冲击。专家[audio_subtitle:E1]与image专家将其判定为worried，主要依赖“辞职影响生计未来”的潜在剧情常识假设；但依据适配规范，预期违背的即时意外明确偏向surprise，当前并无沉重焦虑或持续担心的低落线索，其主导情绪为即时震惊。\n<answer>surprise</answer>",
+  "label": "angry",
+  "elapsed_seconds": 74.0987195968628
+}

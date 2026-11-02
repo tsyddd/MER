@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断目标人物的声调、音量、语速或停顿。字幕内容是简短的转交请求，没有明确表达当前情绪，因此判定为中性。",
+  "answer": "neutral",
+  "evidence_refs": []
+}

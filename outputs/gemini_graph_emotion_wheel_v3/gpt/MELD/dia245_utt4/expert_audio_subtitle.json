@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Monica连续说“No-no-no, no!”，是在急切地阻止对方，而非平静陈述或单纯表示意外[E1]。她随即从沙发上向前探身，转头看向门口方向，动作与制止的话语一致[E2][E3]。这些证据更支持她此刻焦急，而不是中性。",
+  "open_emotion": "焦急",
+  "answer": "fear",
+  "mapping_reason": "焦急在这里表现为试图阻止眼前事情发生，最接近情绪轮中面向预期负面后果的fear；但片段未交代她担心的具体后果，这一映射有局限。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "No-no-no, no!",
+      "observation": "连续重复否定词。",
+      "interpretation": "表达即时制止，而非普通的信息回应；仅凭文字不能判断语调。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02，0.584秒",
+      "observation": "Monica坐在沙发上，转头朝门口方向张口说话，手中仍拿着书。",
+      "interpretation": "反应指向门口的人或其动作，与制止话语相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05至frame_07，1.418至2.002秒",
+      "observation": "Monica迅速向前探身，随后回头望向门口方向，末帧张着嘴。",
+      "interpretation": "动作持续而急促，支持焦急的解读。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是对对方举动感到意外，或只是坚持反对；字幕未说明制止的原因，也没有提供音频，因此不能确认她是否害怕具体威胁。"
+}

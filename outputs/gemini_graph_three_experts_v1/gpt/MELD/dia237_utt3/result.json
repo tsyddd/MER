@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia237_utt3",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "ce972a653956a31614b7e25f45b63c679edd7dc7223fe0ddbbd92ef5105cd4d2",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "disgust",
+  "emotion_analysis": "字幕内容直接表达了对“whipped fish”的反感和勉强吞咽，支持厌恶情绪；音频专家未提供音频，因此不能据此判断听觉线索。图像专家认为表情偏担忧、接近害怕，图谱则描述为平稳，但这些线索与字幕语义冲突，综合取更直接的情绪表达。",
+  "output": "字幕内容直接表达了对“whipped fish”的反感和勉强吞咽，支持厌恶情绪；音频专家未提供音频，因此不能据此判断听觉线索。图像专家认为表情偏担忧、接近害怕，图谱则描述为平稳，但这些线索与字幕语义冲突，综合取更直接的情绪表达。\n<answer>disgust</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 82.76895093917847
+}

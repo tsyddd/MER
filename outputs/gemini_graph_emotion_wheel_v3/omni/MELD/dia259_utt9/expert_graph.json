@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "目标人物Monica在当前片段中，以平稳清晰的语调说出“You are both idiots.”。她的视线稳定地注视前方，双手手指交叉紧握于胸前，表现出一种专注且带有情绪色彩的表达状态。该语句内容具有明显的负面评价性，结合其稳定而直接的表达方式，表明她正处于一种因对方行为而产生的负面情绪中。在情绪轮中，这种因冒犯或不公而产生的责备与对抗，最符合“anger”的定义。",
+  "open_emotion": "愤怒",
+  "answer": "anger",
+  "mapping_reason": "根据当前证据，Monica的言语内容“You are both idiots.”是对他人行为的直接负面评价，其语调平稳但坚定，配合专注的视线和紧握的手部姿态，表现出一种对抗和责备的意图。这与“anger”（愤怒）的定义——对冒犯、受阻或不公的恼火、责备与对抗——高度一致。虽然她的面部表情并非极度激动，但言语内容和整体表达方式共同指向了愤怒这一主导情绪。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:02.127",
+      "observation": "Monica以平稳清晰的语调说出“You are both idiots.”。",
+      "interpretation": "该话语内容具有明确的负面评价性，是判断其情绪的关键直接证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00 - frame_07",
+      "observation": "Monica的视线稳定地注视着前方，双手手指交叉紧握于胸前。",
+      "interpretation": "该姿态表现出一种专注且带有情绪色彩的表达状态，为言语内容提供了非语言支持。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱节点person_2描述Monica的语调平稳清晰。",
+      "interpretation": "该描述与音频事实一致，证实了其表达方式的直接和坚定，而非犹豫或悲伤。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "图谱中未提供关于Monica面部表情的细节，因此无法从微表情层面进行更精细的区分。然而，基于其言语内容和整体表达方式，愤怒是当前最合理的解释。"
+}

@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标人物在多个帧中表现出面部肌肉紧绷、眉头紧锁、嘴角向下等特征，这些是愤怒情绪的典型视觉表现。其姿态也显得僵硬，与字幕中强调的“根本”一词的严肃语气相符。虽然在某些帧中可能被解读为担忧，但整体面部动态更符合愤怒的特征。",
+  "answer": "angry",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "目标人物面部肌肉紧绷，眉毛紧锁，嘴角向下，呈现出一种用力或压抑的表情。",
+      "interpretation": "该表情是愤怒情绪的典型视觉表现，与字幕中强调的严肃主题相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.04",
+      "observation": "目标人物的额头和眉间有明显的皱纹，面部肌肉紧绷，显示出一种紧张或用力的状态。",
+      "interpretation": "这种面部紧张状态是愤怒情绪的常见表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_07 @ 2.44",
+      "observation": "目标人物的嘴角向下，眼神坚定，整体表情显得严肃而有压迫感。",
+      "interpretation": "该表情与字幕中“根本”一词的严肃语气相匹配，支持愤怒的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "subtitle",
+      "anchor": "字幕: 诚实，是做生意的根本。",
+      "observation": "字幕内容强调了“根本”一词，语气严肃。",
+      "interpretation": "严肃的字幕内容为人物的严肃表情提供了语境支持，使其更可能表达愤怒而非其他情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "在某些帧中，人物的表情可能被解读为担忧或严肃。然而，与担忧相比，其面部肌肉的紧绷程度和用力感更强，更符合愤怒的特征。"
+}

@@ -1,0 +1,9 @@
+{
+  "reason": "目标人物为空乘人员（画面左侧背侧身站立者），在接待乘客时其言行展现出充分的正面积极情绪。核对实际音轨，其说出“Thank you! Enjoy your flight?”时语调轻快上扬且带有鲜明的笑意共鸣，与[audio_subtitle:E1]和[graph:E1]对听觉特征的观察高度吻合。同时结合[image:E1]指出的视觉表现（如frame 5至frame 6处侧脸嘴角上扬、露齿微笑），音视频线索互为支撑。尽管存在例行公事式职业礼貌（neutral）的可能，但其声音的活力起伏与自然的笑意表达已明显超出平直敷衍的程序化规范，故最终判定为joy。",
+  "answer": "joy",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "graph:E1",
+    "image:E1"
+  ]
+}

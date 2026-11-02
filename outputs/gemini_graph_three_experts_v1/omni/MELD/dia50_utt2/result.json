@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia50_utt2",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "fcd38a66edaf51c357f7f05241b31338cc6543efc841a51ccf79324b15367974",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "音频专家指出语调低沉、颤抖且语速缓慢，结合字幕内容，强烈支持悲伤情绪；图像专家认为动作连贯且表情平静，指向中性；图谱专家则基于仓皇动作与道歉话语推断为惊讶。音频证据直接反映声音情绪特征，比视觉和文本推断更具实时性，且与字幕内容一致，因此优先采纳音频判断。",
+  "output": "音频专家指出语调低沉、颤抖且语速缓慢，结合字幕内容，强烈支持悲伤情绪；图像专家认为动作连贯且表情平静，指向中性；图谱专家则基于仓皇动作与道歉话语推断为惊讶。音频证据直接反映声音情绪特征，比视觉和文本推断更具实时性，且与字幕内容一致，因此优先采纳音频判断。\n<answer>sadness</answer>",
+  "label": "fear",
+  "elapsed_seconds": 31.775458097457886
+}

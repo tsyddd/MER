@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia263_utt9",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "748766277a851f3c168859458c00ae3a054753904e4b2ab4fc17828900a7ca74",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "字幕内容体现无奈与失落，图片中也持续呈现低头、眼神下垂和缺乏笑容，二者在悲伤方向上相互支持。图谱认为表现平稳，但其描述与其他来源可能存在同源信息，且音频专家明确未提供实际音频，因此不足以推翻字幕和图片所示的低落状态。",
+  "output": "字幕内容体现无奈与失落，图片中也持续呈现低头、眼神下垂和缺乏笑容，二者在悲伤方向上相互支持。图谱认为表现平稳，但其描述与其他来源可能存在同源信息，且音频专家明确未提供实际音频，因此不足以推翻字幕和图片所示的低落状态。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 67.76459264755249
+}

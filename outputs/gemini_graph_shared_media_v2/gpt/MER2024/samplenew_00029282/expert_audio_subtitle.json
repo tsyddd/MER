@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物说“没想到，你竟然这么傻。”这句话表面带有责备，但结合其明显含泪、眉头紧蹙和嘴角下压的面部状态，更像因对方处境而难过、心疼，而非单纯愤怒。[E1][E2] 当前没有可用音频，无法判断语调、停顿或音量。",
+  "answer": "sad",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "当前字幕原话：“没想到，你竟然这么傻。”",
+      "observation": "话语包含“没想到”和“这么傻”的责备性评价，但没有直接表达愤怒情绪的词语。",
+      "interpretation": "言语行为更像带着心疼或失望的责备；仅凭“傻”不能把说话者判为angry，也不能把话题内容直接当作本人情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00至frame_05 @ 0.0–1.84秒",
+      "observation": "目标人物眉头持续紧蹙、眼睛湿润发红，嘴唇微张且嘴角下压，面部表情明显痛苦。",
+      "interpretation": "这些可见表现更直接支持难过、受伤或心疼的当前情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_06至frame_07 @ 2.2–2.56秒",
+      "observation": "目标人物视线下移，眉间仍有明显褶皱，嘴部保持下压状态。",
+      "interpretation": "情绪没有转为轻松或惊讶，持续的低落和痛苦使sad比neutral或surprise更合适。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的替代解释是worried：紧蹙眉头和含泪表情也可能表示担忧对方；但画面中持续的低落、湿润眼神和下压嘴角更突出悲伤/心疼，而非单纯警觉或担忧。由于没有音频，无法用语调进一步区分sad与worried。"
+}

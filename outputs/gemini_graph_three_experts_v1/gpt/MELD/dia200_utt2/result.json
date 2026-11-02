@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia200_utt2",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "2223d26305da5c16666ed91ea00f333b6d907f4eba1818669a8c3acca13b8f5f",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "graph与image都依据持续说话、解释性手势及缺少明显强烈表情，指向情绪平稳；audio_subtitle未提供音频，且仅凭“then who did?”从字幕推断疑惑或意外，证据较弱。综合可核验的行为与表情描述，当前情绪更符合中性。",
+  "output": "graph与image都依据持续说话、解释性手势及缺少明显强烈表情，指向情绪平稳；audio_subtitle未提供音频，且仅凭“then who did?”从字幕推断疑惑或意外，证据较弱。综合可核验的行为与表情描述，当前情绪更符合中性。\n<answer>neutral</answer>",
+  "label": "anger",
+  "elapsed_seconds": 68.40916800498962
+}

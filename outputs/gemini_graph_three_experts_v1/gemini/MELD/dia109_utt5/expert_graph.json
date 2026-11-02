@@ -1,0 +1,13 @@
+{
+  "expert": "graph",
+  "reason": "根据图谱记载，Janice在交谈中虽伴随高亢且抑扬顿挫的语调（person_1），并抬起双手配合屈伸手指比划木偶相关的假设性话语（process_1、process_2、person_2），但其行为主要表现为双臂交叉抱胸注视对方的常规沟通姿态（person_0、person_3）。整体没有明显的愤怒、喜悦或恐惧等极端情绪波动，处于中性常态。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "person_2",
+    "person_3",
+    "process_1",
+    "process_2"
+  ]
+}

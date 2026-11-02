@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标人物Joey在所有帧中均保持站立姿态，身体朝向画面左侧，视线向下，未与他人有直接眼神交流。其面部表情无明显变化，未见皱眉、张嘴或微笑等情绪化特征。字幕显示其说出“What?”，音频中语调上扬，符合疑问语气。视觉上无明显情绪线索，但结合字幕与音频，其行为更符合对信息的即时反应而非表达强烈情绪。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "Joey站立，身体朝向左侧，视线向下，未与他人互动。",
+      "interpretation": "缺乏与他人的眼神交流和身体语言，表明其注意力未集中于社交互动，可能处于被动或思考状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "Joey面部表情平静，无明显肌肉运动，如皱眉或嘴角上扬。",
+      "interpretation": "面部无显著情绪表达，不支持愤怒、悲伤或喜悦等情绪判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "What?",
+      "observation": "字幕显示Joey说出“What?”。",
+      "interpretation": "该话语通常用于表达疑问或请求重复，是一种中性语言行为，不直接指示情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "0.0-0.5004996114133452",
+      "observation": "音频中Joey说出“What?”，语调上扬。",
+      "interpretation": "上扬语调符合疑问句特征，但未表现出愤怒、惊讶或恐惧等强烈情绪的音高或强度变化。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "音频中语调上扬可能被解释为惊讶或疑问，但视觉上无相应面部或姿态变化，且字幕内容为中性疑问句，因此惊讶的解释缺乏视觉支持。"
+}

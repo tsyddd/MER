@@ -1,0 +1,117 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "女子对着面前的人说“我可看好你呀”并挥动手中的白色纸张",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "女子接着说“怎么样？收获大大的吧”",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "女子面带笑容，右手拿着白色纸张向上扬起挥动",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "女子放下手，注视前方并保持微笑",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "女子面带笑容看着对方，嘴部开合，语调轻快上扬",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内走廊或店内过道，女子正与面前的人面对面交流",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "女子在对面前的人说完“我可看好你呀”并挥动纸张之后，接着开口询问“怎么样？收获大大的吧”",
+      "entity_anchor": "女子"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "女子右手拿着纸张向上扬起挥动之后，将手放下注视前方并保持微笑",
+      "entity_anchor": "女子"
+    },
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "女子放下手保持微笑后，继续微笑着注视对方并轻快开口说话",
+      "entity_anchor": "女子"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提供女子挥动手中的纸张并说出看好对方的言语，process_1提供女子紧接着追问对方收获的言语，二者联合构成了女子由当面鼓励转向主动询问结果的完整互动交流过程",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供了女子手持白色纸张向上扬起挥动的肢体动作，person_1提供了随后放下手、正视前方的体态变化，二者联合补充了女子手部动作从挥动到收回的连续动态演变过程",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1提供了女子放下手正面注视的静态体态，person_2补充了其开口讲话的面部动作以及轻快上扬的语调，二者联合呈现了女子从倾听注视过渡到开口发问的视听交互状态",
+      "entity_anchor": null
+    }
+  ]
+}

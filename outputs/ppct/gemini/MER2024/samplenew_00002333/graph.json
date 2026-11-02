@@ -1,0 +1,120 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "男子开口说话，说出“向中央交代”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "男子身体斜靠在黑色沙发靠背上，右手搭在腹部前方",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "男子嘴角上扬露齿，眼角微眯，面带笑容",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "男子视线看向前方偏右侧",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "男子说话语调平缓，夹杂带笑的气声与轻微叹气声",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_4",
+      "type": "person",
+      "content": "男子嘴唇随发音开合，面部笑容收敛",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内，男子独自坐在靠墙的黑色皮质沙发上",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_4",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "男子在微笑露齿后，面部笑容逐渐收敛",
+      "entity_anchor": "男子面部表情"
+    },
+    {
+      "source": "person_1",
+      "target": "person_3",
+      "relation": "simultaneous",
+      "reason": "男子在面带笑容露齿的同时，说话夹杂着带笑的气声与轻微叹气声",
+      "entity_anchor": "男子微笑发声表现"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供了身体斜靠沙发、手搭腹部的放松体态，person_1提供了面部露齿微笑的神情，二者联合补充了躯体姿势与面部神态，完整展现出其整体松散的仪态表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_1提供了视觉上面部露齿微笑的表情，person_3提供了听觉上语调平缓且伴随带笑气声的声学特征，视听结合共同构成了说话时带笑的音画完整表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_4",
+      "relation": "person_joint",
+      "reason": "person_1展示了初始阶段露齿微笑的面部特征，person_4展示了说话过程中笑容收敛的动态转变，联合展现了人物面部表情从笑到收拢的时间演变细节。",
+      "entity_anchor": null
+    }
+  ]
+}

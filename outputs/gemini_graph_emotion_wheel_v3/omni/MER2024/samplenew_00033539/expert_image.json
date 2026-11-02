@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物在连续8帧中表现出一致的面部表情，包括睁大眼睛、眉毛上扬、嘴巴微张，这些是典型的惊讶表情。字幕显示“啊？真的。”，与视觉上的惊讶表情完全吻合。音频中也清晰地听到了“啊？真的。”这句话，证实了惊讶的表达。综合视听证据，可以确定其情绪为惊讶。",
+  "open_emotion": "惊讶",
+  "answer": "surprise",
+  "mapping_reason": "根据情绪轮定义，'surprise'指因当前信息违背预期产生的意外、诧异或震惊。目标人物的面部表情（睁大眼睛、上扬的眉毛）和语言内容（“啊？真的。”）都明确指向了对某事的即时意外反应，因此映射到'surprise'是准确的。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "目标人物的眉毛明显上扬，眼睛睁大，嘴巴微张，呈现出一种对突发信息的即时反应。",
+      "interpretation": "这是典型的惊讶表情，表明她对听到的内容感到意外。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "字幕内容",
+      "observation": "字幕显示为“啊？真的。”",
+      "interpretation": "这句话是直接的惊讶和确认，与视觉表情一致，证实了惊讶的情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "音频中可以清晰地听到“啊？真的。”这句话。",
+      "interpretation": "声音语调上扬，带有明显的疑问和意外感，与惊讶情绪相符。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。所有视听证据都一致地指向惊讶情绪，没有与之矛盾的证据。"
+}

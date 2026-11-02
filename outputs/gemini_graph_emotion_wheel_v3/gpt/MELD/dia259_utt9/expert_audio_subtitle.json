@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "字幕中的“You are both idiots.”是对两人的直接评价，字面带有责备，但不能仅凭“idiots”判定她正在生气。[E1] 她说话期间身体前倾、双手相扣，随后露出笑容；这些画面更支持她觉得两人的表现好笑，而非正在对抗。[E2][E3]",
+  "open_emotion": "觉得好笑",
+  "answer": "joy",
+  "mapping_reason": "当前更像带笑意的打趣，属于joy中的愉悦体验；字幕的责备意味使这一判断带有一定限制。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "You are both idiots.",
+      "observation": "目标人物直接称两人为“idiots”。",
+      "interpretation": "这句话可以是责备，也可能是打趣；字面措辞不足以单独确定愤怒。",
+      "polarity": "uncertain"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04（1.2095秒）",
+      "observation": "她双手相扣、身体前倾，嘴角上扬。",
+      "interpretation": "表情与姿态支持带笑意地对两人说话。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_06（1.8352秒）",
+      "observation": "说完后她仍保持双手相扣，面带笑容。",
+      "interpretation": "持续的笑容更支持觉得好笑，而非明显的怒意。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的替代解释是恼火：字幕确实用了贬称。但画面未见明显对抗表情。未提供音频，无法核实语调是否带有讽刺或怒意。"
+}

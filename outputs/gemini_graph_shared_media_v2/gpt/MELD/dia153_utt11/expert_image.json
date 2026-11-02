@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物是穿黑色上衣的Chandler，不是右侧手臂固定的Joey。Chandler持续皱眉、注视Joey，并从叉腰转为连续有力的手势[E1][E2]；这些变化更支持带有不耐烦的愤怒，而非平静表达。字幕谈到枪和害怕时的反应，但那是话语内容，不能据此判定他此刻恐惧[E3]。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒；frame_01 @ 0.7924577180711299秒",
+      "observation": "Chandler面向Joey，眉头收紧，一手叉腰；说话时张口。",
+      "interpretation": "紧绷的面部与姿态支持不耐烦的判断，但单凭皱眉不足以确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 1.6266237370933718秒至frame_05 @ 4.0457051922578735秒",
+      "observation": "Chandler从叉腰转为抬手、向下划动，再横向挥手；眉头仍收紧，目光朝向Joey。",
+      "interpretation": "连续而幅度较大的强调动作，结合面部表现，更支持带怒意的表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Yeah, Joe, I assure you if I'm staring down the barrel of a gun, I'm pretty much peeing every which way.",
+      "observation": "台词以假设情境描述自己面对枪口时的反应。",
+      "interpretation": "台词涉及恐惧，但并非Chandler当下正在害怕的视觉证据。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "他也可能只是认真、夸张地向Joey解释，而非真正生气；尤其frame_06至frame_07转为侧面后，面部细节较难判断。不过此前持续收紧的眉头与接连的强调手势，使anger比neutral更有视觉支持。"
+}

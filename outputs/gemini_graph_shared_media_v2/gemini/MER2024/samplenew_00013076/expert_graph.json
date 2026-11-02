@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "目标人物戴口罩男子在当前互动中主动向对面男子表达感激。结合图谱节点[person_2]的双手合十动作与多帧画面[frame_05]中眼角弯起的笑意，再印证实际音轨[00:00-00:02]中轻快上扬、带有笑音的连声致谢[E2]，构成了由衷欢喜与感谢的情绪表达，判断其情绪为happy。",
+  "answer": "happy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱记录戴口罩男子双手合十立于胸前做出感谢手势，对应frame_05至frame_07中男子向绿衣男子合十微躬身并伴有弯眼笑态",
+      "interpretation": "合十礼节配合眼角笑意属于积极感激的社交情绪体态，为积极喜悦（happy）提供直接行为线索",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00 - 00:02",
+      "observation": "男声语调轻快、尾音上挑，并带有明显的带笑气息连续说出“正要感谢您呢！谢谢！谢谢”",
+      "interpretation": "轻快带笑的语音语调直接体现愉悦与欢欣的积极情绪，排除了冷淡或中性敷衍",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "正要感谢您呢！谢谢！谢，谢谢。",
+      "observation": "台词连用多个感叹号连续表达感激意图",
+      "interpretation": "积极互动中的主动道谢语义强化了人物此时欣喜感激的心理状态",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "可能被误判为常规礼节性交际下的中立（neutral）；但真实音轨中的明显笑音与面部眼周肌肉收紧所呈现的真诚笑态，证实其情绪充沛，超越了单纯客观无情绪的客套。"
+}

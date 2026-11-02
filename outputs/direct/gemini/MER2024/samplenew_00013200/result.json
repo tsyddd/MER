@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013200",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "angry",
+  "emotion_analysis": "画面中正对镜头的男子怒目圆睁、眉头紧锁，神情严厉地瞪着对方。同时他伴随着激烈的指责台词，语调高亢、情绪愤慨，充满质问与不满，明显表现为愤怒情绪。",
+  "output": "画面中正对镜头的男子怒目圆睁、眉头紧锁，神情严厉地瞪着对方。同时他伴随着激烈的指责台词，语调高亢、情绪愤慨，充满质问与不满，明显表现为愤怒情绪。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 7.025964975357056,
+  "node_count": null,
+  "edge_count": null
+}

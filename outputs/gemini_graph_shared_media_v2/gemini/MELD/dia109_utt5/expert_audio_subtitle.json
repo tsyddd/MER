@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Janice在台词中使用反讽与指控性言语行为（“theater of cruelty”）[E1]，并在语音上以强重音、紧绷音质和升降语调刻意咬住“theater of CRUELTY”[E2]，配合最终紧抱双臂、冷眼瞪视的前后肢体语境[E3]，展现出充满敌意与讽刺的愤怒情绪。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Because you know, you could make little puppets out of them, and you could use them in your theater of cruelty.",
+      "observation": "字面上先用反问确认（音频前段“Are you sure? Really?”），随后提出荒谬提议并将其定性为“残忍剧场（theater of cruelty）”。",
+      "interpretation": "这是典型的反讽攻击与道德指责，旨在宣泄不满并刺伤对方，属于愤怒/敌意驱动的言语行为。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:04.5 - 00:06.5",
+      "observation": "在句尾“in your theater of cruelty”处音量明显提升，对“theater”和“CRUELTY”施加了极重的鼻音爆破与咬字重音，语调尖锐下砸。",
+      "interpretation": "重音与刺耳声调表现出浓烈的愤恨与攻击性讽刺，而非平静中立叙述。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_06 @ 6.298s 至 frame_07 @ 7.341s",
+      "observation": "frame_06说话收尾时眉心紧蹙、嘴角紧绷；frame_07话音刚落立刻将双臂紧紧环抱胸前，面无表情地怒视前方男子。",
+      "interpretation": "身体语言呈现强烈的防御与冷战对立姿态，与言语中的愤慨完全契合。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强相反解释为neutral（情景喜剧中的幽默反讽台词）或sadness（分手/受伤带来的委屈）；然而音轨末端对“cruelty”的重音咬字带有明确的攻击性与火药味，且结尾抱臂冷瞪的姿态排除了单纯中立或低唤醒悲伤。"
+}

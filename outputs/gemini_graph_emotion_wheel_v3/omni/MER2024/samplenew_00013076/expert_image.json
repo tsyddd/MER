@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "目标人物在对话中表现出明显的积极情绪。其面部表情在多帧中保持稳定，未见皱眉、咬唇等负面情绪迹象。在对话后半段，其双手合十于胸前，这是一个典型的表达感激或恳求的手势。该手势与字幕中的“谢谢”内容高度一致，且其身体姿态保持开放，未见防御或对抗性。综合来看，其情绪状态是积极的，主要表现为感激。",
+  "open_emotion": "感激",
+  "answer": "happy",
+  "mapping_reason": "根据情绪轮定义，'happy'（喜悦）包含因好事发生而产生的愉悦、满足或兴奋。目标人物正在表达感谢，这是一种积极的社交互动，其面部表情和手势均支持其处于一种满足和愉悦的状态，因此映射为'happy'是合适的。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 to frame_07",
+      "observation": "目标人物全程佩戴口罩，但其眼部肌肉有明显活动，眼周出现皱纹，符合微笑时的特征。",
+      "interpretation": "眼部肌肉的活动表明其正在微笑，这是积极情绪的常见视觉表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05 to frame_07",
+      "observation": "目标人物在对话后半段将双手合十于胸前。",
+      "interpretation": "这是一个明确的、表达感激或恳求的手势，直接支持其正在感谢对方的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "字幕内容",
+      "observation": "字幕显示目标人物说：'正要感谢您呢！谢谢！谢，谢谢。'",
+      "interpretation": "字幕内容直接证实了目标人物正在表达感谢，这是判断其情绪的核心依据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_00 to frame_07",
+      "observation": "目标人物的头部和身体姿态始终朝向对话者，保持开放的交流姿态。",
+      "interpretation": "开放的姿态表明其处于一种积极、愿意沟通的状态，没有防御或抗拒的迹象。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "目标人物佩戴口罩，遮挡了部分面部表情，因此无法完全确认其情绪的强度和细微差别。然而，其眼部表情和手势提供了足够强的视觉证据来支持其积极的情绪状态。"
+}

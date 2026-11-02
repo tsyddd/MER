@@ -1,0 +1,13 @@
+{
+  "reason": "目标人物在说“他是谁呀？”时，其面部表情（眉头紧锁、嘴唇紧闭）和声音（颤抖、语调上扬）均表现出紧张和不安。音频和字幕证实了其提问行为，而视觉证据显示其表情是焦虑和担忧的典型特征。尽管有专家认为是“surprise”，但其面部表情更符合“worried”的特征，且音频中的颤抖进一步支持了担忧而非单纯的惊讶。因此，综合视听证据，最合理的判断是担忧。",
+  "answer": "worried",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "image:E3",
+    "image:E4",
+    "audio_subtitle:E1",
+    "audio_subtitle:E2",
+    "audio_subtitle:E3"
+  ]
+}

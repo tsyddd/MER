@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035777",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "angry",
+  "emotion_analysis": "该人物在说台词时，面部肌肉紧绷，眉毛紧锁，嘴角向下，表情严肃且用力，显示出一种强烈的、带有压迫感的情绪。这种表达方式与字幕内容“诚实是做生意的根本”相结合，表明他正在以一种非常坚定甚至带有愤怒的语气强调观点，而非中性陈述。",
+  "output": "该人物在说台词时，面部肌肉紧绷，眉毛紧锁，嘴角向下，表情严肃且用力，显示出一种强烈的、带有压迫感的情绪。这种表达方式与字幕内容“诚实是做生意的根本”相结合，表明他正在以一种非常坚定甚至带有愤怒的语气强调观点，而非中性陈述。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 8.344785690307617,
+  "node_count": null,
+  "edge_count": null
+}

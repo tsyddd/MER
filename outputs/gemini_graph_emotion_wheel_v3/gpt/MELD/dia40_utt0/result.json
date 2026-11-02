@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia40_utt0",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "254c3294b62a3335eb4728ae3603d205e9201e73ba279aea4479f5c9c586672e",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "欣喜",
+      "mapped_label": "joy",
+      "mapping_reason": "当前笑容扩大、露齿，并伴随肯定式回应，支持愉快的正向体验，映射为joy。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "愉悦",
+      "mapped_label": "joy",
+      "mapping_reason": "当前的积极应和与持续笑容符合joy所指的愉悦体验。"
+    },
+    "image": {
+      "open_emotion": "开心",
+      "mapped_label": "joy",
+      "mapping_reason": "当前可见的持续、扩大的笑容与面向交谈对象的神态支持正向愉悦体验，因此将“开心”映射为joy。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "独立核对frame_00至frame_07，Monica先低头浅笑，随后转向左侧女子，笑容扩大并露齿；[image:E2]对后段变化的描述可信。字幕“Yeah baby!”是积极回应[audio_subtitle:E1]，与表情相符，但单凭短句不能确定语气。早期浅笑也可能只是礼貌表现；不过持续扩大的笑容更支持她当前感到愉悦。没有提供音轨，[graph:E4]转述的轻快语调无法核验，不作为取舍依据。",
+  "output": "独立核对frame_00至frame_07，Monica先低头浅笑，随后转向左侧女子，笑容扩大并露齿；[image:E2]对后段变化的描述可信。字幕“Yeah baby!”是积极回应[audio_subtitle:E1]，与表情相符，但单凭短句不能确定语气。早期浅笑也可能只是礼貌表现；不过持续扩大的笑容更支持她当前感到愉悦。没有提供音轨，[graph:E4]转述的轻快语调无法核验，不作为取舍依据。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 65.62830638885498
+}

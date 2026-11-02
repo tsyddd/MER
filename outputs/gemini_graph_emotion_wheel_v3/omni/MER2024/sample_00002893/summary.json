@@ -1,0 +1,15 @@
+{
+  "reason": "三位专家均一致认为目标人物的情绪是'担忧'。专家graph指出其声音发紧、语速急促，并结合双眉微蹙的视觉表现，共同指向焦虑。专家audio_subtitle认为其语调平稳，但内容涉及朋友被诽谤且事态扩大，表明其关切。专家image强调其全程眉头紧锁、眼神忧虑的视觉表现，与谈话内容高度一致。尽管专家audio_subtitle提到语调平稳，但面部表情是更直接的情绪线索，且所有证据都指向对负面事件升级的不安，因此最终判断为'worried'。",
+  "answer": "worried",
+  "evidence_refs": [
+    "graph:E1",
+    "graph:E2",
+    "graph:E3",
+    "audio_subtitle:E1",
+    "audio_subtitle:E2",
+    "audio_subtitle:E3",
+    "image:E1",
+    "image:E2",
+    "image:E3"
+  ]
+}

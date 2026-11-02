@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00029282",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "e81a763258684129b06d506421613b3dbd812a365d2377fedae6ad08cf75907c",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "心痛",
+      "mapped_label": "sad",
+      "mapping_reason": "根据情绪轮定义，'sad'（悲伤）指当前失落、伤心、哀痛或低落的情绪。目标人物的哭泣表情和哽咽声是悲伤的直接生理表现，其话语内容表达了对他人行为的失望与痛苦，这与悲伤情绪的语义边界一致。因此，'心痛'这一开放情绪词被映射为'sad'。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据情绪轮定义，'surprise'（惊讶）是因当前信息违背预期而产生的意外、诧异或震惊。目标人物的台词'没想到，你竟然这么傻'直接表达了对对方行为的意外，这是'惊讶'的典型言语行为。虽然其面部表情带有悲伤的成分，但言语内容和语调的焦点在于'没想到'和'竟然'，这表明情绪的触发点是信息的意外性，而非对损失的悲伤或对冒犯的愤怒。因此，该表达应映射为'surprise'。"
+    },
+    "image": {
+      "open_emotion": "悲伤",
+      "mapped_label": "sad",
+      "mapping_reason": "根据情绪轮定义，'sad'（悲伤）指当前失落、伤心、哀痛或低落的情绪，需要损失评价或相应表达支持。目标人物的哭泣、湿润的眼眶和悲伤的表情是明确的视觉证据，与台词中表达的失望和无奈相符，因此映射到'sad'是准确的。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "目标人物在连续8帧中均表现出哭泣状态，包括眼眶湿润、泪珠滑落、面部肌肉紧绷和嘴唇颤抖等视觉特征，这些是悲伤情绪的直接生理表现。同时，其声音带有明显的哽咽和颤抖，与哭泣的面部表情一致。虽然字幕内容“没想到，你竟然这么傻”带有惊讶的成分，但其表达方式是哭泣，而非愤怒或惊讶。综合视听证据，主导情绪是悲伤。",
+  "output": "目标人物在连续8帧中均表现出哭泣状态，包括眼眶湿润、泪珠滑落、面部肌肉紧绷和嘴唇颤抖等视觉特征，这些是悲伤情绪的直接生理表现。同时，其声音带有明显的哽咽和颤抖，与哭泣的面部表情一致。虽然字幕内容“没想到，你竟然这么傻”带有惊讶的成分，但其表达方式是哭泣，而非愤怒或惊讶。综合视听证据，主导情绪是悲伤。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 210.5948486328125
+}

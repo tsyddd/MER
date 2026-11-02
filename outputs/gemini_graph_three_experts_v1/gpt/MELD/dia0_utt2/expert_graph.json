@@ -1,0 +1,9 @@
+{
+  "expert": "graph",
+  "reason": "瑞秋略微低头坐在餐桌旁〔person_0〕，图谱记载她以平缓低沉的语调说话〔person_2〕。这些表现显示她当前情绪较为平静内敛，尚不足以支持愤怒、悲伤或其他更强烈情绪判断。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_0",
+    "person_2"
+  ]
+}

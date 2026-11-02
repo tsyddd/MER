@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00021849",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "当前目标人物是车外男子，位于车窗旁俯身靠近车内女子，右手搭在车门窗沿上（person_0、context_0）。字幕记录他对女子说“你先上我的车，先回去”（process_0），表情较严肃但未见明确愤怒、悲伤、惊讶或喜悦，整体更符合中性。",
+  "output": "当前目标人物是车外男子，位于车窗旁俯身靠近车内女子，右手搭在车门窗沿上（person_0、context_0）。字幕记录他对女子说“你先上我的车，先回去”（process_0），表情较严肃但未见明确愤怒、悲伤、惊讶或喜悦，整体更符合中性。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 30.408997058868408,
+  "node_count": 4,
+  "edge_count": 0
+}

@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Monica's statement is a direct and strong moral condemnation of cheating. Her tone is firm, high-pitched, and fast-paced, conveying a sense of disbelief and strong disapproval. The words 'never gonna think it's okay' and 'cheat on your husband' are delivered with emphasis, indicating anger rather than sadness or surprise.",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "当前字幕",
+      "observation": "字幕内容为 'Rachel! I'm never gonna think it's okay for you to cheat on your husband!'",
+      "interpretation": "该话语表达了对某行为的绝对否定和道德谴责，是愤怒情绪的典型语言行为。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:03.587",
+      "observation": "说话者音调高，语速快，语气坚决，尤其在 'never' 和 'cheat' 上有明显的强调。",
+      "interpretation": "这种高能量、高强调的语调是愤怒情绪的直接声音表现。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的相反解释是 'disgust'（厌恶）。虽然该情绪也可能源于道德谴责，但说话者语气中的能量和强度更符合 'anger' 的特征，而非 'disgust' 通常伴随的轻蔑或反感。"
+}

@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速和停顿。仅从字幕“他不好对付啊”所表达的顾虑与警惕来看，当前情绪更接近担忧。",
+  "answer": "worried",
+  "evidence_refs": []
+}

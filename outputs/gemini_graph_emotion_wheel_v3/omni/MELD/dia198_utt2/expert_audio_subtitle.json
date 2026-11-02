@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Joey的言语内容是描述一个团队被击败的事实，并用夸张的比喻（'You could be on the Olympic standing-there team'）来表达惊讶和难以置信。他的语调上扬，节奏较快，带有明显的惊讶和一丝幽默感，表明他被眼前的情况所震惊。视觉上，他的表情也与这种惊讶相符。",
+  "open_emotion": "惊讶",
+  "answer": "surprise",
+  "mapping_reason": "Joey的言语内容和语调都表现出对某事的意外和难以置信，这与'surprise'的定义相符。他的语气并非愤怒、悲伤或厌恶，而是充满了惊奇，因此映射到'surprise'是合适的。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:04",
+      "observation": "Joey说'No-no, she kicked our butts. You could be on the Olympic standing-there team.'",
+      "interpretation": "Joey在描述一个团队被击败的事实，并用夸张的比喻来表达惊讶和难以置信。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:04",
+      "observation": "Joey的语调上扬，节奏较快，带有明显的惊讶和一丝幽默感。",
+      "interpretation": "Joey的语调变化表明他被眼前的情况所震惊。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00-frame_07",
+      "observation": "Joey的表情显示出惊讶，眉毛上扬，眼睛睁大。",
+      "interpretation": "Joey的面部表情与他言语内容和语调所表达的惊讶情绪一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无"
+}

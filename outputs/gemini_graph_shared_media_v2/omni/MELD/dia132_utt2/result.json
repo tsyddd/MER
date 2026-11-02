@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia132_utt2",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "f084672e7cf9dd79896fb1df6be44f63d0e81e8653bd27ac9cb35d8247ef8c65",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "Phoebe的言语内容（'very attractive'）和音频中的上扬语调（[audio_subtitle:E1]）强烈指向积极情绪。尽管她的面部表情在视觉上保持中性（[image:E1]），但音频证据的可信度更高，因为它直接捕捉了她的语气。专家的图谱证据（[graph:E1]）也支持joy，因为它将她的积极评价作为关键事件。综合来看，音频和言语内容的证据比视觉上的中性表情更具说服力，因此选择joy。",
+  "output": "Phoebe的言语内容（'very attractive'）和音频中的上扬语调（[audio_subtitle:E1]）强烈指向积极情绪。尽管她的面部表情在视觉上保持中性（[image:E1]），但音频证据的可信度更高，因为它直接捕捉了她的语气。专家的图谱证据（[graph:E1]）也支持joy，因为它将她的积极评价作为关键事件。综合来看，音频和言语内容的证据比视觉上的中性表情更具说服力，因此选择joy。\n<answer>joy</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 142.25997924804688
+}

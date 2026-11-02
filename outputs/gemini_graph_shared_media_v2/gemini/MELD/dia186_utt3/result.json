@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia186_utt3",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "66500757c83860e7bc8c787d8e2b59268fb274c5b6c0b4d08dfd117efb6c20d2",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物Joey身体深陷在扶手椅中，姿态极其松散舒展，虽然[image:E1]将其闭目和嘴角状态解释为内疚与遗憾（sadness），但实际回看全帧并结合音轨可知，这仅是其懒散放松的常态。在音频中Joey说话语气平淡低沉、语调顺畅自然，完全没有悲伤所需的哽咽、抽泣或沉重压抑感，正如[audio_subtitle:E2]所指出的，其韵律平缓且缺乏情绪唤醒。台词中的道歉仅为日常推脱约会的口头说辞，并不包含真实的悲伤情绪体验，整体表现应定为中性（neutral）。",
+  "output": "目标人物Joey身体深陷在扶手椅中，姿态极其松散舒展，虽然[image:E1]将其闭目和嘴角状态解释为内疚与遗憾（sadness），但实际回看全帧并结合音轨可知，这仅是其懒散放松的常态。在音频中Joey说话语气平淡低沉、语调顺畅自然，完全没有悲伤所需的哽咽、抽泣或沉重压抑感，正如[audio_subtitle:E2]所指出的，其韵律平缓且缺乏情绪唤醒。台词中的道歉仅为日常推脱约会的口头说辞，并不包含真实的悲伤情绪体验，整体表现应定为中性（neutral）。\n<answer>neutral</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 65.05965662002563
+}

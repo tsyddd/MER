@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "Monica当前抱着婴儿与Phoebe交谈，随后微笑着转头，并说“it’s going great”[E1][E2]。图谱process_1将这段话归于Monica的当前互动[E3]，但不能据此推断画面中已出现Chandler。她的微笑与图谱中的同一神态描述只算一项视觉事实；结合她主动分享进展顺利的评价，比单纯礼貌微笑更支持当前的愉悦。",
+  "open_emotion": "愉悦",
+  "answer": "joy",
+  "mapping_reason": "她对当前进展作出正向评价，表情也与之相符，符合joy所指的愉悦体验。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_04（3.294955775137856秒）至frame_07（5.797453832204582秒）",
+      "observation": "Monica抱着婴儿，转头时持续微笑，也低头微笑看婴儿。",
+      "interpretation": "支持她在当前互动中有正向感受；仅凭微笑尚不能确定具体情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "“Pheebs, it’s going great. Look at Chandler with little baby girl Chandler.”",
+      "observation": "当前字幕中，Monica向Phoebe说进展顺利，并邀她看Chandler。",
+      "interpretation": "“it’s going great”是她对当前情形的正向评价，使微笑不只是孤立的表情线索。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "节点将上述话语组织为Monica抱着婴儿、面向前方对Phoebe说的话。",
+      "interpretation": "帮助区分Monica本人当前的表达与她提到的Chandler；话语内容有字幕支持，但节点顺序不证明更多因果。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "“Nope, sound like me”单独看也可能是平常的纠正，微笑也可能出于礼貌；后续正向评价使愉悦更有依据。未提供原音轨，无法亲耳核验图谱person_1、person_4所述语调；它们是有来源但未核实的图谱转述，不作为本次取舍的主要依据。画面也未直接显示Monica所说的Chandler。"
+}

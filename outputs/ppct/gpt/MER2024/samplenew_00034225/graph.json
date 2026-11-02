@@ -1,0 +1,91 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "主要人物对前景中的人说：“怎么？他不好对付啊。”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "主要人物对前景中的人说：“我，我是不是给你添麻烦了？”",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "主要人物的视线朝向前景中的人，头部也朝向对方",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "主要人物说话时嘴部张开",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "画面位于木质室内，前景有一名部分可见的人物，主要人物正与其交流",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "同一主要人物面向同一前景人物的连续发言，后一句发生在前一句之后",
+      "entity_anchor": "主要人物与前景人物之间的交流"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "simultaneous",
+      "reason": "同一主要人物在与前景人物交流时，同时保持视线和头部朝向对方并张嘴说话",
+      "entity_anchor": "主要人物"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提供主要人物询问对方“他”是否难以应付，process_1补充其随后询问自己是否给对方添了麻烦；联合后形成连续的询问与自我确认互动过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供主要人物的视线和头部朝向前景人物，person_1提供其说话时嘴部张开；联合后更完整地表明主要人物正面向对方进行可观察的言语交流。",
+      "entity_anchor": null
+    }
+  ]
+}

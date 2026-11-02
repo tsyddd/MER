@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者在抱怨某人送的礼物，认为送鱼还不如直接送一条鱼，因为她害怕鱼。她的语气带有明显的不满和厌恶，这与字幕中的'freaked me out'（让我害怕）和'you might as well just gotten him a fish'（你还不如直接送他一条鱼）所表达的负面情绪一致。她的语调在'fish'和'freaked me out'处有强调，表现出一种被冒犯的感觉。",
+  "answer": "disgust",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Honey, if you wanted to do that, you might as well just gotten him a fish, you know how fish freaked me out!",
+      "observation": "字幕内容为'you know how fish freaked me out!'，表明说话者对鱼有强烈的负面感受。",
+      "interpretation": "这句话直接表达了说话者对鱼的恐惧和厌恶，是判断其情绪为'厌恶'的关键证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:04.379",
+      "observation": "说话者的语调在'fish'和'freaked me out'处有明显的强调和上扬，表现出一种被冒犯和厌恶的情绪。",
+      "interpretation": "这种强调的语调与字幕内容相符，进一步证实了说话者对鱼的厌恶情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 - frame_07",
+      "observation": "说话者的面部表情紧绷，眉头微皱，嘴巴微张，似乎在表达一种不满和厌恶。",
+      "interpretation": "这种面部表情与她所说的内容和语气相符，支持了'厌恶'的情绪判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有明确的相反解释。虽然说话者的语气中可能带有一丝无奈，但主要情绪是厌恶。"
+}

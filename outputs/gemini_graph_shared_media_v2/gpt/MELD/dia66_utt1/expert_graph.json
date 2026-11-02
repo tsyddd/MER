@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "当前互动中，目标人物是左侧空乘，而非右侧明显微笑的乘客[E3]。空乘面向对方说话，末段仍保持注视，表情有轻微笑意，但整体更接近平稳、礼貌的交流状态[E1]。字幕中的致谢与祝愿说明这是当前的礼貌话语，不足以单独证明喜悦[E2]。图谱对语调的描述来自未提供的音轨，只能保留为未核实的转述[E4]；据可核实的当前画面，选择neutral。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_06 @ 1.8351652418489324秒",
+      "observation": "左侧空乘侧脸朝向右侧女子，嘴角略有上扬，表情较平稳。",
+      "interpretation": "支持礼貌、平稳的当前表达；轻微笑意不足以确定为joy。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Thank you!  Enjoy your flight?",
+      "observation": "当前字幕是致谢及祝愿的话语。",
+      "interpretation": "为互动提供礼貌服务的语义背景，但话语本身不能证明强烈情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱将明显的嘴角上扬归于右侧女子。",
+      "interpretation": "区分乘客与目标空乘，避免把他人的笑容当作空乘喜悦的证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱转述空乘语调上扬、语速平稳、声音清晰；本次未提供原音轨。",
+      "interpretation": "该音频派生描述不能亲耳核验，也不应直接否定，因此不以语调作为最终判断的依据。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "空乘末段轻微上扬的嘴角也可解释为愉快；但画面呈现的是幅度较小、持续平稳的礼貌表情，且右侧乘客的明显笑容不能移用于她，因此未选joy。"
+}

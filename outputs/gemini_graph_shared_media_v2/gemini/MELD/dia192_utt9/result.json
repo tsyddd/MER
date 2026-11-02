@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia192_utt9",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "253cfc3d29025f100a084a4a4129a2710aa0f001fea7ff86d0942be80fadcdf5",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "独立核听音频可知，Monica以极高音调且极具冲劲的尖锐质问声大喊'Excuse me!'[audio_subtitle:E1]，音轨中重音强烈上扬，表达出强烈的被冒犯感与反击不满。画面中[image:E1]所称的'微笑'实属对夸张张嘴质问神态的误读，Monica自后方疾步向前逼近对峙[graph:E1]，肢体展现出高度的主动对抗性与攻击态势。综合语音韵律的尖锐斥责与视觉上的侵略性介入，该情绪属于被激怒后的抗议反击，而非单纯意外或喜悦，故判定为anger。",
+  "output": "独立核听音频可知，Monica以极高音调且极具冲劲的尖锐质问声大喊'Excuse me!'[audio_subtitle:E1]，音轨中重音强烈上扬，表达出强烈的被冒犯感与反击不满。画面中[image:E1]所称的'微笑'实属对夸张张嘴质问神态的误读，Monica自后方疾步向前逼近对峙[graph:E1]，肢体展现出高度的主动对抗性与攻击态势。综合语音韵律的尖锐斥责与视觉上的侵略性介入，该情绪属于被激怒后的抗议反击，而非单纯意外或喜悦，故判定为anger。\n<answer>anger</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 81.87589359283447
+}

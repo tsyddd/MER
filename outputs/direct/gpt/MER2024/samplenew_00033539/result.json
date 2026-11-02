@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00033539",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "人物眉头抬起、眼睛睁大并张口，呈现出明显的意外和确认反应。字幕“啊？真的。”也直接表达了惊讶，而非愤怒或悲伤。",
+  "output": "人物眉头抬起、眼睛睁大并张口，呈现出明显的意外和确认反应。字幕“啊？真的。”也直接表达了惊讶，而非愤怒或悲伤。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 21.364891290664673,
+  "node_count": null,
+  "edge_count": null
+}

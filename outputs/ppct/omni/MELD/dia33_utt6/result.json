@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia33_utt6",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "fear",
+  "emotion_analysis": "The audio reveals Rachel's voice is high-pitched and strained as she says, 'Oh come on, what am I gonna do, it's been hours and it won't stop crying.' Her facial expression shows wide eyes and an open mouth, indicating distress. The combination of her desperate words and anxious expression points to a state of panic.",
+  "output": "The audio reveals Rachel's voice is high-pitched and strained as she says, 'Oh come on, what am I gonna do, it's been hours and it won't stop crying.' Her facial expression shows wide eyes and an open mouth, indicating distress. The combination of her desperate words and anxious expression points to a state of panic.\n<answer>fear</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 204.773743391037,
+  "node_count": 18,
+  "edge_count": 12
+}

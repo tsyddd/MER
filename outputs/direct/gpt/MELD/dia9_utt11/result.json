@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia9_utt11",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "sadness",
+  "emotion_analysis": "Rachel皱眉、眼神低垂并显得沮丧，手里拿着蓝色毛衣。字幕说“Everything’s ruined”并强调床、衣服和最喜欢的毛衣都被毁了，表达的是失落和难过，而非愤怒或惊讶。",
+  "output": "Rachel皱眉、眼神低垂并显得沮丧，手里拿着蓝色毛衣。字幕说“Everything’s ruined”并强调床、衣服和最喜欢的毛衣都被毁了，表达的是失落和难过，而非愤怒或惊讶。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 23.11008095741272,
+  "node_count": null,
+  "edge_count": null
+}

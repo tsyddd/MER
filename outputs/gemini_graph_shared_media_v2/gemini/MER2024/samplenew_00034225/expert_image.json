@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物在镜头中双眼圆睁、身体向对方前倾，面部紧绷且嘴部持续微张或开合，神态专注而忐忑[E1]；随后眼神显露不安与试探[E2]，结合其询问对方是否难对付并担忧自己惹祸的语调[E3]，体现出明显的忧虑与紧张，而非单纯中立或意外震惊。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_03 @ 0.88",
+      "observation": "目标人物眼睛睁大，视线紧紧聚焦在对面人物身上，嘴巴张开，头部微微前探，面部肌肉收紧。",
+      "interpretation": "显露关切、紧张与探询的态势，表现出对对话局面的高度关注与心理压力。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_07 @ 2.08",
+      "observation": "嘴唇微微收拢噘起，眉头微敛，眼神向上斜视对方，神情小心翼翼。",
+      "interpretation": "显现出不安与唯恐犯错的忐忑心理，支撑担忧情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00 - 00:02",
+      "observation": "话音压低且语速急促，带试探性疑问语气。",
+      "interpretation": "声音与视觉紧张神态高度吻合，进一步排除轻松或中立情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "睁大双眼与张口的视觉特征在静态瞬时易被误判为surprise，但其缺乏突发后仰或眉峰剧烈上扬的惊愕动态，且神态持续紧绷向前倾探并追问后果，更符合持续的紧张忧虑。"
+}

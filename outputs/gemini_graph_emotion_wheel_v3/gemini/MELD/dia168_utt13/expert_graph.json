@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "当前互动事件链中，Ross作为主导者正面对前方女子发起直接指控。图谱节点[process_0]（\"We know you took it\"）与[process_2]（\"and confess!\"）构成了从认定对方过错到严厉逼迫认罪的责备对抗链条。通过实际音轨与画面核对，Ross在说出这些语句时语速紧促、重音落在\"confess\"上，伴随身体前倾与连续施压的手势（对应[person_0]与[person_2]），明显表现出因怀疑被窃而产生的恼火、质问与强硬对抗，而非平稳交涉。",
+  "open_emotion": "愤慨指控",
+  "answer": "anger",
+  "mapping_reason": "Ross的主导情绪是针对对方行为的直接责难、指控与强硬对抗，符合情绪轮中anger（对冒犯/受阻的恼火、责备与对抗）的定义，因此映射为anger。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "We know you took so just-just save yourself the time and confess!",
+      "observation": "Ross用笃定的言辞断定对方偷了东西，并直接命令对方招供坦白",
+      "interpretation": "言语语义体现了直接的指责与对抗性逼问，构成愤怒指控的事件基础",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:01-00:03",
+      "observation": "Ross语速快而紧凑，在说\"confess!\"时音调明显拔高且语气强硬严厉",
+      "interpretation": "强硬高昂的质问语气直接体现了情绪上的责备与愠怒施压",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_2",
+      "observation": "图谱记录Ross由指控事实推进到发出\"and confess!\"的强制性要求",
+      "interpretation": "证实了该言语事件不是中性询问，而是步步紧逼的施压交锋过程",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "如果仅从其试图劝说对方\"save yourself the time\"的字面表述看，可能会被误认为是理智务实的谈判建议（neutral），但音轨中紧绷激昂的语调以及画面的指向性身体动作排除了平静客观的可能。"
+}

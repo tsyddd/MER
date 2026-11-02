@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00014357",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "happy",
+  "emotion_analysis": "在交互过程中，男孩始终面带明显的笑容、身体前倾注视对方（person_0、person_3），结合听觉上语调轻快上扬且语速较快的声音线索（person_1），展现出极为愉悦、热情的交流姿态。其热情称赞并主动询问示好的话语过程（process_0、process_1）进一步印证了其轻快欢快的情绪状态。",
+  "output": "在交互过程中，男孩始终面带明显的笑容、身体前倾注视对方（person_0、person_3），结合听觉上语调轻快上扬且语速较快的声音线索（person_1），展现出极为愉悦、热情的交流姿态。其热情称赞并主动询问示好的话语过程（process_0、process_1）进一步印证了其轻快欢快的情绪状态。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 67.32309126853943,
+  "node_count": 8,
+  "edge_count": 7
+}

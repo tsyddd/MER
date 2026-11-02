@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00002038",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "5df67b783a7d621f4c168fbbed45377607d79f7076828cb28063569a3c555671",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "独立回看8帧画面，目标人物全程双眉紧缩聚拢，额部隆起明显皱纹，眼神紧盯画外并流露出警惕与不安，如[image:E1]所述表现出高度紧绷的神态。实际音频（0.0s-0.8s）与字幕“他，是谁呀？”一致，人物以微弱发虚的气声低沉发问，如[audio_subtitle:E1]所述带有明显的疑虑与戒备。该状态虽包含悲伤色彩，但其视线紧扣对方并伴随警觉试探的主动发问，缺乏纯粹悲伤的嘴角下撇与哭腔萎靡，更非惊讶的眼裂扩大与突发升调，视觉与声学线索均稳固支持担忧不安（worried）。",
+  "output": "独立回看8帧画面，目标人物全程双眉紧缩聚拢，额部隆起明显皱纹，眼神紧盯画外并流露出警惕与不安，如[image:E1]所述表现出高度紧绷的神态。实际音频（0.0s-0.8s）与字幕“他，是谁呀？”一致，人物以微弱发虚的气声低沉发问，如[audio_subtitle:E1]所述带有明显的疑虑与戒备。该状态虽包含悲伤色彩，但其视线紧扣对方并伴随警觉试探的主动发问，缺乏纯粹悲伤的嘴角下撇与哭腔萎靡，更非惊讶的眼裂扩大与突发升调，视觉与声学线索均稳固支持担忧不安（worried）。\n<answer>worried</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 61.89130210876465
+}

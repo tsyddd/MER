@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013076",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "e796dd3141342719140120ba7aa857e918a2cb64ad25a93033187111d322a6bb",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "happy",
+  "emotion_analysis": "三位专家提供的线索高度吻合。目标人物在视觉上眉眼弯弯、目光含笑并双手合十真诚道谢，听觉上语调轻快且伴随明显的笑意与热情。各模态证据充分展现出其真诚感谢时的愉悦与开心情绪，一致判定为happy。",
+  "output": "三位专家提供的线索高度吻合。目标人物在视觉上眉眼弯弯、目光含笑并双手合十真诚道谢，听觉上语调轻快且伴随明显的笑意与热情。各模态证据充分展现出其真诚感谢时的愉悦与开心情绪，一致判定为happy。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 30.553438186645508
+}

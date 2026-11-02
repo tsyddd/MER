@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物是抱着婴儿的黑发女性Monica，不是frame_02至frame_03中的金发女性。Monica起初抿嘴、抬眉，随后面向旁人露出笑容，最后低头看婴儿时仍在微笑[E1][E2]。字幕中的“it’s going great”与这一正向表现相符[E3]，但不能代替视觉证据。",
+  "open_emotion": "开心",
+  "answer": "joy",
+  "mapping_reason": "当前持续的微笑与字幕中的正向评价共同支持愉悦体验，符合joy；不能仅凭她抱着婴儿推断情绪。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_01（0.834秒）",
+      "observation": "Monica抱着婴儿，先抬眉、抿嘴看向一侧，随后嘴角上扬。",
+      "interpretation": "表情从较克制转向可见的笑意，支持正向情绪，但起初的表情本身有歧义。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04（3.295秒）至frame_07（5.797秒）",
+      "observation": "Monica持续微笑，先转头看向旁边，后低头看怀中的婴儿，同时稳稳托抱婴儿。",
+      "interpretation": "跨数帧保持的笑容比单帧表情更有力地支持她当前感到开心。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“Pheebs, it’s going great.”",
+      "observation": "字幕给出正向评价“it’s going great”。",
+      "interpretation": "与Monica后续的笑容一致；这只是字幕内容，不能据此声称听到了语气。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "frame_00的抿嘴、抬眉也可能是打趣或略显拘谨，不能单凭该帧判定开心；没有音频可核查语调。"
+}

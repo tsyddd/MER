@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "在当前互动事件中，Ross开场垂头且双眼下垂[E1][E2]，随后抬头陈述被迫做出的艰难决定[E3]；结合音轨核查，其语调极其低沉落寞并伴有无力感[E4]，与图谱中仅描述为‘平和’相比更具情绪色彩，充分体现失去或放弃依恋对象时的压抑悲伤。",
+  "answer": "sadness",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "图谱记录Ross初始低头，双眼向下看",
+      "interpretation": "低头下视的身体姿态通常体现情绪低落与无助，奠定了事件开始时的压抑基调",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0s",
+      "observation": "Ross坐在位置上双眼紧闭向下微垂，双肩微缩，面颊肌肉松弛下沉",
+      "interpretation": "同源印证person_0，反映出他在开口前内心的沉重与消沉表现",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "I'm gonna have to give him up.",
+      "observation": "Ross说出被迫放弃对象的决定话语",
+      "interpretation": "语义表达被迫割舍的无可奈何，直接关联失去依恋带来的悲伤事件情境",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "00:00 - 00:01",
+      "observation": "Ross音调极低，语速缓慢且伴有轻微叹息与沉重感",
+      "interpretation": "修正图谱person_2关于‘平和’的简略转述，听觉特征明确支持低落消沉的抑郁悲伤而非客观中立",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "替代假设为neutral（认为其仅仅在平静地向朋友陈述既定事实）；但Ross低垂的视线[E1]以及音频中叹息般的沉重无力语调[E4]带有明确的情感压抑特征，超出了客观无情绪的陈述范围，故排除neutral。"
+}

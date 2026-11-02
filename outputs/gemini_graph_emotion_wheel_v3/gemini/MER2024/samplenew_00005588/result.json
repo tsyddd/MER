@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00005588",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "3c05565a2f5988a34215ae155e7337af3fdfc1912e5b57502601b56c3ef3ae72",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "平稳",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据情绪轮规范，男子当前处于自然平稳的言语交流与陈述状态，既无负面攻击性（非angry），也未表现出对损失的沉痛与低落（非sad），其平缓温和的表现符合neutral家族中平稳、平常叙述的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "宽慰平和",
+      "mapped_label": "neutral",
+      "mapping_reason": "目标人物当前的言语意图是宽恕前事、安抚对方，声调与神情均保持沉稳克制，没有明显的愤怒、恐惧、大悲或大喜，符合neutral中‘平稳叙述、自然交流、无强烈偏向情绪反应’的定义。"
+    },
+    "image": {
+      "open_emotion": "平静",
+      "mapped_label": "neutral",
+      "mapping_reason": "目标人物的表情与体态整体平稳从容，语气沉缓，属于平稳叙述与自然交流，符合情绪轮中neutral的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物在00:00-00:02以低沉沉稳且平缓的语调说出“过去的事，不怪你”，声线无颤抖、哽咽或起伏斥责[audio_subtitle:E1]。从frame_00到frame_07的画面核实，其眉目舒展自然，目光端正注视对方，面部肌肉平和克制，未见悲戚或恼怒动作[image:E1]。台词虽提及过往遗憾，但语义属于主动宽免与理性定调，整体表现为平稳叙述与自然交流，因此判定为中性。",
+  "output": "目标人物在00:00-00:02以低沉沉稳且平缓的语调说出“过去的事，不怪你”，声线无颤抖、哽咽或起伏斥责[audio_subtitle:E1]。从frame_00到frame_07的画面核实，其眉目舒展自然，目光端正注视对方，面部肌肉平和克制，未见悲戚或恼怒动作[image:E1]。台词虽提及过往遗憾，但语义属于主动宽免与理性定调，整体表现为平稳叙述与自然交流，因此判定为中性。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 67.84545850753784
+}

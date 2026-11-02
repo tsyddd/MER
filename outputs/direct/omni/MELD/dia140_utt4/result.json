@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia140_utt4",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "Ross speaks in a thoughtful, slightly hesitant tone, suggesting he is proposing an idea. His facial expression is calm and contemplative, without any strong emotional indicators. The content of his speech is a suggestion, not an expression of strong emotion.",
+  "output": "Ross speaks in a thoughtful, slightly hesitant tone, suggesting he is proposing an idea. His facial expression is calm and contemplative, without any strong emotional indicators. The content of his speech is a suggestion, not an expression of strong emotion.\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 6.621557712554932,
+  "node_count": null,
+  "edge_count": null
+}

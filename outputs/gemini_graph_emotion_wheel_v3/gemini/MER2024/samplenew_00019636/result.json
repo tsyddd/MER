@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00019636",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "d1653847d3cf6cfc09cc8eb7628fbb69523753b496954bbdaa066c61ccdb6896",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "沉思",
+      "mapped_label": "neutral",
+      "mapping_reason": "目标人物在面对反常线索时表现出冷静探究与平稳回忆的状态，言语平缓克制，无明显的惊骇、愤怒或焦虑唤醒，在预设情绪轮中准确对应以平稳叙述、自然沉思为特征的neutral家族。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "惊疑",
+      "mapped_label": "surprise",
+      "mapping_reason": "说话者因得知对方百岁却容貌未老这一违背认知常理的事实而产生强烈的不可思议与疑问，符合surprise定义中由违背预期的信息引发的诧异与惊奇。"
+    },
+    "image": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "目标人物因对方‘一百多岁’这一严重违背常理与认知预期的事实而表现出强烈的不可置信与震惊，依据情绪轮对违背预期所致意外、诧异的界定，映射为surprise。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "目标人物在片段前段谈及百岁年龄这一违背常理的信息时，如[audio_subtitle:E2]所述，语调明显上扬且带有反问与不可置信的探询质感；同时画面在frame_02至frame_03中从闭目转为双眼圆睁、锁眉张口，神态如[image:E1]所示呈现典型的难以置信与困惑。尽管[graph:E3]指出男子后半段手抵领口微沉思索且语调转低，但这仅是对前文离奇结论（人面花永葆青春）的补充推敲，无法否定因认知预期被打破所产生的主导诧异反应，故排除中性。",
+  "output": "目标人物在片段前段谈及百岁年龄这一违背常理的信息时，如[audio_subtitle:E2]所述，语调明显上扬且带有反问与不可置信的探询质感；同时画面在frame_02至frame_03中从闭目转为双眼圆睁、锁眉张口，神态如[image:E1]所示呈现典型的难以置信与困惑。尽管[graph:E3]指出男子后半段手抵领口微沉思索且语调转低，但这仅是对前文离奇结论（人面花永葆青春）的补充推敲，无法否定因认知预期被打破所产生的主导诧异反应，故排除中性。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 81.06329894065857
+}

@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者使用了“卑劣的手段”、“无耻之极”等强烈的贬义词，表达了极度的鄙视和愤怒。其语调高亢、语速较快，带有明显的质问和谴责语气，与字幕内容和情绪词完全一致。",
+  "answer": "angry",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "你除了这些卑劣的手段，还会什么？真是无耻之极。",
+      "observation": "字幕内容包含“卑劣”、“无耻之极”等直接表达负面情绪的词语。",
+      "interpretation": "这些词语是判断说话者情绪为愤怒的直接语言证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:01.80 - 00:05.36",
+      "observation": "说话者语调高亢，语速快，语气充满质问和谴责。",
+      "interpretation": "这种语调和节奏是愤怒情绪的典型声音表现。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。字幕和音频内容高度一致，均明确指向愤怒情绪，没有其他合理的解释。"
+}

@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是画面右侧、正面面对另一人的黑衣男子；左侧背对镜头者不是本次判断对象。目标先看向对方，随后眼部略收窄，并将双手在胸前合拢[E1][E2]。结合字幕中的致谢[E3]，最有支持的解释是感激；但口罩遮住嘴部，不能确认他是否微笑，也不能仅凭眼部变化断定强烈喜悦。",
+  "open_emotion": "感激",
+  "answer": "happy",
+  "mapping_reason": "当前的致谢内容与面向对方的合掌动作共同支持正向情感，故将“感激”近似映射到happy；这不等于确认他正在兴奋或大笑。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01（0.36秒）至frame_04（1.52秒）",
+      "observation": "右侧男子持续面向左侧男子，眼部略收窄，并有小幅抬手动作。",
+      "interpretation": "支持他正在积极回应对方；眼部变化本身不足以证明笑意。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05（1.88秒）至frame_07（2.64秒）",
+      "observation": "右侧男子将双掌合拢举在胸前，保持面向对方，随后双手稍向前移动。",
+      "interpretation": "在这段互动中，该姿态支持向对方表达谢意。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“正要感谢您呢！谢谢！谢，谢谢。”",
+      "observation": "字幕明确呈现目标人物的致谢话语。",
+      "interpretation": "为合掌动作的致谢解释提供语义支持；字幕不提供可听见的语调。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "合掌与眼部收窄也可能只是礼貌性的致谢表现；口罩遮挡了嘴部，且没有音轨，无法进一步确认愉悦的强度。"
+}

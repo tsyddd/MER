@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物Joey坐在扶手椅上打电话。画面中他身形后靠，在说话初期（frame_00至frame_03）双眼半闭、眉心微收，嘴部动作显露出向通话对象表达歉意与遗憾的表情状态。结合其口头取消约会的言语及低缓平和的语调，表现出明显的歉疚与遗憾感。",
+  "open_emotion": "歉疚",
+  "answer": "sadness",
+  "mapping_reason": "Joey当前的开放情绪表现为未能赴约的歉疚与遗憾。在所给的情绪轮中没有独立的‘抱歉/内疚’标签，依据因失约而产生的低落与愧疚倾向，近似归入最接近的sadness家族。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 (0.00s) - frame_03 (0.83s)",
+      "observation": "Joey单手握持手机置于耳侧，面部眉心微蹙，双眼微闭或半睁，嘴唇微张微撇进行言语交流。",
+      "interpretation": "面部微蹙与轻微垂眸展现出向对方表示抱歉和无奈的情态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "I’m sorry I gotta cancel tonight baby",
+      "observation": "台词直接使用道歉用语并告知不得不取消当晚计划。",
+      "interpretation": "明确的道歉语境印证了其表情中所传达的歉意与遗憾。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "0.00s - 1.80s",
+      "observation": "Joey发声语调低沉缓和，词尾略带拖音。",
+      "interpretation": "语调平缓柔和，强化了道歉时的歉疚氛围，而非冲突或兴奋。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "Joey的肢体姿态整体靠在扶手椅上较为舒展，未表现出剧烈的悲伤或痛苦，若仅视作常规事务性通知，亦有被理解为neutral的可能。"
+}

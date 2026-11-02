@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia33_utt6",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sadness",
+  "emotion_analysis": "Rachel抱着哭闹不止的婴儿，眉头深锁，神情沮丧且快要哭出来，说话时带有明显的哭腔和无助哽咽，表现出强烈的沮丧与悲伤无助情绪。",
+  "output": "Rachel抱着哭闹不止的婴儿，眉头深锁，神情沮丧且快要哭出来，说话时带有明显的哭腔和无助哽咽，表现出强烈的沮丧与悲伤无助情绪。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 6.417224407196045,
+  "node_count": null,
+  "edge_count": null
+}

@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00038936",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "c613bc4c8eed706c8b1610a8aeb9393921c5fc05b8cbb31814da46e58a8148c8",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "关切",
+      "mapped_label": "worried",
+      "mapping_reason": "关切的对象是对方可能遭遇的意外及其尚不明确的状况，符合worried所强调的顾虑与不确定性；她并未明确表现出对已确认损失的悲伤。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "担心",
+      "mapped_label": "worried",
+      "mapping_reason": "当前表达侧重对未经确认的不利情况的顾虑，符合worried所指的担忧，而非对意外消息的即时震惊。"
+    },
+    "image": {
+      "open_emotion": "担心",
+      "mapped_label": "worried",
+      "mapping_reason": "她关注的是对方可能遭遇意外及目前状况的不确定性，符合worried所指的顾虑；画面和字幕不足以确认她正为已知损失而悲伤。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "字幕中白衣女子对面前男子说“我最近听他们说，你好像出了点意外”；“听他们说”和“好像”表明她在询问尚未确认的情况，[audio_subtitle:E1]与字幕相符。画面第5至8帧可见她垂眼后重新看向男子，眉头微蹙，[image:E2]对这一变化的描述可信，但单凭皱眉不能定类。她的表达更像对对方状况的关切，而非得知消息瞬间的惊讶；也没有足够证据表明她正为已确认的损失而悲伤。未提供音轨，不能据语调判断。",
+  "output": "字幕中白衣女子对面前男子说“我最近听他们说，你好像出了点意外”；“听他们说”和“好像”表明她在询问尚未确认的情况，[audio_subtitle:E1]与字幕相符。画面第5至8帧可见她垂眼后重新看向男子，眉头微蹙，[image:E2]对这一变化的描述可信，但单凭皱眉不能定类。她的表达更像对对方状况的关切，而非得知消息瞬间的惊讶；也没有足够证据表明她正为已确认的损失而悲伤。未提供音轨，不能据语调判断。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 71.74866366386414
+}

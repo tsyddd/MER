@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载Chandler在女子走出后转向其搭讪，言语中出现停顿与重复〔process_3〕。动作表现上，他面向女子摊开手后又插入口袋〔person_2, person_3〕，显露面对陌生女子时的局促与迟疑。整个过程中并无愤怒、悲伤、恐惧或极度惊喜等强烈情感爆发，处于中性状态。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "process_3",
+    "person_2",
+    "person_3"
+  ]
+}

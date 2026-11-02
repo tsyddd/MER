@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "女子在说话时眉毛微蹙〔person_0〕，随后头部微微低垂且视线向下移〔person_2〕。图谱记载其说话语调低沉，并带有明显的颤音与抽噎停顿感〔person_1〕。微蹙的神态、抽噎颤抖的语调与低头垂视的举动共同体现了其内心的悲伤情绪。",
+  "answer": "sad",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "person_2"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "男孩面带笑容并身体微前倾、主动面向对方交流〔person_0〕，图谱记载其语调轻快上扬、语速较快〔person_1〕，随后又再次露出笑容〔person_3〕，表现出当前的愉快和热情。",
+  "answer": "happy",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "person_3"
+  ]
+}

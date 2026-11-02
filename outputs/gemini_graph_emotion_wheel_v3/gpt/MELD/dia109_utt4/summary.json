@@ -1,0 +1,8 @@
+{
+  "reason": "目标Janice在frame_00至frame_02面向对方，从抱臂转为抬眉、倾头发问；[image:E1]的画面观察可信，但单凭抬眉不能判定惊讶。字幕“Oh, are you sure?”[audio_subtitle:E1]是即时求证，与这一表情合看，较支持轻微诧异。最强的反证是她可能只在普通核实，后续手势也不能证明意外；但当前反问与表情变化共同支持诧异，而非平稳陈述。未提供音轨，不能据此判断语调。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E1"
+  ]
+}

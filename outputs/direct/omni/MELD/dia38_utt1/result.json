@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia38_utt1",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "Joey's facial expression transitions from a smile to a tearful, emotional look while placing his hands over his chest. His spoken words, 'I'm so proud,' combined with the audible emotional tone and physical gesture, indicate a strong positive feeling.",
+  "output": "Joey's facial expression transitions from a smile to a tearful, emotional look while placing his hands over his chest. His spoken words, 'I'm so proud,' combined with the audible emotional tone and physical gesture, indicate a strong positive feeling.\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 6.380803346633911,
+  "node_count": null,
+  "edge_count": null
+}

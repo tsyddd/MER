@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia192_utt9",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "253cfc3d29025f100a084a4a4129a2710aa0f001fea7ff86d0942be80fadcdf5",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "目标是穿浅黄色上衣、红裤子的Monica；我核对第6至7帧，她从后方走近餐桌并朝金发女子开口，与[image:E2]的视觉描述相符，但小幅画面不足以辨清怒容。字幕“What?! Excuse me!”中，开头的“What?!”支持突发的惊讶反应[graph:E1]；“Excuse me!”也可能是带怒意的质问，是最强反证。当前没有音轨可核实语气，因此不采用音量或尾音的图谱转述；综合可核实的字幕与画面，选择surprise。",
+  "output": "目标是穿浅黄色上衣、红裤子的Monica；我核对第6至7帧，她从后方走近餐桌并朝金发女子开口，与[image:E2]的视觉描述相符，但小幅画面不足以辨清怒容。字幕“What?! Excuse me!”中，开头的“What?!”支持突发的惊讶反应[graph:E1]；“Excuse me!”也可能是带怒意的质问，是最强反证。当前没有音轨可核实语气，因此不采用音量或尾音的图谱转述；综合可核实的字幕与画面，选择surprise。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 71.07603311538696
+}

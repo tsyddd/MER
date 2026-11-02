@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。字幕内容是在平静陈述闻着合适、能消乏安睡的效果，未显示明显的愤怒、悲伤、开心、担忧或惊讶。",
+  "answer": "neutral",
+  "evidence_refs": []
+}

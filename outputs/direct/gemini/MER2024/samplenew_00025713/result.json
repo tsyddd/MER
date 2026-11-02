@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00025713",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "画面中的白衣少年瞪大双眼，嘴巴微张，神情显得十分愕然与难以置信。结合结结巴巴质问对方如何知情的台词与语调，其情绪明显表现为惊讶。",
+  "output": "画面中的白衣少年瞪大双眼，嘴巴微张，神情显得十分愕然与难以置信。结合结结巴巴质问对方如何知情的台词与语调，其情绪明显表现为惊讶。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 6.428234338760376,
+  "node_count": null,
+  "edge_count": null
+}

@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物说“手里还握着一截风筝线”，是在描述一个细节，并非疑问或责备；这句话本身不足以判定情绪[E1]。结合她持续低垂的视线、微蹙的眉头和收敛的表情[E2]，当前表达更接近低落。没有提供音频，无法判断语调或音质。",
+  "open_emotion": "低落",
+  "answer": "sad",
+  "mapping_reason": "“低落”在当前语境下更接近情绪轮中sad所指的低落表达；字幕没有提出尚未发生的风险，因此不优先映射为worried。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "手里还握着一截风筝线。",
+      "observation": "台词描述手中握着的一截风筝线，没有疑问、责备或对未来后果的表述。",
+      "interpretation": "语义不能单独确定悲伤，但不支持将此句读作担忧风险或愤怒指责。",
+      "polarity": "uncertain"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03（0.92秒）至frame_07（2.16秒）",
+      "observation": "说话时她视线朝下，眉头微蹙，后段表情仍显收敛。",
+      "interpretation": "与低落的表达相符，为sad提供视觉支持。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "她也可能只是在认真回忆或平静陈述一个细节；字幕没有明确说明发生了损失，且无音频可核对声音中的情绪，因此悲伤判断有一定限度。"
+}

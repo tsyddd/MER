@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia150_utt4",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "Janice says 'Good-bye Chandler Bing' in a high-pitched, sing-song tone, which is her characteristic manner of speaking and indicates a playful or teasing emotion rather than genuine sadness or anger.",
+  "output": "Janice says 'Good-bye Chandler Bing' in a high-pitched, sing-song tone, which is her characteristic manner of speaking and indicates a playful or teasing emotion rather than genuine sadness or anger.\n<answer>joy</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 4.956031322479248,
+  "node_count": null,
+  "edge_count": null
+}

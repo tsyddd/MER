@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00040685",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "00b59cea7eb95d8df3713bcb9b7defc0e8f79ae664b527d4cc419d1d058a6afa",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "平静叙述",
+      "mapped_label": "neutral",
+      "mapping_reason": "目标人物当前的核心状态是平稳说明事实与冷静复述往事，没有愤怒对抗、悲伤失落或即时意外，符合情绪轮中neutral关于‘平稳叙述、自然交流或无明确主导情绪的表达’的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "焦虑不安",
+      "mapped_label": "worried",
+      "mapping_reason": "目标人物表达出面临严重猜忌危机时的紧张心悸与后怕情绪。在当前情绪轮缺乏独立的fear/panic类别时，这种对危机后果的紧张、顾虑与不安最符合worried的定义。"
+    },
+    "image": {
+      "open_emotion": "紧张不安",
+      "mapped_label": "worried",
+      "mapping_reason": "目标人物持续睁大双眼、面部肌肉紧绷，表现出回溯危机事件时的后怕与高度焦虑感，符合worried类别中关于焦虑、不安及对受责风险紧绷反应的界定。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "独立核验音轨与画面可见，目标人物在讲述时全程双目圆睁、面部肌肉紧绷且身体微向前倾，如[image:E1]所述；实际音轨中其嗓音刻意压低，伴随急促的吐气声与紧绷感，如[audio_subtitle:E1]所核实。尽管[graph:E1]将此解读为低沉平缓的中性叙事，但实际表现并非松弛的客观交代，而是置身于被君父猜忌的严重险境回溯中所透露出的心有余悸与高度警惕。其表现聚焦于对负面后果的紧张不安与后怕顾虑，符合worried的定义。",
+  "output": "独立核验音轨与画面可见，目标人物在讲述时全程双目圆睁、面部肌肉紧绷且身体微向前倾，如[image:E1]所述；实际音轨中其嗓音刻意压低，伴随急促的吐气声与紧绷感，如[audio_subtitle:E1]所核实。尽管[graph:E1]将此解读为低沉平缓的中性叙事，但实际表现并非松弛的客观交代，而是置身于被君父猜忌的严重险境回溯中所透露出的心有余悸与高度警惕。其表现聚焦于对负面后果的紧张不安与后怕顾虑，符合worried的定义。\n<answer>worried</answer>",
+  "label": "angry",
+  "elapsed_seconds": 70.4307963848114
+}

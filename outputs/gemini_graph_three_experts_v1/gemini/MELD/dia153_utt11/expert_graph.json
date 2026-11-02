@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "根据图谱记载，Chandler在开口回应时“语调平稳清晰地说明情况”〔person_1〕，肢体上保持双手叉腰并配合手势面对面交谈〔person_0〕〔person_2〕。虽然其陈述内容提及面对枪口的假设情况〔process_1〕，但台词假设不代表当前情绪，其当前表现稳定平静，无强烈情感起伏，整体状态为中性。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_1",
+    "person_0",
+    "person_2",
+    "process_1"
+  ]
+}

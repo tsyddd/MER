@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia109_utt4",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "Janice面向前方男子说“哦，你确定吗？”，对应process_0与process_1的同步关系，表现出对对方信息的明显疑问和意外反应。画面中她先双臂交叉，随后放开并用双手做手势，person_1在person_0之后，进一步强化了这种带有惊讶意味的确认。",
+  "output": "Janice面向前方男子说“哦，你确定吗？”，对应process_0与process_1的同步关系，表现出对对方信息的明显疑问和意外反应。画面中她先双臂交叉，随后放开并用双手做手势，person_1在person_0之后，进一步强化了这种带有惊讶意味的确认。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 94.65112829208374,
+  "node_count": 5,
+  "edge_count": 4
+}

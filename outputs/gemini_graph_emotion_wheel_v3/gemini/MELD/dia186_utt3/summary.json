@@ -1,0 +1,9 @@
+{
+  "reason": "目标人物Joey斜倚在扶手椅中打电话，肢体极为舒展松弛[graph:E1]。虽然[image:E1]指出其在前半段有微闭双眼与眉部微收的动作，但回看实际音频（0.00-1.85s）可知其声调低平柔和、语速平缓从容[audio_subtitle:E2]，句尾呼唤“baby”显得轻松自然，毫无哽咽、沉重叹息或哀伤哭腔。台词中的“I'm sorry”仅是日常社交推脱的礼节性致歉，并不包含实质的失落或痛苦体验，故[image:E1]将表层歉意引申为sadness并不成立，其整体状态属于平稳日常的常规沟通。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "graph:E1",
+    "image:E1",
+    "audio_subtitle:E2"
+  ]
+}

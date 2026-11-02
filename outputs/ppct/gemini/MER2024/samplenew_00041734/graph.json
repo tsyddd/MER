@@ -1,0 +1,101 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "女性对面前的人发问说出“不是 你为什么要辞职”",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "女性发出一声单字追问“啊”",
+      "time_index": 2,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "女性眉头微蹙，视线注视着前方对象",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "女性说话时语调上扬且语气急促",
+      "time_index": 1,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "男性侧脸转动视线看向对方",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内书架旁，女性与一名年轻男性相对而坐进行交谈",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "女性在说出疑问句“不是 你为什么要辞职”之后紧接着发出一声追问“啊”",
+      "entity_anchor": "女性的言语发问"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "女性在微蹙眉头注视对方之后，以急促且上扬的语调开口质问",
+      "entity_anchor": "女性"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "女性在直接提问辞职原因后紧接着发出单字追问，两者联合构成连续发问的完整语言互动过程",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "女性蹙眉注视的面部神态与语调上扬、急促的听觉发声特征互为补充，呈现出多模态可观察到的质问表现",
+      "entity_anchor": null
+    }
+  ]
+}

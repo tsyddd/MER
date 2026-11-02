@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物在片段中表现出从专注到果断的转变。在听到字幕内容后，他先是皱眉、眼神专注，随后在说出“我去查”时，面部肌肉紧绷，下颌收紧，表现出一种决心或压力下的决断。这些视觉线索与字幕中“我去查”这一果断的行动性话语高度一致，支持了其情绪为“worried”（担忧）的判断，即在压力下做出决定。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.8s",
+      "observation": "目标人物眉头微皱，眼神专注地看向前方。",
+      "interpretation": "此为听到信息后思考或评估的典型表现，为后续情绪的产生提供了铺垫。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_06 @ 2.4s",
+      "observation": "目标人物在说出“我去查”时，面部肌肉紧绷，下颌收紧，表情显得用力。",
+      "interpretation": "这种面部表情通常与压力、决心或担忧的情绪相关，而非轻松的“happy”或中性的“neutral”。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "前两天，他跟汪淼一起，观测了宇宙，手术，我去查。",
+      "observation": "字幕内容为“我去查”，是一个明确的行动指令。",
+      "interpretation": "该话语内容与目标人物在说出时的用力表情相匹配，表明他是在一个有压力的情境下做出的决定，这与“worried”相符。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "视觉上，目标人物的表情是克制的，没有明显的愤怒（如咬牙、瞪眼）或悲伤（如流泪、下垂的嘴角）的迹象，因此可以排除“angry”和“sad”。虽然“surprise”在开头有短暂体现，但整体情绪是向“worried”转变的。"
+}

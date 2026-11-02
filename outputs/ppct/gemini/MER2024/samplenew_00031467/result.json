@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00031467",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "结合person_0、person_1及process_0的节点联合，女子双手端着小碗向皇帝温和低语‘皇上闻着，正好，消乏，安睡’，语调平缓柔和，面部神情从容平静，未见明显的激动、喜悦或担忧情绪，整体呈现出恭顺平和的自然常态。",
+  "output": "结合person_0、person_1及process_0的节点联合，女子双手端着小碗向皇帝温和低语‘皇上闻着，正好，消乏，安睡’，语调平缓柔和，面部神情从容平静，未见明显的激动、喜悦或担忧情绪，整体呈现出恭顺平和的自然常态。\n<answer>neutral</answer>",
+  "label": "happy",
+  "elapsed_seconds": 44.932897090911865,
+  "node_count": 6,
+  "edge_count": 4
+}

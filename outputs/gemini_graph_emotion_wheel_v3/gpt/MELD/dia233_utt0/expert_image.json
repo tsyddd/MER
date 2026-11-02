@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "目标是穿粉色上衣、面向右侧金发女子的Rachel。她先短暂垂眼，随后直视对方，眉间收紧、嘴角下压；结合字幕中质问对方是否想把自己赶出公寓，最有支持的解释是对对方做法感到不满[E1][E2][E3]。末帧神情有所缓和，因而不能判断为强烈愤怒[E4]。",
+  "open_emotion": "不满",
+  "answer": "anger",
+  "mapping_reason": "这里的不满指向她认为对方可能在针对自己，并以质问表达，较符合anger中的责备与对抗；画面支持的是较克制的表达。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_03（1.835秒）",
+      "observation": "Rachel从垂眼转为看向面前女子，眉间逐渐收紧，嘴唇由闭合转为张开说话。",
+      "interpretation": "表情和视线随发问转向对方，不像全程平稳的日常交谈。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03（1.835秒）至frame_04（2.461秒）",
+      "observation": "她保持右手叉腰、左臂向旁支撑的站姿，看着对方时眉间紧、嘴角略向下。",
+      "interpretation": "这些特征合在一起支持有保留的负向态度；姿势本身不足以单独证明愤怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Did you get all this stuff for Joey to try and drive me out of the apartment?",
+      "observation": "字幕是向对方询问，是否购置这些东西给Joey，以便把自己赶出公寓。",
+      "interpretation": "质问所指向的可能被排挤，为视觉上的不满提供语义依据；这不是音轨证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_07（4.296秒）",
+      "observation": "她的眉毛抬起，嘴角较前几帧略有上扬，面部紧绷感减轻。",
+      "interpretation": "可支持疑问或克制表达，而非持续强烈的怒态。",
+      "polarity": "counter"
+    }
+  ],
+  "counterevidence": "末帧的抬眉和轻微嘴角上扬也可能是带疑惑的追问；没有音频，无法借语调区分质问的强弱。"
+}

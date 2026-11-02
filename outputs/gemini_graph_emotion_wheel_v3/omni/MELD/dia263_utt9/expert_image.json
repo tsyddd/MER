@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "目标人物Ross在片段中表现出一种平静但略带沉重的神情。他的视线在帧00至帧02间向下，随后在帧03至帧07间抬起并保持稳定，没有明显的皱眉、嘴角上扬或下撇等强烈情绪特征。他的姿态是坐姿，身体没有明显的紧张或防御性动作。结合字幕内容“I'm gonna have to give him up”（我将不得不放弃他），这句台词本身带有放弃、放手的意味，通常与悲伤或无奈相关。然而，他的面部表情是克制的，没有哭泣、抽泣或明显的悲伤迹象。因此，最合理的解释是，他正在平静地陈述一个艰难的决定，情绪是中性的，但带有悲伤的语境。这种克制的平静在当前语境下最符合中性（neutral）的定义，因为它没有表现出主导的积极或消极情绪。",
+  "open_emotion": "平静",
+  "answer": "neutral",
+  "mapping_reason": "根据MELD项目的定义，'neutral'指当前平稳、日常且没有明确主导情绪的表达。尽管台词内容暗示了悲伤，但目标人物的面部表情（眼神、嘴部、姿态）是克制和稳定的，没有表现出悲伤、愤怒或惊讶等主导情绪的视觉特征。因此，将这种在悲伤语境下的平静克制表达归类为中性是合理的。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "目标人物的视线向下，嘴唇闭合，面部表情平静。",
+      "interpretation": "该姿态和表情是平静或沉思的典型表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03",
+      "observation": "目标人物的视线抬起，直视前方，嘴唇微张，似乎在说话。",
+      "interpretation": "该姿态表明他正在平静地陈述，没有情绪波动。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "I'm gonna have to give him up.",
+      "observation": "字幕内容为“I'm gonna have to give him up.”",
+      "interpretation": "该句台词表明一个艰难的决定，通常与悲伤或无奈相关。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_00-frame_07",
+      "observation": "在整个片段中，目标人物的面部表情没有出现明显的皱眉、抬眉、嘴角上扬或下撇等情绪变化。",
+      "interpretation": "缺乏明确的情绪面部特征，支持其情绪为中性。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "字幕内容“I'm gonna have to give him up”本身带有悲伤的语境，如果目标人物表现出哭泣、抽泣或明显的悲伤表情，则应归类为sadness。然而，他的表情是克制的，因此不能简单地将语境等同于情绪表达。"
+}

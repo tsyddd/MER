@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物在画面中手持病历夹，面部眉头微皱并伴随眼神聚焦锁定对方（frame_01-frame_03），随后在发问过程中眉心微蹙、双目睁大、嘴唇微张微动（frame_05-frame_07），显露出对对方异常反应的纳闷与困惑。配合台词质疑对方因别人离婚而高兴的情境，其视觉表现的核心是反常事实带来的诧异感。",
+  "open_emotion": "诧异",
+  "answer": "surprise",
+  "mapping_reason": "目标人物因对方的反应违背常理预期而产生明显的不解与惊异，符合surprise（因当前信息违背预期产生的意外与诧异）的定义范畴。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01至frame_03, 0.6s-1.8s",
+      "observation": "目标人物闭眼后睁开双眼，目光转向侧前方，眉心收紧，嘴唇微张，呈现出疑惑质询的表情神态",
+      "interpretation": "表现出接收到反常信息后的困惑与不解",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05至frame_07, 2.96s-4.16s",
+      "observation": "目标人物双眼圆睁，眉头微耸并聚拢，嘴部张大吐词发问，身体微微前倾",
+      "interpretation": "强化了对违背预期行为的诧异感与探询态度",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "哎，这仇院长离婚，你怎么这么高兴呢？",
+      "observation": "目标人物用疑问句指出对方反应不合常规逻辑",
+      "interpretation": "印证了视觉上面部探究与诧异的神态来源于预期的违背",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "其眉心微蹙和严肃的神情易被误认为是不满或责怪（angry），但画面中缺乏攻击性或强烈排斥对抗，本质是对意外情况的惊诧发问。"
+}

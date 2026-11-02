@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "画面左侧目标人物（紫衣女子）在整段视频中眉心紧蹙聚拢、眼眶泛红含泪，嘴角向下撇并微张呈现明显哭相。配合音频中抽泣颤抖的哭腔，明确表现出失声痛哭、心痛难过的悲伤状态。",
+  "open_emotion": "悲痛",
+  "answer": "sad",
+  "mapping_reason": "目标人物当前的哭泣表情及伤心抽泣完全符合悲伤（sad）定义中关于当前失落、伤心、哀痛的典型表现。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07 (0.00s-2.56s)",
+      "observation": "目标人物双眉内侧皱起紧缩，双眼湿润含泪，口部下撇微张，全程呈现明显的哭泣面容与痛苦表情。",
+      "interpretation": "典型哭泣表情，直接反映内心的哀痛与难过。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.00s-2.00s",
+      "observation": "说台词“没想到你竟然这么傻”时带有极重的抽泣吸气声与颤抖哭音。",
+      "interpretation": "听觉表现与视觉哭态吻合，确认为极度悲痛难过的情绪状态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词提及对方“傻”，表情略带心疼与焦虑，可能夹杂worried成分，但视觉上泪流满面、口角下拉的哭泣表现占绝对主导地位。"
+}

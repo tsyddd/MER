@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "目标人物为黄色针织衫女子。她先抿唇平视对方，随后在对方提问后张口回应，构成连续的听取—答复互动〔person_0〕〔process_1〕，但画面未显示足以区分愤怒、惊讶或担忧的强烈表情变化，因此判断为中性。图谱中的“语调上扬且语速较快”属于棕色外套女子〔person_1〕，不能转用于目标人物；且未提供原音轨，无法亲耳核验该声音描述。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0s；frame_07 @ 2.12s",
+      "observation": "黄色针织衫女子起初抿唇、平视对方，末帧侧身张口回应，面部整体保持克制，没有明显哭泣、笑容、怒目或显著惊愕。",
+      "interpretation": "支持她在当前对话中进行平静回应，缺乏明确的强烈情绪外显。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "person_0；process_1",
+      "observation": "图谱记录目标人物“抿唇，目光平视对面”，并记录其在对方发问后“张口回应”。",
+      "interpretation": "说明当前核心事件是问答互动；这些节点支持回应行为，但本身不构成愤怒、悲伤或开心的直接证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "当前字幕“是吗？才真这么说的。”",
+      "observation": "字幕内容主要对应对方的质疑/复述，未清楚标明目标人物当前语气或情绪。",
+      "interpretation": "只能作为对话语境参考，不能单独把目标人物判为惊讶或生气。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "目标人物末帧张口回应，结合对话内容也可有轻微辩解或不耐烦的替代解释；但没有原音轨，且视觉上未见足够明确的怒意或惊讶表情，因此不采用angry或surprise。"
+}

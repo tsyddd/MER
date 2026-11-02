@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia259_utt10",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "58b737d28f4b46ef9301ad868ad5a56df1abb9892a3c373e0e689e4505ea1b8c",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "愤慨",
+      "mapped_label": "anger",
+      "mapping_reason": "她当前表达的重点是认为笑话冒犯了人并予以批评，符合anger中因冒犯而产生不满、责备的方向；证据不足以将其描述为强烈愤怒。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "不满",
+      "mapped_label": "anger",
+      "mapping_reason": "这里的不满指向她认为具有冒犯性的笑话，表现为明确的否定和责备，因此映射到anger。"
+    },
+    "image": {
+      "open_emotion": "不满",
+      "mapped_label": "anger",
+      "mapping_reason": "这里的不满指向她认为具有冒犯性的笑话，并以当面批评的方式表达，符合anger中因冒犯而责备的方向；不必表现为强烈暴怒。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "字幕中Monica说笑话“不好笑”，并指责它冒犯女性、医生和猴子；[graph:E1]对此的转述与字幕相符，但不是另一份独立证据。画面中她向交谈对象抬手、前伸并强调发言，[image:E2]的观察可核实，与当面提出异议相互支持。她在部分帧确有笑意，[image:E4]提示这番批评可能带有调侃，但笑意不足以将明确的指责解读为喜悦。未提供音轨，不能据语气判断；就当前可核实的言语和动作而言，主导表现更接近因冒犯而不满。",
+  "output": "字幕中Monica说笑话“不好笑”，并指责它冒犯女性、医生和猴子；[graph:E1]对此的转述与字幕相符，但不是另一份独立证据。画面中她向交谈对象抬手、前伸并强调发言，[image:E2]的观察可核实，与当面提出异议相互支持。她在部分帧确有笑意，[image:E4]提示这番批评可能带有调侃，但笑意不足以将明确的指责解读为喜悦。未提供音轨，不能据语气判断；就当前可核实的言语和动作而言，主导表现更接近因冒犯而不满。\n<answer>anger</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 80.1684181690216
+}

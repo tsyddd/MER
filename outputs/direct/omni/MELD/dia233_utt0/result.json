@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia233_utt0",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "Rachel's facial expression shows furrowed brows and a downturned mouth, and her tone of voice is high-pitched and accusatory. She is directly confronting another character with a challenging question, indicating a state of anger.",
+  "output": "Rachel's facial expression shows furrowed brows and a downturned mouth, and her tone of voice is high-pitched and accusatory. She is directly confronting another character with a challenging question, indicating a state of anger.\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 6.708188533782959,
+  "node_count": null,
+  "edge_count": null
+}

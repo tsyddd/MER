@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "在当前对话互动中，Janice针对男伴的言论表现出明显的意外反问。结合图谱节点[person_1]及真实音频核验，Janice以极高且起伏剧烈的升调发出询问[E1]，同时如[person_0]所述保持双手抱胸、眉目微扬注视对方[E2]，其事件语义是在对出乎意料的回应进行质疑和再确认，鲜明支持surprise而非平淡的neutral。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:01",
+      "observation": "Janice说出'Oh, are you sure?'时音调拔得极高，伴随典型的上挑疑问语气",
+      "interpretation": "突显对对方言论的意外与不确定，构成惊讶反应的核心听觉特征",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱记录Janice声音上扬，带有明显的语调起伏，且与面向对方说话的动作同步",
+      "interpretation": "强化了当前互动属于受到意外刺激后的夸张追问情境，排除了缺乏波动的客观陈述",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.5004996114133452",
+      "observation": "Janice双臂交叠抱胸，眼神直视男士，嘴唇微张微蹙",
+      "interpretation": "体现接收到突兀信息时的探究与错愕，结合言语呈现出戏剧化的惊讶神态",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "一种替代解释是普通询问或建议（neutral），但实际音轨中剧烈上扬的高亢音调与夸张的反问语气明显超出了常态交流的基准，故不采纳neutral。"
+}

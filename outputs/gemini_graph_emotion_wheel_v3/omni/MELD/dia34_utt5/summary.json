@@ -1,0 +1,16 @@
+{
+  "reason": "目标人物Rachel在说出“Oh my God! You're a 30 year old virgin!”时，其面部表情（睁大眼睛、眉毛上扬、嘴巴微张）、身体姿态（前倾）和音频语调（高亢、夸张）均表现出强烈的意外与震惊。专家的图像、音频和字幕证据均一致支持这一判断。虽然该事件可能引发其他情绪，但当前最直接、最主导的表达是惊讶。因此，根据MELD项目适配情绪轮的定义，'surprise'是对此情境下主导情绪的准确映射。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "image:E3",
+    "image:E4",
+    "audio_subtitle:E1",
+    "audio_subtitle:E2",
+    "audio_subtitle:E3",
+    "graph:E1",
+    "graph:E2",
+    "graph:E3"
+  ]
+}

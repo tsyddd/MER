@@ -1,0 +1,55 @@
+{
+  "version": "ppct_dataset_wheels_v3_20261101",
+  "status": "project_adaptation_not_official_dataset_or_AffectGPT_wheel",
+  "inspiration": "AffectGPT hierarchical fine-grained emotion to broad-family organization; dataset-specific roots and boundaries are project design",
+  "sources": ["https://github.com/zeroQiaoba/AffectGPT/tree/master/AffectGPT/emotion_wheel", "https://arxiv.org/abs/2404.17113", "https://github.com/declare-lab/MELD"],
+  "shared_rules": [
+    "先基于证据选一个具体开放情绪词，再依据当前数据集层级与边界映射成一个Level1标签；不能同时输出多个开放词或多个映射标签。",
+    "开放情绪词不局限于下列示例；示例是语义参考，不是穷尽词典。不得为了匹配词表改变观察或编造证据。",
+    "同一个词在不同语境下可能属于不同家族；优先看目标人物当前的评价对象、表达方向与跨模态表现，不进行无条件字符串替换。",
+    "neutral表示当前表现平稳、无明确占主导的情绪反应；信息不足、没有某一模态、情绪词不在词表，都不是自动选择neutral的理由。",
+    "优先映射有证据支持的主导情绪，不从其他人物、过去事件、假设或剧情常识借用情绪。强度不决定类别，弱表达也可以是非中性。",
+    "类别缺失时依据当前证据选择最接近的允许家族，并说明近似和信息损失；不得宣称不同情绪是同义词。未命中参考词表不应引发格式重试。"
+  ],
+  "datasets": {
+    "MER2024": {
+      "labels": ["happy", "angry", "sad", "worried", "surprise", "neutral"],
+      "families": {
+        "happy": {"name": "喜悦", "definition": "当前正向愉悦、满足或兴奋，而非仅仅台词提到好事。", "examples": ["开心 / joyful", "欣喜 / delighted", "满足 / contented", "兴奋 / excited"]},
+        "angry": {"name": "愤怒", "definition": "对受阻、冒犯或不公的生气、责备、敌意及对抗倾向。", "examples": ["恼火 / annoyed", "愤怒 / furious", "愤慨 / indignant", "不满 / displeased"]},
+        "sad": {"name": "悲伤", "definition": "当前失落、伤心、哀痛或低落；需要损失评价或相应表达支持。", "examples": ["难过 / sorrowful", "哀伤 / grieving", "失落 / downhearted", "沮丧 / dejected"]},
+        "worried": {"name": "担忧", "definition": "对可能负面结果、未知风险或受责的顾虑、焦虑、不安，强调预期与不确定性。", "examples": ["担心 / concerned", "焦虑 / anxious", "忐忑 / apprehensive", "不安 / uneasy"]},
+        "surprise": {"name": "惊讶", "definition": "因当前信息违背预期产生的意外、诧异或震惊；不等同于所有疑问句。", "examples": ["诧异 / astonished", "惊奇 / amazed", "意外 / taken aback", "震惊 / shocked"]},
+        "neutral": {"name": "中性", "definition": "当前主要为平稳叙述、自然交流或无明确主导情绪的表达；需实际表现支持。", "examples": ["平稳 / even-tempered", "平常 / matter-of-fact", "无明显情绪 / emotionally neutral"]}
+      },
+      "boundaries": [
+        "worried与sad：关注尚未发生的坏结果、风险和未知时偏worried；关注已经发生的损失、痛苦与低落时偏sad。不能只凭皱眉或湿润眼睛定类。",
+        "surprise与worried/angry：预期违背的即时意外偏surprise；持续担心后果偏worried；责备和对抗偏angry。允许同一表情有不同解释。",
+        "frustrated/失望/委屈不是固定映射：受阻并对抗可偏angry，失落低落可偏sad，担心后果可偏worried，必须结合当前证据。",
+        "没有独立fear类别：开放词为害怕或恐慌时，仅当威胁预期、紧张不安是主导证据，才近似映射worried；明确注明这不是fear与worried等价。",
+        "没有独立disgust类别：不能把厌恶一律变成angry。只有当前反感伴随责备/排斥对抗时才偏angry；如另有更强悲伤或担忧证据按其主导家族映射。纯厌恶缺乏相邻家族证据时，说明强制单标签投影的不确定性，不自动归neutral。",
+        "克制、低声、微笑均不直接等于neutral、sad或happy，先核对其语义和表达背景。"
+      ]
+    },
+    "MELD": {
+      "labels": ["joy", "anger", "sadness", "fear", "disgust", "surprise", "neutral"],
+      "families": {
+        "joy": {"name": "喜悦", "definition": "当前开心、愉悦、满足或兴奋的正向体验。", "examples": ["开心 / happy", "欣喜 / delighted", "愉悦 / amused", "兴奋 / excited"]},
+        "anger": {"name": "愤怒", "definition": "对冒犯、受阻或不公的恼火、责备与对抗。", "examples": ["恼火 / annoyed", "愤怒 / furious", "愤慨 / indignant", "不满 / displeased"]},
+        "sadness": {"name": "悲伤", "definition": "因失落、损失或痛苦而难过、哀伤或低落。", "examples": ["难过 / sad", "哀伤 / grieving", "失落 / downhearted", "沮丧 / dejected"]},
+        "fear": {"name": "恐惧", "definition": "面向威胁、危险或令人害怕的负面后果，表现出畏惧、惊恐或威胁相关的焦虑。", "examples": ["害怕 / afraid", "惊恐 / terrified", "畏惧 / fearful", "受惊 / frightened"]},
+        "disgust": {"name": "厌恶", "definition": "对令人反感、恶心或难以接受对象的排斥与厌弃，不要求一定出现强烈面部动作。", "examples": ["恶心 / nauseated", "厌恶 / repulsed", "反感 / averse", "厌弃 / revolted"]},
+        "surprise": {"name": "惊讶", "definition": "面对违背预期的信息而意外、诧异或惊奇，可带正向或负向色彩。", "examples": ["诧异 / astonished", "惊奇 / amazed", "意外 / taken aback", "震惊 / shocked"]},
+        "neutral": {"name": "中性", "definition": "当前平稳、日常且没有明确主导情绪的表达；不能用来替代证据不足。", "examples": ["平稳 / even-tempered", "平常 / matter-of-fact", "无明显情绪 / emotionally neutral"]}
+      },
+      "boundaries": [
+        "担忧、焦虑、紧张不是自动fear：需当前语义和表现支持威胁/害怕/负面后果预期；若主要是愤怒、悲伤或兴奋，应选择相应家族。",
+        "disgust与anger：排斥、恶心和不愿接近对象偏disgust；因冒犯、不公而责备、对抗偏anger。不能仅看负向效价。",
+        "surprise与fear：仅仅意外、睁眼或反问不等于害怕；需威胁与畏惧证据才偏fear。",
+        "happy一词不一定代表joy；否定、反讽、勉强、礼貌微笑要结合整句语用、音轨和视觉判断。",
+        "委屈、失望、挫败、羞愧等词没有唯一静态落点：先依据损失/对抗/威胁等当前评价选择最近的主导家族，并说明近似。",
+        "不要因为情景喜剧题材、笑声或人物熟悉度，排除目标人物真实的fear、sadness、anger或disgust。"
+      ]
+    }
+  }
+}

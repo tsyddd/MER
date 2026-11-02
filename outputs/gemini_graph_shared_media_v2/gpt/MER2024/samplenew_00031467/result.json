@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00031467",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "ce0718d332667e1a8f68aff97e3bf70bb490b84c29c19b6a35c15f5d91354a74",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "我回看frame_00至frame_06，目标女子持续看向右侧并开口说话，眉眼和姿态总体放松，未见持续明确的笑容、皱眉或惊讶。图像专家对连续视觉表现的判断较可信，指出嘴角未形成明确微笑[image:E1][image:E2]；字幕“皇上闻着，正好，消乏，安睡。”确实支持照料和安抚，但不必然等于开心[image:E3][audio_subtitle:E1]。audio_subtitle专家据此判为happy的解释与语义相符，但其“轻微愉悦”缺少音频语调核验，且视觉证据不足以区分礼貌安抚与愉悦，因此取更稳妥的中性判断。",
+  "output": "我回看frame_00至frame_06，目标女子持续看向右侧并开口说话，眉眼和姿态总体放松，未见持续明确的笑容、皱眉或惊讶。图像专家对连续视觉表现的判断较可信，指出嘴角未形成明确微笑[image:E1][image:E2]；字幕“皇上闻着，正好，消乏，安睡。”确实支持照料和安抚，但不必然等于开心[image:E3][audio_subtitle:E1]。audio_subtitle专家据此判为happy的解释与语义相符，但其“轻微愉悦”缺少音频语调核验，且视觉证据不足以区分礼貌安抚与愉悦，因此取更稳妥的中性判断。\n<answer>neutral</answer>",
+  "label": "happy",
+  "elapsed_seconds": 180.09061694145203
+}

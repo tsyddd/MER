@@ -1,0 +1,9 @@
+{
+  "reason": "目标是前景穿格纹衬衫的Ross；我核对画面后发现，他从张口说话转为眉眼收紧，并在第3至第5帧连续抬手、挥手强调，[image:E1][image:E2]的视觉观察可信。字幕“We know you took so just-just save yourself the time and confess!”确有指控和催促坦白之意，[audio_subtitle:E1]可信，但台词本身不能证明愤怒。最强的反证是他可能只是在急切施压；结合持续紧绷的表情与指控性措辞，anger比平静催促更合适。未提供音轨，因此不以语气作判断。",
+  "answer": "anger",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "audio_subtitle:E1"
+  ]
+}

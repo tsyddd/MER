@@ -1,0 +1,8 @@
+{
+  "reason": "回看frame_01至frame_06，说话的女性持续蹙眉、倾身并注视交谈对象；[image:E2]对这些可见变化的描述可信，frame_07出现的男性不是目标人物。字幕原话“不是，你，为什么要辞职？”确实是追问原因，但单凭问句不能判定她在责备对方[audio_subtitle:E1]。皱眉也可能表示生气，不过画面更突出紧张和关切，缺少明确敌意；又因未提供音轨，不能用语气作进一步判断，因此选择worried。",
+  "answer": "worried",
+  "evidence_refs": [
+    "image:E2",
+    "audio_subtitle:E1"
+  ]
+}

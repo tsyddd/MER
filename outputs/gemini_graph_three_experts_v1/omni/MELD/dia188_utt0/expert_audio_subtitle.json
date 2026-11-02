@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "音频中说话者以短促、上扬的语调说出“What?”，表现出对某事的意外或不解，符合惊讶情绪的典型特征。",
+  "answer": "surprise",
+  "evidence_refs": []
+}

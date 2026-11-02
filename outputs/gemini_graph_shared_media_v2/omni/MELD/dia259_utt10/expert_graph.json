@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "Monica的语速快、语调严肃坚决，且在陈述冒犯对象时，嘴部大幅张开，音量增大，语调明显上扬，这些视听证据共同指向一种强烈的负面情绪。图谱中的节点process_2描述了她强调说出“and monkeys!”时的高亢语调，这与她对笑话的强烈不满和愤怒情绪直接相关。她的身体前倾和手势动作也强化了这种情绪的表达。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:04.921",
+      "observation": "Monica的语速较快，语调严肃坚决，并在句末明显上扬。",
+      "interpretation": "快速且坚决的语速，以及句末的上扬语调，是表达强烈不满和愤怒的典型声音特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 00:00:01.418",
+      "observation": "Monica右手向身体外侧挥动做手势。",
+      "interpretation": "手势动作与话语内容同步，用于强调和加强其批评的力度，是情绪表达的一部分。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_3",
+      "observation": "节点person_3描述了Monica嘴部大幅张开，音量增大且语调明显上扬。",
+      "interpretation": "该节点直接关联了Monica的面部表情和声音特征，是判断其情绪为愤怒的关键证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽然Monica的语调上扬，但其语速和内容（“The joke is not funny”）也可能被解释为一种带有讽刺意味的“joy”或“surprise”。然而，与之同步的严肃坚决的语调和强调性的肢体动作，使得“anger”是更符合整体表达的判断。"
+}

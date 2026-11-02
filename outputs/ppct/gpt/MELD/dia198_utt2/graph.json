@@ -1,0 +1,129 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Joey说：“No-no, she kicked our butts. You could be on the Olympic standing-there team.”",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Joey面向右侧的人，嘴部开合。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Joey抬起一只手并伸出手指。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Joey将手向前侧伸出并作手势。",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "右侧穿蓝色格子衬衫的人双手叉腰并面向Joey。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_4",
+      "type": "person",
+      "content": "Joey的手回到身体两侧。",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内有两名男子站立，Joey与穿蓝色格子衬衫的男子面对面交流。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "画面右侧出现另一名人物的部分身体。",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "同一人物的连续手势动作，先抬手伸指，随后将手向前侧伸出",
+      "entity_anchor": "Joey的同一只手势动作"
+    },
+    {
+      "source": "person_4",
+      "target": "person_2",
+      "relation": "after",
+      "reason": "同一人物的同一手势动作结束，先向前侧作手势，随后手回到身体两侧",
+      "entity_anchor": "Joey的同一只手势动作"
+    },
+    {
+      "source": "person_0",
+      "target": "person_3",
+      "relation": "simultaneous",
+      "reason": "两人处于同一面对面交流状态，Joey开口且对方同时面向Joey",
+      "entity_anchor": "Joey与穿蓝色格子衬衫男子之间的面对面交流"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供Joey面向右侧人物并开口说话的信息，person_1提供其抬手伸指的可见动作；联合后补充出Joey在交流中配合指向手势进行表达的完整可观察表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0限定两名男子在室内面对面交流，context_1补充画面右侧还有一名仅部分可见的人物；联合后更完整地限定了该交流场景中存在未完全入镜的第三人。",
+      "entity_anchor": null
+    }
+  ]
+}

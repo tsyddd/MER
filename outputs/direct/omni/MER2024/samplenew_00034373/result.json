@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00034373",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sad",
+  "emotion_analysis": "该人物眼眶湿润，表情悲伤，正在哭泣。其台词“甚至连一件衣裳”也表达了极度的伤心与无助，符合悲伤情绪的特征。",
+  "output": "该人物眼眶湿润，表情悲伤，正在哭泣。其台词“甚至连一件衣裳”也表达了极度的伤心与无助，符合悲伤情绪的特征。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 4.914078712463379,
+  "node_count": null,
+  "edge_count": null
+}

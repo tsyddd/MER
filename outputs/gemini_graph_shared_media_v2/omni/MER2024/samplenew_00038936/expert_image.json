@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物在对话中表现出担忧的情绪。她的眉毛微微皱起，眼神向下看，嘴唇紧闭，这些是担忧的典型面部特征。字幕内容“你好像出了点意外”也证实了她正在谈论一个令人担忧的话题。虽然她的表情很克制，但没有迹象表明她感到愤怒、悲伤或惊讶。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_04 @ 2.12",
+      "observation": "目标人物的眉毛微微皱起，眼神向下看。",
+      "interpretation": "皱眉和向下看的眼神是担忧情绪的常见视觉表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05 @ 2.64",
+      "observation": "目标人物的嘴唇紧闭，表情显得严肃和关切。",
+      "interpretation": "紧闭的嘴唇和严肃的表情加强了她正在表达担忧的视觉线索。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "字幕: 不过，我最近听他们说，你好像出了点意外。",
+      "observation": "字幕内容为“你好像出了点意外”。",
+      "interpretation": "字幕内容证实了她正在谈论一个令人担忧的话题，这与她的表情相符。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有明确的反证。虽然她的表情很克制，但没有迹象表明她感到愤怒、悲伤或惊讶。"
+}

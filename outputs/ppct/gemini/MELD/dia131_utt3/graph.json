@@ -1,0 +1,67 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Rachel对面前的Phoebe说出“Oh, everything went great.”",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Rachel低头看着手中的黑色衣物，双手在身前整理衣物",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Rachel抬头看向前方，左手摊开掌心向上，右手持黑色外套向外展开，口型张开说话",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内公寓门厅处，Rachel与Ross站在门旁，Phoebe和Joey立于对面与他们交谈",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "Rachel在身前整理黑色衣物之后，抬头看向前方并将双手向外展开配合说话",
+      "entity_anchor": "Rachel"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供了Rachel低头整理手中衣物的姿态，person_1提供了随后她抬头展开双手配合发话的动作，二者联合完整展现了她从专注于手中物品到抬头向对方摊手沟通的连贯身体姿态转变。",
+      "entity_anchor": null
+    }
+  ]
+}

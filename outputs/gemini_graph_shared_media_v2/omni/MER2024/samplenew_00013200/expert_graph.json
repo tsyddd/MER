@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "主要人物在与对方的对话中，其面部表情（双眼睁大）与声音特征（语速急促、音量较高）同步，且其话语内容（“背信弃义”、“抬价”）具有强烈的指责性，这些共同指向了愤怒的情绪。图谱中的节点`person_1`和`person_3`分别从听觉和视觉上证实了其激动的状态。",
+  "answer": "angry",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "主要人物语速急促、音量较高",
+      "interpretation": "该节点描述了说话时的声学特征，急促和高音量是愤怒情绪的典型表现，直接支持了愤怒的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "person_3",
+      "observation": "主要人物双眼睁大注视对方",
+      "interpretation": "睁大的眼睛是情绪激动的视觉表现，与愤怒相符，且与说话时的激动状态同步。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "可是你背信弃义，你一个劲儿地抬价",
+      "observation": "字幕内容为指责性话语",
+      "interpretation": "话语内容本身具有强烈的负面情感色彩，是判断其情绪为愤怒的直接语义证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "主要人物目光平视直视对面的男子",
+      "interpretation": "直视对方的眼神表明了其对话的专注和对抗性，为愤怒情绪提供了情境支持。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无明确的反证。虽然图谱中`person_0`的描述为“目光平视”，这在某些情境下可能被解释为中性，但结合`person_1`的“语速急促、音量较高”和`person_3`的“双眼睁大”等更强烈的情绪化描述，可以确定其情绪并非中性。"
+}

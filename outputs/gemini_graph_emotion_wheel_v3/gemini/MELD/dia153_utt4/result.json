@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia153_utt4",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "1701ec52f64cb4d931ebb2a39270db0f0b109d59cf49cceb1bc9a7c9f35dd50e",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "理所当然",
+      "mapped_label": "neutral",
+      "mapping_reason": "“理所当然”或平常论理（matter-of-fact）体现其在当前情境下平静、笃定地给出建议，没有愤怒的对抗责难，亦无恐惧威胁或喜悦狂欢，依据情绪轮边界准确映射至neutral（平常/平稳）。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "愤慨",
+      "mapped_label": "anger",
+      "mapping_reason": "Joey表达出强烈的争论、反驳与激昂说理态度，声调高亢且具有对抗性，符合情绪轮中anger（愤怒/愤慨）的定义。"
+    },
+    "image": {
+      "open_emotion": "平常",
+      "mapped_label": "neutral",
+      "mapping_reason": "Joey的面部和姿态主要用于辅助言语说理与强调观点，无明确主导的正向或负向强烈情感爆发，符合neutral（平稳、日常且没有明确主导情绪的表达）的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物Joey在提出面对恐惧的建议时，手势从摊开自然过渡为食指前指以辅助说理[image:E1]。尽管专家[audio_subtitle:E1]认为其声调拔高且带有对抗说教的愤慨感，但回听实际音频与回看画面可知，Joey只是在笃定陈述自己的逻辑，语气连贯且缺乏受阻冒犯或敌意责备的攻击性[graph:E3]。其面部肌肉并未紧咬变形，指点动作仅为常规观点强调[graph:E2]，整体处于就事论事的平稳日常表达，归为neutral最为确切。",
+  "output": "目标人物Joey在提出面对恐惧的建议时，手势从摊开自然过渡为食指前指以辅助说理[image:E1]。尽管专家[audio_subtitle:E1]认为其声调拔高且带有对抗说教的愤慨感，但回听实际音频与回看画面可知，Joey只是在笃定陈述自己的逻辑，语气连贯且缺乏受阻冒犯或敌意责备的攻击性[graph:E3]。其面部肌肉并未紧咬变形，指点动作仅为常规观点强调[graph:E2]，整体处于就事论事的平稳日常表达，归为neutral最为确切。\n<answer>neutral</answer>",
+  "label": "fear",
+  "elapsed_seconds": 70.99226903915405
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "女子在当前互动事件中当面澄清不知情以自辩[E1]，音频中伴随短促惊呼与急促慌乱的辩白语调[E2]，配合画面中直视对方、睁大双眼且紧绷不安的面部神态[E3]，体现出突发受责时的慌乱自护与焦虑担忧，符合worried。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "图谱记录女子开口辩解“我不知道这件旗袍是你的”，交代了当面对质并撇清责任的互动事件",
+      "interpretation": "在被动防御与当场辩白的互动语境下，人物的核心诉求是害怕被误解或追责，指向紧张担忧",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00 - 00:01.5",
+      "observation": "女子发出短促的抽气/惊呼“呀”，随后以略显慌乱发紧且急促的语调快速吐字",
+      "interpretation": "急促且带颤音的发声表现直接印证了慌乱与焦虑担忧的心态，而非平稳叙述",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_06 @ 1.267924528301887",
+      "observation": "女子目光直视前方，双眼睁大，眉毛微挑且带有一丝紧绷与无辜感，嘴巴微张吐字",
+      "interpretation": "神态呈现出面对突发状况时的不安与辩解时的紧张，支持worried",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "开头的短促惊呼与睁眼可能被视为surprise，但人物紧接着持续且急迫地陈述不知情来为自己开脱，其主要动力是被动受责时的焦虑自辩而非单纯的意外惊愕，故排除surprise。"
+}

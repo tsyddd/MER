@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "围绕当前互动事件链，Chandler在面对他人时摆手推拒并解释原因。图谱节点[E1]记录了他打断并调侃“Ross and Joey is embarrassing enough”的话语过程；结合音轨核验[E2]，其声调平缓放松，无激烈情绪爆发；画面中[E3]其摆手手势与微表情均属日常讽刺交流，整体状态保持在平淡中性的基调。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_2",
+      "observation": "图谱记录Chandler在纠正对象后陈述“Ross and Joey is embarrassing enough.”",
+      "interpretation": "该节点表达了Chandler拒绝加入并调侃他人的语义，属于日常对话中的理由陈述与揶揄，而非强烈的情感宣泄",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "Chandler语速适中，声调起伏平缓自然，无抬高嗓门的怒气或剧烈笑意",
+      "interpretation": "听觉特征排除了anger或joy等高唤醒度情绪，印证了其言语的平静克制",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.88s",
+      "observation": "Chandler抬起右手轻挥推拒，眉眼放松，无皱眉、耸鼻或瞪眼",
+      "interpretation": "肢体与面部肌肉呈现常规交谈反应，缺乏负面情绪的典型面部标记",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词中出现“embarrassing”（令人尴尬），可能被解读为disgust或sadness；但结合视听核验，Chandler未表现出皱鼻、撇嘴等厌恶面容，亦无失落语调，仅属常态讽刺调侃，故不采用。"
+}

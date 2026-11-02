@@ -1,0 +1,13 @@
+{
+  "reason": "Monica的语速快、音量大、语调在句末上扬，且字幕内容为直接的批评和指责，这些视听证据共同指向愤怒。图像专家指出其眉毛紧锁，与音频中的愤怒语调和字幕内容一致。尽管图像中有一帧出现短暂微笑，但该表情是短暂的，且与前后帧的愤怒表情不连贯，因此不构成对愤怒判断的有效反证。综合来看，多源证据均支持愤怒情绪。",
+  "answer": "anger",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "audio_subtitle:E2",
+    "audio_subtitle:E3",
+    "image:E1",
+    "image:E2",
+    "image:E3",
+    "image:E4"
+  ]
+}

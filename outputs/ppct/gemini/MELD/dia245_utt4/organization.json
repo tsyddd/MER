@@ -1,0 +1,3 @@
+{
+  "text": "在室内客厅环境中，门口墙壁上有一个破损的孔洞，门边有人站立〔context_0〕，Rachel正背对镜头站在门边面向墙上的洞〔person_0〕；视角随后转向同一空间内的客厅沙发区〔context_1 after context_0〕〔context_0 context_joint context_1〕，坐在沙发上的Monica原本双手各拿着一本书和高脚杯，视线投向门边方向〔person_1〕。在视线锁定的同时，她发出急促、大音量且高亢的声音〔person_2 simultaneous person_1〕〔person_1 person_joint person_2〕，坐在沙发上张口大喊“No-no-no, no!”进行阻止〔process_0〕。紧接着，Monica身体前倾并双臂向下放开物品〔person_3 after person_1〕，迅速移开并放下了手中的书本和杯子〔process_1 after process_0〕〔process_0 process_joint process_1〕；随即她瞪大双眼，身体呈向前倾斜站起的姿态〔person_4 after person_3〕，直接从沙发上迅速起身向前冲出〔process_2 after process_1〕〔process_1 process_joint process_2〕。这些表现可能反映出Monica在目击门边情况时产生了高度紧张与急切的制止冲动，其注意力和行动完全转向制止门边潜在危险或动作的发生。"
+}

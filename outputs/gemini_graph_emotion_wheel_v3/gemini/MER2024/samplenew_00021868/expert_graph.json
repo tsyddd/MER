@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "互动链条中，前段头戴发冠男子侧倾垂目[E1]，随后镜头切换至灰衣束发男子[context_1]。该男子提及过去旧事“也不知道，当年，三哥”[process_0]，结合其面部微垂视线[person_1]与真实音轨中极度低沉、略带沉重叹息的语调[person_2]，表现出沉浸于往事怀念与伤感中的沉郁低落状态，而非单纯客观平淡的叙述。",
+  "open_emotion": "感伤",
+  "answer": "sad",
+  "mapping_reason": "目标人物在追溯涉及过去亲故的未解旧事时流露出低沉与叹息，体现出对已发生往事的怅惘与情绪低落，符合sad家族中伤感、失落的定义；句式虽有“也不知道”的疑惑，但重心在于对过去的哀思低落而非对未来危险的焦虑防备，故排除worried映射至sad。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱记录灰衣束发男子微低着头，视线垂向下方，嘴唇微动",
+      "interpretation": "面部垂目敛容的动作反映出沉郁、低落的内心状态",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "核验真实音轨，念出台词“也不知道当年三哥”时语调压抑下沉且带有叹息感",
+      "interpretation": "验证并深化了图谱节点[person_2]，证实其言语中蕴含着明显的哀思与落寞情绪",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "也不知道，当年，三哥。",
+      "observation": "语句指涉过去的人物与未明往事（“当年三哥”）",
+      "interpretation": "语义评价指向已发生的过往人事损失或遗恨，构成低落感伤的情境来源",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词采用“也不知道”的未知句式可能被解读为担忧或单纯中性疑问，但音轨语调极其低缓凝重且伴随视线下垂，否定了平淡叙述（neutral）与紧张焦虑（worried）。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia33_utt6",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "fear",
+  "emotion_analysis": "结合节点 process_0（婴儿持续啼哭）与 process_1（Rachel抱婴踱步），以及由 process_2 和 process_3 构成的言语表达，Rachel面对长达数小时无法停止的哭闹感到手足无措。音频与画面中，person_2 与 person_3 相互印证，她以急促高亢、近乎慌乱的语调喊出“what am I gonna do”，同时眉心紧聚、表情紧绷，充分展现出面对失控局面时焦急、恐慌与无助的紧绷状态（fear）。",
+  "output": "结合节点 process_0（婴儿持续啼哭）与 process_1（Rachel抱婴踱步），以及由 process_2 和 process_3 构成的言语表达，Rachel面对长达数小时无法停止的哭闹感到手足无措。音频与画面中，person_2 与 person_3 相互印证，她以急促高亢、近乎慌乱的语调喊出“what am I gonna do”，同时眉心紧聚、表情紧绷，充分展现出面对失控局面时焦急、恐慌与无助的紧绷状态（fear）。\n<answer>fear</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 97.34659934043884,
+  "node_count": 11,
+  "edge_count": 10
+}

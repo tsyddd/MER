@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "男子在对话中表现出由外在试探转向自我怀疑的递进过程，其言语内容为‘我，我是不是给你惹麻烦了’，结合其神态平静（person_0）与语调平缓略带疑问（person_1），表明其情绪并非愤怒或喜悦，而是带有担忧与不安。该情绪在组织文本中被描述为‘担忧自身行为是否连累了对方’，符合‘worried’标签。相关证据包括person_0、person_1和process_1。",
+  "answer": "worried",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "process_1"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "expert": "image",
+  "reason": "目标人物在多帧中表情平静，眼神专注，没有明显的激动或悲伤等情绪波动，符合中性情绪的特征。",
+  "answer": "neutral",
+  "evidence_refs": []
+}

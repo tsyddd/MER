@@ -1,0 +1,8 @@
+{
+  "reason": "三位专家一致判断为disgust，方向高度可信且互为印证。核对画面与音频，Joey在听到食物话题时抬头注视Monica，双眉微聚、嘴角歪斜下撇，呈现明显的生理性排斥与反胃神态[image:E1]；音频中在00:01-00:03说出“whipped fish, Monica”时语调压低且带有明显的嫌弃与反感，与专家所述相符[audio_subtitle:E2]。台词中“keeping it down”直接指代勉强忍住不吐，后半句“I'm just happy”纯属庆幸未呕吐的调侃，绝非真正的joy；后段frame_07虽低头收敛，但不能以此曲解为冷淡的neutral，故最终判定为disgust。",
+  "answer": "disgust",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E2"
+  ]
+}

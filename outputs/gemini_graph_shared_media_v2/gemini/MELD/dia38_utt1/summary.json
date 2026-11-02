@@ -1,0 +1,9 @@
+{
+  "reason": "目标人物Joey在说话时双手交叠抚在胸口，面部神情从前期的轻微蹙眉感动迅速转为舒展温和的笑意（frame 5至frame 7），如专家所述双手捂胸体态与微笑形成了欣慰喜悦的明确视觉信号[image:E1]。听觉上以温柔拖长的“Awww”起调并说出“I’m so proud”，语调充满赞许与笑意[audio_subtitle:E2]，语言内容直接指向对学生获得试镜这一好消息的正向自豪与成就感[audio_subtitle:E1]。尽管早期微表情（如frame 1至frame 3）呈现出类似动容的八字眉，脱离情境容易被误判为悲伤，但在积极语义和最终绽放的微笑支撑下，该表现属于典型因感动而生的自豪与喜悦，故判定为joy。",
+  "answer": "joy",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E1",
+    "audio_subtitle:E2"
+  ]
+}

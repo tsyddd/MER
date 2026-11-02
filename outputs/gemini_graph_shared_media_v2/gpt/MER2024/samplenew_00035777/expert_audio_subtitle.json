@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "字幕“诚实，是做生意的根本。”是关于经商原则的坚定陈述，不是直接的情绪词；结合前半段明显紧绷、皱眉并前倾的面部表现，更支持带有斥责或不满色彩的愤怒，而非单纯中性。由于未提供音频，无法判断语调、音量或节奏。",
+  "answer": "angry",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "当前字幕“诚实，是做生意的根本。”",
+      "observation": "说话者用断言形式强调“诚实”的原则，属于立场表达和规劝，不是疑问、引述或字面情绪描述。",
+      "interpretation": "内容本身不直接决定情绪，但这种强调性陈述可与对他人行为的不满或斥责相容，支持愤怒而非自动判为neutral。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00至frame_03 @ 0.0–1.04秒",
+      "observation": "说话者眉头紧皱、眼神锐利，身体明显前倾，张口幅度大，面部和姿态较为用力。",
+      "interpretation": "这些可见表现与强烈、不满的表达相符，支持angry。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04至frame_07 @ 1.4–2.44秒",
+      "observation": "后半段仍保持严肃紧绷的眉眼和压抑的口部姿态，未出现微笑或明显放松。",
+      "interpretation": "持续的严厉表情削弱happy和neutral的解释，但仅凭画面不能完全区分愤怒与担忧。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是worried或严肃的劝诫：字幕谈论经商诚信，且后半段表情更像沉重、忧虑而非爆发性愤怒。不过前半段的前倾、紧皱眉和用力张口更接近不满或斥责；缺少音频，因此仍无法用语调进一步区分。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia38_utt1",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "283890143b6bd15c34d0fcc959b56cb32cb859b30cd2d4facc4a2608311bfdd4",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "三份专家输出均一致指向joy：graph描述了微笑、轻叹声调和情感投入的动作；audio_subtitle识别出上扬语气与自豪内容；image显示面部表情由中性转为微笑并伴随积极肢体语言。所有证据在情绪方向上无冲突，且均支持joy。",
+  "output": "三份专家输出均一致指向joy：graph描述了微笑、轻叹声调和情感投入的动作；audio_subtitle识别出上扬语气与自豪内容；image显示面部表情由中性转为微笑并伴随积极肢体语言。所有证据在情绪方向上无冲突，且均支持joy。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 42.34125518798828
+}

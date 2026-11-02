@@ -1,0 +1,85 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Monica说：“You are both idiots.”",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Monica双手在胸前交握，身体保持直立。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Monica低下头并将视线转向画面左侧。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Monica身体向前倾，双手仍交握在胸前。",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "同一人物的姿态和视线在后续帧中发生连续变化",
+      "entity_anchor": "同一人物Monica"
+    },
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "同一人物在低头转移视线后进一步身体前倾，双手仍保持交握",
+      "entity_anchor": "同一人物Monica"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供双手在胸前交握及身体直立，person_1提供低头并将视线转向画面左侧；联合后补充了Monica从直立交握到低头侧视的连续可见姿态变化。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_0提供双手交握和直立姿态，person_2提供身体前倾且双手仍交握；联合后补充了交握动作在身体由直立转为前倾时的持续与姿态变化。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1提供低头并转向画面左侧的视线方向，person_2提供身体前倾及持续交握的手部姿态；联合后更完整呈现了Monica低头侧视并前倾交握的连续可见表现。",
+      "entity_anchor": null
+    }
+  ]
+}

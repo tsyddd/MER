@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia109_utt5",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "d1e48fb5bc9702767bb92c6beba55179a3e73274b2c9fb39f96f11cbbfe48c20",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "audio_subtitle专家明确捕捉到Janice语调轻快戏谑且末尾伴有明显的笑声，展现出强烈的积极调侃氛围；而image与graph专家主要依据其抱胸与面部未见大幅度夸张表情而判定为中性。结合台词假想木偶比划的调侃语境，音频中明显的笑意和笑声提供了更为直接确凿的情感线索，故采纳愉悦（joy）。",
+  "output": "audio_subtitle专家明确捕捉到Janice语调轻快戏谑且末尾伴有明显的笑声，展现出强烈的积极调侃氛围；而image与graph专家主要依据其抱胸与面部未见大幅度夸张表情而判定为中性。结合台词假想木偶比划的调侃语境，音频中明显的笑意和笑声提供了更为直接确凿的情感线索，故采纳愉悦（joy）。\n<answer>joy</answer>",
+  "label": "anger",
+  "elapsed_seconds": 58.68868374824524
+}

@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00031467",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "ce0718d332667e1a8f68aff97e3bf70bb490b84c29c19b6a35c15f5d91354a74",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "关切",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据【共同映射原则】，'neutral'（中性）指当前主要为平稳叙述、自然交流或无明确主导情绪的表达。目标人物的言语内容（劝慰）、语调（平缓柔和）和姿态（端碗靠近）共同构成一个平稳、关切的照料行为。虽然有“消乏”、“安睡”等词暗示了对他人状态的关心，但其表达方式是平静和自然的，没有表现出强烈的积极（如happy）或消极（如sad, worried）情绪，因此最符合'neutral'的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "平静",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据情绪轮定义，'neutral'指当前主要为平稳叙述、自然交流或无明确主导情绪的表达。说话者的语调、节奏和话语内容均未表现出喜悦、悲伤、愤怒、担忧或惊讶等主导情绪，因此映射为'neutral'。"
+    },
+    "image": {
+      "open_emotion": "平静",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据情绪轮定义，'neutral'指当前主要为平稳叙述、自然交流或无明确主导情绪的表达。目标人物的面部表情、姿态和语调均未表现出强烈的情感倾向，且其话语内容为中性陈述，因此映射为'neutral'。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物在对话时，面部表情稳定，嘴角有轻微上扬，眼神自然，姿态放松，手持茶杯，整体表现符合平静交流的状态。音频中语调平稳，节奏舒缓，音量适中，没有明显的情绪起伏。字幕内容为“皇上闻着，正好，消乏，安睡”，是陈述性的，描述一种安眠的场景，没有表达强烈的个人情感。综合来看，其表达状态为中性。[image:E1] [audio_subtitle:E1] [image:E2] [audio:E1]",
+  "output": "目标人物在对话时，面部表情稳定，嘴角有轻微上扬，眼神自然，姿态放松，手持茶杯，整体表现符合平静交流的状态。音频中语调平稳，节奏舒缓，音量适中，没有明显的情绪起伏。字幕内容为“皇上闻着，正好，消乏，安睡”，是陈述性的，描述一种安眠的场景，没有表达强烈的个人情感。综合来看，其表达状态为中性。[image:E1] [audio_subtitle:E1] [image:E2] [audio:E1]\n<answer>neutral</answer>",
+  "label": "happy",
+  "elapsed_seconds": 175.49548602104187
+}

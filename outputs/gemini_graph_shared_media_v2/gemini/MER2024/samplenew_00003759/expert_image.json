@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "画面中主要说话人（左侧穿卡其色外套女子）在向对方求证时双眼显著圆睁、眉毛抬高，同时嘴部大张，伴随身体前倾[E1][E2]，且语音呈现明显的上扬惊诧反问语调[E3]，典型呈现惊讶（surprise）特征。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.60s",
+      "observation": "左侧女子身体前倾，双眼睁大直视对方，嘴巴张开呈现求证神态。",
+      "interpretation": "面部眼部扩大与前倾动作反映出对所听消息的突发冲击与注意集中。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_06 @ 1.80s",
+      "observation": "左侧女子眉毛上挑，双眼圆睁，嘴巴明显张大呈惊讶状定格。",
+      "interpretation": "典型惊讶表情构型（抬眉、大张口、瞪大眼睛），直接支持惊讶情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "0.0s-1.8s",
+      "observation": "发音高亢且末尾语调大幅上扬地喊出“是吗？他真这么说的？”",
+      "interpretation": "语调充满难以置信的震惊感，与视觉惊讶表情高度一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "张嘴并探身的动态在缺乏音频时可能被弱解释为生气质问（angry），但其眉眼间并无聚拢下压的皱眉怒容，且语调为纯粹的不可置信上扬而非敌对攻击，故排除angry。"
+}

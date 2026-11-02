@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00006335",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "a0bf56d9fb9db16ede1f6dafeaeb4ef47157197d9bed5ab5ad9436046022afb9",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "图像专家捕捉到人物凝重微蹙的表情并倾向于担忧，但音频专家明确指出其语速均匀、语调沉稳克制，仅是平稳的反问核实。结合图谱记录的情境，男子在通话中客观询问军事动向，严肃神情属于常态信息核查而非显著的焦虑情绪，综合判断其当前状态偏向中立。",
+  "output": "图像专家捕捉到人物凝重微蹙的表情并倾向于担忧，但音频专家明确指出其语速均匀、语调沉稳克制，仅是平稳的反问核实。结合图谱记录的情境，男子在通话中客观询问军事动向，严肃神情属于常态信息核查而非显著的焦虑情绪，综合判断其当前状态偏向中立。\n<answer>neutral</answer>",
+  "label": "angry",
+  "elapsed_seconds": 32.734628677368164
+}

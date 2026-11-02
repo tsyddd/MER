@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia259_utt10",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "Monica's facial expression shows raised eyebrows and a tense mouth, consistent with anger. Her voice is loud and high-pitched, and she rapidly lists multiple targets of offense, indicating strong indignation.",
+  "output": "Monica's facial expression shows raised eyebrows and a tense mouth, consistent with anger. Her voice is loud and high-pitched, and she rapidly lists multiple targets of offense, indicating strong indignation.\n<answer>anger</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 5.755014419555664,
+  "node_count": null,
+  "edge_count": null
+}

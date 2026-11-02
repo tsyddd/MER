@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia40_utt0",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "在室内交流场景中，Monica依偎在Chandler身旁，先是面带微笑（person_0），随后抬头面向前方露齿大笑（person_2），同时伴随轻快上扬、兴奋开心的语调说出“Yeah baby!”（person_3与process_0），整体音视频线索充分表明其处于joy状态。",
+  "output": "在室内交流场景中，Monica依偎在Chandler身旁，先是面带微笑（person_0），随后抬头面向前方露齿大笑（person_2），同时伴随轻快上扬、兴奋开心的语调说出“Yeah baby!”（person_3与process_0），整体音视频线索充分表明其处于joy状态。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 36.11951398849487,
+  "node_count": 6,
+  "edge_count": 3
+}

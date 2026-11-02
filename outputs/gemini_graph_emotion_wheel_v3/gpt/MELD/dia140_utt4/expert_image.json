@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是画面右侧穿格纹衬衫的Ross，不是左侧背对镜头的人。他先低头并轻微皱眉，随后看向对方、张口说话并伸手示意；结合字幕，这一变化更像在斟酌并说明一个例子，而非明确表达愤怒或惊讶。[E1][E2][E3]",
+  "open_emotion": "平常地解释",
+  "answer": "neutral",
+  "mapping_reason": "当前表达以日常说明为主，未见足以支持其他标签的明确主导情绪，因此映射为neutral；这不表示他全程面无表情。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01（0.3337秒）至frame_03（0.9593秒）",
+      "observation": "Ross短暂低头，眉头略收，手在身前动作，随后重新看向左侧的人。",
+      "interpretation": "可见他在边想边说，但仅凭皱眉不足以判断为恼怒或担忧。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04（1.2512秒）至frame_07（2.2105秒）",
+      "observation": "Ross持续面向对方说话，后段一只手向对方伸出；张口幅度变化后，表情回到较平稳的状态。",
+      "interpretation": "手势和表情变化与解释、举例相符，没有清晰的对抗或受惊反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“Y'know, like-like write a play.”",
+      "observation": "字幕呈现的是一个带有重复词的举例说法。",
+      "interpretation": "话语内容支持他在提出例子；字幕不能证明语调或更细的情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "Ross起初眉头略收，后段张口较大、手势也更明显，可能带有急切感；但画面和字幕都不足以将其确定为愤怒、恐惧或其他更强的主导情绪。未提供音频，无法核查语调。"
+}

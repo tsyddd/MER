@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia21_utt6",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "bf42e3a608598de26188e2d4e2714eda6e90f3de2c795d77c68bb3237d71f5d1",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "amused",
+      "mapped_label": "joy",
+      "mapping_reason": "开放情绪'amused'（感到好笑、愉悦调侃）属于正向愉悦体验，根据情绪轮映射规则，归入包含开心、愉悦与满足体验的joy家族。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "愉悦打趣",
+      "mapped_label": "joy",
+      "mapping_reason": "说话者的调侃语气、亲密肢体接触与伴随的笑声体现了正向愉快的戏谑与调情体验，依据情绪轮定义，打趣愉悦属于正向开心/愉悦范畴，映射为joy。"
+    },
+    "image": {
+      "open_emotion": "愉悦",
+      "mapped_label": "joy",
+      "mapping_reason": "开放词‘愉悦’体现了当前亲密调侃带来的轻松开心情绪体验，符合情绪轮中joy（喜悦）家族关于愉悦、开心与满足的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "目标人物Phoebe在画面前段（frame_01至frame_04）身体贴近男士，双手搭在对方胸前，眉眼舒展且嘴角持续上翘微笑，展现出亲密的肢体互动[image:E1]。在实际音轨中，其语调轻快上扬，句末伴随明显的轻笑声与气音[audio_subtitle:E1]。尽管句式带有疑问与求证词，但亲昵的调情姿态与笑声排除了客观中性或惊讶，跨模态证据一致支持轻松调侃的愉悦体验，映射为joy。",
+  "output": "目标人物Phoebe在画面前段（frame_01至frame_04）身体贴近男士，双手搭在对方胸前，眉眼舒展且嘴角持续上翘微笑，展现出亲密的肢体互动[image:E1]。在实际音轨中，其语调轻快上扬，句末伴随明显的轻笑声与气音[audio_subtitle:E1]。尽管句式带有疑问与求证词，但亲昵的调情姿态与笑声排除了客观中性或惊讶，跨模态证据一致支持轻松调侃的愉悦体验，映射为joy。\n<answer>joy</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 52.871410608291626
+}

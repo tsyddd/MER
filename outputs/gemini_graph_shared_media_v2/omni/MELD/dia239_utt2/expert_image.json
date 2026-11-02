@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "Chandler在对话中表现出明显的困惑和不解。在E1中，他皱着眉头，眼神向下看，似乎在思考或回忆。在E2中，他张着嘴，表情显得有些惊讶和不确定。在E3中，他摊开双手，这是一个典型的表示困惑或无奈的手势。这些视觉线索与他反复询问“你摔倒了吗？”的台词相吻合，表明他正在努力理解情况，但没有表现出愤怒、悲伤或恐惧等强烈情绪。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "Chandler皱着眉头，眼神向下，表情显得困惑和思考。",
+      "interpretation": "这个表情与他正在努力理解一个情况相符，是惊讶或困惑的视觉表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.9592909218755783",
+      "observation": "Chandler张着嘴，眉毛上扬，表情显得惊讶和不确定。",
+      "interpretation": "这是一个典型的惊讶表情，与他听到意外消息时的反应一致。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04 @ 3.837163687502313",
+      "observation": "Chandler摊开双手，掌心向上，这是一个表示困惑或无奈的姿势。",
+      "interpretation": "这个手势加强了他言语中的不确定性，表明他正在寻求解释或表达自己的困惑。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有明确的反证。虽然他的表情中也包含困惑，但惊讶是更贴切的描述，因为他的反应是直接的、对突发情况的即时反应。"
+}

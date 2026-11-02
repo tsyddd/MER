@@ -1,0 +1,9 @@
+{
+  "reason": "视觉回看显示Monica在frame_04猛然折返并大步跨向前台直视Chandler，呈现出明确的逼近与介入对峙姿态[image:E1]。音轨中她在00:00-00:01以极高亢尖锐、充满质问与对抗感的语调喊出“Excuse me!”[audio_subtitle:E2]，配合字幕的强烈反问短语[audio_subtitle:E1]，体现出被言论激惹后的强烈不满。最强反证为台词首句“What?!”可能带有surprise色彩，但其实际发音具攻击性尾音且肢体主动迎击对质，核心是针对冒犯的恼火责备而非被动意外，严格归属于anger。",
+  "answer": "anger",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E2",
+    "audio_subtitle:E1"
+  ]
+}

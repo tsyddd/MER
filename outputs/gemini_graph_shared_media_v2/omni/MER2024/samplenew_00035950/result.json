@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035950",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "521bc59b8292512714ce7a1cf82373756b611bf8bd876b6099b6bd083d1d6d57",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "音频中说话者以缓慢、低沉且带有叹息感的语调说出“怎么到了自己身上，就这样不明白”，表现出一种无力和不解的情绪。字幕内容直接表达了对自身遭遇的困惑和不解，与音频中的无力感和叹息感高度一致。视觉上，人物表情凝重，眼神中流露出困惑和一丝委屈，与声音和话语内容共同指向一种悲伤和无奈的状态。虽然图像专家将其归为“worried”，但音频中明显的叹息感和无力感更符合“sad”的特征，且音频证据的可信度高于视觉描述。",
+  "output": "音频中说话者以缓慢、低沉且带有叹息感的语调说出“怎么到了自己身上，就这样不明白”，表现出一种无力和不解的情绪。字幕内容直接表达了对自身遭遇的困惑和不解，与音频中的无力感和叹息感高度一致。视觉上，人物表情凝重，眼神中流露出困惑和一丝委屈，与声音和话语内容共同指向一种悲伤和无奈的状态。虽然图像专家将其归为“worried”，但音频中明显的叹息感和无力感更符合“sad”的特征，且音频证据的可信度高于视觉描述。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 160.78279900550842
+}

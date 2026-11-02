@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Monica在音频中以高音量、急促且强硬的重音斥责Rachel（'Rachel! I’m never gonna think it’s okay for you to cheat on your husband!'），语调充满强烈的道德谴责与愤怒，视觉上眼神紧盯、面部紧绷，明确展现anger情绪。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Rachel! I’m never gonna think it’s okay for you to cheat on your husband!",
+      "observation": "Monica直呼对方名字并用强烈的绝对否定句式（'never gonna think it's okay'）直接批评对方的不当行为。",
+      "interpretation": "言语行为属于严厉的责备与抗议，体现出对朋友行为的愤怒与反对。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00 - 00:03.50",
+      "observation": "Monica开头发声陡然拔高，在'Rachel'、'never'和'cheat'上施加重音，语速偏快且音量饱满，带有明显的冲撞感与斥责声调。",
+      "interpretation": "高音高、强重音与发紧的声线是愤怒情绪的典型声学特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05 @ 2.54s",
+      "observation": "Monica侧过脸直视对方，双目圆睁，面部表情严肃无笑意，身体前倾面向Rachel。",
+      "interpretation": "专注且具对抗性的对视配合语言中的斥责，排除了中性或开玩笑的可能，支持愤怒反应。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "替代解释为disgust（对背叛婚姻行为的反感），但其声学表现主要为爆发性、高音量的直接指责而非喉音或厌恶吐气，核心互动意图在于责备与发火，因此判定为anger更为准确。"
+}

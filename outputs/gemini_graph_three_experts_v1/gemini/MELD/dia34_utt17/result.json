@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia34_utt17",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "55de13de7623a6e85879feac678dde89b7dbd56f0daf4dc5a1f20e9a6a71f9c9",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "audio_subtitle专家与graph专家均指出Monica大声呼喊对方名字，语调高亢急促，对斥责背叛丈夫的关键内容进行加重强调，展现出强烈的训诫与不满；image专家观察到的面部放松未能反映出此时声音中极其明显的斥责与激烈语气，故采信听觉与台词所体现的明确愤怒情绪。",
+  "output": "audio_subtitle专家与graph专家均指出Monica大声呼喊对方名字，语调高亢急促，对斥责背叛丈夫的关键内容进行加重强调，展现出强烈的训诫与不满；image专家观察到的面部放松未能反映出此时声音中极其明显的斥责与激烈语气，故采信听觉与台词所体现的明确愤怒情绪。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 30.41486668586731
+}

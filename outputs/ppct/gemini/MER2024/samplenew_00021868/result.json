@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00021868",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sad",
+  "emotion_analysis": "灰衣束发男子在镜头中微低着头、视线垂下且神情落寞（person_1），念出台词“也不知道，当年，三哥”（process_0）时，语调低沉、平缓且带有叹息感伤（person_2），音画结合（person_1与person_2联合）表现出明显的沉郁与悲伤情绪。",
+  "output": "灰衣束发男子在镜头中微低着头、视线垂下且神情落寞（person_1），念出台词“也不知道，当年，三哥”（process_0）时，语调低沉、平缓且带有叹息感伤（person_2），音画结合（person_1与person_2联合）表现出明显的沉郁与悲伤情绪。\n<answer>sad</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 44.6378116607666,
+  "node_count": 6,
+  "edge_count": 3
+}

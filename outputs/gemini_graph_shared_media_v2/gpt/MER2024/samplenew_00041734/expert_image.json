@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标是frame_00至frame_06中说话的女性，frame_07的男性是旁人。她持续蹙眉、注视对方，并在发问时前倾；结合字幕，最支持对辞职一事感到担忧，而非明确的愤怒。[E1][E2][E3]",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒",
+      "observation": "女性眉头收紧，嘴唇微张，视线朝画面左侧的交谈对象。",
+      "interpretation": "表情显得凝重，但单凭这一帧不足以确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.76秒；frame_04 @ 1.52秒；frame_06 @ 2.28秒",
+      "observation": "她说话时眉头持续紧锁，头部逐渐下倾、身体略向前，随后仍注视对方。",
+      "interpretation": "持续关注对方回答、神情未放松，比一瞬间的惊讶更符合担忧。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "不是，你，为什么要辞职？",
+      "observation": "字幕显示她在追问辞职原因。",
+      "interpretation": "问题内容与担忧的视觉表现相符；字幕本身不能证明语气。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "蹙眉和张口发问也可能表示不满或愤怒，但画面缺少更明确的攻击性姿态；没有音频，无法凭语调进一步区分。"
+}

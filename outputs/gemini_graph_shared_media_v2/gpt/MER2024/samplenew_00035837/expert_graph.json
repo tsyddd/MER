@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "当前片段围绕main person连续表达失去亲人的陈述展开：字幕内容与低垂视线、克制的面部状态相互补，整体更符合悲伤而非中性。图谱节点process_1记录“再也没有亲人了”，person_0记录头部微倾、视线下垂；这些节点与当前表达共同支持悲伤判断。图谱中的音频描述只能视为转述，因未提供原音轨而不能亲耳核验。",
+  "answer": "sad",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "当前字幕原话",
+      "observation": "字幕为“我知道，在这个世上，再也没有亲人了。”",
+      "interpretation": "直接表达失去亲人的处境，语义上具有明显的哀伤和丧失指向，支持sad。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0s；frame_01 @ 0.4s；frame_02 @ 0.8s；frame_03 @ 1.2s",
+      "observation": "目标人物头部轻微倾斜，视线持续向下，面部表情收敛，嘴部开合幅度较小。",
+      "interpretation": "当前可见的低垂视线和克制表情与字幕中的丧失陈述相互补，支持悲伤，而不只是一般平静。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_0；process_1",
+      "observation": "图谱记录“说话人头部微倾，视线向下垂落”（person_0），并记录其说出“再也没有亲人了”（process_1）。",
+      "interpretation": "两个节点分别提供当前体态和当前言语内容，联合指向失落情绪；它们不是背景陈设，而是目标人物当前互动中的直接证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1；person_2",
+      "observation": "图谱转述其以轻弱微哑气音、缓慢低平语调发声。未提供原音轨，无法亲耳核验。",
+      "interpretation": "该音频派生信息若可靠会进一步支持悲伤，但目前只能保留为未核实的补充证据，不能替代画面和字幕。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "最强的相反解释是其表情较克制、没有明显哭泣或强烈动作，因此也可能是平静地陈述事实；但“再也没有亲人了”的当前语义与持续低垂视线共同构成失落表达，故未采用neutral。"
+}

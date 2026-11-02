@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00005612",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "结合节点person_0、process_0以及person_1、process_1可知，围巾男子在集会对峙现场神情端正沉稳，眼神专注注视前方，双手郑重平举托递物品并清晰提出转交请求。其声音沉着坚毅、语调平稳庄重，并未表现出愤怒、惊愕或担忧等激烈情绪波动，整体状态属于克制而郑重的平静状态。",
+  "output": "结合节点person_0、process_0以及person_1、process_1可知，围巾男子在集会对峙现场神情端正沉稳，眼神专注注视前方，双手郑重平举托递物品并清晰提出转交请求。其声音沉着坚毅、语调平稳庄重，并未表现出愤怒、惊愕或担忧等激烈情绪波动，整体状态属于克制而郑重的平静状态。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 47.20560383796692,
+  "node_count": 7,
+  "edge_count": 5
+}

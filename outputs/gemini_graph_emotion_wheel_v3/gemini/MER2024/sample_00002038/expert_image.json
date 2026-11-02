@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物在各帧中均眉头明显紧蹙，眉心收紧并呈现困惑、警惕的纹理，眼神专注注视对方，微张嘴吐出疑问；结合低沉警觉的声调与台词，其表现为对未知陌生人身份的不安、防备与疑虑，而非单纯的中性发问或强烈的突发震惊。",
+  "open_emotion": "忐忑不安",
+  "answer": "worried",
+  "mapping_reason": "目标人物面部呈现紧蹙的双眉与戒备不安的神态，表现出对未知情境和不速之客的顾虑与不确定性，符合worried关于对潜在风险或未知的不安定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_04",
+      "observation": "目标人物眉心紧锁，内眉微聚，面部肌肉紧绷，眼神直视侧前方，神态充满戒备与疑虑。",
+      "interpretation": "显示出对当前面对的人或情境产生紧张与疑虑。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05至frame_07",
+      "observation": "嘴巴微张露出牙齿，下颌保持紧绷，眉头维持深锁状态，神情未见舒展。",
+      "interpretation": "持续的紧张和防御姿态，排除放松的中性状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "0.00-0.80s",
+      "observation": "人物压低声音，语调轻微带有颤抖与迟疑地发问“他是谁呀？”",
+      "interpretation": "佐证视觉上的困惑不安与警惕小心。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "面部虽带有疑问发问，但缺乏大幅度瞪眼或下巴掉落等强烈的突发失控特征，不支持典型surprise；且未见明显的对抗攻击意图，排除angry。"
+}

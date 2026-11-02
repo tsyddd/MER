@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "Joey's facial expression shows a combination of raised eyebrows, wide eyes, and an open mouth, which are consistent with surprise. His head is tilted slightly, and his gaze is fixed on Monica, indicating he is reacting to her statement. The visual evidence of his expression is supported by the subtitle where he says, 'I don't know. We're talking about whipped fish, Monica,' which suggests he is taken aback by the topic of conversation.",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "Joey's eyebrows are raised, and his eyes are wide open.",
+      "interpretation": "This facial expression is a common indicator of surprise.",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.9592909218755783",
+      "observation": "Joey's mouth is slightly open, and his head is tilted.",
+      "interpretation": "This posture and expression suggest he is processing unexpected information.",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "I don't know. We're talking about whipped fish, Monica.",
+      "observation": "The subtitle indicates Joey is reacting to a topic he finds surprising.",
+      "interpretation": "The content of the dialogue supports the visual interpretation of surprise.",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "There is no strong visual or audio evidence to support other emotions like joy or disgust. The context of the conversation does not suggest anger or sadness. The surprise interpretation is the most consistent with both the visual cues and the dialogue."
+}

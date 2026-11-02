@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "目标女性在互动中主动开启对未来风险的讨论。图谱节点[process_0]与[process_1]串联起完整的事件表述：女性阐明其核心关切在于当前事态可能引发的负面连锁反应（“会牵连到您家老爷子”）。结合视觉观察，女性在陈述时眉头微聚拢、神色凝重（对应图谱[person_2]），语调恳切紧凑，表明其关注点集中在尚未发生的潜在恶性后果上，呈现出明确的前瞻性顾虑。",
+  "open_emotion": "担忧",
+  "answer": "worried",
+  "mapping_reason": "开放情绪‘担忧’直指对未来不确定性与牵连风险的顾虑和不安，完全契合情绪轮中worried关于‘对可能负面结果、未知风险的顾虑与预期’的定义，故直接映射为worried。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "图谱记录女性开口陈述‘我主要是担心这事儿’，建立谈话指向未来风险的基调",
+      "interpretation": "明确将当下交互语义定位在对风险后果的预见与顾虑上",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "我主要是担心这事儿会牵连到您家老爷子",
+      "observation": "台词直接表达担忧可能波及长辈的潜在后果",
+      "interpretation": "事件评价聚焦于尚未落实但极具威胁的负面连锁反应，符合焦虑与担忧的认知评价",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01",
+      "observation": "女性双眉微蹙，眉心微隆，眼神定视对方，面部神情紧绷而恳切",
+      "interpretation": "面部微表情反映出内心的焦躁与顾虑，并非平淡的中性叙述",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "女性虽然眉心微蹙，但整体语调和举止保持礼貌克制，可能被替代解释为平常客观的事务性提醒（neutral）；但结合其明确表达的风险牵连预判及画外追问，更支持其处于关切与担忧状态。"
+}

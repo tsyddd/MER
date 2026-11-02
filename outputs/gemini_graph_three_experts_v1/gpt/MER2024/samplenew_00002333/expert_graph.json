@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "男子嘴角上扬露齿、眼角微眯并面带笑容〔person_1〕，同时身体斜靠沙发、右手搭在腹部前方，姿态较为放松〔person_0〕。随后笑容有所收敛〔person_4〕，但当前表现总体仍以带笑的面部状态为主。",
+  "answer": "happy",
+  "evidence_refs": [
+    "person_1",
+    "person_0",
+    "person_4"
+  ]
+}

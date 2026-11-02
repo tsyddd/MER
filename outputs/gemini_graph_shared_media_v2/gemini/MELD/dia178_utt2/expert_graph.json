@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "Monica在与Phoebe交流时，主动指向正在照顾婴儿的Chandler并夸赞进展顺利，其面带温暖开朗的笑容[E1]与轻快欣悦的声调[E2]高度协同，与图谱中欢快分享的事件节点[E3]吻合，明确体现了喜悦与欣慰的情感状态。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_04 @ 3.295s",
+      "observation": "Monica怀抱婴儿看向侧方，面部肌肉放松，嘴角明显扬起露出欣悦笑容",
+      "interpretation": "真实的喜悦表情直接体现出其对当下情景的满意与快乐",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:02-00:05",
+      "observation": "Monica说“Pheebs, it’s going great. Look at Chandler...”时语调轻快上扬，伴随赞赏与愉悦感",
+      "interpretation": "积极上扬的语调强化了其当前愉悦欣慰的情绪色彩",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "图谱记录Monica向同伴分享温馨互动场景的言语过程",
+      "interpretation": "该事件链反映出目标人物主动向友人分享积极画面的互动动机，支撑整体喜悦心境",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "可能被误判为客观陈述的neutral；但Monica的面部笑容十分明显且持续，伴随轻快上扬的语调与积极评价（it’s going great），超越了中性信息交流的范畴。"
+}

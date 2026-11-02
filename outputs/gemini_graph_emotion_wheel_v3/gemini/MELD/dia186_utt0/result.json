@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia186_utt0",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "ce61aa500b449acf27aca857327845af67ac7b2a64a913c11593cd28ac6f91bf",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "冷面调侃",
+      "mapped_label": "neutral",
+      "mapping_reason": "Chandler的表达呈现典型的死板冷幽默（deadpan），言语内容虽含揶揄，但其肢体、语调和神情均维持在冷静、克制而平稳的基线状态，无主导性的兴奋正向情绪（joy）或敌意对抗（anger），依据情绪轮定义应映射至平稳无明显情绪波动的neutral。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "嫌弃",
+      "mapped_label": "disgust",
+      "mapping_reason": "目标人物表现出明显的抗拒推避与对丢人行径的嫌弃排斥，符合disgust定义中对反感、难以接受或令人尴尬对象的排斥与厌弃，因此映射至disgust。"
+    },
+    "image": {
+      "open_emotion": "平淡调侃",
+      "mapped_label": "neutral",
+      "mapping_reason": "钱德勒虽然在台词中提及'embarrassing'并做出摆手手势，但整体肢体放松、语调平缓，面部肌肉无强烈收缩，属于生活化对话中的轻度调侃与平稳表达，依据情绪轮定义映射为neutral。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "回看8帧与实际音轨，目标人物Chandler靠在沙发上，虽在[image:E1]中有摆手推拒动作并提及‘embarrassing’，但其肢体放松从容，如[image:E2]所述面部并无皱鼻、蹙眉等厌恶或对抗性表情。专家[audio_subtitle:E2]将其连续‘no-no-no’解读为强烈的排斥嫌恶（disgust），但实际听觉表现为平稳克制的冷面吐槽语调，没有激烈的避嫌情绪震颤。整体呈现日常随性的死板冷幽默交流，符合无强烈情绪偏向的neutral。",
+  "output": "回看8帧与实际音轨，目标人物Chandler靠在沙发上，虽在[image:E1]中有摆手推拒动作并提及‘embarrassing’，但其肢体放松从容，如[image:E2]所述面部并无皱鼻、蹙眉等厌恶或对抗性表情。专家[audio_subtitle:E2]将其连续‘no-no-no’解读为强烈的排斥嫌恶（disgust），但实际听觉表现为平稳克制的冷面吐槽语调，没有激烈的避嫌情绪震颤。整体呈现日常随性的死板冷幽默交流，符合无强烈情绪偏向的neutral。\n<answer>neutral</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 80.7276177406311
+}

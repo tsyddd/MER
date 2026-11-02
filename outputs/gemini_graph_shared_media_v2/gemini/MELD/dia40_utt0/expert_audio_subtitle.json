@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "字幕原话为亲昵、兴奋的感叹句“Yeah baby!”[E1]，音频中Monica语调轻快且伴随带笑的轻柔音质[E2]，与画面中从含笑到展露牙齿的愉悦微笑表情[E3]完全一致，共同明确指向正面喜悦情绪。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Yeah baby!",
+      "observation": "Monica使用感叹语“Yeah baby!”表达赞许和庆祝",
+      "interpretation": "言语行为具有明显的积极情绪色彩与亲昵态度",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.0s - 1.1s",
+      "observation": "目标声音发音柔和轻快，尾音带有笑意与满足的韵律起伏",
+      "interpretation": "支持喜悦与亲昵的积极情绪表达，无愤怒或生硬感",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05 @ 1.04s",
+      "observation": "Monica嘴角上扬，展现自然的露齿笑意，身体放松依偎",
+      "interpretation": "视觉表情与听觉笑意高度吻合，确认当前情绪为joy",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "若语调仅仅是惯常回应可能被误判为中性，但音频中伴随的气音笑意和明显的露齿笑容排除了neutral。"
+}

@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "女子眉毛微蹙并在说话后低垂头部、下移视线，见〔person_0〕和〔person_2〕。图谱记载其语调低沉、带颤音及抽噎停顿，见〔person_1〕，这些表现共同指向当前的悲伤情绪。",
+  "answer": "sad",
+  "evidence_refs": [
+    "person_0",
+    "person_2",
+    "person_1"
+  ]
+}

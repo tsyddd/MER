@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "画面左侧穿蓝衬衫的Gunther在走出门旁通道时神情平静平缓，面向Chandler询问情况；从frame_00至frame_03发声时面部肌肉松弛，无皱眉、瞪眼或撇嘴等激烈动作；frame_04至frame_07在问完后嘴唇自然合拢，眼神与站姿稳定，呈现日常、平稳的状态。",
+  "open_emotion": "平常",
+  "answer": "neutral",
+  "mapping_reason": "Gunther的表情与举止属于日常平稳、无显著情绪波动的正常询问，符合情绪轮中neutral（平常、平稳）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_03（0.0s-0.75s）",
+      "observation": "Gunther从门边侧身站立，眉毛平整无上挑或紧皱，口部仅随发音微张，目光平视右侧的Chandler。",
+      "interpretation": "表现出自然的日常问话状态，缺乏愤怒、恐惧或惊讶的视觉特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04至frame_07（1.0s-1.75s）",
+      "observation": "Gunther双唇闭拢，面部肌肉放松，身体姿势保持直立静止，目光持续注视对方等待回应。",
+      "interpretation": "面部没有残留的情感负荷或后续波动，维持中性稳定状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "0.0s-1.0s",
+      "observation": "Gunther说出'Someone in there?'时语调低平短促，无尖锐升调或激烈重音。",
+      "interpretation": "听觉表现与视觉一致，验证了这仅是一句日常、缺乏强情绪色彩的随口询问。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "疑问句本身带有一丝好奇或探询色彩，但由于完全没有伴随挑眉睁眼等惊奇表现，不足以支持surprise。"
+}

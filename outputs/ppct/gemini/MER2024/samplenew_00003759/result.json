@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00003759",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "棕色外套女子在片段中为主要发话人（process_0），其语调明显上扬且语速急促（person_1），随后双眼睁大、嘴部张开注视对方（person_2），配合发问内容展现出强烈的意外与不可置信。",
+  "output": "棕色外套女子在片段中为主要发话人（process_0），其语调明显上扬且语速急促（person_1），随后双眼睁大、嘴部张开注视对方（person_2），配合发问内容展现出强烈的意外与不可置信。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 56.384660482406616,
+  "node_count": 7,
+  "edge_count": 4
+}

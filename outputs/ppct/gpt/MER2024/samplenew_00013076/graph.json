@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "说“正要感谢您呢！谢谢！谢，谢谢。”",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "戴着口罩，面向对面人物",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "抬起一只手至胸前",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "将双手合十置于胸前",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "两名人物隔着红白相间的栏杆面对面交流",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "同一人物将一只手抬至胸前后，进一步将双手合十置于胸前",
+      "entity_anchor": "同一人物的手部动作"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供戴口罩并面向对面人物的姿态信息，person_1提供抬起一只手至胸前的动作信息，联合后补充出该人物面向对方进行手势交流的可观察表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_0提供戴口罩并面向对面人物的姿态信息，person_2提供双手合十置于胸前的动作信息，联合后更完整呈现该人物面向对方并作出双手合十手势的可观察表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1提供单手抬至胸前的动作信息，person_2提供随后双手合十置于胸前的动作信息，联合后增加了手势由单手抬起到双手合十的连续可观察变化。",
+      "entity_anchor": null
+    }
+  ]
+}

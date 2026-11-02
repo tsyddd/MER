@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "Monica向身旁男子说明Ben今晚要来、不能让他看到“这个”[E1]；这是对尚未发生的到访表达顾虑，不是Ben已经出现。她说话时表情绷紧，随后将注意力转向街机[E2][E3]，更符合担忧而非单纯陈述。图谱process_1串联了话语和伸手动作，但与字幕、画面同源，不算额外情绪证据；person_1所述语调因未提供原音轨，不能亲耳核验。",
+  "answer": "fear",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "But Ben is coming over tonight and he can’t see this.",
+      "observation": "Monica说Ben今晚要来，并表示他不能看到“这个”。",
+      "interpretation": "担忧指向将来的到访及被看到的可能性；字幕未说明“这个”具体是什么。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05 @ 1.6683333333333332秒",
+      "observation": "Monica转头朝男子说话时睁大眼睛，嘴部绷紧、露出牙齿。",
+      "interpretation": "紧绷的表情支持她对所说情况感到不安，但单凭表情不能确定原因。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_3",
+      "observation": "节点描述Monica随后将视线转向街机并身体前倾；frame_07可见她低头转向操作台。",
+      "interpretation": "这使她的顾虑与当前互动中的街机动作相联系，但节点顺序不足以证明她要采取什么措施。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "她也可能只是在平静地说明一项安排；图谱person_1称语调平稳，但没有原音轨可核验，且画面中的紧绷表情与“不能让他看到”的话语使担忧更有依据。"
+}

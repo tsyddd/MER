@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "Joey在对话中表达了对学生的骄傲，其肢体语言（双手按胸）和面部表情（微笑）与音频中的情感基调一致。图谱节点'person_1'（双手按胸）和'person_3'（微笑）共同支持了其情绪表达。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "Joey双手抬起交叉按在胸前",
+      "interpretation": "该动作通常与情感投入或感动相关，结合其话语内容，支持其情绪为积极的骄傲与欣慰。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "person_3",
+      "observation": "Joey头部微斜，嘴角上扬微笑着注视对方",
+      "interpretation": "面部表情明确显示为微笑，是joy的直接视觉证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:03.420",
+      "observation": "Joey说：\"Awww, one of my students got an audition. I’m so proud.\"",
+      "interpretation": "话语内容直接表达了骄傲（proud）和欣慰（aww），是判断其情绪为joy的核心依据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无明确反证。虽然图谱中'person_2'描述了'轻叹声调'，但音频中该声调是积极的，与joy一致，未构成反证。"
+}

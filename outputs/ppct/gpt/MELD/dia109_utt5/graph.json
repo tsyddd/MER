@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Janice说：“Because you know, you could make little puppets out of them, and you could use them in your theater of cruelty.”",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Janice双臂交叉放在胸前。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Janice解开交叉的双臂并抬手做手势。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Janice双手抬至身前，伸出手指做手势。",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Janice双手靠近胸前，手指交握。",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_4",
+      "type": "person",
+      "content": "Janice双臂重新交叉，并将头转向右侧。",
+      "time_index": 4,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "Janice坐在餐厅桌旁，面对前景中的一名男子。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "画面中还有其他就餐者及餐桌。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "同一人物先解开交叉的双臂并抬手做手势，后续继续将双手抬至身前并伸出手指做手势",
+      "entity_anchor": "Janice的手臂和手势动作"
+    },
+    {
+      "source": "person_3",
+      "target": "person_2",
+      "relation": "after",
+      "reason": "同一人物先双手抬至身前并伸出手指，随后双手靠近胸前并手指交握",
+      "entity_anchor": "Janice的手部动作"
+    },
+    {
+      "source": "person_4",
+      "target": "person_3",
+      "relation": "after",
+      "reason": "同一人物先双手靠近胸前并手指交握，随后双臂重新交叉并将头转向右侧",
+      "entity_anchor": "Janice的姿态变化"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供Janice双臂交叉的姿态，person_1提供她随后解开双臂并抬手做手势的变化，联合呈现从交叉静止到开始 gesturing 的可见动作过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1提供Janice解开双臂并抬手的动作，person_2进一步提供她双手抬至身前并伸出手指的具体手势，联合补充了手势动作的连续发展和细节。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_2",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_2提供Janice双手向前并伸指的手势，person_3提供她随后将双手靠近胸前并交握的变化，联合呈现手势位置和形态的连续变化。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_3",
+      "target": "person_4",
+      "relation": "person_joint",
+      "reason": "person_3提供Janice双手靠近胸前并交握的姿态，person_4提供她重新交叉双臂并转头向右的后续表现，联合补充了从交握到收回姿态并转向的动作过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0限定Janice坐在餐厅桌旁并面对前景男子，context_1补充画面中还有其他就餐者及餐桌，联合后更完整地限定了多人就餐的餐厅场景及互动对象。",
+      "entity_anchor": null
+    }
+  ]
+}

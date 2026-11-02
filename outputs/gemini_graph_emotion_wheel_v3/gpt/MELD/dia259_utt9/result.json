@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia259_utt9",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "db05c16c44916312cd44a75a33353218abec775c99c4678488d5f402e1804724",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "觉得好笑",
+      "mapped_label": "joy",
+      "mapping_reason": "当前可见的笑意支持愉悦、觉得好笑的正向体验，因此映射为joy；这不等于说“idiots”本身是赞美。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "觉得好笑",
+      "mapped_label": "joy",
+      "mapping_reason": "当前更像带笑意的打趣，属于joy中的愉悦体验；字幕的责备意味使这一判断带有一定限制。"
+    },
+    "image": {
+      "open_emotion": "戏谑的愉悦",
+      "mapped_label": "joy",
+      "mapping_reason": "当前表情和姿态更接近带笑意的愉悦，映射到joy；这不表示她所说的话是友善的。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "独立回看frame_00至frame_07，Monica说话时逐渐前倾、嘴角上扬，说完仍保持笑意；[image:E1][image:E2]对这一变化的描述可信，但交握双手本身不能证明情绪。字幕“You are both idiots.”带有责备意味，是恼火解释的最强依据[audio_subtitle:E1]。结合持续的笑意，这句直接评价更像带笑的打趣，而非以恼怒为主；未提供音轨，无法用语调进一步核验。",
+  "output": "独立回看frame_00至frame_07，Monica说话时逐渐前倾、嘴角上扬，说完仍保持笑意；[image:E1][image:E2]对这一变化的描述可信，但交握双手本身不能证明情绪。字幕“You are both idiots.”带有责备意味，是恼火解释的最强依据[audio_subtitle:E1]。结合持续的笑意，这句直接评价更像带笑的打趣，而非以恼怒为主；未提供音轨，无法用语调进一步核验。\n<answer>joy</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 75.39215469360352
+}

@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia233_utt1",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "28377b2eb5597e7f5b05f1f254a992b627c9f9588a264363ea2c03cb09ddd88d",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "厌恶",
+      "mapped_label": "disgust",
+      "mapping_reason": "根据提供的情绪轮定义，'disgust'（厌恶）被描述为对令人反感、恶心或难以接受对象的排斥与厌弃。Rachel的言论和表现并非针对个人，而是针对一个提议或行为，她认为该提议是荒谬且令人反感的。她使用夸张的类比来表达自己的排斥感，并通过强调自己对鱼的恐惧来说明该提议的不可接受性。这种对某个想法或行为的强烈排斥和难以接受，与'disgust'的定义最为贴合。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "愤怒",
+      "mapped_label": "anger",
+      "mapping_reason": "根据提供的情绪轮定义，'anger'（愤怒）被描述为对冒犯、受阻或不公的恼火、责备与对抗。说话者使用了'you might as well just gotten him a fish'这种带有讽刺和责备意味的表达，以及尖锐的语气，这些都直接指向了'anger'。虽然她提到了'fear'（恐惧）的词，但其语境是比喻性的，用来加强她对行为的厌恶，而非描述她自身的恐惧状态。"
+    },
+    "image": {
+      "open_emotion": "恐惧",
+      "mapped_label": "fear",
+      "mapping_reason": "根据情绪轮的定义，'fear'是面向威胁、危险或令人害怕的负面后果而表现出的畏惧、惊恐或威胁相关的焦虑。Rachel的面部表情（紧锁的眉毛、睁大的眼睛、微张的嘴巴）和身体姿态（僵硬、后缩）是恐惧的典型表现。她的言语内容（'fish freaked me out'）直接表达了对鱼的恐惧，这与她的非语言行为完全吻合，因此将她的开放情绪词'恐惧'映射到'fear'是准确的。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "fear",
+  "emotion_analysis": "目标人物Rachel的言语内容（'fish freaked me out'）和面部表情（紧锁的眉毛、睁大的眼睛）共同指向对鱼的恐惧。音频中其语调尖锐且语速快，表现出紧张和激动，与恐惧情绪一致。虽然专家认为是厌恶或愤怒，但其言语核心是表达对鱼的恐惧，而非对提议的排斥或责备。因此，恐惧是主导情绪。",
+  "output": "目标人物Rachel的言语内容（'fish freaked me out'）和面部表情（紧锁的眉毛、睁大的眼睛）共同指向对鱼的恐惧。音频中其语调尖锐且语速快，表现出紧张和激动，与恐惧情绪一致。虽然专家认为是厌恶或愤怒，但其言语核心是表达对鱼的恐惧，而非对提议的排斥或责备。因此，恐惧是主导情绪。\n<answer>fear</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 190.42352890968323
+}

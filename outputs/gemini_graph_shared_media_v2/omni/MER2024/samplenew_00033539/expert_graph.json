@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "目标人物的初始面部表情（双眉紧蹙、眉心竖纹、微张嘴）与发出的短促升调疑问声（音频）同步，表明其处于惊讶状态。随后，他以带有反问语调说出“真的”，结合其持续的皱眉神态，表明这种惊讶中带有强烈的质疑和难以置信，而非单纯的高兴或中性。图谱中节点person_0和person_1的联合描述（视觉与听觉）是判断惊讶情绪的关键证据。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "目标人物双眉紧蹙，眉心出现竖纹，双眼看向右前方，嘴巴微张。",
+      "interpretation": "该面部表情是惊讶或震惊的典型视觉表现，为情绪判断提供了直接的视觉证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.0-0.28",
+      "observation": "目标人物发出短促的升调疑问声“啊？”。",
+      "interpretation": "该声音的语调特征（短促、升调）是表达惊讶或意外的直接听觉证据，与视觉表情一致。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "图谱节点person_0描述了目标人物的初始面部神态。",
+      "interpretation": "该节点是组织文本中对视觉证据的抽象，其描述的“双眉紧蹙”等特征是判断惊讶情绪的核心依据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱节点person_1描述了目标人物发出的疑问声。",
+      "interpretation": "该节点是组织文本中对音频证据的抽象，其描述的“短促的升调疑问声”是判断惊讶情绪的关键听觉依据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "一种可能的替代解释是“worried”（担忧）。然而，该情绪通常伴随叹气、愁眉苦脸等特征，而目标人物的面部表情是紧蹙的眉毛和微张的嘴，更符合惊讶的生理反应。此外，其言语“真的”带有反问和求证的意味，这与对突发情况的惊讶反应高度一致，而非对长期问题的担忧。因此，惊讶是更合理的解释。"
+}

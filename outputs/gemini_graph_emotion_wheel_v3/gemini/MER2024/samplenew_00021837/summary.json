@@ -1,0 +1,10 @@
+{
+  "reason": "目标人物在会议场景中作正式发言，独立核实其语音平稳厚重、无明显起伏波澜[audio_subtitle:E1]，台词仅为客观交代过往调研背景的事实陈述[audio_subtitle:E2]。视觉上，其端坐平视前方，眉宇舒展无紧绷皱缩，面部肌肉自然[image:E1]，仅在句间停顿自然抿唇收束[image:E2]。虽然严肃的神情和微抿嘴唇易被疑为担忧或感伤，但其声线沉稳坚实且缺乏针对风险或损失的情绪评价，全面印证了平稳叙述的中性交流状态。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "audio_subtitle:E2",
+    "image:E1",
+    "image:E2"
+  ]
+}

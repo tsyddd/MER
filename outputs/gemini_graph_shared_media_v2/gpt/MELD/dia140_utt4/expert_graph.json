@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "当前是Ross面对Joey提出“写一部剧”的想法，而非已经发生的成果或冲突[E1][E2]。他持续面向对方说话，表情和手势更符合平静解释想法，未见足以支持惊讶或愤怒的变化[E3]，因此选择neutral。图谱提到的语音重复未经原音轨亲耳核验；字幕虽也写有重复，但不能据此判断语调或情绪。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "图谱记载Ross面向Joey说出关于“write a play”的话。",
+      "interpretation": "界定当前事件为Ross向对方表达想法；节点本身不证明特定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Y'know, like-like write a play.",
+      "observation": "字幕呈现的是一个关于写剧本的提议，含“like-like”的重复。",
+      "interpretation": "这不是已经写成剧本的陈述；仅凭词语重复也不能判定紧张或兴奋。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.251249028533363秒；frame_06 @ 1.8768735428000445秒",
+      "observation": "Ross面对Joey说话，手部配合话语动作；眉眼和姿态没有明显突变。",
+      "interpretation": "可见表现更支持平静解释，而非强烈的惊讶或愤怒。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "“like-like”的重复及后段张口、手势也可能被理解为犹豫或激动；但没有原音轨可核验语调，画面也不足以将其确定为另一种情绪。"
+}

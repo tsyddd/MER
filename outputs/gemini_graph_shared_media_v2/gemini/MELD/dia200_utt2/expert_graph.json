@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "通过图谱节点[person_0]与[person_3]记录的互动过程，Joey在排查物品去向时依次以左手按胸指代自身、展开手势指代对方，最后收手注视对方[person_5]。整个事件链属于理性的排除法推演对话，结合音频中平稳连贯的语调，表现为客观就事论事的平静交流状态，支持neutral。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "Joey在表达“I didn't take it”时将左手按在自己胸前指代自身",
+      "interpretation": "表明其行为属于配合话语内容的逻辑性说明手势，处于平稳沟通状态",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "person_3",
+      "observation": "Joey随后向外张开手掌指向另外两人",
+      "interpretation": "说明他在理性地向同伴列举排查前提，互动平缓自然，无激烈情绪爆发",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "Joey语调清晰、节奏规律，在句尾“then who did?”时呈现自然的疑问与推论语调，无明显叫喊、颤音或气愤重音",
+      "interpretation": "听觉特征证实这仅是正常的逻辑发问与探讨，符合中性情绪",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词“then who did?”构成了反问与困惑的情境，容易被推断为surprise；但Joey在动作收束至膝盖[person_5]以及面部神情上均保持平稳陈述状态，音轨亦无惊叫或突发惊愕起伏，故排除surprise。"
+}

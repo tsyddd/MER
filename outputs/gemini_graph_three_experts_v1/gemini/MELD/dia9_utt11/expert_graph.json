@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "根据图谱记载，Rachel在提及床和衣服被毁时闭上眼睛低下头〔person_1〕，并在沙发上抱怨受损情况〔process_0〕。随后她将烧损的蓝色毛衣单手提起展示给众人看〔process_1, person_2〕，神情动作显露出对心爱衣物被毁的沮丧与难过，整体情绪表现为悲伤（sadness）。",
+  "answer": "sadness",
+  "evidence_refs": [
+    "person_1",
+    "process_0",
+    "process_1",
+    "person_2"
+  ]
+}

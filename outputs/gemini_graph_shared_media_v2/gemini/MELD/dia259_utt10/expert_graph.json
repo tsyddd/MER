@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "围绕Monica反驳不当笑话的事件链[process_0, process_1, process_2]，其在言语指控中情绪层层递进，伴随身体前倾对峙[person_0]与声量急剧上扬的高亢斥责[person_3]，表现为典型的言语攻击与愤怒[E1, E2]。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_06 @ 4.21s",
+      "observation": "Monica身体显著向前倾逼近对话对象，双眼紧盯，口部大幅张开作高声呼喊状",
+      "interpretation": "显示出强烈的进攻性对抗与情绪激化，支持高唤醒度的愤怒情绪",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:03.8 - 00:04.9",
+      "observation": "在说出“and monkeys!”时音量骤然拔高，语调尖锐急促且带有明显的严厉斥责感",
+      "interpretation": "核实了图谱节点person_3，声音表现为激动的怒斥，排除平静或单纯中立陈述",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "Monica对笑话展开“offensive to women, and doctors”的正面批评事件",
+      "interpretation": "事件语义表明她将笑话视为原则性冒犯并进行公开谴责，构成了产生愤怒指责的情境动因",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词提及“offensive”可能被推断为厌恶（disgust），但画面中未见皱鼻或避让缩退等厌恶特征，其激进的前倾逼近、挥手强调与大声呼喊表明她处于主动进攻的怒斥状态，故不采纳disgust。"
+}

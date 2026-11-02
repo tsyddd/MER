@@ -1,0 +1,10 @@
+{
+  "reason": "字幕中Monica说笑话“不好笑”，还称其冒犯女性、医生和猴子；[audio_subtitle:E1]准确对应字幕，是判断她正在表达不满的关键证据。画面中她先挥手强调，随后再次前倾、伸手说话，[image:E1]和[image:E2]的动作描述可以核实，但动作本身不足以证明愤怒。她在部分帧短暂露出笑意，[image:E4]是玩笑式反驳的反证；结合明确的批评和持续强调的动作，仍以anger更贴合。未提供音轨，不能据此判断她的实际语调。",
+  "answer": "anger",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "image:E1",
+    "image:E2",
+    "image:E4"
+  ]
+}

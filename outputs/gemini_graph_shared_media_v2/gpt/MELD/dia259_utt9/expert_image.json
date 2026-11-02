@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物Monica从低头、双手紧扣转为前倾说话，随后持续露出笑容；这些可见变化更支持带笑的愉悦表达[E1][E2]。字幕用词尖锐，但画面没有相应的怒容[E3]。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒；frame_03 @ 0.9175826209244662秒",
+      "observation": "Monica起初低头、双手紧扣在胸前，随后身体前倾并张口说话。",
+      "interpretation": "姿态随说话变得更主动；紧扣双手本身不足以判定紧张或愤怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05 @ 1.5014988342400355秒；frame_07 @ 2.127123348506717秒",
+      "observation": "她保持前倾，嘴角上扬，结束时仍可见笑容；未见明显皱眉或紧绷怒容。",
+      "interpretation": "持续的笑容与整体面部表现更支持joy，而非anger。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "You are both idiots.",
+      "observation": "字幕称“你们俩都是笨蛋”。",
+      "interpretation": "措辞可能表达责备，与joy构成反证；没有音频，无法凭语调判定是否在打趣。",
+      "polarity": "counter"
+    }
+  ],
+  "counterevidence": "最强的相反解释是字幕中的责备意味着anger；但Monica在说话后仍带笑，画面未显示明确怒容。仅凭画面也无法排除这是礼貌或紧张的笑。"
+}

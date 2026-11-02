@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物在听到对话后发出高音调、急促上升的感叹词“啊？”，紧接着以反问语气追问“真的？”，韵律呈现突发性高音与疑问语调[E1]；结合面部抬眉、双眼发愣及微张的嘴部动作[E2]，明确表达出接收到出乎意料信息时的震惊与诧异，符合surprise。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "0.00s-1.80s",
+      "observation": "目标人物以明显的升调与较高音高发出感叹“啊？”，随后接语调上扬的疑问句“真的？”",
+      "interpretation": "突发的高音叹词与反诘语调展示出对所听事件的突发意外与难以置信，是典型的惊讶韵律表现",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.28s",
+      "observation": "人物双眼睁大，眉头抬起微拢，嘴巴微张保持定格",
+      "interpretation": "面部停滞与睁眼张嘴的微表情与听觉上的诧异反问高度吻合，支持意外惊讶而非担忧或中性",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽眉头稍有牵动可能被误判为担忧（worried），但语调清脆高昂且无沉重叹息或焦虑颤抖，主要是对突发信息的应激惊讶反应。"
+}

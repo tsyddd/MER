@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia33_utt6",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "42676d691bc7435fdaa13fee5000f399ed11ddb8973351645244f7085bfc901a",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "烦躁",
+      "mapped_label": "anger",
+      "mapping_reason": "烦躁指向哭声持续、安抚受阻时的恼火与不满，依本情绪轮最接近anger；这里不意味着强烈愤怒或对婴儿的责备。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "烦躁",
+      "mapped_label": "anger",
+      "mapping_reason": "当前烦躁主要针对哭声持续、安抚受阻；按情绪轮中受阻引发恼火的定义，映射为anger。这里不表示她对婴儿有强烈愤怒。"
+    },
+    "image": {
+      "open_emotion": "烦躁",
+      "mapped_label": "anger",
+      "mapping_reason": "烦躁指向当前受阻所引起的不满，依此映射到anger；这里不意味着她在对襁褓中的对象发怒。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "Rachel从frame_00低头看襁褓，到frame_02—frame_04抬头说话、眉头收紧并调整怀抱；[image:E1]的描述与画面相符，但表情本身不足以区分烦躁和担忧。字幕中的“Oh come on, what am I gonna do”及“its been hours and it won’t stop crying”[audio_subtitle:E1][audio_subtitle:E2]，把她的困扰指向哭声持续不停、安抚受阻。问“怎么办”也可表达无助，但当前没有明确的危险预期；结合话语与表情，主导表现更接近受挫后的烦躁，映射为anger。未提供音轨，[graph:E4]转述的语调和音量无法核实，不用于取舍。",
+  "output": "Rachel从frame_00低头看襁褓，到frame_02—frame_04抬头说话、眉头收紧并调整怀抱；[image:E1]的描述与画面相符，但表情本身不足以区分烦躁和担忧。字幕中的“Oh come on, what am I gonna do”及“its been hours and it won’t stop crying”[audio_subtitle:E1][audio_subtitle:E2]，把她的困扰指向哭声持续不停、安抚受阻。问“怎么办”也可表达无助，但当前没有明确的危险预期；结合话语与表情，主导表现更接近受挫后的烦躁，映射为anger。未提供音轨，[graph:E4]转述的语调和音量无法核实，不用于取舍。\n<answer>anger</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 88.9341926574707
+}

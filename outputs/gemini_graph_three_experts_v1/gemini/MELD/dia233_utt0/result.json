@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia233_utt0",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "a94f5575d3aaa8dce6c1acd443e893d451a7588d0c29ef22d0ffe8091580c26e",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "audio_subtitle专家指出的尖锐质问语调及重点词的强调，与image专家观察到的双手叉腰前倾对抗姿态及严肃微皱的眉头高度一致，共同体现出强烈的质问与被激怒状态；graph专家将这一行为误读为平静客观探询，忽略了视听层面显现的对抗情绪，故采信视听双重指向的愤怒。",
+  "output": "audio_subtitle专家指出的尖锐质问语调及重点词的强调，与image专家观察到的双手叉腰前倾对抗姿态及严肃微皱的眉头高度一致，共同体现出强烈的质问与被激怒状态；graph专家将这一行为误读为平静客观探询，忽略了视听层面显现的对抗情绪，故采信视听双重指向的愤怒。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 47.17273426055908
+}

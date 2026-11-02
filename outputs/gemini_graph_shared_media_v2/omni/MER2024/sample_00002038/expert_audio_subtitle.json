@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者在说“他，是谁呀？”时，语调上扬，带有明显的疑问和探寻意味。结合其面部表情，眉头紧锁，眼神中流露出困惑和一丝不安，表明她对所见之人身份的不确定和关注。字幕内容与音频语调一致，共同指向一种探寻和不确定的情绪。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:00.800",
+      "observation": "说话者以疑问的语调说出“他，是谁呀？”，语速正常，但句末上扬，表现出明显的疑问和探寻。",
+      "interpretation": "音频中的疑问语气是判断情绪的关键，直接支持了“surprise”这一情绪，因为它表达了对未知情况的即时反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "他，是谁呀？",
+      "observation": "字幕显示说话者在询问“他，是谁呀？”，这是一个典型的疑问句。",
+      "interpretation": "字幕内容与音频一致，证实了说话者正在提出一个疑问，这与“surprise”情绪相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 @ 00:00:00.000",
+      "observation": "说话者的面部表情显示出困惑和一丝不安，眉头紧锁，眼神中带有探寻的意味。",
+      "interpretation": "视觉上，说话者的表情与她所提出的问题相匹配，共同营造了一种对未知情况感到惊讶和困惑的氛围。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽然说话者的表情中也带有一丝担忧，但其主要情绪是针对“他是谁”这一问题的即时反应，因此“surprise”比“worried”更准确。"
+}

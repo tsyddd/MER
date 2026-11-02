@@ -1,0 +1,8 @@
+{
+  "reason": "画面右侧的Janice起初略带笑意，随后比画木偶、前倾，至frame_06眉头收紧，frame_07重新抱臂；[image:E2]对表情变化的描述可直接由画面核实。字幕中的“your theater of cruelty”指向对方，使这些变化更像讥讽式责备，而非单纯兴致勃勃地讲解；[audio_subtitle:E1]的措辞观察可信，但其语用判断仍是解释。开头的笑意和比画也可能带有玩笑成分，且未提供音轨核实语调；综合当前话语与视觉变化，主导表现更接近不满。",
+  "answer": "anger",
+  "evidence_refs": [
+    "image:E2",
+    "audio_subtitle:E1"
+  ]
+}

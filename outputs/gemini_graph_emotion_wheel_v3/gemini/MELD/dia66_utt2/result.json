@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia66_utt2",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "5a18845c511d8d042e0aafc9325f0ce10daa1e74888c7cd85c82140504ee351d",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "愉悦",
+      "mapped_label": "joy",
+      "mapping_reason": "开放情绪'愉悦'体现了当前对体验的高度满意与开心互动，完全符合情绪轮中 joy 家族关于正向愉悦、满足体验的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "愉悦",
+      "mapped_label": "joy",
+      "mapping_reason": "目标人物在言语和声音中表现出对航程经历的满意与开心，符合joy类别中关于当前愉悦、满足的正向体验定义。"
+    },
+    "image": {
+      "open_emotion": "开心",
+      "mapped_label": "joy",
+      "mapping_reason": "Rachel的面部表情表现出充分的露齿笑容与欣喜神态，属于正面愉悦体验，直接映射至joy类别。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "独立核验视频与音频，Rachel在下飞机回应空乘时，全程展现出放松自然的灿烂露齿微笑[image:E1][image:E2]，并在实际音频00:01-00:04中以轻快上扬、含笑的语调真诚回应“Yes, I did. Thank you very much, it was excellent.”[audio_subtitle:E2]。最强反证认为这可能仅是机舱场景下的礼貌社交客套（neutral），但其强烈的积极词汇评价结合持续明朗的笑容与轻快声调，明显超越了平稳中性的常规礼节边界，属于明确的正向愉悦体验，应判定为joy。",
+  "output": "独立核验视频与音频，Rachel在下飞机回应空乘时，全程展现出放松自然的灿烂露齿微笑[image:E1][image:E2]，并在实际音频00:01-00:04中以轻快上扬、含笑的语调真诚回应“Yes, I did. Thank you very much, it was excellent.”[audio_subtitle:E2]。最强反证认为这可能仅是机舱场景下的礼貌社交客套（neutral），但其强烈的积极词汇评价结合持续明朗的笑容与轻快声调，明显超越了平稳中性的常规礼节边界，属于明确的正向愉悦体验，应判定为joy。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 57.04620599746704
+}

@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "Monica在多个帧中表现出强烈的惊讶和恐惧。她的嘴巴在帧3和帧4中张开，眼睛睁大，视线在帧5到帧8中快速向右移动，表现出对突发情况的强烈反应。在音频中，她喊出“No-no-no, no!”，这与她的视觉表现一致，表明她正在对一个令人震惊或害怕的事件做出反应。虽然惊讶和恐惧在情绪轮中是不同的类别，但她的表现更偏向于对突发威胁的恐惧反应。",
+  "open_emotion": "fear",
+  "answer": "fear",
+  "mapping_reason": "根据情绪轮的定义，'fear'是面向威胁、危险或令人害怕的负面后果时表现出的畏惧、惊恐或威胁相关的焦虑。Monica的视觉表现（张大的嘴巴、睁大的眼睛、快速的视线移动）和听觉表现（急促的“不”声）共同指向一种对突发威胁的恐惧反应，因此映射到'fear'是合理的。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_03",
+      "observation": "Monica的嘴巴张开，眼睛睁大。",
+      "interpretation": "这是惊讶或恐惧的典型面部表情。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05",
+      "observation": "Monica的视线向画面右侧快速移动。",
+      "interpretation": "表明她的注意力被画面外的某个突发事件所吸引。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00:01.710040338995596",
+      "observation": "Monica喊出“No-no-no, no!”。",
+      "interpretation": "急促的否定声表明她正在对一个负面事件做出反应，可能带有恐惧或惊吓的成分。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽然Monica的表情也带有惊讶的成分，但她的反应是急促和带有否定的，这更符合对威胁的恐惧反应，而非单纯的惊讶。"
+}

@@ -1,0 +1,46 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "字幕显示她说：“手里还握着一截风筝线”。",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "她的嘴部持续开合。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "她的视线朝向画面右下方。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "嘴部持续开合提供了她正在进行言语表达的可见信息，视线朝向画面右下方提供了她的注意方向；二者联合后补充出她在朝画面右下方进行言语交流的可观察信息。",
+      "entity_anchor": null
+    }
+  ]
+}

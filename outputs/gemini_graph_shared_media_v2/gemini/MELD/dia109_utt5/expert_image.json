@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物Janice在片段首尾均保持抱臂靠椅的防备与对抗性姿态[E1]，中间配合言语做出讽刺性的手指比划，并在结尾（frame_06至frame_07）展现出明显的压低眉部、嘴角下沉与冰冷注视[E2]；结合台词中对对方‘残酷剧场’的尖锐讽刺与音频中充满怨怼、讥讽的语调，可见其表现并非轻松玩乐，而是带有攻击与敌意的冷怒。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.00s",
+      "observation": "Janice身体后倾倚靠椅背，双臂在胸前紧紧交叉，眼神固定直视对面的男士。",
+      "interpretation": "封闭式抱臂姿态结合直视体现出戒备、抗拒与对峙心理，为整段对话奠定对抗基调。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_06 @ 6.30s",
+      "observation": "在说出'cruelty'时双眉向眉心聚拢，嘴唇紧绷收紧，面部出现明显的讥讽与厌怒神情，随后在frame_07重新迅速抱臂冷视。",
+      "interpretation": "微表情与肢体语言闭合体现了话语背后的敌意与不满情绪，否定了单纯的中立或愉快互动。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "theater of cruelty",
+      "observation": "台词提及'make little puppets... use them in your theater of cruelty'。",
+      "interpretation": "用词具有极强的讥讽与谴责色彩，表明动作手势是攻击性嘲弄而非真正开心的比拟。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "在frame_03至frame_05比划木偶手势时，其表情生动且嘴角略微扬起，易被误判为joy或幽默调侃；但该笑意转瞬即逝且紧接冷峻的抱臂怒视（frame_07），本质为讽刺性冷笑而非真正的喜悦。"
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Rachel使用感叹短语[E1]，并在语音开头以极高的音调和短促吸气爆发喊出'Oh my God!'[E2]，配合张口瞪眼的视觉反应[E3]，体现了认知失调带来的强烈震惊，符合surprise。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Oh my God! You’re a 30 year old virgin!",
+      "observation": "台词由极高感叹强度的感叹词'Oh my God!'起始，紧接带有重音的信息揭示句式。",
+      "interpretation": "典型用于接收到出乎意料事实时的突发惊叹反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00 - 00:02",
+      "observation": "Rachel在'Oh my God'处音高急剧拉升，带有明显的吸气爆发与高音调延伸，随后语速在'30-year-old virgin'强调重读。",
+      "interpretation": "高音调突增和惊呼声线直接反映了心理上的巨大意外与不可置信（surprise）。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.00s",
+      "observation": "Rachel嘴部大张呈O形，双眼瞪大，身体伴随后倾停滞动作。",
+      "interpretation": "视觉上经典的惊讶面部动作单元与听觉高亢惊呼完全吻合。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽然后续语句可能带有一丝戏弄或喜感（joy），但其核心言语行为和起始生理韵律是由突发真相引发的极度惊诧，并非单纯的欢愉。"
+}

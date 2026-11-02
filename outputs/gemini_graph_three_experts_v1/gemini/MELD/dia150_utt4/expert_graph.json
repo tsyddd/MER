@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载Janice在与对方道别时说出“Good-bye”〔process_0〕及全名“Chandler Bing.”〔process_1〕。在表达过程中，她将双臂交叉抱在胸前呈现防御与收敛姿态〔person_2〕，随后注视着对方且嘴巴微张保持停顿〔person_3〕，神态流露出离别时的怅惘与不舍，体现出明显的悲伤情绪。",
+  "answer": "sadness",
+  "evidence_refs": [
+    "process_0",
+    "process_1",
+    "person_2",
+    "person_3"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00038936",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "她面对对方谈及“出了点意外”，眉头微蹙、嘴角下压，随后低头，表情明显带有担忧和关切。画面中没有愤怒或惊喜等更强烈情绪表现。",
+  "output": "她面对对方谈及“出了点意外”，眉头微蹙、嘴角下压，随后低头，表情明显带有担忧和关切。画面中没有愤怒或惊喜等更强烈情绪表现。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 26.32796549797058,
+  "node_count": null,
+  "edge_count": null
+}

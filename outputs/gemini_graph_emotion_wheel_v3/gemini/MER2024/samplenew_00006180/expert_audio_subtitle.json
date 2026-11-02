@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "女教师在课堂上自然回应学生并面向全班发起询问，声音温柔柔和、语速平稳适中，语调亲切自然，没有剧烈的起伏、兴奋狂喜或焦虑负面情绪，呈现出标准且温和的教学交流状态。",
+  "open_emotion": "平稳温和",
+  "answer": "neutral",
+  "mapping_reason": "目标人物处于正常自然的课堂问答与教学互动中，态度亲切但无强烈占主导的兴奋（happy）或忧虑（worried），依据情绪轮定义，平稳叙述与自然交流状态映射为neutral。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "女教师发声轻柔、语调平缓微扬，以亲和的师生交流语调说出提问，无音量爆发或情绪波动。",
+      "interpretation": "体现出平和、耐心的常态交流意图，缺乏剧烈情绪激发。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "小毛驴，老师也没见过。同学们，有没有知道的？",
+      "observation": "台词为据实陈述并向全班提出互动式疑问句，内容平实无情感偏向词。",
+      "interpretation": "属于正常的日常课堂言语行为，没有强烈的喜怒哀乐评价。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02 (00:01.62) 至 frame_05 (00:04.00)",
+      "observation": "女教师面容舒展，眉眼自然，神情专注且温和地注视学生方向。",
+      "interpretation": "视觉表情与平稳温和的语言韵律一致，支持处于平稳中性状态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "语调略带亲切与微微微笑，易被误判为轻微喜悦（happy），但该表现主要源于教师角色的职业亲和力，并非强烈的愉悦或兴奋事件所引发。"
+}

@@ -1,0 +1,12 @@
+{
+  "reason": "Chandler的陈述内容是关于一个假设性情境的夸张描述，其语调平稳清晰，肢体动作（抬手、叉腰）为解释性姿态，无恐惧或愤怒迹象。音频中观众的笑声明确证实了该陈述的喜剧意图，与图像中其面部表情和手势一致。尽管内容涉及恐惧，但整体表现是幽默的，因此应归为joy。",
+  "answer": "joy",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "audio_subtitle:E2",
+    "image:E1",
+    "image:E2",
+    "image:E3",
+    "image:E4"
+  ]
+}

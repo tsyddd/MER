@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。台词“Are you sure?”表达对信息的疑问与意外感，因此当前情绪更接近惊讶。",
+  "answer": "surprise",
+  "evidence_refs": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00002038",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "结合节点person_0（双眉紧蹙、眉心隆起）与person_1（目光投向右侧）的联合表现，目标人物面部呈现出明显的紧张与困惑。配合节点person_2中偏低且疑问上扬的语调以及台词process_0“他是谁呀？”，体现出她对陌生对象的不安、警惕与焦虑情绪。",
+  "output": "结合节点person_0（双眉紧蹙、眉心隆起）与person_1（目光投向右侧）的联合表现，目标人物面部呈现出明显的紧张与困惑。配合节点person_2中偏低且疑问上扬的语调以及台词process_0“他是谁呀？”，体现出她对陌生对象的不安、警惕与焦虑情绪。\n<answer>worried</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 18.93964958190918,
+  "node_count": 5,
+  "edge_count": 3
+}

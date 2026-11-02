@@ -1,0 +1,12 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载Joey在客厅沙发上与他人交谈，身体靠坐且左臂固定在吊带中〔context_0, person_0〕。他先后平静陈述假设与应对策略，称“You have a fear of heights, you go to the top of the building!”〔process_0, process_1〕，肢体上伴随右手微摊到食指向前指点的说明性手势〔person_1〕。台词中提到的恐惧仅为论述例子，整体举止是在客观阐述观点，未体现出愤怒、喜悦或恐惧等强烈情绪波动，当前情绪为中性。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "context_0",
+    "person_0",
+    "process_0",
+    "process_1",
+    "person_1"
+  ]
+}

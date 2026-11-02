@@ -1,0 +1,3 @@
+{
+  "text": "在带有洗手间标识的室内走廊中，Chandler起初面向身旁的男士说话〔process_0〕，随后一名女子从门内走出〔process_1〕，他随即转身并摊开右臂向她打招呼〔process_2〕。在女子出现的同时，Chandler的注意力转向她，肢体动作从朝向男士转变为面向女子〔person_1 after person_0〕。他接着对女子提问，语速出现停顿与重复，右手向前伸展摊开〔process_3〕，表现出可能的迟疑或试探意图〔person_2 after person_1〕。之后，他放下手臂并将手插入口袋，但仍保持面朝女子〔person_3 after person_2〕。整个过程发生在同一场景中，现场有Chandler、男士和女子三人共处〔context_1 simultaneous context_0〕。Chandler对女子的连续互动〔process_2 joint process_3〕以及其肢体与言语的同步变化〔person_1 joint person_2〕，可能暗示其试图建立对话但略显紧张。"
+}

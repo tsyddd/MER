@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "目标说话人为催眠磁带（Hypnosis Tape），对应画面中床头架上静止播放的录音机（frame_00至frame_07）。画面中躺在床上的角色闭目沉睡，录音设备平稳运作无任何异常动态；结合音轨中女声平稳沉缓、毫无情绪波动的催眠指令语音，整体呈现完全的中性与平静状态。",
+  "open_emotion": "平稳",
+  "answer": "neutral",
+  "mapping_reason": "目标发声主体为无情感波动的催眠磁带录音，语调沉静单调，符合neutral定义的平稳、日常且无主导情绪反应的范畴。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00-frame_07 (0.0s-0.625s)",
+      "observation": "床头架中央摆放着一台录音播放设备，在整个片段中保持静止；床上人物闭眼躺卧沉睡，面部放松，无剧烈动作或情绪表情。",
+      "interpretation": "视觉主体所处环境与设备状态平稳，未表现出任何激烈情绪的视觉线索。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:01",
+      "observation": "磁带播放出平稳低沉、语调毫无起伏的女声单词'Deeper.'",
+      "interpretation": "催眠磁带的语气极度平稳单调，完全属于中性引导语调。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无反向情绪表现，唯一限制在于发声者为非人类录音设备，其发声特性本质即为机械化平稳。"
+}

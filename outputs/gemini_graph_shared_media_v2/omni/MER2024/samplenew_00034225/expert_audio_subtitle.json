@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者在问句中使用了升调，语速平稳，但语气中带有明显的疑问和一丝不确定，表明他正在寻求信息或确认。字幕内容为疑问句，与语调一致，没有表现出愤怒、悲伤或喜悦等强烈情绪。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:02.080",
+      "observation": "说话者以疑问的语调说出“怎么？他不好对付啊。”，句末音调上扬。",
+      "interpretation": "疑问句的语调是判断情绪的关键。升调表明说话者正在提问，其情绪是好奇或惊讶，而非愤怒或悲伤。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "怎么？他不好对付啊。",
+      "observation": "字幕显示为一个疑问句，内容是询问对方是否难以对付。",
+      "interpretation": "字幕内容与音频一致，证实了说话者是在提问，这支持了惊讶或好奇的情绪判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 - frame_07",
+      "observation": "说话者的面部表情较为平静，没有明显的皱眉、瞪眼等愤怒或悲伤的迹象。",
+      "interpretation": "视觉上没有表现出强烈的情绪，与音频中平稳的疑问语气相符，排除了愤怒或悲伤的可能性。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的替代解释是'neutral'。然而，说话者使用了疑问句式和升调，这表明他并非完全中立，而是对某事感到惊讶或好奇。因此，'surprise'是比'neutral'更具区分力的判断。"
+}

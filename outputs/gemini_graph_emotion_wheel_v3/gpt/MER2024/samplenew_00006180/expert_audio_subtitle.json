@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物先说明自己没见过小毛驴，再向同学提问；这是自然的课堂交流，未见明确占主导的惊讶或担忧。[E1][E2]画面中的表情与这种平和的询问相符。[E3]本片段未提供音频，不能判断语调或音量。",
+  "open_emotion": "平和询问",
+  "answer": "neutral",
+  "mapping_reason": "“平和询问”在此体现为自然交流，而非因意外消息产生的惊讶；按情绪轮映射为neutral。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "「小毛驴，老师也没见过」",
+      "observation": "目标人物说明自己也没见过小毛驴。",
+      "interpretation": "这是对自身所知的陈述，没有明确的情绪评价。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "「同学们，有没有知道的？」",
+      "observation": "目标人物向同学征询答案。",
+      "interpretation": "疑问句在这里承担课堂提问的作用，不能仅凭提问判为惊讶。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05，4.004秒",
+      "observation": "目标人物面向同学，表情略带笑意，没有明显紧绷或对抗动作。",
+      "interpretation": "与平和、友善的提问相符；轻微笑意不足以单独支持喜悦。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是好奇：她确实在询问自己不知道的事。但字幕只支持求取答案，画面也未显示明确的意外反应；没有音频，无法进一步核查语气。"
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "围绕Joey与对面人物的言语互动，从反驳转述事实到提出讽刺比喻，Joey整体呈现出低唤醒度的冷面调侃状态。引用图谱节点[person_4]的语调描述并结合真实音轨核实[E2]，其发音节奏平缓且尾调自然轻落，视觉上[E3]面部舒展无激愤或笑态，确认为neutral。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_4",
+      "observation": "图谱节点person_4记录Joey语速平缓，尾音轻落，与节点process_0至process_1从客观事实反驳到讽刺对方站立表现的事件链相配合",
+      "interpretation": "体现言语交锋属于日常节奏的交流与揶揄，未触发情绪性声调突变，支持基线中立状态",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00 - 00:03",
+      "observation": "Joey说出“No-no, she kicked our butts. You could be on the Olympic standing-there team.”时声调平稳，音量适中，无明显上扬的高亢笑声亦无下沉的粗暴质问音",
+      "interpretation": "实际音轨直接核实了语调的平实与就事论事感，排除了实质性愤怒或兴奋",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.58s",
+      "observation": "Joey在开口反驳时抬起右手食指作指向动作，眉头平直舒展，双眼与唇部无紧绷或咧嘴笑意",
+      "interpretation": "肢体手势仅为对话语焦点的指示性强调，缺乏情绪过载的肌紧张表现",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是anger（因台词涉及直接否定与“she kicked our butts”的认输挫败感）或joy（讽刺对方为“站立代表队”的幽默感）。然而事件语义分析表明，该互动属于朋友间习惯性的直言吐槽，Joey既无攻击性声调和蹙眉动作，也无抑制不住的笑容，故不采纳愤怒或高兴。"
+}

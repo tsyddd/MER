@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013127",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "happy",
+  "emotion_analysis": "目标人物通过process_0面向画面右侧人物开口交流，person_0与person_1共同显示其持续注视对方并说话。process_1与process_2通过process_joint构成连续话语，表达对方出乎意料、自己此前低估了对方；画面中他持续微笑、面部放松，整体呈现轻松带欣赏的愉快情绪。",
+  "output": "目标人物通过process_0面向画面右侧人物开口交流，person_0与person_1共同显示其持续注视对方并说话。process_1与process_2通过process_joint构成连续话语，表达对方出乎意料、自己此前低估了对方；画面中他持续微笑、面部放松，整体呈现轻松带欣赏的愉快情绪。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 28.603113889694214,
+  "node_count": 7,
+  "edge_count": 7
+}

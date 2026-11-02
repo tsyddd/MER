@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标说话人在询问对方身份时音量压得较低，声音伴有轻微气声与迟疑颤音，言语行为并非公开、平稳的普通求知，而是在面对陌生人或未知情境时带有戒备与防范心理。视觉上紧蹙的眉头与局促的神态印证了其内心对未知的忐忑不安，整体主导情绪倾向于担忧与不安。",
+  "open_emotion": "不安",
+  "answer": "worried",
+  "mapping_reason": "面对未知人物表现出的压抑低语与戒备神态，反映了对潜在风险的不确定感与心理防御，符合情绪轮中worried（对未知风险或不可控情境的焦虑、忐忑与不安）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "0.0s-0.7s",
+      "observation": "目标人物以较低音量发出轻声询问，尾音微弱且带有气声，语速迟缓收敛。",
+      "interpretation": "低微、压抑的语调显示出其在说话时具有明显的顾忌与小心谨慎，传达出内心的防备与不安。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "他，是谁呀？",
+      "observation": "使用探究对方身份的疑问句，句式短促且带有谨慎求问的意图。",
+      "interpretation": "在语境中表现出对眼前人物身份缺乏认知所产生的不确定感与提防。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "面部双眉紧锁，双眼凝视并伴有困惑微怯的苦涩神情。",
+      "interpretation": "面部表情紧绷、充满戒备，与低语询问的声音特征协同强化了担忧不安的主导情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "疑问句表面上可被解释为对新出现人物的意外（surprise）或单纯信息询问（neutral），但说话人声音明显压低且伴随颤音，神态紧绷蹙眉，缺乏surprise的突发张力以及neutral的平稳松弛。"
+}

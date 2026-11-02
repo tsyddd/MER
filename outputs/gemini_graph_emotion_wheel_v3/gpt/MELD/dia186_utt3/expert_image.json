@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是坐在扶手椅里、拿电话的Joey，不是画面左侧局部可见的人。他从闭眼、抿嘴转为垂眼说话，结束时嘴角仍略向下，呈现克制的歉意[E1][E2]。字幕中的道歉与这一视觉表现相符[E3]；但画面不足以证明强烈悲伤。",
+  "open_emotion": "歉疚",
+  "answer": "sadness",
+  "mapping_reason": "歉疚不是情绪轮中的独立类别；此处针对取消约定的歉意，结合低落、收敛的面部表现，近似映射为sadness，而非愤怒或恐惧。该映射不表示他正强烈哀伤。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.000秒）至frame_02（0.542秒）",
+      "observation": "Joey拿着电话，起初闭眼、双唇抿起，随后张口说话，眉部略有收拢。",
+      "interpretation": "表情较为收敛，与轻度歉疚相容；单凭闭眼不能断定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04（1.084秒）至frame_07（1.919秒）",
+      "observation": "他说话时视线偏下，靠在椅背上；末帧闭嘴，嘴角略向下，没有明显笑容。",
+      "interpretation": "延续了低落、克制的表现，但姿态也可能只是通话时的放松。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“I’m sorry I gotta cancel tonight baby”",
+      "observation": "字幕显示他为取消今晚的约定道歉。",
+      "interpretation": "为将视觉上的收敛表情理解为歉疚提供语境；字幕不能证明他的语调。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "Joey的坐姿较放松，也没有可辨认的哭泣或强烈痛苦表情；这可能只是一次平静、礼貌的道歉。画面左侧人物只露出局部，不能用其反应判断Joey的情绪；本片段未提供音频。"
+}

@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "Ross在对话中表现出强烈的质问和施压，其面部表情（张嘴、皱眉、眼神锐利）和手势（指向、挥动）与字幕内容“我们知道你拿了，所以就省省时间，招了吧！”高度一致。他的语调（音频）也证实了这是一种带有指责和不耐烦的愤怒，而非惊讶或恐惧。因此，他的情绪是愤怒。",
+  "open_emotion": "愤怒",
+  "answer": "anger",
+  "mapping_reason": "根据情绪轮定义，'anger'是因冒犯、不公或受阻而产生的恼火、责备与对抗。Ross的行为和话语直接指向对他人行为的指责和施压，完全符合该情绪的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "Ross的嘴巴张开，眉毛皱起，眼神直视前方，表情显得激动和质问。",
+      "interpretation": "这是愤怒或强烈质问的典型面部特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04",
+      "observation": "Ross的手势从指向变为挥动，动作幅度大，表现出一种不耐烦和施压的姿态。",
+      "interpretation": "手势加强了言语中的对抗和施压意味。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "We know you took so just-just save yourself the time and confess!",
+      "observation": "字幕内容是直接的指控和命令，要求对方“招供”。",
+      "interpretation": "言语内容是愤怒情绪的直接表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "音频中，Ross的语调高亢、急促且带有明显的指责和不耐烦。",
+      "interpretation": "听觉信息证实了其言语内容所表达的愤怒情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。所有视觉、听觉和文本证据都一致指向愤怒。"
+}

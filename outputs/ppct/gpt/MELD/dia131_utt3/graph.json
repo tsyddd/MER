@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Rachel说：“Oh, everything went great.”",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Rachel手持一件黑色衣物。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Rachel站立，身体朝向左侧。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Rachel的双手在身前移动并做手势。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Rachel抬起右手，手中拿着黑色衣物。",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "镜头切换后，Rachel背对镜头，面向穿红色上衣的女性。",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "Rachel位于室内房间中，附近有一名穿棕色西装的男性和一名穿红色上衣的女性。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "Rachel与穿红色上衣的女性处于面对面交流位置。",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "同一人物的手部动作从身前移动做手势发展为抬起右手并拿着黑色衣物",
+      "entity_anchor": "Rachel的手部动作"
+    },
+    {
+      "source": "context_1",
+      "target": "context_0",
+      "relation": "after",
+      "reason": "同一人物所处的互动环境从与他人同处室内发展为与穿红色上衣的女性面对面交流",
+      "entity_anchor": "Rachel与穿红色上衣女性的互动状态"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供Rachel站立并朝向左侧的身体朝向信息，person_1提供双手在身前移动和做手势的信息，联合后更完整呈现其面向一侧进行手势交流的可见表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_0提供Rachel站立并朝向左侧的信息，person_2补充其抬起右手并持有黑色衣物的信息，联合后更完整呈现其站立、朝向及持物动作。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_0提供Rachel站立并朝向左侧的信息，person_3提供镜头切换后她转为面向穿红色上衣女性的信息，联合后增加了其姿态和交流朝向随镜头推进的可观察变化。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_1提供Rachel双手在身前移动并做手势的信息，person_3补充她在镜头切换后面向穿红色上衣女性的信息，联合后更完整限定了其手势行为所处的面对面交流姿态。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_2",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_2提供Rachel抬起右手并持有黑色衣物的信息，person_3补充她随后面向穿红色上衣女性的信息，联合后更完整呈现其持物动作与交流对象之间的可见关系。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0提供室内房间及棕色西装男性、红色上衣女性在场的信息，context_1补充Rachel与红色上衣女性处于面对面交流位置的信息，联合后更完整限定了场景中的参与者、空间位置和交流对象。",
+      "entity_anchor": null
+    }
+  ]
+}

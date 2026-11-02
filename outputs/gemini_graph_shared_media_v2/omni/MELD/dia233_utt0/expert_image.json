@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物Rachel在所有帧中均保持相似姿态，双臂交叉于胸前，身体略微前倾，视线直视对话对象。其面部表情紧绷，眉毛微皱，嘴唇紧闭，未见明显笑容或哭泣迹象。该姿态与字幕中质问性话语内容一致，且无音频语调信息可作反证。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "Rachel双臂交叉于胸前，身体前倾，视线直视对方。",
+      "interpretation": "交叉双臂是典型的防御或抗拒姿态，结合质问性字幕，支持愤怒情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 1.209540727582251",
+      "observation": "Rachel眉毛微皱，嘴唇紧闭，面部肌肉紧绷。",
+      "interpretation": "面部肌肉紧绷是愤怒或强烈不满的常见视觉表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Did you get all this stuff for Joey to try and drive me out of the apartment?",
+      "observation": "字幕内容为质问和指责，暗示对他人行为的不满。",
+      "interpretation": "字幕内容与视觉上的防御姿态和紧绷表情相符，共同支持愤怒情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无明确反证。虽然表情克制，但无迹象表明其为中性或悲伤。"
+}

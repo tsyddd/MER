@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Rachel's voice is shaky and her speech is slow, indicating distress. She says, 'Everything's ruined. My bed. My clothes. Look at my favorite blue sweater,' which expresses loss and sadness. Her tone is mournful, not angry or surprised.",
+  "answer": "sadness",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00.000 - 00:02.502",
+      "observation": "Rachel's voice is shaky and her speech is slow and drawn out.",
+      "interpretation": "The shaky and slow delivery of her words indicates emotional distress and sadness.",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Everything's ruined. My bed. My clothes. Look at my favorite blue sweater.",
+      "observation": "The words 'ruined' and the focus on personal belongings like her 'favorite blue sweater' suggest a sense of loss.",
+      "interpretation": "The content of her speech expresses a feeling of loss and sadness over her belongings being damaged.",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 @ 00:00.000",
+      "observation": "Rachel has a distressed expression, with wide eyes and a downturned mouth.",
+      "interpretation": "Her facial expression aligns with the sadness conveyed in her voice and words.",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "The strongest alternative interpretation is 'surprise', as she is reacting to a sudden event. However, her slow, mournful tone and the content of her speech ('ruined', 'favorite sweater') are more indicative of sadness than surprise."
+}

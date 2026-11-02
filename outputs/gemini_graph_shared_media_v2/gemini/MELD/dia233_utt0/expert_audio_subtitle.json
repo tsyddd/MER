@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Rachel用直接质问的句式揭穿对方的意图，言语行为具有明显的指责与对质性[E1]；音轨中语调冷静但紧绷，在“drive me out”处加重发音，结合其叉腰对质的肢体语言[E2]，表现出压抑的不满与恼怒，符合anger。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Did you get all this stuff for Joey to try and drive me out of the apartment?",
+      "observation": "说话者直接使用排比性质的疑问句式拆穿对方用心（买东西排挤自己），在音轨00:02-00:04处的'drive me out'带有加重且微降的严厉重音",
+      "interpretation": "该言语行为并非求知性提问，而是带有敌意与对质意味的责难，体现出被算计后的恼怒",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 1.209540727582251",
+      "observation": "单手叉腰、身体微倾斜靠，眉头紧蹙，眼神直视对面的Phoebe，面部无笑容且嘴角紧抿",
+      "interpretation": "与声学上的质问语调高度一致，体现出防御兼对峙的恼火状态而非随意的交谈",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "可能被误判为neutral，因为她并未大声吼叫，整体音量受控；但其台词中的直接指控色彩、重音落点及身体对峙姿态均排除了纯客观中立的态度。"
+}

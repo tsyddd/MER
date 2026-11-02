@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia34_utt17",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "Monica speaks with a raised voice and an agitated tone, expressing strong disapproval. Her facial expression shows clear frustration and anger as she confronts Rachel about cheating.",
+  "output": "Monica speaks with a raised voice and an agitated tone, expressing strong disapproval. Her facial expression shows clear frustration and anger as she confronts Rachel about cheating.\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 4.240481853485107,
+  "node_count": null,
+  "edge_count": null
+}

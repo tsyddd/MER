@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是黑色T恤的Chandler，右侧手臂吊着的Joey不是目标。Chandler先皱眉看向Joey，随后保持蹙眉并连续用手势强调话语[E1][E2]；结合字幕中的“我向你保证”，更像是在不耐烦地纠正对方[E3]，而非正经历恐惧。",
+  "open_emotion": "不耐烦",
+  "answer": "anger",
+  "mapping_reason": "这里的不耐烦主要表现为对话中的反驳和恼火，最接近anger；画面不足以支持强烈愤怒。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01（0.792秒）",
+      "observation": "Chandler面向Joey，眉头收紧，张口说话，一只手叉腰。",
+      "interpretation": "面部与姿态呈现较紧绷的对话状态，但单凭皱眉不能确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02（1.627秒）至frame_05（4.046秒）",
+      "observation": "Chandler先抬手，再竖起手掌、横向挥手；期间眉头仍收紧，目光朝向Joey。",
+      "interpretation": "连续手势配合紧绷表情，支持他正着重反驳或纠正对方。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“Yeah, Joe, I assure you if I'm staring down the barrel of a gun, I'm pretty much peeing every which way.”",
+      "observation": "字幕以“Yeah, Joe, I assure you”开头，枪口情境由“if”引出。",
+      "interpretation": "措辞支持纠正对方的理解；所说的危险是假设，不是当前正在受威胁的证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "这些手势也可能只是强调一句话，而非明确的恼火；字幕带有夸张说法。没有音频可核查语调，因此“不耐烦”是有一定保留的判断。"
+}

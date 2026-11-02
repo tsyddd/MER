@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia259_utt9",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "在室内对话情境中〔context_0, context_1〕，Monica双手交叉紧扣在胸前且视线直视前方对象〔person_0 person_joint person_1〕。她说出“You are both idiots.”时神态自若，语调平稳清晰且无激烈情绪起伏〔person_2 simultaneous person_0, person_1 simultaneous person_2〕，整体表现为平静、直截了当的陈述，体现为中性情绪。",
+  "output": "在室内对话情境中〔context_0, context_1〕，Monica双手交叉紧扣在胸前且视线直视前方对象〔person_0 person_joint person_1〕。她说出“You are both idiots.”时神态自若，语调平稳清晰且无激烈情绪起伏〔person_2 simultaneous person_0, person_1 simultaneous person_2〕，整体表现为平静、直截了当的陈述，体现为中性情绪。\n<answer>neutral</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 58.295865535736084,
+  "node_count": 6,
+  "edge_count": 6
+}

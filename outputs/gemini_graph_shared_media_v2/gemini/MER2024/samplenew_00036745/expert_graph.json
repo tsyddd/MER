@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "当前互动中，目标人物在办公情境下向上级或同僚陈述他人过去的涉案行踪，并主动认领调查任务[process_0][process_2]。其抬手指向屏幕提示线索后迅速收回[person_1]，表情平稳无异样，音轨中语调清晰沉着、干脆果断[person_3]，整个事件链属于理性的公事交接，完全处于平静客观状态。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "男子在陈述过程中抬起食指指向电脑屏幕方向随后自然收回",
+      "interpretation": "动作具有明确的指向性与交代信息的专注感，无慌乱、退缩或激烈的攻击性举止，支持客观平静的办案状态",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "person_3",
+      "observation": "男子语调平稳、果断",
+      "interpretation": "图谱转述与实际音轨均验证其说话节奏均匀、语调沉稳自然，无焦虑发颤或愤怒扬调，直接支持中立情绪",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_2",
+      "observation": "男子说出“我去查”",
+      "interpretation": "语义为主动承接核实线索的职责，展现务实理智的执行力，而非受惊吓或情绪失控",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "因其谈及超常事件（观测宇宙闪烁）且神情严肃，可能被解读为担忧（worried）；但事件语义表明他仅是在客观梳理他人过去的线索，动作利落、声线镇定，缺乏担忧所需的紧张与焦虑体征，故排除该解释。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia33_utt6",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "sadness",
+  "emotion_analysis": "当前人物是Rachel；她抱着婴儿并持续调整抱持姿势（process_0与process_1通过process_joint关联），字幕表达婴儿哭了数小时且她不知道该怎么办。她的面部表情和姿态呈现明显无助、焦虑和困扰，之后仍抱着婴儿移动并转回（process_2→process_3），更符合悲伤/难过而非愤怒或惊讶。",
+  "output": "当前人物是Rachel；她抱着婴儿并持续调整抱持姿势（process_0与process_1通过process_joint关联），字幕表达婴儿哭了数小时且她不知道该怎么办。她的面部表情和姿态呈现明显无助、焦虑和困扰，之后仍抱着婴儿移动并转回（process_2→process_3），更符合悲伤/难过而非愤怒或惊讶。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 82.10050106048584,
+  "node_count": 10,
+  "edge_count": 12
+}

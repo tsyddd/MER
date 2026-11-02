@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia226_utt3",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "sadness",
+  "emotion_analysis": "Rachel在与旁边女性交流时面露担忧和不安，眉头略皱、嘴角下压，并通过连续张开手掌的手势强调自己的愿望。字幕中的“wish”和希望对方“open up、share some feelings”表达了对他人情感封闭的遗憾与无奈；结合process_0及person_1、person_2、person_3之间的连续手势关系，更符合sadness而非neutral。",
+  "output": "Rachel在与旁边女性交流时面露担忧和不安，眉头略皱、嘴角下压，并通过连续张开手掌的手势强调自己的愿望。字幕中的“wish”和希望对方“open up、share some feelings”表达了对他人情感封闭的遗憾与无奈；结合process_0及person_1、person_2、person_3之间的连续手势关系，更符合sadness而非neutral。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 144.23910450935364,
+  "node_count": 8,
+  "edge_count": 8
+}

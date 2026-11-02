@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00036745",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "56b7ab0a274b240942c2ca3a5bf6aff985c05e2aab602a0289a32a97d1119e4a",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "我独立回看了全部帧：目标人物持续皱眉、嘴部紧绷，随后抬眉睁眼并指向前方，整体更像对异常情况的警觉与担忧，而非单纯平静陈述。[image:E1][image:E2] 字幕可核实“我去查”，与这种紧迫的核查行动相互支持；但本段没有音轨，不能核验任何语调转述。[audio_subtitle:E1] 中性是最强反证，不过持续的紧张面部变化和指向动作使worried比neutral更合适；图谱专家也明确承认其关于平稳语调的部分无法直接核验。[graph:E1]",
+  "output": "我独立回看了全部帧：目标人物持续皱眉、嘴部紧绷，随后抬眉睁眼并指向前方，整体更像对异常情况的警觉与担忧，而非单纯平静陈述。[image:E1][image:E2] 字幕可核实“我去查”，与这种紧迫的核查行动相互支持；但本段没有音轨，不能核验任何语调转述。[audio_subtitle:E1] 中性是最强反证，不过持续的紧张面部变化和指向动作使worried比neutral更合适；图谱专家也明确承认其关于平稳语调的部分无法直接核验。[graph:E1]\n<answer>worried</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 191.3864197731018
+}

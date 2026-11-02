@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia66_utt1",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "目标人物是右侧的空乘人员。她面带明显笑容，眼神和姿态较为轻松友好；字幕“Thank you! Enjoy your flight?”也是礼貌、积极的表达，未见负面情绪线索。",
+  "output": "目标人物是右侧的空乘人员。她面带明显笑容，眼神和姿态较为轻松友好；字幕“Thank you! Enjoy your flight?”也是礼貌、积极的表达，未见负面情绪线索。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 37.38610887527466,
+  "node_count": null,
+  "edge_count": null
+}

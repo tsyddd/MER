@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "字幕“怎么到了自己身上，就这样不明白。”形式上是疑问，实际带有反问和责备，表达对对方不理解的恼怒，而非单纯求取信息。[E1] 画面中她持续直视对方，眉眼紧张、张口强调，面部表情较为严厉，支持这种责备性情绪。[E2] 当前无可用音频，无法判断语调、音量或节奏。",
+  "answer": "angry",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "怎么到了自己身上，就这样不明白。",
+      "observation": "字幕使用“怎么……就这样……”的疑问形式，内容指责对方在涉及自身时反而不明白。",
+      "interpretation": "这是反问式责备，体现不满和恼怒，而不是中性的疑问。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00至frame_06 @ 0.0至3.08秒",
+      "observation": "她持续面向画面右侧的人说话，眉眼较紧，嘴部多次张开并呈强调性的说话姿态，未见明显微笑。",
+      "interpretation": "可见表情与责备性话语一致，支持angry；但仅凭静态画面不能确定具体语调强度。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_07 @ 3.6秒",
+      "observation": "远景显示她处于正式室内场景中，正面对其他人物进行交流。",
+      "interpretation": "语境支持这是对特定对象的当面训诫或质问，而非自言自语或单纯陈述。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "她的表情并非明显失控或激烈，眼神中也可能含有担忧，因此“worried”是较强替代解释；但反问句的直接责备内容和较严厉的面部表现更优先支持angry。无音频，缺少语调和音量证据。"
+}

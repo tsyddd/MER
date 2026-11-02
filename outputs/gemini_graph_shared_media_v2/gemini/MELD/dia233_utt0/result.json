@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia233_utt0",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "a94f5575d3aaa8dce6c1acd443e893d451a7588d0c29ef22d0ffe8091580c26e",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "目标人物Rachel在全程保持单手叉腰的对峙身体姿态[image:E1]，并在提问结束后紧闭嘴角下压、严肃凝视对方（如frame_06所示），展现出显著的不悦与防卫姿态。音轨与台词中，她在“drive me out”处加重音调，言语行为具有明显的质问与兴师问罪色彩[audio_subtitle:E1]，整体呈现受冒犯后的压抑恼火。专家[graph:E1]因其未大声咆哮而判定为中立（neutral），忽视了这种冷峻对质背后的敌意与负面情绪张力，故判定为anger。",
+  "output": "目标人物Rachel在全程保持单手叉腰的对峙身体姿态[image:E1]，并在提问结束后紧闭嘴角下压、严肃凝视对方（如frame_06所示），展现出显著的不悦与防卫姿态。音轨与台词中，她在“drive me out”处加重音调，言语行为具有明显的质问与兴师问罪色彩[audio_subtitle:E1]，整体呈现受冒犯后的压抑恼火。专家[graph:E1]因其未大声咆哮而判定为中立（neutral），忽视了这种冷峻对质背后的敌意与负面情绪张力，故判定为anger。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 63.4817008972168
+}

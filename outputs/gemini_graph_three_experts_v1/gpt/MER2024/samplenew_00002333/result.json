@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00002333",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "0e9fbf235f4db8f0d6cbb4c5b79681cf485a4b2bfdd80a92849380e07b412f8e",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "happy",
+  "emotion_analysis": "graph与image均描述目标人物嘴角上扬、露齿并整体姿态放松，视觉证据一致，虽然后续笑意有所减弱但仍以愉快表情为主。audio_subtitle未提供音频，字幕本身也缺乏明确情绪标记，因此不改变基于视觉证据的判断。",
+  "output": "graph与image均描述目标人物嘴角上扬、露齿并整体姿态放松，视觉证据一致，虽然后续笑意有所减弱但仍以愉快表情为主。audio_subtitle未提供音频，字幕本身也缺乏明确情绪标记，因此不改变基于视觉证据的判断。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 73.36627626419067
+}

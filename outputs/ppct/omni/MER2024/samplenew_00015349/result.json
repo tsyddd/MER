@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00015349",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "说话人正在对另一人进行劝阻，其话语内容为“再这么烧下去的话，传到高家”，表明其对当前行为可能带来的后果感到担忧。该行为由其正在说话的动作支持，且对话发生在室内环境中，其注意力集中在对话对象和当前情境的互动上。",
+  "output": "说话人正在对另一人进行劝阻，其话语内容为“再这么烧下去的话，传到高家”，表明其对当前行为可能带来的后果感到担忧。该行为由其正在说话的动作支持，且对话发生在室内环境中，其注意力集中在对话对象和当前情境的互动上。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 88.35991144180298,
+  "node_count": 6,
+  "edge_count": 3
+}

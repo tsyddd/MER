@@ -1,0 +1,144 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "空乘人员向右侧女子说“Thank you! Enjoy your flight?”",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio",
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "空乘人员保持面向女子聆听并接收互动",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "空乘人员侧身面向右侧女子，视线停留在对方脸上",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "空乘人员语调上扬、语速平稳、声音清晰",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "右侧女子嘴角上扬微笑，面部人中位置有黑色涂画痕迹",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "右侧女子微张嘴回应，目光注视着空乘人员",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "场景位于飞机客舱通道内，背景可见机舱窗户与座椅",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "在场人物包括左侧的空乘人员与右侧的长发女乘客",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "空乘人员在向右侧女子说出问候语之后，保持面向对方聆听并接收互动",
+      "entity_anchor": "空乘人员"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "空乘人员在侧身面向注视女子的同时，以清晰且上扬的语调说话",
+      "entity_anchor": "空乘人员"
+    },
+    {
+      "source": "person_3",
+      "target": "person_2",
+      "relation": "after",
+      "reason": "右侧女子在嘴角上扬微笑后，微张嘴向空乘人员作出回应",
+      "entity_anchor": "右侧女子"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0呈现空乘主动向女乘客致谢并问候，process_1补充空乘说完后保持面向对方并倾听接收反馈，联合后形成了从语言发起问候到等待接收对方回应的完整客舱交际过程",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供空乘人员侧身面向乘客且目光注视的视觉动作，person_1提供其语调上扬、清晰平稳的听觉事实，音画联合完整呈现了空乘人员主动、规范的服务仪态",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_2",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_2记录了女乘客面部带有胡须涂画且嘴角微笑的静态特征，person_3补充了其微张嘴看向空乘进行言语互动的动态表现，联合构成了乘客带着滑稽面部标记但神态自然与人交流的完整外在表现",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0指明客舱过道与机舱座椅构成的物理环境，context_1明确了机组人员与乘客的人际角色，联合后更完整地限定了客舱内空乘向乘客致意的服务情境",
+      "entity_anchor": null
+    }
+  ]
+}

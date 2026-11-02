@@ -1,0 +1,9 @@
+{
+  "reason": "回看前两帧（frame 0与frame 1）可见Ross视线向下垂落、双肩微缩，面部肌肉松弛下沉[image:E1]，展现出典型的消沉体态。核对实际音频，其说话音量低弱、语速沉滞且伴随叹息般的下沉语调[audio_subtitle:E2]，与字幕表达被迫放弃对象的无奈内容[audio_subtitle:E1]高度呼应。尽管人物未出现剧烈的哭泣表现容易被误以为是陈述事实的neutral，但低能量的颓丧体态与叹息语调排除了客观平静状态，多模态线索统一指向悲伤情绪。",
+  "answer": "sadness",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E2",
+    "audio_subtitle:E1"
+  ]
+}

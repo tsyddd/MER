@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "目标人物Female Student在画面右下角（frame_00至frame_01）被发现时极度慌乱地低头弯腰抓起衣物逃窜，并在frame_03至frame_04中迅速向后方隐蔽处仓皇逃离；结合急促颤抖、充满恐慌的道歉语调，其可见行为表现出因突发窘境被撞破而产生的强烈受惊与慌张恐慌反应。",
+  "open_emotion": "恐慌",
+  "answer": "fear",
+  "mapping_reason": "目标人物因在公共书架间被当场抓现行而表现出强烈的惊惶逃窜与畏避反应，符合fear家族中面对负面后果时表现出的受惊与恐慌焦虑。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 (0.00s) - frame_03 (1.00s)",
+      "observation": "右下方穿着格子裙的Female Student弯着身体、低头抓物并极其仓促地向后方书架阴影处逃离，始终不敢抬头露面。",
+      "interpretation": "展现出被当场撞破后的慌乱逃窜与回避姿态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00 - 00:01",
+      "observation": "伴随着急促的抽气与慌乱颤抖的声调喊出'so sorry'。",
+      "interpretation": "语音听感急迫且带有明显的惊惶恐慌感，与视觉逃窜一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "由于该角色迅速伏低并逃出画幅，面部表情被严重遮挡，无法直接观察到面部恐惧特征，主要依赖其身体逃离动作与语音表现。"
+}

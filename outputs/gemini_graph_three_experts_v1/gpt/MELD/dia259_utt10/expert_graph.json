@@ -1,0 +1,13 @@
+{
+  "expert": "graph",
+  "reason": "Monica上身前倾并直视交流对象（person_0），图谱记载其语速较快、语调严肃坚决（person_1），同时直接否定笑话并指责其冒犯女性和医生（process_0、process_1）。她随后挥手加强表达（person_2），并以增大的音量和明显上扬的语调强调“and monkeys!”（person_3），整体呈现出当前强烈而对抗性的愤怒情绪。",
+  "answer": "anger",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "process_0",
+    "process_1",
+    "person_2",
+    "person_3"
+  ]
+}

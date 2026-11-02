@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia153_utt11",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "Chandler在与吊着手臂的Joey交谈时（context_0），双手叉腰面朝对方，语调平稳清晰（person_0 simultaneous person_1，process_0）。他在抬手比划说明（person_2）关于面对枪口的情形纯属假设性调侃（process_1），并非自身当下产生恐惧；随后双手放回腰间注视对方（person_3），整体面部表情与举止均处于放松平缓的日常沟通状态。",
+  "output": "Chandler在与吊着手臂的Joey交谈时（context_0），双手叉腰面朝对方，语调平稳清晰（person_0 simultaneous person_1，process_0）。他在抬手比划说明（person_2）关于面对枪口的情形纯属假设性调侃（process_1），并非自身当下产生恐惧；随后双手放回腰间注视对方（person_3），整体面部表情与举止均处于放松平缓的日常沟通状态。\n<answer>neutral</answer>",
+  "label": "fear",
+  "elapsed_seconds": 49.54825186729431,
+  "node_count": 7,
+  "edge_count": 6
+}

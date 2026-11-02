@@ -1,0 +1,9 @@
+{
+  "reason": "独立核查8帧与音轨可见，目标女子额头虽带伤且语调微压，但在frame_02至frame_04中始终怒目直视对方，下颌紧绷且呈现明显的咬牙切齿神态[image:E1]。台词‘你除了这些卑劣的手段，还会什么？真是无耻之极’属于典型的正面反诘与严厉道德控诉[audio_subtitle:E1]。音轨00:01-00:06处声音虽然克制，但发音重音突出且带着强烈的气声与敌意[audio_subtitle:E2]。综合视觉咬牙动作与听觉谴责韵律，有力推翻了因负伤虚弱可能误判的worried或sad，确立核心情绪为愤怒。",
+  "answer": "angry",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E1",
+    "audio_subtitle:E2"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "字幕中的“What?!”先对前述话语提出质疑，紧接着“Excuse me!”更像是针对对方说法的抗议，而不只是询问信息[E1]。Monica随即走向餐桌旁的人，表现出要当面回应的姿态[E2]。没有音频，无法核实她的语调或音量；画面也不足以判断情绪强度。",
+  "open_emotion": "不满",
+  "answer": "anger",
+  "mapping_reason": "此处的不满指向对他人话语的反驳，按情绪轮中责备、对抗的方向，最接近anger；这不表示她必然强烈愤怒。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "What?! Excuse me!",
+      "observation": "先是带疑问和感叹标记的“What?!”，随后是“Excuse me!”。",
+      "interpretation": "连用时更支持对某种说法提出异议；其中“What?!”单独看也可能表示惊讶。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_06（1.2929573294844752秒）至frame_07（1.5014988342400355秒）",
+      "observation": "Monica从男子身后走向餐桌方向，面向桌边人物，最后一帧嘴部张开。",
+      "interpretation": "这一行动与她正在当面回应的字幕语境相符，但不能单靠表情确定她有多生气。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是surprise：“What?!”可以是单纯意外的反问。这里后续的“Excuse me!”使抗议性解释稍强；由于没有音频，无法用实际语调进一步区分。"
+}

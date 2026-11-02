@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia186_utt3",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "66500757c83860e7bc8c787d8e2b59268fb274c5b6c0b4d08dfd117efb6c20d2",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "音频描述和图谱分析均指向低落、歉意的情绪，与'sadness'一致；图像分析虽提出'surprise'，但其描述的困惑和不确定更可能源于对话内容而非情绪本身，且无音频支持强烈惊讶。综合判断，'sadness'更具一致性。",
+  "output": "音频描述和图谱分析均指向低落、歉意的情绪，与'sadness'一致；图像分析虽提出'surprise'，但其描述的困惑和不确定更可能源于对话内容而非情绪本身，且无音频支持强烈惊讶。综合判断，'sadness'更具一致性。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 36.0618360042572
+}

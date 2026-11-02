@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035777",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "16f51d5dc6065a268e5e910bb5bfbb8899c3b3f3bb04d1e2c3670d7e68263a35",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "angry",
+  "emotion_analysis": "独立回看8帧可见，目标人物前段持续前倾、眉眼紧皱、张口用力，后段仍眉头下压、嘴唇收紧且姿态僵硬，支持愤怒或带责备的强烈表达。[image:E1][image:E2] 字幕“诚实，是做生意的根本。”是强调原则的陈述，本身不能证明愤怒，但与上述视觉紧绷状态相互补。[audio_subtitle:E1] 最强反证是严肃、担忧或克制劝诫；由于未提供音轨，无法核验语调和音量，但持续的前倾、紧皱眉和下撇收紧的口部比单纯中性或担忧更支持angry。[graph:E1]为图谱转述且与画面观察一致，但其中声音相关信息不能视为已独立听证。",
+  "output": "独立回看8帧可见，目标人物前段持续前倾、眉眼紧皱、张口用力，后段仍眉头下压、嘴唇收紧且姿态僵硬，支持愤怒或带责备的强烈表达。[image:E1][image:E2] 字幕“诚实，是做生意的根本。”是强调原则的陈述，本身不能证明愤怒，但与上述视觉紧绷状态相互补。[audio_subtitle:E1] 最强反证是严肃、担忧或克制劝诫；由于未提供音轨，无法核验语调和音量，但持续的前倾、紧皱眉和下撇收紧的口部比单纯中性或担忧更支持angry。[graph:E1]为图谱转述且与画面观察一致，但其中声音相关信息不能视为已独立听证。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 183.97311735153198
+}

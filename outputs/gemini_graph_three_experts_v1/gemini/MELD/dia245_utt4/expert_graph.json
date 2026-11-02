@@ -1,0 +1,12 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载Monica在注视门边状况时急促且高亢地大喊“No-no-no, no!”进行阻拦〔process_0〕〔person_2〕。随后她瞪大双眼、神情惊惶〔person_4〕，并迅速扔开手中的物品从沙发上冲上前去阻止〔process_1〕〔process_2〕。这种因突发危机而表现出的慌乱与急切阻拦行为，体现了明确的恐惧情绪。",
+  "answer": "fear",
+  "evidence_refs": [
+    "process_0",
+    "person_2",
+    "person_4",
+    "process_1",
+    "process_2"
+  ]
+}

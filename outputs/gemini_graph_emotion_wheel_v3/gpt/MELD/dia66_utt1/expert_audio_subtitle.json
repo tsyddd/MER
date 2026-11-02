@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物是左侧的乘务员。[E1] 她说的是例行送别语，表达礼貌祝愿，而非明确的兴奋或欣喜。[E2] 她的表情较平稳；右侧人物明显的笑容不能算作她的情绪证据。当前较支持礼貌平稳的表达。",
+  "open_emotion": "礼貌平稳",
+  "answer": "neutral",
+  "mapping_reason": "这句服务性告别和目标人物较平稳的表情，没有显示明确占主导的情绪，故映射为neutral；礼貌不等于喜悦。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Thank you!  Enjoy your flight?",
+      "observation": "目标人物道谢并祝对方旅途愉快；末尾标有问号。",
+      "interpretation": "话语功能主要是礼貌送别；仅凭标点不能推断真实语调或惊讶。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05（1.501秒）至frame_07（2.127秒）",
+      "observation": "左侧人物面向对方，表情较平稳，嘴角略有上扬；右侧人物笑容更明显。",
+      "interpretation": "目标人物表现出礼貌友善，但没有足够的视觉证据将右侧人物的喜悦归于她。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "“Enjoy your flight?”及略微上扬的嘴角也可能表示愉快；但片段很短，且没有提供音频，无法核实语调，尚不足以确认喜悦为主导情绪。"
+}

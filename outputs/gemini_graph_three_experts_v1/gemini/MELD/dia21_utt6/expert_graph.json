@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "根据图谱节点〔process_0〕和〔person_0〕，Phoebe在近距离面对男子时将手搭在其胸前并主动调侃。图谱记载她在说话时语调轻松且带有轻笑声〔person_1〕，整体互动氛围愉悦亲切，表现出明显的轻快喜悦情绪。",
+  "answer": "joy",
+  "evidence_refs": [
+    "process_0",
+    "person_0",
+    "person_1"
+  ]
+}

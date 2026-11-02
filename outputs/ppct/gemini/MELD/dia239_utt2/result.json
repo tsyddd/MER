@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia239_utt2",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "结合process_0、process_1与process_2，Chandler原本正抱怨等待洗手间并对旁边的男士吐槽，但看到女子突然开门走出时猝不及防，硬生生中断原本的说话；根据person_1与person_2，他猛然转头摊手打招呼，因措手不及而结巴改口，整体展现出明显的意外与惊讶反应。",
+  "output": "结合process_0、process_1与process_2，Chandler原本正抱怨等待洗手间并对旁边的男士吐槽，但看到女子突然开门走出时猝不及防，硬生生中断原本的说话；根据person_1与person_2，他猛然转头摊手打招呼，因措手不及而结巴改口，整体展现出明显的意外与惊讶反应。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 54.03976559638977,
+  "node_count": 10,
+  "edge_count": 11
+}

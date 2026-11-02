@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "目标人物在通话中，面部表情和姿态显示出明显的担忧和焦虑。她的眉头紧锁，眼神中带有忧虑，嘴唇微张，似乎在解释一件棘手的事情。这些视觉表现与她所说的内容“事情越闹越大”高度一致，表明她对朋友的困境感到非常担心。虽然她的语调平稳，但面部表情是主要的情绪线索。",
+  "open_emotion": "担忧",
+  "answer": "worried",
+  "mapping_reason": "根据情绪轮的定义，'worried'（担忧）指对可能的负面结果、风险或未知情况的顾虑、焦虑和不安。目标人物正在谈论一个朋友在网上被诽谤且事态扩大的情况，这是一种尚未完全确定的负面风险，她表现出的焦虑和忧虑正是对这种不确定性的直接反应，因此最符合'worried'的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "目标人物全程眉头紧锁，眼神中带有忧虑，表情显得焦虑不安。",
+      "interpretation": "这是担忧和焦虑的典型面部表情，表明她对谈话内容感到不安。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "字幕: '他现在在网上被人诽谤了，现在事情越闹越大，所以'",
+      "observation": "字幕内容描述了一个正在恶化的负面事件。",
+      "interpretation": "该事件是她担忧的直接原因，其严重性和不确定性加剧了她的焦虑。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "目标人物的姿态是手持电话，身体略微前倾，表现出专注和投入。",
+      "interpretation": "这种姿态表明她正在认真处理一件重要的事情，与担忧的情绪状态相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "00:00-00:06",
+      "observation": "音频中，目标人物的语调平稳，没有明显的愤怒或悲伤的哭腔。",
+      "interpretation": "这排除了'angry'（愤怒）和'sad'（悲伤）作为主导情绪的可能性，其情绪主要通过面部表情而非声音来表达。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有明显的证据表明她处于'neutral'（中性）状态，因为她的面部表情和谈话内容都明确指向一种情绪化的状态。"
+}

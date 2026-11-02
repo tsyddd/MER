@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标说话人听到对方话语后出现明显的结巴与停顿，语气急促且充满不可置信的质问反问[E1][E2]，结合视觉上睁大双眼、嘴巴微张的惊愕反应[E3]，典型呈现出秘密被突发道破时的意外震惊状态。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "你。你。怎么知道的？",
+      "observation": "台词通过叠词重复代词“你”构成断续的反问句式",
+      "interpretation": "反映说话者因突发信息打破预期而产生的认知中断与诧异反应",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.0s - 1.8s",
+      "observation": "发音开端伴随口吃顿挫（“你…你…你怎么知道的”），气流短促，语调微扬且带吸气音",
+      "interpretation": "韵律上的慌促与反问音调突出表达了强烈的意外与震惊感",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_06 @ 2.12s",
+      "observation": "双目睁大定视对方，嘴巴呈微张的呆滞状态",
+      "interpretation": "与听觉上的惊愕语调完全吻合，强化了吃惊的表现",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽被知晓隐私可能引发担忧（worried），但其当下话语行为处于被骤然揭穿的即刻错愕期，未见忧虑叹息或退缩防备，核心表现为突发的震惊（surprise）。"
+}

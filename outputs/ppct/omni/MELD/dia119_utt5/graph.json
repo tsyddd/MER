@@ -1,0 +1,137 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Monica speaks to someone off-screen.",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Monica has long brown hair and is wearing a green long-sleeved shirt.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Monica's mouth is open as she speaks.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Monica's head is turned to her right, looking towards the person she is speaking to.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "A man in a blue plaid shirt is standing to Monica's left.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "The scene takes place indoors, in a room with a Pac-Man arcade machine.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "Monica is the speaker.",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_2",
+      "type": "context",
+      "content": "The man in the plaid shirt is the listener.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0 provides the visual of Monica's appearance, while person_1 provides the visual of her mouth moving; together, they confirm she is actively speaking.",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_0 provides the visual of Monica's appearance, while person_2 provides the visual of her head orientation; together, they confirm she is speaking to someone off-screen.",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1 provides the visual of Monica's mouth moving, while person_2 provides the visual of her head orientation; together, they confirm she is actively speaking to someone off-screen.",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0 provides the visual of the room and arcade machine, while context_1 provides the audio of Monica speaking; together, they confirm the speaker and the setting.",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_2",
+      "relation": "context_joint",
+      "reason": "context_0 provides the visual of the room and arcade machine, while context_2 provides the visual of the listener; together, they confirm the listener and the setting.",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_1",
+      "target": "context_2",
+      "relation": "context_joint",
+      "reason": "context_1 provides the audio of Monica speaking, while context_2 provides the visual of the listener; together, they confirm the speaker and the listener.",
+      "entity_anchor": null
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00006335",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "a0bf56d9fb9db16ede1f6dafeaeb4ef47157197d9bed5ab5ad9436046022afb9",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "疑虑",
+      "mapped_label": "worried",
+      "mapping_reason": "疑虑的对象是增兵情况是否如预期，重点在尚未确认的信息，因而近似映射为强调不确定性的worried；画面和字幕不足以判断他担忧的具体后果或强度。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "疑惑",
+      "mapped_label": "surprise",
+      "mapping_reason": "这里的疑惑侧重原有预期可能被打破，因此近似映射到surprise；其程度较轻，不能仅凭疑问句认定为强烈惊讶。"
+    },
+    "image": {
+      "open_emotion": "疑虑",
+      "mapped_label": "worried",
+      "mapping_reason": "疑虑指向尚待确认的增兵情况，符合worried对未知情况感到顾虑的边界；画面只支持较克制的表达，不能据此推断强烈焦虑。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "独立回看frame_00至frame_07，持电话的男子持续凝视前方、神情紧绷，没有明显的瞬时震惊反应；[image:E1]对神态的描述可信，但表情本身不足以定类。字幕“关东军不是已经增兵甲子沟、煤矿了吗？”显示他正在核实原以为成立的情况，[audio_subtitle:E1]据此指出疑惑有依据，却不能证明他刚获知了违背预期的消息。相比惊讶，持续求证的表现更接近对未确认情况的疑虑，故选择worried；这也不是仅因缺少强烈表现就判为中性。本段未提供音轨，不依据语气作判断。",
+  "output": "独立回看frame_00至frame_07，持电话的男子持续凝视前方、神情紧绷，没有明显的瞬时震惊反应；[image:E1]对神态的描述可信，但表情本身不足以定类。字幕“关东军不是已经增兵甲子沟、煤矿了吗？”显示他正在核实原以为成立的情况，[audio_subtitle:E1]据此指出疑惑有依据，却不能证明他刚获知了违背预期的消息。相比惊讶，持续求证的表现更接近对未确认情况的疑虑，故选择worried；这也不是仅因缺少强烈表现就判为中性。本段未提供音轨，不依据语气作判断。\n<answer>worried</answer>",
+  "label": "angry",
+  "elapsed_seconds": 97.45812058448792
+}

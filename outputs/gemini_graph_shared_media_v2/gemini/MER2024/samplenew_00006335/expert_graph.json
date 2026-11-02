@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "目标人物在电话沟通中核对增兵信息[process_0]，结合图谱节点[person_1]所述低沉带疑问的表达，核验音轨其语调极其平稳克制[E2]，面容无明显惊慌或怒意[E1]，整体表现为冷静、理性的事务性求证状态。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.12",
+      "observation": "男子手持听筒平视前方，眉宇与嘴角平稳舒展，面部肌肉无紧绷、瞪眼或咬牙动作",
+      "interpretation": "缺乏焦虑、愤怒或惊讶的典型面部形变，体现出沉着平稳的生理反应",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "话音吐字清晰低沉，音量平缓，语速均匀，没有高频颤抖或急促吸气",
+      "interpretation": "虽然句意为反问，但声调未出现代表worried或surprise的明显升高或抖动",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱记录其‘面部朝向前方，嘴部开合说话，语气低沉带有疑问’",
+      "interpretation": "印证当前仅为低唤醒度的疑问交互，未伴随强烈情感起伏",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词采用‘不是已经……了吗’的反问句型容易被推测为战局失控带来的担忧（worried）或意外（surprise），但画面中缺乏睁眼、皱眉等惊恐神态，音频亦极具掌控感且音调平稳，故排除高唤醒度负向情绪。"
+}

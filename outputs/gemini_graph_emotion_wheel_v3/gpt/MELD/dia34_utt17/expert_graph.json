@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "莫妮卡当前是对瑞秋说话，而非讲述自己或确认瑞秋已做过的事。她明确表示绝不会认为“对丈夫不忠”是可以接受的[E1]，随后直视瑞秋继续表达立场[E2]。图谱节点process_1对应这次正面告诫[E3]；它与字幕是同一话语事实，不能算作独立佐证。她的表达更接近针对某种行为的责备，而不只是平静陈述观点。",
+  "open_emotion": "不满",
+  "answer": "anger",
+  "mapping_reason": "这里的“不满”指向她当面对所谈行为表示不认可和责备，按情绪轮更接近anger；证据不足以说她已达到强烈愤怒。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Rachel! Im never gonna think its okay for you to cheat on your husband!",
+      "observation": "莫妮卡直接称呼瑞秋，并明确说自己绝不会认为所谈的对丈夫不忠行为可以接受。",
+      "interpretation": "这是当前互动中的明确否定与告诫；句子本身并不能证明瑞秋已实施该行为。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05（2.544秒）至frame_07（3.587秒）",
+      "observation": "身穿浅紫色衣服的莫妮卡面向瑞秋，保持目光接触，张口说话，眉毛略抬。",
+      "interpretation": "画面支持她在直接向瑞秋表达立场，但不能仅凭画面断定音量或语气。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "节点记载莫妮卡对瑞秋说出绝不会认可所谈行为的话。",
+      "interpretation": "该节点帮助确认当前事件是莫妮卡向瑞秋表态；其话语内容与字幕同源，不构成额外的情绪证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "莫妮卡后几帧有轻微笑意，可能使这番话显得带有调侃，而非强烈恼怒。未提供原音轨，图谱所称较高音量、语气坚定只能保留为未亲耳核验的转述；最终判断主要依据当前字幕的责备方向及可见互动。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia0_utt2",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "3970f5e11853554fbfc18f31e31c06de8bbd17661ed1c904623e938e0536b1f7",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "音频专家指出语调有上扬和停顿，符合'惊喜'特征；图像专家认为表情平静，符合'neutral'；图谱专家描述语调低沉、姿态内敛，也支持'neutral'。音频的'惊喜'判断依赖语调变化，但缺乏上下文确认其是否为真实情绪表达，而图像与图谱均一致支持中性状态。综合判断，音频的'惊喜'可能源于语气而非真实情绪，故优先采纳图像与图谱的一致性证据。",
+  "output": "音频专家指出语调有上扬和停顿，符合'惊喜'特征；图像专家认为表情平静，符合'neutral'；图谱专家描述语调低沉、姿态内敛，也支持'neutral'。音频的'惊喜'判断依赖语调变化，但缺乏上下文确认其是否为真实情绪表达，而图像与图谱均一致支持中性状态。综合判断，音频的'惊喜'可能源于语气而非真实情绪，故优先采纳图像与图谱的一致性证据。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 45.73498034477234
+}

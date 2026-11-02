@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "在互动事件链中，女性获知对方辞职的决定后紧接着展开追问[process_0]，其深锁的双眉与忧切神情[E1]结合急促上扬的质询语气[E2]，显现出对对方做出辞职决定的强烈焦急与忧心，符合worried的情绪表征。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.76s",
+      "observation": "女性眉头紧锁微蹙，面部肌肉紧绷，眼神充满关切与不解地直视对方",
+      "interpretation": "蹙眉与焦急注视显示出因意外事件带来的忧心与心理压力，支持担忧情绪",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "女性眉头微蹙注视前方对象，并结合节点process_0发生语言发问“不是 你为什么要辞职”",
+      "interpretation": "图谱事件链揭示女性是在对对方辞职这一突发负面/重大变故作出反应，语义上是对其前景的焦急关切",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "语气急促，提问“不是，你为什么要辞职啊”末尾语调上扬并伴随催促式的追问声",
+      "interpretation": "语音语调紧迫，反映出迫切想了解原因的焦灼心态，强化了忧虑特征",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "替代解释为愤怒（angry），因为急促的语气与质问句式易被直观归为生气；但女性面部没有显露怒目而视或攻击性敌意，而是紧锁眉头的担忧忧容，因而未采纳angry。"
+}

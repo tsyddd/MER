@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia233_utt0",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "a94f5575d3aaa8dce6c1acd443e893d451a7588d0c29ef22d0ffe8091580c26e",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "平稳质询",
+      "mapped_label": "neutral",
+      "mapping_reason": "Rachel在面对潜在排挤行为时表现出克制、从容且日常的探询态度，无明显的怒气冲撞或负向激化，符合情绪轮中neutral关于平稳、日常且无主导剧烈情绪体验的界定。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "不满",
+      "mapped_label": "anger",
+      "mapping_reason": "说话者的质问行为针对对方故意刁难排挤的行为，带有明确的对质与责备意味，符合情绪轮中anger（对受阻或冒犯产生的恼火与不满）的定义。"
+    },
+    "image": {
+      "open_emotion": "不满",
+      "mapped_label": "anger",
+      "mapping_reason": "Rachel因怀疑对方试图将自己赶出公寓而展开质问，表现出对不公与冒犯的对抗与责备，符合anger（愤怒/恼火/不满）家族定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "独立核听真实音轨（00:00-00:04）及回看连续画面可见，Rachel在说出质问台词时音调极其平稳、语速连贯从容，完全缺乏攻击性重音或愤怒爆发[audio:E1]；画面中frame_02至frame_07其面部神态松弛沉着，并无双眉紧蹙或严厉瞪视[visual:E2]。专家[audio_subtitle:E1]与[image:E3]过度依赖台词中“逼我搬走”的对质字面语义而推断为恼火/anger，忽视了其实际视听表达处于非常克制平和的日常探询状态，故判定为平稳中性。",
+  "output": "独立核听真实音轨（00:00-00:04）及回看连续画面可见，Rachel在说出质问台词时音调极其平稳、语速连贯从容，完全缺乏攻击性重音或愤怒爆发[audio:E1]；画面中frame_02至frame_07其面部神态松弛沉着，并无双眉紧蹙或严厉瞪视[visual:E2]。专家[audio_subtitle:E1]与[image:E3]过度依赖台词中“逼我搬走”的对质字面语义而推断为恼火/anger，忽视了其实际视听表达处于非常克制平和的日常探询状态，故判定为平稳中性。\n<answer>neutral</answer>",
+  "label": "anger",
+  "elapsed_seconds": 81.0274384021759
+}

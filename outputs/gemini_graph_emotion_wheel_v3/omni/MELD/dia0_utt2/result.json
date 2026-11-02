@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia0_utt2",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "3970f5e11853554fbfc18f31e31c06de8bbd17661ed1c904623e938e0536b1f7",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "平静",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据MELD项目的情绪轮定义，'neutral'指当前平稳、日常且没有明确主导情绪的表达。瑞秋的语调（平缓低沉）和姿态（略微低头）均未表现出强烈的正向或负向情绪，其行为更像是一种日常的、平稳的交流状态，因此映射到'neutral'是合适的。虽然'平静'一词在词表中未直接列出，但其语义与'neutral'高度一致，且在当前语境下是准确的描述。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "中性",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据MELD项目适配情绪轮的定义，'neutral'指当前平稳、日常且没有明确主导情绪的表达。Rachel的这句话是日常对话中的一个连接词，其语调平稳，没有表现出任何主导情绪，因此最符合'neutral'的定义。"
+    },
+    "image": {
+      "open_emotion": "中性",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据MELD项目定义，'neutral'指当前平稳、日常且没有明确主导情绪的表达。Rachel的面部表情、姿态和视线均未表现出joy、sadness、anger、fear、disgust或surprise的典型特征，其言语内容和语调也支持这一判断。因此，该状态最符合'neutral'的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物Rachel在片段中保持坐姿，身体姿态稳定，视线与Chandler对视，面部表情无明显变化，未见皱眉、张嘴、微笑等情绪化特征。其言语内容为“Y'know what?”，这是一个典型的对话开场或转折句，通常用于引出新话题或回应对方。音频中她的语调平稳，没有明显的情绪起伏。综合视觉、听觉和字幕信息，当前表现最符合平稳、日常的交流状态，没有表现出joy、sadness、anger、fear、disgust或surprise的典型特征。因此，最合适的标签是neutral。[image:E1] [audio_subtitle:E1] [graph:E1]",
+  "output": "目标人物Rachel在片段中保持坐姿，身体姿态稳定，视线与Chandler对视，面部表情无明显变化，未见皱眉、张嘴、微笑等情绪化特征。其言语内容为“Y'know what?”，这是一个典型的对话开场或转折句，通常用于引出新话题或回应对方。音频中她的语调平稳，没有明显的情绪起伏。综合视觉、听觉和字幕信息，当前表现最符合平稳、日常的交流状态，没有表现出joy、sadness、anger、fear、disgust或surprise的典型特征。因此，最合适的标签是neutral。[image:E1] [audio_subtitle:E1] [graph:E1]\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 158.22997498512268
+}

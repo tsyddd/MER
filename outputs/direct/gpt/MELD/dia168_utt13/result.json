@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia168_utt13",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "Ross正面对他人进行指责，字幕中的“you took”和“confess”表明他在逼迫对方承认。画面中他眉头紧皱、语气姿态强硬并伴随明显手势，表现出明显的愤怒而非中性情绪。",
+  "output": "Ross正面对他人进行指责，字幕中的“you took”和“confess”表明他在逼迫对方承认。画面中他眉头紧皱、语气姿态强硬并伴随明显手势，表现出明显的愤怒而非中性情绪。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 22.60845637321472,
+  "node_count": null,
+  "edge_count": null
+}

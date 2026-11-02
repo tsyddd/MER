@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00030944",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "7bd9f3e867f21d2ec668fb44dc3c0e1322c116ee3685ad30869d4f13503a1273",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "担心",
+      "mapped_label": "worried",
+      "mapping_reason": "担心的对象是对方独处时可能出现的负面结果，属于尚未发生的风险与不确定性，因此映射为worried。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "担心",
+      "mapped_label": "worried",
+      "mapping_reason": "担心的对象是尚未发生的风险，符合worried对可能负面结果的顾虑这一界定。"
+    },
+    "image": {
+      "open_emotion": "担心",
+      "mapped_label": "worried",
+      "mapping_reason": "她关注的是对方独自在家后可能发生的负面结果，符合worried所指的对风险和不确定后果的顾虑。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "目标是穿蓝色上衣的短发女性；字幕中她说“我还不放心呢”，又问“你万一要想不开，怎么办呢”，明确指向对方独自在家后可能发生的风险，[audio_subtitle:E1][audio_subtitle:E2]与画面字幕相符。frame_00至frame_07中，她多次垂眼、神情较严肃，随后看向对面的男子；[image:E1][image:E2]对这些视觉表现的描述可信，但表情本身不足以定类。frame_05嘴角短暂上扬不足以说明喜悦，疑问句也缺少明确责备措辞；相较之下，“不放心”和“万一”更直接支持当前的担心。未提供音轨，不能据语调进一步判断。",
+  "output": "目标是穿蓝色上衣的短发女性；字幕中她说“我还不放心呢”，又问“你万一要想不开，怎么办呢”，明确指向对方独自在家后可能发生的风险，[audio_subtitle:E1][audio_subtitle:E2]与画面字幕相符。frame_00至frame_07中，她多次垂眼、神情较严肃，随后看向对面的男子；[image:E1][image:E2]对这些视觉表现的描述可信，但表情本身不足以定类。frame_05嘴角短暂上扬不足以说明喜悦，疑问句也缺少明确责备措辞；相较之下，“不放心”和“万一”更直接支持当前的担心。未提供音轨，不能据语调进一步判断。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 73.33726191520691
+}

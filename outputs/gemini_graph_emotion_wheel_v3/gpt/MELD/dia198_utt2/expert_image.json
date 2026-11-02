@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是左侧穿白衬衫的Joey，不是右侧穿蓝格衬衫的男子。他先抬眉、举指说话，随后向右侧摊手，表情转为眉头收紧、嘴唇抿紧，并持续看向画面右侧的人[E1][E2]。这些变化结合字幕中的挖苦，更支持轻度不满，而非单纯平静地陈述[E3]。",
+  "open_emotion": "不满",
+  "answer": "anger",
+  "mapping_reason": "这里的不满主要表现为对他人表现的责备和挖苦，按情绪轮映射为anger；画面不支持强烈愤怒。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01（0.584秒）至frame_03（1.710秒）",
+      "observation": "Joey举起一根手指说话，随后向画面右侧伸手示意；他的嘴持续张合。",
+      "interpretation": "手势使他的话显得有针对性，但手势本身不能确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04（2.294秒）至frame_07（4.004秒）",
+      "observation": "Joey放下手，眉头逐渐收紧，嘴唇趋于抿紧，视线仍朝画面右侧。",
+      "interpretation": "相较于开头较松动的表情，后段显得更严肃，支持不满的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“No-no, she kicked our butts. You could be on the Olympic standing-there team.”",
+      "observation": "字幕先纠正对方，接着用“standing-there team”形容对方。",
+      "interpretation": "话语带有针对对方未参与的挖苦，与视觉上的严肃变化相符。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "frame_01至frame_02中Joey的嘴角短暂上扬，挖苦也可能带玩笑意味；没有音频，无法用语调判定责备程度。"
+}

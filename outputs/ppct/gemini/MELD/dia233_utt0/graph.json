@@ -1,0 +1,109 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Rachel面向对面的金发女子开口说话：\"Did you get all this stuff for Joey to try and drive me out of the apartment?\"",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Rachel身穿粉色长袖上衣，左手叉腰，右手搭在身侧，身体朝向对方",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Rachel双眼睁开注视对方，随着说话嘴部开合",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Rachel说话语调清晰且连贯，句子末尾带有疑问升调",
+      "time_index": 1,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Rachel停止说话，嘴唇闭合，目光继续注视对方",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内房间，周围摆放着架子鼓、爬行动物玻璃箱等物品，Rachel与背对镜头的金发女子面对面交谈",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "Rachel在开口说话并伴随嘴部开合前，先保持朝向对方的初始站立姿态",
+      "entity_anchor": "Rachel"
+    },
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "simultaneous",
+      "reason": "Rachel说话时的嘴部开合动作与她清晰连贯且句尾升调的发声表现同步发生",
+      "entity_anchor": "Rachel"
+    },
+    {
+      "source": "person_3",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "Rachel停止说话并闭合嘴唇发生在说话时的嘴部开合动作之后",
+      "entity_anchor": "Rachel"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供了Rachel手叉腰并朝向对方的整体身体体态，person_1补充了其双眼直视对方且口部开合的面部细节，二者联合完整呈现了她对峙发问时的全身与面部可见仪态。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1提供了Rachel开口发话且目光持续注视对方的视觉动态，person_2补充了其语调清晰连贯且句尾呈疑问升调的听觉特征，视听结合完整构成了该人物当下的发问表现。",
+      "entity_anchor": null
+    }
+  ]
+}

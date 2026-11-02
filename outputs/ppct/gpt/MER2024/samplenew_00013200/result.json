@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013200",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "angry",
+  "emotion_analysis": "目标人物为右侧男子。person_0与person_1通过person_joint表明他正面向左侧男子说话；process_0中的“背信弃义”“抬价”是当前对对方的指责，结合其持续注视和张口强调的表情，体现出明显的恼怒而非中性或惊讶。",
+  "output": "目标人物为右侧男子。person_0与person_1通过person_joint表明他正面向左侧男子说话；process_0中的“背信弃义”“抬价”是当前对对方的指责，结合其持续注视和张口强调的表情，体现出明显的恼怒而非中性或惊讶。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 30.951104164123535,
+  "node_count": 4,
+  "edge_count": 1
+}

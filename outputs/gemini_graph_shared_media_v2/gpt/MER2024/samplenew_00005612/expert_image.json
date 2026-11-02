@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标人物是前7帧中右侧戴灰色围巾的男性；他从张口说话、眼睛睁大，逐渐转为抿唇并向画面左侧伸臂指示，整体姿态较为强硬。[E1][E2] 字幕内容是请求转交文件给总理过目，支持其正在进行正式而直接的交涉，但不单独证明愤怒。[E3] 综合可见的紧绷面部和指向性手势，最支持angry。",
+  "answer": "angry",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0s至frame_03 @ 0.92s",
+      "observation": "目标人物面向画面左侧，眼睛睁大，眉眼较紧，连续张口说话。",
+      "interpretation": "这呈现出较强的面部和言语表达张力，支持愤怒或强硬表达，而非放松状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.2s至frame_06 @ 1.8s",
+      "observation": "目标人物抿紧嘴唇并将手臂向画面左侧伸出，手势具有明确的指向性。",
+      "interpretation": "抿唇与强势指示动作共同增强了对抗性或命令式表达，支持angry。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "当前字幕",
+      "observation": "字幕为“兄弟，转交，给总理，过目。”",
+      "interpretation": "内容是正式、直接的文件转交请求，可解释为严肃交涉；但字幕本身未明确表达愤怒。",
+      "polarity": "uncertain"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_07 @ 2.12s",
+      "observation": "画面切换为另一名戴眼镜的男性，目标人物不在画面中。",
+      "interpretation": "该帧不能用于判断目标人物的情绪。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "最强的相反解释是neutral：字幕内容偏事务性，且目标人物没有明显怒吼、夸张皱眉或失控动作；但其持续的紧绷表情、抿唇和指向性手势使单纯中性表达较弱。"
+}

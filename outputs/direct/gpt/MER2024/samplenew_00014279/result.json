@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00014279",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "angry",
+  "emotion_analysis": "画面中目标人物正面对对方说话，眉头紧蹙、目光严厉，嘴唇和面部表情显得紧张且带有指责意味。字幕内容为“你除了这些卑劣的手段，还会什么？真是无耻之极”，体现明显的愤怒与斥责。",
+  "output": "画面中目标人物正面对对方说话，眉头紧蹙、目光严厉，嘴唇和面部表情显得紧张且带有指责意味。字幕内容为“你除了这些卑劣的手段，还会什么？真是无耻之极”，体现明显的愤怒与斥责。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 19.573240280151367,
+  "node_count": null,
+  "edge_count": null
+}

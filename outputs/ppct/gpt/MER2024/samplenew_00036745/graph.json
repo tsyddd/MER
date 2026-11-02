@@ -1,0 +1,176 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "字幕显示：“前两天，他跟汪淼一起”。",
+      "time_index": 1,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "字幕显示：“观测了宇宙闪”。",
+      "time_index": 4,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "字幕显示：“我去查”。",
+      "time_index": 6,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_3",
+      "type": "process",
+      "content": "人物抬手并用手指指向画面左侧前方。",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "人物坐在画面右侧，身体面向前方。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "人物嘴部开合。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "人物抬起一只手，手指向画面左侧前方。",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "人物的手回到画面下方，嘴部继续开合。",
+      "time_index": 5,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "人物前方有一台联想笔记本电脑。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "背景可见带百叶窗的窗户和展示台上的雕塑。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_2",
+      "type": "context",
+      "content": "字幕提到“汪淼”。",
+      "time_index": 1,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_2",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "同一人物在原先坐着面向前方后抬手指向画面左侧前方",
+      "entity_anchor": "同一人物"
+    },
+    {
+      "source": "person_3",
+      "target": "person_2",
+      "relation": "after",
+      "reason": "同一人物的手在指向画面左侧前方后回到画面下方",
+      "entity_anchor": "同一人物的手部动作"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提供“前两天他跟汪淼一起”的共同参与信息，process_1提供“观测了宇宙闪”的观测事件信息，联合后形成“他与汪淼共同观测宇宙闪”的完整可观察过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_1",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "process_1提供对宇宙闪的观测事实，process_2提供随后“我去查”的调查行动信息，联合后补充出由观测结果引发进一步调查的连续过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_0提供人物坐在画面右侧且面向前方的姿态信息，person_2提供抬手指向画面左侧前方的手势信息，联合后更完整呈现人物在当前场景中的身体朝向与指示动作。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1提供人物嘴部开合的可见表现，person_2提供抬手指向前方的可见表现，联合后增加人物同时进行口部动作和指示手势的互动表现信息。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0提供人物前方存在联想笔记本电脑的物体信息，context_1提供带百叶窗的窗户及展示台雕塑的室内环境信息，联合后更完整限定人物处于有电脑设备和室内陈设的办公场景。",
+      "entity_anchor": null
+    }
+  ]
+}

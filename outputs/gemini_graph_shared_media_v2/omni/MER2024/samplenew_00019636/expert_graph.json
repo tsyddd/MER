@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "男子在陈述一个令人难以置信的事实（胡十四娘一百多岁）后，立即表达了强烈的怀疑（我怎么看也不像啊），并用低沉、缓慢的语调进行叙述。他的肢体动作（手抵衣领）和面部表情（微睁大双眼，注视斜下方）与这种怀疑和沉思的状态一致。图谱中的节点person_1描述其语调低沉沉静，这与他表达怀疑时的语气相符，支持了其情绪并非中性，而是带有探究和不信的色彩。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "男子以低沉、缓慢的语调说出“那胡十四娘真的一百多岁了”",
+      "interpretation": "低沉缓慢的语调表明他正在陈述一个让他感到意外或难以置信的事实，而非中性地陈述信息。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "那胡十四娘，真的一百多岁了，我怎么看也不像啊！",
+      "observation": "字幕显示男子说“我怎么看也不像啊”，表达了强烈的怀疑。",
+      "interpretation": "这句话直接表明了他对所听信息的不相信，是判断其情绪为“surprise”的关键证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02 @ 00:02.48",
+      "observation": "男子双眼微睁大，注视着斜下方，嘴唇开合。",
+      "interpretation": "这个表情和视线方向表明他正在思考和质疑，与怀疑和惊讶的情绪状态相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱节点person_1描述男子发声语调低沉沉静。",
+      "interpretation": "该节点描述了男子的语调特征，与他表达怀疑时的语气一致，支持了其情绪并非中性。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有明确的反证。虽然男子的语调低沉，但结合其话语内容和面部表情，可以确定这是一种带有怀疑的惊讶，而非悲伤或愤怒。"
+}

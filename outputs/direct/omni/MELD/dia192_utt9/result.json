@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia192_utt9",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "Monica's high-pitched, sharp tone and the use of 'What?!' indicate a sudden, startled reaction to something unexpected.",
+  "output": "Monica's high-pitched, sharp tone and the use of 'What?!' indicate a sudden, startled reaction to something unexpected.\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 4.030543565750122,
+  "node_count": null,
+  "edge_count": null
+}

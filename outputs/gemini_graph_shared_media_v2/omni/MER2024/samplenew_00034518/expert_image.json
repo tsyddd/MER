@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物（老年女性）在对话期间，眉头微皱，眼神专注地看向对方，面部肌肉紧绷，表现出担忧和关切。她的姿态保持稳定，没有明显的回避或攻击性动作。字幕内容“是不是家里又出什么事了？”直接表达了对家庭状况的忧虑，与她的面部表情和姿态高度一致。音频中她的语调平稳但带有明显的关切和一丝紧张，进一步支持了担忧的情绪判断。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.00s",
+      "observation": "目标人物（老年女性）眉头微皱，眼神专注地看向对方。",
+      "interpretation": "皱眉和专注的眼神是担忧情绪的典型面部特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "字幕: 是不是家里又出什么事了？",
+      "observation": "字幕内容为询问家庭是否又发生了问题。",
+      "interpretation": "该问题直接表明了说话者对家庭状况的担忧。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "0.00s - 0.28s",
+      "observation": "说话者语气平稳，但带有一丝紧张和关切。",
+      "interpretation": "音频语调与字幕内容和面部表情相符，共同指向担忧的情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。目标人物的面部表情、姿态和语言内容高度一致，均指向担忧的情绪，没有明显的反证。"
+}

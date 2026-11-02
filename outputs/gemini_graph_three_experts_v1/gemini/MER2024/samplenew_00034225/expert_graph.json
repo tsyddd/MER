@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "男子在对话中由询问对手情况转向探问“我，我是不是给你惹麻烦了”〔process_1〕，体现出担心自己连累他人的顾虑。图谱记载其语调略带疑问〔person_1〕，伴随头部略微前倾的关切神态〔person_2〕，整体表现出不安与担忧的情绪状态。",
+  "answer": "worried",
+  "evidence_refs": [
+    "process_1",
+    "person_1",
+    "person_2"
+  ]
+}

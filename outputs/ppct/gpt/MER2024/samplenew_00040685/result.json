@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00040685",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "angry",
+  "emotion_analysis": "主要人物在面对面的交流中注视对方并持续开口说话，符合节点person_0、person_1及其simultaneous/person_joint关系。画面中他眉头紧皱、眼神强烈、嘴部紧张，呈现明显的质问和不满，而字幕内容是对往事的转述，不能单独作为当前情绪依据。",
+  "output": "主要人物在面对面的交流中注视对方并持续开口说话，符合节点person_0、person_1及其simultaneous/person_joint关系。画面中他眉头紧皱、眼神强烈、嘴部紧张，呈现明显的质问和不满，而字幕内容是对往事的转述，不能单独作为当前情绪依据。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 131.88800406455994,
+  "node_count": 4,
+  "edge_count": 2
+}

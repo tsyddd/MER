@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035599",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sad",
+  "emotion_analysis": "音频中人物的语调低沉、语速缓慢，结合其视线向下、表情凝重的视觉线索，表明其情绪状态偏向悲伤。该情绪与台词内容“手里还握着一截风筝线”所营造的伤感氛围一致。",
+  "output": "音频中人物的语调低沉、语速缓慢，结合其视线向下、表情凝重的视觉线索，表明其情绪状态偏向悲伤。该情绪与台词内容“手里还握着一截风筝线”所营造的伤感氛围一致。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 47.68902850151062,
+  "node_count": 3,
+  "edge_count": 0
+}

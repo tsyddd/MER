@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00014357",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "1c1a5d8dd0e2d03d755669d8aca384a001216ff52b560b1e66824436e87c8a0f",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "愉悦",
+      "mapped_label": "happy",
+      "mapping_reason": "根据情绪轮定义，'happy'（喜悦）指当前正向愉悦、满足或兴奋的状态。目标人物的微笑表情和轻快的赞美语调是其愉悦情绪的直接表现，其主动示好的行为也符合喜悦情绪下的社交倾向，因此该开放情绪词映射到'happy'是准确的。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "开心",
+      "mapped_label": "happy",
+      "mapping_reason": "目标人物的言语内容是赞美，语调轻快，面部表情为微笑，这些证据共同指向一种正向的愉悦情绪，符合'happy'的定义。"
+    },
+    "image": {
+      "open_emotion": "喜悦",
+      "mapped_label": "happy",
+      "mapping_reason": "根据情绪轮定义，'happy'（喜悦）指当前正向愉悦、满足或兴奋。目标人物的面部表情（E1）和字幕内容（E3）均指向一个积极的、正向的情绪状态，因此映射为'happy'是准确的。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "happy",
+  "emotion_analysis": "目标人物在所有可见帧中均表现出明显的笑容，包括嘴角上扬、眼睛眯起和脸颊肌肉抬起，这是典型的喜悦表情。其言语内容为赞美之词，与视觉上的愉悦表情一致。音频中语调轻快上扬，也支持了其开心的情绪状态。三位专家的证据均一致指向'happy'，且无任何反证。",
+  "output": "目标人物在所有可见帧中均表现出明显的笑容，包括嘴角上扬、眼睛眯起和脸颊肌肉抬起，这是典型的喜悦表情。其言语内容为赞美之词，与视觉上的愉悦表情一致。音频中语调轻快上扬，也支持了其开心的情绪状态。三位专家的证据均一致指向'happy'，且无任何反证。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 162.07905340194702
+}

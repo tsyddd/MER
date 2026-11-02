@@ -1,0 +1,8 @@
+{
+  "reason": "目标人物Ross在面向Chandler陈述时，双眉自然舒展、无皱眉或瞪眼等面部形变，神态保持镇定放松[image:E1]。从音轨核实，Ross以极度平缓、低沉且节奏均匀的冷幽默口吻（deadpan）陈述整句话，在'girl'后留有清晰停顿并平缓降调收尾，完全无攻击性吼叫或笑声起伏[audio_subtitle:E2]。台词语义虽在吐槽与纠正对方动作，但跨模态呈现出高度平稳且克制的日常交际状态，缺乏愤怒（anger）或愉悦（joy）的外显主导倾向，准确归入neutral。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E2"
+  ]
+}

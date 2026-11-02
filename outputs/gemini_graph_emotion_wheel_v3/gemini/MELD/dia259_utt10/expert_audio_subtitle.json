@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Monica在台词中对笑话进行了强烈的正面否定与多重批判（\"The joke is not funny, and it's offensive...\"）[E1]。音频中她的语调高亢、重音鲜明且极具攻击性与质问感，在说出\"offensive\"以及连词\"and\"排比列举时音量加大、咬字用力，充满义愤与不满[E2]。视觉上她身体前倾、神情严肃紧绷，手部有力摆动，完全印证了其责备与对抗的态度[E3]。",
+  "open_emotion": "愤慨",
+  "answer": "anger",
+  "mapping_reason": "“愤慨”反映了说话者针对冒犯性言行产生的强烈恼火、责备与对抗心理，符合情绪轮中对anger（对冒犯、受阻或不公的恼火、责备与对抗）的核心定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "The joke is not funny, and it’s offensive to women, and doctors, and monkeys!",
+      "observation": "Monica使用否定句明确驳斥\"not funny\"，并连续使用递进排比列举该笑话的冒犯对象。",
+      "interpretation": "言语行为展现出强烈的道德谴责与对抗立场。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:04",
+      "observation": "Monica的声音音调明显偏高，语速紧凑有力，在\"not funny\"和\"offensive\"处有明显爆发性重音与抬升语调。",
+      "interpretation": "高唤醒度的发声特征表明说话者正处于恼怒与批判的情感状态中。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02 (1.42s) - frame_06 (4.21s)",
+      "observation": "Monica身体前倾，眉头微皱，嘴型幅度大且动作凌厉，并伴有挥手手势。",
+      "interpretation": "肢体语言与声学上的愤怒和指责情绪高度一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词提及\"monkeys\"带有情景喜剧的荒诞幽默效果，但Monica本人的语调与表情极为严肃逼真，并非处于喜悦或调侃中。"
+}

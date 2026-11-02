@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量或语速。字幕中“你。你。”的重复以及“怎么知道的？”表现出对信息来源的意外和诧异，当前情绪更接近惊讶。",
+  "answer": "surprise",
+  "evidence_refs": []
+}

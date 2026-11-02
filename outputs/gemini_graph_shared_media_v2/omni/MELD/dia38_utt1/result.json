@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia38_utt1",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "283890143b6bd15c34d0fcc959b56cb32cb859b30cd2d4facc4a2608311bfdd4",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "Joey的面部表情从初始的中性状态逐渐转变为嘴角上扬、眼睛眯起的微笑，这是joy的直接视觉证据。他的双手交叉按在胸前，这一手势通常与情感投入或感动相关，结合其话语内容，支持其情绪为积极的骄傲与欣慰。音频中他明确说出'I'm so proud'，语调上扬且充满感情，这是判断其情绪为joy的核心依据。三位专家的证据均一致指向joy，且相互补充：图像专家提供了表情和手势的视觉证据，音频字幕专家确认了话语内容和情感化语调，图谱专家则整合了多模态线索。无任何证据表明存在其他情绪。",
+  "output": "Joey的面部表情从初始的中性状态逐渐转变为嘴角上扬、眼睛眯起的微笑，这是joy的直接视觉证据。他的双手交叉按在胸前，这一手势通常与情感投入或感动相关，结合其话语内容，支持其情绪为积极的骄傲与欣慰。音频中他明确说出'I'm so proud'，语调上扬且充满感情，这是判断其情绪为joy的核心依据。三位专家的证据均一致指向joy，且相互补充：图像专家提供了表情和手势的视觉证据，音频字幕专家确认了话语内容和情感化语调，图谱专家则整合了多模态线索。无任何证据表明存在其他情绪。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 139.95874857902527
+}

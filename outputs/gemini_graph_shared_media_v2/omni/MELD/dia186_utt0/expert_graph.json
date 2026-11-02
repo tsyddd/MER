@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "Chandler的言语内容“Ross and Joey is embarrassing enough”直接表达了对Ross和Joey的调侃，其手部动作（从摆动到收回）和面部神态（眼神斜视、嘴唇动作）共同构成了一个带有评价性的互动姿态。图谱中的节点person_2描述了他眼神向右上方斜视并伴随嘴唇动作说话，这与他话语中带有调侃意味的语调相吻合，支持了其情绪为“joy”。背景陈设和他人反应未提供直接情绪证据。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "Chandler眼神向右上方斜视，嘴唇动作伴随说话。",
+      "interpretation": "该神态与他话语中带有调侃意味的语调相吻合，表明他正在以一种轻松、戏谑的方式发表评论，这是‘joy’情绪的典型面部表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Ross and Joey is embarrassing enough",
+      "observation": "Chandler说出了这句话。",
+      "interpretation": "这句话是典型的调侃性评论，其内容和语气都旨在取笑他人，这与‘joy’情绪相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "Chandler右手收回屈于胸前上方。",
+      "interpretation": "这是一个从强调性手势（person_0）到维持性姿态的过渡，表明他正在集中精力完成一个带有评价性的陈述，其姿态与调侃的语境一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "一种可能的替代解释是‘disgust’，因为话语中包含了‘embarrassing’一词。然而，Chandler的面部表情（眼神斜视、嘴唇微张）和整体姿态并未表现出厌恶或反感，反而更像是一种轻松的取笑。因此，‘joy’是更合理的解释。"
+}

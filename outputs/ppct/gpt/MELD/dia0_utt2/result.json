@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia0_utt2",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "当前目标人物是Rachel；她坐在餐桌旁，与俯身靠近的男子进行面对面交流（person_0、process_1、context_1）。字幕节点process_0为“Y'know what?”并与男子靠近的行为同时发生，Rachel表情较为平静，未见明确的愤怒、悲伤、喜悦、惊讶、恐惧或厌恶线索，因此判为中性。",
+  "output": "当前目标人物是Rachel；她坐在餐桌旁，与俯身靠近的男子进行面对面交流（person_0、process_1、context_1）。字幕节点process_0为“Y'know what?”并与男子靠近的行为同时发生，Rachel表情较为平静，未见明确的愤怒、悲伤、喜悦、惊讶、恐惧或厌恶线索，因此判为中性。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 20.163731575012207,
+  "node_count": 5,
+  "edge_count": 2
+}

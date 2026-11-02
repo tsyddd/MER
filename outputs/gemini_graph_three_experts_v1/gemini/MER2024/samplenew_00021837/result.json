@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00021837",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "4ea7680e20f81851cd4a88935382e146f7572d96f8fec674a7c229992a63b048",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "三方专家在观察上高度一致：图像显示目标人物在会议席上神态专注、眉宇平展，无明显情绪起伏；音频专家指出其语调沉稳平缓、语速适中；图谱亦记录其处于客观平稳的陈述状态。各模态证据均指向平静、客观的常规发言表现，判定为neutral。",
+  "output": "三方专家在观察上高度一致：图像显示目标人物在会议席上神态专注、眉宇平展，无明显情绪起伏；音频专家指出其语调沉稳平缓、语速适中；图谱亦记录其处于客观平稳的陈述状态。各模态证据均指向平静、客观的常规发言表现，判定为neutral。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 30.74696636199951
+}

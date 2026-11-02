@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标是画面中央穿白色外套的Monica，不是左侧的金发女性。她的笑容在片段中逐渐扩大，并转向左侧的人，视觉上最支持joy[E1][E2]。字幕措辞与此相符，但没有音频可核实语调[E3]。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒至frame_02 @ 0.417083009511121秒",
+      "observation": "Monica起初低头、嘴角上扬，随后抬起视线，笑容变得更明显。",
+      "interpretation": "表情向更明显的积极表达变化，支持joy。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 0.834166019022242秒至frame_07 @ 1.4597905332889234秒",
+      "observation": "她转向左侧的金发女性，持续露出较宽的笑容；身旁男性也在笑，但不是判断目标。",
+      "interpretation": "持续且扩大的笑容，比单一瞬间的微笑更支持joy。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Yeah baby!",
+      "observation": "当前字幕为“Yeah baby!”。",
+      "interpretation": "措辞与积极表达相符；这只是字幕证据，不能据此断言听到了兴奋语调。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "笑容也可能是礼貌或社交性的；但它在片段中变得更明显并持续到末帧，因此joy是视觉支持更强的解释。没有音频，无法进一步区分语气。"
+}

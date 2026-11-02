@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia50_utt2",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sadness",
+  "emotion_analysis": "The female student's utterance 'I'm so sorry!' is delivered in a high-pitched, apologetic tone, which is a direct expression of embarrassment or discomfort. This is supported by the visual context of a shirtless man in a library, an unusual and socially awkward situation that would likely cause embarrassment.",
+  "output": "The female student's utterance 'I'm so sorry!' is delivered in a high-pitched, apologetic tone, which is a direct expression of embarrassment or discomfort. This is supported by the visual context of a shirtless man in a library, an unusual and socially awkward situation that would likely cause embarrassment.\n<answer>sadness</answer>",
+  "label": "fear",
+  "elapsed_seconds": 258.12458896636963,
+  "node_count": 15,
+  "edge_count": 15
+}

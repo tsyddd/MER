@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "戴口罩男子抬头看向对方并双手合十作感谢手势〔person_1〕〔person_2〕，图谱记载其随后连续说“谢谢”〔process_1〕。这些当前言语和动作体现出积极、感激的情绪表现，因此判断为开心。",
+  "answer": "happy",
+  "evidence_refs": [
+    "person_1",
+    "person_2",
+    "process_1"
+  ]
+}

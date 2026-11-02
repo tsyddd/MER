@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia132_utt2",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "f084672e7cf9dd79896fb1df6be44f63d0e81e8653bd27ac9cb35d8247ef8c65",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "三位专家评估高度一致。图像专家指出Phoebe面部表情平静自然且眉眼松弛，音频专家确认其语速平稳均匀、语调无明显起伏，结合图谱中客观陈述外貌的日常沟通状态，所有模态均指向平静无剧烈情绪波动的状态，一致判定为中性。",
+  "output": "三位专家评估高度一致。图像专家指出Phoebe面部表情平静自然且眉眼松弛，音频专家确认其语速平稳均匀、语调无明显起伏，结合图谱中客观陈述外貌的日常沟通状态，所有模态均指向平静无剧烈情绪波动的状态，一致判定为中性。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 34.83051133155823
+}

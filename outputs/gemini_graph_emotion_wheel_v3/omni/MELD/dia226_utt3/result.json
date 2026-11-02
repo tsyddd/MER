@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia226_utt3",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "554a2426d1927843a8eb1d72198c70c94dfcdf5ba4a53d703518ea9653b7a645",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "失望",
+      "mapped_label": "sadness",
+      "mapping_reason": "根据MELD项目适配情绪轮的说明，'失望'、'委屈'、'挫败'等词没有唯一静态落点，需依据当前评价选择最近的主导家族。Rachel的表达'Y’know, I wish I could get him to open up a little bit, share some feelings.'（我真希望他能更开放一点，分享一些感受）直接指向一个未被满足的期望。这种因期望落空而产生的低落和无奈感，与'sadness'（悲伤）的定义——因失落、损失或痛苦而难过、哀伤或低落——最为契合。虽然'fear'（恐惧）或'anger'（愤怒）也可能与人际沟通障碍相关，但当前语境中缺乏对威胁或不公的责备，因此'sadness'是更准确的映射。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "中性",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据MELD项目适配情绪轮的定义，'neutral'指当前平稳、日常且没有明确主导情绪的表达。Rachel的语调平稳，内容为日常愿望，无明显情绪色彩，符合该定义。"
+    },
+    "image": {
+      "open_emotion": "希望",
+      "mapped_label": "neutral",
+      "mapping_reason": "在当前数据集的情绪轮中，'希望'作为一种温和的、带有期待的正向情感，最接近于'neutral'类别。因为该类别被定义为'当前平稳、日常且没有明确主导情绪的表达'，而Rachel的表达虽然带有情感色彩，但其强度和主导性不足以将其归类为'joy'（喜悦）。她的表情和姿态是克制的，没有强烈的积极或消极情绪，因此'neutral'是最佳匹配。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物Rachel的言语内容是'我希望能让他敞开心扉，分享一些感受'，表达了对他人开放的期望。她的语调平稳，没有明显的情绪起伏，与音频专家的判断一致。视觉上，她的眼神专注，手势开放，表情平静，没有强烈的悲伤、愤怒或恐惧迹象。虽然图谱专家将其解释为'失望'并映射为'sadness'，但其证据（如语调描述）与音频专家的'平稳'判断存在冲突。综合来看，其表达更符合一种温和的愿望，而非强烈的悲伤。因此，'neutral'是更准确的标签。",
+  "output": "目标人物Rachel的言语内容是'我希望能让他敞开心扉，分享一些感受'，表达了对他人开放的期望。她的语调平稳，没有明显的情绪起伏，与音频专家的判断一致。视觉上，她的眼神专注，手势开放，表情平静，没有强烈的悲伤、愤怒或恐惧迹象。虽然图谱专家将其解释为'失望'并映射为'sadness'，但其证据（如语调描述）与音频专家的'平稳'判断存在冲突。综合来看，其表达更符合一种温和的愿望，而非强烈的悲伤。因此，'neutral'是更准确的标签。\n<answer>neutral</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 185.22683835029602
+}

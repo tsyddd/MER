@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia34_utt5",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "Rachel在当前画面中张口、眉毛抬起，直视对方并显得明显震惊。字幕中的“Oh my God!”及对对方年龄和经历的难以置信表达，与惊讶情绪一致，而非单纯愤怒或厌恶。",
+  "output": "Rachel在当前画面中张口、眉毛抬起，直视对方并显得明显震惊。字幕中的“Oh my God!”及对对方年龄和经历的难以置信表达，与惊讶情绪一致，而非单纯愤怒或厌恶。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 19.58779501914978,
+  "node_count": null,
+  "edge_count": null
+}

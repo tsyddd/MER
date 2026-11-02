@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia239_utt0",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "b7c708f8d9735f8954957fb30790839e5a1cfb9b416c9423567de212ceab0391",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "图谱与图片都显示Gunther面向他人进行询问，姿态和表情整体稳定，仅有轻微严肃感，未见足以支持强烈情绪的证据。音频专家明确未提供音频，不能作听觉判断；字幕“Someone in there?”本身也未体现明确情绪，因此综合判断为中性。",
+  "output": "图谱与图片都显示Gunther面向他人进行询问，姿态和表情整体稳定，仅有轻微严肃感，未见足以支持强烈情绪的证据。音频专家明确未提供音频，不能作听觉判断；字幕“Someone in there?”本身也未体现明确情绪，因此综合判断为中性。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 58.45982384681702
+}

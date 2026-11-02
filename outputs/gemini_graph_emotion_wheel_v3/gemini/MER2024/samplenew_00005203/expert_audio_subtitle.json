@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物在说出台词‘我也不想跟你分开’时，语声极度微弱且伴随明显的哭腔与气息哽咽，句末带有抽泣后的低沉滑落[E1, E2]。视觉上女子眼眶含泪、嘴角向下撇，神情充满离别的痛楚[E3]。语言内容与声音质感完全契合，表明其沉浸在面临分离的伤心与不舍之中。",
+  "open_emotion": "难过",
+  "answer": "sad",
+  "mapping_reason": "面对被迫分离所流露的难过与悲戚，符合情绪轮中对既定/不可抗损失的负向哀伤体验，直接映射至sad家族。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "我也不想跟你分开",
+      "observation": "台词直接叙述面临分离的抗拒与无奈不舍。",
+      "interpretation": "确立了情感评价的核心是分离带来的痛苦与依恋。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.0s-1.8s",
+      "observation": "发音音量轻微且虚弱，带有明显的哽咽哭腔与压抑抽泣的吸气声，语调低沉。",
+      "interpretation": "哭泣的声学特质直接证实了真实的悲痛感受。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "女子双眉微蹙、嘴角下挂、眼眶噙泪，眼神低垂注视对方。",
+      "interpretation": "哭泣的神态强化了言语和声音所传达的哀伤。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词提及将要分离的事实，表面上可能包含对未来的顾虑（worried），但从声调中的严重哽咽与泪流满面的神情来看，当前情绪反应已被切身的情感痛苦与低落悲伤（sad）所主导。"
+}

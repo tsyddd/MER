@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00034518",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "年长女性在桌前身体微向前倾、视线凝视蓝衣女性（person_0），同时以关切且急促的语调询问对方“是不是家里又出什么事了”（person_1、process_0）。其神情关切、语气带有明显的担忧与不安，综合展现出对家庭变故的忧虑心理。",
+  "output": "年长女性在桌前身体微向前倾、视线凝视蓝衣女性（person_0），同时以关切且急促的语调询问对方“是不是家里又出什么事了”（person_1、process_0）。其神情关切、语气带有明显的担忧与不安，综合展现出对家庭变故的忧虑心理。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 38.39218258857727,
+  "node_count": 5,
+  "edge_count": 4
+}

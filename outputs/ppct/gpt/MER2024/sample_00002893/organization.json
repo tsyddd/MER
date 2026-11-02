@@ -1,0 +1,3 @@
+{
+  "text": "画面中，一名站立、长发垂至肩部以下的女性位于室内，将手机贴在左耳旁，与电话另一端的人交流〔context_0 context_joint context_1〕；通话过程中她嘴部开合〔person_0 person_joint person_1〕。她先说“不，不是我”〔process_1〕，随后澄清“是我一朋友”〔process_2〕，接着说明这位朋友“现在在网上被人诽谤了”〔process_3〕，并说“现在事情越闹越大”〔process_4〕，最后以“所以”承接后续说明〔process_5〕。这些言语依次发生在通话行为之后并形成连续陈述〔process_1 after process_0〕〔process_2 after process_1〕〔process_3 after process_2〕〔process_4 after process_3〕〔process_5 after process_4〕；交流主题涉及她的朋友遭到网络诽谤及相关事情持续扩大〔context_1 context_joint context_2〕。这些表现可能反映她正将注意力集中在电话交流及朋友所涉的网络事件上，并试图先否认误解、再澄清涉及对象和事件情况；但仅凭现有材料，无法进一步明确其具体心理状态。"
+}

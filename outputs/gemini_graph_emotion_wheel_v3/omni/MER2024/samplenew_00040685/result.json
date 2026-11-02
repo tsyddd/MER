@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00040685",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "00b59cea7eb95d8df3713bcb9b7defc0e8f79ae664b527d4cc419d1d058a6afa",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "焦虑",
+      "mapped_label": "worried",
+      "mapping_reason": "根据情绪轮定义，'worried'指对可能的负面结果、未知风险或受责的顾虑、焦虑和不安。目标人物正在叙述一个充满风险的过往事件，其低沉的语调和紧绷的表情表明他正回忆一个可能导致严重后果的时刻，这种对潜在负面结果的持续关注和不安感，与'worried'的定义最为贴合。虽然他没有表现出愤怒或悲伤，但其情绪状态的核心是面对不确定性的焦虑。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "根据情绪轮的定义，'worried'（担忧）指对可能的负面结果、未知风险或受责的顾虑、焦虑和不安。说话者正在描述一个他试图解决的危机，但结果尚不确定，他的语气和内容都指向对未来的负面预期和由此产生的焦虑，这与'worried'的定义高度吻合。"
+    },
+    "image": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "根据情绪轮定义，'worried'指对可能的负面结果、风险或未知的顾虑、焦虑和不安。目标人物正在陈述一个他父亲对他产生怀疑的困境，这是一个尚未完全解决的负面风险。他的面部表情（紧锁的眉头、紧绷的眼周、下撇的嘴角）和专注的视线，都支持了他对这一风险的忧虑和不安，这与'worried'的定义最为贴合。虽然表情也带有一丝悲伤的意味，但其核心是针对未来可能发生的后果的担忧，而非对已发生损失的哀痛。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "目标人物在讲述一个充满风险的往事，其语调低沉、语速平稳，结合字幕内容“父皇本已对我起了疑心”，表明他正面临来自权威的不信任和潜在的危险。他的面部表情紧绷，眉毛微挑，嘴角下撇，显示出内心的紧张与压力。三位专家的证据均指向担忧（worried）：[audio_subtitle:E1]和[graph:E1]从音频语调和内容分析其对未来的不确定性和焦虑；[image:E1]从视觉上确认了其紧锁的眉头和下撇的嘴角，与担忧情绪一致。尽管[graph:E2]和[image:E2]也观察到类似悲伤的特征，但结合其正在叙述一个尚未完全解决的危机情境，对可能负面结果的顾虑更符合'worried'的定义，而非对已发生损失的哀痛。因此，综合判断其主导情绪为担忧。",
+  "output": "目标人物在讲述一个充满风险的往事，其语调低沉、语速平稳，结合字幕内容“父皇本已对我起了疑心”，表明他正面临来自权威的不信任和潜在的危险。他的面部表情紧绷，眉毛微挑，嘴角下撇，显示出内心的紧张与压力。三位专家的证据均指向担忧（worried）：[audio_subtitle:E1]和[graph:E1]从音频语调和内容分析其对未来的不确定性和焦虑；[image:E1]从视觉上确认了其紧锁的眉头和下撇的嘴角，与担忧情绪一致。尽管[graph:E2]和[image:E2]也观察到类似悲伤的特征，但结合其正在叙述一个尚未完全解决的危机情境，对可能负面结果的顾虑更符合'worried'的定义，而非对已发生损失的哀痛。因此，综合判断其主导情绪为担忧。\n<answer>worried</answer>",
+  "label": "angry",
+  "elapsed_seconds": 224.60079789161682
+}

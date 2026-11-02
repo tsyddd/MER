@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia150_utt4",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "b948f663757dd9d93d653315d388ec7b3f3b77e98f96b4337073cdbfe157409b",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "通过核对画面与音频，目标人物Janice在道别情境下展现出高度一致的哀伤特征。视觉上，从第4帧开始其眉毛内侧明显聚拢上挑，嘴角向下耷拉，右手收于胸前呈现自我安慰的防卫姿态，符合典型悲伤表情[image:E1]。听觉上，其念出台词时语速缓慢沉重，并伴随辨识度极高的哽咽与抽泣颤音[audio_subtitle:E1]。虽有观点可能怀疑其带有戏剧化的做作表现，但音画线索协同反映的失落与不舍充分排除了中性（neutral），最终支持悲伤（sadness）。",
+  "output": "通过核对画面与音频，目标人物Janice在道别情境下展现出高度一致的哀伤特征。视觉上，从第4帧开始其眉毛内侧明显聚拢上挑，嘴角向下耷拉，右手收于胸前呈现自我安慰的防卫姿态，符合典型悲伤表情[image:E1]。听觉上，其念出台词时语速缓慢沉重，并伴随辨识度极高的哽咽与抽泣颤音[audio_subtitle:E1]。虽有观点可能怀疑其带有戏剧化的做作表现，但音画线索协同反映的失落与不舍充分排除了中性（neutral），最终支持悲伤（sadness）。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 50.081461906433105
+}

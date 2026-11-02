@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者使用反问句式，结合其严肃、略带质问的语气，表达了对已知信息的确认和一丝不耐烦，暗示对方可能未掌握情况，带有责备和不满的意味。",
+  "open_emotion": "质问",
+  "answer": "angry",
+  "mapping_reason": "该表达是反问句，核心是确认一个事实，但语气并非中性。说话者通过反问来强调一个他认为是理所当然的事实，这背后隐含着对听话者可能无知或疏忽的责备和不满，因此更偏向于angry而非neutral或surprise。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "字幕内容：关东军不是已经增兵甲子沟、煤矿了吗？",
+      "observation": "字幕显示为一个反问句。",
+      "interpretation": "反问句通常用于强调一个事实，或表达说话者的某种情绪，如惊讶、不满或责备。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "说话者语气严肃，语调上扬，带有质问的意味。",
+      "interpretation": "这种语调表明说话者并非在寻求信息，而是在确认一个他认为是显而易见的事实，语气中带有不满。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "该表达也可以被解释为surprise，即对对方不知道此事感到惊讶。但与angry相比，质问和责备的意味更强烈，因此angry是更强的解释。"
+}

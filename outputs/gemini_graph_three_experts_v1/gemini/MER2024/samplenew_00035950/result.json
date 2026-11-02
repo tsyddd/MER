@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035950",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "521bc59b8292512714ce7a1cf82373756b611bf8bd876b6099b6bd083d1d6d57",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "audio_subtitle专家明确捕捉到目标人物声音带有哽咽、发颤的哭腔与微弱叹息，台词表达出强烈的自责与无力感；graph专家亦记录其带有叹息感的自伤言辞。尽管image专家基于紧绷的面部表情倾向判断为担忧，但听觉层面的明显哭腔构成了决定性证据，综合表明目标人物的核心情绪为悲伤。",
+  "output": "audio_subtitle专家明确捕捉到目标人物声音带有哽咽、发颤的哭腔与微弱叹息，台词表达出强烈的自责与无力感；graph专家亦记录其带有叹息感的自伤言辞。尽管image专家基于紧绷的面部表情倾向判断为担忧，但听觉层面的明显哭腔构成了决定性证据，综合表明目标人物的核心情绪为悲伤。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 37.445931911468506
+}

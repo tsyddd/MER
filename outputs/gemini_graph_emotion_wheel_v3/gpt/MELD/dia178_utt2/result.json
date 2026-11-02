@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia178_utt2",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "3401018186bc11e65dff479d6b5d94730c37d902accf3de7809420f24e09c974",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "愉悦",
+      "mapped_label": "joy",
+      "mapping_reason": "她对当前进展作出正向评价，表情也与之相符，符合joy所指的愉悦体验。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "愉悦",
+      "mapped_label": "joy",
+      "mapping_reason": "当前话语的正向评价与持续的笑容共同支持愉悦，符合joy所指的开心、愉悦体验。"
+    },
+    "image": {
+      "open_emotion": "开心",
+      "mapped_label": "joy",
+      "mapping_reason": "当前持续的微笑与字幕中的正向评价共同支持愉悦体验，符合joy；不能仅凭她抱着婴儿推断情绪。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "目标人物是抱婴儿的Monica；她在frame_00至frame_01先抬眉、抿嘴，随后露出笑意，单看开头不足以判断情绪[image:E1]。frame_04至frame_07，她转头并低头看婴儿时持续微笑，这一视觉变化可信，但微笑本身不必然代表喜悦[image:E2]。字幕中她说“Pheebs, it’s going great”，对当前进展的正向评价与笑容相互支持[audio_subtitle:E1]；虽无音轨可核查语气，现有证据仍更支持愉悦，而非平常的礼貌表达。",
+  "output": "目标人物是抱婴儿的Monica；她在frame_00至frame_01先抬眉、抿嘴，随后露出笑意，单看开头不足以判断情绪[image:E1]。frame_04至frame_07，她转头并低头看婴儿时持续微笑，这一视觉变化可信，但微笑本身不必然代表喜悦[image:E2]。字幕中她说“Pheebs, it’s going great”，对当前进展的正向评价与笑容相互支持[audio_subtitle:E1]；虽无音轨可核查语气，现有证据仍更支持愉悦，而非平常的礼貌表达。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 69.38649916648865
+}

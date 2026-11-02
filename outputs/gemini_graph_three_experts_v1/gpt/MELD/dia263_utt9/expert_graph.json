@@ -1,0 +1,9 @@
+{
+  "expert": "graph",
+  "reason": "Ross抬头看向正前方并开口说话，图谱记载其语调较低缓、平和〔person_1〕〔person_2〕。这些当前表现整体平稳，未见足以支持其他情绪标签的明确证据。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_1",
+    "person_2"
+  ]
+}

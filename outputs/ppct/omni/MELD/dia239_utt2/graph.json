@@ -1,0 +1,241 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Chandler speaks to the man in the blue shirt.",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Chandler turns his head and body to his right.",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "Chandler walks forward and stops in front of a woman.",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_3",
+      "type": "process",
+      "content": "Chandler extends his right hand towards the woman.",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_4",
+      "type": "process",
+      "content": "Chandler raises his right hand with an open palm.",
+      "time_index": 4,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_5",
+      "type": "process",
+      "content": "Chandler lowers his right hand and places both hands in his pockets.",
+      "time_index": 7,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "The man in the blue shirt has a bald head and is wearing a blue shirt and a patterned tie.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Chandler has short brown hair and is wearing a dark green sweater over a white shirt.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "The woman has dark hair and is wearing a dark top and light-colored pants.",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "The scene takes place indoors, in what appears to be a hallway with a door and a wall-mounted shelf.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "The woman is standing in the doorway of a room.",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_2",
+      "type": "context",
+      "content": "The man in the blue shirt is standing to the left of Chandler.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_3",
+      "type": "context",
+      "content": "Chandler is speaking to the woman in the doorway.",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio",
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "The 'process_0' node describes Chandler speaking, and the 'process_1' node describes his head and body turning. Together, they show that Chandler is not only speaking but also turning to address someone, providing a more complete picture of his action.",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_1",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "The 'process_1' node shows Chandler turning, and the 'process_2' node shows him walking forward. Together, they describe a continuous action of Chandler moving from his initial position to a new one, providing a more complete picture of his movement.",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_2",
+      "target": "process_3",
+      "relation": "process_joint",
+      "reason": "The 'process_2' node shows Chandler walking to a woman, and the 'process_3' node shows him extending his hand. Together, they show that Chandler is approaching the woman and gesturing towards her, providing a more complete picture of his interaction.",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_3",
+      "target": "process_4",
+      "relation": "process_joint",
+      "reason": "The 'process_3' node shows Chandler extending his hand, and the 'process_4' node shows him raising his hand with an open palm. Together, they show that Chandler is using his hand to gesture, providing a more complete picture of his non-verbal communication.",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_4",
+      "target": "process_5",
+      "relation": "process_joint",
+      "reason": "The 'process_4' node shows Chandler raising his hand, and the 'process_5' node shows him lowering his hand and putting it in his pocket. Together, they show the beginning and end of Chandler's hand gesture, providing a more complete picture of his action.",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "The 'person_0' node describes a man in a blue shirt, and the 'person_1' node describes Chandler. The 'context_2' node states that the man in the blue shirt is standing to the left of Chandler. Together, they provide a more complete picture of the spatial arrangement of the characters.",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "The 'person_1' node describes Chandler, and the 'person_2' node describes a woman. The 'context_3' node states that Chandler is speaking to the woman in the doorway. Together, they provide a more complete picture of the interaction between the two characters.",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "The 'context_0' node describes the general indoor setting, and the 'context_1' node describes the woman standing in a doorway. Together, they provide a more complete picture of the specific location within the scene.",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_2",
+      "relation": "context_joint",
+      "reason": "The 'context_0' node describes the general indoor setting, and the 'context_2' node describes the man in the blue shirt standing to the left of Chandler. Together, they provide a more complete picture of the spatial arrangement of the characters within the scene.",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_3",
+      "relation": "context_joint",
+      "reason": "The 'context_0' node describes the general indoor setting, and the 'context_3' node describes Chandler speaking to the woman. Together, they provide a more complete picture of the scene, including the setting and the main interaction.",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_1",
+      "target": "context_2",
+      "relation": "context_joint",
+      "reason": "The 'context_1' node describes the woman standing in a doorway, and the 'context_2' node describes the man in the blue shirt standing to the left of Chandler. Together, they provide a more complete picture of the spatial arrangement of the characters.",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_1",
+      "target": "context_3",
+      "relation": "context_joint",
+      "reason": "The 'context_1' node describes the woman standing in a doorway, and the 'context_3' node describes Chandler speaking to the woman. Together, they provide a more complete picture of the interaction between the two characters.",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_2",
+      "target": "context_3",
+      "relation": "context_joint",
+      "reason": "The 'context_2' node describes the man in the blue shirt standing to the left of Chandler, and the 'context_3' node describes Chandler speaking to the woman. Together, they provide a more complete picture of the scene, including the spatial arrangement of the characters and the main interaction.",
+      "entity_anchor": null
+    }
+  ]
+}

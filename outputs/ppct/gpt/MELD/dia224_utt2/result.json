@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia224_utt2",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "当前目标人物是“Hypnosis Tape”，其可核对的表达来自process_0节点中的字幕“Deeper.”，内容是催眠指令，未显示明显的情绪化措辞。person_0节点显示男子仰躺在床上、被被子覆盖，context_0节点确认场景为卧室；这些视觉节点与process_0之间没有标注关系，且无音频可供判断语气，因此目标情绪判为中性。",
+  "output": "当前目标人物是“Hypnosis Tape”，其可核对的表达来自process_0节点中的字幕“Deeper.”，内容是催眠指令，未显示明显的情绪化措辞。person_0节点显示男子仰躺在床上、被被子覆盖，context_0节点确认场景为卧室；这些视觉节点与process_0之间没有标注关系，且无音频可供判断语气，因此目标情绪判为中性。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 72.2434139251709,
+  "node_count": 3,
+  "edge_count": 0
+}

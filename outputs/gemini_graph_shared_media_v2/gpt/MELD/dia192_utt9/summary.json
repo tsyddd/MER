@@ -1,0 +1,8 @@
+{
+  "reason": "目标是穿浅黄色上衣、红裤子的Monica；我核对第6至7帧，她从后方走近餐桌并朝金发女子开口，与[image:E2]的视觉描述相符，但小幅画面不足以辨清怒容。字幕“What?! Excuse me!”中，开头的“What?!”支持突发的惊讶反应[graph:E1]；“Excuse me!”也可能是带怒意的质问，是最强反证。当前没有音轨可核实语气，因此不采用音量或尾音的图谱转述；综合可核实的字幕与画面，选择surprise。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "image:E2",
+    "graph:E1"
+  ]
+}

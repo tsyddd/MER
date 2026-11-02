@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia119_utt5",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "fear",
+  "emotion_analysis": "Monica谈到Ben今晚要来，并担心他看到眼前的情况。她的表情紧张、眉眼收紧并伴随急切手势，体现出担忧和不安，而非喜悦或中性。",
+  "output": "Monica谈到Ben今晚要来，并担心他看到眼前的情况。她的表情紧张、眉眼收紧并伴随急切手势，体现出担忧和不安，而非喜悦或中性。\n<answer>fear</answer>",
+  "label": "fear",
+  "elapsed_seconds": 40.26600766181946,
+  "node_count": null,
+  "edge_count": null
+}

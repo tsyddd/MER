@@ -1,0 +1,9 @@
+{
+  "expert": "graph",
+  "reason": "Joey在对话中语调平缓、音量适中（person_1），面部伴随说话动作轻微变化（person_2），整体表现平静，无明显情绪波动。其言语内容为对当前话题的陈述与回应，未体现强烈情绪倾向。结合视听证据，当前情绪为中性。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_1",
+    "person_2"
+  ]
+}

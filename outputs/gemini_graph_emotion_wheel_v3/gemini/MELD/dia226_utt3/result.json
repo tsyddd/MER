@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia226_utt3",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "554a2426d1927843a8eb1d72198c70c94dfcdf5ba4a53d703518ea9653b7a645",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "平稳倾诉",
+      "mapped_label": "neutral",
+      "mapping_reason": "Rachel虽在言语中透露出希望对方敞开心扉的期许，但整体表现平淡从容、没有明显的悲伤失落或烦躁对抗，情绪基调处于日常平稳的交谈状态，契合neutral定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "失落",
+      "mapped_label": "sadness",
+      "mapping_reason": "开放情绪'失落'体现了因情感诉求得不到回应而产生的低落与轻微沮丧，在情绪轮中归属于sadness家族。"
+    },
+    "image": {
+      "open_emotion": "失落",
+      "mapped_label": "sadness",
+      "mapping_reason": "当前语境下'失落'源于未能让对方敞开心扉的受挫与难过，表现为明显的内眉上扬及委屈神态，在情绪轮中归入因求而不得导致的低落与沮丧家族（sadness）。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "独立回看视频帧（尤其是frame_02至frame_04），Rachel在倾诉时眉毛内角明显聚拢上扬、嘴角向下微撇，流露出典型的委屈与受挫神情，完全契合[image:E1]的观察；音频中其语调轻柔微弱并伴有叹息意味，亦与[audio_subtitle:E2]指出的惆怅失落感一致。相比之下，[graph:E1]将整段互动概括为平稳中性，忽略了其面部微表情和语调中明确的求而不得的失落感，故排除neutral，判定为属于sadness家族的失落沮丧。",
+  "output": "独立回看视频帧（尤其是frame_02至frame_04），Rachel在倾诉时眉毛内角明显聚拢上扬、嘴角向下微撇，流露出典型的委屈与受挫神情，完全契合[image:E1]的观察；音频中其语调轻柔微弱并伴有叹息意味，亦与[audio_subtitle:E2]指出的惆怅失落感一致。相比之下，[graph:E1]将整段互动概括为平稳中性，忽略了其面部微表情和语调中明确的求而不得的失落感，故排除neutral，判定为属于sadness家族的失落沮丧。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 69.6786687374115
+}

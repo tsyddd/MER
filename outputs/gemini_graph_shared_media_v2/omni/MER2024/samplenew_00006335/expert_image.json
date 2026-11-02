@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物在通话，面部表情严肃，眉头微皱，眼神专注，姿态稳定。字幕显示其正在质问，结合音频中质问的语气，视觉与听觉信息一致，表明其情绪为质问或不满。",
+  "answer": "angry",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "目标人物眉头微皱，眼神专注，面部表情严肃。",
+      "interpretation": "该表情与质问的语气相符，支持其情绪为angry。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "关东军不是已经增兵甲子沟、煤矿了吗？",
+      "observation": "字幕内容为质问句。",
+      "interpretation": "质问句的内容支持angry的情绪判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "0.0-2.64",
+      "observation": "音频中说话者语气强硬，带有质问的意味。",
+      "interpretation": "音频的语气与angry的情绪相符。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无明确反证。"
+}

@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "Joey正在向面前的男子谈起自己的一名学生获得试镜机会；这是他转述的消息，不是眼前发生的事。他随即说自己为学生骄傲[E1]，双手按在胸前[E2]，之后带着笑意看向对方[E3]。话语明确给出了他当前的积极评价，动作与表情与之相符，更像欣慰的自豪，而非仅仅礼貌地微笑。",
+  "open_emotion": "欣慰的自豪",
+  "answer": "joy",
+  "mapping_reason": "这种自豪指向学生获得机会所带来的正向满足，按情绪轮映射为joy；该标签不能完整保留‘为他人骄傲’的具体对象。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“Awww, one of my students got an audition. I’m so proud.”",
+      "observation": "Joey说一名学生得到了试镜机会，并明确说自己很骄傲。",
+      "interpretation": "试镜是被转述的消息；‘骄傲’表达的是Joey说话当下对这件事的积极感受。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01（0.5005秒）至frame_03（1.4598秒）",
+      "observation": "Joey面向对方，将双手交叉按在胸前。",
+      "interpretation": "这一动作与他谈及自身感受相配合，但单凭动作不能判定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_3",
+      "observation": "节点记载Joey歪头、嘴角上扬并注视对方；frame_04至frame_07可核实其笑意。",
+      "interpretation": "笑意支持积极情绪。这是图谱对画面事实的描述，不是独立于画面的另一份情绪证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "笑容和按胸也可能是夸张或礼貌的表达；但当前话语明确说‘我真为他骄傲’，使欣慰的自豪比单纯礼貌更贴切。图谱person_2所称轻叹、语速平稳柔和仅属音频派生转述：本次没有原音轨，无法亲耳核验，不能据此确定语调，也不据此否定该节点。图谱的节点先后只支持可见动作顺序，不证明动作之间存在因果。"
+}

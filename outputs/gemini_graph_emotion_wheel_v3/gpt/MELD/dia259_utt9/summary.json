@@ -1,0 +1,9 @@
+{
+  "reason": "独立回看frame_00至frame_07，Monica说话时逐渐前倾、嘴角上扬，说完仍保持笑意；[image:E1][image:E2]对这一变化的描述可信，但交握双手本身不能证明情绪。字幕“You are both idiots.”带有责备意味，是恼火解释的最强依据[audio_subtitle:E1]。结合持续的笑意，这句直接评价更像带笑的打趣，而非以恼怒为主；未提供音轨，无法用语调进一步核验。",
+  "answer": "joy",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "audio_subtitle:E1"
+  ]
+}

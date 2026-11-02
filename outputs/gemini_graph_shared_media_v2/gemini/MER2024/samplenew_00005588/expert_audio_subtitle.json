@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标在音频中语调低沉平缓、节奏平稳无波动[E1]，配合语义上平息事端的宽慰陈述[E2]，以及面部平静专注的沉稳神态[E3]，体现出客观冷静的中性态度。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00 - 00:02",
+      "observation": "发音低沉稳重，语速均匀，句尾自然下落，无颤音、气声叹息或声调骤升",
+      "interpretation": "韵律平稳可控，没有哀伤哽咽或焦虑紧绷的声学特征，支持冷静、克制的中性状态",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "过去的事 不怪你",
+      "observation": "说出对往事的定论与释免对方责任的话语",
+      "interpretation": "言语行为属于客观陈述与放下，不含直接的情绪化发泄或指责词汇",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.04",
+      "observation": "眉目端正平视，面部肌肉放松，嘴角微闭平整",
+      "interpretation": "与低沉沉着的说话声调一致，无悲伤（sad）的下垂嘴角或担忧（worried）的锁眉",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "由于语境涉及‘不怪你’的沉重往事，容易被误读为带有伤感（sad）或担忧（worried）；但整句音频吐字沉实坚定、声门无漏气与哽咽，神情亦无愁容，故排除伤感情绪。"
+}

@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "Joey在反驳对方后，用一种平稳但带有讽刺意味的语气说出“You could be on the Olympic standing-there team”，这是一种典型的反讽表达。他的手势（摊手强调）和语调（尾音轻落）共同支持了这种带有调侃意味的表达，而非真正的赞扬。因此，他的情绪是带有讽刺的惊讶或调侃，映射到数据集情绪轮中，最接近的是surprise。",
+  "open_emotion": "surprise",
+  "answer": "surprise",
+  "mapping_reason": "Joey的表达并非字面意义上的赞美，而是通过反讽来表达对对方表现的惊讶和调侃。这种惊讶源于对方表现与预期的巨大反差，符合'surprise'情绪轮中'面对违背预期的信息而意外、诧异或惊奇'的定义。虽然带有负面色彩，但其核心是意外，而非愤怒、厌恶或恐惧。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:04",
+      "observation": "Joey以平稳略带反驳的语气开口说话，语速平缓，尾音轻落。",
+      "interpretation": "Joey的语调并非愤怒或悲伤，而是带有调侃和反讽的意味，表明他并非在真诚地赞美对方。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "Joey抬起右手食指指向前方。",
+      "interpretation": "这是一个强调和反驳的手势，表明他正在纠正对方的说法，为后续的反讽铺垫。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01",
+      "observation": "Joey摊开右手向前做强调手势。",
+      "interpretation": "这个手势加强了他话语的力度，配合反讽的语调，共同构成了完整的调侃表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "Joey反驳并说“No-no, she kicked our butts”",
+      "interpretation": "该节点描述了Joey话语的前半部分，是其反讽表达的起点，表明他正在纠正一个事实。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "Joey的语调平稳，没有表现出明显的愤怒或厌恶，因此可以排除anger和disgust。他的表达是针对对方表现的调侃，而非对自身处境的悲伤或恐惧，因此可以排除sadness和fear。"
+}

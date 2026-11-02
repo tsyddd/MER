@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话人使用具有强烈道德谴责性质的词汇“背信弃义”，并在发音上加重重音，咬字紧促愤懑，与视觉上怒目圆睁、逼视质问的态势完全一致，明确表达出愤怒情绪[E1][E2]。",
+  "answer": "angry",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "可是，你背信弃义，你一个劲地抬价。",
+      "observation": "台词内容为直接当面指责对方违背承诺、恶意加价，属于正面冲突性的责难言语行为。",
+      "interpretation": "言语行为展现了强烈的对抗性与不满，直接支持愤怒情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00 - 00:03",
+      "observation": "目标声音音质低沉且发力紧绷，在“背信弃义”与“一个劲”上有明显的咬牙强调与重音下沉，语调充满压迫感与质问色彩。",
+      "interpretation": "紧促用力的发音与谴责性韵律是典型的愤怒声学表征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05 @ 2.16s",
+      "observation": "人物身体微向前倾，双眼圆睁瞪视对方，眉毛紧蹙，嘴角下压。",
+      "interpretation": "视觉上展现的敌意与紧绷状态印证了听觉上的质问与愤怒，排除平和陈述的可能。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽然后段睁大双眼有类似惊讶（surprise）的外观特征，但伴随的语言是持续递进的严厉指责而非疑问惊叹，语调亦无突发上扬，故排除惊讶。"
+}

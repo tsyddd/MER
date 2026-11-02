@@ -1,0 +1,11 @@
+{
+  "reason": "音频和字幕显示说话者语速较快，音调偏高，内容为'But Ben is coming over tonight and he can't see this'，表明其处于一种紧张和担忧的状态。图像证据显示她的表情紧张，眉头微皱，眼神专注，与音频中的焦虑语气一致。尽管graph专家认为这可能是一种带有秘密的'joy'，但音频和视觉证据更强烈地支持'fear'。因此，综合判断为'fear'。",
+  "answer": "fear",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "image:E1",
+    "image:E2",
+    "image:E3",
+    "image:E4"
+  ]
+}

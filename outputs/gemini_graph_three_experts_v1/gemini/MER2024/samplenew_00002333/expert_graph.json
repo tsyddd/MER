@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "节点person_1显示男子嘴角上扬露齿、眼角微眯且面带笑容，体态斜靠在沙发上十分放松（节点person_0）。图谱记载其发声时语调平缓并夹杂带笑的气声（节点person_3），视听表现高度契合愉悦状态。综合体现出目标人物当前处于高兴的情绪中。",
+  "answer": "happy",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "person_3"
+  ]
+}

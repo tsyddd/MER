@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "目标人物在讲述中眉头紧缩、眼中盈泪，听觉上伴有清晰的哭腔与哽咽，语言内容指向既成的匮乏或受苦境遇，体现出对过往损失与心酸处境的哀伤流露，而非对未来风险的担忧[E1, E2, E3]。",
+  "open_emotion": "心酸悲伤",
+  "answer": "sad",
+  "mapping_reason": "目标人物的评价对象是已发生的困厄与凄凉经历，伴随哭腔与泛泪，属于悲伤、哀痛家族，符合情绪轮中关于损失评价与哀痛表达的sad定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_04",
+      "observation": "女子眉头紧蹙呈八字型，眼眶蓄满泪水，神情悲戚。",
+      "interpretation": "强烈的悲伤与痛苦外显面部特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "说出“甚至，连一件衣裳”时声音微颤、带有明显的哽咽与吸气哭音。",
+      "interpretation": "与图谱节点person_1所描述的语调微颤相呼应，证实情绪处于悲痛失落状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "图谱记录其眼含泪光、视线低垂且眉头微蹙。",
+      "interpretation": "体现出人物在互动中沉浸于难过与隐忍克制的心态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "蹙眉与哽咽有时可能被误读为对未知结果的担忧（worried），但其话语语义针对的是事实上的匮乏，属于既成痛苦而非未来预期风险。"
+}

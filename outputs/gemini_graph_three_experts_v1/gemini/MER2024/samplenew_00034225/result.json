@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00034225",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "12ed0aa9b273f368e8bd1e8523c70a683154346bda47b6b5ca66053f7fff6640",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "尽管audio_subtitle专家根据平稳从容的语调判断为中立，但结合台词内容“我是不是给你惹麻烦了”，其言语核心在于担忧拖累他人。同时，image专家捕捉到其身体前倾、眉头微抬及眼神小心翼翼的探询神态，视觉表现与语义情境高度吻合，共同支持其处于担忧状态。",
+  "output": "尽管audio_subtitle专家根据平稳从容的语调判断为中立，但结合台词内容“我是不是给你惹麻烦了”，其言语核心在于担忧拖累他人。同时，image专家捕捉到其身体前倾、眉头微抬及眼神小心翼翼的探询神态，视觉表现与语义情境高度吻合，共同支持其处于担忧状态。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 37.61062049865723
+}

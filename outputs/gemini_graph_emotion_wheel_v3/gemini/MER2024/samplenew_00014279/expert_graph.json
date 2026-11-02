@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "目标人物（女子）额头受伤且气息虚弱，但她在互动中紧盯对方，通过事件链由直呼其名递进至严厉质问与道德定性斥责[process_1, process_2, process_3]。尽管发音低微带喘[person_2]，其语言语义（“卑劣的手段”、“无耻之极”）与咬牙切齿的神态[person_3]均明确指向对面前男子行径的强烈指责、反感与对抗，主导情绪为压抑下的愤怒与不平。",
+  "open_emotion": "愤慨",
+  "answer": "angry",
+  "mapping_reason": "目标人物核心评价对象为对方的不公与卑劣行为，并伴有强烈的言语斥责与对抗态度，符合情绪轮中angry家族对冒犯受阻的责备与敌意定义，而非自哀的悲伤或畏缩的担忧。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "你除了这些卑劣的手段，还会什么？真是无耻之极。",
+      "observation": "女子直接斥责对方手段卑劣且无耻之极",
+      "interpretation": "明确表明对面前人物恶劣行径的强烈道德谴责与对立情绪",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "process_3",
+      "observation": "女子对男子说“真是无耻之极”",
+      "interpretation": "事件链推进至终点时的定性控诉，展现其对对方反感与愤怒的高峰",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:01-00:06",
+      "observation": "声音虽低哑微喘，但字句间压抑着咬牙切齿的沉重顿音与斥责语调",
+      "interpretation": "体现出在虚弱状态下依然迸发出的强硬对抗意志与怒火",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "女子面带伤痕且声息虚弱气喘可能诱发悲伤（sad）或受挫无助的替代解释，但她眼神坚定直视对方并持续输出攻击性言语，完全排除了低落沉沦的悲伤状态。"
+}

@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Joey逐一排除可能拿走东西的人，最后问“then who did?”，主要是在推理并询问，而非明确表达震惊[E1]。他随列举做出指向自己和他人的手势，表情认真，但画面未见明显惊愕或愤怒[E2]。因此更倾向neutral；由于没有音频，无法判断问句是否带有惊讶的语气。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“And if she didn’t take it, and I didn’t take it; and you didn’t take it, then who did?”",
+      "observation": "话语连续列举排除对象，以疑问句收尾。",
+      "interpretation": "支持其当前言语行为是梳理情况、寻求答案；疑问句本身不足以判定惊讶。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.4587913104622331秒；frame_03 @ 1.4180822323378113秒",
+      "observation": "右侧的Joey先指向自己，随后伸手朝向身旁的人，神情认真。",
+      "interpretation": "手势与逐一列举的内容相符；画面未显示足以明确判为强烈惊讶或愤怒的表情。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "“then who did?”也可能是在意外地发现无人承认后表示惊讶；但仅凭字幕和这些画面，无法核实是否有突出的惊讶语气，故未采用surprise。"
+}

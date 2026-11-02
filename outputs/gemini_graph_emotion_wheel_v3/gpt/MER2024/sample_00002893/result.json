@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/sample_00002893",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "9d46ffb3a0e6d7ee83ce5711674ec38a79e6e03c6208bac88d0b6ce9c7023ef2",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "“担忧”指向正在扩大的事件及其可能带来的负面后果，符合worried对风险、不确定性和预期坏结果的定义；当前证据不足以确定是已经发生损失后的悲伤，也没有明确对他人责备或对抗，因此不映射为sad或angry。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "“担忧”聚焦于对正在扩大、可能带来负面后果的事态的顾虑，符合情绪轮中worried对未知风险和不良结果的定义；虽然她也可能感到不满或焦急，但字幕和表情更直接支持对后果升级的担心。"
+    },
+    "image": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "“担忧”强调对负面结果、风险或事态恶化的顾虑，与字幕中的“被人诽谤”“事情越闹越大”及持续紧张的面部表现相符，因此映射为worried。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "回看frame_00至frame_07可见目标人物手持电话持续皱眉、眉间紧张，后段也未明显放松；字幕原话“他现在在网上被人诽谤了，现在事情越闹越大，所以”明确指向正在恶化的风险，而非已经发生损失后的低落。图像专家对持续紧张表情的描述与画面相符[image:E1]，字幕专家将“越闹越大”解释为对后续负面结果的顾虑也较可信[ audio_subtitle:E1]。开头“不，不是我”可能带有防御或焦急，但缺少明确责备和对抗，且没有音轨可核实语调，因此最符合worried而非angry或sad。",
+  "output": "回看frame_00至frame_07可见目标人物手持电话持续皱眉、眉间紧张，后段也未明显放松；字幕原话“他现在在网上被人诽谤了，现在事情越闹越大，所以”明确指向正在恶化的风险，而非已经发生损失后的低落。图像专家对持续紧张表情的描述与画面相符[image:E1]，字幕专家将“越闹越大”解释为对后续负面结果的顾虑也较可信[ audio_subtitle:E1]。开头“不，不是我”可能带有防御或焦急，但缺少明确责备和对抗，且没有音轨可核实语调，因此最符合worried而非angry或sad。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 239.66632509231567
+}

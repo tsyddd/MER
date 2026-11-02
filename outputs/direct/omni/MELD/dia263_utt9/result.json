@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia263_utt9",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sadness",
+  "emotion_analysis": "Ross speaks the line 'I'm gonna have to give him up' with a low, resigned tone and a slightly downcast expression, indicating a sense of loss or acceptance of an unfortunate situation.",
+  "output": "Ross speaks the line 'I'm gonna have to give him up' with a low, resigned tone and a slightly downcast expression, indicating a sense of loss or acceptance of an unfortunate situation.\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 4.675352573394775,
+  "node_count": null,
+  "edge_count": null
+}

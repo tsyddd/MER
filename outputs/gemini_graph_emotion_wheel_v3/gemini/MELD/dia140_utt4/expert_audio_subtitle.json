@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Ross在提出建议时，语调平稳自然，语速适中，带有口语中常见的轻微停顿与重复（like-like），没有激动、上扬或对抗性起伏；面部神态平静专注，整体表现为平稳务实的日常交谈状态[E1][E2]。",
+  "open_emotion": "平稳",
+  "answer": "neutral",
+  "mapping_reason": "说话人处于客观、平静出主意的日常交流状态，没有表现出joy、anger、surprise等显著主导情绪，符合情绪轮中neutral的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Y'know, like-like write a play.",
+      "observation": "台词为日常口语化建议，提出‘写个剧本’的设想，语义为常规探讨，无情绪化词汇或负面评价。",
+      "interpretation": "表明目标人物正在平静地向对方提供建议，言语行为属于平常的陈述与建议。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "音量平稳适中，基频无大幅突升或跌落，尾音自然收束，无叹气、颤抖或高亢重音。",
+      "interpretation": "韵律特征支持当前表达处于无显著情感波动的平稳状态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "由于是给对方提建议，可能被猜测带有微弱的启发或积极互动意图，但音频与面部均无笑意或兴奋度，不支持判定为joy。"
+}

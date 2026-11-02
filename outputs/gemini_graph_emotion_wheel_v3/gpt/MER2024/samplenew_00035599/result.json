@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00035599",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "2e41d1566b0d6d612ec8cac9b6fe7ea8a5c74329bc5ef3be50b67f145d3e328a",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "低落",
+      "mapped_label": "sad",
+      "mapping_reason": "低落属于sad所涵盖的当前情绪表现；这里主要依据她说话时持续的低垂神情，而非把风筝线的叙述推断为已发生的损失。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "低落",
+      "mapped_label": "sad",
+      "mapping_reason": "“低落”在当前语境下更接近情绪轮中sad所指的低落表达；字幕没有提出尚未发生的风险，因此不优先映射为worried。"
+    },
+    "image": {
+      "open_emotion": "伤感",
+      "mapped_label": "sad",
+      "mapping_reason": "当前以低落的面部表现为主，故将“伤感”映射到sad；画面与字幕不足以确定伤感的具体缘由。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "回看frame_00至frame_07，目标女子说话时持续垂眼、眉间微收，后段表情仍显低落；[image:E1]和[image:E2]对这一视觉变化的描述基本可信。字幕“手里还握着一截风筝线。”只是在叙述细节，[audio_subtitle:E1]指出它未明确表达损失或未来风险，这一限制成立。frame_06的嘴形短暂似笑，但不足以推翻前后持续的低落表现，也不能据此判为喜悦。图谱转述的抽噎般停顿[graph:E4]因未提供音轨无法核验，不作为依据；综合可见表现，选择sad。",
+  "output": "回看frame_00至frame_07，目标女子说话时持续垂眼、眉间微收，后段表情仍显低落；[image:E1]和[image:E2]对这一视觉变化的描述基本可信。字幕“手里还握着一截风筝线。”只是在叙述细节，[audio_subtitle:E1]指出它未明确表达损失或未来风险，这一限制成立。frame_06的嘴形短暂似笑，但不足以推翻前后持续的低落表现，也不能据此判为喜悦。图谱转述的抽噎般停顿[graph:E4]因未提供音轨无法核验，不作为依据；综合可见表现，选择sad。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 84.62469816207886
+}

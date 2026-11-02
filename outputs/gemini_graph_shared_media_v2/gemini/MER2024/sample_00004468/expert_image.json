@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物在片段中面对他人反应表现出明显的困惑与意外，在[E1]和[E2]中可见其双眼微睁大、眉毛微蹙挑起，结合[E3]中质问对方为何高兴的上扬语气，视觉与听觉一致指向惊讶/诧异（surprise）。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 1.2s",
+      "observation": "目标人物侧过头看向旁人，眉头微蹙，嘴唇微张，露出纳闷审视的神情。",
+      "interpretation": "显示出对对方言行感到不解与意外。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_06 @ 3.56s",
+      "observation": "目标人物双眼睁大定视对方，眉心聚拢上挑，嘴部张开说出疑问句。",
+      "interpretation": "睁大双眼配合上挑蹙眉是典型的诧异与质询表情，支持surprise。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:02 - 00:04",
+      "observation": "语音以扬起的反问语调说出“你怎么这么高兴呢？”",
+      "interpretation": "语调轻快且充满意外感，进一步排除了严肃愤怒或担忧。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "蹙眉与质问神态可能被误判为愤怒（angry），但其面部肌肉未见紧绷的攻击性怒意，语气亦仅是纳闷与好奇对方的反应，故不采用angry。"
+}

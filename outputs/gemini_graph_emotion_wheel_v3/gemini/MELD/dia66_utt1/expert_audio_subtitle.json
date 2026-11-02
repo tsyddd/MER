@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物Flight Attendant在迎客时发出的台词充满热情与职业礼貌。音频中约00:00.6至00:01.8处，其声音清脆明快、音调整体偏高且尾音上扬，带有明显的微笑发音共鸣感，语用行为为典型的积极迎宾祝福与致谢，体现出愉悦亲切的正向情绪状态。",
+  "open_emotion": "愉悦亲切",
+  "answer": "joy",
+  "mapping_reason": "目标人物展现出轻快、友好且带有笑意的正向服务体验，符合情绪轮中joy对于愉悦、开心及正向互动体验的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00.6-00:01.8",
+      "observation": "空乘说话时语速轻快，音调显著偏高且带有明显的微笑共鸣，在'Thank you'与'flight'处均有轻快上扬。",
+      "interpretation": "表明说话者处于积极愉悦、主动示好的正向情绪状态，而非平淡刻板的发声。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Thank you!  Enjoy your flight?",
+      "observation": "字幕包含感叹号致谢及祝福客人的常规问候句式。",
+      "interpretation": "言语行为展现出明确的善意与愉快的互动意图。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "此类迎宾话语包含服务行业的程式化规范，可能被解释为缺乏内在真实情感波动的纯礼貌中性（neutral）；但其音轨中充沛的笑意音质和上扬语调支持了明确的正向情绪偏向。"
+}

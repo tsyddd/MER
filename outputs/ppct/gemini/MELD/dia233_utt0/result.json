@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia233_utt0",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "结合节点person_0、person_1与person_2，Rachel在质问时身体站姿端正、左手叉腰，双眼直视对方，整体神态冷静而专注。其台词语调平稳清晰，仅在句尾自然升调，没有激烈的情绪爆发或愤怒叫喊，表现为平静客观的探询状态。",
+  "output": "结合节点person_0、person_1与person_2，Rachel在质问时身体站姿端正、左手叉腰，双眼直视对方，整体神态冷静而专注。其台词语调平稳清晰，仅在句尾自然升调，没有激烈的情绪爆发或愤怒叫喊，表现为平静客观的探询状态。\n<answer>neutral</answer>",
+  "label": "anger",
+  "elapsed_seconds": 53.903446197509766,
+  "node_count": 6,
+  "edge_count": 5
+}

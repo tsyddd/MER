@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia168_utt13",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "d4f4337f36452e71eb92ed229fc09628e4b5b5772a515f3e6f5a2fe6ba4ccce4",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "愤怒",
+      "mapped_label": "anger",
+      "mapping_reason": "根据提供的情绪轮定义，'anger'被描述为对冒犯、受阻或不公的恼火、责备与对抗。Ross的行为完全符合这一定义：他直接指控对方（冒犯/不公），并用坚定和施压的语气要求对方认罪（对抗/责备）。他的情绪是明确的、针对特定对象的对抗性愤怒，而非恐惧、悲伤或惊讶。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "愤怒",
+      "mapped_label": "anger",
+      "mapping_reason": "根据情绪轮定义，'anger'是因冒犯、受阻或不公而产生的恼火、责备与对抗。Ross的言语内容（'We know you took it'）是直接的指控，其急促、高亢的语调和命令式的语气（'just save yourself the time and confess'）是典型的对抗性表现，与'anger'的定义高度一致。"
+    },
+    "image": {
+      "open_emotion": "愤怒",
+      "mapped_label": "anger",
+      "mapping_reason": "根据情绪轮定义，'anger'是因冒犯、不公或受阻而产生的恼火、责备与对抗。Ross的行为和话语直接指向对他人行为的指责和施压，完全符合该情绪的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "Ross的言语内容（'We know you took it so just-just save yourself the time and confess!'）是直接的指控和命令，表现出对抗性。他的语调高亢、急促，带有明显的指责意味，与愤怒情绪的定义（对冒犯、受阻或不公的恼火、责备与对抗）完全一致。视觉上，他张嘴、皱眉、眼神锐利，并伴有指向和挥动的手势，这些都强化了其施压和质问的姿态。三位专家的证据均一致指向'anger'，且所有证据（音频、字幕、视觉）相互印证，无任何冲突或反证。",
+  "output": "Ross的言语内容（'We know you took it so just-just save yourself the time and confess!'）是直接的指控和命令，表现出对抗性。他的语调高亢、急促，带有明显的指责意味，与愤怒情绪的定义（对冒犯、受阻或不公的恼火、责备与对抗）完全一致。视觉上，他张嘴、皱眉、眼神锐利，并伴有指向和挥动的手势，这些都强化了其施压和质问的姿态。三位专家的证据均一致指向'anger'，且所有证据（音频、字幕、视觉）相互印证，无任何冲突或反证。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 174.68641424179077
+}

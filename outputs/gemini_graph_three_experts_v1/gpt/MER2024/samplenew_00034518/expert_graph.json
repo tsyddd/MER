@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "当前主要说话人物是年长女性；图谱记载她以带有疑问和关切的语调询问“家里又出什么事了”〔process_0〕〔person_1〕，同时上身前倾并持续注视蓝衣女性〔person_0〕，体现出对对方状况的担心。",
+  "answer": "worried",
+  "evidence_refs": [
+    "process_0",
+    "person_1",
+    "person_0"
+  ]
+}

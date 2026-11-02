@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013200",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "e4bae7c80b439e4a7f0b4b40b4f348c523e3f9346140a2af207f7d850c976f73",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "angry",
+  "emotion_analysis": "三方专家给出的观察高度一致。视觉上目标人物双眉紧锁、怒视对方且姿态紧绷逼问；听觉与字幕上其语调高昂严厉，在斥责对方“背信弃义”等失信行为时重音明显，多模态特征均明确指向强烈的愤慨与斥责情绪。",
+  "output": "三方专家给出的观察高度一致。视觉上目标人物双眉紧锁、怒视对方且姿态紧绷逼问；听觉与字幕上其语调高昂严厉，在斥责对方“背信弃义”等失信行为时重音明显，多模态特征均明确指向强烈的愤慨与斥责情绪。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 31.330074310302734
+}

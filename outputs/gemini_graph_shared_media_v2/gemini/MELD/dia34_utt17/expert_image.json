@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "目标人物Monica在对话过程中身体正对对方，自frame_05起双眼紧盯Rachel，眉弓微抬、眼神直视且神情紧绷严肃，配合音频中高声、坚决斥责的语调[E1][E2]，视觉与听觉共同表明其处于愤怒与严厉责备的状态，而非单纯的中性陈述。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_05 @ 2.54s",
+      "observation": "Monica直视Rachel，双目圆睁，面部线条收紧并开始开口说话，神态严肃坚定。",
+      "interpretation": "展现出正面交涉时的对峙神态与不容置疑的态度，支持愤怒责备的情绪倾向。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00 - 00:03",
+      "observation": "台词'Rachel! I’m never gonna think it’s okay for you to cheat on your husband!'声调拔高且语气坚决带有责难。",
+      "interpretation": "强化了视觉上紧盯对方的说教与责备姿态，明确排除了平淡中立或玩笑性质。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "Monica在沙发上的坐姿相对平稳，没有挥舞手臂或咬牙切齿的极端暴怒肢体动作，若仅看静态坐姿易被误判为neutral，但其严厉凝视与高昂斥责的声音反驳了中立假设。"
+}

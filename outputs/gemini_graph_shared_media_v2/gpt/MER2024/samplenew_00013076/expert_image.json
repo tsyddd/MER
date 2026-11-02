@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物是画面右侧、身穿黑色羽绒服并戴口罩的人。其眼角在连续画面中明显收窄，随后双手在胸前合十并保持面向对方，结合字幕中的感谢表达，最支持礼貌且带有积极情绪的开心状态；但口罩遮挡了嘴部，无法确认更强烈的笑容。",
+  "answer": "happy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.76秒至frame_04 @ 1.52秒",
+      "observation": "目标人物面向对方，眼睛逐渐眯起，眼周呈现类似微笑时的收缩。",
+      "interpretation": "支持其当下带有积极、友好的面部表现，但眼部变化单独不足以证明强烈开心。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05 @ 1.88秒至frame_07 @ 2.64秒",
+      "observation": "目标人物抬起双手在胸前合十，并继续面向对方。",
+      "interpretation": "这是明显的感谢、致意手势，与积极和友善的情绪表达相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "当前字幕原话：“正要感谢您呢！谢谢！谢，谢谢。”",
+      "observation": "字幕内容反复表达感谢。",
+      "interpretation": "为视觉上的友好眼神和合十手势提供跨模态支持，指向礼貌感谢伴随的积极情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "口罩遮挡了目标人物的嘴部，且合十和眼睛收窄也可能主要是礼貌性致谢而非明显愉悦；缺少可见嘴角和音频，无法进一步确认开心的强度。"
+}

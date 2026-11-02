@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。字幕表达了肯定、感谢和对表现的高度赞赏，当前态度偏积极愉快。",
+  "answer": "joy",
+  "evidence_refs": []
+}

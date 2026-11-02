@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013200",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "e4bae7c80b439e4a7f0b4b40b4f348c523e3f9346140a2af207f7d850c976f73",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "angry",
+  "emotion_analysis": "三份专家输出均指向对抗和不满：字幕中的“背信弃义”“抬价”是强烈指责，图像描述的紧锁眉头、直视和张口质问也相互印证。图谱中的语速、音量等听觉信息可能与其他描述同源，且音频专家明确未提供音频，因此不将其作为独立听觉证据；综合字幕与图像证据，当前情绪判断为愤怒。",
+  "output": "三份专家输出均指向对抗和不满：字幕中的“背信弃义”“抬价”是强烈指责，图像描述的紧锁眉头、直视和张口质问也相互印证。图谱中的语速、音量等听觉信息可能与其他描述同源，且音频专家明确未提供音频，因此不将其作为独立听觉证据；综合字幕与图像证据，当前情绪判断为愤怒。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 80.37740135192871
+}

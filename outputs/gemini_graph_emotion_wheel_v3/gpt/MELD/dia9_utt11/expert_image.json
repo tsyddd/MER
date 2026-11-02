@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是左侧棕发女子Rachel，而非中间的金发女子。她先抬眼说话，随后垂下视线、收紧嘴角，最后举起手中的蓝色衣物查看；这些变化与字幕中逐一说出受损物品相符，最支持她因损失而难过[E1][E2][E3]。",
+  "open_emotion": "难过",
+  "answer": "sadness",
+  "mapping_reason": "她当前的表达围绕床、衣服和喜爱的毛衣受损，符合sadness中因损失而难过的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.000秒）至frame_03（1.084秒）",
+      "observation": "Rachel坐在左侧，手握蓝色衣物；起初抬眼、张口，随后低头，嘴角收紧。",
+      "interpretation": "从抬眼说话转为低头的变化，支持低落的解读，但单凭表情不能确定原因。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05（1.793秒）至frame_07（2.502秒）",
+      "observation": "Rachel将蓝色衣物举到面前，随后仍拿着它，视线落在衣物附近；旁边两名女子没有做这一动作。",
+      "interpretation": "她持续关注手中的衣物，支持其情绪与该物品有关。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“Everythings ruined. My bed. My clothes. Look at my favorite blue sweater.”",
+      "observation": "字幕称床、衣服都毁了，并特别提到最喜欢的蓝色毛衣。",
+      "interpretation": "明确指出她正在谈论损失，与画面的低落表现共同支持难过。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "开头抬眼、张口也可能表示震惊或焦急；画面中没有清晰可辨的泪水。没有提供音频，无法依据语调进一步区分。"
+}

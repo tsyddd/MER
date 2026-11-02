@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载目标人物在向对方讲述案情时，语调低缓沉稳且语速平稳〔person_1〕，上身端正坐立、以微点头部配合讲述〔person_3〕。虽然其双目注视且面部表情紧绷〔person_0，person_2〕，但整体言语与姿态均表现为冷静、克制的叙述状态，未表现出明显的激动或恐慌。综合其沉稳平缓的言行表现，其当前情绪判断为中性。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "person_2",
+    "person_3"
+  ]
+}

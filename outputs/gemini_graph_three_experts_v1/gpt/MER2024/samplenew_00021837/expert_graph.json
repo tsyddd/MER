@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "梅晓歌在室内发言场景中端坐并平视前方，图谱记载其语速平稳、语调沉稳〔person_0〕。他虽然在句间抿嘴停顿〔person_1〕，但随后继续平稳陈述并在结束时注视前方〔person_2〕〔person_3〕，现有证据不足以支持明显的愤怒、悲伤或担忧。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "person_2",
+    "person_3"
+  ]
+}

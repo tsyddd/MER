@@ -1,0 +1,10 @@
+{
+  "reason": "独立核听真实音轨（00:00-00:04）及回看连续画面可见，Rachel在说出质问台词时音调极其平稳、语速连贯从容，完全缺乏攻击性重音或愤怒爆发[audio:E1]；画面中frame_02至frame_07其面部神态松弛沉着，并无双眉紧蹙或严厉瞪视[visual:E2]。专家[audio_subtitle:E1]与[image:E3]过度依赖台词中“逼我搬走”的对质字面语义而推断为恼火/anger，忽视了其实际视听表达处于非常克制平和的日常探询状态，故判定为平稳中性。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "audio:E1",
+    "visual:E2",
+    "audio_subtitle:E1",
+    "image:E3"
+  ]
+}

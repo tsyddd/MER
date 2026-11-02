@@ -1,0 +1,9 @@
+{
+  "reason": "回看8帧与实际音轨，目标人物Chandler靠在沙发上，虽在[image:E1]中有摆手推拒动作并提及‘embarrassing’，但其肢体放松从容，如[image:E2]所述面部并无皱鼻、蹙眉等厌恶或对抗性表情。专家[audio_subtitle:E2]将其连续‘no-no-no’解读为强烈的排斥嫌恶（disgust），但实际听觉表现为平稳克制的冷面吐槽语调，没有激烈的避嫌情绪震颤。整体呈现日常随性的死板冷幽默交流，符合无强烈情绪偏向的neutral。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "audio_subtitle:E2"
+  ]
+}

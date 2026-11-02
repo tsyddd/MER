@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "女性双眉紧蹙、眉心隆起，并持续注视画面右侧〔person_0〕〔person_1〕，表现出一定的担忧或警觉。图谱记载她以低音量、上扬的疑问语气询问“他是谁呀”〔person_2〕，结合当前表现，判断其情绪为担心。",
+  "answer": "worried",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "person_2"
+  ]
+}

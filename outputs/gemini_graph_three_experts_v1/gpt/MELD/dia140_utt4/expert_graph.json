@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "Ross在厨房中与Joey面对面交流，并持续注视对方、开口说话〔context_1〕〔person_0〕〔process_0〕。图谱记载其语音出现“like-like”的轻微重复〔person_2〕，更像是在组织措辞提出建议，未见明确的强烈情绪表现。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "context_1",
+    "person_0",
+    "process_0",
+    "person_2"
+  ]
+}

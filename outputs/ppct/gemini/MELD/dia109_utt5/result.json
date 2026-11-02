@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia109_utt5",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "在餐厅交谈中，Janice 结合节点 person_1 的抑扬顿挫的高亢声调与节点 process_1、person_2 中生动的双手手指比划，调侃地对 Chandler 说出制作木偶和“残酷剧场”的台词（process_2）。她的神态充满戏谑与调侃的玩味笑意，整体互动表现出强烈的戏谑幽默感与愉快轻松（joy）。",
+  "output": "在餐厅交谈中，Janice 结合节点 person_1 的抑扬顿挫的高亢声调与节点 process_1、person_2 中生动的双手手指比划，调侃地对 Chandler 说出制作木偶和“残酷剧场”的台词（process_2）。她的神态充满戏谑与调侃的玩味笑意，整体互动表现出强烈的戏谑幽默感与愉快轻松（joy）。\n<answer>joy</answer>",
+  "label": "anger",
+  "elapsed_seconds": 56.152312994003296,
+  "node_count": 10,
+  "edge_count": 11
+}

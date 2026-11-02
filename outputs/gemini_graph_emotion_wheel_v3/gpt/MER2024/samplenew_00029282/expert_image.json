@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是画面左侧穿浅紫色上衣、正面对人说话的女性，不是右侧背对镜头的人。她从看向对方到逐渐垂下视线，眉头持续收紧，嘴角下压；这些连续表现更支持难过，而非单凭一句话判断她在惊讶。[E1][E2] 字幕中的“没想到”提供了意外的可能，但画面没有明显瞪眼等即时惊讶表现。[E3]",
+  "open_emotion": "难过",
+  "answer": "sad",
+  "mapping_reason": "当前较明显的是低落、伤感的面部表现，因此将“难过”映射为sad；字幕不足以确定她难过的具体缘由。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_04（1.48秒）",
+      "observation": "左侧女性看向对面的人，眉头收紧，嘴角下压；说话时嘴巴数次张开。",
+      "interpretation": "持续的眉眼和嘴角表现支持低落感，但张口本身只是说话动作。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_06（2.2秒）至frame_07（2.56秒）",
+      "observation": "她的视线由对方面部转向下方，眉头仍紧，嘴角仍下压。",
+      "interpretation": "由对视转为垂眼，与前面的表情连在一起，更支持难过的解释。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“没想到，你竟然这么傻。”",
+      "observation": "字幕包含“没想到”和“竟然”。",
+      "interpretation": "措辞可表示意外，也可能带有责备；仅凭文字不能确定说话时的情绪或语调。",
+      "polarity": "counter"
+    }
+  ],
+  "counterevidence": "“没想到”是惊讶解释的最强依据；但她的面部变化不像短暂的惊愕。没有提供音频，也不能凭字幕判定责备语气或难过的原因。"
+}

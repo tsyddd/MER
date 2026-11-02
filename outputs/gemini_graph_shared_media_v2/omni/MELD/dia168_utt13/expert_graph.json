@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "Ross的言语内容（\"We know you took it\"）和语气（坚定、快速）表明他正在施加压力，要求对方坦白。他的手势（指向前方、摊手、侧向比划）与言语内容一致，共同构成了一个连贯的施压过程。图谱中的节点person_1（坚定语调）和person_0（指向前方）直接支持了这一判断。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "Ross说：\"We know you took it so just-just save yourself the time and confess!\"",
+      "interpretation": "言语内容是直接的指控和施压，要求对方坦白，这是愤怒情绪的典型表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "Ross语调坚定、语速较快",
+      "interpretation": "坚定且快速的语调是愤怒情绪的常见听觉特征，与言语内容的施压性质相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 @ 00:00",
+      "observation": "Ross张嘴说话，左手伸出指向前方",
+      "interpretation": "指向对方的手势是直接的指责和施压行为，是愤怒情绪的典型身体语言。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无明确的反证。虽然Ross的语气中可能带有一丝急切，但其言语内容和肢体语言的组合更强烈地指向愤怒。"
+}

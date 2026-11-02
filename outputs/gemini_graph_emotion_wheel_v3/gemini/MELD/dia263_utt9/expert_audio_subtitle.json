@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Ross在陈述自己必须放弃某人/物（'I'm gonna have to give him up'）时，语调低沉轻微，伴有明显的落寞感与无力感，节奏缓慢且语流呈下降趋势。结合视觉上低垂的视线与耷拉的肩部姿态，体现出因不可避免的失去与离别而产生的低落与沮丧。",
+  "open_emotion": "沮丧",
+  "answer": "sadness",
+  "mapping_reason": "根据情绪轮，'沮丧/失落/难过'源于面对分离与失去事件的负面感受，直接归入sadness家族。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "I'm gonna have to give him up.",
+      "observation": "台词表明Ross被迫做出放弃和离别的决定，语义包含失落与不舍的情感载荷。",
+      "interpretation": "面对分离与损失的言语行为，构成了悲伤和沮丧的核心诱因。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.0s-1.3s",
+      "observation": "声音音量偏轻，音调整体偏低且语速迟缓，在句尾'give him up'处声调下沉，带有轻微的叹息与认命感。",
+      "interpretation": "低能量、低音调的落寞韵律明确表现出低沉消极的心态，而非中性的陈述。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00至frame_02",
+      "observation": "Ross双目下垂、嘴角略微耷拉，面部肌肉放松下沉，身体微微前倾缩起。",
+      "interpretation": "身体语言与面部神态呈现出典型的消沉与失落，印证了声音传达的沮丧感。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "他的声音较为平静、没有抽泣或强烈的声调起伏，可能被误判为平铺直叙的neutral；但语调中的低沉叹息感及面临分离的语义完全排除了真正的情感中立。"
+}

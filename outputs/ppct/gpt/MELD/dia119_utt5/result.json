@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia119_utt5",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "fear",
+  "emotion_analysis": "Monica提到Ben今晚要来且“不能看到这个东西”（process_0），并在街机旁看向左侧人物（person_0、context_0），随后边 gesturing 边伸手操作控制面板（person_1、process_1），表现出对即将发生情境的紧张和担忧。字幕涉及未来可能暴露的情况，而非Ben已在场；结合她紧绷的表情与急于处理眼前物品的动作，更符合fear。",
+  "output": "Monica提到Ben今晚要来且“不能看到这个东西”（process_0），并在街机旁看向左侧人物（person_0、context_0），随后边 gesturing 边伸手操作控制面板（person_1、process_1），表现出对即将发生情境的紧张和担忧。字幕涉及未来可能暴露的情况，而非Ben已在场；结合她紧绷的表情与急于处理眼前物品的动作，更符合fear。\n<answer>fear</answer>",
+  "label": "fear",
+  "elapsed_seconds": 147.39215970039368,
+  "node_count": 7,
+  "edge_count": 4
+}

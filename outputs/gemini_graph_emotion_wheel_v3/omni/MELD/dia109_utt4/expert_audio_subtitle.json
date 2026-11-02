@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者Janice的语调上扬，带有明显的疑问和一丝难以置信的意味。她的话语'Oh, are you sure?'（哦，你确定吗？）在语境中表现出对某事的怀疑和惊讶，而非愤怒、悲伤或厌恶。她的表情和手势也支持了这种惊讶和怀疑的情绪。因此，最合适的开放情绪是'惊讶'，映射到数据集的'surprise'标签。",
+  "open_emotion": "惊讶",
+  "answer": "surprise",
+  "mapping_reason": "根据提供的情绪轮定义，'surprise'（惊讶）被描述为'面对违背预期的信息而意外、诧异或惊奇'。说话者Janice的反问语气和上扬的语调，结合她的话语内容，表明她对听到的信息感到意外和难以置信，这与'surprise'的定义完全吻合。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Oh, are you sure?",
+      "observation": "字幕显示说话者说'Oh, are you sure?'。",
+      "interpretation": "这句话是一个直接的反问，表达了对某事的怀疑和不确定性。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:03.587",
+      "observation": "音频中说话者的语调在'Oh'和'sure'处明显上扬，语速平稳。",
+      "interpretation": "上扬的语调是疑问句和表达惊讶的典型特征，表明说话者并非在陈述事实，而是在寻求确认并表达其意外之情。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 - frame_07",
+      "observation": "说话者（Janice）的表情从平静转为睁大眼睛、张开嘴巴，同时伴有手势。",
+      "interpretation": "这些面部表情和手势是惊讶和难以置信的直接视觉表现，与音频中的疑问语气和字幕内容相一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有发现支持其他情绪的证据。例如，没有表现出愤怒的迹象（如音量增大、语速加快、面部肌肉紧绷），也没有表现出悲伤或厌恶的迹象。"
+}

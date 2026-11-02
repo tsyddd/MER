@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标人物躺在床上，双眼睁开，视线朝向画面左上方，面部肌肉放松，无明显皱眉或嘴角上扬等表情。在所有可见帧中，其姿态和面部状态均无显著变化。结合字幕内容“Deeper”及音频中低沉的引导性声音，该视觉表现与放松、专注或催眠状态相符，而非表达愤怒、悲伤、喜悦等强烈情绪。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "目标人物躺在床上，双眼睁开，视线朝向画面左上方。",
+      "interpretation": "睁眼且视线固定，表明其处于清醒和专注状态，而非睡眠或表达强烈情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "目标人物面部肌肉放松，无明显皱眉、嘴角上扬或下撇等表情。",
+      "interpretation": "缺乏与愤怒、悲伤、喜悦等情绪相关的面部特征，支持中性判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "目标人物的姿势为仰卧，身体被被子覆盖，整体姿态稳定。",
+      "interpretation": "稳定的卧姿表明其处于放松或休息状态，与中性情绪一致。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "subtitle",
+      "anchor": "Deeper.",
+      "observation": "字幕显示“Deeper.”。",
+      "interpretation": "该词常用于催眠或引导放松的语境，与视觉上人物的平静状态相符，为中性情绪提供了上下文支持。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无明确反证。虽然音频中声音低沉，但视觉上人物无任何紧张或恐惧的迹象，因此不支持“fear”或“anger”等标签。"
+}

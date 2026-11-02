@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035837",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "sad",
+  "emotion_analysis": "人物低垂着眼，嘴角下压，整体表情沉重而失落。字幕表达“再也没有亲人了”的孤独和失去，结合当前面部状态可判断为悲伤。",
+  "output": "人物低垂着眼，嘴角下压，整体表情沉重而失落。字幕表达“再也没有亲人了”的孤独和失去，结合当前面部状态可判断为悲伤。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 25.72506618499756,
+  "node_count": null,
+  "edge_count": null
+}

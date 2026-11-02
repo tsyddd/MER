@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia21_utt6",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "Phoebe在与男子面对面对视时面带微笑，手搭在对方胸口，语气轻松带笑地调侃对方，整体流露出明显的愉悦与喜悦情绪。",
+  "output": "Phoebe在与男子面对面对视时面带微笑，手搭在对方胸口，语气轻松带笑地调侃对方，整体流露出明显的愉悦与喜悦情绪。\n<answer>joy</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 6.687875270843506,
+  "node_count": null,
+  "edge_count": null
+}

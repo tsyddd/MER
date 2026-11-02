@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物Rachel（画面正中穿红色长袖上衣的女性）在与面前人物对话时，一手叉腰、身体微倾保持对峙质态[E1]；其面部双眉微蹙，神情严肃紧绷，伴有明确的直视与质询神态[E2]；结合台词对对方意图的质问，整体表现出因受到针对而产生的不满与责备[E3]。",
+  "open_emotion": "不满",
+  "answer": "anger",
+  "mapping_reason": "Rachel因怀疑对方试图将自己赶出公寓而展开质问，表现出对不公与冒犯的对抗与责备，符合anger（愤怒/恼火/不满）家族定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07 (0.0s-4.30s)",
+      "observation": "Rachel单手叉在腰间，另一手支撑在身侧，身体正对并紧盯前方人物，形成对峙姿态。",
+      "interpretation": "叉腰与稳固的对立站姿传达出对质与质问的态度。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04至frame_06 (2.46s-3.67s)",
+      "observation": "Rachel双眉略微压低聚拢，嘴唇紧抿后微张，目光直视对方，表情严肃无笑意。",
+      "interpretation": "显示出不悦与严肃指责的情感状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Did you get all this stuff for Joey to try and drive me out of the apartment?",
+      "observation": "字幕明确指责对方是否故意购置物品以逼走自己。",
+      "interpretation": "话语具有直接的责难与受冒犯性质，印证其不满情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "Rachel的语调与肢体并未升级为大声咆哮或极端愤怒，面部动作相对克制，易被误判为单纯探究事实的中性提问。"
+}

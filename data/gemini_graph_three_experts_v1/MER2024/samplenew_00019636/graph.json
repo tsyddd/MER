@@ -1,0 +1,190 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "男子开口说出“那胡十四娘真的一百多岁了”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "男子继续说出“我怎么看也不像啊”",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "男子说出“那晚她说她用了人面花”",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_3",
+      "type": "process",
+      "content": "男子说出“得以永葆青春”",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "男子垂眼后抬眸，视线看向前方偏下方位",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "男子发声语调低沉沉静",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "男子双眼微睁大，注视着斜下方，嘴唇开合",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "男子抬起右手，屈肘将半握的拳头抵在颈前衣领处",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_4",
+      "type": "person",
+      "content": "男子保持手抵在领口处，目光定视前方",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "昏暗的室内环境中，背景有木制窗棂",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "男子在说完关于胡十四娘年龄的话语后，继续表达自己的质疑观点",
+      "entity_anchor": "男子的言语表达"
+    },
+    {
+      "source": "process_2",
+      "target": "process_1",
+      "relation": "after",
+      "reason": "男子在表达不像之后，接着转入回忆叙述当晚的对话内容",
+      "entity_anchor": "男子的言语表达"
+    },
+    {
+      "source": "process_3",
+      "target": "process_2",
+      "relation": "after",
+      "reason": "男子在提及人面花之后，顺承说出人面花的作用得以永葆青春",
+      "entity_anchor": "男子的言语表达"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "男子在抬眸注视斜前方的同时，口中发出低沉沉静的语调",
+      "entity_anchor": "男子的神态与发声表现"
+    },
+    {
+      "source": "person_2",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "男子从原本垂眼抬眸的状态转变为双眼微睁大、注视斜下方且嘴唇开合的状态",
+      "entity_anchor": "男子的面部眼神与神态变化"
+    },
+    {
+      "source": "person_3",
+      "target": "person_2",
+      "relation": "after",
+      "reason": "男子在面部注视斜下方之后，抬起右手并屈肘将半握的拳头抵在颈前领口处",
+      "entity_anchor": "男子的肢体动作变化"
+    },
+    {
+      "source": "person_4",
+      "target": "person_3",
+      "relation": "after",
+      "reason": "男子在做出手抵衣领动作后，持续保持该手部姿态并将目光定视前方",
+      "entity_anchor": "男子的手部姿态与目光"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提出对对方年龄的疑问，process_1紧随其后补充自身观察判断，二者联合构成了对对方真实年龄提出质疑的完整言语表述过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_2",
+      "target": "process_3",
+      "relation": "process_joint",
+      "reason": "process_2陈述对方自述使用了人面花的事实前提，process_3补全其声称以此永葆青春的目的结果，二者联合形成对该事件缘由的完整叙述过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供了垂眼抬眸、若有所思的视线面部状态，person_1补充了低沉沉静的声音表现，视听结合增量呈现出说话时沉思低语的外在体态与语调特征。",
+      "entity_anchor": null
+    }
+  ]
+}

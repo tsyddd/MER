@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia198_utt2",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "3e5a8a4993b19ac3f6e4c36023c416407d12023be7b4a0e80d447afe6996d7d7",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "surprise",
+      "mapped_label": "surprise",
+      "mapping_reason": "Joey的表达并非字面意义上的赞美，而是通过反讽来表达对对方表现的惊讶和调侃。这种惊讶源于对方表现与预期的巨大反差，符合'surprise'情绪轮中'面对违背预期的信息而意外、诧异或惊奇'的定义。虽然带有负面色彩，但其核心是意外，而非愤怒、厌恶或恐惧。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "Joey的言语内容和语调都表现出对某事的意外和难以置信，这与'surprise'的定义相符。他的语气并非愤怒、悲伤或厌恶，而是充满了惊奇，因此映射到'surprise'是合适的。"
+    },
+    "image": {
+      "open_emotion": "兴奋",
+      "mapped_label": "joy",
+      "mapping_reason": "根据观察，Joey的面部表情（睁大的眼睛、上扬的眉毛、张开的嘴巴）和手势（指向对方）都表现出一种积极的、高能量的状态。结合字幕内容，他正在用一种夸张和幽默的方式描述一个事件。这种表达方式与'joy'（喜悦）的定义最为接近，即一种开心、愉悦或兴奋的正向体验。虽然他的台词内容是负面的（被打败），但其表达方式是积极和戏剧化的，因此映射到'joy'是合理的。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "Joey的言语内容是描述一个团队被击败的事实，并用夸张的比喻（'You could be on the Olympic standing-there team'）来表达惊讶和难以置信。他的语调上扬，节奏较快，带有明显的惊讶和一丝幽默感，这与'surprise'情绪轮中'面对违背预期的信息而意外、诧异或惊奇'的定义相符。虽然专家graph和image的解释（surprise和joy）都与视觉和听觉证据有部分支持，但audio_subtitle专家的证据（E1, E2, E3）直接且完整地将言语内容、语调和面部表情与惊讶情绪联系起来，是最直接和可信的证据。",
+  "output": "Joey的言语内容是描述一个团队被击败的事实，并用夸张的比喻（'You could be on the Olympic standing-there team'）来表达惊讶和难以置信。他的语调上扬，节奏较快，带有明显的惊讶和一丝幽默感，这与'surprise'情绪轮中'面对违背预期的信息而意外、诧异或惊奇'的定义相符。虽然专家graph和image的解释（surprise和joy）都与视觉和听觉证据有部分支持，但audio_subtitle专家的证据（E1, E2, E3）直接且完整地将言语内容、语调和面部表情与惊讶情绪联系起来，是最直接和可信的证据。\n<answer>surprise</answer>",
+  "label": "anger",
+  "elapsed_seconds": 180.78143525123596
+}

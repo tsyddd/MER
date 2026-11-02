@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物Rachel怀抱持续啼哭的婴儿，在frame_01至frame_04中眉毛内角上扬、眉头紧锁，嘴角向下抽动并张口呈现明显的哭丧与痛苦神态（distress face）。结合其抓头、焦急晃动身体以及音频中近乎抽泣、崩溃的哭腔诉苦，视觉与听觉均显示出其处于极度无助、筋疲力竭并濒临情绪崩溃的悲伤/痛苦状态，而非单纯的生气对抗。",
+  "open_emotion": "沮丧无助",
+  "answer": "sadness",
+  "mapping_reason": "目标人物面部呈现典型的悲伤眉（眉头向上聚拢）与哭丧表情，反映出面对婴儿长时间啼哭无法解决而产生的痛苦、无能为力与崩溃感；在情绪轮中，因受挫和痛苦带来的沮丧无助（distressed/dejected）归入sadness家族。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02至frame_04 (1.46s-2.21s)",
+      "observation": "Rachel眉心聚拢上挑，面部肌肉扭曲，嘴角向下撇并张口显出哭相，单手护着婴儿，身体微屈。",
+      "interpretation": "面部特征符合典型的痛苦与难过哭态，显示出极度崩溃和沮丧的情绪表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 (0.75s)",
+      "observation": "Rachel单手抬起抚弄后颈与头发，眉头紧蹙，眼神低垂注视婴儿。",
+      "interpretation": "肢体语言反映出巨大的心理压力与无从招架的焦灼困境。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:01-00:05",
+      "observation": "Rachel在持续高分贝婴儿哭声中，说话语调颤抖且带有明显的抽泣哭腔。",
+      "interpretation": "听觉表现验证了其并不是在愤怒训斥，而是被逼到哭泣边缘的极度难过与无助。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词表达中的抱怨倾向（'Oh come on'）可能带有一定的烦躁与抓狂，看似接近anger，但其面部缺乏怒视、咬牙或紧绷对峙等愤怒特征，主导形态是崩溃哭诉。"
+}

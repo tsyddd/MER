@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。字幕内容是连续表达感谢，当前态度积极友好，更符合开心而非其他情绪。",
+  "answer": "happy",
+  "evidence_refs": []
+}

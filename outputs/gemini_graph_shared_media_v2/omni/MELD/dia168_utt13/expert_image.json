@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "Ross的面部表情和手势在多个帧中保持一致，显示出一种坚定和施压的姿态。他的眉毛略微皱起，嘴巴张开，似乎在强调话语的严肃性。他的手势从握拳到摊开手掌，再到指向，都表现出一种不容置疑的质问和施压。这些视觉线索与字幕中“我们都知道是你拿的，所以就省省时间，招了吧！”的内容高度一致，表明他正在施加压力，要求对方承认。虽然他的表情看起来有些紧张，但整体姿态是坚定和施压的，而不是愤怒或悲伤。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "Ross的眉毛微微皱起，嘴巴张开，表情显得有些紧张和坚定。",
+      "interpretation": "这个表情是质问和施压的典型特征，为判断其情绪提供了视觉支持。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.7934569408978203",
+      "observation": "Ross的手势从握拳变为摊开手掌，似乎在强调‘我们都知道’的事实。",
+      "interpretation": "这个手势加强了话语的施压效果，表明他确信对方有罪，进一步支持了angry的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_06 @ 2.6693312608711746",
+      "observation": "Ross的手势变为指向，同时面部表情保持坚定。",
+      "interpretation": "指向的手势是质问和施压的直接表现，与字幕内容完全吻合，是判断angry的关键证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "subtitle",
+      "anchor": "We know you took so just-just save yourself the time and confess!",
+      "observation": "字幕内容是直接的质问和施压，要求对方承认。",
+      "interpretation": "字幕内容与Ross的视觉表现完全一致，证实了他的情绪是angry。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽然Ross的表情看起来有些紧张，但他的姿态是坚定和施压的，而不是被动或悲伤。他的表情和手势都指向一种主动的质问，而不是被动的反应。因此，neutral或sadness等情绪的解释缺乏视觉支持。"
+}

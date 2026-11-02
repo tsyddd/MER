@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "Joey在当前互动中说出简短的“What?”[E1]，同时朝前下方看、右臂略向外伸[E2]；随后收回手臂、低头看向地面[E3]。这一发问和姿态变化更像对眼前情况感到疑惑，而非表达明确的责备或畏惧。图谱的person_0与画面相符，但它和画面记录的是同一动作，不能算作额外的情绪证据；图谱也未说明他为何发问。[E4]",
+  "open_emotion": "疑惑",
+  "answer": "surprise",
+  "mapping_reason": "当前的疑问式反应最接近情绪轮中对意外信息感到诧异的surprise；这是近似映射，画面和字幕不足以确认意外的对象或强度。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "What?",
+      "observation": "Joey的当前字幕是一句简短反问。",
+      "interpretation": "支持他正在对当前情况作出疑问式反应，但仅凭文字不能判断语调。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）",
+      "observation": "左侧穿白色球衣的Joey朝前下方看，右臂向外伸。",
+      "interpretation": "动作与发问时的疑惑反应相容，本身不证明强烈震惊。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_07（0.5004996114133452秒）",
+      "observation": "Joey低头，右臂已落回身侧附近。",
+      "interpretation": "显示发问后的姿态变化，不能据此推断他因某事悲伤。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "process_0、person_0、person_1",
+      "observation": "图谱记录Joey说出“What?”及发问前后的姿态变化，未记录发问对象或缘由。",
+      "interpretation": "可用于定位当前事件链；其中声音信息只是图谱转述，未收到原音轨，无法亲耳核验。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "“What?”也可能只是平常的询问；没有原音轨，且画面未显示明确的惊愕表情，因此surprise的判断限于轻微、近似的疑惑反应。"
+}

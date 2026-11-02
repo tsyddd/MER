@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "结合事件链，莫妮卡在听到瑞秋的言论后立即转向对方并大声呼喊其名字[process_0]，紧接着以严厉且坚决的态度对其进行道德谴责[process_1]；音轨中其发音音量骤升、重音极强，画面中目光严厉紧盯瑞秋[person_2]，均表明其处于被激怒并严词斥责的愤怒状态，而非平静陈述。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "图谱记录莫妮卡明确向瑞秋表达绝不认同其背叛丈夫的行为",
+      "interpretation": "事件语义构成直接的指责与对抗，表明当前互动是一场具有强烈负面道德评判的严正斥责，为愤怒情绪提供情境支撑",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00 - 00:03.58",
+      "observation": "莫妮卡以极高音量喊出“Rachel!”，并在“never”和“cheat”上施加重音，语调急促且充满斥责意味",
+      "interpretation": "高唤醒度、高能量的斥责性语调直接印证了其激烈的谴责态度，排除了平静中立的可能",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04 @ 2.04s",
+      "observation": "莫妮卡身体微倾，眉眼紧绷直视身侧的瑞秋，嘴唇紧密配合高声发话",
+      "interpretation": "专注且紧绷的面部神态与施压体态与言语指责一致，表现出明显的生气与对抗姿态",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "一种可能的解释是莫妮卡仅是在平静地向朋友陈述道德原则（neutral），但实际音轨中首句高声呵斥且整句充满重音与逼问语势，且图谱节点[person_1]与可听音轨一致证实其音量与唤醒度极高，因而排除了中立可能。"
+}

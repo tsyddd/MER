@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标说话者为录音机播放的催眠磁带（Hypnosis Tape），其台词仅为单字指令'Deeper.'。音频中发音舒缓、低沉，语调保持完全水平且无任何情感起伏或主观情绪色彩，符合标准的功能性中性引导语调[E1][E2]。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Deeper.",
+      "observation": "台词为催眠引导词'Deeper.'，属于纯粹的催眠放松指令，不包含任何带有情绪倾向的词汇。",
+      "interpretation": "缺乏主观情绪宣泄与人际互动意图，仅为录音带既定程序用语，倾向于中性。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.00-0.63s",
+      "observation": "女声发音节奏极其缓慢平稳，音量适中偏轻，音高平直低沉，完全没有音调的抑扬顿挫或情绪激动迹象。",
+      "interpretation": "催眠磁带刻意采用平稳无波澜的声线以促进受众放松，属于典型的非情绪化中性语音表现。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "舒缓低沉的引导语有时可能被主观感受为温柔或安抚，但录音带声音缺乏个性化情感投入与情绪唤醒，不构成joy或其他情绪标签。"
+}

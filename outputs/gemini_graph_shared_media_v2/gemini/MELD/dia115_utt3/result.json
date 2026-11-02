@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia115_utt3",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "3c926295d3796c3783dc09d63fc430c57ea2b6d5e57398d0b9b8039178cc2219",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "独立回看8帧画面与实际音轨，画面右侧的Ross在对话全程面部肌肉平稳放松，双眉舒展无紧蹙或挑起，仅随说话自然启闭双唇[image:E1]。音频中其语调低平且节奏均匀（00:00-00:04），既无高亢激烈的怒气，也无嘲弄时的明显笑意或厌恶鼻音[audio_subtitle:E1]。专家指出其台词虽具调侃贬损色彩但视听表现为典型的冷静克制陈述，该解释切合实际且有力排除了anger与disgust候选[image:E2]。综上，视听线索均稳定支持中性基调，判定为neutral。",
+  "output": "独立回看8帧画面与实际音轨，画面右侧的Ross在对话全程面部肌肉平稳放松，双眉舒展无紧蹙或挑起，仅随说话自然启闭双唇[image:E1]。音频中其语调低平且节奏均匀（00:00-00:04），既无高亢激烈的怒气，也无嘲弄时的明显笑意或厌恶鼻音[audio_subtitle:E1]。专家指出其台词虽具调侃贬损色彩但视听表现为典型的冷静克制陈述，该解释切合实际且有力排除了anger与disgust候选[image:E2]。综上，视听线索均稳定支持中性基调，判定为neutral。\n<answer>neutral</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 55.33454751968384
+}

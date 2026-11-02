@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物是画面左侧的女子。她在frame_00至frame_07持续朝右侧旁人看，面部保持较平稳，主要变化是说话时嘴部开合；眉毛略抬但没有明显皱眉、哭泣或大幅度表情变化，更符合克制的中性交流状态。[E1][E2]",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07 @ 0.0–2.28秒",
+      "observation": "女子面向右侧，视线基本保持在右方，嘴部在连续开合，姿态端坐且肩部放松。",
+      "interpretation": "支持她处于正常对话或说明状态；未见足以支持强烈喜悦、悲伤、愤怒或担忧的稳定视觉特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00至frame_07 @ 0.0–2.28秒",
+      "observation": "她的眉毛略有抬起，眼睛睁开，但没有明显张大到惊讶程度；嘴角也未持续形成明确微笑。",
+      "interpretation": "表情存在轻微强调或礼貌性变化，但不足以单独判定为surprise或happy，因此更支持neutral。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "当前字幕：“皇上闻着，正好，消乏，安睡。”",
+      "observation": "字幕内容是在说明气味有助于消乏和安睡。",
+      "interpretation": "语言内容偏安抚、说明性质，可与平稳交流表情相符，但不能单独证明具体情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "眉毛略抬、眼睛较睁开且持续看向右方，也可能被解释为轻度担心或惊讶；但画面中缺少明显皱眉、紧绷姿态或持续张口等更强证据。没有音频，无法用语调进一步区分礼貌安抚与担忧。"
+}

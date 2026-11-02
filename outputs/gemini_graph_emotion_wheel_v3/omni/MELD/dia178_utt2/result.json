@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia178_utt2",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "3401018186bc11e65dff479d6b5d94730c37d902accf3de7809420f24e09c974",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "喜悦",
+      "mapped_label": "joy",
+      "mapping_reason": "根据MELD项目适配情绪轮，joy的定义是“当前开心、愉悦、满足或兴奋的正向体验”。Monica的视觉表现（怀抱婴儿、面带微笑、嘴角微扬）和听觉表现（轻松自然、轻柔欢快的语调）均指向一种积极、满足的情绪状态，与joy的定义高度一致。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "amused",
+      "mapped_label": "joy",
+      "mapping_reason": "The speaker's cheerful tone, the use of the phrase 'it's going great,' and the playful, smiling delivery of her comment about Chandler all point to a feeling of happiness and amusement. This aligns with the 'joy' category, which encompasses positive experiences like being happy, delighted, or amused."
+    },
+    "image": {
+      "open_emotion": "affection",
+      "mapped_label": "joy",
+      "mapping_reason": "The observed affectionate smile and warm gaze are consistent with the 'joy' category, which encompasses positive experiences such as happiness and delight. While 'affection' is a more specific open emotion, it maps to 'joy' as it is a form of positive emotional experience. The visual evidence does not support a stronger negative emotion or a state of surprise."
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "Monica在多个帧中面带微笑，眼睛周围有皱纹，表现出真诚的喜悦。她的语调轻松愉快，字幕内容如'it's going great'和对Chandler与婴儿的评论，都表明她对当前情景感到满意和愉悦。三位专家的证据均一致支持joy，其中[graph:E1]和[image:E1]从视觉上证实了她的积极表情，[audio_subtitle:E2]从听觉上确认了其积极的语调和内容。没有证据表明存在其他情绪。",
+  "output": "Monica在多个帧中面带微笑，眼睛周围有皱纹，表现出真诚的喜悦。她的语调轻松愉快，字幕内容如'it's going great'和对Chandler与婴儿的评论，都表明她对当前情景感到满意和愉悦。三位专家的证据均一致支持joy，其中[graph:E1]和[image:E1]从视觉上证实了她的积极表情，[audio_subtitle:E2]从听觉上确认了其积极的语调和内容。没有证据表明存在其他情绪。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 163.95194721221924
+}

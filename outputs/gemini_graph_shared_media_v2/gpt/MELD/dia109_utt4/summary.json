@@ -1,0 +1,9 @@
+{
+  "reason": "字幕“Oh, are you sure?”是求证，不单凭疑问句判定情绪；[audio_subtitle:E1]对此的限定可信。回看第1、2帧，右侧的Janice面向对座者抬眉、张口，与意外后追问相符，支持[image:E1]的观察。后续手势[image:E2]主要表明她继续强调所说的话，不能另算惊讶证据。普通确认是最强反证，但开头的“Oh”结合抬眉表情，使轻度惊讶比中性更贴切；未提供音轨，不能核验语调。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "image:E1",
+    "image:E2"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00029282",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "e81a763258684129b06d506421613b3dbd812a365d2377fedae6ad08cf75907c",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "难过",
+      "mapped_label": "sad",
+      "mapping_reason": "当前较明确的是低落、欲哭的表达，符合sad所指的伤心状态。“没想到”虽可表达意外，但结合持续的面部表现，不足以把即时惊讶判为主导情绪。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "难过",
+      "mapped_label": "sad",
+      "mapping_reason": "当前话语中的痛楚感叹与持续低落的表情相符，因此将“难过”映射为sad；“没想到”虽含意外之意，却不足以使surprise成为主导情绪。"
+    },
+    "image": {
+      "open_emotion": "难过",
+      "mapped_label": "sad",
+      "mapping_reason": "当前较明显的是低落、伤感的面部表现，因此将“难过”映射为sad；字幕不足以确定她难过的具体缘由。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "独立回看frame_00至frame_07，左侧紫衣女子持续蹙眉、眼眶湿润，末尾垂下目光；[image:E1][image:E2]所述变化可信，整体更像难过，而非一瞬间的惊愕。字幕“没想到，你竟然这么傻”确有意外或责备的意味，[audio_subtitle:E1]对此的限定是合理的，但画面未见明显震惊或对抗表现。未提供音轨，不能核实语调或哭腔；综合可见表情与字幕，取sad，也不能据此推断她难过的具体原因。",
+  "output": "独立回看frame_00至frame_07，左侧紫衣女子持续蹙眉、眼眶湿润，末尾垂下目光；[image:E1][image:E2]所述变化可信，整体更像难过，而非一瞬间的惊愕。字幕“没想到，你竟然这么傻”确有意外或责备的意味，[audio_subtitle:E1]对此的限定是合理的，但画面未见明显震惊或对抗表现。未提供音轨，不能核实语调或哭腔；综合可见表情与字幕，取sad，也不能据此推断她难过的具体原因。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 79.07998585700989
+}

@@ -1,0 +1,1319 @@
+{
+  "version": "gemini_graph_shared_media_v2",
+  "complete": false,
+  "providers": {
+    "gpt": {
+      "provider": "gpt",
+      "complete": true,
+      "valid": 80,
+      "incomplete_or_invalid": 0,
+      "metrics": {
+        "MER2024": {
+          "valid": 40,
+          "expected": 40,
+          "correct": 24,
+          "accuracy": 0.6
+        },
+        "MELD": {
+          "valid": 40,
+          "expected": 40,
+          "correct": 27,
+          "accuracy": 0.675
+        },
+        "ALL": {
+          "valid": 80,
+          "expected": 80,
+          "correct": 51,
+          "accuracy": 0.6375
+        }
+      },
+      "recorded_responses": 408,
+      "usage": {
+        "completion_tokens": 217383,
+        "total_tokens": 1292379,
+        "prompt_tokens": 1074996
+      },
+      "successful_stage_seconds": 10217.91322350502,
+      "items": [
+        {
+          "id": "MER2024/sample_00001635",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/sample_00002038",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/sample_00002893",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/sample_00004468",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00002333",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00003759",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00005203",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00005588",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00005612",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00006180",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00006335",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00013076",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00013127",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00013200",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00013928",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00014279",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00014357",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00014662",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00015349",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00019636",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00021837",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00021849",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00021868",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00025713",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00029282",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00030944",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00031467",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00033166",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00033539",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00034225",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00034373",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00034518",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00035599",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00035777",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00035837",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00035950",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00036745",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00038936",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00040685",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00041734",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia0_utt2",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia109_utt4",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia109_utt5",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia115_utt3",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia119_utt5",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia131_utt3",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia132_utt2",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia140_utt4",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia150_utt4",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia153_utt11",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia153_utt4",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia168_utt13",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia178_utt2",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia186_utt0",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia186_utt3",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia188_utt0",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia192_utt9",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia198_utt2",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia200_utt2",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia21_utt6",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia224_utt2",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia226_utt3",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia233_utt0",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia233_utt1",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia237_utt3",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia239_utt0",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia239_utt2",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia245_utt4",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia259_utt10",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia259_utt9",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia263_utt9",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia33_utt6",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia34_utt17",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia34_utt5",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia38_utt1",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia40_utt0",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia50_utt2",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia66_utt1",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia66_utt2",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia9_utt11",
+          "valid": true,
+          "issues": []
+        }
+      ]
+    },
+    "gemini": {
+      "provider": "gemini",
+      "complete": true,
+      "valid": 80,
+      "incomplete_or_invalid": 0,
+      "metrics": {
+        "MER2024": {
+          "valid": 40,
+          "expected": 40,
+          "correct": 31,
+          "accuracy": 0.775
+        },
+        "MELD": {
+          "valid": 40,
+          "expected": 40,
+          "correct": 25,
+          "accuracy": 0.625
+        },
+        "ALL": {
+          "valid": 80,
+          "expected": 80,
+          "correct": 56,
+          "accuracy": 0.7
+        }
+      },
+      "recorded_responses": 405,
+      "usage": {
+        "completion_tokens": 409530,
+        "total_tokens": 3834329,
+        "prompt_tokens": 3424799
+      },
+      "successful_stage_seconds": 4895.258309841156,
+      "items": [
+        {
+          "id": "MER2024/sample_00001635",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/sample_00002038",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/sample_00002893",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/sample_00004468",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00002333",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00003759",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00005203",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00005588",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00005612",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00006180",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00006335",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00013076",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00013127",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00013200",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00013928",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00014279",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00014357",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00014662",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00015349",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00019636",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00021837",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00021849",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00021868",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00025713",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00029282",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00030944",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00031467",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00033166",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00033539",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00034225",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00034373",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00034518",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00035599",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00035777",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00035837",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00035950",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00036745",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00038936",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00040685",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00041734",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia0_utt2",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia109_utt4",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia109_utt5",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia115_utt3",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia119_utt5",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia131_utt3",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia132_utt2",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia140_utt4",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia150_utt4",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia153_utt11",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia153_utt4",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia168_utt13",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia178_utt2",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia186_utt0",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia186_utt3",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia188_utt0",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia192_utt9",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia198_utt2",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia200_utt2",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia21_utt6",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia224_utt2",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia226_utt3",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia233_utt0",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia233_utt1",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia237_utt3",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia239_utt0",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia239_utt2",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia245_utt4",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia259_utt10",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia259_utt9",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia263_utt9",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia33_utt6",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia34_utt17",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia34_utt5",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia38_utt1",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia40_utt0",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia50_utt2",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia66_utt1",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia66_utt2",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia9_utt11",
+          "valid": true,
+          "issues": []
+        }
+      ]
+    },
+    "omni": {
+      "provider": "omni",
+      "complete": false,
+      "valid": 76,
+      "incomplete_or_invalid": 4,
+      "metrics": {
+        "MER2024": {
+          "valid": 38,
+          "expected": 40,
+          "correct": 30,
+          "accuracy": null
+        },
+        "MELD": {
+          "valid": 38,
+          "expected": 40,
+          "correct": 24,
+          "accuracy": null
+        },
+        "ALL": {
+          "valid": 76,
+          "expected": 80,
+          "correct": 54,
+          "accuracy": null
+        }
+      },
+      "recorded_responses": 429,
+      "usage": {
+        "prompt_tokens": 884354,
+        "total_tokens": 1037398,
+        "completion_tokens": 153044
+      },
+      "successful_stage_seconds": 11847.296490907669,
+      "items": [
+        {
+          "id": "MER2024/sample_00001635",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/sample_00002038",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/sample_00002893",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/sample_00004468",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00002333",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00003759",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00005203",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00005588",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00005612",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00006180",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00006335",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00013076",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00013127",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00013200",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00013928",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00014279",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00014357",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00014662",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00015349",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00019636",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00021837",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00021849",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00021868",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00025713",
+          "valid": false,
+          "issues": [
+            "organization: Organization must cite actual nodes"
+          ]
+        },
+        {
+          "id": "MER2024/samplenew_00029282",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00030944",
+          "valid": false,
+          "issues": [
+            "organization: Organization must cite actual nodes"
+          ]
+        },
+        {
+          "id": "MER2024/samplenew_00031467",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00033166",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00033539",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00034225",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00034373",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00034518",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00035599",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00035777",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00035837",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00035950",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00036745",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00038936",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00040685",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MER2024/samplenew_00041734",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia0_utt2",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia109_utt4",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia109_utt5",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia115_utt3",
+          "valid": false,
+          "issues": [
+            "organization: Organization must cite actual nodes"
+          ]
+        },
+        {
+          "id": "MELD/dia119_utt5",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia131_utt3",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia132_utt2",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia140_utt4",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia150_utt4",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia153_utt11",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia153_utt4",
+          "valid": false,
+          "issues": [
+            "expert_graph: "
+          ]
+        },
+        {
+          "id": "MELD/dia168_utt13",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia178_utt2",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia186_utt0",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia186_utt3",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia188_utt0",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia192_utt9",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia198_utt2",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia200_utt2",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia21_utt6",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia224_utt2",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia226_utt3",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia233_utt0",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia233_utt1",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia237_utt3",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia239_utt0",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia239_utt2",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia245_utt4",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia259_utt10",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia259_utt9",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia263_utt9",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia33_utt6",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia34_utt17",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia34_utt5",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia38_utt1",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia40_utt0",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia50_utt2",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia66_utt1",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia66_utt2",
+          "valid": true,
+          "issues": []
+        },
+        {
+          "id": "MELD/dia9_utt11",
+          "valid": true,
+          "issues": []
+        }
+      ]
+    }
+  }
+}

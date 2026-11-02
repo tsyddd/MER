@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标人物在整个片段中保持高度紧张的面部表情，包括紧锁的眉头、紧闭的嘴唇和紧绷的下颌，这些是焦虑和担忧的典型视觉特征。她的眼神始终聚焦于画面外的某一点，表现出强烈的关注和不确定性。字幕显示她正在提问“他是谁呀？”，这与她的紧张表情相符，表明她正处于一种警惕和担忧的状态。音频中她的声音颤抖，语调上扬，进一步证实了这种情绪。综合视听信息，最合理的解释是担忧。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "人物眉头紧锁，嘴唇紧闭，下颌肌肉紧绷。",
+      "interpretation": "这些是焦虑和担忧的典型面部表情。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "人物视线固定在画面外的某一点，没有明显的移动。",
+      "interpretation": "表明她正全神贯注于某个让她感到不安的事物。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "他，是谁呀？",
+      "observation": "字幕内容为一个疑问句，询问一个未知人物的身份。",
+      "interpretation": "这种对未知人物的询问，结合其紧张的面部表情，是担忧情绪的直接来源。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "0.0-0.8",
+      "observation": "说话者的声音颤抖，语调上扬，表现出紧张和不安。",
+      "interpretation": "声音的颤抖和紧张的语调是担忧情绪的有力听觉证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽然人物的面部表情非常紧张，但没有明显的哭泣或悲伤迹象，因此可以排除 'sad'。她的表情是警惕和不确定，而非愤怒或惊讶，因此 'angry' 和 'surprise' 也不符合。"
+}

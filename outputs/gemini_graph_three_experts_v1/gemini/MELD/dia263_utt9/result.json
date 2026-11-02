@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia263_utt9",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "748766277a851f3c168859458c00ae3a054753904e4b2ab4fc17828900a7ca74",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "视觉专家虽然观察到面部肌肉较为克制自然而判定为中性，但音频专家明确指出了语调低沉微弱、下沉且带有叹息般的无力感，与图谱中低垂视线及表达不得不放弃的台词语境高度吻合。克制的表情结合显著低沉失落的语音表现，更符合隐忍而深刻的悲伤情绪而非单纯的中性。",
+  "output": "视觉专家虽然观察到面部肌肉较为克制自然而判定为中性，但音频专家明确指出了语调低沉微弱、下沉且带有叹息般的无力感，与图谱中低垂视线及表达不得不放弃的台词语境高度吻合。克制的表情结合显著低沉失落的语音表现，更符合隐忍而深刻的悲伤情绪而非单纯的中性。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 38.665849447250366
+}

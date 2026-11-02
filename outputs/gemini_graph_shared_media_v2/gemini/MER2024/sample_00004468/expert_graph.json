@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "目标人物在与画外人互动中，因对方对严肃事件（裘院长离婚）表现出反常态度而展开追问；图谱节点记录其眉毛微扬、眼睛微睁[E1]，结合音轨中句末上扬的反诘语调[E2]与台词语义[E3]，整体构成因他人出乎意料的反应而引发的惊讶与不解，判定为surprise。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_3",
+      "observation": "图谱记录目标人物眉毛微扬，眼睛睁大注视前方，经核对frame_06 @ 3.56s面部神态属实",
+      "interpretation": "该节点体现其对对方反常行为的不解与突兀感，直接支撑受意外刺激产生的surprise",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:02-00:04",
+      "observation": "在询问'你怎么这么高兴呢'时，语调显著拔高并带有疑问上扬",
+      "interpretation": "反诘语调核实了图谱中记录的疑问语气，表明对对方反常喜悦的讶异，支持surprise",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "你怎么这么高兴呢？",
+      "observation": "台词直接质询对方的情感状态，而非陈述自身情绪",
+      "interpretation": "事件语义明确区分了他人状态与本人情绪，排除了将台词中的'高兴'误判为自身情绪的可能",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词中出现'高兴'一词易被直觉误判为happy；但在事件链中，'高兴'系对方的反常表现，目标人物自身以扬眉发问予以质询，本质是对这种不合常理的高兴感到吃惊，因此不采用happy。"
+}

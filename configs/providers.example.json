@@ -1,0 +1,25 @@
+{
+  "gpt": {
+    "base_url": "https://YOUR_API_HOST/v1",
+    "model": "gpt-6-sol",
+    "audio_supported": false,
+    "capabilities_tested": true,
+    "images_supported": true
+  },
+  "gemini": {
+    "base_url": "https://YOUR_API_HOST/v1",
+    "model": "gemini-3.8-flash-high",
+    "audio_supported": true,
+    "capabilities_tested": true,
+    "images_supported": true
+  },
+  "omni": {
+    "base_url": "http://127.0.0.1:18030/v1",
+    "model": "omni30b-instruct",
+    "audio_supported": true,
+    "capabilities_tested": true,
+    "deployment": "dashan",
+    "model_family": "Qwen3-Omni-30B-A3B-Instruct",
+    "images_supported": true
+  }
+}

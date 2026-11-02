@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "字幕中的“your brother's straight huh?”是向对方求证的问题，不宜把“Seriously”直接当作震惊的证据。[E1] Phoebe说话时逐渐露出笑容，并保持与对方亲近的姿态，更支持她此刻带着愉快、略带调侃的兴趣。[E2]",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "So your brother's straigh huh? Seriously.",
+      "observation": "字幕包含求证式问句和“Seriously”。",
+      "interpretation": "问句显示她在探询；仅凭“Seriously”不能确定她感到惊讶，字幕也未标明两句话是否由同一人说出。",
+      "polarity": "uncertain"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.0009992228266904秒",
+      "observation": "Phoebe看着对方，露出明显笑容，手仍搭在对方身上。",
+      "interpretation": "笑容与亲近姿态支持愉快、带调侃意味的表达。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "“Seriously”也可能表示惊讶或怀疑；但字幕未明确说话人，画面中Phoebe的笑容比受惊反应更明显。没有音频，无法用语调进一步区分。"
+}

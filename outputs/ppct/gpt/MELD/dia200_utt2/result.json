@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia200_utt2",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "当前人物是坐在厨房台面边的Joey，画面中他面向旁边两人并连续做出抬手、指向中间人物及掌心向上的追问手势（person_0、person_1、person_2、person_4；这些节点通过person_joint和after关系相连）。字幕中的“then who did?”是在排除几个人后追问究竟是谁拿走了物品，结合其疑惑和寻求解释的表达，更符合惊讶而非愤怒或悲伤。",
+  "output": "当前人物是坐在厨房台面边的Joey，画面中他面向旁边两人并连续做出抬手、指向中间人物及掌心向上的追问手势（person_0、person_1、person_2、person_4；这些节点通过person_joint和after关系相连）。字幕中的“then who did?”是在排除几个人后追问究竟是谁拿走了物品，结合其疑惑和寻求解释的表达，更符合惊讶而非愤怒或悲伤。\n<answer>surprise</answer>",
+  "label": "anger",
+  "elapsed_seconds": 141.02144479751587,
+  "node_count": 9,
+  "edge_count": 10
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013200",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "e4bae7c80b439e4a7f0b4b40b4f348c523e3f9346140a2af207f7d850c976f73",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "angry",
+  "emotion_analysis": "我独立回看frame_00至frame_04，目标人物持续直视对方、眉眼收紧并张口指责；frame_05至frame_07中双眼睁大、身体前倾，表现强度进一步上升。字幕“可是，你背信弃义，你一个劲地抬价。”是可直接核对的明确责备，audio_subtitle专家对其语义的判断可信[ audio_subtitle:E1 ]。后段睁眼张口虽可支持surprise，但与持续对峙和指责性语言结合时，更符合愤怒；图谱所称语速和音量因无音轨不能核验，不作为决定依据。",
+  "output": "我独立回看frame_00至frame_04，目标人物持续直视对方、眉眼收紧并张口指责；frame_05至frame_07中双眼睁大、身体前倾，表现强度进一步上升。字幕“可是，你背信弃义，你一个劲地抬价。”是可直接核对的明确责备，audio_subtitle专家对其语义的判断可信[ audio_subtitle:E1 ]。后段睁眼张口虽可支持surprise，但与持续对峙和指责性语言结合时，更符合愤怒；图谱所称语速和音量因无音轨不能核验，不作为决定依据。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 180.9613709449768
+}

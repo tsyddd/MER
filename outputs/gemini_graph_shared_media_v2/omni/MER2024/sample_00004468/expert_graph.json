@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "目标人物在陈述完“裘院长离婚”这一事件后，立即以疑问的语调和惊讶的面部表情质问对方“你怎么这么高兴呢”，表明其情绪并非中立，而是对对方的反应感到意外和不解。图谱中节点person_3（眉毛微扬，眼睛睁大）与process_2（发出疑问语调）共同指向惊讶与质询，而非单纯的高兴或中立。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "node_id: person_3",
+      "observation": "目标人物眉毛微扬，眼睛睁大，注视前方。",
+      "interpretation": "该面部表情是惊讶情绪的典型表现，与她随后提出的疑问句式相匹配，表明她对对方的反应感到意外。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "node_id: process_2",
+      "observation": "目标人物以疑问的语调发问“你怎么这么高兴呢”。",
+      "interpretation": "该语调和话语内容直接表达了她对对方情绪的不解和质询，是惊讶情绪的直接语言证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "字幕内容: \"哎，甄，裘院长离婚，你怎么这么高兴呢？\"",
+      "observation": "字幕显示目标人物在陈述事件后，立即对对方的“高兴”情绪提出疑问。",
+      "interpretation": "字幕内容证实了目标人物的注意力集中在对方的“高兴”上，并对此表示不解，这与惊讶情绪相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "node_id: person_2",
+      "observation": "目标人物在提问前，眉头微蹙，视线集中于右前方。",
+      "interpretation": "该表情可能表示她在思考或对事件本身感到一丝忧虑，但这与她对对方反应的惊讶情绪是并存的，不构成对惊讶情绪的反驳。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "一种可能的替代解释是，目标人物的惊讶是出于对“裘院长离婚”这一消息的震惊，而非对对方反应的惊讶。然而，图谱和字幕都明确显示，她的惊讶是紧随其后对“你怎么这么高兴呢”这一问题的直接反应，因此对对方反应的惊讶是更合理的解释。"
+}

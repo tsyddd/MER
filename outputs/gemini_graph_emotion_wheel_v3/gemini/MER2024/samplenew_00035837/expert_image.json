@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "画面中目标女性全程保持低头、视线下垂的姿态，嘴角与面颊肌群整体下沉，面部神情黯淡落寞，缺乏活力；配合其讲述失去所有亲人的内容与低沉微弱的气声哽咽，展现出深沉内敛的哀伤与绝望感。",
+  "open_emotion": "哀伤",
+  "answer": "sad",
+  "mapping_reason": "目标人物表现出明显的低落、失去感与落寞神态，对应对亲人彻底失去的损失评价，完美符合sad（悲伤）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07 (0.0s-2.76s)",
+      "observation": "目标人物端坐微垂着头，双眼视线始终落在正下方，眼神空洞暗淡，嘴角轻微下挂，面部呈现持续的落寞与沉重神色。",
+      "interpretation": "低垂的视线与下沉的唇角是低落沉重情绪的典型视觉特征，体现出内在的失落与悲伤。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "我知道，在这个世上，再也没有亲人了。",
+      "observation": "字幕表明其表述的核心在于彻底失去亲人。",
+      "interpretation": "明确反映了不可挽回的重大生命损失，排除了担忧未来未知的可能，直接支持悲伤评价。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "0.0s-2.76s",
+      "observation": "发音微弱沙哑，带有明显的叹息感与低哑颤音。",
+      "interpretation": "听觉上低沉哽咽的语调印证了视觉上看似平静实则压抑悲痛的状态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "目标人物没有嚎啕大哭或明显的泪水滑落，面部动作幅度极小，单凭静态外貌容易被误判为中性（neutral）或平淡叙述。"
+}

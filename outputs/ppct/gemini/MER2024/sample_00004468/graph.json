@@ -1,0 +1,177 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "目标人物开口说出“哎，甄”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "目标人物继续说话提到“裘院长离婚”",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "目标人物向对方发问“你怎么这么高兴呢”",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "目标人物闭眼后睁开，头部微侧，目视前下方转为平视前方",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "目标人物双手抱住文件夹于胸前",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "目标人物眉头微蹙，视线集中于右前方，嘴唇持续张合",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "目标人物眉毛微扬，眼睛睁大注视前方，发出疑问语调",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "目标人物身穿白色大褂和条纹衬衫，身处室内办公环境",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "目标人物怀中持有橙绿色文件夹",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_2",
+      "type": "context",
+      "content": "目标人物正在与画外在场人员对话",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "目标人物在开口打招呼后，继续开口陈述相关事件内容",
+      "entity_anchor": "目标人物的言语表达"
+    },
+    {
+      "source": "process_2",
+      "target": "process_1",
+      "relation": "after",
+      "reason": "目标人物在陈述事件内容后，紧接着向对方发出询问",
+      "entity_anchor": "目标人物的言语表达"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "目标人物在胸前双手抱住文件夹的同时，头部微侧并由闭眼转为平视前方",
+      "entity_anchor": "目标人物的体态与神情"
+    },
+    {
+      "source": "person_2",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "目标人物在睁眼平视后，神态转为眉头微蹙并注视右前方持续说话",
+      "entity_anchor": "目标人物面部神情变化"
+    },
+    {
+      "source": "person_3",
+      "target": "person_2",
+      "relation": "after",
+      "reason": "目标人物在微蹙眉说话后，眉毛微扬、眼睛睁大并带出疑问语调",
+      "entity_anchor": "目标人物面部神情与发声表现"
+    },
+    {
+      "source": "process_1",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "process_1提供谈话由头的事件陈述（裘院长离婚），process_2提供基于该事件向对方追问（你怎么这么高兴呢），联合后形成从抛出话题到针对对方反应直接质询的完整对话过程",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供头部微侧及视线转平视的面部神态，person_1提供双手抱住文件夹于胸前的身体体态，联合后互补展现目标人物开场时面部与肢体配合的完整体态表现",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0提供白大褂着装与室内办公环境，context_1提供怀抱文件夹的工作道具，联合后更完整地限定了目标人物处于医院职场工作中的客观情境",
+      "entity_anchor": null
+    }
+  ]
+}

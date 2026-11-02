@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013076",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "happy",
+  "emotion_analysis": "戴口罩男子在抬头注视对方后，双手合十立于胸前做出真诚的致谢手势（结合person_1与person_2），眼神含笑且态度亲切。言语上他先说“正要感谢您呢！”，随后连声热情道谢“谢谢！谢，谢谢。”（process_0与process_1联合形成完整道谢互动），语调轻快且充满感激与喜悦，符合happy情绪状态。",
+  "output": "戴口罩男子在抬头注视对方后，双手合十立于胸前做出真诚的致谢手势（结合person_1与person_2），眼神含笑且态度亲切。言语上他先说“正要感谢您呢！”，随后连声热情道谢“谢谢！谢，谢谢。”（process_0与process_1联合形成完整道谢互动），语调轻快且充满感激与喜悦，符合happy情绪状态。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 9.733526468276978,
+  "node_count": 6,
+  "edge_count": 5
+}

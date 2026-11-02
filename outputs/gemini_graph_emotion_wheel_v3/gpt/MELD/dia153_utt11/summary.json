@@ -1,0 +1,10 @@
+{
+  "reason": "目标是黑色T恤的Chandler，而非手臂吊着的Joey；他在第1帧皱眉叉腰，至第5帧仍蹙眉并向外挥手，[image:E1][image:E2]对这些可见变化的描述可信。字幕中的“Yeah, Joe, I assure you”结合表情和手势，更像带着轻微不耐烦地坚持自己的说法，而不只是平稳说明[audio_subtitle:E1]。不过，graph专家指出枪口由“if”引出、并非当前危险，这一字幕判断成立[graph:E1]；因此不把台词中假设的害怕当作当前情绪。没有提供音轨，无法核实语气；就现有可见表现，轻微恼火比中性更贴切。",
+  "answer": "anger",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "audio_subtitle:E1",
+    "graph:E1"
+  ]
+}

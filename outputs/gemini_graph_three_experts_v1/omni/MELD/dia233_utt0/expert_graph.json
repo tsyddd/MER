@@ -1,0 +1,9 @@
+{
+  "expert": "graph",
+  "reason": "Rachel在说话时表现出质问的姿态，其身体朝向对方、左手叉腰，且语调清晰连贯并带有疑问升调（person_1, person_2），表明她正处于一种带有挑战性的对话情境中。结合其面部表情和语调，可推断其情绪为愤怒。",
+  "answer": "anger",
+  "evidence_refs": [
+    "person_1",
+    "person_2"
+  ]
+}

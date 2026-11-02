@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia119_utt5",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "fb723911feb1977e95353e9e5cd3a600d355b69ec46c0c99064139b522a98aa9",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "字幕内容仅表达对被发现的担忧，且未提供音频，不能据此作听觉上的害怕判断。图谱认为语调平稳并倾向中性，但图谱与图片描述可能存在同源重复；图片记录的紧张眉眼、睁大眼睛、露齿和强调性手势更直接指向激动不满，因此取anger。",
+  "output": "字幕内容仅表达对被发现的担忧，且未提供音频，不能据此作听觉上的害怕判断。图谱认为语调平稳并倾向中性，但图谱与图片描述可能存在同源重复；图片记录的紧张眉眼、睁大眼睛、露齿和强调性手势更直接指向激动不满，因此取anger。\n<answer>anger</answer>",
+  "label": "fear",
+  "elapsed_seconds": 80.99286389350891
+}

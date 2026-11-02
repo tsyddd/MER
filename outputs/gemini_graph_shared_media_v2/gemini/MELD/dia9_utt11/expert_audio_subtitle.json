@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Rachel的话语列举自己被毁的物品，音频中伴有明显的抽噎哭腔与下沉的哀伤音调[E1]，视觉上面部呈典型的委屈悲伤神情[E2]，明确表达出因心爱之物尽毁带来的悲伤与沮丧，而非愤怒或中性。",
+  "answer": "sadness",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "0.0s - 2.5s",
+      "observation": "Rachel说话时带有微弱颤抖的哭腔，语调低落哀怨，重音落在'favorite blue sweater'时伴有叹息与抽泣感。",
+      "interpretation": "言语行为为痛惜损失的哀叹，哭腔与低垂语调直接支持sadness。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.71s",
+      "observation": "Rachel眉头微蹙，眉心微隆，下唇下撇，眼神流露出委屈与难过，手中拎着被毁坏的衣物。",
+      "interpretation": "面部表情与语音所传达的心碎沮丧一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "替代解释可能认为其在抱怨甚至发火（anger），但音轨中无大声斥责或冲冲攻击性重音，更多是无助哀伤的哭腔，因此排除anger。"
+}

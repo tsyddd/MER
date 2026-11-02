@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "Ross谈的是自己接下来可能不得不作出的放弃，而不是已经发生的失去，也不是在描述他人的情绪。[E1] 画面中他先垂眼，随后抬头开口，神情仍较沉郁；图谱的person_0记录了同一次垂眼，不能与画面重复计作两份证据。[E2][E3] 结合这句带有无奈意味的话，当前更像失落，而非单纯平静。图谱关于语调的描述没有原音轨可供亲耳核验，仅保留为转述，不作为最终判断的关键依据。[E4]",
+  "open_emotion": "失落",
+  "answer": "sadness",
+  "mapping_reason": "他面对即将不得不放弃的事，表现出低落而克制的反应，最接近sadness中的失落；这不意味着已经确认发生了失去。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "I'm gonna have to give him up.",
+      "observation": "Ross说自己将不得不放弃“他”。",
+      "interpretation": "这是指向自己未来的艰难放弃，不是已经完成的事件；为失落提供情境依据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_07（1.418秒）",
+      "observation": "Ross起初垂眼，之后抬头开口；表情未见明显笑意或激烈对抗。",
+      "interpretation": "克制、低落的表现与失落相符，但单凭垂眼不能确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "图谱记录Ross低头、双眼向下看，与画面可核对。",
+      "interpretation": "该节点帮助把垂眼定位为Ross当前互动中的动作；它与[E2]同源，不是额外的独立情绪证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱转述Ross说话语调较低缓、平和；本次未提供原音轨。",
+      "interpretation": "若准确，可补充其表达较克制，但无法亲耳核验，也不能把“平和”直接等同于中性。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "“不得不放弃”也可能只是平静陈述一项决定；垂眼亦可能是在思考。图谱未说明“他”是谁或放弃的原因，因此不能据此推断更具体的悲伤缘由。"
+}

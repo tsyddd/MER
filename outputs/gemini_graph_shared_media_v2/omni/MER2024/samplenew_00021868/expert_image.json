@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标人物在多个帧中保持低头、视线向下、嘴唇微抿的姿态，无明显情绪波动。字幕内容为陈述性话语，无情绪色彩。音频中语调平稳，无明显情绪起伏。综合视听信息，其表现最符合中性状态。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "目标人物低头，视线朝下，右手抬起至胸前，姿态克制。",
+      "interpretation": "该姿态和视线方向表明其注意力集中在自身或对话内容上，但无明显情绪外露。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 0.92",
+      "observation": "目标人物抬头，视线略微向上，嘴唇微张，表情平静。",
+      "interpretation": "此为正常说话时的面部状态，未表现出悲伤、愤怒或喜悦等情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "字幕: 也不知道，当年，三哥。",
+      "observation": "字幕内容为一句陈述性话语，无情感色彩。",
+      "interpretation": "该话语内容本身不支持任何强烈情绪的判断，与中性情绪一致。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "0.0-2.12",
+      "observation": "音频中说话者语调平稳，无明显起伏。",
+      "interpretation": "平稳的语调与中性情绪相符，未表现出激动、悲伤或愤怒。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无明确反证。虽然人物在说话，但其面部表情和姿态均未表现出强烈情绪，因此无法支持其他情绪标签。"
+}

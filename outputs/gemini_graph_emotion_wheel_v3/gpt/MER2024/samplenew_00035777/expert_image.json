@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是画面中唯一可见的说话男子。他先低头开口，随后皱紧眉、身体前倾，露齿用力说话，最后收住动作但仍紧绷地看向前下方；这一变化更像带有不满的强调，而非平稳陈述。[E1][E2][E3] 不过，仅凭画面无法确定他是否在责备某人。",
+  "open_emotion": "恼火",
+  "answer": "angry",
+  "mapping_reason": "当前可见的紧绷表情和前倾强调，支持轻度恼火，按情绪轮映射为angry；字幕只说明他强调诚实的重要性，不能单独证明愤怒。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_03（1.04秒）",
+      "observation": "男子从低头说话转为明显前倾，眉头收紧，张口露齿。",
+      "interpretation": "多个动作同时增强，支持他在用力表达不满，而不只是自然开口说话。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05（1.76秒）至frame_07（2.44秒）",
+      "observation": "前倾动作结束后，他仍皱眉，嘴部由张开转为紧闭，视线保持朝前下方。",
+      "interpretation": "说话结束后面部仍显紧绷，支持情绪并非仅由发音动作造成。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“诚实，是做生意的根本。”",
+      "observation": "字幕是一句强调原则的陈述，没有明确指责对象。",
+      "interpretation": "可以与画面中的用力表达相符，但也容许严肃说理而非恼火的解释。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "最强的相反解释是严肃、激动地阐述原则：字幕没有直接责备或对抗，前倾和露齿也可能只是强调发言。未提供音频，不能用语调进一步区分。"
+}

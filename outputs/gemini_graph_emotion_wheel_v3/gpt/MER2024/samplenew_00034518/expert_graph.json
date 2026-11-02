@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "年长女性是当前发问者。她看向蓝衣女性，询问家里是否又出了事[E1][E2]；问题指向尚未确认的负面情况，更符合对对方处境的担心，而非对已发生损失的悲伤。“又”只是她问话中的用词，不能据此认定家里确实出过事。图谱的process_0记录了这次发问[E3]，与画面和字幕相符；其关于关切语调的记载因未提供原音轨，不能亲耳核验[E4]。",
+  "open_emotion": "担心",
+  "answer": "worried",
+  "mapping_reason": "她当前关注的是对方家里可能发生、但尚未确认的坏事，属于情绪轮中对未知负面情况的顾虑，映射为worried。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“是不是？家里又出什么事了？”",
+      "observation": "年长女性询问对方家里是否出了事。",
+      "interpretation": "问话针对可能存在的负面情况，支持担心；不证明事情已经发生。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03（0.88秒）至frame_06（1.8秒）",
+      "observation": "年长女性握着杯子，面向蓝衣女性说话，视线落在对方身上。",
+      "interpretation": "她正在关注对方并发问；这一姿态与问话结合支持关切，但不能单凭姿态定类。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "节点记录年长女性看着蓝衣女性，询问家里是否又出了事。",
+      "interpretation": "图谱将当前发问归于年长女性，与画面和字幕可核对；它不是额外的一份独立情绪证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "节点将发问语调描述为带有疑问和关切。",
+      "interpretation": "这是有来源的图谱转述，但未收到原音轨，无法核验实际语调，因此不作为最终判断的主要依据。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "问句也可能只是平常地了解情况；画面中的注视和前倾本身不足以排除这一解释。蓝衣女性低头摆弄物品是对方的行为，不能直接当作年长女性的情绪证据。综合当前问话所指的未知坏结果，担心仍是较有支持的判断。"
+}

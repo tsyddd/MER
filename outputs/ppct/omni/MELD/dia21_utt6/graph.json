@@ -1,0 +1,291 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Phoebe speaks to Chandler.",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Chandler turns his head to face Phoebe.",
+      "time_index": 5,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "Chandler smiles at Phoebe.",
+      "time_index": 5,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Phoebe has blonde hair and is wearing a pink and white plaid sleeveless top.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Chandler has brown hair and is wearing a dark brown shirt.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Phoebe's mouth is open as she speaks.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Phoebe's right hand is on Chandler's chest.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_4",
+      "type": "person",
+      "content": "Chandler's head is turned towards Phoebe.",
+      "time_index": 5,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_5",
+      "type": "person",
+      "content": "Chandler's mouth is open as he speaks.",
+      "time_index": 5,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "The scene takes place indoors.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "Phoebe and Chandler are the only people in the scene.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_2",
+      "type": "context",
+      "content": "Phoebe is speaking to Chandler.",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_3",
+      "type": "context",
+      "content": "Chandler is responding to Phoebe.",
+      "time_index": 5,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_4",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "Chandler's head turns to face Phoebe after he has been turned away.",
+      "entity_anchor": "Chandler"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0 provides the audio of Phoebe speaking, and process_1 provides the visual of Chandler turning his head, jointly showing her speaking and him turning to listen.",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_0",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "process_0 provides the audio of Phoebe speaking, and process_2 provides the visual of Chandler smiling, jointly showing her speaking and him smiling in response.",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_1",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "process_1 provides the visual of Chandler turning his head, and process_2 provides the visual of him smiling, jointly showing him turning to face Phoebe and smiling.",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_0 provides the visual of Phoebe speaking, and person_2 provides the visual of her mouth moving, jointly confirming the action of speaking.",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_0 provides the visual of Phoebe's hand on Chandler's chest, and person_3 provides the visual of her hand on his chest, jointly confirming the physical contact.",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_4",
+      "relation": "person_joint",
+      "reason": "person_1 provides the visual of Chandler's head turning, and person_4 provides the visual of his head turning, jointly confirming the action of turning his head.",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_5",
+      "relation": "person_joint",
+      "reason": "person_1 provides the visual of Chandler's mouth moving, and person_5 provides the visual of his mouth moving, jointly confirming the action of speaking.",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_2",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_2 provides the visual of Phoebe's mouth moving, and person_3 provides the visual of her hand on Chandler's chest, jointly showing her speaking and touching him simultaneously.",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_2",
+      "target": "person_4",
+      "relation": "person_joint",
+      "reason": "person_2 provides the visual of Phoebe's mouth moving, and person_4 provides the visual of Chandler's head turning, jointly showing her speaking and him turning to face her.",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_2",
+      "target": "person_5",
+      "relation": "person_joint",
+      "reason": "person_2 provides the visual of Phoebe's mouth moving, and person_5 provides the visual of Chandler's mouth moving, jointly showing her speaking and him responding.",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_3",
+      "target": "person_4",
+      "relation": "person_joint",
+      "reason": "person_3 provides the visual of Phoebe's hand on Chandler's chest, and person_4 provides the visual of Chandler's head turning, jointly showing her touching him as he turns to face her.",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_3",
+      "target": "person_5",
+      "relation": "person_joint",
+      "reason": "person_3 provides the visual of Phoebe's hand on Chandler's chest, and person_5 provides the visual of Chandler's mouth moving, jointly showing her touching him as he speaks.",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_4",
+      "target": "person_5",
+      "relation": "person_joint",
+      "reason": "person_4 provides the visual of Chandler's head turning, and person_5 provides the visual of his mouth moving, jointly showing him turning to face Phoebe and speaking.",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0 provides the visual of the indoor setting, and context_1 provides the visual of Phoebe and Chandler being the only people, jointly confirming the scene is an indoor setting with only two people.",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_2",
+      "relation": "context_joint",
+      "reason": "context_0 provides the visual of the indoor setting, and context_2 provides the audio of Phoebe speaking, jointly confirming the scene is an indoor setting where Phoebe is speaking.",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_3",
+      "relation": "context_joint",
+      "reason": "context_0 provides the visual of the indoor setting, and context_3 provides the audio of Chandler responding, jointly confirming the scene is an indoor setting where Chandler is responding.",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_1",
+      "target": "context_2",
+      "relation": "context_joint",
+      "reason": "context_1 provides the visual of Phoebe and Chandler being the only people, and context_2 provides the audio of Phoebe speaking, jointly confirming that Phoebe is speaking to Chandler.",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_1",
+      "target": "context_3",
+      "relation": "context_joint",
+      "reason": "context_1 provides the visual of Phoebe and Chandler being the only people, and context_3 provides the audio of Chandler responding, jointly confirming that Chandler is responding to Phoebe.",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_2",
+      "target": "context_3",
+      "relation": "context_joint",
+      "reason": "context_2 provides the audio of Phoebe speaking, and context_3 provides the audio of Chandler responding, jointly confirming that Phoebe is speaking and Chandler is responding.",
+      "entity_anchor": null
+    }
+  ]
+}

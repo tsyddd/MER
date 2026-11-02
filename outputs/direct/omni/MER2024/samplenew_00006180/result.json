@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00006180",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "该女性角色在提问时表情平静，语气平稳，没有表现出强烈的情绪波动。她的面部表情和语调都符合中性状态下的提问情景。",
+  "output": "该女性角色在提问时表情平静，语气平稳，没有表现出强烈的情绪波动。她的面部表情和语调都符合中性状态下的提问情景。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 5.815934896469116,
+  "node_count": null,
+  "edge_count": null
+}

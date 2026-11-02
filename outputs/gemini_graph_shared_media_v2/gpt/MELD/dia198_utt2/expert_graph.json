@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "Joey当前是在纠正先前事件的说法，随后用假想的“standing-there team”调侃对方，而非描述眼前发生的比赛；图谱process_0、process_1所列的发言顺序与字幕一致。[E1][E3] 他指向对方、摊手强调，之后放下手继续看着对方，更像认真地说一句玩笑，没有足够的当前证据判为愤怒。[E2] 图谱对句尾语调的描述属于音频转述，本次没有原音轨，不能据此确认语气。[E4]",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "No-no, she kicked our butts. You could be on the Olympic standing-there team.",
+      "observation": "Joey先否定一种说法，再以假想的队伍调侃对方。",
+      "interpretation": "前半句涉及此前的事，后半句是对当前对话对象的揶揄；措辞本身不足以证明他正在生气。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.710040338995596秒；frame_06 @ 3.420080677991192秒",
+      "observation": "Joey向前摊手强调，随后放下手，仍看向对面的人。",
+      "interpretation": "手势配合说话、随后收住；画面未显示明显的激烈发作。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "图谱记载Joey接着对对面的人说“You could be on the Olympic standing-there team”。",
+      "interpretation": "与字幕是同一句话，不算独立证据；它帮助明确调侃针对的是当前互动中的对方。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_4",
+      "observation": "图谱转述Joey语速平缓、尾音轻落。",
+      "interpretation": "没有收到原音轨，无法亲耳核验这一声音描述，不将它作为确定情绪的依据。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "Joey后段神情较严肃，指向对方的手势也可能被理解为不满；但仅凭这些动作，结合其调侃式话语，仍不足以判定为anger。"
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者在电话中解释情况，语气急促且音调偏高，表明她正面临一个棘手的问题。她先是否认自己是当事人，然后解释是朋友在网上被诽谤，事情越闹越大，这表明她对朋友的处境感到担忧。她的语速较快，但没有愤怒或悲伤的明显迹象，主要情绪是焦虑和担忧。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:07",
+      "observation": "说话者语速较快，音调偏高，语气急促。",
+      "interpretation": "快速的语速和偏高的音调表明说话者正处于一种紧张或焦虑的状态，急于解释情况。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "不，不是，我，是我一朋友，他现在在网上被人诽谤了，现在事情越闹越大，所以。",
+      "observation": "字幕内容显示说话者正在为朋友辩解，并提到朋友被诽谤，且事态在扩大。",
+      "interpretation": "为朋友辩解和描述事态扩大，是担忧情绪的直接体现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 @ 00:00",
+      "observation": "说话者眉头微蹙，表情严肃，眼神中流露出担忧。",
+      "interpretation": "面部表情与她所描述的紧急情况相符，支持了担忧的情绪判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽然说话者在否认，但她的语气并非愤怒或激动，更像是在解释一个令人困扰的状况，因此可以排除'angry'。她没有表现出开心或惊讶，因此可以排除'happy'和'surprise'。'neutral'也不符合，因为她的语气和表情都表明她卷入了一件让她焦虑的事情中。"
+}

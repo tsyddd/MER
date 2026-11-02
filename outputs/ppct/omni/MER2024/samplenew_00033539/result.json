@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00033539",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "说话人面部表情呈现惊讶状态，同时说出“啊？真的。”，声调带有疑问和惊讶的语气，这些视听线索共同表明其情绪为惊讶。",
+  "output": "说话人面部表情呈现惊讶状态，同时说出“啊？真的。”，声调带有疑问和惊讶的语气，这些视听线索共同表明其情绪为惊讶。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 121.91061615943909,
+  "node_count": 7,
+  "edge_count": 6
+}

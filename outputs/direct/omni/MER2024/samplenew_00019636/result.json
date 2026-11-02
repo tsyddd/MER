@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00019636",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "该人物在听到“一百岁”后，通过“怎么看也不像啊”表达出强烈的怀疑和不解，结合其皱眉、歪头等面部表情，表现出对所述事实的难以置信，符合惊讶情绪。",
+  "output": "该人物在听到“一百岁”后，通过“怎么看也不像啊”表达出强烈的怀疑和不解，结合其皱眉、歪头等面部表情，表现出对所述事实的难以置信，符合惊讶情绪。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 6.223039388656616,
+  "node_count": null,
+  "edge_count": null
+}

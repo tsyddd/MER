@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "女子当前直视正前方并持续说话〔person_0〕，内容是在说明自己不知道旗袍归属〔process_0〕。图谱记载其吐字语调急促连贯〔person_1〕，但未显示明显愤怒、悲伤、开心或惊讶的表现，因此当前情绪更符合中性。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_0",
+    "process_0",
+    "person_1"
+  ]
+}

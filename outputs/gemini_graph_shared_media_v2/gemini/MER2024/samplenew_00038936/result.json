@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00038936",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "c613bc4c8eed706c8b1610a8aeb9393921c5fc05b8cbb31814da46e58a8148c8",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "目标人物在说出前半句时表情较为平稳，但随着谈及对方“出了点意外”，其神态与语调发生显著变化。根据[image:E1]所指出的第4至5帧，女子双眼下垂避开直视且眉头微蹙，随后在第7帧重新抬眼关切地探询对方反应，展现出明显的挂虑；同时[audio_subtitle:E1]准确捕捉到其在提及意外时声音明显放轻变缓、带有迟疑下沉的关切语调。尽管中途垂眸略显凝重，但其核心意图在于确认对方安危而非沉浸于自身悲伤，综合视觉与语音的互动表现明确指向担忧（worried）。",
+  "output": "目标人物在说出前半句时表情较为平稳，但随着谈及对方“出了点意外”，其神态与语调发生显著变化。根据[image:E1]所指出的第4至5帧，女子双眼下垂避开直视且眉头微蹙，随后在第7帧重新抬眼关切地探询对方反应，展现出明显的挂虑；同时[audio_subtitle:E1]准确捕捉到其在提及意外时声音明显放轻变缓、带有迟疑下沉的关切语调。尽管中途垂眸略显凝重，但其核心意图在于确认对方安危而非沉浸于自身悲伤，综合视觉与语音的互动表现明确指向担忧（worried）。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 55.37703227996826
+}

@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标人物为画面中央女性。她从frame_00 @ 0.0s到frame_07 @ 4.16s持续面向画面右侧说话，眉间明显收紧、双眉下压，嘴部由闭合转为多次张开，后段视线与面部朝向更直接，整体呈现出持续的紧绷和质问式表情。[E1][E2] 字幕“离婚，你怎么这么高兴呢？”与这种质问、指责性的可见变化相互印证，但没有音频，无法判断语调强弱。[E3]",
+  "answer": "angry",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0s 至 frame_03 @ 1.8s",
+      "observation": "目标人物眉间收紧、双眉下压，眼睛部分收窄，头部转向画面右侧，嘴部张开处于说话状态。",
+      "interpretation": "这些可见特征支持不满或对抗性的表达，但单独不能区分愤怒与担忧。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 2.36s 至 frame_07 @ 4.16s",
+      "observation": "眉头仍明显紧皱，嘴部开合幅度增加，目光更直接地朝向画面右侧，面部保持紧绷而非放松微笑。",
+      "interpretation": "表情在后段持续强化质问感，视觉上更接近愤怒而非中性或愉快。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "当前字幕原话：“哎，朕，仇院长，离婚，你怎么这么高兴呢？”",
+      "observation": "字幕包含对对方“这么高兴”的直接质问。",
+      "interpretation": "语言内容支持不满、质疑的解读，与视觉上的紧皱眉和紧绷表情一致；这不是听觉证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0s 至 frame_07 @ 4.16s",
+      "observation": "未见明显泪光、哭泣或明显悲伤姿态，也未见明显笑容；身体大部分被画面裁切。",
+      "interpretation": "限制了sad和happy的解释，但不能仅凭缺少这些特征确定愤怒。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的相反解释是worried：持续皱眉、侧向关注和张口质问也可能表示担忧或急切询问。由于没有音频，无法用语调区分愤怒与担忧；但字幕的质问内容、眉压和后段更直接的目光使angry的视觉支持更强。"
+}

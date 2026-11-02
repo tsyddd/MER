@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00013127",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "d2115c97acf3c6e01bbce09ee0045d9eebc8b28101f778a38355f8f3c0e262a8",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "愉悦打趣",
+      "mapped_label": "happy",
+      "mapping_reason": "目标人物的开放情绪为轻松愉快的调侃与赞许打趣，言语互动充满善意与愉悦感，符合情绪轮中happy（喜悦：正向愉悦、满足）的定义，因此映射为happy。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "欣喜调侃",
+      "mapped_label": "happy",
+      "mapping_reason": "说话人借‘小看你了’进行调侃与赞许，声音与表情均充满愉悦与笑意，符合情绪轮中happy‘当前正向愉悦、满足或兴奋’的定义。"
+    },
+    "image": {
+      "open_emotion": "欣喜",
+      "mapped_label": "happy",
+      "mapping_reason": "目标人物展现出持续且自然的露齿笑容与愉悦神情，属于积极正向的情感体验，符合情绪轮中happy（喜悦/欣喜）的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "happy",
+  "emotion_analysis": "目标人物在整个片段中神情极为开朗舒展，在起始与结尾多帧均展现出明显的露齿微笑与温和眼眸[image:E1]。听觉上，其在表达‘还真是小看你了’时伴随清晰的气声笑腔与轻快戏谑的语调[audio_subtitle:E1]，确证其言辞并非严肃质疑或受阻对抗。台词字面上的反差虽包含超出预期的意味，但持续且自然的愉悦打趣彻底排除了惊愕（surprise）与冷漠（neutral），核心状态高度契合正向愉悦的喜悦表达。",
+  "output": "目标人物在整个片段中神情极为开朗舒展，在起始与结尾多帧均展现出明显的露齿微笑与温和眼眸[image:E1]。听觉上，其在表达‘还真是小看你了’时伴随清晰的气声笑腔与轻快戏谑的语调[audio_subtitle:E1]，确证其言辞并非严肃质疑或受阻对抗。台词字面上的反差虽包含超出预期的意味，但持续且自然的愉悦打趣彻底排除了惊愕（surprise）与冷漠（neutral），核心状态高度契合正向愉悦的喜悦表达。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 57.79649996757507
+}

@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia140_utt4",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "8fef145f22a30b21db1df9aa0b95769ecea3ec4535f7bae7d08d725b3cc323a7",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "平稳",
+      "mapped_label": "neutral",
+      "mapping_reason": "Ross在当前语境中就剧本创作给出日常建议，神态与语调均平稳自然，无激化情绪波动；在情绪轮中归属于无明显主导负向或正向体验的平静基线状态，精准映射为neutral。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "平稳",
+      "mapped_label": "neutral",
+      "mapping_reason": "说话人处于客观、平静出主意的日常交流状态，没有表现出joy、anger、surprise等显著主导情绪，符合情绪轮中neutral的定义。"
+    },
+    "image": {
+      "open_emotion": "平常",
+      "mapped_label": "neutral",
+      "mapping_reason": "Ross在交谈过程中表现平稳、专注而自然，没有显著的愉悦、愤怒、悲伤等主导情绪波动，符合neutral的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "回看全部视频帧及对应音频，Ross在向Joey提议“Y'know, like-like write a play.”时神态专注自然，面部各动作单元均无明显收缩或剧烈形变[image:E1][image:E2]。听感上，Ross语调平稳从容，台词中的轻微词语重复仅反映边思考边表达的日常口语特征，既无激动、恐惧颤抖，亦无责备或挑衅起伏[audio_subtitle:E2]。专家间对日常平稳交流的判定一致且证据互补，整体表现无明确偏向的主导情感，符合中性状态。",
+  "output": "回看全部视频帧及对应音频，Ross在向Joey提议“Y'know, like-like write a play.”时神态专注自然，面部各动作单元均无明显收缩或剧烈形变[image:E1][image:E2]。听感上，Ross语调平稳从容，台词中的轻微词语重复仅反映边思考边表达的日常口语特征，既无激动、恐惧颤抖，亦无责备或挑衅起伏[audio_subtitle:E2]。专家间对日常平稳交流的判定一致且证据互补，整体表现无明确偏向的主导情感，符合中性状态。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 45.434051513671875
+}

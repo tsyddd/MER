@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物起初虽有挑眉、睁大双眼的不可置信神态，但随即将右手握拳抵于领口与喉部进行自我安抚，伴随眉头紧锁与目光下垂凝视，持续呈现出面对诡异事物时的紧张、不安与忧虑，故判定为worried[E1][E2]。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01 @ 1.24s",
+      "observation": "目标人物双眼微瞪，眉心微聚，嘴唇微张侧视下方",
+      "interpretation": "反映出听到不可思议事实时的愕然与探询，情绪由惊疑开始萌发",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05 @ 6.16s - frame_07 @ 8.64s",
+      "observation": "右手抬起握拳抵在锁骨与咽喉处，眉头收紧，视线低垂游移，身姿呈内缩防卫状",
+      "interpretation": "手抚颈喉属于典型的紧张自抚与防御体态，结合紧蹙的眉头，显示其对所提人面花之事的忌惮、后怕与隐忧",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00 - 00:04",
+      "observation": "语调气息微弱，后半句伴有叹息与低语声",
+      "interpretation": "语调低沉发虚，非单纯高亢的惊叹，佐证了内心深沉的困惑与担忧",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "前段'真的一百多岁了，我怎么看也不像啊'伴有睁眼微惊的动作，可能被解释为surprise；但惊讶反应转瞬即逝，后半程持续数秒的手抚胸口、蹙眉低语等身体语言与语调均指向深层的焦虑与不安，因而排除surprise。"
+}

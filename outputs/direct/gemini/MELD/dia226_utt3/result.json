@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia226_utt3",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sadness",
+  "emotion_analysis": "Rachel在向Phoebe倾诉时眉头微蹙、神色无奈，并伴有表达无奈与遗憾的手势，声音轻柔且略带叹息和失落，流露出 sadness（难过、失落）情绪。",
+  "output": "Rachel在向Phoebe倾诉时眉头微蹙、神色无奈，并伴有表达无奈与遗憾的手势，声音轻柔且略带叹息和失落，流露出 sadness（难过、失落）情绪。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 8.06295132637024,
+  "node_count": null,
+  "edge_count": null
+}

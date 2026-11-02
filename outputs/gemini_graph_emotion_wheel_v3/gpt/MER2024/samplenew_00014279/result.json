@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00014279",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "8a93788f7988ee7297cf059d2b609d25c7836c71056843455b447ed540c3a17b",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "愤慨",
+      "mapped_label": "angry",
+      "mapping_reason": "当前表达的核心是针对对方的明确责备和斥责，因此将“愤慨”映射为angry，而非仅凭皱眉推断担忧。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "愤慨",
+      "mapped_label": "angry",
+      "mapping_reason": "愤慨针对她认为不当的手段，表现为明确的责备和对抗，符合angry的定义。"
+    },
+    "image": {
+      "open_emotion": "不满",
+      "mapped_label": "angry",
+      "mapping_reason": "当前表达指向对方的行为，并带有明确责备，按情绪轮映射为angry；这不表示她已表现出强烈暴怒。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "angry",
+  "emotion_analysis": "回看frame_02至frame_06，女子持续面对男子说话、眉头收紧；frame_07是男子的反应，不能算作她的情绪证据。[image:E1]对神情的描述可信，但皱眉本身不足以定类。字幕中的“你除了这些卑劣的手段，还会什么”“真是无耻之极”是针对对方的反问和斥责，[audio_subtitle:E1][audio_subtitle:E2]对此的解释比担忧或悲伤更有依据。她的伤痕及眼周状态可能提示痛苦，却不足以推翻当前明确的责备方向；未提供音轨，不能核实语调。",
+  "output": "回看frame_02至frame_06，女子持续面对男子说话、眉头收紧；frame_07是男子的反应，不能算作她的情绪证据。[image:E1]对神情的描述可信，但皱眉本身不足以定类。字幕中的“你除了这些卑劣的手段，还会什么”“真是无耻之极”是针对对方的反问和斥责，[audio_subtitle:E1][audio_subtitle:E2]对此的解释比担忧或悲伤更有依据。她的伤痕及眼周状态可能提示痛苦，却不足以推翻当前明确的责备方向；未提供音轨，不能核实语调。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 66.12481260299683
+}

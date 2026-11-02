@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "目标人物在电话中解释自己并非事件当事人，而是其朋友在网上被诽谤，且事态正在“越闹越大”。她的语调发紧、语速急促，同时伴随双眉微蹙、目光下垂等视觉表现，这些共同指向一种对事态升级的焦虑与不安。因此，主导情绪为担忧。",
+  "open_emotion": "担忧",
+  "answer": "worried",
+  "mapping_reason": "根据情绪轮定义，'worried'指对可能的负面结果、风险或未知的顾虑、焦虑和不安。目标人物正在转述一个正在恶化的负面事件（网络诽谤），并用“越闹越大”来强调其不确定性与潜在风险，其声音和表情也表现出焦虑，因此最符合'worried'的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:06",
+      "observation": "女性说话声音发紧，语速连贯急促。",
+      "interpretation": "声音的紧张和急促是焦虑情绪的直接听觉证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01",
+      "observation": "女性双眉微蹙，嘴唇张合说话。",
+      "interpretation": "微蹙的眉头是担忧和焦虑的典型面部表情。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "00:03-00:05",
+      "observation": "字幕内容为“她现在在网上被人诽谤了，现在事情越闹越大”。",
+      "interpretation": "该内容描述了一个正在升级的负面事件，是引发担忧情绪的直接原因。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱节点person_2描述为“女性说话声音发紧，语速连贯急促”。",
+      "interpretation": "该节点是音频证据的结构化转述，其内容与实际音频一致，支持了声音上的焦虑表现。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。"
+}

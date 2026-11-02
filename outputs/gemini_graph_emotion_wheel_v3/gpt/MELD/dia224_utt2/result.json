@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia224_utt2",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "1a93519324deb7114b711ca1273c4ab6d476608084d6a740754472aedd789a3b",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "平稳",
+      "mapped_label": "neutral",
+      "mapping_reason": "“平稳”对应当前表达没有明确主导情绪的neutral；这里指磁带发出指令的方式，不是男子的状态或卧室氛围。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "平常",
+      "mapped_label": "neutral",
+      "mapping_reason": "“平常”对应情绪轮中日常、无明确主导情绪的表达；此判断限于字幕语用，不能推断录音的实际语气。"
+    },
+    "image": {
+      "open_emotion": "平常",
+      "mapped_label": "neutral",
+      "mapping_reason": "“平常”对应情绪轮中日常、无明确主导情绪的neutral；此处主要依据字幕的指令形式作有限判断，并非从画面确认目标表情平稳。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标说话者是催眠磁带，而非床上的男子；八帧中目标未出现，因此男子闭眼静卧不能用来判断磁带的情绪，[image:E2]这一归属判断可信。字幕原话“Deeper.”是一句简短引导指令，没有明确的责备、惊惧或喜悦表达；[audio_subtitle:E1]对此的观察可信，但文字本身不能确定语气。[graph:E2]转述其语调平缓，若属实可支持平稳表达，但未提供音轨，无法直接核验，也不能把它当作字幕之外的独立印证。综合可核实的指令内容与目标不可见这一限制，选择平常表达对应的neutral，而非依据男子的状态或未经核验的语调作判断。",
+  "output": "目标说话者是催眠磁带，而非床上的男子；八帧中目标未出现，因此男子闭眼静卧不能用来判断磁带的情绪，[image:E2]这一归属判断可信。字幕原话“Deeper.”是一句简短引导指令，没有明确的责备、惊惧或喜悦表达；[audio_subtitle:E1]对此的观察可信，但文字本身不能确定语气。[graph:E2]转述其语调平缓，若属实可支持平稳表达，但未提供音轨，无法直接核验，也不能把它当作字幕之外的独立印证。综合可核实的指令内容与目标不可见这一限制，选择平常表达对应的neutral，而非依据男子的状态或未经核验的语调作判断。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 67.38975095748901
+}

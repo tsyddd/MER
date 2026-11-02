@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "男子先询问对方“他不好对付”是否属实[E1]，随后转而问自己是否给对方惹了麻烦[E2][E3]。后一句关注的是自己可能造成的负面后果，而非已经发生的损失；画面中他持续看向对方、等待回应[E4]。据此，当前更接近忐忑，而不是单纯的意外或责备。",
+  "open_emotion": "忐忑",
+  "answer": "worried",
+  "mapping_reason": "对是否连累对方尚无把握，并顾虑可能的负面后果，符合worried强调的预期与不确定性；表情较克制，不表示强烈焦虑。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "怎么？他不好对付啊。",
+      "observation": "男子就“他”是否难对付向面前的人发问。",
+      "interpretation": "这是试探性的问话，不能将“他不好对付”当作已证实的事实。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_07（2.08秒）",
+      "observation": "画面文字显示“我 我是不是给你惹麻烦了”。",
+      "interpretation": "问话转向自己是否给对方带来麻烦，提供了担忧可能后果的当前语义证据；画面文字不是听觉证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "图谱记录男子接着询问自己是否给对方惹了麻烦。",
+      "interpretation": "该节点与末帧文字相符，帮助确认两句问话的先后及关注对象的转移；它与画面文字同源，不另算一次独立佐证。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_05（1.48秒）至frame_07（2.08秒）",
+      "observation": "男子面向对方说话，目光停留在对方身上，神情较克制。",
+      "interpretation": "表现与寻求回应相容，但单凭表情不足以判定担忧，须结合问话语义。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "图谱person_0称其神态平静，画面也没有强烈焦虑表现；因此只判断为轻度忐忑。图谱person_1关于语调的描述属于音频派生转述，本次未收到原音轨，不能亲耳核验，也不据此声称听到了语调。"
+}

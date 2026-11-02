@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是画面中唯一清晰可见、正在说话的女子。她从开口叙述到收住话语，视线持续向下，眉间微收，嘴角随后略向下，整体更像低落的回想，而非即时惊讶或对抗[E1][E2]。字幕只说明她谈到一截风筝线，不能据此推定发生了损失[E3]；没有提供音频，无法用语调核验。",
+  "open_emotion": "伤感",
+  "answer": "sad",
+  "mapping_reason": "当前以低落的面部表现为主，故将“伤感”映射到sad；画面与字幕不足以确定伤感的具体缘由。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_03（0.92秒）",
+      "observation": "女子低头朝画面右下方看，眉间略收，边说话边张口，未见明显抬头或转向对抗对象。",
+      "interpretation": "持续低垂的视线与收紧的眉部共同支持低落表达；张口本身只是说话，不能单独定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04（1.24秒）至frame_07（2.16秒）",
+      "observation": "她仍向下看，嘴唇由抿合转为轻微张开，末段嘴角略向下；frame_06短暂出现似笑的嘴形。",
+      "interpretation": "整体变化偏向伤感，但短暂的似笑嘴形使表情并非毫无歧义。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“手里还握着一截风筝线。”",
+      "observation": "字幕提到握着一截风筝线，没有明确说出损失或未来风险。",
+      "interpretation": "不能仅凭这句话确认悲伤的缘由，也没有足够语义证据改判为担忧。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "最强的相反解释是她在平静地回忆或叙述：frame_06的嘴形略似微笑，字幕也未明确表达悲痛。因此sad是依据面部与视线作出的倾向判断，而非确定的强烈悲伤。"
+}

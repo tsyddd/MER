@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00006180",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "4a765d2b2802a7f8b7c5268ad405ddb73b3790b0239521f2f89cddf88ddba4d0",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "我核对了目标女老师在frame_01至frame_03的连续表现：眉毛上扬、眼睛睁大且张口说话，独立画面证据比单纯课堂提问更有区分力，支持短暂惊讶。[image:E1] 字幕“老师也没见过……有没有知道的？”以及随后学生说“我知道”，为这种对未知答案和即时回应的意外反应提供了互动语境。[audio_subtitle:E3] 但这些表情也可能是活跃授课或聆听，且audio_provided=false，无法核验语调；综合最强直接视觉证据，取惊讶而非neutral。",
+  "output": "我核对了目标女老师在frame_01至frame_03的连续表现：眉毛上扬、眼睛睁大且张口说话，独立画面证据比单纯课堂提问更有区分力，支持短暂惊讶。[image:E1] 字幕“老师也没见过……有没有知道的？”以及随后学生说“我知道”，为这种对未知答案和即时回应的意外反应提供了互动语境。[audio_subtitle:E3] 但这些表情也可能是活跃授课或聆听，且audio_provided=false，无法核验语调；综合最强直接视觉证据，取惊讶而非neutral。\n<answer>surprise</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 233.32655787467957
+}

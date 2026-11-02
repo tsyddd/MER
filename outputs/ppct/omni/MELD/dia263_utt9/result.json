@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia263_utt9",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sadness",
+  "emotion_analysis": "Ross is sitting and speaking the line 'I'm gonna have to give him up.' The audio and visual evidence show him in a state of resignation, with a somber expression and a tone of acceptance, indicating he is making a difficult decision. This aligns with the emotion of sadness.",
+  "output": "Ross is sitting and speaking the line 'I'm gonna have to give him up.' The audio and visual evidence show him in a state of resignation, with a somber expression and a tone of acceptance, indicating he is making a difficult decision. This aligns with the emotion of sadness.\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 32.47639489173889,
+  "node_count": 3,
+  "edge_count": 0
+}

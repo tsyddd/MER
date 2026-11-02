@@ -1,0 +1,8 @@
+{
+  "reason": "独立回看，目标是左侧穿紫色上衣的Rachel：她在第0帧略带笑意，说话时眉头收拢、嘴角趋平，并向右侧女子摊手解释；[image:E1]对这一变化的描述可信，但手势本身不能判定情绪。字幕“I wish I could get him to open up a little bit, share some feelings”表达希望获得更多情感交流；[audio_subtitle:E1]据此理解为未满足的愿望有依据，但没有直接责备对方。末帧的短暂笑意以及缺少强烈悲伤表现，限制了情绪强度，却不足以推翻轻微失落这一解释；本片段未提供音轨，无法核验语调。",
+  "answer": "sadness",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E1"
+  ]
+}

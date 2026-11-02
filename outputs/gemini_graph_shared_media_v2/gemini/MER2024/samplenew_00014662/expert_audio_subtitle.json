@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物在音频中用放轻且略显紧绷的语调说出表达忧虑的语句，语义直接明确为‘担心牵连’，配合画面中微蹙的眉头与关切的眼神，语言、声学与视觉表现高度一致指向担忧（worried）。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "我主要是担心这事会牵连到您家老爷子。",
+      "observation": "台词直接陈述其言语行为动机与顾虑：‘担心这事会牵连到您家老爷子’。",
+      "interpretation": "明确直接地表达对不利后果的忧虑与顾忌，奠定了说话者的担忧意图。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.0s - 4.5s",
+      "observation": "女性声音音量较轻，语速缓慢，语调小心翼翼且带有叹息般的尾音。",
+      "interpretation": "谨慎、放轻的韵律特征符合向对方委婉提醒潜在风险时的关切与担忧心态，而非中性平淡陈述。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.64s",
+      "observation": "目标人物双眉微蹙，眼神凝视对方，面部带有明显的愁容与顾虑表情。",
+      "interpretation": "面部微表情与口头所表达的‘担心’一致，排除了反讽或纯粹客观转述的可能。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释为neutral（客观汇报/试探提醒），但从其微蹙的眉心与小心翼翼的叹息式语调来看，带有明显的主观情感投入与关切忧虑，非客观中立。"
+}

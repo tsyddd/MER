@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia119_utt5",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "fb723911feb1977e95353e9e5cd3a600d355b69ec46c0c99064139b522a98aa9",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "fear",
+  "emotion_analysis": "音频分析指出说话者语速快、音调高且带有焦虑和急切感，尤其在表达'he can't see this'时显现出紧张和担忧，这与图像中嘴角上扬、表情愉悦的joy判断存在明显冲突。graph虽描述语调平稳，但未直接涉及听觉情绪线索。音频作为实时声学证据更贴近情绪表达，且其描述的焦虑和担忧与fear标签高度匹配，因此优先采纳音频证据。",
+  "output": "音频分析指出说话者语速快、音调高且带有焦虑和急切感，尤其在表达'he can't see this'时显现出紧张和担忧，这与图像中嘴角上扬、表情愉悦的joy判断存在明显冲突。graph虽描述语调平稳，但未直接涉及听觉情绪线索。音频作为实时声学证据更贴近情绪表达，且其描述的焦虑和担忧与fear标签高度匹配，因此优先采纳音频证据。\n<answer>fear</answer>",
+  "label": "fear",
+  "elapsed_seconds": 40.89136528968811
+}

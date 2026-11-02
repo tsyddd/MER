@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00034225",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "12ed0aa9b273f368e8bd1e8523c70a683154346bda47b6b5ca66053f7fff6640",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "summary核验frame_00至frame_06：目标人物持续直视对方，眼睛睁大、眉毛略抬且多次张口，这组即时视觉变化比泛化的“关切”更直接支持意外或惊讶；[image:E1]的视觉描述与此一致，可信度较高。字幕“怎么？他不好对付啊。”主要是追问和意外确认，[audio_subtitle:E1]正确指出其本身不能单独证明担忧，且本段无音轨，无法核实语调。最强反证是summary核验frame_07出现“我 我是不是给你惹麻烦了”，带有自责和担忧语义，也与[graph:E3]的转述一致；但图谱中的语音内容不能当作亲耳核验，且该语义未改变前段抬眉、睁眼、张口这一更直接的可见反应。综合互补证据，选择惊讶而非担忧。",
+  "output": "summary核验frame_00至frame_06：目标人物持续直视对方，眼睛睁大、眉毛略抬且多次张口，这组即时视觉变化比泛化的“关切”更直接支持意外或惊讶；[image:E1]的视觉描述与此一致，可信度较高。字幕“怎么？他不好对付啊。”主要是追问和意外确认，[audio_subtitle:E1]正确指出其本身不能单独证明担忧，且本段无音轨，无法核实语调。最强反证是summary核验frame_07出现“我 我是不是给你惹麻烦了”，带有自责和担忧语义，也与[graph:E3]的转述一致；但图谱中的语音内容不能当作亲耳核验，且该语义未改变前段抬眉、睁眼、张口这一更直接的可见反应。综合互补证据，选择惊讶而非担忧。\n<answer>surprise</answer>",
+  "label": "worried",
+  "elapsed_seconds": 182.6725311279297
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013928",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "49b9882ec6625c755d0ee37646065921d1bf3d3dd712f15713cb364e31bc4877",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "happy",
+  "emotion_analysis": "目标人物在片段中全程保持开怀露齿的大笑，眼角收窄、面颊苹果肌明显提升，同时伴随主动挥舞手中纸张的欢快动作，视觉表现高度外向且愉悦[image:E1]。经独立核对实际音轨，其在00:00-00:02说出“我可看好你呀”时语调轻快高昂，尾音伴有清晰的笑腔与欢快笑声[audio_subtitle:E1]。三位专家关于面部笑肌展开与听觉笑意的互补分析完全吻合实际线索，其强烈的真实喜悦表现彻底排除了礼节性寒暄的中性可能，情绪取向明确为快乐。",
+  "output": "目标人物在片段中全程保持开怀露齿的大笑，眼角收窄、面颊苹果肌明显提升，同时伴随主动挥舞手中纸张的欢快动作，视觉表现高度外向且愉悦[image:E1]。经独立核对实际音轨，其在00:00-00:02说出“我可看好你呀”时语调轻快高昂，尾音伴有清晰的笑腔与欢快笑声[audio_subtitle:E1]。三位专家关于面部笑肌展开与听觉笑意的互补分析完全吻合实际线索，其强烈的真实喜悦表现彻底排除了礼节性寒暄的中性可能，情绪取向明确为快乐。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 51.939172983169556
+}

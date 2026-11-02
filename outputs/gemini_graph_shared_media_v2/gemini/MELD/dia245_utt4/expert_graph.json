@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "在当前互动事件链中，Monica看到门边Rachel的举动后产生强烈的突发危机感[E1]，同步发出尖锐高亢、极度惊恐的叫喊声[E2]，并迅速丢下手中物品向前猛冲阻止（对应图谱节点person_4与process_2）[E3]，展现出害怕被发现或局势失控的恐慌恐惧反应。",
+  "answer": "fear",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.5839162133155694",
+      "observation": "Monica视线投向门口，双眼圆睁、嘴巴大张，神态极度惊恐",
+      "interpretation": "表明目睹他人动作后立即引发了惊慌害怕的情绪反应",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "Monica发出高亢、语调急促且带有尖叫声的“No-no-no, no!”",
+      "interpretation": "声音带有明显的恐慌与惊恐求阻意味，而非冷静命令或单纯惊叹",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_2",
+      "observation": "图谱记录Monica从沙发上迅速起身向前冲出以进行紧急干预",
+      "interpretation": "结合其丢弃手中书本的动作，反映出应对紧急恐惧刺激的应激阻拦行为",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "替代解释可能认为是anger（愤怒制止）或surprise（惊讶）。然而Monica的声音高度尖锐发颤而非攻击性斥责，且伴随强烈的恐慌躯体前冲行为，表明其核心驱动是对门边危险事态的害怕与惊恐，而非愤怒或单纯意外。"
+}

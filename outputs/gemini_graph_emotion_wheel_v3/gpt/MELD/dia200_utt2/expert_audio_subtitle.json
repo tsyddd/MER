@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Joey逐一排除可能拿走东西的人，最后追问“then who did?”；结合他指向自己、再向同伴摊手的动作，更像对答案感到困惑，而非责备对方。[E1][E2]",
+  "open_emotion": "困惑",
+  "answer": "surprise",
+  "mapping_reason": "这里的困惑指排除已知人选后，对未知答案产生的意外感，近似映射为surprise；证据不足以称为强烈震惊。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“And if she didn’t take it, and I didn’t take it; and you didn’t take it, then who did?”",
+      "observation": "说话者连续排除三个人，最后提出谁拿走了它的疑问。",
+      "interpretation": "疑问的重点是现有推断留下了意料之外的空缺，支持困惑；问句本身不等于惊讶。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01（0.459秒）至frame_06（2.836秒）",
+      "observation": "右侧的Joey先指向自己，随后向中间的同伴伸手、摊开手掌；神情严肃。",
+      "interpretation": "动作与逐一排除人选、寻求答案的语义一致，未见明显欢喜或愤怒表现。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是平常地推理和提问；仅凭问句与手势不能断定强烈意外。未提供音频，无法用语调或音量进一步区分。"
+}

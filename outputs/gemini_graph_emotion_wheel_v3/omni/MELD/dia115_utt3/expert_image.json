@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "目标人物Ross在对话中表现出明显的面部肌肉紧张，包括皱眉、紧闭的嘴唇和向对方倾斜的姿态，这些是愤怒情绪的典型视觉表现。他的视线始终集中在对方身上，显示出对抗和专注。尽管字幕内容是陈述句，但其语气（根据音频）是带有责备和不耐烦的，这与视觉上的愤怒表现一致。没有观察到悲伤、恐惧或喜悦的迹象。",
+  "open_emotion": "愤怒",
+  "answer": "anger",
+  "mapping_reason": "根据观察，目标人物的面部表情（皱眉、紧闭的嘴唇）和姿态（身体前倾、直视）与愤怒情绪的定义相符，即对冒犯或不公的恼火和责备。音频中的语气也支持这一判断。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "Ross的眉毛皱起，嘴唇紧闭，身体朝向对方。",
+      "interpretation": "这是愤怒或强烈不满的典型面部和姿态表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01",
+      "observation": "Ross的视线紧盯着对方，表情严肃。",
+      "interpretation": "表明他正专注于与对方的对抗性互动。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00-00:05",
+      "observation": "音频中，Ross的语气听起来很不耐烦，并带有责备的意味。",
+      "interpretation": "这与他视觉上表现出的愤怒情绪相吻合。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "subtitle",
+      "anchor": "Shielding your face and shrieking like a girl... is not a backhand.",
+      "observation": "字幕内容是一句带有评判和否定意味的陈述。",
+      "interpretation": "这句话的语用功能是表达对对方行为的不满和纠正，这与愤怒情绪的语义内容一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有观察到任何表明悲伤、恐惧或喜悦的视觉线索。"
+}

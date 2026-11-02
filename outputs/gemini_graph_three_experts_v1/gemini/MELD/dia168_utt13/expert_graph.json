@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载Ross在说话时左手伸出指向前方且正面逼视对方〔person_0〕，语调坚定且语速较快〔person_1〕。随后他直接发起严厉指控“We know you took it”并强硬敦促对方“and confess!”〔process_0, process_2〕。这些肢体动作与言语施压表现出明显的对立与质问，体现出其愤怒情绪。",
+  "answer": "anger",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "process_0",
+    "process_2"
+  ]
+}

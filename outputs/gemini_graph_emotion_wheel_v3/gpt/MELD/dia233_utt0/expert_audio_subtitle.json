@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Rachel问对方是否买来这些东西给Joey，目的是把自己赶出公寓；这不是单纯询问物品来历，而是在质疑对方的意图[E1]。她面向对方、皱眉并叉腰，表情与带有责备意味的问话一致[E2]。",
+  "open_emotion": "恼火",
+  "answer": "anger",
+  "mapping_reason": "当前表达的重点是对疑似针对自己的行为提出责问，符合anger中因受到冒犯而不满、对抗的方向；不需要达到强烈愤怒的程度。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Did you get all this stuff for Joey to try and drive me out of the apartment?",
+      "observation": "Rachel以疑问句询问对方是否借给Joey买东西来把自己赶出公寓。",
+      "interpretation": "疑问形式承载对对方意图的质疑和责备，支持恼火，而非把“赶出公寓”直接当作恐惧证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03（1.835秒）至frame_04（2.461秒）",
+      "observation": "Rachel面对对方，眉头收紧，右手叉腰。",
+      "interpretation": "紧绷的表情和姿态与质问语境相符，辅助支持不满。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "这句话也可能出于担心自己被排挤；但现有字幕和画面更直接呈现的是对对方的责问。未提供音频，无法核验语调或音量，情绪强度因此有限定。"
+}

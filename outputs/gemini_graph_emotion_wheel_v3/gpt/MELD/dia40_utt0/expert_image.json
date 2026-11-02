@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物是画面中央穿白色外套的Monica，不是左侧的金发女子或右侧男子。她起初低头、嘴角轻扬，随后转向左侧女子，笑容逐渐扩大并持续到片段结束[E1][E2]。这种连续的面部和视线变化，比单独一次微笑更支持她此刻感到愉悦；字幕中的简短肯定话语与此相符[E3]，但没有音轨可判断语气。",
+  "open_emotion": "开心",
+  "answer": "joy",
+  "mapping_reason": "当前可见的持续、扩大的笑容与面向交谈对象的神态支持正向愉悦体验，因此将“开心”映射为joy。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.000秒）至frame_02（0.417秒）",
+      "observation": "Monica低头看向前方，嘴角轻扬；随后抬起视线，开始露出更明显的笑容。",
+      "interpretation": "呈现由较克制到更明显的正向表情变化。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03（0.626秒）至frame_07（1.460秒）",
+      "observation": "Monica转头看向左侧女子，笑容扩大、露出牙齿，并保持到最后一帧。",
+      "interpretation": "持续的笑容和面向交谈对象的视线支持开心的解释。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“Yeah baby!”",
+      "observation": "当前字幕为一句简短的肯定话语。",
+      "interpretation": "与画面的正向表达相符，但字幕本身不能证明说话语气。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "前几帧较克制的笑容也可能是礼貌回应；仅凭画面不能确定开心的强度，且未提供音频来核对语气。"
+}

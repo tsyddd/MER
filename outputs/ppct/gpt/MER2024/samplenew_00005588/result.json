@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00005588",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "当前人物是画面中的男子，正看向左侧在场的另一人物（person_0、context_0），并当下说出“过去的事，不怪你”（process_0）。这句话是在缓和互动、表达不归责，画面中的表情严肃但没有明显愤怒、惊讶或强烈悲伤证据，因此判断为中性。",
+  "output": "当前人物是画面中的男子，正看向左侧在场的另一人物（person_0、context_0），并当下说出“过去的事，不怪你”（process_0）。这句话是在缓和互动、表达不归责，画面中的表情严肃但没有明显愤怒、惊讶或强烈悲伤证据，因此判断为中性。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 30.81922459602356,
+  "node_count": 3,
+  "edge_count": 0
+}

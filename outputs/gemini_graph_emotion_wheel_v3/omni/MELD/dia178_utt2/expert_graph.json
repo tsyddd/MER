@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "Monica抱着婴儿，面带微笑，语调轻松自然，随后转头看向房间另一侧，嘴角微扬，用轻柔欢快的语气对Phoebe说话。这些视听证据共同表明她对当前情景感到愉悦和满足。因此，开放情绪词为“喜悦”，映射到数据集标签joy。",
+  "open_emotion": "喜悦",
+  "answer": "joy",
+  "mapping_reason": "根据MELD项目适配情绪轮，joy的定义是“当前开心、愉悦、满足或兴奋的正向体验”。Monica的视觉表现（怀抱婴儿、面带微笑、嘴角微扬）和听觉表现（轻松自然、轻柔欢快的语调）均指向一种积极、满足的情绪状态，与joy的定义高度一致。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00, frame_01, frame_02, frame_03, frame_04, frame_05, frame_06, frame_07",
+      "observation": "Monica双手抱着婴儿，面带微笑，嘴角微扬。",
+      "interpretation": "视觉上，Monica的面部表情是愉悦的，表明她对当前情景感到开心。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:01, 00:02-00:05",
+      "observation": "Monica的语调轻松自然，随后用轻柔欢快的语气说话。",
+      "interpretation": "听觉上，Monica的语调是积极的，与她的面部表情一致，共同表达了愉悦的情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "Monica双手抱住婴儿贴在胸前，面带微笑注视前方。",
+      "interpretation": "图谱节点描述了Monica的积极姿态和表情，与当前画面和音频一致，支持其情绪为joy。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_4",
+      "observation": "Monica用较为轻柔、欢快的语气说话。",
+      "interpretation": "图谱节点描述了Monica的积极语调，与音频证据一致，支持其情绪为joy。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00002893",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "分析图谱中的实际节点与边，女性在通话中（context_1）双眉微蹙、神色紧绷（person_3），目光向下微垂（person_1），音调与语速紧促（person_2）。在叙述朋友在网上遭人诽谤且“事情越闹越大”（process_2, process_3）的过程中，表情和语气表现出显著的担忧与焦虑，因此情绪为worried。",
+  "output": "分析图谱中的实际节点与边，女性在通话中（context_1）双眉微蹙、神色紧绷（person_3），目光向下微垂（person_1），音调与语速紧促（person_2）。在叙述朋友在网上遭人诽谤且“事情越闹越大”（process_2, process_3）的过程中，表情和语气表现出显著的担忧与焦虑，因此情绪为worried。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 70.63466048240662,
+  "node_count": 12,
+  "edge_count": 14
+}

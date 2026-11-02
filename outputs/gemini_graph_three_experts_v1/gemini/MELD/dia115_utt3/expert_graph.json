@@ -1,0 +1,12 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载Ross在走廊与Chandler面对面站立并注视对方〔context_1, person_0〕，以平稳语速和清晰音量陈述台词〔person_2〕。整个言语表达过程中神态自然，仅伴随正常的嘴部张合与下颌微动〔person_1, person_4〕，未展现出明显的激烈情绪或面部波动，体现出平静陈述的状态。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "context_1",
+    "person_0",
+    "person_1",
+    "person_2",
+    "person_4"
+  ]
+}

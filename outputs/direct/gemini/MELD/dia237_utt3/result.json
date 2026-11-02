@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia237_utt3",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "disgust",
+  "emotion_analysis": "Joey在谈论‘whipped fish’以及努力忍住不吐时，皱着眉头、咧嘴显出反胃和反感的嫌恶表情，语调和内容均表现出明显的身体性厌恶（disgust）。",
+  "output": "Joey在谈论‘whipped fish’以及努力忍住不吐时，皱着眉头、咧嘴显出反胃和反感的嫌恶表情，语调和内容均表现出明显的身体性厌恶（disgust）。\n<answer>disgust</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 6.4752357006073,
+  "node_count": null,
+  "edge_count": null
+}

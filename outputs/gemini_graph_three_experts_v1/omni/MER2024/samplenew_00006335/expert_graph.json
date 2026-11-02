@@ -1,0 +1,8 @@
+{
+  "expert": "graph",
+  "reason": "男子〔person_1〕描述其嘴部开合、语气低沉并带有疑问，说出‘关东军不是已经增兵甲子沟煤矿了吗’，表明其当前情绪为疑问和不确定，符合'worried'标签。",
+  "answer": "worried",
+  "evidence_refs": [
+    "person_1"
+  ]
+}

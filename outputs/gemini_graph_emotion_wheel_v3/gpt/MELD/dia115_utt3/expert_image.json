@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物Ross是画面右侧穿深色外套的男子，不是左侧围围巾的人。他在说话时一直面向对方，表情变化较小，末尾略低头、垂下视线；结合字幕中的纠正性话语，当前最有视觉支持的是较平稳的表达[E1][E2][E3]。",
+  "open_emotion": "平稳",
+  "answer": "neutral",
+  "mapping_reason": "Ross当前的面部和姿态未显示明确占主导的愤怒、喜悦或其他强烈反应，因此将“平稳”映射为neutral；这不表示他的话没有揶揄意味。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_04（3.086秒）",
+      "observation": "右侧的Ross面向左侧男子，说话时嘴部开合，身体基本保持原位；未见明显的皱眉或激烈手势。",
+      "interpretation": "表达较克制，支持平稳而非明显对抗的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_06（4.630秒）至frame_07（5.422秒）",
+      "observation": "Ross略低头，视线从对方脸部移向下方，姿态仍较稳定。",
+      "interpretation": "这一变化没有形成清晰的愤怒或悲伤表情，延续了较平稳的表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“Shielding your face and shrieking like a girl... is not a backhand.”",
+      "observation": "字幕是一句带有揶揄措辞的纠正。",
+      "interpretation": "话语可能带有不满，但仅凭文字不足以认定Ross此刻主要表现为愤怒。",
+      "polarity": "counter"
+    }
+  ],
+  "counterevidence": "字幕中的“shrieking like a girl”带有嘲讽意味，Ross说话时也有轻微表情变化，因此不能把平稳理解为毫无态度；没有音轨，无法核实语气是否更尖锐。"
+}

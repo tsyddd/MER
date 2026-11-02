@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Monica直指笑话「不好笑」且「冒犯」多类对象，是在责备讲笑话的人，而非单纯描述自己的感受[E1]。她前倾、表情严肃，并以手势强调这番话，支持当前以不满为主的解释[E2][E3]。没有音轨，不能判断她的语调或音量。",
+  "open_emotion": "不满",
+  "answer": "anger",
+  "mapping_reason": "这里的不满指向她认为具有冒犯性的笑话，表现为明确的否定和责备，因此映射到anger。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "The joke is not funny, and it’s offensive to women, and doctors, and monkeys!",
+      "observation": "她否定笑话的趣味性，并明确称其具有冒犯性。",
+      "interpretation": "整句是在批评笑话；「offensive」是她对笑话的评价，不能孤立地当作情绪标签。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03（2.127秒）",
+      "observation": "她身体前倾，嘴唇紧闭，目光朝向画面外的交谈对象。",
+      "interpretation": "姿态和表情与严肃责备的言语行为相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_06（4.213秒）",
+      "observation": "她再次前倾，张口并向前伸手。",
+      "interpretation": "动作显示她正在强调自己的意见，但画面本身不能证明音量或语气。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "部分帧中她略带笑意，可能是在以调侃方式批评；但字幕中的直接否定和责备更支持不满。由于没有音频，无法进一步核实是否带有反讽语调。"
+}

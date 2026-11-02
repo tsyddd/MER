@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00038936",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "c613bc4c8eed706c8b1610a8aeb9393921c5fc05b8cbb31814da46e58a8148c8",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "图像专家在8帧中反复指出眉头紧蹙、目光下移和嘴唇抿紧，这些视觉线索较一致地支持不安或担忧。字幕“你好像出了点意外”也带有担心意味，但音频专家未提供实际音轨，不能据此判断声调；图谱所述平静表现与上述线索存在冲突，且可能与图像描述同源，因此取舍后判断为担忧。",
+  "output": "图像专家在8帧中反复指出眉头紧蹙、目光下移和嘴唇抿紧，这些视觉线索较一致地支持不安或担忧。字幕“你好像出了点意外”也带有担心意味，但音频专家未提供实际音轨，不能据此判断声调；图谱所述平静表现与上述线索存在冲突，且可能与图像描述同源，因此取舍后判断为担忧。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 73.26772618293762
+}

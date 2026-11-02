@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "他先质疑对方“真的一百多岁了”，接着说“我怎么看也不像啊”，表达对年龄与外貌不符的诧异[E1]。随后提起“人面花”是在寻找解释[E2]，画面中的蹙眉和托腮也与思索中的疑惑一致[E3]。",
+  "open_emotion": "诧异",
+  "answer": "surprise",
+  "mapping_reason": "当前表达的重点是年龄与所见外貌违背预期，符合surprise中的诧异；这不意味着他表现出强烈震惊。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“那胡十四娘，真的一百多岁了，我怎么看也不像啊！”",
+      "observation": "说话者质疑其年龄，并明确表示外貌看起来不像。",
+      "interpretation": "年龄与所见不符是当前诧异的直接对象，而非单凭疑问句判断情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "“那晚，她说，她用了人面花，得以拥抱青春。”",
+      "observation": "说话者转述对方给出的青春解释。",
+      "interpretation": "这句话延续对年龄与外貌矛盾的探究；其中的“拥抱青春”是引述内容，不代表说话者正在开心。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_03（3.72秒）至frame_07（8.64秒）",
+      "observation": "说话者蹙眉，随后抬手托住下巴，目光保持专注。",
+      "interpretation": "表情和动作与困惑、思索相符，但单靠画面不能确定情绪类别。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的替代解释是他只是在平常地核对线索，尤其后半段接近陈述。现有字幕未显示他担心后果，也没有音频可核查语调和强度；因此判断限于台词所表达的预期落差及画面呼应。"
+}

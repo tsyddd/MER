@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "棕色外套的说话者以“是吗？”追问对方转述的话，关注的是消息是否属实[E1]。她随后睁大眼睛、张口看向对方，表情与听到意外消息后的反应一致[E2]；对方接着回应“我骗你干吗啊”，也说明这一问是在求证，而非责备[E3]。",
+  "open_emotion": "诧异",
+  "answer": "surprise",
+  "mapping_reason": "当前反应主要指向对转述消息感到意外并立即求证，符合surprise的预期违背，而非仅因句子是疑问句就判为惊讶。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“是吗？才真这么说的。”",
+      "observation": "说话者先问“是吗”，再追问所转述的话是否真被说过。",
+      "interpretation": "求证的对象是刚获知的消息，支持即时诧异的解释。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02（0.6秒）、frame_06（1.8秒）",
+      "observation": "棕色外套的女子面向对方，眼睛睁大，嘴张开。",
+      "interpretation": "表情与追问消息真伪时的意外反应相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_07（2.12秒）",
+      "observation": "画面字幕出现对方的回应“我骗你干吗啊”。",
+      "interpretation": "回应针对消息的真实性，支持将前一句理解为求证，而不是责备。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的替代解释是单纯好奇地核实信息：短句和睁眼表情不能单独确定惊讶的强度。此处没有音频，不能判断语调；提供的字幕与画面文字在个别字词上也不一致。"
+}

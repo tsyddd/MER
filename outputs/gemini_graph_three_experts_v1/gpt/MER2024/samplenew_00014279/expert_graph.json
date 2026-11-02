@@ -1,0 +1,12 @@
+{
+  "expert": "graph",
+  "reason": "女子在近距离对男子连续指责其使用“卑劣的手段”、质问“还会什么”并斥责其“无耻之极”〔process_1〕〔process_2〕〔process_3〕，表现出明显的敌意和愤怒。她始终直视对方〔person_1〕；图谱记载其发音低沉并伴有喘息和停顿〔person_2〕，但不改变当前言语攻击所体现的主要情绪。",
+  "answer": "angry",
+  "evidence_refs": [
+    "process_1",
+    "process_2",
+    "process_3",
+    "person_1",
+    "person_2"
+  ]
+}

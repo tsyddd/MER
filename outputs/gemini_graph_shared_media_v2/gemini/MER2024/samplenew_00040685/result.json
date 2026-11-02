@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00040685",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "00b59cea7eb95d8df3713bcb9b7defc0e8f79ae664b527d4cc419d1d058a6afa",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "目标人物在叙述被起疑心的险境时双目圆睁、身体前倾，语调压低且伴有明显的紧绷气声[audio_subtitle:E1]，呈现出回忆危局时的后怕与不安。虽然[image:E1]将口型微张露齿解释为喜悦（happy），但核验可见该动态属于说话时的发音动作而非笑容，且眉眼间显露专注戒备[graph:E2]。综合语音韵律与视觉紧张神态，其表现契合忧虑状态，故判定为worried。",
+  "output": "目标人物在叙述被起疑心的险境时双目圆睁、身体前倾，语调压低且伴有明显的紧绷气声[audio_subtitle:E1]，呈现出回忆危局时的后怕与不安。虽然[image:E1]将口型微张露齿解释为喜悦（happy），但核验可见该动态属于说话时的发音动作而非笑容，且眉眼间显露专注戒备[graph:E2]。综合语音韵律与视觉紧张神态，其表现契合忧虑状态，故判定为worried。\n<answer>worried</answer>",
+  "label": "angry",
+  "elapsed_seconds": 78.10651588439941
+}

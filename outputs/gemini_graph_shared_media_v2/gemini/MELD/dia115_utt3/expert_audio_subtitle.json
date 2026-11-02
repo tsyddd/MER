@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Ross在说出反驳与调侃语句时语调平稳低沉，节奏不急不缓，未带有明显的笑意、怒气或情绪起伏，视觉表情也维持自然的平静交谈状态，属于典型的冷静克制（deadpan）表述，应判定为neutral [E1, E2]。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00 - 00:04",
+      "observation": "Ross以均匀且平稳的语调陈述'Shielding your face and shrieking like a girl is not a backhand'，音量平缓无高亢或紧绷发音，语句间有自然的停顿，没有任何愤怒的吼叫或欢快的笑声感染。",
+      "interpretation": "虽然语言内容是在吐槽对方的动作，但韵律呈现客观陈述和冷面调侃状态，缺乏强烈情感色彩，强力支持中性倾向。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.79s - frame_07 @ 5.42s",
+      "observation": "Ross站姿端正面向Chandler，面部肌肉放松，眉宇没有皱缩，嘴角亦无明显上扬或向下撇。",
+      "interpretation": "视听表现一致，证明其在说话时处于放松、平稳的对话状态，未表现出生气、喜悦或厌恶的表情特征。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词内容具有批评和戏谑性质（'shrieking like a girl'），可能被误判为anger或joy/disgust；但其语音无攻击性升调、嘲弄笑音或厌恶鼻音，因此排除极端情绪标签。"
+}

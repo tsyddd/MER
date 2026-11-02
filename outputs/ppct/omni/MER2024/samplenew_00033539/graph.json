@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "说话人说出“啊？真的。”",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "说话人穿着红色上衣和带有鱼图案的围裙。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "说话人面部表情呈现惊讶状态。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "说话人嘴部在说话时有开合动作。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "说话人声调带有疑问和惊讶的语气。",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "场景位于室内，背景有书架和音响设备。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "说话人是当前片段的交流主体。",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0 提供了说话人的穿着和外貌信息，person_1 提供了说话人面部表情的细节，联合后可以完整地从视觉上观察到说话人惊讶的状态。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_0 提供了说话人的穿着和外貌信息，person_2 提供了说话人嘴部动作的细节，联合后可以完整地从视觉上观察到说话人正在说话的状态。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_0 提供了说话人的穿着和外貌信息，person_3 提供了说话人声调的细节，联合后可以完整地从视听两个角度观察到说话人惊讶的表达。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1 提供了说话人面部表情的细节，person_2 提供了说话人嘴部动作的细节，联合后可以完整地从视觉上观察到说话人正在表达惊讶时的面部动态。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_1 提供了说话人面部表情的细节，person_3 提供了说话人声调的细节，联合后可以完整地从视听两个角度观察到说话人惊讶的表达。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_2",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_2 提供了说话人嘴部动作的细节，person_3 提供了说话人声调的细节，联合后可以完整地从视听两个角度观察到说话人正在说话的状态。",
+      "entity_anchor": null
+    }
+  ]
+}

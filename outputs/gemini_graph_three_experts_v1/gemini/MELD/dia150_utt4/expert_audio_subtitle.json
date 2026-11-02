@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标说话人道别时的语速平缓，音调沉稳而略微拉长，没有出现愤怒、欢快、恐惧等剧烈的情感起伏。整体语气平静、自然，符合中性状态。",
+  "answer": "neutral",
+  "evidence_refs": []
+}

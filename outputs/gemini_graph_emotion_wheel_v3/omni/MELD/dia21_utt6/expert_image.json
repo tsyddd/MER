@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "Phoebe在对话中表现出明显的笑意，嘴角上扬，眼睛周围有皱纹，这是典型的愉悦表情。她的身体姿态是开放的，手放在对方的胸前，表明她处于一种轻松、友好的互动中。字幕内容是带有调侃意味的玩笑，与她的表情和姿态一致。音频中可以听到她说话时的语调上扬，带有笑意，进一步证实了她的情绪是积极的。综合来看，Phoebe的情绪是开心和愉悦的。",
+  "open_emotion": "开心",
+  "answer": "joy",
+  "mapping_reason": "Phoebe的面部表情（微笑、眼角皱纹）、身体姿态（开放、靠近对方）和对话内容（调侃的玩笑）都指向一种积极、愉快的情绪。这与'joy'（喜悦）的定义相符，即当前开心、愉悦、满足或兴奋的正向体验。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "Phoebe的嘴角上扬，形成一个明显的笑容，眼睛周围有皱纹。",
+      "interpretation": "这是典型的愉悦表情，表明她感到开心。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "Phoebe将手放在对方的胸前，身体朝向对方。",
+      "interpretation": "这是一个开放和友好的姿态，表明她与对方的互动是轻松和愉快的。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "So your brother's straigh huh? Seriously.",
+      "observation": "字幕内容是带有调侃意味的玩笑。",
+      "interpretation": "这种玩笑的语境通常是为了逗乐，与开心的情绪相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "Phoebe的语调上扬，带有笑意。",
+      "interpretation": "声音中的笑意与她脸上的笑容一致，证实了她的情绪是开心的。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。"
+}

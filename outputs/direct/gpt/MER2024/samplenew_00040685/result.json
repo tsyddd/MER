@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00040685",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "画面中目标人物眉头紧锁、双眼睁大，面向对方急切解释，表情明显紧张严肃。字幕提到父皇已经对他起了疑心，内容涉及被怀疑的处境，体现出担忧而非喜悦或平静。",
+  "output": "画面中目标人物眉头紧锁、双眼睁大，面向对方急切解释，表情明显紧张严肃。字幕提到父皇已经对他起了疑心，内容涉及被怀疑的处境，体现出担忧而非喜悦或平静。\n<answer>worried</answer>",
+  "label": "angry",
+  "elapsed_seconds": 20.88044023513794,
+  "node_count": null,
+  "edge_count": null
+}

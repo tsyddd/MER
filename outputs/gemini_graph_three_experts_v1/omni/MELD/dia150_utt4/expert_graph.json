@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "Janice在说出\"Good-bye\"时抬起手指指向颈旁并伴随独特鼻音和拖长语调（person_0, person_1），随后放下手指并双臂交叉抱胸（person_2），同时注视对方且嘴巴微张（person_3）。这些肢体与发声特征共同表现出一种夸张、戏剧化且带有强烈个人风格的告别行为，符合'joy'的情绪特征。",
+  "answer": "joy",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "person_2",
+    "person_3"
+  ]
+}

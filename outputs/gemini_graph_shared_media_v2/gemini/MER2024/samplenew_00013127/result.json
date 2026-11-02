@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013127",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "d2115c97acf3c6e01bbce09ee0045d9eebc8b28101f778a38355f8f3c0e262a8",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "happy",
+  "emotion_analysis": "独立核查原始画面与音频可见，目标人物在说话过程中眉眼舒展，并在frame_00及frame_05至frame_07持续展颜露齿而笑[image:E1]，神态自然放松。听觉上其语调轻快活跃，句末‘还真是小看你了’伴有明显的含笑气声与调侃语气[audio_subtitle:E1]，形成强烈的赞赏与欢悦色彩。尽管台词涉及认知转变，但完全无睁大双眼等惊愕生理特征，排除了surprise及讽刺负面情绪，明确支持happy。",
+  "output": "独立核查原始画面与音频可见，目标人物在说话过程中眉眼舒展，并在frame_00及frame_05至frame_07持续展颜露齿而笑[image:E1]，神态自然放松。听觉上其语调轻快活跃，句末‘还真是小看你了’伴有明显的含笑气声与调侃语气[audio_subtitle:E1]，形成强烈的赞赏与欢悦色彩。尽管台词涉及认知转变，但完全无睁大双眼等惊愕生理特征，排除了surprise及讽刺负面情绪，明确支持happy。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 50.74925994873047
+}

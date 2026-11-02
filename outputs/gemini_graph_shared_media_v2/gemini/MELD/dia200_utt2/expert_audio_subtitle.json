@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Joey以平稳的中速语调逐层进行逻辑排除式发问，语调末尾虽有疑问上挑但无高唤醒的震惊或情绪爆发，表情与体态呈日常探讨与推理状态，符合客观中性。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "Joey说话节奏适中且音量稳定，逐项列举'I didn't take it, and you didn't take it'并在句末发出'then who did?'，音高微升但无明显颤抖、破音或高声惊呼。",
+      "interpretation": "语调展示的是理性的事实探询与梳理，缺乏surprise常见的高音调冲击或强烈情感着色，支持中性态度。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "And if she didn’t take it, and I didn’t take it; and you didn’t take it, then who did?",
+      "observation": "台词为标准的条件排除推理句式，旨在指出矛盾并寻找答案，不包含明显的情感宣泄词汇。",
+      "interpretation": "言语行为属于客观求证和理智提问，表明处于解决问题的认知探讨状态而非情绪化反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.96s",
+      "observation": "Joey手抚胸口表明自身清白，眉毛未大幅挑起，眼神平和地看向同伴。",
+      "interpretation": "面部肌肉放松，未出现惊吓瞪眼或张口结舌等强烈反应，印证其情绪基调平稳。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "句末疑问可能被解读为带有困惑甚至惊讶（surprise），但音频中缺乏惊诧特有的急促吸气或高唤醒度音高跃升，视觉上亦无惊愕表情，故不足以判定为surprise。"
+}

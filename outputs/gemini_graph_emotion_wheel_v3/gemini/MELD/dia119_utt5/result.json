@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia119_utt5",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "fb723911feb1977e95353e9e5cd3a600d355b69ec46c0c99064139b522a98aa9",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "平常",
+      "mapped_label": "neutral",
+      "mapping_reason": "Monica陈述客观情况并付诸操作，语调与神态均平稳自然，无明显的负面冲撞或正向亢奋，符合情绪轮中'平稳、日常且没有明确主导情绪'的neutral定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "平稳阐述",
+      "mapped_label": "neutral",
+      "mapping_reason": "目标人物在面对突发情境时以理性的事实陈述为主，语调与姿态均表现为常态交流，未体现明显的主导性情绪起伏，符合neutral作为平稳、日常且无明确主导情绪的定义。"
+    },
+    "image": {
+      "open_emotion": "愉悦",
+      "mapped_label": "joy",
+      "mapping_reason": "Monica表现出因荒谬情境而感到的轻松戏谑与被逗乐状态，符合情绪轮中joy定义的‘开心、愉悦、满足或兴奋的正向体验’（涵盖‘愉悦/amused’）。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "独立回看音频与画面，Monica在说出台词时语调明显带有笑意与戏谑感，并非专家[audio_subtitle:E2]所称的平稳降调或纯粹严肃陈述。从视觉上看，[image:E1]与[image:E2]所指出的嘴角明显上扬、露齿笑及放松神态在frame 1至frame 6中十分清晰可信，且伴随调侃式的轻快手势。虽然台词内容涉及Ben不能看到机台的现实顾虑，但她整体沉浸在被荒唐情境逗乐的愉快氛围中，属于joy（愉悦/amused）家族而非无主导情绪的neutral。",
+  "output": "独立回看音频与画面，Monica在说出台词时语调明显带有笑意与戏谑感，并非专家[audio_subtitle:E2]所称的平稳降调或纯粹严肃陈述。从视觉上看，[image:E1]与[image:E2]所指出的嘴角明显上扬、露齿笑及放松神态在frame 1至frame 6中十分清晰可信，且伴随调侃式的轻快手势。虽然台词内容涉及Ben不能看到机台的现实顾虑，但她整体沉浸在被荒唐情境逗乐的愉快氛围中，属于joy（愉悦/amused）家族而非无主导情绪的neutral。\n<answer>joy</answer>",
+  "label": "fear",
+  "elapsed_seconds": 98.68067359924316
+}

@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "白衣少年在发问时声音断续且重复字音（person_1），随后短暂闭眼垂目（person_2），表现出犹豫或受惊；紧接着重新睁大眼睛并张嘴（person_3），结合其提问内容“你怎么知道的？”，整体行为与声音特征表明其处于惊讶状态。图谱记载的音频派生描述（person_1）与视觉变化（person_2、person_3）共同支持该情绪判断。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "person_1",
+    "person_2",
+    "person_3"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00002333",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "0e9fbf235f4db8f0d6cbb4c5b79681cf485a4b2bfdd80a92849380e07b412f8e",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "happy",
+  "emotion_analysis": "目标人物在所有可见帧中均保持坐姿，面部呈现微笑，嘴部张开露出牙齿，身体姿态放松，手部置于身前，这些视觉线索共同指向积极情绪。音频中其说话语调平稳，无明显情绪起伏，与字幕内容“像这娘，交代你”一致，该陈述性话语本身不带有强烈负面色彩。尽管音频中存在带笑的气声，但其语调整体平稳，缺乏表达强烈喜悦的声学特征。综合来看，视觉上的微笑是判断为'happy'的直接且有力的证据，而音频的平稳语调则支持了这一判断，表明其情绪是轻松的。因此，'happy'是更符合视听证据的标签。",
+  "output": "目标人物在所有可见帧中均保持坐姿，面部呈现微笑，嘴部张开露出牙齿，身体姿态放松，手部置于身前，这些视觉线索共同指向积极情绪。音频中其说话语调平稳，无明显情绪起伏，与字幕内容“像这娘，交代你”一致，该陈述性话语本身不带有强烈负面色彩。尽管音频中存在带笑的气声，但其语调整体平稳，缺乏表达强烈喜悦的声学特征。综合来看，视觉上的微笑是判断为'happy'的直接且有力的证据，而音频的平稳语调则支持了这一判断，表明其情绪是轻松的。因此，'happy'是更符合视听证据的标签。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 203.18504095077515
+}

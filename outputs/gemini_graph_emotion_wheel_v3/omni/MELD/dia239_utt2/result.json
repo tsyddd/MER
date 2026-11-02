@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia239_utt2",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "83c5e47c0148450bbc1edd40f39fe6e36178e18810553475144f0c7751aa6c95",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "尴尬",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据提供的情绪轮，'尴尬'（embarrassment）没有被列为Level1标签。在所有可用的标签中，'neutral'（中性）最接近当前表现。Chandler的行为虽然带有社交上的不确定性，但并未表现出强烈的正向（如joy）或负向（如anger, sadness, fear, disgust）情绪，也没有表现出意外（surprise）。他的行为更像是一种日常的、非情绪化的社交互动，因此映射到'neutral'是合理的近似，尽管这可能掩盖了其行为中的细微社交紧张感。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "反讽",
+      "mapped_label": "surprise",
+      "mapping_reason": "尽管Chandler的言辞和语调带有明显的反讽，但其核心情绪是因朋友的状况而感到意外和诧异。这种反讽是建立在惊讶的基础之上的，因此最符合'surprise'（惊讶）这一类别。'surprise'可以涵盖因意外情况而产生的各种反应，包括带有调侃意味的反应。"
+    },
+    "image": {
+      "open_emotion": "surprise",
+      "mapped_label": "surprise",
+      "mapping_reason": "The visual evidence of wide eyes, raised eyebrows, and an open mouth, combined with the audio of asking a direct question ('did you fall high?'), clearly indicates a reaction to an unexpected or surprising event. This aligns with the 'surprise' category in the emotion wheel."
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "Chandler的言语表现出对朋友状况的意外和关切，随后转为反讽和调侃。音频证据显示其语调上扬、语速较快，内容为'Jeez, man did you fall..'，这与视觉证据中他睁大眼睛、眉毛上扬、嘴巴微张的惊讶表情相符。尽管有专家认为其行为带有试探性或尴尬，但音频和视觉证据共同指向一个由意外引发的、带有调侃意味的反应，这最符合'surprise'（惊讶）的定义。",
+  "output": "Chandler的言语表现出对朋友状况的意外和关切，随后转为反讽和调侃。音频证据显示其语调上扬、语速较快，内容为'Jeez, man did you fall..'，这与视觉证据中他睁大眼睛、眉毛上扬、嘴巴微张的惊讶表情相符。尽管有专家认为其行为带有试探性或尴尬，但音频和视觉证据共同指向一个由意外引发的、带有调侃意味的反应，这最符合'surprise'（惊讶）的定义。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 181.831476688385
+}

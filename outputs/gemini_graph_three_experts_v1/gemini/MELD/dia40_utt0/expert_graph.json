@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载Monica在与同伴交流时抬头面向前方，嘴角上扬露齿微笑〔person_2〕，并伴随以轻快上扬的语调说出“Yeah baby!”〔person_3, process_0〕。其面部开朗的微笑神态与轻快兴奋的语调表现相互结合，明确展现出积极愉悦的状态，情绪判定为joy。",
+  "answer": "joy",
+  "evidence_refs": [
+    "person_2",
+    "person_3",
+    "process_0"
+  ]
+}

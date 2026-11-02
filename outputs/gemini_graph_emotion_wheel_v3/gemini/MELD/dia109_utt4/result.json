@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia109_utt4",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "b1102943bbcf1af1e117a380fae997536de4112a2f80180e05feb45af20ee7b2",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "开放词“诧异”指面对出乎预料、打破常识的信息时产生的疑问与意外感，符合情绪轮中surprise（面对违背预期的信息而意外、诧异或惊奇）的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "开放词“诧异”表示面对对方出人意料的说法时产生的突发意外感，精确对应情绪轮中的surprise家族。"
+    },
+    "image": {
+      "open_emotion": "意外",
+      "mapped_label": "surprise",
+      "mapping_reason": "面对违背预期的信息（对方的回答/决定）表现出挑眉、睁眼与高语调的反问，符合本情绪轮中对surprise（意外/惊奇）的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "目标人物Janice在接收到对方出人意料的答复后，首句以显著拔高的感叹调发问，音轨核验显示其“Oh, are you sure?”尾音强烈上挑[audio_subtitle:E2]，充满对打破既有预期的诧异感。画面前段frame 0至frame 2中她抱臂微挑眉毛且嘴部微张[image:E1]，神态专注而带有探究与不敢置信，有效排除了平稳客观的中性（neutral）。尽管后半段她展开手势提出做木偶的提议看似轻松活跃，但当前语句的核心驱动力仍是对对方决定的意外反应，因此准确归入surprise家族。",
+  "output": "目标人物Janice在接收到对方出人意料的答复后，首句以显著拔高的感叹调发问，音轨核验显示其“Oh, are you sure?”尾音强烈上挑[audio_subtitle:E2]，充满对打破既有预期的诧异感。画面前段frame 0至frame 2中她抱臂微挑眉毛且嘴部微张[image:E1]，神态专注而带有探究与不敢置信，有效排除了平稳客观的中性（neutral）。尽管后半段她展开手势提出做木偶的提议看似轻松活跃，但当前语句的核心驱动力仍是对对方决定的意外反应，因此准确归入surprise家族。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 66.41651105880737
+}

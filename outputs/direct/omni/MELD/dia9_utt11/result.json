@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia9_utt11",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sadness",
+  "emotion_analysis": "Rachel's facial expression shows distress, with downturned eyes and a frown. Her words 'Everything's ruined' and the mention of her 'favorite blue sweater' being damaged indicate a strong sense of loss and disappointment.",
+  "output": "Rachel's facial expression shows distress, with downturned eyes and a frown. Her words 'Everything's ruined' and the mention of her 'favorite blue sweater' being damaged indicate a strong sense of loss and disappointment.\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 6.383143186569214,
+  "node_count": null,
+  "edge_count": null
+}

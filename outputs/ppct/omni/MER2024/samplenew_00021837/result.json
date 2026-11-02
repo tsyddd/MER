@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00021837",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "说话人梅晓歌在发言，其声调平稳，语速正常，未表现出明显的情绪波动。他正在陈述一个事实性内容，即“我印象最深的一户人家，祖祖辈辈种地”，其表达方式沉稳、专注，符合中性情绪的特征。",
+  "output": "说话人梅晓歌在发言，其声调平稳，语速正常，未表现出明显的情绪波动。他正在陈述一个事实性内容，即“我印象最深的一户人家，祖祖辈辈种地”，其表达方式沉稳、专注，符合中性情绪的特征。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 213.5591230392456,
+  "node_count": 11,
+  "edge_count": 15
+}

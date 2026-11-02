@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物是画面中央穿蓝色高领毛衣的Monica。她从较直的站姿逐渐前倾，始终双手交握，嘴角的笑意在说话过程中变得更明显[E1][E2]。这些可见变化更支持带有戏谑意味的愉悦，而非正在发怒；字幕中的贬称则是最强的相反线索[E3]。",
+  "open_emotion": "戏谑的愉悦",
+  "answer": "joy",
+  "mapping_reason": "当前表情和姿态更接近带笑意的愉悦，映射到joy；这不表示她所说的话是友善的。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.000秒）至frame_04（1.210秒）",
+      "observation": "Monica双手交握在胸前，逐渐向前俯身，说话时嘴角上扬。",
+      "interpretation": "前倾与逐渐明显的笑意共同支持戏谑的表达，但交握双手本身不能确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05（1.501秒）至frame_07（2.127秒）",
+      "observation": "她保持前倾和交握双手的姿态，面向前方，嘴角仍上扬；未见明显皱眉或怒视。",
+      "interpretation": "持续的笑意使愤怒不是视觉上最强的解释。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“You are both idiots.”",
+      "observation": "字幕将对方称为“idiots”。",
+      "interpretation": "措辞带有贬责意味，也可能表达恼火；单凭字幕不能判定她此刻是在发怒。",
+      "polarity": "counter"
+    }
+  ],
+  "counterevidence": "“You are both idiots.”可能是真正的责备，笑容也可能带有讽刺，而非单纯开心。片段没有提供音频，无法用语调进一步区分；现有画面仍以戏谑的愉悦为较强解释。"
+}

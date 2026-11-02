@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia153_utt11",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "b023c80896f2e13dc2c986e2f32b6b993f29f3e06532e4de681ae7bcdce52d22",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "neutral",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据MELD项目的情绪轮定义，'neutral'指当前平稳、日常且没有明确主导情绪的表达。Chandler的语调平稳，肢体语言为解释性姿态，且其话语内容为一种幽默的假设性陈述，没有表现出任何强烈的正向或负向情绪，因此最符合'neutral'的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "humor",
+      "mapped_label": "joy",
+      "mapping_reason": "The speaker's statement is a joke, and the audience's laughter indicates a positive, humorous context. While the topic is fear, the speaker's delivery and the social context frame it as a source of amusement, which aligns with the 'joy' category."
+    },
+    "image": {
+      "open_emotion": "恐惧",
+      "mapped_label": "fear",
+      "mapping_reason": "根据情绪轮定义，'fear'是面向威胁、危险或令人害怕的负面后果而表现出的畏惧、惊恐或焦虑。Chandler的台词明确提到了'枪口'（barrel of a gun）这一威胁性场景，并用夸张的'尿裤子'来描述自己的反应，这直接对应了'恐惧'的核心定义。他的表情和手势也强化了这种夸张的、非真实的恐惧感。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "fear",
+  "emotion_analysis": "目标人物Chandler的言语内容（'如果我正对着枪口，我大概会尿得四处都是'）明确指向一个充满威胁的假设情境，这是恐惧（fear）的核心定义。他的面部表情（皱眉、张嘴）和手势（摊手、挥手）与这种夸张的、非真实的恐惧感高度一致，强化了其表达。尽管音频中语调平稳，但结合其夸张的台词和喜剧语境，这更像是一种表演性的恐惧。专家'audio_subtitle'指出其语气为'轻快且自嘲'，并引用观众笑声作为其为笑话的证据，这支持了其表达的喜剧意图。然而，'image'专家的分析更直接地将这种夸张的恐惧与'fear'标签关联，其证据（表情、手势、字幕）与Chandler的实际表现完全吻合。因此，尽管存在不同解释，但最直接的证据支持'fear'。",
+  "output": "目标人物Chandler的言语内容（'如果我正对着枪口，我大概会尿得四处都是'）明确指向一个充满威胁的假设情境，这是恐惧（fear）的核心定义。他的面部表情（皱眉、张嘴）和手势（摊手、挥手）与这种夸张的、非真实的恐惧感高度一致，强化了其表达。尽管音频中语调平稳，但结合其夸张的台词和喜剧语境，这更像是一种表演性的恐惧。专家'audio_subtitle'指出其语气为'轻快且自嘲'，并引用观众笑声作为其为笑话的证据，这支持了其表达的喜剧意图。然而，'image'专家的分析更直接地将这种夸张的恐惧与'fear'标签关联，其证据（表情、手势、字幕）与Chandler的实际表现完全吻合。因此，尽管存在不同解释，但最直接的证据支持'fear'。\n<answer>fear</answer>",
+  "label": "fear",
+  "elapsed_seconds": 190.65041828155518
+}

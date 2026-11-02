@@ -1,0 +1,12 @@
+{
+  "reason": "目标人物Janice的言语行为（反讽的告别）和夸张的语调，明确表达了她对Chandler的强烈反感和排斥，这与'disgust'的语义高度一致。虽然视觉证据显示其面部表情和姿态可能指向悲伤，但音频证据（语调、语速、颤抖）和字幕内容（告别语）共同指向一种反讽的言语行为，其真实意图是表达负面情绪。因此，'disgust'是更合理的解释。",
+  "answer": "disgust",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "audio_subtitle:E2",
+    "graph:E1",
+    "graph:E2",
+    "graph:E3",
+    "graph:E4"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00005612",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "277d5c5900a033008ef8204e177794173a0a9d543a995a1fbb51814e27394ff0",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "三份专家报告均一致指向目标人物情绪稳定、无明显波动，graph描述其神情严肃且行为郑重，audio_subtitle显示语气平稳无情绪起伏，image呈现表情严肃坚定，三者共同支持一种专注而克制的状态，符合'neutral'标签的语义边界。",
+  "output": "三份专家报告均一致指向目标人物情绪稳定、无明显波动，graph描述其神情严肃且行为郑重，audio_subtitle显示语气平稳无情绪起伏，image呈现表情严肃坚定，三者共同支持一种专注而克制的状态，符合'neutral'标签的语义边界。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 46.65061044692993
+}

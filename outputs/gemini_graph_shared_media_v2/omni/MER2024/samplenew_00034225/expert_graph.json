@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "男子在询问对方对手是否难对付后，立即转向自我怀疑，询问是否自己惹了麻烦。这一连贯的言语行为表明，他的核心情绪是担忧，而非愤怒或惊讶。图谱中的节点process_0和process_1共同构成了这一担忧的递进过程，而person_0和person_1则从视觉和听觉上证实了其神态与语调的平静与迟疑，支持了担忧的判断。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "男子开口询问“怎么？他不好对付啊”",
+      "interpretation": "这一发问行为是担忧的起点，表明他正在评估外部威胁，并为后续的自我怀疑做铺垫。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "男子接着说“我，我是不是给你惹麻烦了”",
+      "interpretation": "这一自我怀疑的言语是担忧情绪的直接表达，将注意力从外部威胁转移到了自身行为对他人可能造成的负面影响。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "男子目光注视着前方的交流对象，神态平静",
+      "interpretation": "平静的神态排除了愤怒或极度惊讶的可能性，与担忧时的内省和迟疑状态相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "男子以平缓且略带疑问的语调说话",
+      "interpretation": "平缓的语调和疑问语气表明他并非在质问或指责，而是在寻求信息和确认，这是担忧情绪的典型语言特征。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "一种可能的替代解释是，男子在假装担忧以获取对方信任。然而，图谱中process_0和process_1的连续性以及person_0和person_1的同步性，共同构成了一个由外到内的自然情绪递进，缺乏任何伪装的迹象，因此这种解释的证据不足。"
+}

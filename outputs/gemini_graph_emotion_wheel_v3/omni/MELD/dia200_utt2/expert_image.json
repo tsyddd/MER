@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "Joey's facial expression and gestures show a state of confusion and disbelief. His eyebrows are raised, his eyes are wide, and his mouth is slightly open, indicating surprise. He is actively questioning the situation with a rhetorical question, which is supported by his hand gestures. The context of the dialogue, where he is trying to figure out who took something, reinforces this interpretation.",
+  "open_emotion": "surprise",
+  "answer": "surprise",
+  "mapping_reason": "The open emotion 'surprise' is mapped to the 'surprise' label because Joey's wide eyes, raised eyebrows, and questioning tone of voice are classic indicators of being taken aback by a situation. His rhetorical question, 'Then who did?', further emphasizes his astonishment at the mystery of the missing item.",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01",
+      "observation": "Joey's eyebrows are raised and his eyes are wide open.",
+      "interpretation": "This facial expression is a common sign of surprise or astonishment.",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02",
+      "observation": "Joey's mouth is slightly open.",
+      "interpretation": "This is consistent with a surprised or questioning expression.",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "Joey says, 'And if she didn't take it, and I didn't take it; and you didn't take it, then who did?'",
+      "interpretation": "The rhetorical question and his tone of voice express confusion and disbelief, which are components of surprise.",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_03",
+      "observation": "Joey gestures with his right hand towards the person he is speaking to.",
+      "interpretation": "This gesture emphasizes his questioning and adds to the sense of disbelief.",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "There is no strong evidence to suggest other emotions. His expression is not one of anger (no furrowed brows or clenched jaw), sadness (no downturned mouth or tears), or fear (no signs of threat or avoidance)."
+}

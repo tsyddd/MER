@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "Monica的面部表情和姿态在说'You are both idiots'时表现出明显的愤怒。她的眉毛皱起，眼神锐利，嘴巴紧闭并向下撇，这些是典型的愤怒面部特征。她的双手紧握在身前，这是一个紧张或激动的姿态。这些视觉线索与她所说的内容和音频中的语气完全一致，共同指向愤怒情绪。",
+  "open_emotion": "愤怒",
+  "answer": "anger",
+  "mapping_reason": "根据MELD项目的情绪轮定义，'anger'是因冒犯、不公或受阻而产生的恼火、责备与对抗。Monica的言语内容'You are both idiots'是一种直接的责备和冒犯，其面部表情（皱眉、紧闭的嘴）和姿态（紧握的双手）都表现出对抗和激动的状态，因此最符合'anger'的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "Monica的眉毛皱起，眼神直视前方，嘴巴紧闭。",
+      "interpretation": "这是典型的愤怒或不满的面部表情。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01",
+      "observation": "Monica的眉毛继续皱起，眼神显得锐利，嘴巴微张，似乎正在说话。",
+      "interpretation": "表情的强度和方向表明她正在表达强烈的负面情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02",
+      "observation": "Monica的眉毛皱得更紧，眼神向下看，嘴巴紧闭，表情显得非常不悦。",
+      "interpretation": "这是一个表达强烈负面情绪的姿态，与愤怒相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "subtitle",
+      "anchor": "You are both idiots.",
+      "observation": "字幕显示了'You are both idiots.'这句话。",
+      "interpretation": "这句话是直接的指责和侮辱，是引发愤怒的典型言语内容。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有发现与'anger'相矛盾的证据。虽然她的表情在某些瞬间（如frame_05）带有轻微的笑意，但这更像是在表达一种带有讽刺意味的愤怒，而非喜悦或中性。"
+}

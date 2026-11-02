@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "目标人物当前先以“啊？”作出反应，再追问“真的”，表现为对刚获知信息的求证，而不是在陈述已经确认的事实[E1][E3]。她持续皱眉、张口并看向右侧，支持这份反应并非平稳叙述[E2]。结合话语对象尚待确认这一点，当前更像诧异；不能仅凭皱眉推断她在担忧后果。",
+  "open_emotion": "诧异",
+  "answer": "surprise",
+  "mapping_reason": "当前反应指向对信息的即时意外和求证，符合surprise；片段未给出她对未来风险的顾虑，不宜映射为worried。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "啊？真的。",
+      "observation": "目标人物的当前字幕先是“啊？”，后是“真的”。",
+      "interpretation": "接续的求证比单独一个疑问句更能支持她对刚获知的信息感到意外；字幕不能证明此事属实。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_07（1.96秒）",
+      "observation": "目标人物皱眉、张口，随后转向右侧并保持皱眉说话。",
+      "interpretation": "与当下追问相配合，但这一表情本身也可能表示困惑或担忧，不能单独定类。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_0、process_1",
+      "observation": "图谱将目标人物的言语组织为先说“啊”、再说“真的”；这一顺序与当前字幕相符。",
+      "interpretation": "节点帮助定位同一次当前互动中的初始反应和后续求证，并非独立于字幕的第二份情绪证据，也不证明前一句导致后一句。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1、person_3",
+      "observation": "图谱转述她发出升调疑问声，并以反问疑问语调说后续词句。",
+      "interpretation": "若准确，可补充听觉上的求证意味；但未提供原音轨，无法亲耳核验语调，最终取舍不依赖这一描述。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "皱眉和“真的”也可能是怀疑或担心的表现；片段没有交代所问之事及其后果，因此不能确定她为何意外，也不能把图谱转述的语调当作已核实的声音证据。"
+}

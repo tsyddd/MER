@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035950",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "521bc59b8292512714ce7a1cf82373756b611bf8bd876b6099b6bd083d1d6d57",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "图谱与图片都描述了困惑、紧张和轻度担忧，且没有明显笑容或哭泣，彼此较一致；音频专家未获得实际音频，只能依据字幕中的反问和责备意味推断不满，证据不足以压过视觉线索。因此当前情绪更符合担忧。",
+  "output": "图谱与图片都描述了困惑、紧张和轻度担忧，且没有明显笑容或哭泣，彼此较一致；音频专家未获得实际音频，只能依据字幕中的反问和责备意味推断不满，证据不足以压过视觉线索。因此当前情绪更符合担忧。\n<answer>worried</answer>",
+  "label": "sad",
+  "elapsed_seconds": 85.19552254676819
+}

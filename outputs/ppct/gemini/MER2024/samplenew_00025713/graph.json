@@ -1,0 +1,109 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "白衣少年向对方发问：“你，你，你怎么知道的？”",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "白衣少年身背双肩背包，目光投向侧前方",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "白衣少年发音断续停顿，带有重复字音",
+      "time_index": 1,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "白衣少年闭眼并向下垂目",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "白衣少年重新睁大眼睛，嘴部张开",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内空间中，两名少年正在面对面交谈",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "白衣少年在目光投向侧前方的同时伴随断续且有停顿的发音",
+      "entity_anchor": "白衣少年的发问状态"
+    },
+    {
+      "source": "person_2",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "白衣少年在目视前方之后闭上眼睛向下垂目",
+      "entity_anchor": "白衣少年的眼神神态"
+    },
+    {
+      "source": "person_3",
+      "target": "person_2",
+      "relation": "after",
+      "reason": "白衣少年在短暂闭眼垂目之后重新睁大眼睛并张开口部",
+      "entity_anchor": "白衣少年的面部表情变化"
+    },
+    {
+      "source": "person_1",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_1提供声音上断续停顿与重复字音的听觉事实，person_3提供睁大双眼且张嘴发问的视觉面容，二者联合形成音画同步的发问表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_2",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_2提供短暂闭眼垂目的神态，person_3提供随后睁大眼睛与嘴部微张的面部动作，二者联合补充了说话期间面部神态由垂目到睁大张嘴的动态变化过程。",
+      "entity_anchor": null
+    }
+  ]
+}

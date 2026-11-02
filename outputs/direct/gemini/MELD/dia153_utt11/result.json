@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia153_utt11",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "钱德勒在回应乔伊的解释时语气平稳、冷静且带有惯常的调侃意味。尽管台词假设了面对枪口时的恐惧场景，但他本人的面部表情自然、肢体动作从容，未表现出明显的愤怒、恐惧或喜悦，整体状态属于中性。",
+  "output": "钱德勒在回应乔伊的解释时语气平稳、冷静且带有惯常的调侃意味。尽管台词假设了面对枪口时的恐惧场景，但他本人的面部表情自然、肢体动作从容，未表现出明显的愤怒、恐惧或喜悦，整体状态属于中性。\n<answer>neutral</answer>",
+  "label": "fear",
+  "elapsed_seconds": 12.440778255462646,
+  "node_count": null,
+  "edge_count": null
+}

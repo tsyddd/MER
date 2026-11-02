@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "结合事件图谱与实际音轨，目标人物空乘人员在客舱过道向乘客主动致谢问候[process_0]，实际音频中话语“Thank you! Enjoy your flight?”语调轻快上扬且带有鲜明的微笑发音特征[E1]，图谱节点[person_1]亦佐证了其上扬平稳的语调，表明其当下呈现出真诚、愉快的服务热情，符合joy状态。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "目标人物说出“Thank you! Enjoy your flight?”时，音调明显偏高且轻快，带有清晰的笑意共鸣与上扬语势。",
+      "interpretation": "听觉上展现出生动明朗的热情与愉悦，而非平淡敷衍的口吻，强力支持joy。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "图谱记录空乘人员主动向右侧女子说“Thank you! Enjoy your flight?”，且关联节点person_1标明其语调上扬、声音清晰。",
+      "interpretation": "明确了当前事件是空乘向乘客发起的正面积极礼节互动，为当前的情感基调提供了情境事件支持。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.6256245142666815",
+      "observation": "空乘人员侧身面向乘客，头部与身体保持专注互动姿态，与乘客形成顺畅友好的面对面交谈。",
+      "interpretation": "身体朝向与互动距离展现了开放积极的迎送态度，协同听觉的愉悦情绪表达。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "一种合理的替代解释是职业性常规操作（neutral），即作为空乘人员执行例行公事的告别礼仪。但核查实际音轨后发现，其语调极富感染力且音高明显上扬，具有明确的愉悦表达特征，超越了中性平直的程序化表达，故未采纳neutral。"
+}

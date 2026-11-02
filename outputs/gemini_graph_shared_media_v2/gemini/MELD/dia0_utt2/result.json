@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia0_utt2",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "3970f5e11853554fbfc18f31e31c06de8bbd17661ed1c904623e938e0536b1f7",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "独立核对原始音视频与字幕，Rachel在男方稍拉开距离后端坐桌前，于frame_04至frame_07神态平稳自然，眉眼平展且嘴角无明显紧绷或下垂；实际音轨中说出'Y'know what?'时语调平直从容、无叹息或悲戚颤音。专家[audio_subtitle:E1]指出其发音平缓均匀、仅作为常规交谈标记的听觉观察可信度高，且与专家[image:E1]对Rachel平展眉目和克制放松体态的描述完全互补。反证中眼神微垂虽易被猜测为消极或悲伤，但缺乏嘴角下撇、眉间褶皱及叹息等实质证据，因此判定为中性。",
+  "output": "独立核对原始音视频与字幕，Rachel在男方稍拉开距离后端坐桌前，于frame_04至frame_07神态平稳自然，眉眼平展且嘴角无明显紧绷或下垂；实际音轨中说出'Y'know what?'时语调平直从容、无叹息或悲戚颤音。专家[audio_subtitle:E1]指出其发音平缓均匀、仅作为常规交谈标记的听觉观察可信度高，且与专家[image:E1]对Rachel平展眉目和克制放松体态的描述完全互补。反证中眼神微垂虽易被猜测为消极或悲伤，但缺乏嘴角下撇、眉间褶皱及叹息等实质证据，因此判定为中性。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 56.68534564971924
+}

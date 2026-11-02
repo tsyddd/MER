@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia132_utt2",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "Phoebe正在面对对方进行连贯描述，配合自然的手势和正常交流表情。字幕是在转述一位三十多岁且有吸引力的人，没有明显的愤怒、悲伤、恐惧或惊讶等强烈情绪表现。",
+  "output": "Phoebe正在面对对方进行连贯描述，配合自然的手势和正常交流表情。字幕是在转述一位三十多岁且有吸引力的人，没有明显的愤怒、悲伤、恐惧或惊讶等强烈情绪表现。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 22.695287704467773,
+  "node_count": null,
+  "edge_count": null
+}

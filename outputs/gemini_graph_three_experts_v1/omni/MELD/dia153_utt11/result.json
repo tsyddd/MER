@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia153_utt11",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "b023c80896f2e13dc2c986e2f32b6b993f29f3e06532e4de681ae7bcdce52d22",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "fear",
+  "emotion_analysis": "音频中Chandler以轻松自嘲的语调描述夸张情境，表现出幽默的恐惧感，符合'fear'标签；图像显示其表情严肃、眉头微皱，可能被解读为'anger'，但结合音频语调，'fear'更贴合其表达意图。",
+  "output": "音频中Chandler以轻松自嘲的语调描述夸张情境，表现出幽默的恐惧感，符合'fear'标签；图像显示其表情严肃、眉头微皱，可能被解读为'anger'，但结合音频语调，'fear'更贴合其表达意图。\n<answer>fear</answer>",
+  "label": "fear",
+  "elapsed_seconds": 35.667746782302856
+}

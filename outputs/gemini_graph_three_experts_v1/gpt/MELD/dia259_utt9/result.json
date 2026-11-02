@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia259_utt9",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "db05c16c44916312cd44a75a33353218abec775c99c4678488d5f402e1804724",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "字幕中的“You are both idiots.”是明确的贬损性言语，直接支持恼怒或不满；graph中的相关判断可能与该字幕同源，不能视为独立重复证据。图片专家观察到微笑和期待表情，与言语线索冲突，但仅凭静态表情不足以推翻明确的言语内容，因此取anger。",
+  "output": "字幕中的“You are both idiots.”是明确的贬损性言语，直接支持恼怒或不满；graph中的相关判断可能与该字幕同源，不能视为独立重复证据。图片专家观察到微笑和期待表情，与言语线索冲突，但仅凭静态表情不足以推翻明确的言语内容，因此取anger。\n<answer>anger</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 61.110190868377686
+}

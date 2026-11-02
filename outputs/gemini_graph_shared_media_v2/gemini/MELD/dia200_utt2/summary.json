@@ -1,0 +1,8 @@
+{
+  "reason": "独立回看各帧与听取音轨，Joey在阐述排除条件时手势平稳配合词句自我指涉，神情自然无剧烈收缩[image:E1]。如[audio_subtitle:E1]分析可信，其语音节奏适中且音量稳定，句末疑问仅属就事论事的逻辑推导，缺乏高唤醒度的惊呼。针对最可能的反证surprise，现场并未见瞪眼张口等惊诧表征，各模态均指向平稳理性的探讨状态。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E1"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "reason": "核查实际音轨与各帧画面，Joey在行走中随口说出“What?”，语调短促平缓且音量中等偏低[audio_subtitle:E2]，未见惊讶的高挑升调或对抗性重音；视觉上他在frame_00至frame_03仅自然张嘴发音[image:E1]，眉部与眼部肌肉舒展放松，随后低头继续前行[graph:E2]。三个专家均指出该疑问仅为日常发话而非意外反应，跨模态证据一致表明其处于平稳、无明确主导情绪的状态。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "audio_subtitle:E2",
+    "image:E1",
+    "graph:E2"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia9_utt11",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "e2a50d6b01ecc35a810613a0879b6c7baee7d96f1dcefc36a846281bb0277898",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "独立核对原始画面及音轨，Rachel在诉说损失时伴有极度明显的抽噎哭腔与叹息[audio_subtitle:E1]，视觉上面部呈八字眉与嘴角下撇，并在第3帧闭目低头流露出心碎沮丧[image:E1]；随后其失落地拎起被烧毁的毛衣展示[image:E2]，完全符合面对重大个人损失的心痛反应。专家对愤怒或厌恶的替代解释反驳可信，音轨与面容均无攻击性吼叫或鼻面紧绷，三方互补证据完全锁定sadness。",
+  "output": "独立核对原始画面及音轨，Rachel在诉说损失时伴有极度明显的抽噎哭腔与叹息[audio_subtitle:E1]，视觉上面部呈八字眉与嘴角下撇，并在第3帧闭目低头流露出心碎沮丧[image:E1]；随后其失落地拎起被烧毁的毛衣展示[image:E2]，完全符合面对重大个人损失的心痛反应。专家对愤怒或厌恶的替代解释反驳可信，音轨与面容均无攻击性吼叫或鼻面紧绷，三方互补证据完全锁定sadness。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 42.618138551712036
+}

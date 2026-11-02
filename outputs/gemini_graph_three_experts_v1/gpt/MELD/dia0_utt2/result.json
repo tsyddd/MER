@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia0_utt2",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "3970f5e11853554fbfc18f31e31c06de8bbd17661ed1c904623e938e0536b1f7",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "图谱与8帧图片都描述了Rachel低头、表情克制且情绪变化不强，支持平静内敛的判断；字幕“Y'know what?”本身缺乏明确情绪线索，且未提供音频，不能作听觉判断。综合现有证据，暂无足够依据支持更强烈情绪。",
+  "output": "图谱与8帧图片都描述了Rachel低头、表情克制且情绪变化不强，支持平静内敛的判断；字幕“Y'know what?”本身缺乏明确情绪线索，且未提供音频，不能作听觉判断。综合现有证据，暂无足够依据支持更强烈情绪。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 75.12165093421936
+}

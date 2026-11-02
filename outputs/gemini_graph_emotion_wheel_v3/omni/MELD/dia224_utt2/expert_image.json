@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "目标人物躺在床上，双眼睁开，视线朝向画面左侧，面部表情平静，没有明显的皱眉、微笑或张口等情绪化特征。在音频中，一个声音说出了“Deeper.”，这通常与催眠或放松指导相关。结合其放松的卧姿和音频内容，该人物的视觉表现与放松或催眠状态相符，而非任何强烈的负面或正面情绪。",
+  "open_emotion": "relaxed",
+  "answer": "neutral",
+  "mapping_reason": "根据情绪轮定义，'neutral'指当前平稳、日常且没有明确主导情绪的表达。该人物的面部表情和姿态均未表现出joy、sadness、anger、fear、disgust或surprise的典型特征。其状态更符合一种平稳、无明显情绪波动的中性，且与音频中的放松指令一致，因此映射为'neutral'是合理的。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "目标人物躺在床上，双眼睁开，视线朝向画面左侧，面部肌肉无明显变化。",
+      "interpretation": "该姿态和表情表明人物处于清醒但放松的状态，没有表现出任何强烈的情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00.000-00:00.625",
+      "observation": "音频中一个声音说出了“Deeper.”。",
+      "interpretation": "这句话是催眠或放松指导中的常见用语，暗示了当前情境是引导放松，这与人物的平静状态相符。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有直接的视觉或听觉证据表明该人物正在体验joy、sadness、anger、fear、disgust或surprise。"
+}

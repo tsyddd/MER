@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "Rachel以平缓略带感叹的语调说话〔person_1〕，同时头部微偏、视线专注地投向Phoebe〔person_0〕，表现出一种倾诉时的专注与期待。她的手势由抬起至胸前张开手掌比划〔person_2〕，再慢慢收回放低〔person_3〕，这一动态过程结合其语气，传达出对某人情感封闭的无奈与希望其敞开心扉的诉求。综合视听线索，她当前的情绪是希望与无奈交织的期待状态。",
+  "answer": "sadness",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "person_2",
+    "person_3"
+  ]
+}

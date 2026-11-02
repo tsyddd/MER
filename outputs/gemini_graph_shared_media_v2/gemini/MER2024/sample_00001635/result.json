@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00001635",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "33e676dfa4457845fb12373ba65d5f414546b0623de9d024d66ecd7d1c0e8f8c",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "目标人物在音频开头伴随短促抽气惊呼，随后以急促发紧的语调急切辩解[audio_subtitle:E1]。视觉上人物双眼圆睁直视对方，眉眼微紧且神态拘谨紧张[image:E1]，配合字幕表达的撇清不知情以避免责难[audio_subtitle:E2]。关键冲突在于开头的惊呼与睁眼是否仅为surprise，但人物后续动作核心是当面对质时的慌乱开脱与被动自护[graph:E1]，语调微颤与面部紧绷均深度指向害怕被追责的不安担忧，故取舍为worried。",
+  "output": "目标人物在音频开头伴随短促抽气惊呼，随后以急促发紧的语调急切辩解[audio_subtitle:E1]。视觉上人物双眼圆睁直视对方，眉眼微紧且神态拘谨紧张[image:E1]，配合字幕表达的撇清不知情以避免责难[audio_subtitle:E2]。关键冲突在于开头的惊呼与睁眼是否仅为surprise，但人物后续动作核心是当面对质时的慌乱开脱与被动自护[graph:E1]，语调微颤与面部紧绷均深度指向害怕被追责的不安担忧，故取舍为worried。\n<answer>worried</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 91.70404696464539
+}

@@ -1,0 +1,176 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Joey说：“And if she didn’t take it, and I didn’t take it; and you didn’t take it, then who did?”",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle",
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Joey坐着，身体朝向画面左侧。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Joey将右手抬到胸前。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Joey将右手伸向中间的人。",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Joey将右手收回并放在腿部附近。",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_4",
+      "type": "person",
+      "content": "Joey抬起右手，手掌朝上。",
+      "time_index": 4,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_5",
+      "type": "person",
+      "content": "Joey将右手移到腰部附近。",
+      "time_index": 5,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "画面中有三名男子，场景位于厨房区域。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "Joey坐在厨房台面边，另外两名男子在他旁边。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "同一人物的右手先抬到胸前，之后伸向中间的人",
+      "entity_anchor": "Joey的右手动作"
+    },
+    {
+      "source": "person_3",
+      "target": "person_2",
+      "relation": "after",
+      "reason": "同一人物的右手先伸向中间的人，之后收回并放在腿部附近",
+      "entity_anchor": "Joey的右手动作"
+    },
+    {
+      "source": "person_4",
+      "target": "person_3",
+      "relation": "after",
+      "reason": "同一人物的右手先收回并放在腿部附近，之后抬起且手掌朝上",
+      "entity_anchor": "Joey的右手动作"
+    },
+    {
+      "source": "person_5",
+      "target": "person_4",
+      "relation": "after",
+      "reason": "同一人物的右手先抬起且手掌朝上，之后移到腰部附近",
+      "entity_anchor": "Joey的右手动作"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供Joey坐着并朝向画面左侧的身体姿态，person_1提供其将右手抬到胸前的手势；联合后补充了Joey在该姿态下的上身与手部表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1提供Joey右手位于胸前的动作，person_2提供其随后将右手伸向中间人物的动作；联合后呈现了手势从胸前向中间人物移动的连续变化。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_2",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_2提供Joey右手伸向中间人物的状态，person_3提供其将手收回并放到腿部附近的状态；联合后呈现了伸手后收回的完整可见动作过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_3",
+      "target": "person_4",
+      "relation": "person_joint",
+      "reason": "person_3提供Joey右手收回并位于腿部附近的状态，person_4提供其再次抬手且手掌朝上的状态；联合后补充了手部从低位回到抬起、掌心向上的动作变化。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_4",
+      "target": "person_5",
+      "relation": "person_joint",
+      "reason": "person_4提供Joey抬起右手且手掌朝上的手势，person_5提供其随后将右手移到腰部附近的动作；联合后呈现了手掌向上手势结束并向腰部移动的连续手部变化。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0提供画面中有三名男子且场景位于厨房区域，context_1进一步提供Joey坐在厨房台面边、另外两名男子位于其旁边的空间关系；联合后更完整限定了人物数量、厨房场景及三人的相对位置。",
+      "entity_anchor": null
+    }
+  ]
+}

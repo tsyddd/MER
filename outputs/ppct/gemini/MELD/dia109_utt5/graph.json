@@ -1,0 +1,194 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Janice 对着对面的男士说话",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Janice 抬起双手在胸前配合说话做手势比划",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "Janice 说出 \"Because you know, you could make little puppets out of them, and you could use them in your theater of cruelty.\"",
+      "time_index": 1,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_3",
+      "type": "process",
+      "content": "Janice 将双臂重新抱在胸前",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Janice 双臂交叉抱在胸前，面朝男士注视对方",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Janice 语调高亢带有鼻音，语速抑扬顿挫",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Janice 松开环抱的双臂，手指屈伸摆动进行比划",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Janice 保持双臂交叉抱胸姿势看着对方",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "餐厅就餐场景，铺着红色桌布的餐桌上摆有酒瓶竹篮和餐具，后方有其他顾客就座",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "Janice 与背对镜头的男士同桌相对而坐",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "Janice 在与男士交谈过程中，由最初抱胸状态转为抬起双手在胸前做手势比划",
+      "entity_anchor": "Janice 的肢体动作表现"
+    },
+    {
+      "source": "process_1",
+      "target": "process_2",
+      "relation": "simultaneous",
+      "reason": "Janice 在说出关于木偶和残酷剧场的台词时，同步抬起双手在胸前比划手势配合表达",
+      "entity_anchor": "Janice"
+    },
+    {
+      "source": "process_3",
+      "target": "process_1",
+      "relation": "after",
+      "reason": "Janice 在比划完手势后，将双臂重新抱回胸前",
+      "entity_anchor": "Janice 的双臂动作"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "simultaneous",
+      "reason": "Janice 抱胸注视对方的同时，伴随高亢且带有鼻音的抑扬顿挫语调发声",
+      "entity_anchor": "Janice"
+    },
+    {
+      "source": "person_2",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "Janice 的手臂状态从双臂交叉抱胸转变为松开双臂屈伸手指进行比划",
+      "entity_anchor": "Janice 的手臂姿势"
+    },
+    {
+      "source": "person_3",
+      "target": "person_2",
+      "relation": "after",
+      "reason": "Janice 在手指屈伸摆动比划之后，重新恢复并保持双臂交叉抱胸的身体姿态",
+      "entity_anchor": "Janice 的手臂姿势"
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "simultaneous",
+      "reason": "餐厅就餐大环境与二人隔桌相对而坐的布局为同一时刻并存的就餐空间状态",
+      "entity_anchor": "餐厅餐桌互动空间"
+    },
+    {
+      "source": "process_1",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "process_1 提供 Janice 抬起双手比划的手势动作，process_2 提供其关于制作木偶和残酷剧场的具体话语，联合后完整呈现其通过手部动作配合言语描述的生动表达过程",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0 提供 Janice 抱胸注视男士的视觉姿态，person_1 提供其高亢且带鼻音的声调与抑扬顿挫的语速特征，视觉与听觉互补丰富了其开场时的可见与可听表达表现",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1 提供其特有的高亢声调特征，person_2 提供其手指屈伸比划的动态肢体行为，联合互补呈现其在具体展开话题时的生动外在表现",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0 展现餐厅桌椅餐具及周围顾客的客观就餐环境，context_1 明确 Janice 与男士同桌相对而坐的人际相对位置，联合后明确限定了双人进餐对谈的场景互动格局",
+      "entity_anchor": null
+    }
+  ]
+}

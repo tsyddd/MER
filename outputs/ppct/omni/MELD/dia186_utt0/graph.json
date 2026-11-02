@@ -1,0 +1,134 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Chandler speaks, saying 'Ah, no-no-no just Ross. Ross and Joey is embarrassing enough.'",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Chandler holds a black, decorated object in his hands.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "A person's hand, wearing a ring, touches the object Chandler is holding.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Chandler is sitting on a couch, looking at the object in his hands and then looking up and to his right while speaking.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Ross is sitting on the couch next to Chandler, looking at Chandler with a surprised expression.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "A person's hand, wearing a ring, is visible touching the object Chandler is holding.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "The scene takes place indoors, on a couch.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "Ross and Chandler are sitting next to each other on the couch.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_2",
+      "type": "context",
+      "content": "The person touching the object is off-screen.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0 provides the auditory evidence of Chandler speaking, while process_1 provides the visual evidence of him holding an object. Together, they form a complete observation of Chandler's action of speaking while holding an object.",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_0",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "process_0 provides the auditory evidence of Chandler speaking, while process_2 provides the visual evidence of another person's hand touching the object. Together, they form a complete observation of Chandler's action of speaking while being interacted with.",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_0 provides the visual evidence of Chandler's face and upper body, while person_2 provides the visual evidence of the hand touching the object. Together, they form a complete observation of the interaction between Chandler and the other person.",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0 provides the general setting of being indoors, while context_1 provides the specific detail of Ross and Chandler sitting together. Together, they form a more complete observation of the scene's setting and the characters' arrangement.",
+      "entity_anchor": null
+    }
+  ]
+}

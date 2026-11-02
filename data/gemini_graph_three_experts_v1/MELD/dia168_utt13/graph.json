@@ -1,0 +1,153 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Ross向对面的人说话：\"We know you took it\"",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Ross继续说话：\"so just-just save yourself the time\"",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "Ross说出：\"and confess!\"",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Ross正对前方，张嘴说话，左手伸出指向前方",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Ross语调坚定、语速较快",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Ross双手抬起、手心略微向上做手势",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Ross收起右手并用手向身体侧方比划",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内走廊或房间，Ross身旁站着两名男性伙伴，正对着面前身穿制服的女子说话",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "Ross在说完\"We know you took it\"之后，接着说出\"so just-just save yourself the time\"",
+      "entity_anchor": "Ross的言语表达"
+    },
+    {
+      "source": "process_2",
+      "target": "process_1",
+      "relation": "after",
+      "reason": "Ross在说出\"so just-just save yourself the time\"之后，最后说出\"and confess!\"",
+      "entity_anchor": "Ross的言语表达"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "Ross在张嘴说话并单手向前指的同时，伴随着坚定且较快的语调语速",
+      "entity_anchor": "Ross说话时的视听表达"
+    },
+    {
+      "source": "person_2",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "Ross在伸出单手向前指之后，双手抬起且手心向上做手势",
+      "entity_anchor": "Ross的手势与动作"
+    },
+    {
+      "source": "person_3",
+      "target": "person_2",
+      "relation": "after",
+      "reason": "Ross在双手抬起做手势之后，收起右手转而向身体侧方比划",
+      "entity_anchor": "Ross的手势与动作"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0指出指控事实，process_1顺承给出劝导，两者联合构成从正面指控过渡到劝告对方省时间的连贯言语交锋过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_1",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "process_1提出省时间的建议，process_2紧接发出坦白指令，两者联合完整呈现出对对方施压认罪的最终言语要求。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供正对前方伸手直指的视觉身体动作，person_1提供坚定快速的说话听觉特征，视听表现结合完整展现了Ross发起当面指控时的施压状态。",
+      "entity_anchor": null
+    }
+  ]
+}

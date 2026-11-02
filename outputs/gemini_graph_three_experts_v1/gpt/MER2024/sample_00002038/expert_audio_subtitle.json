@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断目标人物的声调、音量、语速或停顿。仅根据字幕“他，是谁呀？”本身，当前态度较为中性，不能据此推断出明显的喜怒哀乐或惊讶。",
+  "answer": "neutral",
+  "evidence_refs": []
+}

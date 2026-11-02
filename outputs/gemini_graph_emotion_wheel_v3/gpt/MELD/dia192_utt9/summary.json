@@ -1,0 +1,8 @@
+{
+  "reason": "核对frame_05至frame_07，目标人物Monica从男子身后走向餐桌，末帧张口并伸手，符合正在回应桌边人物，但动作本身不能证明愤怒；[image:E1]对此的限定可信。字幕“What?! Excuse me!”中的“What?!”可表示意外，但连着“Excuse me!”更像提出异议，支持不满而非单纯惊讶[audio_subtitle:E1]。画面中她似有轻微笑意，且没有提供音轨，无法核实语气或断言强烈愤怒；综合当前话语与互动方向，选择anger。",
+  "answer": "anger",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E1"
+  ]
+}

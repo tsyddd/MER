@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Joey说“Im sorry I gotta cancel tonight baby”，是在向电话另一端的人道歉并取消约定，而非单纯提到“抱歉”这个词[E1]。他说话时闭眼、垂眼，表情收敛，与歉疚和低落的解读一致[E2]。没有音频，不能判断他的语调。",
+  "answer": "sadness",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Im sorry I gotta cancel tonight baby",
+      "observation": "说话者道歉，并告知对方今晚必须取消约定。",
+      "interpretation": "道歉的言语行为支持他对取消约定感到歉疚，但单凭措辞不足以确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.5422083333333333秒；frame_07 @ 1.9185833333333333秒",
+      "observation": "Joey拿着电话，先闭着眼说话，随后垂眼、嘴角收敛。",
+      "interpretation": "表情与低落的解读相符，未见明显愉快或激动的表现。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的替代解释是neutral：他也可能只是平静地通知对方取消安排。由于没有音频，无法核查语调；但道歉的语境与收敛、垂眼的表情结合起来，更支持轻微的sadness。"
+}

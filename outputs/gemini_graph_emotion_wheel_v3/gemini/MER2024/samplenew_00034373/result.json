@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00034373",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "5a1be975f29db4b905cf5235ac6aedcea3f1639cf54f65f8e4b8e84c66b5d091",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "心酸悲伤",
+      "mapped_label": "sad",
+      "mapping_reason": "目标人物的评价对象是已发生的困厄与凄凉经历，伴随哭腔与泛泪，属于悲伤、哀痛家族，符合情绪轮中关于损失评价与哀痛表达的sad定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "伤心",
+      "mapped_label": "sad",
+      "mapping_reason": "说话者的哭腔颤音与悲戚诉说反映了对既有损失与悲惨遭遇的难过与哀伤，符合sad家族中‘伤心、低落、哀痛’的定义。"
+    },
+    "image": {
+      "open_emotion": "悲痛",
+      "mapped_label": "sad",
+      "mapping_reason": "目标人物呈现含泪、苦涩皱眉及抽噎等典型悲伤外在表现，心理指向已发生的伤痛与悲惨境遇，完全符合'sad（悲伤）'家族中失落、伤心、哀痛的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "回看全段画面与音轨，目标人物眉毛内角显著上扬聚拢，眼眶含泪且嘴角向下牵拉颤抖，呈现极其典型的悲泣神态[image:E1]；其台词“甚至，连一件衣裳。”在00:00-00:02期间伴随明显的吸气哽咽与颤抖哭腔[audio_subtitle:E1]，语义直接指向过往心酸凄苦的境遇[audio_subtitle:E2]。三个专家一致指出的哭腔与落泪特征均真实可信，且评价对象为既成的痛苦与损失而非未来不确定风险，完全排除worried，精准符合悲伤（sad）定义。",
+  "output": "回看全段画面与音轨，目标人物眉毛内角显著上扬聚拢，眼眶含泪且嘴角向下牵拉颤抖，呈现极其典型的悲泣神态[image:E1]；其台词“甚至，连一件衣裳。”在00:00-00:02期间伴随明显的吸气哽咽与颤抖哭腔[audio_subtitle:E1]，语义直接指向过往心酸凄苦的境遇[audio_subtitle:E2]。三个专家一致指出的哭腔与落泪特征均真实可信，且评价对象为既成的痛苦与损失而非未来不确定风险，完全排除worried，精准符合悲伤（sad）定义。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 51.4033362865448
+}

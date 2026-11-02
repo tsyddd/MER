@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00006335",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "a0bf56d9fb9db16ede1f6dafeaeb4ef47157197d9bed5ab5ad9436046022afb9",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据情绪轮定义，'surprise'指因当前信息违背预期产生的意外、诧异或震惊。目标人物的反问句式和低沉的质问语气，表明他接收到的信息与他的预期严重不符，从而产生了强烈的意外感。这与'angry'（责备/对抗）或'worried'（对后果的顾虑）的动机不同，其核心是信息的意外性，因此映射为'surprise'是准确的。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "质问",
+      "mapped_label": "angry",
+      "mapping_reason": "该表达是反问句，核心是确认一个事实，但语气并非中性。说话者通过反问来强调一个他认为是理所当然的事实，这背后隐含着对听话者可能无知或疏忽的责备和不满，因此更偏向于angry而非neutral或surprise。"
+    },
+    "image": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据情绪轮定义，'surprise'指因当前信息违背预期产生的意外、诧异或震惊。目标人物的反问句'关东军不是已经增兵甲子沟、煤矿了吗？'表明其对听到的信息感到意外，其严肃的表情也支持了这种即时的意外反应。虽然其表情较为克制，但反问的语调和内容是'惊讶'的有力证据。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "angry",
+  "emotion_analysis": "目标人物使用反问句'关东军不是已经增兵甲子沟煤矿了吗？'，结合其严肃、略带质问的语气，表达了对已知信息的确认和一丝不耐烦，暗示对方可能未掌握情况，带有责备和不满的意味。[audio_subtitle:E2]。虽然其面部表情严肃，但核心是反问句式和质问语气，这更符合'angry'而非'neutral'或'surprise'。[audio_subtitle:E1]。",
+  "output": "目标人物使用反问句'关东军不是已经增兵甲子沟煤矿了吗？'，结合其严肃、略带质问的语气，表达了对已知信息的确认和一丝不耐烦，暗示对方可能未掌握情况，带有责备和不满的意味。[audio_subtitle:E2]。虽然其面部表情严肃，但核心是反问句式和质问语气，这更符合'angry'而非'neutral'或'surprise'。[audio_subtitle:E1]。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 182.59280943870544
+}

@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是始终坐在电脑后方说话的男子。起初他眉头收紧、注视前方；随后抬眉、睁大眼，并伸手指向画面左侧，讲述时神情持续紧绷[E1][E2]。结合字幕中他提到异常现象并表示要去查[E3]，视觉上较支持他对这件事存有疑虑，而不是单纯的即时惊讶。",
+  "open_emotion": "疑虑",
+  "answer": "worried",
+  "mapping_reason": "疑虑侧重对尚未弄清的情况感到不安，结合其紧绷表情和查证意向，近于worried；字幕没有明确指出危险后果，因此判断强度有限。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_02（0.8秒）",
+      "observation": "男子看向前方，眉头收紧，嘴唇绷着；随后开始抬眉说话。",
+      "interpretation": "表情不显轻松，为疑虑提供一定支持。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03（1.2秒）至frame_07（2.8秒）",
+      "observation": "他伸手指向画面左侧，说话时眉毛抬起、眼睛睁大；放下手后仍保持专注的神情。",
+      "interpretation": "变化与强调、在意所述事情相符，但也可能只是讲述时的手势。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“观测了宇宙……我去查”",
+      "observation": "字幕提到观测到异常现象，随后说“我去查”。",
+      "interpretation": "查证意向支持他对未明情况有所挂虑；字幕本身不能证明他预期会有危险。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "他也可能只是在认真转述并强调信息：指向手势和抬眉都不必然表示担忧；片段未显示明确的恐惧或对坏结果的陈述，且没有提供音频可供核对语气。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia192_utt9",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "莫妮卡听到钱德勒的话后迅速从后方走出来，用尖锐且带有质问意味的语气大声反驳，表现出明显的被冒犯感与愤怒情绪。",
+  "output": "莫妮卡听到钱德勒的话后迅速从后方走出来，用尖锐且带有质问意味的语气大声反驳，表现出明显的被冒犯感与愤怒情绪。\n<answer>anger</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 8.883857011795044,
+  "node_count": null,
+  "edge_count": null
+}

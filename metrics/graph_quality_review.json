@@ -1,0 +1,77 @@
+{
+  "created": "2026-11-01T16:53:19.111804+08:00",
+  "graphs_per_provider": 80,
+  "metrics": {
+    "gpt": {
+      "graphs": 80,
+      "graphs_with_temporal_edges": 59,
+      "all_time_zero_graphs": 10,
+      "exact_duplicate_content_nodes": 0,
+      "organization_without_node_id": 0,
+      "organization_with_invalid_node_id": 0,
+      "mean_nodes": 6.58,
+      "mean_edges": 4.94,
+      "max_nodes": 13
+    },
+    "gemini": {
+      "graphs": 80,
+      "graphs_with_temporal_edges": 79,
+      "all_time_zero_graphs": 9,
+      "exact_duplicate_content_nodes": 0,
+      "organization_without_node_id": 0,
+      "organization_with_invalid_node_id": 0,
+      "mean_nodes": 7.03,
+      "mean_edges": 6.08,
+      "max_nodes": 12
+    },
+    "omni": {
+      "graphs": 80,
+      "graphs_with_temporal_edges": 12,
+      "all_time_zero_graphs": 63,
+      "exact_duplicate_content_nodes": 31,
+      "organization_without_node_id": 14,
+      "organization_with_invalid_node_id": 0,
+      "mean_nodes": 8.51,
+      "mean_edges": 4.81,
+      "max_nodes": 47
+    }
+  },
+  "qualitative_sample_ids": [
+    "MER2024/sample_00004468",
+    "MER2024/samplenew_00019636",
+    "MER2024/samplenew_00035950",
+    "MELD/dia115_utt3",
+    "MELD/dia21_utt6",
+    "MELD/dia40_utt0"
+  ],
+  "selection": "Within each dataset, manifest indices3/19/35; independent of prediction correctness",
+  "recommendation": "Gemini as practical multimodal evidence-graph generator; GPT is more conservative and a useful visual/subtitle comparator; Omni not preferred under this implementation",
+  "limitations": [
+    "Six clips visually inspected via all8 input frames and available subtitles; audio was supplied to Gemini/Omni but not independently listened to in this review.",
+    "Structural counts are proxies, not precision/recall against gold graphs. More temporal edges do not establish greater factual correctness.",
+    "Different input modalities and Omni repair policy prevent intrinsic model-capability ranking.",
+    "Final task accuracy does not isolate graph-generator quality."
+  ],
+  "findings": [
+    {
+      "id": "MELD/dia21_utt6",
+      "finding": "Target speaker Phoebe; Omni organization shifts its psychological conclusion to Chandler, while GPT/Gemini keep Phoebe as focal speaker."
+    },
+    {
+      "id": "MELD/dia115_utt3",
+      "finding": "GPT allocates2 of6 nodes to producer credits, low relevance to target emotion; Gemini instead captures utterance segments and speech pause. Omni organization mistranslates backhand as slap."
+    },
+    {
+      "id": "MELD/dia40_utt0",
+      "finding": "Gemini links visible smile with an audio-tagged rising/lively tone; tone not independently verified here. Omni describes a living room although frames show a populated cafe-like setting."
+    },
+    {
+      "id": "MER2024/sample_00004468",
+      "finding": "Omni leftward-gaze claim contradicts sampled screen-right gaze; Gemini/GPT track visible facial changes. Gemini organization also has pronoun inconsistency."
+    },
+    {
+      "id": "MER2024/samplenew_00035950",
+      "finding": "Gemini retains utterance sequence and scene-cut sequence; GPT is more sparse; Omni lacks temporal edges and gives opposite screen gaze direction."
+    }
+  ]
+}

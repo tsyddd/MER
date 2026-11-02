@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia40_utt0",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "莫妮卡依偎在钱德勒身旁，脸上始终洋溢着开朗轻松的笑容，并以欢快亲昵的语调说出“Yeah baby!”，展现出明显的愉悦与甜蜜。",
+  "output": "莫妮卡依偎在钱德勒身旁，脸上始终洋溢着开朗轻松的笑容，并以欢快亲昵的语调说出“Yeah baby!”，展现出明显的愉悦与甜蜜。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 6.971463203430176,
+  "node_count": null,
+  "edge_count": null
+}

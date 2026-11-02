@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物是画面右侧的金发女子Rachel，左侧棕发女子不是目标。Rachel从较轻的微笑转为露齿笑，持续看向对方，随后边说话边抬手，整理头发时仍在笑[E1][E2]。字幕中的感谢和称赞与这一正向表现一致[E3]。最强的相反解释是礼貌性微笑；仅凭画面不能断定她有多兴奋，也没有音轨可核查语调。",
+  "open_emotion": "愉悦",
+  "answer": "joy",
+  "mapping_reason": "当前持续的笑容与正向回应支持愉悦，属于joy所涵盖的正向体验；不将其推断为强烈兴奋。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.000秒）至frame_03（2.085秒）",
+      "observation": "Rachel面向左侧女子，嘴角从轻微上扬变为露齿笑，视线保持朝向对方。",
+      "interpretation": "笑容的发展支持当前的正向感受，而不只是某一帧的静态表情。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04（2.794秒）至frame_06（4.171秒）",
+      "observation": "Rachel张口说话并抬手，随后手触额前头发；放下手时仍带露齿笑、头略偏向对方。",
+      "interpretation": "动作变化期间笑容延续，支持愉悦的判断；抬手和整理头发本身不单独代表情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“Yes, I did. Thank you very much, it was excellent.”",
+      "observation": "字幕呈现感谢及正面评价。",
+      "interpretation": "话语内容与可见的笑容相符，但不能据此判断未提供的语调。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "笑容也可能是礼貌回应；字幕和画面不足以完全区分真切愉悦与社交客套。"
+}

@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "Joey在通话中表示要取消今晚的计划，其面部表情和声音语调均未表现出强烈的情绪波动。图谱中描述其声调平缓低沉，与当前字幕内容一致，且无其他线索表明其情绪状态。因此，最符合当前情境的标签是neutral。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱中描述Joey说话时声调平缓低沉。",
+      "interpretation": "该描述与Joey在通话中表达取消计划的语句内容相符，且未表现出激动或悲伤等情绪，支持neutral的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "I'm sorry I gotta cancel tonight baby",
+      "observation": "Joey在通话中说：“I'm sorry I gotta cancel tonight baby”。",
+      "interpretation": "该话语内容本身是中性的，用于取消计划，不必然带有强烈情绪，与neutral标签一致。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "Joey靠坐在扶手椅上，右手握着手机贴在右耳旁，左手搭在扶手上。",
+      "interpretation": "该姿态是典型的通话姿势，未表现出紧张、愤怒或悲伤等情绪，支持neutral的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.2919583333333333",
+      "observation": "Joey说话时嘴唇开合，头部微偏，视线朝向前方略偏下方。",
+      "interpretation": "该面部表情是正常的通话状态，没有明显的悲伤、愤怒或喜悦等情绪特征，支持neutral的判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无明确的反证。虽然Joey说“I'm sorry”，但其声调平缓低沉，且无其他情绪线索，因此不能排除neutral的可能性。"
+}

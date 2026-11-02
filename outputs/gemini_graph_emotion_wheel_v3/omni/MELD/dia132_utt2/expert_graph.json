@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "Phoebe正在向红衣女子描述一个男性，她使用了“early to mid-thirties”和“very attractive”等词语。她的语速平稳，语气自然，没有表现出强烈的情绪波动。她的手势（双手在身前翻动、微张摆动）是辅助性描述，而非情绪表达。综合来看，她处于一种平静、客观的陈述状态。",
+  "open_emotion": "平静",
+  "answer": "neutral",
+  "mapping_reason": "根据MELD项目的情绪轮，'neutral'（中性）被定义为'当前平稳、日常且没有明确主导情绪的表达'。Phoebe的语速平稳，语气自然，没有表现出喜悦、悲伤、愤怒等任何一种主导情绪，其行为和言语都符合一种日常的、平稳的陈述状态，因此映射为'neutral'是合适的。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:04",
+      "observation": "Phoebe的语速平稳，语气自然，带有正常的停顿。",
+      "interpretation": "平稳的语速和自然的语气表明她处于一种平静的陈述状态，没有强烈的情绪波动。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00-frame_07",
+      "observation": "Phoebe的面部表情没有明显的皱眉、咧嘴等情绪化特征，眼神专注于对话对象。",
+      "interpretation": "面部表情的平静和眼神的专注表明她正在平静地与人交流，没有表现出悲伤、愤怒或恐惧等情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱节点person_2描述Phoebe的语速平稳，语气自然带停顿。",
+      "interpretation": "该节点直接描述了Phoebe的言语状态，支持其情绪平静的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "图谱节点process_0描述Phoebe正在向红衣女子说话。",
+      "interpretation": "该节点描述了Phoebe的当前行为，为情绪分析提供了情境基础。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "图谱中没有提供任何与负面情绪（如愤怒、悲伤）或强烈正面情绪（如喜悦）相关的证据。"
+}

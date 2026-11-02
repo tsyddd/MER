@@ -1,0 +1,12 @@
+{
+  "id": "MELD/dia115_utt3",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "error",
+  "version": "gemini_graph_shared_media_v2",
+  "stage": "organization",
+  "error": "organization: Organization must cite actual nodes",
+  "traceback": "Traceback (most recent call last):\n  File \"/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/shared_media_experts_v2.py\", line 215, in sample\n    organization=run_stage(folder,current,client,prompts.ORGANIZATION,\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/shared_media_experts_v2.py\", line 180, in run_stage\n    raise RuntimeError(name+': '+str(error))\nRuntimeError: organization: Organization must cite actual nodes\n",
+  "elapsed_seconds": 38.34723448753357
+}

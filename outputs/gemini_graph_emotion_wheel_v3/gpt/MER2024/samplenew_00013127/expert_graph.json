@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "目标男子正在对面前的人说话；“以前”指他提及的过往看法，不是画面中的过去事件。他说“还真是小看你了”时持续微笑，当前更像带着愉悦的调侃，而非责备[E1][E2]。图谱的process_1也记录了这句后续评价[E3]，但它与字幕属于同一话语事实，不能算额外印证。图谱另称语调轻快[E4]；由于未提供原音轨，这只能保留为未核实的图谱转述。",
+  "open_emotion": "愉快调侃",
+  "answer": "happy",
+  "mapping_reason": "当前评价伴随持续笑意，更接近情绪轮中的正向愉悦；这里的happy指轻度愉快，并不要求兴奋。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_05（2.36秒）至frame_07（3.28秒）",
+      "observation": "男子看着对面的人说话，后半句期间笑容明显，并在句末保持微笑。",
+      "interpretation": "支持当前互动带有愉悦意味；图谱中的微笑描述与此是同一视觉事实。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "“以前啊，以为你圆花伶俐，还真是小看你了。”",
+      "observation": "男子先提及以前对对方的看法，再说自己“小看你了”。",
+      "interpretation": "这是对眼前交谈对象的当前评价；结合笑容，比单独按“小看”二字理解为敌意更符合调侃。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "图谱记录男子继续对面前的人说“还真是小看你了”。",
+      "interpretation": "有助于确认评价属于目标男子的当前话语，而非对方的话；不能仅凭节点先后推断更多事由。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱称男子语调轻快、带有调侃意味。",
+      "interpretation": "这是音频派生的图谱转述；未收到原音轨，无法亲耳核验，不作为最终判断的独立听觉证据。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "“还真是小看你了”也可能带有讽刺或不满，单凭台词不能排除；当前持续的笑容使愉快调侃更有依据。图谱前半句写“圆滑伶俐”，与提供的字幕“圆花伶俐”不一致，无法用音轨核定原话。"
+}

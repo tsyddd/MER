@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "目标是画面左侧穿粉色上衣、正面说话的Rachel，不是右侧背对镜头的人。她面向对方说话时，从抬手强调转为嘴角收紧、眉间微蹙，随后仍直视对方；这些变化更支持带有责备意味的恼火[E1][E2]。字幕显示她是在反问对方的做法[E3]，但画面本身不能证明她此刻正在害怕。",
+  "open_emotion": "恼火",
+  "answer": "anger",
+  "mapping_reason": "当前表达指向对对方做法的不满与责备，符合anger中的轻度恼火；不是仅凭张口或皱眉判定。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 0.0秒至frame_02 1.251秒",
+      "observation": "Rachel持续看向右侧的人，说话时张口，并抬起右手向外比划。",
+      "interpretation": "手势配合发言，显示她在强调自己的回应，但单独不足以判定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 1.877秒至frame_05 3.128秒",
+      "observation": "她的眉间微蹙，嘴角收紧，仍面向对方。",
+      "interpretation": "与持续的强调姿态合看，比轻松或愉悦的表达更接近不满。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“if you wanted to do that, you might as well just gotten him a fish”",
+      "observation": "字幕中Rachel以反问方式评价对方的做法。",
+      "interpretation": "话语对象和表达方式支持责备性的解释；这不是从画面直接读出的内容。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "subtitle",
+      "anchor": "“you know how fish freaked me out!”",
+      "observation": "字幕提到鱼曾让她害怕。",
+      "interpretation": "这支持恐惧作为相关背景，但用的是过去式，不能单独证明她当前的主导情绪是fear。",
+      "polarity": "counter"
+    }
+  ],
+  "counterevidence": "frame_06 3.754秒至frame_07 4.379秒，她的眼睛略睁大、动作减少，也可解读为担忧或等待回应；加上字幕提及害怕，恐惧是最强的相反解释。不过没有音轨，不能借语调区分，而可见片段中也没有明确的退缩或受惊动作。"
+}

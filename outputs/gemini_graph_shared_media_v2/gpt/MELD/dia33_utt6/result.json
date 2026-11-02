@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia33_utt6",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "42676d691bc7435fdaa13fee5000f399ed11ddb8973351645244f7085bfc901a",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "fear",
+  "emotion_analysis": "回看frame_00至frame_04，Rachel先低头看怀中的婴儿，随后抬头皱眉、调整抱姿；[image:E1]对这一变化的描述可信，但表情本身不能区分担忧与烦躁。字幕中的“What am I gonna do”支持[graph:E1]所说的无措；[audio_subtitle:E1]指出“Oh come on”和抱怨哭闹也有力地支持烦躁。综合她持续照看婴儿的表现与话语重心，我更倾向于担忧无措的fear，而非以发怒为主；未提供音轨，不能用语调作判断。",
+  "output": "回看frame_00至frame_04，Rachel先低头看怀中的婴儿，随后抬头皱眉、调整抱姿；[image:E1]对这一变化的描述可信，但表情本身不能区分担忧与烦躁。字幕中的“What am I gonna do”支持[graph:E1]所说的无措；[audio_subtitle:E1]指出“Oh come on”和抱怨哭闹也有力地支持烦躁。综合她持续照看婴儿的表现与话语重心，我更倾向于担忧无措的fear，而非以发怒为主；未提供音轨，不能用语调作判断。\n<answer>fear</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 74.2148802280426
+}

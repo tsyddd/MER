@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "莫妮卡在互动中针对瑞秋的行为展开直接且强烈的道德谴责。图谱节点[process_0]与[process_1]记录了她先高声呼喊瑞秋的名字引起注意，随后明确表态绝不认同对方出轨；音轨中莫妮卡的声音拔高、语气严厉尖锐且充满质问感，视觉上[person_2]直视对方且神情严肃坚决，体现了强烈的对抗与责备。",
+  "open_emotion": "愤慨",
+  "answer": "anger",
+  "mapping_reason": "莫妮卡的表现核心是对其朋友出轨行为的严厉责备、道德谴责与正面观念对抗，符合情绪轮中anger关于‘对冒犯、受阻或不公的恼火、责备与对抗’的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Rachel! I’m never gonna think it’s okay for you to cheat on your husband!",
+      "observation": "台词直接指责出轨行为，表达绝不妥协的否定态度",
+      "interpretation": "展现对违背伦理道德行为的严正抗议与责难",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "莫妮卡大声喊出‘Rachel!’，随后以高亢、严厉且带斥责感的语调持续施压表达",
+      "interpretation": "高能量且具指责性质的声音动态直接支持愤怒与愤慨状态",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱记录莫妮卡目光直视瑞秋，语气坚定，持续开合嘴唇说话",
+      "interpretation": "与frame_02至frame_07中紧盯对方严肃交涉的画面一致，体现对瑞秋的正面告诫与对抗",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "出轨话题本身带有负面不适感，可能被误认为是对该行为的排斥厌恶（disgust）；但莫妮卡是提高嗓门对当事人发起直接的责问与管教，重心在于对抗和责难，而非退缩或厌弃回避。"
+}

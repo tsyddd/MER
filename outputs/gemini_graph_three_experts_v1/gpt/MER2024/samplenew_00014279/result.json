@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00014279",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "8a93788f7988ee7297cf059d2b609d25c7836c71056843455b447ed540c3a17b",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "angry",
+  "emotion_analysis": "graph与audio_subtitle均依据字幕中的连续指责和强烈贬斥词语，指向明显的敌意与愤怒；audio_subtitle未提供实际音频，因此不作听觉判断。image所述紧蹙眉头和紧张面部可支持担忧，但与言语攻击相比区分度较弱，故取舍为当前主要情绪是愤怒。",
+  "output": "graph与audio_subtitle均依据字幕中的连续指责和强烈贬斥词语，指向明显的敌意与愤怒；audio_subtitle未提供实际音频，因此不作听觉判断。image所述紧蹙眉头和紧张面部可支持担忧，但与言语攻击相比区分度较弱，故取舍为当前主要情绪是愤怒。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 86.25361108779907
+}

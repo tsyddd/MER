@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "Monica的面部表情（露齿微笑）与语音语调（轻快上扬）在时间上同步，共同指向积极情绪。图谱节点person_2和person_3分别从视觉和听觉证实了这一点。背景陈设和他人互动未提供反证。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.417083009511121",
+      "observation": "Monica抬头面向前方，嘴角上扬露出牙齿微笑。",
+      "interpretation": "露齿微笑是joy的典型面部表情，直接支持joy的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.417083009511121 - 0.6256245142666815",
+      "observation": "Monica以轻快上扬的语调说出“Yeah baby!”。",
+      "interpretation": "轻快上扬的语调是joy的典型语音特征，与面部表情一致，进一步支持joy的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱节点person_2描述了Monica露齿微笑的视觉神态。",
+      "interpretation": "该节点是组织文本中描述Monica情绪的核心视觉证据，其内容与当前画面一致，支持joy的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_3",
+      "observation": "图谱节点person_3描述了Monica以轻快上扬的语调说话。",
+      "interpretation": "该节点是组织文本中描述Monica情绪的核心听觉证据，其内容与音频一致，支持joy的判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无明确反证。"
+}

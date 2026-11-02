@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00034225",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "12ed0aa9b273f368e8bd1e8523c70a683154346bda47b6b5ca66053f7fff6640",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "根据【共同映射原则】，'担忧'（worried）的定义是'对可能负面结果、未知风险或受责的顾虑、焦虑、不安，强调预期与不确定性'。目标人物的言语'我是不是给你惹麻烦了'直接表达了对自身行为可能带来负面后果的顾虑，其表情和语调也符合这种不安的状态，因此映射到'worried'是准确的。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据情绪轮定义，'surprise'指因当前信息违背预期产生的意外、诧异或震惊。目标人物的疑问句式和上扬的语调，结合其表情，共同指向了对“他不好对付”这一信息的即时意外反应，因此映射为'surprise'。"
+    },
+    "image": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据情绪轮定义，'surprise'指因当前信息违背预期产生的意外、诧异或震惊。目标人物的面部表情（睁大的眼睛、上扬的眉毛）与字幕内容（对一个新情况的疑问）高度一致，表明他正在经历一个意外的发现，因此映射到'surprise'是准确的。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "目标人物的言语内容为'怎么？他不好对付啊'，结合其在音频中疑问句式结尾的上扬语调[audio_subtitle:E1]，以及在多帧中眉毛上扬、眼睛睁大、嘴巴微张的面部表情[image:E1]，这些视听证据共同指向一种对当前信息违背预期的即时意外反应。尽管有专家认为其情绪为担忧，但该解释主要基于对后续话语'我是不是给你惹麻烦了'的推断，而当前帧序列主要展示的是对'他不好对付'这一信息的直接反应。因此，惊讶是当前最直接且被多模态证据支持的情绪。",
+  "output": "目标人物的言语内容为'怎么？他不好对付啊'，结合其在音频中疑问句式结尾的上扬语调[audio_subtitle:E1]，以及在多帧中眉毛上扬、眼睛睁大、嘴巴微张的面部表情[image:E1]，这些视听证据共同指向一种对当前信息违背预期的即时意外反应。尽管有专家认为其情绪为担忧，但该解释主要基于对后续话语'我是不是给你惹麻烦了'的推断，而当前帧序列主要展示的是对'他不好对付'这一信息的直接反应。因此，惊讶是当前最直接且被多模态证据支持的情绪。\n<answer>surprise</answer>",
+  "label": "worried",
+  "elapsed_seconds": 191.63617491722107
+}

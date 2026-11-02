@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "目标人物在向榻上男子倾诉时，事件核心是对自身遭遇的自省与自伤。核对图谱节点[process_0]与[process_1]（言语表达“怎么到了自己身上，就这样不明白”）以及[person_2]（声音带叹息感），结合实际音轨，其发音并非纯粹客观的平稳陈述，而是伴随轻微发颤的气声叹息与低落语调，神态带着怅惘与苦涩，体现出对自身命运的哀怜与伤感。",
+  "open_emotion": "哀伤",
+  "answer": "sad",
+  "mapping_reason": "开放情绪'哀伤'体现了目标人物对自身既成处境的失落、困惑与自怜叹息；在情绪轮中，对已发生负面处境的心酸、低落与叹惋严格归属于sad家族，而非对抗性的angry或纯事务性的neutral。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱记录女子发声平稳并带有叹息感，经实际音轨核验，其在断句与句尾处确实伴有明显的失落叹气和虚化尾音",
+      "interpretation": "叹息音质直接支持人物内心的低落与哀婉心境",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "怎么到了自己身上，就这样不明白。",
+      "observation": "台词表达对自身陷入困局的不解与自嘲感慨",
+      "interpretation": "语义评价指向自身已承受的无奈苦境，表达的是自伤自怜而非对外施加责备",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04",
+      "observation": "女子嘴唇微张，双目含愁微抬，眉宇间流露出茫然与苦涩神态",
+      "interpretation": "面部神情与自伤台词同步，印证其情绪处于哀楚与失落状态",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "图谱在person_2中提及'声音平稳'且女子身姿保持克制跪坐，容易被表面形式误导为neutral；但结合音轨真实叹息声与自伤性台词，这种克制实质是压抑下的悲戚表达。"
+}

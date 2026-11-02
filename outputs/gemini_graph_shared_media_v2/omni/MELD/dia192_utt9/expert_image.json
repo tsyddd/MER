@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "Monica's facial expression shows wide eyes and an open mouth, consistent with surprise. Her body is turned towards the speaker, indicating engagement. The audio confirms she says 'What?! Excuse me!', which aligns with a surprised reaction.",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_07 @ 1.5014988342400355",
+      "observation": "Monica's eyes are wide and her mouth is open in a surprised expression.",
+      "interpretation": "This facial expression is a direct visual indicator of surprise.",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00:01.0844158247289146",
+      "observation": "Monica says, 'What?! Excuse me!'",
+      "interpretation": "The exclamation 'What?!' is a verbal cue for surprise.",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_07 @ 1.5014988342400355",
+      "observation": "Monica is looking towards the person who spoke, with her body oriented in that direction.",
+      "interpretation": "This posture indicates she is reacting to the other person's statement.",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "There is no visual or audio evidence to support the labels 'anger', 'sadness', 'joy', 'fear', or 'disgust'."
+}

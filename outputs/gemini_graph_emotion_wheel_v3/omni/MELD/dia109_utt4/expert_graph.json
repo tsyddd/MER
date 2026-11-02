@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "目标人物Janice在当前片段中表现出一种对他人言论的强烈质疑和难以置信。她的语调上扬，带有明显的反问语气，同时配合了从抱臂到张开双手、再到竖起手指的肢体动作，这些都表明她正在积极地、甚至有些激动地寻求确认或进行反驳。这种表达方式最符合'惊讶'（surprise）这一开放情绪，因为它源于对一个出乎意料或令人难以置信的说法的即时反应。在MELD项目的情绪轮中，'惊讶'（surprise）是描述这种因违背预期而感到意外的最精确标签。",
+  "open_emotion": "惊讶",
+  "answer": "surprise",
+  "mapping_reason": "根据MELD项目的情绪轮定义，'surprise'（惊讶）指面对违背预期的信息而感到意外、诧异或惊奇。Janice的反问语调和随之而来的强调性手势，是她对当前对话内容感到意外和难以置信的直接表现，这与'惊讶'的语义完全吻合。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "Janice说'Oh, are you sure?'，语调上扬，带有明显的反问语气。",
+      "interpretation": "反问的语调表明她对对方的说法持怀疑和质疑态度，这是惊讶情绪的典型语言特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "Janice双手交叠抱于胸前，面向对面的男士，嘴唇张合。",
+      "interpretation": "抱臂的姿态可能表示一种防御或审视的立场，结合她的话语，表明她正在认真地评估对方的说法。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01",
+      "observation": "Janice松开环抱的双手，在胸前张开双手比划手势。",
+      "interpretation": "从静态的抱臂到动态的比划，表明她的情绪从被动的倾听转变为积极的、带有强调意味的回应，这通常是惊讶或强烈质疑时的肢体表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱节点person_1描述Janice的声音上扬，带有明显的语调起伏。",
+      "interpretation": "该节点描述了Janice的声学特征，与音频内容一致，证实了其反问的语气，是支持惊讶情绪的关键证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有发现与'惊讶'相矛盾的证据。"
+}

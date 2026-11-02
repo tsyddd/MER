@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物Joey（画面左侧、手臂戴吊带者）在讲话时面部紧绷，眉毛持续内聚压低，并在[frame_03]至[frame_07]伴随激动的张口与有力的食指指向动作[E1][E2]，结合其高音量且具冲击力的语调[E3]，整体视觉与言语表现呈现出强烈的激动与对抗性强调，最符合anger状态。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.251s",
+      "observation": "Joey眉头下压紧锁，嘴巴大张呈用力发力状，右臂抬起在空中挥动。",
+      "interpretation": "面部肌肉紧绷与剧烈动作表明其处于高唤醒的强烈倾诉或质问状态，而非平静。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05 @ 2.127s",
+      "observation": "Joey嘴角紧抿下撇，眼神坚定聚焦，右手食指凌空直指前方进行指责或强调。",
+      "interpretation": "食指直指伴随嘴角下撇是典型的说教、反驳与怒意表达姿态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:01 - 00:03",
+      "observation": "Joey喊出'you go to the top of the building!'时音量骤升、声调短促强硬。",
+      "interpretation": "高响度与冲劲十足的语调强化了视觉上的争辩与激动感，排除了平和的neutral。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "Joey的表达可能仅是在激动地传授克服恐惧的经验（讲道理），缺乏直接针对对方的人身恶意；但由于其面部持续皱眉下撇、肢体具有压迫性指点且声调带有强烈的斥责质感，不符合neutral或joy，判定为anger支持度最高。"
+}

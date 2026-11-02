@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00029282",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sad",
+  "emotion_analysis": "该人物正在哭泣，面部表情悲伤，同时说出“没想到你竟然这么傻”这句台词，表达了失望和伤心的情绪。",
+  "output": "该人物正在哭泣，面部表情悲伤，同时说出“没想到你竟然这么傻”这句台词，表达了失望和伤心的情绪。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 4.391128063201904,
+  "node_count": null,
+  "edge_count": null
+}

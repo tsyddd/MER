@@ -1,0 +1,13 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载Joey在开口反驳时语气平稳〔person_1〕，伴随指人和摊手的说明手势〔person_0, person_2〕，随后将手放下并保持注视对方〔person_3〕。其话语虽包含对对方站立不动的调侃〔process_1〕，但语速平缓且尾音自然轻落〔person_4〕，整体未见明显愤怒、喜悦或激动的情绪起伏，属于常态沟通。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_1",
+    "person_0",
+    "person_2",
+    "person_3",
+    "process_1",
+    "person_4"
+  ]
+}

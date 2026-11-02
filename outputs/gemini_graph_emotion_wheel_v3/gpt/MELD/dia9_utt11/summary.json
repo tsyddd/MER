@@ -1,0 +1,10 @@
+{
+  "reason": "目标是左侧的Rachel：她先抬眼说话，随后低头、收紧嘴角，并举起手中的蓝色衣物；[image:E1][image:E2]对这些动作的描述与画面相符。字幕中她逐一说出床和衣服受损，特别提到“我最喜欢的蓝色毛衣”，为因损失而失落提供了比表情更明确的依据[audio_subtitle:E1][audio_subtitle:E2]。虽然“全毁了”也可能带有恼火，但当前没有明确的责备或对抗对象，画面也未见对抗表现；未提供音轨，不能据语调进一步判断。",
+  "answer": "sadness",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "audio_subtitle:E1",
+    "audio_subtitle:E2"
+  ]
+}

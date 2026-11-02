@@ -1,0 +1,143 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Chandler说：“Jeez, man did you fall.. Hi! So ah, did ya, did-did-did ya fall high?”",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Chandler转身并走向门口的女性。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Chandler起初面向左侧的白发男子。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Chandler转头并将视线转向门口的女性。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Chandler向女性伸出一只手并保持手掌向上。",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Chandler随后将双手放入裤袋。",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "场景位于室内走廊，左侧有一名白发男子，门口有一名女性。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "画面中可见带有女性图案的卫生间标志。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "同一人物面向对象的注意方向发生前后变化",
+      "entity_anchor": "Chandler"
+    },
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "同一人物在与同一女性互动中先转头注视，随后伸手示意",
+      "entity_anchor": "Chandler与门口女性的互动"
+    },
+    {
+      "source": "person_3",
+      "target": "person_2",
+      "relation": "after",
+      "reason": "同一人物在与同一女性的互动中先伸手示意，随后将双手放入裤袋",
+      "entity_anchor": "Chandler与门口女性的互动"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "Chandler的口头询问提供了当下的言语行为，随后转身走向门口女性补充了互动对象和行动方向，联合后形成从说话到接近女性的更完整当前互动过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "Chandler起初面向左侧白发男子，随后转头并将视线转向门口女性，两种朝向共同呈现了其注意对象从男子转移到女性的可观察变化。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "转向女性的视线表现了注意对象，向女性伸出手并保持掌心向上的动作补充了对女性进行示意或交流的身体表现，联合后更完整呈现其面向女性的互动方式。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "室内走廊及其中的白发男子和门口女性限定了人物与场所，女性卫生间标志进一步限定了该走廊连接的具体设施和场景功能，联合后场景信息更完整。",
+      "entity_anchor": null
+    }
+  ]
+}

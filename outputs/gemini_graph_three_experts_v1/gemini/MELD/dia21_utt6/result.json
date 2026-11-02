@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia21_utt6",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "bf42e3a608598de26188e2d4e2714eda6e90f3de2c795d77c68bb3237d71f5d1",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "三位专家提供的线索高度一致且互为印证。图像显示Phoebe面部舒展并全程带有真挚微笑，音频中其语调轻快且句尾带有自然的笑声，图谱亦记录了轻松愉悦的亲昵互动氛围，综合表明其情绪为喜悦。",
+  "output": "三位专家提供的线索高度一致且互为印证。图像显示Phoebe面部舒展并全程带有真挚微笑，音频中其语调轻快且句尾带有自然的笑声，图谱亦记录了轻松愉悦的亲昵互动氛围，综合表明其情绪为喜悦。\n<answer>joy</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 34.745037317276
+}

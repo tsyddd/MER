@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia259_utt9",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "db05c16c44916312cd44a75a33353218abec775c99c4678488d5f402e1804724",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "核查8帧画面与实际音轨，Monica在发声时始终双手交握胸前并微微前倾，面部持续保持嘴角上扬的明确微笑[image:E1]。音轨核验显示其说话语调轻快上扬且伴随清晰的笑意与气音[audio_subtitle:E1]，视觉与听觉呈现高度的戏谑与轻松感。尽管台词包含批评字眼\"idiots\"可能构成愤怒或厌恶的字面反证[image:E3]，但实际表现全无怒视或紧绷，语音与笑颜直接证实其为熟稔朋友间的开心调侃，最终判定为joy。",
+  "output": "核查8帧画面与实际音轨，Monica在发声时始终双手交握胸前并微微前倾，面部持续保持嘴角上扬的明确微笑[image:E1]。音轨核验显示其说话语调轻快上扬且伴随清晰的笑意与气音[audio_subtitle:E1]，视觉与听觉呈现高度的戏谑与轻松感。尽管台词包含批评字眼\"idiots\"可能构成愤怒或厌恶的字面反证[image:E3]，但实际表现全无怒视或紧绷，语音与笑颜直接证实其为熟稔朋友间的开心调侃，最终判定为joy。\n<answer>joy</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 50.64983630180359
+}

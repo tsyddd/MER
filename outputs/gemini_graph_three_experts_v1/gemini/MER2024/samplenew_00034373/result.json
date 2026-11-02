@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00034373",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "5a1be975f29db4b905cf5235ac6aedcea3f1639cf54f65f8e4b8e84c66b5d091",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "各专家证据高度一致。视觉专家指出目标人物双眼含泪、眼眶微红且眉头内侧微抬，面部神态苦楚；听觉专家也记录到其语调颤抖、伴随哭腔与抽泣声，多模态特征共同明确印证其处于悲伤情绪。",
+  "output": "各专家证据高度一致。视觉专家指出目标人物双眼含泪、眼眶微红且眉头内侧微抬，面部神态苦楚；听觉专家也记录到其语调颤抖、伴随哭腔与抽泣声，多模态特征共同明确印证其处于悲伤情绪。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 30.836040258407593
+}

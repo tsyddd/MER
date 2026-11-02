@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载Rachel在面对婴儿持续啼哭时，眉心紧蹙且面部表情紧绷〔person_1, person_3〕。同时，图谱记载其发声语调偏高、音量较大且语速急促〔person_2〕，大声喊出“Oh come on, what am I gonna do”〔process_2〕，展现出强烈焦躁、抓狂与烦躁的愤怒情绪。",
+  "answer": "anger",
+  "evidence_refs": [
+    "person_1",
+    "person_2",
+    "person_3",
+    "process_2"
+  ]
+}

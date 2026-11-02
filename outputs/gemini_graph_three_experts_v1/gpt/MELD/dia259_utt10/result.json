@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia259_utt10",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "58b737d28f4b46ef9301ad868ad5a56df1abb9892a3c373e0e689e4505ea1b8c",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "字幕内容明确包含否定、指责和“冒犯”等表达，显示出明显的不满与对抗性；图谱中的严肃语气、快速语速和手势描述与此一致，但其中部分信息可能与音频同源，不能视为独立重复证据。图片专家仅观察到投入交流和表情变化，未见持续强烈负面表情，因此权重较低；综合判断当前情绪为愤怒。",
+  "output": "字幕内容明确包含否定、指责和“冒犯”等表达，显示出明显的不满与对抗性；图谱中的严肃语气、快速语速和手势描述与此一致，但其中部分信息可能与音频同源，不能视为独立重复证据。图片专家仅观察到投入交流和表情变化，未见持续强烈负面表情，因此权重较低；综合判断当前情绪为愤怒。\n<answer>anger</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 69.47567415237427
+}

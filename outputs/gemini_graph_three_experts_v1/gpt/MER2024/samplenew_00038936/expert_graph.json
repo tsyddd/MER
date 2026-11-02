@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "白衣女子面部放松并目视男子说话〔person_0〕，图谱记载其语调平缓平稳〔person_1〕，整体表现平静自然。她虽一度低头后又重新注视男子〔person_2〕〔person_3〕，但不足以表明明显的担忧、悲伤或愤怒。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "person_2",
+    "person_3"
+  ]
+}

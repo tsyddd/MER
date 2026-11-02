@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "图谱中person_1节点描述了说话时的语调特征，与字幕内容和视觉表情共同指向悲伤情绪。视觉上，人物眉毛微蹙、头部低垂，与音频中的抽噎停顿感形成多模态一致。背景陈设为叙事环境，不直接构成情绪证据。",
+  "answer": "sad",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "女子说话语调低沉，带有颤音与抽噎停顿感。",
+      "interpretation": "音频中语调的低沉、颤抖和不连贯的停顿是悲伤情绪的典型听觉表现，与当前视觉表情一致。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00 @ 00:00",
+      "observation": "女子眉毛微蹙，嘴唇开合说话。",
+      "interpretation": "面部表情显示情绪紧张或压抑，与悲伤状态相符，是情绪的直接视觉证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02 @ 00:01",
+      "observation": "女子头部微微低垂，视线向下移。",
+      "interpretation": "低头和视线低垂是悲伤或沮丧时常见的身体姿态，强化了情绪表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "subtitle",
+      "anchor": "手里还握着一截风筝线。",
+      "observation": "字幕内容为‘手里还握着一截风筝线’。",
+      "interpretation": "该话语内容本身具有强烈的象征意义，常与失落、思念或未完成的情感联系在一起，为悲伤情绪提供了语义支持。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无明确反证。虽然背景陈设（红色垂帘、暖光）可能被解读为喜庆或温暖，但其与人物的悲伤表情和语调形成对比，反而更凸显了人物的孤独或失落感，因此不构成对悲伤判断的反证。"
+}

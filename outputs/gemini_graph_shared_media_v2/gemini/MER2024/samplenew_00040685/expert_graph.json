@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "目标人物在与对方密谈时回顾自身涉入险境的往事[process_1]，面部紧绷且双目睁大[person_2]，配合低沉而带有后怕气声的语调[person_1]，集中体现出叙述危机时的担忧与后怕（worried）。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱指出目标人物眉毛微挑，目光固定在左侧人物方向，面部表情紧绷。",
+      "interpretation": "结合讲述被父皇起疑心的险境[process_1]，紧绷的面部神态展现出其对事件后果的戒备与忧心。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 3.64",
+      "observation": "目标人物双目睁大、眉弓略抬，嘴唇微张，神情专注且透出局促紧张感。",
+      "interpretation": "眼部特征与紧绷的神情反映出其在谈及生死利益危机时的焦虑与不安。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:01-00:03",
+      "observation": "说出“父皇本已对我起了疑心”时，音量压低，伴随沉重停顿与微弱气声。",
+      "interpretation": "声音带有明显的压抑与紧张感，非放松平稳的日常说话，支撑担忧情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "替代解释可能认为其语速相对平稳属于客观交代的neutral；但其讲述内容涉及严重危机，且视觉紧绷神态与压低紧张的语调均表明其内心充满后怕与忧虑，故排除neutral。"
+}

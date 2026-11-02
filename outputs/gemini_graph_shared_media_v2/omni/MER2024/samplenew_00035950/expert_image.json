@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标人物在多个帧中表现出张口、眼神游移和面部肌肉紧绷等特征，结合字幕内容，这些视觉线索与表达困惑和不解的情绪一致。音频中的话语内容也支持这一判断。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "目标人物张着嘴，似乎正在说话或表达强烈情绪。",
+      "interpretation": "张口是表达情绪的常见方式，结合后续帧的面部表情，表明她正处于一个情绪化的表达状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.52",
+      "observation": "目标人物的视线向右上方偏移，眼神中带有一丝迷茫。",
+      "interpretation": "视线偏移和迷茫的眼神是困惑和不解的典型视觉表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "字幕: 怎么到了自己身上，就这样不明白。",
+      "observation": "字幕内容直接表达了“不明白”的困惑情绪。",
+      "interpretation": "字幕内容与目标人物的视觉表现高度一致，为“worried”提供了直接的文本支持。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_04 @ 2.04",
+      "observation": "目标人物的嘴巴张得更大，面部肌肉紧绷，表情显得有些激动。",
+      "interpretation": "面部肌肉的紧绷和更大的嘴部动作是情绪激动的表现，与困惑和不解的情绪相符。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有明确的反证。虽然目标人物的表情并非极度悲伤或愤怒，但其表现的困惑和不解与“worried”标签最为贴切。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013200",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "e4bae7c80b439e4a7f0b4b40b4f348c523e3f9346140a2af207f7d850c976f73",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "angry",
+  "emotion_analysis": "目标人物在与他人对峙中身体前倾逼近，面部肌肉紧绷并紧锁眉头，在发音指责时咬牙切齿且目光锐利施压[image:E1]。听觉上其语调严厉急促，在‘背信弃义’与‘抬价’处发音用力下沉，构成充满压迫感的谴责性韵律[audio_subtitle:E2]；言语内容更是直接的违约质问[graph:E1]。尽管在frame 6至frame 7中出现双眼圆睁的特征，但结合眉峰紧压、敌意注视及主动斥责的进攻态势，完全排除了意外震惊（surprise），确认为典型的愤怒情绪。",
+  "output": "目标人物在与他人对峙中身体前倾逼近，面部肌肉紧绷并紧锁眉头，在发音指责时咬牙切齿且目光锐利施压[image:E1]。听觉上其语调严厉急促，在‘背信弃义’与‘抬价’处发音用力下沉，构成充满压迫感的谴责性韵律[audio_subtitle:E2]；言语内容更是直接的违约质问[graph:E1]。尽管在frame 6至frame 7中出现双眼圆睁的特征，但结合眉峰紧压、敌意注视及主动斥责的进攻态势，完全排除了意外震惊（surprise），确认为典型的愤怒情绪。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 53.78935265541077
+}

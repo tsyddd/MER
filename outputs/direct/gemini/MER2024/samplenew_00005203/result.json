@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00005203",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sad",
+  "emotion_analysis": "画面中的女性神情哀伤，双眼含泪并低垂，嘴角向下撇，面部呈现明显的哭泣和难过神态。同时她伴随着带哭腔的微弱语气说出不想分开，表现出深切的悲伤情绪。",
+  "output": "画面中的女性神情哀伤，双眼含泪并低垂，嘴角向下撇，面部呈现明显的哭泣和难过神态。同时她伴随着带哭腔的微弱语气说出不想分开，表现出深切的悲伤情绪。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 5.654158115386963,
+  "node_count": null,
+  "edge_count": null
+}

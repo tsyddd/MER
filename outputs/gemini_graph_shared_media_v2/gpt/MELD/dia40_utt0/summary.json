@@ -1,0 +1,9 @@
+{
+  "reason": "目标是画面中央穿白色外套的Monica；她从低头浅笑到转向左侧同伴时露出更明显的笑容，这一变化可在各帧核对，[image:E1]和[image:E2]的描述可信。字幕原话“Yeah baby!”与她的表情相合，[audio_subtitle:E1]可作为语言证据，但没有音轨，不能据此判断语调。笑容也可能是礼貌回应，不过持续增强的笑容结合肯定式感叹，比中性更支持joy。",
+  "answer": "joy",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "audio_subtitle:E1"
+  ]
+}

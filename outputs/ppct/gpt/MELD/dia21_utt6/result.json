@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia21_utt6",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "Phoebe面向并注视男子，嘴部张开并将手放在男子上胸部或肩部（person_0、person_1、process_1），与她直接追问“Seriously”及两人面对面交流（process_0、context_1）相结合。画面中她逐渐露出明显笑容，身体接触和轻松的互动关系更支持愉快、调侃的情绪，而非负面情绪。",
+  "output": "Phoebe面向并注视男子，嘴部张开并将手放在男子上胸部或肩部（person_0、person_1、process_1），与她直接追问“Seriously”及两人面对面交流（process_0、context_1）相结合。画面中她逐渐露出明显笑容，身体接触和轻松的互动关系更支持愉快、调侃的情绪，而非负面情绪。\n<answer>joy</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 186.19371151924133,
+  "node_count": 7,
+  "edge_count": 5
+}

@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "目标人物Janice在道别时眉头向中央聚拢并微挑，嘴角下垂呈哀怨撇嘴状，单手抚胸抱臂，配合低缓拖长的道别语调，视觉与听觉均明显表现出依依不舍与悲伤神情[E1][E2]。",
+  "answer": "sadness",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.293s",
+      "observation": "Janice视线凝视前方Chandler，眉头内侧皱缩上抬，嘴唇微张且嘴角向下耷拉，右手收拢抚于胸前，姿态收缩。",
+      "interpretation": "内侧眉抬起配合嘴角向下的面部构造及抚胸护卫姿态，是典型的悲伤、沮丧与失落面部标志。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Good-bye Chandler Bing.",
+      "observation": "台词为正式道别“Good-bye Chandler Bing.”，音轨中语调缓慢拖长且带有轻微颤抖与哽咽感。",
+      "interpretation": "言语内容与沉重缓慢的道别语调排除了玩笑或单纯惊讶，印证了面部表现出的悲伤氛围。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强相反假设是其夸张的姿态仅为戏剧性的做作或中性告别（neutral），但其面部明显的八字眉、下垂嘴唇以及压低低回的语调均不支持毫无情绪的中性状态。"
+}

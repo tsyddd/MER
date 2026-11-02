@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00015349",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "目标人物是画面中正面站立并讲话的人，字幕内容是在警告火势继续烧下去可能蔓延到高家。其表情严肃、神态紧张，体现出对后果的担忧，而非愤怒或惊讶。",
+  "output": "目标人物是画面中正面站立并讲话的人，字幕内容是在警告火势继续烧下去可能蔓延到高家。其表情严肃、神态紧张，体现出对后果的担忧，而非愤怒或惊讶。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 20.341533660888672,
+  "node_count": null,
+  "edge_count": null
+}

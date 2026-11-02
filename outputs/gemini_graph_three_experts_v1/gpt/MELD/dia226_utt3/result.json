@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia226_utt3",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "554a2426d1927843a8eb1d72198c70c94dfcdf5ba4a53d703518ea9653b7a645",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "字幕表达了愿望未能实现及希望对方敞开心扉，带有失落和关切；图片专家还观察到皱眉、嘴角下压等低落线索。图谱将其概括为中性，但其中的语调和视觉描述可能与其他来源同源，且缺乏明确负面内容，因此综合取舍为悲伤。",
+  "output": "字幕表达了愿望未能实现及希望对方敞开心扉，带有失落和关切；图片专家还观察到皱眉、嘴角下压等低落线索。图谱将其概括为中性，但其中的语调和视觉描述可能与其他来源同源，且缺乏明确负面内容，因此综合取舍为悲伤。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 70.0078935623169
+}

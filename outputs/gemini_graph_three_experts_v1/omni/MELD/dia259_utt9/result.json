@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia259_utt9",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "db05c16c44916312cd44a75a33353218abec775c99c4678488d5f402e1804724",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "图像专家识别出微笑和放松姿态，判断为joy；音频专家指出语气尖锐、语速快、音量高且带指责意味，判断为anger；图谱专家结合姿态与指责性语言，也判断为anger。图像与音频/图谱在情绪上存在明显冲突。图像仅反映静态表情，而音频和图谱均基于动态语调和内容判断，且音频与图谱描述一致，更符合实时情绪表达。因此优先采纳音频与图谱的判断。",
+  "output": "图像专家识别出微笑和放松姿态，判断为joy；音频专家指出语气尖锐、语速快、音量高且带指责意味，判断为anger；图谱专家结合姿态与指责性语言，也判断为anger。图像与音频/图谱在情绪上存在明显冲突。图像仅反映静态表情，而音频和图谱均基于动态语调和内容判断，且音频与图谱描述一致，更符合实时情绪表达。因此优先采纳音频与图谱的判断。\n<answer>anger</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 43.41990518569946
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00040685",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "00b59cea7eb95d8df3713bcb9b7defc0e8f79ae664b527d4cc419d1d058a6afa",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "audio_subtitle与graph专家一致指出目标人物语调低沉平缓、语速均匀，正以冷静克制的状态客观叙述事件经过。image专家虽然观察到挑眉瞪眼等局部静态特征并判断为惊讶，但与持续平稳沉静的音轨和交谈体态存在明显脱节，故采信整体叙事表现评定为中性。",
+  "output": "audio_subtitle与graph专家一致指出目标人物语调低沉平缓、语速均匀，正以冷静克制的状态客观叙述事件经过。image专家虽然观察到挑眉瞪眼等局部静态特征并判断为惊讶，但与持续平稳沉静的音轨和交谈体态存在明显脱节，故采信整体叙事表现评定为中性。\n<answer>neutral</answer>",
+  "label": "angry",
+  "elapsed_seconds": 37.32781744003296
+}

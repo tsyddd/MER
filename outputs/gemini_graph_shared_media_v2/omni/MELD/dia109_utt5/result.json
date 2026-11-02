@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia109_utt5",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "d1e48fb5bc9702767bb92c6beba55179a3e73274b2c9fb39f96f11cbbfe48c20",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "Janice的语调高亢、语速快且带有明显的戏剧化色彩，与她所说内容（关于“残酷剧场”）的夸张性相匹配。她的肢体语言（如双手在胸前比划）和面部表情（如眉毛上扬）也表现出一种非字面意义的、带有表演性质的激动。音频中观众的笑声证实了这是一句玩笑话。尽管内容可能引发恐惧，但其表达方式是喜剧性的，因此最符合joy的判断。图像专家的分析虽然提到了惊讶，但其描述的夸张表情和手势与音频的戏剧化语调一致，共同支持joy而非surprise。",
+  "output": "Janice的语调高亢、语速快且带有明显的戏剧化色彩，与她所说内容（关于“残酷剧场”）的夸张性相匹配。她的肢体语言（如双手在胸前比划）和面部表情（如眉毛上扬）也表现出一种非字面意义的、带有表演性质的激动。音频中观众的笑声证实了这是一句玩笑话。尽管内容可能引发恐惧，但其表达方式是喜剧性的，因此最符合joy的判断。图像专家的分析虽然提到了惊讶，但其描述的夸张表情和手势与音频的戏剧化语调一致，共同支持joy而非surprise。\n<answer>joy</answer>",
+  "label": "anger",
+  "elapsed_seconds": 184.1441352367401
+}

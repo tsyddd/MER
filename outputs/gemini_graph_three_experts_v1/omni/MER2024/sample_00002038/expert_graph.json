@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "女性双眉紧蹙、眉心隆起（person_0），同时视线朝向画面右侧（person_1），并发出音量偏低、语调上扬的疑问语气（person_2），这些行为同步发生，表明她对右侧某人身份感到疑惑或警惕。结合其提问内容‘他是谁呀？’（process_0），可判断其情绪为‘surprise’。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "person_2",
+    "process_0"
+  ]
+}

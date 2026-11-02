@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "目标人物在连续8帧中均表现出哭泣状态，包括眼眶湿润、泪珠滑落、面部肌肉紧绷和嘴唇颤抖等视觉特征。这些表现与字幕中“没想到，你竟然这么傻”这句话的语调和内容高度一致，共同指向一种因失望、伤心或无奈而产生的悲伤情绪。虽然台词中带有轻微的责备意味，但其主要表达方式是哭泣，而非愤怒或惊讶。因此，主导情绪是悲伤。",
+  "open_emotion": "悲伤",
+  "answer": "sad",
+  "mapping_reason": "根据情绪轮定义，'sad'（悲伤）指当前失落、伤心、哀痛或低落的情绪，需要损失评价或相应表达支持。目标人物的哭泣、湿润的眼眶和悲伤的表情是明确的视觉证据，与台词中表达的失望和无奈相符，因此映射到'sad'是准确的。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "目标人物眼眶湿润，有明显的泪珠从眼角滑落。",
+      "interpretation": "这是悲伤情绪的直接生理表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "目标人物的眉毛紧锁，眼睑下垂，嘴唇微微颤抖。",
+      "interpretation": "这些面部肌肉的紧张和颤抖是悲伤情绪的典型特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "字幕内容",
+      "observation": "字幕显示：“没想到，你竟然这么傻。”",
+      "interpretation": "这句话表达了对另一方行为的失望和无奈，是引发悲伤情绪的直接原因。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "可以听到目标人物在说话时带有明显的哭腔和哽咽。",
+      "interpretation": "声音中的哭腔是悲伤情绪的直接听觉证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽然台词中带有轻微的责备意味，但目标人物的表达方式是哭泣而非愤怒，因此不支持'angry'。其情绪是内化的悲伤，而非对外部事件的惊讶，因此不支持'surprise'。"
+}

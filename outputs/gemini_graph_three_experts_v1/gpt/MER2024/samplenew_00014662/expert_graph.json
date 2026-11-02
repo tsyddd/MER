@@ -1,0 +1,12 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载女性明确表示“我主要是担心这事儿”，并说明可能“会牵连到您家老爷子”〔process_0〕〔process_1〕，体现出对后果的担忧。她随后追问“不是吗”〔process_2〕，且双眉微蹙〔person_2〕，进一步支持当前的忧虑状态；其语调平缓〔person_1〕不改变这一主要情绪判断。",
+  "answer": "worried",
+  "evidence_refs": [
+    "process_0",
+    "process_1",
+    "process_2",
+    "person_2",
+    "person_1"
+  ]
+}

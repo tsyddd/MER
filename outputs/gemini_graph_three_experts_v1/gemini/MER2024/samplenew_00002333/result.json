@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00002333",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "0e9fbf235f4db8f0d6cbb4c5b79681cf485a4b2bfdd80a92849380e07b412f8e",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "happy",
+  "emotion_analysis": "专家之间存在显著冲突，音频专家认为语调悲伤虚弱，而图像专家与图谱专家均明确指出目标人物体态斜靠在沙发上极度放松，且多帧画面中持续嘴角大幅上扬露齿微笑、眉眼舒展带笑。鉴于图像专家针对目标人物自身的外貌与表情提供了稳定一致的高兴视觉依据，故判定其当前情绪为高兴。",
+  "output": "专家之间存在显著冲突，音频专家认为语调悲伤虚弱，而图像专家与图谱专家均明确指出目标人物体态斜靠在沙发上极度放松，且多帧画面中持续嘴角大幅上扬露齿微笑、眉眼舒展带笑。鉴于图像专家针对目标人物自身的外貌与表情提供了稳定一致的高兴视觉依据，故判定其当前情绪为高兴。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 34.91142797470093
+}

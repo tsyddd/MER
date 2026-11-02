@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "在火灾后面对烧毁的财产，Rachel不仅在口语上陈述损失，而且肢体上呈现萎靡、闭眼低头[E1]及带着哭腔颤抖的声音[E2]，随后心痛展示残破毛衣[E3]，事件的核心语义是面对无法挽回的私人损失所产生的难过与沮丧，明确支持sadness。",
+  "answer": "sadness",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "Rachel在诉说损失时闭上眼睛、微微低下头，眉头聚拢且神情沮丧",
+      "interpretation": "图谱记录的闭目垂头动作与画面frame_03吻合，体现出无力与心痛的悲伤反应",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "说话声调向下沉降，伴随明显的哭腔与抽噎颤音",
+      "interpretation": "声音特征直接体现出委屈和伤心的难过状态，而非平淡或激昂",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_06 @ 2.13s",
+      "observation": "Rachel单手拎起烧焦残破的蓝色毛衣，眼神下垂流露出痛惜",
+      "interpretation": "直观展示心爱之物被毁的物证，强化了因财产尽毁而沉浸于悲伤的情境",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "替代解释可能认为是抱怨失火的愤怒（anger），但音轨中并无高亢的责备或攻击性爆发，面部未见咬牙怒视，闭眼低头与带哭腔的哀叹排除了愤怒，确定为sadness。"
+}

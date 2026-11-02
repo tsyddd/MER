@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是frame_00至frame_06中正面对着男子说话的女子；frame_07转为男子的反应镜头，不将他的表情算作目标证据。她持续注视对方、眉头收紧，讲话时嘴部动作明显[E1][E2]；字幕显示她直接指责对方的手段“卑劣”“无耻”[E3]。视觉上的紧绷与言语中的责备相互支持，最符合不满，而非单纯担忧。",
+  "open_emotion": "不满",
+  "answer": "angry",
+  "mapping_reason": "当前表达指向对方的行为，并带有明确责备，按情绪轮映射为angry；这不表示她已表现出强烈暴怒。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_06（5.36秒）",
+      "observation": "女子一直看向近处的男子，眉头收紧，面部没有转为微笑。",
+      "interpretation": "持续面向对方的紧绷神情支持严肃、不满的表达，但单凭眉头不能定类。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02（1.8秒）至frame_06（5.36秒）",
+      "observation": "女子说话时多次张口，至后段仍注视男子，表情没有明显缓和。",
+      "interpretation": "这是持续向对方表达意见，而非一瞬间的惊讶反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“你除了这些卑劣的手段，还会什么？真是无耻之极。”",
+      "observation": "字幕中的话直接贬斥对方的手段并作出责备。",
+      "interpretation": "为视觉上的严肃表情提供指向对方的不满语义；字幕不是可听见的语调证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "她的动作幅度不大，画面也未显示激烈对抗；紧绷表情单独看亦可能是担忧。因此结论主要依赖表情持续性与指责性字幕的共同支持，不能据此推断愤怒强度或声调。"
+}

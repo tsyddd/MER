@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia245_utt4",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "1528c89a9e48293f5c22e3f68968c73260009900840f78dcfab7366d2748796f",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "fear",
+  "emotion_analysis": "目标Monica在看到门边动静后神情骤变，frame_02中双眼圆睁、嘴部大张，显露极度惊慌[image:E1]；其迅速扔下手中的书本并仓皇向前猛扑阻拦[image:E2]，配合音轨中极其高亢尖锐、带有颤抖恐慌感的连声尖叫“No-no-no, no!”[audio_subtitle:E1]，视觉应激与听觉表现高度契合突发危机的惊恐反应。反方可能考虑surprise或anger，但其动作重心在于极力避免灾难后果的慌乱扑救，声调呈防卫性恐慌而非攻击性责备，明确指向恐惧。",
+  "output": "目标Monica在看到门边动静后神情骤变，frame_02中双眼圆睁、嘴部大张，显露极度惊慌[image:E1]；其迅速扔下手中的书本并仓皇向前猛扑阻拦[image:E2]，配合音轨中极其高亢尖锐、带有颤抖恐慌感的连声尖叫“No-no-no, no!”[audio_subtitle:E1]，视觉应激与听觉表现高度契合突发危机的惊恐反应。反方可能考虑surprise或anger，但其动作重心在于极力避免灾难后果的慌乱扑救，声调呈防卫性恐慌而非攻击性责备，明确指向恐惧。\n<answer>fear</answer>",
+  "label": "fear",
+  "elapsed_seconds": 103.99350047111511
+}

@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "Phoebe当前面向红衣女子，边说边用双手比划，表情和动作较平稳[E1]。她先描述一名男子的年龄，再补充其“很有吸引力”[E2][E3]；这是对他人的评价，不足以说明她自己正感到喜悦。当前互动更像平常地提供描述，而非表达明显的主导情绪。",
+  "open_emotion": "平常",
+  "answer": "neutral",
+  "mapping_reason": "“平常”对应情绪轮中当前表达平稳、没有明确主导情绪的neutral；这里的判断依据是她描述他人时的当前表现，而非仅因缺少音轨。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01（0.625625秒）至frame_07（4.379375秒）",
+      "observation": "Phoebe面向红衣女子说话，双手在身前比划，神情没有明显转为欢喜或激动。",
+      "interpretation": "支持她正在较平稳地说明情况；手势本身不等于兴奋。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "“And umm, he’s like early to mid-thirties, very attractive.”",
+      "observation": "话语描述的是一名“他”的年龄和吸引力。",
+      "interpretation": "正面形容词评价的是被描述者，不能直接当作Phoebe开心的证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_2",
+      "observation": "图谱将“very attractive”记为Phoebe在年龄描述后对该男子的补充描述。",
+      "interpretation": "该节点帮助确认当前话语是向红衣女子描述他人，而不是直接表露自身喜悦；其话语内容与字幕同源，不另算一份独立情绪证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "“very attractive”也可能带有欣赏之意，但现有画面与字幕不足以判定欣赏已成为主导的喜悦情绪。未收到原音轨，不能亲耳核验图谱person_2所述的语速和语气；该描述仅保留为未经核验的图谱转述。"
+}

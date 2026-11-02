@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "目标人物在获知对方意料之外的辞职决定后展开即时反应。图谱节点[process_0]与[process_1]准确记录了女性连续发问并追加重音'啊'的言语链条；结合实际音轨核验，其语调极高、急促且带有强烈的难以置信感，而非平稳的质问。视觉上自frame_01至frame_05，其眉头锁紧、双目瞪视、面部肌肉绷紧，与听觉上的高亢惊疑高度互补，核心指向对突发状况的强烈违背预期。",
+  "open_emotion": "震惊",
+  "answer": "surprise",
+  "mapping_reason": "目标人物的即时评价对象是对方'辞职'这一完全出乎意料的事件，其高亢语调与追问直接表现出突发消息带来的认知冲击与意外感，符合MER2024情绪轮中surprise（因当前信息违背预期产生的意外、诧异或震惊）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "女性对面前的人发问说出'不是 你为什么要辞职'",
+      "interpretation": "表明互动核心是获知对方突然辞职的事实，构成认知冲突与情绪激发的事件前提",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "'不是，你为什么要辞职啊？啊？'语调急剧上扬、重音明显且伴随强烈尾音追问",
+      "interpretation": "听觉证据证实发声具有强烈的不可思议与错愕感，非单纯理性求证",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02 (0.76s)",
+      "observation": "女性双眉紧蹙，双眼睁圆紧盯对方，嘴部微张",
+      "interpretation": "视觉上呈现受到意外冲击时的紧张定格与错愕神情",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "急促而严厉的质问语调容易被替代解释为恼火（angry）或对前景的焦虑（worried）；但事件语义表明消息是突发的，其主导驱动力是对违背常理决定的即时冲击与震惊，责备尚属次生表现。"
+}

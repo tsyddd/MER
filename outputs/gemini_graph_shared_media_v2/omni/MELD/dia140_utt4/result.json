@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia140_utt4",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "8fef145f22a30b21db1df9aa0b95769ecea3ec4535f7bae7d08d725b3cc323a7",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "Ross的言语中包含“like-like”的重复，语调犹豫，这表明他在努力组织语言，是中性情绪的典型特征。他的面部表情平静，没有明显的情绪波动，与音频和字幕中的犹豫用词高度一致。虽然有专家认为这可能表示兴奋，但缺乏相应的语调或面部表情支持。因此，最合理的判断是中性。",
+  "output": "Ross的言语中包含“like-like”的重复，语调犹豫，这表明他在努力组织语言，是中性情绪的典型特征。他的面部表情平静，没有明显的情绪波动，与音频和字幕中的犹豫用词高度一致。虽然有专家认为这可能表示兴奋，但缺乏相应的语调或面部表情支持。因此，最合理的判断是中性。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 137.9753336906433
+}

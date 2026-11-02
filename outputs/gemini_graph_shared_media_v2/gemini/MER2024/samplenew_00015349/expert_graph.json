@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "目标男子通过[process_0]与[process_1]向前来交涉的下属提出未来假设后果（“再这么吵下去的话，传到高家”），结合[E1]所示的事件语义，核心在于防止负面事态外泄；[E2]中面部微蹙与凝重视线，辅以[E3]中特意压低气声的紧张音调，共同支持其担忧情绪。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "男子向前者告诫若争端持续将传到高家，组织文本指出其在陈述不良连锁后果",
+      "interpretation": "该事件语义是典型的预后顾虑与危机预警，直接为担忧情绪提供情境支撑",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.8s",
+      "observation": "目标男子面部神情严肃凝重，眉头微收，嘴唇微张向前倾身交涉",
+      "interpretation": "展现出防备与不安的神色，非松弛或平静状态",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "实际音轨中男子压低声音以气声低语快速叮嘱",
+      "interpretation": "图谱person_1称其‘平稳克制’并不全面，该低沉音色实为生怕被外人听闻的压抑紧张，体现对事态扩散的担忧",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "图谱组织文本与person_1强调其低沉克制，可能让人误判为平静理性的neutral；但音频中特意收敛音量的气声与阻止事态扩大的语义明确反映出防范隐患的紧张与忧虑，故排除neutral。"
+}

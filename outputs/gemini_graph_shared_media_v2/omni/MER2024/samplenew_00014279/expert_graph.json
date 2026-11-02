@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "女子在近距离对男子进行连续指责，其言语内容（‘卑劣的手段’、‘无耻之极’）和声音状态（低音量、喘息、停顿）共同指向一种被激怒的情绪。图谱中的节点`person_2`（女子发音音量较低，带有明显的喘息声与停顿）和`process_3`（女子对男子说‘真是无耻之极’）是关键证据。`person_2`表明其情绪激动到影响了正常的发声，`process_3`则直接表达了强烈的负面评价。两者结合，支持了‘angry’的判断。",
+  "answer": "angry",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "女子发音音量较低，带有明显的喘息声与停顿",
+      "interpretation": "这种声音状态表明说话者处于激动或愤怒的情绪中，影响了其正常的呼吸和发声，是情绪激动的直接生理表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "process_3",
+      "observation": "女子对男子说‘真是无耻之极’",
+      "interpretation": "该话语是强烈的道德谴责，直接表达了对对方的极度厌恶和愤怒，是判断其情绪为‘angry’的直接语言证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "女子目光注视着对面的男子",
+      "interpretation": "持续的、近距离的目光接触表明她正全神贯注于对方，这与激烈指责的互动情境相符，强化了情绪表达的针对性。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_3",
+      "observation": "女子嘴唇微启微合，牙齿微露",
+      "interpretation": "该面部表情是愤怒或激动时常见的生理反应，与她所说的话语内容和声音状态相一致，共同构成了情绪的视觉证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无明确的反证。虽然女子声音微弱，但其内容和表情表明是愤怒而非悲伤或中性。"
+}

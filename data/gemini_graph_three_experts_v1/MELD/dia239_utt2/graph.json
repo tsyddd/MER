@@ -1,0 +1,197 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Chandler对身旁的男士说话\"Jeez, man did you fall...\"",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "一名女子从门内走出",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "Chandler转向女子并对她说\"Hi!\"",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_3",
+      "type": "process",
+      "content": "Chandler对女子说话\"So ah, did ya, did-did-did ya fall high?\"",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Chandler站立，视线朝向身旁的男士",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Chandler转头并转身面向走出的女子，右手臂向旁摊开",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Chandler面朝女子注视，右手向前伸展摊开，语速出现停顿与重复",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Chandler放下手并将手插入口袋，保持面朝女子",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内走廊区域，门上有洗手间标识",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "现场有Chandler、一名浅发男士以及从洗手间走出的女子",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_3",
+      "target": "process_2",
+      "relation": "after",
+      "reason": "Chandler在打招呼\"Hi!\"之后，紧接着继续向女子说话提问\"So ah, did ya, did-did-did ya fall high?\"",
+      "entity_anchor": "Chandler与女子的互动过程"
+    },
+    {
+      "source": "process_2",
+      "target": "process_1",
+      "relation": "simultaneous",
+      "reason": "在同一互动场景中，女子走出洗手间门的同时Chandler转向她打招呼",
+      "entity_anchor": "女子出现与Chandler的反应互动"
+    },
+    {
+      "source": "process_2",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "Chandler在对身旁男士说话被打断后，转向新出现的女子并向其打招呼",
+      "entity_anchor": "Chandler的对话对象转换"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "Chandler从朝向身旁男士站立，转变为转身朝向女子并摊开右手臂",
+      "entity_anchor": "Chandler的肢体动作与朝向"
+    },
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "Chandler在转身摊手后，进一步面朝女子伸展摊手并在说话时出现停顿与重复",
+      "entity_anchor": "Chandler的肢体动作与言语表现"
+    },
+    {
+      "source": "person_3",
+      "target": "person_2",
+      "relation": "after",
+      "reason": "Chandler在向前伸展摊手之后放下手臂，将手插入口袋中保持面朝女子",
+      "entity_anchor": "Chandler的手部动作"
+    },
+    {
+      "source": "context_1",
+      "target": "context_0",
+      "relation": "simultaneous",
+      "reason": "在走廊及洗手间门前的同一场景环境中，存在Chandler、男士与女子等人构成的同场状态",
+      "entity_anchor": "场景环境与人物构成"
+    },
+    {
+      "source": "process_1",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "process_1提供女子从门内走出的动态，process_2提供Chandler随即转向该女子打招呼的反应，联合呈现了因他人出现而促使Chandler转移互动对象的完整过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_2",
+      "target": "process_3",
+      "relation": "process_joint",
+      "reason": "process_2提供Chandler初次向女子的问候动作，process_3提供其紧接着展开的言语试探，联合形成了Chandler对女子连续发起搭讪的互动流程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1提供Chandler转头转身面向女子并摊开右臂的姿态，person_2补充了其正对女子注视、手臂前伸以及言语出现结巴与停顿的表现，联合展现了其面对女子时从动作转向到言行显露迟疑的连续状态变化。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0明确了带有洗手间标识的走廊物理空间，context_1提供了现场三人包括等候与进出的人员构成，联合完整限定了洗手间门前等候与碰面的客观场景情境。",
+      "entity_anchor": null
+    }
+  ]
+}

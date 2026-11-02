@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "发言者在音频中使用平稳、沉着的陈述语调叙述事实，语速均匀且无明显情绪波动，字幕内容为客观例证陈述，视觉神态沉静端正，共同支持中性（neutral）。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00 - 00:03",
+      "observation": "发音平稳清晰，音调低沉沉着，语句间节奏均匀，没有哭腔、颤音、音量突增或叹息等情感色彩强烈的韵律特征。",
+      "interpretation": "体现发言者在正式场合进行客观讲述与陈述的状态，支持中性情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "我印象最深的一户人家，祖祖辈辈种地。",
+      "observation": "字幕为典型的叙事引入性陈述句，用词客观，不带有表达愤怒、悲伤或焦虑的主观情绪词汇。",
+      "interpretation": "言语行为意在引述具体事例进行公开发言，表达意图偏向客观交流。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04 @ 2.24s",
+      "observation": "人物在语句停顿处微微抿嘴，目光平和正视前方，面部肌肉放松无紧蹙或展颜。",
+      "interpretation": "与沉稳陈述的声音表现一致，排除了强烈的忧虑或悲伤情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "谈及农村背景题材可能引发对基层疾苦的同情与忧虑（worried）或悲伤（sad），但说话人声音没有发紧颤抖或叹气压抑，表情亦无眉心紧锁等指征，故排除。"
+}

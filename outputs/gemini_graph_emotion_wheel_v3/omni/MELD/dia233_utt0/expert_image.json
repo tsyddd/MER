@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物Rachel的面部表情和姿态表现出明显的负面情绪。她的眉毛皱起，眉头紧锁，眼神向下看，嘴巴微张，这些是典型的愤怒或强烈不满的视觉表现。她的身体姿态是直立的，但手放在腰上，这是一种防御或对抗的姿态。结合字幕内容，她正在质问对方是否在策划让她离开公寓，这表明她的情绪是针对一个具体的人际冲突。虽然她的语调可能带有质问和受伤的成分，但视觉上最突出的是愤怒的迹象，而非悲伤或恐惧。因此，最合理的解释是愤怒。",
+  "open_emotion": "愤怒",
+  "answer": "anger",
+  "mapping_reason": "根据情绪轮的定义，'anger'（愤怒）是对冒犯、受阻或不公的恼火、责备与对抗。Rachel的质问和她紧锁的眉头、对抗性的姿态，都与这一定义高度吻合。她的表情和姿态是直接的、针对他人的，而不是内向的悲伤或对外部威胁的恐惧。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "Rachel的眉毛皱起，眉头紧锁，眼神向下看，嘴巴微张。",
+      "interpretation": "这些是典型的愤怒或强烈不满的面部表情。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "Rachel的身体姿态是直立的，一只手放在腰上。",
+      "interpretation": "这是一种防御或对抗的姿态，表明她正处于一种紧张的对峙状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "字幕内容",
+      "observation": "字幕显示Rachel说：'Did you get all this stuff for Joey to try and drive me out of the apartment?'",
+      "interpretation": "这句话表明她正在质问对方，认为对方在策划让她离开，这为她的愤怒提供了明确的语义背景。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽然Rachel的语调可能带有一丝受伤或失望，但她的面部表情和姿态是主导性的，且直接指向愤怒。没有证据表明她感到害怕或厌恶。"
+}

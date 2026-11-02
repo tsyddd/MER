@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00006180",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "音频中，该人物以提问的语气询问“同学们，有没有知道的？”，其语调平稳，无明显情绪波动。结合其在教室场景中面向学生提问的视觉表现，该行为符合中性情绪下的课堂引导状态。",
+  "output": "音频中，该人物以提问的语气询问“同学们，有没有知道的？”，其语调平稳，无明显情绪波动。结合其在教室场景中面向学生提问的视觉表现，该行为符合中性情绪下的课堂引导状态。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 90.10863971710205,
+  "node_count": 6,
+  "edge_count": 4
+}

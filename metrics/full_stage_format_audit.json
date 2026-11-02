@@ -1,0 +1,2540 @@
+{
+  "direct/omni": {
+    "expected": 80,
+    "audit_valid": 80,
+    "incomplete_or_invalid": 0,
+    "complete": true,
+    "correct": {
+      "MER2024": 34,
+      "MELD": 24
+    },
+    "accuracy_final": {
+      "MER2024": 0.85,
+      "MELD": 0.6
+    },
+    "recorded_response_files": 80,
+    "recorded_usage": {
+      "prompt_tokens": 104117,
+      "completion_tokens": 4494,
+      "total_tokens": 108611
+    },
+    "usage_note": "Recorded response files only; network failures and overwritten historical attempts may not be included.",
+    "items": [
+      {
+        "id": "MER2024/sample_00001635",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/sample_00002038",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/sample_00002893",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/sample_00004468",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00002333",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00003759",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00005203",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00005588",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00005612",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00006180",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00006335",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00013076",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00013127",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00013200",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00013928",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00014279",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00014357",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00014662",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00015349",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00019636",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00021837",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00021849",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00021868",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00025713",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00029282",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00030944",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00031467",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00033166",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00033539",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00034225",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00034373",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00034518",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00035599",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00035777",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00035837",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00035950",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00036745",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00038936",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00040685",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00041734",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia0_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia109_utt4",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia109_utt5",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia115_utt3",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia119_utt5",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia131_utt3",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia132_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia140_utt4",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia150_utt4",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia153_utt11",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia153_utt4",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia168_utt13",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia178_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia186_utt0",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia186_utt3",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia188_utt0",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia192_utt9",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia198_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia200_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia21_utt6",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia224_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia226_utt3",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia233_utt0",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia233_utt1",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia237_utt3",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia239_utt0",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia239_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia245_utt4",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia259_utt10",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia259_utt9",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia263_utt9",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia33_utt6",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia34_utt17",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia34_utt5",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia38_utt1",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia40_utt0",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia50_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia66_utt1",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia66_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia9_utt11",
+        "valid": true,
+        "issues": []
+      }
+    ]
+  },
+  "ppct/omni": {
+    "expected": 80,
+    "audit_valid": 80,
+    "incomplete_or_invalid": 0,
+    "complete": true,
+    "correct": {
+      "MER2024": 30,
+      "MELD": 25
+    },
+    "accuracy_final": {
+      "MER2024": 0.75,
+      "MELD": 0.625
+    },
+    "recorded_response_files": 406,
+    "recorded_usage": {
+      "prompt_tokens": 796758,
+      "completion_tokens": 150805,
+      "total_tokens": 947563
+    },
+    "usage_note": "Recorded response files only; network failures and overwritten historical attempts may not be included.",
+    "items": [
+      {
+        "id": "MER2024/sample_00001635",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/sample_00002038",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/sample_00002893",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/sample_00004468",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00002333",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00003759",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00005203",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00005588",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00005612",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00006180",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00006335",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00013076",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00013127",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00013200",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00013928",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00014279",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00014357",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00014662",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00015349",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00019636",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00021837",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00021849",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00021868",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00025713",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00029282",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00030944",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00031467",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00033166",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00033539",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00034225",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00034373",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00034518",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00035599",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00035777",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00035837",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00035950",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00036745",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00038936",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00040685",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00041734",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia0_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia109_utt4",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia109_utt5",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia115_utt3",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia119_utt5",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia131_utt3",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia132_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia140_utt4",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia150_utt4",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia153_utt11",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia153_utt4",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia168_utt13",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia178_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia186_utt0",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia186_utt3",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia188_utt0",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia192_utt9",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia198_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia200_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia21_utt6",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia224_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia226_utt3",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia233_utt0",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia233_utt1",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia237_utt3",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia239_utt0",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia239_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia245_utt4",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia259_utt10",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia259_utt9",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia263_utt9",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia33_utt6",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia34_utt17",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia34_utt5",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia38_utt1",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia40_utt0",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia50_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia66_utt1",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia66_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia9_utt11",
+        "valid": true,
+        "issues": []
+      }
+    ]
+  },
+  "ppct/gpt": {
+    "expected": 80,
+    "audit_valid": 80,
+    "incomplete_or_invalid": 0,
+    "complete": true,
+    "correct": {
+      "MER2024": 31,
+      "MELD": 31
+    },
+    "accuracy_final": {
+      "MER2024": 0.775,
+      "MELD": 0.775
+    },
+    "recorded_response_files": 406,
+    "recorded_usage": {
+      "prompt_tokens": 884334,
+      "completion_tokens": 168287,
+      "total_tokens": 1052621
+    },
+    "usage_note": "Recorded response files only; network failures and overwritten historical attempts may not be included.",
+    "items": [
+      {
+        "id": "MER2024/sample_00001635",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/sample_00002038",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/sample_00002893",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/sample_00004468",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00002333",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00003759",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00005203",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00005588",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00005612",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00006180",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00006335",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00013076",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00013127",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00013200",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00013928",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00014279",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00014357",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00014662",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00015349",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00019636",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00021837",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00021849",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00021868",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00025713",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00029282",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00030944",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00031467",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00033166",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00033539",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00034225",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00034373",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00034518",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00035599",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00035777",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00035837",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00035950",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00036745",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00038936",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00040685",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00041734",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia0_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia109_utt4",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia109_utt5",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia115_utt3",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia119_utt5",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia131_utt3",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia132_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia140_utt4",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia150_utt4",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia153_utt11",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia153_utt4",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia168_utt13",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia178_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia186_utt0",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia186_utt3",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia188_utt0",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia192_utt9",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia198_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia200_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia21_utt6",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia224_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia226_utt3",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia233_utt0",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia233_utt1",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia237_utt3",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia239_utt0",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia239_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia245_utt4",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia259_utt10",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia259_utt9",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia263_utt9",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia33_utt6",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia34_utt17",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia34_utt5",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia38_utt1",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia40_utt0",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia50_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia66_utt1",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia66_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia9_utt11",
+        "valid": true,
+        "issues": []
+      }
+    ]
+  },
+  "ppct/gemini": {
+    "expected": 80,
+    "audit_valid": 80,
+    "incomplete_or_invalid": 0,
+    "complete": true,
+    "correct": {
+      "MER2024": 30,
+      "MELD": 24
+    },
+    "accuracy_final": {
+      "MER2024": 0.75,
+      "MELD": 0.6
+    },
+    "recorded_response_files": 416,
+    "recorded_usage": {
+      "prompt_tokens": 3416685,
+      "completion_tokens": 348207,
+      "total_tokens": 3764892
+    },
+    "usage_note": "Recorded response files only; network failures and overwritten historical attempts may not be included.",
+    "items": [
+      {
+        "id": "MER2024/sample_00001635",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/sample_00002038",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/sample_00002893",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/sample_00004468",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00002333",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00003759",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00005203",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00005588",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00005612",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00006180",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00006335",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00013076",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00013127",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00013200",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00013928",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00014279",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00014357",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00014662",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00015349",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00019636",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00021837",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00021849",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00021868",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00025713",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00029282",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00030944",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00031467",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00033166",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00033539",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00034225",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00034373",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00034518",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00035599",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00035777",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00035837",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00035950",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00036745",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00038936",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00040685",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00041734",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia0_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia109_utt4",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia109_utt5",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia115_utt3",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia119_utt5",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia131_utt3",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia132_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia140_utt4",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia150_utt4",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia153_utt11",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia153_utt4",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia168_utt13",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia178_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia186_utt0",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia186_utt3",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia188_utt0",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia192_utt9",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia198_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia200_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia21_utt6",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia224_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia226_utt3",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia233_utt0",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia233_utt1",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia237_utt3",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia239_utt0",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia239_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia245_utt4",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia259_utt10",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia259_utt9",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia263_utt9",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia33_utt6",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia34_utt17",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia34_utt5",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia38_utt1",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia40_utt0",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia50_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia66_utt1",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia66_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia9_utt11",
+        "valid": true,
+        "issues": []
+      }
+    ]
+  },
+  "direct/gpt": {
+    "expected": 80,
+    "audit_valid": 80,
+    "incomplete_or_invalid": 0,
+    "complete": true,
+    "correct": {
+      "MER2024": 24,
+      "MELD": 28
+    },
+    "accuracy_final": {
+      "MER2024": 0.6,
+      "MELD": 0.7
+    },
+    "recorded_response_files": 80,
+    "recorded_usage": {
+      "prompt_tokens": 136255,
+      "completion_tokens": 11854,
+      "total_tokens": 148109
+    },
+    "usage_note": "Recorded response files only; network failures and overwritten historical attempts may not be included.",
+    "items": [
+      {
+        "id": "MER2024/sample_00001635",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/sample_00002038",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/sample_00002893",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/sample_00004468",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00002333",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00003759",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00005203",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00005588",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00005612",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00006180",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00006335",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00013076",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00013127",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00013200",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00013928",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00014279",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00014357",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00014662",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00015349",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00019636",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00021837",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00021849",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00021868",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00025713",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00029282",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00030944",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00031467",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00033166",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00033539",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00034225",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00034373",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00034518",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00035599",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00035777",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00035837",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00035950",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00036745",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00038936",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00040685",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00041734",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia0_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia109_utt4",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia109_utt5",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia115_utt3",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia119_utt5",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia131_utt3",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia132_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia140_utt4",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia150_utt4",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia153_utt11",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia153_utt4",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia168_utt13",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia178_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia186_utt0",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia186_utt3",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia188_utt0",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia192_utt9",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia198_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia200_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia21_utt6",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia224_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia226_utt3",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia233_utt0",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia233_utt1",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia237_utt3",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia239_utt0",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia239_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia245_utt4",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia259_utt10",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia259_utt9",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia263_utt9",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia33_utt6",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia34_utt17",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia34_utt5",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia38_utt1",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia40_utt0",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia50_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia66_utt1",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia66_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia9_utt11",
+        "valid": true,
+        "issues": []
+      }
+    ]
+  },
+  "direct/gemini": {
+    "expected": 80,
+    "audit_valid": 80,
+    "incomplete_or_invalid": 0,
+    "complete": true,
+    "correct": {
+      "MER2024": 33,
+      "MELD": 27
+    },
+    "accuracy_final": {
+      "MER2024": 0.825,
+      "MELD": 0.675
+    },
+    "recorded_response_files": 80,
+    "recorded_usage": {
+      "prompt_tokens": 734048,
+      "completion_tokens": 25937,
+      "total_tokens": 759985
+    },
+    "usage_note": "Recorded response files only; network failures and overwritten historical attempts may not be included.",
+    "items": [
+      {
+        "id": "MER2024/sample_00001635",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/sample_00002038",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/sample_00002893",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/sample_00004468",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00002333",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00003759",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00005203",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00005588",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00005612",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00006180",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00006335",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00013076",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00013127",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00013200",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00013928",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00014279",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00014357",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00014662",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00015349",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00019636",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00021837",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00021849",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00021868",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00025713",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00029282",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00030944",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00031467",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00033166",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00033539",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00034225",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00034373",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00034518",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00035599",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00035777",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00035837",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00035950",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00036745",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00038936",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00040685",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MER2024/samplenew_00041734",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia0_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia109_utt4",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia109_utt5",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia115_utt3",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia119_utt5",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia131_utt3",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia132_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia140_utt4",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia150_utt4",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia153_utt11",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia153_utt4",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia168_utt13",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia178_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia186_utt0",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia186_utt3",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia188_utt0",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia192_utt9",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia198_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia200_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia21_utt6",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia224_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia226_utt3",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia233_utt0",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia233_utt1",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia237_utt3",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia239_utt0",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia239_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia245_utt4",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia259_utt10",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia259_utt9",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia263_utt9",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia33_utt6",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia34_utt17",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia34_utt5",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia38_utt1",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia40_utt0",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia50_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia66_utt1",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia66_utt2",
+        "valid": true,
+        "issues": []
+      },
+      {
+        "id": "MELD/dia9_utt11",
+        "valid": true,
+        "issues": []
+      }
+    ]
+  }
+}

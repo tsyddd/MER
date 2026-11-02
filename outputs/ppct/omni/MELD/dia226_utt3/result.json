@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia226_utt3",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sadness",
+  "emotion_analysis": "The target speaker, Rachel, expresses a wish for someone to 'open up' and 'share some feelings,' indicating a desire for emotional connection. Her tone is soft and her facial expression is pensive, suggesting a state of longing or mild concern rather than strong emotion. The context is a conversation with a friend, and her delivery is calm and reflective.",
+  "output": "The target speaker, Rachel, expresses a wish for someone to 'open up' and 'share some feelings,' indicating a desire for emotional connection. Her tone is soft and her facial expression is pensive, suggesting a state of longing or mild concern rather than strong emotion. The context is a conversation with a friend, and her delivery is calm and reflective.\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 86.74349331855774,
+  "node_count": 6,
+  "edge_count": 3
+}

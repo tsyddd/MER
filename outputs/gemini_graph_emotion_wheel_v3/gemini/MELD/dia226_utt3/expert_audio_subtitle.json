@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "字幕中Rachel表达了对伴侣无法敞开心扉交流情感的无奈期望（[E1]），语用上属于愿望落空后的倾诉；在音轨中，她的声音较轻柔、带有叹息感，音调偏低沉且尾音微弱（[E2]），展现出内心的惆怅与无力；结合视觉上面容微蹙、嘴角微撇的失落神态（[E3]），整体表现为主导的失落与沮丧。",
+  "open_emotion": "失落",
+  "answer": "sadness",
+  "mapping_reason": "开放情绪'失落'体现了因情感诉求得不到回应而产生的低落与轻微沮丧，在情绪轮中归属于sadness家族。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Y’know, I wish I could get him to open up a little bit, share some feelings.",
+      "observation": "使用虚拟愿望句型'I wish I could...'，谈论希望对方敞开心扉、分享情感。",
+      "interpretation": "语义指向未被满足的情感连接需求，包含愿望受阻的无力感与落空感。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "发音轻缓且带有轻微叹息质感，整体音量不高，音调在句尾自然下滑。",
+      "interpretation": "缺乏激烈质问或攻击性，呈现出惆怅、低落的沉郁韵律。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02至frame_05（0.92s-1.80s）",
+      "observation": "眉头微蹙，眼神显露期盼与无奈交织，嘴角微微下垂，双手摊开比划后收回。",
+      "interpretation": "动作与面部表情印证了言语中的受挫与失落情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "话语内容涉及对现状的不满，可能被解读为带有抱怨倾向的恼火（anger）或日常平淡闲聊（neutral）；但其声音缺乏质问锋芒，神态明显流露哀愁感，不支持中性或愤怒。"
+}

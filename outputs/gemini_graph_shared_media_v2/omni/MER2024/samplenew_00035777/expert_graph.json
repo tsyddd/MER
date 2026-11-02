@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "男子在发声时身体前倾、面部肌肉紧绷、咧嘴露齿，与声音洪亮、用力高亢同步，表明其情绪激动。随后姿态收敛，但核心情绪由发声时的激烈状态主导。",
+  "answer": "angry",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "男子声音洪亮，发音用力且音量较高。",
+      "interpretation": "该声音特征与愤怒情绪的表达高度一致，是判断其情绪为愤怒的直接听觉证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00 @ 00:00",
+      "observation": "男子身体前倾低头，面部肌肉紧绷，咧嘴露齿大张。",
+      "interpretation": "该面部表情和姿态是愤怒情绪的典型外在表现，与音频中的激昂语调形成有力的视听同步支持。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "男子在发声时身体前倾低头，面部肌肉紧绷，咧嘴露齿大张。",
+      "interpretation": "图谱节点person_1描述了与音频中激昂语调同步的视觉状态，证实了愤怒情绪的多模态一致性。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "有观点认为该表情是大笑，但音频中声音洪亮、用力且音量高，与大笑的语调特征不符，因此该解释被排除。"
+}

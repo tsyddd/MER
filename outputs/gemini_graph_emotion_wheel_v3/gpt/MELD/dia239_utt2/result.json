@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia239_utt2",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "83c5e47c0148450bbc1edd40f39fe6e36178e18810553475144f0c7751aa6c95",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "措手不及",
+      "mapped_label": "surprise",
+      "mapping_reason": "他在互动对象突然变化时中断原话、改口问候，符合面对出乎预期的情况而一时意外的surprise；没有足够的威胁或畏惧证据将其归为fear。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "措手不及",
+      "mapped_label": "surprise",
+      "mapping_reason": "当前可见的反应指向对来人出现的意外，最接近surprise；重复措辞也可能带有局促感，但不足以证明他在害怕负面后果。"
+    },
+    "image": {
+      "open_emotion": "措手不及",
+      "mapped_label": "surprise",
+      "mapping_reason": "这里的措手不及主要指面对突然出现的人而产生的意外反应，最接近surprise；后续拘谨不等于持续强烈惊讶。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "Chandler在女子出现后转身面向她并摊掌，这一可核实的视觉变化支持[image:E1]，但动作本身不能证明惊讶。字幕中他把“did you fall..”转成“Hi!”，随后重复“did-did-did ya”[graph:E1][audio_subtitle:E2]；结合画面，这更像一时措手不及，而非平稳地继续交谈。后几帧他收手、面部紧绷[image:E2]，也可能是局促，但没有足够线索表明他在畏惧威胁。未提供音轨，因此不依据语调或语速判断。",
+  "output": "Chandler在女子出现后转身面向她并摊掌，这一可核实的视觉变化支持[image:E1]，但动作本身不能证明惊讶。字幕中他把“did you fall..”转成“Hi!”，随后重复“did-did-did ya”[graph:E1][audio_subtitle:E2]；结合画面，这更像一时措手不及，而非平稳地继续交谈。后几帧他收手、面部紧绷[image:E2]，也可能是局促，但没有足够线索表明他在畏惧威胁。未提供音轨，因此不依据语调或语速判断。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 85.60141468048096
+}

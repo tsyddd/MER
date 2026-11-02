@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "目标人物（空乘人员）在对话中表现出持续的微笑和积极的姿态，与字幕中的礼貌用语“Thank you! Enjoy your flight?”相匹配。她的表情和姿态没有显示出任何负面情绪的迹象，整体表现平稳且友好。",
+  "open_emotion": "友好的",
+  "answer": "neutral",
+  "mapping_reason": "尽管目标人物在微笑，但该表情是礼貌和职业性的，与字幕中的常规问候语一致。没有证据表明她有强烈的喜悦、惊讶或任何其他主导情绪。因此，根据其平稳、日常且没有明确主导情绪的表达，最合适的标签是中性。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "目标人物（空乘人员）的嘴角上扬，形成一个微笑。",
+      "interpretation": "这是一个积极的面部表情，通常与愉快或友好的情绪相关。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01",
+      "observation": "目标人物的视线朝向对话对象，姿态开放。",
+      "interpretation": "表明她正在积极地参与对话，没有防御或回避的姿态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Thank you! Enjoy your flight?",
+      "observation": "字幕显示了礼貌的对话内容。",
+      "interpretation": "该对话内容是常规的、职业性的问候，与目标人物的友好表情相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "音频中可以听到目标人物说“Thank you! Enjoy your flight?”。",
+      "interpretation": "她的语调平稳、友好，与字幕和视觉表情一致，没有表现出强烈的情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有明显的反证。虽然有微笑，但其程度和语境表明这是一种职业性的友好，而非强烈的喜悦。"
+}

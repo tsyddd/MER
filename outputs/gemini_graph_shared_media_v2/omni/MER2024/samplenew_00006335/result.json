@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00006335",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "a0bf56d9fb9db16ede1f6dafeaeb4ef47157197d9bed5ab5ad9436046022afb9",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "angry",
+  "emotion_analysis": "目标人物在通话中使用了反问句式“不是……了吗？”，结合其低沉、强硬且带有质问意味的语调，表现出对已知信息的强烈质疑和不满。视觉上，其眉头微皱，表情严肃，与音频中的语气一致。虽然graph专家认为这是中性情绪，但其对“低沉带疑问语气”的描述与音频中实际的强硬质问语气不符，因此该证据的解释不成立。音频和字幕共同证实了质问的语气，这是判断为angry的关键证据。",
+  "output": "目标人物在通话中使用了反问句式“不是……了吗？”，结合其低沉、强硬且带有质问意味的语调，表现出对已知信息的强烈质疑和不满。视觉上，其眉头微皱，表情严肃，与音频中的语气一致。虽然graph专家认为这是中性情绪，但其对“低沉带疑问语气”的描述与音频中实际的强硬质问语气不符，因此该证据的解释不成立。音频和字幕共同证实了质问的语气，这是判断为angry的关键证据。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 131.70773911476135
+}

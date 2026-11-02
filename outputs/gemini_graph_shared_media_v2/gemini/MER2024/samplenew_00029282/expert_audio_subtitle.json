@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物在说出字幕内容时伴随明显的哽咽抽泣与颤抖哭腔[E1]，言语中充满痛心与哀伤[E2]，与画面中眉头紧锁、泪流满面的哭泣神态高度吻合[E3]，明确表现为悲伤（sad）。",
+  "answer": "sad",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "0.00s-2.50s",
+      "observation": "紫衣女子话语伴随明显的哽咽、抽泣断续与带哭腔的气声颤抖，音调悲戚。",
+      "interpretation": "颤抖的哭腔和断续抽泣是悲伤（sad）的核心听觉特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "没想到，你竟然这么傻。",
+      "observation": "台词表达对对方付出或行径的痛惜与无奈。",
+      "interpretation": "言语行为体现出对他人牺牲的心痛与哀戚，加深悲伤语境。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.72",
+      "observation": "目标人物双眉深锁下垂、眼含泪光、嘴角向下拉扯并显露悲哭的面部动态。",
+      "interpretation": "视觉上典型的悲哭神情与听觉中的哽咽高度一致，确认为悲伤。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释为worried（担忧）。虽然台词指出对方行为‘傻’包含关切成分，但发音全程伴随强烈哭泣抽泣与泪水涌现，属于痛心已发事实的悲伤（sad），而非对未定风险的焦虑担忧。"
+}

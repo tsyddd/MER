@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "Ross当前面向并注视Chandler说话，图谱记载其语速平稳、音量清晰（person_0、person_2）。他在短暂停顿后继续完成句子，动作和发声均较稳定，未见明显愤怒、悲伤或惊讶表现（person_3、person_4）。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_0",
+    "person_2",
+    "person_3",
+    "person_4"
+  ]
+}

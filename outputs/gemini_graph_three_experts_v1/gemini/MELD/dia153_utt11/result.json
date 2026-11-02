@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia153_utt11",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "b023c80896f2e13dc2c986e2f32b6b993f29f3e06532e4de681ae7bcdce52d22",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "audio_subtitle与graph专家一致指出，Chandler发声时语调平稳自然且略带调侃，仅在清晰阐述假设情境，无强烈负面情绪波动。image专家虽观察到其眉头紧锁及动作手势，但结合音频听感与对话语境，这些体态主要属于解释与说明过程中的常态表达，并未达到愤怒程度，故判定为中性。",
+  "output": "audio_subtitle与graph专家一致指出，Chandler发声时语调平稳自然且略带调侃，仅在清晰阐述假设情境，无强烈负面情绪波动。image专家虽观察到其眉头紧锁及动作手势，但结合音频听感与对话语境，这些体态主要属于解释与说明过程中的常态表达，并未达到愤怒程度，故判定为中性。\n<answer>neutral</answer>",
+  "label": "fear",
+  "elapsed_seconds": 33.28877925872803
+}

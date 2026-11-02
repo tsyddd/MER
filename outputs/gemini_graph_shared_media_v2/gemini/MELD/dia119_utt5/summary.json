@@ -1,0 +1,8 @@
+{
+  "reason": "独立核验原始音视频，Monica在说话时眉头舒展、面部肌肉放松平稳[image:E1]，随后自然转头伸手准备操作街机，动作从容务实。音轨中其陈述台词“But Ben is coming over tonight and he can’t see this”时语调均匀平稳，节奏从容无颤音或升调慌乱[audio_subtitle:E1]，专家对客观语音与视觉表现的描述完全可信。台词虽涉及避免让孩子看到街机画面的规避诉求，但实际表意为冷静告知理由与付诸行动，完全缺乏恐惧或愤怒的激动特征，综合判定为中性。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E1"
+  ]
+}

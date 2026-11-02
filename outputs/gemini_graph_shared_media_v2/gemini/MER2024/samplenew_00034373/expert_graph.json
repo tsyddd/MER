@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "目标人物在讲述中眉心聚拢、眼中含泪[E1]，结合图谱中对其低语速与哽咽音质的归纳[E2]，以及真实音轨中带有哭腔与抽泣的声学表现，证实其处于追忆凄苦经历导致的悲伤状态，而非对未来风险的担忧。",
+  "answer": "sad",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.16",
+      "observation": "女子双眼饱含泪水，眉毛内侧轻度上扬聚拢，嘴角略向下撇，神情凄楚",
+      "interpretation": "典型的悲哀落泪面容，反映强烈的悲伤情绪体验",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱记录女子发音偏低且语调微颤伴随哽咽",
+      "interpretation": "与真实音轨中颤抖抽泣的语声互为印证，说明情绪指向痛苦与悲凄",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "甚至，连一件衣裳。",
+      "observation": "台词内容为诉说匮乏与凄凉境遇的短句叙述",
+      "interpretation": "语义表述沉浸于过去凄楚事实的倾诉，区分了对不确定危险的worried",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "易因蹙眉而误判为worried（担忧），但其眼眶充盈泪水并伴有哽咽抽泣，且台词并非针对未发生事件的悬心焦虑，而是针对既成受屈事实的悲痛宣泄，故排除worried。"
+}

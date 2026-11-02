@@ -1,0 +1,9 @@
+{
+  "reason": "目标是右侧的Ross：他在frame_01至frame_03短暂低头、略皱眉，随后看向对方并伸手示意；[image:E1]和[image:E2]对这一变化的描述与画面相符。字幕“Y'know, like-like write a play.”是在举例说明想法，[audio_subtitle:E1]据此判断重复措辞不能单独证明紧张，这一判断可信，但没有音轨可核查语调。后段较大的张口和手势也可能显得急切，不过结合话语和表情变化，更接近平常地解释，未见明确占主导的其他情绪。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "audio_subtitle:E1"
+  ]
+}

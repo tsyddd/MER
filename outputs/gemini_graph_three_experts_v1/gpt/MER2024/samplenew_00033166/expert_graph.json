@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "白衣男子正注视女子并持续说话，图谱记载其发声音调上扬、语速连贯无明显停顿〔person_0〕〔person_1〕。他当下说出“难道都要悉数倒戈不成”，以反问方式表现出对局势的担忧〔process_0〕。",
+  "answer": "worried",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "process_0"
+  ]
+}

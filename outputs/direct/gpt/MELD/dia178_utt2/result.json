@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia178_utt2",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "Monica面带明显笑容，抱着婴儿并以轻松、亲切的姿态看向他人。字幕内容表达事情进展顺利，并兴奋地让对方看小婴儿，整体情绪偏愉快。",
+  "output": "Monica面带明显笑容，抱着婴儿并以轻松、亲切的姿态看向他人。字幕内容表达事情进展顺利，并兴奋地让对方看小婴儿，整体情绪偏愉快。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 20.27582287788391,
+  "node_count": null,
+  "edge_count": null
+}

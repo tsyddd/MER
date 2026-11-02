@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，因此无法判断声调、音量、语速或停顿。仅从字幕“Y'know, like-like write a play.”看，内容是随意提出写剧本的想法，没有明确的情绪性词语或强烈态度，当前情绪更接近中性。",
+  "answer": "neutral",
+  "evidence_refs": []
+}

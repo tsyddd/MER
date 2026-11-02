@@ -1,0 +1,9 @@
+{
+  "reason": "目标是沙发上的Monica；字幕“No-no-no, no!”确实是连续制止，但没有音轨，无法核验急促或高亢的语调[audio_subtitle:E1]。她从持书坐着转为前倾、伸手，随后回头张口，动作与试图阻止眼前事情相连[audio_subtitle:E3]；末帧睁眼张口也支持吃惊的解释[image:E2]。相比单纯意外，持续制止更接近对接下来可能发生的负面后果感到惊慌，因此近似归为fear；画面和字幕仍不足以确定她害怕的具体事情。",
+  "answer": "fear",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "audio_subtitle:E3",
+    "image:E2"
+  ]
+}

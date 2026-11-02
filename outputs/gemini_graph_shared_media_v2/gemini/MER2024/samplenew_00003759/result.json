@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00003759",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "d4dc715827dd04c5c7e8bd03b9c748a147a401e0b3bbb9649b82a034b9612827",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "通过核验视频与音频，穿棕色外套的目标人物在听到对方说话后，音调显著拔高并伴有明显的不可置信上扬语调[audio_subtitle:E1]。视觉上其双眼圆睁、眉毛挑起且嘴巴大张成吃惊状[image:E2]，整体动作呈现明显探身求证姿态。各方证据在视听层面高度统一，无怒气或担忧迹象，明确指向惊讶。",
+  "output": "通过核验视频与音频，穿棕色外套的目标人物在听到对方说话后，音调显著拔高并伴有明显的不可置信上扬语调[audio_subtitle:E1]。视觉上其双眼圆睁、眉毛挑起且嘴巴大张成吃惊状[image:E2]，整体动作呈现明显探身求证姿态。各方证据在视听层面高度统一，无怒气或担忧迹象，明确指向惊讶。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 58.97313928604126
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia131_utt3",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "cd3d3c8c807c19df6b632ee4fea884ed6da5a8289e78f2f9813b77504e417e13",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "图像和图谱专家一致指出Rachel在整理衣物及摊手交流时面部平静自然、眉头舒展，无明显笑意或高昂情绪迸发；音频专家虽提及语调轻快微扬，但这主要符合日常积极礼貌的回应，未达到喜悦的激动程度，综合判定为平和陈述的中性状态。",
+  "output": "图像和图谱专家一致指出Rachel在整理衣物及摊手交流时面部平静自然、眉头舒展，无明显笑意或高昂情绪迸发；音频专家虽提及语调轻快微扬，但这主要符合日常积极礼貌的回应，未达到喜悦的激动程度，综合判定为平和陈述的中性状态。\n<answer>neutral</answer>",
+  "label": "joy",
+  "elapsed_seconds": 44.70873761177063
+}

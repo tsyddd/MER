@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia224_utt2",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "1a93519324deb7114b711ca1273c4ab6d476608084d6a740754472aedd789a3b",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "平静",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据MELD项目的情绪轮定义，'neutral'指当前平稳、日常且没有明确主导情绪的表达。目标人物在催眠指令下保持静止，无任何面部表情或身体动作来指示特定情绪，其状态与催眠过程中的预期行为一致，即放松和专注。因此，'平静'这一开放情绪词最符合'neutral'的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "平静",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据MELD项目的情绪轮定义，'neutral'指当前平稳、日常且没有明确主导情绪的表达。目标人物没有表现出任何积极或消极的情绪，其状态是被动的、平稳的，符合'neutral'的定义。"
+    },
+    "image": {
+      "open_emotion": "relaxed",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据情绪轮定义，'neutral'指当前平稳、日常且没有明确主导情绪的表达。该人物的面部表情和姿态均未表现出joy、sadness、anger、fear、disgust或surprise的典型特征。其状态更符合一种平稳、无明显情绪波动的中性，且与音频中的放松指令一致，因此映射为'neutral'是合理的。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物（躺在床上的男子）在催眠磁带播放“Deeper.”时，双眼紧闭，身体保持静止，未表现出任何可观察到的情绪反应。催眠磁带的声音语调平缓柔和，内容为指令性词语，旨在引导放松。当前画面中无任何迹象表明目标人物正在体验喜悦、愤怒、悲伤、恐惧或厌恶等情绪。其生理状态（静止、闭眼）与催眠情境相符，表现为一种平稳、无明显情绪波动的状态。因此，最合理的解释是当前情绪为中性。",
+  "output": "目标人物（躺在床上的男子）在催眠磁带播放“Deeper.”时，双眼紧闭，身体保持静止，未表现出任何可观察到的情绪反应。催眠磁带的声音语调平缓柔和，内容为指令性词语，旨在引导放松。当前画面中无任何迹象表明目标人物正在体验喜悦、愤怒、悲伤、恐惧或厌恶等情绪。其生理状态（静止、闭眼）与催眠情境相符，表现为一种平稳、无明显情绪波动的状态。因此，最合理的解释是当前情绪为中性。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 163.7195909023285
+}

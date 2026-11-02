@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035599",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sad",
+  "emotion_analysis": "该人物眼眶湿润，表情悲伤，结合台词“手里还握着一截风筝线”所营造的凄凉氛围，其情绪表现为悲伤。",
+  "output": "该人物眼眶湿润，表情悲伤，结合台词“手里还握着一截风筝线”所营造的凄凉氛围，其情绪表现为悲伤。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 5.226907730102539,
+  "node_count": null,
+  "edge_count": null
+}

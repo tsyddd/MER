@@ -1,0 +1,10 @@
+{
+  "reason": "经核对音轨与画面，目标人物Joey在音频中喊出'you go to the top of the building'时音量骤升、咬字重且带有强烈的冲劲与烦躁感[audio_subtitle:E1]，直接推翻了专家graph关于'语调平稳平静'的论断[graph:E3]。视觉上他在frame_03至frame_05不仅眉头紧锁下压，而且伴随嘴角紧绷下撇及右手食指用力指点的压迫性体态[image:E1][image:E2]。言语互动中这种高唤醒的反驳与施压态度，展现出明显的烦躁与怒意，而非纯粹理性的中性说理，因此判定为anger最符合实际线索。",
+  "answer": "anger",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "graph:E3",
+    "image:E1",
+    "image:E2"
+  ]
+}

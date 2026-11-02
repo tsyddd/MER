@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00021837",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "4ea7680e20f81851cd4a88935382e146f7572d96f8fec674a7c229992a63b048",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "图谱与8帧图片都描述其坐姿、表情和状态整体稳定克制，未见支持愤怒、悲伤或担忧的明显证据；音频未提供，不能作听觉判断，但字幕内容为平静陈述，未表达其他明显情绪。三方信息总体一致，因此判断为中性。",
+  "output": "图谱与8帧图片都描述其坐姿、表情和状态整体稳定克制，未见支持愤怒、悲伤或担忧的明显证据；音频未提供，不能作听觉判断，但字幕内容为平静陈述，未表达其他明显情绪。三方信息总体一致，因此判断为中性。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 92.14200234413147
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00005612",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物是画面中戴围巾、正在说话并递出文件的男子。字幕内容是请对方将文件转交总理过目，属于当前事务性表达；其表情严肃但没有明显愤怒、悲伤、喜悦或惊讶特征。",
+  "output": "目标人物是画面中戴围巾、正在说话并递出文件的男子。字幕内容是请对方将文件转交总理过目，属于当前事务性表达；其表情严肃但没有明显愤怒、悲伤、喜悦或惊讶特征。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 21.31111788749695,
+  "node_count": null,
+  "edge_count": null
+}

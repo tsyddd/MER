@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者质问对方是否为了把Joey的东西搬进来而试图把她赶出公寓，语气中带有明显的责备和不满。她的语调在句尾上扬，表现出一种被冒犯后的质问和挑战，而非单纯的惊讶或悲伤。结合她紧锁的眉头和严肃的表情，可以判断这是一种因感到被针对或不公而产生的愤怒情绪。",
+  "open_emotion": "愤怒",
+  "answer": "anger",
+  "mapping_reason": "根据MELD项目的情绪轮定义，'anger'指对冒犯、受阻或不公的恼火、责备与对抗。说话者的话语内容（'try and drive me out of the apartment'）直接表达了她认为自己受到了不公对待，其质问的语气和表情也符合责备与对抗的特征，因此映射到'anger'是准确的。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Did you get all this stuff for Joey to try and drive me out of the apartment?",
+      "observation": "说话者在质问对方，认为对方的行为（为Joey搬东西）是为了把她赶出公寓。",
+      "interpretation": "该话语内容直接表达了说话者认为自己受到了不公对待，是愤怒情绪的直接来源。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:04.296",
+      "observation": "说话者的语调在句尾明显上扬，语气尖锐，带有强烈的质问和挑战意味。",
+      "interpretation": "这种语调变化表明说话者并非在陈述事实，而是在表达不满和责备，这是愤怒情绪的典型语言行为。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 - frame_07",
+      "observation": "说话者（Rachel）的眉头紧锁，表情严肃，眼神直视对方。",
+      "interpretation": "面部表情与话语内容和语气一致，共同强化了她因感到被针对而产生的愤怒和不满。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。"
+}

@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物Rachel抱着婴儿，表情痛苦，声音颤抖，语速快，音量高，表现出极大的无助和焦虑。她的话语“what am I gonna do”（我该怎么办）和“it won't stop crying”（它不停地哭）直接表达了她对无法安抚婴儿的挫败感和不知所措。这种无助感和对持续负面事件（婴儿哭闹）的无力应对，最符合悲伤（sadness）的特征，即因无法控制的负面情况而感到难过和沮丧。",
+  "open_emotion": "悲伤",
+  "answer": "sadness",
+  "mapping_reason": "根据MELD项目的情绪轮定义，'sadness'指因失落、损失或痛苦而难过、哀伤或低落。Rachel的处境是她无法让婴儿停止哭泣，这让她感到非常痛苦和沮丧。她的声音和表情都表现出一种深切的困扰和无助，这与悲伤的核心特征相符。虽然她也可能感到愤怒或恐惧，但主导情绪是因无法解决问题而产生的悲伤。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:05",
+      "observation": "Rachel的声音颤抖，语速快，音量高，表现出明显的焦虑和痛苦。",
+      "interpretation": "声音的颤抖和高音量表明她正处于一种强烈的情绪激动状态，无法平静。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Oh come on, what am I gonna do, its been hours and it won't stop crying.",
+      "observation": "字幕显示她正在表达对婴儿持续哭泣的无助和不知所措。",
+      "interpretation": "话语内容直接揭示了她因无法解决问题而感到的挫败和悲伤。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00-frame_07",
+      "observation": "Rachel的表情痛苦，眉头紧锁，嘴巴微张，显示出她正在承受巨大的压力。",
+      "interpretation": "面部表情与她的话语和声音相匹配，共同证实了她正处于一种悲伤和焦虑的状态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽然Rachel的语调和声音听起来有些激动，可能被误认为是愤怒（anger），但她的核心问题是“我该怎么办”（what am I gonna do），这是一种无助的询问，而不是对某人或某事的责备。因此，愤怒的解释力不如悲伤。"
+}

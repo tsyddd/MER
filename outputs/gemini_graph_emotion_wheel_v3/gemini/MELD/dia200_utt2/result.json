@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia200_utt2",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "2223d26305da5c16666ed91ea00f333b6d907f4eba1818669a8c3acca13b8f5f",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "Joey在逐一排除在场所有可能对象后，因结果打破预期、出现无法合理解释的谜团而产生强烈困惑与错愕，符合情绪轮中面对违背预期信息而引发诧异的主导特征，故映射至surprise家族。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "Joey因常规预期的人选全部被排除而感到意外与困惑，符合surprise（面对违背预期信息而诧异、惊奇）的定义。"
+    },
+    "image": {
+      "open_emotion": "纳闷",
+      "mapped_label": "surprise",
+      "mapping_reason": "Joey在逐一排除拿走物品的可能人选后，发现推导出的情况违背了常规预期，陷入百思不得其解的诧异与困惑状态，符合surprise家族关于面对意外或不合预期情况的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "目标人物Joey在连续排查所有人选后抛出核心质问[audio_subtitle:E1]。经独立核对音视频，正如[audio_subtitle:E2]与[image:E2]所述，Joey在说出尾句'then who did?'时语调急剧上扬拔高并附带显著重音，配合向前探身、摊手及注视同伴的体态，明确展现出逻辑预期落空后的错愕与费解。尽管前段推论语气较为平稳易被怀疑为中性日常交谈（neutral），但末句突出的质问重音与打破常规认知的纳闷反应排除了平稳中性，符合面对超预期局面的惊诧家族定义。",
+  "output": "目标人物Joey在连续排查所有人选后抛出核心质问[audio_subtitle:E1]。经独立核对音视频，正如[audio_subtitle:E2]与[image:E2]所述，Joey在说出尾句'then who did?'时语调急剧上扬拔高并附带显著重音，配合向前探身、摊手及注视同伴的体态，明确展现出逻辑预期落空后的错愕与费解。尽管前段推论语气较为平稳易被怀疑为中性日常交谈（neutral），但末句突出的质问重音与打破常规认知的纳闷反应排除了平稳中性，符合面对超预期局面的惊诧家族定义。\n<answer>surprise</answer>",
+  "label": "anger",
+  "elapsed_seconds": 82.137442111969
+}

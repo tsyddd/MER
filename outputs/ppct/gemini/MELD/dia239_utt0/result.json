@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia239_utt0",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "Gunther在门边向Chandler询问里面是否有人（节点process_0、person_1），其神态平和、语调平静自然，并无明显的愤怒、喜悦或惊恐等极端情绪波动，整体表现为日常的中性随口询问。",
+  "output": "Gunther在门边向Chandler询问里面是否有人（节点process_0、person_1），其神态平和、语调平静自然，并无明显的愤怒、喜悦或惊恐等极端情绪波动，整体表现为日常的中性随口询问。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 37.678136587142944,
+  "node_count": 6,
+  "edge_count": 4
+}

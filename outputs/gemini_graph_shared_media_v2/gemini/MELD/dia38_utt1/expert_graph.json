@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "当前互动事件为Joey向同伴分享其学生获得试镜资格的好消息[process_0]。从图谱与实际音画交叉核实可见，Joey先是双手抚在胸前[person_1]、发出温柔感叹声[person_2]，并在结尾处嘴角上扬露出发自内心的微笑[person_3]，这一系列动作和台词语义紧密契合，共同表达出因学生成就而产生的欣慰、自豪与喜悦[E1, E2, E3]。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "Joey双手抬起交叉按在胸前，并在整个片段持续此动作",
+      "interpretation": "双手抚胸体态在当前情境下配合好消息转述，展现出被触动、欣慰的温情姿态，支持正面情感表达",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "Joey以柔和拉长的'Awww'开场，语调温和且带有上扬的欣慰感说出'I'm so proud'",
+      "interpretation": "声音轻柔、充满温情与自豪，与图谱节点[person_2]的轻叹柔和特征相符，直接体现出欣喜与爱护感",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_07 @ 3.42s",
+      "observation": "Joey头微倾斜，双眼含笑，嘴角明显上扬露出微笑",
+      "interpretation": "与图谱节点[person_3]互补，明确呈现分享喜讯时的满足与喜悦神态，排除了纯粹中性或负面情绪的可能",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "双手抚胸加微蹙的眉眼在脱离语境时可能被误判为悲伤或同情；但当前事件语义为学生获得试镜机会的利好消息（'got an audition'），且Joey明确陈述'I'm so proud'并伴有嘴角微笑，排除了sadness与neutral。"
+}

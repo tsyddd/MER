@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物说“过去的事，不怪你。”这是安慰和宽解，并非责备或反讽；但画面中他眼含泪光、眉眼下垂，配合克制的表情，显示出与这段往事相关的悲伤情绪。[E1][E2]由于未提供音频，无法判断语调、停顿或音量。",
+  "answer": "sad",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "当前字幕原话：“过去的事，不怪你。”",
+      "observation": "说话内容是在否认责怪、安慰对方，并提及过去的事情。",
+      "interpretation": "言语行为是宽慰和释怀，语义本身不直接表达愤怒；提到往事也不等于说话者必然悲伤，但构成情绪语境限制。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01至frame_07 @ 0.36至2.4秒",
+      "observation": "目标人物眼部湿润、眼神偏向下方，眉眼和嘴角较为下垂，面部表情克制。",
+      "interpretation": "这些可见线索与压抑、伤感或悲痛更一致，支持sad，而非轻松的neutral或happy。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00至frame_07 @ 0.0至2.4秒",
+      "observation": "人物始终保持较稳定的正面姿态和低幅度表情变化，没有明显激烈动作或攻击性表情。",
+      "interpretation": "限制了angry和surprise的判断，但平静外表不能排除克制的悲伤。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是neutral：字幕语义温和、人物没有明显激烈动作，可能只是平静地安慰对方。但持续的湿润眼神和下垂眉眼更支持克制的悲伤；若有实际音频，仍需进一步核查是否存在平稳、无情绪负荷的语调。"
+}

@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。仅根据字幕“I’m so sorry!”可见目标人物在表达歉意，语气内容偏向懊悔与低落，因此选择sadness。",
+  "answer": "sadness",
+  "evidence_refs": []
+}

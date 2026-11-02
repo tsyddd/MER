@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia263_utt9",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "748766277a851f3c168859458c00ae3a054753904e4b2ab4fc17828900a7ca74",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "回看前两帧（frame 0与frame 1）可见Ross视线向下垂落、双肩微缩，面部肌肉松弛下沉[image:E1]，展现出典型的消沉体态。核对实际音频，其说话音量低弱、语速沉滞且伴随叹息般的下沉语调[audio_subtitle:E2]，与字幕表达被迫放弃对象的无奈内容[audio_subtitle:E1]高度呼应。尽管人物未出现剧烈的哭泣表现容易被误以为是陈述事实的neutral，但低能量的颓丧体态与叹息语调排除了客观平静状态，多模态线索统一指向悲伤情绪。",
+  "output": "回看前两帧（frame 0与frame 1）可见Ross视线向下垂落、双肩微缩，面部肌肉松弛下沉[image:E1]，展现出典型的消沉体态。核对实际音频，其说话音量低弱、语速沉滞且伴随叹息般的下沉语调[audio_subtitle:E2]，与字幕表达被迫放弃对象的无奈内容[audio_subtitle:E1]高度呼应。尽管人物未出现剧烈的哭泣表现容易被误以为是陈述事实的neutral，但低能量的颓丧体态与叹息语调排除了客观平静状态，多模态线索统一指向悲伤情绪。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 48.46270394325256
+}

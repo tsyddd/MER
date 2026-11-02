@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物在音轨中语调轻柔平稳、语速舒缓适中，语气平和自然，陈述'皇上闻着，正好，消乏，安睡'[E1]；视觉上神态安详平稳，无明显的喜怒哀乐剧烈波动[E2]，整体符合平静、温和的中性状态。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "0.00-2.20",
+      "observation": "目标人物以均匀平缓的语速陈述字幕内容，音量较低且语调温和克制，无情绪高扬的笑意或颤音，也无紧迫或忧虑感",
+      "interpretation": "平和、稳定的韵律特征表明说话人处于冷静、安宁的日常陈述状态，支持中性",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.32s",
+      "observation": "面部神情舒展平静，眉毛自然放松，嘴角略带自然弧度但未形成明显笑容",
+      "interpretation": "面部表情与平缓语调一致，缺乏强烈的积极愉悦或消极情绪外露，支持中性判断",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释为happy（温存体贴或带有侍奉的温和柔意）。但音轨中并无带笑发音（smiling voice）或音调轻快上扬的特征，且面部肌肉无明显笑肌提起，故不判定为happy。"
+}

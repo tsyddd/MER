@@ -1,0 +1,10 @@
+{
+  "reason": "我核看frame_00至frame_07，目标人物始终端坐平视，只有轻微皱眉、抿唇，frame_07出现短暂闭口微笑，未见持续的强烈悲伤、愤怒、担忧或惊讶。字幕原话“我印象最深的一户人家，祖祖辈辈种地。”是平直叙述，不能仅凭回忆题材推断负面情绪；这一点与[image:E1]和[audio_subtitle:E1]的判断相符。末帧微笑幅度很小，和[image:E3]所说的礼貌性或放松表情更一致，不足以改判为happy。图谱关于语速、语调的转述[graph:E3]因没有音轨无法直接核验，因此不作为关键依据，综合可见表现仍取neutral。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E1",
+    "image:E3",
+    "graph:E3"
+  ]
+}

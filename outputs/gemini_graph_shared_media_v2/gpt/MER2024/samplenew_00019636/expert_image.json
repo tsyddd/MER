@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物为画面中央的男性。其从低头、眉头收紧逐渐转为持续皱眉并抬手触碰下巴，结合字幕中对胡十四娘年龄与容貌的疑惑，最支持担忧/疑惑状态；但没有明显哭泣或强烈激动表现。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01 @ 1.24秒至frame_03 @ 3.72秒",
+      "observation": "目标人物眉头逐渐收紧，目光向下并偏向一侧，嘴部持续变化。",
+      "interpretation": "这些可见变化支持他在思索并对所见情况感到疑惑或不安，较符合worried而非happy。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 4.92秒至frame_07 @ 8.64秒",
+      "observation": "目标人物抬手放在下巴附近，保持皱眉和较为克制的面部姿态，随后正视前方。",
+      "interpretation": "下巴处的手势与持续紧蹙的眉形共同表现出审视、顾虑和思考，支持worried。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "当前字幕原话：“那胡十四娘，真的一百多岁了，我怎么看也不像啊！那晚，她说，她用了人面花，得以拥抱青春。”",
+      "observation": "字幕内容反复质疑对方真实年龄及外貌，并提到使用人面花保持青春。",
+      "interpretation": "语言内容与画面中的皱眉、凝视和思索姿态相互印证了疑惑和顾虑；这是字幕信息，不是额外的视觉事实。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "他没有明显张口怒斥、激烈动作或可见悲伤表情，静止的皱眉和摸下巴也可能只是中性思考；但结合持续的眉头收紧、审视目光及字幕中的质疑，仍以worried最符合。"
+}

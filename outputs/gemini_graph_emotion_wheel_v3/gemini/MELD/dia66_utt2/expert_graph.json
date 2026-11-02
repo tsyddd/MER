@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "在机舱门下机事件链中，乘务员询问服务体验，Rachel 正面应答[process_0, process_1]。跨模态核验表明，Rachel 并非仅作日常事务性敷衍，而是在互动全过程持续展露大幅度露齿微笑[person_0, person_2]，并在音轨中以轻快、真诚且上扬的语调表达感谢与高度肯定（'Thank you very much, it was excellent.'）。事件语义显示出明确的正向体验与满足感，而非纯礼仪性的中性回应。",
+  "open_emotion": "愉悦",
+  "answer": "joy",
+  "mapping_reason": "开放情绪'愉悦'体现了当前对体验的高度满意与开心互动，完全符合情绪轮中 joy 家族关于正向愉悦、满足体验的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱记录 Rachel 面对乘务员持续面带微笑注视对方，与 frame_01 至 frame_06 中清晰展现的展颜露齿笑容完全吻合。",
+      "interpretation": "持续且自然的真诚笑容直接反映出当前积极愉快的心理状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:01-00:04",
+      "observation": "真实音轨中 Rachel 回答“Yes, I did. Thank you very much, it was excellent.”语调轻快柔和、带有明显的笑意与上扬起伏。",
+      "interpretation": "听觉层面的笑意与轻快语调与图谱中仅描述为‘平缓’形成跨模态互补，证实其言语带有真实的愉快感。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Yes, I did. Thank you very much, it was excellent.",
+      "observation": "台词对乘务员提问给予明确肯定并使用强烈积极评价词‘excellent’。",
+      "interpretation": "语义评价指向正向满足，支撑其愉悦积极的情感表达。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "一种合理的替代解释是机舱道别场景中的礼貌客套（neutral），但 Rachel 视觉上大幅露齿的开朗神态和音轨中真切的赞许语气明显超越了克制平淡的常规客套边界。"
+}

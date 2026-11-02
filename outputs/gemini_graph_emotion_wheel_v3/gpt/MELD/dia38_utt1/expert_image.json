@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是左侧穿亮蓝衬衫的Joey，右侧背对镜头的人不是判断对象。[E1]他面向对方说话时将双手叠放胸前；[E2]随后嘴角逐渐上扬，最后露出明显笑容。字幕中的“I'm so proud”[E3]与这一变化相符，最支持他正为学生感到欣慰和自豪。",
+  "open_emotion": "欣慰",
+  "answer": "joy",
+  "mapping_reason": "此处的欣慰指为学生获得试镜机会而感到满足的正向体验，按情绪轮映射为joy。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_02（0.959秒）",
+      "observation": "Joey面向右侧的人说话，从双手未置于胸前变为将双手叠放胸前。",
+      "interpretation": "姿态变化显示他投入地表达个人感受，但手势本身不能确定情绪类别。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03（1.460秒）至frame_07（3.420秒）",
+      "observation": "Joey持续看向对方，嘴角逐渐上扬，末帧露出明显笑容。",
+      "interpretation": "逐渐显现的笑容支持正向感受，而非仅凭单帧笑容判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“Awww, one of my students got an audition. I’m so proud.”",
+      "observation": "字幕说明Joey的学生获得了试镜机会，并写明“I’m so proud”。",
+      "interpretation": "话语为画面中的正向表情提供了具体对象和含义；这不是对语调的判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "他在前几帧眉头略收、表情并非始终开朗，双手放在胸前也可能表示动容而不必然是开心；但后续笑容及字幕所述的自豪，使欣慰成为更有支持的解释。"
+}

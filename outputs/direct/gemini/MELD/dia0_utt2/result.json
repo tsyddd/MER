@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia0_utt2",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "在片段中，瑞秋坐在餐桌旁神情平静，目光自然向下并随口说出台词，语气平稳舒缓，没有表现出愤怒、悲伤、喜悦或惊讶等强烈情绪，属于自然的中性状态。",
+  "output": "在片段中，瑞秋坐在餐桌旁神情平静，目光自然向下并随口说出台词，语气平稳舒缓，没有表现出愤怒、悲伤、喜悦或惊讶等强烈情绪，属于自然的中性状态。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 8.26926326751709,
+  "node_count": null,
+  "edge_count": null
+}

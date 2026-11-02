@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia50_utt2",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "fcd38a66edaf51c357f7f05241b31338cc6543efc841a51ccf79324b15367974",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "逐帧看，目标女学生在前几帧低身避开赤膊男子，随后向左侧离开；[graph:E1]对动作的描述大体可核实，但将其解释为惊讶仍是推断。字幕“I’m so sorry!”[audio_subtitle:E1]可核实为道歉，不能单凭措辞判定情绪；本段没有音轨，无法核实语气。[image:E1]指出她的脸部不清晰，这限制了对表情的判断。相较于持续恐惧，短暂退避并道歉更支持对眼前状况的即时惊讶，但无法确定她为何道歉。",
+  "output": "逐帧看，目标女学生在前几帧低身避开赤膊男子，随后向左侧离开；[graph:E1]对动作的描述大体可核实，但将其解释为惊讶仍是推断。字幕“I’m so sorry!”[audio_subtitle:E1]可核实为道歉，不能单凭措辞判定情绪；本段没有音轨，无法核实语气。[image:E1]指出她的脸部不清晰，这限制了对表情的判断。相较于持续恐惧，短暂退避并道歉更支持对眼前状况的即时惊讶，但无法确定她为何道歉。\n<answer>surprise</answer>",
+  "label": "fear",
+  "elapsed_seconds": 91.75361776351929
+}

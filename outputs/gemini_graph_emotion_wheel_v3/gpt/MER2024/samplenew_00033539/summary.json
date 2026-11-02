@@ -1,0 +1,9 @@
+{
+  "reason": "核对frame_00至frame_07，画面中的女性持续皱眉、张口，视线和头部逐渐转向右侧；[image:E1][image:E2]对这些变化的描述可信，但皱眉本身不能定类。字幕“啊？真的。”是对信息的即时求证，[audio_subtitle:E1]与画面反应相互印证，更支持诧异。持续皱眉也可能表示疑虑，但片段没有呈现她对后果的担忧；未提供音轨，不能核实语调。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "audio_subtitle:E1"
+  ]
+}

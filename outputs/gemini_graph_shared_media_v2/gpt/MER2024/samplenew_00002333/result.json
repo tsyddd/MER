@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00002333",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "0e9fbf235f4db8f0d6cbb4c5b79681cf485a4b2bfdd80a92849380e07b412f8e",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "happy",
+  "emotion_analysis": "我核对了目标人物的帧：frame_00至frame_04可见嘴角上扬、露齿且眼角微眯，构成较明确的微笑表现；frame_05至frame_07笑容收敛、继续说话，限制了“强烈开心”的判断，但未出现足以支持悲伤、愤怒或担忧的变化。[image:E1][image:E3] 图谱对前段笑容的描述与画面相符，但只是重复同一视觉证据，不能作为额外证据；且无音轨，无法核验任何语气转述。[graph:E1] 字幕字段与画面中可见的“向中央交待”存在不一致，因此不以话语语义改变视觉判断。[audio_subtitle:E1]",
+  "output": "我核对了目标人物的帧：frame_00至frame_04可见嘴角上扬、露齿且眼角微眯，构成较明确的微笑表现；frame_05至frame_07笑容收敛、继续说话，限制了“强烈开心”的判断，但未出现足以支持悲伤、愤怒或担忧的变化。[image:E1][image:E3] 图谱对前段笑容的描述与画面相符，但只是重复同一视觉证据，不能作为额外证据；且无音轨，无法核验任何语气转述。[graph:E1] 字幕字段与画面中可见的“向中央交待”存在不一致，因此不以话语语义改变视觉判断。[audio_subtitle:E1]\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 149.8746018409729
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia245_utt4",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "1528c89a9e48293f5c22e3f68968c73260009900840f78dcfab7366d2748796f",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "fear",
+  "emotion_analysis": "独立回看，目标是从frame_02起坐在沙发上的Monica，并非前两帧门边的人；她张口转向门边，随后在frame_05至frame_07前倾伸手、再次抬头，动作并非一瞬即止。[image:E1][image:E2]所述动作可从画面核实，字幕“No-no-no, no!”也确实是连续否定[audio_subtitle:E1]，两者结合更像急于制止时的紧张警觉，而非仅有短暂惊讶。画面没有交代具体危险，且未提供音轨，不能据语调进一步判断；在可见线索下取fear。",
+  "output": "独立回看，目标是从frame_02起坐在沙发上的Monica，并非前两帧门边的人；她张口转向门边，随后在frame_05至frame_07前倾伸手、再次抬头，动作并非一瞬即止。[image:E1][image:E2]所述动作可从画面核实，字幕“No-no-no, no!”也确实是连续否定[audio_subtitle:E1]，两者结合更像急于制止时的紧张警觉，而非仅有短暂惊讶。画面没有交代具体危险，且未提供音轨，不能据语调进一步判断；在可见线索下取fear。\n<answer>fear</answer>",
+  "label": "fear",
+  "elapsed_seconds": 81.34540796279907
+}

@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia233_utt1",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "28377b2eb5597e7f5b05f1f254a992b627c9f9588a264363ea2c03cb09ddd88d",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "不满",
+      "mapped_label": "anger",
+      "mapping_reason": "当前的不满主要指向对方的做法，表现为质疑和反驳，因此映射到anger中的轻度恼火，而非把她提及的怕鱼直接映射为fear。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "恼火",
+      "mapped_label": "anger",
+      "mapping_reason": "当前表达的重点是对对方行为的责备与不满，因此将“恼火”映射为anger；提到鱼曾让她害怕，不等于此刻主要表现为fear。"
+    },
+    "image": {
+      "open_emotion": "恼火",
+      "mapped_label": "anger",
+      "mapping_reason": "当前表达指向对对方做法的不满与责备，符合anger中的轻度恼火；不是仅凭张口或皱眉判定。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "目标是左侧穿粉色上衣的Rachel；她面对对方抬手强调，随后皱眉、收紧嘴角，画面支持不满的表达，但单凭表情不能定性[image:E1][image:E2]。字幕中“you might as well just gotten him a fish”是在评价对方的做法，“you know”进一步将责备指向对方[audio_subtitle:E1][audio_subtitle:E2]。最强反证是“fish freaked me out”，但它说的是鱼曾带给她的感受，并非此刻正面临威胁；未提供音轨，不能核验语气。综合判断，当前主导情绪更接近恼火。",
+  "output": "目标是左侧穿粉色上衣的Rachel；她面对对方抬手强调，随后皱眉、收紧嘴角，画面支持不满的表达，但单凭表情不能定性[image:E1][image:E2]。字幕中“you might as well just gotten him a fish”是在评价对方的做法，“you know”进一步将责备指向对方[audio_subtitle:E1][audio_subtitle:E2]。最强反证是“fish freaked me out”，但它说的是鱼曾带给她的感受，并非此刻正面临威胁；未提供音轨，不能核验语气。综合判断，当前主导情绪更接近恼火。\n<answer>anger</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 72.4204454421997
+}

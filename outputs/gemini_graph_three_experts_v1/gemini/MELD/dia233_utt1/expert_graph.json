@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "根据图谱记载，Rachel在说话时双手向身体两侧张开并摆动以示强调〔person_1〕，同时语速较快、语调微扬且带有重音〔person_2〕。她面向对方接连表达质疑与反驳〔process_0, process_1〕，台词中虽提及对鱼的恐惧记忆，但当前情境中并无实际威胁物，其整体肢体与语调均体现出对对方做法的不满与愠怒（anger）。",
+  "answer": "anger",
+  "evidence_refs": [
+    "person_1",
+    "person_2",
+    "process_0",
+    "process_1"
+  ]
+}

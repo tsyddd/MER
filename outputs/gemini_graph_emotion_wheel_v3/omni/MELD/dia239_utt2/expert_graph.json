@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "Chandler在与一名女子互动时，其言语表现出明显的迟疑和重复（'So uh, did ya, did-did-did ya fall high?'），同时伴随摊手、结巴等非语言行为，这些是典型的试探性或尴尬情绪的表现。尽管他试图用玩笑开启对话，但其行为模式更接近于社交上的不确定和尴尬，而非纯粹的喜悦或中性。因此，最合适的开放情绪是'尴尬'。",
+  "open_emotion": "尴尬",
+  "answer": "neutral",
+  "mapping_reason": "根据提供的情绪轮，'尴尬'（embarrassment）没有被列为Level1标签。在所有可用的标签中，'neutral'（中性）最接近当前表现。Chandler的行为虽然带有社交上的不确定性，但并未表现出强烈的正向（如joy）或负向（如anger, sadness, fear, disgust）情绪，也没有表现出意外（surprise）。他的行为更像是一种日常的、非情绪化的社交互动，因此映射到'neutral'是合理的近似，尽管这可能掩盖了其行为中的细微社交紧张感。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00:04.796 - 00:00:06.715",
+      "observation": "Chandler的台词为'So uh, did ya, did-did-did ya fall high?'，其中包含明显的语速停顿和词语重复。",
+      "interpretation": "言语上的重复和犹豫是社交尴尬或试探性行为的典型特征，表明说话者在不确定如何继续对话。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04",
+      "observation": "Chandler面向女子，右手向前摊开，手掌向上。",
+      "interpretation": "这是一种开放的、非对抗性的手势，常用于解释、提问或试图缓和气氛，与尴尬或试探的情绪状态相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "Chandler在与女子互动时，'语速出现停顿与重复'。",
+      "interpretation": "图谱节点直接描述了Chandler的言语特征，这与音频中的停顿和重复一致，是判断其情绪状态的关键证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "尽管Chandler的行为带有试探性，但其整体语调和场景（朋友间的互动）可能被解读为一种轻松的玩笑。然而，音频中明确的言语停顿和重复，以及图谱中对'试探性'的描述，使得'尴尬'或'社交不确定'的解释比纯粹的'玩笑'（joy）或'中性'（neutral）更具针对性。"
+}

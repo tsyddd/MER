@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "Ross以坚定且较快的语调直接指控对方，并配合伸手指向前方的动作〔person_1〕〔person_0〕；随后连续要求对方坦白，手势和言语共同呈现出明显的施压与对抗姿态〔process_0〕〔process_2〕。",
+  "answer": "anger",
+  "evidence_refs": [
+    "person_1",
+    "person_0",
+    "process_0",
+    "process_2"
+  ]
+}

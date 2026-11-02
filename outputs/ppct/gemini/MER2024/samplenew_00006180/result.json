@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00006180",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "女老师在课堂上面向学生讲课提问时神态平静自若，语速平缓且语调和缓清晰（参考节点person_0、person_1与process_0、process_1）。在听到学生积极回应后，她面部保持专注平和地注视前方聆听（参考节点person_4与process_3），整体表现出平稳客观的教学常态，无明显强烈情绪波动。",
+  "output": "女老师在课堂上面向学生讲课提问时神态平静自若，语速平缓且语调和缓清晰（参考节点person_0、person_1与process_0、process_1）。在听到学生积极回应后，她面部保持专注平和地注视前方聆听（参考节点person_4与process_3），整体表现出平稳客观的教学常态，无明显强烈情绪波动。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 49.28959608078003,
+  "node_count": 10,
+  "edge_count": 9
+}

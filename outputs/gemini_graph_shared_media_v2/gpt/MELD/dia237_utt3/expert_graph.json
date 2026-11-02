@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "Joey是在回应身旁的Monica，谈论当前的“whipped fish”，并说自己只是庆幸还能“keeping it down”[E1][E3]。这比字面上的“happy”更像对食物的反感；说话时皱眉、表情不适，也支持disgust[E2]。图谱称他语调平缓，但未提供原音轨，不能亲耳核验，也不能据此推翻当前可核实的表达[E4]。",
+  "answer": "disgust",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "I'm just happy I'm keeping it down, y'know?",
+      "observation": "Joey说自己只是庆幸还能把它咽下去。",
+      "interpretation": "结合他正在谈论的whipped fish，这句话指向对食物的反感，而非单纯高兴。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.9592909218755783秒；frame_03 @ 2.8361644646756226秒",
+      "observation": "Joey仰头对Monica说话时眉头紧皱，表情显得不适，随后短暂露出勉强的笑。",
+      "interpretation": "表情与对食物的负面说法相符；短暂的笑不足以单独判为joy。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "图谱记录Joey面向Monica谈论“whipped fish”。",
+      "interpretation": "明确当前互动的对象和话题，使“keeping it down”更适合按食物语境理解；此节点与字幕同源，不算独立的情绪证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱转述Joey说话语调平缓、音量适中。",
+      "interpretation": "没有原音轨可供亲耳核验；即使属实，平缓语调也不能单独确定他不反感。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "“happy”和短暂的笑可解释为joy，但他说的是庆幸自己还能把食物咽下去；结合皱眉和不适表情，未采用joy。"
+}

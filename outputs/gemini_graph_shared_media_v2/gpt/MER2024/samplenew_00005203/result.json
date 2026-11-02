@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00005203",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "80ed71fa2ffabbd46e09fee5b9edb8082b0b4d584293ba2c216376d47e0f2d8d",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "我独立回看frame_00至frame_07，目标人物为画面右侧粉衣女子；她持续低垂视线、头部略低，眉部收紧且缺少笑意，表现克制低落。[image:E1][image:E2]字幕“我也不想跟你分开。”直接表达对分离的不舍，与上述视觉表现互相支持悲伤，而非单纯中性。[audio_subtitle:E1]最强反证是担忧或克制的忧虑，但画面中持续下视和分离语义比担忧更直接指向sad；无音轨，因此不采信专家关于语调的图谱转述。",
+  "output": "我独立回看frame_00至frame_07，目标人物为画面右侧粉衣女子；她持续低垂视线、头部略低，眉部收紧且缺少笑意，表现克制低落。[image:E1][image:E2]字幕“我也不想跟你分开。”直接表达对分离的不舍，与上述视觉表现互相支持悲伤，而非单纯中性。[audio_subtitle:E1]最强反证是担忧或克制的忧虑，但画面中持续下视和分离语义比担忧更直接指向sad；无音轨，因此不采信专家关于语调的图谱转述。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 285.10437178611755
+}

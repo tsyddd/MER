@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物以“啊？真的。”追问并确认刚获知的信息[E1]，随后持续皱眉、张口看向对方[E2]。话语和表情共同支持她当下感到诧异；没有音频，不能判断语调。",
+  "open_emotion": "诧异",
+  "answer": "surprise",
+  "mapping_reason": "当前反应主要指向信息出乎预期，符合surprise的即时意外，而非对后果的持续担忧。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“啊？真的。”",
+      "observation": "先以疑问语气词“啊？”回应，再用“真的”确认。",
+      "interpretation": "这是一句寻求确认的即时反应，支持诧异；疑问句本身并不足以单独证明惊讶。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02（0.56秒）至frame_07（1.96秒）",
+      "observation": "她皱眉、张口，逐渐转向画面右侧，似乎在看交谈对象。",
+      "interpretation": "表情与追问相符，支持对所闻信息感到意外，但皱眉不能单独确定情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "皱眉也可能表示担心或怀疑；片段只有一句短话，未交代所确认之事，也没有音频可核对韵律，因此无法完全排除这些解释。"
+}

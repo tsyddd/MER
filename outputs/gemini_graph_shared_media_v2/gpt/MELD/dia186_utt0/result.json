@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia186_utt0",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "ce61aa500b449acf27aca857327845af67ac7b2a64a913c11593cd28ac6f91bf",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "disgust",
+  "emotion_analysis": "目标是右侧穿深色上衣的Chandler；他从张口转为抬手示意停下，末段看向右侧并歪嘴露齿，[image:E1][image:E3]的画面观察可以核实，但不能据此确定他是在嫌弃那件物品。字幕中的连续否定和“Ross and Joey is embarrassing enough”[audio_subtitle:E1]可核实，与制止手势共同支持他对当前提议的抵触。开头张口也可能是惊讶，整段也可能带有玩笑意味；但张口未持续，后段表情收紧，因此轻度嫌弃比惊讶或中性更贴切。未提供音轨，不能据语调进一步判断。",
+  "output": "目标是右侧穿深色上衣的Chandler；他从张口转为抬手示意停下，末段看向右侧并歪嘴露齿，[image:E1][image:E3]的画面观察可以核实，但不能据此确定他是在嫌弃那件物品。字幕中的连续否定和“Ross and Joey is embarrassing enough”[audio_subtitle:E1]可核实，与制止手势共同支持他对当前提议的抵触。开头张口也可能是惊讶，整段也可能带有玩笑意味；但张口未持续，后段表情收紧，因此轻度嫌弃比惊讶或中性更贴切。未提供音轨，不能据语调进一步判断。\n<answer>disgust</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 88.0791597366333
+}

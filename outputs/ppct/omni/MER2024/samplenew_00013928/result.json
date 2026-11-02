@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013928",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "happy",
+  "emotion_analysis": "说话人面带笑容，嘴部有明显开合动作，声音声调上扬，语速中等，结合其说出的“我可看好你呀”和“怎么样？”等鼓励性话语，表现出积极和支持的情绪。",
+  "output": "说话人面带笑容，嘴部有明显开合动作，声音声调上扬，语速中等，结合其说出的“我可看好你呀”和“怎么样？”等鼓励性话语，表现出积极和支持的情绪。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 161.33664536476135,
+  "node_count": 10,
+  "edge_count": 5
+}

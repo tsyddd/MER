@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "女老师在课堂中平缓提问并注视学生聆听回应，行为表现为正常的师生互动〔process_1〕〔process_3〕。图谱记载其语速平缓、语调和缓清晰，未见明显的激动、悲伤或担忧表现〔person_1〕。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "process_1",
+    "process_3",
+    "person_1"
+  ]
+}

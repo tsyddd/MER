@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia9_utt11",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sadness",
+  "emotion_analysis": "Rachel's high-pitched, fast speech and the content of her words, 'Everything's ruined. My bed. My clothes. Look at my favorite blue sweater,' indicate a state of distress. Her raised hand gesture towards her left side emphasizes her emotional reaction to the loss of her belongings. The combination of her vocal tone and expressive gesture points to a strong negative emotion.",
+  "output": "Rachel's high-pitched, fast speech and the content of her words, 'Everything's ruined. My bed. My clothes. Look at my favorite blue sweater,' indicate a state of distress. Her raised hand gesture towards her left side emphasizes her emotional reaction to the loss of her belongings. The combination of her vocal tone and expressive gesture points to a strong negative emotion.\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 513.4997968673706,
+  "node_count": 11,
+  "edge_count": 3
+}

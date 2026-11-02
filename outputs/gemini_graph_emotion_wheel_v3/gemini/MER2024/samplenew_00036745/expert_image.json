@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "画面中目标人物坐在电脑前与对面交流，在frame_00至frame_07中保持专注平稳的神情；中途虽有抬起右手食指做指向性辅助手势[E1]，但整体眉毛未紧锁，面部肌肉松弛自然，口型变化仅对应正常的办案线索陈述[E2]。结合音轨中干脆利落且平缓的陈述语调[E3]，整体表现为典型的事务性沟通与冷静叙述，无显著的激动、愤怒或焦虑特征。",
+  "open_emotion": "平稳专注",
+  "answer": "neutral",
+  "mapping_reason": "目标人物在交流办案线索时神情严肃平静，主要表现为客观叙述与专注沟通，在情绪轮中归入neutral（平稳/平常）类别。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02-frame_04 (0.8s-1.2s)",
+      "observation": "目标人物说话时抬起右手食指向前轻点示意，目光平视前方，眉宇间无收缩褶皱。",
+      "interpretation": "手势仅为说明情况时的习惯性肢体动作，不伴随情绪化的紧绷或攻击性。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05-frame_07 (2.0s-2.8s)",
+      "observation": "目标人物在说出“我去查”时，嘴唇轻微收拢发音，面部肌肉舒展，无嘴角下扯或愤怒抽动。",
+      "interpretation": "体现出公事公办的冷静与事务性反应，未见情绪过激倾向。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "0.0s-2.8s",
+      "observation": "语速平缓有力，音调沉稳无明显起伏，句子收尾干脆明确。",
+      "interpretation": "印证了视觉上平实专注、不带强烈负面或正面情绪的状态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "目标人物眼神直视且神情较为严肃，加之有指向性动作，可能被误判为带有警惕或担忧，但缺乏皱眉、睁眼震惊或语调紧绷等生理表现支持。"
+}

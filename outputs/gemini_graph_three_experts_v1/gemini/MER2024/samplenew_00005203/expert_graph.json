@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "粉衣女子对面前男子表达“我也不想跟你分开”〔process_0〕，同时视线微垂且目光向下〔person_0, person_2〕。图谱记载其发声轻微、语调低缓轻弱〔person_1〕，整体表现流露出分离在即的低沉与不舍，体现出悲伤情绪。",
+  "answer": "sad",
+  "evidence_refs": [
+    "process_0",
+    "person_0",
+    "person_1",
+    "person_2"
+  ]
+}

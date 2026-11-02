@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00015349",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "画面中央的目标人物神色凝重、微蹙眉头，快步走动并压低声音说话，言语间顾虑吵闹会引起高家注意，声音和神态均体现出明显的担忧与顾虑。",
+  "output": "画面中央的目标人物神色凝重、微蹙眉头，快步走动并压低声音说话，言语间顾虑吵闹会引起高家注意，声音和神态均体现出明显的担忧与顾虑。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 7.367066383361816,
+  "node_count": null,
+  "edge_count": null
+}

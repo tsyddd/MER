@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物是穿黑衣、坐在桌边的Joey，不是左侧站立的Monica。他起初皱眉、抿嘴，随后在看向Monica说话时反复出现紧绷的嘴部表情和短暂的不自然笑意[E1][E2]。结合字幕中他谈到食物并说自己在努力“忍住不吐”[E3]，最有支持的解释是disgust；字幕提供语义线索，不能当作画面中出现干呕的证据。",
+  "answer": "disgust",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒",
+      "observation": "Joey低头，眉头收紧，嘴唇抿起。",
+      "interpretation": "面部呈紧绷、排斥的样子，但单凭这一帧不能确定是厌恶。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 2.8361644646756226秒；frame_04 @ 3.753747085600089秒",
+      "observation": "他仰头看向Monica，眉毛抬起，嘴角短暂上扬，随后又收起笑意、保持紧绷的表情。",
+      "interpretation": "笑意短暂且伴随持续的紧绷，更像说话时的勉强表情，而非明显愉快。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“We're talking about whipped fish, Monica. I'm just happy I'm keeping it down, y'know?”",
+      "observation": "字幕写明Joey谈到“whipped fish”，并说自己庆幸还能忍住不吐。",
+      "interpretation": "这为视觉上的排斥表情提供了与食物反感有关的语义支持；没有音轨可据此判断语调。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "他没有清晰可见的干呕或躲避动作，短暂上扬的嘴角也可能被解读为玩笑式微笑；但笑意未持续，且字幕明确表达对食物的反感，因此未选joy。"
+}

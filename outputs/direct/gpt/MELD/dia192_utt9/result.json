@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia192_utt9",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "目标人物是画面中后方走来的女性。她面向前方，表情带有明显的质疑和不满；字幕“What?! Excuse me!”表达了被冒犯后的强烈反问，而非平静陈述。",
+  "output": "目标人物是画面中后方走来的女性。她面向前方，表情带有明显的质疑和不满；字幕“What?! Excuse me!”表达了被冒犯后的强烈反问，而非平静陈述。\n<answer>anger</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 26.751017570495605,
+  "node_count": null,
+  "edge_count": null
+}

@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "目标是围巾男子。他当前向前方的人提出转交请求，并伸手递出物品；这是正在进行的请求，不是总理已经过目。[E1][E2] 图谱节点process_1也记录了递物动作，但与画面属于同一事实，不能重复算作独立情绪证据。[E3] 他的表达显得郑重、专注；请求内容和递物动作不足以证明他在责备或对抗对方。",
+  "open_emotion": "郑重",
+  "answer": "neutral",
+  "mapping_reason": "“郑重”描述此刻认真、克制地提出请求，不等于没有情绪；但当前可核实的言行没有显示喜悦、悲伤、担忧、惊讶或愤怒占主导，因此映射为neutral。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "兄弟，转交，给总理，过目。",
+      "observation": "字幕表达请对方将物品转交总理过目的请求。",
+      "interpretation": "说话目标是促成转交，而非指责眼前的人；也不能据此认定转交已经发生。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05（1.52秒）至frame_06（1.8秒）",
+      "observation": "围巾男子注视前方，向前伸臂递出手中物品，面部表情紧绷而专注。",
+      "interpretation": "支持他郑重地进行当面交付；单凭表情紧绷不足以判为愤怒或担忧。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "图谱记录围巾男子向前递出物品。",
+      "interpretation": "该节点帮助确认当前互动是递交请求，但与[E2]所见同源，不另算一份情绪证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "图谱称其语调“严肃稳重”，并标注了音频来源。",
+      "interpretation": "未提供原音轨，无法亲耳核验语调；这只能作为带不确定性的图谱转述。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "睁大的眼睛和紧绷的面部也可能让人联想到愤怒或焦虑；但当前请求没有明确责备或担心后果的内容。末帧出现的戴眼镜男子是另一人，不能把他的表情归给目标人物。"
+}

@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "男子面向并注视对方，与其相对交谈，图谱记载其语调低沉、语速平缓（person_1、person_2）。他说“过去的事，不怪你”（process_0），结合当前克制而平稳的表达，未见明确的强烈情绪表现。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_1",
+    "person_2",
+    "process_0"
+  ]
+}

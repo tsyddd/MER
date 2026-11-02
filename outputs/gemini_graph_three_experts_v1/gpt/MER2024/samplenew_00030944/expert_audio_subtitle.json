@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。仅根据字幕中“还不放心”“万一要想不开，怎么办呢”等表达，目标人物当前表现出明显的担忧和关切。",
+  "answer": "worried",
+  "evidence_refs": []
+}

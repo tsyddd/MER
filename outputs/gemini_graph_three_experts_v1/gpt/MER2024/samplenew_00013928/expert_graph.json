@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "女子面带笑容并挥动白色纸张对对方表达看好〔person_0〕，随后仍保持微笑并注视对方〔person_1〕。图谱记载她说话时语调轻快上扬，并继续询问对方收获情况〔person_2〕〔process_1〕，体现出当前积极愉快的情绪。",
+  "answer": "happy",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "person_2",
+    "process_1"
+  ]
+}

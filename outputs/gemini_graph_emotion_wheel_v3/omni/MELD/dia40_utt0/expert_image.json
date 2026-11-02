@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "Monica在多个连续帧中表现出明显的微笑，嘴角上扬，眼睛周围有皱纹，这是典型的喜悦表情。她的视线与旁边的Chandler有互动，姿态放松，身体微微倾向他，显示出积极的社交参与。字幕显示她说'Yeah baby!'，这是一句表达兴奋和喜爱的口语，与她的面部表情和姿态高度一致。音频中她的语调上扬，充满活力，进一步支持了喜悦的判断。没有观察到任何与愤怒、悲伤、恐惧或厌恶相关的面部或姿态线索。",
+  "open_emotion": "兴奋",
+  "answer": "joy",
+  "mapping_reason": "根据MELD项目的情绪轮，'joy'（喜悦）被定义为'当前开心、愉悦、满足或兴奋的正向体验'。Monica的微笑、积极的姿态以及说'Yeah baby!'时的兴奋语气，都明确指向一种积极的情感状态。'兴奋'是'joy'家族中一个非常贴切的开放情绪词，因此映射到'joy'是准确的。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "Monica的嘴角持续上扬，形成一个清晰的微笑，眼睛周围有明显的皱纹。",
+      "interpretation": "这是典型的喜悦表情，表明她正在体验积极的情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "Monica的身体姿态放松，头部和视线朝向旁边的Chandler。",
+      "interpretation": "这表明她正积极地参与对话，情绪状态是开放和投入的。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Yeah baby!",
+      "observation": "字幕显示她说了'Yeah baby!'。",
+      "interpretation": "这句话通常用于表达兴奋、喜爱或赞同，是积极情绪的直接语言证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "00:00-00:01",
+      "observation": "音频中可以听到Monica说'Yeah baby!'，语调上扬，充满活力。",
+      "interpretation": "积极的语调与她的面部表情和话语内容一致，共同强化了喜悦的情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。所有视觉、听觉和文本证据都一致指向喜悦，没有与之矛盾的线索。"
+}

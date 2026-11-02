@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00014662",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "f797ce76093f00b080e0bcaf2c7690927a4e4391deedfdf8240b8fab343a4016",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "根据情绪轮定义，'worried'指对可能的负面结果、风险或未知的顾虑、焦虑和不安。目标人物的台词“我主要是担心这事会牵连到您家老爷子”直接表达了对潜在负面后果的顾虑，其微蹙的眉头也支持了这一情绪。因此，该情绪最符合'worried'的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "根据情绪轮的定义，'worried'（担忧）指对可能的负面结果、风险或未知的顾虑、焦虑和不安。说话者明确使用了'担心'一词，并表达了对'牵连'这一负面后果的顾虑，这与'worried'的定义完全吻合。"
+    },
+    "image": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "根据情绪轮定义，'worried'指对可能的负面结果、风险或未知情况的顾虑、焦虑和不安。目标人物的台词“我主要是担心这事会牵连到您家老爷子”明确表达了对潜在负面后果的预期和不安，这与'worried'的定义完全吻合。其面部表情（如皱眉、专注的眼神）也支持这一解释。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "目标人物的台词内容（'我主要是担心这事会牵连到您家老爷子'）直接表达了对潜在负面后果的顾虑，这是判断其情绪的核心证据。她的面部表情（如皱眉、专注的眼神）与台词内容高度一致，共同指向担忧情绪。音频中她的语调平稳，没有表现出愤怒或悲伤的激烈情绪，这与担忧而非愤怒相符。综合来看，其主导情绪是担忧。",
+  "output": "目标人物的台词内容（'我主要是担心这事会牵连到您家老爷子'）直接表达了对潜在负面后果的顾虑，这是判断其情绪的核心证据。她的面部表情（如皱眉、专注的眼神）与台词内容高度一致，共同指向担忧情绪。音频中她的语调平稳，没有表现出愤怒或悲伤的激烈情绪，这与担忧而非愤怒相符。综合来看，其主导情绪是担忧。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 154.89362716674805
+}

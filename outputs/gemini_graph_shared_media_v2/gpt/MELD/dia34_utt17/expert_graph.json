@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "莫妮卡正面对瑞秋表达明确反对，而非讲述已发生的出轨事件。[E1][E2]她在说话时持续看向瑞秋，神情较严肃，支持将当前情绪判断为带有责备的anger，而不是因出轨话题推断出的disgust。[E3]图谱另称她音量较高、语气坚定，但未提供原音轨，不能亲耳核验。[E4]",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Rachel! I’m never gonna think it’s okay for you to cheat on your husband!",
+      "observation": "莫妮卡称呼瑞秋，并明确表示自己绝不会认为瑞秋对丈夫不忠是可以接受的。",
+      "interpretation": "这是当前对话中的直接反对和责备；句子本身不证明瑞秋已经出轨。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "图谱将这句话记为莫妮卡对瑞秋说出的当前话语。",
+      "interpretation": "节点帮助确定说话者和互动对象；它与字幕描述的是同一话语，不算独立的第二次情绪观察。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05 @ 2.544206358017838秒；frame_06 @ 3.086414270382295秒",
+      "observation": "身穿浅紫色衣服的莫妮卡看向身旁的瑞秋，嘴部在说话，目光持续落在对方身上。",
+      "interpretation": "面对面的持续表达与直接责备相符，但画面不足以证明她在高声喊叫。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1；person_2",
+      "observation": "图谱描述莫妮卡音量较高、语气坚定。",
+      "interpretation": "这是含音频信息的图谱转述；由于未提供原音轨，音量和语气无法直接核验，不作为最终判断的决定性依据。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "她的表情并非明显暴怒，也可能只是坚定地划清立场；但当前话语明确指向瑞秋并表达不认可，因此相较于neutral，更支持轻度的责备性愤怒。"
+}

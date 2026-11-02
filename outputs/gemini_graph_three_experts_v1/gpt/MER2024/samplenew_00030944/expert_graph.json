@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "女子表达“我还不放心呢”，并进一步追问对方“万一要想不开怎么办”，体现出对对方安全状况的担忧〔process_1〕〔process_2〕。同时她眉心微皱，图谱记载其语气缓和而关切〔person_2〕〔person_1〕，与担忧状态一致。",
+  "answer": "worried",
+  "evidence_refs": [
+    "process_1",
+    "process_2",
+    "person_2",
+    "person_1"
+  ]
+}

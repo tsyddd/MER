@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00002038",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "画面中的女性眉头紧蹙，眼神中充满戒备与不安，面部神态显得十分困惑与忧虑。结合其轻声而怯懦地发问“他是谁呀？”，整体传达出紧张、不安与担忧的心态。",
+  "output": "画面中的女性眉头紧蹙，眼神中充满戒备与不安，面部神态显得十分困惑与忧虑。结合其轻声而怯懦地发问“他是谁呀？”，整体传达出紧张、不安与担忧的心态。\n<answer>worried</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 10.697356939315796,
+  "node_count": null,
+  "edge_count": null
+}

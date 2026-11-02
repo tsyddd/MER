@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "空乘人员面向女子并保持注视〔person_0〕，以语速平稳、声音清晰且语调上扬的方式致谢和问候〔process_0〕〔person_1〕，随后继续聆听对方回应〔process_1〕。这些表现更符合礼貌、规范的服务交流，未见明显的强烈情绪反应。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_0",
+    "process_0",
+    "person_1",
+    "process_1"
+  ]
+}

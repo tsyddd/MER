@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "Chandler's facial expression and gestures are central to the analysis. From frame_00 to frame_07, his mouth is open in a wide 'O' shape, and his eyes are wide and directed forward, indicating a strong reaction. His right hand is raised with an open palm, a gesture often associated with disbelief or exasperation. This combination of facial and gestural cues, when cross-referenced with the subtitle 'Ross and Joey is embarrassing enough,' strongly supports the interpretation of his reaction as one of exasperated disbelief or being overwhelmed by the situation.",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "Chandler's mouth is wide open, and his eyes are wide.",
+      "interpretation": "This is a classic visual representation of surprise or shock.",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.45879166666666665",
+      "observation": "Chandler's right hand is raised with an open palm, and his mouth is still open.",
+      "interpretation": "This gesture, combined with his facial expression, suggests a reaction of disbelief or exasperation.",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Ah, no-no-no just Ross. Ross and Joey is embarrassing enough.",
+      "observation": "The subtitle contains the word 'embarrassing'.",
+      "interpretation": "This provides context for Chandler's reaction, indicating he is reacting to a situation he finds highly embarrassing, which can be a source of surprise or disbelief.",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_07 @ 3.128125",
+      "observation": "Chandler's mouth is still open, and his eyes are wide and looking slightly to the side.",
+      "interpretation": "This sustained expression indicates that his reaction is ongoing and not a fleeting moment.",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "The label 'anger' is a possible alternative interpretation of the wide-open mouth and raised hand. However, the lack of other typical anger cues, such as furrowed brows or a tense jaw, and the context of the dialogue ('embarrassing enough') make 'surprise' a more fitting interpretation."
+}

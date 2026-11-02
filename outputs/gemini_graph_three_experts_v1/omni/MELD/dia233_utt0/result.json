@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia233_utt0",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "a94f5575d3aaa8dce6c1acd443e893d451a7588d0c29ef22d0ffe8091580c26e",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "音频和图谱专家均指出Rachel语调尖锐、语速快、带有质问语气，且身体姿态具有挑战性，这些一致指向愤怒情绪；图像专家虽观察到皱眉和紧闭嘴唇，但未见明显哭泣或低落特征，其描述的'不悦和无奈'更可能源于对话中的对抗情境而非悲伤。综合判断，听觉与行为证据强于静态表情，应优先采纳愤怒结论。",
+  "output": "音频和图谱专家均指出Rachel语调尖锐、语速快、带有质问语气，且身体姿态具有挑战性，这些一致指向愤怒情绪；图像专家虽观察到皱眉和紧闭嘴唇，但未见明显哭泣或低落特征，其描述的'不悦和无奈'更可能源于对话中的对抗情境而非悲伤。综合判断，听觉与行为证据强于静态表情，应优先采纳愤怒结论。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 39.35937571525574
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00034518",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "3fed6d6059d74c2412d0aa8019d55bbdcde203bd9f2c07e116f6616c4aef8d9e",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "三方专家在视觉、听觉与台词证据上高度一致。图像显示年长女性眉头微蹙、身体前倾并关切注视对方，语音专家亦指出其语调急促且充满不安，结合其探问‘家里又出什么事了’的台词内容，均明确指向对对方家庭状况的关切与担忧，故判定情绪为worried。",
+  "output": "三方专家在视觉、听觉与台词证据上高度一致。图像显示年长女性眉头微蹙、身体前倾并关切注视对方，语音专家亦指出其语调急促且充满不安，结合其探问‘家里又出什么事了’的台词内容，均明确指向对对方家庭状况的关切与担忧，故判定情绪为worried。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 28.0611732006073
+}

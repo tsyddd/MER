@@ -1,0 +1,9 @@
+{
+  "reason": "Monica的喊叫和后续动作表明她正在紧急制止某事。图谱中的节点process_0（喊叫）和process_1（放下物品）是关键。process_0的音频证据（[E1]）和字幕（[E2]）都显示了急促的“No-no-no, no!”，这与process_2（发声急促、音量较大且语调高亢）的描述一致。process_1（放下物品）是process_0的直接后续动作（[E3]），表明她的喊叫并非无的放矢，而是对某个突发情况的即时反应。整个事件链（process_0 -> process_1 -> process_2）指向一种紧急的、带有制止意图的反应，这与恐惧（fear）或惊吓（surprise）相符。虽然惊吓（surprise）也可能导致喊叫，但后续的放下物品和起身冲出的动作（process_1, process_2）表明这是一种有目的的、紧急的应对，而不仅仅是被动的惊吓。因此，恐惧（fear）是更合适的标签。",
+  "answer": "fear",
+  "evidence_refs": [
+    "graph:E1",
+    "graph:E2",
+    "graph:E3"
+  ]
+}

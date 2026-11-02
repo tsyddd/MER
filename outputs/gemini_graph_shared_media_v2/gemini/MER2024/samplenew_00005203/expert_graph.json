@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "目标人物在面对男子交谈的当前互动中倾诉分离痛苦[process_0]，其眼眶含泪且嘴角下撇[E2]，配合音轨中带哽咽的哭腔[E3]，事件语义明确指向依恋受挫的哀伤情感，从而有效排除了担忧（worried）等替代解释。",
+  "answer": "sad",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "图谱记录目标人物当面对男子表达“我也不想跟你分开”的倾诉行为",
+      "interpretation": "明确了当前事件链的核心是面对分离现实的情感袒露，直接引发了沉重的哀伤情境",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.12s",
+      "observation": "目标人物眼眶含泪，双眉下压微蹙，嘴角明显向下撇",
+      "interpretation": "面部呈现典型的悲伤欲泣表情，提供了直接的情绪视觉证据",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "女子说话时声音微颤且带有明显的哽咽与抽泣哭腔",
+      "interpretation": "核验并修正了图谱person_1仅提及'低缓轻弱'的遗漏，确认为悲伤哽咽而非平静陈述",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "可能被解释为担忧（worried），但其核心诉求是倾诉分离的不舍与难过，视觉和听觉均展现出强烈的哭泣与失落特征，而非对未知风险的焦虑戒备，因此未采用worried。"
+}

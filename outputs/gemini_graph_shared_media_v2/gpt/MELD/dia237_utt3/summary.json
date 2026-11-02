@@ -1,0 +1,9 @@
+{
+  "reason": "字幕中Joey谈到“whipped fish”，又说自己庆幸还能“keeping it down”；[audio_subtitle:E1]对这句话的解读可信，指向对食物的反感，而非单纯喜悦。我核对了frame_00的皱眉抿嘴，以及frame_03至frame_04短暂笑意后又收紧的表情，与[image:E1]和[image:E2]的观察相符。短暂微笑是喜悦的反证，但不足以盖过字幕语义和持续的不适表情；片段未提供音轨，不能核验语气。",
+  "answer": "disgust",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "image:E1",
+    "image:E2"
+  ]
+}

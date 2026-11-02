@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia226_utt3",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "sadness",
+  "emotion_analysis": "Rachel正面向对方表达希望某人能够敞开心扉、分享感受，语气内容带有遗憾和情感上的失落。她眉头微蹙、表情严肃并配合解释性手势，未表现出明显愤怒或惊讶。",
+  "output": "Rachel正面向对方表达希望某人能够敞开心扉、分享感受，语气内容带有遗憾和情感上的失落。她眉头微蹙、表情严肃并配合解释性手势，未表现出明显愤怒或惊讶。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 22.021395444869995,
+  "node_count": null,
+  "edge_count": null
+}

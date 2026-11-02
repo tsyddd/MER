@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "目标人物在连续8帧中均表现出明显的悲伤情绪。其面部特征包括眼眶湿润、眼角有泪光、嘴唇微张并有轻微颤抖，这些是悲伤情绪的典型视觉表现。她的视线略微向下，姿态显得低落，与字幕中“甚至连一件衣裳”这样带有失落感的台词内容相符。音频中可以听到她带有哭腔的说话声，进一步证实了其悲伤状态。综合视听证据，可以确定其情绪为悲伤。",
+  "open_emotion": "悲伤",
+  "answer": "sad",
+  "mapping_reason": "根据情绪轮定义，'sad'（悲伤）指当前失落、伤心、哀痛或低落的情绪，需要损失评价或相应表达支持。目标人物的眼眶湿润、眼角有泪光、嘴唇颤抖等视觉表现，以及带有哭腔的音频，均与'悲伤'的定义高度吻合，因此映射为'sad'是准确的。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "目标人物眼眶湿润，眼角有明显的泪光，嘴唇微张并有轻微颤抖。",
+      "interpretation": "这些是悲伤情绪的典型面部表情，表明其正处于伤心或哭泣的状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "可以听到目标人物用带有哭腔的声音说出“甚至连一件衣裳”。",
+      "interpretation": "哭腔的语调直接表达了其悲伤的情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "字幕内容",
+      "observation": "字幕显示“甚至连一件衣裳”。",
+      "interpretation": "这句话暗示了一种被轻视或遭受损失的处境，为悲伤情绪提供了语义支持。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "目标人物的视线略微向下，姿态显得低落。",
+      "interpretation": "这种姿态是悲伤情绪的常见表现，与面部表情一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。所有视听证据均一致指向悲伤情绪，没有与之矛盾的证据。"
+}

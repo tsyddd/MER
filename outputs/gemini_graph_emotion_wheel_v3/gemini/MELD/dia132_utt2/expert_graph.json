@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "当前互动事件链中，Phoebe正在柜台前向工作人员描述一位目标男性的特征。图谱节点[person_2]指出其语速平稳、语气自然带停顿，经实际音轨核验，Phoebe发音清晰稳定，无上扬调情或明显的兴奋笑意；结合[person_1]与[person_3]所示的手势翻动比划，其肢体动作主要服务于搜寻词汇与补充外貌信息（如年龄和外观）。事件语义明确属于日常事务性描述，整体状态平静克制，符合中性基调。",
+  "open_emotion": "平常",
+  "answer": "neutral",
+  "mapping_reason": "Phoebe的开放情绪为客观陈述状态下的“平常”，在当前情绪轮中，面对日常信息交接、无显著主导效价的情感状态精准映射至neutral。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱记录Phoebe语速平稳且语气自然带停顿，音轨核验显示其说话节奏均匀、音调平实",
+      "interpretation": "表明其处于平稳叙述的沟通状态，无强烈情感起伏",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01至frame_07",
+      "observation": "Phoebe眼神专注于面前工作人员，面部无明显挑眉或嘴角上扬，双手配合语言在身前自然比划",
+      "interpretation": "肢体动作仅充当口语构思与描述的辅助工具，缺乏joy所具备的正向情绪标志",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "And umm, he’s like early to mid-thirties, very attractive.",
+      "observation": "台词内容为向护士交代对方的大致年龄与特征",
+      "interpretation": "虽然包含评价词汇'attractive'，但其语境为提供搜寻信息，而非情绪流露",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词中包含“very attractive”评价词，容易被单独词义误判为带有喜悦或赞赏倾向的joy；但结合事件语义为寻人描述与平缓声调，证实其缺乏兴奋或愉悦主导体验。"
+}

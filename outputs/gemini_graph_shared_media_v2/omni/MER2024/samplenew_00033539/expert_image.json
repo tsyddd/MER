@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物在连续的8帧中，面部表情保持高度一致。其眉毛上扬，眼睛睁大，嘴巴微张，呈现出典型的惊讶或难以置信的生理反应。该表情与字幕“啊？真的。”以及音频中惊讶的语气完全吻合。没有观察到任何与愤怒、悲伤或担忧相关的特征，如皱眉、嘴角下撇或眼神回避。因此，视觉证据强烈支持惊讶是当前最准确的情绪判断。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "眉毛上扬，眼睛睁大，嘴巴微张。",
+      "interpretation": "这是惊讶或难以置信的典型面部表情。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "字幕: 啊？真的。",
+      "observation": "字幕内容为“啊？真的。”",
+      "interpretation": "该字幕内容直接表达了惊讶和确认的情绪，与视觉表情一致。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "音频中传来一声带有明显惊讶和疑问语气的“啊？”，随后是肯定的“真的。”",
+      "interpretation": "音频内容与字幕和视觉表情完全匹配，证实了惊讶的情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。视觉、音频和字幕三者高度一致，均指向惊讶情绪，没有发现任何矛盾的证据。"
+}

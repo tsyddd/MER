@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "图谱中节点person_0描述了目标人物双眉紧蹙、眉心隆起的面部特征，这与当前画面中人物的紧张、困惑的神态一致。节点person_2描述了其发声音量偏低但语调上扬的疑问语气，这与字幕内容“他是谁呀？”以及其表情共同指向一种带有不确定性的疑问情绪。背景陈设（context_0）为场景提供了环境信息，但不直接构成情绪证据。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "女性双眉紧蹙，眉心隆起",
+      "interpretation": "该面部特征是惊讶、困惑或担忧的典型表现，与当前情境中对未知人物的疑问相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "发声音量偏低，语调上扬呈疑问语气",
+      "interpretation": "语调上扬是疑问句的直接体现，结合其面部表情，表明她对所见之人感到意外和不确定。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "字幕内容",
+      "observation": "字幕显示“他是谁呀？”",
+      "interpretation": "该话语内容直接表达了对某人身份的疑问，是判断其情绪为惊讶的核心证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "一种可能的替代解释是‘worried’（担忧）。其面部表情和疑问语气也可能源于对未知人物的担忧。然而，与‘worried’相比，‘surprise’（惊讶）更直接地与‘疑问’这一核心行为（由字幕和语调证实）相匹配，因为惊讶是产生疑问的常见原因。因此，尽管存在担忧的可能性，但惊讶是与当前证据最一致的判断。"
+}

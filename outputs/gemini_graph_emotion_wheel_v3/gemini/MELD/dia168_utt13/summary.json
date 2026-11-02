@@ -1,0 +1,8 @@
+{
+  "reason": "通过核对原始帧与实际音轨，Ross在说出\"confess!\"时语速急促且音调明显拔高加重[audio_subtitle:E1]，言语内容构成直接的偷窃指控与逼迫认罪。视觉上，Ross在frame_03至frame_04身体前倾，双臂外摊并伴随强调性的下压逼问手势，神情严肃紧绷[image:E1]。尽管台词中\"save yourself the time\"带有劝说字面含义，但其高能量的责难语气与身体对抗性明确排除了平稳中性，体现了因受阻与对抗产生的主导怒意与责备。",
+  "answer": "anger",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "image:E1"
+  ]
+}

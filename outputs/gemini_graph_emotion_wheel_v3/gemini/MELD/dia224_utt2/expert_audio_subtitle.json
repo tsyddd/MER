@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标说话者为背景录音机播放的催眠磁带（Hypnosis Tape）。音频中女性声音以极为平缓、柔和且单调的语调说出单字指令'Deeper.'，音量轻柔适中，语速从容舒缓，属于典型的催眠引导词，旨在促使听者放松入眠，无任何生气、喜悦、恐惧或悲伤等主导情感起伏，整体表现高度平稳无情感波动。",
+  "open_emotion": "平稳",
+  "answer": "neutral",
+  "mapping_reason": "录音磁带的声音呈现出催眠引导所特有的单调、平缓与放松特质，缺乏情感波动与主观态度倾斜，符合neutral定义中平稳、平常、无明显情绪的主导状态。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Deeper.",
+      "observation": "催眠磁带仅发出一句催眠指导词'Deeper.'，用于引导听觉对象进入更深睡眠状态。",
+      "interpretation": "属于机械化、程序化的催眠引导指令，语用上不带有个人情绪宣泄或情绪化态度评价。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.00-0.65s",
+      "observation": "音轨中女声轻缓平稳地念出'Deeper'，语调低沉微弱，音量均匀无突兀重音或起伏变化。",
+      "interpretation": "声学韵律呈现刻意保持的平稳与镇静，直接支持无情绪起伏的客观中性状态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "由于语调轻柔缓慢，可能被部分解释为舒适安详（joy）的倾向，但由于其本质是预先录制的催眠磁带机械播放，缺乏真实的欣喜或愉悦生理特征，将其归为neutral更为严谨。"
+}

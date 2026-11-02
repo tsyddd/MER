@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia66_utt2",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "Rachel当前画面中面带明显笑容，表情放松，并以友好的姿态与对方互动。字幕“Thank you very much, it was excellent”表达了积极的感谢和满意情绪。",
+  "output": "Rachel当前画面中面带明显笑容，表情放松，并以友好的姿态与对方互动。字幕“Thank you very much, it was excellent”表达了积极的感谢和满意情绪。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 22.601019382476807,
+  "node_count": null,
+  "edge_count": null
+}

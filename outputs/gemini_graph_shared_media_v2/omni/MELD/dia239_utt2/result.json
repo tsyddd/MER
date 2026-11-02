@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia239_utt2",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "83c5e47c0148450bbc1edd40f39fe6e36178e18810553475144f0c7751aa6c95",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "Chandler的言语和肢体动作共同指向一种试探性或犹豫的情绪。他先是对一名男子说话，但当一名女子从洗手间走出时，他立刻转向她并打招呼。随后，他向她提出了一个带有重复和停顿的、略显尴尬的问题“did ya fall high?”，同时右手向前摊开，表现出一种不确定的、试图开启对话的姿态。在说完后，他将手插入口袋，这是一种放松或试图掩饰尴尬的姿态。这些行为的组合表明他可能感到一丝尴尬或犹豫，而非纯粹的中性或喜悦。音频证据显示，他的语调高亢、快速且带有犹豫，这与惊讶和尴尬的情绪相符。视觉证据也支持这一判断，他表现出困惑和不确定的表情。因此，尽管有专家将其归为“surprise”，但其核心情绪更偏向于社交情境下的尴尬和犹豫，而非纯粹的惊讶。",
+  "output": "Chandler的言语和肢体动作共同指向一种试探性或犹豫的情绪。他先是对一名男子说话，但当一名女子从洗手间走出时，他立刻转向她并打招呼。随后，他向她提出了一个带有重复和停顿的、略显尴尬的问题“did ya fall high?”，同时右手向前摊开，表现出一种不确定的、试图开启对话的姿态。在说完后，他将手插入口袋，这是一种放松或试图掩饰尴尬的姿态。这些行为的组合表明他可能感到一丝尴尬或犹豫，而非纯粹的中性或喜悦。音频证据显示，他的语调高亢、快速且带有犹豫，这与惊讶和尴尬的情绪相符。视觉证据也支持这一判断，他表现出困惑和不确定的表情。因此，尽管有专家将其归为“surprise”，但其核心情绪更偏向于社交情境下的尴尬和犹豫，而非纯粹的惊讶。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 182.29428219795227
+}

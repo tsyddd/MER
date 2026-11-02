@@ -1,0 +1,10 @@
+{
+  "reason": "音频中Joey的语调低沉缓慢，与字幕内容“I'm sorry I gotta cancel tonight baby”共同指向一种无奈和抱歉的情绪。图像证据显示他有轻微的皱眉、下撇的嘴角和微蹙的眉头，这些面部特征与悲伤或失望相符。虽然图谱专家认为声调平缓低沉，但音频专家和图像专家的证据更具体地指向了悲伤。综合来看，视觉和听觉线索共同支持悲伤的判断。",
+  "answer": "sadness",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "image:E1",
+    "image:E2",
+    "image:E3"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断语调、音量、语速和停顿。仅从字幕“家里又出什么事了？”可见说话者在询问是否发生家庭问题，带有明显的担忧倾向。",
+  "answer": "worried",
+  "evidence_refs": []
+}

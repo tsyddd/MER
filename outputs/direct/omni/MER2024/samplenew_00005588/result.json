@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00005588",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "该人物面部表情严肃，眼神低垂，结合字幕“过去的事，不怪你”所表达的宽慰与释然，整体情绪状态为平静的宽慰，符合neutral的定义。",
+  "output": "该人物面部表情严肃，眼神低垂，结合字幕“过去的事，不怪你”所表达的宽慰与释然，整体情绪状态为平静的宽慰，符合neutral的定义。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 5.163299798965454,
+  "node_count": null,
+  "edge_count": null
+}

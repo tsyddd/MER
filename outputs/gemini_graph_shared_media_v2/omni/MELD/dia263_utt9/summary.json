@@ -1,0 +1,9 @@
+{
+  "reason": "音频和字幕证据显示，说话者以低沉缓慢的语调说出'I'm gonna have to give him up'，句末有停顿，表现出无奈和接受现实的沉重感，这与悲伤情绪高度一致。视觉上，说话者表情凝重，眼神低垂，也支持这一判断。虽然图像专家认为表情平静、姿态中性，但音频中的语调是判断情绪的关键线索，且与字幕内容（放弃）直接相关。因此，综合音频和字幕证据，悲伤是更合理的判断。",
+  "answer": "sadness",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "audio_subtitle:E2",
+    "audio_subtitle:E3"
+  ]
+}

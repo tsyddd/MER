@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia131_utt3",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "cd3d3c8c807c19df6b632ee4fea884ed6da5a8289e78f2f9813b77504e417e13",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "欣喜",
+      "mapped_label": "joy",
+      "mapping_reason": "Rachel当前对所陈述事件的进展表现出积极、愉悦与满意的正向体验，符合情绪轮中joy（喜悦）的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "平常",
+      "mapped_label": "neutral",
+      "mapping_reason": "目标人物语调平稳、表现日常，未表现出明显的喜悦兴奋或负向情绪，符合neutral家族中平常、无明确主导情绪的定义。"
+    },
+    "image": {
+      "open_emotion": "平常",
+      "mapped_label": "neutral",
+      "mapping_reason": "目标人物既无正向情绪的兴奋喜悦，也无负面情绪对抗，表现为平稳且没有明确主导情绪的日常交代，符合情绪轮中neutral的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "独立核听实际音轨并核对画面，Rachel在说出“Oh, everything went great.”时语调平缓流畅，尾音自然回落，并无明显的兴奋、笑腔或高亢起伏[audio_subtitle:E1]；画面中frame_05至frame_06她整理外套并向两侧摊手，面部肌肉放松且嘴角平直，无喜悦笑容[image:E1]。[graph:E2]所称的“尾音带明显笑意”与实际音画不符，字面的正面词汇仅为就事论事的日常交代，缺乏主导的正向激起，因此应判定为平稳中性。",
+  "output": "独立核听实际音轨并核对画面，Rachel在说出“Oh, everything went great.”时语调平缓流畅，尾音自然回落，并无明显的兴奋、笑腔或高亢起伏[audio_subtitle:E1]；画面中frame_05至frame_06她整理外套并向两侧摊手，面部肌肉放松且嘴角平直，无喜悦笑容[image:E1]。[graph:E2]所称的“尾音带明显笑意”与实际音画不符，字面的正面词汇仅为就事论事的日常交代，缺乏主导的正向激起，因此应判定为平稳中性。\n<answer>neutral</answer>",
+  "label": "joy",
+  "elapsed_seconds": 67.59617972373962
+}

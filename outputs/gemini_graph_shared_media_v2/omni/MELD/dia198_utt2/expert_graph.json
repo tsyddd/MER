@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "Joey的言语内容是反驳和讽刺，其手势和语气与之匹配。图谱中节点person_1描述其语气为“平稳略带反驳”，与字幕中“No-no”开头的纠正语气一致。节点person_4描述其语速平缓、尾音轻落，与音频中话语的自然结束相符。这些视听证据共同支持其情绪为中性，即在进行一种带有调侃意味的反驳，而非表达愤怒、喜悦等强烈情绪。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "Joey以平稳略带反驳的语气开口说话",
+      "interpretation": "该描述与字幕中“No-no”开头的纠正性话语和音频中平稳的语调一致，表明其情绪是克制的反驳，而非愤怒或激动。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "person_4",
+      "observation": "Joey语速平缓，尾音轻落",
+      "interpretation": "该描述与音频中话语的自然结束相符，表明其情绪是平静的，没有表现出激动、悲伤或恐惧等。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "No-no, she kicked our butts. You could be on the Olympic standing-there team.",
+      "observation": "Joey的话语内容是反驳和讽刺",
+      "interpretation": "话语内容本身是中性的，旨在纠正事实并进行调侃，这为“neutral”情绪提供了语义支持。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无明确反证。虽然有轻微的反驳语气，但图谱和音频均未显示愤怒或激动的迹象，因此“neutral”是更合适的判断。"
+}

@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "Chandler当前是在回应Joey，而不是身处危险之中。图谱节点process_1把他的手势与“面对枪口会尿裤子”的话连在同一段说明里；字幕核实了这是假设中的自身反应，不能把假设里的害怕直接当作他此刻的情绪[E1][E2]。画面中他向Joey说话并摆手强调，随后仍面向对方交谈；动作有强调意味，但不足以判为愤怒或恐惧[E3]。因此当前更接近平稳地说明自己的意思。",
+  "open_emotion": "平稳",
+  "answer": "neutral",
+  "mapping_reason": "他当前主要是在说明一个假设，而非表现出明确占主导的害怕、愤怒或其他情绪；按本轮定义映射为neutral。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“Yeah, Joe, I assure you if I'm staring down the barrel of a gun, I'm pretty much peeing every which way.”",
+      "observation": "Chandler说的是“如果”自己面对枪口会怎样。",
+      "interpretation": "害怕指向假设情境，不是当前正在遭遇的威胁。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "节点将Chandler的手势和对Joey说明假设中的反应组织为同一次互动。",
+      "interpretation": "有助于区分当前的说明行为与所描述的假设经历；其中话语内容与字幕同源，不另算一份独立情绪证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_03（2.419秒）至frame_06（4.880秒）",
+      "observation": "Chandler面向Joey抬手、向侧面摆手，之后继续面对他站立交谈。",
+      "interpretation": "手势符合强调说明；单凭动作不能认定他此刻害怕或在责备Joey。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱称Chandler说话语调平稳清晰，但该节点来自音频描述。",
+      "interpretation": "若准确则与平稳表达相符；未提供原音轨，不能亲耳核验。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "Chandler皱眉并摆手，也可能被理解为有些不耐烦；但字幕没有明确责备对象，画面也不足以确认恼火。图谱的平稳语调只能保留为未经亲耳核验的转述。"
+}

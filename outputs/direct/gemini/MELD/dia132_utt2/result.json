@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia132_utt2",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "Phoebe在向护士描述一名男性的外观特征，语气平稳客观，面部神情自然，没有明显的情绪起伏或强烈的表情动作，属于中性陈述。",
+  "output": "Phoebe在向护士描述一名男性的外观特征，语气平稳客观，面部神情自然，没有明显的情绪起伏或强烈的表情动作，属于中性陈述。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 9.088800191879272,
+  "node_count": null,
+  "edge_count": null
+}

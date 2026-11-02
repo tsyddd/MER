@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "Monica在抱住婴儿时神情放松，自始至终嘴角带笑，目光望向正在照看另一个婴儿的Chandler。图谱节点[person_3]记录了其怀抱婴儿转向侧边、面露微笑的状态，结合音频中轻快、温和且上扬的语调，清晰表达了对当下和谐局面的欣慰与愉悦，而非单纯的中性陈述。",
+  "open_emotion": "欣喜",
+  "answer": "joy",
+  "mapping_reason": "目标人物因看到温馨场景而感到满意、开朗与喜爱，符合joy家族中关于当前开心、愉悦与满足的正向体验定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_3",
+      "observation": "图谱记录Monica怀抱婴儿，转头看向房间另一侧，嘴角微扬",
+      "interpretation": "显示出她对眼前场景的关注与正向喜爱反应",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04",
+      "observation": "Monica怀抱婴儿，面朝前方展露明显的笑容并张口交谈",
+      "interpretation": "面部展现真诚愉悦的表情",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:02-00:05",
+      "observation": "Monica说话时语气轻快上扬，语调温柔欣喜",
+      "interpretation": "听觉特征直接支持其内心充盈着愉快满足的情感",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "subtitle",
+      "anchor": "Pheebs, it’s going great. Look at Chandler with little baby girl Chandler.",
+      "observation": "言语内容表达事情进展极好并主动引导同伴观看温馨画面",
+      "interpretation": "言语语义明确传达赞叹与高兴",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "如果仅从日常照看婴儿的对话任务来看，可能被误判为客观汇报进展的neutral，但其面部真切的露齿微笑及音调中明显的欢快情绪排除了缺乏主导情感的中性解释。"
+}

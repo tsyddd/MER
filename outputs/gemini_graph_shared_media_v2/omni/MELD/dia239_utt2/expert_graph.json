@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "Chandler的言语和肢体动作共同指向一种试探性或犹豫的情绪。他先是对一名男子说话，但当一名女子从洗手间走出时，他立刻转向她并打招呼。随后，他向她提出了一个带有重复和停顿的、略显尴尬的问题“did ya fall high?”，同时右手向前摊开，表现出一种不确定的、试图开启对话的姿态。在说完后，他将手插入口袋，这是一种放松或试图掩饰尴尬的姿态。这些行为的组合表明他可能感到一丝尴尬或犹豫，而非纯粹的中性或喜悦。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:09.000",
+      "observation": "Chandler的台词是\"Jeez, man did you fall... Hi! So ah, did ya, did-did-did ya fall high?\"",
+      "interpretation": "台词中对“fall high”的重复和停顿，以及“ah”等填充词，表明他在说话时犹豫不决，可能因为突然的社交情境而感到尴尬或不确定。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 @ 00:00:00.959",
+      "observation": "Chandler从朝向身旁的男士，转身并摊开右臂面向走出的女子。",
+      "interpretation": "这一连贯的肢体动作表明他的注意力和互动对象发生了突然的转移，这种快速的转变是惊讶或被新情况打断的典型表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05 @ 00:00:04.796",
+      "observation": "Chandler在说话时，右手向前伸展摊开。",
+      "interpretation": "这个手势通常用于解释、邀请或试探，结合其犹豫的语调，它强化了他试图开启对话但又有些不确定的惊讶和尴尬感。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_07 @ 00:00:06.715",
+      "observation": "Chandler将手插入口袋，身体姿态显得放松。",
+      "interpretation": "在紧张或尴尬的社交互动后，将手插入口袋是一种常见的自我安慰或试图掩饰情绪的姿态，这与惊讶后的情绪反应相符。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "一个可能的替代解释是Chandler在开玩笑，因此他的惊讶和犹豫是表演的一部分。然而，他的肢体语言（如摊手和插口袋）和犹豫的语调更符合一种真实的、社交上的尴尬或惊讶，而非纯粹的喜剧表演。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00001635",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "音频中说话人以短促的“不”进行否定，结合其在画面中表现出的惊讶表情，表明其情绪为惊讶。",
+  "output": "音频中说话人以短促的“不”进行否定，结合其在画面中表现出的惊讶表情，表明其情绪为惊讶。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 46.73535871505737,
+  "node_count": 3,
+  "edge_count": 0
+}

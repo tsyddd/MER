@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia34_utt5",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "4372539d1352a67af87f434a2856e5389f0e24e45435ccb679dbf48998afbc94",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "音频和图谱均一致指向惊讶情绪，音频中语调上扬、语速快、音量高，图谱中伴随惊叹语和强调动作，而图像显示的担忧与困惑更接近悲伤，但该情绪与核心话语内容及整体行为不符，故优先采纳视听一致的惊讶判断。",
+  "output": "音频和图谱均一致指向惊讶情绪，音频中语调上扬、语速快、音量高，图谱中伴随惊叹语和强调动作，而图像显示的担忧与困惑更接近悲伤，但该情绪与核心话语内容及整体行为不符，故优先采纳视听一致的惊讶判断。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 42.08544874191284
+}

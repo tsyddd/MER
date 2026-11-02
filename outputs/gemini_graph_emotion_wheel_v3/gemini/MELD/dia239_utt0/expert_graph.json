@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "Gunther在通道处走向Chandler并开口询问里面是否有人，其神态平静专注，语调平稳自然，属于日常情境下的常规信息询问，没有显露愤怒、惊异或喜悦等主导性情绪唤起。",
+  "open_emotion": "平稳",
+  "answer": "neutral",
+  "mapping_reason": "目标人物的日常发问缺乏强效价或高唤醒特征，符合情绪轮中对neutral‘平稳、日常且无明显主导情绪’的界定。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:01",
+      "observation": "Gunther平调说出'Someone in there?'，音量适中，没有高昂上扬的惊诧或低沉哽咽的情绪波动",
+      "interpretation": "语调反映出日常口吻的事实性探问，而非受惊或不满",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01",
+      "observation": "Gunther面部放松，眉毛与嘴角均处于自然松弛状态，直视Chandler",
+      "interpretation": "缺乏惊讶时的挑眉或愤怒时的皱眉，体现稳定的中性神情",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "图谱记录Gunther询问Chandler里面是否有人",
+      "interpretation": "互动语义为常规发起对话与了解情况，证实当前行为是日常事务性质",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "疑问句式可能带有轻度好奇或探究，但其行为与语气均保持在日常平淡交流范围内，不足以构成surprise等强烈情绪反应。"
+}

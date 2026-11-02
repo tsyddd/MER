@@ -1,0 +1,9 @@
+{
+  "reason": "目标人物Rachel的言语内容（'Oh, everything went great'）和配合的摊手姿态，共同表达了对某件事情的积极评价和满足感。她的面部表情为宽大的上扬微笑，与音频中上扬的语调和积极的话语内容完全一致。三个专家的证据均指向joy：[image:E1]描述了其微笑表情，[audio_subtitle:E1]分析了其上扬的语调，[graph:E1]则整合了其动作与话语。这些证据相互印证，共同支持joy的判断。",
+  "answer": "joy",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E1",
+    "graph:E1"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Joey先纠正对方，再用“奥运会站着不动队”挖苦其没有帮忙；这不是字面上的称赞，而是带责备意味的反讽[E1][E2]。他随后皱眉、朝对方伸手强调，视觉表现与不满的言语方向一致[E3]。",
+  "open_emotion": "不满",
+  "answer": "anger",
+  "mapping_reason": "这里的不满指向对方未出力，表现为责备，按情绪轮最接近anger；证据不支持将其理解为强烈愤怒。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“No-no, she kicked our butts.”",
+      "observation": "以“No-no”纠正对方，接着说“她把我们打得很惨”。",
+      "interpretation": "纠正和强调处境，为随后责备对方作铺垫；单看这句尚不能确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "“You could be on the Olympic standing-there team.”",
+      "observation": "把对方比作能参加“站着不动”比赛的人。",
+      "interpretation": "这是针对对方袖手旁观的反讽，而非真诚夸奖，支持带责备的不满。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_03（1.710秒）至frame_06（3.420秒）",
+      "observation": "Joey朝右侧对象伸手示意，随后眉头收紧、神情严肃。",
+      "interpretation": "动作和表情与话语中的指责方向一致，但不能单凭表情判断愤怒强度。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是朋友间开玩笑式的挖苦；字幕中的夸张比喻支持这种可能。不过挖苦的内容明确针对对方未帮忙，且画面中Joey并未呈现明显愉快的表情，因此更倾向于轻度不满。未提供音频，无法核实语调或音量。"
+}

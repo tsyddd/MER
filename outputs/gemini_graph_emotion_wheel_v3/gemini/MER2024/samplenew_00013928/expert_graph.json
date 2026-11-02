@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "女子在整个互动过程中始终保持着大幅度的笑容，配合扬手挥动纸张的轻快肢体动作，向互动对象表达当面认可与期待；其语音语调轻快上扬且带有笑意，整体互动行为展现出连贯且显著的正向愉悦感。",
+  "open_emotion": "开心",
+  "answer": "happy",
+  "mapping_reason": "开放情绪'开心'体现了当前正在发生的正向愉悦、欣喜与满足，与情绪轮中happy（喜悦）'当前正向愉悦、满足或兴奋'的定义完全吻合。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "图谱记录女子面带笑容，右手拿着白色纸张向上扬起挥动",
+      "interpretation": "结合frame_01至frame_03核实，女子挥动纸张并绽放灿烂笑容，展现出积极开朗的情绪外化",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "女子说话语调明朗轻快，尾音上扬并伴随笑意",
+      "interpretation": "听觉表现核实了图谱节点person_2中关于'语调轻快上扬'的描述，强化了其说话时的愉快情绪",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "我可看好你呀！怎么样？",
+      "observation": "女子主动赞许鼓励对方并热情发问",
+      "interpretation": "台词内容构成了积极支持对方的情境互动，表明当下的愉悦是发自内心的赞赏与分享",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "如果将提问和夸赞仅视为邻里间客套的礼节性寒暄，可能被误判为neutral，但持续的面部笑容和高昂欢快的语调排除了单纯平稳交流的中性可能。"
+}

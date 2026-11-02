@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物钱德勒（画面右侧穿深灰毛衣者）在拒绝时仅有轻微的摆手动作[E1]，面部没有明显的皱眉、缩鼻等排斥特征，也没有大笑或激动的表情起伏[E2]。结合音轨中平稳从容的吐字节奏[E3]，整体表现处于日常随性的平稳对话状态，属于典型的淡定调侃，缺乏主导性的强烈负向或正向情绪反应。",
+  "open_emotion": "平淡调侃",
+  "answer": "neutral",
+  "mapping_reason": "钱德勒虽然在台词中提及'embarrassing'并做出摆手手势，但整体肢体放松、语调平缓，面部肌肉无强烈收缩，属于生活化对话中的轻度调侃与平稳表达，依据情绪轮定义映射为neutral。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01至frame_03 (0.46s-1.33s)",
+      "observation": "钱德勒右手轻抬做出小幅度的摆手/下压动作，身体姿态自然靠在沙发靠背上，动作幅度小且放松。",
+      "interpretation": "随性的肢体动作表明其仅是日常口语交流中的习惯性手势，未伴随激烈的排斥或抗拒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05至frame_07 (2.25s-3.13s)",
+      "observation": "钱德勒眼神轻微旁移，眉毛处于平缓常态，嘴角轻微闭合后继续说话，面部无鼻翼皱起、瞪眼或大笑。",
+      "interpretation": "面部特征缺乏愤怒、厌恶或极度惊喜/喜悦的肌肉动作，保持日常交流的平稳状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "语音语调平稳自然，语气偏向日常随意的吐槽，无高分贝呐喊或明显的情感颤音。",
+      "interpretation": "听觉表现印证了视觉上的平淡表现，排除了强烈负面情绪的可能。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词提及'embarrassing'且伴随摆手，易被误解读为具有轻度厌恶（disgust）或嘲弄好笑（joy），但其面部缺乏鼻唇沟加深等厌恶动作，也未展开笑容，故不支持归入disgust或joy。"
+}

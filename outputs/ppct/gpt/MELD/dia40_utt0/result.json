@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia40_utt0",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "目标人物是Monica。字幕中Monica说“Yeah baby!”，随后她转向画面左侧女性，并出现嘴角上扬、露齿的笑容；图谱中的process_0、person_2和person_3及其关系共同支持当前互动中的积极愉悦表达。",
+  "output": "目标人物是Monica。字幕中Monica说“Yeah baby!”，随后她转向画面左侧女性，并出现嘴角上扬、露齿的笑容；图谱中的process_0、person_2和person_3及其关系共同支持当前互动中的积极愉悦表达。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 47.90473222732544,
+  "node_count": 6,
+  "edge_count": 4
+}

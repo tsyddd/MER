@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物是画面中正面朝向镜头、站在中间的男子，非背对镜头的旁人。他在frame_00至frame_07（0.0–2.84秒）始终保持直立、双手收在衣袖前，面部较严肃，未见明显微笑或放松表情；字幕内容提到火势继续蔓延并传到高家，支持其表达带有担忧或警戒，但字幕只能作为语境核查，不能替代视觉上的情绪证据。[E1][E2]",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07 @ 0.0–2.84秒",
+      "observation": "目标人物正面站立并持续看向前方，眉眼与口部整体较收紧，表情严肃；双手收于身前衣袖内，姿态克制。",
+      "interpretation": "持续的严肃面部状态和克制姿态更支持对当前情况有所担忧，而非开心或惊讶。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "当前字幕原话“再这么，烧下去的话，传到高家。”",
+      "observation": "字幕表达火势若继续烧下去可能蔓延到高家。",
+      "interpretation": "该语义与目标人物的严肃、警戒式表达相符，强化担忧解释，但不属于直接视觉事实。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00至frame_07 @ 0.0–2.84秒",
+      "observation": "画面中未见明显张口瞪眼、后仰等突出的惊讶姿态，也未见明显笑容或流泪。",
+      "interpretation": "降低surprise、happy和sad作为主要标签的可能性；但低清画面限制了对细微眉眼变化的判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "目标人物动作变化很小，眉眼细节和语气无法充分核实；严肃、克制的表情也可能只是中性陈述或警告，而非明确担忧。由于没有音频，无法用语调进一步区分worried与neutral。"
+}

@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标是画面右侧面向前景男子说话的Janice，并非前景背对镜头的男子或背景食客。她从抱臂转为连续指点、前倾，随后眉头收紧、嘴部绷紧，最后重新抱臂；这一变化更支持带有责备意味的anger，而非单凭抱臂判断情绪[E1][E2][E3]。字幕中的措辞与这一视觉解释相符，但不能当作听到的语气[E4]。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒；frame_01 @ 1.0427秒",
+      "observation": "Janice坐在右侧，抱臂看向前景男子，张口说话；背景另有食客。",
+      "interpretation": "确认目标及其交谈对象；起初的抱臂本身不足以判定愤怒。",
+      "polarity": "uncertain"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 3.1281秒；frame_05 @ 5.2552秒",
+      "observation": "她从抱臂转为双手在胸前反复指点，身体逐渐朝对方前倾。",
+      "interpretation": "动作由克制转为强调，支持她正在向对方表达强烈意见，但手势单独不能确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_06 @ 6.2980秒；frame_07 @ 7.3407秒",
+      "observation": "她前倾时眉头收紧、嘴部绷紧，双手靠拢；随后转头并重新抱臂。",
+      "interpretation": "面部紧绷与此前的强调手势、收回姿态结合，最支持不满或责备。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "subtitle",
+      "anchor": "Because you know, you could make little puppets out of them, and you could use them in your theater of cruelty.",
+      "observation": "字幕中她说对方可以把它们做成小木偶，用在其“残酷剧场”里。",
+      "interpretation": "措辞可与责备性的表达相吻合；没有音频，无法核实语调。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "指点和夸张措辞也可能是玩笑式讽刺；前几帧她的表情并非始终紧绷。不过后段明确可见的蹙眉、绷嘴和前倾，使单纯轻松玩笑的解释较弱。"
+}

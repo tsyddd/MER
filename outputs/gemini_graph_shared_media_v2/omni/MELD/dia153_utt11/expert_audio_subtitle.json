@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Chandler's statement is delivered in a conversational, slightly self-deprecating tone, with a clear punchline that elicits audience laughter. The content is humorous, and the delivery is not aggressive or fearful, but rather a comedic exaggeration of a fearful situation.",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00.000 - 00:05.672",
+      "observation": "The speaker says, 'Yeah, Joe, I assure you if I'm staring down the barrel of a gun, I'm pretty much peeing every which way.'",
+      "interpretation": "The statement is a hyperbolic and humorous description of fear, delivered in a comedic manner.",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:05.672 - 00:06.000",
+      "observation": "Audience laughter is heard immediately after the line.",
+      "interpretation": "The audience's laughter indicates that the line was intended and received as humorous, supporting the 'joy' label.",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Yeah, Joe, I assure you if I'm staring down the barrel of a gun, I'm pretty much peeing every which way.",
+      "observation": "The text of the subtitle matches the audio.",
+      "interpretation": "The literal content of the line is a joke about fear, which is a common comedic trope.",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "The topic of the joke is fear, which could be misinterpreted as the speaker being afraid. However, the context of the joke and the audience's laughter confirm the speaker's intent is comedic, not genuinely fearful."
+}

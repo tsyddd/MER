@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "Ross在当前互动中主导对对面女子的当面质问，通过指控对方拿走物品并强势施压要求坦白。结合图谱节点[process_0]与[process_2]记录的言语推进过程，以及音轨中急促强硬且拔高的指责语调[E2]和步步紧逼的肢体手势[E1]，其行为表现出强烈的对峙性与攻击性，符合anger特征。事件语义排除了客观询问的neutral和意外受惊的surprise。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0s",
+      "observation": "Ross正对前方张嘴严厉质问，手臂向前伸出直指对方",
+      "interpretation": "对应图谱[person_0]，该动作表明他处于直接指控和施压的情境，具有明确的指向性和进攻性",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00 - 00:03",
+      "observation": "Ross声音高昂紧绷，语速较快，尾句'and confess!'音调陡升且极具命令感",
+      "interpretation": "核验图谱[person_1]对声音坚定的转述，实际音轨不仅坚定更带有明显的斥责与愤怒冲劲",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_2",
+      "observation": "图谱节点记录Ross最终发出'and confess!'的明确要求",
+      "interpretation": "该言语行为承接前面'We know you took it'的定罪前提，形成闭环审问，体现其被激怒后的强制逼问态度",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "若仅看手势摊开（frame_03至frame_04），可能被误判为无奈或中立交涉（neutral）；但结合音轨中高亢且带有斥责压迫感的语调以及直接定罪的严厉指控，否定了平淡无情绪的可能。"
+}

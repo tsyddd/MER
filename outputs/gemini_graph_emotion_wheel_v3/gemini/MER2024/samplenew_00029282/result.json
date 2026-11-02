@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00029282",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "e81a763258684129b06d506421613b3dbd812a365d2377fedae6ad08cf75907c",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "悲伤",
+      "mapped_label": "sad",
+      "mapping_reason": "紫衣女子当前表现出持续的抽泣、流泪与嘴角下撇，指向对已发生既成事实的心痛、哀伤与难过，完全符合情绪轮中sad（悲伤：伤心、失落、低落）的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "悲痛",
+      "mapped_label": "sad",
+      "mapping_reason": "开放词‘悲痛’表达因痛苦、心疼及不幸引发的极度悲伤与失落，符合MER情绪轮中sad（伤心、哀痛、低落）的定义。"
+    },
+    "image": {
+      "open_emotion": "悲痛",
+      "mapped_label": "sad",
+      "mapping_reason": "目标人物当前的哭泣表情及伤心抽泣完全符合悲伤（sad）定义中关于当前失落、伤心、哀痛的典型表现。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "通过核查视频原始画面与实际音轨，目标人物在frame_00至frame_07全程呈现双眉紧蹙、眼眶含泪、嘴角抽搐下撇的痛哭容貌[image:E1]，言语同时伴随剧烈的吸气抽搭与发颤哭腔[audio_subtitle:E1]，具极高可信度。尽管台词“没想到，你竟然这么傻”字面含有意外与评价词，但跨模态呈现并非惊讶意外或责怪对抗，而是面对既成现实的心碎与哀恸，完全符合sad（悲伤）的定义。",
+  "output": "通过核查视频原始画面与实际音轨，目标人物在frame_00至frame_07全程呈现双眉紧蹙、眼眶含泪、嘴角抽搐下撇的痛哭容貌[image:E1]，言语同时伴随剧烈的吸气抽搭与发颤哭腔[audio_subtitle:E1]，具极高可信度。尽管台词“没想到，你竟然这么傻”字面含有意外与评价词，但跨模态呈现并非惊讶意外或责怪对抗，而是面对既成现实的心碎与哀恸，完全符合sad（悲伤）的定义。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 46.078702449798584
+}

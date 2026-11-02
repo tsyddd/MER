@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Joey说“Awww”并表示“I’m so proud”，是在为学生获得试镜机会表达欣慰，而非仅仅提到一个情绪词。[E1][E2] 他随后双手按胸、露出笑容，与这番正向表达一致。[E3] 未提供音频，不能判断语调是否真诚或夸张。",
+  "open_emotion": "欣慰",
+  "answer": "joy",
+  "mapping_reason": "当前表达的欣慰是对学生获得机会的正向满足感，依本情绪轮映射为joy。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“Awww, one of my students got an audition.”",
+      "observation": "Joey以“Awww”开头，告知对方一名学生获得了试镜机会。",
+      "interpretation": "感叹与好消息相连，支持他对此感到高兴。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "“I’m so proud.”",
+      "observation": "Joey直接说自己为此感到骄傲。",
+      "interpretation": "结合前句，这是对学生获得机会的正向评价。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05（2.461秒）至frame_07（3.420秒）",
+      "observation": "Joey双手按在胸前，看着对方，面部逐渐展露笑容。",
+      "interpretation": "动作和表情与欣慰的言语表达一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "按胸和笑容也可能是夸张表演；由于没有音频，无法用语调排除反讽。但现有字幕与画面没有给出明确的反讽线索。"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00013076",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "e796dd3141342719140120ba7aa857e918a2cb64ad25a93033187111d322a6bb",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "感激",
+      "mapped_label": "happy",
+      "mapping_reason": "当前感激伴有可见的正向、亲切表达，近似映射到happy。感激不等同于喜悦；此映射会损失其指向对方帮助的具体含义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "感激",
+      "mapped_label": "happy",
+      "mapping_reason": "感激不是喜悦的同义词；此处主动道谢并伴有笑意，呈现当前正向情感，因而最接近happy。"
+    },
+    "image": {
+      "open_emotion": "感激",
+      "mapped_label": "happy",
+      "mapping_reason": "当前的致谢内容与面向对方的合掌动作共同支持正向情感，故将“感激”近似映射到happy；这不等于确认他正在兴奋或大笑。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "happy",
+  "emotion_analysis": "目标是右侧戴口罩的男子；字幕“正要感谢您呢！谢谢！谢，谢谢。”表明他正向对面的人致谢，[audio_subtitle:E1]与字幕一致，可信，但不能据此判断语调。回看frame_05至frame_07，他面向对方双手合十，眼部略显笑意，[image:E2]所述动作可核实，与致谢话语共同支持当前的感激。合十和眼部变化也可能只是礼貌表现，口罩遮住嘴部且未提供音轨，不能断定他强烈喜悦；但这段主动、接连的致谢比纯粹平稳交流更有正向情感支持，故将感激近似归入happy。",
+  "output": "目标是右侧戴口罩的男子；字幕“正要感谢您呢！谢谢！谢，谢谢。”表明他正向对面的人致谢，[audio_subtitle:E1]与字幕一致，可信，但不能据此判断语调。回看frame_05至frame_07，他面向对方双手合十，眼部略显笑意，[image:E2]所述动作可核实，与致谢话语共同支持当前的感激。合十和眼部变化也可能只是礼貌表现，口罩遮住嘴部且未提供音轨，不能断定他强烈喜悦；但这段主动、接连的致谢比纯粹平稳交流更有正向情感支持，故将感激近似归入happy。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 74.07069873809814
+}

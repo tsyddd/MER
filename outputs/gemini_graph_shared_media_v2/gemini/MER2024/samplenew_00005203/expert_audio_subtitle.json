@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物台词表达对分离的痛苦与不舍[E1]，语声带有明显的哽咽、颤抖与抽泣断续感[E2]，配合其眼眶含泪、嘴角微垂的哀戚神态[E3]，典型呈现悲伤状态。",
+  "answer": "sad",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "我也不想跟你分开",
+      "observation": "字幕为面对分别时的依依不舍与无奈之语",
+      "interpretation": "语义表达了被迫分离的依恋与痛苦，为悲伤情绪提供话语语境",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "发声时伴随明显的哭腔、气息颤抖与微弱哽咽，尾音下沉发虚",
+      "interpretation": "声音韵律呈现出强烈的抽泣与悲咽特征，直接指示悲伤情绪",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0s",
+      "observation": "女子眉头低垂、眼眶泛红含泪，眼神向下低垂",
+      "interpretation": "视觉表情与悲戚哽咽的声音特征高度一致，排除了平静或愤怒的可能",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "若怀疑为worried（担忧），言语内容虽涉及分离前景，但其核心声学表现完全由哽咽哭腔主导，缺少焦虑急促的语速或紧张上扬的语调，故判定为sad。"
+}

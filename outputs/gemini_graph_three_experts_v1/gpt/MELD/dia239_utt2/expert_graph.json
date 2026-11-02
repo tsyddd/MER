@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "Chandler突然转向刚走出的女子并摊开手臂打招呼，随后面向她注视、伸手询问，表现出对意外出现者的即时反应〔process_1〕〔person_1〕〔process_2〕。图谱记载其说话时出现停顿与重复，显示当下带有明显的惊讶和措手不及〔person_2〕。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "process_1",
+    "person_1",
+    "process_2",
+    "person_2"
+  ]
+}

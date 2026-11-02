@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00034373",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "5a1be975f29db4b905cf5235ac6aedcea3f1639cf54f65f8e4b8e84c66b5d091",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "三份专家报告均一致指向悲伤情绪：graph指出眼含泪光、眉头微蹙及语音哽咽；audio_subtitle描述语调低沉、声音颤抖并带哭腔；image显示眼眶湿润、嘴角下垂的哭泣状态。所有模态证据高度一致，无冲突，因此判定为sad。",
+  "output": "三份专家报告均一致指向悲伤情绪：graph指出眼含泪光、眉头微蹙及语音哽咽；audio_subtitle描述语调低沉、声音颤抖并带哭腔；image显示眼眶湿润、嘴角下垂的哭泣状态。所有模态证据高度一致，无冲突，因此判定为sad。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 38.00719118118286
+}

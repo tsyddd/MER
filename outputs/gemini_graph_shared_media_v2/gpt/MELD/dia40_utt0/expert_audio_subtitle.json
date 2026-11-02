@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Monica说“Yeah baby!”是在表达积极的肯定；画面中她转向对话对象后笑容逐渐加深，与欢喜的解读一致[E1][E2]。没有音频，不能判断她的语调或音量。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Yeah baby!",
+      "observation": "字幕是带感叹号的肯定表达。",
+      "interpretation": "结合画面中的笑容，更支持兴奋、开心的表达，而非否定或质问。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 0.834166019022242秒；frame_07 @ 1.4597905332889234秒",
+      "observation": "Monica转向左侧的人，露出笑容，随后笑容更明显。",
+      "interpretation": "持续的笑容支持joy，也与字幕的积极表达相符。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "“Yeah baby!”也可能是玩笑或反讽；但现有画面没有明显与字面表达冲突的表情。由于没有音频，仍无法用语调进一步排除反讽。"
+}

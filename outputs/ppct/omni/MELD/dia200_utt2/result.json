@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia200_utt2",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "Joey's rising, questioning tone and his gestures of confusion (palms up, then down) while asking 'And if she didn't take it, and I didn't take it; and you didn't take it, then who did?' indicate he is puzzled by the situation. His facial expression and body language show he is actively trying to understand a mystery, which aligns with the emotion of surprise.",
+  "output": "Joey's rising, questioning tone and his gestures of confusion (palms up, then down) while asking 'And if she didn't take it, and I didn't take it; and you didn't take it, then who did?' indicate he is puzzled by the situation. His facial expression and body language show he is actively trying to understand a mystery, which aligns with the emotion of surprise.\n<answer>surprise</answer>",
+  "label": "anger",
+  "elapsed_seconds": 354.33586955070496,
+  "node_count": 17,
+  "edge_count": 0
+}

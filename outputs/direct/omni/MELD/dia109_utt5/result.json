@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia109_utt5",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "Janice's high-pitched, theatrical tone and the audience's laughter indicate she is delivering a dramatic, exaggerated line for comedic effect. Her facial expressions and animated delivery are consistent with a playful, mocking tone rather than genuine negative emotions.",
+  "output": "Janice's high-pitched, theatrical tone and the audience's laughter indicate she is delivering a dramatic, exaggerated line for comedic effect. Her facial expressions and animated delivery are consistent with a playful, mocking tone rather than genuine negative emotions.\n<answer>joy</answer>",
+  "label": "anger",
+  "elapsed_seconds": 5.944739580154419,
+  "node_count": null,
+  "edge_count": null
+}

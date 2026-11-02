@@ -1,0 +1,26 @@
+{
+  "expert": "graph",
+  "reason": "在街头行走的背景下〔context_0〕，Joey随口发出一声简短的疑问〔process_0〕。核查实际音轨，其发出的“What?”语调平淡平缓，无明显的升调震惊或愤怒重音；结合视觉上他在发问时仅微张嘴、手臂微张〔person_0〕，随后自然闭嘴并垂臂低头前行〔person_1〕，整体表现为极为日常随意的随口发问，无显著情绪起伏。",
+  "open_emotion": "平常",
+  "answer": "neutral",
+  "mapping_reason": "Joey当前的语气与肢体语言均处于放松、平稳的常态交流状态，缺乏强烈效价或激活度，符合情绪轮中neutral（日常平稳、无明确主导情绪）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:00.5",
+      "observation": "Joey说出“What?”的声音低平、语调自然平稳，未出现高亢破音或剧烈起伏",
+      "interpretation": "表明这只是随意的日常搭话，而非受惊或动怒后的激烈反应",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "Joey说完后合上嘴，视线转向地面，双臂自然垂在身侧",
+      "interpretation": "显示发问后身体迅速回归松弛的行走状态，佐证其内心情绪平稳",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "单字疑问句“What?”常被用于表达意外或惊讶（surprise），但在此处结合音轨中平缓的声调及面部缺乏睁眼张口等惊愕特征，可排除惊讶。"
+}

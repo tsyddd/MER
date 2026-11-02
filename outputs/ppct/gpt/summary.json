@@ -1,0 +1,34 @@
+{
+  "provider": "gpt",
+  "mode": "ppct",
+  "frames": 8,
+  "status": "finished",
+  "smoke": false,
+  "updated": 1793474332.211748,
+  "metrics": {
+    "MER2024": {
+      "expected": 40,
+      "processed": 40,
+      "valid": 40,
+      "correct": 31,
+      "accuracy_all": 0.775,
+      "accuracy_valid": 0.775
+    },
+    "MELD": {
+      "expected": 40,
+      "processed": 40,
+      "valid": 40,
+      "correct": 31,
+      "accuracy_all": 0.775,
+      "accuracy_valid": 0.775
+    },
+    "ALL": {
+      "expected": 80,
+      "processed": 80,
+      "valid": 80,
+      "correct": 62,
+      "accuracy_all": 0.775,
+      "accuracy_valid": 0.775
+    }
+  }
+}

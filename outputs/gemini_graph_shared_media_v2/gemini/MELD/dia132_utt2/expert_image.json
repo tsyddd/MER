@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "Phoebe在整个片段中神态平静自然，面部无明显的情感夸张或肌肉紧绷[E1]，双手配合叙述进行平稳的描摹手势[E2]，语调平实且具陈述性[E3]，整体表现为常规的客观信息传达。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 1.25125",
+      "observation": "Phoebe注视着前台工作人员，眉眼放松，嘴角随说话自然开合，未见皱眉、瞪眼或明显扬起的笑肌。",
+      "interpretation": "缺乏愤怒、恐惧、惊讶或明显快乐的典型面部运动，符合中性陈述状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 2.5025",
+      "observation": "Phoebe双手微抬，掌心向下自然摆动做描述性手势，身体姿态松弛前倾。",
+      "interpretation": "肢体语言为日常说明性动作，未伴随情绪激动或防御性姿态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:02 - 00:04",
+      "observation": "Phoebe在说出“early to mid-thirties, very attractive”时语调平稳自然，语气平铺直叙。",
+      "interpretation": "虽然台词涉及积极外貌描述，但语调并无掩饰不住的兴奋或喜悦，依然属于理性描述。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词提及“very attractive”可能引发对joy或花痴情绪的猜测，但其面部缺乏笑意与兴奋神态，声音亦未见上扬笑腔，不足以支撑joy。"
+}

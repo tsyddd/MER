@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物是左侧穿白色球衣的Joey。他从指向地面的动作转为放下手臂，始终低头看向地面；画面未见明显睁大眼睛或张口等突发反应[E1][E2]。字幕“What?”可表示疑惑，但仅凭这句话不足以确定惊讶[E3]。当前最有视觉支持的标签是neutral。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒",
+      "observation": "Joey低头看向地面附近，右臂向下伸出；旁边戴蓝帽的人部分被他遮挡。",
+      "interpretation": "动作指向某处，但面部可见部分没有明显夸张变化。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_07 @ 0.5004996114133452秒",
+      "observation": "Joey放下手臂，仍低头站着；未见明显睁大眼睛或张口。",
+      "interpretation": "前后动作较平缓，比突发惊讶更支持克制的当前表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "What?",
+      "observation": "字幕为“What?”。",
+      "interpretation": "问句可能表示疑惑或惊讶，但不能单独确定面部情绪。",
+      "polarity": "counter"
+    }
+  ],
+  "counterevidence": "最强的相反解释是惊讶：字幕中的“What?”和向下指的动作可能是在回应意外之事。但这段画面没有清晰可见的突发面部反应，因此未采用surprise。"
+}

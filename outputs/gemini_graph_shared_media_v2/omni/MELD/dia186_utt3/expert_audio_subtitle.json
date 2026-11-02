@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者在音频中说 'I'm sorry I gotta cancel tonight baby'，其语调低沉、语速缓慢，传达出一种无奈和抱歉的情绪。结合字幕内容，可以判断说话者的情绪是抱歉和失望，而非中性。",
+  "answer": "sadness",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:01.918",
+      "observation": "说话者说 'I'm sorry I gotta cancel tonight baby'，语调低沉，语速缓慢。",
+      "interpretation": "低沉的语调和缓慢的语速通常与悲伤或失望的情绪相关联。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "I'm sorry I gotta cancel tonight baby",
+      "observation": "字幕内容为 'I'm sorry I gotta cancel tonight baby'。",
+      "interpretation": "字幕中的 'sorry' 和 'cancel' 表明说话者正在表达歉意和取消计划，这与悲伤的情绪相符。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无明确的相反解释。"
+}

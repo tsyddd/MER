@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00033539",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "画面中的人物在听到对话后，眉毛抬起且眉头紧锁，眼神露出难以置信的神态，同时用上扬且惊诧的语气反问“啊？真的”，表现出明显的惊讶情绪。",
+  "output": "画面中的人物在听到对话后，眉毛抬起且眉头紧锁，眼神露出难以置信的神态，同时用上扬且惊诧的语气反问“啊？真的”，表现出明显的惊讶情绪。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 6.8736138343811035,
+  "node_count": null,
+  "edge_count": null
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Joey发出的单字疑问词\"What?\"语调平稳低沉且音量适中，缺乏显著的高音调上扬或强烈的能量爆发[E1]；台词仅为日常随意的状态确认[E2]；视觉上其面部肌肉放松无明显惊愕或情绪化动作[E3]，整体表现符合中性状态。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "0.00s-0.35s",
+      "observation": "Joey发音短促平直，音调仅有极轻微的自然问询起伏，音量平稳，无剧烈的升调或惊呼质感",
+      "interpretation": "缺乏强烈的情感唤醒度，支持平淡随意的交流状态而非剧烈情绪",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "What?",
+      "observation": "台词仅由单个日常疑问词构成，不含任何主观情绪评价或情绪词汇",
+      "interpretation": "言语行为仅仅是习惯性的对话引导或对同伴举动的随口发问，语义上呈中性",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.083s",
+      "observation": "Joey在边走边侧头说话时，眉毛平缓未抬高，眼睑放松，嘴唇自然开合",
+      "interpretation": "视觉上无惊讶导致的瞠目扬眉，印证了其声音中所体现的平静状态",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的替代解释是因疑问句而判断为surprise（惊讶），但音轨中无显著高音或急促吸气，且面部未表现出惊愕特征，故排除surprise。"
+}

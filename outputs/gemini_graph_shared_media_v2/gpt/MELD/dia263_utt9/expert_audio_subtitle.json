@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Ross说“I'm gonna have to give him up”，是在表达不得不放弃，而非提问或引述[E1]。说话前低头闭眼，随后神情严肃，与无奈、难过的解读相符[E2][E3]。没有音频，无法判断语调；综合字幕与画面，选择sadness。",
+  "answer": "sadness",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "I'm gonna have to give him up.",
+      "observation": "Ross表示自己将不得不放弃“他”。",
+      "interpretation": "“have to”强调并非自愿的决定，支持无奈、难过的解读，但这句话本身不足以单独确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒",
+      "observation": "Ross低着头，闭着眼，嘴唇抿起。",
+      "interpretation": "说话前的姿态与难过或不舍相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_07 @ 1.4180822323378113秒",
+      "observation": "Ross说话时没有笑，表情严肃，视线略向下。",
+      "interpretation": "画面未显示轻松或喜悦，与字幕中的无奈相一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的替代解释是他只是在平静陈述一个决定，未必感到难过；但低头闭眼的表情使sadness比neutral更有依据。由于没有音频，无法用语调进一步区分。"
+}

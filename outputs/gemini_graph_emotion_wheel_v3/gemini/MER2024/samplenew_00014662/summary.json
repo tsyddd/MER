@@ -1,0 +1,9 @@
+{
+  "reason": "目标女性在画面中（frame_01至frame_06）双眉微蹙且内侧微抬，眼神专注探询，如[image:E1]所述表现出克制但紧绷的关切神态，该视觉观察真实可信。台词明确强调‘我主要是担心这事会牵连到您家老爷子’[audio_subtitle:E1]，关注点直指尚未发生的负面牵连与潜在风险，而非既成损失。虽然其神态与语调相对礼貌收敛[audio_subtitle:E2]，但言语内容对风险的预警配合微蹙的眉心，排除了无情绪主导的平常叙述，完整支持担忧（worried）这一核心情绪。",
+  "answer": "worried",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E1",
+    "audio_subtitle:E2"
+  ]
+}

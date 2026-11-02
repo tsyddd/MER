@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Joey说“Awww, one of my students got an audition. I’m so proud.”，是在表达对学生获得试镜机会的欣喜和自豪，而非引述他人的情绪[E1]。他双手按在胸前，随后露出笑容，与话语相符[E2][E3]。判断仅依据字幕和画面，没有音频可供核对语调。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Awww, one of my students got an audition. I’m so proud.",
+      "observation": "Joey说自己的学生获得了试镜机会，并明确说“I’m so proud”。",
+      "interpretation": "第一人称表达自豪，支持积极、喜悦的当前情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.9592909218755783秒",
+      "observation": "Joey面向对方，双手按在胸前。",
+      "interpretation": "这一动作与郑重表达自身感受相符，但单独不能确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_07 @ 3.420080677991192秒",
+      "observation": "Joey仍按着胸口，面带笑容。",
+      "interpretation": "笑容与字幕中的欣喜和自豪一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "双手按胸口也可能是在夸张表演，字幕单独无法排除反讽；但画面中持续的笑容与正面措辞一致，未见明确的反讽线索。由于没有音频，无法进一步核对语调。"
+}

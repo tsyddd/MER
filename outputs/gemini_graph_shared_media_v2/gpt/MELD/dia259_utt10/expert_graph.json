@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "Monica是在当前互动中批评一个笑话，而非描述笑话涉及的事正在发生。她明确说笑话不好笑且冒犯他人[E1]；画面中她前倾、张口强调，支持愤怒而非平静陈述[E2]。图谱的process_1将这段话组织为她持续提出批评[E3]，但与字幕属于同一话语事实，不能重复计作独立证据。图谱还转述她语调严肃坚决[E4]；未收到原音轨，不能亲耳核验，因此最终以字幕和当前画面取舍。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "The joke is not funny, and its offensive to women, and doctors, and monkeys!",
+      "observation": "Monica直接否定笑话，并指出它冒犯多个对象。",
+      "interpretation": "这是针对当前笑话的明确不满，而非单纯提及笑话。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_06 @ 4.212538396062322秒",
+      "observation": "Monica向前探身，张大嘴，朝画面外的交流对象伸手。",
+      "interpretation": "动作与她的批评相配合，支持激动地表达不满；单凭张嘴不能判断音量。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "图谱将她的话组织为继续指出笑话冒犯女性和医生。",
+      "interpretation": "确认图谱所述的是Monica当下的批评，不是他人的话或过去事件；该内容与字幕同源，不另算一份证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱转述Monica语速较快、语调严肃坚决。",
+      "interpretation": "若属实可支持愤怒，但没有原音轨，声音特征无法亲耳核验。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "部分画面中Monica略带笑意，可能是在玩笑式反驳；但明确的冒犯指责与持续的强调动作，使愤怒比喜悦更符合当前表达。"
+}

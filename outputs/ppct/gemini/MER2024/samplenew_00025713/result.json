@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00025713",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "白衣少年在交谈中发问“你，你，你怎么知道的？”（process_0），声音结巴停顿（person_1）。随后他闭眼后重新睁大双眼、嘴巴微张（person_2、person_3），眼神惊诧，体现出意外与震惊的情绪。",
+  "output": "白衣少年在交谈中发问“你，你，你怎么知道的？”（process_0），声音结巴停顿（person_1）。随后他闭眼后重新睁大双眼、嘴巴微张（person_2、person_3），眼神惊诧，体现出意外与震惊的情绪。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 46.79574966430664,
+  "node_count": 6,
+  "edge_count": 5
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者在音频中说出“像这娘，交代你”时，语调平稳，节奏舒缓，没有明显的情绪起伏。字幕内容为“像这娘，交代你”，结合其面部表情（微笑）和身体姿态（放松地靠在沙发上），整体表现得较为平静和随意，没有表现出愤怒、悲伤或惊讶等强烈情绪。因此，最符合的判断是neutral。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00.000 - 00:02.400",
+      "observation": "说话者语速平稳，音量适中，没有明显的音高或节奏变化，听起来像是在平静地陈述或交代事情。",
+      "interpretation": "平稳的语调和节奏是判断情绪为neutral的重要依据，缺乏表达强烈情感的声学线索。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "像这娘，交代你",
+      "observation": "字幕内容为“像这娘，交代你”，这是一个陈述性的句子，没有明显的情绪词或疑问词。",
+      "interpretation": "字幕内容本身是中性的，不带有强烈的情感色彩，与说话者的平静语气一致。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 - frame_07 @ 00:00.000 - 00:03.000",
+      "observation": "说话者面部表情为微笑，身体姿态放松，靠在沙发上。",
+      "interpretation": "视觉上表现出的放松和微笑与音频中的平静语气相符，共同支持neutral的判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的替代解释是'happy'，因为说话者有微笑。然而，微笑本身并不足以确定情绪为happy，因为neutral的人也可能微笑。音频中缺乏表达快乐的声学特征（如音调上扬、语速加快），因此'neutral'是更保守和准确的判断。"
+}

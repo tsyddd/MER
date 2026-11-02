@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "目标人物（车外戴眼镜男子）在互动中主动俯身对车内女子作出行程安排[process_0]。从实际音轨来看，其语调平稳低沉，面部眉眼平缓舒展，无紧促、焦虑或激动的声学与表情特征[person_2][E1][E2]，整体处于理性平和的商量与引导状态，因而判定为neutral而非worried。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱指明男子开口发声时语调低沉平缓，结合真实音频00:00-00:02核验，发音平稳且无声调上扬或急促颤抖",
+      "interpretation": "平缓的语音输出表明说话人当下情绪克制平稳，排除了惊慌焦虑或愤怒的高唤醒情绪，支持中立平静判断",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.2s",
+      "observation": "男子俯身注视女子时，面部眉毛舒展无紧锁，眼睑与嘴角形态稳定平直",
+      "interpretation": "缺乏皱眉、凝重苦涩或惊恐等特征，证实男子并未陷入worried或sad的情绪起伏中",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "男子俯身在车窗旁对女子交待‘你先上我的车，先回去’的事项",
+      "interpretation": "事件语义属于常规的情境应对与理性事务安排，互动行为本身未带有强烈情绪倾向",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "替代解释可能认为其俯身劝导女子的行为是在表达关切担忧（worried）；然而男子音调平沉且缺乏眉心聚拢、语促等担忧特异性生理线索，故担忧仅停留在事件动机假设层面，未转化为显性情绪表达。"
+}

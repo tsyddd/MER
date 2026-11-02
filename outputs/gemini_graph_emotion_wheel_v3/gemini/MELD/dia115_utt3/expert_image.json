@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "目标人物Ross位于画面右侧（身穿深色皮夹克与连帽衫）。在整个片段（frame_00至frame_07）中，Ross面向Chandler说话，其面部表情整体平稳克制：双眉自然舒展无紧锁（排除anger）或挑高（排除surprise/fear），嘴角及面部肌肉无厌恶性抽动或明显笑容（排除joy/disgust）。结合听觉，Ross语调平稳、节奏均一，以冷静而客观的口吻陈述事实，整体表现出日常、理智且无剧烈波动的交流状态。",
+  "open_emotion": "平淡客观",
+  "answer": "neutral",
+  "mapping_reason": "Ross在评价对方动作时神态平静、语气平缓，未见明显的情绪爆发或显著偏向，符合情绪轮中对neutral‘平稳、日常且没有明确主导情绪表达’的界定。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07 (0.00s-5.42s)",
+      "observation": "Ross侧对镜头站立，面部眉毛平直，额头无皱纹，眼睛未圆睁，说话过程中嘴唇自然开合，没有愤怒咬牙、厌恶撇嘴或开心咧嘴的表情变化。",
+      "interpretation": "面部各肌肉群处于自然松弛状态，缺乏剧烈正向或负向情绪的驱动标志。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:05",
+      "observation": "Ross说话声音平直，语气沉着，语速均匀，既无高亢激昂的责难，也无带笑的颤音。",
+      "interpretation": "听觉表现与视觉上的平淡神情相吻合，呈现日常陈述性对话。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词内容具有戏谑和调侃性质（“护着脸尖叫不是反手抽球”），背景音伴有观众笑声，可能隐含轻微的讽刺或好笑，但Ross本人从神态到语气都严格保持死板与严肃，没有转化为外显的joy或anger。"
+}

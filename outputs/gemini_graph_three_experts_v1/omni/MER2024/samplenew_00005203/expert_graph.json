@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "粉衣女子在组织文本中表现为嘴唇微张开合、目光微垂，同时发出轻微、语调低缓的声音（person_0与person_1），说出‘我也不想跟你分开’（process_0），随后停止说话（process_1）。这些行为与声音特征表明她情绪低落，表达了一种不愿分离的无奈与伤感，符合‘sad’的情绪特征。",
+  "answer": "sad",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "process_0",
+    "process_1"
+  ]
+}

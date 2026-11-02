@@ -1,0 +1,107 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Ross说：“I'm gonna have to give him up.”",
+      "time_index": 1,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Ross坐着，头部和视线朝下。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Ross抬起头，视线转向前方。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Ross说话时嘴部开合。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "场景位于室内，Ross坐在画面中央。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "画面右后方出现一名部分可见的女性。",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "同一人物的头部和视线由朝下转为抬起并转向前方",
+      "entity_anchor": "Ross"
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "simultaneous",
+      "reason": "同一人物抬头转向前方的同时正在说话并开合嘴部",
+      "entity_anchor": "Ross"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供Ross坐着且头部和视线朝下的信息，person_1提供其随后抬头并将视线转向前方的信息，联合后补充了Ross从低头到面向前方的可观察动作变化。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1提供Ross抬头并面向前方的信息，person_2提供其说话时嘴部开合的信息，联合后明确了Ross面向前方进行说话的可观察表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0提供室内场景及Ross位于画面中央的信息，context_1提供画面右后方有部分可见女性的信息，联合后更完整限定了室内场景中的人物构成与空间位置。",
+      "entity_anchor": null
+    }
+  ]
+}

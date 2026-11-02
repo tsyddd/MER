@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标是穿浅紫色上衣的黑发女性Monica，不是穿玫红色衣服的Rachel。Monica先注视Rachel，随后短暂垂眼、收紧嘴唇，最后抬眉直视她并开口说话[E1][E2]。这些变化结合字幕中的明确反对[E3]，最支持带有克制不满的anger；画面本身未显示强烈怒容。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 1.0427075237778025秒；frame_03 @ 1.5432071351911476秒",
+      "observation": "Monica面向Rachel，随后视线短暂下移，嘴唇收紧。",
+      "interpretation": "与直接对视相比，表情变得更严肃，但单凭这一变化不能确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05 @ 2.544206358017838秒；frame_07 @ 3.5869138817956405秒",
+      "observation": "Monica重新直视Rachel，眉毛抬起，眼睛睁大，嘴巴在说话时张开。",
+      "interpretation": "持续面向对方的强调式表达，与克制的不满相符；抬眉本身也可能有其他含义。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Rachel! Im never gonna think its okay for you to cheat on your husband!",
+      "observation": "字幕显示Monica明确表示绝不会认为Rachel出轨是可以接受的。",
+      "interpretation": "为画面中的严肃、强调式表达提供反对与责备的语义依据；字幕不提供语调信息。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_04 @ 2.0437067466044927秒；frame_06 @ 3.086414270382295秒",
+      "observation": "Monica的嘴角略微上扬，面部没有持续紧绷或明显皱眉。",
+      "interpretation": "这是强烈愤怒的反证，也使轻松或带讽刺意味的表达成为可能。",
+      "polarity": "counter"
+    }
+  ],
+  "counterevidence": "最强的相反解释是Monica在半笑着表达调侃或讽刺，而非真正生气[E4]。但她的视线和表情变化，加上字幕中明确的否定，更支持克制的不满；没有音频，无法用语调进一步区分。"
+}

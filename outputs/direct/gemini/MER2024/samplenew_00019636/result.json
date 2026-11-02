@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00019636",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "画面中男子眉头微蹙，手握在领口前，眼神充满思索与疑虑；语音低沉而带有不安，在提及对方使用人面花永葆青春的事时，流露出明显的困惑与忧虑情绪。",
+  "output": "画面中男子眉头微蹙，手握在领口前，眼神充满思索与疑虑；语音低沉而带有不安，在提及对方使用人面花永葆青春的事时，流露出明显的困惑与忧虑情绪。\n<answer>worried</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 8.08146333694458,
+  "node_count": null,
+  "edge_count": null
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia150_utt4",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sadness",
+  "emotion_analysis": "Janice面部眉毛微蹙，嘴唇下撇，抱臂时眼神带着明显的失落与感伤，配合告别时低沉而悲伤的语调，表现出sadness情绪。",
+  "output": "Janice面部眉毛微蹙，嘴唇下撇，抱臂时眼神带着明显的失落与感伤，配合告别时低沉而悲伤的语调，表现出sadness情绪。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 5.61568021774292,
+  "node_count": null,
+  "edge_count": null
+}

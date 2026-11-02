@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia259_utt9",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "db05c16c44916312cd44a75a33353218abec775c99c4678488d5f402e1804724",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "图像专家详细记录了Monica双手紧扣胸前、身体前倾且自始至终嘴角上扬带有清晰微笑的神情，展现出戏谑愉悦的状态；音频专家仅根据带有斥责性的台词词眼判断为愤怒，与视觉显现的明显笑意直接冲突，因而予以排除；结合图谱专家也捕捉到的紧扣双手等热切体态，其整体情绪倾向于喜悦调侃而非中性或愤怒。",
+  "output": "图像专家详细记录了Monica双手紧扣胸前、身体前倾且自始至终嘴角上扬带有清晰微笑的神情，展现出戏谑愉悦的状态；音频专家仅根据带有斥责性的台词词眼判断为愤怒，与视觉显现的明显笑意直接冲突，因而予以排除；结合图谱专家也捕捉到的紧扣双手等热切体态，其整体情绪倾向于喜悦调侃而非中性或愤怒。\n<answer>joy</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 38.567928075790405
+}

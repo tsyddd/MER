@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "画面中央粉衣女子双眉呈内高外低八字微蹙，嘴角持续下撇，目光低垂注视对方[E1][E2]，且说话时伴有明显颤抖哭腔与哽咽[E3]，体现出强烈的难过与不舍，符合悲伤（sad）特征。",
+  "answer": "sad",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.28s",
+      "observation": "粉衣女子内侧眉毛抬起微蹙，双眼微眯下垂，嘴角明显向下拉扯，神情委屈欲泣。",
+      "interpretation": "内眉抬高且嘴角下撇是典型的悲伤面部动作单元组合，表明其处于极度伤感状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_07 @ 1.96s",
+      "observation": "女子目光依然垂落前方，面部肌肉紧绷微沉，唇部微抿向下，维持低落神态。",
+      "interpretation": "持续的低垂视线和下垂唇角显示其沉浸在难过与离别悲痛中，未见惊慌或愤怒的张扬反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "0.0s-1.8s",
+      "observation": "女子说出“我也不想跟你分开”时声音虚弱颤抖，句末带有明显的气声哽咽与哭腔。",
+      "interpretation": "哽咽哭腔强化了视觉上难过哭泣的表达，排除了中立或单纯担忧的可能。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词提及分离可能引发对未来处境的担忧（worried），但其面部肌肉呈现典型的嘴角下撇及哭泣哽咽声，主导表现为离别的伤痛而非焦虑警戒，故判定为sad。"
+}

@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "空乘人员在向登机乘客致意时，语调轻快上扬，声音中带有明显的笑意（smiling voice）[E1]，左侧侧脸可见其嘴角上提微笑[E2]，言语行为表现出明确的愉悦与亲切迎客态度，判定为joy。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00.00-00:01.20",
+      "observation": "空乘人员说出问候语时音调明显上扬，节奏轻快且带有听觉上可辨识的微笑气流与乐意",
+      "interpretation": "表明其并非机械、冷淡的常规通报，而是带有积极情绪的愉悦互动",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05 @ 1.50s",
+      "observation": "画面左侧前景的空乘人员侧脸嘴角明显向上咧开露齿微笑",
+      "interpretation": "视觉表情与听觉中的笑意语调完全吻合，支持愉悦/喜悦的情绪表现",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的相反解释是将其视为职业化、常规礼仪性质的平淡问候（neutral）；但音轨中明显的欢快语调起伏与视觉上的咧嘴笑意超出了纯粹客观中性的表达范畴。"
+}

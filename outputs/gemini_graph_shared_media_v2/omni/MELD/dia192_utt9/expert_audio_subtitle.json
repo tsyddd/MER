@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Monica's utterance 'What?! Excuse me!' is delivered with a high pitch and sharp intonation, indicating surprise and disbelief. The word 'What?!' is a direct expression of shock, and the following 'Excuse me!' is spoken in a tone that suggests she is taken aback by something unexpected. The audio evidence clearly supports a strong emotional reaction.",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:01.501",
+      "observation": "The speaker says 'What?! Excuse me!' with a high-pitched, sharp, and quick delivery.",
+      "interpretation": "The high pitch and sharp intonation are characteristic of a surprised or shocked reaction, indicating that the speaker is taken aback by something.",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "What?! Excuse me!",
+      "observation": "The subtitle shows the speaker saying 'What?! Excuse me!'",
+      "interpretation": "The words 'What?!' and 'Excuse me!' are direct expressions of surprise and disbelief, confirming the emotional state indicated by the audio.",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "The strongest alternative interpretation is 'anger', as 'Excuse me!' can sometimes be used in a confrontational way. However, the high-pitched, sharp delivery and the immediate 'What?!' strongly indicate surprise rather than anger, which would typically involve a lower pitch and a more forceful, sustained tone."
+}

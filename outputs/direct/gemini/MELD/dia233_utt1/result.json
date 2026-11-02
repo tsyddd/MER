@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia233_utt1",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "Rachel面向对方说话时眉头紧锁、表情充满质问与不满，配合摊手与提高的责备语调，明确表现出抗议与生气的愤怒情绪。",
+  "output": "Rachel面向对方说话时眉头紧锁、表情充满质问与不满，配合摊手与提高的责备语调，明确表现出抗议与生气的愤怒情绪。\n<answer>anger</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 7.377706289291382,
+  "node_count": null,
+  "edge_count": null
+}

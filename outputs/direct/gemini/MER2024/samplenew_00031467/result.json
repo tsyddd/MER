@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00031467",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "画面中甄嬛双手端着碗，神情自然平和，以平缓温和的语气对皇上说话，没有明显的喜怒哀乐或担忧情绪，表现为中性状态。",
+  "output": "画面中甄嬛双手端着碗，神情自然平和，以平缓温和的语气对皇上说话，没有明显的喜怒哀乐或担忧情绪，表现为中性状态。\n<answer>neutral</answer>",
+  "label": "happy",
+  "elapsed_seconds": 9.86311960220337,
+  "node_count": null,
+  "edge_count": null
+}

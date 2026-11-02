@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "Rachel面带微笑并持续注视对方〔person_0〕〔person_2〕，同时图谱记载其以客气平缓的语调回应并致谢〔person_1〕。这些当前的积极表情和礼貌互动表现出愉快情绪，故判断为joy。",
+  "answer": "joy",
+  "evidence_refs": [
+    "person_0",
+    "person_2",
+    "person_1"
+  ]
+}

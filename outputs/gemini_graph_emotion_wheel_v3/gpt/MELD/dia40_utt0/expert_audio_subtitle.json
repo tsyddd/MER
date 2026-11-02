@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Monica说“Yeah baby!”，是带有积极意味的应和，而非疑问或否定[E1]。她说话时转向左侧的人，笑容逐渐变得明显[E2]；话语与表情共同支持她此刻感到愉悦。没有音频，不能判断语调或音量。",
+  "open_emotion": "愉悦",
+  "answer": "joy",
+  "mapping_reason": "当前的积极应和与持续笑容符合joy所指的愉悦体验。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“Yeah baby!”",
+      "observation": "Monica的当前字幕是一句积极的应和。",
+      "interpretation": "支持正向情绪表达，但仅凭这句短话不能确定其强度。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03（0.626秒）至frame_07（1.460秒）",
+      "observation": "Monica转向左侧的人，笑容逐渐扩大并持续。",
+      "interpretation": "表情与积极话语一致，支持愉悦而非平稳无情绪的表达。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "这句话也可能是玩笑式或礼貌性的应和；缺少音频，无法用韵律区分。但持续的笑容使愉悦成为较强的解释。"
+}

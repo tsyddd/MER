@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "Rachel当面追问对方是否借给Joey添置东西来把自己赶出公寓；图谱节点process_0记录的是她当前的发问，而“赶走我”仍是她提出的怀疑，不是已证实的意图[E1]。画面中她持续注视对方，眉头微蹙、神情紧绷，与质问的语义结合，更支持anger，而非单纯求知[E2]。图谱person_2所述语调因未提供原音轨，不能亲耳核验，也不作为最终取舍依据[E3]。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "图谱记录Rachel向面前女子发问：“Did you get all this stuff for Joey to try and drive me out of the apartment?”；话语与当前字幕一致。",
+      "interpretation": "问题指向对方可能有意把自己赶出公寓，带有当下的责问意味；所问动机并未获证实。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.8351652418489324秒",
+      "observation": "Rachel面向对方，手叉腰，眉头微蹙，神情紧绷。",
+      "interpretation": "这些可见表现与当面的责问相符，但单凭姿态不足以判定愤怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱转述Rachel说话清晰连贯、句尾有疑问升调；未提供原音轨。",
+      "interpretation": "语调无法亲耳核验，且疑问升调本身不能区分愤怒与普通询问。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "她也可能只是认真求证，画面没有明显的激烈动作；但发问所针对的排挤意图，结合紧绷的当面表达，比普通询问更支持anger。"
+}

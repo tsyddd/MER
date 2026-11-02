@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "Joey当前靠坐在椅子上打电话，头部微偏且视线略向下，嘴唇开合说话（person_0、person_1）。图谱记载其声调平缓低沉，并说“I'm sorry I gotta cancel tonight baby”，整体表现为克制、平稳，未见明确的强烈情绪反应（person_2、process_0）。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "person_2",
+    "process_0"
+  ]
+}

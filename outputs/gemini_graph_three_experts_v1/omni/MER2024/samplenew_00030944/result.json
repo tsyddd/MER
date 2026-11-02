@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00030944",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "7bd9f3e867f21d2ec668fb44dc3c0e1322c116ee3685ad30869d4f13503a1273",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "三份专家报告均一致指向目标人物表现出担忧情绪：graph通过面部特征描述和关切话语内容支持，audio_subtitle通过语速缓慢和语调上扬体现忧虑，image则结合神情与字幕内容确认。所有证据来源相互印证，无冲突，因此采纳共同结论。",
+  "output": "三份专家报告均一致指向目标人物表现出担忧情绪：graph通过面部特征描述和关切话语内容支持，audio_subtitle通过语速缓慢和语调上扬体现忧虑，image则结合神情与字幕内容确认。所有证据来源相互印证，无冲突，因此采纳共同结论。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 48.5234272480011
+}

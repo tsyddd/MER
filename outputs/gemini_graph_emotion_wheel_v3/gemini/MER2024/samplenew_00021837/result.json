@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00021837",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "4ea7680e20f81851cd4a88935382e146f7572d96f8fec674a7c229992a63b048",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "平稳叙述",
+      "mapped_label": "neutral",
+      "mapping_reason": "梅晓歌当前的语气与神态均为平稳、庄重的叙述，无正向欣喜亦无负向对抗或焦虑，符合情绪轮中关于neutral（平稳叙述、自然交流、无明确主导情绪）的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "平稳叙述",
+      "mapped_label": "neutral",
+      "mapping_reason": "说话者的语调、节奏和语义内容均体现出无明显情绪倾向的客观叙述与自然交流，完全符合情绪轮中neutral（平稳叙述、自然交流、无明确主导情绪）的定义。"
+    },
+    "image": {
+      "open_emotion": "平稳叙述",
+      "mapped_label": "neutral",
+      "mapping_reason": "目标人物面部与体态均展现出严肃稳重的叙事交流状态，缺乏强烈的正负向情绪激活，符合情绪轮中neutral（平稳叙述、自然交流、无明确主导情绪）的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物在会议场景中作正式发言，独立核实其语音平稳厚重、无明显起伏波澜[audio_subtitle:E1]，台词仅为客观交代过往调研背景的事实陈述[audio_subtitle:E2]。视觉上，其端坐平视前方，眉宇舒展无紧绷皱缩，面部肌肉自然[image:E1]，仅在句间停顿自然抿唇收束[image:E2]。虽然严肃的神情和微抿嘴唇易被疑为担忧或感伤，但其声线沉稳坚实且缺乏针对风险或损失的情绪评价，全面印证了平稳叙述的中性交流状态。",
+  "output": "目标人物在会议场景中作正式发言，独立核实其语音平稳厚重、无明显起伏波澜[audio_subtitle:E1]，台词仅为客观交代过往调研背景的事实陈述[audio_subtitle:E2]。视觉上，其端坐平视前方，眉宇舒展无紧绷皱缩，面部肌肉自然[image:E1]，仅在句间停顿自然抿唇收束[image:E2]。虽然严肃的神情和微抿嘴唇易被疑为担忧或感伤，但其声线沉稳坚实且缺乏针对风险或损失的情绪评价，全面印证了平稳叙述的中性交流状态。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 48.837247133255005
+}

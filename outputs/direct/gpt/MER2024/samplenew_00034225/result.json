@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00034225",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "目标人物正面对画外人说“怎么？他不好对付啊。”画面中他眉毛略抬、眼睛睁大并张口发问，表现出对信息的即时意外和疑问，而非明显的愤怒或悲伤。",
+  "output": "目标人物正面对画外人说“怎么？他不好对付啊。”画面中他眉毛略抬、眼睛睁大并张口发问，表现出对信息的即时意外和疑问，而非明显的愤怒或悲伤。\n<answer>surprise</answer>",
+  "label": "worried",
+  "elapsed_seconds": 40.803264141082764,
+  "node_count": null,
+  "edge_count": null
+}

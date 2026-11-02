@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物Monica面部贯穿自然的微笑与上扬的嘴角，眼神轻松明亮，肢体动作指向街机屏幕时态度戏谑欢快。结合音轨中带笑的轻快语调，其虽然在指涉一个客观问题，但整体神态完全沉浸在好笑与调侃的愉悦氛围中，无愤怒、恐惧或严肃中性神态。",
+  "open_emotion": "愉悦",
+  "answer": "joy",
+  "mapping_reason": "Monica表现出因荒谬情境而感到的轻松戏谑与被逗乐状态，符合情绪轮中joy定义的‘开心、愉悦、满足或兴奋的正向体验’（涵盖‘愉悦/amused’）。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01 (0.334s) - frame_02 (0.667s)",
+      "observation": "Monica侧头向左侧同伴讲话时，嘴角明显上扬，两颊苹果肌抬起，展露自然放松的笑容。",
+      "interpretation": "面部表情呈现出正向愉快的交谈状态，而非严肃或不悦。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 (1.335s) - frame_06 (2.002s)",
+      "observation": "Monica右手朝街机控制台方向摆动示意，同时面部露齿微笑加深，眉眼展开，身体姿态放松轻盈。",
+      "interpretation": "生动的手势配合清晰的露齿微笑，表明其处于调侃、被逗乐的愉快情绪中。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "0.0s - 2.3s",
+      "observation": "Monica话语中语调上扬并带有明显的笑意与戏谑韵律。",
+      "interpretation": "听觉表现与视觉微笑高度吻合，消除了因字幕内容可能带来的严肃担忧歧义。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "字幕语句‘he can’t see this’指涉某种需要避免的负面情况，frame_00初始微抿嘴唇可能被误读为顾虑或中性陈述，但随后的持续展颜欢笑排除了负向情绪。"
+}

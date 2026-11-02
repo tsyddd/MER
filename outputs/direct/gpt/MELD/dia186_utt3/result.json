@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia186_utt3",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "sadness",
+  "emotion_analysis": "Joey在电话中说“对不起，我今晚得取消了，宝贝”，表达了歉意和取消约会带来的失落。画面中他闭眼、眉头微蹙，姿态松弛且神情低落，符合悲伤而非愤怒或惊讶。",
+  "output": "Joey在电话中说“对不起，我今晚得取消了，宝贝”，表达了歉意和取消约会带来的失落。画面中他闭眼、眉头微蹙，姿态松弛且神情低落，符合悲伤而非愤怒或惊讶。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 46.42832708358765,
+  "node_count": null,
+  "edge_count": null
+}

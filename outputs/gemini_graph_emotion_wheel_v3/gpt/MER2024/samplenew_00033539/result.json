@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00033539",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "a415fec142e7ddeeb3ecfd6ae5f20bd235ccd0be39b7230d3d3b9654add4a754",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "当前反应指向对信息的即时意外和求证，符合surprise；片段未给出她对未来风险的顾虑，不宜映射为worried。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "当前反应主要指向信息出乎预期，符合surprise的即时意外，而非对后果的持续担忧。"
+    },
+    "image": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "当前表情变化与确认式话语共同指向信息出乎预期，符合surprise的即时意外；皱眉本身不足以判为担忧或愤怒。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "核对frame_00至frame_07，画面中的女性持续皱眉、张口，视线和头部逐渐转向右侧；[image:E1][image:E2]对这些变化的描述可信，但皱眉本身不能定类。字幕“啊？真的。”是对信息的即时求证，[audio_subtitle:E1]与画面反应相互印证，更支持诧异。持续皱眉也可能表示疑虑，但片段没有呈现她对后果的担忧；未提供音轨，不能核实语调。",
+  "output": "核对frame_00至frame_07，画面中的女性持续皱眉、张口，视线和头部逐渐转向右侧；[image:E1][image:E2]对这些变化的描述可信，但皱眉本身不能定类。字幕“啊？真的。”是对信息的即时求证，[audio_subtitle:E1]与画面反应相互印证，更支持诧异。持续皱眉也可能表示疑虑，但片段没有呈现她对后果的担忧；未提供音轨，不能核实语调。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 61.92517590522766
+}

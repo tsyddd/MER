@@ -1,0 +1,9 @@
+{
+  "reason": "目标人物Phoebe在前台询问寻人，台词虽然包含评价词“very attractive”，但实际语境仅为提供被寻者的外貌特征信息。核对各帧画面（frame_01至frame_07）与专家引用的视觉证据[image:E1]，Phoebe面部表情平稳自然、无挑眉或嘴角上扬，手势仅在身前起辅助构思与说明作用；专家音频证据[audio_subtitle:E2]（00:01-00:04）亦可信地指出其音调平实、语速均匀，在提及“very attractive”时毫无声调上扬或兴奋笑意。图谱转述的平稳状态[graph:E1]与音视频事实完全吻合，反证中潜在的好感或喜悦不足以构成主导情绪，应判定为平稳日常的中性状态。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E2",
+    "graph:E1"
+  ]
+}

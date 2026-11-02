@@ -1,0 +1,12 @@
+{
+  "expert": "graph",
+  "reason": "女子连续表达“怎么到了自己身上”“就这样不明白”〔process_0〕〔process_1〕，并伴随平稳但带叹息感的声音〔person_2〕、微抬视线〔person_1〕，显示她当前对处境感到困惑并带有忧虑。后续嘴形张开幅度增大、头部微动〔person_3〕，进一步体现其疑惑和不安的表达状态。",
+  "answer": "worried",
+  "evidence_refs": [
+    "process_0",
+    "process_1",
+    "person_2",
+    "person_1",
+    "person_3"
+  ]
+}

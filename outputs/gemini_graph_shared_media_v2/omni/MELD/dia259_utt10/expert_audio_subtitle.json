@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者语气急促，音量和音高明显升高，尤其在列举'women, doctors, monkeys'时，语调上扬且带有强调，表现出强烈的不满和愤慨。字幕内容为直接的批评和指责，与激昂的语调一致。视觉上，她的表情紧绷，嘴巴微张，与音频中表达的强烈情绪相符。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:04",
+      "observation": "说话者语速快，音量大，音高在句尾明显上扬，语气激动。",
+      "interpretation": "这种语调是愤怒情绪的典型表现，表明说话者对所谈论的笑话感到非常不满和生气。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "The joke is not funny, and it's offensive to women, and doctors, and monkeys!",
+      "observation": "字幕内容直接表达了强烈的负面评价，使用了'not funny'和'offensive'等词。",
+      "interpretation": "话语内容本身就是在表达一种负面的、带有攻击性的态度，与愤怒情绪相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0, frame_02 @ 1.418, frame_07 @ 4.922",
+      "observation": "说话者的面部表情紧绷，眉毛微皱，嘴巴在说话时张开，显示出一种激动和不满的状态。",
+      "interpretation": "视觉表情与音频中的愤怒语调和字幕中的负面内容相匹配，共同支持了愤怒的判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。视觉和听觉证据高度一致，均指向愤怒情绪，没有明显的冲突或替代解释。"
+}

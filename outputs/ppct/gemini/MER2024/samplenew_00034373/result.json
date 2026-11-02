@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00034373",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sad",
+  "emotion_analysis": "结合节点person_0展示的眼含泪光、视线低垂与眉头微蹙的面部神态，以及person_1中声音偏低、微颤伴随哽咽的听觉特征，两者通过person_joint关系多模态印证了角色的悲痛状态。再结合process_0与process_1连续倾诉“甚至，连一件衣裳”，充分表达了其内心的辛酸与痛苦，判定为悲伤情绪。",
+  "output": "结合节点person_0展示的眼含泪光、视线低垂与眉头微蹙的面部神态，以及person_1中声音偏低、微颤伴随哽咽的听觉特征，两者通过person_joint关系多模态印证了角色的悲痛状态。再结合process_0与process_1连续倾诉“甚至，连一件衣裳”，充分表达了其内心的辛酸与痛苦，判定为悲伤情绪。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 46.68550109863281,
+  "node_count": 5,
+  "edge_count": 4
+}

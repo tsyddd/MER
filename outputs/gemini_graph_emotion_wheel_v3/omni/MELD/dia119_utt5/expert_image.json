@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "Monica的面部表情和姿态在对话过程中发生了明显变化。从最初的平静注视（frame_00-frame_01），到开始说话时的惊讶和担忧（frame_02-frame_04），再到最后的担忧和恳求（frame_05-frame_07），她的视线、嘴部动作和身体姿态都表现出一种对即将发生的事情的负面预期。结合字幕内容，她正在为某事感到担忧，害怕Ben会看到。这种担忧和对负面后果的预期，最符合'担忧'这一开放情绪。在MELD情绪轮中，'担忧'最接近'sadness'，因为它是一种对负面结果的预期和低落情绪。",
+  "open_emotion": "担忧",
+  "answer": "sadness",
+  "mapping_reason": "根据MELD情绪轮的定义，'sadness'（悲伤）被描述为因失落、损失或痛苦而难过、哀伤或低落。Monica的担忧和对负面后果的预期，是一种低落的情绪状态，与'sadness'的家族相符。虽然'担忧'更精确，但在给定的标签中，'sadness'是与这种情绪最接近的选项。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02",
+      "observation": "Monica的眉毛微微皱起，眼睛睁大，嘴巴微张，似乎在表达惊讶或担忧。",
+      "interpretation": "这是一个典型的惊讶和担忧的表情，表明她对正在谈论的事情感到意外和不安。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03",
+      "observation": "Monica的视线转向一旁，似乎在思考或回忆某事，同时保持着担忧的表情。",
+      "interpretation": "这个姿态表明她正在处理一个让她感到困扰的想法，与担忧的情绪一致。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05",
+      "observation": "Monica的嘴角向下撇，表情显得有些沮丧和恳求。",
+      "interpretation": "这个表情直接表达了她的负面情绪和对结果的担忧。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "subtitle",
+      "anchor": "But Ben is coming over tonight and he can't see this.",
+      "observation": "字幕显示Monica正在谈论一个她不希望被Ben看到的坏情况。",
+      "interpretation": "这句话直接揭示了她担忧的原因，即害怕一个负面事件被发现。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有明显的证据表明Monica的情绪是joy、anger、fear或disgust。她的表情和话语内容都不支持这些情绪。"
+}

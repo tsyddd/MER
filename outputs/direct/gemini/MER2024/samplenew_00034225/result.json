@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00034225",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "目标人物在询问时双眼睁大、嘴巴张开呈微张状态，配合微微前倾的姿态和上扬的询问语气，表现出对对方受阻情况的诧异与意外。",
+  "output": "目标人物在询问时双眼睁大、嘴巴张开呈微张状态，配合微微前倾的姿态和上扬的询问语气，表现出对对方受阻情况的诧异与意外。\n<answer>surprise</answer>",
+  "label": "worried",
+  "elapsed_seconds": 8.164055347442627,
+  "node_count": null,
+  "edge_count": null
+}

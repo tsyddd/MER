@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035599",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "2e41d1566b0d6d612ec8cac9b6fe7ea8a5c74329bc5ef3be50b67f145d3e328a",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "我核对了frame_00至frame_07：目标人物持续低垂视线、眉间收紧，嘴部由张开说话逐渐转为抿紧和下压，表现出连续的低落与压抑，这与[image:E1]和[image:E2]的直接视觉证据一致，可信度较高。字幕“手里还握着一截风筝线。”只是物品陈述，不能单独区分情绪，[audio_subtitle:E1]对此判断是恰当的。蹙眉下视也支持worried，但画面缺少明显警觉或急切感，持续的下压嘴形更支持sad；无音轨，因此不采信任何未经直接核验的语调转述。",
+  "output": "我核对了frame_00至frame_07：目标人物持续低垂视线、眉间收紧，嘴部由张开说话逐渐转为抿紧和下压，表现出连续的低落与压抑，这与[image:E1]和[image:E2]的直接视觉证据一致，可信度较高。字幕“手里还握着一截风筝线。”只是物品陈述，不能单独区分情绪，[audio_subtitle:E1]对此判断是恰当的。蹙眉下视也支持worried，但画面缺少明显警觉或急切感，持续的下压嘴形更支持sad；无音轨，因此不采信任何未经直接核验的语调转述。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 190.0422420501709
+}

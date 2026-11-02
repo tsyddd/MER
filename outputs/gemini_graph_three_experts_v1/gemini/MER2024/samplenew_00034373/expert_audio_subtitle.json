@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "音频中目标人物说话时带着明显的哭腔与抽泣声，语调颤抖且语速缓慢断续，伴随微弱的气息声，充分展现了委屈与痛苦的悲伤情绪。",
+  "answer": "sad",
+  "evidence_refs": []
+}

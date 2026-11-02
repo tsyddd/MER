@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载Rachel起初低头整理手中的黑色衣物〔person_0〕，随后抬头看向前方并摊开双手配合对话〔person_1〕。在这一过程中，她仅是在门厅处平稳地向对面的Phoebe回复台词“Oh, everything went great.”〔process_0〕，整体肢体动作和互动展现为日常交代情况的常态交流，未体现明显的高昂愉悦或负面情绪波动，情绪状态判定为中性。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "process_0"
+  ]
+}

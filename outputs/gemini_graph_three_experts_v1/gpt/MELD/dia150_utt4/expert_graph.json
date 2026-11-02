@@ -1,0 +1,13 @@
+{
+  "expert": "graph",
+  "reason": "Janice以指向颈旁的手势说出道别并指名道姓，随后交叉抱臂、注视Chandler并停顿，整体表现出较强的对抗性和紧绷感〔person_0〕〔process_0〕〔process_1〕〔person_2〕〔person_3〕。图谱记载她的语调带有独特鼻音和拖长特征〔person_1〕，结合上述姿态，更符合当前的愤怒情绪。",
+  "answer": "anger",
+  "evidence_refs": [
+    "person_0",
+    "process_0",
+    "process_1",
+    "person_2",
+    "person_3",
+    "person_1"
+  ]
+}

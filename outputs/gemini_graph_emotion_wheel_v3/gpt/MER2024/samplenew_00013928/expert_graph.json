@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "目标女子在当前互动中先表达对面前之人的看好，随后笑着询问对方的收获，而不是在陈述自己已经获得了什么。[E1][E2] 持续的笑容与主动、正向的交流相互印证，当前更像是开心地与对方交谈。[E3] 图谱中的语调描述因未提供原音轨，不能作为亲耳核实的依据。[E4]",
+  "open_emotion": "开心",
+  "answer": "happy",
+  "mapping_reason": "她当前的笑容及正向交流支持愉悦表达，故将“开心”映射为happy；问及收获并不表示对方确已获得收获。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“我可看好你呀！怎么样？”",
+      "observation": "女子表达看好对方，并接着发问。",
+      "interpretation": "这是她当前面向对方的积极交流，不是对过去结果的确认。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "节点记录女子接着问“怎么样？收获大大的吧”。",
+      "interpretation": "问题延续了她对对方的关注和正向期待；“收获大大的吧”是询问，不是已证实的收获。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02（0.8秒）至frame_07（2.8秒）",
+      "observation": "女子向前方挥动纸张，交谈时持续面带笑容。",
+      "interpretation": "与当前话语结合，支持愉快的表达；这与图谱对同一笑容的记载不是两份独立证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "节点称女子说话时“语调轻快上扬”。",
+      "interpretation": "这是图谱转述的音频信息；未提供原音轨，无法亲耳核验。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "“怎么样”也可以是普通询问，单凭问句不能判为开心；笑容也可能只是礼貌。这里依据的是她当前正向话语与持续笑容的结合，而非推断对方确有收获或采信未经核验的语调。"
+}

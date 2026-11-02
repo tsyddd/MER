@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Chandler's speech is rapid and delivered in a dismissive tone, with a clear emphasis on 'Ross and Joey' as the source of embarrassment. The phrase 'embarrassing enough' is spoken with a slightly exasperated intonation, indicating annoyance or mild frustration with the situation. The visual shows him gesturing with his hand, reinforcing the dismissive nature of his words.",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:03.128",
+      "observation": "Chandler says, 'Ah, no-no-no just Ross. Ross and Joey is embarrassing enough.'",
+      "interpretation": "The rapid repetition of 'no-no-no' and the dismissive tone when saying 'just Ross' suggest frustration with the topic. The phrase 'embarrassing enough' is delivered with a slightly exasperated intonation, indicating annoyance.",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00 @ 00:00:00.000",
+      "observation": "Chandler's mouth is open as if he is speaking emphatically.",
+      "interpretation": "His facial expression and open mouth at the start of the utterance suggest he is making a forceful or dismissive statement, which aligns with the tone of annoyance in his voice.",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_07 @ 00:00:03.128",
+      "observation": "Chandler is gesturing with his right hand, palm up, as if to wave something away.",
+      "interpretation": "This gesture reinforces the dismissive and exasperated tone of his words, indicating he wants to shut down the topic or express frustration.",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "A neutral interpretation is possible if one focuses only on the literal words 'Ross and Joey is embarrassing enough' without considering the tone. However, the rapid delivery and dismissive gesture strongly suggest annoyance rather than a neutral statement."
+}

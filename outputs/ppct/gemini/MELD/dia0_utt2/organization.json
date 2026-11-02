@@ -1,0 +1,3 @@
+{
+  "text": "在摆有茶壶、杯子等物品且背景有白色冰箱的室内餐厅兼厨房区域内〔context_0〕，瑞秋与俯身的男子正在餐桌旁展开近距离互动〔context_1〕〔context_0 context_joint context_1〕。起初，身穿黑色衣物的男子双手撑在桌边或身侧、俯身注视着瑞秋〔person_1〕，并弯腰靠近瑞秋后向后拉开距离〔process_0〕；此时瑞秋坐在餐桌旁的椅子上，面向前方略微低头〔person_0〕。随后，在男子拉开距离的动作之后〔process_1 after process_0〕，瑞秋以平缓低沉的语调〔person_2 after person_0〕开口说出“Y'know what?”〔process_1〕；男子的靠近与拉开距离与瑞秋随后的言语回应构成了由肢体接触转向言语交流的连贯过程〔process_0 process_joint process_1〕，而瑞秋低头端坐的体态与低沉平缓的语调也相互印证〔person_0 person_joint person_2〕。这些表现可能反映出瑞秋当前的注意力正集中于与男子的互动思绪中，在对方拉开距离后以较为沉静、内敛的状态切入并推进接下来的对话。"
+}

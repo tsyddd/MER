@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "目标人物在当前互动中面对右侧出现的未知对象发起询问[E3]。图谱节点[person_0]记录其双眉紧蹙、眉心深锁，结合实际画面可见其眼神紧张并伴有下颌收紧的防备态势[E1]；音频核验表明其声音压低短促，语调带有怯生生的紧张感[E2]，与[person_2]所描述的语调疑问特征互补，体现出对未知来者的戒备与忐忑，而非单纯的好奇或惊讶。",
+  "open_emotion": "疑虑不安",
+  "answer": "worried",
+  "mapping_reason": "开放情绪“疑虑不安”强调面对未知情境与潜在风险时的忐忑、顾虑与紧张感，符合情绪轮中worried（对未知风险或不确定性的顾虑与不安）的界定。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "女性全程双眉向中心深锁紧蹙，眉心隆起，目光紧盯画面右侧，嘴唇微启露齿",
+      "interpretation": "面部紧绷且充满防备神态，体现对所见人物的戒备与内心的不安全感，对应图谱节点[person_0]",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.00-0.80s",
+      "observation": "以极轻、收敛的音量低语发问“他是谁呀？”，尾音微弱发颤",
+      "interpretation": "低微小心的声调显示出避免惊动对方的紧张心理，对应图谱节点[person_2]",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "他，是谁呀？",
+      "observation": "针对第三方人物身份提出疑问句",
+      "interpretation": "揭示当前事件核心为突然遭遇不明身份人员，构成引发担忧与不确定性的语境动因，对应图谱节点[process_0]",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "疑问句式及突发状况可能被替代解释为surprise（意外/惊讶），但其眉毛并未高抬而是紧锁下压，声音低沉收缩而非惊呼外放，更偏向持续的警惕与担忧。"
+}

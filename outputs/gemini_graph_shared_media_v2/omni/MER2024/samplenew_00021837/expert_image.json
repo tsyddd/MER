@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标人物在所有帧中均保持坐姿，身体朝向镜头，视线稳定，无明显头部或手部动作。面部表情在不同帧间变化微小，无明显皱眉、嘴角上扬或下撇等情绪化特征。字幕内容为客观陈述，音频语调平稳，无情绪起伏。综合视觉与听觉信息，其表现符合中性状态。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.00s",
+      "observation": "目标人物坐姿端正，双手置于桌面，面部表情平静，无明显情绪特征。",
+      "interpretation": "该姿态和表情是正式场合中常见的中性表现，不支持强烈情绪判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 1.12s",
+      "observation": "目标人物正在说话，嘴部有开合动作，但面部肌肉无明显紧张或放松迹象。",
+      "interpretation": "说话时的面部动态是正常的语言表达，未表现出特定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "我印象最深的一户人家，祖祖辈辈种地。",
+      "observation": "字幕内容为事实性描述，无情感色彩。",
+      "interpretation": "内容本身不引发强烈情绪，与中性表现一致。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "0.00s - 3.92s",
+      "observation": "音频中说话者语调平稳，无明显音高或语速变化。",
+      "interpretation": "平稳的语调支持中性情绪判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无明确反证。虽然人物在说话，但其表情和语调均未表现出可识别的情绪，因此无法支持其他情绪标签。"
+}

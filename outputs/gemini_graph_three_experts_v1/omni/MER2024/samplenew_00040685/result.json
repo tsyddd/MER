@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00040685",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "00b59cea7eb95d8df3713bcb9b7defc0e8f79ae664b527d4cc419d1d058a6afa",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "graph和audio_subtitle均指出目标人物情绪沉重、压抑，结合其叙述内容涉及危机情境，符合'worried'的特征；image虽显示紧锁眉头等面部特征，但graph已包含类似描述，且未见明显攻击性或爆发性情绪，故取更符合语境的'worried'。",
+  "output": "graph和audio_subtitle均指出目标人物情绪沉重、压抑，结合其叙述内容涉及危机情境，符合'worried'的特征；image虽显示紧锁眉头等面部特征，但graph已包含类似描述，且未见明显攻击性或爆发性情绪，故取更符合语境的'worried'。\n<answer>worried</answer>",
+  "label": "angry",
+  "elapsed_seconds": 54.50112581253052
+}

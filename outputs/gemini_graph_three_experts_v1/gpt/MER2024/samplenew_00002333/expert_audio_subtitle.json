@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。仅根据字幕“像这娘，交代你。”，当前台词缺乏明确的情绪标记，无法确认愤怒、悲伤或喜悦等强烈情绪。",
+  "answer": "neutral",
+  "evidence_refs": []
+}

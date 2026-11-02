@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00034518",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "3fed6d6059d74c2412d0aa8019d55bbdcde203bd9f2c07e116f6616c4aef8d9e",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "担心",
+      "mapped_label": "worried",
+      "mapping_reason": "她当前关注的是对方家里可能发生、但尚未确认的坏事，属于情绪轮中对未知负面情况的顾虑，映射为worried。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "担心",
+      "mapped_label": "worried",
+      "mapping_reason": "当前表达指向尚未确认的负面情况，符合worried对未知风险的顾虑；问句本身不表示惊讶。"
+    },
+    "image": {
+      "open_emotion": "担心",
+      "mapped_label": "worried",
+      "mapping_reason": "她关注的是家里是否发生了尚未确认的负面情况，符合worried对风险与未知的顾虑；字幕不能证明事情已经发生，因而不足以判为悲伤。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "独立核对第2至第7帧，目标是右侧持杯发问的年长女性；她持续看向左侧女性，表情略显紧绷，[image:E1]所述注视可信，但单凭姿态不能定类。字幕“是不是？家里又出什么事了？”[audio_subtitle:E1]指向尚未确认的负面情况，与她关注对方的表现结合，更支持担心，而非平常询问；“又”也不能证明事情已经发生。她的表达较克制，是中性解释的最强依据，但不足以抵消问话的顾虑方向；未提供音轨，不能核实语调。",
+  "output": "独立核对第2至第7帧，目标是右侧持杯发问的年长女性；她持续看向左侧女性，表情略显紧绷，[image:E1]所述注视可信，但单凭姿态不能定类。字幕“是不是？家里又出什么事了？”[audio_subtitle:E1]指向尚未确认的负面情况，与她关注对方的表现结合，更支持担心，而非平常询问；“又”也不能证明事情已经发生。她的表达较克制，是中性解释的最强依据，但不足以抵消问话的顾虑方向；未提供音轨，不能核实语调。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 67.16159963607788
+}

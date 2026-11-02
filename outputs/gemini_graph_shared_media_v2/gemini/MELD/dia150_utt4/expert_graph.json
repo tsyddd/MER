@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "在当前道别互动事件链中，Janice对Chandler说出道别话语[E1]，配合其抱胸紧缩的身体语言[E2]与低沉叹息的拖长声调，整体呈现出失落与依依不舍的悲伤（sadness）情感。",
+  "answer": "sadness",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "图谱记录Janice当前互动为对Chandler正式说出\"Good-bye\"",
+      "interpretation": "事件语义表明当前处于两人关系的告别情境，构成了情绪反应的事件前提",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.2929573294844752",
+      "observation": "Janice双臂抱在胸前，眉心微蹙，眼神低落凝视Chandler",
+      "interpretation": "身体呈现紧缩防卫姿态与忧伤神情，反映道别引发的伤感与不舍",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "Janice以叹息般低沉、缓慢拉长的语调念出\"Good-bye Chandler Bing.\"",
+      "interpretation": "语调低缓深沉且伴有明显叹息感，强化了失落与悲伤的情感色彩",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "替代解释可能认为此处仅为常规戏剧化告别（neutral），但Janice抱胸的退缩体态及音频中明显的低落叹息声调均超出了客观中立表达，故排除neutral。"
+}

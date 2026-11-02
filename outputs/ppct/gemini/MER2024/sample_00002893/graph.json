@@ -1,0 +1,241 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "女性右手举手机对着电话说话：“不，不是我”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "女性对着电话说：“是我一朋友”",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "女性对着电话说：“她现在在网上被人诽谤了”",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_3",
+      "type": "process",
+      "content": "女性对着电话说：“现在事情越闹越大”",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_4",
+      "type": "process",
+      "content": "女性对着电话说：“所以我想”",
+      "time_index": 4,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "女性右手持手机贴于右耳处，戴着手表与戒指",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "女性闭眼片刻后睁开，目光向下微垂",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "女性说话声音发紧，语速连贯急促",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "女性双眉微蹙，嘴唇张合说话",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_4",
+      "type": "person",
+      "content": "女性嘴唇张合，视线平视前方偏下",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内走廊或办公室环境，背景为毛玻璃隔断",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "女性独自一人在此区域进行电话通话",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "女性在说出“不，不是我”之后继续对电话说出“是我一朋友”",
+      "entity_anchor": "女性电话交谈行为"
+    },
+    {
+      "source": "process_2",
+      "target": "process_1",
+      "relation": "after",
+      "reason": "女性在说出“是我一朋友”之后继续说明“她现在在网上被人诽谤了”",
+      "entity_anchor": "女性电话交谈行为"
+    },
+    {
+      "source": "process_3",
+      "target": "process_2",
+      "relation": "after",
+      "reason": "女性在说出“她现在在网上被人诽谤了”之后接着说出“现在事情越闹越大”",
+      "entity_anchor": "女性电话交谈行为"
+    },
+    {
+      "source": "process_4",
+      "target": "process_3",
+      "relation": "after",
+      "reason": "女性在说明“现在事情越闹越大”之后接着说出“所以我想”",
+      "entity_anchor": "女性电话交谈行为"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "女性右手举手机贴耳的同时，闭眼片刻后睁开且目光向下微垂",
+      "entity_anchor": "女性肢体与面部状态"
+    },
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "simultaneous",
+      "reason": "女性闭眼后睁开目光微垂的同时，说话声音发紧且急促",
+      "entity_anchor": "女性表达状态"
+    },
+    {
+      "source": "person_3",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "女性在闭眼片刻睁开之后，双眉微蹙、嘴唇张合说话",
+      "entity_anchor": "女性面部表情变化"
+    },
+    {
+      "source": "person_4",
+      "target": "person_3",
+      "relation": "after",
+      "reason": "女性在双眉微蹙张合说话之后，视线平视前方偏下并继续嘴唇张合",
+      "entity_anchor": "女性面部神态变化"
+    },
+    {
+      "source": "context_1",
+      "target": "context_0",
+      "relation": "simultaneous",
+      "reason": "室内毛玻璃隔断的走廊/办公环境与女性独自在此通话同步存在",
+      "entity_anchor": "所处空间场景"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0呈现女性否认涉及自身，process_1紧接着解释主体是朋友，两端联合构成由否认到转述对象的完整澄清解释过程",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_2",
+      "target": "process_3",
+      "relation": "process_joint",
+      "reason": "process_2陈述朋友遭遇网络诽谤的事实，process_3补充该事态正在升级恶化，联合展现了人物向对方阐述事件来龙去脉的递进叙事过程",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供右手持机贴耳的姿态动作，person_1提供闭眼后睁开且目光下垂的神态，联合完整刻画了人物握机倾听与对话时的动态面貌",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_2",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_2提供听觉上声音发紧急促的表现，person_3提供视觉上双眉微蹙嘴唇张合的表情动作，音画联合互补呈现人物对话时紧绷集中的可见与可听表征",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0提供毛玻璃隔断的室内走廊/办公环境空间，context_1提供在此区域内独自通话的人员分布状态，联合明确界定了私密且安静的通话场景",
+      "entity_anchor": null
+    }
+  ]
+}

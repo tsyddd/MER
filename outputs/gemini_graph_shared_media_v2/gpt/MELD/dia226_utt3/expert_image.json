@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标是左侧穿紫色上衣的Rachel，不是右侧背对镜头的人。她说话时由短暂的笑意转为蹙眉、收紧嘴角，并持续向对方做解释性手势[E1][E2]；字幕表达希望对方能分享感受，与失落的解释相符[E3]。最接近的标签是sadness，但画面不能证明她有更强烈的悲伤。",
+  "answer": "sadness",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒；frame_04 @ 1.7934569408978203秒",
+      "observation": "Rachel起初嘴角略扬；到frame_04，她看向右侧的人，眉部收拢，嘴角下压。",
+      "interpretation": "表情从短暂笑意转为不快，更支持失落，而非持续愉快。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05 @ 2.2522482513600535秒；frame_06 @ 2.7110395618222864秒",
+      "observation": "Rachel抬起双手、摊开手掌，继续看着对方；frame_06眉毛抬起、眼睛睁大。",
+      "interpretation": "她在强调自己的话；手势和抬眉本身不能确定情绪，但与前一刻收紧的表情合看，符合带有失落的诉说。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Y’know, I wish I could get him to open up a little bit, share some feelings.",
+      "observation": "字幕写明Rachel希望“他”能更敞开心扉、分享感受。",
+      "interpretation": "这为视觉上的失落提供语义背景；没有音频，不能据此推断语调。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_07 @ 3.1698308722845194秒",
+      "observation": "Rachel最后又略微扬起嘴角。",
+      "interpretation": "这限制了将整段理解为持续悲伤的程度，也可能是交谈中的轻松或礼貌表情。",
+      "polarity": "counter"
+    }
+  ],
+  "counterevidence": "最强的相反解释是普通交谈中的轻微烦恼或克制的中性表达：她始终坐着交谈，末尾也略有笑意[E4]。但中段明显的表情变化[E1]及字幕中的未遂愿望[E3]，使sadness比neutral更有依据。"
+}

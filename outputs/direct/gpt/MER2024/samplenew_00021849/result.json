@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00021849",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "画面中男子正对车内人物说“你先上我的车先回去”，眉头微蹙、目光严肃，表情带有明显的担忧和关切。当前没有足够证据表明他在生气或悲伤。",
+  "output": "画面中男子正对车内人物说“你先上我的车先回去”，眉头微蹙、目光严肃，表情带有明显的担忧和关切。当前没有足够证据表明他在生气或悲伤。\n<answer>worried</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 22.629082441329956,
+  "node_count": null,
+  "edge_count": null
+}

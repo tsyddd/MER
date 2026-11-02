@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia109_utt4",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "b1102943bbcf1af1e117a380fae997536de4112a2f80180e05feb45af20ee7b2",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "图像专家报告了紧皱眉头、张口、抱臂及强调性手势等不满和对抗线索，较直接支持愤怒；字幕“Are you sure?”虽可表达惊讶，但单凭疑问句不足以压过这些视觉线索。图谱仅概括为主动交流且认为具体情绪证据不足，因此作为较弱的中性判断处理。",
+  "output": "图像专家报告了紧皱眉头、张口、抱臂及强调性手势等不满和对抗线索，较直接支持愤怒；字幕“Are you sure?”虽可表达惊讶，但单凭疑问句不足以压过这些视觉线索。图谱仅概括为主动交流且认为具体情绪证据不足，因此作为较弱的中性判断处理。\n<answer>anger</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 76.20594906806946
+}

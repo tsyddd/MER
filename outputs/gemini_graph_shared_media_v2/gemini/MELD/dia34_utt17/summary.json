@@ -1,0 +1,8 @@
+{
+  "reason": "目标人物Monica在音频中以高音量急促呼喊并着重强调'never'与'cheat'，语调呈现强烈的责备与攻击性[audio_subtitle:E2]，排除了中立态度。画面核验显示Monica自第5帧（frame_05）起神态严肃紧绷，双眼直视Rachel展开正面质问[image:E1]。文本台词'I’m never gonna think it’s okay for you to cheat on your husband!'构成明确的道德对抗与训诫，高唤醒的听觉能量与直接对抗姿态共同证实其处于愤怒（anger）情绪。",
+  "answer": "anger",
+  "evidence_refs": [
+    "audio_subtitle:E2",
+    "image:E1"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "reason": "通过核验视频帧与音轨，Chandler在言语互动中双手叉腰且面部肌肉放松，并在身前做出解释性手势[image:E1][image:E2]，整体神态自然沉着。虽然台词提及面对枪口失禁的极端情景，但正如[audio_subtitle:E1]所述，这仅是其用于回应Joey的假想反驳与讽刺自嘲，并非当下的真实恐慌。听觉上其实际语调平稳清晰、松弛自若[audio_subtitle:E2]，既无恐惧带来的颤抖惊慌，亦无喜悦的大笑，三方线索高度契合客观平静的沟通状态，应判定为neutral。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "audio_subtitle:E1",
+    "audio_subtitle:E2"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "reason": "目标人物Monica的言语内容（'offensive'）和视听表现（语速快、语调上扬、身体前倾、手势）共同指向一种因受到冒犯而产生的对抗性情绪。专家graph和image均识别出愤怒的面部表情和对抗姿态，与'anger'的定义高度吻合。尽管audio_subtitle专家将其归为'disgust'，但其核心是针对特定事物的强烈排斥，而视觉和语调证据更支持一种带有责备和对抗的愤怒。最终选择'anger'，因其与多模态证据的匹配度更高。",
+  "answer": "anger",
+  "evidence_refs": [
+    "graph:E1",
+    "graph:E2",
+    "graph:E3",
+    "graph:E4",
+    "image:E1",
+    "image:E2",
+    "image:E3",
+    "image:E4"
+  ]
+}

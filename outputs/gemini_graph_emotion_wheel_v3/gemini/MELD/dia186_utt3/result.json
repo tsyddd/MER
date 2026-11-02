@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia186_utt3",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "66500757c83860e7bc8c787d8e2b59268fb274c5b6c0b4d08dfd117efb6c20d2",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "平缓",
+      "mapped_label": "neutral",
+      "mapping_reason": "Joey当前的言语和语调呈现为日常、从容的沟通，缺乏明显的负向或正向情绪激起，符合情绪轮中neutral关于‘平稳、日常且没有明确主导情绪的表达’之定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "平常",
+      "mapped_label": "neutral",
+      "mapping_reason": "说话者的表现属于日常平稳、就事论事的交流，无明显压倒性的负向悲痛或正向兴奋体验，符合neutral（中性/平稳平常）的定义。"
+    },
+    "image": {
+      "open_emotion": "歉疚",
+      "mapped_label": "sadness",
+      "mapping_reason": "Joey当前的开放情绪表现为未能赴约的歉疚与遗憾。在所给的情绪轮中没有独立的‘抱歉/内疚’标签，依据因失约而产生的低落与愧疚倾向，近似归入最接近的sadness家族。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物Joey斜倚在扶手椅中打电话，肢体极为舒展松弛[graph:E1]。虽然[image:E1]指出其在前半段有微闭双眼与眉部微收的动作，但回看实际音频（0.00-1.85s）可知其声调低平柔和、语速平缓从容[audio_subtitle:E2]，句尾呼唤“baby”显得轻松自然，毫无哽咽、沉重叹息或哀伤哭腔。台词中的“I'm sorry”仅是日常社交推脱的礼节性致歉，并不包含实质的失落或痛苦体验，故[image:E1]将表层歉意引申为sadness并不成立，其整体状态属于平稳日常的常规沟通。",
+  "output": "目标人物Joey斜倚在扶手椅中打电话，肢体极为舒展松弛[graph:E1]。虽然[image:E1]指出其在前半段有微闭双眼与眉部微收的动作，但回看实际音频（0.00-1.85s）可知其声调低平柔和、语速平缓从容[audio_subtitle:E2]，句尾呼唤“baby”显得轻松自然，毫无哽咽、沉重叹息或哀伤哭腔。台词中的“I'm sorry”仅是日常社交推脱的礼节性致歉，并不包含实质的失落或痛苦体验，故[image:E1]将表层歉意引申为sadness并不成立，其整体状态属于平稳日常的常规沟通。\n<answer>neutral</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 66.48609137535095
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia33_utt6",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "42676d691bc7435fdaa13fee5000f399ed11ddb8973351645244f7085bfc901a",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "综合核对音视频线索，Rachel在面对婴儿持续啼哭时呈现出极度的无助与情绪崩溃。回看frame_03与frame_04，Rachel内眉头明显向上扬起，嘴角向下拉扯并张大口，面部呈现典型的委屈与哭泣样貌，并非愤怒时的咬牙或怒目[image:E1]。音频00:00-00:04中，其发声带有极高密度的颤抖哭腔与鼻音哽咽，结尾'won't stop crying'几近呜咽[audio_subtitle:E1]，这与[graph:E2]所声称的攻击性怒吼不符。台词虽然包含烦躁词句，但结合其哭相与哀鸣式语调，真实主导情绪为无助与悲伤沮丧，故判定为sadness。",
+  "output": "综合核对音视频线索，Rachel在面对婴儿持续啼哭时呈现出极度的无助与情绪崩溃。回看frame_03与frame_04，Rachel内眉头明显向上扬起，嘴角向下拉扯并张大口，面部呈现典型的委屈与哭泣样貌，并非愤怒时的咬牙或怒目[image:E1]。音频00:00-00:04中，其发声带有极高密度的颤抖哭腔与鼻音哽咽，结尾'won't stop crying'几近呜咽[audio_subtitle:E1]，这与[graph:E2]所声称的攻击性怒吼不符。台词虽然包含烦躁词句，但结合其哭相与哀鸣式语调，真实主导情绪为无助与悲伤沮丧，故判定为sadness。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 62.1649284362793
+}

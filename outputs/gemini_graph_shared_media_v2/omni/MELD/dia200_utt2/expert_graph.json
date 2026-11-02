@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "乔伊在对话中表现出强烈的质问和困惑。他的手势从指向自己（可能表示‘不是我’）转变为指向他人（可能表示‘不是你’），并最终以一个开放性的疑问句收尾，这表明他正处于一个试图厘清责任或寻找真相的激动状态。图谱中的节点`person_0`（左手按胸）和`person_3`（向前张开左手）共同描绘了他从自我指涉到指向他人的动态过程，这与他话语中“不是我，也不是你”的逻辑推理相吻合，其情绪是困惑和质问，而非愤怒或悲伤。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "乔伊在说话时将左手按在胸前。",
+      "interpretation": "这个手势通常用于强调自身，与他话语中‘我不是拿的人’的陈述相符，表明他正在为自己辩解。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "person_3",
+      "observation": "乔伊向前伸出左手，手掌张开。",
+      "interpretation": "这个手势将他的指涉对象从自己转向了在场的其他人，与他话语中‘你也不是拿的人’的逻辑相匹配，表明他正在将责任排除在他人身上。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "And if she didn't take it, and I didn't take it; and you didn't take it, then who did?",
+      "observation": "字幕显示乔伊提出了一个三段论式的质问。",
+      "interpretation": "这种逻辑推理和最终的开放式问题，表达了他对事件真相的困惑和寻求答案的迫切，这是惊讶情绪的典型表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_5",
+      "observation": "乔伊在提问后将双手放回腿上，身体前倾，注视着罗斯和钱德勒。",
+      "interpretation": "这个姿态表明他完成了自己的陈述，并将问题抛给了对方，期待一个答案，这与惊讶情绪中寻求解释的特征一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "一个可能的替代解释是‘anger’（愤怒）。乔伊的语气和手势可能被解读为愤怒。然而，他的语调是质问和困惑的，而非攻击性的。图谱中的节点`person_1`（罗斯扶额）和`person_2`（钱德勒抱膝）描绘了一个焦虑的环境，乔伊的质问更像是在这种压力下寻求澄清，而不是对他人发泄怒火。因此，'surprise'比'anger'更符合当前情境。"
+}

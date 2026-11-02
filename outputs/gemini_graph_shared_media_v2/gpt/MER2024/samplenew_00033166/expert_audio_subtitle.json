@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "字幕“难道都要悉数倒戈？不成？”是带有反问和强烈质疑的表达，并非单纯询问；画面中目标人物直视对方，眉眼紧绷、嘴部用力，整体呈现出对“倒戈”的明显不满与斥责倾向。[E1][E2]",
+  "answer": "angry",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "当前字幕“难道都要悉数倒戈？不成？”",
+      "observation": "使用连续反问，质疑他人是否会全部倒戈，并以“不成？”作强硬否定或阻止。",
+      "interpretation": "言语行为带有反对、斥责和不接受的态度，支持愤怒而非字面上的中性提问。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00至frame_06 @ 0.0–1.68秒",
+      "observation": "目标人物持续正面对着对方，眉部和眼神较紧，嘴部多次明显用力开合，表情缺少微笑。",
+      "interpretation": "与反问和否定性的台词一致，显示紧张、压迫性的对抗态度，支持愤怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_07 @ 1.96秒",
+      "observation": "镜头切到对方人物，目标人物仅以侧后景出现，无法从该帧确认其后续表情。",
+      "interpretation": "该帧不能进一步核实目标人物的情绪变化，但也不构成对前面愤怒判断的反证。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "最强的替代解释是担忧或惊讶，因为“悉数倒戈”也涉及对局势的忧虑，且没有音频无法判断语调、音量和节奏；但当前反问措辞的强硬否定以及持续紧绷、对抗性的面部表现更直接支持angry。"
+}

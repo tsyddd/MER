@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标是画面左侧穿白衬衫的Joey，而非右侧穿蓝格衬衫的人。他从指向对方、展开手势转为蹙眉直视，结合字幕中的挖苦话语，较支持带有不满的责备，选择anger；画面本身不足以证明他在强烈发怒。[E1][E2][E3]",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.5839162133155694秒",
+      "observation": "Joey说话时抬手伸出食指，目光朝向画面右侧；右侧人物没有做这个手势。",
+      "interpretation": "表明他正对他人强调自己的话，但单凭指手势不能判定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.710040338995596秒",
+      "observation": "Joey将手臂向右展开，嘴张开；至frame_06 @ 3.420080677991192秒，他收起手势、眉头蹙起，仍看向右侧。",
+      "interpretation": "从强调发言到持续蹙眉的变化，支持不满或责备的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "No-no, she kicked our butts. You could be on the Olympic standing-there team.",
+      "observation": "字幕先否定对方的说法，随后用“standing-there team”挖苦对方。",
+      "interpretation": "话语内容与带有不满的责备相符；这不是可见表情，也不能据此推断语调。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "Joey在frame_01的表情和指手势也可能是在开玩笑，挖苦话语不必然表示愤怒。未提供音频，无法用语调区分玩笑与恼怒；最终判断主要依据随后持续的蹙眉及责备性措辞。"
+}

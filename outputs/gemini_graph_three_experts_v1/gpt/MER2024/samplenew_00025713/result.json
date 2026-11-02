@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00025713",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "6276692c6cfc354003e575f92e375614a390c427cbb800fa58633127fa42f7c5",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "三份专家输出均指向“surprise”：图谱与字幕均提到重复发问及“怎么知道的”，8帧图像则描述眉毛上扬、睁大眼睛和张嘴。图谱中的发问与图像表情可能与其他来源同源，因此不作重复计票；但各来源证据方向一致，且音频未提供，不能据此判断听觉特征。",
+  "output": "三份专家输出均指向“surprise”：图谱与字幕均提到重复发问及“怎么知道的”，8帧图像则描述眉毛上扬、睁大眼睛和张嘴。图谱中的发问与图像表情可能与其他来源同源，因此不作重复计票；但各来源证据方向一致，且音频未提供，不能据此判断听觉特征。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 99.75344944000244
+}

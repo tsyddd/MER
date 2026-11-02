@@ -1,0 +1,9 @@
+{
+  "expert": "graph",
+  "reason": "男子在通话中面向前方说话，图谱记载其语气低沉且带有疑问（person_1），并询问关东军是否增兵煤矿（process_0），表现出对该情况的担忧。",
+  "answer": "worried",
+  "evidence_refs": [
+    "person_1",
+    "process_0"
+  ]
+}

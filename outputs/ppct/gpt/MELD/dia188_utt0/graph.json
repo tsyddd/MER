@@ -1,0 +1,100 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "左侧穿白色运动衫的人说出字幕“ What?”",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "左侧穿白色运动衫的人头部低下，视线朝向下方",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "左侧穿白色运动衫的人右臂向身体右下方伸出",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "左侧穿白色运动衫的人随后将右臂放到身体一侧",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "场景位于临街砖墙和店铺橱窗旁的人行道上",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "画面中有三名男子，左侧两人靠近砖墙，右侧一人站在店铺前",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "同一人物的右臂从向身体右下方伸出到放回身体一侧，前后状态变化明确",
+      "entity_anchor": "左侧穿白色运动衫的人"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "simultaneous",
+      "reason": "同一人物在同一时刻头部低下并将右臂向身体右下方伸出，属于有意义的同步状态",
+      "entity_anchor": "左侧穿白色运动衫的人"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "头部低下并视线朝向下方提供人物的朝向信息，右臂向身体右下方伸出提供肢体动作信息，联合后更完整呈现该人物当时低头并伸臂的可观察表现",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "临街砖墙和店铺橱窗旁的人行道限定了场景位置，三名男子及其相对站位补充了场景中的人物分布，联合后更完整限定了地点、人物数量和空间关系",
+      "entity_anchor": null
+    }
+  ]
+}

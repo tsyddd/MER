@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "目标人物为画面中正对镜头的束发男子（旁人为背对镜头的灰衣人）。在frame_00至frame_07中，目标人物面部神情紧绷严肃，双眉微聚，身体呈微倾前探的沟通姿态。结合音轨中刻意压低的低语耳语声线以及台词对‘传到高家’不良后果的预判，其整体表现并非平稳陈述，而是对事态蔓延风险的焦虑与顾虑。",
+  "open_emotion": "担忧",
+  "answer": "worried",
+  "mapping_reason": "目标人物表现出对潜在不良事态（声音外传被高家察觉）的风险预估与不安，完全契合worried中‘对可能负面结果、未知风险的顾虑与不安’的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01至frame_05 (0.40s-2.04s)",
+      "observation": "目标人物面对灰衣人站立，面部表情紧锁，双眉微聚，嘴部开合幅度小而谨慎，神情紧张专注。",
+      "interpretation": "显示出其在交流敏感话题时的戒备与紧张。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.0s-2.8s",
+      "observation": "发音为刻意压低喉音的气声耳语，语调急促轻微。",
+      "interpretation": "刻意压低声音防范外人听闻，反映出对后果的忌惮与焦虑。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "由于镜头处于中远景且人物整体肢体动作幅度不大，未出现强烈的惶恐失措动作，容易在远距离下被误判为中性（neutral）。"
+}

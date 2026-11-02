@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Monica说“But Ben is coming over tonight and he can’t see this”，重点不是陈述来访安排，而是担心Ben即将看到眼前的东西；她转头看向旁人并指向游戏机，表情显得紧绷。[E1][E2] 没有音频，不能判断她的语调或音量。",
+  "open_emotion": "担忧",
+  "answer": "fear",
+  "mapping_reason": "这里的担忧指向即将发生的、她不希望出现的后果，因此近似映射到fear；证据支持担心，但不足以称为强烈害怕。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "But Ben is coming over tonight and he can’t see this.",
+      "observation": "用“But”转折，并强调Ben“can’t see this”。",
+      "interpretation": "话语表达对即将来访所带来后果的顾虑，而非单纯报告安排。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05，1.668秒",
+      "observation": "Monica看向左侧人物，眼睛睁大、牙齿微露，右手指向游戏机方向。",
+      "interpretation": "紧绷的表情和指示动作与她强调“不能让他看到”相吻合。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "这句话也可能只是坚定地交代一项要求；没有音轨，无法凭语气区分担忧与强硬。画面中没有明确的责备对象，因此愤怒的依据较弱。"
+}

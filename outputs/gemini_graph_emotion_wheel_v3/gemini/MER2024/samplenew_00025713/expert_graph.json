@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "在当前两名少年的互动情境中，对方的话语打破了白衣少年的预期。白衣少年在言语上表现出明显的结巴停顿[E2]，面部呈现出睁大眼睛与嘴部张开的典型反应[E1]，台词直接反问对方获知信息的来源[E3]。结合图谱节点person_3与person_1的音画联合，这一反应体现出秘密被道破瞬间强烈的认知违背与即时惊诧。",
+  "open_emotion": "惊诧",
+  "answer": "surprise",
+  "mapping_reason": "白衣少年在接收到突发信息时表现出睁大双眼、张口发愣及结巴发问的生理与言语反应，核心是由信息违背预期带来的即时意外感，符合情绪轮中surprise（惊讶）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_3",
+      "observation": "图谱记录白衣少年重新睁大眼睛，嘴部张开，对应原始视觉后段（frame_06至frame_07）中眼神凝滞、嘴巴微张的定格神态。",
+      "interpretation": "面部特征呈现出受到意外冲击时的本能停顿与惊愕反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "实际音轨中白衣少年连说数次“你、你、你”，发音急促且断续，语调上扬并带有不连贯的顿挫（核验图谱节点person_1）。",
+      "interpretation": "言语失措反映出他在听到对方说话后思绪被打乱、措手不及的状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "你。你。怎么知道的？",
+      "observation": "字幕提出质问“你怎么知道的？”，直接指向对方掌握了其未曾料到的事实。",
+      "interpretation": "言语语义表明当前信息完全超出其心理预期，触发强烈的意外疑问。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "由于秘密可能涉及被责备风险，其结巴发问容易被误判为担忧（worried）；但当前处于刚被揭穿的第一反应瞬间，主导动作是睁大眼、张嘴愣住的反问，尚未进入后续权衡后果的焦虑防卫，因此surprise比worried更为准确。"
+}

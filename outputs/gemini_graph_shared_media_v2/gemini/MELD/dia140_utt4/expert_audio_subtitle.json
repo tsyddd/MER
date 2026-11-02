@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Ross在音频中以平稳探讨的语调提出建议，带有自然的轻微停顿，语义和面部神态均表现为日常客观交流，无显著激烈情绪，符合neutral特征。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00 - 00:02",
+      "observation": "Ross说出'Y'know, like-like write a play.'时语速适中、音量平稳，语调仅呈现探询和举例的轻微起伏，没有激动、愤怒或悲伤的韵律波动。",
+      "interpretation": "平实、探讨性的语音韵律直接支持其处于中性交流状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.25秒",
+      "observation": "Ross正视对方，面部肌肉放松，眉毛与唇角均处于自然位置，未见笑容或皱眉动作。",
+      "interpretation": "视觉表情与中性平稳的言语行为高度一致，排除了极端情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "提出写作建议时略带启发性探询，可能被误判为具有轻微积极（joy）或惊讶（surprise），但缺乏高扬音调、笑意或睁大双眼的生理特征，因而未采纳。"
+}

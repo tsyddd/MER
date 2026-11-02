@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物Janice在片段前半段（[E1]）抬眉、睁大双眼并张口发出疑问，配合音频中明显的升调问句（[E2]），展现出对对方拒绝的意外与质疑；随后肢体展开并配合手势解释，综合表现支持surprise。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.50s",
+      "observation": "Janice原本抱臂坐着，眉毛明显上抬，双眼注视对方，嘴巴呈微张发音状态，带有探询与讶异神态。",
+      "interpretation": "上抬的眉毛与注视神态反映出听到对方回答时的意外与难以置信。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0:00 - 0:01.2",
+      "observation": "语调明显挑高且带尾音上扬，快速说出'Oh, are you sure? Really?'。",
+      "interpretation": "高昂上扬的语调强化了疑问与轻微惊讶的语气，印证了面部探询神态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05 @ 2.54s",
+      "observation": "Janice松开交叉的双臂，双手抬至胸前向对方做指指点点的解释手势。",
+      "interpretation": "肢体由克制转向主动说明，表现出对出乎意料的回应进一步补充解释的意图。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "后半段（frame_04至07）她迅速进入平顺的手势比划与提议说明，情绪未见持续强烈的震颤，容易被解读为日常随意的neutral对话；但起头面部眉眼上扬及高调发问明确体现了初始反应的意外。"
+}

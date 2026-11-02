@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia50_utt2",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "fcd38a66edaf51c357f7f05241b31338cc6543efc841a51ccf79324b15367974",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "惊慌",
+      "mapped_label": "fear",
+      "mapping_reason": "目标人物在违规行为被当场撞见时面临潜在惩处威胁，其低头躬身逃跑与急促道歉反映出高度的逃避倾向与惊慌失措（panicked），符合情绪轮中面向负面后果预期和威胁相关恐慌的定义，因而映射为fear。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "惊慌",
+      "mapped_label": "fear",
+      "mapping_reason": "开放情绪'惊慌'是对违规被当场抓获及面临严重后果的惊恐与威胁逃避反应，在MELD情绪轮中严格归属于fear（恐惧/受惊）家族。"
+    },
+    "image": {
+      "open_emotion": "恐慌",
+      "mapped_label": "fear",
+      "mapping_reason": "目标人物因在公共书架间被当场抓现行而表现出强烈的惊惶逃窜与畏避反应，符合fear家族中面对负面后果时表现出的受惊与恐慌焦虑。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "fear",
+  "emotion_analysis": "独立回看前4帧画面（frame_00至frame_03），目标人物穿着格子裙紧贴地面俯身并极其仓促地向后方逃窜，与[image:E1]所述一致；音频00:00至00:01处，其道歉声极度短促且伴随慌乱的抽气声，正如[audio_subtitle:E1]指出的惊慌听感。虽然台词为“I’m so sorry”，但并非低落内疚的sadness或常规礼貌的neutral，而是行为被撞破后面临暴露与问责威胁时的典型应激逃跑反应。视听证据互补印证其处于慌张受惊状态，依标准归入fear家族。",
+  "output": "独立回看前4帧画面（frame_00至frame_03），目标人物穿着格子裙紧贴地面俯身并极其仓促地向后方逃窜，与[image:E1]所述一致；音频00:00至00:01处，其道歉声极度短促且伴随慌乱的抽气声，正如[audio_subtitle:E1]指出的惊慌听感。虽然台词为“I’m so sorry”，但并非低落内疚的sadness或常规礼貌的neutral，而是行为被撞破后面临暴露与问责威胁时的典型应激逃跑反应。视听证据互补印证其处于慌张受惊状态，依标准归入fear家族。\n<answer>fear</answer>",
+  "label": "fear",
+  "elapsed_seconds": 66.44318461418152
+}

@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标人物（空乘人员）在所有帧中均保持微笑，头部和视线朝向对话者，姿态稳定。其面部表情在帧1至帧7中持续呈现，无明显变化。字幕显示其话语为礼貌性问候，与视觉上的微笑一致。音频中语调上扬，与视觉表现相符。无任何迹象表明其情绪为愤怒、悲伤或恐惧。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "目标人物面带微笑，头部微倾，视线朝向对话者。",
+      "interpretation": "微笑和专注的视线是积极社交互动的典型视觉表现，支持joy的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_07 @ 2.127",
+      "observation": "目标人物的微笑持续存在，面部肌肉放松。",
+      "interpretation": "持续的微笑而非短暂或犹豫的表情，表明情绪稳定且为积极状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Thank you!  Enjoy your flight?",
+      "observation": "字幕内容为礼貌的告别语。",
+      "interpretation": "该话语内容与视觉上的微笑和积极姿态相符，共同指向一种礼貌的喜悦或满足感。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "0.0-2.127",
+      "observation": "音频中可听到目标人物说“Thank you! Enjoy your flight?”，语调上扬，听起来友好。",
+      "interpretation": "友好的语调与视觉上的微笑和积极姿态一致，强化了joy的判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无明确反证。虽然微笑可能被解读为礼貌而非真实喜悦，但结合其持续的面部表情、积极的姿态和友好的语调，joy是视觉上最强的支持解释。"
+}

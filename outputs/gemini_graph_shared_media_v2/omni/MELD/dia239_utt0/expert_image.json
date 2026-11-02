@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物Gunther在所有帧中均保持直视前方，面部表情无明显变化，未见皱眉、张嘴或眼神游移等情绪线索。其姿态稳定，无肢体动作，与字幕中提问的语气一致，视觉上无支持或反对任何特定情绪的证据。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "Gunther面部朝向镜头，视线稳定，无明显情绪表情。",
+      "interpretation": "面部无皱眉、嘴角无上扬或下撇，符合中性表情的视觉特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_07 @ 1.7517486399467082",
+      "observation": "Gunther姿态稳定，身体未发生明显移动或转向。",
+      "interpretation": "缺乏肢体语言支持强烈情绪，与中性状态一致。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Someone in there?",
+      "observation": "字幕显示为一句中性提问。",
+      "interpretation": "提问内容本身不带有情绪色彩，与视觉表现一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无明确反证，但视觉上无法完全排除轻微的困惑或好奇，因无足够面部细节支持。"
+}

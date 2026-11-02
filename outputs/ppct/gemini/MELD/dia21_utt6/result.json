@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia21_utt6",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "根据person_0与person_1的联合线索，Phoebe将手搭在男伴胸前近距离注视对方，面带笑容，说话语调轻快且伴随明显的轻笑声；结合process_0中带有调侃意味的台词互动，充分展现了轻松愉悦、开心的情绪状态。",
+  "output": "根据person_0与person_1的联合线索，Phoebe将手搭在男伴胸前近距离注视对方，面带笑容，说话语调轻快且伴随明显的轻笑声；结合process_0中带有调侃意味的台词互动，充分展现了轻松愉悦、开心的情绪状态。\n<answer>joy</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 38.80714535713196,
+  "node_count": 7,
+  "edge_count": 5
+}

@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标人物是画面中央穿浅蓝色高领衫的Monica。她从前倾发言转为挥手强调，随后收紧嘴唇，再次前倾并伸手说话[E1][E2]；这些连续动作更支持带有不满的强烈表达。字幕中的明确批评与此一致[E3]。中途的笑容使情绪并非毫无歧义[E4]，但未改变整体判断。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 1.4180822323378113秒；frame_03 @ 2.127123348506717秒",
+      "observation": "Monica抬起一只手向外挥动，随后身体前倾、嘴唇收紧，目光朝向画面外的交谈对象。",
+      "interpretation": "手势与姿态的变化支持她在强调反对意见；单凭挥手或抿嘴不能判定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_06 @ 4.212538396062322秒；frame_07 @ 4.921579512231228秒",
+      "observation": "她再次明显前倾，双臂向前伸，嘴张大说话，之后仍保持前倾。",
+      "interpretation": "持续而幅度较大的表达动作，比平静陈述更支持激动的不满；张口本身也可能只是说话。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "The joke is not funny, and its offensive to women, and doctors, and monkeys!",
+      "observation": "字幕明确说这个笑话不好笑，并称其冒犯女性、医生和猴子。",
+      "interpretation": "话语内容支持将可见的强调动作理解为表达不满；字幕不能证明她的语调。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.7090411161689056秒；frame_04 @ 2.7944561637245107秒",
+      "observation": "她在连续发言间短暂露出笑容。",
+      "interpretation": "笑容是愉快或玩笑式表达的反证，不能单独当作愤怒表现。",
+      "polarity": "counter"
+    }
+  ],
+  "counterevidence": "最强的相反解释是她在带笑地开玩笑或轻松辩驳[E4]。但笑容短暂，前倾、连续强调的手势及明确批评的字幕[E1][E2][E3]更支持anger；没有音频，无法进一步凭语调区分。"
+}

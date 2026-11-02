@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00002333",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "0e9fbf235f4db8f0d6cbb4c5b79681cf485a4b2bfdd80a92849380e07b412f8e",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "轻松",
+      "mapped_label": "happy",
+      "mapping_reason": "根据情绪轮定义，'happy'（喜悦）指当前正向愉悦、满足或兴奋。目标人物的微笑表情和带笑的语气是其当前愉悦状态的直接证据，尽管其话语内容可能严肃，但其表达方式是轻松的，因此映射为'happy'是合适的。'neutral'不成立，因为其表情和语气都表现出明确的积极情绪。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "平静",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据情绪轮的定义，'neutral'（中性）指的是当前主要为平稳叙述、自然交流或无明确主导情绪的表达。说话者的语调平稳，没有情绪波动，同时面部表情是微笑，这表明他没有处于一种强烈的情绪状态中，而是在进行一种平静的交流。因此，将这种平稳的表达归类为中性是合适的。"
+    },
+    "image": {
+      "open_emotion": "轻松",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据情绪轮定义，'neutral'指当前主要为平稳叙述、自然交流或无明确主导情绪的表达。目标人物的微笑和放松姿态表明其情绪并非悲伤、愤怒或担忧，而是一种平稳的交流状态。尽管有微笑，但缺乏与之匹配的强烈积极事件或文本支持，因此不映射为'happy'。其表现最符合'neutral'的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物在所有帧中均保持微笑，嘴部有张开动作，与音频中说出的“像这娘，交代你”同步。其语调平稳，无明显情绪波动，结合字幕内容为陈述句，整体表现更符合一种平稳的交流状态。尽管有微笑表情，但缺乏与之匹配的强烈积极事件或文本支持，因此不映射为'happy'。综合视觉、听觉与文本，其表现最符合'neutral'的定义。",
+  "output": "目标人物在所有帧中均保持微笑，嘴部有张开动作，与音频中说出的“像这娘，交代你”同步。其语调平稳，无明显情绪波动，结合字幕内容为陈述句，整体表现更符合一种平稳的交流状态。尽管有微笑表情，但缺乏与之匹配的强烈积极事件或文本支持，因此不映射为'happy'。综合视觉、听觉与文本，其表现最符合'neutral'的定义。\n<answer>neutral</answer>",
+  "label": "happy",
+  "elapsed_seconds": 200.55493021011353
+}

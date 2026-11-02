@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia224_utt2",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "1a93519324deb7114b711ca1273c4ab6d476608084d6a740754472aedd789a3b",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "平稳",
+      "mapped_label": "neutral",
+      "mapping_reason": "开放情绪'平稳'指当前发声处于平缓、均匀且缺乏主观情感波动的机械化引导状态，在情绪轮中精确对应'无明显情绪起伏且表达平稳'的neutral范畴。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "平稳",
+      "mapped_label": "neutral",
+      "mapping_reason": "录音磁带的声音呈现出催眠引导所特有的单调、平缓与放松特质，缺乏情感波动与主观态度倾斜，符合neutral定义中平稳、平常、无明显情绪的主导状态。"
+    },
+    "image": {
+      "open_emotion": "平稳",
+      "mapped_label": "neutral",
+      "mapping_reason": "目标发声主体为无情感波动的催眠磁带录音，语调沉静单调，符合neutral定义的平稳、日常且无主导情绪反应的范畴。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标说话人是播放催眠指令的磁带（Hypnosis Tape）。经独立核对实际音轨与字幕原话'Deeper.'，声音由语调极平缓、柔和且单调的录音女声播报，音量恒定且缺乏任何主观情绪起伏，完全符合程序化催眠引导的声学特征，正如[audio_subtitle:E2]与[graph:E1]所述。画面中床头录音设备静止播放且床上人物闭目沉睡[image:E1]，无对抗、愉悦或恐惧等任何主导情绪线索。综合可核实的多模态证据，该录音发声处于典型的平稳状态，准确映射为neutral。",
+  "output": "目标说话人是播放催眠指令的磁带（Hypnosis Tape）。经独立核对实际音轨与字幕原话'Deeper.'，声音由语调极平缓、柔和且单调的录音女声播报，音量恒定且缺乏任何主观情绪起伏，完全符合程序化催眠引导的声学特征，正如[audio_subtitle:E2]与[graph:E1]所述。画面中床头录音设备静止播放且床上人物闭目沉睡[image:E1]，无对抗、愉悦或恐惧等任何主导情绪线索。综合可核实的多模态证据，该录音发声处于典型的平稳状态，准确映射为neutral。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 51.03368330001831
+}

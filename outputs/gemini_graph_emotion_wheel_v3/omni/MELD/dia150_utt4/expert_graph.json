@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "Janice在告别时使用了其标志性的、带有鼻音和拖长语调的说话方式，同时配合抬起食指指向颈旁的独特手势。这种表达方式在角色设定中是其夸张、令人不适的个性的体现，结合其在告别时双臂交叉、注视对方的姿态，整体情绪表现为一种带有强烈个人色彩的、非真诚的告别。这种告别方式并非出于喜悦或中性，而是其角色性格的延续，因此最接近的开放情绪是'厌恶'。",
+  "open_emotion": "厌恶",
+  "answer": "disgust",
+  "mapping_reason": "根据情绪轮定义，'disgust'（厌恶）是对令人反感、恶心或难以接受对象的排斥与厌弃。Janice的告别方式——其标志性的鼻音、拖长语调和特定手势——在剧中被反复用作一种令人不适的、令人反感的表达。虽然她口头上说的是告别，但其表达方式本身是令人反感的，因此目标人物的情绪是对其告别方式的厌恶，而非对Chandler本人的厌恶。这是一种对特定行为的排斥，符合'disgust'的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "Janice的语音带有独特的鼻音和拖长语调。",
+      "interpretation": "这种非标准的、夸张的说话方式是Janice角色的标志性特征，通常用于表达一种令人不适的、令人反感的个性。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "Janice抬起右手食指指在颈旁。",
+      "interpretation": "这是Janice在剧中一个非常具有辨识度的标志性手势，通常与她说话时的夸张和令人不适的个性联系在一起。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01",
+      "observation": "Janice放下抬起的手指，双臂交叉抱在胸前。",
+      "interpretation": "这个姿态表现出一种防御性或强调的姿态，与她说话时的语气和手势相结合，强化了其告别方式的戏剧性和令人不适感。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "Janice说话带独特的鼻音和拖长语调。",
+      "interpretation": "该节点描述了Janice声音的特征，这是其角色设定中令人反感的方面，是判断其情绪的关键线索。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "一种可能的替代解释是，Janice的告别方式是出于一种夸张的、戏剧化的喜悦或兴奋。然而，这种解释与她标志性的、令人不适的说话方式和手势不符，这些特征在剧中通常与负面情绪或令人反感的行为相关联，而非积极情绪。因此，'厌恶'是更合理的解释。"
+}

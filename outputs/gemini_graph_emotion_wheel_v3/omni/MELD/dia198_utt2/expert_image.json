@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "Joey在说话时，面部表情和手势表现出一种夸张的、带有戏剧性的兴奋感。他的眉毛上扬，眼睛睁大，嘴巴张开，配合着“she kicked our butts”和“Olympic standing-there team”这样带有强烈比喻和夸张色彩的台词，整体表现得非常投入和激动。这种夸张的表演风格与他所描述的“被打败”的情境形成了鲜明对比，更像是一种为了强调而故意放大的、带有幽默色彩的兴奋，而非真正的愤怒或悲伤。",
+  "open_emotion": "兴奋",
+  "answer": "joy",
+  "mapping_reason": "根据观察，Joey的面部表情（睁大的眼睛、上扬的眉毛、张开的嘴巴）和手势（指向对方）都表现出一种积极的、高能量的状态。结合字幕内容，他正在用一种夸张和幽默的方式描述一个事件。这种表达方式与'joy'（喜悦）的定义最为接近，即一种开心、愉悦或兴奋的正向体验。虽然他的台词内容是负面的（被打败），但其表达方式是积极和戏剧化的，因此映射到'joy'是合理的。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "Joey的眉毛上扬，眼睛睁大，嘴巴微张，表情显得很投入。",
+      "interpretation": "这是一个典型的表达惊讶或兴奋的面部特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01",
+      "observation": "Joey抬起右手食指，指向对方，同时嘴巴张开，似乎在强调某个观点。",
+      "interpretation": "这是一个强调和戏剧化的手势，配合其夸张的面部表情，表明他正在投入地讲述一个故事。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "No-no, she kicked our butts. You could be on the Olympic standing-there team.",
+      "observation": "Joey的台词内容是“她把我们打得落花流水。你都可以站在那个队的领奖台上了。”",
+      "interpretation": "这是一句带有强烈比喻和夸张色彩的台词，用以形容对方的强大。这种夸张的表达方式通常用于喜剧效果，而非字面意义的愤怒或悲伤。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "00:00-00:04",
+      "observation": "Joey的语调高昂，语速较快，充满戏剧性。",
+      "interpretation": "这种高昂且富有表现力的语调，与他夸张的面部表情和手势相匹配，共同营造了一种喜剧化的兴奋氛围。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "Joey的台词内容是负面的（被打败），这可能会让人联想到'anger'（愤怒）或'sadness'（悲伤）。然而，他的面部表情和语调都表现出积极和兴奋的状态，而不是愤怒的紧绷或悲伤的低落。因此，这些负面情绪的解释与视觉和听觉证据不符。"
+}

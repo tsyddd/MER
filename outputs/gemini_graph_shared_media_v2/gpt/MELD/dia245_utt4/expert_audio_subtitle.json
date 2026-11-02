@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "字幕中的连续否定更像急于阻止眼前动作，而非平静陈述[E1]。Monica随即放下手中物品、迅速起身并转向门口，支持紧张、担忧的解读[E2][E3]。没有音频，不能据此判断她的语调。",
+  "answer": "fear",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "No-no-no, no!",
+      "observation": "当前话语连续重复“no”。",
+      "interpretation": "重复否定体现即时阻止的意图；单凭文字不能确定声音是否惊慌。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.5839162133155694秒；frame_05 @ 1.4180822323378113秒",
+      "observation": "Monica先拿着物品坐在沙发上，随后俯身向前、离开原来的坐姿。",
+      "interpretation": "动作与急于介入的言语行为一致，支持紧张而非从容的否定。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_07 @ 2.001998445653381秒",
+      "observation": "Monica转头看向门口方向，嘴张开。",
+      "interpretation": "与持续关注门口动静的担忧相符，但单帧表情不足以独立确定情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是surprise：她突然转身、张嘴也可能是在惊讶地制止对方。但连续否定及立刻起身介入更支持担忧；缺少音频和后续语境，无法进一步确认。"
+}

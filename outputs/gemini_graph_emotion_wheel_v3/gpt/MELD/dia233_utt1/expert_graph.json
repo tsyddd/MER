@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "Rachel当前是在对面前女子说话，而不是面对一条实际出现的鱼。她用“你还不如给他一条鱼”反驳对方，又说“你知道鱼会把我吓坏”[E1][E2]；后一句是她陈述自身对鱼的感受，不能直接当作此刻正在害怕的证据。她说话时皱眉、张开手臂，随后仍严肃地面对对方[E3]。结合话语指向，当前更像是在责怪对方没有顾及她的感受。",
+  "open_emotion": "不满",
+  "answer": "anger",
+  "mapping_reason": "当前的不满主要指向对方的做法，表现为质疑和反驳，因此映射到anger中的轻度恼火，而非把她提及的怕鱼直接映射为fear。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“Honey, if you wanted to do that, you might as well just gotten him a fish, you know how fish freaked me out!”",
+      "observation": "Rachel以假设的“给他一条鱼”反驳对方，并提及鱼曾让自己害怕。",
+      "interpretation": "话语当前针对对方的做法；怕鱼是她提出的理由，不等于眼前正受鱼威胁。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "process_0、process_1",
+      "observation": "图谱将Rachel的话分为提出假设替代做法和说明自身怕鱼两段。",
+      "interpretation": "两节点帮助区分当前反驳与所述感受；其话语内容与字幕同源，不算额外一份独立证据，节点顺序也不证明更深的因果。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01（0.626秒）至frame_07（4.379秒）",
+      "observation": "Rachel面对对方说话时张开手臂、皱眉；之后手臂放下，表情仍严肃。",
+      "interpretation": "这些可见表现配合她对对方的反驳，支持当前的不满；单看手势或皱眉不足以确定情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "“fish freaked me out”也可能让人想到fear，但字幕没有表明当前有鱼或迫近的威胁。图谱person_2转述了语速和语调；未收到原音轨，不能亲耳核验，也不据此断定她的语气。"
+}

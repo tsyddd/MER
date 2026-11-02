@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标是画面中低身躲在赤膊男子旁、随后被其遮挡的女学生，而非后方站立的两名男子。她迅速低身退避[E1][E2]，字幕中的道歉[E3]与紧张不安的解释相符；但脸部看不清，无法据此判断细微表情。",
+  "answer": "fear",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒；frame_01 @ 0.3336664076088968秒",
+      "observation": "右下方女子低着头、弯着身，贴近赤膊男子；脸部未清晰露出。",
+      "interpretation": "姿态更支持退避或局促，不能单凭它确认具体情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.6673328152177936秒；frame_03 @ 1.0009992228266904秒",
+      "observation": "赤膊男子移动后，女子进一步被遮挡，无法辨认她的面部变化。",
+      "interpretation": "限制了对惊讶、悲伤等面部表情的判断。",
+      "polarity": "uncertain"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "I'm so sorry!",
+      "observation": "当前字幕是一句道歉。",
+      "interpretation": "与局促不安相容，但道歉本身不能证明恐惧。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的相反解释是突遇旁人时的惊讶，或单纯礼貌地道歉。由于看不到女学生清晰的面部反应，不能排除这两种解释；选择fear主要依据其低身退避的可见动作，而非推断她有强烈恐惧。"
+}

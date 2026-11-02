@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia132_utt2",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "f084672e7cf9dd79896fb1df6be44f63d0e81e8653bd27ac9cb35d8247ef8c65",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "综合回看原始帧与音频，Phoebe在前台向工作人员描述所寻找人物的外貌特征，整体属于平实的事实传递。视觉上Phoebe在各帧中眉眼放松、双手仅作自然的辅助描述手势，无笑肌抬升或兴奋神态，与[image:E1]和[image:E2]的观察一致且完全可信。音频中00:01-00:04其陈述语气平稳从容，尽管台词包含“very attractive”，但如[audio_subtitle:E1]所述音调并未上扬或带有笑腔，不构成joy的表达，因此排除喜悦，确定为客观中性状态。",
+  "output": "综合回看原始帧与音频，Phoebe在前台向工作人员描述所寻找人物的外貌特征，整体属于平实的事实传递。视觉上Phoebe在各帧中眉眼放松、双手仅作自然的辅助描述手势，无笑肌抬升或兴奋神态，与[image:E1]和[image:E2]的观察一致且完全可信。音频中00:01-00:04其陈述语气平稳从容，尽管台词包含“very attractive”，但如[audio_subtitle:E1]所述音调并未上扬或带有笑腔，不构成joy的表达，因此排除喜悦，确定为客观中性状态。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 50.53619599342346
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia153_utt4",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "Joey is the speaker, as confirmed by the audio. His mouth is open, indicating he is actively speaking. He raises his right hand and points his index finger upward, a gesture that coincides with his speech. This combination of active speaking and a specific pointing gesture suggests he is making a strong point or giving a direct instruction, which is consistent with a neutral, assertive tone.",
+  "output": "Joey is the speaker, as confirmed by the audio. His mouth is open, indicating he is actively speaking. He raises his right hand and points his index finger upward, a gesture that coincides with his speech. This combination of active speaking and a specific pointing gesture suggests he is making a strong point or giving a direct instruction, which is consistent with a neutral, assertive tone.\n<answer>neutral</answer>",
+  "label": "fear",
+  "elapsed_seconds": 124.82068467140198,
+  "node_count": 10,
+  "edge_count": 3
+}

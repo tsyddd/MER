@@ -1,0 +1,3 @@
+{
+  "text": "在有屏风与微弱灯火的室内暗光环境中，左前方有一名背对镜头的男子在场听其叙述〔context_0〕。目标人物首先面向左侧男子说话，讲述“铜木人一案”〔process_0〕，此时他面朝左侧注视对方，双目圆睁、嘴唇开合〔person_0〕，同时说话语调低缓沉稳，语速平稳且中间伴有停顿〔person_1 simultaneous person_0〕〔person_0 person_joint person_1〕。随后，他继续向下陈述“父皇本已对我起了疑心”〔process_1 after process_0〕〔process_0 process_joint process_1〕，神态上眉毛微挑，目光持续固定在左侧人物方向，面部表情紧绷〔person_2 after person_0〕。接着，目标人物继续说出“可当我拿着铜木人去求他的时候”〔process_2 after process_1〕〔process_1 process_joint process_2〕，期间上身保持坐立姿态，头部轻微点动以配合言语节奏〔person_3 after person_2〕〔person_2 person_joint person_3〕。这些表现可能反映了目标人物在向对方复盘关乎自身安危的关键事件时，注意力高度集中且保持着审慎克制的应对状态。"
+}

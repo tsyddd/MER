@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "从语言与韵律来看，目标人物陈述‘怎么到了自己身上，就这样不明白’[E1]，并非客观疑问或指责他人，而是在倾诉内心的绝望与自嘲。音频中声音带有明显的哭腔与颤音，音量低沉且在句尾‘不明白’处带着叹息与力竭感[E2]，整体语调下行且充满凄楚；配合画面中眼神哀戚、神态落魄的表达[E3]，体现了强烈的悲痛与凄凉感。",
+  "open_emotion": "凄凉悲伤",
+  "answer": "sad",
+  "mapping_reason": "目标人物在遭遇自身困境时表达出深刻的痛心与哀叹，声音带有哭腔叹息，无攻击对抗倾向，严格契合悲伤（sad）定义中当前失落、伤心、低落的核心特征。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "怎么到了自己身上，就这样不明白。",
+      "observation": "台词通过自问反思表达对自身处境的困惑与无力承受感。",
+      "interpretation": "言语行为展现出心碎与自哀，而非对外部冲突的质问。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "说话人声音发颤，伴随微弱的气息与哽咽哭腔，尾音下沉消散。",
+      "interpretation": "声学特征充分传达出难以自抑的悲楚与哀痛。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04-frame_07",
+      "observation": "面部表情哀戚，眼神泛红无光，最后全景显示跪坐在地。",
+      "interpretation": "视觉体态与悲戚的声音完全吻合，体现低落与受挫的悲伤心境。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽含有反思自责的疑问句式，但语调无恼怒或抗辩重音，缺乏angry的对抗性与worried的警觉特征。"
+}

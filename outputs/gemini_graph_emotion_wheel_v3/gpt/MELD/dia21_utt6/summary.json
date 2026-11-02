@@ -1,0 +1,8 @@
+{
+  "reason": "独立回看frame_00至frame_04，Phoebe面对男子时从抿嘴逐渐露出笑容；[image:E1]对这一变化的描述可信，比单看她的手势更有区分力。字幕中的“Seriously”确有意外、求证的意味，但[audio_subtitle:E1]也指出，措辞本身不足以判定惊讶；本段没有提供音轨，不能核实语调。她持续展开的笑容更支持轻度愉悦，而非以惊讶为主；frame_05以后主要可见的是男子的表情，不用于替代她的表现。",
+  "answer": "joy",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E1"
+  ]
+}

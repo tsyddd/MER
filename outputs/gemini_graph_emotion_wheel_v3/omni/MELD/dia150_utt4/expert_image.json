@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "目标人物Janice在对话中表现出明显的悲伤情绪。她的面部表情包括下垂的眼角、紧闭的嘴唇和轻微的颤抖，这些是悲伤的典型视觉特征。她的姿态是抱臂，身体略微前倾，表现出一种脆弱和情感投入的状态。结合字幕内容“Good-bye Chandler Bing”，这是一句告别的话语，通常与悲伤或失落相关联。音频中她的语调低沉、语速缓慢，进一步支持了悲伤的判断。没有观察到愤怒、厌恶、恐惧或惊讶的迹象。",
+  "open_emotion": "悲伤",
+  "answer": "sadness",
+  "mapping_reason": "根据观察，目标人物Janice的面部表情（下垂的眼角、紧闭的嘴唇）、姿态（抱臂、前倾）以及她所说的话“Good-bye Chandler Bing”和低沉的语调，都明确指向了悲伤这一情绪。这与MELD项目情绪轮中'sadness'的定义——因失落、损失或痛苦而难过、哀伤或低落——完全吻合。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "Janice的嘴角下垂，眼角有下垂的迹象，嘴唇紧闭，表情显得沉重。",
+      "interpretation": "这些是悲伤情绪的典型面部特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "Janice的双臂交叉抱在胸前，身体姿态显得有些蜷缩。",
+      "interpretation": "这是一种自我保护或情感脆弱的姿态，常见于悲伤或失落时。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Good-bye Chandler Bing",
+      "observation": "字幕显示她正在说告别的话。",
+      "interpretation": "告别通常与悲伤或失落的情绪相关联。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "音频中Janice的语调低沉，语速缓慢，声音中带有明显的颤抖。",
+      "interpretation": "这种语调和音质是悲伤情绪的直接听觉表现。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。"
+}

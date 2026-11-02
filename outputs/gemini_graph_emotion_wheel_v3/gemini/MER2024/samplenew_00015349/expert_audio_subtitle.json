@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话人压低嗓门、用急促的气声说出假设性警告‘再这么吵下去的话，传到高家’[E1, E2]，其言语行为重在警示潜在不良后果与事态扩大的风险；低沉紧迫的语调与微蹙的眉头一致反映出其内心的焦虑与顾虑[E3]。",
+  "open_emotion": "担忧",
+  "answer": "worried",
+  "mapping_reason": "说话人关注的是尚未发生但极具威胁的后果（事情闹大传到高家），在情绪轮中，对未知风险与潜在负面结果的焦虑不安明确映射至‘worried’家族。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "再这么，烧下去的话，传到高家。",
+      "observation": "台词表达了对事态继续发展（'再这么吵/烧下去的话'）导致更严重恶果（'传到高家'）的预见与提示。",
+      "interpretation": "说话人的言语意图是防范事态扩大，具有明显的危机预期取向。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0:00-0:02",
+      "observation": "音量极低，采用压抑嗓音的轻声急促吐字，语流紧绷并伴有气声，带有警惕和克制感。",
+      "interpretation": "压低声音同时语速偏紧，体现出害怕被外人听见并急切警告对方的担忧与戒备状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01至frame_04 (0.4s-1.64s)",
+      "observation": "说话人神色严肃，眉心微紧，快步迎向对方低语。",
+      "interpretation": "紧张的神态与小心谨慎的姿态佐证了其话语中包含的焦虑而非单纯客观叙述。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "由于音量低且无大幅度情绪爆发，容易被误判为平稳交流（neutral），但其气声与压迫感明确排除了中性；虽涉及'吵'这一对抗性词汇，但他意在制止风险而非宣泄愤怒（angry）。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00006335",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "a0bf56d9fb9db16ede1f6dafeaeb4ef47157197d9bed5ab5ad9436046022afb9",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "目标人物在电话中反问煤矿局势，镜片下眉心微蹙且眼神紧绷，[graph:E1]声称其面部平稳舒展显然与画面实际张力不符。虽然[audio_subtitle:E1]指出了反预期质询的意外感，但实际音频中语调紧促沉重，配合神情中的持续紧绷，重在表现对前线战局变故的焦虑与不安而非单纯错愕。综合视听表现，[image:E1]关于危机局势下神态紧绷的观察更为可信，情绪归取受事态威胁驱动的担忧。",
+  "output": "目标人物在电话中反问煤矿局势，镜片下眉心微蹙且眼神紧绷，[graph:E1]声称其面部平稳舒展显然与画面实际张力不符。虽然[audio_subtitle:E1]指出了反预期质询的意外感，但实际音频中语调紧促沉重，配合神情中的持续紧绷，重在表现对前线战局变故的焦虑与不安而非单纯错愕。综合视听表现，[image:E1]关于危机局势下神态紧绷的观察更为可信，情绪归取受事态威胁驱动的担忧。\n<answer>worried</answer>",
+  "label": "angry",
+  "elapsed_seconds": 77.52740788459778
+}

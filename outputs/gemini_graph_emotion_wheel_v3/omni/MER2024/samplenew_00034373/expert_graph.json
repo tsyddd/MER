@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "目标人物在当前片段中表现出眼含泪光、眉头微蹙、视线斜下方等视觉特征，同时其语音表现为音量偏低、语调微颤并伴有哽咽。这些视听证据共同指向一种因损失或痛苦而产生的低落情绪。尽管字幕内容“甚至连一件衣裳”本身是陈述句，但其表达方式并非中性，而是带有强烈的悲伤色彩。因此，主导情绪是悲伤。",
+  "open_emotion": "悲伤",
+  "answer": "sad",
+  "mapping_reason": "根据情绪轮定义，'sad'（悲伤）指当前失落、伤心、哀痛或低落的情绪，需要损失评价或相应表达支持。目标人物的眼含泪光、微颤哽咽的语音以及整体低落的表达状态，均符合该情绪的语义边界。其情绪指向的是对已发生事件的失落与哀痛，而非对未来的担忧（worried）或对当前信息的意外（surprise），因此映射为'sad'是准确的。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "女子眼含泪光，眉头微蹙，视线落在斜下方。",
+      "interpretation": "这些面部表情是悲伤情绪的典型外在表现，表明其内心正经历失落或痛苦。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "女子发音音量偏低，语调微颤，并伴有哽咽与短暂停顿。",
+      "interpretation": "这种声音特质是情绪激动、难以抑制悲伤的直接证据，与视觉表现形成多模态互补。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "字幕内容",
+      "observation": "字幕显示“甚至连一件衣裳”。",
+      "interpretation": "该话语内容暗示了某种微不足道的损失或被剥夺感，为悲伤情绪提供了语义背景。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "图谱节点person_0描述女子眼含泪光，视线落在斜下方，眉头微蹙。",
+      "interpretation": "该节点准确捕捉了目标人物的核心视觉情绪特征，是组织文本中情绪判断的主要依据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "图谱中person_1节点描述了声音的微颤与哽咽，这与悲伤情绪高度一致。没有发现与悲伤情绪相矛盾的证据。"
+}

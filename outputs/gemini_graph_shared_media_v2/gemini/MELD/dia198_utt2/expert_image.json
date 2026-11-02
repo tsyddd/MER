@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "目标人物Joey（左侧白色上衣）在陈述时面部肌肉整体放松，未见蹙眉、瞪眼、咬牙或怒目等愤怒生理特征[E1]，其伴随的手势为自然的摊手与指向辅助交流[E2]，整体处于冷静克制的叙述状态，符合neutral。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 1.1261241256800267",
+      "observation": "Joey头部微倾，眉毛与额头平整无紧皱，嘴唇自然开合发音，眼眶无紧绷或瞪大现象。",
+      "interpretation": "缺乏愤怒（皱眉紧绷）或悲伤（嘴角下垂）等高唤醒度负面面部特征，支持客观陈述的平静常态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.710040338995596",
+      "observation": "Joey右手平展向身侧的Chandler示意，身体站立姿态舒展自然。",
+      "interpretation": "属于日常交流中指向同伴的说明性手势，未出现攻击性握拳、耸肩紧绷等情绪爆发性动作，支持neutral。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词提及输球并嘲弄同伴表现差（Olympic standing-there team），常带有讽刺责备色彩易被疑为anger；但画面中其面部无任何攻击性紧绷或愤怒表情，音频语调亦属于戏谑吐槽而非怒斥，故排除anger。"
+}

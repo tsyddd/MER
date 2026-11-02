@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00029282",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "e81a763258684129b06d506421613b3dbd812a365d2377fedae6ad08cf75907c",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "回看各帧画面（如frame_02至frame_04），紫衣女子眉心向上聚拢紧蹙呈典型悲伤眉，眼眶含泪且嘴角剧烈下撇抽动，展现出强烈的哭泣痛苦面容[image:E1]。实际音轨在0.00-2.50秒全程伴随剧烈颤抖的哽咽抽泣与浓重哭腔[audio_subtitle:E1]，视觉与听觉呈现出高度一致的极度痛心状态。虽然字幕‘没想到，你竟然这么傻’含有责备与关切字面，可能引起worried或angry的疑虑，但人物并无攻击性升调或焦灼警惕，而是面对既成现实的心碎与哀恸，取舍确认为悲伤（sad）。",
+  "output": "回看各帧画面（如frame_02至frame_04），紫衣女子眉心向上聚拢紧蹙呈典型悲伤眉，眼眶含泪且嘴角剧烈下撇抽动，展现出强烈的哭泣痛苦面容[image:E1]。实际音轨在0.00-2.50秒全程伴随剧烈颤抖的哽咽抽泣与浓重哭腔[audio_subtitle:E1]，视觉与听觉呈现出高度一致的极度痛心状态。虽然字幕‘没想到，你竟然这么傻’含有责备与关切字面，可能引起worried或angry的疑虑，但人物并无攻击性升调或焦灼警惕，而是面对既成现实的心碎与哀恸，取舍确认为悲伤（sad）。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 48.07466268539429
+}

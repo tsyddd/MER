@@ -1,0 +1,9 @@
+{
+  "reason": "独立核对frame_00至frame_07，Monica先低头浅笑，随后转向左侧女子，笑容扩大并露齿；[image:E2]对后段变化的描述可信。字幕“Yeah baby!”是积极回应[audio_subtitle:E1]，与表情相符，但单凭短句不能确定语气。早期浅笑也可能只是礼貌表现；不过持续扩大的笑容更支持她当前感到愉悦。没有提供音轨，[graph:E4]转述的轻快语调无法核验，不作为取舍依据。",
+  "answer": "joy",
+  "evidence_refs": [
+    "image:E2",
+    "audio_subtitle:E1",
+    "graph:E4"
+  ]
+}

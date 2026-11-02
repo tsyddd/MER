@@ -1,0 +1,12 @@
+{
+  "id": "MER2024/samplenew_00036745",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "error",
+  "version": "gemini_graph_three_experts_v1",
+  "stage": "expert_graph",
+  "error": "expert_graph: Graph expert citations must match real nodes in reason",
+  "traceback": "Traceback (most recent call last):\n  File \"/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/frozen_graph_experts.py\", line 182, in sample\n    experts[role]=run_stage(folder,current,client,prompts.EXPERTS[role],payload,frames,track,row['classes'],graph,1200)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/frozen_graph_experts.py\", line 148, in run_stage\n    raise RuntimeError(name+': '+str(error))\nRuntimeError: expert_graph: Graph expert citations must match real nodes in reason\n",
+  "elapsed_seconds": 36.71152377128601
+}

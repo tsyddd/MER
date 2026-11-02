@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。字幕中Ross直接指责对方“took”并要求其“confess”，措辞强硬、带有逼迫和对抗意味，体现当前的愤怒态度。",
+  "answer": "anger",
+  "evidence_refs": []
+}

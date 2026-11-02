@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/sample_00002038",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "5df67b783a7d621f4c168fbbed45377607d79f7076828cb28063569a3c555671",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "疑虑不安",
+      "mapped_label": "worried",
+      "mapping_reason": "开放情绪“疑虑不安”强调面对未知情境与潜在风险时的忐忑、顾虑与紧张感，符合情绪轮中worried（对未知风险或不确定性的顾虑与不安）的界定。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "不安",
+      "mapped_label": "worried",
+      "mapping_reason": "面对未知人物表现出的压抑低语与戒备神态，反映了对潜在风险的不确定感与心理防御，符合情绪轮中worried（对未知风险或不可控情境的焦虑、忐忑与不安）的定义。"
+    },
+    "image": {
+      "open_emotion": "忐忑不安",
+      "mapped_label": "worried",
+      "mapping_reason": "目标人物面部呈现紧蹙的双眉与戒备不安的神态，表现出对未知情境和不速之客的顾虑与不确定性，符合worried关于对潜在风险或未知的不安定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "目标人物在画面中全程眉头深锁、眉心隆起，眼神专注凝视侧前方，呈现明显的戒备与紧绷神态[image:E1][graph:E1]。独立核验音轨（0.00-0.80s）可见其并非突发高亢发问，而是以极轻微的压低气声发问“他，是谁呀？”，伴有怯生生的迟疑与提防[audio_subtitle:E1][graph:E2]。针对疑问句可能引发的surprise假设，其面部无挑眉瞪眼的意外失控特征，而是持续处于对未知人物的顾虑与心理防御之中，符合worried关于对未知风险与不确定性的忐忑不安定义。",
+  "output": "目标人物在画面中全程眉头深锁、眉心隆起，眼神专注凝视侧前方，呈现明显的戒备与紧绷神态[image:E1][graph:E1]。独立核验音轨（0.00-0.80s）可见其并非突发高亢发问，而是以极轻微的压低气声发问“他，是谁呀？”，伴有怯生生的迟疑与提防[audio_subtitle:E1][graph:E2]。针对疑问句可能引发的surprise假设，其面部无挑眉瞪眼的意外失控特征，而是持续处于对未知人物的顾虑与心理防御之中，符合worried关于对未知风险与不确定性的忐忑不安定义。\n<answer>worried</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 61.39397931098938
+}

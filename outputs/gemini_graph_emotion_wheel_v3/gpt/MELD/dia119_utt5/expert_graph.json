@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "Monica当前是在向身旁男子说明一个尚未发生的情况：Ben今晚会来，而她不希望他看到眼前的东西[E1]。图谱节点process_1把后一句话与她伸向街机控制台的动作联系起来；画面也能核实她说话时有指向控制台的手势，随后转向控制台[E2][E3]。这支持她正为可能被看到一事担忧，而不是已经因Ben到来作出反应。图谱所称语调平稳仅是音频派生转述；未提供原音轨，不能亲耳核验，也不能据此否定她的担忧[E4]。",
+  "open_emotion": "担忧",
+  "answer": "fear",
+  "mapping_reason": "她对Ben今晚可能看到眼前东西表现出预期性的担忧，最接近情绪轮中面向负面后果的fear；这是较弱的近似投影，片段没有显示她惊恐，也没有交代具体后果。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "But Ben is coming over tonight and he cant see this.",
+      "observation": "Monica说Ben今晚会来，并表示他不能看到“这个”。",
+      "interpretation": "担忧指向将来可能发生的被看到一事，不是对眼下Ben行为的反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "节点记录她说“and he can't see this”时伸手向街机操作台。",
+      "interpretation": "将限制性话语与当前指向眼前物件的动作连成同一次互动；该节点与字幕、画面同源，不算额外的独立情绪证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04（1.3347秒）至frame_07（2.3357秒）",
+      "observation": "她朝左侧男子说话时睁大眼睛、抬手指向控制台，随后低头转向控制台。",
+      "interpretation": "她持续关注正在谈论的东西；结合话语，更像有所顾虑的提醒，而非单纯对街机感到意外。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱称她的语调“平稳连续”，但本次没有提供可听的原音轨。",
+      "interpretation": "这是未经亲耳核验的图谱转述，不能用作确定其语气或推翻当前话语和画面证据。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "“他不能看到这个”也可能只是平常地交代安排；具体所指和被看到的后果都未明确，因此不能断言她害怕某种特定危险。"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia115_utt3",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "3c926295d3796c3783dc09d63fc430c57ea2b6d5e57398d0b9b8039178cc2219",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "中性",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据MELD项目的情绪轮定义，'neutral'指当前平稳、日常且没有明确主导情绪的表达。Ross的语调平稳、清晰，没有表现出喜悦、愤怒、悲伤、恐惧或厌恶等情绪的典型特征。尽管话语内容可能隐含轻微的评判，但其表达方式是冷静和客观的，因此最符合'neutral'的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "neutral",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据MELD项目适配情绪轮的定义，'neutral'指当前平稳、日常且没有明确主导情绪的表达。说话者的语调平稳，话语内容为中性陈述，没有表现出任何主导情绪，因此映射为'neutral'。"
+    },
+    "image": {
+      "open_emotion": "愤怒",
+      "mapped_label": "anger",
+      "mapping_reason": "根据观察，目标人物的面部表情（皱眉、紧闭的嘴唇）和姿态（身体前倾、直视）与愤怒情绪的定义相符，即对冒犯或不公的恼火和责备。音频中的语气也支持这一判断。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "综合分析，Ross的视觉表现（皱眉、紧闭嘴唇、身体前倾）和音频语气（不耐烦、责备）均指向愤怒情绪。虽然音频和图谱专家均认为其语调平稳，但图像专家的视觉证据（[image:E1], [image:E2]）和音频专家对语气的描述（[image:E3]）共同支持了愤怒的判断。字幕内容（[image:E4]）也带有评判性，与愤怒的语义相符。尽管有专家认为情绪为中性，但其判断主要基于平稳的语速，而忽略了更强烈的面部表情和语气中的责备意味。因此，应优先采纳与多模态证据一致的解释。",
+  "output": "综合分析，Ross的视觉表现（皱眉、紧闭嘴唇、身体前倾）和音频语气（不耐烦、责备）均指向愤怒情绪。虽然音频和图谱专家均认为其语调平稳，但图像专家的视觉证据（[image:E1], [image:E2]）和音频专家对语气的描述（[image:E3]）共同支持了愤怒的判断。字幕内容（[image:E4]）也带有评判性，与愤怒的语义相符。尽管有专家认为情绪为中性，但其判断主要基于平稳的语速，而忽略了更强烈的面部表情和语气中的责备意味。因此，应优先采纳与多模态证据一致的解释。\n<answer>anger</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 172.85634541511536
+}

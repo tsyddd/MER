@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia245_utt4",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "1528c89a9e48293f5c22e3f68968c73260009900840f78dcfab7366d2748796f",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "fear",
+  "emotion_analysis": "图谱与图片都描述了Monica突然转头、睁大眼并迅速起身或移动，说明她受到突发刺激；图谱进一步强调急促制止和紧急干预，因此比单纯的惊讶更支持恐惧。音频专家未提供音频，仅依据字幕中的“No”判断愤怒，证据不足且该表达也可能是紧张拒止。",
+  "output": "图谱与图片都描述了Monica突然转头、睁大眼并迅速起身或移动，说明她受到突发刺激；图谱进一步强调急促制止和紧急干预，因此比单纯的惊讶更支持恐惧。音频专家未提供音频，仅依据字幕中的“No”判断愤怒，证据不足且该表达也可能是紧张拒止。\n<answer>fear</answer>",
+  "label": "fear",
+  "elapsed_seconds": 104.569908618927
+}

@@ -1,0 +1,3 @@
+{
+  "text": "在室内沙发上的交流场景中，Monica与Chandler及另一位女性同伴坐在一起〔context_0〕。起初，Monica低头、视线略向下，面带微笑〔person_0〕；Chandler的手臂环搭在她肩上，并转头注视她〔person_1〕。随后，Monica抬头面向前方，嘴角上扬，露齿微笑〔person_2〕；图谱以“after”边标明这一表现晚于她低头微笑时〔person_2→person_0〕。她说出“Yeah baby!”〔process_0〕。其说话语调轻快上扬〔person_3〕，图谱还以“simultaneous”边将这一语音表现与她面向前方露齿微笑的神态关联为同时发生〔person_3→person_2〕。"
+}

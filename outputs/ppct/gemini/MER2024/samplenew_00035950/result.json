@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035950",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sad",
+  "emotion_analysis": "结合person_1、person_2与person_3，女子在向皇帝陈述时神情落寞、眼神微抬带泪光，语音平稳中夹杂明显的叹息与哽咽。结合台词“怎么到了自己身上，就这样不明白”与跪坐在地毯上的凄清情境（person_4与context_1），充分体现出自怜、心酸与难过的悲伤情绪。",
+  "output": "结合person_1、person_2与person_3，女子在向皇帝陈述时神情落寞、眼神微抬带泪光，语音平稳中夹杂明显的叹息与哽咽。结合台词“怎么到了自己身上，就这样不明白”与跪坐在地毯上的凄清情境（person_4与context_1），充分体现出自怜、心酸与难过的悲伤情绪。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 53.13367748260498,
+  "node_count": 9,
+  "edge_count": 9
+}

@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "白衣男子当前面对蓝衣女子发问，质问“难道都要悉数倒戈”[E1][E2]。这里的“倒戈”是他提出的可能情况，不是已发生的事实；其凝视对方、说话时表情绷紧[E3]，使这句问话更像对可能背离的不满，而非平稳询问。图谱对语调的记录不能由本次无音轨的材料亲耳核验[E4]，不作为最终判断的关键。",
+  "open_emotion": "不满",
+  "answer": "angry",
+  "mapping_reason": "当前话语带有质问和责备方向，结合绷紧的表达，‘不满’更接近情绪轮中angry的轻度对抗，而非仅仅担心未知结果。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "难道都要悉数倒戈？不成？",
+      "observation": "男子以反问形式提出‘都要悉数倒戈’。",
+      "interpretation": "反问针对可能的背离，带有质问意味；并不证明倒戈已经发生。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "节点记录白衣男子对面前女子说出这句关于‘倒戈’的话。",
+      "interpretation": "将质问定位为目标人物在当前互动中的表达，而非女子的情绪或过去事件。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05，1.4秒",
+      "observation": "男子直视对方，说话时眉眼和口部表情绷紧。",
+      "interpretation": "与质问语义相合，但表情本身不足以单独区分不满和担忧。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱转述男子音调上扬、语速连贯。",
+      "interpretation": "本次未提供可听音轨，无法亲耳核验；保留为有来源但不确定的声音描述。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "‘难道’也可表达对未来倒戈的担忧；没有后续回应或可核验音轨，不能完全排除这一解释。画面中的女子神情及室内陈设不作为男子情绪的证据。"
+}

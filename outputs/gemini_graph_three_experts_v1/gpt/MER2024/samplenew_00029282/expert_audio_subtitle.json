@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。字幕“没想到，你竟然这么傻”带有明显的责备和不满，最接近愤怒。",
+  "answer": "angry",
+  "evidence_refs": []
+}

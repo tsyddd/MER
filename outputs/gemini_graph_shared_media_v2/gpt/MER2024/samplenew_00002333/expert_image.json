@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物为画面中央沙发上的男性。前几帧他嘴角明显上扬并露齿，眼睛略眯，身体靠坐、手臂放松；到后几帧笑容减弱、嘴部张开，仍未出现明显紧绷或悲伤特征。整体可见表现最支持愉快/微笑状态，但字幕仅能说明说话内容，且无音频可核验语气。[E1][E2]",
+  "answer": "happy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0s；frame_01 @ 0.440s；frame_02 @ 0.840s",
+      "observation": "目标人物嘴角上扬、露出牙齿，眼睛略眯，面部肌肉较放松，身体靠在沙发上。",
+      "interpretation": "多个面部特征共同支持当时存在明显微笑和较愉快的外在表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.280s；frame_04 @ 1.720s",
+      "observation": "他仍保持上扬的嘴角和较放松的姿态，但笑容相比前几帧有所减弱。",
+      "interpretation": "说明愉快表现并非持续增强，但仍比中性或负面表情更突出。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05 @ 2.160s；frame_06 @ 2.560s；frame_07 @ 3.000s",
+      "observation": "后段嘴部张开、眉眼较平，笑容明显减少，姿态仍未见明显僵硬或防御性变化。",
+      "interpretation": "限制了对强烈开心的判断，也可能是说话中的表情变化。",
+      "polarity": "counter"
+    }
+  ],
+  "counterevidence": "后半段笑容减弱并出现张口、较平的眉眼，可能只是轻松交谈而非持续的强烈开心；但前半段连续出现露齿微笑和放松面部，因此未改判为neutral。无音频，无法用语调进一步区分礼貌性微笑或真实愉快。"
+}

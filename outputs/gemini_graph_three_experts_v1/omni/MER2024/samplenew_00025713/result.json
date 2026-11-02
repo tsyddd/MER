@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00025713",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "6276692c6cfc354003e575f92e375614a390c427cbb800fa58633127fa42f7c5",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "三份专家报告均一致指向惊讶情绪：graph指出声音断续、重复字音及随后睁大眼睛张嘴的行为；audio_subtitle描述语速快、音调上扬且有停顿重复；image显示睁大眼睛、眉毛上扬等典型面部特征。所有证据来源相互印证，无冲突，因此判断为惊讶。",
+  "output": "三份专家报告均一致指向惊讶情绪：graph指出声音断续、重复字音及随后睁大眼睛张嘴的行为；audio_subtitle描述语速快、音调上扬且有停顿重复；image显示睁大眼睛、眉毛上扬等典型面部特征。所有证据来源相互印证，无冲突，因此判断为惊讶。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 58.30988621711731
+}

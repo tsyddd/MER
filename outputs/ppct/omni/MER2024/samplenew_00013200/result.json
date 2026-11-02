@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013200",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "angry",
+  "emotion_analysis": "音频中说话人语气激动，字幕内容为指责性话语'可是你背信弃义，你一个劲地抬价'，结合其面部表情和语调，可判断其情绪为愤怒。",
+  "output": "音频中说话人语气激动，字幕内容为指责性话语'可是你背信弃义，你一个劲地抬价'，结合其面部表情和语调，可判断其情绪为愤怒。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 67.37280488014221,
+  "node_count": 4,
+  "edge_count": 1
+}

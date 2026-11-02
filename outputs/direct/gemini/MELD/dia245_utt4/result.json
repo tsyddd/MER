@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia245_utt4",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "fear",
+  "emotion_analysis": "Monica在看到门口的突发情况时神色惊恐，迅速放下手中的书和酒杯并慌乱起身，同时用急促尖锐的声音喊出‘No-no-no, no!’，展现出强烈的惊慌与恐惧情绪。",
+  "output": "Monica在看到门口的突发情况时神色惊恐，迅速放下手中的书和酒杯并慌乱起身，同时用急促尖锐的声音喊出‘No-no-no, no!’，展现出强烈的惊慌与恐惧情绪。\n<answer>fear</answer>",
+  "label": "fear",
+  "elapsed_seconds": 9.36679482460022,
+  "node_count": null,
+  "edge_count": null
+}

@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Monica直呼“Rachel!”后说“I'm never gonna think it's okay for you to cheat on your husband!”；“never gonna think it's okay”是在明确否定对方的行为，而非平常地陈述事实[E1]。她随后看向Rachel、挑眉作答，画面与直接表达不满的语义相符[E2]。",
+  "open_emotion": "不满",
+  "answer": "anger",
+  "mapping_reason": "这里的不满指向Rachel的行为，并以当面否定的方式表达，最接近anger中责备、对抗的一侧；证据不支持将其说成强烈愤怒。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Rachel! I'm never gonna think it's okay for you to cheat on your husband!",
+      "observation": "Monica直呼Rachel，并明确说自己永远不会认为她欺骗丈夫是可以接受的。",
+      "interpretation": "这是否定并责备对方行为的言语行为，支持当前的不满。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05（2.544秒）至frame_07（3.587秒）",
+      "observation": "深发的Monica转向Rachel说话，眉毛抬起，持续看着她。",
+      "interpretation": "面对面的回应与字幕中的直接否定一致；表情没有显示强烈怒意。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "也可能把这句话理解为平静地表明道德立场；仅凭无音频的字幕和画面，无法判断她的语气强度。但直呼对方并明确否定其行为，比单纯中性说明更支持不满。"
+}

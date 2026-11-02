@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035777",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "16f51d5dc6065a268e5e910bb5bfbb8899c3b3f3bb04d1e2c3670d7e68263a35",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "angry",
+  "emotion_analysis": "独立回看音频和画面，目标在00:00-00:02以极高音量和撕裂粗粝的咆哮语调怒吼出台词，具有极强的斥责攻击性，与[audio_subtitle:E1]所述高度相符且十分可信。视觉上如[image:E1]在frame_01所示，目标身体明显前倾下压，咬牙切齿且面部肌肉剧烈紧绷，属于典型的愤怒外显神态。台词虽为商业道德训诫，容易表面化误判为严肃客观的说理（neutral），但其咬牙咆哮的强烈爆发力与怒视姿态坚决排除了中性或单纯担忧。因此，音频韵律与视觉动作紧密互补，明确指向愤怒情绪。",
+  "output": "独立回看音频和画面，目标在00:00-00:02以极高音量和撕裂粗粝的咆哮语调怒吼出台词，具有极强的斥责攻击性，与[audio_subtitle:E1]所述高度相符且十分可信。视觉上如[image:E1]在frame_01所示，目标身体明显前倾下压，咬牙切齿且面部肌肉剧烈紧绷，属于典型的愤怒外显神态。台词虽为商业道德训诫，容易表面化误判为严肃客观的说理（neutral），但其咬牙咆哮的强烈爆发力与怒视姿态坚决排除了中性或单纯担忧。因此，音频韵律与视觉动作紧密互补，明确指向愤怒情绪。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 55.471558809280396
+}

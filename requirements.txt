@@ -1,0 +1,6 @@
+numpy>=1.24,<3
+opencv-python-headless>=4.8
+requests>=2.31
+pydantic>=2,<3
+pandas>=2
+scipy>=1.10

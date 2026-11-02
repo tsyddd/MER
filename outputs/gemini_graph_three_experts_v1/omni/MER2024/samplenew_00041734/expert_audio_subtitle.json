@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话人语速较快，音量较高，句尾上扬，表现出质问和不解，符合'angry'的情绪特征。",
+  "answer": "angry",
+  "evidence_refs": []
+}

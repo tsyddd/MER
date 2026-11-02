@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia119_utt5",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "fb723911feb1977e95353e9e5cd3a600d355b69ec46c0c99064139b522a98aa9",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "紧张",
+      "mapped_label": "fear",
+      "mapping_reason": "根据MELD项目的情绪轮，'fear'被定义为对威胁、危险或令人害怕的负面后果表现出的畏惧、惊恐或焦虑。Monica的言语内容'Ben要来，他不能看到这个'暗示了她所处的环境或行为可能带来负面后果，而她随即采取的迅速行动表明她正试图避免这一后果。这种因潜在威胁而产生的紧迫和焦虑感，与'fear'的定义最为接近。虽然'担忧'或'焦虑'也是合理的开放情绪词，但'fear'是当前数据集允许的最能准确反映其情绪状态的标签。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "担忧",
+      "mapped_label": "fear",
+      "mapping_reason": "根据MELD项目的定义，'fear'被描述为'面向威胁、危险或令人害怕的负面后果，表现出畏惧、惊恐或威胁相关的焦虑'。Monica的担忧和焦虑，源于她认为Ben的到来会让她处于一个尴尬或不好的境地（'he can't see this'），这是一种对潜在负面后果的预期，因此映射到'fear'是合适的。虽然'担忧'更精确，但'fear'是数据集允许的最接近的标签。"
+    },
+    "image": {
+      "open_emotion": "担忧",
+      "mapped_label": "sadness",
+      "mapping_reason": "根据MELD情绪轮的定义，'sadness'（悲伤）被描述为因失落、损失或痛苦而难过、哀伤或低落。Monica的担忧和对负面后果的预期，是一种低落的情绪状态，与'sadness'的家族相符。虽然'担忧'更精确，但在给定的标签中，'sadness'是与这种情绪最接近的选项。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "fear",
+  "emotion_analysis": "目标人物Monica的言语内容'Ben要来，他不能看到这个'表明她正面临一个需要隐藏的状况，这暗示了对潜在负面后果的预期。她的语调在句末上扬，表现出紧迫感和对后果的在意。同时，她的面部表情从平静转为惊讶和担忧，身体前倾并迅速操作街机，这些行为共同指向一种因时间压力和潜在后果而产生的紧张感。虽然专家们对具体情绪的解释不同（graph认为是'紧张'，audio_subtitle认为是'担忧'，image认为是'担忧'），但他们都指向一种对负面结果的预期。根据MELD项目的情绪轮，'fear'被定义为对威胁、危险或令人害怕的负面后果表现出的畏惧、惊恐或焦虑，这与Monica的处境最为吻合。因此，尽管'担忧'或'焦虑'更精确，但'fear'是数据集中最能准确反映其情绪状态的标签。",
+  "output": "目标人物Monica的言语内容'Ben要来，他不能看到这个'表明她正面临一个需要隐藏的状况，这暗示了对潜在负面后果的预期。她的语调在句末上扬，表现出紧迫感和对后果的在意。同时，她的面部表情从平静转为惊讶和担忧，身体前倾并迅速操作街机，这些行为共同指向一种因时间压力和潜在后果而产生的紧张感。虽然专家们对具体情绪的解释不同（graph认为是'紧张'，audio_subtitle认为是'担忧'，image认为是'担忧'），但他们都指向一种对负面结果的预期。根据MELD项目的情绪轮，'fear'被定义为对威胁、危险或令人害怕的负面后果表现出的畏惧、惊恐或焦虑，这与Monica的处境最为吻合。因此，尽管'担忧'或'焦虑'更精确，但'fear'是数据集中最能准确反映其情绪状态的标签。\n<answer>fear</answer>",
+  "label": "fear",
+  "elapsed_seconds": 196.3699333667755
+}

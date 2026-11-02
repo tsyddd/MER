@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者语气急促，音调偏高，带有明显的焦虑和担忧。她提到‘Ben is coming over tonight’和‘he can't see this’，表明她正在为一个即将发生的、可能不好的情况做准备，情绪是担忧而非愤怒或恐惧。视觉上，她的表情也显得有些紧张和急切，与音频中的语气一致。",
+  "answer": "fear",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00.000 - 00:02.336",
+      "observation": "说话者语速较快，音调偏高，语气中带有明显的焦虑和担忧。",
+      "interpretation": "这种语调和语速表明说话者正处于一种紧张和担忧的状态，担心某件事情的发生。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "But Ben is coming over tonight and he can't see this.",
+      "observation": "字幕内容显示说话者正在为一个即将到来的事件（Ben的到来）做准备，并且这个事件与一个她不希望被看到的东西有关。",
+      "interpretation": "这句话的内容直接表达了说话者的担忧和焦虑，她害怕Ben会看到某些不好的东西。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 - frame_07",
+      "observation": "说话者的表情显得有些紧张和急切，眉头微皱，眼神专注。",
+      "interpretation": "视觉上的表情与音频中的语气和字幕内容相符，都指向一种担忧和焦虑的情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的相反解释是'anger'（愤怒）。然而，说话者的语气中没有愤怒的迹象，如音量提高、语速过快或带有攻击性的语调。她的语气更像是在为某事做准备，而不是在表达愤怒。"
+}

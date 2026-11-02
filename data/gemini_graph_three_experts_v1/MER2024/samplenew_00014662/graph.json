@@ -1,0 +1,166 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "女性说话：“我主要是担心这事儿”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "女性继续说话：“会牵连到您家老爷子”",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "女性在画外追问：“不是吗”",
+      "time_index": 2,
+      "evidence_sources": [
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "女性面朝前方，微侧头注视对方，嘴唇张合说话",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "女性语调平缓，音量适中",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "女性双眉微蹙，嘴唇持续张合发音",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "男子身穿紫红色外套，低头视线向下，没有发话",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内环境，前景摆放着一盆盛开的白色蝴蝶兰",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "女性与穿紫红色外套的男子处于同一空间进行面对面交流",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "女性在说出“我主要是担心这事儿”后，接着说出“会牵连到您家老爷子”",
+      "entity_anchor": "女性的话语表达"
+    },
+    {
+      "source": "process_2",
+      "target": "process_1",
+      "relation": "after",
+      "reason": "女性在说出“会牵连到您家老爷子”后，紧接着在画外追问“不是吗”",
+      "entity_anchor": "女性的话语表达"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "女性在微侧头注视对方并张合嘴唇发音的同时，展现出平缓的语调与适中的音量",
+      "entity_anchor": "女性"
+    },
+    {
+      "source": "person_2",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "女性在面朝前方张合嘴唇说话之后，进一步呈现双眉微蹙并持续发音的神态变化",
+      "entity_anchor": "女性"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提供陈述自身担忧的起句，process_1补全了担忧所指向的具体对象与事件内容，联合后构成完整的论述表述过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_1",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "process_1提供陈述担忧会牵连老爷子的陈述内容，process_2补充了画外针对该判断发出的追问，联合后形成陈述观点并立即寻求对方确认的完整互动行为。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供女性微侧头注视对方张口说话的视觉动作，person_1提供平缓适中的声音状态，联合后互补形成该女性注视对方并保持平和克制语气的立体表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0提供室内以白色蝴蝶兰为前景的静态物理空间信息，context_1提供男女二人处于同一空间面对面交谈的人际场景，联合后更完整地限定了这场谈话的具体环境与空间方位。",
+      "entity_anchor": null
+    }
+  ]
+}

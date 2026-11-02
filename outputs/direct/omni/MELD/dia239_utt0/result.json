@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia239_utt0",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "Gunther asks 'Someone in there?' with a questioning tone and raised eyebrows, indicating curiosity or mild surprise about the presence of someone.",
+  "output": "Gunther asks 'Someone in there?' with a questioning tone and raised eyebrows, indicating curiosity or mild surprise about the presence of someone.\n<answer>surprise</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 3.9110169410705566,
+  "node_count": null,
+  "edge_count": null
+}

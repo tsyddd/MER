@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00034373",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "5a1be975f29db4b905cf5235ac6aedcea3f1639cf54f65f8e4b8e84c66b5d091",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "悲伤",
+      "mapped_label": "sad",
+      "mapping_reason": "根据情绪轮定义，'sad'（悲伤）指当前失落、伤心、哀痛或低落的情绪，需要损失评价或相应表达支持。目标人物的眼含泪光、微颤哽咽的语音以及整体低落的表达状态，均符合该情绪的语义边界。其情绪指向的是对已发生事件的失落与哀痛，而非对未来的担忧（worried）或对当前信息的意外（surprise），因此映射为'sad'是准确的。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "悲伤",
+      "mapped_label": "sad",
+      "mapping_reason": "根据情绪轮定义，'sad'（悲伤）指当前失落、伤心、哀痛或低落的情绪。说话者的声音颤抖、带有哭腔，以及其哀伤的表情，都直接支持了悲伤这一情绪。虽然话语内容“甚至连一件衣裳”可能暗示了某种不公或委屈，但其当前的表达方式主要是情感的流露，而非对抗或责备，因此更符合悲伤的特征。"
+    },
+    "image": {
+      "open_emotion": "悲伤",
+      "mapped_label": "sad",
+      "mapping_reason": "根据情绪轮定义，'sad'（悲伤）指当前失落、伤心、哀痛或低落的情绪，需要损失评价或相应表达支持。目标人物的眼眶湿润、眼角有泪光、嘴唇颤抖等视觉表现，以及带有哭腔的音频，均与'悲伤'的定义高度吻合，因此映射为'sad'是准确的。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "目标人物在连续8帧中均表现出眼眶湿润、眼角有泪光、嘴唇微张并颤抖的视觉特征，同时其语音表现为音量偏低、语调微颤并伴有哭腔。这些视听证据共同指向一种因损失或痛苦而产生的低落情绪。字幕内容“甚至连一件衣裳”暗示了某种微不足道的待遇或被剥夺感，为悲伤情绪提供了语义背景。三位专家的证据均一致支持该判断，其中[graph:E1]、[audio_subtitle:E1]和[image:E1]提供了关键的多模态证据，且无任何反证。",
+  "output": "目标人物在连续8帧中均表现出眼眶湿润、眼角有泪光、嘴唇微张并颤抖的视觉特征，同时其语音表现为音量偏低、语调微颤并伴有哭腔。这些视听证据共同指向一种因损失或痛苦而产生的低落情绪。字幕内容“甚至连一件衣裳”暗示了某种微不足道的待遇或被剥夺感，为悲伤情绪提供了语义背景。三位专家的证据均一致支持该判断，其中[graph:E1]、[audio_subtitle:E1]和[image:E1]提供了关键的多模态证据，且无任何反证。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 185.1398949623108
+}

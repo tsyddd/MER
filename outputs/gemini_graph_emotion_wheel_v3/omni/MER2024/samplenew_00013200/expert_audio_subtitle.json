@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者在指责对方‘背信弃义’和‘一个劲地抬价’，使用了强烈的负面词汇。音频中，其语调高亢、语速快，语气充满指责和不满，表现出明显的愤怒情绪。字幕内容与音频语调一致，共同指向一种对抗和责备的态度。",
+  "open_emotion": "愤怒",
+  "answer": "angry",
+  "mapping_reason": "说话者使用了‘背信弃义’这一带有强烈道德谴责意味的词语，并以高亢、快速的语调进行指责，其言语行为和声音韵律均表现出对抗和责备的倾向，符合‘愤怒’情绪的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "可是，你背信弃义，你一个劲地抬价。",
+      "observation": "字幕显示说话者在指责对方‘背信弃义’和‘一个劲地抬价’。",
+      "interpretation": "使用了强烈的负面词汇，表达了对对方行为的强烈不满和谴责。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "说话者语调高亢，语速快，语气充满指责。",
+      "interpretation": "声音韵律表现出强烈的不满和对抗情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。"
+}

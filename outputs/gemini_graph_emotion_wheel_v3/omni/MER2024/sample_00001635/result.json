@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/sample_00001635",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "33e676dfa4457845fb12373ba65d5f414546b0623de9d024d66ecd7d1c0e8f8c",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据情绪轮定义，'surprise'（惊讶）是因当前信息违背预期而产生的意外、诧异或震惊。目标人物的语调急促且带有明显的意外感，结合其正在解释“我不知道”这一违背对方预期的陈述，表明她对当前的指责或状况感到意外和措手不及。因此，该情绪最符合'surprise'的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据情绪轮定义，'surprise'（惊讶）指因当前信息违背预期而产生的意外、诧异或震惊。说话者的语气和表情都表明她对正在发生的事情感到意外，并立即做出反应，这与'惊讶'的定义完全吻合。"
+    },
+    "image": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据情绪轮定义，'surprise'（惊讶）是因当前信息违背预期而产生的意外或诧异。目标人物的面部表情（E1）和声音（E2）均表现出对突发情况的即时反应，这与'惊讶'的定义高度吻合。该反应是短暂的，且由外部刺激（提问）引发，因此映射到'surprise'是准确的。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "目标人物在音频中以一个短促、上扬的语气词“呀”开头，紧接着说出“我不知道这件旗袍是你的”，其语调急促，表现出对当前状况的即时意外和需要快速回应。她的面部表情（眉毛微抬，眼睛睁大，嘴巴微张）与音频中的惊讶语气词和急促语调高度一致，共同指向一种对突发信息的即时反应。虽然专家们对具体表现的侧重点不同，但他们都一致地将此情境解释为“惊讶”，并将其映射到'surprise'标签。该情绪是针对当前互动的即时反应，而非持续的负面或正面情绪，因此最符合'surprise'的定义。",
+  "output": "目标人物在音频中以一个短促、上扬的语气词“呀”开头，紧接着说出“我不知道这件旗袍是你的”，其语调急促，表现出对当前状况的即时意外和需要快速回应。她的面部表情（眉毛微抬，眼睛睁大，嘴巴微张）与音频中的惊讶语气词和急促语调高度一致，共同指向一种对突发信息的即时反应。虽然专家们对具体表现的侧重点不同，但他们都一致地将此情境解释为“惊讶”，并将其映射到'surprise'标签。该情绪是针对当前互动的即时反应，而非持续的负面或正面情绪，因此最符合'surprise'的定义。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 166.6701855659485
+}

@@ -1,0 +1,10 @@
+{
+  "reason": "字幕“那，你一个人在家，我还不放心呢，你万一要想不开，怎么办呢？”直接表达了对对方独处及潜在风险的担忧，且目标人物的归属和当前对话对象明确[ audio_subtitle:E1 ]。回看画面可见她在frame_00至frame_04多低头、眉眼略收紧，frame_05至frame_06转向对方但仍保持严肃克制，这与关切语义相互印证[image:E1][image:E3]。三位专家对视觉和字幕的概括基本一致，但无音轨，无法核验语调；同时没有哭泣、激烈动作或明显愤怒，因此“worried”比“sad”“angry”或“neutral”更合适。图谱关于语言顺序的转述与实际字幕一致，但只能作为间接证据，不能替代音频核验[graph:E1]。",
+  "answer": "worried",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "image:E1",
+    "image:E3",
+    "graph:E1"
+  ]
+}

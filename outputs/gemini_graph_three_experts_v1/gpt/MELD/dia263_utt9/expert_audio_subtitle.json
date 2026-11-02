@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。字幕表达出不得不放弃某人的无奈与失落，当前情绪更接近悲伤。",
+  "answer": "sadness",
+  "evidence_refs": []
+}

@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00005203",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "80ed71fa2ffabbd46e09fee5b9edb8082b0b4d584293ba2c216376d47e0f2d8d",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "悲伤",
+      "mapped_label": "sad",
+      "mapping_reason": "根据情绪轮定义，'sad'（悲伤）指当前失落、伤心、哀痛或低落的情绪，需要损失评价或相应表达支持。目标人物的台词“我也不想跟你分开”直接表达了对分离这一损失的抗拒，其视觉和听觉表现（视线微垂、声音低缓）也符合悲伤时的典型特征。因此，该情绪被准确映射到'sad'。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "悲伤",
+      "mapped_label": "sad",
+      "mapping_reason": "根据情绪轮定义，'sad'（悲伤）指当前失落、伤心、哀痛或低落的情绪，需要损失评价或相应表达支持。说话者表达了“不想分开”的情感，这是一种对即将发生的分离（损失）的直接反应。其缓慢、低沉且颤抖的语调，以及字幕中“也不想”所体现的无奈和不舍，共同构成了悲伤情绪的明确证据。该情绪与对未来的担忧（worried）或对分离的愤怒（angry）有明显区别。"
+    },
+    "image": {
+      "open_emotion": "悲伤",
+      "mapped_label": "sad",
+      "mapping_reason": "根据情绪轮定义，'sad'（悲伤）指当前失落、伤心、哀痛或低落的情绪，需要损失评价或相应表达支持。目标人物的视觉表现（低头、紧绷的面部表情）与台词内容（表达不愿分离的痛苦）共同指向一种因可能的分离而产生的失落与哀伤，因此映射为'sad'是准确的。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "目标人物在说“我也不想跟你分开”时，其视觉表现（低头、视线微垂、嘴角下撇）与听觉表现（语调低沉、缓慢）高度一致，共同指向一种克制的悲伤情绪。该情绪在当前语境下最为贴切，因为话语内容直接表达了对分离的抗拒，而其低沉、轻柔的表达方式表明这是一种内敛的失落与哀伤，而非愤怒、担忧或惊讶。三个专家的证据均一致支持此结论，其中[graph:E1]、[audio_subtitle:E1]和[image:E1]提供了关键的视觉、听觉和字幕证据，且无任何反证。",
+  "output": "目标人物在说“我也不想跟你分开”时，其视觉表现（低头、视线微垂、嘴角下撇）与听觉表现（语调低沉、缓慢）高度一致，共同指向一种克制的悲伤情绪。该情绪在当前语境下最为贴切，因为话语内容直接表达了对分离的抗拒，而其低沉、轻柔的表达方式表明这是一种内敛的失落与哀伤，而非愤怒、担忧或惊讶。三个专家的证据均一致支持此结论，其中[graph:E1]、[audio_subtitle:E1]和[image:E1]提供了关键的视觉、听觉和字幕证据，且无任何反证。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 190.9885175228119
+}

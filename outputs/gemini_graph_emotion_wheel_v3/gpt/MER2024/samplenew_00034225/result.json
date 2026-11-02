@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00034225",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "12ed0aa9b273f368e8bd1e8523c70a683154346bda47b6b5ca66053f7fff6640",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "忐忑",
+      "mapped_label": "worried",
+      "mapping_reason": "对是否连累对方尚无把握，并顾虑可能的负面后果，符合worried强调的预期与不确定性；表情较克制，不表示强烈焦虑。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "担心",
+      "mapped_label": "worried",
+      "mapping_reason": "当前话语关注尚不确定的应对困难，符合worried所指向的风险顾虑；证据支持的是轻微担心，而非已经发生损失后的悲伤。"
+    },
+    "image": {
+      "open_emotion": "忐忑",
+      "mapped_label": "worried",
+      "mapping_reason": "忐忑指向对尚不确定的麻烦或后果感到不安，符合worried所强调的预期性顾虑。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "画面中央男子先问“怎么？他不好对付啊”，随后在frame_07（2.08秒）的画面文字中问“我，我是不是给你惹麻烦了”。[image:E4]所述末帧文字可直接核对，比仅凭睁眼、张口判断情绪更有区分力：他的关注点转向自己是否给对方带来麻烦。抬眉睁眼也可能是一时诧异，但连续追问更支持忐忑，故选worried；未提供音轨，不能核实语调。",
+  "output": "画面中央男子先问“怎么？他不好对付啊”，随后在frame_07（2.08秒）的画面文字中问“我，我是不是给你惹麻烦了”。[image:E4]所述末帧文字可直接核对，比仅凭睁眼、张口判断情绪更有区分力：他的关注点转向自己是否给对方带来麻烦。抬眉睁眼也可能是一时诧异，但连续追问更支持忐忑，故选worried；未提供音轨，不能核实语调。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 86.83946657180786
+}

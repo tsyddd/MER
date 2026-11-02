@@ -1,0 +1,93 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "说话人正在说话。",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "说话人说出内容：“再这么，烧下去的话，传到高家。”",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "说话人，身穿浅棕色长袍，站立，面向另一人。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "另一人，身穿深色长袍，背对镜头，面向说话人。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "场景为一个室内空间，有木质墙壁、格子窗和堆放的箱子。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "说话人正在与另一人进行对话。",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0（说话人正在说话）提供了听觉证据，process_1（说出内容）提供了具体话语内容，联合后形成完整的说话行为事实。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0（身穿浅棕色长袍，站立，面向另一人）提供了说话人的视觉表现，person_1（身穿深色长袍，背对镜头，面向说话人）提供了对话另一方的视觉表现，联合后完整呈现了对话双方的可见状态。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0（室内空间，有木质墙壁、格子窗和堆放的箱子）提供了场景的物理环境，context_1（说话人正在与另一人进行对话）提供了互动任务，联合后完整限定了对话发生的客观情境。",
+      "entity_anchor": null
+    }
+  ]
+}

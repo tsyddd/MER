@@ -1,0 +1,9 @@
+{
+  "reason": "回看frame_02至frame_06，女子持续面对男子说话、眉头收紧；frame_07是男子的反应，不能算作她的情绪证据。[image:E1]对神情的描述可信，但皱眉本身不足以定类。字幕中的“你除了这些卑劣的手段，还会什么”“真是无耻之极”是针对对方的反问和斥责，[audio_subtitle:E1][audio_subtitle:E2]对此的解释比担忧或悲伤更有依据。她的伤痕及眼周状态可能提示痛苦，却不足以推翻当前明确的责备方向；未提供音轨，不能核实语调。",
+  "answer": "angry",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E1",
+    "audio_subtitle:E2"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia200_utt2",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "2223d26305da5c16666ed91ea00f333b6d907f4eba1818669a8c3acca13b8f5f",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "恼火",
+      "mapped_label": "anger",
+      "mapping_reason": "根据提供的情绪轮定义，'anger'（愤怒）被描述为“对冒犯、受阻或不公的恼火、责备与对抗”。乔伊的言语和行为正是这种情绪的体现。他面对一个无法解释的状况（东西不见了），并试图通过逻辑排除来找出责任人，其质问的语气和指向性的手势表现出一种对抗性的、寻求解释的姿态，这与'anger'的定义高度吻合。虽然他的情绪强度可能不是激烈的愤怒，但其核心是因受阻和不公感而产生的对抗性反应。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "惊讶",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据提供的情绪轮定义，'surprise'（惊讶）被描述为'面对违背预期的信息而意外、诧异或惊奇'。Joey的反问句式和上扬的语调表明他正在处理一个违背其预期的情况，这与'surprise'的定义高度吻合。"
+    },
+    "image": {
+      "open_emotion": "surprise",
+      "mapped_label": "surprise",
+      "mapping_reason": "The open emotion 'surprise' is mapped to the 'surprise' label because Joey's wide eyes, raised eyebrows, and questioning tone of voice are classic indicators of being taken aback by a situation. His rhetorical question, 'Then who did?', further emphasizes his astonishment at the mystery of the missing item."
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "目标人物乔伊（Joey）的言语内容为反问句式，且其语调在句末明显上扬，表现出强烈的疑问和意外，这与字幕中的反问句式完全一致。他的身体语言，如摊开的手掌和身体前倾的姿态，也支持了他正在寻求答案的困惑状态。综合来看，他的情绪是面对一个出乎意料的情况时的惊讶和困惑。虽然有专家认为其情绪为愤怒，但其言语和行为的核心是因无法解释情况而产生的对抗性质问，这与愤怒的定义相符。然而，根据情绪轮的定义，'surprise'（惊讶）被描述为“面对违背预期的信息而意外、诧异或惊奇”，乔伊的反问句式和上扬的语调表明他正在处理一个违背其预期的情况，这与'surprise'的定义高度吻合。因此，'surprise'是更准确的描述。",
+  "output": "目标人物乔伊（Joey）的言语内容为反问句式，且其语调在句末明显上扬，表现出强烈的疑问和意外，这与字幕中的反问句式完全一致。他的身体语言，如摊开的手掌和身体前倾的姿态，也支持了他正在寻求答案的困惑状态。综合来看，他的情绪是面对一个出乎意料的情况时的惊讶和困惑。虽然有专家认为其情绪为愤怒，但其言语和行为的核心是因无法解释情况而产生的对抗性质问，这与愤怒的定义相符。然而，根据情绪轮的定义，'surprise'（惊讶）被描述为“面对违背预期的信息而意外、诧异或惊奇”，乔伊的反问句式和上扬的语调表明他正在处理一个违背其预期的情况，这与'surprise'的定义高度吻合。因此，'surprise'是更准确的描述。\n<answer>surprise</answer>",
+  "label": "anger",
+  "elapsed_seconds": 219.84095168113708
+}

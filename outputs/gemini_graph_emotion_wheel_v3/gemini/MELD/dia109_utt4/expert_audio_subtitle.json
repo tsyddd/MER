@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物听到对方的回答后，以带有明显上扬音调的感叹词“Oh”开头并反问“are you sure?”，展现出对对方决定或提议的意外与诧异。随后的语调轻快且伴随追问，体现出即时的惊奇反应。",
+  "open_emotion": "诧异",
+  "answer": "surprise",
+  "mapping_reason": "开放词“诧异”表示面对对方出人意料的说法时产生的突发意外感，精确对应情绪轮中的surprise家族。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Oh, are you sure?",
+      "observation": "说话者使用感叹词“Oh”接反问句“are you sure?”，质疑并确认对方刚刚提供的信息或决定。",
+      "interpretation": "表明对方的陈述打破了说话者的既有预期，引发疑问与诧异。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:01.5",
+      "observation": "句首“Oh”音高明显拔高，随后“are you sure?”尾音上挑，节奏短促明快。",
+      "interpretation": "上扬的高音调和反问语调鲜明传达了轻度惊讶与好奇的情感色彩，而非平稳的中性陈述。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "说话者神态较为轻松，未表现出剧烈的惊恐或负面震惊，容易被轻描淡写地误读为一般的随口询问（neutral）。"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia9_utt11",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "e2a50d6b01ecc35a810613a0879b6c7baee7d96f1dcefc36a846281bb0277898",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "悲伤",
+      "mapped_label": "sadness",
+      "mapping_reason": "根据当前证据，Rachel的言语内容（'ruined'）和视觉表现（闭眼、低头、展示受损物品）共同指向一种因财产损失而产生的负面情绪。该情绪与'sadness'的定义（因失落、损失或痛苦而难过、哀伤或低落）高度匹配。虽然她的语气可能带有抱怨的成分，但其核心是针对损失的哀伤，而非针对他人的愤怒或对威胁的恐惧，因此最准确的映射是'sadness'。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "sadness",
+      "mapped_label": "sadness",
+      "mapping_reason": "The speaker's emotional state is characterized by a sense of loss and helplessness. Her voice is trembling and her delivery is slow, which aligns with the definition of sadness as a feeling of sorrow or grief. The content of her speech, lamenting the ruin of her personal belongings, provides a clear context for this emotional state."
+    },
+    "image": {
+      "open_emotion": "悲伤",
+      "mapped_label": "sadness",
+      "mapping_reason": "根据MELD项目的情绪轮定义，'sadness'指因失落、损失或痛苦而难过、哀伤或低落。Rachel的视觉表现（低落的眼神、垮塌的姿态）和她所描述的“我的床、我的衣服、我最喜欢的蓝色毛衣都毁了”这一具体损失，都明确指向了因财产损失而产生的悲伤情绪。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "目标人物Rachel的言语内容（'Everything's ruined. My bed. My clothes. Look at my favorite blue sweater.'）和视觉表现（在沙发上坐着，双手捏着一件烧坏的蓝色毛衣，随后闭眼低头，再将毛衣举起展示）共同指向一种因财产损失而产生的负面情绪。她的肢体语言（捏物、垂头、闭眼）和话语内容（'ruined'）强烈支持一种悲伤或失落感。专家的视觉证据[graph:E4]和音频证据[audio_subtitle:E1]都一致地将她的颤抖声线和缓慢语速解释为悲伤的直接表现，与她的言语内容和面部表情形成互补。虽然[graph:E1]描述了她初始的惊讶表情，但后续的低落姿态和言语内容表明，主导情绪是悲伤而非惊讶。因此，综合所有证据，最准确的判断是'sadness'。",
+  "output": "目标人物Rachel的言语内容（'Everything's ruined. My bed. My clothes. Look at my favorite blue sweater.'）和视觉表现（在沙发上坐着，双手捏着一件烧坏的蓝色毛衣，随后闭眼低头，再将毛衣举起展示）共同指向一种因财产损失而产生的负面情绪。她的肢体语言（捏物、垂头、闭眼）和话语内容（'ruined'）强烈支持一种悲伤或失落感。专家的视觉证据[graph:E4]和音频证据[audio_subtitle:E1]都一致地将她的颤抖声线和缓慢语速解释为悲伤的直接表现，与她的言语内容和面部表情形成互补。虽然[graph:E1]描述了她初始的惊讶表情，但后续的低落姿态和言语内容表明，主导情绪是悲伤而非惊讶。因此，综合所有证据，最准确的判断是'sadness'。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 175.31568241119385
+}

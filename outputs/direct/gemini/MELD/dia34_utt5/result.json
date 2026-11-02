@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia34_utt5",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "Rachel在听到对方的状况后，睁大眼睛并张大嘴巴惊呼“Oh my God!”，语气与神态均展现出极度的震惊与意外。",
+  "output": "Rachel在听到对方的状况后，睁大眼睛并张大嘴巴惊呼“Oh my God!”，语气与神态均展现出极度的震惊与意外。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 5.6304309368133545,
+  "node_count": null,
+  "edge_count": null
+}

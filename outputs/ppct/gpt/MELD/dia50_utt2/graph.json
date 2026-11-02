@@ -1,0 +1,132 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "女性学生说：“I’m so sorry!”",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "一名男性将一件灰色衣物举起并在书架通道中移动；女性学生从较低位置向通道后方移动。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "女性学生在通道后方短暂露出并继续向后方移动，随后被其他人遮挡。",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "女性学生在通道右侧靠近地面的位置呈蹲伏或弯腰姿势。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "女性学生随后呈直立姿势，部分身体位于男性身后。",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "场景位于两侧摆放书籍的图书馆书架通道内。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "画面中有女性学生及多名男性。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_2",
+      "target": "process_1",
+      "relation": "after",
+      "reason": "同一女性学生从较低位置向通道后方移动后，随后在通道后方短暂露出并继续向后方移动",
+      "entity_anchor": "同一女性学生的向通道后方移动"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "同一女性学生先处于蹲伏或弯腰姿势，随后呈直立姿势",
+      "entity_anchor": "同一女性学生的身体姿势"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提供女性学生的道歉话语，process_1提供男性举起灰色衣物并与女性移动的可见行动；联合后补充了同一时段中言语与身体行动并存的互动过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_0",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "process_0提供女性学生说出道歉，process_2提供她随后在通道后方继续移动并被遮挡；联合后形成从道歉到后续离开视线的连续可观察过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_1",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "process_1提供通道中举衣物和女性向后移动的开始阶段，process_2提供女性继续向后移动并被遮挡的后续阶段；联合后补全了该段移动过程的时间连续性和结果。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供女性学生靠近地面的蹲伏或弯腰姿势，person_1提供她随后直立且部分位于男性身后的姿势；联合后呈现同一人物从低位到直立并改变遮挡关系的可观察姿态变化。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0提供两侧书架构成的图书馆通道场景，context_1提供女性学生与多名男性共同在场的对象信息；联合后更完整限定了互动发生的地点及参与者构成。",
+      "entity_anchor": null
+    }
+  ]
+}

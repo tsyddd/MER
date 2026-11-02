@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "目标人物Janice在对话中表现出明显的惊讶和难以置信。她的眉毛上扬，眼睛睁大，嘴巴微张，这些是惊讶的典型面部特征。她的手势从交叉双臂变为摊开双手，配合着“Are you sure?”的台词，进一步强调了她对听到内容的意外和质疑。这些视觉表现与字幕和音频内容完全一致，共同指向惊讶这一情绪。",
+  "open_emotion": "惊讶",
+  "answer": "surprise",
+  "mapping_reason": "根据情绪轮的定义，'surprise'是面对违背预期的信息而产生的意外、诧异或惊奇。Janice的面部表情（睁大的眼睛、上扬的眉毛）和手势（摊开的双手）是惊讶的直接视觉证据，与她所说的话“Are you sure?”（你确定吗？）在语义上完全吻合，表明她对某事感到意外和难以置信。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "Janice双臂交叉，表情严肃，眉毛微皱。",
+      "interpretation": "这是一个准备倾听或带有防御性的姿态，为后续的情绪变化提供了对比。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03",
+      "observation": "Janice的眉毛上扬，眼睛睁大，嘴巴微张。",
+      "interpretation": "这是惊讶或难以置信的典型面部表情。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04",
+      "observation": "Janice的手势从交叉双臂变为摊开双手。",
+      "interpretation": "这个手势通常用于表达疑问、解释或强调，与她正在提问的语境相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "subtitle",
+      "anchor": "Oh, are you sure?",
+      "observation": "字幕显示她正在说“你确定吗？”。",
+      "interpretation": "这句话直接表达了她对某事的怀疑和意外，是惊讶情绪的直接语言证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有明显的反证。虽然她的初始姿态（双臂交叉）可能被解读为防御或不悦，但这与她后续的惊讶表情和提问内容并不矛盾，反而可能暗示了她之前对这个话题有所保留，现在被新信息所动摇。"
+}

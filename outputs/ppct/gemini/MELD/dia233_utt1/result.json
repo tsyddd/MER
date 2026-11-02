@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia233_utt1",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "disgust",
+  "emotion_analysis": "在场景中，Rachel面对Phoebe表达对替代方案的反应（context_0），结合节点person_1、person_2与process_0、process_1，她在陈述“fish freaked me out”时伴有明显的嫌弃皱眉、撇嘴表情与抗拒语气，体现出对鱼的强烈厌恶与排斥感。",
+  "output": "在场景中，Rachel面对Phoebe表达对替代方案的反应（context_0），结合节点person_1、person_2与process_0、process_1，她在陈述“fish freaked me out”时伴有明显的嫌弃皱眉、撇嘴表情与抗拒语气，体现出对鱼的强烈厌恶与排斥感。\n<answer>disgust</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 45.63415551185608,
+  "node_count": 7,
+  "edge_count": 5
+}

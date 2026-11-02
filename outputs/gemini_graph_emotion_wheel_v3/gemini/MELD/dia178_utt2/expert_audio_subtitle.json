@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "莫妮卡在台词中用肯定的语气向菲比强调一切顺利（“it’s going great”），并带着温柔欣喜的态度让对方看钱德勒抱着小婴儿的样子。声音语调轻快上扬、充满温情与笑意，完全体现出沉浸在温馨场景中的愉悦与满足。",
+  "open_emotion": "欣喜",
+  "answer": "joy",
+  "mapping_reason": "莫妮卡展现出对眼前温馨温馨景象的喜爱、愉悦与满足感，言语和语调均表达正向积极体验，在情绪轮中明确对应正向高愉悦度的joy家族。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Pheebs, it’s going great. Look at Chandler with little baby girl Chandler.",
+      "observation": "莫妮卡主动肯定现状‘going great’，并呼唤菲比一同观看钱德勒照顾女婴的画面。",
+      "interpretation": "话语具有明显的分享快乐与温情赞叹的言语意图，情绪效价积极。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:01-00:05",
+      "observation": "莫妮卡在说出‘Pheebs, it's going great’和后续话语时，语调轻柔上扬，带有明显的笑音与明朗共鸣，节奏舒缓温和。",
+      "interpretation": "听觉韵律展现出放松、欣慰与喜悦的积极情绪，毫无压力或不满。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04至frame_07（3.29s-5.80s）",
+      "observation": "莫妮卡怀抱婴儿，嘴角持续向上扬起，眉眼舒展，注视着前方露出由衷的微笑。",
+      "interpretation": "面部微表情与明朗的语调完全一致，佐证其内心的欣喜与享受。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "前句简短的‘Nope, sound like me’语调略显随和日常，可能被孤立判定为neutral，但紧接着其语调明显转为热切愉悦，整段主导情绪为充沛的joy。"
+}

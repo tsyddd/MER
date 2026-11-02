@@ -1,0 +1,9 @@
+{
+  "reason": "独立核验原始视频与音频，Joey在画面中自frame_01起便双手交叠护在胸前，面部展露出带有一丝感动与欣慰的温和微笑[image:E1]；音频开头伴随柔和拉长的感叹词“Awww”，且台词直述“I’m so proud”表达为学生成就所感到的由衷自豪[audio_subtitle:E1][audio_subtitle:E2]。虽然在感动表达时眉心略有收拢，但其温存的体态、赞许笑意与语气均一致指向积极正向的感动与满足，未包含任何负向悲伤成分。综合视觉、言语及韵律，该状态准确归入喜悦（joy）范畴。",
+  "answer": "joy",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E1",
+    "audio_subtitle:E2"
+  ]
+}

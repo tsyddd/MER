@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "目标人物（女老师）在当前片段中表现出平稳、自然的交流状态。她先是陈述“老师也没见过”，然后向全班提问“有没有知道的”，最后在学生回答后，视线聚焦并聆听。整个过程的语调平缓，无明显情绪波动，符合中性情绪的特征。",
+  "open_emotion": "中性",
+  "answer": "neutral",
+  "mapping_reason": "根据当前证据，目标人物的表达是平稳的叙述和自然的交流，没有表现出明显的喜悦、悲伤、愤怒、担忧或惊讶等情绪。其语调平缓，面部表情稳定，符合'中性'情绪轮的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:04",
+      "observation": "女老师说话语速平缓，语调和缓清晰。",
+      "interpretation": "音频证据显示，女老师的语调平稳，没有表现出强烈的情绪色彩，支持中性情绪的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "女老师正视前方，面部朝向讲台下方学生，嘴唇开合讲话。",
+      "interpretation": "视觉证据显示，女老师在讲话时面部表情稳定，没有明显的皱眉、微笑或其他情绪化表情，支持中性情绪的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04",
+      "observation": "女老师微微抬头面向台下，嘴唇微张提问。",
+      "interpretation": "视觉证据显示，女老师在提问时表情自然，没有表现出担忧、惊讶或愤怒等情绪，支持中性情绪的判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无"
+}

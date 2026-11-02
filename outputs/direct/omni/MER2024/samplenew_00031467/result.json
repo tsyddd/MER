@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00031467",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "happy",
+  "emotion_analysis": "该人物在说台词时，面部表情平静，嘴角有轻微上扬，语气温和，结合台词内容“正好，消乏，安睡”，表现出一种轻松、愉悦的状态。",
+  "output": "该人物在说台词时，面部表情平静，嘴角有轻微上扬，语气温和，结合台词内容“正好，消乏，安睡”，表现出一种轻松、愉悦的状态。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 5.376648902893066,
+  "node_count": null,
+  "edge_count": null
+}

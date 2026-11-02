@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者在说“You are both idiots”时，语调尖锐、音量高，表现出强烈的负面情绪。结合字幕内容，该话语是直接的指责和贬低，符合愤怒情绪的言语行为。视觉上，说话者的表情紧绷，与高声指责的语调一致，共同指向愤怒。",
+  "open_emotion": "愤怒",
+  "answer": "anger",
+  "mapping_reason": "根据MELD项目的情绪轮定义，'anger'指对冒犯、受阻或不公的恼火、责备与对抗。说话者使用了直接的贬低性词汇'idiots'，并以高声、尖锐的语调说出，这是一种典型的责备和对抗行为，因此映射到'anger'是准确的。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "You are both idiots.",
+      "observation": "字幕显示说话者说“You are both idiots.”",
+      "interpretation": "该话语是直接的、带有贬低意味的指责，是愤怒情绪的典型言语行为。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:02.127",
+      "observation": "音频中说话者的声音尖锐、音量高，语调上扬。",
+      "interpretation": "高声、尖锐的语调是愤怒情绪的常见声音特征，与话语内容的攻击性相匹配。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。"
+}

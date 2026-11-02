@@ -1,0 +1,9 @@
+{
+  "reason": "回看全部视频帧及对应音频，Ross在向Joey提议“Y'know, like-like write a play.”时神态专注自然，面部各动作单元均无明显收缩或剧烈形变[image:E1][image:E2]。听感上，Ross语调平稳从容，台词中的轻微词语重复仅反映边思考边表达的日常口语特征，既无激动、恐惧颤抖，亦无责备或挑衅起伏[audio_subtitle:E2]。专家间对日常平稳交流的判定一致且证据互补，整体表现无明确偏向的主导情感，符合中性状态。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "audio_subtitle:E2"
+  ]
+}

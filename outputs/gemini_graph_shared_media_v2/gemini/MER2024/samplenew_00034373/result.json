@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00034373",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "5a1be975f29db4b905cf5235ac6aedcea3f1639cf54f65f8e4b8e84c66b5d091",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "观察画面可见目标人物眉毛内侧抬起聚拢呈八字愁容，眼眶泛着泪光且嘴角下撇微张，显露典型凄楚神态[image:E1]。听觉上，其在整段语音中伴随极其显著的颤抖、哽咽与抽泣哭腔[audio_subtitle:E1]，与台词倾诉凄苦境遇的语意紧密互补。虽然蹙眉特征可能在表象上与worried混淆，但泪水充盈、嘴唇颤动以及实际哭诉表现明确反映其沉浸于既成委屈的悲痛之中，而非对未来的悬心焦虑。综合声画一致的哭泣体征，取舍判定为悲伤。",
+  "output": "观察画面可见目标人物眉毛内侧抬起聚拢呈八字愁容，眼眶泛着泪光且嘴角下撇微张，显露典型凄楚神态[image:E1]。听觉上，其在整段语音中伴随极其显著的颤抖、哽咽与抽泣哭腔[audio_subtitle:E1]，与台词倾诉凄苦境遇的语意紧密互补。虽然蹙眉特征可能在表象上与worried混淆，但泪水充盈、嘴唇颤动以及实际哭诉表现明确反映其沉浸于既成委屈的悲痛之中，而非对未来的悬心焦虑。综合声画一致的哭泣体征，取舍判定为悲伤。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 48.84857940673828
+}

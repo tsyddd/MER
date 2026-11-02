@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Joey在台词中明确提及“whipped fish”和“keeping it down”（忍住没吐出来），听觉上音质压低且伴随明显的反胃与厌恶感，视觉神态亦呈皱眉与抗拒，核心情绪体现为disgust[E1][E2]。",
+  "answer": "disgust",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "I don't know. We're talking about whipped fish, Monica. I'm just happy I'm keeping it down, y'know?",
+      "observation": "Joey在被问询时强调讨论的是令人反胃的“打发鱼肉”，并补充说能忍住不吐已经很庆幸。",
+      "interpretation": "语义直接指向食物引发的生理性不适与心理抗拒，为disgust提供了明确的言语行为语境。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:01 - 00:03",
+      "observation": "Joey在说“whipped fish, Monica”时语调低沉、喉音带有明显的嫌弃与排斥感。",
+      "interpretation": "重音和语质表现出生理反胃的嫌恶态度，而不是中性的解释或单纯愤怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.96s",
+      "observation": "Joey抬头看向Monica，眉头微蹙，嘴部微张微撇，眼神带着嫌弃与不适。",
+      "interpretation": "表情与音频中的恶心、反胃韵律完全吻合，佐证其厌恶体验。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽然后半句包含“I'm just happy”，但属于反语/转折修辞，意指“只要没吐出来就万幸了”，并非真正的joy。"
+}

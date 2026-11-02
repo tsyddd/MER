@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者以质问的语气说出“不是，你为什么要辞职？”，语调上扬，带有明显的不满和责备意味。她的面部表情紧绷，眉头微皱，眼神中流露出不赞同和焦急，这些视觉和听觉线索共同指向一种因对方行为而产生的负面情绪。",
+  "open_emotion": "愤怒",
+  "answer": "angry",
+  "mapping_reason": "根据情绪轮定义，'angry'指对受阻、冒犯或不公的生气、责备、敌意及对抗倾向。说话者质问对方辞职的原因，其语气和表情表现出强烈的责备和对抗性，符合'angry'的特征。虽然其中也包含担忧的成分，但主导情绪是责备和对抗。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "字幕内容：不是，你为什么要辞职？",
+      "observation": "字幕显示说话者在质问对方辞职的原因。",
+      "interpretation": "质问的言语行为是表达愤怒和不赞同的直接证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "说话者的声音语调上扬，尤其在句尾的“啊”字上，带有明显的质问和责备感。",
+      "interpretation": "上扬的语调和质问的语气是表达愤怒的典型韵律特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01至frame_07",
+      "observation": "说话者的面部表情紧绷，眉头微皱，眼神中流露出不赞同和焦急。",
+      "interpretation": "紧绷的面部表情和不赞同的眼神是愤怒情绪的视觉表现。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽然说话者的表情中也包含担忧的成分，但主导情绪是责备和对抗，因此更符合'angry'而非'worried'。"
+}

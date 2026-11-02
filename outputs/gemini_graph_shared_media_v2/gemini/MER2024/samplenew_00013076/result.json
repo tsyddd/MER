@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013076",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "e796dd3141342719140120ba7aa857e918a2cb64ad25a93033187111d322a6bb",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "happy",
+  "emotion_analysis": "通过核对实际音轨与多帧画面，戴口罩男子眼部肌肉明显收缩弯起成笑眼[image:E1]，随后在胸前双手合十作揖致意[image:E2]，动作真挚而亲切。实际音轨中，该男子伴随明显的笑声与气息起伏，语调轻快上扬且连声道谢[audio_subtitle:E1]，其积极言辞与热忱笑意高度互补。虽然反方可能主张这是礼貌应酬下的中立（neutral），但音轨中真切的笑音与持续生动的笑眼排除了单纯无情绪的程式化客套，综合判定为happy。",
+  "output": "通过核对实际音轨与多帧画面，戴口罩男子眼部肌肉明显收缩弯起成笑眼[image:E1]，随后在胸前双手合十作揖致意[image:E2]，动作真挚而亲切。实际音轨中，该男子伴随明显的笑声与气息起伏，语调轻快上扬且连声道谢[audio_subtitle:E1]，其积极言辞与热忱笑意高度互补。虽然反方可能主张这是礼貌应酬下的中立（neutral），但音轨中真切的笑音与持续生动的笑眼排除了单纯无情绪的程式化客套，综合判定为happy。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 58.443793535232544
+}

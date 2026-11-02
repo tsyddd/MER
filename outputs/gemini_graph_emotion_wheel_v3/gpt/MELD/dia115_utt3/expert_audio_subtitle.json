@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Ross用“Shielding your face and shrieking like a girl... is not a backhand”纠正对方的动作，并以带贬损意味的描述加重责备，而非单纯说明动作名称[E1]。画面中右侧的Ross面向对方说话，表情较严肃，没有明显的笑意[E2]。综合判断，当前更接近轻度恼火。",
+  "open_emotion": "恼火",
+  "answer": "anger",
+  "mapping_reason": "这里的恼火主要体现为对对方做法的批评，符合anger中责备、不满的方向；证据不支持强烈愤怒。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Shielding your face and shrieking like a girl... is not a backhand.",
+      "observation": "句子否定对方的动作是“backhand”，并用“shrieking like a girl”形容对方的表现。",
+      "interpretation": "否定加贬损性描述构成带刺的纠正，支持轻度责备。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03（2.3356648532622777秒）至frame_04（3.086414270382295秒）",
+      "observation": "右侧的Ross面向左侧人物，嘴部张开，表情较严肃。",
+      "interpretation": "画面与正在作出批评的解释相符，但仅凭表情不能确定情绪强度。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "这句话也可能是朋友间的揶揄，而非真正生气；片段没有音频，无法核对语调或笑意，因此对恼火的判断限于字幕措辞与画面。"
+}

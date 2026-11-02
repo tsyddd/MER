@@ -1,0 +1,4 @@
+{
+  "reason": "audio_subtitle专家指出了关键台词“Oh, are you sure?”及其带有突出意外感的高音调与反问语气，体现了对对方决定的惊讶；而image与graph专家主要基于正常的交谈姿态与平稳神态判断为neutral，忽略了反问句和惊奇语气中蕴含的情绪。鉴于听觉线索对该反问语境下的情绪指向更直接明确，综合判定为surprise。",
+  "answer": "surprise"
+}

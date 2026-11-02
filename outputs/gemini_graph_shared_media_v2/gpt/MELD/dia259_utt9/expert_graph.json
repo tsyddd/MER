@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "Monica当前对画外的人说出带有贬义的话，但不能仅凭措辞判定她在生气[E1]。她说话时前倾、双手交握，随后持续露出笑意[E2][E3]；结合这段面对面互动，joy比anger更符合可核实的当前表现。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "You are both idiots.",
+      "observation": "Monica当前说出“You are both idiots.”",
+      "interpretation": "话语针对交谈对象，措辞可被理解为恼怒，也可能是带笑的调侃；单凭字幕不足以判定情绪。",
+      "polarity": "uncertain"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱记录Monica说话时双手手指交叉紧握在胸前；画面可核实这一姿势。",
+      "interpretation": "这一动作属于当前互动，但本身也可能表示紧张，不能单独作为joy的证据。",
+      "polarity": "uncertain"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05 @ 1.5014988342400355秒；frame_07 @ 2.127123348506717秒",
+      "observation": "Monica向前倾身，嘴角上扬，至片段末尾仍带笑意。",
+      "interpretation": "与当前话语同时出现的笑意，更支持轻快、带调侃意味的表达，而非明显愤怒。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "“idiots”是贬义词，可能表示生气；但当前画面未见明显怒容。未提供原音轨，无法亲耳核验图谱person_2所述的平稳语调，因此不以该声音描述排除其他解释。"
+}

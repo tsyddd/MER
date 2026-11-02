@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标说话人在音轨开头发出惊呼后伴随发紧、急促微颤的声音辩解[E1]，言语行为意在紧急推脱责任以避免被怪罪[E2]，配合慌乱心虚的神态[E3]，体现出明显的担忧与不安，指向worried。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "0.00s - 1.20s",
+      "observation": "音轨中先是一声短促的惊呼‘呀’，随即伴随微弱抽气声，以极快且略带轻微颤抖的语速吐出‘我不知……’",
+      "interpretation": "发音急促紧张、气息不稳，呈现被突然质问或撞破时的慌乱与害怕担责感，支持worried情绪",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "我不知道这件旗袍是你的",
+      "observation": "字幕表达对行为背景的不情知与推诿澄清",
+      "interpretation": "典型的认错/辩解类言语行为，旨在化解冲突、避免责难，反映说话人内心的担忧与焦虑",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04 @ 0.860s - frame_07 @ 1.494s",
+      "observation": "人物双眼睁大，目光微聚向对方，眉头略带收紧，嘴巴微张露出牙齿呈紧张辩解状",
+      "interpretation": "视觉上展现出心虚、慌张与不安的神态，与听觉上的紧张焦虑完全吻合",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代标签为surprise，因开头的‘呀’与睁眼具有突发性震惊特征；但后续急促的自我辩护及带有恐惧、紧张颤音的声线表明其核心状态已迅速转入害怕被责难的担忧（worried），而非纯粹的意外震惊。"
+}

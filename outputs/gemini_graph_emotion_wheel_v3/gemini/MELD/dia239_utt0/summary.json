@@ -1,0 +1,8 @@
+{
+  "reason": "独立核对音画可知，Gunther在走出门旁通道向Chandler询问'Someone in there?'时，如[image:E1]所述面部肌肉放松、眉毛平整无挑起或收紧；音频中[audio_subtitle:E1]也显示其语调平稳低沉，仅带常规问句语调，毫无音高骤升或强烈的情绪起伏。尽管疑问句带有日常探询性质，但缺乏瞪眼、张嘴或高唤醒特征，反证不足以构成surprise，最终判定为无明显主导情绪的平稳中性状态。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E1"
+  ]
+}

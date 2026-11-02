@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00025713",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "6276692c6cfc354003e575f92e375614a390c427cbb800fa58633127fa42f7c5",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "他追问“怎么知道的”时出现明显的睁眼张口反应，较符合对意外信息的即时诧异，映射为surprise；问句本身不足以单独确定情绪。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "当前反应的重点是对方竟然知道此事所带来的意外，符合surprise的预期违背；问句本身不足以定类，判断还结合了表情。"
+    },
+    "image": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "他对对方为何知道此事表现出即时的意外，符合surprise所指的预期被打破后的反应。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "目标是frame_01至frame_07的白衣男孩，不是frame_00的蓝衣男孩；他看向一侧时抬眉、睁大眼，随后嘴巴明显张开，[image:E1][image:E2]与画面相符。字幕“你。你。怎么知道的？”[audio_subtitle:E1]为这种反应提供了语境：他在追问对方为何知道此事，结合表情更像当下的诧异，而不只是普通提问。重复字词也可能伴随不安，但片段没有显示他持续关注未来的不利后果；未提供音轨，不能据此判断实际语气。",
+  "output": "目标是frame_01至frame_07的白衣男孩，不是frame_00的蓝衣男孩；他看向一侧时抬眉、睁大眼，随后嘴巴明显张开，[image:E1][image:E2]与画面相符。字幕“你。你。怎么知道的？”[audio_subtitle:E1]为这种反应提供了语境：他在追问对方为何知道此事，结合表情更像当下的诧异，而不只是普通提问。重复字词也可能伴随不安，但片段没有显示他持续关注未来的不利后果；未提供音轨，不能据此判断实际语气。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 70.75665831565857
+}

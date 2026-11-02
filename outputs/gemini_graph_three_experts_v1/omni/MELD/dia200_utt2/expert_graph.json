@@ -1,0 +1,9 @@
+{
+  "expert": "graph",
+  "reason": "乔伊在组织文本中表现出从指向他人到收束动作的完整过程，其提问行为（process_2）与肢体语言（person_5）一致，未表现出强烈情绪波动。结合其动作连贯且无紧张或激动迹象，情绪为中性。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "process_2",
+    "person_5"
+  ]
+}

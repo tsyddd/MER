@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia140_utt4",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "8fef145f22a30b21db1df9aa0b95769ecea3ec4535f7bae7d08d725b3cc323a7",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "平稳",
+      "mapped_label": "neutral",
+      "mapping_reason": "当前表达以向Joey说明一个想法为主，未见明确占主导的情绪反应，故将“平稳”映射为neutral；这不等于仅因缺少音轨而选择中性。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "平常",
+      "mapped_label": "neutral",
+      "mapping_reason": "当前主要是日常、解释性的表达，映射为neutral；这不表示Ross完全没有态度，而是现有字幕和画面不足以支持更明确的主导情绪。"
+    },
+    "image": {
+      "open_emotion": "平常地解释",
+      "mapped_label": "neutral",
+      "mapping_reason": "当前表达以日常说明为主，未见足以支持其他标签的明确主导情绪，因此映射为neutral；这不表示他全程面无表情。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标是右侧的Ross：他在frame_01至frame_03短暂低头、略皱眉，随后看向对方并伸手示意；[image:E1]和[image:E2]对这一变化的描述与画面相符。字幕“Y'know, like-like write a play.”是在举例说明想法，[audio_subtitle:E1]据此判断重复措辞不能单独证明紧张，这一判断可信，但没有音轨可核查语调。后段较大的张口和手势也可能显得急切，不过结合话语和表情变化，更接近平常地解释，未见明确占主导的其他情绪。",
+  "output": "目标是右侧的Ross：他在frame_01至frame_03短暂低头、略皱眉，随后看向对方并伸手示意；[image:E1]和[image:E2]对这一变化的描述与画面相符。字幕“Y'know, like-like write a play.”是在举例说明想法，[audio_subtitle:E1]据此判断重复措辞不能单独证明紧张，这一判断可信，但没有音轨可核查语调。后段较大的张口和手势也可能显得急切，不过结合话语和表情变化，更接近平常地解释，未见明确占主导的其他情绪。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 76.2965931892395
+}

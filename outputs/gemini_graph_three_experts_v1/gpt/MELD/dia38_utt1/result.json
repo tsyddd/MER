@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia38_utt1",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "283890143b6bd15c34d0fcc959b56cb32cb859b30cd2d4facc4a2608311bfdd4",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "音频专家未提供实际音频，但字幕中“Awww”和“I’m so proud”直接表达了欣慰与自豪。图像专家描述后几帧嘴角上扬、面部放松，图谱中的微笑与亲切姿态也与之吻合；虽有起初略显担忧的表情，但当前状态更偏向愉悦。",
+  "output": "音频专家未提供实际音频，但字幕中“Awww”和“I’m so proud”直接表达了欣慰与自豪。图像专家描述后几帧嘴角上扬、面部放松，图谱中的微笑与亲切姿态也与之吻合；虽有起初略显担忧的表情，但当前状态更偏向愉悦。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 58.31570506095886
+}

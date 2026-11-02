@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物Rachel在听到对方的遭遇或推断出事实后，脱口而出感叹句“Oh my God!”，音调陡然拔高，带有明显的突发冲击感和惊愕声调；紧接着以强调的语调说出“You’re a 30 year old virgin!”，结合画面起始处张大嘴巴、眼睛睁圆的惊叹神情[E2]，充分体现其面对出乎意料信息时的强烈震惊反应。",
+  "open_emotion": "震惊",
+  "answer": "surprise",
+  "mapping_reason": "当前言语行为为对意外事实的惊呼与感叹，音高突升、重音突出，符合情绪轮中面对违背预期的突发事实而感到诧异与震惊的surprise定义。",
+  "evidence": [
+    {
+      "anchor": "00:00-00:01.5",
+      "id": "E1",
+      "interpretation": "Rachel以极高音调和强声量喊出感叹词，节奏突兀急促，展现出强烈的意外与惊骇。",
+      "observation": "听到Rachel以拔高的音调惊呼“Oh my God!”，带有明显的倒吸气与震惊感叹语气。",
+      "polarity": "support",
+      "source": "audio"
+    },
+    {
+      "anchor": "frame_00",
+      "id": "E2",
+      "interpretation": "典型的惊愕面部反应，印证了其听到消息瞬间的意外感。",
+      "observation": "Rachel嘴巴张成明显的“O”型，双眼睁大直视对方。",
+      "polarity": "support",
+      "source": "visual"
+    },
+    {
+      "anchor": "Oh my God! You’re a 30 year old virgin!",
+      "id": "E3",
+      "interpretation": "揭示了出人意料的信息点，双感叹号强化了震惊发现的语用功能。",
+      "observation": "字幕使用感叹句指出对方是“30-year-old virgin”，表述突发的认知反转。",
+      "polarity": "support",
+      "source": "subtitle"
+    }
+  ],
+  "counterevidence": "虽然后续语气略带调侃和探究意味，但核心触发点完全来自于对这一事实的始料未及，并不构成主导的嘲讽或厌恶。"
+}

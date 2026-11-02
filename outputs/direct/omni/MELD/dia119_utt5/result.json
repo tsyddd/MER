@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia119_utt5",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "fear",
+  "emotion_analysis": "Monica's facial expression shows a mix of concern and slight exasperation, with raised eyebrows and a tense mouth. Her tone of voice is urgent and worried, indicating she is anxious about Ben seeing something she wants to hide.",
+  "output": "Monica's facial expression shows a mix of concern and slight exasperation, with raised eyebrows and a tense mouth. Her tone of voice is urgent and worried, indicating she is anxious about Ben seeing something she wants to hide.\n<answer>fear</answer>",
+  "label": "fear",
+  "elapsed_seconds": 5.343889236450195,
+  "node_count": null,
+  "edge_count": null
+}

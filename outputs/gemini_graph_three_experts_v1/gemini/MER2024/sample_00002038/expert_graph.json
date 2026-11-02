@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载目标女性在发问“他是谁呀？”时双眉紧蹙、眉心隆起〔person_0〕，同时视线凝神朝向画面右侧〔person_1〕。图谱还记载其发声音量偏低且语调上扬呈疑问语气〔person_2〕，紧蹙的眉头与低声戒备的发问综合表现出其担忧、不安的情绪。",
+  "answer": "worried",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "person_2"
+  ]
+}

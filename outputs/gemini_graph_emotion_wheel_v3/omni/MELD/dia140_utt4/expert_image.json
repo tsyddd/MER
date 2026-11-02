@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "Ross的面部表情和姿态在对话中表现出明显的惊讶和难以置信。他的眉毛上扬，眼睛睁大，嘴巴微张，这些是惊讶的典型面部特征。他的身体姿态略微后倾，显示出对听到内容的意外反应。字幕显示他正在说“Y'know, like-like write a play.”，这表明他可能正在回应一个出乎意料的提议或想法。综合来看，他的表情和姿态与惊讶情绪高度一致。",
+  "open_emotion": "惊讶",
+  "answer": "surprise",
+  "mapping_reason": "根据情绪轮的定义，'surprise'（惊讶）是面对违背预期的信息而产生的意外、诧异或惊奇。Ross的面部表情（眉毛上扬、眼睛睁大、嘴巴微张）和身体姿态（略微后倾）是惊讶的直接视觉表现。他的言语内容“Y'know, like-like write a play.”也暗示了他正在回应一个让他感到意外的想法。因此，该表现最符合'surprise'的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "Ross的眉毛上扬，眼睛睁大，嘴巴微张。",
+      "interpretation": "这是惊讶的典型面部特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "Ross的身体姿态略微后倾。",
+      "interpretation": "显示出对听到内容的意外反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Y'know, like-like write a play.",
+      "observation": "Ross正在说这句话。",
+      "interpretation": "这句话表明他可能正在回应一个出乎意料的提议或想法。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有明显的证据表明Ross的情绪是愤怒、悲伤、厌恶或中性。他的表情和姿态都指向一种积极的、由意外引发的反应，而不是负面情绪。"
+}

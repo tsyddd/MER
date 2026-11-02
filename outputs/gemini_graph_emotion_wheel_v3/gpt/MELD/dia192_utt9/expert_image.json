@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "目标是穿浅黄色上衣、红色裤子的深发女子 Monica，不是桌边的金发女子或拿纸巾的男子。她从男子身后走向桌边，后段朝金发女子转身、张口并伸手示意；这些动作本身不能确定情绪，但结合字幕中的反问和「Excuse me!」，较支持她正在表达受到冒犯后的不满[E1][E2]。没有音频，无法据语调判断强度。",
+  "open_emotion": "不满",
+  "answer": "anger",
+  "mapping_reason": "此处的不满主要表现为对他人话语的反问与回应，较接近情绪轮中责备、对抗方向的anger；画面不足以支持强烈愤怒。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_05（1.084秒）至frame_07（1.501秒）",
+      "observation": "Monica 从男子身后走向桌边，面向金发女子，末帧张口并伸出一只手；面部较小，细微表情看不清。",
+      "interpretation": "她的动作像是在主动回应对方，但单凭张口和手势不能判定为愤怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "What?! Excuse me!",
+      "observation": "字幕呈现反问及「Excuse me!」。",
+      "interpretation": "措辞支持她对刚听到的话表示异议或不满；这不是从画面读出的语调。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "frame_05至frame_07中，Monica 的脸部看起来也可能带有轻微笑意；加上分辨率有限、没有音轨，礼貌或玩笑式反问仍是合理解释，不能断言她明显发怒。"
+}

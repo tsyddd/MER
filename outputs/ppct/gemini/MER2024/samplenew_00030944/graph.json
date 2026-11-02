@@ -1,0 +1,185 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "女子开口对对方说“那，你一个人在家”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "女子继续说“我还不放心呢”",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "女子接着说“你万一要想不开怎么办呢”",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "女子留着短发，身穿蓝色针织衫和碎花围裙，面部略带蹙眉，视线朝前下方，嘴唇张合说话",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "女子说话语气缓和而关切",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "女子眉心微皱，嘴巴保持开合发音",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "女子端坐在浅色沙发上，双手交叠自然垂放在大腿上，转头平视对面的西装男子",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内客厅环境，女子坐在沙发上，后方有置物架和堆叠的书籍",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "女子与斜对角坐着的穿西装戴眼镜男子面对面交谈",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "女子在说完“那，你一个人在家”之后，继续说出“我还不放心呢”",
+      "entity_anchor": "女子"
+    },
+    {
+      "source": "process_2",
+      "target": "process_1",
+      "relation": "after",
+      "reason": "女子在表达“我还不放心呢”之后，接着说出“你万一要想不开怎么办呢”",
+      "entity_anchor": "女子"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "女子在微蹙眉头、嘴唇张合说话的同时，声音语气缓和而关切",
+      "entity_anchor": "女子"
+    },
+    {
+      "source": "person_2",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "女子在开口说话后，随着言语继续，眉心微皱并持续开合嘴巴发音",
+      "entity_anchor": "女子"
+    },
+    {
+      "source": "person_3",
+      "target": "person_2",
+      "relation": "after",
+      "reason": "女子在近景中低眉言语后，镜头呈现其双手交叠静坐并转头平视对面的男子",
+      "entity_anchor": "女子"
+    },
+    {
+      "source": "context_1",
+      "target": "context_0",
+      "relation": "after",
+      "reason": "客厅环境先以女子的沙发特写区域呈现，随后镜头扩展展现女子与西装男子面对面交谈的整体布局",
+      "entity_anchor": "客厅交谈环境"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提供女子提及对方独自在家的话语前提，process_1补充其随后表述自身的不放心，两者联合构成从提出情境到表明担忧的连贯说话过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_1",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "process_1表达女子内心的不放心，process_2进一步给出其担心对方想不开的具体追问，两者联合补全了女子由泛化担忧到具体风险关切的递进表达。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供女子蹙眉、视线朝下及说话动作的视觉特征，person_1补充其缓和关切的听觉语调，视听互补呈现了其说话时的外在神态与声调特征。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_0展示了女子近距离的面部蹙眉表情细节，person_3展示了全景下女子端坐在沙发上、手部交叠及面对男子的整体身体姿态，两者联合补充了从面部到肢体动作的完整外在表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0界定了室内客厅沙发的物理背景与陈设，context_1补充了在场交谈的西装男子对象及其相对座位空间关系，联合后更完整地限定了对话的物理环境与互动场景。",
+      "entity_anchor": null
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00006335",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "a0bf56d9fb9db16ede1f6dafeaeb4ef47157197d9bed5ab5ad9436046022afb9",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "图像专家指出目标人物眉头轻蹙、面部严肃，呈现出一定担忧；图谱对询问增兵情况的描述也与此一致，但其中关于语气的判断因未提供音频而不作听觉依据。音频字幕专家仅能确认措辞未明确表达情绪，不能抵消视觉和情境线索，因此判断为担忧。",
+  "output": "图像专家指出目标人物眉头轻蹙、面部严肃，呈现出一定担忧；图谱对询问增兵情况的描述也与此一致，但其中关于语气的判断因未提供音频而不作听觉依据。音频字幕专家仅能确认措辞未明确表达情绪，不能抵消视觉和情境线索，因此判断为担忧。\n<answer>worried</answer>",
+  "label": "angry",
+  "elapsed_seconds": 69.7898440361023
+}

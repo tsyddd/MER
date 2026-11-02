@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话人语速较快，音量较大，语气强硬，带有明显的指责意味，表现出对对方行为的强烈不满。",
+  "answer": "angry",
+  "evidence_refs": []
+}

@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物是右侧坐着的Rachel，男性为旁人。她在frame_00至frame_03抬眼看向近距离的男性，嘴部张开像在回应；随后在frame_04至frame_07视线转向下方，嘴唇趋于收紧，身体仍保持坐姿并略向后/侧方避开。整体更像带有被打扰后的轻微恼火或不耐，而不是明显的悲伤、恐惧或惊讶。[E1][E2]",
+  "open_emotion": "恼火",
+  "answer": "anger",
+  "mapping_reason": "“恼火”主要指向对当前互动或被打扰状态的不满与轻度对抗，符合anger所涵盖的恼火、不满与责备。画面未显示强烈愤怒，因此是该标签下的弱强度表达。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00-frame_03（0.0-0.500秒）",
+      "observation": "Rachel坐在画面右侧，持续抬眼看着非常靠近她的男性，嘴部曾张开；男性明显进入她的近身空间。",
+      "interpretation": "她在直接回应对方，且近距离互动可能带来被打扰或不耐的反应；但单凭张口不能确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04-frame_07（0.626-1.126秒）",
+      "observation": "Rachel的视线转向下方，嘴唇较前收紧，身体保持坐姿并略向侧后方，未主动靠近男性。",
+      "interpretation": "视线回避、收紧的嘴部和保持距离的姿态共同支持轻微恼火或不适，而非开放、愉快的互动。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "当前字幕原话：\"Y'know what?\"",
+      "observation": "字幕显示一句带有转折或决定意味的口语回应。",
+      "interpretation": "语用上可与不耐或准备反驳相容，但没有音频，无法核实语调，因此只能作为弱辅助证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "Rachel没有明显皱眉、强烈手势或明确对抗动作，frame_07嘴角似乎略有上扬；这些表现也可能是克制、尴尬或普通回应。画面与字幕不足以确认强烈愤怒，且没有提供音频。"
+}

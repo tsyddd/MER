@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "当前互动中，紫衣女子正面对蓝衣女子说出评价，表情从眉心紧蹙、含泪注视发展到嘴角下撇和眼睛微垂，整体更符合悲伤而非单纯惊讶或担忧。图谱节点person_0与person_3分别记录了含泪紧蹙和眼角泪痕，但图谱中的音频节点只是转述，因未提供原音轨而不能亲耳核验；最终判断主要依据当前画面与字幕。",
+  "answer": "sad",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07 @ 0.0至2.56秒",
+      "observation": "紫衣女子持续看向对面人物，眉心明显紧蹙、眼眶湿润，嘴角下撇，后段双眼微垂且面部泪意更明显。",
+      "interpretation": "这些连续的当前面部变化直接支持悲伤状态；相较之下，背景环境只能说明场景，不能作为情绪证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "当前字幕：“没想到，你竟然这么傻。”",
+      "observation": "紫衣女子正在对面前的蓝衣女子说出带有责备和惋惜意味的直接话语。",
+      "interpretation": "该话语把情绪指向当前互动对象，可与含泪、下撇嘴角的表情共同解释为因对方行为而难过；也可能含有担忧，但不足以推翻画面中的悲伤表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "图谱节点person_0记录紫衣女子“眉心紧蹙，眼眶含泪，目光注视对面人物”；person_3进一步记录双眼微垂和眼角泪痕。",
+      "interpretation": "这是与当前视觉帧同源的结构化描述，说明悲伤线索在互动过程中持续并加深，而不是仅由一句台词推断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱节点person_1转述其声音带有哽咽与颤抖，但本样本audio_provided=false。",
+      "interpretation": "该听觉线索不能由我直接核验，因此仅保留为不确定的辅助证据，不把它当作亲耳听见的事实。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "“没想到”也可能表达惊讶，“你竟然这么傻”也可能是担忧或责备；但当前连续画面中的泪痕、下撇嘴角和眼睛下垂比单纯惊讶更明确地支持sad。仍缺少可直接核验的原音轨来判断是否存在明显哽咽或其他语气。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia21_utt6",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "Phoebe's facial expression shows a clear smile and raised cheeks, and her tone of voice is light and playful. She is asking a question with a teasing intonation, indicating amusement.",
+  "output": "Phoebe's facial expression shows a clear smile and raised cheeks, and her tone of voice is light and playful. She is asking a question with a teasing intonation, indicating amusement.\n<answer>joy</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 4.785123825073242,
+  "node_count": null,
+  "edge_count": null
+}

@@ -1,0 +1,188 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Monica坐在沙发上张口大喊“No-no-no, no!”",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Monica迅速将手中的书本和杯子移开并放下",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "Monica从沙发上迅速起身向前冲出",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Rachel背对镜头站在门边，面向墙上的洞",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Monica坐在沙发上，双手分别拿着一本书和一只高脚杯，视线投向门边方向",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Monica发声急促、音量较大且语调高亢",
+      "time_index": 1,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Monica身体前倾，双臂向下放开物品",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_4",
+      "type": "person",
+      "content": "Monica瞪大双眼，身体呈向前倾斜站起的姿态",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内客厅环境，门口墙壁上有一个破损的孔洞，门边有人站立",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "Monica坐在客厅沙发上与门口站立的人处于同一空间",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "Monica坐在沙发上张口呼喊后，紧接着迅速将手中的书本和杯子放开移开",
+      "entity_anchor": "Monica"
+    },
+    {
+      "source": "process_2",
+      "target": "process_1",
+      "relation": "after",
+      "reason": "Monica在放下手中的书和杯子后，紧接着从沙发上站立起身向前冲去",
+      "entity_anchor": "Monica"
+    },
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "simultaneous",
+      "reason": "Monica在沙发上持物注视门边的同时发出急促高亢的叫喊声",
+      "entity_anchor": "Monica"
+    },
+    {
+      "source": "person_3",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "Monica的身体姿态由坐在沙发上手持书本与杯子转变为身体前倾放下手中物品",
+      "entity_anchor": "Monica"
+    },
+    {
+      "source": "person_4",
+      "target": "person_3",
+      "relation": "after",
+      "reason": "Monica的姿态由前倾放下物品进一步变为瞪大双眼起身前倾冲出",
+      "entity_anchor": "Monica"
+    },
+    {
+      "source": "context_1",
+      "target": "context_0",
+      "relation": "after",
+      "reason": "场景视角由门边破洞与站立人物转至客厅沙发区Monica所处的位置",
+      "entity_anchor": "客厅环境"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提供口头高声大喊制止的信息，process_1提供迅速腾出双手的肢体动作，联合后补充为口头制止与肢体应急反应并行的阻拦过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_1",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "process_1提供摆脱手头物品的动作，process_2提供起身向前冲出的位移动作，联合后构成放下阻碍物随即动身冲出的完整连续肢体行动过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1提供Monica注视门边且手持书杯的静态肢体视觉信息，person_2通过听觉提供其发声急促高亢的语音特征，联合后完整呈现其在沙发上发现情况并立刻发声干预的声画表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0交代门口墙壁破损孔洞及门边站立人物的局部情境，context_1交代Monica在沙发上的相对位置及同处一室的空间关系，联合后完整确立了Monica与门边危险点之间的空间相对布局。",
+      "entity_anchor": null
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "当前片段中白衣少年面对对方追问“你怎么知道的”，随后由短暂垂目转为睁大眼睛、张嘴的即时反应，整体更符合对意外信息感到惊讶；图谱节点〔process_0〕与〔person_3〕支持这一事件链，但其中声音部分仅是图谱转述，未作直接听觉核验。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_05 @ 1.76秒；frame_06 @ 2.12秒；frame_07 @ 2.48秒",
+      "observation": "白衣少年眼睛明显睁大，眉毛上扬，嘴部张开并保持面向侧前方。",
+      "interpretation": "这是当前反应阶段较突出的惊讶式面部变化，支持surprise。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "当前字幕：“你。你。怎么知道的？”",
+      "observation": "少年重复起始字音并直接询问对方如何得知某事。",
+      "interpretation": "该话语把当前反应组织为对出乎意料信息的即时追问，支持惊讶；仅凭字幕不能单独确定语气。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_0；person_2；person_3",
+      "observation": "图谱记录白衣少年发问，随后短暂闭眼下垂，再重新睁大眼睛并张嘴。",
+      "interpretation": "节点顺序支持从短暂收缩到明显睁眼张嘴的动态反应，与视觉帧一致；其中person_3是图谱对视觉事实的转述，person_1的断续发音未因未提供原音轨而直接核验。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "皱眉、短暂闭眼和重复停顿也可能表示担忧或紧张，因此worried是合理替代解释；但当前片段末端持续的睁大眼睛、张嘴及“怎么知道的？”这一针对意外知情的追问，使surprise比worried更贴合。仍缺少可直接核验的原音轨，无法据此判断语调。"
+}

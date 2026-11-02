@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "说话人头部微倾，视线向下垂落（person_0），嘴部微弱开合并以轻弱微哑的气音发声（person_1），语速缓慢且语调低平轻微（person_2），这些行为共同指向情绪低落。其陈述内容“再也没有亲人了”（process_1）进一步强化了悲伤情境。综合视听证据，目标人物表现出明显的悲伤情绪。",
+  "answer": "sad",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "person_2",
+    "process_1"
+  ]
+}

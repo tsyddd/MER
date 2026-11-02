@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Rachel并非单纯陈述自己怕鱼，而是用反讽式比较责备对方：既然知道鱼会让她难受，做这件事就如同送他一条鱼。[E1][E2] 她面对对方皱眉、张手强调，支持当前带有不满的表达。[E3]",
+  "open_emotion": "恼火",
+  "answer": "anger",
+  "mapping_reason": "当前表达的重点是对对方行为的责备与不满，因此将“恼火”映射为anger；提到鱼曾让她害怕，不等于此刻主要表现为fear。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“if you wanted to do that, you might as well just gotten him a fish”",
+      "observation": "Rachel用“还不如送他一条鱼”来评价对方的做法。",
+      "interpretation": "这是一种带责备意味的比较，而非平常建议。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "“you know how fish freaked me out!”",
+      "observation": "她强调对方知道鱼曾让她难受。",
+      "interpretation": "“you know”把不满指向对方；“freaked me out”描述的是既往感受，不能单独证明当前恐惧。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01（0.626秒）至frame_04（2.502秒）",
+      "observation": "Rachel面对对方皱眉说话，并张手做强调动作。",
+      "interpretation": "表情和动作与她话语中的不满相符。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是她因鱼而害怕或反感；但字幕谈的是鱼过去带给她的感受，当前话语更直接地指向对方的做法。未提供音频，无法依据语调核验反讽或情绪强度。"
+}

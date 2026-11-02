@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "Ross在提出建议时，其语音中出现了“like-like”的轻微词语重复，这是一种典型的语言犹豫或组织语言的迹象。他的面部表情和眼神专注，表明他正在积极地思考和表达。这种犹豫和思考的状态，结合他提出一个新想法（写剧本）的语境，最符合惊讶（surprise）这一开放情绪，因为它捕捉了对一个新想法或情境的即时反应和思考过程。该情绪映射到数据集标签'surprise'，因为它在当前语境下最能描述Ross在提出想法时的思考和犹豫状态。",
+  "open_emotion": "惊讶",
+  "answer": "surprise",
+  "mapping_reason": "根据提供的情绪轮定义，'surprise'（惊讶）被定义为“面对违背预期的信息而意外、诧异或惊奇”。Ross的言语中出现的“like-like”重复，是其在提出“写剧本”这一新想法时，组织语言和思考的直接表现。这表明他可能正在处理一个新奇或需要斟酌的想法，其状态是思考和犹豫，这与“惊讶”所描述的对新信息的即时反应和思考过程最为接近。虽然该情绪不完全等同于震惊，但在当前语境下，它是对Ross当前思考状态最合理的描述。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "Ross的语音中包含“like-like”的轻微词语重复。",
+      "interpretation": "该词语重复是语言犹豫的标志，表明Ross正在组织语言或思考。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00-frame_07",
+      "observation": "Ross的嘴唇随说话开合，眼神专注地注视着Joey。",
+      "interpretation": "这表明他正在积极地与Joey进行交流，并专注于表达自己的想法。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱节点person_2描述了Ross语音中包含“like-like”的轻微词语重复。",
+      "interpretation": "该节点直接记录了Ross言语中的犹豫特征，是其思考状态的证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有直接证据表明Ross感到愤怒、悲伤或厌恶。他的情绪状态是中性的，没有表现出强烈的喜悦。因此，'surprise'是基于现有证据的最佳选择。"
+}

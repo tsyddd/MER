@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "目标人物是镜头切近后说话的灰衣束发男子，不是此前抬手的发冠男子。[E1]他持续垂眼、神情低落；[E2]话语转向“当年”，但没有交代往事内容，不能据此推断具体损失。图谱的语调描述[E3]因未提供原音轨，只能保留为未核实的转述，不作为最终判断的主要依据。",
+  "open_emotion": "低落",
+  "answer": "sad",
+  "mapping_reason": "当前可见的持续低落神情更接近情绪轮中sad的低落表达；这是对当下表现的判断，不等于已证实他因某件往事而悲伤。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_03（0.92秒）至frame_07（2.12秒）",
+      "observation": "灰衣男子在近景中持续垂眼，眉间微蹙，嘴部收紧。",
+      "interpretation": "连贯的面部表现支持低落；单独垂眼也可能只是思索，须结合其余线索判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "“也不知道，当年，三哥。”",
+      "observation": "当前话语提到“当年”和“三哥”，但意思尚未说完。",
+      "interpretation": "话语指向对过去的回想，而非明确担忧将来的风险；也不足以证明过去发生了损失。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱称说话声语调低沉、语速平缓。",
+      "interpretation": "这若属实可与低落表现互补，但未收到原音轨，不能亲耳核实，也不能把图谱转述当作已听见的声音。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "垂眼和收紧嘴部也可能是在认真斟酌未说完的话；字幕没有明确的悲伤评价，因此sad判断主要依据当前可见表现，强度有限。"
+}

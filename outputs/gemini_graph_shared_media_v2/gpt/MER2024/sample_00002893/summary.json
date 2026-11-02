@@ -1,0 +1,10 @@
+{
+  "reason": "我独立核验8帧：目标人物从frame_00至frame_07持续眉头收紧、嘴唇抿住或下压，未见明确微笑、哭泣或激烈愤怒，整体呈紧绷关注。字幕原话“他现在在网上被人诽谤了，现在事情越闹越大”，与这种持续的不安表现相互支持；[audio_subtitle:E2]对字幕语义的判断可信，但本段无音轨，不能核验其语调或语速。图像专家对连续帧的视觉观察较直接可信[image:E1][image:E2]，其指出的低落外观是对sad的合理反证但未见泪光或哭泣[image:E4]；因此相较neutral、sad和angry，worried最符合当前证据。",
+  "answer": "worried",
+  "evidence_refs": [
+    "audio_subtitle:E2",
+    "image:E1",
+    "image:E2",
+    "image:E4"
+  ]
+}

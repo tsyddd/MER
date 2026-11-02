@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "Monica在当前交流中先低头含笑，随后转向左侧同伴，笑容逐渐扩大并露齿[E1]。字幕中的“Yeah baby!”[E2]与这一表情相配，更像是愉快的回应，而非单凭短句判断情绪。图谱person_2也记录了她露齿微笑[E3]，但这是对同一画面事实的描述，不能算独立佐证；图谱的语调描述因未提供原音轨，无法亲耳核验[E4]。",
+  "open_emotion": "欣喜",
+  "answer": "joy",
+  "mapping_reason": "当前笑容扩大、露齿，并伴随肯定式回应，支持愉快的正向体验，映射为joy。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_07（1.4598秒）",
+      "observation": "Monica起初低头含笑，之后看向左侧同伴，笑容扩大并露齿。",
+      "interpretation": "当前互动中的表情变化支持她感到愉快。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "“Yeah baby!”",
+      "observation": "当前字幕给出Monica的肯定式回应。",
+      "interpretation": "结合笑容，可作为欣喜的语义线索；单独看这句话不足以确定语气。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱记载Monica抬头、嘴角上扬并露齿微笑；画面可核实笑容，但她更明显是转向左侧同伴，而非笼统地面向前方。",
+      "interpretation": "图谱与画面部分相符，但重复的是同一视觉事实，不增加一份独立情绪证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_3",
+      "observation": "图谱称Monica说话语调轻快上扬；本次未提供原音轨。",
+      "interpretation": "仅保留为未经亲耳核验的图谱转述，不用它决定最终标签。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "低头后微笑也可能是礼貌或略带腼腆的回应；但笑容持续扩大，且当前回应措辞积极，使单纯礼貌微笑的解释较弱。不能由图谱节点顺序推断笑容是Chandler的动作造成的。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia168_utt13",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "d4f4337f36452e71eb92ed229fc09628e4b5b5772a515f3e6f5a2fe6ba4ccce4",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "graph和audio_subtitle均指出Ross语速快、音量高、语气急促且带有质问意味，表现出不耐烦和指责，与'anger'一致；image虽显示其表情惊讶，但该描述与音频和文本中施加压力的坚定态度存在冲突，且视听证据中音频和文本更全面反映其情绪状态，因此优先采纳更一致的判断。",
+  "output": "graph和audio_subtitle均指出Ross语速快、音量高、语气急促且带有质问意味，表现出不耐烦和指责，与'anger'一致；image虽显示其表情惊讶，但该描述与音频和文本中施加压力的坚定态度存在冲突，且视听证据中音频和文本更全面反映其情绪状态，因此优先采纳更一致的判断。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 41.20913529396057
+}

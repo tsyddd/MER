@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "目标是车外说话的男子。他面向车内女子，提出让她先上自己的车、先回去；这是当前的安排，并非女子已经照做。[E1][E2] 画面中他的表情和动作较克制，未见明确的责备、惊讶或强烈不安。[E1] 图谱的person_0记录了他俯身看向女子的互动姿态，有助于确定话语对象，但这一姿态本身不能证明担忧；图谱所述语调因未提供原音轨而不能亲耳核验。[E3][E4]",
+  "open_emotion": "平稳",
+  "answer": "neutral",
+  "mapping_reason": "当前可核实的表达主要是平稳地作出实际安排，没有足够证据表明其他情绪占主导，因此映射为neutral；这不等于断言他毫无关切。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01（0.32秒）至frame_07（2.12秒）",
+      "observation": "车外男子俯身看向车内女子，说话时表情变化不大。",
+      "interpretation": "支持当前表达较克制；俯身本身不构成焦虑证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "「你先上，我的车，先回去。」",
+      "observation": "当前字幕是让对方上车并先回去的安排。",
+      "interpretation": "话语没有明确表达责备、已发生的损失或对未知后果的忧虑；也不能据此断定女子已上车。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "图谱记载男子俯身、单手搭在车窗边框上，视线朝向女子；画面可核对这些姿态。",
+      "interpretation": "该节点明确当前互动对象，但与[E1]同源，不作为另一份独立的情绪证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱转述男子说话时「语调低沉平缓」。",
+      "interpretation": "这可能与平稳表达一致，但没有原音轨，不能亲耳核验语调。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "他俯身与女子交谈，也可能带有关切；但字幕没有指出具体风险，画面亦不足以把关切进一步判定为worried。图谱将话语连写为「你先上我的车」，与字幕的断句不同，不据此扩写情节或因果。"
+}

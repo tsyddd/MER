@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00002333",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "happy",
+  "emotion_analysis": "目标人物坐在沙发上，面部带有明显笑容，眼神和姿态较为放松。字幕内容是陈述性话语，未显示出当前的愤怒、悲伤或担忧，因此判断为愉快情绪。",
+  "output": "目标人物坐在沙发上，面部带有明显笑容，眼神和姿态较为放松。字幕内容是陈述性话语，未显示出当前的愤怒、悲伤或担忧，因此判断为愉快情绪。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 26.788529634475708,
+  "node_count": null,
+  "edge_count": null
+}

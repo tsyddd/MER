@@ -1,0 +1,233 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Rachel speaks to Monica.",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Rachel gestures with her right hand.",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "Rachel places her right hand on Monica's shoulder.",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_3",
+      "type": "process",
+      "content": "Rachel turns her head to face Monica.",
+      "time_index": 4,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Rachel has blonde hair and is wearing a pink jacket.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Rachel's mouth is open as she speaks.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Rachel's voice is high-pitched and loud.",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Monica has dark hair and is wearing a light purple robe.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_4",
+      "type": "person",
+      "content": "Monica is smiling.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_5",
+      "type": "person",
+      "content": "Monica is looking at Rachel.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "The scene takes place in a living room.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "Rachel and Monica are sitting on a couch.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_2",
+      "type": "context",
+      "content": "Rachel is speaking to Monica.",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "同一人物的同一可观察表现",
+      "entity_anchor": "Rachel"
+    },
+    {
+      "source": "process_2",
+      "target": "process_1",
+      "relation": "after",
+      "reason": "同一人物的同一可观察表现",
+      "entity_anchor": "Rachel"
+    },
+    {
+      "source": "process_3",
+      "target": "process_2",
+      "relation": "after",
+      "reason": "同一人物的同一可观察表现",
+      "entity_anchor": "Rachel"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0 provides the information that Rachel is speaking, while process_1 provides the information that she is gesturing. Together, they form a more complete description of her actions.",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_0",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "process_0 provides the information that Rachel is speaking, while process_2 provides the information that she is touching Monica. Together, they form a more complete description of her actions.",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_0",
+      "target": "process_3",
+      "relation": "process_joint",
+      "reason": "process_0 provides the information that Rachel is speaking, while process_3 provides the information that she is turning her head. Together, they form a more complete description of her actions.",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_0 provides visual information about Rachel's appearance, while person_2 provides auditory information about her voice. Together, they form a more complete description of Rachel's identity.",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1 provides visual information about Rachel's mouth, while person_2 provides auditory information about her voice. Together, they confirm that Rachel is speaking.",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_3",
+      "target": "person_5",
+      "relation": "person_joint",
+      "reason": "person_3 provides visual information about Monica's appearance, while person_5 provides visual information about her gaze. Together, they confirm that Monica is looking at Rachel.",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0 provides the information that the scene is in a living room, while context_1 provides the information that Rachel and Monica are on a couch. Together, they form a more complete description of the setting.",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_2",
+      "relation": "context_joint",
+      "reason": "context_0 provides the information that the scene is in a living room, while context_2 provides the information that Rachel is speaking to Monica. Together, they form a more complete description of the setting and the interaction.",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_1",
+      "target": "context_2",
+      "relation": "context_joint",
+      "reason": "context_1 provides the information that Rachel and Monica are on a couch, while context_2 provides the information that Rachel is speaking to Monica. Together, they form a more complete description of the setting and the interaction.",
+      "entity_anchor": null
+    }
+  ]
+}

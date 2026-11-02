@@ -1,0 +1,9 @@
+{
+  "reason": "目标是右侧穿粉色外套的Rachel；frame_00至frame_02她看向身旁女子，张口、抬眉，随后伸手比划，[image:E1]的视觉描述与画面相符。字幕“Oh my God! You’re a 30 year old virgin!”以惊叹开头，支持她对信息感到诧异；[audio_subtitle:E1]引用的字幕可核对，但未提供音轨，不能据此判断语调。后几帧她皱眉注视对方，[image:E2]所述也可核对，可能带有质疑，但没有比意外反应更明确的责备或排斥证据，因此取惊讶。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E1",
+    "image:E2"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia259_utt9",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "db05c16c44916312cd44a75a33353218abec775c99c4678488d5f402e1804724",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "愤怒",
+      "mapped_label": "anger",
+      "mapping_reason": "根据当前证据，Monica的言语内容“You are both idiots.”是对他人行为的直接负面评价，其语调平稳但坚定，配合专注的视线和紧握的手部姿态，表现出一种对抗和责备的意图。这与“anger”（愤怒）的定义——对冒犯、受阻或不公的恼火、责备与对抗——高度一致。虽然她的面部表情并非极度激动，但言语内容和整体表达方式共同指向了愤怒这一主导情绪。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "愤怒",
+      "mapped_label": "anger",
+      "mapping_reason": "根据MELD项目的情绪轮定义，'anger'指对冒犯、受阻或不公的恼火、责备与对抗。说话者使用了直接的贬低性词汇'idiots'，并以高声、尖锐的语调说出，这是一种典型的责备和对抗行为，因此映射到'anger'是准确的。"
+    },
+    "image": {
+      "open_emotion": "愤怒",
+      "mapped_label": "anger",
+      "mapping_reason": "根据MELD项目的情绪轮定义，'anger'是因冒犯、不公或受阻而产生的恼火、责备与对抗。Monica的言语内容'You are both idiots'是一种直接的责备和冒犯，其面部表情（皱眉、紧闭的嘴）和姿态（紧握的双手）都表现出对抗和激动的状态，因此最符合'anger'的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "目标人物Monica在说“You are both idiots”时，其面部表情（皱眉、眼神锐利、紧闭的嘴）和姿态（双手紧握）表现出明显的愤怒。音频中语调尖锐、音量高，与言语内容的攻击性相匹配。专家的视觉和音频分析均支持这一判断。虽然其表情在某些瞬间（如frame_05）带有轻微笑意，但这更像是讽刺，而非喜悦。综合来看，言语内容、音轨和视觉线索共同指向愤怒。",
+  "output": "目标人物Monica在说“You are both idiots”时，其面部表情（皱眉、眼神锐利、紧闭的嘴）和姿态（双手紧握）表现出明显的愤怒。音频中语调尖锐、音量高，与言语内容的攻击性相匹配。专家的视觉和音频分析均支持这一判断。虽然其表情在某些瞬间（如frame_05）带有轻微笑意，但这更像是讽刺，而非喜悦。综合来看，言语内容、音轨和视觉线索共同指向愤怒。\n<answer>anger</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 155.66887378692627
+}

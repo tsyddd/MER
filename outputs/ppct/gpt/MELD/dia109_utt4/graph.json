@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Janice说：“Oh, are you sure?”",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Janice面向前方男子进行交谈",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Janice坐在椅子上，双臂交叉于胸前",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Janice将双臂从交叉状态放开，并在身前用双手做手势",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "场景为餐厅，Janice与前方男子坐在铺有桌布的餐桌旁，桌上摆有餐具、饮品和食物",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "simultaneous",
+      "reason": "Janice的说话行为与其面向前方男子进行交谈属于同一互动中的同步事实",
+      "entity_anchor": "Janice与前方男子的同一交谈互动"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "同一人物先保持双臂交叉，随后将双臂放开并在身前做手势",
+      "entity_anchor": "Janice的双臂姿态与手势变化"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提供Janice的具体话语内容“哦，你确定吗？”，process_1提供她面向前方男子交谈的对象与互动方向，联合后明确了这句话是在餐桌旁对该男子进行的当面交流。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供Janice前段坐姿及双臂交叉的状态，person_1提供她随后放开双臂并用双手做手势的可见变化，联合后补充了同一人物在连续交谈中的完整肢体表现变化。",
+      "entity_anchor": null
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "目标人物Ross在画面中占据主体位置（穿格子长袖衬衫），在frame_00至frame_06期间神情严肃紧绷，伴随大幅度的摊手、指责性手势，配合字幕'We know you took it so just-just save yourself the time and confess!'以及音轨中高亢紧逼的质问语气，体现出对对方偷窃行为的直接质问与愤慨指责，主导情绪为愤怒对抗。",
+  "open_emotion": "愤慨",
+  "answer": "anger",
+  "mapping_reason": "Ross的表现属于针对不当行为（偷窃）的责备、质问与对质，契合情绪轮中anger（愤怒：对冒犯、受阻或不公的恼火、责备与对抗）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_03 (1.33s) - frame_04 (1.79s)",
+      "observation": "Ross眉头微蹙，双臂张开向前摊手并做下压强调用力的质问手势，面部肌肉紧绷，目光聚焦于前方对质对象。",
+      "interpretation": "强烈的肢体动作与对质神态表明其处于主动出击、责问对方的紧迫对抗状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.0s - 2.8s",
+      "observation": "音轨中Ross说话语速极快，音调拔高且带有强硬施压的质问感（'save yourself the time and confess!'）。",
+      "interpretation": "高昂紧迫的语调排除了中性陈述或玩笑嬉闹，强化了其愤怒与斥责的负向攻击性态度。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "Ross虽表现出强烈逼问姿态，但嘴角偶有轻微牵动，在喜剧语境中可能被误读为夸张滑稽表演，但就角色当下的即时情绪表达而言仍属于真实的愤怒与指责。"
+}

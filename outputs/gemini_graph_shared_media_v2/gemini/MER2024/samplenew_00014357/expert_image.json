@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物在整个片段中面部肌肉持续上提，频繁展现露齿笑容与弯眉眯眼的愉悦表情，身体姿态前倾迎合，完全符合愉悦热情的特征[E1][E2]。",
+  "answer": "happy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0s",
+      "observation": "目标人物身体前倾，嘴角大幅度向两侧斜上方拉开，露出牙齿，眼眶周围肌肉收紧呈笑意状态",
+      "interpretation": "展现出主动靠近且开朗愉悦的初始互动状态，支持积极快乐的情绪",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.52s",
+      "observation": "口部自然张开露齿大笑，两颊苹果肌明显上提，双眼眯起",
+      "interpretation": "属于典型的杜氏微笑特征，显示真实的喜悦与热情",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "0.0s-3.76s",
+      "observation": "语调轻快上扬，语速活泼且带有明显的笑意",
+      "interpretation": "听觉表现与视觉上的热情讨好及开朗笑容高度一致，排除尴尬或礼貌苦笑",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽在frame_04和frame_06有短暂停顿抿嘴，但嘴角依然保持上扬趋势，属于说话间歇的表情过渡，不足以构成neutral或克制情绪的反证。"
+}

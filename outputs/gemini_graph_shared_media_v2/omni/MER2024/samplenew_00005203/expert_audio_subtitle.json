@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者在音频中以缓慢、低沉且带有明显颤抖的语调说出这句话，语速迟缓，音量较低，表现出强烈的情感压抑。字幕内容为“我也不想跟你分开”，结合其悲伤的语气，表明其情绪是悲伤的。视觉上，该人物低着头，表情凝重，与悲伤情绪一致。",
+  "answer": "sad",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "说话者的声音低沉、语速缓慢，并带有明显的颤抖和哽咽感。",
+      "interpretation": "这种语调和音质是悲伤情绪的典型表现，表明说话者正在努力控制自己的情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "我也不想跟你分开。",
+      "observation": "字幕显示的台词内容是表达不愿分离的挽留。",
+      "interpretation": "这句话的内容本身具有强烈的悲伤和不舍的意味，与音频中的悲伤情绪相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 @ 00:00",
+      "observation": "该人物低着头，视线向下，表情显得沉重和忧郁。",
+      "interpretation": "这种肢体语言和面部表情是悲伤情绪的外在表现，与音频和字幕内容一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的替代解释是'neutral'。然而，音频中明显的情感波动和颤抖的声线，以及字幕内容所蕴含的强烈情感，都强烈支持'悲伤'这一判断，因此'neutral'的解释力不足。"
+}

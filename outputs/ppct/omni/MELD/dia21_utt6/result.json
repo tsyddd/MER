@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia21_utt6",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "Phoebe's facial expression shows a smile, and her mouth is open as she speaks, indicating a positive and light-hearted tone. The audio confirms she is speaking, and her delivery is not forceful or negative. The combination of her smiling expression and the conversational tone suggests a neutral emotional state.",
+  "output": "Phoebe's facial expression shows a smile, and her mouth is open as she speaks, indicating a positive and light-hearted tone. The audio confirms she is speaking, and her delivery is not forceful or negative. The combination of her smiling expression and the conversational tone suggests a neutral emotional state.\n<answer>neutral</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 249.64596009254456,
+  "node_count": 13,
+  "edge_count": 20
+}

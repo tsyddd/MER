@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Ross在音频中语气强硬高亢、节奏紧促急躁，使用指责与命令性质的言语行为（[E1]），配合身体前倾、摊手质问的肢体动作（[E2]），明显表达了对抗与愤怒情绪。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00 - 00:03",
+      "observation": "Ross用提高的音调和急促重音连续说出“We know you took it, so just-just save yourself the time and confess!”，句子后半段加重音量且带有逼问与宣泄意味。",
+      "interpretation": "言语行为属于直接指控与施压逼迫，语调充满攻击性与急躁感，支持愤怒（anger）而非平静中立。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.33s",
+      "observation": "Ross双眉紧蹙，嘴部张大并向前倾身摊开双手，动作具有施压与争辩的动能。",
+      "interpretation": "面部张力与强调性肢体动作与音频中的指控语调高度契合，共同强化愤怒的表达。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "可能被误认为是急于解决问题时的neutral或焦急情绪，但其声音带有明显提高的音高与质问重音，言辞为直接问责逼认罪，排除了纯客观陈述或无情绪的中性状态。"
+}

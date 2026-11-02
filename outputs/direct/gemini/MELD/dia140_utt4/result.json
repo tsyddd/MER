@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia140_utt4",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "Ross正在平和地向Joey提出建议，眼神专注而态度平静，没有明显的激烈情绪或大幅面部表情起伏，语气自然客观。",
+  "output": "Ross正在平和地向Joey提出建议，眼神专注而态度平静，没有明显的激烈情绪或大幅面部表情起伏，语气自然客观。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 6.5020105838775635,
+  "node_count": null,
+  "edge_count": null
+}

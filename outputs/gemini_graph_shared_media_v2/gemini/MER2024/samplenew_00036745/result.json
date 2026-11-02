@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00036745",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "56b7ab0a274b240942c2ca3a5bf6aff985c05e2aab602a0289a32a97d1119e4a",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "独立回看8帧画面与实际音轨，目标人物在向同事汇报线索时神情专注沉稳，面部肌肉无紧绷皱眉或惊恐神态[image:E1]。音轨中叙述“前两天他跟汪淼一起观测了宇宙闪烁……我去查”时语速适中，落音利落干脆，毫无颤音或激昂扬调[audio_subtitle:E1]。虽然谈及超自然事件，但其手势指引与言辞仅体现出务实理性的办案沟通状态，缺乏忧虑或激愤的生理与声学特征，应判定为中性。",
+  "output": "独立回看8帧画面与实际音轨，目标人物在向同事汇报线索时神情专注沉稳，面部肌肉无紧绷皱眉或惊恐神态[image:E1]。音轨中叙述“前两天他跟汪淼一起观测了宇宙闪烁……我去查”时语速适中，落音利落干脆，毫无颤音或激昂扬调[audio_subtitle:E1]。虽然谈及超自然事件，但其手势指引与言辞仅体现出务实理性的办案沟通状态，缺乏忧虑或激愤的生理与声学特征，应判定为中性。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 56.19319128990173
+}

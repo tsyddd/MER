@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "目标女性在面对未知人物时，眉心紧锁收缩[person_0]，并伴随低声、带有警惕与不确定性的疑问发问[person_2][E2]，整体互动情境呈现出面对陌生/不确定状态时的警觉与焦虑不安，符合worried。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "女性双眉紧蹙，眉心隆起且面容紧绷",
+      "interpretation": "皱眉与面部紧张表现反映出内心的不安与戒备，是支撑担忧焦虑状态的关键生理线索",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:01",
+      "observation": "以极低音量且略带迟疑压抑的声调说出“他是谁呀？”",
+      "interpretation": "低沉压抑的发问显示出对画外人物身份的困惑与畏怯戒备，进一步确认其担忧情绪而非单纯的好奇",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04 @ 0.44s",
+      "observation": "眼神偏向一侧注视，口唇微张露出齿列，神态警惕",
+      "interpretation": "视线搜寻与紧张口形体现当前互动中对未知对象的试探与防御",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "替代解释可能认为是surprise或neutral疑问，但画面中眉毛紧蹙下压而非上扬扬起，眼裂未大幅扩大，且发声音调偏压抑谨慎而非突发惊叫，故排除surprise；神态与语气具明确紧绷感，排除neutral。"
+}

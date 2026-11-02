@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者以一种缓慢、拖长且带有明显鼻音的语调说出 'Good-bye Chandler Bing'，这是角色Janice的标志性说话方式，通常用于表达一种夸张的、令人不适的亲昵感。这种语调与字幕中的字面意思 'Good-bye' 形成反讽，其意图并非真正的告别，而是通过一种令人厌烦的语气来表达对Chandler的纠缠。视觉上，她的表情和姿态也符合这种夸张的、非真诚的互动风格。",
+  "answer": "disgust",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:02.294",
+      "observation": "说话者以一种缓慢、拖长且带有明显鼻音的语调说出 'Good-bye Chandler Bing'。",
+      "interpretation": "这种语调是角色Janice的标志性说话方式，通常用于表达一种夸张的、令人不适的亲昵感，其意图并非真正的告别，而是通过一种令人厌烦的语气来表达对Chandler的纠缠。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Good-bye Chandler Bing.",
+      "observation": "字幕显示的话语是 'Good-bye Chandler Bing'。",
+      "interpretation": "字幕中的字面意思 'Good-bye' 与说话者夸张、令人不适的语调形成反讽，这种反讽是判断其真实情绪的关键。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 - frame_07",
+      "observation": "说话者（Janice）的表情和姿态是夸张的，符合其角色设定。",
+      "interpretation": "她的表情和姿态与她说话的语调一致，共同构成了一个令人不适的、非真诚的互动场景。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的相反解释是 'neutral'，即说话者只是在进行一个普通的告别。然而，这种解释与说话者标志性的、夸张的语调和角色设定完全不符，因此被排除。"
+}

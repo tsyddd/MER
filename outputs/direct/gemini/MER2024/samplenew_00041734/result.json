@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00041734",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "镜头中的中年女性眉头紧锁，眼神充满焦急与关切，声音急促且带有明显的质问与焦虑感，表达出对对方辞职决定的强烈担忧。",
+  "output": "镜头中的中年女性眉头紧锁，眼神充满焦急与关切，声音急促且带有明显的质问与焦虑感，表达出对对方辞职决定的强烈担忧。\n<answer>worried</answer>",
+  "label": "angry",
+  "elapsed_seconds": 7.137458562850952,
+  "node_count": null,
+  "edge_count": null
+}

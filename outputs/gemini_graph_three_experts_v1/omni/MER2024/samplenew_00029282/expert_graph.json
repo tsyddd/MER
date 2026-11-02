@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "紫衣女子（目标人物）在组织文本中表现出眉心紧蹙、眼眶含泪的面部特征（person_0），同时说话声音带有明显的哽咽与颤抖（person_1），这些视听线索共同指向其情绪为悲伤。后续其嘴角下撇并伴随吸气（person_2），以及双眼微垂、眼角有泪痕（person_3），进一步确认了悲伤状态。",
+  "answer": "sad",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "person_2",
+    "person_3"
+  ]
+}

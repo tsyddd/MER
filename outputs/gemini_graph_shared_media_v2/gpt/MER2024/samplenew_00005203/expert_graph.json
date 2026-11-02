@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "当前互动中，粉衣女子正在对面前男子表达不愿分离，字幕“我也不想跟你分开”明确指向对关系分离的难过与不舍；她说话时视线微垂，随后仍低垂目光并停顿收声，形成与这句话一致的低落表达。[E1][E2] 图谱节点person_1虽记录了轻微、低缓声音，但本片段未提供原音轨，只能作为图谱转述，不能直接核验；最终判断主要依据当前可见表情和字幕。",
+  "answer": "sad",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "当前片段字幕",
+      "observation": "字幕原话为“我也不想跟你分开。”",
+      "interpretation": "这是目标人物对面前男子表达不愿分离，当前语义包含明显的不舍和潜在的难过，支持sad而非单纯neutral。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0s至frame_05 @ 1.4s",
+      "observation": "目标人物持续视线微垂、面部表情收敛，嘴唇开合说话。",
+      "interpretation": "低垂视线和克制的表达方式与其关于分离的不舍相互印证，支持当前情绪偏低落。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱记录其说完后嘴唇闭合，目光仍保持微垂向下。",
+      "interpretation": "该节点与当前说话后的停顿和低垂目光相符，补充了情绪表达持续偏低落的事件链；但它是图谱对视觉的组织，不是独立的新事实。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱转述其发声轻微、语调低缓轻弱。",
+      "interpretation": "若该音频派生描述准确，将进一步支持sad；但没有原音轨，不能亲耳核验，因此仅保留为辅助证据。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "她坐姿稳定、没有明显哭泣或强烈面部变形，存在平静陈述或克制表达的替代解释，因此不能据此判断为强烈悲痛；但“我也不想跟你分开”与持续低垂目光使sad比neutral更能解释当前互动。"
+}

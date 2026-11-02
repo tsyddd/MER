@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "在事件链中，棕色外套女子（说话主导者）正在就第三方转述的言行进行核实[process_0]。从图谱节点[person_2]（棕色外套女子睁大双眼、嘴部微张注视对方）与原始视频帧（frame_02至frame_07）可核验，其面部伴随明显的双眼圆睁和挑眉张嘴动作；结合真实音轨中极高挑、上扬且急促的反问语调（00:00-00:01），该互动行为体现出对获知信息的强烈预期违背，属于典型的即时诧异反应。",
+  "open_emotion": "诧异",
+  "answer": "surprise",
+  "mapping_reason": "目标人物因对方转述的事件超出自身预料而产生强烈的意外与不置信感，符合情绪轮中surprise（因当前信息违背预期产生的意外、诧异或震惊）的定义；事件语义聚焦于确认事实真伪而非潜在风险或受阻对抗，因而排除了worried与angry。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱记录棕色外套女子在提问后睁大双眼、嘴部微张注视对方",
+      "interpretation": "反映听到信息后产生的生理性意外瞪目与张口反应",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:01",
+      "observation": "说出“是吗，他真这么说的”时，语调显著上扬且尾音拔高",
+      "interpretation": "高昂疑问声调强化了不敢置信的惊异态度",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_06",
+      "observation": "棕色外套女子正视对方，双眼瞪大、嘴型夸张微张",
+      "interpretation": "视觉上明确显现出突发接收意外消息时的震惊表情",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "疑问句式有时可能仅代表平常的信息确认或中性交流（neutral），但此处显著突兀的声调拔高和瞪眼张口夸张面部动态排除了平静中性状态。"
+}

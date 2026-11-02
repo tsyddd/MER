@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia132_utt2",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "f084672e7cf9dd79896fb1df6be44f63d0e81e8653bd27ac9cb35d8247ef8c65",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "三位专家均判断为neutral：graph记录其平稳语速、自然语气和中性互动，image记录其面部与姿态自然，未见明显负面或强烈情绪。audio_subtitle未提供音频，仅依据字幕显示其在平静描述人物外貌，因此不能作听觉判断；各来源结论一致，支持neutral。",
+  "output": "三位专家均判断为neutral：graph记录其平稳语速、自然语气和中性互动，image记录其面部与姿态自然，未见明显负面或强烈情绪。audio_subtitle未提供音频，仅依据字幕显示其在平静描述人物外貌，因此不能作听觉判断；各来源结论一致，支持neutral。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 63.1781325340271
+}

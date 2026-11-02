@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Joey在言语中采用强烈反驳与说理的断言句式，音轨中声音在后半句显著拔高并伴有重音强调，视觉上眉头紧锁、右手激烈指点，展现出明显的争辩对抗与愤慨情绪，毫无中性的平稳感。",
+  "open_emotion": "愤慨",
+  "answer": "anger",
+  "mapping_reason": "Joey表达出强烈的争论、反驳与激昂说理态度，声调高亢且具有对抗性，符合情绪轮中anger（愤怒/愤慨）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "0:01-0:02.8",
+      "observation": "Joey说出'you go to the top of the building!'时，音量显著增大，音调急剧拔高，词尾带有强烈的重音与喷薄感。",
+      "interpretation": "激昂高亢的语调反映出说话者情绪激动，带有强烈的说教与对抗性情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "It have a fear of heights, you go to the top of the building!",
+      "observation": "当前话语实际为'You have a fear of heights, you go to the top of the building!'，采用反诘与命令式的强硬论辩句式。",
+      "interpretation": "言语行为上意在激进反驳或施加说服，带有不满与急于纠正对方的说教态度。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04-frame_07",
+      "observation": "Joey身体前倾，单手吊着绷带的同时右手持续向前有力地指点，面部肌肉紧绷，眉心微蹙。",
+      "interpretation": "身体动作与面部表情高度配合高昂的语调，排除了平稳中性与轻描淡写。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "话语内容本身包含克服恐惧的建议性质，可能被误认为是激昂鼓励，但其尖锐高亢的声调和对抗性指点更偏向焦躁与愤怒情绪。"
+}

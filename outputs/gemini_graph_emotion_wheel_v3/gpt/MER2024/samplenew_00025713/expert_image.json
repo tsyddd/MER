@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是frame_01至frame_07中穿白色上衣的男孩，不是frame_00穿蓝衣的男孩。他持续看向画面右侧，眼睛睁大、眉毛抬起，随后嘴巴明显张开[E1][E2]；字幕中的追问与对方掌握信息出乎预期的解释相符[E3]。视觉上最有支持的是诧异，而非持续担忧。",
+  "open_emotion": "诧异",
+  "answer": "surprise",
+  "mapping_reason": "他对对方为何知道此事表现出即时的意外，符合surprise所指的预期被打破后的反应。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01（0.36秒）至frame_02（0.72秒）",
+      "observation": "白衣男孩转头看向画面右侧，眉毛抬起、眼睛睁大，嘴微张。",
+      "interpretation": "多个面部特征共同支持他正在对眼前信息作出意外反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05（1.76秒）至frame_07（2.48秒）",
+      "observation": "他仍看向右侧，眼睛睁大，嘴巴由微张变为明显张开。",
+      "interpretation": "反应进一步显现，比平稳交谈更符合诧异。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "「你。你。怎么知道的？」",
+      "observation": "字幕显示他追问对方如何得知此事。",
+      "interpretation": "话语内容支持信息出乎预期的解释；字幕不提供可听见的语调证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "重复的「你」和追问也可能伴随不安；仅凭这些画面无法排除担忧。但片段未呈现他持续关注某个未来不利后果，睁眼、抬眉及张口的变化更直接支持即时诧异。"
+}

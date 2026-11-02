@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "Rachel当前抱着婴儿，皱眉、面部紧绷，并问自己该怎么办[E1][E2]。图谱的process_1所述抱婴移动可在画面中核对，但它与画面是同一动作，不算额外的情绪证据[E3]。字幕中的“已经好几个小时”是Rachel对过去的说法，并非片段独立证实的时长。综合当前的求助式疑问与神情，更支持担忧、无措的fear，而非单纯因哭闹生气。图谱对急促语调的描述未获原音轨核验，不用于最终取舍[E4]。",
+  "answer": "fear",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Oh come on, what am I gonna do, its been hours and it  won’t stop crying.",
+      "observation": "Rachel问“我该怎么办”，并说婴儿一直哭。",
+      "interpretation": "当前的疑问表达了面对状况时的无措；哭了多久仅是她的转述。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 1.4597905332889234秒",
+      "observation": "Rachel抱着包裹中的婴儿，眉头紧锁，张口说话时面部紧绷。",
+      "interpretation": "神情与话语一起支持她正感到担忧；单凭张口不能判断音量或语调。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "图谱记载Rachel怀抱婴儿踱步晃动；画面可见她抱着婴儿移动并调整姿势。",
+      "interpretation": "这是当前看护互动，而非过往事件；动作本身不能单独证明恐惧。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱称Rachel说话音调偏高、音量较大且语速急促。",
+      "interpretation": "未提供原音轨，无法亲耳核验这一音频派生描述，也不据此断定她在发怒。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "“Oh come on”和对哭闹的抱怨也可能表示anger；但当前话语重心是“我该怎么办”，画面神情更像担忧无措。缺少可核验的音轨，不能凭图谱所述语调进一步区分。"
+}

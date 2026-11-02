@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia178_utt2",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "3401018186bc11e65dff479d6b5d94730c37d902accf3de7809420f24e09c974",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "回看视频与音频，Monica在frame 4至7中怀抱婴儿时面部肌肉完全放松，嘴角显著上扬露出开朗自然的笑容，如[image:E1]与[audio_subtitle:E2]所述真实可靠。在实际音频中，Monica接话“Pheebs, it’s going great...”时语调轻快上扬且饱含赞许欣慰之情[audio_subtitle:E1]，音视呈现出高度协同的温馨快乐。虽然怀抱婴儿属于日常情境易被误认为平淡的neutral，但持续的真实笑意与积极评价已明确超越中性陈述，故锁定为joy。",
+  "output": "回看视频与音频，Monica在frame 4至7中怀抱婴儿时面部肌肉完全放松，嘴角显著上扬露出开朗自然的笑容，如[image:E1]与[audio_subtitle:E2]所述真实可靠。在实际音频中，Monica接话“Pheebs, it’s going great...”时语调轻快上扬且饱含赞许欣慰之情[audio_subtitle:E1]，音视呈现出高度协同的温馨快乐。虽然怀抱婴儿属于日常情境易被误认为平淡的neutral，但持续的真实笑意与积极评价已明确超越中性陈述，故锁定为joy。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 51.048885107040405
+}

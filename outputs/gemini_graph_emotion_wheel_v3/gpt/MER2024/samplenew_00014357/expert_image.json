@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是穿红色外套的年轻男子，不是画面边缘的其他人。他在交谈中多次露齿笑，身体朝左侧交谈对象前倾；短暂收起笑容后，又再次笑着靠近对方，整体呈现轻快、积极的互动状态[E1][E2]。字幕中的夸赞与这一表现相符[E3]，但不能单凭夸赞断定他内心愉快。",
+  "open_emotion": "愉快",
+  "answer": "happy",
+  "mapping_reason": "当前反复出现的笑容和主动靠近对方的互动表现，支持正向愉悦，因此将“愉快”映射为happy。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_03（1.6秒）",
+      "observation": "红衣男子看向画面左侧的人，身体前倾，张口露齿笑；随后仍带笑并略微歪头。",
+      "interpretation": "笑容与持续面向对方的姿态共同支持积极投入的表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04（2.16秒）至frame_07（3.76秒）",
+      "observation": "他一度闭嘴、收起明显笑容，之后再次张口笑，并向左侧略微俯身。",
+      "interpretation": "笑容虽非全程不变，但在互动后段再次出现，支持愉快是片段中的主要可见表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“小区里最可爱，最漂亮的小美美。”",
+      "observation": "字幕呈现对他人的夸赞。",
+      "interpretation": "话语内容与画面中的友好笑容相符，但字幕本身不能证明笑容并非出于礼貌。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "他的笑也可能是交谈时的礼貌或讨好表现；frame_04短暂收起笑容，因此无法仅凭画面确认持续的强烈喜悦。没有提供音频，不能依据语调进一步区分。"
+}

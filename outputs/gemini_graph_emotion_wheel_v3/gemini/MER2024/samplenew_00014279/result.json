@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00014279",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "8a93788f7988ee7297cf059d2b609d25c7836c71056843455b447ed540c3a17b",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "愤慨",
+      "mapped_label": "angry",
+      "mapping_reason": "目标人物核心评价对象为对方的不公与卑劣行为，并伴有强烈的言语斥责与对抗态度，符合情绪轮中angry家族对冒犯受阻的责备与敌意定义，而非自哀的悲伤或畏缩的担忧。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "愤恨",
+      "mapped_label": "angry",
+      "mapping_reason": "目标人物的言语属于对受阻与迫害行为的主动责备、敌意对抗与痛斥，在情绪轮中明确对应 angry（愤怒）家族。"
+    },
+    "image": {
+      "open_emotion": "愤慨",
+      "mapped_label": "angry",
+      "mapping_reason": "目标人物表现出明显的指责、敌意与对抗态度，符合angry类别对冒犯或不公产生生气、责备和敌对倾向的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "angry",
+  "emotion_analysis": "独立核对原始媒体，目标女子虽额头带伤且声息微喘，但在frame_02至frame_04中目光锐利紧锁对方、咬牙发力且下唇微缩，如[image:E1]所述展现出清晰的敌意与紧绷神态。音频00:01-00:05处，她在虚弱气息中对“卑劣”、“无耻之极”等词加重吐字并带有咬牙切齿的沉重怒腔，[audio_subtitle:E2]对压抑愤恨语调的分析高度可信。针对身体伤痛可能引发的悲伤或担忧反证，其台词通篇是对对方卑劣手段的严厉道德谴责与当面质问，完全排除失落低落或未知顾虑，主导情绪为压抑下的强烈愤慨，准确映射为angry。",
+  "output": "独立核对原始媒体，目标女子虽额头带伤且声息微喘，但在frame_02至frame_04中目光锐利紧锁对方、咬牙发力且下唇微缩，如[image:E1]所述展现出清晰的敌意与紧绷神态。音频00:01-00:05处，她在虚弱气息中对“卑劣”、“无耻之极”等词加重吐字并带有咬牙切齿的沉重怒腔，[audio_subtitle:E2]对压抑愤恨语调的分析高度可信。针对身体伤痛可能引发的悲伤或担忧反证，其台词通篇是对对方卑劣手段的严厉道德谴责与当面质问，完全排除失落低落或未知顾虑，主导情绪为压抑下的强烈愤慨，准确映射为angry。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 60.78192853927612
+}

@@ -1,0 +1,9 @@
+{
+  "reason": "目标是右侧的Ross；字幕中“shrieking like a girl”是在揶揄对方，并非描述Ross当下的表现，[audio_subtitle:E1]对此的归属判断可信。回看frame_01和frame_06，他的嘴角似有轻微上扬，支持[image:E1]和[image:E2]所指出的笑意，但说话及低头时的细微表情不足以确定他感到喜悦。相比之下，整段画面里他的表情和动作较克制；没有原音轨可核实语气，因此取neutral，而不把调侃或轻微笑意直接判为joy。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "image:E1",
+    "image:E2"
+  ]
+}

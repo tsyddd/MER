@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标人物是前7帧中的女性，最后一帧男性为旁人。她持续直视男性，眉间收紧、眉形上扬，嘴部在说话时张开，面部和姿态保持紧绷；字幕内容带有明显指责，但缺少音轨，无法据此判断语气强度。整体最支持担忧夹杂紧张的表达，而非单纯愤怒。[E1][E2]",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0s至frame_06 @ 5.36s",
+      "observation": "女性目标人物持续看向右侧男性，眉间多次收紧，双眉内侧上扬，眼神集中，嘴唇抿紧或张口说话。",
+      "interpretation": "持续的紧张凝视和眉部收缩支持担忧、焦虑式表达；这些特征单独不能确定为愤怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0s至frame_06 @ 5.36s",
+      "observation": "目标人物额头有明显红肿伤痕，面部没有笑容，头部和上身基本保持克制不动。",
+      "interpretation": "可见伤痕与克制、紧绷的表情共同增强了受压和担忧的视觉解释，但不能仅凭伤痕推断具体情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "当前字幕：木则：你除了这些卑劣的手段，还会什么？真是无耻之极。",
+      "observation": "字幕内容是对对方手段的直接指责和强烈贬斥。",
+      "interpretation": "支持目标人物可能带有愤怒或质问成分，但字幕本身不能替代视觉上的情绪证据，且画面中她的眉眼更显紧张和忧虑。",
+      "polarity": "counter"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_07 @ 6.24s",
+      "observation": "画面切至男性近景，女性目标人物不再清晰可见。",
+      "interpretation": "该帧不能用于判断女性目标人物的面部情绪。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "字幕中的“卑劣”“无耻之极”构成对愤怒或强烈不满的支持，但画面中目标人物没有明显咬牙、瞪视或大幅激烈姿态，且无音轨可核实语气，因此未采用angry；仍缺少可听见的语气和更完整姿态信息。"
+}

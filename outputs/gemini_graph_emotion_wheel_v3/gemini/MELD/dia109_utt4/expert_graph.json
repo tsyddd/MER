@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "在当前对话中，Janice面对男士（Chandler）不可思议的决定发起询问。结合实际音轨核验，图谱节点[person_1]指出的“声音上扬、语调起伏明显”属实，她在00:00-00:01处以明显拉高的反问音调说出“Oh, are you sure?”，配合[person_0]与frame_00至frame_02中微抬的眉毛与专注神情，体现出对对方违背常理举动的诧异与确认；随后松开双臂比划手势[person_2]，进一步引出后续建议，整体呈现轻度意外诧异的情绪状态。",
+  "open_emotion": "诧异",
+  "answer": "surprise",
+  "mapping_reason": "开放词“诧异”指面对出乎预料、打破常识的信息时产生的疑问与意外感，符合情绪轮中surprise（面对违背预期的信息而意外、诧异或惊奇）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:01",
+      "observation": "Janice说出“Oh, are you sure?”时尾音明显高扬，语调起伏夸张，呈现出强烈的反问语感",
+      "interpretation": "反映其对对方决定的意外与不敢置信，支持诧异反应",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱记录Janice声音上扬，带有明显的语调起伏，经音轨核验该听觉特征准确",
+      "interpretation": "高调的反问语气强化了面对非预期情境时的意外体验",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01 (0.50s)",
+      "observation": "Janice双手抱胸、眉毛微挑、嘴唇微张看向对面男士",
+      "interpretation": "视觉上呈现关注并等待对方确认的探询神态，辅助支持轻微惊讶",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "如果仅从日常对话形式来看，该句亦可被理解为常规中性询问（neutral）；但结合音轨中尖锐上扬的反问语气及后续紧接着的夸张反问“Really?”，排除了毫无情绪波动的纯客观中性状态。"
+}

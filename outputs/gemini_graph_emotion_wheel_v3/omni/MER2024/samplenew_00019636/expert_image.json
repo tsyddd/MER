@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物在听到关于胡十四娘年龄的陈述后，表现出明显的面部和姿态变化。从最初的低头沉思（frame_00-frame_01），到抬头睁大眼睛、眉毛上扬的惊讶表情（frame_02-frame_03），再到伴随疑问句的皱眉和手势（frame_04-frame_07），其视觉表现与台词内容高度一致。这些变化表明他正在处理一个出乎意料的信息，其主导情绪是惊讶。",
+  "open_emotion": "惊讶",
+  "answer": "surprise",
+  "mapping_reason": "根据情绪轮定义，'surprise'指因当前信息违背预期产生的意外、诧异或震惊。目标人物的面部表情（睁大眼睛、眉毛上扬）和姿态（抬头、手势）是惊讶的典型视觉表现，且与他所说'我怎么看也不像啊'的台词内容完全吻合，因此映射为'surprise'是准确的。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02-frame_03",
+      "observation": "目标人物抬头，双眼睁大，眉毛上扬，视线直视前方。",
+      "interpretation": "这是典型的惊讶表情，表明他正在接收一个出乎意料的信息。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "那胡十四娘，真的一百多岁了，我怎么看也不像啊！",
+      "observation": "字幕显示目标人物正在表达对某人年龄的怀疑。",
+      "interpretation": "台词内容直接证实了他正在对一个违背常理的陈述做出反应，这与惊讶情绪的语境相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04-frame_07",
+      "observation": "目标人物在说话时，眉头微皱，同时伴有抬手摸下巴或颈部的手势。",
+      "interpretation": "皱眉和手势是思考和质疑的常见表现，与惊讶情绪中的认知失调和试图理解的过程一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。目标人物的视觉表现和台词内容高度一致，没有证据表明其情绪是愤怒、悲伤或担忧。"
+}

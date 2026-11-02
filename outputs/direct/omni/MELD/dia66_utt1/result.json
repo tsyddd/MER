@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia66_utt1",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "The flight attendant's tone is polite and her facial expression is a standard professional smile, consistent with a routine service interaction. The subtitle 'Thank you! Enjoy your flight?' is a standard closing phrase, not an expression of personal emotion.",
+  "output": "The flight attendant's tone is polite and her facial expression is a standard professional smile, consistent with a routine service interaction. The subtitle 'Thank you! Enjoy your flight?' is a standard closing phrase, not an expression of personal emotion.\n<answer>neutral</answer>",
+  "label": "joy",
+  "elapsed_seconds": 5.538428544998169,
+  "node_count": null,
+  "edge_count": null
+}

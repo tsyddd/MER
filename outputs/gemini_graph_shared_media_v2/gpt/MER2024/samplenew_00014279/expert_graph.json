@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "当前互动中，女子持续直视对面的男子，并按“指责卑劣手段—反问—斥责无耻”的顺序推进言语攻击；图谱节点process_1、process_2、process_3与字幕相互对应，表明情绪核心是对对方行为的愤怒性谴责，而非单纯受伤或害怕。",
+  "answer": "angry",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "当前字幕原话：“你除了这些卑劣的手段，还会什么？真是无耻之极。”",
+      "observation": "字幕包含对对方手段的贬斥、反问和直接辱骂。",
+      "interpretation": "这是当前对话中的明确敌意与谴责，支持angry。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "process_1、process_2、process_3",
+      "observation": "图谱按顺序记录女子指责“卑劣的手段”、质问“还会什么”、斥责“无耻之极”。",
+      "interpretation": "这些节点组织出由控诉到反诘再到定性斥责的当前事件链，支持愤怒而非中性表达；图谱中的声音描述只是转述，未将其当作亲耳核验。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02 @ 1.80秒；frame_03 @ 2.68秒；frame_05 @ 4.44秒",
+      "observation": "女子持续注视对面的男子，眉头紧蹙，嘴部张开并在连续说话。",
+      "interpretation": "持续的对抗性注视与紧张、用力的说话口型和字幕中的斥责相互补充，支持当前的愤怒表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱转述女子音量较低、伴有喘息和停顿；本次未提供真实音轨，无法亲耳核验。",
+      "interpretation": "低声、喘息也可能提示受伤或担忧，构成对单纯愤怒判断的限制，但不足以抵消当前可核实的攻击性话语和面部互动。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "额头伤痕以及图谱转述的低音量、喘息和停顿，可能支持worried或痛苦的替代解释；但伤痕本身不是情绪证据，且当前字幕明确呈现对男子的连续指责，因此未采用这些替代标签。"
+}

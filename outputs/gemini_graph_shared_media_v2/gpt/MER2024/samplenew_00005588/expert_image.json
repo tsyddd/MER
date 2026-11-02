@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物是画面中央的男子。连续画面中他视线略向下并偏向左侧，眉心轻微收紧，嘴角下压且整体表情克制；这些可见特征共同支持低落、悲伤的表达。[E1][E2] 字幕“过去的事，不怪你”显示他在进行安抚或宽解，但这属于字幕信息，不能单独证明情绪。[E3]",
+  "answer": "sad",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_03 @ 0.0至1.04秒",
+      "observation": "目标人物头部略低，视线没有直视前方，主要落向画面左下方；眉部轻微收拢。",
+      "interpretation": "低头和回避式视线结合眉部紧缩，较支持低落或悲伤，而非轻松愉快。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04至frame_07 @ 1.36至2.4秒",
+      "observation": "他的嘴唇基本闭合，嘴角略向下，面部动作少，表情持续克制而沉重。",
+      "interpretation": "持续的下压嘴角和沉重、收敛的面部状态支持悲伤表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "当前字幕“过去的事，不怪你”",
+      "observation": "字幕内容是在宽解对方、否定责怪。",
+      "interpretation": "语义与较沉重、安抚性的视觉表现相容，但字幕本身不能确定具体情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "画面中没有清晰可确认的泪水或明显哭泣动作，表情也可能是克制的担忧或严肃安抚；但持续下垂视线、收紧眉部和下压嘴角的组合比neutral或happy更支持sad。无音频，无法用语调进一步区分。"
+}

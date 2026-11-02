@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00001635",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "结合节点process_0和person_1与person_0的联合表现，女子直视对方并急促开口辩解“我不知道这件旗袍是你的”，声音略带慌乱与紧张，眉眼流露出不安与担忧的神态，体现出担心被责怪或误解的担忧情绪。",
+  "output": "结合节点process_0和person_1与person_0的联合表现，女子直视对方并急促开口辩解“我不知道这件旗袍是你的”，声音略带慌乱与紧张，眉眼流露出不安与担忧的神态，体现出担心被责怪或误解的担忧情绪。\n<answer>worried</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 112.29346799850464,
+  "node_count": 4,
+  "edge_count": 2
+}

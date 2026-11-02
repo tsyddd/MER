@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia115_utt3",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "目标人物Ross位于画面左侧，面向右侧人物，表情严肃并带有明显的责备意味。字幕是在讽刺对方“护住脸并尖叫”不算反手攻击，当前表达体现出恼怒和批评，而非单纯中性陈述。",
+  "output": "目标人物Ross位于画面左侧，面向右侧人物，表情严肃并带有明显的责备意味。字幕是在讽刺对方“护住脸并尖叫”不算反手攻击，当前表达体现出恼怒和批评，而非单纯中性陈述。\n<answer>anger</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 23.895265102386475,
+  "node_count": null,
+  "edge_count": null
+}

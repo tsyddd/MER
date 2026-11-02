@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia259_utt10",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "Monica正在直接批评一个笑话，字幕明确表示该笑话不好笑且冒犯女性、医生和猴子。她表情严肃、语气姿态激烈并带有明显的指责和强调，体现出愤怒而非中性或惊讶。",
+  "output": "Monica正在直接批评一个笑话，字幕明确表示该笑话不好笑且冒犯女性、医生和猴子。她表情严肃、语气姿态激烈并带有明显的指责和强调，体现出愤怒而非中性或惊讶。\n<answer>anger</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 30.61735224723816,
+  "node_count": null,
+  "edge_count": null
+}

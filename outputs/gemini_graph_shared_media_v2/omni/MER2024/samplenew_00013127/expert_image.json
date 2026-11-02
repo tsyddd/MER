@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标人物全程保持微笑，嘴角上扬，眼神与对话对象有互动，姿态放松。字幕内容为带有赞赏意味的评价，与视觉上的积极表情一致。音频中语调平稳，无明显情绪波动，支持视觉观察。",
+  "answer": "happy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "目标人物面带微笑，嘴角上扬，眼神看向对方。",
+      "interpretation": "微笑是积极情绪的直接视觉表现，与字幕内容相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.92",
+      "observation": "目标人物张嘴说话，表情自然，保持微笑。",
+      "interpretation": "说话时的表情与字幕内容一致，无紧张或负面情绪迹象。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "以前啊，以为你圆花伶俐，还真是小看你了。",
+      "observation": "字幕内容为对对方的赞赏。",
+      "interpretation": "字幕内容支持目标人物表达的是积极情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "音频中说话者语调平稳，无明显情绪波动。",
+      "interpretation": "音频语调与视觉上的微笑一致，支持积极情绪的判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无明确反证。"
+}

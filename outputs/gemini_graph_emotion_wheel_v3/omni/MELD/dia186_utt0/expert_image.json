@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "Chandler's expression evolves from an open-mouthed, wide-eyed look of surprise to a more composed but still animated state, with raised eyebrows and a slightly open mouth, suggesting he is reacting to something unexpected or amusing. His gaze shifts from looking forward to looking up and to the side, indicating he is processing or responding to a comment. The visual evidence points to a reaction to an unexpected or humorous situation, which is supported by the audio.",
+  "open_emotion": "surprise",
+  "answer": "surprise",
+  "mapping_reason": "The visual evidence shows a clear sequence of surprise: an initial gasp or open-mouthed reaction (frame_00-frame_01), followed by a look of processing and reaction (frame_02-frame_07). This aligns with the definition of 'surprise' as being 'faced with an unexpected event or information'. The audio confirms this, as Chandler says, 'Ross and Joey is embarrassing enough,' which is a reaction to a situation he finds surprising or amusing.",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "Chandler has his mouth wide open and eyes wide, looking forward.",
+      "interpretation": "This is a classic expression of surprise or shock.",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01-frame_07",
+      "observation": "Chandler's mouth closes and his expression changes to one of animated reaction, with raised eyebrows and a slightly open mouth, as he looks up and to the side.",
+      "interpretation": "This indicates he is processing the situation and reacting to it, consistent with surprise.",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "Chandler says, 'Ah, no-no-no just Ross. Ross and Joey is embarrassing enough.'",
+      "interpretation": "The phrase 'Ross and Joey is embarrassing enough' suggests he is reacting to a situation involving them that he finds surprising or amusing.",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "There is no evidence of anger, sadness, joy, fear, or disgust in Chandler's expression or in the audio. His reaction is more one of surprise or amusement than any of these other emotions."
+}

@@ -1,0 +1,9 @@
+{
+  "expert": "graph",
+  "reason": "女性在组织文本中表现出双眉微蹙的面部特征〔person_2〕，并以平缓语调陈述担忧内容〔person_1〕，其话语内容为‘我主要是担心这事儿’和‘会牵连到您家老爷子’，结合其持续张合嘴唇的说话状态，表明其情绪为担忧。该情绪状态与图谱中‘person_2’和‘person_1’的描述一致。",
+  "answer": "worried",
+  "evidence_refs": [
+    "person_2",
+    "person_1"
+  ]
+}

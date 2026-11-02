@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物说“再这么，烧下去的话，传到高家”，以“再这么……的话”提出继续下去可能波及高家的后果[E1]。这更像在提醒风险，而非单纯陈述已发生的事。画面中他面向对方说话，神情严肃、动作克制[E2]；视觉没有显示强烈惊讶或愤怒。",
+  "open_emotion": "担心",
+  "answer": "worried",
+  "mapping_reason": "话语关注尚未发生的负面结果及其蔓延风险，符合worried的预期性顾虑；并非针对已发生损失的悲伤。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“再这么，烧下去的话，传到高家。”",
+      "observation": "说话者用条件句提到继续烧下去可能传到高家。",
+      "interpretation": "重点是提醒尚未发生的后果，支持担心风险的解读。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05（2.04秒）至frame_07（2.84秒）",
+      "observation": "画面左侧人物面向对方说话，表情严肃，姿态较克制。",
+      "interpretation": "与郑重提醒风险相容，但仅凭画面不足以确定情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是平稳地交代事态，未必带有明显焦虑；当前没有音频，不能核实语调、音量或停顿。选择worried主要依据条件句所指向的潜在后果，而不是把严肃表情直接等同于担忧。"
+}

@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标人物Janice在多个帧中表现出明显的面部和手势变化。从frame_00到frame_03，她双臂交叉，表情严肃，视线直视对话者，表现出一种防御或质疑的姿态。从frame_04开始，她放下手臂，开始用手势辅助表达，同时面部表情从严肃转为带有强调意味的张口，显示出她在积极地参与对话。这些视觉线索与字幕中的提问内容'Oh, are you sure?'以及音频中略带怀疑和强调的语调相吻合，共同指向一种带有怀疑和质问的情绪。没有观察到任何与悲伤、恐惧或厌恶相关的面部特征。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "目标人物Janice双臂交叉，身体略微后倾，面部表情严肃。",
+      "interpretation": "该姿态和表情通常表示防御、怀疑或不赞同，为后续的质问情绪提供了视觉基础。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 2.0437067466044927",
+      "observation": "目标人物Janice放下手臂，开始用手势辅助表达，同时张大嘴巴，似乎在强调某个观点。",
+      "interpretation": "从防御姿态转变为积极的表达姿态，配合张口的动作，表明她正在主动地、带有强调意味地提出问题。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Oh, are you sure?",
+      "observation": "字幕显示了提问内容。",
+      "interpretation": "提问内容直接支持了视觉上观察到的质问和怀疑情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "音频中可以听到Janice说'Oh, are you sure?'，语调带有明显的怀疑和强调。",
+      "interpretation": "音频内容与视觉上的质问表情和字幕内容完全一致，证实了她正在表达怀疑。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "视觉上没有观察到与'anger'（愤怒）相关的迹象，如紧咬的牙关或愤怒的皱眉。虽然有'neutral'（中性）的可能，但其明显的面部表情和手势变化表明情绪并非中性。"
+}

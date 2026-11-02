@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "目标人物Rachel在与对方结束亲吻后拉开距离，面部表情平静克制，眼神微垂但无明显皱眉或嘴角下垂，配合平稳的对话语调，整体呈现中性状态[E1][E2]。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.3336664076088968",
+      "observation": "对方起身稍退开后，Rachel睁开双眼，目光平视略偏下，眉部平展，嘴角处于自然闭合状态，无明显笑意或皱眉。",
+      "interpretation": "面部各特征肌肉均处于放松且无明显极性倾向的状态，符合中性基线表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05 @ 0.7924577180711299",
+      "observation": "Rachel端坐于椅上，身体姿态稳定无躲闪或抗拒动作，平静开口说话，神情平缓。",
+      "interpretation": "言语起始时动作自然舒缓，缺乏强烈情绪驱动的面部运动，支持neutral。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "亲吻后神情未露喜色且视线微垂可能被误判为sadness或冷淡疏离，但其眉心未收拢、嘴角无下垂且语音无低沉颤音，缺乏悲伤的充分证据。"
+}

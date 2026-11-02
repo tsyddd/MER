@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Chandler以“Yeah, Joe, I assure you”回应对方，后面用夸张的假设说明自己的反应，更像是在不耐烦地反驳，而非表达眼下的恐惧[E1]。他皱眉、连续做强调和挥开的手势，与这种恼怒的反驳相符[E2][E3]。没有音频，无法判断语调。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Yeah, Joe, I assure you if I'm staring down the barrel of a gun, I'm pretty much peeing every which way.",
+      "observation": "Chandler直接回应Joe，并用枪口前失禁的夸张假设强调自己的说法。",
+      "interpretation": "这是反驳中的夸张表达；提到枪并不表示他此刻害怕。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.7924577180711299秒",
+      "observation": "Chandler面对Joe，眉头紧锁，张口说话，一手叉腰。",
+      "interpretation": "表情和姿态支持他正带着不满强调观点。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04 @ 3.2532474741867436秒；frame_05 @ 4.0457051922578735秒",
+      "observation": "Chandler说话时先横向挥手，随后将手向外挥开。",
+      "interpretation": "连续的强调手势与恼怒的反驳一致，但手势本身不能确定语气。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "这句话也可能只是轻松的夸张玩笑；缺少音频，无法用语调区分玩笑与恼怒。这里选择anger主要依据其反驳措辞与持续紧绷的表情、手势共同呈现的不耐烦，而非假设情境中的恐惧。"
+}

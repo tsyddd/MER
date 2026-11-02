@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "目标是片段中的女学生，而非脱衣服的男子或站立旁观的两名男子。她在画面右下方低头弯身，随后迅速离开；结合字幕中的道歉，最有支持的解释是歉疚[E1][E2]。画面未清晰呈现她的面部，不能据此断言她在哭泣或十分悲伤。",
+  "open_emotion": "歉疚",
+  "answer": "sadness",
+  "mapping_reason": "歉疚是对自身行为的负面感受；在现有标签中近似映射到sadness。但道歉不等同于悲伤，画面也不足以确认强烈的失落或哀伤。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_01（0.334秒）",
+      "observation": "画面右下方的女子低头弯身，随后移出该位置；她的脸部大多被角度和周围人物遮挡。",
+      "interpretation": "姿态和匆忙移动与不自在相容，但不能单凭这些动作确定具体情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "“I’m so sorry!”",
+      "observation": "当前字幕是一句明确的道歉。",
+      "interpretation": "为歉疚的解释提供语义支持；没有音频，无法判断说话语调。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "女学生的面部不可清晰辨认；低头和迅速离开也可能只是为了避让或应对现场状况。字幕表明她在道歉，但不足以独立证明悲伤。"
+}

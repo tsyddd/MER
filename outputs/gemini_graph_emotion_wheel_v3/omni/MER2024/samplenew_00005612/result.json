@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00005612",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "277d5c5900a033008ef8204e177794173a0a9d543a995a1fbb51814e27394ff0",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "根据情绪轮定义，'worried'指对可能的负面结果、风险或未知情况的顾虑、焦虑和不安。目标人物的行为（郑重递交物品）和情境（民众向官员呈递诉求）表明，他正在处理一件具有不确定性和潜在风险的事务。他的表情和语气并非中性，而是透露出一种严肃的关切，这与'担忧'的语义最为贴合。虽然他的行为也带有坚定，但其情绪基调是谨慎和关切，而非对抗或兴奋，因此映射为'worried'是合理的。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "平静",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据情绪轮的定义，'neutral'指当前主要为平稳叙述、自然交流或无明确主导情绪的表达。目标人物的言语内容是公务请求，语调平稳，无明显情绪波动，符合'neutral'的特征。"
+    },
+    "image": {
+      "open_emotion": "中性",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据情绪轮定义，'neutral'指当前主要为平稳叙述、自然交流或无明确主导情绪的表达。目标人物的面部表情、姿态和台词内容均未表现出喜悦、悲伤、愤怒、担忧或惊讶等主导情绪，其表达状态平稳，因此映射为'neutral'。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物在多个连续帧中表情严肃、眼神专注，姿态沉稳，无明显情绪波动。其台词“请您转交给总理过目”为中性陈述，无情感色彩。音频中语调平稳，节奏正常，音量适中，无激动或低落迹象。综合来看，其表现符合中性状态。[image:E1] [audio_subtitle:E1] [subtitle:E1]",
+  "output": "目标人物在多个连续帧中表情严肃、眼神专注，姿态沉稳，无明显情绪波动。其台词“请您转交给总理过目”为中性陈述，无情感色彩。音频中语调平稳，节奏正常，音量适中，无激动或低落迹象。综合来看，其表现符合中性状态。[image:E1] [audio_subtitle:E1] [subtitle:E1]\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 157.8264238834381
+}

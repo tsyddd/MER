@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物说“过去的事，不怪你”，是在免除对方的责备，而非表达愤怒；他眼眶泛红、目光湿润，神情克制，使这句宽慰带有伤感意味。[E1][E2]",
+  "open_emotion": "伤感",
+  "answer": "sad",
+  "mapping_reason": "当前表情与对已发生之事的宽慰相结合，更接近情绪轮中低落、哀伤的sad；并非在担忧尚未发生的结果。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“过去的事，不怪你。”",
+      "observation": "话语将事情置于过去，并明确说“不怪你”。",
+      "interpretation": "这是对对方的宽慰，不是责备；为克制的伤感表达提供语境，但单凭台词不能确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_06（2.04秒）至frame_07（2.4秒）",
+      "observation": "目标人物眼眶泛红、目光湿润，神情凝重。",
+      "interpretation": "与宽慰话语合看，更支持伤感，而非轻松愉悦。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是平静地安慰对方：台词没有直接说自己难过，画面也不足以确定是否流泪。未提供音频，不能据此判断语调或停顿。"
+}

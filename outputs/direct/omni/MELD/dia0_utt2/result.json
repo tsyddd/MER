@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia0_utt2",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "Rachel speaks the line 'Y'know what?' in a calm, conversational tone. Her facial expression is neutral, and there are no signs of strong emotion in her voice or the surrounding context.",
+  "output": "Rachel speaks the line 'Y'know what?' in a calm, conversational tone. Her facial expression is neutral, and there are no signs of strong emotion in her voice or the surrounding context.\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 4.792906761169434,
+  "node_count": null,
+  "edge_count": null
+}

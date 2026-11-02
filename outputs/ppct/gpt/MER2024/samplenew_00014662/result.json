@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00014662",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "当前目标人物是女性，她正在说“我主要是担心这事会牵连到您家老爷子”，直接表达了担忧。结合process_1与person_0、person_1及其相关关系，她持续说话、面向对方并微微倾斜头部，表情也显得紧张关注；末帧男性的回应不属于目标人物情绪。",
+  "output": "当前目标人物是女性，她正在说“我主要是担心这事会牵连到您家老爷子”，直接表达了担忧。结合process_1与person_0、person_1及其相关关系，她持续说话、面向对方并微微倾斜头部，表情也显得紧张关注；末帧男性的回应不属于目标人物情绪。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 66.24956846237183,
+  "node_count": 8,
+  "edge_count": 5
+}

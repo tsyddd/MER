@@ -1,0 +1,4 @@
+{
+  "reason": "graph和audio_subtitle均指出目标人物表现出疑问和不确定性，且结合提问内容‘他是谁呀？’，其情绪更符合‘surprise’；image虽显示痛苦表情，但graph与audio的听觉-视觉证据更直接关联，且无冲突，故优先采纳。",
+  "answer": "surprise"
+}

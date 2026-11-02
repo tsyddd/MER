@@ -1,0 +1,9 @@
+{
+  "reason": "回看视频与音频，Monica在frame 4至7中怀抱婴儿时面部肌肉完全放松，嘴角显著上扬露出开朗自然的笑容，如[image:E1]与[audio_subtitle:E2]所述真实可靠。在实际音频中，Monica接话“Pheebs, it’s going great...”时语调轻快上扬且饱含赞许欣慰之情[audio_subtitle:E1]，音视呈现出高度协同的温馨快乐。虽然怀抱婴儿属于日常情境易被误认为平淡的neutral，但持续的真实笑意与积极评价已明确超越中性陈述，故锁定为joy。",
+  "answer": "joy",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E2",
+    "audio_subtitle:E1"
+  ]
+}

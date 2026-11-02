@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/sample_00004468",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "030d3dde52545bf65625b56493419caddcff773c9828571517a26fff72171282",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "目标人物面对“他人遭遇不幸而对方却异常开心”这一反常现象产生强烈的认知失调与意外感，符合MER2024情绪轮中surprise（因当前信息违背预期产生的意外、诧异或震惊）的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "说话人因对方违背常规预期的举动产生强烈的纳闷与意外，符合情绪轮中因信息或情境违背预期而产生的'surprise'（惊讶/诧异）定义。"
+    },
+    "image": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "目标人物因对方的反应违背常理预期而产生明显的不解与惊异，符合surprise（因当前信息违背预期产生的意外与诧异）的定义范畴。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "目标人物在听到或看到对方反常反应时，开头叹词“哎？”音调明显挑高上扬，带有明显的突兀感与注意力聚焦[audio_subtitle:E1]。在后半段追问“你怎么这么高兴呢”时，frame_05至frame_07中双眼圆睁、眉头微蹙并上挑，嘴唇微张呈现典型的探询与不可思议神态[image:E2]。台词中虽包含“高兴”，但评价的是对方的不合常理行为，自身并无愉悦情绪；其微蹙眉的神色缺乏攻击性或对抗责备，本质是对常理被违背所产生的即时诧异，应归入surprise。",
+  "output": "目标人物在听到或看到对方反常反应时，开头叹词“哎？”音调明显挑高上扬，带有明显的突兀感与注意力聚焦[audio_subtitle:E1]。在后半段追问“你怎么这么高兴呢”时，frame_05至frame_07中双眼圆睁、眉头微蹙并上挑，嘴唇微张呈现典型的探询与不可思议神态[image:E2]。台词中虽包含“高兴”，但评价的是对方的不合常理行为，自身并无愉悦情绪；其微蹙眉的神色缺乏攻击性或对抗责备，本质是对常理被违背所产生的即时诧异，应归入surprise。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 63.51660895347595
+}

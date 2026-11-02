@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia66_utt2",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "5a18845c511d8d042e0aafc9325f0ce10daa1e74888c7cd85c82140504ee351d",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "愉悦",
+      "mapped_label": "joy",
+      "mapping_reason": "根据当前证据，Rachel的面部表情（微笑）、肢体语言（整理头发）和言语内容（“Thank you very much, it was excellent”）均表现出一种积极、满足的正向体验。这与“joy”（喜悦）的定义——“当前开心、愉悦、满足或兴奋的正向体验”——高度吻合。虽然她脸上有涂鸦，但这并未影响其整体愉悦的情绪表达，反而可能暗示了这是一种轻松、非正式的社交场合。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "满意",
+      "mapped_label": "joy",
+      "mapping_reason": "根据MELD项目的情绪轮，'joy'（喜悦）被定义为对开心、愉悦、满足或兴奋的正向体验。Rachel的言语内容'it was excellent'（非常棒）和她的肯定回答直接表达了对某事的满足和积极评价，这与'joy'的定义相符。虽然她的语调平稳，但内容的积极程度足以支持一个非中性的情绪判断。"
+    },
+    "image": {
+      "open_emotion": "愉悦",
+      "mapped_label": "joy",
+      "mapping_reason": "根据观察，目标人物表现出持续的微笑、放松的姿态和积极的互动，这些是愉悦情绪的典型视觉表现。她的话语内容“it was excellent”也证实了这种积极的体验。因此，该情绪最符合'joy'（喜悦）的定义，即当前开心、愉悦、满足或兴奋的正向体验。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "目标人物Rachel在对话中表现出持续的微笑和积极的肢体语言，如轻触头发，这些视觉线索与她所说“it was excellent”的字幕内容高度一致，表明她对谈话内容感到满意和愉悦。音频中她的语调也显得轻松愉快，支持了这一观察。没有出现任何与愤怒、悲伤、恐惧或厌恶相关的面部或姿态线索。专家的视觉证据[graph:E1]和[graph:E4]都描述了她的微笑和积极互动，与音频中平稳愉快的语调[graph:E2]和字幕中的积极评价[graph:E3]共同构成了一个完整的证据链，一致指向喜悦情绪。",
+  "output": "目标人物Rachel在对话中表现出持续的微笑和积极的肢体语言，如轻触头发，这些视觉线索与她所说“it was excellent”的字幕内容高度一致，表明她对谈话内容感到满意和愉悦。音频中她的语调也显得轻松愉快，支持了这一观察。没有出现任何与愤怒、悲伤、恐惧或厌恶相关的面部或姿态线索。专家的视觉证据[graph:E1]和[graph:E4]都描述了她的微笑和积极互动，与音频中平稳愉快的语调[graph:E2]和字幕中的积极评价[graph:E3]共同构成了一个完整的证据链，一致指向喜悦情绪。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 179.83289170265198
+}

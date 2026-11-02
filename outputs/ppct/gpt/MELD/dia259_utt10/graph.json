@@ -1,0 +1,227 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Monica说：“The joke is not funny, and it’s offensive to women, and doctors, and monkeys!”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Monica向画面左侧伸出一只手并做手势。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "Monica将手臂向画面前方伸出并继续说话。",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Monica的上半身向前倾。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Monica的嘴部开合。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Monica的头部向一侧倾斜。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Monica恢复较为直立的上半身姿势。",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_4",
+      "type": "person",
+      "content": "Monica转向画面右侧。",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "画面位于室内，背景可见壁炉、壁灯、海报和花瓶。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "Monica是画面中可见的人物。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_2",
+      "type": "context",
+      "content": "字幕内容提到一个笑话以及女性、医生和猴子。",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_2",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "同一人物的同一段持续说话在后续时间点继续进行",
+      "entity_anchor": "Monica的持续说话行为"
+    },
+    {
+      "source": "person_3",
+      "target": "person_4",
+      "relation": "simultaneous",
+      "reason": "同一人物在恢复直立姿势的同时转向画面右侧",
+      "entity_anchor": "Monica"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "说话节点提供了Monica明确的批评内容，伸手做手势节点提供了同步的指向性动作，联合后补充了言语与可见手势共同构成的互动表达。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_0",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "说话节点提供了Monica对笑话及其冒犯对象的陈述，向前伸臂节点提供了继续说话时的前向手势，联合后增加了言语内容与持续动作配合的过程信息。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_1",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "向画面左侧伸手节点和向画面前方伸臂节点分别提供了连续阶段中的不同手势方向，联合后呈现出Monica在表达过程中手势指向的变化。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "上半身前倾提供了身体姿势信息，嘴部开合提供了可见的说话动作信息，联合后表明Monica以前倾姿势进行口头表达。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "上半身前倾与头部向一侧倾斜分别提供了躯干和头部的姿态信息，联合后更完整地限定了Monica当时的身体姿势。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_4",
+      "relation": "person_joint",
+      "reason": "上半身前倾提供了身体姿势信息，转向画面右侧提供了身体朝向信息，联合后增加了Monica姿势与朝向的综合可见描述。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "嘴部开合提供了可见的说话动作，头部向一侧倾斜提供了头部姿态信息，联合后更完整地描述了Monica说话时的可见表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_4",
+      "relation": "person_joint",
+      "reason": "嘴部开合提供了口部动作信息，转向画面右侧提供了朝向变化信息，联合后补充了Monica在表达过程中的发言动作与身体朝向。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_2",
+      "target": "person_4",
+      "relation": "person_joint",
+      "reason": "头部向一侧倾斜提供了头部姿态信息，转向画面右侧提供了朝向信息，联合后更完整地限定了Monica头部姿态及其面向方向。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "室内环境节点提供了壁炉、壁灯、海报和花瓶等场景限定，Monica可见节点提供了参与者信息，联合后完整限定了人物所在的室内互动场景。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_2",
+      "relation": "context_joint",
+      "reason": "室内环境节点提供了物理场景信息，字幕节点提供了正在讨论笑话及女性、医生和猴子等对象的信息，联合后限定了该室内对话的场景与谈论内容。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_1",
+      "target": "context_2",
+      "relation": "context_joint",
+      "reason": "Monica可见节点提供了场景中的人物信息，字幕节点提供了笑话及女性、医生和猴子等谈论对象，联合后明确了由谁参与并涉及什么内容。",
+      "entity_anchor": null
+    }
+  ]
+}

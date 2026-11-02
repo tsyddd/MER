@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "目标男孩在当前互动中先笑着称赞画外的人，随后询问对方是否需要帮忙；画面显示他短暂停顿后又带笑继续说话[E1][E2][E3]。图谱的process_0、process_1对应这两步言语互动，有助于将笑容理解为友好、愉快的搭话，而不只是礼貌性的固定表情；节点顺序本身不能证明他为何这样说。",
+  "open_emotion": "愉快",
+  "answer": "happy",
+  "mapping_reason": "当前称赞和主动搭话时持续可见的笑容，支持正向愉悦表达，映射为happy；并非仅因台词提到赞美就判定开心。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）、frame_03（1.6秒）、frame_07（3.76秒）",
+      "observation": "男孩朝画面左侧的人张嘴笑着说话，稍后仍带笑向对方倾身。",
+      "interpretation": "笑容贯穿这次交流，支持当前表达较为愉快；这些画面与图谱person_0、person_3的表情描述是同一视觉事实，不重复计作独立证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "“小区里最可爱，最漂亮的小美美。”",
+      "observation": "提供的字幕是男孩对交流对象的称赞。",
+      "interpretation": "称赞的言语方向使其笑容更符合友好搭话，而非针对对方的责备或对抗。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05（2.68秒）至frame_07（3.76秒）",
+      "observation": "画面字幕显示“⼩美眉需要我帮忙吗”，男孩面向同一方向继续说话。",
+      "interpretation": "这与图谱process_1的后续询问相符，说明称赞之后仍在主动交流；画面文字不能用来判断其语调。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱转述男孩说话语调轻快上扬、语速较快。",
+      "interpretation": "若准确可补充愉快表达的声音线索，但未提供原音轨，无法亲耳核验，故不作为最终判断的主要依据。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "笑容也可能是礼貌或讨好，不必然表示强烈喜悦；当前可核实的称赞、后续询问及持续笑容共同支持较轻的愉快表达。图谱声音节点未经原音轨核验，画面背景陈设也不构成情绪证据。"
+}

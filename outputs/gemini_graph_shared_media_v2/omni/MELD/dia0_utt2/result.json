@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia0_utt2",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "3970f5e11853554fbfc18f31e31c06de8bbd17661ed1c904623e938e0536b1f7",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "综合专家证据，Rachel的言语内容'Y'know what?'是中性表达，用于引出话题。音频证据显示其语调平稳，无情绪起伏，支持中性判断。视觉证据中，她的视线稳定、表情平静，无悲伤或愤怒的迹象。尽管'graph'专家提到其语调平缓低沉，但该描述与音频证据一致，可信度高。三者证据共同指向中性情绪，无强反证。",
+  "output": "综合专家证据，Rachel的言语内容'Y'know what?'是中性表达，用于引出话题。音频证据显示其语调平稳，无情绪起伏，支持中性判断。视觉证据中，她的视线稳定、表情平静，无悲伤或愤怒的迹象。尽管'graph'专家提到其语调平缓低沉，但该描述与音频证据一致，可信度高。三者证据共同指向中性情绪，无强反证。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 169.64416217803955
+}

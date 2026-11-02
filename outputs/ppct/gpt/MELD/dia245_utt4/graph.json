@@ -1,0 +1,183 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Monica说出字幕所示的“No-no-no, no!”",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Monica向画面左侧移动并离开原先的坐姿位置",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Monica坐在沙发上，手中拿着一本书",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Monica的头部转向画面左侧",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Monica身体前倾并继续向画面左侧移动",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Monica转头面向画面右侧",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "场景为室内客厅，画面中有沙发、门和室内陈设",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "另一名人物背对镜头站在门旁",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_2",
+      "type": "context",
+      "content": "Monica位于沙发区域",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_2",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "同一人物从坐在沙发上的状态转为身体前倾并向画面左侧移动",
+      "entity_anchor": "Monica的身体姿态与位置"
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "simultaneous",
+      "reason": "同一人物在向画面左侧移动时同步将头部转向画面左侧",
+      "entity_anchor": "Monica"
+    },
+    {
+      "source": "person_3",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "同一人物的头部朝向由画面左侧变为画面右侧",
+      "entity_anchor": "Monica的头部朝向"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提供Monica说出“No-no-no, no!”的言语行为，process_1提供她向画面左侧移动并离开原坐姿的身体行为；联合后补充出她在说话同时作出离开原位置的连续可观察反应。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供Monica坐在沙发上并手持书的姿态与物品信息，person_1提供她头部转向画面左侧的朝向信息；联合后更完整呈现她坐在沙发上持书并转向左侧的状态。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_0提供Monica坐在沙发上、手持书的初始状态，person_2提供她身体前倾并向画面左侧移动的姿态变化；联合后增加了从坐姿到前倾移动的可观察动作信息。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_0提供Monica坐在沙发上并手持书的信息，person_3提供她转头面向画面右侧的信息；联合后更完整限定了她在沙发区域持书时的身体姿态与朝向。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1提供Monica头部转向画面左侧的动作，person_2提供她身体前倾并继续向左移动的动作；联合后形成头部朝向与身体移动方向一致的更完整运动表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0提供室内客厅及沙发、门等陈设的总体场景，context_1提供另一名人物背对镜头站在门旁的空间信息；联合后更完整限定了客厅内门旁有人站立的场景。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_2",
+      "relation": "context_joint",
+      "reason": "context_0提供室内客厅及其家具陈设，context_2提供Monica位于沙发区域的信息；联合后更完整限定了Monica所在的客厅沙发场景。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_1",
+      "target": "context_2",
+      "relation": "context_joint",
+      "reason": "context_1提供另一名人物在门旁背对镜头站立的信息，context_2提供Monica位于沙发区域的信息；联合后增加了两名人物在客厅内分别处于门旁和沙发区域的空间关系。",
+      "entity_anchor": null
+    }
+  ]
+}

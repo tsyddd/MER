@@ -1,0 +1,108 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "主要人物对对面的男子说“可是你背信弃义，你一个劲儿地抬价”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "主要人物目光平视直视对面的男子",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "主要人物语速急促、音量较高",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "主要人物头部微倾，嘴部持续开合说话",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "主要人物双眼睁大注视对方",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "主要人物与另一名戴帽男子相对而立进行交谈，背景墙上挂着鸟笼",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "主要人物在直视对面男子的同时，语速急促且音量较高地发声说话",
+      "entity_anchor": "主要人物"
+    },
+    {
+      "source": "person_3",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "主要人物在平视直视对面的男子后，情绪激动进一步双眼睁大注视对方",
+      "entity_anchor": "主要人物的眼神注视状态"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供直视对方的视线锁定，person_1提供急促且音量偏高的语音事实，二者结合补充了其对准谈话对象发声时的紧逼状态",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1提供音轨中急促且高音量的听觉特征，person_2提供头部微倾及嘴部开合的视觉发声动作，声画互补完整呈现说话输出过程",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_2",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_2提供头部倾斜与嘴部开合的动作，person_3提供双眼睁大的眼神特征，面部不同部位动作结合构成更完整的面部神态",
+      "entity_anchor": null
+    }
+  ]
+}

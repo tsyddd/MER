@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00006335",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "a0bf56d9fb9db16ede1f6dafeaeb4ef47157197d9bed5ab5ad9436046022afb9",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "我核对了frame_00至frame_07，目标人物始终手持电话，眉间轻收、目光集中、表情严肃，未见足以支持惊讶或强烈愤怒的明显变化。字幕原话“关东军不是已经增兵甲子沟、煤矿了吗？”是围绕军事增兵的反问，和上述克制但紧绷的视觉状态相互支持担忧，而非单纯中性询问。[image:E1][audio_subtitle:E1] 最强反证是表情变化幅度小、可能只是平静核实；但图谱所述“低沉”语气因无音轨不能直接核验，只能作为间接补充，不能据此单独定性。[graph:E1] 综合可核实的画面与字幕，选择worried。",
+  "output": "我核对了frame_00至frame_07，目标人物始终手持电话，眉间轻收、目光集中、表情严肃，未见足以支持惊讶或强烈愤怒的明显变化。字幕原话“关东军不是已经增兵甲子沟、煤矿了吗？”是围绕军事增兵的反问，和上述克制但紧绷的视觉状态相互支持担忧，而非单纯中性询问。[image:E1][audio_subtitle:E1] 最强反证是表情变化幅度小、可能只是平静核实；但图谱所述“低沉”语气因无音轨不能直接核验，只能作为间接补充，不能据此单独定性。[graph:E1] 综合可核实的画面与字幕，选择worried。\n<answer>worried</answer>",
+  "label": "angry",
+  "elapsed_seconds": 163.372967004776
+}

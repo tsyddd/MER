@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia38_utt1",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "283890143b6bd15c34d0fcc959b56cb32cb859b30cd2d4facc4a2608311bfdd4",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "欣慰",
+      "mapped_label": "joy",
+      "mapping_reason": "‘欣慰’体现了因他人（学生）取得成就而产生的温暖、满足与高兴的积极体验。在项目情绪轮中，这种积极的满足与愉悦情感属于joy（喜悦）家族。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "欣慰",
+      "mapped_label": "joy",
+      "mapping_reason": "开放情绪'欣慰/自豪'是对他人成就产生的正向满足与愉悦情感，符合情绪轮中joy关于满足、愉悦的正向体验定义。"
+    },
+    "image": {
+      "open_emotion": "欣慰",
+      "mapped_label": "joy",
+      "mapping_reason": "“欣慰/自豪”是一种正向的满足与喜悦情感体验，完全符合情绪轮中关于joy（开心、愉悦、满足）的定义界定。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "独立核验原始视频与音频，Joey在画面中自frame_01起便双手交叠护在胸前，面部展露出带有一丝感动与欣慰的温和微笑[image:E1]；音频开头伴随柔和拉长的感叹词“Awww”，且台词直述“I’m so proud”表达为学生成就所感到的由衷自豪[audio_subtitle:E1][audio_subtitle:E2]。虽然在感动表达时眉心略有收拢，但其温存的体态、赞许笑意与语气均一致指向积极正向的感动与满足，未包含任何负向悲伤成分。综合视觉、言语及韵律，该状态准确归入喜悦（joy）范畴。",
+  "output": "独立核验原始视频与音频，Joey在画面中自frame_01起便双手交叠护在胸前，面部展露出带有一丝感动与欣慰的温和微笑[image:E1]；音频开头伴随柔和拉长的感叹词“Awww”，且台词直述“I’m so proud”表达为学生成就所感到的由衷自豪[audio_subtitle:E1][audio_subtitle:E2]。虽然在感动表达时眉心略有收拢，但其温存的体态、赞许笑意与语气均一致指向积极正向的感动与满足，未包含任何负向悲伤成分。综合视觉、言语及韵律，该状态准确归入喜悦（joy）范畴。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 59.774009466171265
+}

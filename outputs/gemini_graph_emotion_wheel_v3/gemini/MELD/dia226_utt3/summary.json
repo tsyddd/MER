@@ -1,0 +1,9 @@
+{
+  "reason": "独立回看视频帧（尤其是frame_02至frame_04），Rachel在倾诉时眉毛内角明显聚拢上扬、嘴角向下微撇，流露出典型的委屈与受挫神情，完全契合[image:E1]的观察；音频中其语调轻柔微弱并伴有叹息意味，亦与[audio_subtitle:E2]指出的惆怅失落感一致。相比之下，[graph:E1]将整段互动概括为平稳中性，忽略了其面部微表情和语调中明确的求而不得的失落感，故排除neutral，判定为属于sadness家族的失落沮丧。",
+  "answer": "sadness",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E2",
+    "graph:E1"
+  ]
+}

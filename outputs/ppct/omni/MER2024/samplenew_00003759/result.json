@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00003759",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "音频中说话人语调上扬，带有明显的疑问和确认意味，结合字幕“是吗？才真这么说的。”，表明其正在核实信息，表现出惊讶和好奇的情绪。该情绪与“surprise”标签相符。",
+  "output": "音频中说话人语调上扬，带有明显的疑问和确认意味，结合字幕“是吗？才真这么说的。”，表明其正在核实信息，表现出惊讶和好奇的情绪。该情绪与“surprise”标签相符。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 71.8215434551239,
+  "node_count": 5,
+  "edge_count": 2
+}

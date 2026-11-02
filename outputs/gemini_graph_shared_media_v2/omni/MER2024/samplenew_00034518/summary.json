@@ -1,0 +1,9 @@
+{
+  "reason": "目标人物（老年女性）的面部表情（皱眉、专注的眼神）[image:E1]、言语内容（询问家庭是否出事）[subtitle:E2]和语调（平稳中带有关切）[audio:E3]三者高度一致，共同指向担忧的情绪。专家`image`的分析全面整合了多模态证据，其结论可信。专家`audio_subtitle`仅根据平稳语调和中性字幕判断为中性，但忽略了表情和内容的关键信息，其分析不完整。因此，应采纳`image`专家的综合判断。",
+  "answer": "worried",
+  "evidence_refs": [
+    "image:E1",
+    "subtitle:E2",
+    "audio:E3"
+  ]
+}

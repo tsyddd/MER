@@ -1,0 +1,34 @@
+{
+  "provider": "gemini",
+  "mode": "direct",
+  "frames": 8,
+  "status": "finished",
+  "smoke": false,
+  "updated": 1793501395.172682,
+  "metrics": {
+    "MER2024": {
+      "expected": 40,
+      "processed": 40,
+      "valid": 40,
+      "correct": 33,
+      "accuracy_all": 0.825,
+      "accuracy_valid": 0.825
+    },
+    "MELD": {
+      "expected": 40,
+      "processed": 40,
+      "valid": 40,
+      "correct": 27,
+      "accuracy_all": 0.675,
+      "accuracy_valid": 0.675
+    },
+    "ALL": {
+      "expected": 80,
+      "processed": 80,
+      "valid": 80,
+      "correct": 60,
+      "accuracy_all": 0.75,
+      "accuracy_valid": 0.75
+    }
+  }
+}

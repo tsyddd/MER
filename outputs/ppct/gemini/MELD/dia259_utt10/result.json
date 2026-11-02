@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia259_utt10",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "Monica在交流时身体前倾且双眼直视对方（person_0），语速较快且语调严肃坚决（person_1），配合向外挥动手势批评笑话不好笑且冒犯他人（process_0、process_1、person_2）。随后她嘴部大幅张开，音量明显增大并拔高声调强调“and monkeys!”（person_3、process_2），展现出层层递进的严厉斥责与愤慨姿态，符合anger情绪特征。",
+  "output": "Monica在交流时身体前倾且双眼直视对方（person_0），语速较快且语调严肃坚决（person_1），配合向外挥动手势批评笑话不好笑且冒犯他人（process_0、process_1、person_2）。随后她嘴部大幅张开，音量明显增大并拔高声调强调“and monkeys!”（person_3、process_2），展现出层层递进的严厉斥责与愤慨姿态，符合anger情绪特征。\n<answer>anger</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 70.29145932197571,
+  "node_count": 8,
+  "edge_count": 9
+}

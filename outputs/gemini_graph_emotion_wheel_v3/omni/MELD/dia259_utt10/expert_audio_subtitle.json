@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者语气坚定，语速较快，音量中等偏高，带有明显的强调和否定，表现出对所谈论内容的强烈不满和排斥。字幕内容直接表达了对笑话的否定和对其冒犯性的指责，与声音中的情绪一致。",
+  "open_emotion": "厌恶",
+  "answer": "disgust",
+  "mapping_reason": "说话者明确表示笑话'不有趣'且'冒犯了女性、医生和猴子'，这是一种对特定事物的强烈排斥和反感。这种情绪与'disgust'（厌恶）的定义——对令人反感或难以接受的对象的排斥与厌弃——高度吻合。虽然情绪强度较高，但其核心是针对特定事物的反感，而非针对个人的愤怒或对未来的恐惧。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "The joke is not funny, and it's offensive to women, and doctors, and monkeys!",
+      "observation": "说话者在字幕中明确表达了对笑话的否定和对其冒犯性的指责。",
+      "interpretation": "该话语直接表明了说话者对笑话的负面评价，是判断其情绪的核心依据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:04",
+      "observation": "说话者语气坚定，语速较快，音量中等偏高，带有明显的强调和否定。",
+      "interpretation": "这种语调表现出说话者情绪的投入和对所言内容的强烈态度，支持了其负面情绪的表达。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。"
+}

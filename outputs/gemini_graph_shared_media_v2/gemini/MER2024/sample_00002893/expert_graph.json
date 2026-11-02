@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "目标人物在电话交谈中说明第三方遭遇网络诽谤且事态恶化，事件链呈现出求助与危机升级的紧迫语义[E2]；视觉上持续双眉紧蹙[E1]，听觉上语速急促、音调紧绷，综合确认为担忧（worried）。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 2.0s",
+      "observation": "女性手持电话贴耳，眉头紧蹙，眼神游移带有焦灼神情",
+      "interpretation": "紧绷的面部表情直观反映出面临棘手事件时的焦虑与不安，支持担忧情绪",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "process_3",
+      "observation": "节点记录女性陈述“现在事情越闹越大”，与当前音视频台词完全吻合",
+      "interpretation": "事件语义表明当前处于危机事态进一步扩大的进行时情境中，直接引发人物对朋友境遇及后续发展的忧虑，而非单纯的情感宣泄",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:03-00:06",
+      "observation": "核验实际音轨，其讲述“被诽谤了”“事情越闹越大”时呼吸短促、声调紧绷微颤",
+      "interpretation": "急切焦躁的语调证实了人物内心的慌张与牵挂，跨模态补强了担忧的判定",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "面部微撇嘴和蹙眉易被误判为悲伤（sad），但从事件语义链看，人物在积极澄清并陈述事态升级以寻求应对方案（“所以我想……”），表达核心在于对恶化局面的焦虑应对而非无助的哀伤。"
+}

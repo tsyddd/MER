@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Janice在说出告别语时伴随明显的下沉语调、拖长与哽咽抽泣颤音[E1]，言语行为体现沉痛分手道别[E2]，且面部表情配合呈现哀伤落寞[E3]，充分指示其处于悲伤（sadness）状态。",
+  "answer": "sadness",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "0.0s - 2.0s",
+      "observation": "Janice语速缓慢，语调沉重拖曳，发音时伴随明显的鼻音与颤抖抽泣声。",
+      "interpretation": "低沉、颤抖且带泣音的韵律特征高度符合悲伤哭腔，表明其内心难过沮丧。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Good-bye Chandler Bing.",
+      "observation": "使用对方全名进行正式、沉痛的道别。",
+      "interpretation": "在此情境下以全名称呼告别，体现出情感决裂带来的沉重与不舍。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.29s",
+      "observation": "Janice眉头微蹙，嘴角向下撇，一手握拳抵在胸口，神色哀伤失落。",
+      "interpretation": "视觉表情与声音的抽泣哭腔高度吻合，进一步排除了其他情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "替代解释可能认为这仅是陈述事实的寻常道别（neutral），但音轨中极具辨识度的哭腔颤音与拖沓叹息明确反驳了中性解读。"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "MELD/dia153_utt4",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "error",
+  "version": "gemini_graph_shared_media_v2",
+  "stage": "expert_graph",
+  "error": "expert_graph: ",
+  "traceback": "Traceback (most recent call last):\n  File \"/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/shared_media_experts_v2.py\", line 220, in sample\n    experts[role]=run_stage(folder,current,client,prompts.EXPERTS[role],payload,frames,track,row['classes'],graph,2400)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/media/liang/12T/han/open_source_generated/PPCT_emotion_training_free/shared_media_experts_v2.py\", line 180, in run_stage\n    raise RuntimeError(name+': '+str(error))\nRuntimeError: expert_graph: \n",
+  "elapsed_seconds": 151.21246457099915
+}

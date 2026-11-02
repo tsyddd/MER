@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "事件链显示，目标白衣女子正与对立的黑衣男子交谈[context_0]，从转述传闻引出对方的境况[process_0]，并在提及对方可能发生的负面事件时表现出身体与视线变化[process_1]。在说出“你好像出了点意外”时，女子伴随视线下移低头[person_2]并微蹙眉头，随后再次抬眸注视求证[person_3]，实际音轨中语调轻柔且带有明显的关切探询感，体现出对对方安危的关切与顾虑。",
+  "open_emotion": "关切",
+  "answer": "worried",
+  "mapping_reason": "白衣女子针对未确证的负面事件（对方出了意外）进行试探性询问，核心在于对他人境况的顾虑与关心，符合worried家族中关于对负面情况、不确定性抱持关切（concerned）的定义，故映射为worried。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱记录女子在交谈中途低头且视线下移，对应视觉中frame_04至frame_05女子微蹙眉头、神情微紧的下视动作",
+      "interpretation": "在触及对方意外时产生的回避与思索神态，表现出同理与关切顾虑",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "你好像出了点意外",
+      "observation": "女子言语内容转述听说男子出了意外事件，向当事人核实",
+      "interpretation": "语义评价对象为潜在的负面风险与事故，引发针对对方的探询与担忧",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:01-00:03",
+      "observation": "女子说话语速微慢，声线柔和且尾音轻微上扬",
+      "interpretation": "并非图谱节点person_1描述的纯粹平稳，而是带有试探与关照性质的询问语调",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "图谱中person_1将其声音标为平稳，且整体交谈举止克制，可能被替代解释为客观中性的陈述；但结合音调的轻柔探询与提及意外时的蹙眉低头，表明其并非无主导情绪的公事公办交流。"
+}

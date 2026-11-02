@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia239_utt2",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "The audio contains Chandler saying, 'Jeez, man did you fall.. Hi! So uh, did ya, did-did-did ya fall high?', which is a playful and teasing question. His tone is light and humorous, not genuinely concerned. The visual shows him gesturing with an open palm, a common non-verbal cue for a joke or lighthearted interaction. The combination of the teasing words and the playful gesture indicates a humorous intent.",
+  "output": "The audio contains Chandler saying, 'Jeez, man did you fall.. Hi! So uh, did ya, did-did-did ya fall high?', which is a playful and teasing question. His tone is light and humorous, not genuinely concerned. The visual shows him gesturing with an open palm, a common non-verbal cue for a joke or lighthearted interaction. The combination of the teasing words and the playful gesture indicates a humorous intent.\n<answer>joy</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 263.66578936576843,
+  "node_count": 13,
+  "edge_count": 13
+}

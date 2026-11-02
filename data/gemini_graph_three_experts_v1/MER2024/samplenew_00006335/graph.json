@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "男子手持电话听筒对着话筒说话：‘关东军不是已经增兵甲子沟煤矿了吗’",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "男子戴圆框眼镜，蓄胡，右手举着电话听筒贴于耳边和嘴边",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "男子面部朝向前方，嘴部开合说话，语气低沉带有疑问",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "日式风格的室内房间，背景有格子木门和博古架，男子正在接听或拨打电话",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "同一男子在右手持听筒贴于耳边嘴边的同时，面朝前方开口说话",
+      "entity_anchor": "打电话的男子"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0 提供了男子的外貌特征及右手持听筒置于耳嘴旁的动作姿态，person_1 提供了其面部朝向、嘴部开合动态以及低沉带疑问的语音语调；两者联合互补了男子在通话时手部姿势、面部神态与声调表现的完整外在形象。",
+      "entity_anchor": null
+    }
+  ]
+}

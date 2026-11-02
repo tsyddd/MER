@@ -1,0 +1,13 @@
+{
+  "expert": "graph",
+  "reason": "图谱显示Chandler在开口打断时仅抬手摆动并收回胸前〔person_0, person_1〕，说出“Ah, no-no-no just Ross. Ross and Joey is embarrassing enough.”进行调侃和纠正〔process_0, process_1, process_2〕。其面部神态仅表现为向右上方斜视并伴随正常说话〔person_2〕，未展现明显的愤怒、喜悦或强烈负面情绪波动，整体状态偏向客观中性。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "person_2",
+    "process_0",
+    "process_1",
+    "process_2"
+  ]
+}

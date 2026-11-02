@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者Janice的语调上扬，带有明显的疑问和不确定性，与字幕中的'Oh, are you sure?'完全对应。她的语气并非愤怒或悲伤，而是表现出一种探究和难以置信的态度。视觉上，她身体前倾，手势活跃，表明她正在积极地参与对话并寻求确认。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00.000 - 00:03.587",
+      "observation": "说话者Janice的语调上扬，带有明显的疑问和不确定性。",
+      "interpretation": "这种语调是表达惊讶和难以置信的典型特征，与字幕内容相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Oh, are you sure?",
+      "observation": "字幕显示说话者在询问对方是否确定。",
+      "interpretation": "这是一个直接的疑问句，表达了对某事的怀疑和惊讶。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 - frame_07",
+      "observation": "说话者身体前倾，手势活跃，表情专注。",
+      "interpretation": "这些非语言行为表明她正在积极地参与对话，并对谈话内容感到惊讶和好奇。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽然说话者的语气中可能带有一丝反讽或怀疑，但其主要情绪是惊讶。没有足够的证据表明她感到愤怒、悲伤或恐惧。"
+}

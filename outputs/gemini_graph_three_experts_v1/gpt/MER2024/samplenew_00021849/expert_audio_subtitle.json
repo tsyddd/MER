@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速和停顿。仅从字幕“你先上，我的车，先回去”看，是简短的安排或指示，未出现明确的情绪表达，因此判为中性。",
+  "answer": "neutral",
+  "evidence_refs": []
+}

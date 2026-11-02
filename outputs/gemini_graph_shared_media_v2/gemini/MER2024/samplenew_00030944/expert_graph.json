@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "女子在互动中眉心微聚，神情凝重[E1]，其话语直白表达对对方独处的忧虑与极端情况的假设担忧[E2]，结合图谱中话语推进节点[process_1][process_2]，表明其当前核心情绪为牵挂与忧心。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_03 @ 2.28s",
+      "observation": "女子眉心微微蹙起，嘴角下撇，神色凝重关切",
+      "interpretation": "呈现典型的担忧与关切神态，而非平静放松",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "我还不放心呢，你万一要想不开，怎么办呢？",
+      "observation": "台词直接陈述内心的不放心，并针对对方可能发生的极端状况提出假设关切",
+      "interpretation": "事件语义核心在于对对话对象的安危牵挂与忧虑，直接对应worried",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_2",
+      "observation": "女子接着说“你万一要想不开怎么办呢”",
+      "interpretation": "图谱节点记录的语意链条显示女子由泛化担忧递进至具体的危机防范追问，排除了纯粹悲伤或客观中立陈述",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "若仅凭微蹙的眉毛和略显沉重的神态，可能被误判为sad（悲伤）；但从互动事件链与对话语义来看，女子聚焦于对方独处可能产生的负面行为（“万一要想不开”），其表达动机是施加关心与焦虑提醒，而非自身遭遇挫折的悲伤。"
+}

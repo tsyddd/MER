@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia131_utt3",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "cd3d3c8c807c19df6b632ee4fea884ed6da5a8289e78f2f9813b77504e417e13",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "Rachel在frame_02低头、嘴角下压，frame_04闭眼时也未显轻松；[image:E1]所述可从画面核实，但单凭这一瞬间不足以定论。她在frame_05至frame_06摊手时露出短暂笑意，结合字幕“Oh, everything went great.”，确实构成喜悦的反证[audio_subtitle:E1]；不过笑意显得勉强，不能仅凭正面措辞判定她高兴[image:E3]。未提供音轨，无法核验是否带反讽语调；综合可见的表情变化，低落比喜悦更符合她当前的表现。",
+  "output": "Rachel在frame_02低头、嘴角下压，frame_04闭眼时也未显轻松；[image:E1]所述可从画面核实，但单凭这一瞬间不足以定论。她在frame_05至frame_06摊手时露出短暂笑意，结合字幕“Oh, everything went great.”，确实构成喜悦的反证[audio_subtitle:E1]；不过笑意显得勉强，不能仅凭正面措辞判定她高兴[image:E3]。未提供音轨，无法核验是否带反讽语调；综合可见的表情变化，低落比喜悦更符合她当前的表现。\n<answer>sadness</answer>",
+  "label": "joy",
+  "elapsed_seconds": 83.71642112731934
+}

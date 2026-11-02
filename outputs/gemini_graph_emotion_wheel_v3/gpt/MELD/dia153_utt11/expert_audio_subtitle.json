@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Chandler是在向Joe强调自己的看法，而不是报告自己此刻正面对枪口。[E1] 他皱眉、抿嘴，并连续用手势加强表达[E2][E3]；结合“我向你保证”的纠正口吻，当前表现更接近轻微的不耐烦，而非台词所描述的害怕。",
+  "open_emotion": "不耐烦",
+  "answer": "anger",
+  "mapping_reason": "不耐烦在此表现为对Joe的说法带有纠正意味的轻微恼火，按情绪轮映射到anger；证据不支持强烈愤怒。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“Yeah, Joe, I assure you if I'm staring down the barrel of a gun, I'm pretty much peeing every which way.”",
+      "observation": "Chandler对Joe说“我向你保证”，随后描述自己假如面对枪口会有的反应。",
+      "interpretation": "这是强调并纠正对方的说法；枪口是条件假设，不能据此认定他当前害怕。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01，0.792秒",
+      "observation": "Chandler面对Joe，眉头紧锁，张口说话，一手叉腰。",
+      "interpretation": "表情和姿态与带有不耐烦的强调相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04，3.253秒至frame_05，4.046秒",
+      "observation": "Chandler抿嘴皱眉，先将手横在身前，随后向外挥手。",
+      "interpretation": "连续手势强化了他正在坚持自己说法的感觉，但单凭手势不能确定愤怒强度。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是他只是在平常地、带幽默感地解释假设情境；字幕本身不足以确认反讽或恼火。未提供音频，无法用语调、音量或停顿进一步区分，因此对“不耐烦”的判断限于措辞和可见表情。"
+}

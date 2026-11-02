@@ -1,0 +1,8 @@
+{
+  "reason": "目标人物Rachel在画面中眉头蹙起、嘴角下撇并摊开双臂身体前倾，呈现出直接质问与抗议的肢体姿态[image:E1]。音频中其语速急促、音调在句尾骤升并加重，带有鲜明的抱怨与责难语气[audio_subtitle:E2]。台词中虽出现'freaked me out'，但结合上下文是转述既往事实作为反驳论据，现场并无即时威胁，其互动核心是对他人忽视自己感受的恼火与责备，因此排除fear，判定为anger。",
+  "answer": "anger",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E2"
+  ]
+}

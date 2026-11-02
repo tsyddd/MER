@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00040685",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "音频中说话人语气沉重，内容涉及‘父皇对我起了疑心’，表明其正面临困境。其面部表情紧绷，眼神专注，结合陈述往事的语境，表现出对局势的担忧。该情绪与‘worried’标签相符。",
+  "output": "音频中说话人语气沉重，内容涉及‘父皇对我起了疑心’，表明其正面临困境。其面部表情紧绷，眼神专注，结合陈述往事的语境，表现出对局势的担忧。该情绪与‘worried’标签相符。\n<answer>worried</answer>",
+  "label": "angry",
+  "elapsed_seconds": 88.33379292488098,
+  "node_count": 5,
+  "edge_count": 1
+}

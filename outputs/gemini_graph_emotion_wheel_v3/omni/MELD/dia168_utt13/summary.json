@@ -1,0 +1,15 @@
+{
+  "reason": "Ross的言语内容（'We know you took it so just-just save yourself the time and confess!'）是直接的指控和命令，表现出对抗性。他的语调高亢、急促，带有明显的指责意味，与愤怒情绪的定义（对冒犯、受阻或不公的恼火、责备与对抗）完全一致。视觉上，他张嘴、皱眉、眼神锐利，并伴有指向和挥动的手势，这些都强化了其施压和质问的姿态。三位专家的证据均一致指向'anger'，且所有证据（音频、字幕、视觉）相互印证，无任何冲突或反证。",
+  "answer": "anger",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "image:E1",
+    "image:E2",
+    "image:E3",
+    "image:E4",
+    "graph:E1",
+    "graph:E2",
+    "graph:E3",
+    "graph:E4"
+  ]
+}

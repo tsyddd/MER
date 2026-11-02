@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia237_utt3",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "disgust",
+  "emotion_analysis": "Joey's facial expression shows a mix of discomfort and resignation, with raised eyebrows and a slightly open mouth. His words, 'I'm just happy I'm keeping it down,' combined with the audience laughter, suggest he is expressing a feeling of relief or mild disgust related to food.",
+  "output": "Joey's facial expression shows a mix of discomfort and resignation, with raised eyebrows and a slightly open mouth. His words, 'I'm just happy I'm keeping it down,' combined with the audience laughter, suggest he is expressing a feeling of relief or mild disgust related to food.\n<answer>disgust</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 7.56147027015686,
+  "node_count": null,
+  "edge_count": null
+}

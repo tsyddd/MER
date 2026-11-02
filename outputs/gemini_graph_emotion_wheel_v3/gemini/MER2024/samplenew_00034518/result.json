@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00034518",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "3fed6d6059d74c2412d0aa8019d55bbdcde203bd9f2c07e116f6616c4aef8d9e",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "开放情绪'担忧'关注的是尚未确认但可能存在的家庭负面风险，表现为焦急探寻与不安神情，在MER2024情绪轮中准确对应worried家族。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "说话人主动关注潜在的家庭负面问题，属于对不确定负面结果的顾虑与关切，契合worried中关于未知风险与不安的定义。"
+    },
+    "image": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "目标人物对未知的家庭变故产生焦虑与不安，视觉上表现为持续锁定的关切凝视与微蹙的眉头，符合情绪轮中worried（对可能负面结果或未知风险的顾虑与不安）的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "画面中目标女性手端水杯前倾，双眉微蹙且目光紧切凝视对方[image:E1][graph:E2]，配合台词主动发问“是不是？家里又出什么事了？”[audio_subtitle:E1]，直接指向对潜在家庭负面变故的猜测。实际音频中其语调发紧并带有小心翼翼的试探关切，与面部的紧绷探询神情互为印证。目标人物核心在于对未知不良事件的顾虑与不安预期，而非中性的日常交谈或突发事件带来的惊讶，准确契合worried。",
+  "output": "画面中目标女性手端水杯前倾，双眉微蹙且目光紧切凝视对方[image:E1][graph:E2]，配合台词主动发问“是不是？家里又出什么事了？”[audio_subtitle:E1]，直接指向对潜在家庭负面变故的猜测。实际音频中其语调发紧并带有小心翼翼的试探关切，与面部的紧绷探询神情互为印证。目标人物核心在于对未知不良事件的顾虑与不安预期，而非中性的日常交谈或突发事件带来的惊讶，准确契合worried。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 54.75695490837097
+}

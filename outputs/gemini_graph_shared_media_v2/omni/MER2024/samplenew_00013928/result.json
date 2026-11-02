@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013928",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "49b9882ec6625c755d0ee37646065921d1bf3d3dd712f15713cb364e31bc4877",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "happy",
+  "emotion_analysis": "目标人物在多帧中均面带笑容，嘴角上扬，表情愉悦，这是判断情绪的直接视觉证据。她手持纸张，身体姿态放松，与人互动时表情自然。字幕内容为“我可看好你呀！怎么样？”，是积极的鼓励性话语。音频中其语调上扬，充满热情和鼓励，与视觉上的笑容和字幕内容完全一致，共同支持了积极情绪的判断。三位专家的证据均指向同一结论，且相互印证，无矛盾之处。",
+  "output": "目标人物在多帧中均面带笑容，嘴角上扬，表情愉悦，这是判断情绪的直接视觉证据。她手持纸张，身体姿态放松，与人互动时表情自然。字幕内容为“我可看好你呀！怎么样？”，是积极的鼓励性话语。音频中其语调上扬，充满热情和鼓励，与视觉上的笑容和字幕内容完全一致，共同支持了积极情绪的判断。三位专家的证据均指向同一结论，且相互印证，无矛盾之处。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 142.39293026924133
+}

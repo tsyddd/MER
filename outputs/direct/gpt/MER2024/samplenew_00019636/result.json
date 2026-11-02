@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00019636",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "画面中人物持续皱眉、眉头紧锁，并用手托着下巴，表现出困惑和思索。字幕内容是对胡十四娘年龄及容貌的疑惑，并非单纯陈述事实，整体情绪更接近担忧和不安。",
+  "output": "画面中人物持续皱眉、眉头紧锁，并用手托着下巴，表现出困惑和思索。字幕内容是对胡十四娘年龄及容貌的疑惑，并非单纯陈述事实，整体情绪更接近担忧和不安。\n<answer>worried</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 25.73310661315918,
+  "node_count": null,
+  "edge_count": null
+}

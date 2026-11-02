@@ -1,0 +1,58 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "说话，内容为“他是谁呀？”。",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "一名女性，面部表情痛苦，嘴部张开，正在说话。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "场景为室内，背景昏暗。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "字幕显示“他是谁呀？Who is he?”。",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0 提供了场景为室内且背景昏暗的视觉信息，context_1 提供了字幕“他是谁呀？Who is he?”。联合后，可观察信息从单一的视觉场景和字幕文本，变为一个更完整的场景：在一个昏暗的室内，有人正在用中英双语询问“他是谁？”，这更完整地限定了互动的客观情境。",
+      "entity_anchor": null
+    }
+  ]
+}

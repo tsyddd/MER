@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物是黑发、穿浅色上衣的Monica，不是穿粉色上衣的Rachel。Monica在frame_02至frame_07面向Rachel，先收紧嘴唇、短暂垂下视线，随后抬眼直视对方并开口回应[E1][E2]。这些可见变化本身不足以证明她愤怒；结合字幕中明确否定Rachel行为的话语[E3]，最有支持的解释是带有责备意味的不满，而非单纯惊讶。",
+  "open_emotion": "不满",
+  "answer": "anger",
+  "mapping_reason": "此处的不满针对她认为不妥的行为，表达方向是明确否定和责备，因此映射为anger；画面不支持更强烈的暴怒判断。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02（1.043秒）至frame_04（2.044秒）",
+      "observation": "Monica面向Rachel，嘴唇逐渐收紧，并短暂垂下视线。",
+      "interpretation": "她没有表现出轻松赞同；但这些动作单独不能确定情绪类别。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05（2.544秒）至frame_07（3.587秒）",
+      "observation": "Monica重新抬眼看向Rachel，眉部上扬，随后开口，保持面对对方的姿态。",
+      "interpretation": "从收敛表情转为直接回应，与当面表达异议相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“Rachel! I’m never gonna think it’s okay for you to cheat on your husband!”",
+      "observation": "字幕明确表示Monica绝不会认为Rachel欺骗丈夫是可以接受的。",
+      "interpretation": "话语提供了责备对象，使视觉上的直接回应更接近不满，而非仅仅疑惑。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "Monica在后几帧嘴角略有上扬，也没有明显瞪视或激烈动作；这限制了愤怒强度的判断，可能带有克制或戏谑意味。未提供音频，不能依据语调进一步区分。"
+}

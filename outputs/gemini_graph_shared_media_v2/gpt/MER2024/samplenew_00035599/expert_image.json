@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物为画面中央的女性。她在连续画面中始终低垂视线，眉头轻微收拢，嘴角下压或嘴唇抿紧；从frame_00到frame_07，张口说话后逐渐转为更克制、下压的嘴部形态，整体呈现明显的低落和难过表现。[E1][E2] 字幕“手里还握着一截风筝线。”只提供内容，未能进一步确认语气；且没有可用音轨。",
+  "answer": "sad",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_03 @ 0.0至0.92秒",
+      "observation": "目标人物视线持续向下，眉部向中间收拢，嘴部张开后逐渐收窄，嘴角没有上扬。",
+      "interpretation": "低垂视线、收拢眉部与下压的嘴部组合支持低落或悲伤，而非轻松或愉快。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04至frame_07 @ 1.24至2.16秒",
+      "observation": "目标人物仍低头侧视，嘴唇多次抿住，嘴角略向下，面部动作趋于克制。",
+      "interpretation": "后段持续的下压嘴形和克制表情进一步支持悲伤表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "当前字幕：“手里还握着一截风筝线。”",
+      "observation": "字幕描述手中物品，没有直接表达目标人物的情绪。",
+      "interpretation": "字幕无法确认悲伤或担忧中的具体类别。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "低垂视线和收拢眉部也可能表示担忧，且画面没有清晰泪光等更强悲伤线索；但持续下压的嘴角和逐渐抿紧的嘴唇使sad比worried更符合当前可见表现。"
+}

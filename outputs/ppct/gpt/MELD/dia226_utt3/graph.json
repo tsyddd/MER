@@ -1,0 +1,151 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Rachel正在说话，字幕内容为：“Y’know, I wish I could get him to open up a little bit, share some feelings.”",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle",
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Rachel坐在沙发上，面向旁边的女性，双手靠近腿部。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Rachel抬起左手并向外做手势。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Rachel继续抬着左手做手势，随后将手移向身体一侧。",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Rachel的左手抬至胸前附近，手掌张开。",
+      "time_index": 5,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_4",
+      "type": "person",
+      "content": "Rachel将左手放低，回到靠近腿部的位置。",
+      "time_index": 7,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "Rachel与另一名女性并排坐在棕色沙发上，二人面对面交流。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "画面背景中还有其他人在场。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "同一人物的左手从向外做手势后移动到身体一侧",
+      "entity_anchor": "Rachel的左手手势"
+    },
+    {
+      "source": "person_3",
+      "target": "person_2",
+      "relation": "after",
+      "reason": "同一人物的左手从身体一侧移动到胸前并张开手掌",
+      "entity_anchor": "Rachel的左手手势"
+    },
+    {
+      "source": "person_4",
+      "target": "person_3",
+      "relation": "after",
+      "reason": "同一人物的左手从胸前抬起状态放低并回到腿部附近",
+      "entity_anchor": "Rachel的左手位置"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供Rachel坐在沙发上面向旁人、双手靠近腿部的初始姿态，person_1提供她抬起左手向外做手势的表现，联合后补充了从静止姿态到开始 gesturing 的可观察变化。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1提供Rachel左手向外抬起的动作，person_2提供该手势继续并向身体一侧移动的变化，联合后增加了手势持续及移动方向的信息。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_2",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_2提供Rachel左手由外侧向身体一侧移动的过程，person_3提供手抬至胸前且手掌张开的姿态，联合后更完整呈现了手势位置和形态的变化。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_3",
+      "target": "person_4",
+      "relation": "person_joint",
+      "reason": "person_3提供Rachel左手在胸前张开的姿态，person_4提供她随后将手放低至腿部附近的动作，联合后补充了手势收回的可观察变化。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0提供Rachel与另一名女性并排坐在沙发上面对面交流的场景，context_1补充背景中还有其他人在场，联合后更完整限定了这是发生在有其他人在场的交流环境中。",
+      "entity_anchor": null
+    }
+  ]
+}

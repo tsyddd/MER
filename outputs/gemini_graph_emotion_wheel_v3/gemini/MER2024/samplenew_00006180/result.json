@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00006180",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "4a765d2b2802a7f8b7c5268ad405ddb73b3790b0239521f2f89cddf88ddba4d0",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "平稳",
+      "mapped_label": "neutral",
+      "mapping_reason": "目标人物在教学问答情境中表现出和缓自然的言语与平和专注的神情，属于无明显主导负面或强烈正向波动的自然交流，符合情绪轮中neutral（平稳叙述、自然交流）的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "平稳温和",
+      "mapped_label": "neutral",
+      "mapping_reason": "目标人物处于正常自然的课堂问答与教学互动中，态度亲切但无强烈占主导的兴奋（happy）或忧虑（worried），依据情绪轮定义，平稳叙述与自然交流状态映射为neutral。"
+    },
+    "image": {
+      "open_emotion": "平和",
+      "mapped_label": "neutral",
+      "mapping_reason": "女教师在课堂互动中保持自然平静、温和从容的状态，符合情绪轮中平稳叙述、自然交流且无强烈主导情绪的neutral定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物女老师在课堂提问互动中神情舒展自然，[image:E1]观察其眉毛平展、面部无剧烈起伏，真实可信地体现出其从容平和的状态；音频中00:00-00:03的说话声调轻柔和缓[audio_subtitle:E1]，台词仅为据实询问常态交流，缺乏强烈的愉悦或兴奋引发。虽然frame_06中应答的男童神态极为开心兴奋，但该强烈情绪属于学生而非目标人物，且frame_07中老师倾听时目光专注平静[image:E2]，没有剧烈的惊讶或狂喜波动。综合视觉与听觉证据，女老师处于平稳的日常教学交流状态，映射为中性最为准确。",
+  "output": "目标人物女老师在课堂提问互动中神情舒展自然，[image:E1]观察其眉毛平展、面部无剧烈起伏，真实可信地体现出其从容平和的状态；音频中00:00-00:03的说话声调轻柔和缓[audio_subtitle:E1]，台词仅为据实询问常态交流，缺乏强烈的愉悦或兴奋引发。虽然frame_06中应答的男童神态极为开心兴奋，但该强烈情绪属于学生而非目标人物，且frame_07中老师倾听时目光专注平静[image:E2]，没有剧烈的惊讶或狂喜波动。综合视觉与听觉证据，女老师处于平稳的日常教学交流状态，映射为中性最为准确。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 50.820228099823
+}

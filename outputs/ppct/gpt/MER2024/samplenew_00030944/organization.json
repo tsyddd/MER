@@ -1,0 +1,3 @@
+{
+  "text": "室内，女性与一名男性分别坐在沙发两侧、相互面对并进行交流〔context_0 context_joint context_1〕。女性坐在沙发上，头部略低、视线向下，同时嘴部开合〔person_0 person_joint person_2〕，先说“那，你一个人在家”〔process_0〕，随后接着说“我还不放心呢”〔process_1 after process_0〕，并进一步说“你万一要想不开，怎么办呢”〔process_2 after process_1〕。在连续表达过程中，她的视线后来由向下转向画面右侧的男性〔person_1 after person_0〕，嘴部仍呈现开合状态，形成面向男性的言语交流〔person_1 person_joint person_2〕；这些话语共同围绕男性独自在家这一处境，表达她对此感到不放心，并询问其可能出现“想不开”情况时该怎么办〔process_0 process_joint process_1〕〔process_0 process_joint process_2〕〔process_1 process_joint process_2〕。这些表现可能反映女性的注意力从低头向下的状态转向男性及其独处处境，并在当前面对面交流中表现出对男性状况的关注和担忧；但仅凭现有材料无法进一步明确其心理状态。"
+}

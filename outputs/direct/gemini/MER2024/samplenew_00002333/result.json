@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00002333",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "happy",
+  "emotion_analysis": "目标人物斜靠在沙发上，面部表情带着明显的笑容，嘴角上扬，语气轻松并夹杂着笑意，整体展现出愉悦轻松的情绪状态。",
+  "output": "目标人物斜靠在沙发上，面部表情带着明显的笑容，嘴角上扬，语气轻松并夹杂着笑意，整体展现出愉悦轻松的情绪状态。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 6.5876545906066895,
+  "node_count": null,
+  "edge_count": null
+}

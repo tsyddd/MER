@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物Janice（右侧穿粉色开衫黑裙、佩戴长项链的卷发女性）在镜头前段面对对方时双臂环抱，眉毛上挑并微微侧头，口部张开做出发问的意外神态[E1]；随后其双臂展开并配合双手手势进行热切解释[E2]。结合音轨中上扬且带有诧异反问语调的'Oh, are you sure?'，其视觉和副语言共同体现出听到对方决定时的意外与惊诧。",
+  "open_emotion": "意外",
+  "answer": "surprise",
+  "mapping_reason": "面对违背预期的信息（对方的回答/决定）表现出挑眉、睁眼与高语调的反问，符合本情绪轮中对surprise（意外/惊奇）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_02 (0.0s - 1.04s)",
+      "observation": "Janice原本抱臂坐着，眉毛轻度抬起，视线直视对方，嘴唇微张微拢呈发问口型，头部略带试探性倾斜",
+      "interpretation": "展现出听到对方言论时始料未及、试图确认的惊诧与探询态度",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04至frame_07 (2.04s - 3.59s)",
+      "observation": "Janice解开抱臂姿态，双手抬至胸前并做出手指比划动作，面部神情生动活跃",
+      "interpretation": "身体动作随情绪激活而放大，进一步印证其不是平静中性，而是被意外信息激发了活跃的沟通欲望",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "0.0s - 1.2s",
+      "observation": "Janice用高亢、拖长尾音的上扬声调说出'Oh, are you sure?'",
+      "interpretation": "听觉语调明确表现出对违背预期决定的诧异与反问",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "中后段她迅速开始比划手势并建议'make little puppets'，神情转为生动甚至略带趣味，容易被误判为joy，但当前话语核心引发点仍是源于对对方决定的意外与诧异。"
+}

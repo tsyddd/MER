@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标人物在通话中表现出担忧和焦虑。她的眉头紧锁，眼神中带有忧虑，面部肌肉紧绷，这些是担忧情绪的典型视觉表现。同时，她正在解释一个棘手的情况，这与担忧的情绪相符。音频内容证实了她正在谈论一个朋友被诽谤且事态扩大的问题，这为她的担忧提供了明确的语境支持。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "目标人物眉头紧锁，眼神向下，表情显得忧虑和紧张。",
+      "interpretation": "这是担忧情绪的直接视觉表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 @ 1.0",
+      "observation": "目标人物的眉毛仍然紧锁，嘴唇微张，似乎在急切地解释情况。",
+      "interpretation": "这种表情和姿态表明她正为一个严重的问题感到焦虑。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "不，不是，我，是我一朋友，他现在在网上被人诽谤了，现在事情越闹越大，所以。",
+      "observation": "字幕内容显示，她正在为一个朋友被诽谤且事态扩大的问题寻求帮助。",
+      "interpretation": "该情境是产生担忧情绪的直接原因，为视觉观察提供了语境支持。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "00:00-00:07",
+      "observation": "音频中，目标人物的语速较快，音调略高，带有一种急切和焦虑的语气。",
+      "interpretation": "这种紧张的语调与她担忧的情绪状态相符，加强了视觉判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有明确的反证。虽然她的表情中可能带有一丝紧张或急切，但这些是担忧情绪的组成部分，而非独立的情绪。"
+}

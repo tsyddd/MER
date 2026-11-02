@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "主说话者当面指责对方背信弃义、不断抬价，话语重心是责备，而非询问或平静陈述[E1]。画面中他持续面向对方，随后前倾、睁大眼睛强调这番话，与对抗性的表达一致[E2]。没有提供音频，无法判断语调或音量。",
+  "open_emotion": "愤慨",
+  "answer": "angry",
+  "mapping_reason": "当前的愤慨针对对方被指责的行为，带有明确责备和对抗倾向，符合angry的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“可是，你背信弃义，你一个劲地抬价。”",
+      "observation": "说话者用“背信弃义”评价对方，并指责其不断抬价。",
+      "interpretation": "这是针对对方行为的直接责备，支持愤慨。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05（2.16秒）至frame_07（3.0秒）",
+      "observation": "右侧说话者朝对方前倾，眼睛睁大，持续注视对方。",
+      "interpretation": "动作和表情与当面强调指责相符，但不能单凭表情确定情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "也可能是在激烈讨价还价而非深度愤怒；仅凭字幕和画面无法核实声音中的情绪强度。但明确的责备措辞比平常交涉更支持angry。"
+}

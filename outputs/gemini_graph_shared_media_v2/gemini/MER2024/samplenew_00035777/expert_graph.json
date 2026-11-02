@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "目标人物在当前互动中正对他人进行训诫，核验音频可知其并非单纯声音洪亮[person_0]，而是以极具爆发力的咆哮与咬牙切齿的斥责声喊出台词，配合其身体前倾、面部咬肌紧绷暴怒的面部姿态[person_1]，表明其处于强烈的愤怒情绪中，而非冷静陈述[E1][E2]。",
+  "answer": "angry",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "男子以极其高亢、撕裂且严厉咆哮的语调大声吼出“诚实是做生意的根本”",
+      "interpretation": "核实真实音轨表明人物发声带有极强的怒气与训斥意味，远超图谱中仅描述为发音用力的中性评价，支持愤怒情绪",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.36s",
+      "observation": "男子身体前倾，双目圆睁，面部肌肉极度紧绷并龇牙怒吼",
+      "interpretation": "与图谱节点[person_1]的紧绷、大张嘴动作对应，表现出典型的怒不可遏与具攻击性的外显神态",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_3",
+      "observation": "男子目光注视前方，嘴角下撇，眼神凝滞威慑",
+      "interpretation": "发话结束后依然保持严肃沉郁、嘴角下压的严厉神态，强化了其愤怒训斥后的余怒未消，排除欢快或惊讶",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "由于台词内容属于商业训诫格言，容易被误判为客观严肃的neutral；但实际音轨中强烈爆发的吼叫咆哮与面部咬牙切齿的前倾体态，明确否定了平静或中立的说理状态。"
+}

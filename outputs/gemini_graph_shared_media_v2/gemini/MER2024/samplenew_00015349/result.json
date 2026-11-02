@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00015349",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "bcd55e14af684d9817d928d38f4c0f9621768146d95143886c11d6eb856c9942",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "独立核验音画线索，目标男子在00:00-00:02处特意压低声量，采用急促的气声低语耳语[audio_subtitle:E1]，其台词“再这么吵下去的话，传到高家”明确是在预警事态扩大的负面连锁后果[audio_subtitle:E2]。视觉上，画面中男子双眉微聚、身体前倾紧盯对方交涉[image:E1]，展现出高度紧绷与防范态势。这种刻意收敛声音防备外人听闻的克制并非毫无波澜的neutral，而是典型的戒备与忧虑，故裁定为worried。",
+  "output": "独立核验音画线索，目标男子在00:00-00:02处特意压低声量，采用急促的气声低语耳语[audio_subtitle:E1]，其台词“再这么吵下去的话，传到高家”明确是在预警事态扩大的负面连锁后果[audio_subtitle:E2]。视觉上，画面中男子双眉微聚、身体前倾紧盯对方交涉[image:E1]，展现出高度紧绷与防范态势。这种刻意收敛声音防备外人听闻的克制并非毫无波澜的neutral，而是典型的戒备与忧虑，故裁定为worried。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 62.52627086639404
+}

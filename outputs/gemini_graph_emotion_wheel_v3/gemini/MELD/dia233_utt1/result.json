@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia233_utt1",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "28377b2eb5597e7f5b05f1f254a992b627c9f9588a264363ea2c03cb09ddd88d",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "恼火",
+      "mapped_label": "anger",
+      "mapping_reason": "Rachel针对对方不当做法提出质问与反驳，呈现出责备与烦躁的不满对抗姿态，符合情绪轮中anger（对受阻或不公的恼火、责备与对抗）的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "恼火",
+      "mapped_label": "anger",
+      "mapping_reason": "Rachel因对方未顾及自己而产生烦躁、抱怨与责难，属于对违背期望行为的不满与恼火，符合anger家族的定义。"
+    },
+    "image": {
+      "open_emotion": "恼火",
+      "mapped_label": "anger",
+      "mapping_reason": "Rachel当下的面部皱眉、摊手质问以及紧抿嘴角的表情展现了针对对方做法的烦躁、责备与抗议，符合anger家族中'恼火/annoyed'与'不满/displeased'的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "目标人物Rachel在画面中眉头蹙起、嘴角下撇并摊开双臂身体前倾，呈现出直接质问与抗议的肢体姿态[image:E1]。音频中其语速急促、音调在句尾骤升并加重，带有鲜明的抱怨与责难语气[audio_subtitle:E2]。台词中虽出现'freaked me out'，但结合上下文是转述既往事实作为反驳论据，现场并无即时威胁，其互动核心是对他人忽视自己感受的恼火与责备，因此排除fear，判定为anger。",
+  "output": "目标人物Rachel在画面中眉头蹙起、嘴角下撇并摊开双臂身体前倾，呈现出直接质问与抗议的肢体姿态[image:E1]。音频中其语速急促、音调在句尾骤升并加重，带有鲜明的抱怨与责难语气[audio_subtitle:E2]。台词中虽出现'freaked me out'，但结合上下文是转述既往事实作为反驳论据，现场并无即时威胁，其互动核心是对他人忽视自己感受的恼火与责备，因此排除fear，判定为anger。\n<answer>anger</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 59.16381883621216
+}

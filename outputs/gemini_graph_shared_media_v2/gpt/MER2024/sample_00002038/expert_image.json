@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物是画面中央的女性。她在连续帧中眉头明显收紧、眼睛看向画面右侧，嘴巴微张并保持警觉的面部姿态；字幕“他，是谁呀？”与这种带有不安和疑问的表现相符，因此最支持worried。[E1][E2]",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_04 @ 0.0–0.44秒",
+      "observation": "中央女性眉头持续收紧，眼神偏向画面右侧，嘴巴微张，面部肌肉较为紧绷。",
+      "interpretation": "持续的紧绷眉眼和定向注视支持担忧或警戒，而非放松的中性状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05至frame_07 @ 0.56–0.8秒",
+      "observation": "她仍看向右侧，嘴部保持张开，头部略向右转，未出现笑容。",
+      "interpretation": "对右侧对象的持续关注和张口反应与不安地询问相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "当前字幕：“他，是谁呀？”",
+      "observation": "字幕内容是在询问对方身份。",
+      "interpretation": "询问本身不能单独证明情绪，但与画面中的紧皱眉头和警觉注视结合，更支持担忧而非单纯中性。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "张口和眉头收紧也可能表示短暂惊讶，因此surprise是最强相反解释；但表情在0.0至0.8秒间持续紧绷并伴随定向注视，缺少明显的瞬时冲击特征。未提供音频，无法用语调进一步区分。"
+}

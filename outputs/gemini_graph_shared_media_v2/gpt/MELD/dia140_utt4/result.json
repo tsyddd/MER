@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia140_utt4",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "8fef145f22a30b21db1df9aa0b95769ecea3ec4535f7bae7d08d725b3cc323a7",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标是右侧穿格纹衬衫的Ross；他先短暂垂眼，随后看向对方并伸手说话，这一视觉变化可从画面核实，[image:E1]和[image:E2]的描述可信。字幕“Y'know, like-like write a play.”支持他正在提出想法，但重复措辞不能单独证明紧张或兴奋[audio_subtitle:E1]。最强反证是第6帧抬眉、张口；结合前后连续说话的画面，我更倾向于将其理解为话语强调，而非惊讶，因此选neutral。未提供音轨，无法核实语调。",
+  "output": "目标是右侧穿格纹衬衫的Ross；他先短暂垂眼，随后看向对方并伸手说话，这一视觉变化可从画面核实，[image:E1]和[image:E2]的描述可信。字幕“Y'know, like-like write a play.”支持他正在提出想法，但重复措辞不能单独证明紧张或兴奋[audio_subtitle:E1]。最强反证是第6帧抬眉、张口；结合前后连续说话的画面，我更倾向于将其理解为话语强调，而非惊讶，因此选neutral。未提供音轨，无法核实语调。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 61.84826159477234
+}

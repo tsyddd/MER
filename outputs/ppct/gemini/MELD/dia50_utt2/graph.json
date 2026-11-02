@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Female Student弯腰低头从书架过道快速穿过离开",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Female Student说出\"I'm so sorry!\"",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Female Student身体前倾弯腰，头部低下",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Female Student说话语速较快、带有急促感",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "在两侧摆满书架的图书馆走道内，旁边站着两名男子，前方有一名赤裸上身正在穿衣的男子",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "simultaneous",
+      "reason": "Female Student在弯腰低头穿过过道离开的同时说出道歉话语",
+      "entity_anchor": "Female Student"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "Female Student在前倾弯腰低头逃离的同时伴随急促快速的声音表现",
+      "entity_anchor": "Female Student"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提供其弯腰低头快速逃离现场的身体动作，process_1提供其口头道歉的言语互动，两者联合呈现出人物在撞见尴尬场面后边道歉边仓皇穿过走道离开的完整行动过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供其身体前倾弯腰、低头避开视线的体态表现，person_1提供其语速较快且急促的声音特征，视听表现相互印证，完整刻画了人物处于仓促慌乱中的整体状态表现。",
+      "entity_anchor": null
+    }
+  ]
+}

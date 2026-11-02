@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Monica说'Yeah baby!'时，语调上扬，充满活力，表现出积极和愉悦的情绪。她的面部表情是灿烂的笑容，与话语内容和语调一致，共同指向一种开心和兴奋的状态。",
+  "open_emotion": "兴奋",
+  "answer": "joy",
+  "mapping_reason": "根据MELD项目适配情绪轮的定义，'joy'指当前开心、愉悦、满足或兴奋的正向体验。Monica的言语内容'Yeah baby!'、上扬的语调和灿烂的笑容，都明确指向一种积极、愉悦和兴奋的情感状态，因此映射到'joy'是准确的。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "字幕: Yeah baby!",
+      "observation": "Monica说出了'Yeah baby!'这句话。",
+      "interpretation": "这句话通常用于表达兴奋、同意或热情，是积极情绪的直接语言表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "音频时间: 00:00-00:01",
+      "observation": "Monica的语调明显上扬，声音听起来很兴奋和热情。",
+      "interpretation": "上扬的语调和热情的音色是表达喜悦和兴奋的典型声学特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "Monica在整个片段中都保持着灿烂的笑容，眼睛弯起。",
+      "interpretation": "面部表情与言语和语调一致，共同构成了一个明确的喜悦情绪表达。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。所有模态的证据都一致地指向一种积极的情绪，没有与之矛盾的观察。"
+}

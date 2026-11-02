@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "目标人物Joey（画面左前方穿纽约游骑兵队白蓝条纹球衣者）在整段视频中身体站立平稳，双手自然下垂。在frame_00至frame_03期间，他侧头朝右侧走来的同伴方向张嘴发问，面部眉毛舒展无紧皱或明显抬高，眼神未见惊恐、愤怒或兴奋等特征；随后的frame_04至frame_07中头部微侧并低头，体态放松，整个交流过程属于完全日常且平稳的状态。结合音轨中简短、平淡的'What?'发音，没有突出的主导情感波动。",
+  "open_emotion": "平稳",
+  "answer": "neutral",
+  "mapping_reason": "Joey的面部和体态均处于日常交谈状态，无明显正向或负向情绪激活，完全符合neutral（平稳、日常且没有明确主导情绪的表达）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_03（0.0s-0.21s）",
+      "observation": "Joey身穿Rangers球衣，身体直立，面部肌肉放松，双眉处于自然位置，仅在发音'What?'时嘴唇适度张开，未出现抬眉、瞪眼或皱眉动作。",
+      "interpretation": "表明其发问仅为常规日常交流，缺乏强烈的惊讶或情绪波动。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.0s-0.4s",
+      "observation": "Joey发出简短而语调平缓的单字'What?'，音量适中，没有明显的抑扬顿挫或冲撞语调。",
+      "interpretation": "听觉信号佐证了其视觉上平稳、无显著情绪波动的日常状态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "单字疑问句'What?'本身常可承载轻微困惑或微弱的意外反应，但其面部缺乏睁眼或眉毛上扬等典型惊讶特征，不支持定为surprise。"
+}

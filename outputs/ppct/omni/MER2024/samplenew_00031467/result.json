@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00031467",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "音频中说话者语气平缓，内容为‘皇上闻着，正好，消乏，安睡’，结合其手持碗、面向男性并进行劝说的视觉行为，表明其正在以一种平静且关切的态度提供帮助，无明显情绪波动。",
+  "output": "音频中说话者语气平缓，内容为‘皇上闻着，正好，消乏，安睡’，结合其手持碗、面向男性并进行劝说的视觉行为，表明其正在以一种平静且关切的态度提供帮助，无明显情绪波动。\n<answer>neutral</answer>",
+  "label": "happy",
+  "elapsed_seconds": 79.20406484603882,
+  "node_count": 5,
+  "edge_count": 2
+}

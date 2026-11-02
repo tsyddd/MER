@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载女性在与男性交谈时眉头微蹙并注视对方〔person_0〕，随后语调上扬且语气急促地发问“不是 你为什么要辞职”〔person_1, process_0〕，紧接着又发出一声单字追问“啊”〔process_1〕。这种急促上扬的连续追问与微蹙眉头的神态，直接展现了她对对方突然辞职的消息感到意外与震惊。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "process_0",
+    "process_1"
+  ]
+}

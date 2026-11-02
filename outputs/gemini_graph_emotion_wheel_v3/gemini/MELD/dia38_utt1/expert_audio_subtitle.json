@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Joey在言语上直接表达对学生拿到试镜机会的欣慰与自豪（'I’m so proud'），开头的感叹词'Awww'语调拖长且充满柔和与感动，句尾音调饱满温和并伴有欣悦的气声。结合其双手护胸的温情举止与感动的微笑，整体表现出强烈的正向温暖与欣慰体验。",
+  "open_emotion": "欣慰",
+  "answer": "joy",
+  "mapping_reason": "开放情绪'欣慰/自豪'是对他人成就产生的正向满足与愉悦情感，符合情绪轮中joy关于满足、愉悦的正向体验定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:03.5",
+      "observation": "Joey以温柔而拖长的感叹词'Awww'起始，随后语调轻柔带笑，在重读'proud'时语流微颤且音色充满温情。",
+      "interpretation": "柔和饱满的语调与温暖的气息表达了真切的感动与欣喜。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Awww, one of my students got an audition. I’m so proud.",
+      "observation": "台词直陈'one of my students got an audition'这一好消息，并以'I’m so proud'定性自身感受。",
+      "interpretation": "言语行为是直接分享喜讯并表达骄傲满足，语义具有明确的正向效价。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01至frame_07",
+      "observation": "Joey双手交叠捂在胸前，眼神专注柔和，嘴角扬起感触与欣慰的笑容。",
+      "interpretation": "护心手势与温暖微笑强化了声音中传达的感动与欣慰情感。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "Joey微蹙眉头的感触表情在视觉上可能略带感伤色彩，但言语内容及温和带笑的语调明确指向积极正向的感动与自豪，排除了负向的sadness。"
+}

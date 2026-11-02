@@ -1,0 +1,10 @@
+{
+  "reason": "我回看frame_00至frame_06，目标女子持续看向右侧并开口说话，眉眼和姿态总体放松，未见持续明确的笑容、皱眉或惊讶。图像专家对连续视觉表现的判断较可信，指出嘴角未形成明确微笑[image:E1][image:E2]；字幕“皇上闻着，正好，消乏，安睡。”确实支持照料和安抚，但不必然等于开心[image:E3][audio_subtitle:E1]。audio_subtitle专家据此判为happy的解释与语义相符，但其“轻微愉悦”缺少音频语调核验，且视觉证据不足以区分礼貌安抚与愉悦，因此取更稳妥的中性判断。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "image:E3",
+    "audio_subtitle:E1"
+  ]
+}

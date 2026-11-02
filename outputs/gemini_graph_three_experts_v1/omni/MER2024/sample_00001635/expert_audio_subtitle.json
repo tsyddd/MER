@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "音频中说话者语气短促且带有犹豫，语调上扬，表现出一种未预料到的情况，结合字幕内容“我：不。”，可判断其情绪为惊讶。",
+  "answer": "surprise",
+  "evidence_refs": []
+}

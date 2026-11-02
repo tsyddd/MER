@@ -1,0 +1,8 @@
+{
+  "reason": "独立核对全部原始帧与音轨可知，虽然字幕台词为“You are both idiots.”，但Monica并非表达真正的指责或对抗。在音轨[audio_subtitle:E1]中，其发音轻快微扬且夹杂着明显的笑意，完全没有愤怒的压迫或紧绷；在视觉画面[image:E1]中，从frame_04至frame_07其嘴角明显上扬、露出调侃笑意，双手轻握于胸前，姿态放松而专注。言语贬义与积极声貌呈现反差幽默，明确表达出对朋友行为感到好笑与戏谑逗乐的正向体验，依规则准确映射为joy。",
+  "answer": "joy",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "image:E1"
+  ]
+}

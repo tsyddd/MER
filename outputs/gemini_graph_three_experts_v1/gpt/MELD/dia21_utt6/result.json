@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia21_utt6",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "bf42e3a608598de26188e2d4e2714eda6e90f3de2c795d77c68bb3237d71f5d1",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "图像专家描述了持续明亮注视、由微笑到咧嘴笑以及放松亲近的姿态，图谱中的轻松语调与轻笑方向一致，但两者部分可能同源，不能视为完全独立证据。字幕“huh? Seriously.”支持短暂惊讶，不过缺少音频且该表达不必然代表整体情绪；综合可见表情与姿态，当前更偏愉悦。",
+  "output": "图像专家描述了持续明亮注视、由微笑到咧嘴笑以及放松亲近的姿态，图谱中的轻松语调与轻笑方向一致，但两者部分可能同源，不能视为完全独立证据。字幕“huh? Seriously.”支持短暂惊讶，不过缺少音频且该表达不必然代表整体情绪；综合可见表情与姿态，当前更偏愉悦。\n<answer>joy</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 71.28777933120728
+}

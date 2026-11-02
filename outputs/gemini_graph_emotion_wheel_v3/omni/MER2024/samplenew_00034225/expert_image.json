@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物在对话中表现出明显的惊讶和疑问。他的眉毛上扬，眼睛睁大，嘴巴微张，这些是典型的惊讶表情。结合字幕内容“怎么？他不好对付啊”，表明他正在对一个出乎意料的情况做出反应，因此主要情绪是惊讶。",
+  "open_emotion": "惊讶",
+  "answer": "surprise",
+  "mapping_reason": "根据情绪轮定义，'surprise'指因当前信息违背预期产生的意外、诧异或震惊。目标人物的面部表情（睁大的眼睛、上扬的眉毛）与字幕内容（对一个新情况的疑问）高度一致，表明他正在经历一个意外的发现，因此映射到'surprise'是准确的。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "目标人物的眉毛上扬，眼睛睁大，嘴巴微张。",
+      "interpretation": "这是典型的惊讶表情，表明他正在对一个出乎意料的情况做出反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "怎么？他不好对付啊。",
+      "observation": "字幕显示目标人物正在询问对方关于“他不好对付”的情况。",
+      "interpretation": "这句话表明他正在获取一个新信息，并对此表示疑问，这与惊讶情绪相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_03",
+      "observation": "目标人物的嘴巴张得更大，表情更加惊讶。",
+      "interpretation": "面部表情的加强表明他的惊讶情绪在对话中持续并可能增强。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有发现支持其他情绪（如愤怒、悲伤、担忧）的明确视觉证据。他的表情是即时的、对信息的反应，而非对后果的担忧或对冒犯的愤怒。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00002893",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "9d46ffb3a0e6d7ee83ce5711674ec38a79e6e03c6208bac88d0b6ce9c7023ef2",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "字幕内容涉及朋友遭到诽谤且事态扩大，并以未完句收尾，支持对发展的担忧；图像专家报告的紧皱眉头、眼神不安和持续紧绷也与此一致。图谱中的声音描述与其他来源可能存在同源重复，且音频专家明确未提供音频，因此不将其作为独立听觉证据，但综合现有字幕和画面，当前情绪更符合担忧。",
+  "output": "字幕内容涉及朋友遭到诽谤且事态扩大，并以未完句收尾，支持对发展的担忧；图像专家报告的紧皱眉头、眼神不安和持续紧绷也与此一致。图谱中的声音描述与其他来源可能存在同源重复，且音频专家明确未提供音频，因此不将其作为独立听觉证据，但综合现有字幕和画面，当前情绪更符合担忧。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 88.96365666389465
+}

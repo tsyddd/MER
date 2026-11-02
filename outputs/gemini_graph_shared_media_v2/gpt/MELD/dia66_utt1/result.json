@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia66_utt1",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "c398d30886c2843c21af96c15c9bcdddf2dff86a4ef358b1b57842960c047eb1",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标空乘是左侧女子，右侧金发女子的持续露齿笑容不能归给她；因此[image:E1]虽准确描述了画面中的笑容，却认错了目标。回看frame_06至frame_07，空乘面向对方，嘴角仅略有上扬，[graph:E1]对这一画面的描述可信。字幕“Thank you! Enjoy your flight?”与礼貌送别相符，但不足以证明喜悦；未提供音轨，也无法核实语气。相较于轻度joy，现有目标人物证据更支持平稳、礼貌的neutral。",
+  "output": "目标空乘是左侧女子，右侧金发女子的持续露齿笑容不能归给她；因此[image:E1]虽准确描述了画面中的笑容，却认错了目标。回看frame_06至frame_07，空乘面向对方，嘴角仅略有上扬，[graph:E1]对这一画面的描述可信。字幕“Thank you! Enjoy your flight?”与礼貌送别相符，但不足以证明喜悦；未提供音轨，也无法核实语气。相较于轻度joy，现有目标人物证据更支持平稳、礼貌的neutral。\n<answer>neutral</answer>",
+  "label": "joy",
+  "elapsed_seconds": 83.07614517211914
+}

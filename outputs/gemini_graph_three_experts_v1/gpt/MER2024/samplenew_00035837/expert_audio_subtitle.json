@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。字幕表达“再也没有亲人了”的失去与孤独，当前措辞体现出悲伤态度。",
+  "answer": "sad",
+  "evidence_refs": []
+}

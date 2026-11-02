@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia239_utt0",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物是左侧的Gunther，字幕节点process_0显示他当前说“Someone in there?”；画面中的context_0确认他在室内面对右侧男子。该问句表现为对屋内是否有人的普通询问，且没有明显愤怒、悲伤、喜悦、恐惧或厌恶表情，因此判为neutral。",
+  "output": "目标人物是左侧的Gunther，字幕节点process_0显示他当前说“Someone in there?”；画面中的context_0确认他在室内面对右侧男子。该问句表现为对屋内是否有人的普通询问，且没有明显愤怒、悲伤、喜悦、恐惧或厌恶表情，因此判为neutral。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 76.17958784103394,
+  "node_count": 4,
+  "edge_count": 2
+}

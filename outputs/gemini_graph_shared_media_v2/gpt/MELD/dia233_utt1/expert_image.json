@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标是画面左侧穿粉色上衣的Rachel，而非背对镜头的金发女子。她面向对方说话时持续皱眉、反复张口，并以手势强调话语[E1][E2]；字幕显示她在责问对方明知鱼会让她害怕[E3]。综合来看，当前最有支持的标签是anger，但其中也有担忧的成分[E4]。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.6256245142666815秒",
+      "observation": "Rachel面向右侧女子，眉头收拢、嘴张开，右手向外抬起。",
+      "interpretation": "面部与手势同时加强说话力度，支持她正在表达不满；单凭张口不能判断情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 2.502498057066726秒；frame_05 @ 3.1281225713334075秒",
+      "observation": "她继续直视对方，眉间紧绷；张口说话后，双唇收紧。",
+      "interpretation": "持续的紧绷神态比一瞬间的手势更支持不满，而非轻松交谈。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“Honey, if you wanted to do that, you might as well just gotten him a fish, you know how fish freaked me out!”",
+      "observation": "字幕中她指出对方明知鱼会让自己害怕，仍提出了与鱼相关的做法。",
+      "interpretation": "话语中的责备支持对视觉不满表现的判断；字幕不能证明她的语调。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_07 @ 4.37937159986677秒",
+      "observation": "她放下手臂，仍望着对方，眉头未完全舒展，嘴微张。",
+      "interpretation": "这一刻也可能被读作担忧，限制了将整段表现视为纯粹愤怒的判断。",
+      "polarity": "counter"
+    }
+  ],
+  "counterevidence": "最强的相反解释是fear：字幕明确说鱼让她害怕，末帧神态也可读作担忧[E3][E4]。但画面中她主要是在面向对方强调、责问，而不是对眼前威胁作出退避反应，因此未选fear。"
+}

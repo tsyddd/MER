@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00036745",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "该人物在说台词时，面部表情严肃，眼神专注，语气平稳且坚定，没有表现出明显的情绪波动。其行为是陈述事实并做出决定，整体状态符合中性情绪的特征。",
+  "output": "该人物在说台词时，面部表情严肃，眼神专注，语气平稳且坚定，没有表现出明显的情绪波动。其行为是陈述事实并做出决定，整体状态符合中性情绪的特征。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 5.768949747085571,
+  "node_count": null,
+  "edge_count": null
+}

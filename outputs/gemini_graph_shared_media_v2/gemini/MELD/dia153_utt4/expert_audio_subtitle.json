@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Joey在音频中语速快、音量偏大，对'fear of heights'与'top of the building'带有极强的重音与冲劲，言语行为属于激烈的反驳与施压质问；结合其紧锁眉头并伸指强调的体态，展现出烦躁与激动的情绪状态，符合anger的表现特征。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00 - 00:03",
+      "observation": "Joey在说话时音量明显提高，语气生硬急促，在'heights'和'top of the building'处有明显的重音爆发和向下的强硬语调。",
+      "interpretation": "重音强调与紧迫冲动的韵律显示出他在激烈争辩或宣泄情绪，非平静陈述。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "It have a fear of heights, you go to the top of the building!",
+      "observation": "字幕展示出祈使反驳句式，虽然谈及'fear'，但字面情绪词是论述主题而非自述情绪。",
+      "interpretation": "说明其言语行为是激烈的争辩施压，属于情绪激动驱动的表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.71s",
+      "observation": "Joey眉头紧锁，嘴角向下绷紧，右手抬起指向对方做强调手势。",
+      "interpretation": "紧绷的面部表情和指责/强调手势与高亢的激昂语气相呼应，强化了愤怒、烦躁的表现。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "替代解释可能认为他只是在给出克服恐惧的激昂建议或偏向中性争论；但由于其音量爆发度高、咬字重且带有明显的身体对峙与烦躁情绪，明显超出中性范围。"
+}

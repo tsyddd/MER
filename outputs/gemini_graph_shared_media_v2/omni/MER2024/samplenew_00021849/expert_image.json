@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物（男性）在所有可见帧中均保持身体前倾，手扶车顶边缘，视线稳定地注视着车内女性。其面部表情无明显变化，眉毛未见皱起或上扬，嘴角未见明显动作，整体姿态和表情保持一致。字幕内容为“你先上我的车，先回去”，结合其稳定的身体语言，视觉上未表现出强烈的情绪波动。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "目标人物身体前倾，手扶车顶边缘，视线朝向车内女性。",
+      "interpretation": "该姿态表明其正在与车内人物进行交流，但未表现出激动或紧张等情绪的典型肢体语言。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_07 @ 2.12",
+      "observation": "目标人物面部表情稳定，无明显肌肉运动。",
+      "interpretation": "面部无皱眉、微笑或张嘴等情绪化特征，支持其情绪状态为中性。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "字幕: 你先上我的车，先回去",
+      "observation": "字幕内容为指示性话语。",
+      "interpretation": "该话语内容本身不带有强烈情感色彩，与视觉上稳定、克制的表达一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "音频中该话语的语调平稳，无明显情绪起伏，进一步支持视觉上的中性判断。"
+}

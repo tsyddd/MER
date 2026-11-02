@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia40_utt0",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "254c3294b62a3335eb4728ae3603d205e9201e73ba279aea4479f5c9c586672e",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "目标人物Monica在画面中从低头微笑逐渐转为面向前方的灿烂露齿大笑（核验frame_04至frame_07），面部舒展且伴有眼角笑意，展现出典型的愉悦神态[image:E1]。音轨中Monica轻柔上扬、带有清晰笑意与亲昵口吻喊出“Yeah baby!”，听觉特征与视觉表情高度契合[audio_subtitle:E2]。反方可能主张这属于日常社交互动中的随和回应（neutral），但持续且显著的露齿笑容与欣喜的言语韵律均已明显超越中性基线，故判定为joy。",
+  "output": "目标人物Monica在画面中从低头微笑逐渐转为面向前方的灿烂露齿大笑（核验frame_04至frame_07），面部舒展且伴有眼角笑意，展现出典型的愉悦神态[image:E1]。音轨中Monica轻柔上扬、带有清晰笑意与亲昵口吻喊出“Yeah baby!”，听觉特征与视觉表情高度契合[audio_subtitle:E2]。反方可能主张这属于日常社交互动中的随和回应（neutral），但持续且显著的露齿笑容与欣喜的言语韵律均已明显超越中性基线，故判定为joy。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 46.56748986244202
+}

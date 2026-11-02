@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00006335",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "a0bf56d9fb9db16ede1f6dafeaeb4ef47157197d9bed5ab5ad9436046022afb9",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "焦虑不安",
+      "mapped_label": "worried",
+      "mapping_reason": "目标人物的质问源于前方可能出现的负面事态和未知风险，言行核心聚焦于可能恶化的局势后果，符合情绪轮中worried关于‘对可能负面结果、未知风险的顾虑与焦虑’的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "当前信息与既成预期严重不符，言语及韵律核心在于对突发情况的即时错愕与质疑，符合surprise（因当前信息违背预期产生的意外、诧异或震惊）的定义。"
+    },
+    "image": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "当前信息直接违背其认知预期，面部表现为典型的瞪大双眼与抬眉，属于情绪轮中由信息违背预期引发的惊讶家族（surprise）。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "目标人物在电话中针对已定部署提出反问“关东军不是已经增兵甲子沟、煤矿了吗？”，言语行为具有强烈的认知预期违背特征[audio_subtitle:E1]。经独立核验音轨00:00-00:02，其语调急促且尾音“了吗”明显上扬质问，与画面中镜片后双眼圆睁、眉头抬起的神态相呼应[image:E1][audio_subtitle:E2]。相比于专家转述所谓沉重忧虑的判断[graph:E2]，实际音视频充分展现了其初闻意外消息时的即时错愕与诧异，符合surprise定义。",
+  "output": "目标人物在电话中针对已定部署提出反问“关东军不是已经增兵甲子沟、煤矿了吗？”，言语行为具有强烈的认知预期违背特征[audio_subtitle:E1]。经独立核验音轨00:00-00:02，其语调急促且尾音“了吗”明显上扬质问，与画面中镜片后双眼圆睁、眉头抬起的神态相呼应[image:E1][audio_subtitle:E2]。相比于专家转述所谓沉重忧虑的判断[graph:E2]，实际音视频充分展现了其初闻意外消息时的即时错愕与诧异，符合surprise定义。\n<answer>surprise</answer>",
+  "label": "angry",
+  "elapsed_seconds": 66.14293479919434
+}

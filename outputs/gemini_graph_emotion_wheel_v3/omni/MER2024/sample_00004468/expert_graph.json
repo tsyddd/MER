@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "目标人物在陈述完“裘院长离婚”这一事件后，立即以疑问的语调和表情质询对方“你怎么这么高兴呢”，其眉毛上扬、眼睛睁大、语气上扬的特征表明，她对对方的高兴情绪感到意外和不解。这种即时的、带有质问意味的反应，最符合因信息违背预期而产生的惊讶情绪。",
+  "open_emotion": "惊讶",
+  "answer": "surprise",
+  "mapping_reason": "根据情绪轮定义，'surprise'（惊讶）指因当前信息违背预期产生的意外、诧异或震惊。目标人物的质问并非出于愤怒或悲伤，而是直接针对对方情绪的反常，其面部表情（眉毛上扬、眼睛睁大）和疑问语气都指向对突发情况的即时反应，因此映射为'surprise'最为准确。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_06",
+      "observation": "目标人物眉毛微扬，眼睛睁大，注视前方。",
+      "interpretation": "该表情是惊讶情绪的典型面部表现，与她提出疑问的语境相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:04",
+      "observation": "目标人物说出“哎，甄，裘院长离婚，你怎么这么高兴呢？”，语调上扬。",
+      "interpretation": "疑问句的上扬语调表明她对对方的高兴情绪感到意外和不解，这是惊讶情绪的听觉证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_2",
+      "observation": "目标人物向对方发问“你怎么这么高兴呢”。",
+      "interpretation": "该行为是惊讶情绪的直接表达，即对他人反常反应的质询。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。"
+}

@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "Rachel当前说自己的床和衣服都毁了，并举起衣物让身边的人看[E1][E3]；她随后低头闭眼，表情低落[E2]。图谱节点process_1记录了举衣展示的互动顺序[E4]，但它与画面中的动作是同一事实，不能重复算作情绪证据。结合她谈论自身损失时的表现，判断为sadness；没有原音轨，不能核验语调，也无法从画面确认衣物是否烧损。",
+  "answer": "sadness",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“Everythings ruined. My bed. My clothes. Look at my favorite blue sweater.”",
+      "observation": "Rachel说自己的床和衣服都毁了，并请旁人看她喜欢的蓝色毛衣。",
+      "interpretation": "这是她对当前自身损失的表述，使低落神情更倾向于难过，而非单纯疲惫。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.0844158247289146秒",
+      "observation": "Rachel低下头、闭上眼，嘴角下垂。",
+      "interpretation": "她在诉说损失期间显得低落，支持难过的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_06 @ 2.127123348506717秒",
+      "observation": "Rachel把手中的蓝灰色衣物举到面前，向身旁的人展示。",
+      "interpretation": "这一动作对应她让旁人看毛衣的当前互动；画面不能据此确认衣物如何受损。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "图谱记载Rachel提起蓝色毛衣向众人展示，并称其烧损。",
+      "interpretation": "展示动作可由画面核对，有助于串联她的诉说与动作；“烧损”细节未能从所给画面确认，也不是额外的情绪证据。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "她也可能因物品受损而生气，但当前可见的是低头闭眼的低落表现；没有原音轨可核验是否带有愤怒语调，因此未采用anger。"
+}

@@ -1,0 +1,108 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Rachel说：“Everything’s ruined. My bed. My clothes. Look at my favorite blue sweater.”",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Rachel举起并展示一件蓝色毛衣。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Rachel坐在沙发上，嘴部张开。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Rachel低头看向手中的物品。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "Rachel与另外两名女性坐在沙发上，旁边有两名男性站立。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "当前互动围绕Rachel展示的蓝色毛衣展开。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "Rachel展示蓝色毛衣这一行为发生在她提到并让他人看蓝色毛衣之后",
+      "entity_anchor": "Rachel与蓝色毛衣"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "同一人物Rachel先张嘴说话，随后低头看向手中的物品",
+      "entity_anchor": "同一人物Rachel"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提供Rachel通过字幕表达物品受损并提及蓝色毛衣的信息，process_1提供她举起并展示蓝色毛衣的可见行为；联合后完整呈现了她先陈述损坏情况、再用实物指认和展示的当前互动过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供Rachel坐在沙发上并张口说话的可见表现，person_1提供她低头注视手中物品的可见表现；联合后补充出她在说话过程中将注意力转向并检查所展示物品的连续行为。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0限定了互动发生在多人共同坐立的室内场景，context_1进一步限定当前互动的具体对象是Rachel展示的蓝色毛衣；联合后更完整地说明了参与者配置及正在围绕的物品。",
+      "entity_anchor": null
+    }
+  ]
+}

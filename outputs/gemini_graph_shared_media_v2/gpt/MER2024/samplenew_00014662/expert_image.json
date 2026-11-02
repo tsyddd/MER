@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物是前7帧中的女性；她在frame_00至frame_05持续眉头紧蹙、内侧眉毛上扬，张口说话并将视线投向画面外，随后frame_06仍保持眉部紧张但姿态略放松。[E1][E2]字幕明确说“我主要是担心这事会牵连到您家老爷子”，与可见的担忧表情一致。[E3]",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_05 @ 0.0–3.280秒",
+      "observation": "女性目标人物眉头持续向中间收拢，内侧眉毛上扬，眼睛睁开并看向画面外，嘴巴多次张开。",
+      "interpretation": "这些连续的面部紧张和关注特征支持担忧或忧虑，而非轻松或愉快。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_06 @ 3.960秒",
+      "observation": "目标人物头部略向一侧倾斜，眉部仍有明显紧张，嘴角没有形成清晰微笑。",
+      "interpretation": "表情虽稍有缓和，但仍保留关切和不安的视觉表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "当前字幕原话：“我主要是担心这事会牵连到您家老爷子。”",
+      "observation": "字幕直接表达对事情牵连他人的担心。",
+      "interpretation": "字幕内容与视觉上的眉部紧张、专注注视相互印证，强化worried判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "她始终保持坐直、克制的姿态，没有明显哭泣或强烈失控动作，因此也可能是礼貌而严肃地表达关切；但字幕明确使用“担心”，且连续多帧眉部紧张，使worried比neutral更有支持。"
+}

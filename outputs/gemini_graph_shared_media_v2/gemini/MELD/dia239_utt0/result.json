@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia239_utt0",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "b7c708f8d9735f8954957fb30790839e5a1cfb9b416c9423567de212ceab0391",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物Gunther在画面中神情自然平缓，回看全段各帧（如frame_01至frame_05）其面部肌肉舒展，无瞪眼、挑眉或嘴角下垂等强烈情绪外显特征，符合[image:E1]的可信观察。在实际音频0.0s-0.7s处，其询问\"Someone in there?\"声线平稳从容，仅呈现自然的微弱疑问语调，完全缺乏惊讶所需的高唤醒度音高突升，正如[audio_subtitle:E2]所述。言语行为仅为普通的日常信息探询，视觉与听觉线索高度互补，共同指向客观平静的中性状态。",
+  "output": "目标人物Gunther在画面中神情自然平缓，回看全段各帧（如frame_01至frame_05）其面部肌肉舒展，无瞪眼、挑眉或嘴角下垂等强烈情绪外显特征，符合[image:E1]的可信观察。在实际音频0.0s-0.7s处，其询问\"Someone in there?\"声线平稳从容，仅呈现自然的微弱疑问语调，完全缺乏惊讶所需的高唤醒度音高突升，正如[audio_subtitle:E2]所述。言语行为仅为普通的日常信息探询，视觉与听觉线索高度互补，共同指向客观平静的中性状态。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 48.74890160560608
+}

@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "目标人物为画面中央的女性。她在frame_00至frame_03眼睛睁大、嘴巴呈圆形张开并直视画外对象，随后frame_04至frame_07仍保持抬眉和张口，面部反应明显高于平稳交流，最符合对当前信息的即时意外反应。[E1] 字幕仅为“我：不。”，与其否认性的即时反应相符，但没有音频可用于判断语气。[E2]",
+  "open_emotion": "诧异",
+  "answer": "surprise",
+  "mapping_reason": "“诧异”表示因当前信息违背预期而产生的即时意外感，符合画面中持续的睁眼、张口和抬眉表现，因此映射为Level1标签surprise。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07，时间0.0至1.494秒",
+      "observation": "目标女性面向画外，眼睛明显睁大，眉部上提，嘴巴从圆形张开到持续张口，后段面部仍较紧张。",
+      "interpretation": "这些连续的面部变化支持对当前情况感到意外、诧异，而非平稳叙述。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "当前字幕“我：不。”",
+      "observation": "字幕内容是简短的否认或回应。",
+      "interpretation": "与画面中的即时张口和睁眼反应相互吻合，但字幕本身不能单独确定情绪强度。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "后段frame_05至frame_07出现眉部紧张、牙齿可见的张口，可能也包含担忧或紧张；但缺少音频，且没有足够视觉证据表明她主要是在预期负面后果，因此仍以诧异为主。"
+}

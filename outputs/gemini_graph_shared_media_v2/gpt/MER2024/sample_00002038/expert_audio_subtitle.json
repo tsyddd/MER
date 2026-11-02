@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "字幕“他，是谁呀？”是直接的身份询问，不是反讽、否定或引述。结合画面中持续紧蹙的眉头、转向画外的目光和微张的嘴，当前表达更接近对未知人物的担忧或警觉，支持worried。[E1][E2]由于没有真实音轨，无法判断语调、音量、语速或停顿。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "当前字幕“他，是谁呀？”",
+      "observation": "说话者直接询问对方身份，句式为疑问句。",
+      "interpretation": "这是寻求信息的言语行为；疑问句本身不能单独确定情绪，但与对未知人物的担忧或警觉相容。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00至frame_07 @ 0.0–0.8秒",
+      "observation": "人物在连续画面中眉头紧蹙，目光转向画面右侧，嘴微张，面部状态较为紧张。",
+      "interpretation": "这些可见表现与询问陌生人物身份时的担忧或警觉一致，不太支持平静的neutral。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是surprise：张口和紧蹙眉也可能表示突然受惊。但表情在连续帧中较稳定，字幕是身份询问而非明显感叹；由于没有音频，仍缺少语调等信息来进一步区分。"
+}

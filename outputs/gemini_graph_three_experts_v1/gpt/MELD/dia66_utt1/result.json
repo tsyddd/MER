@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia66_utt1",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "c398d30886c2843c21af96c15c9bcdddf2dff86a4ef358b1b57842960c047eb1",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "图谱与字幕均指向礼貌、规范的服务交流，未显示明显强烈情绪；其中音频专家明确未提供音频，不能据此判断听觉特征。图片专家观察到笑容，与中性判断存在冲突，但微笑也可能是服务场景中的礼貌表现，综合取中性。",
+  "output": "图谱与字幕均指向礼貌、规范的服务交流，未显示明显强烈情绪；其中音频专家明确未提供音频，不能据此判断听觉特征。图片专家观察到笑容，与中性判断存在冲突，但微笑也可能是服务场景中的礼貌表现，综合取中性。\n<answer>neutral</answer>",
+  "label": "joy",
+  "elapsed_seconds": 56.3737154006958
+}

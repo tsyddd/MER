@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "在情境中，持续数小时不停歇的婴儿啼哭构成强烈的失控压力源。Rachel抱着婴儿踱步摇晃，语调尖锐急促且伴随哭腔高喊不知道该怎么办，肢体与面部呈现出高度紧绷的惊慌应激状态，体现出面对无法化解的危机时的极度恐慌与无助。",
+  "open_emotion": "恐慌",
+  "answer": "fear",
+  "mapping_reason": "Rachel所表现出的“恐慌”是面对婴儿长时间啼哭无法安抚、事态失去控制时产生的惊慌失措与无助焦虑，在情绪轮中紧密契合面向威胁后果与失控局面的 fear 家族。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:01-00:04",
+      "observation": "Rachel以极高且尖锐急促的颤音高喊'what am I gonna do, its been hours and it won’t stop crying'，声音伴有明显哭腔",
+      "interpretation": "强烈的声学应激反映出她内心处于失控边缘的无助与惊惶[E1]",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱记录节点person_2显示Rachel说话语调偏高、音量大且语速急促，并与process_0（婴儿持续啼哭）同步发生",
+      "interpretation": "图谱结构呈现了持续外部听觉刺激迫使目标人物陷入慌乱应激的因果互动[E2]",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_03",
+      "observation": "Rachel双眉紧锁，双目流露焦急神色，嘴巴张大，紧紧抱住怀中包裹的婴儿并局促踱步",
+      "interpretation": "其紧绷不安的肢体与神情体现了高度恐慌的生理反应[E3]",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "其口语发语词'Oh come on'及大声抱怨可能表面类似烦躁与愤怒（anger），但其语音语调充满无助哭腔且重点在寻求对策（'what am I gonna do'），本质是对无法解决危机的恐慌而非对具体对象的攻击。"
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "在当前事件交互中，Rachel面对金发女子提出关于公寓物品的疑问，结合图谱节点[person_2]与[person_3]，其发问过程语调连贯平稳、句尾呈正常疑问升调[E2]，面部表情直视对方且未出现皱眉或面部扭曲[E1]，整体展现为平实直接的探询状态，属于neutral。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.84s",
+      "observation": "Rachel在发问过程中直视对方，眉毛及眼眶平整放松，未见蹙眉或紧绷",
+      "interpretation": "表明其在表达质询时神态平静自持，缺乏愤怒或厌恶的典型外显表现",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:01-00:04",
+      "observation": "声音连贯清晰，语气平稳，仅在句末'apartment'呈现常规反问升调",
+      "interpretation": "声调没有攻击性高亢或压抑的颤抖，符合冷静中立的交谈方式",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱记录Rachel说话语调清晰且连贯，句子末尾带有疑问升调",
+      "interpretation": "印证其当前处于标准的提问互动事件中，情绪基调平稳可控",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词内容涉及怀疑对方故意驱赶自己（'drive me out'），可能被推测为愤怒（anger）；但从实际视听及交互表现看，Rachel语气平实无攻击性，仅作事实求证，未表现出愤怒。"
+}

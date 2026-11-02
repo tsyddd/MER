@@ -1,0 +1,10 @@
+{
+  "reason": "回看frame_00至frame_07，目标女子说话时持续垂眼、眉间微收，后段表情仍显低落；[image:E1]和[image:E2]对这一视觉变化的描述基本可信。字幕“手里还握着一截风筝线。”只是在叙述细节，[audio_subtitle:E1]指出它未明确表达损失或未来风险，这一限制成立。frame_06的嘴形短暂似笑，但不足以推翻前后持续的低落表现，也不能据此判为喜悦。图谱转述的抽噎般停顿[graph:E4]因未提供音轨无法核验，不作为依据；综合可见表现，选择sad。",
+  "answer": "sad",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "audio_subtitle:E1",
+    "graph:E4"
+  ]
+}

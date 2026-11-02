@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Rachel在台词中以责备语气对对方的做法提出质疑（[E1]）。音频中 Rachel 语速较快，声调在后半句明显扬起并加重，透出强烈的烦躁与抱怨（[E2]）。画面中她皱眉并摊开双手，呈现出对现状的不满（[E3]）。整段言语行为是对他人行为的责备，而非处于恐惧或中性状态。",
+  "open_emotion": "恼火",
+  "answer": "anger",
+  "mapping_reason": "Rachel因对方未顾及自己而产生烦躁、抱怨与责难，属于对违背期望行为的不满与恼火，符合anger家族的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "you know how fish freaked me out!",
+      "observation": "台词通过强调已知事实来反问并指责对方的决定。",
+      "interpretation": "表明其当前态度为责怪与抗议，而非平静叙事。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:03.8",
+      "observation": "说话节奏紧凑，语调带冲劲且在末尾音调骤升、语气尖锐。",
+      "interpretation": "体现出烦躁与愠怒的言语情绪特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01-frame_03",
+      "observation": "面部微皱双眉，嘴角紧绷，双手摊向前方做抱怨姿态。",
+      "interpretation": "动作与表情支持其不满与抗议的态度。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词中出现了'freak me out'，但该词仅用作指责对方理据的从句，并非当前面对即刻威胁的惊恐（fear）。"
+}

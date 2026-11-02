@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia224_utt2",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "催眠录音带以平稳、舒缓且单调的声音引导入眠，语调没有任何明显的情感起伏，呈现客观平淡的特征。",
+  "output": "催眠录音带以平稳、舒缓且单调的声音引导入眠，语调没有任何明显的情感起伏，呈现客观平淡的特征。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 6.009289979934692,
+  "node_count": null,
+  "edge_count": null
+}

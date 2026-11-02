@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "围绕主要人物与对面男子的当前互动组织事件链：主要人物正就交易毁约当面清算对方的过错。图谱节点[process_0]（主要人物指责“可是你背信弃义，你一个劲儿地抬价”）与[person_1]（语速急促、音量偏高）准确反映了主要人物针对他人冒犯与不公行为的当面对抗与声讨；视觉上其双眼圆睁、面部紧绷怒视对方[person_3]，整体情境语义与跨模态表现直接指向被背叛后的愤怒情绪。",
+  "open_emotion": "愤慨",
+  "answer": "angry",
+  "mapping_reason": "开放情绪“愤慨”体现了面对他人不公或冒犯行为时的生气与严厉责备倾向，符合情绪轮中angry家族的核心定义，故映射为angry。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "可是，你背信弃义，你一个劲地抬价。",
+      "observation": "主要人物当面斥责对方背叛信义、反复恶意哄抬价格的行为。",
+      "interpretation": "明确将负面事件归因于对面的谈话对象，具有极强的道德谴责与对抗意向。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "音轨中语调急促高亢，在“背信弃义”、“一个劲儿地抬价”等词上重读加力，伴随明显的斥责口吻。",
+      "interpretation": "核实了图谱节点person_1的急促高音特征，听觉上呈现出强烈的问责与愠怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05-frame_07",
+      "observation": "主要人物双眼怒瞪圆睁，嘴唇紧绷微龇，视线死死锁定对方。",
+      "interpretation": "与图谱person_3的双眼睁大相印证，体现出施加言语威慑的紧逼神态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "节点记录了主要人物对对面男子的当面指责事件链。",
+      "interpretation": "该事件属于目标人物当前主动发起的对抗性互动，直接支撑其愤怒情感状态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "主要人物在后半段双眼睁大（如frame_06、frame_07），孤立从面部特征看容易被误判为surprise（惊讶），但事件语义是针对已知背信行为的翻脸清算而非突发意外，且伴随持续的言语攻击，因此排除了惊讶假设。"
+}

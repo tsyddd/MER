@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "Joey在说话时双手抬起交叉按在胸前（person_1），同时发出轻叹声调、语速平稳柔和（person_2），随后头部微斜、嘴角上扬微笑注视对方（person_3）。这些动作与声音特征共同表现出一种情感投入的外显表现，结合台词内容‘I’m so proud’，表明其情绪为喜悦。图谱记载的音频派生描述（person_2）支持其声调柔和且带有情感色彩。",
+  "answer": "joy",
+  "evidence_refs": [
+    "person_1",
+    "person_2",
+    "person_3"
+  ]
+}

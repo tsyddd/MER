@@ -1,0 +1,83 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "女性说出：“皇上闻着，正好，消乏，安睡。”",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle",
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "女性坐着，头部转向右侧，视线看向右侧。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "女性说话时嘴部开合。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "画面为室内场景，女性位于画面左侧，旁边有一盏点亮的灯笼及植物装饰。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "画面切换为较宽视角后，可见女性与一名躺靠在榻上的男子同处室内。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "simultaneous",
+      "reason": "同一女性在说话时保持坐姿并将头部和视线转向右侧",
+      "entity_anchor": "同一女性"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供女性坐着并转头看向右侧的姿态与视线信息，person_1提供女性说话时嘴部开合的信息；联合后可观察到女性正面向右侧对象进行说话。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0提供室内、女性位于左侧及灯笼和植物装饰的信息，context_1补充宽视角下女性与躺靠在榻上的男子同处室内的信息；联合后更完整限定了女性在装饰性室内环境中面对榻上男子的场景。",
+      "entity_anchor": null
+    }
+  ]
+}

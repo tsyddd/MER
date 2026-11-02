@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia233_utt0",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "a94f5575d3aaa8dce6c1acd443e893d451a7588d0c29ef22d0ffe8091580c26e",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "不满",
+      "mapped_label": "anger",
+      "mapping_reason": "此处的不满指向她所质疑的针对性行为，并以当面质问表达，符合anger中因受冒犯而责备、对抗的方向；不意味着她已表现出强烈愤怒。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "恼火",
+      "mapped_label": "anger",
+      "mapping_reason": "当前表达的重点是对疑似针对自己的行为提出责问，符合anger中因受到冒犯而不满、对抗的方向；不需要达到强烈愤怒的程度。"
+    },
+    "image": {
+      "open_emotion": "不满",
+      "mapped_label": "anger",
+      "mapping_reason": "这里的不满指向她认为对方可能在针对自己，并以质问表达，较符合anger中的责备与对抗；画面支持的是较克制的表达。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "画面中，目标人物Rachel从垂眼转为直视对方，眉间收紧；[image:E1]对这一变化的描述与所给帧相符。字幕中她问对方是否借给Joey买这些东西来把自己赶出公寓，[audio_subtitle:E1]将其理解为质疑对方意图，比单纯询问物品来历更贴合原话，但这个意图尚未得到证实。末帧神情有所缓和[image:E4]，也没有可核验的音轨来判断语气；这限制了愤怒的强度，却不抵消她当面表达的不满。相比对被赶走的畏惧，当前更明确的是指向对方的责问，因此选择anger。",
+  "output": "画面中，目标人物Rachel从垂眼转为直视对方，眉间收紧；[image:E1]对这一变化的描述与所给帧相符。字幕中她问对方是否借给Joey买这些东西来把自己赶出公寓，[audio_subtitle:E1]将其理解为质疑对方意图，比单纯询问物品来历更贴合原话，但这个意图尚未得到证实。末帧神情有所缓和[image:E4]，也没有可核验的音轨来判断语气；这限制了愤怒的强度，却不抵消她当面表达的不满。相比对被赶走的畏惧，当前更明确的是指向对方的责问，因此选择anger。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 84.0576856136322
+}

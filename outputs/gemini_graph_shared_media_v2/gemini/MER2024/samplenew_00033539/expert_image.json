@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物在各帧中双眉高挑、额头皱起、嘴巴微张[E1]，配合急促且明显升调的疑问反问语音[E2]及文本[E3]，体现出听到意外消息时的惊讶反应。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.28",
+      "observation": "目标人物双眉抬起并向中央聚集，额头出现明显的抬头纹，双眼睁开直视对方，嘴唇微张",
+      "interpretation": "抬眉与微张口呈现出受外部信息刺激后的讶异神态",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.0s-1.8s",
+      "observation": "发音“啊？真的？”语调高且明显向上挑起，带有即时反问语气",
+      "interpretation": "印证了因突发消息而产生的吃惊与意外感，而非沉重悲伤",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "啊？真的。",
+      "observation": "字幕为感叹疑问句“啊？真的。”",
+      "interpretation": "语义表现出对事实的难以置信与意外",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "眉心微蹙与额头紧皱可能被解读为担忧（worried），但其语调轻快上挑且缺乏叹气或低沉压抑感，因而排除worried。"
+}

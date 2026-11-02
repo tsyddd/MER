@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia109_utt4",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "The speaker's voice is high-pitched, loud, and spoken at a fast rate, which are vocal cues for surprise. Her arms are crossed, her mouth is open, and she raises both hands in gestures, which are physical expressions of surprise or disbelief. These vocal and physical characteristics are observed simultaneously with her facial and postural expressions.",
+  "output": "The speaker's voice is high-pitched, loud, and spoken at a fast rate, which are vocal cues for surprise. Her arms are crossed, her mouth is open, and she raises both hands in gestures, which are physical expressions of surprise or disbelief. These vocal and physical characteristics are observed simultaneously with her facial and postural expressions.\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 234.99838781356812,
+  "node_count": 13,
+  "edge_count": 16
+}

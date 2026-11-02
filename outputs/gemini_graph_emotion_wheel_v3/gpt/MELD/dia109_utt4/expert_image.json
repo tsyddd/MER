@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是画面右侧、面对镜头左侧男子说话的Janice，并非前景背对镜头的男子或后方的女士。她从抱臂转为前倾并用双手强调问话，眉毛上抬、嘴张开；结合字幕中的确认式反问，较支持轻微诧异[E1][E2][E3]。但这些动作也可能只是认真确认，并非强烈的惊讶。",
+  "open_emotion": "诧异",
+  "answer": "surprise",
+  "mapping_reason": "当前的抬眉、表情变化和确认式反问，较符合对信息感到意外的轻微诧异，因此映射为surprise；画面不足以判断更强烈的震惊。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.00秒）至frame_02（1.04秒）",
+      "observation": "Janice面向前景男子，双臂交叉；随后眉毛抬起、头略倾，张口说话。",
+      "interpretation": "相对于起初的姿态，面部变化支持她对眼前谈话有所反应，但单凭抱臂不能判定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04（2.04秒）至frame_07（3.59秒）",
+      "observation": "她松开交叉的双臂，身体略向前，双手连续做强调手势，末尾举起手指看向对方。",
+      "interpretation": "持续的强调动作支持她在追问或确认，而非毫无反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“Oh, are you sure?”",
+      "observation": "字幕是一句确认式反问。",
+      "interpretation": "与可见的抬眉和手势合看，支持轻微意外的解释；字幕本身不能证明她的语调。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的相反解释是她只是在认真求证：后段手势有条理，未见持续睁大双眼或明显退缩。没有提供音频，无法用语调区分诧异与普通询问。"
+}

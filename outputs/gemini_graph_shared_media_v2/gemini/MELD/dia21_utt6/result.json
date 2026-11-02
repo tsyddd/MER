@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia21_utt6",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "bf42e3a608598de26188e2d4e2714eda6e90f3de2c795d77c68bb3237d71f5d1",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "独立核实画面与音频可知，Phoebe在frame 3至frame 4近距离面对男伴时手搭对方胸前并展现出真诚且扩大的露齿微笑，与[image:E1]的视觉观察高度契合且真实可信。同时音轨00:01-00:02处在说出调侃台词后伴有清晰短促的轻笑（chuckle），印证了[audio_subtitle:E1]所述的轻松戏谑氛围。虽然字面问句可能被误认为普通打探事实的neutral，但亲昵的肢体语言、真挚的面部笑意与听觉笑声互补协同，完全排除了中性询问，确认其情绪为愉悦（joy）。",
+  "output": "独立核实画面与音频可知，Phoebe在frame 3至frame 4近距离面对男伴时手搭对方胸前并展现出真诚且扩大的露齿微笑，与[image:E1]的视觉观察高度契合且真实可信。同时音轨00:01-00:02处在说出调侃台词后伴有清晰短促的轻笑（chuckle），印证了[audio_subtitle:E1]所述的轻松戏谑氛围。虽然字面问句可能被误认为普通打探事实的neutral，但亲昵的肢体语言、真挚的面部笑意与听觉笑声互补协同，完全排除了中性询问，确认其情绪为愉悦（joy）。\n<answer>joy</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 54.03390908241272
+}

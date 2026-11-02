@@ -1,0 +1,70 @@
+{
+  "process": {
+    "nodes": [
+      {
+        "id": "process_0",
+        "type": "process",
+        "content": "说话人对坐着的男性说：皇上闻着，正好，消乏，安睡。",
+        "evidence_sources": [
+          "audio",
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  },
+  "person": {
+    "nodes": [
+      {
+        "id": "person_0",
+        "type": "person",
+        "content": "女性，身穿浅绿色传统服饰，头发盘起，佩戴发饰，手持一个碗。",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "person_1",
+        "type": "person",
+        "content": "男性，身穿金色传统服饰，坐在沙发上，头部靠在手臂上。",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 7,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  },
+  "context": {
+    "nodes": [
+      {
+        "id": "context_0",
+        "type": "context",
+        "content": "场景为室内，有深色木质家具、盆栽植物和一盏亮着的台灯。",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 0,
+        "dimension": null,
+        "evidence_status": null
+      },
+      {
+        "id": "context_1",
+        "type": "context",
+        "content": "说话人与坐着的男性面对面，中间隔着一张小桌子。",
+        "evidence_sources": [
+          "visual"
+        ],
+        "time_index": 7,
+        "dimension": null,
+        "evidence_status": null
+      }
+    ]
+  }
+}

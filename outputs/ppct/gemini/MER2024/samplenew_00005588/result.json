@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00005588",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "结合person_0、person_1与person_2，男子在室内烛光下专注注视对方，面部神情沉静克制；台词process_0道出“过去的事，不怪你”，伴随低沉平缓且稳定的语调，整体情绪平静包容，无激烈情绪起伏。",
+  "output": "结合person_0、person_1与person_2，男子在室内烛光下专注注视对方，面部神情沉静克制；台词process_0道出“过去的事，不怪你”，伴随低沉平缓且稳定的语调，整体情绪平静包容，无激烈情绪起伏。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 55.703174352645874,
+  "node_count": 6,
+  "edge_count": 4
+}

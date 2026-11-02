@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "画面中女子（frame_00至frame_06）直视对方，眼神紧锁且充满敌意与不屑，说话时牙关咬紧、嘴角下拉紧绷[E1]，配合台词与声音中强烈的谴责与斥责[E2]，显现出面对对方卑劣手段时的极度愤慨与对抗情绪。",
+  "open_emotion": "愤慨",
+  "answer": "angry",
+  "mapping_reason": "目标人物表现出明显的指责、敌意与对抗态度，符合angry类别对冒犯或不公产生生气、责备和敌对倾向的定义。",
+  "evidence": [
+    {
+      "anchor": "frame_02 (1.80s) - frame_04 (3.56s)",
+      "id": "E1",
+      "interpretation": "表现出对眼前之人的深切鄙夷、愤怒与强烈对抗意图。",
+      "observation": "女子目光紧紧锁定对面男子，眼神锐利坚定，咬牙说话，下唇微缩，面部肌肉紧绷并伴随鄙弃的微表情。",
+      "polarity": "support",
+      "source": "visual"
+    },
+    {
+      "anchor": "你除了这些卑劣的手段，还会什么？真是无耻之极。",
+      "id": "E2",
+      "interpretation": "语言内容直接进行道德谴责与攻击，强化其内心的怒意与敌视。",
+      "observation": "字幕中包含强烈的斥责与定性词汇“卑劣”、“无耻之极”。",
+      "polarity": "support",
+      "source": "subtitle"
+    }
+  ],
+  "counterevidence": "女子额头有伤且神色微显虚弱，语调压抑低沉，可能带有受伤后的身体痛苦，但其目光聚焦对抗且言辞激烈，全无悲伤或恐惧退缩之态。"
+}

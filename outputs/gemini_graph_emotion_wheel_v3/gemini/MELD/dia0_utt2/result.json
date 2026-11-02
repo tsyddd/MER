@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia0_utt2",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "3970f5e11853554fbfc18f31e31c06de8bbd17661ed1c904623e938e0536b1f7",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "平稳",
+      "mapped_label": "neutral",
+      "mapping_reason": "瑞秋当前的言语表达与体态均处于平和自然的日常沟通状态，无主导性的正向或负向情感波动，符合情绪轮中neutral（当前平稳、日常且没有明确主导情绪的表达）的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "平稳",
+      "mapped_label": "neutral",
+      "mapping_reason": "Rachel在言语和声音上表现得平淡且无极端情绪波动，符合情绪轮中neutral'当前平稳、日常且没有明确主导情绪的表达'的定义。"
+    },
+    "image": {
+      "open_emotion": "失落",
+      "mapped_label": "sadness",
+      "mapping_reason": "Rachel低头垂视、神情低迷沉重，音调低微消沉，符合sadness家族中因无奈与挫折导致的失落与情绪低落表现。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "独立核听音频与查看全部画面可知，Rachel在男子俯身互动后神情放松自如[image:E3]，以平稳轻柔的日常语调说出话题引入语'Y'know what?'[audio_subtitle:E2]。[image:E1]将低头垂视和无表情过度解读为失落沮丧（sadness），但实际回看frame_02至frame_07中并无嘴角下撇、眉心紧蹙或叹息抽泣迹象，语气极其平缓客观，符合情绪轮中neutral的平稳日常表达定义。",
+  "output": "独立核听音频与查看全部画面可知，Rachel在男子俯身互动后神情放松自如[image:E3]，以平稳轻柔的日常语调说出话题引入语'Y'know what?'[audio_subtitle:E2]。[image:E1]将低头垂视和无表情过度解读为失落沮丧（sadness），但实际回看frame_02至frame_07中并无嘴角下撇、眉心紧蹙或叹息抽泣迹象，语气极其平缓客观，符合情绪轮中neutral的平稳日常表达定义。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 58.10513520240784
+}

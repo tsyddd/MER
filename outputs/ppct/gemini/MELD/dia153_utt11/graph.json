@@ -1,0 +1,127 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Chandler对Joey开口回应说话",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Chandler配合手势对Joey说如果自己面对枪口会吓得尿裤子",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Chandler双手叉在腰间，面朝Joey开口说话",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Chandler语调平稳清晰地说明情况",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Chandler抬起右手在身前平举向侧面摆动作手势",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Chandler双手放回腰部叉腰站立，目光注视着Joey",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内客厅，Chandler与一只手臂戴着吊带固定的Joey面对面站立交谈",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "Chandler先对Joey开口回应说话，随后配合手势具体说明自己面对枪口时的情况",
+      "entity_anchor": "Chandler与Joey的言语交流"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "simultaneous",
+      "reason": "Chandler在双手叉腰面朝Joey说话的同时，语调平稳清晰地进行陈述",
+      "entity_anchor": "Chandler的表达表现"
+    },
+    {
+      "source": "person_2",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "Chandler先是双手叉腰站立说话，随后抬起右手在身前作平举摆动的手势",
+      "entity_anchor": "Chandler的肢体动作"
+    },
+    {
+      "source": "person_3",
+      "target": "person_2",
+      "relation": "after",
+      "reason": "Chandler在抬手作手势后，又将双手放回腰部恢复叉腰站立姿态",
+      "entity_anchor": "Chandler的肢体动作"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0呈现Chandler最初向Joey开口回应，process_1展示其进一步配合手势展开描述具体假设情境的陈述过程，联合后完整反映了Chandler对Joey展开说明解释的连续互动历程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供了Chandler面朝对方、双手叉腰的视觉形体姿态，person_1补充了其平稳清晰的陈述语调事实，二者联合完整展现了Chandler在开口回应时的视听多模态特征。",
+      "entity_anchor": null
+    }
+  ]
+}

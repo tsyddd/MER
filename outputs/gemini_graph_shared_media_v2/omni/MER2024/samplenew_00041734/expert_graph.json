@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "图谱中节点person_1描述了女性说话时语调上扬且语气急促，这与字幕中“不是 你为什么要辞职”的质问内容和音频中急促的语调一致，支持了当前情绪为angry的判断。同时，节点person_0描述了女性眉头微蹙，视线注视对方，这一面部表情与质问的语调共同构成了多模态的证据，进一步支持了angry的判断。图谱中process_0和process_1的联合过程描述了连续的质问行为，强化了angry的情绪。背景陈设（context_0）仅提供场景信息，不作为情绪证据。",
+  "answer": "angry",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "女性说话时语调上扬且语气急促",
+      "interpretation": "语调上扬和急促的语气是表达愤怒或强烈质问的典型特征，直接支持angry的情绪判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "女性眉头微蹙，视线注视着前方对象",
+      "interpretation": "眉头微蹙是面部表情中常见的愤怒或不满的标志，与质问的言语内容相匹配，为angry的情绪提供了视觉支持。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "不是 你为什么要辞职",
+      "observation": "字幕内容为“不是 你为什么要辞职”",
+      "interpretation": "这是一个直接的质问，表达了对对方行为的不理解和强烈情绪，是判断angry的核心语义依据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "音频中可以听到女性说“不是 你为什么要辞职啊”",
+      "interpretation": "音频证实了字幕内容，并且可以听出其语调急促、上扬，带有明显的质问和不满，是判断angry的直接听觉证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有明确的反证。虽然字幕和音频中没有直接的哭泣或悲伤的表达，但无法排除在更长的对话中存在悲伤的成分。然而，根据当前片段的质问内容和急促的语调，angry是当前最合理的判断。"
+}

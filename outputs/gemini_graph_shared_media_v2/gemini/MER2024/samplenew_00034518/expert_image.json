@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "画面中正对镜头的说话女性（主要发话者）眉头微蹙、身体前倾并紧紧注视对方[E1]，配合探问性话语[E2]，其紧绷关切的面部神态清晰表现出担忧情绪。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.60s",
+      "observation": "正对镜头的老年女性手持茶杯，眉心微紧微蹙，身体略向前倾，目光聚焦注视对面女性",
+      "interpretation": "紧锁的眉头与探寻专注的目光体现出对对方状态的关切与悬心，支持担忧反应",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "是不是？家里又出什么事了？",
+      "observation": "发问“是不是？家里又出什么事了？”",
+      "interpretation": "台词内容为询问家庭变故，结合视觉紧绷关切的神色，排除了平静中立或单纯悲伤，强烈支持worried",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "面部虽有轻微低垂与嘴角下压，可能被误判为sad，但其眼神高度专注、主动前倾追问且具有明显探询警惕感，与消极低落的悲伤不同。"
+}

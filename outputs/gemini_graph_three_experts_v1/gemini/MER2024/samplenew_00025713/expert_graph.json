@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载白衣少年在发问“你，你，你怎么知道的？”时伴随断续停顿与重复字音〔process_0, person_1〕。随后他经历了短暂垂目后重新睁大眼睛、嘴部张开的表情变化〔person_2, person_3〕。结合震惊的质问与睁眼张嘴的面部表现，反映出其强烈的意外与吃惊反应，情绪对应为surprise。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "process_0",
+    "person_1",
+    "person_2",
+    "person_3"
+  ]
+}

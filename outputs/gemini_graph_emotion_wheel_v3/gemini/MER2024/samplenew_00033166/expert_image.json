@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物（白衣男子）在片段中眼神凝重，眉心略微微收，面部肌肉较为紧绷。说话时嘴型开合急促，神色透出急切与不安。结合台词对‘悉数倒戈’这一风险局面的质问，其视觉表现主要呈现对局势恶化的顾虑与焦虑，而非纯粹的愤怒攻击或中性陈述。",
+  "open_emotion": "担忧",
+  "answer": "worried",
+  "mapping_reason": "目标人物表现出对潜在背叛风险和不利局面的不安与疑虑，根据情绪轮定义，对未知风险和负面后果的顾虑与焦虑归属于worried家族。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_04（0.0s-0.84s）",
+      "observation": "白衣男子直视对方，双目略睁大，眉心略有收拢压低，面容严肃且神态微显紧绷。",
+      "interpretation": "显示出对对话内容的高度戒备与内心不安，并非放松的中性表情。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02至frame_05（0.56s-1.12s）",
+      "observation": "男子讲话时下颌微紧、口型急促张合，伴随探寻求证的眼神。",
+      "interpretation": "反映其正在就严重后果进行急切求证，体现忧虑心理。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00-00:01",
+      "observation": "语音语气带着明显的急迫与反问上扬。",
+      "interpretation": "语调的急迫性强化了其对负面走向的焦急与担心。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "男子反问时神情严肃且带有一丝质问感，可能在视觉上被误解为轻度angry或surprise，但其面部未见咬牙切齿或带有攻击性的敌意表情，核心关注点依然在事态失控的风险。"
+}

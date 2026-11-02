@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013076",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "happy",
+  "emotion_analysis": "画面中戴口罩的男子眼神弯起带着笑意，双手合十连连作揖表达谢意；其言语欢快真诚，整体呈现出感激且高兴的愉快情绪。",
+  "output": "画面中戴口罩的男子眼神弯起带着笑意，双手合十连连作揖表达谢意；其言语欢快真诚，整体呈现出感激且高兴的愉快情绪。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 6.962226629257202,
+  "node_count": null,
+  "edge_count": null
+}

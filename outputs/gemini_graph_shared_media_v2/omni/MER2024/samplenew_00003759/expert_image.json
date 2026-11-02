@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物在对话中表现出明显的惊讶。她的眉毛上扬，眼睛睁大，嘴巴微张，这些是惊讶的典型面部特征。她的视线始终集中在对话者身上，表明她正在专注地接收信息。字幕显示她正在说“是吗？才真这么说的”，这句台词本身也表达了对听到内容的意外和难以置信。综合视觉和听觉信息，她的反应是惊讶。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.32",
+      "observation": "目标人物的眉毛上扬，眼睛睁大，嘴巴微张。",
+      "interpretation": "这是惊讶的典型面部表情。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "是吗？才真这么说的",
+      "observation": "字幕内容为“是吗？才真这么说的”。",
+      "interpretation": "这句台词表达了对听到内容的意外和难以置信，与惊讶情绪相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_03 @ 0.6",
+      "observation": "目标人物的视线集中在对话者身上。",
+      "interpretation": "表明她正在专注地接收和处理信息，这是对突发信息的典型反应。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。"
+}

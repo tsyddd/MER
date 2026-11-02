@@ -1,0 +1,119 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Rachel对Monica说出“Oh my God!”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Rachel对Monica说出“You’re a 30 year old virgin!”",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Rachel转头看向Monica，嘴巴大张，语调拔高带惊叹感",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Rachel身子微微前倾贴近Monica，右手抬起并在身前摆动比划",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Rachel右手收回搭在膝盖上，目光紧盯着Monica并保持说话口型",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "在咖啡馆的橙色沙发上，Rachel坐在身穿浅紫色衣服的Monica身旁与其交谈",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "Rachel在惊呼“Oh my God!”之后，紧接着对Monica说出“You’re a 30 year old virgin!”",
+      "entity_anchor": "Rachel对Monica的对话表达"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "Rachel转头大张嘴惊呼之后，身子前倾贴近Monica并抬手在身前比划",
+      "entity_anchor": "Rachel的身体动作与姿态"
+    },
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "Rachel在抬手摆动比划之后，将右手收回搭在膝盖上并紧盯Monica继续说话",
+      "entity_anchor": "Rachel的身体动作与姿态"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0 提供起首的惊叹呼告，process_1 提供紧随其后的核心言语内容，两者联合完整呈现了 Rachel 从惊叹转入直接点出对方秘密的连贯话语交际过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0 提供了大张嘴巴的惊诧面容和拔高的惊叹语调，person_1 补充了身体前倾逼近并伴随手势比划的身体语言，两者联合更全面地反映了 Rachel 最初被震惊时的视听身态表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1 提供了 Rachel 前倾比划手势的动态强调，person_2 补充了其随后手部落定搭膝、目光持续紧盯对方的面容与体态，两者联合完整展现了 Rachel 从挥手强调到专注凝视追问的动作演变过程。",
+      "entity_anchor": null
+    }
+  ]
+}

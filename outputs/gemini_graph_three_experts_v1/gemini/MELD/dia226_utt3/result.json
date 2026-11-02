@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia226_utt3",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "554a2426d1927843a8eb1d72198c70c94dfcdf5ba4a53d703518ea9653b7a645",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "audio专家指出Rachel语调平稳自然、语速适中，无哭腔或明显情绪起伏，graph记录其神态平缓且手势自然，均支持其处于日常交谈状态。image专家虽然观察到其面部微蹙、嘴角下撇并判定为沮丧，但在声学表现完全平静克制且属于普通倾诉陈述的情境下，微弱的表情更多属于常态表达而非真正的悲伤，故判定为中性。",
+  "output": "audio专家指出Rachel语调平稳自然、语速适中，无哭腔或明显情绪起伏，graph记录其神态平缓且手势自然，均支持其处于日常交谈状态。image专家虽然观察到其面部微蹙、嘴角下撇并判定为沮丧，但在声学表现完全平静克制且属于普通倾诉陈述的情境下，微弱的表情更多属于常态表达而非真正的悲伤，故判定为中性。\n<answer>neutral</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 34.17896914482117
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "Monica的喊叫和后续动作表明她正在紧急制止某事。图谱中的节点process_0（喊叫）和process_1（放下物品）是关键。process_0的音频证据（[E1]）和字幕（[E2]）都显示了急促的“No-no-no, no!”，这与process_2（发声急促、音量较大且语调高亢）的描述一致。process_1（放下物品）是process_0的直接后续动作（[E3]），表明她的喊叫并非无的放矢，而是对某个突发情况的即时反应。整个事件链（process_0 -> process_1 -> process_2）指向一种紧急的、带有制止意图的反应，这与恐惧（fear）或惊吓（surprise）相符。虽然惊吓（surprise）也可能导致喊叫，但后续的放下物品和起身冲出的动作（process_1, process_2）表明这是一种有目的的、紧急的应对，而不仅仅是被动的惊吓。因此，恐惧（fear）是更合适的标签。",
+  "answer": "fear",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:02.000",
+      "observation": "可以听到Monica发出急促、高亢的喊声“No-no-no, no!”。",
+      "interpretation": "音频内容与图谱节点process_2的描述一致，证实了Monica的喊叫是真实发生的，且其语调和内容表明了紧急和制止的意图。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "No-no-no, no!",
+      "observation": "字幕显示了Monica喊出的“No-no-no, no!”。",
+      "interpretation": "字幕内容与音频和图谱描述相符，为Monica的喊叫提供了文本证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "图谱显示，在Monica喊叫（process_0）之后，她迅速将手中的书本和杯子移开并放下。",
+      "interpretation": "这个动作是喊叫的直接后续，表明她的喊叫是为了阻止某事而采取的紧急行动的一部分，这支持了恐惧或惊吓的情绪判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "一个可能的替代解释是惊吓（surprise）。Monica的喊叫和动作也可能源于对门口洞的突然发现。然而，图谱中的事件链（process_0 -> process_1 -> process_2）显示了一个从喊叫到放下物品再到起身冲出的连续、有目的的行动过程。这种有组织的应急反应比单纯的惊吓更符合恐惧（fear）的特征，因为恐惧通常伴随着试图逃离或应对威胁的行动。"
+}

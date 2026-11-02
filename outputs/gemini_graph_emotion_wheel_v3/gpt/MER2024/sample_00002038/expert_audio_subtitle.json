@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "字幕“他，是谁呀？”是面向画外人物的直接疑问，本身不等于惊讶；结合画面中目标人物持续皱眉、目光警惕地看向右侧且嘴部微张，她更像是在确认身份并担心相关情境，而非单纯平静询问。[E1][E2]",
+  "open_emotion": "uneasy",
+  "answer": "worried",
+  "mapping_reason": "当前表现主要是对未知人物或情境的顾虑与不安，符合worried所强调的未知风险或不确定性。这里是近似投影：字幕没有明确说明她担心什么，也没有音频可核验语调，但视觉上的紧张警觉使其不宜直接判为neutral；疑问本身也不足以单独支持surprise。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "当前字幕“他，是谁呀？”",
+      "observation": "目标人物发出关于画外男性身份的直接疑问。",
+      "interpretation": "她在寻求关键信息，表现出对身份未知的关注；疑问句本身不能证明惊讶或愤怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00至frame_07，0.0至0.8秒",
+      "observation": "目标人物眉头明显收紧，持续侧视画面右方，嘴微张，面部保持紧绷。",
+      "interpretation": "这些视觉表现与对未知对象的警惕和不安一致，支持worried而非平稳的neutral。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "也可能只是带着疑惑进行普通身份询问；由于未提供音频，无法判断语调、停顿和音量，且画面没有明确呈现具体威胁，因此担忧的对象和强度仍不确定。"
+}

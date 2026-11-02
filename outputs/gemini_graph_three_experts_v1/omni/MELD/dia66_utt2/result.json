@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia66_utt2",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "5a18845c511d8d042e0aafc9325f0ce10daa1e74888c7cd85c82140504ee351d",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "音频和图像专家均一致指出Rachel表现出积极情绪，音频中语调平稳略带上升且使用积极词汇，图像中面部表情为微笑并伴随眼周皱纹，二者共同指向joy；graph虽判断为neutral，但其依据为整体情境和礼貌行为，未充分反映可观察的积极面部与语音线索，故优先采纳视听证据。",
+  "output": "音频和图像专家均一致指出Rachel表现出积极情绪，音频中语调平稳略带上升且使用积极词汇，图像中面部表情为微笑并伴随眼周皱纹，二者共同指向joy；graph虽判断为neutral，但其依据为整体情境和礼貌行为，未充分反映可观察的积极面部与语音线索，故优先采纳视听证据。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 38.860034704208374
+}

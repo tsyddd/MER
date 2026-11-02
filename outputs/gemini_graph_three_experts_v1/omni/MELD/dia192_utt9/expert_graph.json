@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "Monica在向前移动的同时大声说出\"What?! Excuse me!\"，其发音音量较大且尾音语调上扬（person_2），面部朝向前方并张开嘴巴（person_1），这些行为共同表明她正处于一种突然且带有质问意味的反应状态。该行为与图谱中process_0和process_1的联合过程一致，显示其主动介入并打断当前情境，符合惊讶与质问交织的情绪特征。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "person_1",
+    "person_2",
+    "process_0",
+    "process_1"
+  ]
+}

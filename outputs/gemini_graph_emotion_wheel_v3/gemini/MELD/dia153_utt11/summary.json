@@ -1,0 +1,10 @@
+{
+  "reason": "目标人物 Chandler 在针对 Joey 的假设情境进行回应时，台词虽涉及面对枪口等极端词汇，但语用上完全属于死板幽默（deadpan）的假设性自嘲与反驳，并非身处险境的即时反应[audio_subtitle:E1]。音频听觉上语调平缓稳定、毫无颤抖或恐惧破音[audio_subtitle:E2]；视觉上在 frame_01 至 frame_05 期间双手叉腰并轻微挥手辅助说明，神态自然克制且未见惊恐、愤怒扭曲或开怀大笑[image:E1][image:E2]。综合跨模态表现，当前状态处于无明显强烈主导情绪的平稳日常交谈，准确映射为中性。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "audio_subtitle:E2",
+    "image:E1",
+    "image:E2"
+  ]
+}

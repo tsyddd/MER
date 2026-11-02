@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035599",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sad",
+  "emotion_analysis": "画面中人物眉心微蹙，眼神低垂且含着悲痛与哀伤，神情落寞。结合带有轻微颤抖、沉痛低沉的叙述语气，她在讲述令人心酸的场景，流露出明显的悲伤情绪。",
+  "output": "画面中人物眉心微蹙，眼神低垂且含着悲痛与哀伤，神情落寞。结合带有轻微颤抖、沉痛低沉的叙述语气，她在讲述令人心酸的场景，流露出明显的悲伤情绪。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 7.584699392318726,
+  "node_count": null,
+  "edge_count": null
+}

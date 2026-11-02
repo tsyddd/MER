@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。字幕中Rachel以质问和指责的方式询问是否有人为了让Joey把自己赶出公寓而准备这些东西，表现出明显的恼怒态度。",
+  "answer": "anger",
+  "evidence_refs": []
+}

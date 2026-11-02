@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00034225",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "说话人面部表情惊讶，眉毛上扬，嘴巴微张，结合台词“怎么？他不好对付啊”表现出对突发状况的意外和疑问，符合惊讶情绪的特征。",
+  "output": "说话人面部表情惊讶，眉毛上扬，嘴巴微张，结合台词“怎么？他不好对付啊”表现出对突发状况的意外和疑问，符合惊讶情绪的特征。\n<answer>surprise</answer>",
+  "label": "worried",
+  "elapsed_seconds": 73.14208841323853,
+  "node_count": 5,
+  "edge_count": 2
+}

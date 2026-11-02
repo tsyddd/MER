@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Joey用“you go to the top of the building!”提出带有指令意味的说法，而非表达自己害怕高处；“fear”只是话题词[E1]。他随后皱眉、张口并指向场外，表情和手势使这句话更像带着恼怒的强调，而非平静说明[E2][E3]。没有音频，无法判断语气或音量。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "It have a fear of heights, you go to the top of the building!",
+      "observation": "字幕以“you go to the top of the building!”给出做法，并提到“fear of heights”。",
+      "interpretation": "“fear”指谈论的恐高，不是Joey此刻的情绪；句末的说法带有指令意味。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.251249028533363秒",
+      "observation": "左侧的Joey皱眉、张口，抬手朝场外挥动。",
+      "interpretation": "表情与动作支持他正带着恼怒强调自己的话。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05 @ 2.127123348506717秒",
+      "observation": "Joey仍皱着眉，伸出手指指向场外。",
+      "interpretation": "持续的指向动作加强了责问或坚持主张的观感。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是Joey只是在热切地举例说明，手势未必表示愤怒。字幕没有直接的责骂词，且未提供音频；因此不能进一步断定他的语气有多激烈。"
+}

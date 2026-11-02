@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia200_utt2",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "2223d26305da5c16666ed91ea00f333b6d907f4eba1818669a8c3acca13b8f5f",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "Joey的质问语气和手势是愤怒的直接证据。音频显示其声音响亮、语速快、音调高且带有上升语调，这是愤怒的典型表现[audio_subtitle:E1]。他的手势也充满对抗性[audio_subtitle:E2]。虽然图谱和图像专家将其解释为惊讶，但音频证据的说服力更强。图谱中乔伊的手势（按胸、指向他人）与他话语的逻辑推理相符，但其情绪是困惑和质问，而非愤怒。然而，音频中他声音的紧张和攻击性，以及视觉上他激动的姿态，共同指向愤怒。因此，尽管有专家认为是惊讶，但音频证据更直接地支持了愤怒的判断。",
+  "output": "Joey的质问语气和手势是愤怒的直接证据。音频显示其声音响亮、语速快、音调高且带有上升语调，这是愤怒的典型表现[audio_subtitle:E1]。他的手势也充满对抗性[audio_subtitle:E2]。虽然图谱和图像专家将其解释为惊讶，但音频证据的说服力更强。图谱中乔伊的手势（按胸、指向他人）与他话语的逻辑推理相符，但其情绪是困惑和质问，而非愤怒。然而，音频中他声音的紧张和攻击性，以及视觉上他激动的姿态，共同指向愤怒。因此，尽管有专家认为是惊讶，但音频证据更直接地支持了愤怒的判断。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 188.61345052719116
+}

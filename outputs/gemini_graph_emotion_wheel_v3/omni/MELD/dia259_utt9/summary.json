@@ -1,0 +1,11 @@
+{
+  "reason": "目标人物Monica在说“You are both idiots”时，其面部表情（皱眉、眼神锐利、紧闭的嘴）和姿态（双手紧握）表现出明显的愤怒。音频中语调尖锐、音量高，与言语内容的攻击性相匹配。专家的视觉和音频分析均支持这一判断。虽然其表情在某些瞬间（如frame_05）带有轻微笑意，但这更像是讽刺，而非喜悦。综合来看，言语内容、音轨和视觉线索共同指向愤怒。",
+  "answer": "anger",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "image:E3",
+    "audio_subtitle:E1",
+    "audio_subtitle:E2"
+  ]
+}

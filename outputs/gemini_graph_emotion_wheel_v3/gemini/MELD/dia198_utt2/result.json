@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia198_utt2",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "3e5a8a4993b19ac3f6e4c36023c416407d12023be7b4a0e80d447afe6996d7d7",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "平稳陈述",
+      "mapped_label": "neutral",
+      "mapping_reason": "Joey在纠正对方并讽刺其‘站在那里’时，语气自然平缓、神情从容，属于平稳、日常且无激烈情绪波动的表达，依据情绪轮定义映射到neutral。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "恼火",
+      "mapped_label": "anger",
+      "mapping_reason": "开放情绪‘恼火’（annoyed）属于面对受阻或同伴懈怠时产生的负向责备情绪，符合情绪轮中 anger 家族对冒犯、受阻及不满的定义范围。"
+    },
+    "image": {
+      "open_emotion": "平稳陈述",
+      "mapped_label": "neutral",
+      "mapping_reason": "Joey在表达中既无攻击对抗（anger），也无威胁恐惧（fear）或愉悦笑意（joy），处于平稳、日常且客观陈述事实的情绪状态，符合情绪轮中neutral的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物Joey在说话时虽有抬食指和翻掌的交际手势（如[image:E1]在frame_01-frame_03所示），但其面部肌肉放松、眉眼平缓，完全没有紧皱双眉或怒目等愤怒生理特征。实际核听音轨（对应[image:E3]），Joey说出台词时音量适中、语调自然平直，表现为非常从容的平淡陈述，缺乏[audio_subtitle:E2]所称的攻击性恼火或强烈对抗。尽管台词带有讽刺调侃成分，但其视听表现均属于平稳日常的客观交流，应映射为neutral。",
+  "output": "目标人物Joey在说话时虽有抬食指和翻掌的交际手势（如[image:E1]在frame_01-frame_03所示），但其面部肌肉放松、眉眼平缓，完全没有紧皱双眉或怒目等愤怒生理特征。实际核听音轨（对应[image:E3]），Joey说出台词时音量适中、语调自然平直，表现为非常从容的平淡陈述，缺乏[audio_subtitle:E2]所称的攻击性恼火或强烈对抗。尽管台词带有讽刺调侃成分，但其视听表现均属于平稳日常的客观交流，应映射为neutral。\n<answer>neutral</answer>",
+  "label": "anger",
+  "elapsed_seconds": 76.60658717155457
+}

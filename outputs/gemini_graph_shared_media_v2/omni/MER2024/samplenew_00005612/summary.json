@@ -1,0 +1,12 @@
+{
+  "reason": "目标人物在多个帧中表情严肃，眼神专注，姿态稳定，无明显情绪波动。其话语内容为正式请求，音频语调平稳，无情绪色彩。专家证据中，[image:E1]、[image:E2]、[image:E3]、[image:E4]均从视觉角度支持其情绪为中性；[audio_subtitle:E1]、[audio_subtitle:E2]从音频和字幕角度支持其为中性请求。三者证据一致，无冲突。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "image:E3",
+    "image:E4",
+    "audio_subtitle:E1",
+    "audio_subtitle:E2"
+  ]
+}

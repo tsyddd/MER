@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物是画面中央穿黑色上衣的Rachel，不是左侧红衣女子或身后的男子。她在整理手中衣物时曾低头、表情收敛；随后抬头面向左侧的人，展开双手，嘴角上扬，表现转为较轻快的交流状态[E1][E2]。字幕中的肯定说法与这一后段变化相符[E3]，但没有音频，不能凭语调判断是否带反讽。",
+  "open_emotion": "愉快",
+  "answer": "joy",
+  "mapping_reason": "后段可见的笑容与开放手势，加上字幕中的正面表述，较支持当前有正向体验，映射为joy；笑意不强，因此不推断为兴奋。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02（0.542秒）至frame_04（1.084秒）",
+      "observation": "Rachel低头看着手中的黑色衣物，双手整理衣物，面部表情较收敛。",
+      "interpretation": "这是后续表情和姿态变化的起点；单凭低头不能判定负面情绪。",
+      "polarity": "uncertain"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05（1.376秒）至frame_06（1.627秒）",
+      "observation": "Rachel抬头朝左侧的人说话，双臂向两侧打开、左手掌向上，嘴角上扬。",
+      "interpretation": "相较前几帧，她的表达更开放、轻快，是愉快的主要视觉依据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“Oh, everything went great.”",
+      "observation": "当前字幕用肯定语句描述事情进展。",
+      "interpretation": "语义支持正向解读，但字幕本身无法排除反讽。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "Rachel先前低头且笑意较克制；后段的笑容和摊手也可能是礼貌或勉强的表达。由于未提供音频，无法用语调进一步区分。"
+}

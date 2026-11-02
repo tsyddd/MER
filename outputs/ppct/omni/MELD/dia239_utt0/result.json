@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia239_utt0",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "Gunther asks, 'Someone in there?' with a questioning tone and a look of curiosity. The audio and visual evidence confirm he is the speaker and his expression is inquisitive, not alarmed or angry.",
+  "output": "Gunther asks, 'Someone in there?' with a questioning tone and a look of curiosity. The audio and visual evidence confirm he is the speaker and his expression is inquisitive, not alarmed or angry.\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 88.87514686584473,
+  "node_count": 5,
+  "edge_count": 2
+}

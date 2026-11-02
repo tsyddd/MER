@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia200_utt2",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "Joey's tone is questioning and incredulous, with a rising intonation at the end, indicating confusion and disbelief about who took the item. His facial expression shows bewilderment.",
+  "output": "Joey's tone is questioning and incredulous, with a rising intonation at the end, indicating confusion and disbelief about who took the item. His facial expression shows bewilderment.\n<answer>surprise</answer>",
+  "label": "anger",
+  "elapsed_seconds": 4.7024314403533936,
+  "node_count": null,
+  "edge_count": null
+}

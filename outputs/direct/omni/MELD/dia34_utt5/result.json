@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia34_utt5",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "Rachel's wide eyes, open mouth, and high-pitched delivery of the line 'Oh my God!' indicate a strong reaction to unexpected information. Her expression and tone are consistent with astonishment and disbelief, not anger, sadness, or joy.",
+  "output": "Rachel's wide eyes, open mouth, and high-pitched delivery of the line 'Oh my God!' indicate a strong reaction to unexpected information. Her expression and tone are consistent with astonishment and disbelief, not anger, sadness, or joy.\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 6.154619932174683,
+  "node_count": null,
+  "edge_count": null
+}

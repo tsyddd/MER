@@ -1,0 +1,9 @@
+{
+  "reason": "独立回看第0至4帧，左侧的Rachel先低头抿唇，随后皱眉直视对方，神情紧绷；[image:E2]对这一变化的描述可信。字幕原话“Did you get all this stuff for Joey to try and drive me out of the apartment?”是在质疑对方是否有意赶她走，[audio_subtitle:E1]准确对应字幕，但所质疑的意图并未得到证实。第7帧她抬眉、神情略有缓和，[image:E4]因此限制了愤怒的强度判断；综合持续紧绷的表情与当面责问，仍以克制的不满最为贴切。未提供音轨，不能核验语调。",
+  "answer": "anger",
+  "evidence_refs": [
+    "image:E2",
+    "audio_subtitle:E1",
+    "image:E4"
+  ]
+}

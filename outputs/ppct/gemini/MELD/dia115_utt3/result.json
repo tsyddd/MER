@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia115_utt3",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "根据节点person_0与person_2，Ross在面对Chandler时目光平视、语调平稳清晰，没有激烈的声调起伏或明显的负面/正面面部表情。结合process_0与process_1构成的言语过程，他以平静且从容的口吻陈述对对方动作的评价，神态自然镇定。整段表现处于稳定的常态交谈状态，属于neutral。",
+  "output": "根据节点person_0与person_2，Ross在面对Chandler时目光平视、语调平稳清晰，没有激烈的声调起伏或明显的负面/正面面部表情。结合process_0与process_1构成的言语过程，他以平静且从容的口吻陈述对对方动作的评价，神态自然镇定。整段表现处于稳定的常态交谈状态，属于neutral。\n<answer>neutral</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 59.841139793395996,
+  "node_count": 9,
+  "edge_count": 11
+}

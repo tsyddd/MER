@@ -1,0 +1,111 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "戴口罩男子对绿衣男子说“正要感谢您呢！”",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "戴口罩男子对绿衣男子连声说“谢谢！谢，谢谢。”",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual",
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "戴口罩男子头部微低，视线朝向下方",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "戴口罩男子抬头看向对面的男子",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "戴口罩男子双手合十立于胸前做感谢手势",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室外场景，戴口罩男子与穿绿色外套的男子隔着栏杆相对站立交流，背景有帐篷和红色横幅",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "戴口罩男子在对绿衣男子说完“正要感谢您呢！”后，紧接着连声表达“谢谢！谢，谢谢。”",
+      "entity_anchor": "戴口罩男子的言语表达"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "戴口罩男子原本微低着头且视线朝下，随后抬起头看向对面的绿衣男子",
+      "entity_anchor": "戴口罩男子的头部与视线动作"
+    },
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "戴口罩男子在抬头看向对方之后，双手在胸前合十做出感谢的手势",
+      "entity_anchor": "戴口罩男子的肢体动作"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0呈现男子表明要感谢对方，process_1呈现其紧接着连续口头道谢，二者联合构成了男子由表明感谢意图到反复致谢的完整言语互动过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1提供了男子抬头注视对方的目光朝向，person_2提供了其双手合十的肢体手势，二者联合完整展现了男子面向对方做出合十致意礼节的体态表现。",
+      "entity_anchor": null
+    }
+  ]
+}

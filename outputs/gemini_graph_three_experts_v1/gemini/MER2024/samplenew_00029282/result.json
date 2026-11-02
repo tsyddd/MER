@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00029282",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "e81a763258684129b06d506421613b3dbd812a365d2377fedae6ad08cf75907c",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "三位专家的分析高度吻合且相互印证。图像和图谱专家一致指出目标人物紧锁眉头、眼眶含泪且嘴角下撇，呈现出典型的哭泣与悲痛神态；音频专家亦证实其声音带有强烈的哽咽、哭腔与颤抖，视听证据共同明确表明其处于悲伤情绪中。",
+  "output": "三位专家的分析高度吻合且相互印证。图像和图谱专家一致指出目标人物紧锁眉头、眼眶含泪且嘴角下撇，呈现出典型的哭泣与悲痛神态；音频专家亦证实其声音带有强烈的哽咽、哭腔与颤抖，视听证据共同明确表明其处于悲伤情绪中。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 26.503501415252686
+}

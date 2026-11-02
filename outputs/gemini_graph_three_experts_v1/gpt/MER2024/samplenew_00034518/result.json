@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00034518",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "3fed6d6059d74c2412d0aa8019d55bbdcde203bd9f2c07e116f6616c4aef8d9e",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "字幕“家里又出什么事了？”直接表达了对家庭状况的询问和关切，但音频专家未提供听觉判断。图谱中的疑问、关切描述与图片专家所述的回避视线、收缩姿态方向一致，不过图谱可能与其他来源存在同源重复，综合这些一致性证据，当前情绪判断为担忧。",
+  "output": "字幕“家里又出什么事了？”直接表达了对家庭状况的询问和关切，但音频专家未提供听觉判断。图谱中的疑问、关切描述与图片专家所述的回避视线、收缩姿态方向一致，不过图谱可能与其他来源存在同源重复，综合这些一致性证据，当前情绪判断为担忧。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 86.61601042747498
+}

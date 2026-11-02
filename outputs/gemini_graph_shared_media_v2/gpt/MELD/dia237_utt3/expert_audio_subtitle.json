@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Joey说“I'm just happy I'm keeping it down”，其中“happy”指庆幸自己没有吐出来，而非单纯表达喜悦；结合他谈到“whipped fish”时的皱眉表情，当前更支持disgust。[E1][E2] 片段未提供音频，不能据此判断语调。",
+  "answer": "disgust",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "We're talking about whipped fish, Monica. I'm just happy I'm keeping it down, y'know?",
+      "observation": "Joey将谈论这道食物与“keeping it down”联系起来。",
+      "interpretation": "“没有吐出来”的说法体现对食物的反感；“happy”表达的是勉强忍住后的庆幸。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.9592909218755783",
+      "observation": "Joey抬头说话时眉头紧皱、嘴部绷紧。",
+      "interpretation": "表情与他对食物的反感说法一致，但单凭表情不足以判定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_03 @ 2.8361644646756226",
+      "observation": "Joey说话间露出短暂的笑意，眉头仍上扬。",
+      "interpretation": "笑意也可能是用玩笑方式表达反感，不能单独证明他此刻是joy。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "最强的替代解释是joy：他明确说“happy”，也短暂露出笑意。但这句话的宾语是自己尚未吐出来，结合前述食物话题，更像带玩笑意味的反感表达；没有音频，无法进一步核查语气。"
+}

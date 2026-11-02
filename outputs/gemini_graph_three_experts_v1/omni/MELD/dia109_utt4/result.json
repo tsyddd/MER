@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia109_utt4",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "b1102943bbcf1af1e117a380fae997536de4112a2f80180e05feb45af20ee7b2",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "音频和图像专家均一致指出Janice表现出眉毛上扬、眼睛睁大、嘴巴微张等典型惊讶表情，且音频语调上扬带有疑问和不确定性，与'惊讶'情绪高度吻合；而图谱专家虽观察到语调起伏和手势，但未提供独立于视听的额外证据，其结论'joy'缺乏支持。综合判断，'surprise'为最可靠标签。",
+  "output": "音频和图像专家均一致指出Janice表现出眉毛上扬、眼睛睁大、嘴巴微张等典型惊讶表情，且音频语调上扬带有疑问和不确定性，与'惊讶'情绪高度吻合；而图谱专家虽观察到语调起伏和手势，但未提供独立于视听的额外证据，其结论'joy'缺乏支持。综合判断，'surprise'为最可靠标签。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 29.851520538330078
+}

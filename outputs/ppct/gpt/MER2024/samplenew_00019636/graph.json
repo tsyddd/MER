@@ -1,0 +1,204 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "人物说：“真的一百多岁了。”",
+      "time_index": 1,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "人物说：“我怎么看也不像啊。”",
+      "time_index": 2,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "人物说：“那晚她说她用了人面花。”",
+      "time_index": 3,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_3",
+      "type": "process",
+      "content": "人物说：“得以永葆青春。”",
+      "time_index": 4,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_4",
+      "type": "process",
+      "content": "人物将一只手抬到下巴处并保持。",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "人物低头，视线向下。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "人物抬起一只手并触碰下巴。",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "人物头部转向画面右侧。",
+      "time_index": 4,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "人物头部回到较正面的朝向。",
+      "time_index": 5,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "画面中有一名男性人物，位于室内。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "画面背景右侧可见带格栅的窗户。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "同一人物在低头后抬手触碰下巴",
+      "entity_anchor": "同一人物"
+    },
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "同一人物在触碰下巴后将头部转向画面右侧",
+      "entity_anchor": "同一人物"
+    },
+    {
+      "source": "person_3",
+      "target": "person_2",
+      "relation": "after",
+      "reason": "同一人物的头部在转向画面右侧后回到较正面的朝向",
+      "entity_anchor": "同一人物的头部朝向"
+    },
+    {
+      "source": "process_3",
+      "target": "process_2",
+      "relation": "after",
+      "reason": "同一人物先说使用人面花，随后说明由此得以永葆青春",
+      "entity_anchor": "同一人物关于人面花功效的叙述"
+    },
+    {
+      "source": "process_2",
+      "target": "process_4",
+      "relation": "simultaneous",
+      "reason": "同一人物在说使用人面花的同时将手抬到下巴处并保持",
+      "entity_anchor": "同一人物"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "“真的一百多岁了”提供人物年龄信息，“我怎么看也不像啊”提供外貌与年龄不相符的观察；联合后形成关于该人物年龄及外貌反差的完整叙述。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_2",
+      "target": "process_3",
+      "relation": "process_joint",
+      "reason": "“用了人面花”提供保持年轻的手段信息，“得以永葆青春”提供该手段的结果；联合后完整限定了人面花与青春保持之间的因果过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "人物低头、视线向下提供头部姿态信息，抬手触碰下巴提供手部动作信息；联合后形成更完整的低头并触碰下巴的可见表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "抬手触碰下巴提供手部动作信息，头部转向画面右侧提供头部方向变化；联合后补充了人物在该段连续动作中的身体姿态变化。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_2",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "头部转向画面右侧提供方向变化的前一状态，头部回到较正面提供后续复位状态；联合后形成头部转向后回正的连续可观察动作。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "画面中有一名男性人物且场景位于室内，背景右侧的格栅窗户提供具体环境要素；联合后更完整限定了人物所在的室内空间及其可见背景。",
+      "entity_anchor": null
+    }
+  ]
+}

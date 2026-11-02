@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物是左侧穿蓝衬衫的浅发男子，不是右侧转头的男子。[E1]他始终朝右侧注视，姿态和面部变化很小；[E2]说话时嘴部略有动作，但未见明显惊吓、愤怒或喜悦的表情。字幕中的问句[E3]说明他在询问，不能单凭问句推断强烈情绪。当前以neutral最有视觉支持。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒至frame_07 @ 1.7517486399467082秒",
+      "observation": "左侧浅发男子持续朝右侧看，身体姿态基本不变，面部没有明显的大幅变化。",
+      "interpretation": "支持当前表达较为克制，但不能仅凭变化小推断他毫无情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.5004996114133452秒",
+      "observation": "左侧男子嘴部张开；右侧男子仍面朝右方。",
+      "interpretation": "可见他说话时的口部动作，除此之外缺少支持强烈情绪的明显面部线索。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Someone in there?",
+      "observation": "字幕是一句询问。",
+      "interpretation": "可与其朝右注视的画面相互核对，但问句本身不能确定是担忧、惊讶还是平静询问。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "持续朝右注视并发问，也可能表示警觉或担忧；但画面未见明显后缩、瞪眼或其他足以支持fear或surprise的变化，且没有音轨可核查语调。"
+}

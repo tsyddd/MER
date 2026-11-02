@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia34_utt17",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "55de13de7623a6e85879feac678dde89b7dbd56f0daf4dc5a1f20e9a6a71f9c9",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "不满",
+      "mapped_label": "anger",
+      "mapping_reason": "这里的“不满”指向她当面对所谈行为表示不认可和责备，按情绪轮更接近anger；证据不足以说她已达到强烈愤怒。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "不满",
+      "mapped_label": "anger",
+      "mapping_reason": "这里的不满指向Rachel的行为，并以当面否定的方式表达，最接近anger中责备、对抗的一侧；证据不支持将其说成强烈愤怒。"
+    },
+    "image": {
+      "open_emotion": "不满",
+      "mapped_label": "anger",
+      "mapping_reason": "此处的不满针对她认为不妥的行为，表达方向是明确否定和责备，因此映射为anger；画面不支持更强烈的暴怒判断。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "字幕中莫妮卡直呼瑞秋，并说自己绝不会认为她对丈夫不忠是可以接受的；[audio_subtitle:E1]准确引述了这句话，支持当面否定的判断，但不能据此断定事情已经发生。画面中穿浅色上衣的莫妮卡先短暂垂眼、收紧嘴唇，随后抬眼看向瑞秋说话，[image:E1][image:E2]与表达异议相符，却不能单独证明愤怒。后几帧她略有笑意，且没有音轨可核实语气，因此不宜判作强烈怒意；相较于平静陈述，当前话语明确针对所谈行为表达不满，最接近anger。",
+  "output": "字幕中莫妮卡直呼瑞秋，并说自己绝不会认为她对丈夫不忠是可以接受的；[audio_subtitle:E1]准确引述了这句话，支持当面否定的判断，但不能据此断定事情已经发生。画面中穿浅色上衣的莫妮卡先短暂垂眼、收紧嘴唇，随后抬眼看向瑞秋说话，[image:E1][image:E2]与表达异议相符，却不能单独证明愤怒。后几帧她略有笑意，且没有音轨可核实语气，因此不宜判作强烈怒意；相较于平静陈述，当前话语明确针对所谈行为表达不满，最接近anger。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 73.52785921096802
+}

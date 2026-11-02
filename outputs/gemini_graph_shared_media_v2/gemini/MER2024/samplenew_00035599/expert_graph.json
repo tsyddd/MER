@@ -1,0 +1,24 @@
+{
+  "expert": "graph",
+  "reason": "目标人物在转述叙事时伴随明显的哽咽抽泣声[E1]，面部神态由眉心微蹙逐渐转为眼神低垂、眼眶泛红含泪[E2]，图谱中节点person_1的哭腔特征与person_2的低垂神态相互印证，共同锁定事件追叙中的深切悲痛感。",
+  "answer": "sad",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "核验图谱节点person_1，目标人物说话语调轻颤，尾音伴有明显的抽噎停顿与微弱抽泣气声",
+      "interpretation": "真实的哭腔语调直接体现了沉浸在悲伤回忆中的哀戚心境，支持悲伤情感",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05 @ 1.56s",
+      "observation": "对应图谱节点person_2，人物目光向下垂落，眼眶泛红微润，嘴角轻微下撇",
+      "interpretation": "视线下移与哀伤神态的结合强化了人物在叙说往事时的失落与悲切，排除平和中立状态",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "蹙眉与停顿可能被怀疑为忧虑担忧（worried），但其语调充满落寞哽咽而非急促焦灼，叙述对象为已发生的伤感意象，符合哀伤（sad）而非担忧。"
+}

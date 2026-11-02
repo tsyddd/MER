@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00006180",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "画面中的主要人物是女教师，她面对学生提问并等待回答，表情专注。看到学生举手说“我知道”后，她眼睛睁大、嘴微张，呈现出明显的意外和惊讶。",
+  "output": "画面中的主要人物是女教师，她面对学生提问并等待回答，表情专注。看到学生举手说“我知道”后，她眼睛睁大、嘴微张，呈现出明显的意外和惊讶。\n<answer>surprise</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 41.07135772705078,
+  "node_count": null,
+  "edge_count": null
+}

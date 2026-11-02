@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia259_utt9",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "Monica作为说话者（context_1）说出“You are both idiots”（process_0），其面部表情（person_1）显示嘴巴张开，头部（person_2）略微倾斜，同时双手交握（person_0），这些肢体语言与直接的指责性台词相结合，共同指向一种带有强烈负面情绪的表达。该情绪最符合‘anger’。",
+  "output": "Monica作为说话者（context_1）说出“You are both idiots”（process_0），其面部表情（person_1）显示嘴巴张开，头部（person_2）略微倾斜，同时双手交握（person_0），这些肢体语言与直接的指责性台词相结合，共同指向一种带有强烈负面情绪的表达。该情绪最符合‘anger’。\n<answer>anger</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 97.88180685043335,
+  "node_count": 6,
+  "edge_count": 3
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013076",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "e796dd3141342719140120ba7aa857e918a2cb64ad25a93033187111d322a6bb",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "happy",
+  "emotion_analysis": "graph和audio_subtitle均指出目标人物表达了感谢，且语气和手势显示积极情绪，而image因面部被遮挡无法判断，但关键行为与音频一致，因此采纳更具体的多模态证据。",
+  "output": "graph和audio_subtitle均指出目标人物表达了感谢，且语气和手势显示积极情绪，而image因面部被遮挡无法判断，但关键行为与音频一致，因此采纳更具体的多模态证据。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 41.93875312805176
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia153_utt4",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "Joey's facial expression shows raised eyebrows and an open mouth, consistent with surprise. His tone of voice is high-pitched and incredulous, matching the content of his question about someone having a fear of heights.",
+  "output": "Joey's facial expression shows raised eyebrows and an open mouth, consistent with surprise. His tone of voice is high-pitched and incredulous, matching the content of his question about someone having a fear of heights.\n<answer>surprise</answer>",
+  "label": "fear",
+  "elapsed_seconds": 5.8843793869018555,
+  "node_count": null,
+  "edge_count": null
+}

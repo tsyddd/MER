@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物的台词表达了失去全部亲人的永久性损失，属于典型的重大丧失评价。音频中其声音极低、气声明显且伴随虚弱与轻微颤抖，节奏缓慢沉重，体现出极度低落与心碎的状态。视觉上眼神垂落呆滞、嘴角低沉，跨模态信息高度一致指向哀痛悲凉的情绪状态。",
+  "open_emotion": "哀伤",
+  "answer": "sad",
+  "mapping_reason": "在情绪轮中，对已发生的重大损失（失去亲人、孤独无依）产生的极度低落、哀痛与无力感完全归属于 sad（悲伤）家族，因此明确映射为 sad。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "我知道，在这个世上，再也没有亲人了。",
+      "observation": "台词陈述自身在世界上再无任何亲人，表达了不可逆的重大丧失与孤独。",
+      "interpretation": "明确的损失性认知，直接触发并支撑哀痛评价。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02.8",
+      "observation": "发音音量微弱，气息声显著，语速缓慢，语调低沉沉抑，近乎低语和叹息。",
+      "interpretation": "气声与低沉无力的韵律传达出深沉的悲哀与心力交瘁，而非客观中性的陈述。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01至frame_07",
+      "observation": "女子目光下垂无神，面部肌群松弛低垂，神情黯淡哀戚。",
+      "interpretation": "面部神态与悲凉失落的语义、低微语声完全一致，佐证了悲伤情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "由于语调极低且没有激烈的哭嚎哭泣，表面起伏较小，易被误辨为平淡中性（neutral）；但该低平是由极度绝望哀痛引发的虚弱压抑，绝非缺乏情绪反应的客观中性。"
+}

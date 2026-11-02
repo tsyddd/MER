@@ -1,0 +1,173 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "女子说“胖婶，可不是吗”。",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "女子手持白色纸张向前方挥动并指向前方。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "女子说“我可看好你”。",
+      "time_index": 2,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_3",
+      "type": "process",
+      "content": "女子说“怎么样，收获大大的吧”。",
+      "time_index": 3,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "女子手中拿着一张白色纸张。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "女子抬起拿纸的手并挥动纸张。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "女子随后放下拿纸的手。",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "女子的视线转向画面右侧。",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "场景位于室内商店，后方有另一人在场。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "女子正对画面前方的人进行交流。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_3",
+      "target": "process_2",
+      "relation": "after",
+      "reason": "同一女子与同一交流对象的连续言语互动，先表达看好对方，后续询问对方情况",
+      "entity_anchor": "同一女子与同一交流对象的连续言语互动"
+    },
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "同一女子对同一张白色纸张的动作由挥动后转为放下",
+      "entity_anchor": "同一女子手中的同一张白色纸张"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "同一女子对同一张白色纸张先持有，随后抬手挥动",
+      "entity_anchor": "同一女子手中的同一张白色纸张"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "“胖婶，可不是吗”的口头回应提供了对前方对象的语言确认，挥动并指向前方的动作提供了可观察的指向信息，联合后补充了该回应的交流对象和动作指向。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_1",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "挥动白色纸张的动作提供了面向前方的可观察指向，随后说“我可看好你”提供了明确的支持性话语，联合后形成了动作与语言相结合的当前交流过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_2",
+      "target": "process_3",
+      "relation": "process_joint",
+      "reason": "“我可看好你”表达了对前方对象的支持，“怎么样，收获大大的吧”进一步询问其结果，联合后增加了从支持表态到结果追问的完整互动信息。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "手中拿着白色纸张说明持物状态，抬手挥动纸张说明该物体被用于动作表达，联合后补充了从持物到挥动的连续可见表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "室内商店及后方有人在场限定了场景环境，正对画面前方的人交流限定了互动对象和任务，联合后更完整地说明了商店内面对特定对象进行交谈的场景。",
+      "entity_anchor": null
+    }
+  ]
+}

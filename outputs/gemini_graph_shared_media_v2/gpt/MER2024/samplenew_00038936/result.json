@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00038936",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "c613bc4c8eed706c8b1610a8aeb9393921c5fc05b8cbb31814da46e58a8148c8",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "目标人物是画面中央白衣女子；从frame_03至frame_06可见她眉头收紧、持续低头后凝重地看向男子，这一连续视觉变化比单帧严肃表情更具区分力，且[image:E1]与[image:E2]的观察可信。字幕“不过，我最近听他们说，你好像出了点意外”明确指向对方可能遭遇不测，与上述视觉表现形成语言和视觉的互补支持[ audio_subtitle:E1]。她随后抬头注视对方、没有哭泣或夸张动作，构成克制询问或中性的反证，但不足以推翻整体担忧；图谱所称语调平稳未有实际音轨可核验，只能作为弱反证[graph:E4]。因此在给定标签中，worried最符合当前表现。",
+  "output": "目标人物是画面中央白衣女子；从frame_03至frame_06可见她眉头收紧、持续低头后凝重地看向男子，这一连续视觉变化比单帧严肃表情更具区分力，且[image:E1]与[image:E2]的观察可信。字幕“不过，我最近听他们说，你好像出了点意外”明确指向对方可能遭遇不测，与上述视觉表现形成语言和视觉的互补支持[ audio_subtitle:E1]。她随后抬头注视对方、没有哭泣或夸张动作，构成克制询问或中性的反证，但不足以推翻整体担忧；图谱所称语调平稳未有实际音轨可核验，只能作为弱反证[graph:E4]。因此在给定标签中，worried最符合当前表现。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 163.84243941307068
+}

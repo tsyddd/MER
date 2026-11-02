@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物在画面中双眼睁圆、瞳孔微微收紧，嘴部由微张呆愣迅速转为露齿急促说话（[E1]、[E2]）。随着台词'我不知道这件旗袍是你的'展开，其肩颈与面部肌肉保持紧绷，眼神透出被当场撞破后的局促与心虚，展现出担心被追责的紧张辩解状态。",
+  "open_emotion": "忐忑不安",
+  "answer": "worried",
+  "mapping_reason": "目标人物的表情与言语反应体现了被撞破后对可能面临的责怪与冲突的紧张防备，符合情绪轮中worried（对可能负面结果或受责的顾虑、不安）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 (0.0s) 至 frame_02 (0.41s)",
+      "observation": "目标人物双眼睁大直视前方，嘴唇微张微圆，神态瞬间发愣定格。",
+      "interpretation": "显示出突然面临质问时的局促与心虚防备。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05 (1.09s) 至 frame_07 (1.49s)",
+      "observation": "下颌收紧，嘴角拉平露出牙齿急速开合，眉眼间呈现紧绷的辩解神态。",
+      "interpretation": "表现出急于撇清责任、害怕受罚的慌张与不安情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "0.0s-1.4s",
+      "observation": "发出一声短促的感叹词后结结巴巴地说出'我...不知道...'，语速急促且略带颤音。",
+      "interpretation": "声音的慌乱与言语的急迫印证了内心的忐忑担忧。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "开头瞬间睁大双眼微仰头的反应有一定意外（surprise）的外在特征，但结合后续持续的紧绷解释与避责语态，主导情绪是对后果的担忧而非单纯意外。"
+}

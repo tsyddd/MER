@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia239_utt2",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "Chandler's initial expression is one of surprise upon seeing someone. He then greets them with a friendly 'Hi!' and follows up with a playful, teasing question, 'So uh, did you, did-did-did you fall high?', which is delivered in a lighthearted and amused tone, indicating a humorous and surprised reaction.",
+  "output": "Chandler's initial expression is one of surprise upon seeing someone. He then greets them with a friendly 'Hi!' and follows up with a playful, teasing question, 'So uh, did you, did-did-did you fall high?', which is delivered in a lighthearted and amused tone, indicating a humorous and surprised reaction.\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 7.886899948120117,
+  "node_count": null,
+  "edge_count": null
+}

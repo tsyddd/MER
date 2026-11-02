@@ -1,0 +1,145 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "男孩向对方说“哎呀，小区里最可爱最漂亮的”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "男孩询问对方“小美眉需要我帮忙吗”",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "男孩面带笑容，身体微前倾，视线看向左前方，张嘴说话",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "男孩说话语调轻快上扬，语速较快",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "男孩嘴角微收闭嘴停顿，视线仍朝向左前方",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "男孩再次面露笑容，边笑边张嘴说话",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内走廊或阳台旁，背景有窗框与绿色藤蔓植物装饰",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "男孩身穿红色运动外套内搭白色T恤，正面向画面外的人物交流",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "男孩在说完赞美对方的话语后，紧接着开口询问对方是否需要帮忙",
+      "entity_anchor": "男孩"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "男孩面带笑容张嘴说话的同时，声音表现为语调轻快上扬且语速较快",
+      "entity_anchor": "男孩"
+    },
+    {
+      "source": "person_2",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "男孩在起初张嘴笑着说话之后，嘴角微收进入短暂的闭嘴停顿状态",
+      "entity_anchor": "男孩"
+    },
+    {
+      "source": "person_3",
+      "target": "person_2",
+      "relation": "after",
+      "reason": "男孩在短暂微收嘴角停顿之后，再次露出笑容并开口说话",
+      "entity_anchor": "男孩"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提供了男孩使用夸赞修饰引起对方注意的言语动作，process_1提供了紧接着主动提出帮忙的询问行为，两者联合构成了从称赞搭话到主动示好的连贯言语互动过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供了男孩面带笑容、前倾注视对方的视觉表情与姿态，person_1提供了其说话语调轻快上扬、语速较快的声音特征，视听双模态互补，更完整展现了其热情主动的交流表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0提供了带有植物与窗框装饰的室内空间环境，context_1界定了人物着装以及朝向画外对象进行对话的方位，两者联合更完整地限定了物理场景与当前的人际交互情境。",
+      "entity_anchor": null
+    }
+  ]
+}

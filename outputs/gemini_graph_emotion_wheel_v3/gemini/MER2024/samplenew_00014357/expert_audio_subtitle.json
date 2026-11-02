@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物在说话时语调上扬、轻快且带有明显的笑音（smiling voice），言语行为上使用夸张赞美与亲昵称呼（“最可爱最漂亮的小美眉”）进行热情搭话与讨好。语音、语义及面部始终保持笑逐颜开的状态高度一致，传达出强烈的愉悦、兴奋与殷勤互动意图。",
+  "open_emotion": "欣喜雀跃",
+  "answer": "happy",
+  "mapping_reason": "说话人展现出的轻快笑音与热情赞美属于典型的正向愉悦与兴奋互动，符合情绪轮中happy（喜悦/兴奋）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "发音起伏大，句首感叹词“哎呀”语调欢快上扬，整句带有明显的笑意与拉长音调，节奏雀跃轻柔。",
+      "interpretation": "表明说话人情绪高涨、心情愉悦且带有主动讨好的亲近感。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "小区里最可爱，最漂亮的小美美。",
+      "observation": "使用连续的最高级赞美词（“最可爱最漂亮”）进行称赞与示好。",
+      "interpretation": "话语策略旨在奉承和拉近距离，表现出积极、正向的互动取向。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01 (0.52s)",
+      "observation": "说话时眉眼弯曲，嘴角大角度咧开露齿而笑，面部处于完全放松且欢愉的状态。",
+      "interpretation": "视觉表情与声音的笑意完全吻合，印证其愉悦兴奋的情感状态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "话语中带有一定的夸张或逗趣意味，但并无嘲弄、讽刺或掩饰负面情绪的痕迹，不能视为中性或消极表达。"
+}

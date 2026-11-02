@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia263_utt9",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "748766277a851f3c168859458c00ae3a054753904e4b2ab4fc17828900a7ca74",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "沮丧",
+      "mapped_label": "sadness",
+      "mapping_reason": "“沮丧/失落”源自不得不放弃所爱对象的损失与无奈感受，在情绪轮中紧密符合因失落与痛苦而情绪低落的sadness定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "沮丧",
+      "mapped_label": "sadness",
+      "mapping_reason": "根据情绪轮，'沮丧/失落/难过'源于面对分离与失去事件的负面感受，直接归入sadness家族。"
+    },
+    "image": {
+      "open_emotion": "沮丧",
+      "mapped_label": "sadness",
+      "mapping_reason": "Ross表现出的情绪是因面临被迫放弃对象的失落与低落，根据情绪轮定义，沮丧/失落直接映射到sadness家族。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "目标人物Ross在画面初始（frame 0至frame 2）视线低垂、嘴角下撇、肩膀微缩，呈现显著的落寞消沉姿态[image:E1]。音频中他以低沉、微弱且伴随叹息感的语调缓慢吐出台词[audio_subtitle:E2]，结合“不得不放弃”的台词语义，确凿传达出因割舍与损失带来的消沉失落[graph:E1]。最强反证在于他神情较为克制且没有明显的抽泣，可能被误认为是平淡中性，但低垂的体态和认命无力的下沉语调完全排除了中立平稳，符合sadness家族的沮丧情绪定义。",
+  "output": "目标人物Ross在画面初始（frame 0至frame 2）视线低垂、嘴角下撇、肩膀微缩，呈现显著的落寞消沉姿态[image:E1]。音频中他以低沉、微弱且伴随叹息感的语调缓慢吐出台词[audio_subtitle:E2]，结合“不得不放弃”的台词语义，确凿传达出因割舍与损失带来的消沉失落[graph:E1]。最强反证在于他神情较为克制且没有明显的抽泣，可能被误认为是平淡中性，但低垂的体态和认命无力的下沉语调完全排除了中立平稳，符合sadness家族的沮丧情绪定义。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 51.99880814552307
+}

@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标说话者对车内女子说“你先上，我的车，先回去”，是在安排她先离开，而非质问或责备[E1]。他俯身看向对方，神情认真，但画面中没有足以确认焦虑或其他主导情绪的明显变化[E2]。结合这句简短、直接的话，当前更接近平常的交代。",
+  "open_emotion": "平常",
+  "answer": "neutral",
+  "mapping_reason": "“平常”指当前以实际安排和自然交流为主，映射为neutral；这不表示他一定不关心对方。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "你先上，我的车，先回去。",
+      "observation": "说话者让对方先上车、先回去。",
+      "interpretation": "这是一句直接的行动安排，本身没有明确表达担忧、责备或喜悦。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03（0.92秒）",
+      "observation": "车外男子俯身靠近车窗，看向车内女子，面部神情认真。",
+      "interpretation": "认真关注对方与交代事情相符，但仅凭这一表情不足以判定他正在焦虑。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "他让对方先回去，也可能出于担心；但字幕未说明所担心的风险。未提供音频，不能依据语调或声音强度进一步区分。"
+}

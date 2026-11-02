@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物在多个帧中表现出紧锁的眉头、紧闭的嘴唇和直视对方的视线，这些是愤怒的典型面部特征。字幕内容“卑劣的手段”和“无耻之极”是强烈的负面评价，与视觉表现一致。音频中她的语调尖锐、音量高，进一步证实了愤怒情绪。没有观察到任何悲伤或担忧的迹象，如眼眶湿润或下垂的嘴角。",
+  "answer": "angry",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.00s",
+      "observation": "目标人物眉头紧锁，嘴唇紧闭，眼神直视对方。",
+      "interpretation": "这是愤怒或强烈不满的典型面部表情。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "字幕: 你除了这些卑劣的手段，还会什么？真是无耻之极。",
+      "observation": "字幕内容为强烈的指责和贬低。",
+      "interpretation": "字幕内容直接表达了愤怒和鄙视的情绪，与视觉表现相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:01.80 - 00:05.20",
+      "observation": "音频中，目标人物的语调尖锐、音量高，带有明显的愤怒和鄙夷。",
+      "interpretation": "听觉信息与视觉信息一致，共同支持愤怒的判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。目标人物的视觉表现、字幕内容和音频语调高度一致，均指向愤怒情绪，没有明显的反证。"
+}

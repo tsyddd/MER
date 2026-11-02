@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物为画面中央的男性。整体保持端坐、正面面向镜头，表情克制；眉间仅有轻微收紧，未见明显张口惊讶、愤怒表情或持续悲伤迹象。末帧嘴角略向上，显示出轻微礼貌性微笑，但不足以支持明显开心，因此以neutral最符合可见表现。[E1][E2][E3]",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒 至 frame_02 @ 1.12秒",
+      "observation": "目标人物端坐并直视前方，面部肌肉整体放松，嘴唇处于自然闭合或说话状态，姿态没有明显变化。",
+      "interpretation": "支持其当前表达较为平稳、克制，最接近neutral。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.68秒 至 frame_06 @ 3.36秒",
+      "observation": "眉间有轻微收紧，嘴唇数次抿住，眼神保持专注，未出现明显露齿笑、瞪眼或强烈面部紧张。",
+      "interpretation": "轻微严肃或思考感可见，但这些特征不足以单独区分worried、sad或angry。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_07 @ 3.92秒",
+      "observation": "目标人物仍正面看向前方，嘴角略微上扬，形成短暂的闭口微笑。",
+      "interpretation": "可能是礼貌性微笑或表达缓和，幅度很小，不足以判定为happy。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "轻微皱眉和抿唇可支持worried或sad的较强解释，但画面中没有持续低垂视线、明显悲伤表情或紧张姿态；字幕内容本身也未提供明确情绪线索。未提供音频，因此无法用语调进一步核验。"
+}

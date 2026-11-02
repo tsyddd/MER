@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia140_utt4",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "Ross is speaking with a hesitant and stuttering tone, as indicated by the audio evidence. His mouth is moving as he talks, and he is looking at the other person, showing he is actively trying to communicate. This combination of vocal hesitation and focused expression suggests uncertainty or a lack of confidence.",
+  "output": "Ross is speaking with a hesitant and stuttering tone, as indicated by the audio evidence. His mouth is moving as he talks, and he is looking at the other person, showing he is actively trying to communicate. This combination of vocal hesitation and focused expression suggests uncertainty or a lack of confidence.\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 139.51954126358032,
+  "node_count": 8,
+  "edge_count": 3
+}

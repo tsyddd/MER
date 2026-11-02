@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia119_utt5",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "fb723911feb1977e95353e9e5cd3a600d355b69ec46c0c99064139b522a98aa9",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "fear",
+  "emotion_analysis": "音频和字幕显示说话者语速较快，音调偏高，内容为'But Ben is coming over tonight and he can't see this'，表明其处于一种紧张和担忧的状态。图像证据显示她的表情紧张，眉头微皱，眼神专注，与音频中的焦虑语气一致。尽管graph专家认为这可能是一种带有秘密的'joy'，但音频和视觉证据更强烈地支持'fear'。因此，综合判断为'fear'。",
+  "output": "音频和字幕显示说话者语速较快，音调偏高，内容为'But Ben is coming over tonight and he can't see this'，表明其处于一种紧张和担忧的状态。图像证据显示她的表情紧张，眉头微皱，眼神专注，与音频中的焦虑语气一致。尽管graph专家认为这可能是一种带有秘密的'joy'，但音频和视觉证据更强烈地支持'fear'。因此，综合判断为'fear'。\n<answer>fear</answer>",
+  "label": "fear",
+  "elapsed_seconds": 156.22518706321716
+}

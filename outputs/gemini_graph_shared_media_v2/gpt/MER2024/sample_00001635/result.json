@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00001635",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "33e676dfa4457845fb12373ba65d5f414546b0623de9d024d66ecd7d1c0e8f8c",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "我核对了frame_00至frame_07：目标人物先睁大眼、张口，随后嘴部逐渐收紧并持续严肃注视，初始反应虽支持惊讶，但后续紧绷更稳定地指向担忧或防御。[image:E1] 提供字幕仅为“我：不。”，是简短否认，能与防御性回应相容，但不能单独确定情绪；当前无音轨，无法核验语调。[audio_subtitle:E1] 图谱关于“旗袍”完整台词及急促语调的转述与实际字幕不一致，且不能亲自核验，因此只作弱辅助。[graph:E3] 综合视觉变化与可核实字幕，我选择worried，而不是仅凭前段睁眼张口选择surprise。",
+  "output": "我核对了frame_00至frame_07：目标人物先睁大眼、张口，随后嘴部逐渐收紧并持续严肃注视，初始反应虽支持惊讶，但后续紧绷更稳定地指向担忧或防御。[image:E1] 提供字幕仅为“我：不。”，是简短否认，能与防御性回应相容，但不能单独确定情绪；当前无音轨，无法核验语调。[audio_subtitle:E1] 图谱关于“旗袍”完整台词及急促语调的转述与实际字幕不一致，且不能亲自核验，因此只作弱辅助。[graph:E3] 综合视觉变化与可核实字幕，我选择worried，而不是仅凭前段睁眼张口选择surprise。\n<answer>worried</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 301.5423352718353
+}

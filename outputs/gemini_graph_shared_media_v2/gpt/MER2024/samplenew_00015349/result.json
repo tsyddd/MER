@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00015349",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "bcd55e14af684d9817d928d38f4c0f9621768146d95143886c11d6eb856c9942",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "我独立核验frame_00至frame_07：目标人物始终正面站立、面向对方说话，表情严肃收敛，未见明显笑容、惊愕或强烈激动。字幕原话“再这么，烧下去的话，传到高家。”明确是在提示继续下去可能造成的不利后果，这一语义与担忧/警戒相互印证；[audio_subtitle:E1]对此的字幕判断可信，[image:E1]对视觉状态的判断也与画面相符。相较neutral，条件性后果警告和严肃表情提供了更有区分力的支持，但因无音轨，不能采信或亲耳核验语调；图谱中的声音转述仅属间接证据[graph:E4]。",
+  "output": "我独立核验frame_00至frame_07：目标人物始终正面站立、面向对方说话，表情严肃收敛，未见明显笑容、惊愕或强烈激动。字幕原话“再这么，烧下去的话，传到高家。”明确是在提示继续下去可能造成的不利后果，这一语义与担忧/警戒相互印证；[audio_subtitle:E1]对此的字幕判断可信，[image:E1]对视觉状态的判断也与画面相符。相较neutral，条件性后果警告和严肃表情提供了更有区分力的支持，但因无音轨，不能采信或亲耳核验语调；图谱中的声音转述仅属间接证据[graph:E4]。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 155.43638515472412
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00033166",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "男性角色（person_0）在对话中说出‘难道都要悉数倒戈？不成？’，其语气带有强烈的质疑和难以置信，结合其睁大的眼睛和微张的嘴部表情，表现出震惊与意外。该台词和表情共同指向一种对突发状况的强烈反应。",
+  "output": "男性角色（person_0）在对话中说出‘难道都要悉数倒戈？不成？’，其语气带有强烈的质疑和难以置信，结合其睁大的眼睛和微张的嘴部表情，表现出震惊与意外。该台词和表情共同指向一种对突发状况的强烈反应。\n<answer>surprise</answer>",
+  "label": "angry",
+  "elapsed_seconds": 71.56324052810669,
+  "node_count": 5,
+  "edge_count": 2
+}

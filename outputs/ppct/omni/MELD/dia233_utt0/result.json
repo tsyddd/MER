@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia233_utt0",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "The speaker's voice is high-pitched and questioning, and her facial expression shows surprise and disbelief. She asks, 'Did you get all this stuff for Joey to try and drive me out of the apartment?', indicating she is reacting to a surprising and possibly upsetting accusation.",
+  "output": "The speaker's voice is high-pitched and questioning, and her facial expression shows surprise and disbelief. She asks, 'Did you get all this stuff for Joey to try and drive me out of the apartment?', indicating she is reacting to a surprising and possibly upsetting accusation.\n<answer>surprise</answer>",
+  "label": "anger",
+  "elapsed_seconds": 118.18470597267151,
+  "node_count": 8,
+  "edge_count": 3
+}

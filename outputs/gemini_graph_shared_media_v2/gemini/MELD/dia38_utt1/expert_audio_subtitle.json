@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Joey在言语中发出温暖动情的感叹词“Awww”，并明确表达“I’m so proud”[E1]；音频中语调柔和且充满关怀与欣慰，语速舒缓带笑意[E2]；视觉上双手捂心口并露出欣慰笑容[E3]，整体表现出强烈的正向温暖与喜悦（joy）。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Awww, one of my students got an audition. I’m so proud.",
+      "observation": "台词使用充满温情的感叹词“Awww”以及直接表达自豪欣慰的陈述句“I'm so proud”",
+      "interpretation": "明确传递出为学生感到高兴、骄傲的正向关切与欣喜情绪",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00 - 00:03.4",
+      "observation": "以轻柔拉长且略带上扬的鼻腔共鸣音“Awww”起调，随后音调温和柔润，后半句“I'm so proud”语气充满爱抚般的赞赏感与笑意",
+      "interpretation": "声音韵律表现出强烈的感动与欣喜，排除了中性或悲伤",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.50s - frame_07 @ 3.42s",
+      "observation": "Joey双手交叠放在胸口，面部呈现感动与欣慰的微笑，眼神柔和地看向对方",
+      "interpretation": "捂胸动作与温情微笑强化了自豪与喜悦的具象表达",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "面部偶有八字眉和嘴唇微撅可能被误读为sadness（感动常伴随类似哀伤的微表情），但音调中充满笑意与温柔，且语义为自豪，故排除sadness。"
+}

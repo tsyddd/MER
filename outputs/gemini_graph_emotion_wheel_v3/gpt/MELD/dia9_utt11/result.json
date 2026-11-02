@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia9_utt11",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "e2a50d6b01ecc35a810613a0879b6c7baee7d96f1dcefc36a846281bb0277898",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "失落",
+      "mapped_label": "sadness",
+      "mapping_reason": "失落主要指向个人物品受损带来的难过，映射为sadness。话语虽有抱怨意味，但当前没有明确责备或对抗对象的证据，故不优先映射为anger。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "失落",
+      "mapped_label": "sadness",
+      "mapping_reason": "失落针对已经发生的损失，符合sadness所涵盖的因失去或损坏而难过的体验。"
+    },
+    "image": {
+      "open_emotion": "难过",
+      "mapped_label": "sadness",
+      "mapping_reason": "她当前的表达围绕床、衣服和喜爱的毛衣受损，符合sadness中因损失而难过的定义。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "目标是左侧的Rachel：她先抬眼说话，随后低头、收紧嘴角，并举起手中的蓝色衣物；[image:E1][image:E2]对这些动作的描述与画面相符。字幕中她逐一说出床和衣服受损，特别提到“我最喜欢的蓝色毛衣”，为因损失而失落提供了比表情更明确的依据[audio_subtitle:E1][audio_subtitle:E2]。虽然“全毁了”也可能带有恼火，但当前没有明确的责备或对抗对象，画面也未见对抗表现；未提供音轨，不能据语调进一步判断。",
+  "output": "目标是左侧的Rachel：她先抬眼说话，随后低头、收紧嘴角，并举起手中的蓝色衣物；[image:E1][image:E2]对这些动作的描述与画面相符。字幕中她逐一说出床和衣服受损，特别提到“我最喜欢的蓝色毛衣”，为因损失而失落提供了比表情更明确的依据[audio_subtitle:E1][audio_subtitle:E2]。虽然“全毁了”也可能带有恼火，但当前没有明确的责备或对抗对象，画面也未见对抗表现；未提供音轨，不能据语调进一步判断。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 73.71781396865845
+}

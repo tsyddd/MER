@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "女子说话时眉毛微蹙、嘴唇开合〔person_0〕，语调低沉且带有颤音与抽噎停顿感〔person_1〕，视听信息同步呈现其情绪状态。说话后头部微微低垂，视线向下移动〔person_2〕，动作与先前面部表情形成连贯的身体语言。这些表现共同指向悲伤情绪。",
+  "answer": "sad",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "person_2"
+  ]
+}

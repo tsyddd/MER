@@ -1,0 +1,9 @@
+{
+  "reason": "Joey的言语内容是描述一个团队被击败的事实，并用夸张的比喻（'You could be on the Olympic standing-there team'）来表达惊讶和难以置信。他的语调上扬，节奏较快，带有明显的惊讶和一丝幽默感，这与'surprise'情绪轮中'面对违背预期的信息而意外、诧异或惊奇'的定义相符。虽然专家graph和image的解释（surprise和joy）都与视觉和听觉证据有部分支持，但audio_subtitle专家的证据（E1, E2, E3）直接且完整地将言语内容、语调和面部表情与惊讶情绪联系起来，是最直接和可信的证据。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "audio_subtitle:E2",
+    "audio_subtitle:E3"
+  ]
+}

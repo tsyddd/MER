@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00034518",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "根据音频，说话者（person_0）的语气带有明显的关切和担忧，其面部表情也显示出对谈话对象的忧虑。她直接询问“家里又出什么事了”，表明她正在担心对方家庭可能发生的负面事件。这些线索共同指向一种担忧的情绪。",
+  "output": "根据音频，说话者（person_0）的语气带有明显的关切和担忧，其面部表情也显示出对谈话对象的忧虑。她直接询问“家里又出什么事了”，表明她正在担心对方家庭可能发生的负面事件。这些线索共同指向一种担忧的情绪。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 67.68183374404907,
+  "node_count": 4,
+  "edge_count": 1
+}

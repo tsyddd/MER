@@ -1,0 +1,9 @@
+{
+  "reason": "右侧的Janice在前几帧手抵下巴、看向左侧，随后说话时将手移到胸前，眉部收拢、嘴角下垂；[image:E1][image:E2]对这一变化的描述与画面相符。字幕“Good-bye Chandler Bing.”确认她正在道别，但这句话本身不能证明难过[image:E3]。郑重的告别也可能有类似姿态，不过持续的低落表情使“失落”比平稳寒暄更贴近当前表现，故映射为sadness。未提供音轨，不能据此判断语调。",
+  "answer": "sadness",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "image:E3"
+  ]
+}

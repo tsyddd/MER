@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "Monica在当前片段中抱着婴儿，面带微笑，并用轻柔欢快的语气说话，表现出愉悦的情绪。图谱中的节点'person_0'和'person_4'分别从视觉和听觉上支持了这一判断。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "Monica双手抱住婴儿贴在胸前，面带微笑注视前方。",
+      "interpretation": "该视觉表现与'joy'情绪相符，表明Monica在当前互动中感到愉悦。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:02.000",
+      "observation": "Monica的语调轻松自然。",
+      "interpretation": "轻松自然的语调是'joy'情绪的典型听觉表现，支持了当前情绪判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_4",
+      "observation": "图谱中描述Monica用较为轻柔、欢快的语气说话。",
+      "interpretation": "该描述直接指出了'joy'情绪，与视觉和听觉证据一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无明确反证。"
+}

@@ -1,0 +1,3 @@
+{
+  "text": "在室内通道旁，Gunther身穿蓝色长袖衬衫并系着领带，留着浅金色短发，他面朝右侧注视着Chandler并张口发问，语调带有轻微疑问，询问里面是否有人〔process_0, person_0, person_1〕。Chandler起初侧身向右，随后转过身面对Gunther，动作发生在Gunther发问之后〔process_1 after process_0〕。Gunther的提问与Chandler的转身回应共同构成了一个完整的互动过程，二者在行为上相互关联〔process_0 process_joint process_1〕。Gunther的静态着装特征与动态提问表现同时存在，共同刻画了他提问时的形象〔person_0 person_joint person_1〕。背景中可见墙上的储物盒与灯具，环境显示为室内空间〔context_0〕。"
+}

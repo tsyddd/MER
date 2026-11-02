@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物先交代“前两天，他跟汪淼一起”的经历，随后说“我去查”，表达的是陈述线索和下一步行动，而非明确的责备、惊叹或担忧[E1][E2]。画面中他指向前方、神情认真，与正在说明事情相符[E3]；但没有音频，无法判断语气是否另有情绪。",
+  "open_emotion": "认真陈述",
+  "answer": "neutral",
+  "mapping_reason": "“认真陈述”在此主要表现为说明信息、提出行动，现有字幕和画面未显示明确占主导的其他情绪，因此映射为neutral；这不等于断定他对事情毫无顾虑。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“前两天，他跟汪淼一起”",
+      "observation": "以时间和人物关系开头，交代此前发生的事。",
+      "interpretation": "主要是在提供线索，没有直接表达当前情绪评价。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "“我去查”",
+      "observation": "说出自己接下来要采取的行动。",
+      "interpretation": "是简短的行动表态；仅凭这句话不足以认定焦虑或愤怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_03（1.2秒）至frame_06（2.4秒）",
+      "observation": "目标人物说话时指向前方，保持较认真的表情。",
+      "interpretation": "与说明线索、表明行动的语境一致；手势和表情本身不能确定更具体的情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "他抬眉、神情凝重，也可能表示对所述事件有所顾虑；但字幕没有明确说出担心的后果，且未提供音频，不能用语调进一步区分。"
+}

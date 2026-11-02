@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00034518",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "3fed6d6059d74c2412d0aa8019d55bbdcde203bd9f2c07e116f6616c4aef8d9e",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "根据情绪轮定义，'worried'（担忧）指对可能发生的负面结果、风险或未知情况的顾虑、焦虑和不安。年长女性的言语“是不是家里又出什么事了？”直接表达了对未知负面事件的预期和关切。她的语调（音频）和专注的注视姿态（视觉）进一步强化了这种焦虑和不安的情绪。该情绪的评价对象是尚未发生的“出事”，符合'worried'的预期性特征，而非针对已发生的损失（sad）或冒犯（angry）。因此，'担忧'是对此情境下主导情绪的准确描述。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "根据情绪轮定义，'worried'指对可能的负面结果、风险或未知的顾虑和焦虑。说话者询问'家里又出什么事了'，表达了对家庭中可能出现问题的担忧和不安，这与'worried'的定义完全吻合。"
+    },
+    "image": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "根据情绪轮的定义，'worried'（担忧）指对可能发生的负面结果、风险或未知情况的顾虑、焦虑和不安。目标人物的面部表情（皱眉、专注的眼神）和言语内容（询问是否又出事了）都明确指向了对未来的不确定性及其可能带来的负面后果的关切，因此最符合'worried'的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "目标人物（老年女性）的言语内容“是不是家里又出什么事了？”直接表达了对潜在负面事件的关切，这与'worried'（担忧）的定义完全吻合。她的面部表情（皱眉、专注的眼神）和语调（平稳中带有关切和一丝紧张感）共同支持了这一判断。专家的视觉、音频和字幕证据均一致指向'担忧'，且无证据表明其处于愤怒、悲伤或惊讶状态。",
+  "output": "目标人物（老年女性）的言语内容“是不是家里又出什么事了？”直接表达了对潜在负面事件的关切，这与'worried'（担忧）的定义完全吻合。她的面部表情（皱眉、专注的眼神）和语调（平稳中带有关切和一丝紧张感）共同支持了这一判断。专家的视觉、音频和字幕证据均一致指向'担忧'，且无证据表明其处于愤怒、悲伤或惊讶状态。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 165.15209484100342
+}

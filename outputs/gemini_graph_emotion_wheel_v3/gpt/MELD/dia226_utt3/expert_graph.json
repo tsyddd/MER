@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "Rachel当前是在向Phoebe表达一个尚未实现的愿望：希望“他”能多敞开心扉，而不是描述“他”此刻的行为[E1][E2]。她说话时眉头微蹙、持续比划，呈现出对现状不太满意的神情[E3]。结合愿望未获满足的语义，较接近轻微的失落；手势和神情不能单独证明其情绪。",
+  "open_emotion": "失落",
+  "answer": "sadness",
+  "mapping_reason": "这里的失落指对期待中的情感交流尚未实现而感到低落，近似映射到sadness；证据不支持将其理解为强烈悲伤。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Y’know, I wish I could get him to open up a little bit, share some feelings.",
+      "observation": "Rachel说希望能让“他”多敞开心扉、分享感受。",
+      "interpretation": "“I wish”表达当前未满足的期待；没有指明“他”的身份或回应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "节点记录Rachel面对Phoebe说出上述愿望，与所给字幕及画面中的交谈对象相符。",
+      "interpretation": "这有助于区分Rachel当前的倾诉与关于“他”的假设性期待；它与[E1]同源，不另算一份情绪证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04（1.793秒）、frame_06（2.711秒）",
+      "observation": "Rachel看向身旁的人，说话间眉头微蹙，并张开手掌比划。",
+      "interpretation": "神情与未获满足的愿望相配，但单看画面也可能只是认真解释，不能独立判定为悲伤。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "她末帧略带笑意，谈话也可能只是平常地表达愿望，因此失落判断较弱。图谱person_2称“双手抬至胸前”，画面更清楚地显示一只手抬起，不能照单全收。图谱person_1所述语调属于音频派生转述；未提供原音轨，无法亲耳核验，也不能据此断言它有误。"
+}

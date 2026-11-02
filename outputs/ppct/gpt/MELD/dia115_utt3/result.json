@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia115_utt3",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "当前画面中Ross（person_0）在楼梯附近与右侧人物（person_1）面对面站立（context_0），表情和姿态较严肃。字幕显示Ross直接否定并嘲讽对方的防护动作和尖叫（process_0），体现出明显的不满和攻击性；制作人字幕（context_1、context_2）与情绪无关。",
+  "output": "当前画面中Ross（person_0）在楼梯附近与右侧人物（person_1）面对面站立（context_0），表情和姿态较严肃。字幕显示Ross直接否定并嘲讽对方的防护动作和尖叫（process_0），体现出明显的不满和攻击性；制作人字幕（context_1、context_2）与情绪无关。\n<answer>anger</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 115.7518892288208,
+  "node_count": 6,
+  "edge_count": 0
+}

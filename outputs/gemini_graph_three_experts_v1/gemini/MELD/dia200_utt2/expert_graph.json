@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载Joey坐在厨房柜台上向Chandler和Ross发问〔process_0〕。他在询问是谁拿走物品时，神态平和地将双手收回放于腿上，专注注视着两人等待回应〔process_2, person_5〕。整体动作从容自然，没有表现出攻击性或强烈情绪起伏，当前情绪状态为中性。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "process_0",
+    "process_2",
+    "person_5"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "目标人物Ross在画面初始（frame_00至frame_01）双眼低垂、肩膀微缩，呈现明显的低落姿态；随后缓慢抬眼看向前方，神情凝重沉郁[E1]。结合低沉叹息般的语调和表达不得不放弃某人的台词，其整体状态反映出由于面临损失而产生的沮丧与难过[E2]。",
+  "open_emotion": "沮丧",
+  "answer": "sadness",
+  "mapping_reason": "Ross表现出的情绪是因面临被迫放弃对象的失落与低落，根据情绪轮定义，沮丧/失落直接映射到sadness家族。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_02 (0.0s - 0.42s)",
+      "observation": "Ross视线完全向下垂落，嘴角微向下抿，肩颈姿态放松而显无精打采，随后眼神微抬但眉眼沉重。",
+      "interpretation": "低垂的视线与塌缩的坐姿表现出心理上的沉重与失落感。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.0s - 1.4s",
+      "observation": "发音低沉缓慢，带有叹息感的无力语气说出'I'm gonna have to give him up'。",
+      "interpretation": "沉重的语调印证了视觉上非中性的沮丧低落状态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "Ross面部未出现哭泣或强烈的悲伤扭曲，面部表情相对克制，若仅看静态定格可能被误认为日常陈述（neutral）。"
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "字幕“是不是？家里又出什么事了？”是连续的确认与追问，言语行为显示说话者在担心对方家中可能又发生了问题；画面中对应的年长女性眉头微蹙、注视对方并张口询问，与担忧式追问一致。由于没有音频，无法判断语调、音量或节奏。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "当前字幕原话：是不是？家里又出什么事了？",
+      "observation": "说话者连续提出确认性疑问，并询问家里是否又发生了事情。",
+      "interpretation": "这不是陈述本人情绪，而是带有明显关切和不安指向的追问，支持worried。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01至frame_06 @ 0.28至1.8秒",
+      "observation": "画面中的年长女性持续看向对方，眉头略蹙，表情严肃并张口说话。",
+      "interpretation": "这些视觉表现与对家庭状况的担忧相符，而非轻松或开心的询问。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_07 @ 2.08秒",
+      "observation": "年长女性仍面向对方，嘴唇收紧，保持关注的姿态。",
+      "interpretation": "持续等待回应，强化了关切和不安；但仅凭静态表情不能确定更强烈的悲伤或愤怒。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是neutral：这也可能只是平静地询问近况。由于无音频，缺少语调和节奏证据；但字幕中的“又出什么事了”以及持续蹙眉注视使担忧比单纯中性询问更有支持。"
+}

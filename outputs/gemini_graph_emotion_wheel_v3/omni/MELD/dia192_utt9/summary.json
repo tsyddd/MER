@@ -1,0 +1,9 @@
+{
+  "reason": "Monica的台词'What?! Excuse me!'和上扬的语调是惊讶的直接证据。她的面部表情（睁大的眼睛、上扬的眉毛）与台词内容一致，共同指向一种因意外而产生的反应。虽然质问语气可能被解读为愤怒，但其核心是意外而非对抗。三个专家的证据均支持惊讶，且相互印证。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "image:E1",
+    "graph:E1"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035777",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "angry",
+  "emotion_analysis": "根据节点person_0与person_1的联合表现，男子在说出“诚实是做生意的根本”时声音极其洪亮用力、音量高亢，同时身体前倾低头，面部肌肉紧绷且咬牙露齿大张，展现出强烈的训斥与激愤。随后的person_2与person_3显示其头部抬起挺正、嘴角紧绷下撇且目光严厉凝视，进一步体现出愤怒、威严的情绪状态。",
+  "output": "根据节点person_0与person_1的联合表现，男子在说出“诚实是做生意的根本”时声音极其洪亮用力、音量高亢，同时身体前倾低头，面部肌肉紧绷且咬牙露齿大张，展现出强烈的训斥与激愤。随后的person_2与person_3显示其头部抬起挺正、嘴角紧绷下撇且目光严厉凝视，进一步体现出愤怒、威严的情绪状态。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 67.62296938896179,
+  "node_count": 7,
+  "edge_count": 7
+}

@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "目标人物Phoebe在片段前半段（frame_00至frame_04）正对镜头，身体与男方贴近，手掌轻触对方胸前，眉眼舒展，嘴角伴随持续的浅笑与注视；结合音频中带有轻声调侃的轻快耳语，视觉与听觉均呈现出轻松、亲近且带有调侃趣味的正向情感体验，属于愉悦表现。",
+  "open_emotion": "愉悦",
+  "answer": "joy",
+  "mapping_reason": "开放词‘愉悦’体现了当前亲密调侃带来的轻松开心情绪体验，符合情绪轮中joy（喜悦）家族关于愉悦、开心与满足的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01-frame_04 (0.33s-1.29s)",
+      "observation": "Phoebe与男士近距离相拥，手搭在对方胸前，面容放松，嘴角明显上翘露出温和笑容，目光专注且带有挑逗亲昵感。",
+      "interpretation": "显示出亲近、放松且愉悦的情感状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.0s-1.5s",
+      "observation": "Phoebe低声耳语说出台词，尾音带有轻微的气声轻笑，语调轻松上扬。",
+      "interpretation": "印证了面部微笑并非尴尬或礼貌，而是带有亲密趣味的愉悦与戏谑。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "两人的互动氛围较为私密轻柔，未出现大笑或夸张动作，容易被表面形式误判为平缓的neutral，但持续上翘的笑意与肢体亲密感否定了中性。"
+}

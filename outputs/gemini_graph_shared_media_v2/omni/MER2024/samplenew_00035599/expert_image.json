@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标人物在整个片段中保持低头、视线向下、嘴唇微张的静态表情，无明显情绪波动。字幕内容为陈述句，无情绪色彩。音频中语调平稳，无明显情绪起伏。综合视听信息，其表现最符合中性状态。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "目标人物低头，视线朝下，嘴唇微张，表情平静。",
+      "interpretation": "该姿态和表情是中性情绪的典型表现，无明显悲伤、愤怒或喜悦的迹象。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_07 @ 2.16",
+      "observation": "目标人物的面部表情和姿态与初始帧基本一致，无显著变化。",
+      "interpretation": "持续的静态表情支持了情绪中性的判断，排除了强烈或动态情绪的可能性。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "字幕: 手里还握着一截风筝线。",
+      "observation": "字幕内容为客观陈述，不包含情绪词。",
+      "interpretation": "字幕内容本身不支持任何特定情绪，与中性状态一致。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "0.00-2.16",
+      "observation": "音频中说话者语调平稳，无明显情绪起伏。",
+      "interpretation": "平稳的语调与中性情绪相符，排除了激动、悲伤或愤怒等情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无明确反证。虽然字幕内容可能引发悲伤联想，但目标人物的视觉表现和音频语调均未体现该情绪。"
+}

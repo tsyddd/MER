@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Joey的言语内容是关于一个物品的去向，他通过反问来表达困惑。他的语调在句末明显上扬，表现出强烈的疑问和意外，这与字幕中的反问句式完全一致。他的身体语言，如摊开的手掌和身体前倾的姿态，也支持了他正在寻求答案的困惑状态。综合来看，他的情绪是面对一个出乎意料的情况时的惊讶和困惑。",
+  "open_emotion": "惊讶",
+  "answer": "surprise",
+  "mapping_reason": "根据提供的情绪轮定义，'surprise'（惊讶）被描述为'面对违背预期的信息而意外、诧异或惊奇'。Joey的反问句式和上扬的语调表明他正在处理一个违背其预期的情况，这与'surprise'的定义高度吻合。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00:02.836 - 00:00:03.294",
+      "observation": "Joey说'...then who did?'时，语调明显上扬。",
+      "interpretation": "上扬的语调是疑问句的典型特征，表明说话者正在寻求信息，对当前情况感到困惑和意外。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "And if she didn't take it, and I didn't take it; and you didn't take it, then who did?",
+      "observation": "字幕显示Joey使用了反问句式。",
+      "interpretation": "反问句式通常用于表达惊讶、困惑或寻求确认，而不是陈述一个事实。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "Joey在说话时，身体前倾，双手摊开，做出一个表示'我不知道'或'谁能告诉我'的手势。",
+      "interpretation": "这个手势是其言语内容的补充，强化了他因情况不明而感到困惑和惊讶的情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有发现支持其他情绪的证据。Joey的语气中没有愤怒的成分，也没有表现出悲伤、喜悦或厌恶等情绪。"
+}

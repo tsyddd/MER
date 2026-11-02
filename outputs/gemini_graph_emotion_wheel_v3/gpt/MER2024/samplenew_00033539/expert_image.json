@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是画面中穿红衣、蓝色围裙的女性。她从正面略转向画面右侧，持续看向画外的人；眉头收紧、嘴巴张开，随后抬头并偏头，像是在确认刚听到的信息[E1][E2]。字幕“啊？真的。”支持她正对新信息作出意外的询问[E3]。综合来看，最有支持的是诧异，而非已经显现的担忧或愤怒。",
+  "open_emotion": "诧异",
+  "answer": "surprise",
+  "mapping_reason": "当前表情变化与确认式话语共同指向信息出乎预期，符合surprise的即时意外；皱眉本身不足以判为担忧或愤怒。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_02（0.56秒）",
+      "observation": "女性眉间收紧、嘴巴逐渐张开，视线朝画面右侧。",
+      "interpretation": "呈现对画外信息的明显反应，但单凭皱眉不能确定情绪类别。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03（0.84秒）至frame_07（1.96秒）",
+      "observation": "她继续朝右侧看，头部先略抬起、随后偏向右侧，保持张口说话的状态。",
+      "interpretation": "连续的转头和发问姿态支持她在向对方确认信息。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“啊？真的。”",
+      "observation": "字幕为带疑问的确认话语。",
+      "interpretation": "与画面中的反应相结合，支持对消息感到意外；字幕不提供语调证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "眉头持续收紧也可能表示疑虑；但片段没有显示她具体担心的后果，画面也没有明确的责备或对抗表现。没有提供音频，无法据语调进一步区分。"
+}

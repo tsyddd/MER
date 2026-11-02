@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "目标是催眠磁带的声音，而非床上的男子。当前可核实的话语只有“Deeper.”[E1]；图谱将这次播放描述为语调平缓、音量平稳[E2]，若描述准确，支持其以平稳方式发出指令。男子闭眼静卧是另一人物的状态[E3]，不能据此推断磁带的情绪，也不能推断是这句话使他闭眼。综合现有证据，选择平稳，但音轨未提供，语调判断保留不确定性。",
+  "open_emotion": "平稳",
+  "answer": "neutral",
+  "mapping_reason": "“平稳”对应当前表达没有明确主导情绪的neutral；这里指磁带发出指令的方式，不是男子的状态或卧室氛围。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Deeper.",
+      "observation": "当前字幕只有“Deeper.”这一句。",
+      "interpretation": "这是指令内容，本身没有明确表达喜悦、威胁或责备；单凭文字仍不能判定实际语调。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "图谱将催眠磁带的声音描述为语调平缓柔和、音量平稳。",
+      "interpretation": "这是有来源的音频派生转述，支持平稳表达，但没有原音轨可亲耳核验。",
+      "polarity": "uncertain"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_07（0.6256245142666815秒）",
+      "observation": "画面中的男子闭眼躺着，片段内未见明显回应。",
+      "interpretation": "画面呈现的是听者而非目标声音，不能用他的状态证明磁带的情绪。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "“Deeper.”也可能以急切或强硬的语气说出；缺少原音轨，无法排除。字幕与图谱中的话语描述涉及同一次播放，不能算作两次独立印证。"
+}

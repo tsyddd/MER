@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013076",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "happy",
+  "emotion_analysis": "目标人物戴着口罩，面向对面人物交流（person_0、context_0），字幕中说“正要感谢您呢！谢谢！谢，谢谢。”（process_0），并先抬手至胸前、随后双手合十（person_1、person_2；person_2 after person_1）。这些言语和手势表现出礼貌、感谢和积极回应，整体更符合开心情绪。",
+  "output": "目标人物戴着口罩，面向对面人物交流（person_0、context_0），字幕中说“正要感谢您呢！谢谢！谢，谢谢。”（process_0），并先抬手至胸前、随后双手合十（person_1、person_2；person_2 after person_1）。这些言语和手势表现出礼貌、感谢和积极回应，整体更符合开心情绪。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 12.063507318496704,
+  "node_count": 5,
+  "edge_count": 4
+}

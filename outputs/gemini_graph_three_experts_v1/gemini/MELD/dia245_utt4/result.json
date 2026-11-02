@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia245_utt4",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "1528c89a9e48293f5c22e3f68968c73260009900840f78dcfab7366d2748796f",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "fear",
+  "emotion_analysis": "图像专家捕捉到挑眉睁眼的突发反应判定为surprise，但音频专家明确指出其伴随高亢尖锐的急促惊叫，连喊‘No-no-no, no!’进行慌乱阻拦，充满紧迫感与恐慌。结合图谱记录其因危机扔物冲前阻止的动作，该反应超出了单纯的惊讶，核心情绪体现为强烈的恐慌与害怕（fear）。",
+  "output": "图像专家捕捉到挑眉睁眼的突发反应判定为surprise，但音频专家明确指出其伴随高亢尖锐的急促惊叫，连喊‘No-no-no, no!’进行慌乱阻拦，充满紧迫感与恐慌。结合图谱记录其因危机扔物冲前阻止的动作，该反应超出了单纯的惊讶，核心情绪体现为强烈的恐慌与害怕（fear）。\n<answer>fear</answer>",
+  "label": "fear",
+  "elapsed_seconds": 54.11009860038757
+}

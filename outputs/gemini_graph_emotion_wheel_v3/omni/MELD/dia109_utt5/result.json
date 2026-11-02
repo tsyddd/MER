@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia109_utt5",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "d1e48fb5bc9702767bb92c6beba55179a3e73274b2c9fb39f96f11cbbfe48c20",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "戏剧化",
+      "mapped_label": "surprise",
+      "mapping_reason": "根据数据集情绪轮的定义，'surprise'（惊讶）是因面对违背预期的信息而产生的意外、诧异或惊奇。Janice的表达方式——高亢的声调、夸张的手势以及关于“残酷剧场”的离奇想法——完全违背了普通对话的预期，旨在制造一种强烈的冲击和意外感。尽管她的语气可能带有轻微的戏谑或厌恶，但主导情绪是其表达方式的出人意料和戏剧性，这与'surprise'的语义家族最为契合。其他情绪如'anger'或'disgust'需要更直接的对抗或排斥证据，而'joy'则与这种带有表演性质的负面戏谑不符。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "讽刺",
+      "mapped_label": "disgust",
+      "mapping_reason": "在MELD项目的情绪轮中，'disgust'（厌恶）被定义为对令人反感、恶心或难以接受的对象的排斥与厌弃。Janice的言论和表演方式，虽然带有喜剧色彩，但其核心是对他人行为的强烈否定和排斥，表达了她认为对方的行为是令人反感和难以接受的。这种通过夸张和戏剧化语言来表达的强烈否定和排斥，最符合'disgust'的范畴，因为它超越了简单的中性或惊讶，是一种带有表演性质的、对他人行为的负面评价和疏离感。"
+    },
+    "image": {
+      "open_emotion": "厌恶",
+      "mapped_label": "disgust",
+      "mapping_reason": "根据情绪轮定义，disgust（厌恶）是对令人反感、恶心或难以接受对象的排斥与厌弃。Janice的台词“theater of cruelty”（残酷剧场）和她夸张的表演，共同指向了对某种行为或想法的强烈反感和排斥。她的表情和姿态并非指向恐惧（fear）或悲伤（sadness），而是对“残酷剧场”这一概念的戏剧化表达，因此最符合disgust的范畴。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "disgust",
+  "emotion_analysis": "目标人物Janice的表达方式是夸张的、戏剧化的，其核心是通过离奇的比喻（'残酷剧场'）来表达对他人行为的强烈否定和排斥。专家'subtitle'和'image'均指出，其高亢的语调、夸张的表情和手势，共同构成了一种带有表演性质的讽刺和否定，这与'disgust'（厌恶）的语义家族最为契合。虽然'graph'专家将其解释为'surprise'，但其描述的'戏剧化表达'和'出人意料'的冲击力，本质上是通过夸张的表演来传达一种强烈的负面评价，而非单纯的意外。因此，'disgust'更能准确捕捉其主导情绪。",
+  "output": "目标人物Janice的表达方式是夸张的、戏剧化的，其核心是通过离奇的比喻（'残酷剧场'）来表达对他人行为的强烈否定和排斥。专家'subtitle'和'image'均指出，其高亢的语调、夸张的表情和手势，共同构成了一种带有表演性质的讽刺和否定，这与'disgust'（厌恶）的语义家族最为契合。虽然'graph'专家将其解释为'surprise'，但其描述的'戏剧化表达'和'出人意料'的冲击力，本质上是通过夸张的表演来传达一种强烈的负面评价，而非单纯的意外。因此，'disgust'更能准确捕捉其主导情绪。\n<answer>disgust</answer>",
+  "label": "anger",
+  "elapsed_seconds": 209.62550044059753
+}

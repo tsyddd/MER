@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia245_utt4",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "1528c89a9e48293f5c22e3f68968c73260009900840f78dcfab7366d2748796f",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "抗拒",
+      "mapped_label": "anger",
+      "mapping_reason": "根据当前证据，Monica的表达是急促、高亢的喊叫（'No-no-no, no!'）和迅速的肢体动作，其语义和行为模式是直接的、对抗性的制止。这与'anger'（愤怒）中对冒犯、不公或受阻情况的责备与对抗的定义相符。虽然场景可能带有惊吓成分，但她的核心行为是主动的、带有对抗性的阻止，而非被动的恐惧或惊讶，因此映射到'anger'更为准确。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "害怕",
+      "mapped_label": "fear",
+      "mapping_reason": "根据MELD项目的情绪轮定义，'fear'指面向威胁、危险或令人害怕的负面后果，表现出畏惧、惊恐或威胁相关的焦虑。Monica的急促拒绝和受惊的身体语言，是对一个突发负面事件的直接反应，符合'fear'的定义。"
+    },
+    "image": {
+      "open_emotion": "fear",
+      "mapped_label": "fear",
+      "mapping_reason": "根据情绪轮的定义，'fear'是面向威胁、危险或令人害怕的负面后果时表现出的畏惧、惊恐或威胁相关的焦虑。Monica的视觉表现（张大的嘴巴、睁大的眼睛、快速的视线移动）和听觉表现（急促的“不”声）共同指向一种对突发威胁的恐惧反应，因此映射到'fear'是合理的。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "Monica的反应是急促、高亢的喊叫（'No-no-no, no!'）和迅速的肢体动作，其语义和行为模式是直接的、对抗性的制止。这与'anger'（愤怒）中对冒犯、不公或受阻情况的责备与对抗的定义相符。虽然她的视觉表现（张大的嘴巴、睁大的眼睛）和听觉表现（急促的“不”声）也带有惊讶或恐惧的成分，但其主导行为是主动的、对抗性的阻止，而非被动的惊吓或逃离。因此，'anger'的解释力更强。",
+  "output": "Monica的反应是急促、高亢的喊叫（'No-no-no, no!'）和迅速的肢体动作，其语义和行为模式是直接的、对抗性的制止。这与'anger'（愤怒）中对冒犯、不公或受阻情况的责备与对抗的定义相符。虽然她的视觉表现（张大的嘴巴、睁大的眼睛）和听觉表现（急促的“不”声）也带有惊讶或恐惧的成分，但其主导行为是主动的、对抗性的阻止，而非被动的惊吓或逃离。因此，'anger'的解释力更强。\n<answer>anger</answer>",
+  "label": "fear",
+  "elapsed_seconds": 175.32627177238464
+}

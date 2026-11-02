@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "目标人物Rachel面部神态平静放松，眉眼平稳无明显笑意或皱眉[E1]；双手摊开的耸肩姿态为随意的谈话性动作[E2]，配合平稳日常的语调，表明其处于客观陈述的平静状态而非情绪亢奋。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.08s",
+      "observation": "Rachel面部肌肉放松，眉毛平整，嘴角自然张合说话，无嘴角上扬或颧肌抬升的笑容表现。",
+      "interpretation": "缺乏明显的愉悦表情特征，表现出平稳克制的情绪基调，支持中立态度。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_06 @ 1.63s",
+      "observation": "Rachel双手掌心向上微摊，做出轻微耸肩动作，神态自然。",
+      "interpretation": "摊手动作在此处为日常交谈中的说明性/轻描淡写体态，并非喜悦时的雀跃或兴奋表达。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词内容为正面评价（“everything went great”），可能被理解为喜悦（joy）；但视觉上全程无微笑、露齿或兴奋肢体语言，听觉语调亦平实轻描淡写，不足以支撑joy。"
+}

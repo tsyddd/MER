@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "字幕中的“Deeper.”是简短指令，没有直接表达愤怒、恐惧等情绪[E1]。画面中卧床者闭眼、姿势变化很小，与指令语境不冲突，但不能据此推断录音说话者的语气[E2]。在现有证据下，选择neutral；判断主要受缺少音轨限制。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Deeper.",
+      "observation": "当前字幕只有一个祈使词“Deeper.”",
+      "interpretation": "其言语行为是指令，字面内容未呈现明确情绪；单词本身不足以判断是否带有威胁或安抚语气。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_07 @ 0.6256245142666815秒",
+      "observation": "卧床者闭着眼睛躺着；所给帧中未见录音说话者。",
+      "interpretation": "画面可核对指令出现时的场景，却不能提供目标声音的情绪或韵律证据。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "“Deeper.”也可能以令人不安的命令口吻说出；但没有音轨，无法核实音量、语调或节奏，因此不采用这种解释，也不能把卧床者的表情当作录音说话者的情绪。"
+}

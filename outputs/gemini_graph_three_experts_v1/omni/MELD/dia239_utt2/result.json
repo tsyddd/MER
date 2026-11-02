@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia239_utt2",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "83c5e47c0148450bbc1edd40f39fe6e36178e18810553475144f0c7751aa6c95",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "音频专家指出Chandler语调上扬并带有笑声，重复提问表现出幽默和意外，符合'joy'特征；图像专家认为其面部表情平静放松，无明显情绪化特征，支持'neutral'；图谱专家从言语停顿和肢体试探推断紧张或不确定。尽管图谱与图像支持中性，但音频中明确的笑声和上扬语调是joy的强证据，且音频直接反映实时情绪表达，因此优先采纳音频判断。",
+  "output": "音频专家指出Chandler语调上扬并带有笑声，重复提问表现出幽默和意外，符合'joy'特征；图像专家认为其面部表情平静放松，无明显情绪化特征，支持'neutral'；图谱专家从言语停顿和肢体试探推断紧张或不确定。尽管图谱与图像支持中性，但音频中明确的笑声和上扬语调是joy的强证据，且音频直接反映实时情绪表达，因此优先采纳音频判断。\n<answer>joy</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 49.38685202598572
+}

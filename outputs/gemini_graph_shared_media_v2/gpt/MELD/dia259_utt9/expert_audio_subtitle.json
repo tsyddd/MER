@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "“You are both idiots.”字面上是贬损，但目标人物说话时带笑、双手相握并前倾，更像带玩笑意味的嗔怪，而非真正发怒[E1][E2][E3]。没有音频，无法用语调进一步核实。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "You are both idiots.",
+      "observation": "字幕是对两人的直接评价，使用了贬损词“idiots”。",
+      "interpretation": "字面措辞可能指向愤怒，但不能仅凭这个词判定说话者的当前情绪。",
+      "polarity": "uncertain"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒",
+      "observation": "Monica嘴角上扬，双手在胸前相握。",
+      "interpretation": "表情与姿态更支持轻松、愉快的表达，而非严厉斥责。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05 @ 1.5014988342400355秒",
+      "observation": "她向前倾身，仍带笑意。",
+      "interpretation": "在这句台词的画面过程中，笑意持续，使玩笑式嗔怪成为较强解释。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的相反解释是她确实在责备对方，“idiots”的字面意思支持这一点；但画面中的持续笑意与之不太一致。由于没有音频，仍无法确认这句话的实际语气。"
+}

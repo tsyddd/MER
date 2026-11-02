@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia168_utt13",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "当前目标人物Ross面向画面左侧持续说话，嘴部张开并连续抬手、挥动双手做强调性手势（person_0、person_1、person_2；person_1→person_2为先后关系）。字幕中他直接指认对方并要求其“confess”（process_0），结合皱眉和强势表达，表现出明显的愤怒与逼问情绪。",
+  "output": "当前目标人物Ross面向画面左侧持续说话，嘴部张开并连续抬手、挥动双手做强调性手势（person_0、person_1、person_2；person_1→person_2为先后关系）。字幕中他直接指认对方并要求其“confess”（process_0），结合皱眉和强势表达，表现出明显的愤怒与逼问情绪。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 123.4483232498169,
+  "node_count": 7,
+  "edge_count": 5
+}

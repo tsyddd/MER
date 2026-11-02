@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是画面中央的金发女性 Phoebe，而非左侧背对镜头的女性。[E1][E2] 她持续面向对方说话，表情变化不大，手势主要配合描述；较有依据的解释是平常、平稳地介绍一个人，而非表现出明确的喜悦。[E3] 字幕中的正面评价提示可能有好感，但不能直接当作她正在开心的视觉证据。",
+  "open_emotion": "平常",
+  "answer": "neutral",
+  "mapping_reason": "当前可见表现以平稳交谈为主，没有足够的面部或姿态变化支持某种明确的主导情绪，因此映射为neutral。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_04（2.5025秒）",
+      "observation": "Phoebe 面向左侧女性，嘴部随说话开合；其间目光大致保持朝向对方，面部没有明显的大幅变化。",
+      "interpretation": "支持她正平稳地与对方交谈，未见明确的强烈情绪反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01（0.625625秒）至frame_07（4.379375秒）",
+      "observation": "她先将双手放低，再以张开的手掌做数次小幅手势；到最后一帧仍面向对方。",
+      "interpretation": "手势与持续说明相符，单凭这些动作不能判作兴奋或恼怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“And umm, he’s like early to mid-thirties, very attractive.”",
+      "observation": "字幕是在描述另一人的年龄和外貌，其中包含“very attractive”的正面评价。",
+      "interpretation": "正面评价为喜悦的解释提供一定可能，但不等于说话者当下表现出喜悦。",
+      "polarity": "counter"
+    }
+  ],
+  "counterevidence": "frame_07 嘴角似有轻微上扬，加上字幕的正面评价，也可解释为一点愉悦；但幅度小且缺少持续的笑容。画面没有音轨，无法用语调进一步区分。"
+}

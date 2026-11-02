@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标是画面右侧的Janice，不是左侧背对镜头的男子或后方坐着的男子。她从手指贴近脸颊、嘴唇收紧，转为手按胸口、眉部上抬且嘴角略向下；这一组变化更支持sadness，而非仅凭告别台词推断情绪[E1][E2]。字幕只确认她在告别，不能证明语气[E3]。",
+  "answer": "sadness",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.3336664076088968秒；frame_04 @ 1.2929573294844752秒",
+      "observation": "Janice先用手指贴近脸颊、嘴唇收紧；随后将手移到胸前，另一只手臂仍横在身前。",
+      "interpretation": "姿态由触脸转为按胸，结合面部变化，支持她在表达难过；手势本身不足以确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05 @ 1.6266237370933718秒；frame_07 @ 2.2939565523111654秒",
+      "observation": "她面向左侧男子，眉部抬起，嘴张开，后段嘴角略向下；没有明显笑容。",
+      "interpretation": "这些可见特征比愉快或平静的表达更贴近难过，但张口也可能只是在说话。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Good-bye Chandler Bing.",
+      "observation": "当前字幕是一句告别。",
+      "interpretation": "与画面中的难过表达相容；字幕本身不说明告别的语气或情绪。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "最强的相反解释是她在以夸张或调侃的方式告别：持续抱臂、抬眉和张口也可用于表演式说话。画面没有明确笑容，且后段嘴角略向下，因此未采用joy；没有音频，无法借语调进一步区分。"
+}

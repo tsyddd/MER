@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013076",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "happy",
+  "emotion_analysis": "音频中人物说“正要感谢您呢！谢谢！谢，谢谢。”，同时双手合十于胸前，这是表达感谢的典型行为。该行为与语言内容一致，共同指向积极的情感。",
+  "output": "音频中人物说“正要感谢您呢！谢谢！谢，谢谢。”，同时双手合十于胸前，这是表达感谢的典型行为。该行为与语言内容一致，共同指向积极的情感。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 67.52846026420593,
+  "node_count": 6,
+  "edge_count": 2
+}

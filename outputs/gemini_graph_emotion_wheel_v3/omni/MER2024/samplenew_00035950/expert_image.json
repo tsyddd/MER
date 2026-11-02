@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "目标人物在多个连续帧中表现出明显的面部和姿态变化。从帧00到帧03，她侧头，眼神游移，嘴唇微张，表现出一种思索或犹豫的状态。在帧04，她的嘴巴张得很大，这是一个强烈的惊讶或震惊的视觉表现。随后在帧05到帧07，她的表情恢复为一种带有困惑和不解的平静，眼神依然在游移。字幕内容“怎么到了自己身上，就这样不明白”直接表达了她的困惑和不解。音频中她的语调也带有明显的惊讶和不解。综合来看，她的表情和台词都指向一种因意外情况而产生的困惑和不解，这与“surprise”（惊讶）的定义最为贴合。",
+  "open_emotion": "惊讶",
+  "answer": "surprise",
+  "mapping_reason": "根据情绪轮的定义，'surprise'（惊讶）是因当前信息违背预期而产生的意外、诧异或震惊。目标人物的台词“怎么到了自己身上，就这样不明白”直接表达了她对自己所处状况的意外和不解。她的视觉表现，特别是帧04中张大的嘴巴，是惊讶情绪的典型生理反应。因此，该情绪最准确地映射到'surprise'。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_04",
+      "observation": "目标人物的嘴巴张得很大，眼睛睁大。",
+      "interpretation": "这是惊讶或震惊的典型面部表情。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "字幕",
+      "observation": "字幕内容为“怎么到了自己身上，就这样不明白。”",
+      "interpretation": "台词直接表达了说话者对自己处境的意外和困惑。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00-frame_03",
+      "observation": "目标人物侧头，眼神游移，嘴唇微张。",
+      "interpretation": "表现出一种思索、犹豫或对当前情况的不理解。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "音频中说话者的语调带有明显的惊讶和不解。",
+      "interpretation": "声音的语调与字幕内容和面部表情一致，共同强化了惊讶的情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "目标人物的表情并非持续的愤怒或悲伤，其核心情绪是因意外而产生的困惑，因此不支持'angry'或'sad'。"
+}

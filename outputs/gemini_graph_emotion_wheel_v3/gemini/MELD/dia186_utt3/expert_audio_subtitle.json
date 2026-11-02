@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物在电话中向对方取消当晚安排。从言语行为看，虽然使用了'I'm sorry'这一礼节性致歉词，但语调低平、自然流畅，尾音'baby'轻柔随和，并无声音发颤、叹息、哭腔或沉重的哀伤音质；视觉上他斜倚在扶手椅中，肢体放松，面部无明显的悲伤皱眉或嘴角下垂，整体呈现出日常、从容的常规沟通状态。",
+  "open_emotion": "平常",
+  "answer": "neutral",
+  "mapping_reason": "说话者的表现属于日常平稳、就事论事的交流，无明显压倒性的负向悲痛或正向兴奋体验，符合neutral（中性/平稳平常）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "I’m sorry I gotta cancel tonight baby",
+      "observation": "目标人物陈述取消今晚约会的决定，句式为日常会话中的告知与客套致歉。",
+      "interpretation": "虽然包含道歉词，但在语用上主要行使日常通知功能，不必然体现深层内疚或悲伤。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.00-1.85s",
+      "observation": "语速均匀，音调低沉平缓，语气轻松自然，句尾处理平稳且没有抑扬顿挫的剧烈情绪波动。",
+      "interpretation": "缺乏悲伤所需的下沉沉重感或兴奋/愤怒的能量激增，支持平稳无剧烈情绪状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00至frame_07 (0.00s-1.92s)",
+      "observation": "身体靠在扶手椅背上，持手机姿态自如，面部肌肉舒展放松，未见愁苦或紧张。",
+      "interpretation": "体态与面部表情支持其当前处于放松且平稳的日常状态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "话语中包含'I’m sorry'，可能被表面语义理解为低落或抱歉（sadness相关），但实际声学与视觉表现均缺乏悲伤或懊恼的声学及形态学支持。"
+}

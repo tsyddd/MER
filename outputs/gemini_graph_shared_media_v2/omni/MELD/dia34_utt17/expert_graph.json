@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "莫妮卡在与瑞秋的对话中，明确表达了对“出轨”这一行为的强烈反对。图谱中的节点process_1记录了她说出“I’m never gonna think it’s okay for you to cheat on your husband!”这一关键话语，其内容直接指向了对不道德行为的否定。结合她转向对方、语气坚定的视觉表现，该节点是判断其情绪的核心依据。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "莫妮卡说出“I’m never gonna think it’s okay for you to cheat on your husband!”",
+      "interpretation": "该话语内容表达了对瑞秋行为的强烈道德谴责，是愤怒情绪的直接语言证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.5004996114133452",
+      "observation": "莫妮卡转向身旁的瑞秋，面朝对方张口发声，音量较高。",
+      "interpretation": "该动作和高声的发声方式表明她正在严肃且激动地表达自己的观点，与愤怒情绪的外在表现一致。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "字幕: \"Rachel! I'm never gonna think it's okay for you to cheat on your husband!\"",
+      "observation": "字幕内容与音频一致，记录了莫妮卡的完整发言。",
+      "interpretation": "字幕证实了莫妮卡话语的严厉性，其内容是判断其情绪的关键。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无明确的反证。虽然莫妮卡的语调可能带有失望或担忧的成分，但其话语内容和表达方式更直接地指向了愤怒。"
+}

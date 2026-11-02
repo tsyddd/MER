@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "画面中目标人物身体前倾逼近对方，双眉紧拧并怒视对方，在发音指责时咬牙张口、面部肌肉紧绷，结合严厉的斥责语调和谴责字幕，典型表现为愤怒（angry）。",
+  "answer": "angry",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.84",
+      "observation": "目标人物身体向前逼近对方，眉头紧皱，眼神逼视对方，嘴角向下撇并咬牙说话。",
+      "interpretation": "显露强烈的质问与敌对态势，符合愤怒的情绪特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_07 @ 3.0",
+      "observation": "双目圆睁紧盯对方，眉峰压低，嘴部紧抿严肃，神态极具压迫感。",
+      "interpretation": "持续的怒视与紧绷的面部表情强化了愤怒的指责态度。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "可是，你背信弃义，你一个劲地抬价。",
+      "observation": "台词使用“背信弃义”进行严正斥责与谴责。",
+      "interpretation": "强烈的负面道德指责语义，完全排除了单纯的惊讶或客观陈述。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "在frame_06至frame_07中眼睛圆睁的形态可能被误判为surprise，但其眉头下压、咬牙切齿且伴随严厉谴责的语调，属于典型的愤怒怒视，而非惊讶。"
+}

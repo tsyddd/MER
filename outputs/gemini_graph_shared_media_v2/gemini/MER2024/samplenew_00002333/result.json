@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00002333",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "0e9fbf235f4db8f0d6cbb4c5b79681cf485a4b2bfdd80a92849380e07b412f8e",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "happy",
+  "emotion_analysis": "目标人物在沙发上呈现松弛靠卧姿态，在前段画面中保持清晰的露齿笑意与眼角收窄[image:E1]。实际音轨在发音时伴随明显的轻笑气声与调侃语气[audio_subtitle:E1]，视听线索高度互补且真实可信。台词虽含严肃词汇，但松弛神态消解了紧张感，排除了担忧或中性情绪。综合特征明确反映出轻松愉悦的表达状态。",
+  "output": "目标人物在沙发上呈现松弛靠卧姿态，在前段画面中保持清晰的露齿笑意与眼角收窄[image:E1]。实际音轨在发音时伴随明显的轻笑气声与调侃语气[audio_subtitle:E1]，视听线索高度互补且真实可信。台词虽含严肃词汇，但松弛神态消解了紧张感，排除了担忧或中性情绪。综合特征明确反映出轻松愉悦的表达状态。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 62.53943943977356
+}

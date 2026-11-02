@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia153_utt4",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "1701ec52f64cb4d931ebb2a39270db0f0b109d59cf49cceb1bc9a7c9f35dd50e",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "图像专家报告的皱眉、面部紧绷、挥手指向和张口强调，较直接地支持目标人物处于激动和不满状态。图谱仅显示其在解释观点并配合手势，不能排除情绪表达；音频专家未获得实际音频，仅凭字幕推断惊讶，证据较弱。因此当前情绪取 anger。",
+  "output": "图像专家报告的皱眉、面部紧绷、挥手指向和张口强调，较直接地支持目标人物处于激动和不满状态。图谱仅显示其在解释观点并配合手势，不能排除情绪表达；音频专家未获得实际音频，仅凭字幕推断惊讶，证据较弱。因此当前情绪取 anger。\n<answer>anger</answer>",
+  "label": "fear",
+  "elapsed_seconds": 77.77871227264404
+}

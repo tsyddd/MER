@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia109_utt5",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "当前人物是Janice，她在餐厅面对前景男子说出“theater of cruelty”的设想。视觉上她由双臂交叉转为连续指点和强调性手势（person_0→person_1→person_2），随后手指交握、重新抱臂并转头（person_3→person_4），面部和姿态显得紧张、强硬且带有责备意味；结合字幕中的残酷剧场表述，更符合愤怒而非中性。",
+  "output": "当前人物是Janice，她在餐厅面对前景男子说出“theater of cruelty”的设想。视觉上她由双臂交叉转为连续指点和强调性手势（person_0→person_1→person_2），随后手指交握、重新抱臂并转头（person_3→person_4），面部和姿态显得紧张、强硬且带有责备意味；结合字幕中的残酷剧场表述，更符合愤怒而非中性。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 149.61413669586182,
+  "node_count": 8,
+  "edge_count": 8
+}

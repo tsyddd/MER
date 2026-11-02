@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载主要人物指责对方“可是你背信弃义，你一个劲儿地抬价”〔process_0〕，同时其语速急促且音量较高〔person_1〕。在交谈对质过程中，主要人物目光直视且双眼睁大紧盯对方〔person_0, person_3〕，神态与发声表现均呈现出明显的愤怒质问状态。",
+  "answer": "angry",
+  "evidence_refs": [
+    "process_0",
+    "person_1",
+    "person_0",
+    "person_3"
+  ]
+}

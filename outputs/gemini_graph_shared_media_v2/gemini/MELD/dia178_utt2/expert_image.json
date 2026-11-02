@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "Monica在抱持婴儿期间始终保持舒展自然的微笑，面颊肌肉抬起，眼神温和并伴随轻快语调与同伴互动，属于明显的愉悦/欣喜表达[E1][E2]。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_04 @ 3.294955775137856",
+      "observation": "Monica怀抱婴儿面向左前方说话，双唇张开露齿微笑，嘴角显著上扬，面部舒展放松。",
+      "interpretation": "自然开朗的笑容展现出积极轻松的情感体验，支持joy。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_07 @ 5.797453832204582",
+      "observation": "Monica视线向下投向怀中的婴儿，嘴角依旧保持上提的微笑弧度。",
+      "interpretation": "持续的微笑与关切柔和的注视体现对婴儿的喜爱与开心状态，进一步支持joy。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽在部分帧中神情柔和克制，但全程嘴角持续扬起且无皱眉或紧张防备动作，并非平淡的neutral或敷衍客套。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia239_utt0",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "Gunther看向门内，眉头略皱、嘴微张，表现出对里面是否有人的询问和轻微探察。画面中没有明显的愤怒、悲伤、喜悦或恐惧等强烈情绪，因此更符合中性的询问状态。",
+  "output": "Gunther看向门内，眉头略皱、嘴微张，表现出对里面是否有人的询问和轻微探察。画面中没有明显的愤怒、悲伤、喜悦或恐惧等强烈情绪，因此更符合中性的询问状态。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 21.07283592224121,
+  "node_count": null,
+  "edge_count": null
+}

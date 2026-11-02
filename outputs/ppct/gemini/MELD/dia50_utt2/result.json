@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia50_utt2",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "fear",
+  "emotion_analysis": "结合图谱中节点 Female Student 身体前倾弯腰低头（person_0）并仓皇从过道逃离（process_0），以及其说话语速急促（person_1）并迅速喊出“I’m so sorry!”（process_1），其因在图书馆被当场撞见而极度慌乱、害怕被问责并急于逃窜，整体表现符合 fear。",
+  "output": "结合图谱中节点 Female Student 身体前倾弯腰低头（person_0）并仓皇从过道逃离（process_0），以及其说话语速急促（person_1）并迅速喊出“I’m so sorry!”（process_1），其因在图书馆被当场撞见而极度慌乱、害怕被问责并急于逃窜，整体表现符合 fear。\n<answer>fear</answer>",
+  "label": "fear",
+  "elapsed_seconds": 63.368409156799316,
+  "node_count": 5,
+  "edge_count": 4
+}

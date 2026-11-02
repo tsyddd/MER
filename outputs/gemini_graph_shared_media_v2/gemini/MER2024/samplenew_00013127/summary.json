@@ -1,0 +1,8 @@
+{
+  "reason": "独立核查原始画面与音频可见，目标人物在说话过程中眉眼舒展，并在frame_00及frame_05至frame_07持续展颜露齿而笑[image:E1]，神态自然放松。听觉上其语调轻快活跃，句末‘还真是小看你了’伴有明显的含笑气声与调侃语气[audio_subtitle:E1]，形成强烈的赞赏与欢悦色彩。尽管台词涉及认知转变，但完全无睁大双眼等惊愕生理特征，排除了surprise及讽刺负面情绪，明确支持happy。",
+  "answer": "happy",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E1"
+  ]
+}

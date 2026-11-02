@@ -1,0 +1,202 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Rachel抱着婴儿并说：“Oh come on, what am I gonna do, its been hours and it won’t stop crying.”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Rachel在抱着婴儿的同时调整手臂和怀抱位置。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "Rachel抱着婴儿向画面右侧移动并转身。",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_3",
+      "type": "process",
+      "content": "Rachel转回面向画面一侧，继续抱着婴儿。",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Rachel站立，双臂环抱婴儿。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Rachel说话时嘴部张开。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Rachel的头部和视线转向画面右侧。",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Rachel的头部和视线转回画面一侧。",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内房间中有Rachel和一名被白色毯子包裹的婴儿。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "场景中可见木门、墙面装饰画、镜子和花卉。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_2",
+      "target": "process_1",
+      "relation": "after",
+      "reason": "Rachel在抱着婴儿并调整怀抱位置后，继续抱着婴儿向画面右侧移动并转身。",
+      "entity_anchor": "Rachel与婴儿的抱持互动"
+    },
+    {
+      "source": "process_3",
+      "target": "process_2",
+      "relation": "after",
+      "reason": "Rachel向画面右侧转身后，又转回面向画面一侧，持续抱着同一个婴儿。",
+      "entity_anchor": "Rachel与婴儿的抱持互动"
+    },
+    {
+      "source": "person_3",
+      "target": "person_2",
+      "relation": "after",
+      "reason": "Rachel的头部和视线在转向画面右侧后，又转回画面一侧。",
+      "entity_anchor": "Rachel的头部和视线方向"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提供Rachel抱着婴儿并以字幕表达婴儿持续哭闹，process_1提供她同时调整手臂和怀抱位置；联合后补充了在持续哭闹情境下边抱持边调整照料动作的完整互动过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_0",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "process_0提供Rachel抱着婴儿并 verbalize 当前状况，process_2提供她抱着婴儿向画面右侧移动并转身；联合后增加了该照料过程中的空间移动信息。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_1",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "process_1提供Rachel调整手臂和怀抱位置，process_2提供她随后抱着婴儿向右侧移动并转身；联合后形成从调整抱持姿势到改变位置的连续可观察过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_2",
+      "target": "process_3",
+      "relation": "process_joint",
+      "reason": "process_2提供Rachel抱着婴儿向右侧移动并转身，process_3提供她转回面向画面一侧并继续抱着婴儿；联合后补充了移动、转向及回转的连续空间变化。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供Rachel站立并双臂环抱婴儿，person_1提供她说话时嘴部张开；联合后同时限定了她的身体姿态和可观察的说话表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_0提供Rachel站立并环抱婴儿，person_2提供她的头部和视线转向画面右侧；联合后增加了抱持姿态与朝向变化之间的可观察信息。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_0提供Rachel站立并环抱婴儿，person_3提供她的头部和视线转回画面一侧；联合后补充了抱持姿态及转回后的身体朝向。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1提供Rachel说话时嘴部张开，person_2提供她同时将头部和视线转向画面右侧；联合后同时限定了说话表现和说话期间的可观察朝向。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0提供室内房间、Rachel及被白色毯子包裹的婴儿，context_1提供木门、墙面装饰画、镜子和花卉等环境物件；联合后更完整限定了人物、婴儿及其所在室内场景。",
+      "entity_anchor": null
+    }
+  ]
+}

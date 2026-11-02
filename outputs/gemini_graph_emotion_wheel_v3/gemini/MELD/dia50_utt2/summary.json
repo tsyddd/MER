@@ -1,0 +1,8 @@
+{
+  "reason": "独立回看前4帧画面（frame_00至frame_03），目标人物穿着格子裙紧贴地面俯身并极其仓促地向后方逃窜，与[image:E1]所述一致；音频00:00至00:01处，其道歉声极度短促且伴随慌乱的抽气声，正如[audio_subtitle:E1]指出的惊慌听感。虽然台词为“I’m so sorry”，但并非低落内疚的sadness或常规礼貌的neutral，而是行为被撞破后面临暴露与问责威胁时的典型应激逃跑反应。视听证据互补印证其处于慌张受惊状态，依标准归入fear家族。",
+  "answer": "fear",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E1"
+  ]
+}

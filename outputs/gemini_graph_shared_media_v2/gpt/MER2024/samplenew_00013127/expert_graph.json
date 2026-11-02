@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "目标人物在当前互动中持续面向对方微笑并带有开放、愉悦的表情变化；字幕内容是对对方能力的调侃式肯定，支持当前交流中的积极情绪，而不是过去情绪的回忆。[E1][E2] 图谱节点person_1称语调轻快且带调侃意味，但未收到原音轨，故仅作为图谱转述保留不确定性；结合可核实的画面与字幕，最符合happy。",
+  "answer": "happy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0s；frame_01 @ 0.48s；frame_02 @ 0.92s",
+      "observation": "目标人物面对对方，嘴角上扬、眼神专注，随后张口说话，整体表情保持轻松微笑。",
+      "interpretation": "当前对话中的持续微笑和轻松面部状态直接支持愉快或开心，而非悲伤、愤怒或担忧。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "当前字幕原话：“以前啊，以为你圆滑伶俐，还真是小看你了。”",
+      "observation": "人物正在对面前的对话者表达对其先前低估的修正，语义带有调侃和肯定。",
+      "interpretation": "这是当前互动中的戏谑式正向评价；“以前”指过去的看法，不表示人物当前处于过去情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.88s；frame_05 @ 2.36s；frame_06 @ 2.8s；frame_07 @ 3.28s",
+      "observation": "后半段人物继续直视对方，眼睛较明亮，嘴角保持上扬并露出更明显的笑意。",
+      "interpretation": "从前半句到“还真是小看你了”后，积极表情持续甚至增强，支持当前开心情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1；process_0；process_1",
+      "observation": "图谱将表达描述为“轻快、带调侃意味”的语调，并将两句组织为对先前看法的转折性评价。",
+      "interpretation": "该节点与当前画面微笑及字幕语义相互补充，支持轻松愉快的互动；但音频部分是图谱转述，不能视为亲耳核验。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "最强的替代解释是人物带着戏谑进行中性调侃，或因对方表现出乎意料而带有surprise；但画面中从frame_00到frame_07持续微笑、没有明显惊愕或负面表情，且字幕表达的是带肯定意味的重新评价，因此未采用neutral或surprise。"
+}

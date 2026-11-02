@@ -1,0 +1,10 @@
+{
+  "reason": "目标是左侧穿粉色上衣的Rachel；她面对对方抬手强调，随后皱眉、收紧嘴角，画面支持不满的表达，但单凭表情不能定性[image:E1][image:E2]。字幕中“you might as well just gotten him a fish”是在评价对方的做法，“you know”进一步将责备指向对方[audio_subtitle:E1][audio_subtitle:E2]。最强反证是“fish freaked me out”，但它说的是鱼曾带给她的感受，并非此刻正面临威胁；未提供音轨，不能核验语气。综合判断，当前主导情绪更接近恼火。",
+  "answer": "anger",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "audio_subtitle:E1",
+    "audio_subtitle:E2"
+  ]
+}

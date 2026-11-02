@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia188_utt0",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "b97e68d51fd419e726abf41fc684b1dd95e92043178dcef7d7b2a8c69202319d",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "疑惑",
+      "mapped_label": "surprise",
+      "mapping_reason": "当前的疑问式反应最接近情绪轮中对意外信息感到诧异的surprise；这是近似映射，画面和字幕不足以确认意外的对象或强度。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "困惑",
+      "mapped_label": "surprise",
+      "mapping_reason": "此处的困惑指对眼前情况感到意外、尚未弄明白，近似映射到surprise；这不表示强烈震惊。"
+    },
+    "image": {
+      "open_emotion": "疑惑",
+      "mapped_label": "surprise",
+      "mapping_reason": "此处的疑惑表现为对当前情况的不解，近似映射到轮中面对意外信息的surprise；这不意味着能从画面确认强烈震惊。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "我核对了8帧：左侧穿白色球衣的Joey先低头并向身前伸手，随后收回手臂，符合[image:E1]和[image:E2]的观察；但画面看不清足以确认强烈惊讶的表情。字幕确为“What?”，[audio_subtitle:E1]据此判断他在寻求解释是可信的，不过这句话单独也可能是平常询问。手势与发问结合，更支持他当下对眼前情况感到疑惑；由于没有提供音轨，不能借语调进一步确认，故将这种轻微的不解近似归为惊讶。",
+  "output": "我核对了8帧：左侧穿白色球衣的Joey先低头并向身前伸手，随后收回手臂，符合[image:E1]和[image:E2]的观察；但画面看不清足以确认强烈惊讶的表情。字幕确为“What?”，[audio_subtitle:E1]据此判断他在寻求解释是可信的，不过这句话单独也可能是平常询问。手势与发问结合，更支持他当下对眼前情况感到疑惑；由于没有提供音轨，不能借语调进一步确认，故将这种轻微的不解近似归为惊讶。\n<answer>surprise</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 73.04004979133606
+}

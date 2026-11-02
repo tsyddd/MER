@@ -1,0 +1,8 @@
+{
+  "reason": "Chandler的言语内容'Ah, no-no-no just Ross. Ross and Joey is embarrassing enough.'（[audio_subtitle:E1]）表明他正在对Ross和Joey的行为做出负面评价，认为其令人尴尬。他的面部表情（[image:E1]）从张嘴的惊讶状态转变为带有夸张和无奈的反应，这与他话语中表达的社交不适感相符。虽然专家们对情绪的解释不同，但视觉证据显示了一个从惊讶到反应的动态过程，而音频内容则明确指向了对他人行为的负面评价。综合来看，Chandler的反应是日常的、非强烈的社交反应，没有表现出强烈的悲伤、愤怒或恐惧，因此最符合'neutral'（中性）的定义，即一种平稳、日常且没有明确主导情绪的表达。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "image:E1"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Monica's speech is delivered in a light, upbeat tone with a smile, indicating positive emotion. She uses the phrase 'it's going great' to express satisfaction, and her comment about Chandler with the baby is delivered with a playful, amused inflection, suggesting she is enjoying the situation.",
+  "open_emotion": "amused",
+  "answer": "joy",
+  "mapping_reason": "The speaker's cheerful tone, the use of the phrase 'it's going great,' and the playful, smiling delivery of her comment about Chandler all point to a feeling of happiness and amusement. This aligns with the 'joy' category, which encompasses positive experiences like being happy, delighted, or amused.",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:01.668",
+      "observation": "Monica says, 'Nope, sound like me.' Her tone is light and slightly playful.",
+      "interpretation": "The light, playful tone suggests she is not genuinely upset but is engaging in a humorous exchange.",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00:01.668 - 00:00:03.294",
+      "observation": "Monica says, 'Pheebs, it's going great.' Her voice is upbeat and positive.",
+      "interpretation": "The phrase 'it's going great' combined with the positive tone is a direct expression of satisfaction and happiness.",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00:03.294 - 00:00:05.797",
+      "observation": "Monica says, 'Look at Chandler with little baby girl Chandler.' Her tone is amused and she sounds like she is smiling.",
+      "interpretation": "The amused tone and the playful way she refers to Chandler and the baby indicate she is entertained and happy.",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "There is no evidence to suggest any other emotion. The speaker's tone is consistently positive and not indicative of anger, sadness, fear, or disgust."
+}

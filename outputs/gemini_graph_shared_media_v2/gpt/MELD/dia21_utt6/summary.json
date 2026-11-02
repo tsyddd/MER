@@ -1,0 +1,9 @@
+{
+  "reason": "Phoebe在frame_00至frame_04由表情较克制转为明显微笑，持续看着男子并与他保持接触；[image:E1]的表情变化可直接核实，接触本身则不能单独证明情绪[image:E2]。字幕“So your brother's straigh huh? Seriously.”是在求证，仅凭“Seriously”不足以判定惊讶[audio_subtitle:E1]。笑容可能带有礼貌成分，但她在说话期间逐渐展露的笑意，比字幕中的潜在惊讶更支持joy；后几帧男子的笑容不能代替她的表现。",
+  "answer": "joy",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "audio_subtitle:E1"
+  ]
+}

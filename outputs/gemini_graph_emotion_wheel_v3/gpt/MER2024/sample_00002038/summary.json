@@ -1,0 +1,10 @@
+{
+  "reason": "我核对了frame_00至frame_07：目标人物持续眉头紧蹙、侧视右方、嘴微张，并非短暂的惊愕表情；字幕“他，是谁呀？”显示她正在确认未知人物身份。持续紧张与不确定性更支持对未知情境的担忧，而不足以证明信息突然违背预期的surprise，故选择worried。[image:E1][image:E2]与[audio_subtitle:E2]对视觉紧张的判断可信，但其担忧解释仍属推断；[graph:E1]将同一表现解释为诧异，且图谱涉及的音调转述在无音轨时无法独立核验。",
+  "answer": "worried",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "audio_subtitle:E2",
+    "graph:E1"
+  ]
+}

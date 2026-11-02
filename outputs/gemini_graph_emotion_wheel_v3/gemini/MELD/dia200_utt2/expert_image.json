@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物Joey（右侧穿红黑条纹毛衣者）在片段中进行逻辑排查，肢体动作极其丰富且与言语高度同步：在说话时先是指向自己胸口表明自己没拿，随后向中间的同伴伸手指引，最后双手微摊，眼神露出思索与不解。其面部表情与疑惑的前倾姿态展现出面对违背常理的事实时所产生的纳闷与诧异感。",
+  "open_emotion": "纳闷",
+  "answer": "surprise",
+  "mapping_reason": "Joey在逐一排除拿走物品的可能人选后，发现推导出的情况违背了常规预期，陷入百思不得其解的诧异与困惑状态，符合surprise家族关于面对意外或不合预期情况的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01-frame_02 (0.46s-0.96s)",
+      "observation": "Joey左手微垂，右手贴在自己胸口前，嘴部张开正在陈述，神情认真专注。",
+      "interpretation": "配合台词指代自身未拿物品的事实，进入排除推理过程。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04-frame_06 (1.88s-2.84s)",
+      "observation": "Joey将右手掌心向上伸向面前的两人，随后身体微前倾，眉头微皱，眼神投向同伴。",
+      "interpretation": "动作从自指转向对方，随后摊开手掌表达无法得出合理结论的诧异与困惑。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "0:02-0:03",
+      "observation": "音轨在后半句'then who did?'时语调明显上挑并加重。",
+      "interpretation": "听觉上进一步印证了因情况超出预期而产生的疑问与诧异感。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "Joey的表达过程逻辑连贯且语气较为平实，部分特征可能被视为理性分析或neutral交流，但末尾摊手和上扬语调突显了主导的困惑与意外感。"
+}

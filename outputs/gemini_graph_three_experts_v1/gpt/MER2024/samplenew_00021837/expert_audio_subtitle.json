@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断目标人物的声调、音量、语速或停顿。字幕是在平静陈述对一户农耕家庭的印象，未明确表达愤怒、悲伤、开心、担忧或惊讶。",
+  "answer": "neutral",
+  "evidence_refs": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00019636",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "结合节点person_0与person_1（二者通过person_joint关系体现出沉思低语的状态）以及process_0至process_3的叙述过程，男子在提及胡十四娘的年龄及人面花之事时，虽带有探究与回忆，但语调低沉平缓，表情整体克制沉着，没有表现出强烈的惊愕、担忧或激愤，情绪属于平稳探询的客观陈述状态。",
+  "output": "结合节点person_0与person_1（二者通过person_joint关系体现出沉思低语的状态）以及process_0至process_3的叙述过程，男子在提及胡十四娘的年龄及人面花之事时，虽带有探究与回忆，但语调低沉平缓，表情整体克制沉着，没有表现出强烈的惊愕、担忧或激愤，情绪属于平稳探询的客观陈述状态。\n<answer>neutral</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 55.64179849624634,
+  "node_count": 10,
+  "edge_count": 10
+}

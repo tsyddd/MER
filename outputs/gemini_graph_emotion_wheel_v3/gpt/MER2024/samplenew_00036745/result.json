@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00036745",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "56b7ab0a274b240942c2ca3a5bf6aff985c05e2aab602a0289a32a97d1119e4a",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "平稳",
+      "mapped_label": "neutral",
+      "mapping_reason": "当前主要是交代信息并说明打算，缺少明确占主导的情绪反应，故将“平稳”映射为neutral；这不表示他对所述事件毫不在意。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "认真陈述",
+      "mapped_label": "neutral",
+      "mapping_reason": "“认真陈述”在此主要表现为说明信息、提出行动，现有字幕和画面未显示明确占主导的其他情绪，因此映射为neutral；这不等于断定他对事情毫无顾虑。"
+    },
+    "image": {
+      "open_emotion": "疑虑",
+      "mapped_label": "worried",
+      "mapping_reason": "疑虑侧重对尚未弄清的情况感到不安，结合其紧绷表情和查证意向，近于worried；字幕没有明确指出危险后果，因此判断强度有限。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "回看第0—7帧，目标男子先皱眉，随后抬眉、指向前方；[image:E1]和[image:E2]对这些变化的描述可信，但把它们解释为担忧并不充分。画面字幕写的是“观测了宇宙闪烁”，末尾是“我去查”；后一句如[audio_subtitle:E2]所述，是行动表态，尚未表达对负面后果的顾虑。紧绷神情是最强反证，但结合其持续讲述、强调线索的动作，我更倾向于认真陈述，而非以担忧为主导；未提供音轨，不能据语气补充判断。",
+  "output": "回看第0—7帧，目标男子先皱眉，随后抬眉、指向前方；[image:E1]和[image:E2]对这些变化的描述可信，但把它们解释为担忧并不充分。画面字幕写的是“观测了宇宙闪烁”，末尾是“我去查”；后一句如[audio_subtitle:E2]所述，是行动表态，尚未表达对负面后果的顾虑。紧绷神情是最强反证，但结合其持续讲述、强调线索的动作，我更倾向于认真陈述，而非以担忧为主导；未提供音轨，不能据语气补充判断。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 88.62566328048706
+}

@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "Monica是当前发话者：她从后方向餐桌一侧走近[E1]，同时说出“What?! Excuse me!”[E2]。图谱节点process_0记录了她的移动；结合当前带有质问意味的话语，这更像是在主动表达不满，而非仅仅听到意外消息。图谱对音量和语调的描述未经原音轨核验，不能据此加重情绪判断[E3]。",
+  "open_emotion": "不满",
+  "answer": "anger",
+  "mapping_reason": "这里的“不满”主要表现为面向当前互动的质问，接近情绪轮中责备、对抗方向的anger；证据不足以断定她强烈愤怒。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_04（0.8758743199733541秒）至frame_07（1.5014988342400355秒）",
+      "observation": "Monica从后方走向餐桌一侧，面向前方，末帧张嘴。",
+      "interpretation": "支持她正在参与眼前互动；走近本身不是愤怒的独立证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "What?! Excuse me!",
+      "observation": "当前字幕是一句反问，紧接着是“Excuse me!”。",
+      "interpretation": "结合她走近发话的情境，话语更偏向对眼前情况提出质问，而非平稳陈述。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱称Monica发音音量较大、尾音上扬。",
+      "interpretation": "这是有来源的音频派生转述，但未提供原音轨，无法亲耳核验，也不能将其当作独立听觉证据。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "“What?!”也可能只是意外反应；画面未明确交代她回应谁，且仅凭走近和张嘴无法判定不满。判断主要依赖当前话语的质问方向，不推断此前发生了冒犯。"
+}

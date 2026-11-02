@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/sample_00002893",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "9d46ffb3a0e6d7ee83ce5711674ec38a79e6e03c6208bac88d0b6ce9c7023ef2",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "焦虑",
+      "mapped_label": "worried",
+      "mapping_reason": "开放词'焦虑'强调面对正在恶化的事态风险（'现在事情越闹越大'）产生的紧绷与不安。依据情绪轮定义，对未决风险的顾虑与不确定性属于worried家族，因此准确映射至worried。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "焦急",
+      "mapped_label": "worried",
+      "mapping_reason": "说话者的关注点在于正在升级、后果未知的负面风险（‘事情越闹越大’），语音急促且伴随焦虑感，符合worried关于对可能负面结果和未知风险顾虑不安的定义。"
+    },
+    "image": {
+      "open_emotion": "焦急",
+      "mapped_label": "worried",
+      "mapping_reason": "目标人物表现出双眉八字紧缩、急切不安的神态，核心关注点在于事态恶化（‘事情越闹越大’）所带来的未知风险与后续影响，符合worried（担忧/焦虑）对负面预期与不确定性的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "目标人物在通话时神情凝重紧绷，第1至第6帧全程眉心收拢微提呈八字愁眉状，目光透着无助与紧迫（与[image:E1]相符），音轨中语速偏快且伴有明显的发紧颤动与急促喘息（可核实[audio_subtitle:E1]）。台词明确陈述“被人诽谤了，现在事情越闹越大”，评价重心紧扣事态失控升级的现实风险与不确定后果（与[graph:E1]互补），符合焦虑求援的情境。最强反证为愁容与嘴角微沉带来的委屈与低落感（sad），但其语调并未沉郁拖沓，整体表现由应对恶化局面的焦虑主导，故最终判定为worried。",
+  "output": "目标人物在通话时神情凝重紧绷，第1至第6帧全程眉心收拢微提呈八字愁眉状，目光透着无助与紧迫（与[image:E1]相符），音轨中语速偏快且伴有明显的发紧颤动与急促喘息（可核实[audio_subtitle:E1]）。台词明确陈述“被人诽谤了，现在事情越闹越大”，评价重心紧扣事态失控升级的现实风险与不确定后果（与[graph:E1]互补），符合焦虑求援的情境。最强反证为愁容与嘴角微沉带来的委屈与低落感（sad），但其语调并未沉郁拖沓，整体表现由应对恶化局面的焦虑主导，故最终判定为worried。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 62.69966769218445
+}

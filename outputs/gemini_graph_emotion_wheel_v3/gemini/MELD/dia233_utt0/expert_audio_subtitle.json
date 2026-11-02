@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Rachel直接质问对方是否故意送各种吵闹杂乱的物品给Joey以逼自己搬走。从语音听，她的语调平缓但带有清晰的指责与对质意味（'try and drive me out of the apartment'处加重语气与末尾扬调），视觉上面部眉头微蹙、单手叉腰呈对峙质问态势，表达出因被算计而产生的恼火与不满。",
+  "open_emotion": "不满",
+  "answer": "anger",
+  "mapping_reason": "说话者的质问行为针对对方故意刁难排挤的行为，带有明确的对质与责备意味，符合情绪轮中anger（对受阻或冒犯产生的恼火与不满）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Did you get all this stuff for Joey to try and drive me out of the apartment?",
+      "observation": "Rachel直接当面质询Phoebe是否试图将自己赶出公寓，属于指责性反问。",
+      "interpretation": "言语行为体现出对对方企图的识破与负面质问，而非普通询问。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:01 - 00:04",
+      "observation": "语速稳定，在'Joey'后微有停顿，随后在'drive me out of the apartment'加重重音并带有质问上扬音调。",
+      "interpretation": "韵律显示其情绪聚焦于对方将自己赶走的冒犯行为，带有克制但明显的质问与不满感。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02至frame_04",
+      "observation": "Rachel单手叉腰，身体前倾面向对方，双唇微抿，神态严肃。",
+      "interpretation": "身体姿态与面部表情配合言语，展现出问责与对质态度。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "Rachel并未大声吼叫或表现出爆发性愤怒，语调相对受控，容易被表面误判为中性询问，但其质疑性质和指责意图排除了纯粹中性。"
+}

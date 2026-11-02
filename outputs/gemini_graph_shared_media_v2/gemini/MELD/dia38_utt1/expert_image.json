@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "Joey在得知学生获得试镜后将双手交叠抚于胸口，面部由感动的微蹙迅速转为温柔且开朗的微笑[E1]，结合表达自豪的言语[E2]与温暖柔和的语调[E3]，体现了欣慰与喜悦的情绪。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.500s 至 frame_07 @ 3.420s",
+      "observation": "Joey双手交叠贴在胸口，头部微侧，嘴角逐渐上扬形成明显的欣慰微笑，眼部肌肉放松舒展。",
+      "interpretation": "手抚心口的体态配合舒展的微笑是表达感动、欣慰与幸福喜悦的典型生理表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Awww, one of my students got an audition. I’m so proud.",
+      "observation": "台词表达对学生拿到试镜感到极其骄傲自豪。",
+      "interpretation": "明确指示其内心状态为积极自豪的成就感与快乐，排除负面情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00 - 00:03",
+      "observation": "以拖长的感叹词“Awww”开头，声调柔和温情并带有上扬的雀跃感。",
+      "interpretation": "听觉语调饱含被触动和高兴的情感，佐证视觉上的喜悦表现。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "在frame_01至frame_03中Joey眉心略有收拢且下唇轻抿，若脱离语境易被误判为悲伤（sadness）；但该表情迅速融化为真诚微笑，且手捂胸口的动作结合“proud”语境，表明这属于因感动而生的积极喜悦而非悲伤。"
+}

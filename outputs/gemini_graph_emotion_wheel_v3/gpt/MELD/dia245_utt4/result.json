@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia245_utt4",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "1528c89a9e48293f5c22e3f68968c73260009900840f78dcfab7366d2748796f",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "惊慌",
+      "mapped_label": "fear",
+      "mapping_reason": "这里的惊慌指面向可能出现的负面后果、急于制止的反应，因此近似映射到fear；片段未交代她预期的具体后果，不能进一步断言她害怕何种危险。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "焦急",
+      "mapped_label": "fear",
+      "mapping_reason": "焦急在这里表现为试图阻止眼前事情发生，最接近情绪轮中面向预期负面后果的fear；但片段未交代她担心的具体后果，这一映射有局限。"
+    },
+    "image": {
+      "open_emotion": "吃惊",
+      "mapped_label": "surprise",
+      "mapping_reason": "当前最清楚的是突发、出乎预期的反应，因此将“吃惊”映射为surprise；反对的具体原因不可见。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "fear",
+  "emotion_analysis": "目标是沙发上的Monica；字幕“No-no-no, no!”确实是连续制止，但没有音轨，无法核验急促或高亢的语调[audio_subtitle:E1]。她从持书坐着转为前倾、伸手，随后回头张口，动作与试图阻止眼前事情相连[audio_subtitle:E3]；末帧睁眼张口也支持吃惊的解释[image:E2]。相比单纯意外，持续制止更接近对接下来可能发生的负面后果感到惊慌，因此近似归为fear；画面和字幕仍不足以确定她害怕的具体事情。",
+  "output": "目标是沙发上的Monica；字幕“No-no-no, no!”确实是连续制止，但没有音轨，无法核验急促或高亢的语调[audio_subtitle:E1]。她从持书坐着转为前倾、伸手，随后回头张口，动作与试图阻止眼前事情相连[audio_subtitle:E3]；末帧睁眼张口也支持吃惊的解释[image:E2]。相比单纯意外，持续制止更接近对接下来可能发生的负面后果感到惊慌，因此近似归为fear；画面和字幕仍不足以确定她害怕的具体事情。\n<answer>fear</answer>",
+  "label": "fear",
+  "elapsed_seconds": 91.01510691642761
+}

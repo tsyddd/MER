@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00034373",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "sad",
+  "emotion_analysis": "当前人物是画面中的女性（person_0），她面向画面左侧并与嘴部开合说出“甚至，连一件衣裳。”（process_0、person_1）。其眉眼下垂、眼神含泪，嘴角和面部表情显出哀伤；person_0与person_1的simultaneous关系表明这些表情与当前说话同步出现。",
+  "output": "当前人物是画面中的女性（person_0），她面向画面左侧并与嘴部开合说出“甚至，连一件衣裳。”（process_0、person_1）。其眉眼下垂、眼神含泪，嘴角和面部表情显出哀伤；person_0与person_1的simultaneous关系表明这些表情与当前说话同步出现。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 43.93571352958679,
+  "node_count": 4,
+  "edge_count": 2
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia131_utt3",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "Rachel当下说“ Oh, everything went great.”，表达了对事情顺利进展的积极评价。结合process_0与person_1、person_2中的手势和持物动作，以及person_3和context_1所示的面对面交流，她是在互动中自然回应，整体表现偏积极而非紧张或消极。",
+  "output": "Rachel当下说“ Oh, everything went great.”，表达了对事情顺利进展的积极评价。结合process_0与person_1、person_2中的手势和持物动作，以及person_3和context_1所示的面对面交流，她是在互动中自然回应，整体表现偏积极而非紧张或消极。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 141.5010323524475,
+  "node_count": 8,
+  "edge_count": 8
+}

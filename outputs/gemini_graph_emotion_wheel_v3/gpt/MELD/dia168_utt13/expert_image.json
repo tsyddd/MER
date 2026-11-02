@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物是画面中央穿棕色格纹衬衫的Ross，而非身后的红黑条纹衫男子。[E1]至[E2]中，他从张口说话转为皱眉、眯眼，并连续向前挥手、抬起双手强调话语；结合字幕中要求对方“confess”的措辞[E3]，最支持带有责备意味的恼火。画面也允许将部分动作理解为着急地催促，而不能仅凭张口或手势断定愤怒。",
+  "open_emotion": "恼火",
+  "answer": "anger",
+  "mapping_reason": "Ross当前的表达指向对对方行为的责备和催促，符合anger类的恼火与对抗；可见表现不足以支持更强烈的暴怒。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_03（1.335秒）",
+      "observation": "Ross面向画面右侧说话，起初张口，随后眉头收紧、眼睛略眯，并抬起双手做强调手势。",
+      "interpretation": "表情和动作逐渐加重，支持他并非平稳地陈述。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04（1.793秒）至frame_06（2.669秒）",
+      "observation": "Ross继续皱眉，双手由胸前向外比划，随后一只手向前挥出；frame_07已切到另一人物，不能据此判断Ross后续表情。",
+      "interpretation": "持续而有力的手势支持催促、责备的表达，但手势本身不能单独确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“We know you took so just-just save yourself the time and confess!”",
+      "observation": "字幕显示说话者要求对方承认拿走了东西，并催促其坦白。",
+      "interpretation": "话语的责备方向使Ross的紧绷表情和强调手势更接近恼火，而非单纯惊讶。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "Ross没有持续的强烈怒容；这些手势也可能只是急切地说服对方。未提供音频，无法用语调区分恼火与单纯催促。"
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "当前是Janice当面对Chandler道别，而非转述或回忆。字幕中的道别[E1]与图谱process_0、process_1描述的是同一件事，不能重复算作两份情绪证据；其情绪判断主要来自她说话时及之后持续的眉眼神态[E2]。结合当前道别的语义，较符合轻微的sadness，而非仅凭“再见”二字推断难过。图谱person_2称她放下手指后才交叉双臂，但画面开头她的双臂已经交叉，不能据此扩写姿态变化。图谱对鼻音和拖长语调的描述[E3]因未提供原音轨，保留为未核实的转述，不用于最终取舍。",
+  "answer": "sadness",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Good-bye Chandler Bing.",
+      "observation": "Janice在当前对话中向Chandler道别；图谱process_0、process_1也记录了这句话的两个部分。",
+      "interpretation": "确定这是当前的当面道别，但道别本身不足以证明悲伤。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.2929573294844752秒至frame_07 @ 2.2939565523111654秒",
+      "observation": "Janice面向对方说话，眉头上扬并微蹙，嘴角未见笑意；手停在胸口附近。",
+      "interpretation": "与当面道别结合，更支持带有失落感的表达，而非愉快道别；手势本身不单独证明情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱转述Janice说话有鼻音和拖长语调；本次没有可供亲耳核验的原音轨。",
+      "interpretation": "不能确定这一声音特征是否存在，也不能据此判断其情绪。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "她也可能只是在郑重或略带表演性地道别；交叉双臂和道别用语都不能排除这种解释。但当前可见的眉眼神态比单纯平静的表达更支持轻微悲伤，尚不足以推断更强烈的情绪。"
+}

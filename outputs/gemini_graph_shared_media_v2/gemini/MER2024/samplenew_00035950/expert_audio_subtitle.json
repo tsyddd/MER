@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物在说出“怎么到了自己身上，就这样不明白”时，音调颤抖发虚且带有明显的抽泣哭腔与哀叹感[E1]，言语行为表现出对自身遭遇的痛苦自嘲与哀怨；结合视觉上含泪欲泣、下唇颤抖的神情[E2]，充分支持其处于悲伤（sad）状态。",
+  "answer": "sad",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "0:00 - 0:03",
+      "observation": "目标人物语速缓慢，语尾发颤且伴随明显的抽泣哽咽与叹息声，音色沙哑带哭腔。",
+      "interpretation": "颤抖的哭腔和叹息表明其内心极为沉痛与悲凉，而非愤怒斥责或单纯焦虑。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "怎么到了自己身上，就这样不明白。",
+      "observation": "说话者使用反问与自嘲句式表达对自身处境的困惑与无力感。",
+      "interpretation": "语义体现出深深的悲哀与无奈自伤，支持sad的情绪表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04 @ 2.04s",
+      "observation": "目标人物嘴角向下抽动，口形张大微颤，眼神含泪且带着痛楚神态。",
+      "interpretation": "面部的悲痛情态与声音的哭诉完全契合，排除了平静或愤怒。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽句式带有困惑反问，可能被误判为worried（担忧），但其发音的抽噎哭腔与言语中的死心自嘲表明并非对未来的担忧，而是深陷绝望的悲伤（sad）。"
+}

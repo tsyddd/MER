@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "目标人物（女性学生）在画面中从第0帧到第7帧持续表现出一个连贯的、带有歉意的姿态。她从第0帧开始弯腰，到第7帧完全站直，整个过程伴随着一个清晰的道歉话语。她的身体语言（弯腰、低头）与话语内容高度一致，共同指向一个明确的歉意表达。没有观察到任何与愤怒、厌恶、恐惧或惊讶相符的面部或姿态特征。",
+  "open_emotion": "歉意",
+  "answer": "sadness",
+  "mapping_reason": "在MELD项目的情绪轮中，'sadness'（悲伤）被定义为因失落、损失或痛苦而难过、哀伤或低落。虽然'歉意'（apology）是一个独立的社交情绪，但在此情境下，它最接近的家族是'悲伤'。因为道歉通常源于对自身行为造成负面影响的懊悔和难过，这种情绪与悲伤的语义核心——对负面后果的内省和痛苦——最为接近。尽管'neutral'（中性）在字面上可能被误认为是无情绪，但该人物有明确的、非中性的行为和言语表达，因此'neutral'不适用。'anger'（愤怒）、'fear'（恐惧）、'disgust'（厌恶）和'surprise'（惊讶）与当前的语境和表现完全不符。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "女性学生身体前倾，头部低下，正在脱下一件灰色的外套。",
+      "interpretation": "这是一个典型的表示歉意或尴尬的姿态，为后续的道歉行为做铺垫。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01",
+      "observation": "女性学生继续脱下外套，身体保持前倾姿态。",
+      "interpretation": "持续的前倾姿态强化了其正在表达歉意的意图。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "I'm so sorry!",
+      "observation": "字幕显示了“I'm so sorry!”这句话。",
+      "interpretation": "这是直接的道歉语言，与视觉姿态共同构成了完整的道歉行为。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_07",
+      "observation": "女性学生已经站直身体，完成了脱外套的动作。",
+      "interpretation": "站直身体表明她已经完成了道歉的肢体动作，准备面对对方。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有观察到任何与'anger'、'fear'、'disgust'或'surprise'相符的面部表情或姿态。"
+}

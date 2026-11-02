@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00005612",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "277d5c5900a033008ef8204e177794173a0a9d543a995a1fbb51814e27394ff0",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "郑重",
+      "mapped_label": "neutral",
+      "mapping_reason": "“郑重”描述此刻认真、克制地提出请求，不等于没有情绪；但当前可核实的言行没有显示喜悦、悲伤、担忧、惊讶或愤怒占主导，因此映射为neutral。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "郑重",
+      "mapped_label": "neutral",
+      "mapping_reason": "这里的郑重体现为认真提出请求，未见足以支持其他情绪标签的明确评价或反应，因此映射为当前以平稳交流为主的neutral；这不等于他对事情漠不关心。"
+    },
+    "image": {
+      "open_emotion": "郑重",
+      "mapped_label": "neutral",
+      "mapping_reason": "这里的郑重指专注、严肃地提出请求，而非明确的愉悦、愤怒或忧虑；在给定标签中映射为neutral。这不表示他面无表情或毫无情绪。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标是前七帧中戴灰围巾的男子；第八帧切到他人，不能借其表情判断目标。画面字幕为“请您转交给总理过目”，与提供字幕措辞略有不同，但都指向转交请求；[audio_subtitle:E1]对话语用途的判断可信。男子注视对方并伸臂递出物件，[image:E2]与请求相互印证；面部紧绷、动作有力是较强的反证，但如[image:E4]所示，尚不足以确认责备或对抗。未提供音轨，不能核验语气；就可见言行而言，他主要是在郑重交流，故选neutral。",
+  "output": "目标是前七帧中戴灰围巾的男子；第八帧切到他人，不能借其表情判断目标。画面字幕为“请您转交给总理过目”，与提供字幕措辞略有不同，但都指向转交请求；[audio_subtitle:E1]对话语用途的判断可信。男子注视对方并伸臂递出物件，[image:E2]与请求相互印证；面部紧绷、动作有力是较强的反证，但如[image:E4]所示，尚不足以确认责备或对抗。未提供音轨，不能核验语气；就可见言行而言，他主要是在郑重交流，故选neutral。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 92.63590860366821
+}

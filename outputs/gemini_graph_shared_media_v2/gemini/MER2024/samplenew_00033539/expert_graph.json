@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "目标人物在听到对话方的信息后，立即做出初发反应并跟进求证。结合图谱节点[person_1]及实际音轨核查，其以高扬升调脱口而出“啊？真的？”[E1][E3]，伴随眉眼错愕微聚、嘴巴微张的表情[E2]，构成了接收意外信息时的典型惊异反应。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱记录目标人物发出短促升调疑问声，经实际音轨0.0-1.8秒核查，其以明显上挑的反问语气连续说出“啊？真的？”",
+      "interpretation": "高度上扬的反问音调直接体现对听到信息的不敢置信与突发惊愕，支持意外震惊",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 0.84s",
+      "observation": "目标人物双眉耸聚，额头现出纹路，双眼发愣看向对话方，嘴巴微张保持错愕",
+      "interpretation": "视觉上呈现受到意外冲击时的本能呆愣反应，配合发问动作增强了惊诧感",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "啊？真的。",
+      "observation": "台词为即时反问“啊？真的。”",
+      "interpretation": "事件交互语义属于得知未料到事实后的第一反应，符合意外与惊奇情境",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "面部眉心微聚易被孤立推导为worried（担忧），但结合音轨中短促上扬、无沉重叹息的语音节奏及即时求证语义，排除了发愁或担忧的解释。"
+}

@@ -1,0 +1,330 @@
+{
+  "complete": true,
+  "methods": {
+    "direct/omni": {
+      "model": "Qwen3-Omni-30B-A3B-Instruct",
+      "mode": "direct",
+      "frames": 8,
+      "complete": true,
+      "metrics": {
+        "MER2024": {
+          "expected": 40,
+          "valid": 40,
+          "correct": 34,
+          "accuracy": 0.85
+        },
+        "MELD": {
+          "expected": 40,
+          "valid": 40,
+          "correct": 24,
+          "accuracy": 0.6
+        },
+        "ALL": {
+          "expected": 80,
+          "valid": 80,
+          "correct": 58,
+          "accuracy": 0.725
+        }
+      },
+      "recorded_responses": 80,
+      "recorded_usage": {
+        "prompt_tokens": 104117,
+        "completion_tokens": 4494,
+        "total_tokens": 108611
+      },
+      "successful_stage_seconds": 438.5263178348541,
+      "logged_structural_repair_records": 0
+    },
+    "ppct/omni": {
+      "model": "Qwen3-Omni-30B-A3B-Instruct",
+      "mode": "ppct",
+      "frames": 8,
+      "complete": true,
+      "metrics": {
+        "MER2024": {
+          "expected": 40,
+          "valid": 40,
+          "correct": 30,
+          "accuracy": 0.75
+        },
+        "MELD": {
+          "expected": 40,
+          "valid": 40,
+          "correct": 25,
+          "accuracy": 0.625
+        },
+        "ALL": {
+          "expected": 80,
+          "valid": 80,
+          "correct": 55,
+          "accuracy": 0.6875
+        }
+      },
+      "recorded_responses": 406,
+      "recorded_usage": {
+        "prompt_tokens": 796758,
+        "completion_tokens": 150805,
+        "total_tokens": 947563
+      },
+      "successful_stage_seconds": 11398.19603061676,
+      "logged_structural_repair_records": 233
+    },
+    "direct/gpt": {
+      "model": "gpt",
+      "mode": "direct",
+      "frames": 8,
+      "complete": true,
+      "metrics": {
+        "MER2024": {
+          "expected": 40,
+          "valid": 40,
+          "correct": 24,
+          "accuracy": 0.6
+        },
+        "MELD": {
+          "expected": 40,
+          "valid": 40,
+          "correct": 28,
+          "accuracy": 0.7
+        },
+        "ALL": {
+          "expected": 80,
+          "valid": 80,
+          "correct": 52,
+          "accuracy": 0.65
+        }
+      },
+      "recorded_responses": 80,
+      "recorded_usage": {
+        "prompt_tokens": 136255,
+        "completion_tokens": 11854,
+        "total_tokens": 148109
+      },
+      "successful_stage_seconds": 2161.7464690208435,
+      "logged_structural_repair_records": 0
+    },
+    "ppct/gpt": {
+      "model": "gpt",
+      "mode": "ppct",
+      "frames": 8,
+      "complete": true,
+      "metrics": {
+        "MER2024": {
+          "expected": 40,
+          "valid": 40,
+          "correct": 31,
+          "accuracy": 0.775
+        },
+        "MELD": {
+          "expected": 40,
+          "valid": 40,
+          "correct": 31,
+          "accuracy": 0.775
+        },
+        "ALL": {
+          "expected": 80,
+          "valid": 80,
+          "correct": 62,
+          "accuracy": 0.775
+        }
+      },
+      "recorded_responses": 406,
+      "recorded_usage": {
+        "prompt_tokens": 884334,
+        "completion_tokens": 168287,
+        "total_tokens": 1052621
+      },
+      "successful_stage_seconds": 6442.26078915596,
+      "logged_structural_repair_records": 0
+    },
+    "direct/gemini": {
+      "model": "gemini",
+      "mode": "direct",
+      "frames": 8,
+      "complete": true,
+      "metrics": {
+        "MER2024": {
+          "expected": 40,
+          "valid": 40,
+          "correct": 33,
+          "accuracy": 0.825
+        },
+        "MELD": {
+          "expected": 40,
+          "valid": 40,
+          "correct": 27,
+          "accuracy": 0.675
+        },
+        "ALL": {
+          "expected": 80,
+          "valid": 80,
+          "correct": 60,
+          "accuracy": 0.75
+        }
+      },
+      "recorded_responses": 80,
+      "recorded_usage": {
+        "prompt_tokens": 734048,
+        "completion_tokens": 25937,
+        "total_tokens": 759985
+      },
+      "successful_stage_seconds": 667.0044736862183,
+      "logged_structural_repair_records": 0
+    },
+    "ppct/gemini": {
+      "model": "gemini",
+      "mode": "ppct",
+      "frames": 8,
+      "complete": true,
+      "metrics": {
+        "MER2024": {
+          "expected": 40,
+          "valid": 40,
+          "correct": 30,
+          "accuracy": 0.75
+        },
+        "MELD": {
+          "expected": 40,
+          "valid": 40,
+          "correct": 24,
+          "accuracy": 0.6
+        },
+        "ALL": {
+          "expected": 80,
+          "valid": 80,
+          "correct": 54,
+          "accuracy": 0.675
+        }
+      },
+      "recorded_responses": 416,
+      "recorded_usage": {
+        "prompt_tokens": 3416685,
+        "completion_tokens": 348207,
+        "total_tokens": 3764892
+      },
+      "successful_stage_seconds": 4054.873594045639,
+      "logged_structural_repair_records": 0
+    }
+  },
+  "prior_five_models": {
+    "Emotion-LLaMA": {
+      "MER2024": {
+        "correct": 33,
+        "total": 40,
+        "accuracy": 0.825,
+        "input_frames": 4
+      },
+      "MELD": {
+        "correct": 26,
+        "total": 40,
+        "accuracy": 0.65,
+        "input_frames": 4
+      },
+      "ALL": {
+        "correct": 59,
+        "total": 80,
+        "accuracy": 0.7375,
+        "input_frames": 4
+      }
+    },
+    "AffectGPT": {
+      "MER2024": {
+        "correct": 27,
+        "total": 40,
+        "accuracy": 0.675,
+        "input_frames": 4
+      },
+      "MELD": {
+        "correct": 31,
+        "total": 40,
+        "accuracy": 0.775,
+        "input_frames": 4
+      },
+      "ALL": {
+        "correct": 58,
+        "total": 80,
+        "accuracy": 0.725,
+        "input_frames": 4
+      }
+    },
+    "AffectGPT-RL": {
+      "MER2024": {
+        "correct": 31,
+        "total": 40,
+        "accuracy": 0.775,
+        "input_frames": 4
+      },
+      "MELD": {
+        "correct": 15,
+        "total": 40,
+        "accuracy": 0.375,
+        "input_frames": 4
+      },
+      "ALL": {
+        "correct": 46,
+        "total": 80,
+        "accuracy": 0.575,
+        "input_frames": 4
+      }
+    },
+    "OPPO": {
+      "MER2024": {
+        "correct": 32,
+        "total": 40,
+        "accuracy": 0.8,
+        "input_frames": 4
+      },
+      "MELD": {
+        "correct": 22,
+        "total": 40,
+        "accuracy": 0.55,
+        "input_frames": 4
+      },
+      "ALL": {
+        "correct": 54,
+        "total": 80,
+        "accuracy": 0.675,
+        "input_frames": 4
+      }
+    },
+    "VidEmo-7B": {
+      "MER2024": {
+        "correct": 27,
+        "total": 40,
+        "accuracy": 0.675,
+        "input_frames": 4
+      },
+      "MELD": {
+        "correct": 28,
+        "total": 40,
+        "accuracy": 0.7,
+        "input_frames": 4
+      },
+      "ALL": {
+        "correct": 55,
+        "total": 80,
+        "accuracy": 0.6875,
+        "input_frames": 4
+      }
+    }
+  },
+  "protocol": {
+    "validation_samples": 80,
+    "mer2024": 40,
+    "meld": 40,
+    "mer_classes": 6,
+    "meld_classes": 7,
+    "prior_frames": 4,
+    "new_frames": 8,
+    "omni_audio": true,
+    "gemini_audio": true,
+    "gpt_audio": false
+  },
+  "limits": [
+    "Balanced development subset selected using prior model correctness, not untouched benchmark accuracy.",
+    "Four-frame prior models versus eight-frame new methods are not a controlled frame-matched comparison.",
+    "Audit verifies flow/format and input protocol, not factual correctness of each explanation.",
+    "Recorded usage may omit overwritten historical retries, network failures and separate probes; summed successful stage times are not end-to-end wall time.",
+    "Omni permits logged structural normalization/deletion of invalid edges and recovery of complete typed nodes from truncated responses, discarding incomplete tails and exact repeated content; GPT/Gemini use strict validation with generated repair feedback."
+  ]
+}

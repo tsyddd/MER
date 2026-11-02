@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "音频中为催眠录音带的播音声音，语调平缓低沉、节奏舒缓且没有明显的情感起伏，字幕仅包含单字指示词'Deeper'，整体表现出冷静与中立的状态。",
+  "answer": "neutral",
+  "evidence_refs": []
+}

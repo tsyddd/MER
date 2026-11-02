@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00041734",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "画面中女性眉头紧蹙、眼神满是焦虑与不解（结合节点person_0），同时以急促且上扬的语调接连质问“不是 你为什么要辞职”并紧跟着追问“啊”（结合节点process_0、process_1与person_1）。这些多模态线索体现出她对对方突然辞职决定的焦虑、关切与忧心忡忡，符合worried情绪特征。",
+  "output": "画面中女性眉头紧蹙、眼神满是焦虑与不解（结合节点person_0），同时以急促且上扬的语调接连质问“不是 你为什么要辞职”并紧跟着追问“啊”（结合节点process_0、process_1与person_1）。这些多模态线索体现出她对对方突然辞职决定的焦虑、关切与忧心忡忡，符合worried情绪特征。\n<answer>worried</answer>",
+  "label": "angry",
+  "elapsed_seconds": 46.90472364425659,
+  "node_count": 6,
+  "edge_count": 4
+}

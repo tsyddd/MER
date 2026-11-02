@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Joey说“What?”是在发问，而非陈述情绪；他同时看向地面并伸手指向前方，较支持他对眼前情况感到意外、试图确认发生了什么[E1][E2]。没有音频，无法判断语气是否带有惊讶。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "What?",
+      "observation": "当前字幕只有一句简短疑问“What?”。",
+      "interpretation": "支持对某事感到意外并寻求确认，但单凭这个词不能确定情绪强度。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒至frame_04 @ 0.2919581066577847秒",
+      "observation": "穿白色球衣的Joey低头看向前方，伸出右手指向地面附近。",
+      "interpretation": "动作与针对眼前事物发问相符，为意外的解读提供语境。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的替代解释是neutral：他也可能只是在平常地询问或指示。“What?”和手势都不足以排除这一点；由于没有音频，不能用语调进一步区分。"
+}

@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物在画面中全程双眼含泪闪烁，眉毛内侧明显上扬聚拢呈典型悲伤眉态，嘴角向下拉扯并微张颤动[E1]。结合音轨中清晰的哽咽与抽噎声[E2]以及台词对辛酸境况的诉说[E3]，其表现集中体现为已承受苦楚的深切伤心与哀痛。",
+  "open_emotion": "悲痛",
+  "answer": "sad",
+  "mapping_reason": "目标人物呈现含泪、苦涩皱眉及抽噎等典型悲伤外在表现，心理指向已发生的伤痛与悲惨境遇，完全符合'sad（悲伤）'家族中失落、伤心、哀痛的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07 (0.0s-2.04s)",
+      "observation": "目标人物双眼湿润含泪，眉心紧蹙且眉头内角明显上扬呈八字愁容，嘴唇微启且嘴角向下牵拉颤抖",
+      "interpretation": "面部各区域均呈现高度典型的悲恸与欲哭哭泣神态",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.0s-2.04s",
+      "observation": "人声发音伴随强烈的哽咽吸气与断续抽噎声",
+      "interpretation": "听觉表现与视觉哭态吻合，直接证实其悲伤情绪",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "甚至，连一件衣裳。",
+      "observation": "台词描述凄凉缺乏的过往境况",
+      "interpretation": "语义支撑因委屈与苦难带来的悲伤失落回忆",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "眉眼紧蹙的状态虽然在极少情况下可能混淆为担忧，但由于伴随显著泪光、嘴角下垂及已成事实的诉苦语境，缺乏对未来不确定风险的焦虑，因而排除worried。"
+}

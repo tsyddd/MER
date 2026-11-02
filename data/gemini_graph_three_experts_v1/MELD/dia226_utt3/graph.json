@@ -1,0 +1,101 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Rachel坐在沙发上面对Phoebe说：“Y’know, I wish I could get him to open up a little bit, share some feelings.”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Rachel头部微偏，视线看向坐在身旁的Phoebe",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Rachel以平缓略带感叹的语调说话",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Rachel双手抬起至胸前并张开手掌比划",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Rachel将抬起的双手慢慢收回并放低",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内咖啡馆背景中，Rachel与Phoebe并排坐在橙色沙发上交谈",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "Rachel在注视Phoebe的同时以平缓且带感叹的语调说话",
+      "entity_anchor": "Rachel"
+    },
+    {
+      "source": "person_3",
+      "target": "person_2",
+      "relation": "after",
+      "reason": "Rachel在抬起双手至胸前比划之后，将双手慢慢收回并放低",
+      "entity_anchor": "Rachel的手势动作"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供了Rachel看向Phoebe的视觉定向信息，person_1提供了平缓略带感叹的声学线索，联合后呈现出她面对倾听者倾诉时的视听综合表达状态。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_2",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_2记录了Rachel双手抬起至胸前张开比划，person_3记录了手势随后收回放低，联合后完整展现了她在表达诉求时由起到落的手势动态过程。",
+      "entity_anchor": null
+    }
+  ]
+}

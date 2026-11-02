@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载Ross起初低头双眼向下看〔person_0〕，随后抬头平视前方说话〔person_1〕，说出“I'm gonna have to give him up.”〔process_0〕。同时图谱记载其说话语调低缓、平和〔person_2〕。结合低垂视线与低缓平沉的语调表现，反映出其在决定不得不放弃时的沮丧与难过，体现为悲伤情绪。",
+  "answer": "sadness",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "person_2",
+    "process_0"
+  ]
+}

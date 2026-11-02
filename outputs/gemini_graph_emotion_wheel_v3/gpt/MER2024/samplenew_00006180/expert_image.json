@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是多数画面中的女教师，不是frame_06举手回答的男孩。她从较收敛的表情转为抬眉、张口提问，随后露出轻微笑意，始终面向学生交流[E1][E2]。字幕表明她在询问谁知道答案[E3]；现有画面更支持平稳、略带探询的交流，而非对意外消息的惊讶。",
+  "open_emotion": "平静探询",
+  "answer": "neutral",
+  "mapping_reason": "她有提问时的表情变化，但没有足够证据表明喜悦、担忧或意外反应占主导；按当前平稳交流的表现映射为neutral。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_03（2.419秒）",
+      "observation": "女教师面向前方，起初嘴唇轻合；随后抬眉、睁大眼睛并张口说话，身体姿态基本稳定。",
+      "interpretation": "表情随发问变得活跃，但这些变化本身不足以判定为惊讶。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05（4.004秒）及frame_07（5.631秒）",
+      "observation": "女教师嘴角略扬，仍看向前方；frame_06中的男孩张口回答，与她不是同一人物。",
+      "interpretation": "轻微笑意更符合继续与学生交流，不能单凭它判为明显喜悦。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“同学们，有没有知道的？”",
+      "observation": "字幕呈现女教师向学生征询答案。",
+      "interpretation": "为画面中的抬眉、张口提供提问语境，而非突发意外的语境。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "frame_03的睁眼、张口和frame_05的轻微笑意也可能被读作意外或愉快；但没有清楚的预期落空或持续喜悦表现。未提供音频，无法用语调进一步区分。"
+}

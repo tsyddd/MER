@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "Rachel在婴儿持续啼哭的背景下，表现出眉心聚拢、视线低垂、身体重心晃动等肢体紧张状态（person_1），同时其言语语调偏高、音量大、语速急促（person_2），面部表情紧绷（person_3），这些视听线索共同指向其当前的焦躁与无助情绪。",
+  "answer": "anger",
+  "evidence_refs": [
+    "person_1",
+    "person_2",
+    "person_3"
+  ]
+}

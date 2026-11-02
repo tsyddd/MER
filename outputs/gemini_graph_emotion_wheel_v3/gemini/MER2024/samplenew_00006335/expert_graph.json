@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "目标人物在日式室内手持电话听筒进行紧急通话，结合图谱节点 [process_0] 与 [person_1]，其正在就前方防务质询‘关东军不是已经增兵甲子沟煤矿了吗’。经亲耳核验音轨，其语气紧绷低沉、语速急促且带焦灼追问感，面部双眉微蹙、眼神凝重专注 [person_0, person_1]。事件语义表明对方传来了煤矿发生意外或变故的消息，违背了原先部署预期，引发了其对局势失控与潜在损失的高度不安与担忧。",
+  "open_emotion": "焦虑不安",
+  "answer": "worried",
+  "mapping_reason": "目标人物的质问源于前方可能出现的负面事态和未知风险，言行核心聚焦于可能恶化的局势后果，符合情绪轮中worried关于‘对可能负面结果、未知风险的顾虑与焦虑’的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "关东军不是已经增兵甲子沟、煤矿了吗？",
+      "observation": "目标人物通过电话质询关东军是否已增兵甲子沟煤矿。",
+      "interpretation": "表明原本的兵力部署可能未能阻止意外变故，事件情境直接指向对防守风险的忧虑。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "语调低沉沉重且紧绷，尾音带有急促探询与关切的质问感。",
+      "interpretation": "核实并深化了图谱节点 [person_1] 的描述，证实其处于高度紧绷与关切的心理状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_03 1.12s",
+      "observation": "男子眉头微锁，眼神固定前方，神情紧绷严肃。",
+      "interpretation": "体现出面对突发不利信息时的忧虑与凝重反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱记录男子面朝前方，嘴部开合说话，语气低沉带有疑问。",
+      "interpretation": "提供了人物在通话互动中呈现出严肃疑问态度的情境骨架。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "反问句式与信息落差可能被解释为‘surprise（惊讶）’，但其发音克制低沉、神色沉重收敛，缺乏外显的张扬震惊，且注意力深陷于局势后果的风险评估中，故排除单纯惊讶。"
+}

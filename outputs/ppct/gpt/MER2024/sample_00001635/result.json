@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00001635",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "当前人物为画面中的女性；她身体直立、面向并注视画面右侧，嘴部张开，节点person_0与person_1通过simultaneous和person_joint关系共同表明她正在对右侧对象当面表达。节点process_0记录她说“我不知道这件旗袍是你的”，但字幕显示“我：不。”与实际说话内容不一致；结合其略显紧张、辩解式的表情，更符合担忧而非惊讶或中性。",
+  "output": "当前人物为画面中的女性；她身体直立、面向并注视画面右侧，嘴部张开，节点person_0与person_1通过simultaneous和person_joint关系共同表明她正在对右侧对象当面表达。节点process_0记录她说“我不知道这件旗袍是你的”，但字幕显示“我：不。”与实际说话内容不一致；结合其略显紧张、辩解式的表情，更符合担忧而非惊讶或中性。\n<answer>worried</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 143.86974143981934,
+  "node_count": 4,
+  "edge_count": 2
+}

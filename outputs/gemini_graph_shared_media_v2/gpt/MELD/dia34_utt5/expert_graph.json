@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "Rachel在当前对话中先惊呼，再直接对Monica说出令她意外的判断；这是Rachel的反应，不是Monica的情绪，也不能据此断定话语内容属实[E2][E3]。她起初张口、眉毛抬起，随后转向Monica继续说话，支持「surprise」[E1]。图谱所述语调因未提供原音轨，不能当作亲耳核实的证据[E4]；图谱与画面重复描述的表情也只算同一项观察。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒；frame_02 @ 0.9592909218755783秒",
+      "observation": "Rachel起初张口、眉毛抬起，随后面向Monica说话并伸手靠近她。",
+      "interpretation": "突出的张口表情与面向对方的即时反应支持惊讶；伸手动作本身不足以证明情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Oh my God! You’re a 30 year old virgin!",
+      "observation": "字幕呈现一句惊呼，紧接着是对「你」的直接表述。",
+      "interpretation": "话语形式符合Rachel在当下对Monica表示意外，而非转述过去事件；字幕不能证明其语调或所说内容的真实性。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_0；process_1",
+      "observation": "图谱将两句话记为Rachel对Monica的连续发言。",
+      "interpretation": "节点帮助确认当前互动的说话者与对象，但其台词内容与字幕同源，不构成额外的独立情绪证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "节点描述Rachel张口，并称她「语调拔高带惊叹感」。",
+      "interpretation": "张口可由画面核查；语调仅是图谱转述，未提供原音轨，不能亲耳核验。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "皱眉及涉及私事的台词也可能被理解为反感或责备；但当前更鲜明的是惊呼和张口反应，画面没有足够明确的厌恶或愤怒表现，因此未选这些标签。"
+}

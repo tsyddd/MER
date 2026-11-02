@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia131_utt3",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "cd3d3c8c807c19df6b632ee4fea884ed6da5a8289e78f2f9813b77504e417e13",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "轻微愉悦",
+      "mapped_label": "joy",
+      "mapping_reason": "当前正面表述配合轻微笑意，支持将轻微愉悦映射为joy；证据不足以判断为强烈兴奋。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "失望",
+      "mapped_label": "sadness",
+      "mapping_reason": "此处将“失望”近似映射到sadness：判断依据是肯定话语与表情、动作之间的不一致，提示事情可能不如她所说的顺利；但片段未说明具体损失，映射有局限。"
+    },
+    "image": {
+      "open_emotion": "愉快",
+      "mapped_label": "joy",
+      "mapping_reason": "后段可见的笑容与开放手势，加上字幕中的正面表述，较支持当前有正向体验，映射为joy；笑意不强，因此不推断为兴奋。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "独立回看，Rachel在frame_02至frame_04低头整理衣物、表情收敛，frame_05至frame_06虽摊手并略微扬起嘴角，神情仍显紧绷。[audio_subtitle:E2]对这一变化的观察可信，但将其解释为失意并非可直接核实的事实；[image:E2]据摊手和笑意判断愉快，也不足以排除勉强回应。字幕原话“Oh, everything went great.”字面积极，却不能单凭措辞排除反讽；本片段没有音轨可核对语气。综合持续紧绷的表情与较勉强的笑意，当前更接近失望，近似归入sadness，但无法确认她所谈的事情实际进展如何。",
+  "output": "独立回看，Rachel在frame_02至frame_04低头整理衣物、表情收敛，frame_05至frame_06虽摊手并略微扬起嘴角，神情仍显紧绷。[audio_subtitle:E2]对这一变化的观察可信，但将其解释为失意并非可直接核实的事实；[image:E2]据摊手和笑意判断愉快，也不足以排除勉强回应。字幕原话“Oh, everything went great.”字面积极，却不能单凭措辞排除反讽；本片段没有音轨可核对语气。综合持续紧绷的表情与较勉强的笑意，当前更接近失望，近似归入sadness，但无法确认她所谈的事情实际进展如何。\n<answer>sadness</answer>",
+  "label": "joy",
+  "elapsed_seconds": 101.3131639957428
+}

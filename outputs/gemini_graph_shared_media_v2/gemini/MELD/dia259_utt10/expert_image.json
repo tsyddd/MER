@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物Monica身体前倾，神情严肃紧绷，伴随外展手臂的激烈手势[E1]并在强调时张口呼喊、双臂大开[E2]，配合听觉上高亢、激昂的指责语调[E3]，体现出强烈的抗议与愤怒情绪。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 1.42s",
+      "observation": "Monica身体前倾对准对方，右手迅速向侧方挥舞强调，面部紧绷，目光犀利",
+      "interpretation": "动态的手势与前倾身体表现出明显的进攻性与争辩意图，支持愤怒",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_06 @ 4.21s",
+      "observation": "Monica双臂向前完全展开，双唇大张发出强调，双目瞪圆",
+      "interpretation": "高唤醒度的肢体扩张与大幅度发音嘴型呈现出强烈宣泄和斥责姿态，支持愤怒",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "0.0s-4.9s",
+      "observation": "语速偏快、声音尖锐且逐字重读列举冒犯对象（'offensive to women, and doctors, and monkeys!'）",
+      "interpretation": "声调急促而带有指责质问色彩，排除了平稳客观的neutral以及单纯轻蔑的disgust",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "在frame_01和frame_07中唇角稍有上扬，可能被误读为带有joy或调侃性质，但结合其攻击性的前倾体态及斥责台词，该微表情仅为讽刺/啼笑皆非的冷笑，不能支撑正面情绪。"
+}

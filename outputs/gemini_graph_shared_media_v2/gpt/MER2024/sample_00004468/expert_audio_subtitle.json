@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "字幕中的“你怎么这么高兴呢？”是带有质问意味的疑问句，并非说话者在表达开心；连续画面中目标人物眉头紧蹙、目光严肃、嘴部用力，整体呈现对对方反应的不满和责问，较符合angry。[E1][E2]",
+  "answer": "angry",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "当前字幕原话：“哎，朕，仇院长，离婚，你怎么这么高兴呢？”",
+      "observation": "说话者以疑问句追问对方为何表现得高兴，句式带有明显质问色彩；“高兴”描述的是对方，并不等于说话者本人开心。",
+      "interpretation": "该言语行为更像不满或责问，而非字面情绪词所指向的happy。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00至frame_07 @ 0.0–4.16秒",
+      "observation": "目标人物多帧眉头紧锁、眼神锐利并持续注视画外对象，后几帧张口强调说话，面部肌肉较紧。",
+      "interpretation": "这些可见表情与质问语境一致，支持当前存在明显恼怒或不满。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "也可能是对对方反应感到担忧或惊讶，但画面中持续的蹙眉、紧绷表情和质问句缺少明显的担忧性柔和线索；由于没有音频，无法进一步用语调、音量或节奏区分angry与worried。"
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物是画面右侧的主要男性。其表情从较收敛逐渐变为眉毛抬起、眼睛睁大、嘴唇张开或收圆，并在中段伸手指向前方，整体呈现带有警觉和急切感的表达；结合字幕内容，更支持担忧而非单纯惊讶。[E1][E2][E3]",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.8s至frame_03 @ 1.2s",
+      "observation": "目标人物抬眉、张口，右手向前指，身体保持面向前方。",
+      "interpretation": "指向动作与张口表达显示他在强调或追问某件事，支持带有紧迫感的担忧表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05 @ 2.0s至frame_07 @ 2.8s",
+      "observation": "目标人物双眼相对睁大，眉毛抬起，嘴部持续张开或收圆，面部没有明显笑容。",
+      "interpretation": "这些特征可见于担忧或警觉，也可能接近惊讶；缺少笑意使happy不受支持。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "当前字幕：“前两天，他跟汪淼一起，观测了宇宙，手术，我去查。”",
+      "observation": "字幕内容涉及对相关经历和“手术”的追问，并以“我去查”作出行动回应。",
+      "interpretation": "字幕语义与画面中的指向、抬眉和持续张口相结合，更符合带有疑虑和警觉的担忧，而不是纯粹的惊喜。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "抬眉、睁大眼睛和张口也可以解释为surprise，尤其见于frame_05至frame_07；但表情持续伴随指向动作，且字幕内容偏向调查和疑虑，因此未采用surprise。"
+}

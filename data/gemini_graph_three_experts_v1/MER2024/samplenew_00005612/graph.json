@@ -1,0 +1,120 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "围巾男子开口说话：\"请您转交给总理过目\"",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "围巾男子双手托着物品向前递出",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "围巾男子眼神注视前方，嘴部持续开合发声，语调严肃稳重",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "围巾男子双臂向前伸直，将手中的物品平举递出",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "戴眼镜男子站立注视前方，身着黑色西装配领结",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "现场处于户外集会场所，围巾男子身后有手持标语横幅的群聚人群",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "前方站立着戴眼镜穿西装的男士及身着军制服的随行人员",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "同一人物（围巾男子）在开口说出请求转交的话语后，双手托着物品向前平举递出",
+      "entity_anchor": "围巾男子"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "同一人物（围巾男子）在注视前方发声说话之后，做出双臂向前伸直递送物品的肢体动作",
+      "entity_anchor": "围巾男子"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提供了围巾男子的口述请求，process_1提供了双手托举物品向前递送的动作，联合后完整构成了言行同步呈递请愿物品的互动过程",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供了围巾男子的凝视眼神、发声嘴态与严肃语调，person_1补充了其双臂平伸递物的肢体姿态，联合后更全面地展现出该人物郑重、坚决的举止与仪态",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0展现了身后的请愿人群与抗议标语，context_1展现了对面接见或拦截的官方西装官员与军警人员，联合后完整限定了民众集会代表与官方人员当面对接的现场情境与阵营空间关系",
+      "entity_anchor": null
+    }
+  ]
+}

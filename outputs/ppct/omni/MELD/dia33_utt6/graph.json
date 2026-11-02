@@ -1,0 +1,288 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Rachel is holding a baby.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Rachel is moving her left hand towards her face.",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "Rachel is adjusting the baby in her arms.",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_3",
+      "type": "process",
+      "content": "Rachel is speaking with a high-pitched, strained voice.",
+      "time_index": 3,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_4",
+      "type": "process",
+      "content": "Rachel is turning her head to her right.",
+      "time_index": 6,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_5",
+      "type": "process",
+      "content": "Rachel is holding the baby with both hands.",
+      "time_index": 7,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Rachel has long, light brown hair.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Rachel is wearing a light blue long-sleeved shirt.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Rachel's mouth is open as she speaks.",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Rachel's eyes are wide.",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_4",
+      "type": "person",
+      "content": "Rachel's head is tilted back slightly.",
+      "time_index": 4,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_5",
+      "type": "person",
+      "content": "Rachel's head is turned to her right.",
+      "time_index": 6,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "The scene takes place indoors.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "A wooden door is visible on the left.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_2",
+      "type": "context",
+      "content": "A framed picture is on the wall.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_3",
+      "type": "context",
+      "content": "Rachel is the only person visible.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_4",
+      "type": "context",
+      "content": "Rachel is holding a baby.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_5",
+      "type": "context",
+      "content": "Rachel is speaking.",
+      "time_index": 3,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "同一人物的同一可观察表现",
+      "entity_anchor": "Rachel"
+    },
+    {
+      "source": "process_2",
+      "target": "process_1",
+      "relation": "after",
+      "reason": "同一人物的同一可观察表现",
+      "entity_anchor": "Rachel"
+    },
+    {
+      "source": "process_3",
+      "target": "process_2",
+      "relation": "after",
+      "reason": "同一人物的同一可观察表现",
+      "entity_anchor": "Rachel"
+    },
+    {
+      "source": "process_4",
+      "target": "process_3",
+      "relation": "after",
+      "reason": "同一人物的同一可观察表现",
+      "entity_anchor": "Rachel"
+    },
+    {
+      "source": "process_5",
+      "target": "process_4",
+      "relation": "after",
+      "reason": "同一人物的同一可观察表现",
+      "entity_anchor": "Rachel"
+    },
+    {
+      "source": "person_2",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "同一人物的同一可观察表现",
+      "entity_anchor": "Rachel"
+    },
+    {
+      "source": "person_4",
+      "target": "person_3",
+      "relation": "after",
+      "reason": "同一人物的同一可观察表现",
+      "entity_anchor": "Rachel"
+    },
+    {
+      "source": "person_5",
+      "target": "person_4",
+      "relation": "after",
+      "reason": "同一人物的同一可观察表现",
+      "entity_anchor": "Rachel"
+    },
+    {
+      "source": "context_5",
+      "target": "context_4",
+      "relation": "after",
+      "reason": "同一互动状态的前后变化",
+      "entity_anchor": "Rachel speaking"
+    },
+    {
+      "source": "process_0",
+      "target": "process_3",
+      "relation": "process_joint",
+      "reason": "process_0 provides the fact that Rachel is holding a baby, and process_3 provides the fact that she is speaking with a high-pitched, strained voice. Together, they form a more complete picture of her current interaction: she is actively trying to soothe the baby while expressing her distress.",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0 describes Rachel's hair, and person_1 describes her shirt. These are two distinct, observable physical attributes of the same person, providing a more complete visual description of her appearance.",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_4",
+      "relation": "context_joint",
+      "reason": "context_0 establishes that the scene is indoors, and context_4 establishes that Rachel is holding a baby. Together, they provide a more complete picture of the scene's context, specifying both the general location and a key object within it.",
+      "entity_anchor": null
+    }
+  ]
+}

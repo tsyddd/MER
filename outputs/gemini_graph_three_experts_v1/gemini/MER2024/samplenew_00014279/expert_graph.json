@@ -1,0 +1,12 @@
+{
+  "expert": "graph",
+  "reason": "女子在与男子近距离相对时紧盯对方〔person_1〕，图谱记载其发声带有明显喘息和停顿〔person_2〕。在此过程中，女子连续言语控诉对方“除了这些卑劣的手段还会什么”〔process_1, process_2〕，并严厉斥责其“真是无耻之极”〔process_3〕，由反诘至痛骂层层递进，充分体现出针对对方行为的愤怒情绪。",
+  "answer": "angry",
+  "evidence_refs": [
+    "person_1",
+    "person_2",
+    "process_1",
+    "process_2",
+    "process_3"
+  ]
+}

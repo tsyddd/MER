@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia198_utt2",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "3e5a8a4993b19ac3f6e4c36023c416407d12023be7b4a0e80d447afe6996d7d7",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "三位专家在各自模态下的观察高度一致。image 显示 Joey 面部表情放松平稳，无明显笑容或怒意；audio_subtitle 指出其语调平淡平缓，虽有调侃但缺乏强烈情绪波动；graph 亦记录其手势与说话状态均处于常态沟通，综合判定为中性。",
+  "output": "三位专家在各自模态下的观察高度一致。image 显示 Joey 面部表情放松平稳，无明显笑容或怒意；audio_subtitle 指出其语调平淡平缓，虽有调侃但缺乏强烈情绪波动；graph 亦记录其手势与说话状态均处于常态沟通，综合判定为中性。\n<answer>neutral</answer>",
+  "label": "anger",
+  "elapsed_seconds": 30.552618503570557
+}

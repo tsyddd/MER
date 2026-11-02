@@ -1,0 +1,108 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Joey 对着面前的男子说话：\"Awww, one of my students got an audition. I’m so proud.\"",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Joey 注视着面前的男子",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Joey 双手抬起交叉按在胸前",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Joey 发出轻叹声调，语速平稳柔和",
+      "time_index": 1,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Joey 头部微斜，嘴角上扬微笑着注视对方",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内，Joey 与一名背对镜头的男子面对面站立交谈",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "Joey 在注视面前男子交谈后，双手抬起交叉按在胸前",
+      "entity_anchor": "Joey"
+    },
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "simultaneous",
+      "reason": "Joey 双手抬起按在胸前的动作与他发出轻叹声调、平稳语速说话同时发生",
+      "entity_anchor": "Joey"
+    },
+    {
+      "source": "person_3",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "Joey 在双手抬起按在胸前后，头部微斜且嘴角上扬微笑注视对方",
+      "entity_anchor": "Joey"
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1 提供了 Joey 双手交叉按在胸前的上肢动作，person_2 提供了其发出轻叹、平稳柔和的声调特征，二者联合将体态动作与副语言听觉表现互补结合。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_1 展现了双手按胸的躯干肢体动作，person_3 展现了头部微斜且面带微笑的神态，联合后构成了由肢体姿势到面部神情的完整外显表现。",
+      "entity_anchor": null
+    }
+  ]
+}

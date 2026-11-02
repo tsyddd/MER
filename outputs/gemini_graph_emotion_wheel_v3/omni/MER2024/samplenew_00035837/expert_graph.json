@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "目标人物在说出“再也没有亲人了”时，其发声状态表现为语速缓慢、语调低平、音量微弱且带有气音，同时伴随头部微倾、视线低垂的体态。这些视听证据共同指向一种失落、哀伤的情绪。字幕内容“再也没有亲人了”是明确的损失性陈述，为情绪提供了直接的语义支持。综合来看，主导情绪是悲伤。",
+  "open_emotion": "悲伤",
+  "answer": "sad",
+  "mapping_reason": "根据情绪轮定义，'sad'（悲伤）适用于当前失落、伤心、哀痛或低落的情绪。目标人物的言语内容（失去亲人）和表达方式（低沉、微弱、低垂视线）均符合该情绪的语义边界，因此映射为'sad'。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "说话人语速缓慢，语调低平，声音微弱且带有气音。",
+      "interpretation": "该发声特征是悲伤情绪的典型表现，反映了说话人内心的低落和无力感。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00-frame_07",
+      "observation": "说话人头部微倾，视线持续向下垂落。",
+      "interpretation": "该体态是悲伤情绪的常见非语言表达，通常与失落、沮丧或内省相关。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "我知道在这个世上，再也没有亲人了。",
+      "observation": "字幕内容为“再也没有亲人了”。",
+      "interpretation": "该陈述直接表达了失去亲人的事实，为悲伤情绪提供了明确的语义背景和触发点。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "图谱节点person_0描述说话人头部微倾，视线向下垂落。",
+      "interpretation": "该节点描述了与E2一致的悲伤情绪的视觉表现。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。所有证据均一致指向悲伤情绪，无矛盾或可替代解释。"
+}

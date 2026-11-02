@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00033539",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "a415fec142e7ddeeb3ecfd6ae5f20bd235ccd0be39b7230d3d3b9654add4a754",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "独立核查音轨与8帧画面，目标人物在0.00s-1.80s听到对方话语后，立即以明显升调且高昂的反问语气喊出“啊？真的？”，这一听觉特征正如[audio_subtitle:E1]所述，体现出强烈的意外与难以置信。视觉上如[image:E1]所提，在全片段及frame_01处其双眉挑起并向眉心聚拢、额头布满纹路且嘴巴微张，呈现出突发信息带来的错愕神态。虽然紧蹙的额纹常易被误读为worried（担忧），但其声调短促上挑且无低沉叹息或忧虑拖音，语言互动与韵律明确支持突发惊异，故判定为surprise。",
+  "output": "独立核查音轨与8帧画面，目标人物在0.00s-1.80s听到对方话语后，立即以明显升调且高昂的反问语气喊出“啊？真的？”，这一听觉特征正如[audio_subtitle:E1]所述，体现出强烈的意外与难以置信。视觉上如[image:E1]所提，在全片段及frame_01处其双眉挑起并向眉心聚拢、额头布满纹路且嘴巴微张，呈现出突发信息带来的错愕神态。虽然紧蹙的额纹常易被误读为worried（担忧），但其声调短促上挑且无低沉叹息或忧虑拖音，语言互动与韵律明确支持突发惊异，故判定为surprise。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 55.50911903381348
+}

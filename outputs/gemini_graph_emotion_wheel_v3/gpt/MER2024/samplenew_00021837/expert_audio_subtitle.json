@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者是在介绍自己印象深刻的一户人家的背景，而非表达对其遭遇的评价。[E1][E2]画面中他面向前方陈述，表情较为克制；现有字幕和画面没有显示明确的悲伤、担忧或其他主导情绪。[E3]",
+  "open_emotion": "平常叙述",
+  "answer": "neutral",
+  "mapping_reason": "当前表达以交代事实为主，符合neutral中平常交流、无明确主导情绪的定义；这不排除他对这户人家另有感受。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "「我印象最深的一户人家」",
+      "observation": "说话者引出一户令自己印象深刻的人家。",
+      "interpretation": "「印象最深」说明记忆突出，本身不表明当下是悲伤或喜悦。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "「祖祖辈辈种地」",
+      "observation": "接着陈述这户人家世代种地。",
+      "interpretation": "这是一句背景介绍，没有直接表达损失、风险或责备。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05（2.8秒）至frame_07（3.92秒）",
+      "observation": "说话者坐在话筒前面向前方，表情克制，末帧嘴角略有收紧。",
+      "interpretation": "画面与审慎陈述相容，但不足以单凭表情判定具体情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "「印象最深」和较严肃的表情也可能对应沉重的回忆；但片段尚未说出负面事件。未提供音频，无法核查语调、节奏或音质，结论仅限字幕与画面。"
+}

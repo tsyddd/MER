@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。仅从字幕看，Joey提到“whipped fish”并说自己只是勉强把它咽下去，主要表现出对食物的反感和不适。",
+  "answer": "disgust",
+  "evidence_refs": []
+}

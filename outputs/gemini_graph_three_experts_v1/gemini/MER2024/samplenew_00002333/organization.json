@@ -1,0 +1,3 @@
+{
+  "text": "在室内场景中，男子独自坐在靠墙的黑色皮质沙发上〔context_0〕，视线看向前方偏右侧〔person_2〕。他身体斜靠在沙发靠背上，右手搭在腹部前方〔person_0〕，开口说出“向中央交代”〔process_0〕。起初，男子嘴角上扬露齿，眼角微眯而面带笑容〔person_1〕，与其斜靠的姿势互为补充，展现出放松的仪态〔person_0 joint person_1〕。在面带笑容的同时，他说话语调平缓，并同步夹杂着带笑的气声与轻微叹气声〔person_3〕，视听表现相互结合〔person_1 simultaneous person_3, person_1 joint person_3〕。随着发音进行，男子嘴唇持续开合，面部笑容逐渐收敛〔person_4〕，该神情变化发生在其露齿微笑之后，完整呈现了从展颜到收拢的动态过程〔person_4 after person_1, person_1 joint person_4〕。"
+}

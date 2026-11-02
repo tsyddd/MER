@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者语调平稳，节奏舒缓，音量适中，没有明显的情绪起伏。话语内容是陈述性的，描述一种安眠的场景，没有表达强烈的个人情感。结合其平静的表情，整体表现符合中性情绪的特征。",
+  "open_emotion": "平静",
+  "answer": "neutral",
+  "mapping_reason": "根据情绪轮定义，'neutral'指当前主要为平稳叙述、自然交流或无明确主导情绪的表达。说话者的语调、节奏和话语内容均未表现出喜悦、悲伤、愤怒、担忧或惊讶等主导情绪，因此映射为'neutral'。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "说话者语调平稳，节奏舒缓，音量适中，没有明显的情绪起伏。",
+      "interpretation": "声音韵律平稳，缺乏情绪波动的迹象，支持中性情绪的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "皇上闻着，正好，消乏，安睡。",
+      "observation": "话语内容是陈述性的，描述一种安眠的场景。",
+      "interpretation": "话语内容没有表达强烈的个人情感，是客观的描述，支持中性情绪的判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无"
+}

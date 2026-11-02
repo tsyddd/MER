@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia153_utt11",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "b023c80896f2e13dc2c986e2f32b6b993f29f3e06532e4de681ae7bcdce52d22",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "目标是穿黑衣的Chandler；前两帧他皱眉、叉腰，随后持续朝Joey做较大幅度的强调手势，这些画面观察可信，但手势单独不能证明愤怒[image:E1][image:E2]。字幕中的“if I'm staring down the barrel of a gun”是假设，不表示他此刻害怕；“I assure you”配合紧绷的表情，更像带着不耐烦地强调观点[audio_subtitle:E1]。最强的另一种解释是他只是在认真说明，手势也确有解释作用[graph:E2]；但持续的面部紧绷使anger比neutral更贴切。未提供音轨，图谱关于语调平稳的转述无法亲耳核验，不作为取舍依据[graph:E4]。",
+  "output": "目标是穿黑衣的Chandler；前两帧他皱眉、叉腰，随后持续朝Joey做较大幅度的强调手势，这些画面观察可信，但手势单独不能证明愤怒[image:E1][image:E2]。字幕中的“if I'm staring down the barrel of a gun”是假设，不表示他此刻害怕；“I assure you”配合紧绷的表情，更像带着不耐烦地强调观点[audio_subtitle:E1]。最强的另一种解释是他只是在认真说明，手势也确有解释作用[graph:E2]；但持续的面部紧绷使anger比neutral更贴切。未提供音轨，图谱关于语调平稳的转述无法亲耳核验，不作为取舍依据[graph:E4]。\n<answer>anger</answer>",
+  "label": "fear",
+  "elapsed_seconds": 77.97211503982544
+}

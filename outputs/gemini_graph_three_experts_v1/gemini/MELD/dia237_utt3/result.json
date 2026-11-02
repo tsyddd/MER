@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia237_utt3",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "ce972a653956a31614b7e25f45b63c679edd7dc7223fe0ddbbd92ef5105cd4d2",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "disgust",
+  "emotion_analysis": "audio_subtitle专家直接基于音轨指出Joey在提及'whipped fish'及忍住不吐时带有鲜明的嫌恶与反法语调；image专家仅因面部未出现大幅度扭曲而判定为中立，未能捕捉到伴随台词语境的听觉情绪表现。综合考虑语义背景与音频专家的听觉特征反馈，Joey当前主要表现出对食物的厌恶（disgust）。",
+  "output": "audio_subtitle专家直接基于音轨指出Joey在提及'whipped fish'及忍住不吐时带有鲜明的嫌恶与反法语调；image专家仅因面部未出现大幅度扭曲而判定为中立，未能捕捉到伴随台词语境的听觉情绪表现。综合考虑语义背景与音频专家的听觉特征反馈，Joey当前主要表现出对食物的厌恶（disgust）。\n<answer>disgust</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 47.14481520652771
+}

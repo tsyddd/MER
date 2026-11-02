@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。字幕内容是对诚信经商的平静陈述，未明确表现出其他情绪。",
+  "answer": "neutral",
+  "evidence_refs": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia224_utt2",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "字幕仅为“Deeper.”，是催眠引导中的简短指令，没有明显的愤怒、悲伤、喜悦、惊讶、恐惧或厌恶表达。画面中人物躺在床上，未见与目标台词相对应的强烈情绪反应。",
+  "output": "字幕仅为“Deeper.”，是催眠引导中的简短指令，没有明显的愤怒、悲伤、喜悦、惊讶、恐惧或厌恶表达。画面中人物躺在床上，未见与目标台词相对应的强烈情绪反应。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 20.68811297416687,
+  "node_count": null,
+  "edge_count": null
+}

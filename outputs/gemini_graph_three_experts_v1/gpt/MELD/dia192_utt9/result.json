@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia192_utt9",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "253cfc3d29025f100a084a4a4129a2710aa0f001fea7ff86d0942be80fadcdf5",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "字幕中的“What?! Excuse me!”可体现突然而强烈的错愕，但仅凭字幕不能确认听觉情绪。图谱还列出她主动靠近、质问式表达及较大音量等线索，整体更支持带有对抗性的愤怒；图片所述微笑与此冲突，但不足以单独推翻语言和行为线索。",
+  "output": "字幕中的“What?! Excuse me!”可体现突然而强烈的错愕，但仅凭字幕不能确认听觉情绪。图谱还列出她主动靠近、质问式表达及较大音量等线索，整体更支持带有对抗性的愤怒；图片所述微笑与此冲突，但不足以单独推翻语言和行为线索。\n<answer>anger</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 71.06742429733276
+}

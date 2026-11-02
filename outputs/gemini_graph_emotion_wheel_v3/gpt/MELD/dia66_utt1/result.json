@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia66_utt1",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "c398d30886c2843c21af96c15c9bcdddf2dff86a4ef358b1b57842960c047eb1",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "平和礼貌",
+      "mapped_label": "neutral",
+      "mapping_reason": "当前表达以平稳、日常的礼貌交流为主，较符合neutral；这里并非因缺少音轨而默认中性，也不把礼貌用语直接等同于joy。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "礼貌平稳",
+      "mapped_label": "neutral",
+      "mapping_reason": "这句服务性告别和目标人物较平稳的表情，没有显示明确占主导的情绪，故映射为neutral；礼貌不等于喜悦。"
+    },
+    "image": {
+      "open_emotion": "平稳",
+      "mapped_label": "neutral",
+      "mapping_reason": "当前可见表现以平稳交谈为主；轻微笑意与礼貌用语不足以确定有占主导的愉悦体验，因此映射为neutral。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标是左侧空乘；回看frame_00至frame_07，她始终面向右侧乘客交谈，后段仅略带笑意，右侧乘客更明显的笑容不能归给她。[image:E1][image:E2] 字幕“Thank you! Enjoy your flight?”是礼貌送别语，[audio_subtitle:E1]对此的判断可信，但字幕本身不能证明她感到喜悦。轻微笑意是最强的喜悦线索，不过结合持续平稳的表现，更适合解释为服务中的礼貌微笑；未提供音轨，不能核实语调。",
+  "output": "目标是左侧空乘；回看frame_00至frame_07，她始终面向右侧乘客交谈，后段仅略带笑意，右侧乘客更明显的笑容不能归给她。[image:E1][image:E2] 字幕“Thank you! Enjoy your flight?”是礼貌送别语，[audio_subtitle:E1]对此的判断可信，但字幕本身不能证明她感到喜悦。轻微笑意是最强的喜悦线索，不过结合持续平稳的表现，更适合解释为服务中的礼貌微笑；未提供音轨，不能核实语调。\n<answer>neutral</answer>",
+  "label": "joy",
+  "elapsed_seconds": 171.68810772895813
+}

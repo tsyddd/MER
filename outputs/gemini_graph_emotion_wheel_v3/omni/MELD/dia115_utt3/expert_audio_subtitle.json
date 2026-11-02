@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者Ross的语调平稳，没有明显的音高或音量变化，节奏正常，没有表现出强烈的情绪波动。字幕内容为一句陈述性话语，没有使用反讽、疑问或否定等修辞手法，其内容本身是中性的描述。综合视听信息，说话者当前的情绪是平稳的。",
+  "open_emotion": "neutral",
+  "answer": "neutral",
+  "mapping_reason": "根据MELD项目适配情绪轮的定义，'neutral'指当前平稳、日常且没有明确主导情绪的表达。说话者的语调平稳，话语内容为中性陈述，没有表现出任何主导情绪，因此映射为'neutral'。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:05",
+      "observation": "说话者语调平稳，没有明显的音高或音量变化，节奏正常。",
+      "interpretation": "平稳的语调表明说话者没有表现出强烈的情绪波动。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Shielding your face and shrieking like a girl... is not a backhand.",
+      "observation": "字幕内容为一句陈述性话语，没有使用反讽、疑问或否定等修辞手法。",
+      "interpretation": "话语内容本身是中性的描述，没有表达强烈的情感。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无"
+}

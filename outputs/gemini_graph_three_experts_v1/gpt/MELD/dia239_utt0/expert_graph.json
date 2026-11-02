@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "Gunther面朝Chandler注视并主动询问里面是否有人，图谱记载其语调仅带有轻微疑问〔person_1〕〔process_0〕。当前表现是正常发起交谈，未见明显愤怒、悲伤、喜悦或其他强烈情绪证据〔context_0〕。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_1",
+    "process_0",
+    "context_0"
+  ]
+}

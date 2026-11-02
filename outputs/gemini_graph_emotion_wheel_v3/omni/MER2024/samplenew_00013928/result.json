@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00013928",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "49b9882ec6625c755d0ee37646065921d1bf3d3dd712f15713cb364e31bc4877",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "开心",
+      "mapped_label": "happy",
+      "mapping_reason": "根据情绪轮定义，'happy'（喜悦）指当前正向愉悦、满足或兴奋。目标人物的面部表情（微笑）、肢体动作（挥动文件）和言语语调（轻快上扬）均表现出积极和愉悦的状态，且其话语内容“我可看好你呀”是直接的鼓励和肯定，因此最符合'happy'的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "鼓励",
+      "mapped_label": "happy",
+      "mapping_reason": "根据情绪轮的定义，'happy'（喜悦）指当前正向愉悦、满足或兴奋。说话者的话语内容“我可看好你呀”表达了对对方的积极评价和信心，其热情洋溢的语气和灿烂的笑容是喜悦情绪的直接表现，因此映射到'happy'是合适的。"
+    },
+    "image": {
+      "open_emotion": "开心",
+      "mapped_label": "happy",
+      "mapping_reason": "根据观察，目标人物的面部表情（微笑、眯眼）、姿态（轻松）和字幕内容（“我可看好你呀”）都明确指向一种积极、愉悦的情绪。音频中的笑声和鼓励性语调进一步证实了这一点。该情绪与“happy”（喜悦）的定义相符，即当前正向愉悦、满足或兴奋的状态。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "happy",
+  "emotion_analysis": "目标人物在所有帧中均面带笑容，嘴角上扬，眼睛眯起，这是喜悦情绪的直接视觉证据。她手持文件并挥动，配合其话语内容“我可看好你呀”和“怎么样？收获大大的吧”，表现出积极、鼓励和支持的态度。音频中其语调轻快上扬，且能听到清晰的笑声，与视觉表现和字幕内容完全一致，共同指向一种正向愉悦的情绪状态。三位专家的证据均一致支持该判断，且无任何反证。",
+  "output": "目标人物在所有帧中均面带笑容，嘴角上扬，眼睛眯起，这是喜悦情绪的直接视觉证据。她手持文件并挥动，配合其话语内容“我可看好你呀”和“怎么样？收获大大的吧”，表现出积极、鼓励和支持的态度。音频中其语调轻快上扬，且能听到清晰的笑声，与视觉表现和字幕内容完全一致，共同指向一种正向愉悦的情绪状态。三位专家的证据均一致支持该判断，且无任何反证。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 177.29714918136597
+}

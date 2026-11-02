@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物说“I’m so sorry!”，是在为眼前的状况道歉，而不是单纯陈述自己悲伤；“so”加强了歉意[E1]。画面中前景人物低身、匆忙移动，与局促的道歉情境相容，但面部不清，不能据此确认更具体的情绪[E2]。综合判断，当前表达最接近愧疚。",
+  "open_emotion": "愧疚",
+  "answer": "sadness",
+  "mapping_reason": "愧疚不是sadness的同义词；在允许标签中，这句针对已发生状况的歉意更接近因自身行为而难过的sadness，而非指责性的anger或面向威胁的fear。这是近似映射。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "I’m so sorry!",
+      "observation": "目标人物使用带有“so”的道歉句。",
+      "interpretation": "支持当前有较明确的歉意，但句中的“sorry”不能脱离道歉语用直接当作悲伤自述。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_03（1.001秒）",
+      "observation": "前景有人低身、匆忙移动，面部表情难以看清。",
+      "interpretation": "动作与局促情境相容；视觉不足以独立判定目标人物的情绪。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "最强替代解释是礼貌或仓促的例行道歉，未必真有愧疚。片段没有音频，无法核验语调、音量或停顿；目标人物面部也不清楚，因此判断主要依赖这句字幕的言语行为。"
+}

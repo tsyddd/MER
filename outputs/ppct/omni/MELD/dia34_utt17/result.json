@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia34_utt17",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "The target speaker, Monica, is speaking with an open mouth, and her words express a strong moral disapproval. The audio and visual evidence confirm her direct and emphatic delivery of the line, indicating a clear emotional state.",
+  "output": "The target speaker, Monica, is speaking with an open mouth, and her words express a strong moral disapproval. The audio and visual evidence confirm her direct and emphatic delivery of the line, indicating a clear emotional state.\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 420.2255344390869,
+  "node_count": 34,
+  "edge_count": 29
+}

@@ -1,0 +1,8 @@
+{
+  "reason": "回看原始画面与音轨，Rachel在frame_00即呈现极为标准的突发惊讶神态：双眼睁大、嘴唇张成明显的圆形[image:E1]；音频中起手以极高音调和吸气感大声惊呼“Oh my God!”[audio_subtitle:E1]，随后以强调重音道出“You’re a 30 year old virgin!”，多模态线索高度一致且互补。虽然随后带有八卦探询或调侃的互动色彩，但其核心驱动完全来自于面对打破常理预期的私密事实时的巨大心理冲击，符合情绪轮中surprise（震惊/诧异）的定义。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E1"
+  ]
+}

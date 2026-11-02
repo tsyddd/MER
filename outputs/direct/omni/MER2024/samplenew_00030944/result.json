@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00030944",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "说话人语气关切，内容表达了对他人安全的担忧，如“不放心”、“万一要想不开怎么办呢”，符合担忧的情绪特征。",
+  "output": "说话人语气关切，内容表达了对他人安全的担忧，如“不放心”、“万一要想不开怎么办呢”，符合担忧的情绪特征。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 4.108759880065918,
+  "node_count": null,
+  "edge_count": null
+}

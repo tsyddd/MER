@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00025713",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "6276692c6cfc354003e575f92e375614a390c427cbb800fa58633127fa42f7c5",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "白衣少年在听到对方言语后，双眼明显睁大且嘴巴逐渐张开呈微圆形[image:E2]，视觉表现出典型的惊愕特征。语音与字幕中“你、你、你怎么知道的”呈现明显的结巴中断与不可置信的质问反问[audio_subtitle:E2]，体现秘密突遭道破的认知错愕。三位专家对意外惊愕的判断相互印证，缺乏担忧愁容，故判定为surprise最为准确。",
+  "output": "白衣少年在听到对方言语后，双眼明显睁大且嘴巴逐渐张开呈微圆形[image:E2]，视觉表现出典型的惊愕特征。语音与字幕中“你、你、你怎么知道的”呈现明显的结巴中断与不可置信的质问反问[audio_subtitle:E2]，体现秘密突遭道破的认知错愕。三位专家对意外惊愕的判断相互印证，缺乏担忧愁容，故判定为surprise最为准确。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 60.25670647621155
+}

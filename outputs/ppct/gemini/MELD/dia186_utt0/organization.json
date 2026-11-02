@@ -1,0 +1,3 @@
+{
+  "text": "在室内沙发旁的场景中，Chandler与Ross并排坐在橙色沙发上，右侧站着一名手持黑色镶钻皮包的女性〔context_0〕。起初，Chandler张开嘴，右手抬起在身前摆动〔person_0〕，开口说道“Ah, no-no-no just”〔process_0〕；随后他将右手向内收回屈于胸前上方〔person_1 after person_0〕〔person_0 person_joint person_1〕，紧接着说出“Ross”〔process_1 after process_0〕〔process_0 process_joint process_1〕以指明对象；紧接着，Chandler眼神向右上方斜视，嘴唇随说话动作变化〔person_2 after person_1〕〔person_1 person_joint person_2〕，接着说出“Ross and Joey is embarrassing enough.”〔process_2 after process_1〕〔process_1 process_joint process_2〕进行调侃与补充说明。这些表现可能反映出Chandler急于纠正或撇清关系，并试图以讽刺调侃的方式化解当下让人尴尬的社交情境。"
+}

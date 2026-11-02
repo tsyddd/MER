@@ -1,0 +1,153 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "男子说“前两天他跟汪淼一起”",
+      "time_index": 1,
+      "evidence_sources": [
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "男子说“观测了宇宙闪烁”",
+      "time_index": 2,
+      "evidence_sources": [
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "男子说“我去查”",
+      "time_index": 3,
+      "evidence_sources": [
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "男子坐在电脑屏幕前，目光看着前方",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "男子抬起右手食指向前指向电脑屏幕方向",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "男子放下右手",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "男子语调平稳、果断",
+      "time_index": 3,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内办公室环境，男子面前有一台联想电脑显示器，背后有百叶窗和陈列雕塑展柜",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "男子在说完“前两天他跟汪淼一起”后接着说出“观测了宇宙闪烁”",
+      "entity_anchor": "男子的言语表达"
+    },
+    {
+      "source": "process_2",
+      "target": "process_1",
+      "relation": "after",
+      "reason": "男子在说完“观测了宇宙闪烁”后接着说出“我去查”",
+      "entity_anchor": "男子的言语表达"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "男子在静坐平视前方之后抬起右手食指指向电脑屏幕方向",
+      "entity_anchor": "男子的肢体动作"
+    },
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "男子在抬手食指指点动作之后放下右手恢复坐姿",
+      "entity_anchor": "男子的肢体动作"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0陈述了时间与涉事人物，process_1补充了具体发生的事件内容，二者联合构成了男子陈述调查线索的完整语句与叙述过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_1",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "process_1明确了需要关注的异常事件，process_2提出了主动承担的后续行动，二者联合形成了从陈述线索到承接调查任务的完整沟通逻辑。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供了男子面朝前方面对电脑的体态与视线，person_1提供了抬手向前指点的局部手势，二者联合构成了其在屏幕前指认对象的完整肢体动作。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1展现了抬手向前指出的动作，person_2展现了随后收回放下的过程，二者联合构成了手势由抬起到落下的完整动态过程。",
+      "entity_anchor": null
+    }
+  ]
+}

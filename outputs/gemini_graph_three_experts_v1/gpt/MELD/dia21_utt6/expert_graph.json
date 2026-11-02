@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "Phoebe在与男子近距离交谈时注视对方并将右手搭在其胸前，同时主动发问〔person_0〕〔process_0〕。图谱记载她说话语调轻松并带有轻笑声〔person_1〕，显示其当前表现偏愉快、轻松。",
+  "answer": "joy",
+  "evidence_refs": [
+    "person_0",
+    "process_0",
+    "person_1"
+  ]
+}

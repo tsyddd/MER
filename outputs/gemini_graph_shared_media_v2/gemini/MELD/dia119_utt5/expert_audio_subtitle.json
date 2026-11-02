@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Monica以平稳、自然的说明性语调陈述事实与原因[E1]，语速匀称且音量适中；面部表情放松自如[E2]，语义虽包含限制性要求但没有愤怒爆发或恐惧颤抖，整体表现为平稳中性的日常陈述。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "0:00-0:02",
+      "observation": "Monica说“Ben's coming over tonight and he can't see this”时语调自然平稳，重音正常落在关键词上，没有高亢尖锐的怒气，也没有惊慌发抖的颤音。",
+      "interpretation": "韵律呈现典型的说明与商榷性陈述特征，体现出冷静、务实的沟通意图，支持中性情绪状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.667s",
+      "observation": "Monica侧身看向同伴，眉头舒展，嘴角平缓微动，没有紧绷皱眉或惊恐张大的面部动作。",
+      "interpretation": "面部神情平和，与平稳的日常话语声调高度一致，排除明显的激愤或恐惧。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词表达“不能让他看到”可能被误解为对不良影响的焦虑（fear）或责备（anger），但其发音从容果断、毫无惊惶或敌意，故不采纳负面情绪标签。"
+}

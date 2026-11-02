@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "图谱中节点person_0描述了Rachel转头、大张嘴、语调拔高带惊叹感，这与音频中她说出“Oh my God!”时的高亢、惊讶的语调完全吻合，直接支持了惊讶情绪。同时，节点person_1和person_2描述了她身体前倾、手势比划、紧盯对方等动作，这些是她对Monica的惊人言论进行强调和追问的典型行为，与惊讶情绪一致。整个事件链从惊呼到点明秘密，其核心是Rachel对Monica状况的震惊，因此惊讶是主导情绪。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "Rachel转头看向Monica，嘴巴大张，语调拔高带惊叹感",
+      "interpretation": "该节点直接描述了Rachel在说出“Oh my God!”时的面部表情和语调，这是惊讶情绪最直接的视听证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:00.500",
+      "observation": "音频中Rachel说出“Oh my God!”，语调高亢，带有明显的惊叹感",
+      "interpretation": "音频内容证实了图谱中对语调的描述，是惊讶情绪的关键听觉证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "Rachel身子微微前倾贴近Monica，右手抬起并在身前摆动比划",
+      "interpretation": "该节点描述了Rachel在说出“You’re a 30 year old virgin!”时的身体语言，这种强调和追问的姿态是惊讶情绪的典型外在表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "subtitle",
+      "anchor": "Oh my God! You're a 30 year old virgin!",
+      "observation": "字幕显示Rachel说出了“Oh my God! You're a 30 year old virgin!”",
+      "interpretation": "字幕内容与音频一致，证实了Rachel正在对Monica说出一个让她感到震惊的言论，为惊讶情绪提供了语义基础。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无明确的反证。虽然Rachel的语气中可能带有一丝调侃，但其核心表达的是对一个30岁女性仍是处女这一事实的震惊，因此惊讶是主导情绪。"
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物面对“是吗？他真这么说的”的追问，表现出对信息的核实与意外反应；字幕是疑问和转述，不等同于愤怒或悲伤。由于audio_provided=false，无法判断语调、音量或节奏。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "当前字幕“是吗？他真这么说的”",
+      "observation": "话语以“是吗？”开头，并追问对方是否确实这样说。",
+      "interpretation": "这是对听到信息的惊讶性核实，支持surprise，但不能仅凭疑问句确定强烈情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00至frame_01 @ 0.0至0.32秒",
+      "observation": "目标人物正面对说话者，嘴唇抿紧、目光集中，面部较为收束。",
+      "interpretation": "显示她在认真确认信息，和意外、难以置信的反应相符；没有明显愤怒或悲伤线索。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_07 @ 2.12秒",
+      "observation": "目标人物转向一侧，眼睛闭合，嘴巴张开，似乎开始回应。",
+      "interpretation": "说明她对前述信息作出即时反应，但单凭这一帧无法区分惊讶与一般辩解。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "最强替代解释是neutral：目标人物也可能只是平静地核实传闻。当前没有音频可检验语调，且字幕中的疑问本身不能单独证明情绪；但连续画面中的凝视、抿唇和即时回应使surprise比纯neutral更有支持。"
+}

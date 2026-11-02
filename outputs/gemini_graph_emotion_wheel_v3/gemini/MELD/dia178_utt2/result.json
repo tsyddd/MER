@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia178_utt2",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "3401018186bc11e65dff479d6b5d94730c37d902accf3de7809420f24e09c974",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "欣喜",
+      "mapped_label": "joy",
+      "mapping_reason": "目标人物因看到温馨场景而感到满意、开朗与喜爱，符合joy家族中关于当前开心、愉悦与满足的正向体验定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "欣喜",
+      "mapped_label": "joy",
+      "mapping_reason": "莫妮卡展现出对眼前温馨温馨景象的喜爱、愉悦与满足感，言语和语调均表达正向积极体验，在情绪轮中明确对应正向高愉悦度的joy家族。"
+    },
+    "image": {
+      "open_emotion": "欣喜",
+      "mapped_label": "joy",
+      "mapping_reason": "Monica对怀抱婴儿表现出明显的喜爱与开朗微笑，符合joy中当前开心、愉悦与满足的正向体验定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "目标人物Monica怀抱婴儿，在后半段[image:E1]（frame_04至frame_07）中眉眼舒展，嘴角持续上扬并露出自然开朗的微笑，表现出清晰的温柔与喜爱。在实际音轨中，如[audio_subtitle:E2]所述，她在说出“Pheebs, it’s going great...”时语调轻快上扬且夹杂明显笑意，言语语义与听觉韵律高度协同。虽然开头“Nope, sound like me”相对平缓，但整体跨模态线索均明确传达出当前沉浸于温馨场景的愉悦与满足，排除了平淡中性的可能，归入joy家族。",
+  "output": "目标人物Monica怀抱婴儿，在后半段[image:E1]（frame_04至frame_07）中眉眼舒展，嘴角持续上扬并露出自然开朗的微笑，表现出清晰的温柔与喜爱。在实际音轨中，如[audio_subtitle:E2]所述，她在说出“Pheebs, it’s going great...”时语调轻快上扬且夹杂明显笑意，言语语义与听觉韵律高度协同。虽然开头“Nope, sound like me”相对平缓，但整体跨模态线索均明确传达出当前沉浸于温馨场景的愉悦与满足，排除了平淡中性的可能，归入joy家族。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 48.91615390777588
+}

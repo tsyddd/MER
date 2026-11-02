@@ -1,0 +1,247 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "画面中的女性询问“小毛驴长得什么样子”。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "画面中的女性说自己也没有见过小毛驴。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "画面中的女性询问同学们是否有人知道小毛驴的样子。",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_3",
+      "type": "process",
+      "content": "一名男学生回应“我知道”。",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "画面中的女性面向前方，保持坐姿或站姿上身直立。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "画面中的女性说话时嘴部开合。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "画面中的女性头部向一侧倾斜。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "画面中的女性恢复面向前方，继续嘴部开合。",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_4",
+      "type": "person",
+      "content": "一名男学生张嘴说话。",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "场景位于教室内，可见窗户、黑板和多名学生。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "字幕中出现对女性的称呼“老师”，并出现对在场学生的称呼“同学们”。",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_2",
+      "type": "context",
+      "content": "交流内容围绕小毛驴的外形展开。",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_3",
+      "target": "process_2",
+      "relation": "after",
+      "reason": "男学生对女性刚提出的询问作出回应，回应发生在该课堂互动提问之后",
+      "entity_anchor": "同一课堂互动（女性询问与男学生回应）"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提供女性询问小毛驴外形的信息，process_1补充她本人也未见过小毛驴；联合后形成“提出问题并说明自身未知”的完整问答过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_0",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "process_0提供最初询问小毛驴外形的行为，process_2补充女性转而向全班征询答案；联合后呈现从提出问题到扩大询问对象的互动推进。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_0",
+      "target": "process_3",
+      "relation": "process_joint",
+      "reason": "process_0提供教师提出关于小毛驴外形的问题，process_3提供男学生作出“我知道”的回应；联合后形成较完整的师生问答过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_1",
+      "target": "process_2",
+      "relation": "process_joint",
+      "reason": "process_1提供教师说明自己没有见过小毛驴的信息，process_2补充她因此向同学们询问；联合后明确呈现由自身未知转向寻求学生信息的过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_1",
+      "target": "process_3",
+      "relation": "process_joint",
+      "reason": "process_1提供教师不了解小毛驴外形的信息，process_3提供学生表示知道的回应；联合后增加了师生之间关于该问题的知识互补信息。",
+      "entity_anchor": null
+    },
+    {
+      "source": "process_2",
+      "target": "process_3",
+      "relation": "process_joint",
+      "reason": "process_2提供教师向同学们询问小毛驴外形的行为，process_3提供男学生回答“我知道”；联合后形成直接的课堂提问与学生回应过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供女性面向前方并保持上身直立的姿态，person_1提供其嘴部开合的说话表现；联合后补充出女性以直立姿态进行发言的可观察信息。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_0提供女性上身直立的整体姿态，person_2补充其头部向一侧倾斜的局部姿态；联合后更完整限定了她当时的身体姿势。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_0提供女性面向前方、上身直立的姿态，person_3补充她恢复正面朝向并继续嘴部开合；联合后呈现其正面直立发言的可观察状态。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1提供女性嘴部开合的说话表现，person_2补充她说话时头部向一侧倾斜；联合后增加了发言时头部姿态与口部动作的组合信息。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_2",
+      "target": "person_3",
+      "relation": "person_joint",
+      "reason": "person_2提供女性头部向一侧倾斜的姿态，person_3补充她随后恢复正面并继续嘴部开合；联合后呈现头部姿态变化及持续发言的过程信息。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0提供教室、窗户、黑板和多名学生的客观场景，context_1补充字幕明确的教师与同学称呼；联合后更完整限定为教师面向学生进行交流的课堂场景。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_2",
+      "relation": "context_joint",
+      "reason": "context_0提供教室及学生在场的空间情境，context_2补充交流围绕小毛驴外形展开的任务内容；联合后明确限定了课堂中的具体讨论对象。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_1",
+      "target": "context_2",
+      "relation": "context_joint",
+      "reason": "context_1提供教师与同学们之间的角色关系，context_2补充双方交流的具体主题为小毛驴外形；联合后更完整限定了参与者关系及课堂讨论任务。",
+      "entity_anchor": null
+    }
+  ]
+}

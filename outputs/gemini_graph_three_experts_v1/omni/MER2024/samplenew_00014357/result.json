@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00014357",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "1c1a5d8dd0e2d03d755669d8aca384a001216ff52b560b1e66824436e87c8a0f",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "happy",
+  "emotion_analysis": "三份专家报告均一致指出目标人物面带笑容、语调轻快上扬、表现出积极情绪，且无任何负面情绪迹象，所有证据高度一致指向同一情绪状态。",
+  "output": "三份专家报告均一致指出目标人物面带笑容、语调轻快上扬、表现出积极情绪，且无任何负面情绪迹象，所有证据高度一致指向同一情绪状态。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 22.808330297470093
+}

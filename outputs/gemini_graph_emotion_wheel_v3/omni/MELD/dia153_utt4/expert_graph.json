@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "Joey的言语内容是提出一个假设性问题（\"You have a fear of heights\"）并紧接着给出一个建议性的结论（\"you go to the top of the building!\"）。他的肢体语言从摊手变为用食指明确指点，这一动作与话语内容同步，意在强调其论证的逻辑推进。他的声音平稳，没有表现出恐惧、愤怒或悲伤等情绪的迹象。因此，他的主导情绪是平静地阐述一个观点或进行逻辑推理。",
+  "open_emotion": "逻辑性",
+  "answer": "neutral",
+  "mapping_reason": "根据MELD项目的情绪轮，'neutral'（中性）被定义为当前平稳、日常且没有明确主导情绪的表达。Joey的言语和肢体动作共同指向一个平静的、非情绪化的逻辑陈述过程，没有表现出任何强烈的正向或负向情绪，因此最符合'neutral'的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "Joey面向前方说话：\"You have a fear of heights\"",
+      "interpretation": "Joey正在提出一个假设性的前提，这是逻辑论证的开端。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "Joey继续说话：\"you go to the top of the building!\"",
+      "interpretation": "Joey紧接着给出了一个结论或建议，完成了逻辑论证的推进。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "Joey抬起右手食指向前侧指点，头部微动并持续注视前方",
+      "interpretation": "这个明确的指向性手势与话语内容同步，意在强调其论证的逻辑性和结论的指向性，而非表达个人情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "Joey的言语内容（'fear of heights'）本身是关于恐惧的，但这只是他论证中的一个假设前提，并非他本人正在体验的情绪。他的语气和肢体语言并未表现出恐惧。"
+}

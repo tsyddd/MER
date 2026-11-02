@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Joey在行走中简短地问出'What?'，音轨中该发音音量中等偏低，语调平缓微升，属于典型的日常、随口回应式疑问，没有任何愤怒的重音、震惊的高音或恐惧的颤音；结合画面其步态与肢体姿势十分放松，整体处于没有主导情绪波动的日常状态。",
+  "open_emotion": "平常",
+  "answer": "neutral",
+  "mapping_reason": "Joey当前的言语和韵律仅表现出平淡、日常的口语反问，缺乏强烈的正负向情感唤起，符合neutral（平稳、日常且没有明确主导情绪的表达）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "What?",
+      "observation": "Joey说出单字疑问句'What?'。",
+      "interpretation": "单纯的发起或澄清话轮，语义本身不携带明显的情感偏向。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.00-0.45",
+      "observation": "发音短促平稳，音调自然微扬，音量适中，无突兀的音高冲顶或发力重音。",
+      "interpretation": "排除了惊讶（surprise）的高尖声调或愤怒（anger）的对抗性重音，体现为自然的日常交谈语调。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00至frame_04",
+      "observation": "Joey边走路边随意转头说话，面部肌肉放松，没有挑眉、瞪眼或皱眉紧绷。",
+      "interpretation": "视觉体态与平缓的语音一致，进一步确认处于低唤醒的日常状态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "由于台词仅有单字'What?'且带有疑问语调，容易被误判为意外惊讶（surprise），但因缺乏音高突变、高能量叹气或面部惊诧动作，证据不足以支持surprise。"
+}

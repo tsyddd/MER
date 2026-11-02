@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "目标人物在对话中眉心紧锁、眼神锐利逼视，说话时嘴角向下拉紧并咬牙发力[E1]，结合质问性的台词[E2]，整体呈现出压抑且具有攻击性的愤慨神态，支持判断为angry。",
+  "answer": "angry",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.56",
+      "observation": "白衣男子眉头微蹙，双眼直视对方，双唇紧绷张开微露齿缝，颈部及面部肌肉有明显发力感",
+      "interpretation": "咬牙切齿般的咬字动作与凝视具有明显的压迫与不满色彩，支持愤怒表现",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "难道都要悉数倒戈？不成？",
+      "observation": "台词采用反问与问责语气",
+      "interpretation": "表明其在面对背叛局面时产生问责与愤慨，增强了面部愤怒表现的解释力",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "面部神情未出现极其激烈的暴怒吼叫，易被误判为担忧（worried）或克制中性（neutral）；但他眼神极具压迫感且没有担忧所特有的内眉角上抬或惶惑退缩，故排除担忧。"
+}

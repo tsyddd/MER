@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00021868",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "sad",
+  "emotion_analysis": "画面中目标人物神情低沉，眉眼下垂，目光偏向下方，整体显得沉重而克制。字幕提到对往事并表示“不知道”，带有回忆和失落感，但没有明显愤怒或惊讶表现。",
+  "output": "画面中目标人物神情低沉，眉眼下垂，目光偏向下方，整体显得沉重而克制。字幕提到对往事并表示“不知道”，带有回忆和失落感，但没有明显愤怒或惊讶表现。\n<answer>sad</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 21.638151168823242,
+  "node_count": null,
+  "edge_count": null
+}

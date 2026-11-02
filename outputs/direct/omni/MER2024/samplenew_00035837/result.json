@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035837",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sad",
+  "emotion_analysis": "人物低头，表情凝重，眼神低垂，结合台词“再也没有亲人了”，表现出深切的悲伤情绪。",
+  "output": "人物低头，表情凝重，眼神低垂，结合台词“再也没有亲人了”，表现出深切的悲伤情绪。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 3.4550211429595947,
+  "node_count": null,
+  "edge_count": null
+}

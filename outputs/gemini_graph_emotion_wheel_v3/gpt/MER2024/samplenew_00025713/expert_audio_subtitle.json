@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物问“你。你。怎么知道的？”，是在追问对方如何得知某事；重复“你”与画面中睁大眼、张口的反应相互印证，更像听到意外信息后的诧异，而非平常询问。[E1][E2] 没有音频，不能判断实际语调或停顿。",
+  "open_emotion": "诧异",
+  "answer": "surprise",
+  "mapping_reason": "当前反应的重点是对方竟然知道此事所带来的意外，符合surprise的预期违背；问句本身不足以定类，判断还结合了表情。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“你。你。怎么知道的？”",
+      "observation": "目标人物重复称呼对方，随后追问对方如何知道。",
+      "interpretation": "话语指向对新获知的信息感到意外，而不是责备或否定对方。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_06（2.12秒）至frame_07（2.48秒）",
+      "observation": "白衣少年看向一侧，眼睛睁大、嘴张开。",
+      "interpretation": "即时表情与诧异的追问一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "也可能是担心对方知道某个秘密，但现有字幕没有交代他预期的负面后果；无音频可核实其语气，因此不能仅凭重复字词断定焦虑。"
+}

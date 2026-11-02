@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia186_utt0",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "disgust",
+  "emotion_analysis": "Chandler's words, 'Ah, no-no-no just Ross. Ross and Joey is embarrassing enough,' combined with his facial expression of looking up and to his right with a slightly open mouth, indicate a sense of awkwardness or mild discomfort. The visual evidence of him holding an object while being touched by another person, along with Ross's surprised reaction, supports the context of an embarrassing situation.",
+  "output": "Chandler's words, 'Ah, no-no-no just Ross. Ross and Joey is embarrassing enough,' combined with his facial expression of looking up and to his right with a slightly open mouth, indicate a sense of awkwardness or mild discomfort. The visual evidence of him holding an object while being touched by another person, along with Ross's surprised reaction, supports the context of an embarrassing situation.\n<answer>disgust</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 374.7054982185364,
+  "node_count": 9,
+  "edge_count": 4
+}

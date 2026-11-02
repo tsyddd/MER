@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "Gunther的提问行为是当前互动的核心。图谱节点person_1描述了他面朝右侧注视Chandler并张口发问，语调带有轻微疑问。这与字幕'Someone in there?'和音频中的疑问语气完全一致。他的表情是中性的，没有表现出愤怒、悲伤或厌恶等情绪的迹象。因此，他的情绪是中性的，即当前平稳、日常且没有明确主导情绪的表达。",
+  "open_emotion": "中性",
+  "answer": "neutral",
+  "mapping_reason": "根据MELD项目的情绪轮定义，'neutral'表示当前平稳、日常且没有明确主导情绪的表达。Gunther的提问是日常的、中性的互动，他的面部表情和语调均未表现出任何强烈的正向或负向情绪，因此最符合'neutral'的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "Gunther面朝右侧注视着Chandler并张口发问，语调带有轻微疑问。",
+      "interpretation": "该节点描述了Gunther提问时的动态和语调，表明这是一个日常的、中性的询问行为，而非表达强烈情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Someone in there?",
+      "observation": "字幕显示Gunther说'Someone in there?'。",
+      "interpretation": "该字幕内容是一个简单的、日常的询问，不带有明显的情绪色彩，支持中性情绪的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "Gunther的面部表情平静，没有明显的皱眉、咧嘴等情绪化特征。",
+      "interpretation": "视觉上，Gunther的表情是中性的，没有为任何特定情绪提供证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "音频中Gunther的语调带有轻微疑问，这可能被解释为一种轻微的惊讶。然而，这种惊讶是针对一个简单问题的正常反应，其强度和语义指向都远不足以构成一个主导的惊讶情绪，因此不构成对中性情绪的反驳。"
+}

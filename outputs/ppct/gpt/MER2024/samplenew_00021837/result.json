@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00021837",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "当前人物是桌前发言的男子，名牌显示为“梅晓歌”，并且面向前方、嘴部开合，结合麦克风可确认他正在持续陈述。字幕“我印象最深的一户人家，祖祖辈辈种地”由process_0与process_1连续衔接，属于对一户人家的回忆性介绍；画面中表情克制、姿态稳定，未见明显开心、悲伤、愤怒、担忧或惊讶迹象，因此判为中性。",
+  "output": "当前人物是桌前发言的男子，名牌显示为“梅晓歌”，并且面向前方、嘴部开合，结合麦克风可确认他正在持续陈述。字幕“我印象最深的一户人家，祖祖辈辈种地”由process_0与process_1连续衔接，属于对一户人家的回忆性介绍；画面中表情克制、姿态稳定，未见明显开心、悲伤、愤怒、担忧或惊讶迹象，因此判为中性。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 44.39704632759094,
+  "node_count": 7,
+  "edge_count": 4
+}

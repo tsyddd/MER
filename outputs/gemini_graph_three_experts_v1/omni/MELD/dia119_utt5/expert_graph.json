@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "Monica在组织文本中表现出言语平稳连续（person_1），且其动作从向男子说明情况过渡到直接关注街机（person_2, person_3），整体行为连贯，无明显情绪波动迹象。图谱记载其语调平稳，未体现激动、悲伤或厌恶等情绪特征。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_1",
+    "person_2",
+    "person_3"
+  ]
+}

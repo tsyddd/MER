@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标人物为车外的中年男性，而非车内女性。各帧中他俯身靠近车窗、持续注视车内，眉间略有收紧，嘴部处于说话状态，整体表情严肃而克制；结合字幕“你先上，我的车，先回去”，更支持对车内人的担忧或催促，而非明显愤怒。由于无音频，无法据语调进一步区分担忧与平静叮嘱。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07 @ 0.0–2.12秒",
+      "observation": "车外男性持续俯身扶在车窗边，身体向车内靠近并看向车内人物。",
+      "interpretation": "靠近和持续关注显示他在当前互动中投入注意，支持关切或担忧的解释。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01至frame_07 @ 0.32–2.12秒",
+      "observation": "男性眉间轻微收紧，嘴部多帧张开或变化，面部没有笑容，姿态保持严肃。",
+      "interpretation": "收紧的眉部与严肃、克制的面部状态更符合担忧或认真劝说；但这些特征本身不能单独确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "当前字幕",
+      "observation": "字幕为“你先上，我的车，先回去。”",
+      "interpretation": "内容是让对方先上自己的车回去，具有照应和安排意味，与担忧或保护性催促相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_07 @ 2.12秒",
+      "observation": "末帧男性仍保持平稳站姿和较克制的表情，没有明显张口怒斥、强烈瞪视或激烈手势。",
+      "interpretation": "对明显愤怒或惊讶构成反证，也表明该情绪更可能是低强度、克制的担忧。",
+      "polarity": "counter"
+    }
+  ],
+  "counterevidence": "最强的相反解释是neutral：男性表情变化幅度小，姿态也较稳定，字幕可能只是平静地交代安排。但眉间收紧、向车内持续靠近注视，以及让对方先回去的字幕内容，使worried比neutral更有视觉和跨模态支持；无音频仍无法核实语气是否只是平静叮嘱。"
+}

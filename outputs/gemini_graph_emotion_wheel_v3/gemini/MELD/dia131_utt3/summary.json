@@ -1,0 +1,9 @@
+{
+  "reason": "独立核听实际音轨并核对画面，Rachel在说出“Oh, everything went great.”时语调平缓流畅，尾音自然回落，并无明显的兴奋、笑腔或高亢起伏[audio_subtitle:E1]；画面中frame_05至frame_06她整理外套并向两侧摊手，面部肌肉放松且嘴角平直，无喜悦笑容[image:E1]。[graph:E2]所称的“尾音带明显笑意”与实际音画不符，字面的正面词汇仅为就事论事的日常交代，缺乏主导的正向激起，因此应判定为平稳中性。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "image:E1",
+    "graph:E2"
+  ]
+}

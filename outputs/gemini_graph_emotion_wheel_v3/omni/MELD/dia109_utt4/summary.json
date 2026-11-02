@@ -1,0 +1,17 @@
+{
+  "reason": "目标人物Janice的语调上扬，说出'Oh, are you sure?'，表现出对信息的怀疑和意外。她的面部表情从平静转为睁大眼睛、张开嘴巴，同时手势从抱臂变为摊开双手，这些视觉和语言线索共同指向惊讶情绪。三个专家的证据均一致支持此判断，其中[graph:E4]和[audio_subtitle:E2]分别从声学和视觉角度提供了关键佐证。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "graph:E1",
+    "graph:E2",
+    "graph:E3",
+    "graph:E4",
+    "audio_subtitle:E1",
+    "audio_subtitle:E2",
+    "audio_subtitle:E3",
+    "image:E1",
+    "image:E2",
+    "image:E3",
+    "image:E4"
+  ]
+}

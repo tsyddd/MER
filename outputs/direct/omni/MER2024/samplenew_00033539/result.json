@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00033539",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "音频中人物发出“啊？”的疑问声，随后说出“真的”，结合其睁大眼睛、眉毛上扬的面部表情，表现出对某事的意外和难以置信，符合惊讶情绪的特征。",
+  "output": "音频中人物发出“啊？”的疑问声，随后说出“真的”，结合其睁大眼睛、眉毛上扬的面部表情，表现出对某事的意外和难以置信，符合惊讶情绪的特征。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 6.048227548599243,
+  "node_count": null,
+  "edge_count": null
+}

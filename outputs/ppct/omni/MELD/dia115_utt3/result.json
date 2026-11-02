@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia115_utt3",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "Ross is speaking the line, 'Shielding your face and shrieking like a girl... is not a backhand.' His facial expression is neutral, and the context of the scene is a conversation between two characters, not a moment of high emotion. The line is delivered in a matter-of-fact tone, suggesting he is stating an opinion or correcting a misunderstanding rather than expressing a strong personal feeling.",
+  "output": "Ross is speaking the line, 'Shielding your face and shrieking like a girl... is not a backhand.' His facial expression is neutral, and the context of the scene is a conversation between two characters, not a moment of high emotion. The line is delivered in a matter-of-fact tone, suggesting he is stating an opinion or correcting a misunderstanding rather than expressing a strong personal feeling.\n<answer>neutral</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 152.79845333099365,
+  "node_count": 6,
+  "edge_count": 1
+}

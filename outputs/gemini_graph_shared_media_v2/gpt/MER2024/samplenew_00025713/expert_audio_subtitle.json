@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物说“你。你。怎么知道的？”，这是带有停顿和重复的疑问句，表达对对方知情的意外与追问，并非字面情绪词。[E1] 画面中其眉毛明显抬高、眼睛睁大，随后张口幅度增大，和突然得知信息后的惊讶相符。[E2] 由于audio_provided=false，无法判断实际语调、音量或节奏；判断主要依据字幕和视觉变化。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "当前字幕原话“你。你。怎么知道的？”",
+      "observation": "句首重复并以“怎么知道的？”构成直接疑问。",
+      "interpretation": "言语行为是对信息来源的意外追问，支持惊讶而非陈述性的中性表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02至frame_07 @ 0.72至2.48秒",
+      "observation": "目标人物眉毛抬高、眼睛睁大，嘴巴从微张逐渐张大。",
+      "interpretation": "这些面部变化与突然意识到对方知情时的惊讶反应一致。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01至frame_03 @ 0.36至1.08秒",
+      "observation": "眉头有一定收紧，面部也显得警觉。",
+      "interpretation": "可能包含担忧或防备，但相较于持续的悲伤、愤怒或明确威胁反应，画面主导特征仍是意外和震惊。",
+      "polarity": "counter"
+    }
+  ],
+  "counterevidence": "最强替代解释是worried：收紧的眉部和警觉的注视可能表示担心对方为何知道。然而字幕核心是对知情事实的疑问，且眼睛睁大、张口逐步扩大更直接支持surprise；缺少音频，无法用语调进一步区分惊讶与担忧。"
+}

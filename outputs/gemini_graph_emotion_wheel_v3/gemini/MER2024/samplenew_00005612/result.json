@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00005612",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "277d5c5900a033008ef8204e177794173a0a9d543a995a1fbb51814e27394ff0",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "庄重严肃",
+      "mapped_label": "neutral",
+      "mapping_reason": "在MER2024情绪轮中，庄重严肃、坚定沉稳的诉求传达表现出平稳克制的主导状态，未表现出愤怒、悲伤或焦虑等极端或对抗性主导情感，符合neutral（平稳叙述、自然交流、无过激负向或正向主导情绪）的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "庄重",
+      "mapped_label": "neutral",
+      "mapping_reason": "说话人虽然身处集会请愿现场，但当前语音平稳有力、举止郑重端正，属于克制而严肃的正规诉求交流，无过激偏向情绪，依据情绪轮归入neutral（平稳叙述、无极端主导情绪）。"
+    },
+    "image": {
+      "open_emotion": "庄重",
+      "mapped_label": "neutral",
+      "mapping_reason": "目标人物表现出庄重、严肃与平稳坚定的交流姿态，无攻击对抗（angry）、无明显恐惧顾虑（worried）或悲哀失落（sad），依据情绪轮规范归入平稳无明显情绪过载的 neutral 类别。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物在现场面向官员递交文书，神态沉稳严肃、目光坚毅，面部并无咬牙切齿或眉头深锁的对抗性神情，如[image:E1]所核验其面部受控且端正。独立核对音轨00:00-00:02，其清晰平稳地说出“请您转交给总理过目”，发音字正腔圆、铿锵有力而语调克制，如[audio_subtitle:E1]所述属于庄重恳切的正式请求，无攻击性嘶吼或焦虑颤音。尽管背景存在示威标语与人群，但目标个体双手端正平递文卷，举止符合郑重理性的正规诉求交流，排除了借用群体背景误判为angry的可能，依照情绪轮映射为平稳严肃的neutral。",
+  "output": "目标人物在现场面向官员递交文书，神态沉稳严肃、目光坚毅，面部并无咬牙切齿或眉头深锁的对抗性神情，如[image:E1]所核验其面部受控且端正。独立核对音轨00:00-00:02，其清晰平稳地说出“请您转交给总理过目”，发音字正腔圆、铿锵有力而语调克制，如[audio_subtitle:E1]所述属于庄重恳切的正式请求，无攻击性嘶吼或焦虑颤音。尽管背景存在示威标语与人群，但目标个体双手端正平递文卷，举止符合郑重理性的正规诉求交流，排除了借用群体背景误判为angry的可能，依照情绪轮映射为平稳严肃的neutral。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 51.280020236968994
+}

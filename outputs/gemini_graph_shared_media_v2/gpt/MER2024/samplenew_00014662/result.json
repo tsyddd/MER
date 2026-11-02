@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00014662",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "f797ce76093f00b080e0bcaf2c7690927a4e4391deedfdf8240b8fab343a4016",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "回看前7帧可见目标女性持续眉头收紧、眼神专注且嘴角无明显微笑，表现出稳定的紧张与关切；字幕原话“我主要是担心这事会牵连到您家老爷子”直接指向对潜在后果的忧虑，[audio_subtitle:E1]对此的字幕核对可信。视觉证据与语言内容相互印证，因此比“只是中性说明风险”更支持worried；[image:E1]对连续帧眉部紧张的描述也较为可靠。图谱中的相关节点只是对话内容的间接转述，不能作为亲自核验的音频证据，但其字幕归纳与上述直接可见、可读信息一致[graph:E1]。",
+  "output": "回看前7帧可见目标女性持续眉头收紧、眼神专注且嘴角无明显微笑，表现出稳定的紧张与关切；字幕原话“我主要是担心这事会牵连到您家老爷子”直接指向对潜在后果的忧虑，[audio_subtitle:E1]对此的字幕核对可信。视觉证据与语言内容相互印证，因此比“只是中性说明风险”更支持worried；[image:E1]对连续帧眉部紧张的描述也较为可靠。图谱中的相关节点只是对话内容的间接转述，不能作为亲自核验的音频证据，但其字幕归纳与上述直接可见、可读信息一致[graph:E1]。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 184.49430012702942
+}

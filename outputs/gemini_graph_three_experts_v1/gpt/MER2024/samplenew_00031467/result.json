@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00031467",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "ce0718d332667e1a8f68aff97e3bf70bb490b84c29c19b6a35c15f5d91354a74",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "图谱与字幕均指向平静、中性表达，但音频专家明确未提供实际音频，因此不能据此判断听觉情绪。图片仅显示轻微紧张和关注，缺乏明确的担忧表情；综合证据后取中性。",
+  "output": "图谱与字幕均指向平静、中性表达，但音频专家明确未提供实际音频，因此不能据此判断听觉情绪。图片仅显示轻微紧张和关注，缺乏明确的担忧表情；综合证据后取中性。\n<answer>neutral</answer>",
+  "label": "happy",
+  "elapsed_seconds": 79.98772168159485
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Chandler在台词中使用否定词打断并给出讽刺调侃（[E1]），虽然含有'embarrassing'一词，但在言语行为上属于典型的冷幽默调侃而非宣泄真实反感；音频中语调从开头的连声否定平稳过渡到尾句的平缓降调（[E2]），整体音量与声学能量适中，表情配合为克制的戏谑微表情（[E3]），符合低唤醒度的讽刺叙述，判定为neutral。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Ah, no-no-no just Ross. Ross and Joey is embarrassing enough.",
+      "observation": "说话者先急促否定对方提议，接着以调侃的口吻将同伴行为评价为'embarrassing enough'",
+      "interpretation": "词汇'embarrassing'在此处是幽默嘲讽的包袱，而非说话者本人产生强烈的负向羞耻或厌恶，言语行为为反讽与界限设定",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00 - 00:03",
+      "observation": "前段'no-no-no'语速稍快但音量平稳，后半句语速放缓、句尾落调自然，无笑声逸出亦无紧绷破音",
+      "interpretation": "声学表现缺乏joy的共鸣笑意与anger/disgust的刺耳重音或咬字，维持在受控的对话性叙述状态",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.79s",
+      "observation": "摆手示意拒绝后，嘴角微撇呈抿嘴调侃状，目光转向侧方，未显露开怀露齿笑或皱眉嫌恶",
+      "interpretation": "视觉呈现与听觉的冷幽默、就事论事的态度一致，不支持显性正负向情绪爆发",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是joy（出于戏弄朋友的取乐幽默）或disgust（因词义与摆手动作引申为嫌弃）。但音轨中无明显伴随笑意或笑颤，视觉上也未见明显的嫌恶皱鼻或开怀大笑，仅为干练讽刺的言语交互，故未采纳。"
+}

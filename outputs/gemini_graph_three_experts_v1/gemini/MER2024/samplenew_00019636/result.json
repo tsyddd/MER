@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00019636",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "d1653847d3cf6cfc09cc8eb7628fbb69523753b496954bbdaa066c61ccdb6896",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "专家对于神态和动作的解读存在分歧：image专家将其蹙眉和手抚领口的动作判断为紧张和担忧，但audio_subtitle专家明确指出其语调平稳低沉、语速舒缓，整体以冷静客观的方式进行平铺直叙地回忆叙述。结合graph中对其沉静沉思且克制状态的记录，其举止更偏向专注回忆与沉思而非焦虑恐慌，故采信其中立客观的状态。",
+  "output": "专家对于神态和动作的解读存在分歧：image专家将其蹙眉和手抚领口的动作判断为紧张和担忧，但audio_subtitle专家明确指出其语调平稳低沉、语速舒缓，整体以冷静客观的方式进行平铺直叙地回忆叙述。结合graph中对其沉静沉思且克制状态的记录，其举止更偏向专注回忆与沉思而非焦虑恐慌，故采信其中立客观的状态。\n<answer>neutral</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 38.806771755218506
+}

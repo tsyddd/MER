@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035777",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "angry",
+  "emotion_analysis": "画面中的男子眉头紧锁、咬牙切齿且神情严厉，伴随激昂而带有斥责意味的怒吼声训导对方，整体呈现出强烈的愤怒情绪。",
+  "output": "画面中的男子眉头紧锁、咬牙切齿且神情严厉，伴随激昂而带有斥责意味的怒吼声训导对方，整体呈现出强烈的愤怒情绪。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 5.613028049468994,
+  "node_count": null,
+  "edge_count": null
+}

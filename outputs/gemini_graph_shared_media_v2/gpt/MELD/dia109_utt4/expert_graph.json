@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "Janice当前面向对座男士发问，而非转述别人的反应[E1][E2]。疑问句配合她抬眉、张口的表情，更支持轻微的惊讶；随后比划手势可见，但不能仅凭动作推断她为何惊讶[E3]。图谱另称她语调上扬，因未提供原音轨，只保留为未经亲耳核验的转述[E4]。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "图谱记载Janice看着对面的男士说话。",
+      "interpretation": "确定这是她与对座者的当前互动；节点本身不证明情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Oh, are you sure?",
+      "observation": "当前字幕是对确定性的追问，开头有“Oh”。",
+      "interpretation": "与意外获知某事后的惊讶反应相符，但单靠文字也可能只是普通确认。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.5004996114133452秒",
+      "observation": "Janice面向对座者，眉毛抬起、嘴张开。",
+      "interpretation": "表情使惊讶比纯粹例行确认更有依据；不把后续手势另算作同一表情的独立佐证。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱称Janice声音上扬、语调起伏。",
+      "interpretation": "这是音频派生节点的转述；没有原音轨，不能核验，也不作为最终取舍的主要依据。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "“Are you sure?”也可能是不带惊讶的普通求证；但当前可见的抬眉张口使轻微惊讶更贴合。缺少原音轨，无法进一步判断语气。"
+}

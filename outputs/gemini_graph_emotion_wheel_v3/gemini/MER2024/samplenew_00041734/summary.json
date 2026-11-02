@@ -1,0 +1,10 @@
+{
+  "reason": "独立回听音轨与观察画面可知，女性在听到对方辞职的消息后，以极高亢急促的语调连续追问并追加短促上扬的尾音“啊？啊？”[audio:E2]，配合frame_00至frame_03中眉头骤紧、双眼圆睁的错愕神态[image:E1][visual:E3]，核心驱动力是对违背常理决定的强烈难以置信与认知冲击。专家[audio_subtitle:E1]与image专家将其判定为worried，主要依赖“辞职影响生计未来”的潜在剧情常识假设；但依据适配规范，预期违背的即时意外明确偏向surprise，当前并无沉重焦虑或持续担心的低落线索，其主导情绪为即时震惊。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "audio:E2",
+    "image:E1",
+    "visual:E3",
+    "audio_subtitle:E1"
+  ]
+}

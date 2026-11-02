@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是frame_00至frame_06正面说话的白衣男子，不是frame_07正面的蓝衣女子。他始终盯着对方，说话时口部动作由张开转为较紧的发音形态，随后收紧嘴唇；结合质问式字幕，更像在表达不满，而非平稳询问[E1][E2][E3]。没有音频，不能据此判断语调。",
+  "open_emotion": "不满",
+  "answer": "angry",
+  "mapping_reason": "此处的不满指向可能的倒戈，并以质问方式表达，较符合angry类别中的责备、对抗倾向；画面不足以支持强烈愤怒。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.00秒）至frame_06（1.68秒）",
+      "observation": "白衣男子持续朝右侧对话者看去，身体朝向和视线没有明显移开。",
+      "interpretation": "持续面向对方说话，支持这是针对对方的表达；单凭凝视不能判定愤怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02（0.56秒）、frame_05（1.40秒）、frame_06（1.68秒）",
+      "observation": "他说话时一度露齿、嘴角绷紧，之后嘴唇收拢；眉部和目光保持较紧的状态。",
+      "interpretation": "连续变化比单一张口更支持语气严肃、带有不满的解读，但也可能只是发音动作。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "「难道都要悉数倒戈？不成？」",
+      "observation": "字幕以反问提及“倒戈”。",
+      "interpretation": "话语内容与责问式的不满相符；字幕不是可听见的语调证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的相反解释是担忧：字幕所问的倒戈也可能是尚未确定的风险，而画面没有清楚的指责手势或激烈表情。因此angry是基于现有质问内容和面部变化的倾向判断，而非确定的强烈怒气。"
+}

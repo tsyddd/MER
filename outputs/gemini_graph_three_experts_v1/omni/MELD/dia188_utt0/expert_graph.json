@@ -1,0 +1,9 @@
+{
+  "expert": "graph",
+  "reason": "Joey在发出“What?”后，迅速合上嘴并将视线和双臂垂下，表现出一种从发问到收敛的姿态变化，可能暗示了情绪的转变。该行为变化由视觉证据支持〔person_0, person_1〕。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "person_0",
+    "person_1"
+  ]
+}

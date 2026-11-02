@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物Monica在画面中双手紧扣于胸前、身体前倾，自始至终嘴角上扬保持着明显的笑容与眼部笑意。配合轻快调侃的话语节奏，可见其并非出于真正的敌意或愤怒，而是在调侃对方时表现出明显的愉悦与戏谑情绪。",
+  "open_emotion": "愉悦",
+  "answer": "joy",
+  "mapping_reason": "Monica表现出轻松、戏谑且开心的正向情绪反应，符合joy家族中关于愉悦、逗趣（amused）的正向体验定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_04至frame_07 (1.21s - 2.13s)",
+      "observation": "Monica面带笑意，嘴角两侧明显扬起，眼神聚焦前下方，神情生动并带有逗乐的微笑。",
+      "interpretation": "显示出她因对话情境而感到有趣、好笑，处于正向愉悦状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00至frame_07 (0.00s - 2.13s)",
+      "observation": "Monica十指交扣置于胸前，身体微微前倾，颈部与肩部放松无攻击性紧绷。",
+      "interpretation": "双手紧扣在胸前的前倾姿态展现出专注、兴奋且略带看热闹的戏谑心理，而非愤怒对抗。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00 - 00:02",
+      "observation": "念出'You are both idiots'时语调轻盈微扬，伴随明显的气声笑意。",
+      "interpretation": "听觉表现证实该言论属于朋友间的幽默调侃，排除了字面辱骂的愤怒属性。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词含有负面指责词汇'idiots'，仅依字面容易被误解为批评或生气（anger），但视觉笑脸和身体放松彻底反驳了负向攻击性。"
+}

@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "Chandler在与Joey的对话中，通过言语和手势描述了一个假设性情境（被枪指着），其语调平稳清晰，肢体动作（抬手、叉腰）也表现出一种解释和强调的姿态，而非表达恐惧或愤怒等强烈情绪。图谱中的节点[person_1]描述了其语调平稳清晰，这与当前表达的冷静、解释性的状态相符。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "Chandler语调平稳清晰地说明情况。",
+      "interpretation": "该节点描述了Chandler的语调特征，平稳清晰的语调支持其情绪为中性，而非表达恐惧或愤怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "Chandler抬起右手在身前平举向侧面摆动作手势。",
+      "interpretation": "该手势是为了解释和强调其描述的假设情境，是中性交流行为的一部分，不指向特定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "Chandler双手叉在腰间，面朝Joey开口说话。",
+      "interpretation": "该姿态表明他正在积极地与对方互动，是对话中的常见姿态，不带有特定情绪色彩。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "subtitle",
+      "anchor": "Yeah, Joe, I assure you if I'm staring down the barrel of a gun, I'm pretty much peeing every which way.",
+      "observation": "Chandler在陈述一个假设性情境。",
+      "interpretation": "他正在用一种冷静、解释性的口吻来描述一个假设性情境，这与中性情绪相符。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "图谱中没有提供任何与恐惧或愤怒相关的节点，因此无法形成有力的反证。"
+}

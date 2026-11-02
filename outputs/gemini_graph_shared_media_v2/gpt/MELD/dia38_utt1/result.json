@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia38_utt1",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "283890143b6bd15c34d0fcc959b56cb32cb859b30cd2d4facc4a2608311bfdd4",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "目标人物是画面左侧的Joey；字幕中他明确说学生获得试镜机会，自己“I'm so proud”，这是对自身感受的表达，[audio_subtitle:E1]可由字幕核实。画面中他先略微蹙眉、双手按胸，随后逐渐露出笑容，[image:E1][image:E2]所述变化与自豪带来的喜悦相符。蹙眉和按胸单独也可能表示感伤，但不足以推翻后续笑容与明确的正面措辞；未提供音轨，因此不依据语调判断。",
+  "output": "目标人物是画面左侧的Joey；字幕中他明确说学生获得试镜机会，自己“I'm so proud”，这是对自身感受的表达，[audio_subtitle:E1]可由字幕核实。画面中他先略微蹙眉、双手按胸，随后逐渐露出笑容，[image:E1][image:E2]所述变化与自豪带来的喜悦相符。蹙眉和按胸单独也可能表示感伤，但不足以推翻后续笑容与明确的正面措辞；未提供音轨，因此不依据语调判断。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 64.07201886177063
+}

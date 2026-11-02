@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia40_utt0",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "254c3294b62a3335eb4728ae3603d205e9201e73ba279aea4479f5c9c586672e",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "Monica的面部表情（露齿微笑、眼睛弯起）与语音语调（轻快上扬）在时间上同步，共同指向积极情绪。专家graph和image均引用了其视觉证据，audio_subtitle则补充了听觉和文本证据，三者一致支持joy。无任何反证，且视觉证据在所有帧中持续稳定。",
+  "output": "Monica的面部表情（露齿微笑、眼睛弯起）与语音语调（轻快上扬）在时间上同步，共同指向积极情绪。专家graph和image均引用了其视觉证据，audio_subtitle则补充了听觉和文本证据，三者一致支持joy。无任何反证，且视觉证据在所有帧中持续稳定。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 138.1319818496704
+}

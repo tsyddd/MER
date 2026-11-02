@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia239_utt2",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "Chandler当下说出“Jeez, man did you fall… did ya fall high?”并随后转身走向门口女性，说明他在即时反应和询问。画面中他转头注视女性、摊手示意，随后皱眉并将手放入口袋，呈现出对当前情境的疑惑和意外，而非明显的愤怒、悲伤或喜悦。依据process_0、process_1及person_0至person_3之间的先后关系，判断为轻度惊讶。",
+  "output": "Chandler当下说出“Jeez, man did you fall… did ya fall high?”并随后转身走向门口女性，说明他在即时反应和询问。画面中他转头注视女性、摊手示意，随后皱眉并将手放入口袋，呈现出对当前情境的疑惑和意外，而非明显的愤怒、悲伤或喜悦。依据process_0、process_1及person_0至person_3之间的先后关系，判断为轻度惊讶。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 89.18669581413269,
+  "node_count": 8,
+  "edge_count": 7
+}

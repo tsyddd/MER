@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035950",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "521bc59b8292512714ce7a1cf82373756b611bf8bd876b6099b6bd083d1d6d57",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "angry",
+  "emotion_analysis": "我独立核对前七帧，目标人物持续面向右侧对象说话，眉眼略紧、嘴部反复张开，后段虽有轻微上扬但不足以构成明显喜悦；字幕“怎么到了自己身上，就这样不明白。”具有明确的反问和责备意味。三位专家均将视觉与字幕结合指向不满，其中[audio_subtitle:E1]对反问语义的判断可信，但其无法提供音调证据；[image:E4]指出的后段轻微笑意是对angry的限制，却更像克制或礼貌性表情。图谱所述叹息感无法因无音轨而独立核验，因此不采纳其对worried的弱支持[graph:E1]。",
+  "output": "我独立核对前七帧，目标人物持续面向右侧对象说话，眉眼略紧、嘴部反复张开，后段虽有轻微上扬但不足以构成明显喜悦；字幕“怎么到了自己身上，就这样不明白。”具有明确的反问和责备意味。三位专家均将视觉与字幕结合指向不满，其中[audio_subtitle:E1]对反问语义的判断可信，但其无法提供音调证据；[image:E4]指出的后段轻微笑意是对angry的限制，却更像克制或礼貌性表情。图谱所述叹息感无法因无音轨而独立核验，因此不采纳其对worried的弱支持[graph:E1]。\n<answer>angry</answer>",
+  "label": "sad",
+  "elapsed_seconds": 184.2157289981842
+}

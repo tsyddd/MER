@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00013928",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "happy",
+  "emotion_analysis": "画面中女子面带灿烂笑容并扬手挥动纸张（person_0），随后放下手持续正视对方微笑（person_1 after person_0），结合二者连续动作（person_0 person_joint person_1）体现出极高的热情。在言语交流中，她笑声轻快上扬地说出“我可看好你呀”并追问“怎么样？收获大大的吧”（process_0 process_joint process_1，person_2），声音与表情均呈现明显的喜悦与欢快状态。",
+  "output": "画面中女子面带灿烂笑容并扬手挥动纸张（person_0），随后放下手持续正视对方微笑（person_1 after person_0），结合二者连续动作（person_0 person_joint person_1）体现出极高的热情。在言语交流中，她笑声轻快上扬地说出“我可看好你呀”并追问“怎么样？收获大大的吧”（process_0 process_joint process_1，person_2），声音与表情均呈现明显的喜悦与欢快状态。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 48.904324769973755,
+  "node_count": 6,
+  "edge_count": 6
+}

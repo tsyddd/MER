@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "事件链显示Chandler本以为从洗手间出来的会是熟人男性并正欲调侃抱怨，但门开后却意外走出一位陌生女子[E1]；这一预期违背直接打断了他的原定互动，导致其音调骤变改口并在搭讪时严重结巴慌乱[E2]，视觉上显露出措手不及的愣滞[E3]，核心情绪为surprise。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "女子走出洗手间门，与process_0、process_2联合展现了Chandler原定对身旁男士/门内人的抱怨互动被突发事件打断，被迫仓促转移对象",
+      "interpretation": "事件违背了Chandler原有的情境预期（误以为里面是熟人男性），构成了触发惊愕的转折点",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:01-00:06",
+      "observation": "说话中途生硬切断原本的'fall...'，突然音调拔高喊出'Hi!'，随后伴随明显的停顿结巴'did ya, did-did-did ya fall high?'",
+      "interpretation": "原话被猝不及防打断后的言语失序与强行掩饰，体现了典型的意外与惊诧反应",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04 @ 3.84s",
+      "observation": "Chandler转向女子正面站立，右手摊开悬停，面部微怔、表情局促",
+      "interpretation": "与自然平静的中立状态或从容自信的搭讪明显不符，印证了突发状况下的错愕迟疑",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是joy（看到具有吸引力的异性而产生搭讪兴趣）或neutral（寻常的寒暄回应）。然而结合前序事件'Jeez, man did you fall...'的抱怨语境及强行将未说完的词圆成'fall high'的失态举动，表明其行为本质是突发事件引发的应激掩饰，而非发自内心的喜悦或平淡中立。"
+}

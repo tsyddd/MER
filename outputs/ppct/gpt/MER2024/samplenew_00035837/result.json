@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035837",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "sad",
+  "emotion_analysis": "当前人物是画面中的女性，她坐在椅子上，头部略低、视线向下（context_0、person_0），并连续说出“我知道，在这个世上”与“再也没有亲人了”（process_0、process_1；二者通过process_joint构成完整表述）。关于再也没有亲人的当前表达结合低头和向下视线，体现出明显的失落与悲伤，而非惊讶或愤怒。",
+  "output": "当前人物是画面中的女性，她坐在椅子上，头部略低、视线向下（context_0、person_0），并连续说出“我知道，在这个世上”与“再也没有亲人了”（process_0、process_1；二者通过process_joint构成完整表述）。关于再也没有亲人的当前表达结合低头和向下视线，体现出明显的失落与悲伤，而非惊讶或愤怒。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 76.02073383331299,
+  "node_count": 5,
+  "edge_count": 2
+}

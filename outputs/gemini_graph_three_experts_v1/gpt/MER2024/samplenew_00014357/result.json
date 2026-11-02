@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00014357",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "1c1a5d8dd0e2d03d755669d8aca384a001216ff52b560b1e66824436e87c8a0f",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "happy",
+  "emotion_analysis": "图像专家描述目标人物持续微笑、眼神明亮且身体前倾，支持其处于愉快状态；字幕中的“最可爱”“最漂亮”等赞美表达也呈现积极态度。图谱结论与图像及字幕一致，但其中语调、语速等描述可能与其他来源同源，故不作为独立证据；综合现有证据判断为开心。",
+  "output": "图像专家描述目标人物持续微笑、眼神明亮且身体前倾，支持其处于愉快状态；字幕中的“最可爱”“最漂亮”等赞美表达也呈现积极态度。图谱结论与图像及字幕一致，但其中语调、语速等描述可能与其他来源同源，故不作为独立证据；综合现有证据判断为开心。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 77.68102288246155
+}

@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "目标人物Female Student在撞见尴尬场面后，表现出仓皇逃离并道歉的行为。她的身体前倾弯腰、低头避开视线，同时说话语速较快、带有急促感，这些视听证据共同指向一种因尴尬而产生的慌乱和急于摆脱的情绪。这种情绪最符合‘尴尬’的语义，而‘尴尬’在当前数据集的情绪轮中没有直接对应标签，但其核心是因意外暴露或冒犯而产生的不适与急于补救的反应。在所有允许的标签中，‘surprise’（惊讶）最接近，因为它涵盖了因违背预期而产生的意外感，尽管‘surprise’通常不包含‘尴尬’的社交不适成分，但它是当前标签空间中最能捕捉到这种意外性与即时反应的选项。",
+  "open_emotion": "尴尬",
+  "answer": "surprise",
+  "mapping_reason": "尽管‘尴尬’（embarrassment）是更精确的开放情绪词，但该词不在数据集的情绪轮中。在所有允许的标签中，‘surprise’（惊讶）最能捕捉到目标人物因意外撞见赤裸上身的男子而产生的即时、非预期的反应。她的快速道歉和仓皇逃离是这种意外的直接后果，因此‘surprise’是当前标签空间下最接近的合理映射。此映射存在信息损失，因为它未能完全捕捉到社交不适的成分，但基于当前证据和标签空间的限制，这是最合理的近似。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "Female Student身体前倾弯腰，头部低下，快速穿过书架过道离开。",
+      "interpretation": "该动作表明她试图避开视线，快速逃离当前场景，这是一种典型的因尴尬或不适而产生的回避行为。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "Female Student说出“I'm so sorry!”，语速较快，带有急促感。",
+      "interpretation": "快速且带有急促感的道歉表明她处于一种仓促和慌乱的状态，急于弥补自己的冒犯，这与因意外而产生的尴尬情绪相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "图谱节点process_0描述Female Student弯腰低头从书架过道快速穿过离开。",
+      "interpretation": "该节点直接记录了她的核心行为，即仓皇逃离，这是其情绪状态的直接外在表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱节点person_1描述Female Student说话语速较快、带有急促感。",
+      "interpretation": "该节点从声音维度补充了她的行为，证实了其情绪状态的急迫性，与视觉上的仓皇动作相互印证。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽然‘surprise’是最佳匹配，但它未能完全捕捉到‘尴尬’（embarrassment）这一更精确的情绪。‘尴尬’通常包含社交不适和自我意识，而‘surprise’更侧重于信息的意外性。然而，在当前数据集的标签空间中，没有一个标签能完美对应‘尴尬’，因此‘surprise’是基于现有证据和标签限制下的合理选择。"
+}

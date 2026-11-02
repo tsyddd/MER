@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "目标人物正面朝向殿内男子连续发话，字幕“怎么到了自己身上，就这样不明白。”带有对对方不理解的质问和责备意味。画面中她持续张口、视线抬起，后段嘴形加大并伴随头部动作，整体更符合带有不满和斥责的当前表达，判断为angry；图谱中的声音描述只能视为转述，未因未提供原音轨而直接采信。",
+  "answer": "angry",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "当前字幕原话",
+      "observation": "字幕为“怎么到了自己身上，就这样不明白。”",
+      "interpretation": "这是针对对方“不明白”的反问式责备，表达当前互动中的不满，而非单纯陈述事实。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0s至frame_03 @ 1.56s",
+      "observation": "女子面向侧前方持续张口说话，视线微抬，面部保持专注。",
+      "interpretation": "她的表达明确指向当前在场互动对象，抬眼发话与质问语义相结合，支持带有责备的不满情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04 @ 2.04s至frame_06 @ 3.08s",
+      "observation": "嘴形张开幅度增大，头部出现微动，仍保持面向前方发话。",
+      "interpretation": "后半句表达力度增强，与图谱节点person_3“女子嘴形张开幅度增大，头部微动”相符，支持情绪性强调而非中性叙述。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱转述女子“声音平稳带叹息感，语速适中”。",
+      "interpretation": "若该转述准确，平稳和叹息感也可能支持担忧或无奈；但audio_provided=false，不能亲耳核验，且该节点不能单独推翻字幕与当前视觉中的责备表达。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "最强的相反解释是worried：图谱节点person_2的“叹息感”以及抬眼、张口也可能表现无奈或担忧。但该声音信息只是图谱转述，且当前字幕直接呈现对他人不理解的反问责备；画面未显示明显哭泣、退缩或恐惧，因此未采用worried。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00021849",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "359093044a96c9b0d3bf12c8621869f06d99bda1905d519e91d11df175dc34b4",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "图像专家指出目标人物表情严肃、姿态带有命令性，符合'angry'特征；但音频与图谱专家均认为语调平稳、无情绪波动，且图谱中明确描述为'劝导行为'，未体现激动。综合判断，图像中'严肃'更可能反映专注或权威，而非愤怒，故采纳音频与图谱的'neutral'结论。",
+  "output": "图像专家指出目标人物表情严肃、姿态带有命令性，符合'angry'特征；但音频与图谱专家均认为语调平稳、无情绪波动，且图谱中明确描述为'劝导行为'，未体现激动。综合判断，图像中'严肃'更可能反映专注或权威，而非愤怒，故采纳音频与图谱的'neutral'结论。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 47.32322883605957
+}

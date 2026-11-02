@@ -1,0 +1,8 @@
+{
+  "reason": "目标人物Monica在听到Rachel的言论后表现出强烈的原则性谴责。音轨中她以拔高、紧绷且严厉的语调呼喊并重读关键短语[audio_subtitle:E1]，视觉上从frame_02至frame_07始终目光坚定地直视对方、神情紧绷严肃[image:E1]。尽管出轨话题容易带有道德排斥或令人反感的底色，但她的表达重心是正面质问、责难与观念交锋而非退缩回避，充分体现了对受阻或不当行为的责备与对抗，应归入anger家族。",
+  "answer": "anger",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "image:E1"
+  ]
+}

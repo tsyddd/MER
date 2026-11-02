@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia168_utt13",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "Ross is speaking in a loud, forceful tone, saying 'We know you took so just-just save yourself the time and confess!'. His mouth is open and he is making a fist, indicating a confrontational and demanding attitude. This combination of aggressive speech and assertive body language points to anger.",
+  "output": "Ross is speaking in a loud, forceful tone, saying 'We know you took so just-just save yourself the time and confess!'. His mouth is open and he is making a fist, indicating a confrontational and demanding attitude. This combination of aggressive speech and assertive body language points to anger.\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 76.64404487609863,
+  "node_count": 5,
+  "edge_count": 1
+}

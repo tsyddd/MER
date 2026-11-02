@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00021868",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "525b131426b19ccc086afb01c3de0dac946463a250271f0d8e2481091c04e506",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "感伤",
+      "mapped_label": "sad",
+      "mapping_reason": "目标人物在追溯涉及过去亲故的未解旧事时流露出低沉与叹息，体现出对已发生往事的怅惘与情绪低落，符合sad家族中伤感、失落的定义；句式虽有“也不知道”的疑惑，但重心在于对过去的哀思低落而非对未来危险的焦虑防备，故排除worried映射至sad。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "平稳沉思",
+      "mapped_label": "neutral",
+      "mapping_reason": "目标人物的言语和声音呈现平缓低沉的述说特征，无显著悲伤、焦虑或愤怒起伏，符合情绪轮中neutral关于‘平稳叙述、自然交流、无明显主导情绪’的界定。"
+    },
+    "image": {
+      "open_emotion": "平稳",
+      "mapped_label": "neutral",
+      "mapping_reason": "目标人物当前处于平静、自然的沉思叙述交流状态，未展现显著的负向悲伤对抗或正向欣喜，符合neutral定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "独立核查原视频与音频，在frame_03至frame_07中，目标人物面部肌肉舒展平稳，眉眼无紧蹙，视线虽自然微垂但面容未见嘴角下拉或哀戚特征[image:E1]；实际音轨中念诵“也不知道，当年，三哥”语调徐缓平稳、发声匀称自然，并无明显的抽泣、颤音或沉重叹息感[audio_subtitle:E1]。[graph:E2]将低沉平实的语气过度解读为“压抑叹息”与主导性感伤，属于脱离实际表现的主观引申；目标人物当前处于克制、冷静的沉思与陈述状态，符合中性定义。",
+  "output": "独立核查原视频与音频，在frame_03至frame_07中，目标人物面部肌肉舒展平稳，眉眼无紧蹙，视线虽自然微垂但面容未见嘴角下拉或哀戚特征[image:E1]；实际音轨中念诵“也不知道，当年，三哥”语调徐缓平稳、发声匀称自然，并无明显的抽泣、颤音或沉重叹息感[audio_subtitle:E1]。[graph:E2]将低沉平实的语气过度解读为“压抑叹息”与主导性感伤，属于脱离实际表现的主观引申；目标人物当前处于克制、冷静的沉思与陈述状态，符合中性定义。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 65.79750728607178
+}

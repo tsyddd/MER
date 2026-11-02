@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00014279",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "8a93788f7988ee7297cf059d2b609d25c7836c71056843455b447ed540c3a17b",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "angry",
+  "emotion_analysis": "三份专家报告均一致指向目标人物处于愤怒状态：graph指出其言语具有强烈控诉性并伴随喘息等生理反应；audio_subtitle描述其语气尖锐、语速快且音量高；image显示其眉头紧锁、表情严肃，结合字幕内容‘卑劣的手段’和‘无耻之极’，所有证据高度一致指向愤怒情绪。",
+  "output": "三份专家报告均一致指向目标人物处于愤怒状态：graph指出其言语具有强烈控诉性并伴随喘息等生理反应；audio_subtitle描述其语气尖锐、语速快且音量高；image显示其眉头紧锁、表情严肃，结合字幕内容‘卑劣的手段’和‘无耻之极’，所有证据高度一致指向愤怒情绪。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 70.09778881072998
+}

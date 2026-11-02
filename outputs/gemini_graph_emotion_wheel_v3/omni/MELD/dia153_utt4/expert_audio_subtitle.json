@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Joey的言语内容是反讽和挑衅，他用夸张的语气说'你有恐高症，那你去大楼顶上'，这是一种典型的反讽表达，意在嘲笑或戏弄对方。他的语调上扬，节奏较快，带有明显的嘲弄意味，与字幕中的反讽内容一致。视觉上，他的表情和手势也支持这种挑衅的态度。",
+  "open_emotion": "嘲弄",
+  "answer": "anger",
+  "mapping_reason": "虽然'嘲弄'不是一个直接的情绪轮标签，但它属于一种对抗性的、带有负面色彩的言语行为。在MELD情绪轮中，'anger'（愤怒）包含了对冒犯、不公的责备与对抗，Joey的反讽言语是一种言语上的对抗和挑衅，因此映射到'anger'是合理的。尽管情绪强度可能不强，但其对抗性是明确的。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "字幕: 'It have a fear of heights, you go to the top of the building!'",
+      "observation": "Joey说'你有恐高症，那你去大楼顶上'，这是一种反讽的表达。",
+      "interpretation": "这句话的字面意思与Joey的语气和表情不符，表明他并非在认真建议，而是在用夸张的方式嘲笑对方。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "音频时间 00:00-00:02",
+      "observation": "Joey的语调上扬，节奏较快，带有明显的嘲弄意味。",
+      "interpretation": "这种语调和节奏是反讽和挑衅的典型特征，表明Joey正在用一种戏谑的方式表达他的观点。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "Joey的表情和手势带有挑衅和戏谑的意味。",
+      "interpretation": "他的表情和手势与他的话语内容和语气相匹配，进一步证实了他在进行反讽。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "Joey的反讽可能被解读为一种玩笑，而不是真正的愤怒。然而，反讽作为一种言语行为，其本质是带有对抗性的，因此映射到'anger'是合理的。"
+}

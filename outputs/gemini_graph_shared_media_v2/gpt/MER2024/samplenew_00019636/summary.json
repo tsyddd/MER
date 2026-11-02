@@ -1,0 +1,9 @@
+{
+  "reason": "回看8帧可见，目标人物眉头持续收紧、视线下移并抬手触碰下巴，表现为持续审视和顾虑，而非短暂的惊讶；这一视觉变化与字幕“真的一百多岁了，我怎么看也不像啊！”的质疑相互印证。[image:E1][image:E2][audio_subtitle:E1]“surprise”专家正确指出了“不相信”和意外感，但这些线索在片段中逐渐延续为凝重思索，因此区分力不如worried。没有提供音轨，无法核验语气；同时画面缺少愤怒、悲伤或喜悦的强烈表现，故选择worried。",
+  "answer": "worried",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "audio_subtitle:E1"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia34_utt17",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "在画面与音频中，莫妮卡（person_1, person_2）转向瑞秋，眼神直视且面部严肃，以高声且严厉的语气喝止并告诫对方；结合其台词（process_0, process_1）坚决斥责出轨行为的态度，充分表达了愤怒与不满（anger）。",
+  "output": "在画面与音频中，莫妮卡（person_1, person_2）转向瑞秋，眼神直视且面部严肃，以高声且严厉的语气喝止并告诫对方；结合其台词（process_0, process_1）坚决斥责出轨行为的态度，充分表达了愤怒与不满（anger）。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 47.8520245552063,
+  "node_count": 6,
+  "edge_count": 5
+}

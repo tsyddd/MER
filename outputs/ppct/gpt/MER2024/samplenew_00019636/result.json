@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00019636",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "目标人物是画面中的男性，当前正表达对胡十四娘年龄与外貌不相符的诧异；process_0与process_1通过process_joint共同呈现“真的一百多岁了”但“怎么看也不像”。同时，person_0到person_1显示他由低头转为触碰下巴，配合后续转述人面花及永葆青春的内容，表现出思索和难以置信，而非明确的悲伤、愤怒或喜悦。",
+  "output": "目标人物是画面中的男性，当前正表达对胡十四娘年龄与外貌不相符的诧异；process_0与process_1通过process_joint共同呈现“真的一百多岁了”但“怎么看也不像”。同时，person_0到person_1显示他由低头转为触碰下巴，配合后续转述人面花及永葆青春的内容，表现出思索和难以置信，而非明确的悲伤、愤怒或喜悦。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 67.07160234451294,
+  "node_count": 11,
+  "edge_count": 11
+}

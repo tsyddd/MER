@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者用“不是已经……了吗”询问一项他原以为成立的情况，带有对当前信息不符预期的疑惑[E1]。他持电话注视前方，表情严肃、眉眼略抬，与询问时的疑惑相容[E2]；但画面不足以证明他已受到明显震惊。",
+  "open_emotion": "疑惑",
+  "answer": "surprise",
+  "mapping_reason": "这里的疑惑侧重原有预期可能被打破，因此近似映射到surprise；其程度较轻，不能仅凭疑问句认定为强烈惊讶。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“关东军不是已经增兵甲子沟、煤矿了吗？”",
+      "observation": "“不是已经……了吗”将增兵表述为说话者原先认为已发生的事，并向对方求证。",
+      "interpretation": "问法显示他对眼下情况与原有认识是否一致存有疑惑。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02（0.76秒）至frame_06（2.28秒）",
+      "observation": "人物手持电话，注视前方，眉眼略抬，表情严肃。",
+      "interpretation": "视觉表现与认真求证相容，但不能单独确定惊讶程度。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是平常地核实部署信息：字幕没有给出对方说了什么，也未直接呈现预期被打破的事件。未提供音频，无法依据语调或停顿进一步区分。"
+}

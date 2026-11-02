@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "Rachel的言语内容（'Everything's ruined. My bed. My clothes. Look at my favorite blue sweater.'）直接表达了对个人财物被毁的沮丧和无奈。她的肢体语言，如闭眼低头（person_1）和展示烧损衣物（person_2），与言语内容一致，共同强化了这种情绪。图谱中的process_0和process_1描述了这一连贯的互动，其中process_1（展示衣物）是process_0（抱怨）的直接延续和证据支持，表明她的情绪是真实且有据可循的。",
+  "answer": "sadness",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:03.480",
+      "observation": "Rachel说：'Everything's ruined. My bed. My clothes. Look at my favorite blue sweater.'",
+      "interpretation": "这段话语直接表达了对个人财物被毁的沮丧和无奈，是判断其情绪为'sadness'的最直接证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 00:00:01.418",
+      "observation": "Rachel闭上眼睛，低下头。",
+      "interpretation": "这个肢体语言是沮丧和悲伤的典型表现，与她言语中表达的负面情绪相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "图谱节点process_1描述了Rachel单手将蓝色毛衣提起到胸前高处。",
+      "interpretation": "该节点描述了Rachel展示受损物品的行为，这是她言语内容的直接证据，支持了她情绪的真实性。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无明确的反证。虽然Rachel在展示衣物时可能带有一丝强调或无奈，但其言语内容和整体肢体语言更倾向于表达悲伤而非其他情绪。"
+}

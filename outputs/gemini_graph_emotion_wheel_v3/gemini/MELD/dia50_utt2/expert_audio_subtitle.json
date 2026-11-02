@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物在音频中用极快、高音调且带有明显喘息惊慌的声音喊出'I'm so sorry!'，语调短促紧绷[E1]；视觉上她在被抓现行后迅速俯身低头仓皇逃窜[E2]，言语和动作均表现出面对当场被抓、害怕招致惩罚与极度难堪时的惊恐与慌乱。",
+  "open_emotion": "惊慌",
+  "answer": "fear",
+  "mapping_reason": "开放情绪'惊慌'是对违规被当场抓获及面临严重后果的惊恐与威胁逃避反应，在MELD情绪轮中严格归属于fear（恐惧/受惊）家族。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00.00-00:01.60",
+      "observation": "女学生声音尖锐高亢，呼吸急促不稳，快速吐出'I'm so sorry!'，尾音带颤且充满慌乱。",
+      "interpretation": "高音调与急促紧绷的语调反映出突发危机带来的受惊和惊恐状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00至frame_03（0.00s-1.00s）",
+      "observation": "女学生在书架下弯腰低头，仓皇整理衣物并以极快速度缩身逃出画面，回避与对方目光接触。",
+      "interpretation": "生理上的逃跑与躲避动作印证了言语中的害怕与惊慌。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "道歉语义'sorry'字面上常伴随内疚或悲伤，但此处语调极度尖锐急促且动作呈应激逃跑，并非沉郁低落的sadness。"
+}

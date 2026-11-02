@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00005612",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "音频中说话人语气平稳，无明显情绪波动，结合其递出文件并说出“请您转交给总理过目”的正式场景，表明其处于一种客观、专注的状态。",
+  "output": "音频中说话人语气平稳，无明显情绪波动，结合其递出文件并说出“请您转交给总理过目”的正式场景，表明其处于一种客观、专注的状态。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 83.61122012138367,
+  "node_count": 7,
+  "edge_count": 1
+}

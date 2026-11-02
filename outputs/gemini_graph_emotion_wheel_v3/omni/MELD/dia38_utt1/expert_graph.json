@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "Joey在对话中表达了对自己学生获得试镜机会的骄傲之情。他的肢体语言（双手交叉按在胸前）和面部表情（嘴角上扬的微笑）与他话语中的积极情感一致。图谱中描述的'轻叹声调'和'平稳柔和的语速'也支持了这种积极、欣慰的情绪，而非愤怒、悲伤或恐惧。综合来看，他的情绪是真诚的喜悦。",
+  "open_emotion": "欣慰",
+  "answer": "joy",
+  "mapping_reason": "根据MELD项目的情绪轮，'joy'（喜悦）被定义为'当前开心、愉悦、满足或兴奋的正向体验'。Joey的言语内容（'I'm so proud'）和他真诚的微笑、肢体语言共同指向一种满足和高兴的状态，这与'joy'的定义高度吻合。'欣慰'是'joy'的一种具体表现形式，因此映射是准确的。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "字幕: \"Awww, one of my students got an audition. I'm so proud.\"",
+      "observation": "Joey说：\"Awww, one of my students got an audition. I'm so proud.\"",
+      "interpretation": "Joey的言语内容直接表达了他对学生取得成就的骄傲和积极情感。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05",
+      "observation": "Joey的嘴角上扬，形成了一个温和的微笑。",
+      "interpretation": "面部表情是积极情绪的直接体现，与言语内容中的骄傲感相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01",
+      "observation": "Joey的双手抬起并交叉按在胸前。",
+      "interpretation": "这是一个常见的表达真诚、感动或骄傲的肢体语言，强化了言语中的情感。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱描述Joey发出轻叹声调，语速平稳柔和。",
+      "interpretation": "这种副语言特征与表达骄傲和欣慰的情绪相符，而非愤怒或恐惧。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "图谱中描述的'轻叹声调'可能被误解为悲伤或失望，但结合Joey的言语内容（'I'm so proud'）和积极的面部表情，可以明确判断这是一种表达骄傲的感叹，而非负面情绪。"
+}

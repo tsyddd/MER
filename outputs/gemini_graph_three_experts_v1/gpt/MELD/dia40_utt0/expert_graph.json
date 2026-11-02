@@ -1,0 +1,9 @@
+{
+  "expert": "graph",
+  "reason": "Monica抬头面向前方，嘴角上扬并露齿微笑〔person_2〕。图谱记载她说“Yeah baby!”时语调轻快上扬〔person_3〕，与当前的积极面部表现共同支持其处于愉快情绪。",
+  "answer": "joy",
+  "evidence_refs": [
+    "person_2",
+    "person_3"
+  ]
+}

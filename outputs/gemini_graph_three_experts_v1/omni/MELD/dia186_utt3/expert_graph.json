@@ -1,0 +1,9 @@
+{
+  "expert": "graph",
+  "reason": "Joey在通话中声调平缓低沉（person_2），同时嘴唇开合、头部微偏、视线朝下（person_1），表现出一种低能量、略带歉意的表达方式，结合台词内容“I'm sorry I gotta cancel tonight baby”，其情绪更偏向于无奈或遗憾，而非强烈负面情绪。综合视听证据，最符合的标签是'sadness'。",
+  "answer": "sadness",
+  "evidence_refs": [
+    "person_1",
+    "person_2"
+  ]
+}

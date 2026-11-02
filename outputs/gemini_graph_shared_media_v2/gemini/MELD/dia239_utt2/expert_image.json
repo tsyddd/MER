@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物Chandler正在对身旁人说话时，洗手间门突然打开走出一位女性，Chandler动作与视线迅速转向她[E1]，并在正面相对时出现挑眉、停顿及手掌摊开的僵持态势[E2]，配合语调陡转及结巴，表明其受到意料之外的打断与冲击，符合surprise的表现。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.96s",
+      "observation": "Chandler本面向左侧，在门开启的一刻迅速转头并探身看向从洗手间走出的女性。",
+      "interpretation": "注意力和动作被突发事件打断并瞬间转移，显示意料之外的事件发生。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 3.84s",
+      "observation": "Chandler面朝该女性，眉毛上抬，单手向外摊开停在半空，身体略微前倾定格。",
+      "interpretation": "挑眉与停滞的手势体现出被意外撞见后的发愣与仓促应变反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:01-00:03",
+      "observation": "原先说话的语调在说到中途突然截断，转为语调升高的“Hi!”并伴随结巴。",
+      "interpretation": "言语突变印证了视觉上受惊和错愕的瞬间反应。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "他在后续帧（frame_06至frame_07）将手插入口袋、表情渐显局促，可能被视作尴尬或neutral，但该片段的核心动态是由意外打断引发的受惊与错愕反应，故排除neutral。"
+}

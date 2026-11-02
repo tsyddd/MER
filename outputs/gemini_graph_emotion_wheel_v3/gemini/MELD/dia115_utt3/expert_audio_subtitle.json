@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Ross在当前片段中纠正Chandler的动作，话语内容虽然带有嘲讽和否定（'Shielding your face and shrieking like a girl... is not a backhand'），但整体语音语调平稳、低沉、节律均匀，展现出典型的冷面/死板陈述（deadpan）风格[E1]。在2.5秒至3.4秒之间有明显的逻辑停顿，随后以稳定的降调陈述结论[E2]；视觉上他的神态严肃镇定，没有出现愤怒的紧绷或激动的面部动作，情绪主导为平稳平常。",
+  "open_emotion": "平常",
+  "answer": "neutral",
+  "mapping_reason": "Ross的言语行为虽然属于讽刺性纠错，但在声音与韵律上完全处于平稳、克制且冷淡的陈述状态，没有体现出anger的高能量对抗或disgust的排斥，符合情绪轮中neutral（平常/平稳）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Shielding your face and shrieking like a girl... is not a backhand.",
+      "observation": "Ross用否定句反驳Chandler的说法，语义上虽具调侃与纠错性质，但措辞客观陈述动作事实。",
+      "interpretation": "表明其交际意图是冷静反驳/纠偏，而非宣泄情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0:00-0:04.8",
+      "observation": "前置分句'Shielding your face and shrieking like a girl'语速从容、音调低沉，在'girl'后出现约1秒的清晰停顿，后半句'is not a backhand'以平缓的低音降调收尾，音量没有起伏爆发。",
+      "interpretation": "声学韵律呈现为典型的deadpan冷幽默与平稳陈述，缺乏愤怒的高声强或高音调特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "Ross侧身直视Chandler，面部肌肉放松，眼神平静，嘴角与眉心均无明显皱缩或拉扯。",
+      "interpretation": "视觉神态与低沉平稳的语调一致，排除了激烈的负向情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "话语中包含对Chandler表现的负面嘲弄（'shrieking like a girl'），可能被推测为带有恼火（anger）或轻微反感（disgust），但音轨中完全没有激惹感或攻击性语调，该替代解释缺乏韵律支持。"
+}

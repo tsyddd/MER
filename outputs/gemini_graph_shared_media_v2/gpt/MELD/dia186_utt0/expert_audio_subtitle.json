@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Chandler用连续否定纠正对方，并把更多人参与说成会更令人尴尬；配合制止手势和略带嫌弃的表情，更支持轻度反感，而非单纯陈述事实[E1][E2][E3]。没有音频，无法依据语调判断。",
+  "answer": "disgust",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Ah, no-no-no just Ross. Ross and Joey is embarrassing enough.",
+      "observation": "先连续说“no-no-no”，再限定“just Ross”，并评价“Ross and Joey is embarrassing enough”。",
+      "interpretation": "这是拒绝并表达对进一步尴尬的抵触；不能仅凭“embarrassing”一词推断他的情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.45879166666666665秒",
+      "observation": "Chandler转向右侧人物，抬起手掌作制止状。",
+      "interpretation": "动作与话语中的否定、拒绝一致。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_07 @ 3.128125秒",
+      "observation": "Chandler看向右侧，眉眼收紧，嘴角歪斜。",
+      "interpretation": "表情比平静说明更接近带嫌弃的调侃，但强度有限。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的替代解释是neutral：这可能只是玩笑式纠正，表情也不强烈。由于没有音频，无法核实语气是否轻松；但连续拒绝、制止动作与负面评价共同支持轻度反感。"
+}

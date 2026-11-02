@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "目标人物Rachel的当前互动是向Phoebe表达一种愿望，即希望某人能更开放地分享感受。她的语调平缓且略带感叹，手势从抬起比划到收回，表现出一种正在努力表达但又有些无奈的恳求感。综合来看，这是一种因情感需求未被满足而产生的失落与无奈，最符合'失望'这一开放情绪。在给定的情绪轮中，'失望'最接近'sadness'，因为其核心是因期望落空而产生的悲伤和低落感。",
+  "open_emotion": "失望",
+  "answer": "sadness",
+  "mapping_reason": "根据MELD项目适配情绪轮的说明，'失望'、'委屈'、'挫败'等词没有唯一静态落点，需依据当前评价选择最近的主导家族。Rachel的表达'Y’know, I wish I could get him to open up a little bit, share some feelings.'（我真希望他能更开放一点，分享一些感受）直接指向一个未被满足的期望。这种因期望落空而产生的低落和无奈感，与'sadness'（悲伤）的定义——因失落、损失或痛苦而难过、哀伤或低落——最为契合。虽然'fear'（恐惧）或'anger'（愤怒）也可能与人际沟通障碍相关，但当前语境中缺乏对威胁或不公的责备，因此'sadness'是更准确的映射。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "Rachel以平缓略带感叹的语调说出：“Y’know, I wish I could get him to open up a little bit, share some feelings.”",
+      "interpretation": "语调中的感叹词'Y’know'和愿望句式'I wish I could'表明她正在表达一种未被满足的期望，带有一种无奈和恳求的意味。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "Rachel头部微偏，视线看向坐在身旁的Phoebe。",
+      "interpretation": "她的视线和身体朝向表明她正在对Phoebe进行直接的、专注的倾诉，这为她的言语提供了明确的交流对象和情境。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02",
+      "observation": "Rachel双手抬起至胸前并张开手掌比划。",
+      "interpretation": "这一手势是她试图向Phoebe解释或强调自己观点的表达性动作，与她正在倾诉的内容相匹配。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_03",
+      "observation": "Rachel将抬起的双手慢慢收回并放低。",
+      "interpretation": "手势的收束可能暗示着表达的结束或一种无奈的放弃，与她话语中未被满足的期望相呼应。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "图谱中将Rachel的语调描述为'平缓略带感叹'，这与音频中的语调相符，但图谱本身并未提供情绪标签，因此不能作为反证。"
+}

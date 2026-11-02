@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "目标是粉衣女子。她当前对面前男子表达不愿分开的意愿[E1][E3]，说话时眉头微蹙、目光下垂，说完后仍保持低垂的目光[E2]。这些表现与对可能分开的不安相符；字幕并未说明两人已经分开，因此不把它解释为对既成损失的悲伤。图谱中的低缓语调属于音频转述[E4]，没有原音轨，不能亲耳核验，也不以此作为最终判断的关键。",
+  "open_emotion": "不安",
+  "answer": "worried",
+  "mapping_reason": "她在意的是可能发生的分开，而非已确认的损失；这种面向尚未确定结果的不安更接近worried。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "我也不想跟你分开。",
+      "observation": "女子表达自己不愿与对方分开。",
+      "interpretation": "明确了她当前在意的对象是分开这一可能结果，但不能证明分开已经发生。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02（0.56秒）至frame_07（1.96秒）",
+      "observation": "女子眉头微蹙、目光下垂；后几帧闭上嘴，目光仍向下。",
+      "interpretation": "当前表情与话后的停顿支持她对此事感到不安；单看表情也可能解释为难过。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_0、process_1",
+      "observation": "图谱将女子向男子说出该句、随后停止说话组织为当前互动顺序。",
+      "interpretation": "有助于把意愿归于目标人物的当前表达，而非男子的话或过去事件；该顺序本身不证明分开的原因或结果。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱转述女子发声轻微、语调低缓轻弱。",
+      "interpretation": "本次未提供原音轨，无法核验这一声音描述，不将其当作亲耳听到的情绪证据。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "低垂目光和“不想分开”也可体现不舍或难过；目前没有两人已经分开的证据，故最终依据当前话语所指的可能结果，偏向不安。"
+}

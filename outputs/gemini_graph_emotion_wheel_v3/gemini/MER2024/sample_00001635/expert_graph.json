@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "从事件情境与互动链条来看，目标女子正处于被追究责任或当面质问的当口。通过核查音轨与画面，女子开头发出一声短促惊叹后，立刻以急促慌忙的语调辩解[E1]，面部双眼睁大、神态局促不安[E2]。图谱节点process_0表明其正向对方陈述‘我不知道这件旗袍是你的’[E3]，该言语行为具有明显的撇清责任、应对被动危机的防卫性质，体现出被撞破或指责后的慌乱与受责焦虑。",
+  "open_emotion": "慌乱",
+  "answer": "worried",
+  "mapping_reason": "主导情绪为面对突发质问和潜在追责时的紧张、局促与慌乱辩解。在情绪轮中，对受责风险的不安、心理预期上的忐忑属于worried家族，因此映射为worried。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:01",
+      "observation": "音轨中女子发出急促带惊惶的吸气惊呼声并伴随微颤慌忙的语速辩解，印证了图谱person_1中急促发声的动态事实",
+      "interpretation": "体现出被突然发难时的局促与慌乱应对",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05至frame_07",
+      "observation": "女子双眼圆睁直视对方，眉宇微紧，嘴唇急促翕动，身体姿态僵硬紧绷",
+      "interpretation": "面部呈现出紧张、不知所措的慌张神色",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "女子说出台词“我不知道这件旗袍是你的”，澄清自己此前不知情",
+      "interpretation": "事件语义表明女子正承受私用他人衣物被发现的指责风险，急于自证无辜以逃避负面后果",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "女子开头的瞬间反应伴有眼睛睁大与惊呼，可能被解读为被撞见瞬间的惊讶（surprise）；但后续持续的核心互动是急于辩白的自保状态，并非单纯意外信息违背预期。"
+}

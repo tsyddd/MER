@@ -1,0 +1,8 @@
+{
+  "reason": "独立核对画面与音频可知，Monica在讲话过程中全程保持身体向前倾逼近的对抗姿势，并在frame_02挥手强调，直至frame_06嘴部大幅张开、双臂展开大声斥责[image:E2]。听觉上，伴随字幕列举冒犯对象，其语调在‘and monkeys!’处陡然升高且极为尖锐紧绷[audio_subtitle:E1]，呈现明显的言语攻击与义愤谴责。反证方面，台词中虽有‘offensive’，但其肢体与声音展现的是主动侵略性与高唤醒度斥责而非厌恶（disgust）的退避或皱鼻，综合视听线索明确锁定为愤怒。",
+  "answer": "anger",
+  "evidence_refs": [
+    "image:E2",
+    "audio_subtitle:E1"
+  ]
+}

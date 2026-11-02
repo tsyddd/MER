@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00036745",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "56b7ab0a274b240942c2ca3a5bf6aff985c05e2aab602a0289a32a97d1119e4a",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "字幕和图谱中的内容主要是事实陈述与行动安排，支持中性，但图谱的视觉及语调描述可能与其他来源同源，不能作为独立重复证据。图像专家在多帧中观察到眉头微蹙、面部紧绷、眼睛睁大和嘴部张开等持续或明显的视觉线索，因此取舍后更符合担忧状态。",
+  "output": "字幕和图谱中的内容主要是事实陈述与行动安排，支持中性，但图谱的视觉及语调描述可能与其他来源同源，不能作为独立重复证据。图像专家在多帧中观察到眉头微蹙、面部紧绷、眼睛睁大和嘴部张开等持续或明显的视觉线索，因此取舍后更符合担忧状态。\n<answer>worried</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 75.38635873794556
+}

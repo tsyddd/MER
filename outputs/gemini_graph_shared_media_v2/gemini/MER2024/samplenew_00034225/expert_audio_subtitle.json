@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物在音轨中以压低音量、带轻微气声的谨慎语调询问，语气试探且小心翼翼[E1]；台词连续发问并紧接‘惹麻烦’的自责倾向，语义与语调高度契合担心的心理状态[E2]，排除了单纯的客观中立或惊异。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00 - 00:01.8",
+      "observation": "目标人物以较低音量、平缓且略带气声的试探性语调说出‘怎么？她不好对付啊’，句尾轻微上扬但没有惊讶的爆发感",
+      "interpretation": "压低声音的小心发问展现出其对眼前局势的不安与关切，支持担忧（worried）情绪",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "怎么 她不好对付啊 / 我 我是不是给你惹麻烦了",
+      "observation": "台词通过询问对方是否棘手并迅速联想到自身‘惹麻烦’",
+      "interpretation": "言语行为体现出明显的顾虑与害怕拖累对方的忧虑心理，否定了客观平静的neutral",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是surprise（张口发问）或neutral（常规打听）；但其发音音调较低且柔和，未出现惊讶时的突发高音高与顿挫，且连续试探问句反映了持续的心理顾虑，故不判定为surprise或neutral。"
+}

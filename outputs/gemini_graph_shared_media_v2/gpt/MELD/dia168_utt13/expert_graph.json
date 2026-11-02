@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "Ross当下是在指控对方并催促其坦白，而不是陈述已经证实的事实[E1][E3]。他在说话时皱眉、抬起双手强调话语，表情和动作带有明显的对抗性[E2]，因此判断为anger。图谱对语速、语调的描述无法用未提供的原音轨核验，不作为决定性依据[E4]。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "We know you took so just-just save yourself the time and confess!",
+      "observation": "当前字幕包含对对方拿走东西的指控，以及要求其坦白的话语。",
+      "interpretation": "这是Ross当前互动中的施压言语；指控不等于对方确实拿了东西。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.3346656304355873秒",
+      "observation": "Ross说话时眉头收紧、双手抬起做强调手势。",
+      "interpretation": "紧绷的表情与强调动作支持愤怒判断；仅凭手势本身则不足以判定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_0, process_1, process_2",
+      "observation": "图谱将Ross的话组织为先指控、再劝对方省时间、最后要求坦白的当前事件链。",
+      "interpretation": "这有助于把他的表现理解为针对对方的言语交锋，而非单纯激动地解释事情；其话语内容与字幕同源，不另算一份独立证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱转述Ross语调坚定、语速较快。",
+      "interpretation": "未收到原音轨，不能亲耳核验这一声音描述，也不据此断言听见了愤怒语气。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "也可能只是坚定地催促对方坦白，而非愤怒；但当前指控性话语与皱眉、强调手势结合，比平静劝说更支持anger。末帧说话的女子并非目标人物，不能用她的表情判断Ross。"
+}

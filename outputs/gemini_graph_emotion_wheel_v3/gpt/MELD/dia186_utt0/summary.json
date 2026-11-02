@@ -1,0 +1,9 @@
+{
+  "reason": "目标是右侧的Chandler；我核对第1至第3帧，见他张口回应并抬手朝右侧示意，与[image:E1]的观察相符，但手势本身不能确定情绪。字幕中他连续说“no”，又说“Ross and Joey is embarrassing enough”，明确表达不愿让难堪的局面扩大；[audio_subtitle:E1]对此的记录可信，但未提供音轨，无法核实语气。后段他抿嘴、斜视右侧的变化也与排斥相容[image:E2]。相较于将拒绝解读为对抗性的不满，话语更直接指向对尴尬安排的反感，且没有明确责备，因此取最接近的disgust。",
+  "answer": "disgust",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E1",
+    "image:E2"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00034373",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "5a1be975f29db4b905cf5235ac6aedcea3f1639cf54f65f8e4b8e84c66b5d091",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "目标人物在所有可见帧中均表现出眼眶湿润、泪光明显、嘴角下撇的哭泣状态，这是悲伤情绪最直接的视觉证据。音频中其声音颤抖、带有哭腔，与视觉表现完全吻合，提供了决定性的听觉支持。字幕内容“甚至连一件衣裳”为陈述性话语，但其语境与人物表现出的极度悲伤状态相符，共同指向悲伤情绪。三个专家的证据均一致指向“sad”，且无任何反证。",
+  "output": "目标人物在所有可见帧中均表现出眼眶湿润、泪光明显、嘴角下撇的哭泣状态，这是悲伤情绪最直接的视觉证据。音频中其声音颤抖、带有哭腔，与视觉表现完全吻合，提供了决定性的听觉支持。字幕内容“甚至连一件衣裳”为陈述性话语，但其语境与人物表现出的极度悲伤状态相符，共同指向悲伤情绪。三个专家的证据均一致指向“sad”，且无任何反证。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 147.14059281349182
+}

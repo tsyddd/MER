@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者以疑问和陈述的语气表达了对胡十四娘年龄的怀疑，其语调平稳，没有明显的情绪波动，符合中性情绪的特征。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "那胡十四娘，真的一百多岁了，我怎么看也不像啊！那晚，她说，她用了人面花，得以拥抱青春。",
+      "observation": "字幕内容为陈述和疑问句，表达了对某人年龄的怀疑。",
+      "interpretation": "字幕内容本身是中性的，没有明显的情绪色彩。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:08",
+      "observation": "音频中说话者的语调平稳，没有明显的音高或语速变化。",
+      "interpretation": "平稳的语调通常表示中性情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽然字幕中包含感叹号，但音频中并未表现出相应的情绪，因此不能仅凭字幕判断为惊讶或怀疑。"
+}

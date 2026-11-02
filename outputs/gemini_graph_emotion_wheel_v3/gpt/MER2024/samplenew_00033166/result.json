@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00033166",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "601e004fdfc952c53a92b0a0ecef60e492bda4cb92d703eefffcf73140a33a83",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "不满",
+      "mapped_label": "angry",
+      "mapping_reason": "当前话语带有质问和责备方向，结合绷紧的表达，‘不满’更接近情绪轮中angry的轻度对抗，而非仅仅担心未知结果。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "不满",
+      "mapped_label": "angry",
+      "mapping_reason": "此处的不满指向对方可能“悉数倒戈”的行为，并以质问表达，符合angry类别中的责备、对抗倾向；不能仅凭“倒戈”一词判断情绪。"
+    },
+    "image": {
+      "open_emotion": "不满",
+      "mapped_label": "angry",
+      "mapping_reason": "此处的不满指向可能的倒戈，并以质问方式表达，较符合angry类别中的责备、对抗倾向；画面不足以支持强烈愤怒。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "angry",
+  "emotion_analysis": "目标是前七帧面向蓝衣女子说话的白衣男子；[image:E1]对人物归属的判断与画面相符。字幕“难道都要悉数倒戈？不成？”采用反诘形式，[audio_subtitle:E1]将其理解为质问有依据，但不能据此认定倒戈已经发生。男子说话时目光持续朝向对方，至第6、7帧口部收紧；这些画面支持严肃、不满的表达，却不能单独证明怒意。倒戈尚属可能，也容许担忧的解释；综合针对对方的反诘与表情，当前更接近带责问意味的不满，归为angry。未提供音轨，无法核验语调。",
+  "output": "目标是前七帧面向蓝衣女子说话的白衣男子；[image:E1]对人物归属的判断与画面相符。字幕“难道都要悉数倒戈？不成？”采用反诘形式，[audio_subtitle:E1]将其理解为质问有依据，但不能据此认定倒戈已经发生。男子说话时目光持续朝向对方，至第6、7帧口部收紧；这些画面支持严肃、不满的表达，却不能单独证明怒意。倒戈尚属可能，也容许担忧的解释；综合针对对方的反诘与表情，当前更接近带责问意味的不满，归为angry。未提供音轨，无法核验语调。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 96.51110339164734
+}

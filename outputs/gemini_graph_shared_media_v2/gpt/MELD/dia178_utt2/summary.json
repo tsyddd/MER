@@ -1,0 +1,10 @@
+{
+  "reason": "目标人物Monica在开头表情较克制，但随后抱着婴儿露齿微笑，低头看婴儿时仍带笑；这一视觉变化可由画面核实，支持愉快而非仅凭瞬间礼貌微笑判断[image:E2][image:E3]。字幕中她说“Pheebs, it’s going great”，与表情相互印证[audio_subtitle:E1]。虽不能仅凭措辞排除反讽，但持续的笑容更支持真诚的积极态度；未提供音轨，图谱所述欢快语气无法直接核验，不作为额外依据[graph:E3]。",
+  "answer": "joy",
+  "evidence_refs": [
+    "image:E2",
+    "image:E3",
+    "audio_subtitle:E1",
+    "graph:E3"
+  ]
+}

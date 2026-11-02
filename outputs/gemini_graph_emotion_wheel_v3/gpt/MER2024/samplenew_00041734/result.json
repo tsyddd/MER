@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00041734",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "ef82d3fe06a46b4125e3eacb1a9f355331f80a204ee0f71866c99305b2e54746",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "当前发问指向对方辞职这一令她意外的信息，符合surprise的即时预期违背；问句本身不足以证明她在担忧尚未发生的后果，也没有明确责备。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "错愕",
+      "mapped_label": "surprise",
+      "mapping_reason": "当前表达主要指向对辞职决定的意外反应，符合surprise所指的信息违背预期；疑问句本身不足以定类，判断还结合了开头的否定式反应和表情。"
+    },
+    "image": {
+      "open_emotion": "关切不安",
+      "mapped_label": "worried",
+      "mapping_reason": "她持续关注对方辞职这一可能带来后果的决定；在给定标签中，关切不安最接近worried。字幕没有说明她具体担心什么，因而不推断特定风险。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "字幕“不是，你，为什么要辞职？”针对对方辞职的决定，以“不是”起头的追问支持即时不解；[audio_subtitle:E1]对此的解释可信，但疑问句单独不能定类。画面中她从发问到说完仍蹙眉、前倾注视对方[image:E2]，这也可能是关切，不能只凭表情判为惊讶。相比担忧，现有话语没有指向尚未发生的风险或后果，因此更倾向于对这一决定感到诧异；未提供音轨，不据此推断语气。",
+  "output": "字幕“不是，你，为什么要辞职？”针对对方辞职的决定，以“不是”起头的追问支持即时不解；[audio_subtitle:E1]对此的解释可信，但疑问句单独不能定类。画面中她从发问到说完仍蹙眉、前倾注视对方[image:E2]，这也可能是关切，不能只凭表情判为惊讶。相比担忧，现有话语没有指向尚未发生的风险或后果，因此更倾向于对这一决定感到诧异；未提供音轨，不据此推断语气。\n<answer>surprise</answer>",
+  "label": "angry",
+  "elapsed_seconds": 87.49017548561096
+}

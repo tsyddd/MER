@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "当前互动中，车外男子以“你先上我的车，先回去”推动女子作出行动；女子在多个连续画面中保持侧坐、视线避开男子且沉默，表现出对当前劝导的紧张或顾虑，更支持担忧而非平静。图谱节点person_1与视觉一致，但person_2关于低沉平缓语调仅是图谱转述，因未提供原音轨而不作直接听觉核验。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07 @ 0.0–2.12秒",
+      "observation": "车内女子始终侧坐，视线未转向车外男子，面部朝向偏下，嘴唇闭合，未见回应动作。",
+      "interpretation": "持续回避目光和沉默出现在男子近距离劝导的当前互动中，支持她对情境存在顾虑或不安。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "当前字幕原话：“你先上，我的车，先回去。”",
+      "observation": "车外男子正在要求女子上他的车并先回去。",
+      "interpretation": "这是当前互动中的直接行动要求，为女子的回避和沉默提供了具体情境，但不能单独证明某种情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "节点记录车内女子侧坐、视线未转向男子并保持静默。",
+      "interpretation": "该节点与连续画面相互印证，说明她当前没有表现出接受、放松或积极回应；结合当前劝导语境，更接近担忧而非neutral。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "节点称车外男子以低沉平缓语调发声，但该声音信息来自图谱转述。",
+      "interpretation": "未收到原音轨，无法亲耳核验语调；该节点只能作为不确定的补充，不能据此强化或否定女子情绪。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "女子没有明显哭泣、强烈皱眉或激烈动作，沉默和避开视线也可能是疲惫、克制或单纯未回应；现有证据不足以区分担忧与轻度悲伤，但当前互动中的回避和行动压力使worried比neutral更合适。"
+}

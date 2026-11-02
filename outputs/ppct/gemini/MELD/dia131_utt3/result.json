@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia131_utt3",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "Rachel在门厅处与朋友交谈（参考context_0），从低头整理衣物（person_0）转为抬头摊开双手（person_1），以轻快且欣喜的语调回应“Oh, everything went great.”（process_0），整体神情与动作表现出明显的喜悦心情。",
+  "output": "Rachel在门厅处与朋友交谈（参考context_0），从低头整理衣物（person_0）转为抬头摊开双手（person_1），以轻快且欣喜的语调回应“Oh, everything went great.”（process_0），整体神情与动作表现出明显的喜悦心情。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 38.5893394947052,
+  "node_count": 4,
+  "edge_count": 2
+}

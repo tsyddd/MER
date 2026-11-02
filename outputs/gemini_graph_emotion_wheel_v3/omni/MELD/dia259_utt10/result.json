@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia259_utt10",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "58b737d28f4b46ef9301ad868ad5a56df1abb9892a3c373e0e689e4505ea1b8c",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "愤怒",
+      "mapped_label": "anger",
+      "mapping_reason": "根据当前证据，Monica的表达内容（“offensive”）和方式（语速快、音量大、语调上扬）都指向一种因受到冒犯而产生的对抗性情绪。这与‘anger’（愤怒）的定义——对冒犯、受阻或不公的恼火、责备与对抗——高度吻合。虽然她的表达也带有些许惊讶（surprise）的成分，但主导情绪是因冒犯而产生的愤怒。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "厌恶",
+      "mapped_label": "disgust",
+      "mapping_reason": "说话者明确表示笑话'不有趣'且'冒犯了女性、医生和猴子'，这是一种对特定事物的强烈排斥和反感。这种情绪与'disgust'（厌恶）的定义——对令人反感或难以接受的对象的排斥与厌弃——高度吻合。虽然情绪强度较高，但其核心是针对特定事物的反感，而非针对个人的愤怒或对未来的恐惧。"
+    },
+    "image": {
+      "open_emotion": "愤怒",
+      "mapped_label": "anger",
+      "mapping_reason": "根据MELD项目的情绪轮，'anger'（愤怒）被定义为对冒犯、受阻或不公的恼火、责备与对抗。Monica的言语内容直接表达了对某个笑话的强烈不满和责备，其面部表情（皱眉、张嘴）和肢体语言（手势）也表现出对抗和激动的状态，这些视觉和听觉证据共同指向了'anger'这一类别。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "目标人物Monica的言语内容（'offensive'）和视听表现（语速快、语调上扬、身体前倾、手势）共同指向一种因受到冒犯而产生的对抗性情绪。专家graph和image均识别出愤怒的面部表情和对抗姿态，与'anger'的定义高度吻合。尽管audio_subtitle专家将其归为'disgust'，但其核心是针对特定事物的强烈排斥，而视觉和语调证据更支持一种带有责备和对抗的愤怒。最终选择'anger'，因其与多模态证据的匹配度更高。",
+  "output": "目标人物Monica的言语内容（'offensive'）和视听表现（语速快、语调上扬、身体前倾、手势）共同指向一种因受到冒犯而产生的对抗性情绪。专家graph和image均识别出愤怒的面部表情和对抗姿态，与'anger'的定义高度吻合。尽管audio_subtitle专家将其归为'disgust'，但其核心是针对特定事物的强烈排斥，而视觉和语调证据更支持一种带有责备和对抗的愤怒。最终选择'anger'，因其与多模态证据的匹配度更高。\n<answer>anger</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 170.10507154464722
+}

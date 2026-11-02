@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "Monica's facial expression and body language show a mix of concern and urgency. Her brow is slightly furrowed, her mouth is open as if speaking, and her gaze is directed off-screen, suggesting she is addressing someone with a serious matter. Her hand is on the arcade machine, indicating the 'this' she refers to is a physical object. The combination of her tense expression and the content of the subtitle ('he can't see this') points to a situation she wants to hide, likely from Ben.",
+  "answer": "fear",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "Monica has a tense expression with a slightly furrowed brow and a closed mouth, looking off-screen.",
+      "interpretation": "This expression, combined with the context of the subtitle, suggests she is worried about something being discovered.",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.6673333333333333",
+      "observation": "Monica's mouth is open as if she is speaking, and her expression is one of concern.",
+      "interpretation": "This supports the idea that she is in the middle of a serious conversation, explaining a problem.",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.001",
+      "observation": "Monica's hand is on the arcade machine, and her expression is one of concern.",
+      "interpretation": "This action and expression together indicate she is trying to manage or hide the machine from someone.",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "subtitle",
+      "anchor": "But Ben is coming over tonight and he can't see this.",
+      "observation": "The subtitle explicitly states that someone named Ben is coming over and must not see something.",
+      "interpretation": "This provides the context for Monica's worried expression, confirming she is in a situation that requires secrecy.",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "The label 'neutral' is not supported because her facial expression is clearly tense and not relaxed. The label 'anger' is not supported because her expression lacks the typical signs of anger, such as a tight jaw or narrowed eyes. The label 'joy' is not supported because her expression is not one of happiness."
+}

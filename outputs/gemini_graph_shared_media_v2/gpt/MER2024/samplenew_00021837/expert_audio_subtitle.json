@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "字幕“我印象最深的一户人家，祖祖辈辈种地。”是平直的陈述句，内容涉及个人印象但未直接表达当前情绪或评价；画面中说话者整体保持克制、专注的表情，眉部略有收紧但没有明显愤怒、悲伤、惊讶或喜悦的动作。因此更支持当前表达为neutral，而非仅凭话题推断情绪。由于未提供音频，无法判断语调、停顿或音量。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "当前字幕原话：“我印象最深的一户人家，祖祖辈辈种地。”",
+      "observation": "这是关于一户人家及其世代务农经历的陈述句，没有疑问、反讽、否定或明确情绪词。",
+      "interpretation": "语言行为主要是在叙述和回忆，未提供足够的直接情绪表达，支持克制的neutral判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01至frame_07 @ 0.56–3.92秒",
+      "observation": "人物持续正面面对前方，姿态稳定；眉部有轻微收紧，嘴部大多保持闭合或自然说话状态，未见明显笑容、哭泣、激烈皱眉或惊讶张口。",
+      "interpretation": "表情显示认真或略严肃，但强度不足以区分为angry、sad或worried，整体更接近受控的中性表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_07 @ 3.92秒",
+      "observation": "片段末尾人物表情稍微放松，嘴角有轻微上扬，但眼眉和整体姿态仍较克制。",
+      "interpretation": "这一短暂变化不足以确认happy，更像说话结束时的礼貌性或放松表情。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "眉部轻微收紧和“印象最深”的个人回忆可能支持worried或sad的较弱解释，但字幕没有明确悲伤或担忧表述，视觉变化也不持续。缺少音频，因此无法用语调和节奏进一步区分这些替代解释。"
+}

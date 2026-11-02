@@ -1,0 +1,9 @@
+{
+  "expert": "graph",
+  "reason": "当前目标人物女子正在端着小碗面向男子说话，嘴部开合〔person_0〕。图谱记载其语调平缓柔和〔person_1〕，但没有显示明显的愤怒、悲伤、开心、担忧或惊讶，因此判断为中性。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_0",
+    "person_1"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "事件链显示，Rachel在与Monica交谈过程中得知出乎意料的私密信息，随即引发强烈的言语与体态连锁反应。图谱节点[person_0]与[process_0]准确记录了Rachel在听到信息瞬间转头看向对方、张大嘴巴并高声呼出“Oh my God!”的过程，这一强烈的生理与话语中断标志着违背预期的突发认知冲击；随后[process_1]与[person_1]中身体前倾逼近、手势挥舞并直接喊出“You’re a 30 year old virgin!”，进一步强化了不可思议的聚焦反应。跨模态核查确认音轨在开篇出现极度拔高的高亢惊呼，配合画面中圆形张口与睁大的眼神，确证其处于强烈的震惊反应中。",
+  "open_emotion": "震惊",
+  "answer": "surprise",
+  "mapping_reason": "Rachel面对违背预期的事实产生强烈的认知冲击与惊呼，根据情绪轮定义，因突破预期的惊异反应属于surprise家族，故映射为surprise。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "图谱记录Rachel转头看向Monica，嘴巴大张且语调拔高带惊叹感，与process_0的“Oh my God!”呼应。",
+      "interpretation": "反映目标人物在接收到违背日常认知的信息时最直接的生理与话语惊愕反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:01",
+      "observation": "Rachel在说出“Oh my God!”时声调急速扬升、音量高亢并伴随明显的倒吸气惊叹感。",
+      "interpretation": "听觉特征明确支持其情绪为突如其来的意外与震撼，而非平稳陈述。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "Rachel正对Monica，嘴唇张开成明显的“O”型，双目圆睁，身体呈前倾关注姿态。",
+      "interpretation": "典型的惊愕面部微动作，印证其瞬间被信息震慑的心理状态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "话语内容涉及同伴私生活，可能带有调侃或兴奋看热闹（joy）的成分，但其起手的面部惊愕与尖锐呼喊证明核心主导情绪为认知失调引发的震惊而非单纯愉悦。"
+}

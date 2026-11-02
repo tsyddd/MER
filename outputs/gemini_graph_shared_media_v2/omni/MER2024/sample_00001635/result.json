@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00001635",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "33e676dfa4457845fb12373ba65d5f414546b0623de9d024d66ecd7d1c0e8f8c",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "目标人物在片段开始时发出一声短促的“呀”，同时面部表情为张嘴、睁眼、扬眉，这是典型的惊讶表现。随后，她以急促的语调说出“不”，并伴有犹豫和停顿，这与惊讶后本能的否认反应相符。音频中的“呀”声和视觉上的惊讶表情高度一致，提供了直接的证据。虽然有专家认为是“worried”，但其依据的“急促连贯的语调”与音频中短促、犹豫的“不”声不符，因此该证据的可信度较低。综合来看，初始的惊讶反应是主导情绪。",
+  "output": "目标人物在片段开始时发出一声短促的“呀”，同时面部表情为张嘴、睁眼、扬眉，这是典型的惊讶表现。随后，她以急促的语调说出“不”，并伴有犹豫和停顿，这与惊讶后本能的否认反应相符。音频中的“呀”声和视觉上的惊讶表情高度一致，提供了直接的证据。虽然有专家认为是“worried”，但其依据的“急促连贯的语调”与音频中短促、犹豫的“不”声不符，因此该证据的可信度较低。综合来看，初始的惊讶反应是主导情绪。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 174.2889642715454
+}

@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "她先说“我还不放心呢”[E1]，随后提出“你万一要想不开，怎么办呢？”[E2]，表达的是对对方独自在家后可能出现负面结果的顾虑，而不是报告已经发生的损失。画面中她神情严肃，并转向对面的人说话[E3]，与关切的语义一致。",
+  "open_emotion": "担心",
+  "answer": "worried",
+  "mapping_reason": "担心的对象是尚未发生的风险，符合worried对可能负面结果的顾虑这一界定。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“那，你一个人在家，我还不放心呢”",
+      "observation": "说话者直接表示对对方独自在家不放心。",
+      "interpretation": "明确表达当前的顾虑，支持担心。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "“你万一要想不开，怎么办呢？”",
+      "observation": "她用“万一”提出可能发生的负面情况，并询问届时怎么办。",
+      "interpretation": "重点是尚未发生的风险，而非已经发生的悲伤事件。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05（3.84秒）至frame_07（5.36秒）",
+      "observation": "她神情严肃，转向坐在对面的人；末帧仍面向对方坐着交谈。",
+      "interpretation": "视觉表现与认真关切的言语含义相符，但单靠表情不足以判定情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "“怎么办呢”也可能被理解为责备式反问；但当前字幕没有明确的指责或对抗措辞，直接说出的“不放心”更支持担心。未提供音频，无法核实语调、停顿或音量。"
+}

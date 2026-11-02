@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "在当前互动事件链中，Rachel刚接收到Monica透露的意外事实，立刻出现生理性的突发震惊反应[E1]。图谱节点[E2]明确串联起其转头、嘴部大张呈O型与高音调惊呼的动作，事件语义显示“Oh my God!”连同指出对方秘密的交际过程[E3]具有强烈的意外信息冲击性质，符合典型的惊讶情绪。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0s",
+      "observation": "Rachel头偏向Monica，眼睛睁圆，嘴巴张成极大的O形",
+      "interpretation": "突发性张大嘴与睁眼的失守面容反映出瞬间的认知失衡与意外冲击，支持惊讶判断",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "图谱记录Rachel转头看向Monica，嘴巴大张且语调拔高带惊叹感",
+      "interpretation": "验证了事件起点的非言语爆发状态，紧扣随后的惊呼话语链，强化了突发惊讶的合理性",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00-00:01",
+      "observation": "Rachel以高昂、充满爆发力的拔高声调惊呼“Oh my God!”",
+      "interpretation": "听觉上的骤然高调与惊叹词直接体现对获知事实的强烈震惊",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "可能会被误解为八卦调侃或取笑（joy），但事件起始处极度夸张的大张嘴与脱口而出的高分贝惊呼是典型的惊异本能反射，缺乏欢笑时明显的颧肌上提或笑意，因此未采用joy。"
+}

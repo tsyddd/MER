@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "紫衣女子眉心紧蹙、眼眶含泪，且双眼微垂并有泪痕，表现出明显的悲伤状态〔person_0〕〔person_3〕。图谱记载她说话时声音哽咽、颤抖，嘴角下撇并伴随吸气，进一步支持其当前情绪为悲伤〔person_1〕〔person_2〕。",
+  "answer": "sad",
+  "evidence_refs": [
+    "person_0",
+    "person_3",
+    "person_1",
+    "person_2"
+  ]
+}

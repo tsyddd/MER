@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。仅从字幕中的感叹句和对“去大楼顶端”这一行为的反应看，目标人物表现出明显的惊讶语气倾向。",
+  "answer": "surprise",
+  "evidence_refs": []
+}

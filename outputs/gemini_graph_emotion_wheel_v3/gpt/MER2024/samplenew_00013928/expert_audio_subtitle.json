@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "她说“我可看好你呀！”是在向对方表达肯定，而“怎么样？”是接着询问对方的情况，并非惊讶或质问[E1]。说话时持续笑着，挥动手中的纸，表情与积极的言语态度一致[E2][E3]。据此判断当前主导情绪为欣喜；没有音频，不能判断实际语调。",
+  "open_emotion": "欣喜",
+  "answer": "happy",
+  "mapping_reason": "当前肯定对方的表达与持续笑容共同支持正向愉悦，符合happy；并非仅凭疑问句或笑容单独定类。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“我可看好你呀！怎么样？”",
+      "observation": "先明确表示看好对方，再询问情况。",
+      "interpretation": "肯定和期待的言语行为支持积极情绪；问句本身不构成惊讶证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02，0.8秒",
+      "observation": "她张口笑着，向前挥动手中的纸。",
+      "interpretation": "活跃的动作与积极表达相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_06，2.4秒",
+      "observation": "她面向交谈对象，眉眼舒展，露齿微笑。",
+      "interpretation": "在询问对方时仍呈现愉快的表情。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "也可能只是热络地寒暄或鼓励对方；片段较短，且未提供音频，无法用语调进一步区分。不过持续的笑容与明确肯定的措辞，使欣喜比平稳中性更有支持。"
+}

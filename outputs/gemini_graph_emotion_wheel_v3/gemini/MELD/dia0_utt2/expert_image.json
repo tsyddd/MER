@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "目标人物Rachel坐在桌旁，自frame_00至frame_07始终保持低头垂眸的状态，视线固定朝下，面部肌肉松弛微垂且毫无笑意；在伴随音频中其语调轻微低缓，呈现明显的失落与消沉状态，符合悲伤/沮丧的情绪特征。",
+  "open_emotion": "失落",
+  "answer": "sadness",
+  "mapping_reason": "Rachel低头垂视、神情低迷沉重，音调低微消沉，符合sadness家族中因无奈与挫折导致的失落与情绪低落表现。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 (0.334s) - frame_07 (1.126s)",
+      "observation": "Rachel端坐于餐桌前，头部微微低垂，视线自始至终避开对方而注视桌面，嘴角下沉无笑意，整体姿态沉重紧缩。",
+      "interpretation": "回避眼神接触并持续垂首凝视下方，常表露出沮丧、低落与沉重的情绪倾向。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.00s - 0.90s",
+      "observation": "Rachel说出'Y'know what?'时声音低沉微弱，语调缺乏起伏且带有叹息感。",
+      "interpretation": "低落微弱的发声消解了平静中性，印证了其处于失落心境。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "面部没有流泪或剧烈嘴角抽动等极端悲伤特征，若脱离低落的垂头与叹息语调，易被误判为平静思考的中性（neutral）。"
+}

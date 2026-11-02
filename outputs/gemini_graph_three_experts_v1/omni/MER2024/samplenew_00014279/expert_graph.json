@@ -1,0 +1,13 @@
+{
+  "expert": "graph",
+  "reason": "女子在组织文本中表现出对男子的连续指责，从喊出名字到斥责其手段卑劣（process_1）、质问其能力（process_2），最终定性为‘无耻之极’（process_3），言语内容具有强烈的控诉性。同时，图谱记载其发音音量较低且带有明显喘息与停顿（person_2），嘴唇微启微合、牙齿微露（person_3），结合其目光始终锁定对方（person_1），表明其情绪激动但身体状态不佳，整体表现符合愤怒情绪下的激烈言辞与生理反应。",
+  "answer": "angry",
+  "evidence_refs": [
+    "person_2",
+    "person_3",
+    "person_1",
+    "process_1",
+    "process_2",
+    "process_3"
+  ]
+}

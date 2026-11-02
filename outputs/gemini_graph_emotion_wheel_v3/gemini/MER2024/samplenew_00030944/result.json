@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00030944",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "7bd9f3e867f21d2ec668fb44dc3c0e1322c116ee3685ad30869d4f13503a1273",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "开放情绪为对他人未来潜在极端行为的顾虑与忧心，符合MER2024情绪轮中worried‘对可能负面结果、未知风险的顾虑与不安，强调预期与不确定性’的定义，故精确映射为worried。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "在给定的情绪轮中，worried强调对可能发生的负面后果、未知风险或焦虑顾虑。目标人物对对方可能'想不开'表达明确的不放心，直接映射为worried。"
+    },
+    "image": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "目标人物的情绪核心在于对对方可能发生不幸后果的焦虑与顾虑，符合worried家族关于对负面结果和风险预期的定义，因此直接映射为worried。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "目标人物在片段中面对独自一人的男子，台词明确表达“我还不放心呢，你万一要想不开，怎么办呢？”[audio_subtitle:E1]，将评价核心直接指向未来尚未发生但令人不安的极端风险。独立核验音轨（00:01-00:04），其语调轻柔关切中带有明显的急迫与探问感[audio_subtitle:E2]，并非平淡叙述；视觉上从第1帧到第4帧其双眉微蹙、目光凝重注视对方[image:E1]，体现出高度关切与紧张。虽然其微蹙眉头与低缓神态可能被误认为悲伤（sad），但其主导意图在于预警和防范可能出现的坏结果，而非哀悼既成损失，因此确切属于担忧。",
+  "output": "目标人物在片段中面对独自一人的男子，台词明确表达“我还不放心呢，你万一要想不开，怎么办呢？”[audio_subtitle:E1]，将评价核心直接指向未来尚未发生但令人不安的极端风险。独立核验音轨（00:01-00:04），其语调轻柔关切中带有明显的急迫与探问感[audio_subtitle:E2]，并非平淡叙述；视觉上从第1帧到第4帧其双眉微蹙、目光凝重注视对方[image:E1]，体现出高度关切与紧张。虽然其微蹙眉头与低缓神态可能被误认为悲伤（sad），但其主导意图在于预警和防范可能出现的坏结果，而非哀悼既成损失，因此确切属于担忧。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 59.8645806312561
+}

@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "在火灾发生后的情境下，Rachel围绕个人心爱财产的严重受损展开陈述。图谱事件链从她口头诉说损失[process_0]发展到闭眼低头展现心理痛苦[person_1]，并进一步将烧焦破损的衣物展示给众人[process_1]。配合其实际音轨中明显的抽泣哭腔与画面中皱眉撇嘴的委屈表情，这一事件行为反映的评价对象是不可逆的个人损失与伤心，而非指向他人的对抗或攻击。",
+  "open_emotion": "心痛难过",
+  "answer": "sadness",
+  "mapping_reason": "开放情绪词‘心痛难过’源于对心爱衣物及床铺被毁坏的悲痛与委屈体验；在情绪轮中，因不可挽回的财产损失引发的低落、哀伤与痛苦直接归属于sadness（悲伤）家族。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_03 (1.084s)",
+      "observation": "Rachel眉心紧蹙上扬、嘴角向下撇，随后闭上双眼垂下头颅。",
+      "interpretation": "展现出面对心爱之物尽毁时的沮丧、心痛与无力感，对应图谱节点person_1。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "Rachel语速缓慢，语调颤抖，在吐露'my favorite blue sweater'时伴随浓重的哭腔与抽泣音。",
+      "interpretation": "声音中的哀伤哭音明确传达出深刻的悲伤体验，排除了纯粹陈述事实的平静感。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "图谱记录Rachel提起烧损的毛衣向周围朋友展示财产受损的惨状。",
+      "interpretation": "向同伴展示受损物构成了寻求安慰与释放悲痛的情感互动链条，支持sadness的主导地位。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "Rachel在诉说物品被毁时带有抱怨内容，可能被推测为对灾难引发者的生气（anger）；但音轨缺乏对抗性的高声质问，动作亦伴随闭眼低头而非进攻性攻击姿态，表明主导情绪是损失带来的悲伤而非愤怒。"
+}

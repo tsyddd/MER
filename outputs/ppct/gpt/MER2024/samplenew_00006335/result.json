@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00006335",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "当前人物是戴圆框眼镜、手持电话听筒通话的主人物（person_0、process_0），字幕是在当下询问关东军是否已增兵，表现出对相关情况的确认和关注。结合室内场景（context_0）与电话交流工具（context_1）的关系，画面中他神情严肃、眉眼紧张，较符合担忧而非平静或愉快。",
+  "output": "当前人物是戴圆框眼镜、手持电话听筒通话的主人物（person_0、process_0），字幕是在当下询问关东军是否已增兵，表现出对相关情况的确认和关注。结合室内场景（context_0）与电话交流工具（context_1）的关系，画面中他神情严肃、眉眼紧张，较符合担忧而非平静或愉快。\n<answer>worried</answer>",
+  "label": "angry",
+  "elapsed_seconds": 32.721625328063965,
+  "node_count": 4,
+  "edge_count": 1
+}

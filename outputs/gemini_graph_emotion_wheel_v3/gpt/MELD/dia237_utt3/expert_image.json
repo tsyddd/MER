@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是坐着的Joey，不是左侧站立的Monica。他起初低头、眉头收紧，随后抬眼说话，表情短暂变得像在笑，却又回到不舒展的神情[E1][E2]。这些画面单独看也可能是困惑或打趣；字幕中他谈到“whipped fish”，并说自己庆幸还能忍住不吐[E3]，使反胃成为支持最强的解释。",
+  "open_emotion": "反胃",
+  "answer": "disgust",
+  "mapping_reason": "此处的反胃指向对食物难以接受的排斥，按情绪轮最接近disgust；画面并不能单独证实他有实际的生理恶心反应。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_01（0.959秒）",
+      "observation": "Joey先低着视线、双眉收紧、嘴唇闭合；随后抬头看向Monica，眉间仍收紧并张口说话。",
+      "interpretation": "表情不显得轻松愉悦，但仅凭这些动作无法确定是反胃。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03（2.836秒）至frame_04（3.754秒）",
+      "observation": "Joey看着Monica时短暂牵起嘴角，接着笑意减弱，眉毛仍上扬、眉间略收紧。",
+      "interpretation": "短暂的笑容不足以表明他真正在开心；持续不舒展的神情与勉强打趣相容。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“We're talking about whipped fish, Monica. I'm just happy I'm keeping it down, y'know?”",
+      "observation": "字幕写明Joey谈论“whipped fish”，并说自己庆幸还能忍住不吐。",
+      "interpretation": "这为食物引起的反胃提供了比面部动作更明确的依据；字幕中的“happy”并不单独证明喜悦。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "frame_03的嘴角上扬支持打趣或短暂愉快的解释；画面没有明确的干呕动作，且没有提供音频，无法用语调进一步核实。"
+}

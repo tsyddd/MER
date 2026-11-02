@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00021837",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "人物坐在发言席前平稳讲述，面部表情整体严肃克制，未表现出明显的愤怒、悲伤、开心、担忧或惊讶。字幕内容是在陈述对一户人家的印象，没有直接的情绪强化。",
+  "output": "人物坐在发言席前平稳讲述，面部表情整体严肃克制，未表现出明显的愤怒、悲伤、开心、担忧或惊讶。字幕内容是在陈述对一户人家的印象，没有直接的情绪强化。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 20.81353187561035,
+  "node_count": null,
+  "edge_count": null
+}

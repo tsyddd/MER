@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00002038",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "当前人物在昏暗的木质室内，头部和视线朝向画面右侧，嘴部张开（person_0、context_0）。她说“他，是谁呀？”（process_0），结合皱眉和带有探询意味的表情，更像是在不安地询问身份，而非中性提问。",
+  "output": "当前人物在昏暗的木质室内，头部和视线朝向画面右侧，嘴部张开（person_0、context_0）。她说“他，是谁呀？”（process_0），结合皱眉和带有探询意味的表情，更像是在不安地询问身份，而非中性提问。\n<answer>worried</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 57.87740778923035,
+  "node_count": 3,
+  "edge_count": 0
+}

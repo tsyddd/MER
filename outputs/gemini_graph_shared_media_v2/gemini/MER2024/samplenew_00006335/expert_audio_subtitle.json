@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物在电话中使用了反问句式进行事实确认[E1]，其语音语调在反问词‘不是已经’处略带强调与不解，尾音上扬提问[E2]，结合视觉上双眼圆睁、神情发愣的错愕反应[E3]，整体表现出对电话那端传来的突发情况感到意外与吃惊（surprise）。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "关东军不是已经增兵甲子沟、煤矿了吗？",
+      "observation": "使用反事实反问句‘不是已经……了吗’进行质询",
+      "interpretation": "表明对方告知的信息违背了其原先的预设与认知，言语行为体现突发认知冲突",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "说话节奏略快且发音沉凝，重音落在‘不是已经’，句末语调上扬呈质询反问态",
+      "interpretation": "韵律反映出对意外情报的诧异与不敢置信",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.52s",
+      "observation": "面部微僵，镜片后双眼略微睁大，目光定注，嘴微张",
+      "interpretation": "与诧异、惊疑的听觉语义互证，支持意外惊诧的表现",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是worried（担忧），因为增兵煤矿往往关乎战局或安全隐患；但此时他处于刚获知信息、对事实违背预期感到难以置信的第一反应阶段，以反问求证为主，尚未显露明显的焦虑愁苦，故更倾向于surprise。"
+}

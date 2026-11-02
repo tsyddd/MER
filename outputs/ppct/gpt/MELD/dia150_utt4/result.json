@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia150_utt4",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "sadness",
+  "emotion_analysis": "当前目标人物Janice在咖啡馆内面向前景男子（context_0），保持双臂交叉且一只手靠近下巴或颈部（person_0），同时张嘴说话（person_1）。person_0与person_1通过person_joint共同呈现她以较紧张、克制的姿态说出“Good-bye Chandler Bing.”（process_0），告别语境和面部表现更符合伤感而非喜悦或愤怒。",
+  "output": "当前目标人物Janice在咖啡馆内面向前景男子（context_0），保持双臂交叉且一只手靠近下巴或颈部（person_0），同时张嘴说话（person_1）。person_0与person_1通过person_joint共同呈现她以较紧张、克制的姿态说出“Good-bye Chandler Bing.”（process_0），告别语境和面部表现更符合伤感而非喜悦或愤怒。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 77.89857077598572,
+  "node_count": 4,
+  "edge_count": 1
+}

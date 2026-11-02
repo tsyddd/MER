@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia153_utt11",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "fear",
+  "emotion_analysis": "The speaker, Chandler, is describing a hypothetical situation involving a gun, using the phrase 'peeing every which way' to emphasize his fear. His facial expression is one of mock terror, and his hand gesture is dramatic, indicating he is not genuinely afraid but is humorously exaggerating his fear for comedic effect.",
+  "output": "The speaker, Chandler, is describing a hypothetical situation involving a gun, using the phrase 'peeing every which way' to emphasize his fear. His facial expression is one of mock terror, and his hand gesture is dramatic, indicating he is not genuinely afraid but is humorously exaggerating his fear for comedic effect.\n<answer>fear</answer>",
+  "label": "fear",
+  "elapsed_seconds": 134.09734439849854,
+  "node_count": 13,
+  "edge_count": 5
+}

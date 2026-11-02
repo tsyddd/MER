@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia263_utt9",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "748766277a851f3c168859458c00ae3a054753904e4b2ab4fc17828900a7ca74",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "acceptance of loss",
+      "mapped_label": "sadness",
+      "mapping_reason": "根据当前证据，Ross的语调低沉平和，面部表情平静，没有表现出强烈的负面情绪如愤怒或恐惧。他正在陈述一个关于“放弃”的决定，这通常与某种形式的损失或失望相关。在MELD情绪轮中，'sadness'（悲伤）被定义为因失落、损失或痛苦而难过、哀伤或低落。Ross的平静接受和低落语调最符合这一定义，因此映射为'sadness'。虽然他的情绪是平静的，但这种平静是建立在一种失落感之上的，因此不应归类为中性。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "悲伤",
+      "mapped_label": "sadness",
+      "mapping_reason": "根据MELD项目适配情绪轮的定义，'sadness'指因失落、损失或痛苦而难过、哀伤或低落。说话者明确表达了放弃某人的决定，这是一种损失，其低沉的语调和放弃的措辞与'悲伤'的定义高度吻合。"
+    },
+    "image": {
+      "open_emotion": "平静",
+      "mapped_label": "neutral",
+      "mapping_reason": "根据MELD项目的定义，'neutral'指当前平稳、日常且没有明确主导情绪的表达。尽管台词内容暗示了悲伤，但目标人物的面部表情（眼神、嘴部、姿态）是克制和稳定的，没有表现出悲伤、愤怒或惊讶等主导情绪的视觉特征。因此，将这种在悲伤语境下的平静克制表达归类为中性是合理的。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标人物Ross的语调低沉平和，没有表现出愤怒、恐惧或惊讶等强烈情绪，这与音频和视觉证据一致。他的面部表情平静，没有明显的皱眉或嘴角变化，符合中性情绪的视觉特征。尽管字幕内容“I'm gonna have to give him up”暗示了失落，但其克制的平静表达更符合中性（neutral）的定义，因为它没有表现出主导的积极或消极情绪。因此，综合音频、字幕和视觉证据，最合理的标签是中性。",
+  "output": "目标人物Ross的语调低沉平和，没有表现出愤怒、恐惧或惊讶等强烈情绪，这与音频和视觉证据一致。他的面部表情平静，没有明显的皱眉或嘴角变化，符合中性情绪的视觉特征。尽管字幕内容“I'm gonna have to give him up”暗示了失落，但其克制的平静表达更符合中性（neutral）的定义，因为它没有表现出主导的积极或消极情绪。因此，综合音频、字幕和视觉证据，最合理的标签是中性。\n<answer>neutral</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 179.51935029029846
+}

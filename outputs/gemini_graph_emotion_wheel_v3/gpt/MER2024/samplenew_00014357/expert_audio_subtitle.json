@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物用赞美语称呼对方[E1]，说话过程中持续面带笑容，并在末尾向对方倾身[E2][E3]。话语与表情相互呼应，更像带着愉悦的亲近交流，而非单纯陈述。没有音频，不能判断语调或音量。",
+  "open_emotion": "愉悦",
+  "answer": "happy",
+  "mapping_reason": "当前的赞美表达与持续笑容共同支持正向愉悦，映射为happy；不只是因为台词出现了正面形容词。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "小区里最可爱，最漂亮的小美美。",
+      "observation": "目标人物称对方“最可爱，最漂亮”。",
+      "interpretation": "这是直接面向对方的赞美，为愉悦、亲近的交流提供话语依据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01，0.52秒；frame_03，1.6秒",
+      "observation": "目标人物朝画面左侧的人张口笑，随后仍带笑容、歪头看向对方。",
+      "interpretation": "笑容与赞美话语一致，支持当前的正向情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_07，3.76秒",
+      "observation": "目标人物向画面左侧倾身，仍面带笑容。",
+      "interpretation": "正向表情延续到片段末尾，而非仅是一瞬间的表情。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "也可能是在礼貌或带玩笑意味地恭维对方，笑容不能单独证明内心喜悦；但持续的笑容与面向对方的赞美相符。由于没有音频，无法进一步区分其声音中的情绪强度。"
+}

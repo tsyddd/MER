@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia186_utt3",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sadness",
+  "emotion_analysis": "The audio contains Joey saying, 'I'm sorry I gotta cancel tonight baby,' which is a direct expression of apology. His facial expression, with a slightly furrowed brow and a downward turn of the mouth, visually reinforces this feeling of regret or disappointment. The combination of the apologetic words and the corresponding sad facial cues indicates a state of sadness.",
+  "output": "The audio contains Joey saying, 'I'm sorry I gotta cancel tonight baby,' which is a direct expression of apology. His facial expression, with a slightly furrowed brow and a downward turn of the mouth, visually reinforces this feeling of regret or disappointment. The combination of the apologetic words and the corresponding sad facial cues indicates a state of sadness.\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 127.56343245506287,
+  "node_count": 11,
+  "edge_count": 4
+}

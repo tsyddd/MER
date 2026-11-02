@@ -1,0 +1,102 @@
+{
+  "Emotion-LLaMA": {
+    "MER2024": {
+      "correct": 33,
+      "total": 40,
+      "accuracy": 0.825,
+      "input_frames": 4
+    },
+    "MELD": {
+      "correct": 26,
+      "total": 40,
+      "accuracy": 0.65,
+      "input_frames": 4
+    },
+    "ALL": {
+      "correct": 59,
+      "total": 80,
+      "accuracy": 0.7375,
+      "input_frames": 4
+    }
+  },
+  "AffectGPT": {
+    "MER2024": {
+      "correct": 27,
+      "total": 40,
+      "accuracy": 0.675,
+      "input_frames": 4
+    },
+    "MELD": {
+      "correct": 31,
+      "total": 40,
+      "accuracy": 0.775,
+      "input_frames": 4
+    },
+    "ALL": {
+      "correct": 58,
+      "total": 80,
+      "accuracy": 0.725,
+      "input_frames": 4
+    }
+  },
+  "AffectGPT-RL": {
+    "MER2024": {
+      "correct": 31,
+      "total": 40,
+      "accuracy": 0.775,
+      "input_frames": 4
+    },
+    "MELD": {
+      "correct": 15,
+      "total": 40,
+      "accuracy": 0.375,
+      "input_frames": 4
+    },
+    "ALL": {
+      "correct": 46,
+      "total": 80,
+      "accuracy": 0.575,
+      "input_frames": 4
+    }
+  },
+  "OPPO": {
+    "MER2024": {
+      "correct": 32,
+      "total": 40,
+      "accuracy": 0.8,
+      "input_frames": 4
+    },
+    "MELD": {
+      "correct": 22,
+      "total": 40,
+      "accuracy": 0.55,
+      "input_frames": 4
+    },
+    "ALL": {
+      "correct": 54,
+      "total": 80,
+      "accuracy": 0.675,
+      "input_frames": 4
+    }
+  },
+  "VidEmo-7B": {
+    "MER2024": {
+      "correct": 27,
+      "total": 40,
+      "accuracy": 0.675,
+      "input_frames": 4
+    },
+    "MELD": {
+      "correct": 28,
+      "total": 40,
+      "accuracy": 0.7,
+      "input_frames": 4
+    },
+    "ALL": {
+      "correct": 55,
+      "total": 80,
+      "accuracy": 0.6875,
+      "input_frames": 4
+    }
+  }
+}

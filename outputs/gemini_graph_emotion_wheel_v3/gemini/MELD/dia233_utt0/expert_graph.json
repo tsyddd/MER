@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "事件链围绕Rachel当面向Phoebe求证其是否故意购置物品以排挤自己展开。尽管台词涉及将自己赶走（drive me out）的对质语境，且图谱节点[person_0]记录其保持单手叉腰面向对方的站姿，但核对真实音轨与连续画面发现，Rachel的发声连贯均匀、音量适中，仅在句末呈自然平稳的疑问升调，面部眉眼舒展，未出现愤怒的压迫性爆发或意外的惊诧表情，整体呈现出冷静求证、就事论事的平稳状态。",
+  "open_emotion": "平稳质询",
+  "answer": "neutral",
+  "mapping_reason": "Rachel在面对潜在排挤行为时表现出克制、从容且日常的探询态度，无明显的怒气冲撞或负向激化，符合情绪轮中neutral关于平稳、日常且无主导剧烈情绪体验的界定。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:04",
+      "observation": "Rachel在整句发问中语速从容、语调平缓连贯，句末呈常规升调，无高能量怒斥或颤抖。",
+      "interpretation": "听觉特征证实其内心未被剧烈情绪主导，属于平稳平常的发问沟通。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02至frame_05",
+      "observation": "Rachel注视对方开口说话时，眉毛平整舒展未紧蹙，嘴角放松，神情专注沉着。",
+      "interpretation": "排除了恼火瞪视或受惊扬眉的表情，支持其面部表达处于中性区间。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "图谱记录Rachel保持左手叉腰、身体朝向对面的站立姿势。",
+      "interpretation": "虽然叉腰与当前对峙互动相关，但结合未紧绷的体态，更多体现出一种放松、胸有成竹的平稳交流姿态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词内容涉及对方蓄意赶走自己的猜疑，且叉腰姿态常用于质难语境，容易被推断为愤怒（anger）；但实际视听模态均表现为从容平静，未产生负向激化对抗。"
+}

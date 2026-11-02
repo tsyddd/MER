@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物Joey坐在桌前，在被Monica触碰并谈及食物时，抬头面向Monica，眉心微蹙，嘴角下压且略带嫌恶的撇嘴与苦笑（frame_01至frame_05），面部呈现出针对令人不适话题（搅碎的鱼）的排斥与生理性反感情绪，结合台词与语音中对避免呕吐的表述，核心情感为厌恶与反胃。",
+  "open_emotion": "恶心反感",
+  "answer": "disgust",
+  "mapping_reason": "Joey因谈论难以接受的食物（whipped fish）而表现出不适与排斥，属于对令人反感对象的厌弃与反胃，符合情绪轮中disgust（厌恶）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01至frame_04 (0.96s - 2.84s)",
+      "observation": "Joey抬头看向Monica，眉头紧聚，眼神聚焦并带有困扰神情，嘴唇微张微撇，展现出明显的不悦与嫌恶生理反应。",
+      "interpretation": "显示出对当前所讨论食物内容的本能反感与厌弃。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04至frame_05 (3.75s - 4.71s)",
+      "observation": "Joey嘴角勉强扯动，露出一个类似苦笑的撇嘴表情，但眉眼间依然紧绷，并无真正舒展。",
+      "interpretation": "这种勉强的神态配合谈及'努力不吐出来'，体现出反讽与勉力忍耐反胃的感觉，并非喜悦。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "We're talking about whipped fish, Monica. I'm just happy I'm keeping it down, y'know?",
+      "observation": "台词明确说明讨论内容是令人反胃的鱼泥，自己只是在努力不吐出来。",
+      "interpretation": "验证了视觉上的面部抽动和皱眉是出于食物引起的生理排斥与恶心感。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "在frame_03和frame_04中Joey嘴角有轻微上扬弧度，且台词中出现'happy'，可能被表面误判为joy，但紧绷的眉心与后半句语境排除了真实愉悦。"
+}

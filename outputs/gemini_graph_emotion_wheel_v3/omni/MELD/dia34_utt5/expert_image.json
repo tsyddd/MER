@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "目标人物Rachel在听到字幕内容后，表现出明显的面部和姿态变化。从frame_00到frame_03，她先是睁大眼睛，嘴巴微张，随后身体前倾，手部有轻微的抬起和摊开动作，这些是典型的惊讶表情。她的视线始终集中在对话对象身上，表明情绪反应是针对该信息的。音频中她的话语“OH MY GOD!”与视觉上的惊讶表现完全一致，证实了这是一种由意外信息引发的惊讶情绪。虽然惊讶可以是中性或带有其他色彩，但在此情境下，结合其夸张的面部表情和语气，最直接的解释是惊讶。",
+  "open_emotion": "惊讶",
+  "answer": "surprise",
+  "mapping_reason": "根据情绪轮定义，'surprise'指面对违背预期的信息而感到意外、诧异或惊奇。Rachel的面部表情（睁大眼睛、张嘴）和身体姿态（前倾）是惊讶的典型视觉表现。音频中的感叹词'OH MY GOD!'和字幕内容'You're a 30 year old virgin!'共同构成了一个违背预期的、令人意外的信息，这与'surprise'的定义完全吻合。因此，该开放情绪词被准确映射到'surprise'。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "Rachel的双眼睁大，眉毛上扬，嘴巴微张，表情显得非常吃惊。",
+      "interpretation": "这是惊讶情绪的典型面部特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03",
+      "observation": "Rachel的身体前倾，靠近对话对象，手部有抬起和摊开的动作。",
+      "interpretation": "身体姿态的前倾和手势表明她对听到的信息感到震惊和难以置信。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "Rachel用高亢、夸张的语气说出“Oh my God!”。",
+      "interpretation": "这种语气是表达强烈惊讶的常见方式。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "subtitle",
+      "anchor": "Oh my God! You're a 30 year old virgin!",
+      "observation": "字幕内容为一个关于年龄和性经历的、具有冲击力的陈述。",
+      "interpretation": "该信息内容违背了社会常规预期，是引发惊讶情绪的直接原因。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。没有证据表明Rachel的情绪是愤怒、悲伤或厌恶。她的表情和语气是典型的惊讶，而非其他负面情绪。"
+}

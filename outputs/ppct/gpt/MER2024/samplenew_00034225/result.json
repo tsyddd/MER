@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00034225",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "主要人物在木质室内面向前景人物交流，节点person_0与person_1及其simultaneous关系表明他持续注视对方并说话。字幕节点process_0显示他询问“他不好对付啊”，随后process_1及after关系显示他又确认“是不是给你添麻烦了”，体现对情况和是否造成负担的担忧。",
+  "output": "主要人物在木质室内面向前景人物交流，节点person_0与person_1及其simultaneous关系表明他持续注视对方并说话。字幕节点process_0显示他询问“他不好对付啊”，随后process_1及after关系显示他又确认“是不是给你添麻烦了”，体现对情况和是否造成负担的担忧。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 53.68320107460022,
+  "node_count": 5,
+  "edge_count": 4
+}

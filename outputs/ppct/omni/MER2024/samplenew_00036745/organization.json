@@ -1,0 +1,3 @@
+{
+  "text": "一名男性〔person_0〕坐在电脑前，面前是一台联想笔记本电脑〔context_1〕，背景为室内环境，有百叶窗和展台〔context_0〕。他正在说话，嘴部有开合动作〔person_1〕，声调平稳，语速正常，有自然停顿〔person_3〕，眼神朝向电脑屏幕方向〔person_2〕。在说话的同时，他抬起右手，食指指向前方〔process_1〕，并抬起左手，手掌向上摊开〔process_2〕。他所说的内容为“前两天，他跟汪淼一起，观测了宇宙，手术，我去查。”〔process_0〕。这些行为和话语共同构成了他正在叙述一个事件的互动过程〔process_0 process_joint process_1〕，其注意力集中在电脑上〔person_0 person_joint person_2〕，并结合手势辅助表达内容〔process_0 process_joint process_2〕。当前场景和任务表明他正与电脑进行互动〔context_0 context_joint context_2〕。这些表现可能反映他正在有条理地陈述一段经历，试图通过语言和手势增强表达的清晰度，同时保持对电脑界面的关注以辅助回忆或核对信息。"
+}

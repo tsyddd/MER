@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "Janice在对话中表现出强烈的肢体语言和面部表情。从frame_02到frame_06，她先是交叉双臂，随后展开双手，做出手势，同时面部表情夸张，眉毛上扬，嘴巴张开，显示出一种戏剧化的、带有讽刺意味的激动。这种表现与她所说的内容（关于“残酷剧院”）相匹配，表明她并非在表达字面意义的恐惧或悲伤，而是在用一种夸张的方式进行评论或讽刺。在frame_07和frame_08，她的表情和姿态趋于平静，但整个过程的动态变化都指向一种带有表演性质的激动情绪。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.0",
+      "observation": "Janice双臂交叉，身体前倾，表情严肃。",
+      "interpretation": "这是一个准备开始表达或强调某个观点的姿态，为后续的戏剧化表达做铺垫。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 3.128",
+      "observation": "Janice双手张开，做出手势，面部表情夸张，眉毛上扬。",
+      "interpretation": "这是典型的表达惊讶、戏剧化或讽刺时的肢体语言，与她所说的内容相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_06 @ 5.255",
+      "observation": "Janice双手合十，放在胸前，表情显得有些夸张和激动。",
+      "interpretation": "这个手势和表情进一步加强了她话语中的戏剧性和夸张感，表明她正处于一种情绪化的表达中。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "00:00-00:07",
+      "observation": "Janice的语调高昂，语速较快，带有明显的戏剧化和夸张色彩。",
+      "interpretation": "音频中的语调与视觉上的夸张表情和手势完全一致，共同指向一种非字面意义的、带有表演性质的激动情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽然Janice的语调和表情非常夸张，但其内容（“残酷剧院”）本身可能引发恐惧或厌恶。然而，她的表演方式更像是一种讽刺或评论，而非真实的恐惧。视觉和听觉证据都强烈支持这是一种戏剧化的、带有惊讶和讽刺意味的表达，而非真实的恐惧或厌恶。"
+}

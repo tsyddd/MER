@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "目标人物Chandler在画面中伴随语言做出轻微摆手制止手势[E1]，面部虽有说话口型变化及轻微歪嘴/斜视的调侃动作[E2]，但缺乏明显的颧大肌持续收缩（真性微笑）或眉眼强情绪动作，整体表情与动作属于自然的言语交流表现，支持neutral。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.46s",
+      "observation": "Chandler面向画面右侧，右手抬起在胸前微微推拒/摆手，口型轻张发音。",
+      "interpretation": "举手动作与台词中的否定内容相匹配，属于常规的肢体互动与表意，无过激或失控体态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_06 @ 2.67s",
+      "observation": "Chandler眼神略向右上侧挑动，嘴角轻微闭合并微动，面部肌肉较为松弛，未见皱眉、耸鼻或明显的眼角笑纹。",
+      "interpretation": "神态虽带有一丝戏谑或讽刺意味，但未产生明显的快乐（joy）或厌恶（disgust）核心面部动作单元，属于克制常态下的表达。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强相反解释为joy（戏谑调侃带来的轻微愉悦感）或disgust（对‘embarrassing’所表达的嫌弃）。但由于其未出现明显的双颊提升、眼周挤压（joy特征），亦无上唇上提或鼻翼褶皱（disgust特征），视觉证据不足以支撑强情绪标签，故未采用。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia40_utt0",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "joy",
+  "emotion_analysis": "Monica面带明显笑容，表情逐渐变得更加开心，并对话中说“Yeah baby!”。这些视觉和字幕证据显示她当前情绪积极愉悦。",
+  "output": "Monica面带明显笑容，表情逐渐变得更加开心，并对话中说“Yeah baby!”。这些视觉和字幕证据显示她当前情绪积极愉悦。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 18.158710956573486,
+  "node_count": null,
+  "edge_count": null
+}

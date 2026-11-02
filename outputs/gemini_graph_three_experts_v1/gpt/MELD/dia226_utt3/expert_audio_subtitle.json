@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。字幕中的“wish”和希望对方“open up”“share some feelings”表达了未能实现的愿望及略带失落、关切的态度。",
+  "answer": "sadness",
+  "evidence_refs": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia50_utt2",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "fcd38a66edaf51c357f7f05241b31338cc6543efc841a51ccf79324b15367974",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "目标人物（女性学生）在音频中说“I'm so sorry!”，其语调颤抖且急促，表明情绪激动，这与平静的中性或单纯的愤怒不同，更符合因失控或冲突而产生的懊悔或惊慌，这些情绪通常与悲伤（sadness）相关联。虽然图谱中描述了她仓皇离开的行为，但音频中颤抖的语调是判断其情绪状态的关键证据，且该证据可直接核实。视觉证据显示她身体前倾，姿态与道歉一致，但面部被遮挡，无法确认表情。综合来看，音频证据的可信度和区分力强于视觉证据，因此选择'sadness'。",
+  "output": "目标人物（女性学生）在音频中说“I'm so sorry!”，其语调颤抖且急促，表明情绪激动，这与平静的中性或单纯的愤怒不同，更符合因失控或冲突而产生的懊悔或惊慌，这些情绪通常与悲伤（sadness）相关联。虽然图谱中描述了她仓皇离开的行为，但音频中颤抖的语调是判断其情绪状态的关键证据，且该证据可直接核实。视觉证据显示她身体前倾，姿态与道歉一致，但面部被遮挡，无法确认表情。综合来看，音频证据的可信度和区分力强于视觉证据，因此选择'sadness'。\n<answer>sadness</answer>",
+  "label": "fear",
+  "elapsed_seconds": 145.57529473304749
+}

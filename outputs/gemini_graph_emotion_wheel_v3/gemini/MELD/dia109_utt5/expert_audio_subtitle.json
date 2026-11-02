@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物在音频开头使用反诘句'Oh are you sure? Really?'，语调高亢尖锐，带有极其明显的鼻音与戏谑讽刺色彩；紧接着以刻意夸张的顿挫和重音说出'make little puppets out of them'以及'theater of cruelty'，语义上直指对方冷酷无情，属于典型的防御性挖苦与言语攻击。视觉上手势动作虽配合台词比划木偶，但眼神和紧绷的面部表情以及随后迅速抱胸的肢体语言均显示出因受到冒犯和伤害而产生的对抗与愠怒[E1][E2]。",
+  "open_emotion": "愤慨",
+  "answer": "anger",
+  "mapping_reason": "目标人物通过反讽与挖苦宣泄对对方残忍行为的强烈不满与指责，言语行为具有对抗性和攻击性，完全符合anger家族中'因冒犯、受阻或不公而恼火、责备与对抗'的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:06",
+      "observation": "目标人物声音高亢刺耳、带有夸张的鼻音上扬，在'puppets'和'theater of cruelty'上加重语气，句尾语调尖锐下落，随后伴随背景观众笑声。",
+      "interpretation": "夸张刺耳的语调并非真正开心或开玩笑，而是借由戏剧化挖苦表达内心的被冒犯感与怨怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Because you know, you could make little puppets out of them, and you could use them in your theater of cruelty.",
+      "observation": "使用明讽暗刺的比喻（theater of cruelty）直接指责对方冷酷残忍。",
+      "interpretation": "言语行为实质是对对方提出分手/绝情行为的责难与抗议，体现负面敌意。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "从最初双手交叉抱胸，到比划手势时嘴角略带冷笑，再到说完后立刻恢复双手抱胸的封闭姿态。",
+      "interpretation": "肢体语言封闭且具防御性，表情带有怨气与嘲讽，支持其愤慨不满的心态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "话语中带有情景喜剧式的夸张调侃和比喻，可能被误判为joy或戏谑幽默，但其指涉对象是对方的残忍（cruelty），声调尖锐带刺且身体呈对抗姿态，排除了真正的愉悦体验。"
+}

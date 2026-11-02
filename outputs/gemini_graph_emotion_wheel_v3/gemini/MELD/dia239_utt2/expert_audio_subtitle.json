@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "钱德勒原本以为洗手间里是男性熟人，以带抱怨的口吻说出前半句“Jeez, man did you fall..”，但在看见走出的是一位陌生漂亮女性时话音骤停，语调陡然变高并慌乱改口为“Hi!”，随后语速紊乱、结巴重复“did-did-did ya fall high”，表现出面对意料之外情况时的惊诧与措手不及[E1][E2]。",
+  "open_emotion": "意外",
+  "answer": "surprise",
+  "mapping_reason": "面对违背预期的突发人物出现而瞬间发懵、言语中断与结巴，属于“意外/惊愕”体验，对应项目情绪轮中的surprise家族。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:01 - 00:03",
+      "observation": "说话者在发声中途“fall...”处被突然打断，随后语调突兀抬升并发出仓促的“Hi!”，语流出现明显的断裂与重组。",
+      "interpretation": "语音被打断和语调急转显示出说话者受到突发刺激而产生意外感。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Jeez, man did you fall.. Hi! So ah, did ya, did-did-did ya fall high?",
+      "observation": "原句由原本面向男性的调侃埋怨骤然中断，转为结巴失措的“did-did-did ya”，言语组织严重混乱。",
+      "interpretation": "句式突变与严重口吃反映了说话者猝不及防的失态与惊诧反应。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "结巴可能伴随尴尬或搭讪时的紧张感，但语言与韵律的突然转折根源于对方身份完全打破了其原先的预设，惊讶占据主导地位。"
+}

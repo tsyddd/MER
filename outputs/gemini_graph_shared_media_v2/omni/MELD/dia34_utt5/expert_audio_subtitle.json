@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者以高音调、快速节奏和明显升调说出'Oh my God!'，表现出强烈的惊讶。后续话语'You're a 30 year old virgin!'的语调也保持在高位，带有戏剧化的强调，与字幕内容和视觉上惊讶的表情一致，共同指向'惊喜'情绪。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:03.378",
+      "observation": "音频中说话者以高亢、快速的语调说出'Oh my God! You're a 30 year old virgin!'，语调在句首和句末明显上扬。",
+      "interpretation": "这种高亢、快速且带有升调的语调是表达强烈惊讶或震惊的典型声音特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "Oh my God! Youre a 30 year old virgin!",
+      "observation": "字幕内容为'Oh my God! You're a 30 year old virgin!'，这是一个表达震惊的感叹句。",
+      "interpretation": "字幕内容本身是表达惊讶的直接证据，与音频的语调和视觉表情相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 @ 00:00:00.000",
+      "observation": "在音频开始时，Rachel的嘴巴张开，眼睛睁大，表情显得非常惊讶。",
+      "interpretation": "视觉上，她的面部表情与音频中表达的惊讶情绪完全一致，为音频的解读提供了有力的视觉支持。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。音频的语调、字幕内容和视觉表情三者高度一致，都明确指向'惊喜'情绪，没有其他合理的替代解释。"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia40_utt0",
+  "dataset": "MELD",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "254c3294b62a3335eb4728ae3603d205e9201e73ba279aea4479f5c9c586672e",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "开心",
+      "mapped_label": "joy",
+      "mapping_reason": "开放情绪‘开心’对应个体在人际互动中体验到的正向愉悦、欣喜与满足感，直接归属于情绪轮中的joy家族。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "开心",
+      "mapped_label": "joy",
+      "mapping_reason": "Monica表现出愉悦、开朗的正向情绪体验，符合情绪轮中joy的定义。"
+    },
+    "image": {
+      "open_emotion": "开心",
+      "mapped_label": "joy",
+      "mapping_reason": "Monica表现出明亮、开怀的笑容与兴奋的互动体验，完全契合joy家族关于愉悦、开心及兴奋的正向情感定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "独立回看音频与视频核验，目标人物Monica（穿白色外套）在说出台词“Yeah baby!”时，语调轻快且伴随明显的笑意[audio_subtitle:E1]，音轨表现高度积极兴奋[image:E2]；视觉上她在0.83秒至1.46秒（frame_04至frame_07）嘴角充分展开并展露明亮的露齿微笑[image:E1]，整个人呈现出亲密自然的放松与愉悦状态。三位专家意见高度一致，音频中的兴奋活力与视觉上的真实露齿笑容形成互补，排除了中性或单纯客套的可能，完全符合joy的定义。",
+  "output": "独立回看音频与视频核验，目标人物Monica（穿白色外套）在说出台词“Yeah baby!”时，语调轻快且伴随明显的笑意[audio_subtitle:E1]，音轨表现高度积极兴奋[image:E2]；视觉上她在0.83秒至1.46秒（frame_04至frame_07）嘴角充分展开并展露明亮的露齿微笑[image:E1]，整个人呈现出亲密自然的放松与愉悦状态。三位专家意见高度一致，音频中的兴奋活力与视觉上的真实露齿笑容形成互补，排除了中性或单纯客套的可能，完全符合joy的定义。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 45.75444841384888
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia109_utt5",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "Janice在餐桌前紧蹙眉头，带着强烈的讽刺与责备神态质问对方，手势激动且言语带有尖锐的愤怒与敌意（指责对方的“残忍剧场”）。",
+  "output": "Janice在餐桌前紧蹙眉头，带着强烈的讽刺与责备神态质问对方，手势激动且言语带有尖锐的愤怒与敌意（指责对方的“残忍剧场”）。\n<answer>anger</answer>",
+  "label": "anger",
+  "elapsed_seconds": 8.511895656585693,
+  "node_count": null,
+  "edge_count": null
+}

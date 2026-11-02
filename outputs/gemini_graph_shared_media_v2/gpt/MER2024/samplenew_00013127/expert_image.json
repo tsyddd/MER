@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物是画面左侧身穿紫色服饰者，旁人位于右侧且背对镜头。其从frame_00到frame_07持续面向对方，嘴角上扬、露齿，眼睛相对放松，后段笑容仍明显；结合字幕中的调侃与认可语气内容，最支持其当前表现为开心，而非单纯中性。",
+  "answer": "happy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0s至frame_01 @ 0.48s",
+      "observation": "目标人物嘴角上扬并露齿，张口说话时面部整体呈微笑形态。",
+      "interpretation": "可见的持续上扬嘴角和露齿表情支持开心或愉悦表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.88s至frame_07 @ 3.28s",
+      "observation": "目标人物继续直视右侧对方，眼睛睁开，嘴角保持明显上扬，后几帧笑容较稳定。",
+      "interpretation": "表情并非单个瞬间变化，而是持续维持笑容，增强对happy的支持。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "当前字幕：“以前啊，以为你圆滑伶俐，还真是小看你了。”",
+      "observation": "字幕内容是在带有调侃意味地承认、称赞对方。",
+      "interpretation": "该语言内容与目标人物的笑容相互印证其愉悦、轻松的表达。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "笑容也可能是礼貌性或带调侃意味的社交微笑，且没有音频可核查语调；但画面中笑容从开头延续至结尾，未见明显紧张、悲伤或愤怒线索，因此未采用其他标签。"
+}

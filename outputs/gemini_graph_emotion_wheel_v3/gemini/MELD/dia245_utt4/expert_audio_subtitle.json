@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Monica在听到Rachel的声音并看到其举动时，迅速打破原本放松的阅读状态，急促扔下书本并站起冲向门口。音轨中她以极高的音调和急迫短促的节奏反复喊出否定词'No-no-no, no!'，声音充满慌乱与恐慌感，表现出阻止严重不良后果发生时的惊慌与焦虑。",
+  "open_emotion": "惊慌",
+  "answer": "fear",
+  "mapping_reason": "开放情绪'惊慌/慌乱'体现了面对即将发生的意外或负面后果时的恐惧与高度焦虑反应，符合情绪轮中fear（威胁相关的惊恐与慌乱）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00.30 - 00:01.80",
+      "observation": "Monica以极高音调、急促尖锐的语速连续高呼'No-no-no, no!'，尾音带有明显的慌张颤抖感与紧急制止意图。",
+      "interpretation": "高音频、急促连发否定词体现了极度的惊慌失措与恐慌情绪，而非平缓或单纯生气。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02至frame_05（0.58s - 1.41s）",
+      "observation": "Monica原本坐在沙发上，表情骤然紧张惊愕，猛地甩下手中的书本并仓促起身冲出。",
+      "interpretation": "突发性的防御性身体动作印证了语言中传达的恐慌与急迫感。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "No-no-no, no!",
+      "observation": "台词为连续重复的否定阻拦词'No-no-no, no!'。",
+      "interpretation": "言语行为属于紧急阻止对方行动的焦虑反应，直接对应恐慌情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "高分贝叫喊可能被误判为愤怒（anger）或单纯惊讶（surprise），但其语调中的尖锐求止感和慌乱逃避恶果的行为指向对不良后果的害怕与惊慌（fear），而非冒犯后的攻击与责备。"
+}

@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "她说“皇上闻着，正好，消乏，安睡”，是在说明所闻之物有助于消乏、安睡，而非表达自己正感到喜悦或担忧[E1]。画面中她面向对方持续说话，神情较平和，偶有浅笑，与温和说明的语义一致[E2]。据此，当前表达更接近平常的关照与介绍。",
+  "open_emotion": "平和",
+  "answer": "neutral",
+  "mapping_reason": "“平和”指当前以自然、温和的交流为主，没有足够证据表明某种更明确的情绪占主导，因此映射为neutral。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“皇上闻着，正好，消乏，安睡。”",
+      "observation": "话语陈述闻着正好，并说明消乏、安睡的作用。",
+      "interpretation": "属于向对方介绍益处；句中没有明确的喜悦、责备或对负面结果的忧虑。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01（0.32秒）至frame_06（1.96秒）",
+      "observation": "女子看向右侧对话对象，持续开口说话，间有浅笑，面部没有明显剧烈变化。",
+      "interpretation": "视觉表现与温和交流相符，但浅笑本身不足以判定喜悦占主导。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "浅笑和关照对方的措辞也可能体现轻微愉悦；但片段未提供音频，无法核验语调，现有话语与画面不足以确认喜悦是主导情绪。"
+}

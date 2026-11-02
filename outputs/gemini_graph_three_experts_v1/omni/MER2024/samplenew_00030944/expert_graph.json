@@ -1,0 +1,12 @@
+{
+  "expert": "graph",
+  "reason": "女子在组织文本中表现出持续的担忧情绪，其面部特征如‘眉心微皱’（person_0）和‘眉心依旧微皱’（person_2）与话语内容‘我还不放心呢’（process_1）和‘你万一要想不开怎么办呢’（process_2）相一致，且语调被描述为‘缓和而关切’（person_1），表明其情绪为关切与担忧，符合‘worried’标签。",
+  "answer": "worried",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "person_2",
+    "process_1",
+    "process_2"
+  ]
+}

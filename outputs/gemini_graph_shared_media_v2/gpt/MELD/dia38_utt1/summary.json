@@ -1,0 +1,9 @@
+{
+  "reason": "目标人物是画面左侧的Joey；字幕中他明确说学生获得试镜机会，自己“I'm so proud”，这是对自身感受的表达，[audio_subtitle:E1]可由字幕核实。画面中他先略微蹙眉、双手按胸，随后逐渐露出笑容，[image:E1][image:E2]所述变化与自豪带来的喜悦相符。蹙眉和按胸单独也可能表示感伤，但不足以推翻后续笑容与明确的正面措辞；未提供音轨，因此不依据语调判断。",
+  "answer": "joy",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "image:E1",
+    "image:E2"
+  ]
+}

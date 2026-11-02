@@ -1,0 +1,9 @@
+{
+  "reason": "目标Rachel是右侧金发女子；她面向交谈对象，从微笑转为露齿笑，整理头发后仍在笑，这一视觉变化可由画面核实[image:E1][image:E2]。字幕中她道谢并称赞“it was excellent”，与笑容相互支持，较符合当前的愉悦，而非仅凭一个正向词判断[audio_subtitle:E1]。礼貌性微笑是最强反证，但持续的笑容加上明确称赞使纯粹客套的解释较弱；未提供音轨，不能核验语调。",
+  "answer": "joy",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "audio_subtitle:E1"
+  ]
+}

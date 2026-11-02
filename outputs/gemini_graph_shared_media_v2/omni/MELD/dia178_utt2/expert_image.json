@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "Monica's facial expression and body language across the frames show a consistent smile and relaxed posture. She is holding a baby, looking at it with a gentle expression, and her mouth is open in a smile in multiple frames. These visual cues, combined with the positive and amused tone of her voice in the audio, support the conclusion of joy.",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "Monica is holding a baby and has a slight smile on her face.",
+      "interpretation": "The smile indicates a positive emotional state, consistent with joy.",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 3.294955775137856",
+      "observation": "Monica is smiling broadly, showing her teeth, and looking down at the baby.",
+      "interpretation": "A broad smile is a strong visual indicator of happiness or joy.",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "Monica says, 'Nope, sound like me.'",
+      "interpretation": "Her light, amused tone of voice supports the visual evidence of a happy expression.",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "00:02-00:05",
+      "observation": "Monica says, 'Pheebs, it's going great. Look at Chandler with little baby girl Chandler.'",
+      "interpretation": "The content of her speech is complimentary and expresses delight, which aligns with the emotion of joy.",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "There is no visual or auditory evidence to support any other emotion. The scene is clearly positive and lighthearted."
+}

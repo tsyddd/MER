@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "“Good-bye Chandler Bing.”是向对方告别，本身不足以判定情绪[E1]。Janice说话时眉头上扬、嘴角未见笑意，手按在胸前并保持双臂收拢，较支持带有不舍的悲伤表达[E2]。没有音频，无法核实语调。",
+  "answer": "sadness",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Good-bye Chandler Bing.",
+      "observation": "Janice以姓名称呼对方并说再见。",
+      "interpretation": "明确是告别，但告别可以出于多种情绪，单凭措辞不能确定悲伤。",
+      "polarity": "uncertain"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 1.2929573294844752秒",
+      "observation": "Janice面对左侧人物，眉头上扬，手按在胸前，另一只手臂横在身前；表情未见笑意。",
+      "interpretation": "收拢的姿态和略显沉重的神情，与不舍的告别较为一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "也可能只是郑重或带表演性的普通告别；字幕没有直接表达难过，且没有音频可辨语调，因此悲伤判断主要依赖有限的面部与姿态线索。"
+}

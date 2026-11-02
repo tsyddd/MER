@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物在听到或看到墙面突发险情时，发出一声惊骇的短促呼喊并紧接着以极其尖锐、慌乱而急促的语调连喊'No-no-no, no!'[E1][E2]，伴随惊慌扔下手中的书本并仓皇起身阻止的肢体动作[E3]，体现出强烈的惊恐与本能的避险恐慌（fear）。",
+  "answer": "fear",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00 - 00:02",
+      "observation": "音轨中目标人物先发出惊吓的短促抽吸声，随后以高音高、急促颤抖且音量骤增的慌乱语调尖叫'No-no-no, no!'",
+      "interpretation": "高频、急促的语速和尖锐的音调表现出高度的惊慌与恐慌危机感，而非平稳或愤怒的训诫。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "No-no-no, no!",
+      "observation": "台词为连续重复的否定词'No-no-no, no!'，呈现情急之下的阻拦与求停言语行为。",
+      "interpretation": "在险情突发时刻本能地喊出连续否定，表明强烈试图阻止迫在眉睫的危险，契合恐惧/惊慌心理。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.58s - frame_05 @ 1.42s",
+      "observation": "Monica原本在沙发上放松阅读，突然神情惊骇、双眼瞪大、嘴部张开，迅速丢下手里的书并慌忙向前翻身冲出。",
+      "interpretation": "身体的应激逃逸/阻拦动作与惊恐面部表情印证了声音中传递出的突发性恐惧状态。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释为惊奇（surprise）或愤怒（anger）。突发事件确实带有意外性，但Monica声音中强烈的尖叫质感与急迫逃避危险的慌乱行为超越了中性的意外惊奇；同时音调呈现的是惊恐防卫而非低沉攻击性的训斥，故排除anger。"
+}

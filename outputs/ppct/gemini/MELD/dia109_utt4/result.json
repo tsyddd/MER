@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia109_utt4",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "在片段中，Janice面向男士说出“Oh, are you sure?”（对应节点 process_0 与 person_0），同时伴随着声音明显上扬且起伏较大的听觉特征（对应节点 person_1 与 person_0 的同时联合关系）。其挑眉、意外探询的表情和语调清楚表达了对男士回应的意外与求证，情绪指向 surprise。",
+  "output": "在片段中，Janice面向男士说出“Oh, are you sure?”（对应节点 process_0 与 person_0），同时伴随着声音明显上扬且起伏较大的听觉特征（对应节点 person_1 与 person_0 的同时联合关系）。其挑眉、意外探询的表情和语调清楚表达了对男士回应的意外与求证，情绪指向 surprise。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 39.3631546497345,
+  "node_count": 8,
+  "edge_count": 7
+}

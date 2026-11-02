@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia66_utt2",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "5a18845c511d8d042e0aafc9325f0ce10daa1e74888c7cd85c82140504ee351d",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "目标人物Rachel在多个帧中表现出明显的微笑，如frame_01和frame_02，其嘴角上扬且眼周有皱纹，这是真诚的joy表情。她的姿态放松，与另一人进行对话。音频中她以平稳的语调说出“Yes, I did. Thank you very much, it was excellent.”，内容是积极的肯定和感谢，与视觉上的微笑和积极姿态相吻合。虽然audio_subtitle专家认为语调平稳，应为neutral，但视觉证据显示了明确的微笑，且字幕内容支持积极情绪，因此综合判断为joy。",
+  "output": "目标人物Rachel在多个帧中表现出明显的微笑，如frame_01和frame_02，其嘴角上扬且眼周有皱纹，这是真诚的joy表情。她的姿态放松，与另一人进行对话。音频中她以平稳的语调说出“Yes, I did. Thank you very much, it was excellent.”，内容是积极的肯定和感谢，与视觉上的微笑和积极姿态相吻合。虽然audio_subtitle专家认为语调平稳，应为neutral，但视觉证据显示了明确的微笑，且字幕内容支持积极情绪，因此综合判断为joy。\n<answer>joy</answer>",
+  "label": "joy",
+  "elapsed_seconds": 156.51250171661377
+}

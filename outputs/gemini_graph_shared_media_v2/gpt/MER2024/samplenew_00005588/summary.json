@@ -1,0 +1,9 @@
+{
+  "reason": "我核验了frame_01至frame_07：目标人物持续低垂并偏向左侧注视，眉眼收紧、嘴角下压，整体表现克制而低落，支持sad而非happy或surprise。[image:E1][image:E2]字幕原话“过去的事，不怪你”体现安慰和宽解，不能单独证明悲伤，但与上述沉重的视觉状态相互补。[audio_subtitle:E1]neutral是最强反证，因为表情变化幅度小且语气无法核验；不过持续的下垂视线和收紧表情比单纯平静安慰更支持sad，图谱所述语调因无音轨不能作为决定性依据。",
+  "answer": "sad",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "audio_subtitle:E1"
+  ]
+}

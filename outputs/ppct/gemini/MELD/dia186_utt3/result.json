@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia186_utt3",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sadness",
+  "emotion_analysis": "Joey靠坐在扶手椅上持手机通话〔person_0〕，说话时头部微偏、视线下垂且双眼微垂〔person_1〕，与其平缓低沉的语调同步呈现〔person_1 simultaneous person_2〕。通过躯体姿态、面部表情与语调特征的联合表现〔person_0 person_joint person_1〕〔person_1 person_joint person_2〕，配合他在电话中道歉取消约会的言语〔process_0〕，整体呈现出明显的无奈与歉疚神态，符合sadness情绪。",
+  "output": "Joey靠坐在扶手椅上持手机通话〔person_0〕，说话时头部微偏、视线下垂且双眼微垂〔person_1〕，与其平缓低沉的语调同步呈现〔person_1 simultaneous person_2〕。通过躯体姿态、面部表情与语调特征的联合表现〔person_0 person_joint person_1〕〔person_1 person_joint person_2〕，配合他在电话中道歉取消约会的言语〔process_0〕，整体呈现出明显的无奈与歉疚神态，符合sadness情绪。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 58.7071750164032,
+  "node_count": 5,
+  "edge_count": 4
+}

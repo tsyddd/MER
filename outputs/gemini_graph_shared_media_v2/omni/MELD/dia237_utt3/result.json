@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia237_utt3",
+  "dataset": "MELD",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "ce972a653956a31614b7e25f45b63c679edd7dc7223fe0ddbbd92ef5105cd4d2",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "joy",
+  "emotion_analysis": "Joey的言语内容（'I'm just happy I'm keeping it down'）直接表达了他对能够保持不呕吐的庆幸，这是判断其情绪为joy的最直接证据。图像证据显示他正专注地与Monica对话，面部表情与言语内容一致，没有表现出痛苦或厌恶。尽管音频转录提到其语调疲惫，但'keeping it down'的语境和他表达的'happy'一词共同指向一种对摆脱不适的满足感，而非中性或惊讶。因此，综合直接言语证据和视觉表现，joy是最符合的标签。",
+  "output": "Joey的言语内容（'I'm just happy I'm keeping it down'）直接表达了他对能够保持不呕吐的庆幸，这是判断其情绪为joy的最直接证据。图像证据显示他正专注地与Monica对话，面部表情与言语内容一致，没有表现出痛苦或厌恶。尽管音频转录提到其语调疲惫，但'keeping it down'的语境和他表达的'happy'一词共同指向一种对摆脱不适的满足感，而非中性或惊讶。因此，综合直接言语证据和视觉表现，joy是最符合的标签。\n<answer>joy</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 168.42657041549683
+}

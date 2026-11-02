@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。字幕中说话人明确拒绝再增加人物，并评价Ross和Joey“已经够令人尴尬”，体现出对情境的负面嫌弃态度，最符合disgust。",
+  "answer": "disgust",
+  "evidence_refs": []
+}

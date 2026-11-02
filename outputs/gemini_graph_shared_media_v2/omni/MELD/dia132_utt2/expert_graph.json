@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "Phoebe在描述一位男性时，使用了“very attractive”这一带有积极评价的词汇。图谱中的节点process_2明确记录了她说出这句话的事件，这直接支持了她当时情绪为joy的判断。她的肢体动作（双手在身前摆动）与平稳的语速（person_2）共同营造了一种轻松、分享的氛围，而非中性或负面情绪。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_2",
+      "observation": "Phoebe对红衣女子说出“very attractive”",
+      "interpretation": "该陈述是直接的积极评价，是判断其情绪为joy的最直接证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "Phoebe抬起双手在腰腹前翻动比划，嘴部配合说话张合",
+      "interpretation": "该手势表明她正在积极地描述和分享信息，与joy的情绪状态相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "Phoebe语速平稳，语气自然带停顿",
+      "interpretation": "平稳的语速和自然的停顿表明她处于一种放松、舒适的交流状态，这与joy的情绪一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无明确反证。虽然图谱中没有直接记录Phoebe的面部表情，但其言语内容和肢体语言均指向积极情绪，因此joy是当前情境下最合理的判断。"
+}

@@ -1,0 +1,77 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "车外男子俯身在车窗旁对车内女子说话：‘你先上我的车，先回去’",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "车外男子佩戴眼镜，身体前倾弯腰，单手搭在车窗边框上，视线朝向车内女子",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "车内女子侧坐于车内，视线未转向男子，保持静默",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "车外男子嘴唇开合发声，语调低沉平缓",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室外日光环境下，一辆汽车旁，男子站在车外车窗边与坐在车内的女子对话",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_2",
+      "target": "person_0",
+      "relation": "after",
+      "reason": "车外男子在俯身单手搭窗看向车内女子之后开口说话",
+      "entity_anchor": "车外男子"
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_0提供了车外男子的肢体前倾姿态、搭车窗动作及视线方向，person_2补充了其说话时的口型动态与低沉平缓的语调特征，两者联合更完整地展现了该男子俯身劝导时的身姿与言语发声表现。",
+      "entity_anchor": null
+    }
+  ]
+}

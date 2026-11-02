@@ -1,0 +1,8 @@
+{
+  "reason": "我核看frame_00至frame_07，目标女性持续眉心收紧、视线固定向画面右侧、嘴微张，未见笑容或明显瞬时惊跳，这是对原始帧的直接核验。[image:E1]字幕“他，是谁呀？”确实是即时身份追问，与持续紧绷的视觉状态互补；该问句本身不能单独区分担忧和惊讶。[audio_subtitle:E1]最强反证是surprise，但表情在0.0至0.8秒间持续而非短暂扩张，因此取worried；原始音轨缺失，不能核实任何语调转述。",
+  "answer": "worried",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E1"
+  ]
+}

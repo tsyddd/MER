@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00002333",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "0e9fbf235f4db8f0d6cbb4c5b79681cf485a4b2bfdd80a92849380e07b412f8e",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "轻松愉悦",
+      "mapped_label": "happy",
+      "mapping_reason": "目标人物在交流中表现出明显的露齿微笑、身体放松倚靠及发声时的轻快带笑气声，体现了当前正向愉悦、松弛的情绪状态，符合happy（喜悦/愉悦）家族定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "绝望无力",
+      "mapped_label": "sad",
+      "mapping_reason": "说话人处于彻底丧失主动权与能量的瘫软状态，音频充满衰竭气声与叹息，反映出面对不可挽回局面的崩溃与沉沦，在情绪轮中归入以失落、低落、无力为主导的sad家族。"
+    },
+    "image": {
+      "open_emotion": "戏谑",
+      "mapped_label": "happy",
+      "mapping_reason": "目标人物面部呈现持续的露齿微笑与眼角笑纹，伴随调侃自若的神态，符合happy家族中戏谑、愉悦与轻松的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "回听真实音轨可核实[audio_subtitle:E1]，目标人物声音极度低微微弱，以破碎的气声吐出台词并伴随沉重虚脱的叹息，生理与语调呈现彻底脱力状态。视觉上[image:E1]所提及的露齿上扬在frame_00至frame_04实为面临终局时心力交瘁的惨笑与自嘲，且在frame_05至frame_07迅速转为眼神失焦与瘫软，并非[graph:E1]所称的轻松放松。该情境下的人物处于大势已去的万念俱灰与沉重低落中，依据情绪轮边界，这种绝望无力与彻底放弃归入sad最为准确。",
+  "output": "回听真实音轨可核实[audio_subtitle:E1]，目标人物声音极度低微微弱，以破碎的气声吐出台词并伴随沉重虚脱的叹息，生理与语调呈现彻底脱力状态。视觉上[image:E1]所提及的露齿上扬在frame_00至frame_04实为面临终局时心力交瘁的惨笑与自嘲，且在frame_05至frame_07迅速转为眼神失焦与瘫软，并非[graph:E1]所称的轻松放松。该情境下的人物处于大势已去的万念俱灰与沉重低落中，依据情绪轮边界，这种绝望无力与彻底放弃归入sad最为准确。\n<answer>sad</answer>",
+  "label": "happy",
+  "elapsed_seconds": 98.82895612716675
+}

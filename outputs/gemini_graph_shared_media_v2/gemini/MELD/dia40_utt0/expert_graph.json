@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "在当前三人沙发的互动情境中，Monica接续互动并在说出“Yeah baby!”时由含蓄低头转向面向前方大幅度露齿微笑[E1, E2]，图谱节点person_2与person_3准确刻画了其视觉微笑神态与听觉上扬轻快语调的共现[E3]，事件语义表明这并非被动礼貌回应，而是高度契合亲密愉快氛围的主动高兴表露，判定为joy。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_04 @ 0.834166019022242",
+      "observation": "Monica抬头正视前方，双唇咧开露出整齐牙齿，展现出灿烂开怀的笑容",
+      "interpretation": "大幅度的露齿笑容配合眼周放松神态，直接展现了强烈的正面愉悦情绪，支持joy而非平静neutral",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00 - 00:01",
+      "observation": "Monica以明亮、轻快且尾音上扬的语调喊出“Yeah baby!”",
+      "interpretation": "语音语调充满兴奋与欢快，直接佐证了其话语中包含的欣喜与赞同",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱记录Monica抬头面向前方，嘴角上扬露齿微笑，与person_3语音特征同步",
+      "interpretation": "图谱节点记录的面部积极神态与亲密互动上下文相符合，排除了消极或拘谨假笑的可能",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "替代解释认为这可能仅是日常聊天中随和礼貌的温和互动（neutral）；但音轨中上扬兴奋的“Yeah baby!”欢呼以及持续绽放的满面露齿笑容已超出单纯中性交谈的阈值，故不采纳。"
+}

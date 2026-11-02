@@ -1,0 +1,3 @@
+{
+  "text": "在教室内，女老师站在讲台前，后方有窗户与黑板，台下坐有多名身穿制服的学生〔context_0〕。女老师正视前方，面部朝向讲台下方的学生，嘴唇开合讲话〔person_0〕，同时说话语速平缓，语调和缓清晰〔person_1 simultaneous person_0〕〔person_0 person_joint person_1〕，开口说道：“小毛驴儿，老师也没见过哎”〔process_0〕。随后，女老师微微抬头面向台下，嘴唇微张提问〔person_2 after person_0〕，向班级询问：“同学们，有没有知道的？”〔process_1 after process_0〕。提问后，教室里的男同学张大嘴巴大声喊叫并举起右臂〔person_3〕，高声回答：“我知道！”〔process_2 after process_1〕〔process_1 process_joint process_2〕。紧接着，女老师的视线聚焦于前方学生，嘴唇微张〔person_4 after person_2〕，看向回答问题的学生并聆听回应〔process_3 after process_2〕〔process_2 process_joint process_3〕。这些表现可能反映出女老师在授课互动中保持着温和、循序渐进的引导状态，将注意力集中在激发学生的参与度并及时接收学生的反馈。"
+}

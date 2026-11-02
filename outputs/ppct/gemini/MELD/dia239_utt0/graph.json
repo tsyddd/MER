@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Gunther询问Chandler里面是否有人",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Chandler转头并转身面向Gunther",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Gunther留着浅金色短发，身穿蓝色长袖衬衫并系着领带",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Gunther面朝右侧注视着Chandler并张口发问，语调带有轻微疑问",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Chandler身穿深色长袖衬衣，起初侧身向右，随后转过身面对Gunther",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内通道及门框旁，墙上悬挂有储物盒与灯具，Gunther与Chandler在场交谈",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_1",
+      "target": "process_0",
+      "relation": "after",
+      "reason": "Chandler在Gunther开口询问里面是否有人之后，转头并转过身面向Gunther",
+      "entity_anchor": "Gunther与Chandler的互动"
+    },
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "Gunther在身穿蓝色长袖衬衫与领带的同时，面朝右侧注视Chandler并张口发问",
+      "entity_anchor": "Gunther"
+    },
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "Gunther的主动发问行为与Chandler听到询问后转头转身的回应动作相结合，形成了发起交谈与引起对方注意回应的完整互动过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0补充了Gunther的金发与蓝衬衫领带着装外貌，person_1提供了其注视对方、张口发问及带疑问语调的动态表现，二者共同刻画了Gunther提问时的整体形象。",
+      "entity_anchor": null
+    }
+  ]
+}

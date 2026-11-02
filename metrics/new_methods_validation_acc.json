@@ -1,0 +1,138 @@
+{
+  "direct/omni": {
+    "provider": "omni",
+    "mode": "direct",
+    "frames": 8,
+    "status": "finished",
+    "smoke": false,
+    "updated": 1793507774.1298592,
+    "metrics": {
+      "MER2024": {
+        "expected": 40,
+        "processed": 40,
+        "valid": 40,
+        "correct": 34,
+        "accuracy_all": 0.85,
+        "accuracy_valid": 0.85
+      },
+      "MELD": {
+        "expected": 40,
+        "processed": 40,
+        "valid": 40,
+        "correct": 24,
+        "accuracy_all": 0.6,
+        "accuracy_valid": 0.6
+      },
+      "ALL": {
+        "expected": 80,
+        "processed": 80,
+        "valid": 80,
+        "correct": 58,
+        "accuracy_all": 0.725,
+        "accuracy_valid": 0.725
+      }
+    }
+  },
+  "ppct/omni": {
+    "provider": "omni",
+    "mode": "ppct",
+    "frames": 8,
+    "status": "finished",
+    "smoke": false,
+    "updated": 1793522214.598774,
+    "metrics": {
+      "MER2024": {
+        "expected": 40,
+        "processed": 40,
+        "valid": 40,
+        "correct": 30,
+        "accuracy_all": 0.75,
+        "accuracy_valid": 0.75
+      },
+      "MELD": {
+        "expected": 40,
+        "processed": 40,
+        "valid": 40,
+        "correct": 25,
+        "accuracy_all": 0.625,
+        "accuracy_valid": 0.625
+      },
+      "ALL": {
+        "expected": 80,
+        "processed": 80,
+        "valid": 80,
+        "correct": 55,
+        "accuracy_all": 0.6875,
+        "accuracy_valid": 0.6875
+      }
+    }
+  },
+  "ppct/gpt": {
+    "provider": "gpt",
+    "mode": "ppct",
+    "frames": 8,
+    "status": "finished",
+    "smoke": false,
+    "updated": 1793474332.211748,
+    "metrics": {
+      "MER2024": {
+        "expected": 40,
+        "processed": 40,
+        "valid": 40,
+        "correct": 31,
+        "accuracy_all": 0.775,
+        "accuracy_valid": 0.775
+      },
+      "MELD": {
+        "expected": 40,
+        "processed": 40,
+        "valid": 40,
+        "correct": 31,
+        "accuracy_all": 0.775,
+        "accuracy_valid": 0.775
+      },
+      "ALL": {
+        "expected": 80,
+        "processed": 80,
+        "valid": 80,
+        "correct": 62,
+        "accuracy_all": 0.775,
+        "accuracy_valid": 0.775
+      }
+    }
+  },
+  "ppct/gemini": {
+    "provider": "gemini",
+    "mode": "ppct",
+    "frames": 8,
+    "status": "finished",
+    "smoke": false,
+    "updated": 1793474641.8158853,
+    "metrics": {
+      "MER2024": {
+        "expected": 40,
+        "processed": 40,
+        "valid": 40,
+        "correct": 30,
+        "accuracy_all": 0.75,
+        "accuracy_valid": 0.75
+      },
+      "MELD": {
+        "expected": 40,
+        "processed": 40,
+        "valid": 40,
+        "correct": 24,
+        "accuracy_all": 0.6,
+        "accuracy_valid": 0.6
+      },
+      "ALL": {
+        "expected": 80,
+        "processed": 80,
+        "valid": 80,
+        "correct": 54,
+        "accuracy_all": 0.675,
+        "accuracy_valid": 0.675
+      }
+    }
+  }
+}

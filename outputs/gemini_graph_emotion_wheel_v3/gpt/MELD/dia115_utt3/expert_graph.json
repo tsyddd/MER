@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "Ross当前面对Chandler，针对“遮脸、尖叫”是否算作“backhand”作出否定评价[E1][E2]。他在画面中持续面向对方，表情较严肃[E3]；结合这句带有贬低意味的纠正，更接近轻度不满，而非单纯陈述。台词描述的是被评价的动作，不能据此认定Ross此刻在遮脸或尖叫。",
+  "open_emotion": "不满",
+  "answer": "anger",
+  "mapping_reason": "这里的不满指向对Chandler所称动作的否定和责备，按情绪轮归入anger；画面不支持将其说成强烈愤怒。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“Shielding your face and shrieking like a girl... is not a backhand.”",
+      "observation": "整句先描述遮脸和尖叫，再明确否定这算作“backhand”。",
+      "interpretation": "Ross是在纠正并贬低对方所说的动作，支持轻度不满；句中动作不是Ross当前行为的证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "process_0、process_1",
+      "observation": "图谱将前半句和否定结论记录为Ross对Chandler的连续发话。",
+      "interpretation": "节点帮助确定当前评价者、对象和完整句意；它与字幕所载台词同源，不另算一次独立的情绪表现，也不能由节点先后推断更多冲突经过。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02（1.543秒）至frame_04（3.086秒）",
+      "observation": "画面右侧的Ross面向左侧的Chandler说话，未见明显笑容。",
+      "interpretation": "较严肃的当下表达与否定性台词相符，但单靠表情不足以判定愤怒。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "这也可能是平静的纠正或调侃；仅凭画面无法排除。图谱person_2所称语速、音量及person_3所称停顿属于音频派生转述，本次未收到原音轨，不能亲耳核验，也不据此判断语气。"
+}

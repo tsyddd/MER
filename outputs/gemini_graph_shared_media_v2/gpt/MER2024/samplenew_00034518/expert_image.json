@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物为画面右侧的年长女性，而非前景背对镜头的年轻女性。她在frame_00至frame_07（0.0–2.08秒）持续看向对方，眉部略收紧并有抬起，嘴巴多次张开后保持关注的凝视；结合字幕“是不是？家里又出什么事了？”，最支持的是对对方及家庭状况的担忧。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00–frame_07 @ 0.0–2.08秒",
+      "observation": "右侧年长女性持续将视线和脸朝向前景年轻女性，眉部略收紧、抬起，面部保持专注。",
+      "interpretation": "持续关注并带有眉部紧张感，支持担忧而非轻松或愉悦。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01–frame_06 @ 0.28–1.8秒",
+      "observation": "年长女性多帧张口，表情从张口询问转为抿嘴和凝视，未见明显笑容。",
+      "interpretation": "口部变化与询问、关切状态相符，但单独不能确定具体情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "当前字幕",
+      "observation": "字幕内容为“是不是？家里又出什么事了？”。",
+      "interpretation": "文字明确表达对家中是否发生问题的询问，与画面中的关注和眉部紧张共同支持担忧。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "她整体姿态较克制，未见明显哭泣、强烈痛苦或激烈手势；抬眉张口也可能是普通询问或轻度惊讶。但字幕聚焦于“家里又出什么事”，使担忧解释比单纯neutral或surprise更有支持。"
+}

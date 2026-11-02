@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "目标人物眉毛微挑、目光固定且面部表情紧绷〔person_2〕，同时以低缓沉稳、间有停顿的语调持续说明自身处境〔person_1〕。结合其提及“父皇本已对我起了疑心”〔process_1〕，当前表现更符合忧虑而非单纯中性。",
+  "answer": "worried",
+  "evidence_refs": [
+    "person_2",
+    "person_1",
+    "process_1"
+  ]
+}

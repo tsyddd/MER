@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00002038",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "画面中人物眉头紧皱、眼神紧张，面向画外人物发问。字幕“他，是谁呀？”表现出对对方身份的疑惑和担忧，当前情绪更符合担心而非惊讶或愤怒。",
+  "output": "画面中人物眉头紧皱、眼神紧张，面向画外人物发问。字幕“他，是谁呀？”表现出对对方身份的疑惑和担忧，当前情绪更符合担心而非惊讶或愤怒。\n<answer>worried</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 24.733094692230225,
+  "node_count": null,
+  "edge_count": null
+}

@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标是右侧穿深色上衣的Chandler，不是左侧穿蓝衣的Ross。他从张口转为抬手示意停下，随后抿嘴、略眯眼，并朝右侧的人和物品露出不悦的扭曲嘴形[E1][E2][E3]。这些变化结合字幕中的拒绝语句[E4]，最支持disgust，即对眼前提议或物品的嫌弃，而非单纯惊讶。",
+  "answer": "disgust",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒；frame_01 @ 0.45879166666666665秒",
+      "observation": "Chandler起初张大嘴，随后抬起一只手、掌心朝外；左侧的Ross只是转头看他。",
+      "interpretation": "手势与后续表情变化相连，更像在制止或拒绝，而非持续的惊讶。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.3346666666666667秒；frame_04 @ 1.7934583333333332秒",
+      "observation": "Chandler收小手势，嘴唇抿起，眼睛略眯，眉间收紧。",
+      "interpretation": "由张口转为收紧的面部表现，支持不悦或嫌弃，但单凭此处不能区分两者。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_06 @ 2.6693333333333333秒；frame_07 @ 3.128125秒",
+      "observation": "Chandler看向右侧的人和她手中的物品，嘴角偏向一侧，末帧露齿、嘴形扭曲。",
+      "interpretation": "相较于平静表达，这一表情更支持对眼前事物的抵触；没有看到足以确认强烈愤怒的动作。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "subtitle",
+      "anchor": "Ah, no-no-no just Ross. Ross and Joey is embarrassing enough.",
+      "observation": "字幕写出连续的“No”及“embarrassing enough”。",
+      "interpretation": "语言内容支持拒绝和难堪的语境，但字幕不能证明他的语调或具体面部动作。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "开头张大嘴也可能表示惊讶，抬手和收紧面部也可能是尴尬或恼怒；但张口没有持续，后段朝右侧呈现的嫌弃嘴形更突出。画面分辨率不足以可靠判断更细微的鼻部表情，且没有音频可核查语调。"
+}

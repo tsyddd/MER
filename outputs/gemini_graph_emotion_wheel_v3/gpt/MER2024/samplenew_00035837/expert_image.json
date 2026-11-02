@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是八帧中坐在椅上的女子，画面没有其他人物。她始终垂眼，面部动作很少；说到失去亲人的内容时，嘴角虽有短暂轻微上扬，却未形成持续的笑容[E1][E2]。字幕明确指向已经发生的失去[E3]，结合克制的视觉表现，较支持失落，而不是对未来结果的担忧。",
+  "open_emotion": "失落",
+  "answer": "sad",
+  "mapping_reason": "失落指向已发生的亲人离去，按情绪轮映射为sad；这一判断主要由克制的表情和字幕共同支持，视觉本身不能单独确定悲伤。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_07（2.76秒）",
+      "observation": "女子持续垂眼，坐姿变化很小，未见明显抬头或夸张表情。",
+      "interpretation": "表现较为克制，与低落相容，但垂眼本身不足以判定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03（1.2秒）至frame_07（2.76秒）",
+      "observation": "嘴角一度轻微上扬，随后回到较平直的状态，没有持续的大幅笑容。",
+      "interpretation": "短暂的嘴角变化不足以支持当前以愉悦为主，也限制了对悲伤强度的判断。",
+      "polarity": "uncertain"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“我知道，在这个世上，再也没有亲人了。”",
+      "observation": "字幕表述的是亲人已不在的处境。",
+      "interpretation": "提供了已经发生的损失这一语义依据，使失落比担忧未来更有支持。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "她没有明显哭泣或强烈的悲痛动作，短暂的嘴角上扬及整体平静也允许将其理解为克制的陈述；没有音频，无法用语调进一步核实。"
+}

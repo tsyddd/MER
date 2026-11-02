@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物在片段中斜靠沙发，从frame_00至frame_04全程保持明显的露齿笑与眼角眯起的笑意[E1]，姿态极其放松舒展[E2]，配合开头带气声笑意的轻松语调[E3]，视觉与听觉均明确指向愉悦轻松的开玩笑状态，支持判定为happy。",
+  "answer": "happy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.84s",
+      "observation": "目标人物面部嘴角明显上扬并露出牙齿，脸颊笑肌隆起，双眼微眯，呈现典型的笑意面容。",
+      "interpretation": "面部特征呈现出持续且生动的笑容，反映出轻松愉悦的情感状态。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.00s",
+      "observation": "目标人物身着毛背心靠在黑色沙发上，身体向后仰倾斜，未见任何肌肉紧绷或防御姿态。",
+      "interpretation": "极为放松舒展的身体语言排除了焦虑、担忧或愤怒等负面情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "0.0s-1.8s",
+      "observation": "说话时伴有轻微的鼻腔或喉间笑音，语调平稳调侃、节奏舒缓。",
+      "interpretation": "进一步印证了面部微笑是自然流露的愉悦调侃，而非苦笑或强颜欢笑。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽台词提及交代相关内容，但人物未表现出任何皱眉、眼神不定或神情紧绷等担忧迹象，因此排除worried；表情动态显著且有明显笑意，亦不属于neutral。"
+}

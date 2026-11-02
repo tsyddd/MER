@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia186_utt3",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "66500757c83860e7bc8c787d8e2b59268fb274c5b6c0b4d08dfd117efb6c20d2",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "独立回看frame_00至frame_07，打电话的Joey起初闭眼、抿嘴，随后垂眼说话，表情始终较收敛；[image:E1]和[image:E2]对这些画面特征的描述可信。字幕“I’m sorry I gotta cancel tonight baby”表明他正在向对方道歉并取消约定，[audio_subtitle:E1]可提供语境，但道歉本身也可能只是礼貌措辞。虽然他靠坐的姿态较放松、没有强烈悲伤表现，持续收敛的表情结合当前道歉语境，仍比纯粹平静陈述更支持轻微低落；未提供音轨，不能据语调判断。",
+  "output": "独立回看frame_00至frame_07，打电话的Joey起初闭眼、抿嘴，随后垂眼说话，表情始终较收敛；[image:E1]和[image:E2]对这些画面特征的描述可信。字幕“I’m sorry I gotta cancel tonight baby”表明他正在向对方道歉并取消约定，[audio_subtitle:E1]可提供语境，但道歉本身也可能只是礼貌措辞。虽然他靠坐的姿态较放松、没有强烈悲伤表现，持续收敛的表情结合当前道歉语境，仍比纯粹平静陈述更支持轻微低落；未提供音轨，不能据语调判断。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 72.1341199874878
+}

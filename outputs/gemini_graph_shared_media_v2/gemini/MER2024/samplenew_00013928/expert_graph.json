@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "目标人物在与对方互动中主动扬手挥舞纸张并伴随持续开怀大笑[E1]，图谱节点person_2记录其语调轻快上扬，与实际音轨中欢快的语调高度吻合[E2]，台词亦表达高度肯定与喜悦[E3]，事件链展现出明确的愉悦与热切支持，判定为happy。",
+  "answer": "happy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.8s",
+      "observation": "女子面部笑肌显著抬升，露出牙齿开怀大笑，同时挥舞手中纸张",
+      "interpretation": "与图谱节点person_0相互印证，大幅度的开朗表情与挥舞动作直接反映其愉悦的情绪状态",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00 - 00:02",
+      "observation": "女子说话语调明快高亢，夹带笑意与兴奋气息",
+      "interpretation": "核实了图谱节点person_2中关于语调轻快上扬的描述，听觉证据充分支持其处于快乐情绪",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "我可看好你呀！怎么样？",
+      "observation": "女子主动赞许并带着期待发问",
+      "interpretation": "互动语义为当面赞赏与关心对方成果，排除了讽刺或敌意，确立了积极正向的语境",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "可能被怀疑仅为客套寒暄的neutral，但女子全程持续大幅度开怀露齿笑及声音中自然的喜悦起伏，远超中性礼节反应。"
+}

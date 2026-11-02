@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "音频中说话人的语气平稳舒缓，语速适中，音量平和自然。台词内容为回忆叙述，整体语调无明显起伏或激动情感，表现出平静的中立状态。",
+  "answer": "neutral",
+  "evidence_refs": []
+}

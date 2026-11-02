@@ -1,0 +1,42 @@
+{
+  "expert": "image",
+  "reason": "Chandler's facial expression and body language show a mix of surprise and confusion. His eyes are wide, his eyebrows are raised, and his mouth is slightly open, indicating a reaction to an unexpected event. His hand gesture, with the palm up, suggests he is asking a question or seeking clarification. The audio confirms he is asking if the other person 'fell high,' which aligns with his surprised and questioning demeanor.",
+  "open_emotion": "surprise",
+  "answer": "surprise",
+  "mapping_reason": "The visual evidence of wide eyes, raised eyebrows, and an open mouth, combined with the audio of asking a direct question ('did you fall high?'), clearly indicates a reaction to an unexpected or surprising event. This aligns with the 'surprise' category in the emotion wheel.",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_04",
+      "observation": "Chandler's eyes are wide and his eyebrows are raised.",
+      "interpretation": "This is a common facial expression associated with surprise or shock.",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05",
+      "observation": "Chandler's mouth is slightly open.",
+      "interpretation": "This is another common facial expression associated with surprise or confusion.",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_06",
+      "observation": "Chandler has his right hand raised with the palm facing up.",
+      "interpretation": "This is a common gesture used when asking a question or seeking clarification.",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:09.000",
+      "observation": "Chandler says, 'Jeez, man did you fall.. Hi! So ah, did ya, did-did-did ya fall high?'",
+      "interpretation": "The question 'did you fall high?' indicates he is reacting to an unexpected event, which is consistent with surprise.",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "There is no strong evidence to suggest other emotions like anger, sadness, or joy. His expression is more one of questioning and surprise rather than strong negative or positive feelings."
+}

@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者语气低沉、语速缓慢，表达出一种无奈和放弃的决断。结合字幕内容“I'm gonna have to give him up”（我恐怕得放弃他了），其情绪是因不得不放弃某人或某事而产生的失落与悲伤，而非愤怒、恐惧或惊讶。视觉上，人物表情平静，无明显情绪波动，与音频中平稳但低落的语调一致，共同指向一种悲伤的情绪。",
+  "open_emotion": "悲伤",
+  "answer": "sadness",
+  "mapping_reason": "根据MELD项目适配情绪轮的定义，'sadness'指因失落、损失或痛苦而难过、哀伤或低落。说话者明确表达了放弃某人的决定，这是一种损失，其低沉的语调和放弃的措辞与'悲伤'的定义高度吻合。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "I'm gonna have to give him up.",
+      "observation": "字幕显示说话者说：'I'm gonna have to give him up.'",
+      "interpretation": "这句话表明说话者正在做出一个艰难的决定，即放弃某人或某物，这通常与失落和悲伤的情绪相关联。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "说话者的声音低沉，语速缓慢，语气中带有明显的无奈和放弃感。",
+      "interpretation": "这种语调和节奏是表达悲伤、失望或无奈的典型特征，与字幕内容的情感基调一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。音频和字幕内容均未表现出愤怒、恐惧、厌恶或喜悦的迹象，因此没有强有力的反证。"
+}

@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标是画面右侧发问、手持杯子的年长女性，不是左侧低头的女性。她持续看向对方，身体略向前倾，发问时眉部微抬、嘴巴张开；结合字幕中询问家里是否又出了事，更支持她在顾虑对方可能遇到的问题[E1][E2][E3]。左侧女性的低头表现不能直接算作目标人物的情绪。",
+  "open_emotion": "担心",
+  "answer": "worried",
+  "mapping_reason": "她关注的是家里是否发生了尚未确认的负面情况，符合worried对风险与未知的顾虑；字幕不能证明事情已经发生，因而不足以判为悲伤。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01（0.28秒）至frame_06（1.8秒）",
+      "observation": "右侧女性持续朝左侧女性看，身体略向前倾，手中持杯。",
+      "interpretation": "持续关注对方的反应，支持她在意所问之事，但单靠姿态不能确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01（0.28秒）、frame_03（0.88秒）至frame_06（1.8秒）",
+      "observation": "右侧女性说话时嘴巴张开，眉部略抬；随后仍看向对方。",
+      "interpretation": "与持续询问相符；画面未见明显欢笑或对抗动作。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“是不是？家里又出什么事了？”",
+      "observation": "字幕呈现对家里是否出事的询问。",
+      "interpretation": "询问指向可能发生的负面情况，为视觉上的持续关注提供语义依据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "她的表情较克制，也可能只是在平常地核实情况；抬眉和问句本身不足以证明强烈焦虑。没有音频，无法依据语调进一步区分。"
+}

@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "Rachel当前面对Phoebe说“everything went great”，随后抬头、摊开手并露出轻微笑意；她表达的是对所谈事情的正面评价，而不是画面已证实此前事情确实顺利。[E1][E2] 图谱的person_1记录了这一动作转变，但与画面所见属于同一事实，不能重复计算为独立证据。[E3] 这比单纯平静地通报结果更接近轻微的愉悦；不过没有原音轨，无法排除反讽语气。",
+  "open_emotion": "轻微愉悦",
+  "answer": "joy",
+  "mapping_reason": "当前正面表述配合轻微笑意，支持将轻微愉悦映射为joy；证据不足以判断为强烈兴奋。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Oh, everything went great.",
+      "observation": "Rachel说一切都很顺利。",
+      "interpretation": "这是她当前向对方表达的正面评价，不等于此前事情已获证实。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05（1.376375秒）至frame_06（1.626625秒）",
+      "observation": "Rachel面向对方摊开双手，嘴角略扬，边做手势边说话。",
+      "interpretation": "与正面话语合看，支持轻微愉悦；手势单独不足以判定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "节点记载Rachel抬头、摊开左手并展开右手所持外套，配合说话。",
+      "interpretation": "有助于把动作定位为Rachel当前互动的一部分，但它转述的是同一画面事实，并非额外的情绪证据。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "Rachel前段低头整理衣物时并无持续笑容；“一切顺利”也可能是礼貌回答或反讽。未提供原音轨，图谱涉及说话的音频来源不能亲耳核验，因此不据此断言语气。"
+}

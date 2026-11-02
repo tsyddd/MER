@@ -1,0 +1,8 @@
+{
+  "reason": "目标是左侧穿蓝衬衫的Gunther；从第0至第7帧，他持续看向右侧，姿态和面部变化很小，[image:E1]的观察可信。第2帧他张口，与字幕“Someone in there?”所示的询问相符；但问句本身不足以判断他害怕或惊讶，[audio_subtitle:E1]对此的限制判断合理。持续注视也可能表示警觉，但画面没有更明确的恐惧表现；未提供音轨，无法核查语气，因此取neutral。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "image:E1",
+    "audio_subtitle:E1"
+  ]
+}

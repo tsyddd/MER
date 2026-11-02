@@ -1,0 +1,9 @@
+{
+  "reason": "目标Rachel是画面右侧的金发女子：她从frame_00较收敛的表情转为frame_01明显的露齿笑容，之后仍面向对方微笑；这一视觉变化可直接核对[image:E1][image:E2]。字幕“Yes, I did. Thank you very much, it was excellent.”包含感谢和称赞，与笑容相互支持[audio_subtitle:E1]。礼貌微笑是最强的中性解释，但笑容在互动中明显扩大并持续，因此joy更合适；未提供音轨，不能据语调作判断。",
+  "answer": "joy",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "audio_subtitle:E1"
+  ]
+}

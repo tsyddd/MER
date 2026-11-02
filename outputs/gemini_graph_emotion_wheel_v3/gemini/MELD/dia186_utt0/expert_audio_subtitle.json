@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Chandler在开头的‘Ah, no-no-no’中以急促且避之不及的拒绝语调切入，同时伴随手部向前阻拦的推拒动作；随后在陈述‘Ross and Joey is embarrassing enough’时语调干脆、略带嘲讽与撇清关系的意味，明确表达出对眼前事物或行为的抗拒、嫌弃与不愿沾惹的排斥态度。",
+  "open_emotion": "嫌弃",
+  "answer": "disgust",
+  "mapping_reason": "目标人物表现出明显的抗拒推避与对丢人行径的嫌弃排斥，符合disgust定义中对反感、难以接受或令人尴尬对象的排斥与厌弃，因此映射至disgust。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "Ah, no-no-no just Ross. Ross and Joey is embarrassing enough.",
+      "observation": "Chandler连续否定‘no-no-no’并以‘embarrassing enough’作为拒绝的理由。",
+      "interpretation": "表明其认定该情境极为尴尬丢人，言语行为旨在彻底撇清自己、拒绝参与。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0:00-0:03",
+      "observation": "发声时起音急促短促，连续吐出‘no-no-no’，随后音调微扬并带着调侃嫌弃的口吻念出‘embarrassing enough’。",
+      "interpretation": "语调并非平铺直叙的中性陈述，而是带有鲜明的避嫌与嘲弄排斥情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01至frame_04",
+      "observation": "Chandler抬起右手向前做推脱、阻挡的手势，撇起嘴巴，神情透着不愿卷入的嫌恶感。",
+      "interpretation": "体态与面部表情同声音的推拒嫌弃高度一致。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "由于台词兼具情景喜剧式的戏谑调侃色彩，可能被误判为轻松调侃的neutral或甚至戏谑的joy，但其核心态度是坚决拒绝与嫌弃丢脸，并非愉悦赞同。"
+}

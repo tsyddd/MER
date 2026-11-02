@@ -1,0 +1,20 @@
+{
+  "server": "dashan",
+  "source": "/media/4t_2/hhp/open_source_generated/ppct_training_free_api",
+  "sha256": {
+    "ppct_api/client.py": "552231e88fa2262c80ca4ba766a0d53ea5422b560e5721faa21df25d0ba28640",
+    "ppct_api/dataset.py": "0a26cb0a80232da655917a2f0c6cc7448a8723b293aa88ba77653768b4b9eb69",
+    "ppct_api/emer.py": "405bb83999ba0ceff87bd9ea2dd4f7e498059e5289d5f5d1a95c8c2e11ebc44e",
+    "ppct_api/evolution_prompts.py": "74dc1c121aac99fb619f939d0a331150663c9b9474cd7bafec9516cf27432705",
+    "ppct_api/gemini_prompts.py": "e983d2154dc6903a267532513d8ef1be6885fa35ef25d80ae78f071f11861fa8",
+    "ppct_api/graph.py": "5f6a844a2e3d19730833e9c0dc5b3b52d433d5cc2a5680d737ccfe7aa47245e1",
+    "ppct_api/omni_tom_prompts.py": "ad6a629e109b58dc833b514de76a62490a50ce4b7e1b64d1f5e722c2f2ac74fb",
+    "ppct_api/pipeline.py": "16e70410f056659db274356efc9d730deb230365045ecfab015f1d5e93d97ebf",
+    "ppct_api/prompts.py": "37ae42adc2c08a4b665c427180fd8c9b126be99d42e3016d00a652e127750d6b",
+    "ppct_api/qwen_omni_prompts.py": "08ccc78049e6e6422476ca861ab31e483b310a557a143570cebd5054e7da8230",
+    "ppct_api/schemas.py": "6e8ade856de3404b3afbe40e6d84018ae271779b71419e50a2f2d1be78c43e82",
+    "ppct_api/video.py": "e331282021b3eb5df80252a4b478a1355bee6e362bd4b2e41c439e00f981dc7b",
+    "ppct_api/__init__.py": "57f273df57af09d9bc74812e2574cb7e19bdbdebba2d77f9c59be78c13e6fc17"
+  },
+  "credentials_copied": false
+}

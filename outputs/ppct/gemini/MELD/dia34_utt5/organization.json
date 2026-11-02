@@ -1,0 +1,3 @@
+{
+  "text": "在咖啡馆的橙色沙发上，Rachel坐在身穿浅紫色衣服的Monica身旁与其交谈〔context_0〕。起初，Rachel转头看向Monica，嘴巴大张且语调拔高带惊叹感〔person_0〕，脱口对Monica惊呼“Oh my God!”〔process_0〕；紧接着，她向前倾身贴近Monica，右手抬起并在身前摆动比划〔person_1 after person_0〕〔person_0 person_joint person_1〕，对Monica直言说出“You’re a 30 year old virgin!”〔process_1 after process_0〕〔process_0 process_joint process_1〕，随后右手收回搭在膝盖上，目光仍紧盯着Monica并保持说话口型〔person_2 after person_1〕〔person_1 person_joint person_2〕。这些表现可能反映出Rachel在意识到对方的秘密时产生了强烈的错愕与难以置信，其注意力高度聚焦在Monica身上，并试图通过前倾逼近和直白的言辞向对方确认这一惊人事实。"
+}

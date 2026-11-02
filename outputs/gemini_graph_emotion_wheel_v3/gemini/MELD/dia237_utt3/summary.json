@@ -1,0 +1,8 @@
+{
+  "reason": "Joey在台词中明确提及谈论对象为令人不适的食物“whipped fish”，并表示“I'm just happy I'm keeping it down, y'know?”，其字面上的“happy”实为忍耐反胃、克制呕吐的底线自嘲[audio_subtitle:E1]。画面中Joey在frame_01至frame_04抬头面向Monica时，眉心紧缩、嘴角微撇且带有明显嫌弃与不适神态[image:E1]，音轨上谈及鱼肉泥时语调加重沉滞，均直接佐证其核心体验是对令人恶心对象的生理排斥与反感。反证方面，虽然台词出现“happy”且在frame_03-04有勉强牵动的苦笑，但眉眼间的紧绷与抑制呕吐的语境明确排除了真正的joy，依照映射规范精准归入disgust家族。",
+  "answer": "disgust",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "image:E1"
+  ]
+}

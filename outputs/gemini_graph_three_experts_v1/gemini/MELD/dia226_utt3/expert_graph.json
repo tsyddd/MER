@@ -1,0 +1,12 @@
+{
+  "expert": "graph",
+  "reason": "根据图谱记载，Rachel在与Phoebe交谈时视线注视对方并表达希望某人敞开心扉〔process_0, person_0〕。图谱记载其语调平缓略带感叹〔person_1〕，伴随手部抬起比划后自然放低〔person_2, person_3〕，整体表现为平和、日常的倾诉状态，没有明显的愤怒、悲伤或恐惧等剧烈情绪波动，当前情绪判定为中性。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "process_0",
+    "person_0",
+    "person_1",
+    "person_2",
+    "person_3"
+  ]
+}

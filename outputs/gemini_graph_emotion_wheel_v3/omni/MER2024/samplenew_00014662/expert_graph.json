@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "目标人物在当前片段中表达了对某事可能牵连到对方家老爷子的担忧。她的语调平缓，音量适中，没有表现出愤怒或悲伤的激烈情绪。她的双眉微蹙，这是担忧情绪的典型面部特征。综合其话语内容和表情，主导情绪是担忧。",
+  "open_emotion": "担忧",
+  "answer": "worried",
+  "mapping_reason": "根据情绪轮定义，'worried'指对可能的负面结果、风险或未知的顾虑、焦虑和不安。目标人物的台词“我主要是担心这事会牵连到您家老爷子”直接表达了对潜在负面后果的顾虑，其微蹙的眉头也支持了这一情绪。因此，该情绪最符合'worried'的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "我主要是担心这事会牵连到您家老爷子。",
+      "observation": "目标人物的台词内容是表达对某事可能牵连到对方家老爷子的担忧。",
+      "interpretation": "该话语直接陈述了担忧的对象和内容，是判断其情绪的核心证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02",
+      "observation": "目标人物的双眉微蹙。",
+      "interpretation": "微蹙的眉头是担忧、焦虑等情绪的典型面部表情，与话语内容一致。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00-00:03",
+      "observation": "目标人物的语调平缓，音量适中。",
+      "interpretation": "平稳的语调表明她的情绪是克制的，没有愤怒或激动，这与担忧而非愤怒相符。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "目标人物的语调平缓，没有表现出强烈的悲伤或喜悦，因此可以排除'sad'和'happy'。她没有表现出责备或对抗的倾向，因此可以排除'angry'。"
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "Joey's facial expression and gestures show signs of confusion and frustration. His eyebrows are raised, his mouth is open, and he gestures with his hands as if questioning something. These visual cues, combined with the subtitle indicating he is asking a question about who took something, suggest he is experiencing confusion and frustration.",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.4587913104622331",
+      "observation": "Joey's eyebrows are raised, and his mouth is slightly open.",
+      "interpretation": "This expression is consistent with surprise or confusion.",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 0.9592909218755783",
+      "observation": "Joey raises his right hand with an open palm, as if questioning or gesturing.",
+      "interpretation": "This gesture, combined with his facial expression, suggests he is asking a question or expressing confusion.",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "And if she didnt take it, and I didnt take it; and you  didnt take it, then who did?",
+      "observation": "The subtitle indicates Joey is asking a question about who took something.",
+      "interpretation": "This verbal content supports the interpretation that Joey is expressing confusion or surprise.",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "While Joey's expression could also be interpreted as frustration or anger, the lack of aggressive gestures or a furrowed brow makes surprise a stronger interpretation. The context of asking a question also supports surprise over anger."
+}

@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "目标人物在画面中眼神持续低垂，眉头微蹙紧聚，眼眶隐现泛红，唇角自然下垂且带有轻微颤动，面部肌肉呈现下沉失落的克制状态，体现出深沉的哀伤与痛惜感。",
+  "open_emotion": "哀伤",
+  "answer": "sad",
+  "mapping_reason": "开放情绪'哀伤'直接归属于sad（悲伤）家族，符合对已发生悲剧或逝去事物的缅怀、失落与沉痛体验。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_03 (0.0s-0.92s)",
+      "observation": "目标人物头部微偏，双眼视线持续向下低垂，眉心微聚，神情黯然，眼眶带有一丝湿润感。",
+      "interpretation": "表现出沉浸在既有不幸回忆中的低落与伤痛。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04至frame_07 (1.24s-2.16s)",
+      "observation": "目标人物微张嘴唇说话后唇角微抿微向下撇，面颊肌肉低沉无笑意，未见警惕或焦躁动作。",
+      "interpretation": "唇角下撇与平静的哀悼神色进一步强化了悲伤而非焦虑情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "面部没有嚎啕大哭或强烈的面部扭曲，叙述动作相对克制，可能被单帧误读为neutral；但连贯的眉头微聚与持续下垂的悲凉眼神排除了中性。"
+}

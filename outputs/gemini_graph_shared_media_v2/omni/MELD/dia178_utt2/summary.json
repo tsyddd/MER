@@ -1,0 +1,12 @@
+{
+  "reason": "Monica在多个帧中面带微笑，抱着婴儿，表情愉悦。她的语音语调轻快，内容为'it's going great'和对Chandler的玩笑，与字幕和音频一致。三位专家均从视觉、听觉和字幕角度支持'joy'，无反证。[image:E1]、[image:E2]、[audio_subtitle:E1]、[audio_subtitle:E2]、[audio_subtitle:E3]、[graph:E3]等证据共同指向joy。",
+  "answer": "joy",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "audio_subtitle:E1",
+    "audio_subtitle:E2",
+    "audio_subtitle:E3",
+    "graph:E3"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标人物Rachel单手叉腰、身体微前倾呈对峙姿态[E1]，面部伴有眉心微收、目光锁定对方及结束说话后嘴唇紧抿与下巴紧绷的表现[E2]，结合指责性质问的音调[E3]，整体展现出受到冒犯后的不满与问责（anger）。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.00s",
+      "observation": "Rachel左手叉腰，身体站定朝向对方，呈明显的对峙身体姿态",
+      "interpretation": "单手叉腰通常传递出严肃对质或防卫性问责的身体语汇",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_06 @ 3.67s",
+      "observation": "Rachel说完话后嘴唇紧闭下压，眉毛微挑且眼神紧紧盯着对方，面部肌肉紧绷",
+      "interpretation": "紧抿嘴唇配合持续凝视，显露压抑的不满与质询态度，非放松中立状态",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Did you get all this stuff for Joey to try and drive me out of the apartment?",
+      "observation": "台词直接指控对方试图将自己逼走",
+      "interpretation": "质问内容具有明确的对立性，强化了面部不悦表情作为生气/恼火的定性",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "Rachel并未大声呵斥或产生剧烈激动的面部扭曲，语调相对平缓，容易被单纯依据动作幅度判断为平静中立（neutral）；但其紧绷的唇角与单手叉腰的质问姿态表明内部存在明确的敌意与不悦，而非无情绪的中立状态。"
+}

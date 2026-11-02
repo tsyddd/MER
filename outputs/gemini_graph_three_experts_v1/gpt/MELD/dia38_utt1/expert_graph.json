@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "Joey当前嘴角上扬、头部微斜并带着微笑注视对方〔person_3〕，同时双手交叉按在胸前〔person_1〕，表现出积极愉悦的情绪。图谱记载其声调轻叹、语速平稳柔和〔person_2〕，与上述亲切而欣喜的外显表现一致。",
+  "answer": "joy",
+  "evidence_refs": [
+    "person_3",
+    "person_1",
+    "person_2"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00033539",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "结合节点person_0与person_1的视听同步表现，目标人物在听到信息时双眉紧蹙、眉心聚起竖纹，同时发出短促升调的“啊”；紧接着节点process_1、person_2与person_3显示其神情凝重聚焦，以反问语调追问“真的”，充分展现出对突发或意外事件感到难以置信与诧异的惊讶反应。",
+  "output": "结合节点person_0与person_1的视听同步表现，目标人物在听到信息时双眉紧蹙、眉心聚起竖纹，同时发出短促升调的“啊”；紧接着节点process_1、person_2与person_3显示其神情凝重聚焦，以反问语调追问“真的”，充分展现出对突发或意外事件感到难以置信与诧异的惊讶反应。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 67.50903964042664,
+  "node_count": 7,
+  "edge_count": 8
+}

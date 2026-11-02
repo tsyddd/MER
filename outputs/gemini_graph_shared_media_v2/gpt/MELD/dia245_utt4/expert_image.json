@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标是沙发上的深发女子Monica，而非前两帧背对镜头的人。她转向门口时张口，随后迅速前倾伸手，最后再次抬头张口；这些连续动作更支持急切、带有警觉的恐惧，而非平静表达[E1][E2]。字幕中的反复否定与这种急迫感相符，但不能据此推定语调[E3]。",
+  "answer": "fear",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.5839162133155694秒",
+      "observation": "Monica坐在沙发上转头看向门口方向，嘴张开，手里拿着书。",
+      "interpretation": "从原先坐姿转向并张口，支持她对眼前情况产生急切反应；单凭此帧仍难区分恐惧与惊讶。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05 @ 1.4180822323378113秒；frame_07 @ 2.001998445653381秒",
+      "observation": "她迅速向沙发左侧前倾、伸手，随后抬头转向门口方向，嘴仍张开。",
+      "interpretation": "反应持续并伴随急促的身体动作，比短暂的一瞬惊讶更支持警觉和急迫。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "No-no-no, no!",
+      "observation": "字幕是连续、重复的否定。",
+      "interpretation": "与画面中的急迫动作一致；没有音轨，不能判断声音是否颤抖或愤怒。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的相反解释是惊讶：转头张口也可能是突然发现某事后的反应[E1]。但她接着持续前倾伸手，而非只停留在瞬间反应，因此未选surprise；面部细节有限，无法进一步确认恐惧的强度。"
+}

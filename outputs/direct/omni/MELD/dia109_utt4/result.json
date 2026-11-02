@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia109_utt4",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "Janice's high-pitched, rising intonation and questioning tone on 'Oh, are you sure?' indicate disbelief or astonishment. Her wide eyes and open mouth in the frames support a surprised emotional state.",
+  "output": "Janice's high-pitched, rising intonation and questioning tone on 'Oh, are you sure?' indicate disbelief or astonishment. Her wide eyes and open mouth in the frames support a surprised emotional state.\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 5.835626125335693,
+  "node_count": null,
+  "edge_count": null
+}

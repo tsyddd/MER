@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "女老师在提问时，面部表情平静，眼神专注，语调平缓清晰，表现出一种引导和期待的中性状态。她先陈述自己不知道，再向全班提问，这是一个典型的课堂互动流程，其情绪状态是中性的。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00:00.000 - 00:00:04.000",
+      "observation": "女老师说话语速平缓，语调和缓清晰。",
+      "interpretation": "音频中女老师的语调平稳，没有表现出激动、悲伤或愤怒等强烈情绪，符合中性情绪的特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00 @ 00:00:00.000",
+      "observation": "女老师正视前方，面部朝向讲台下方学生，嘴唇开合讲话。",
+      "interpretation": "她的面部表情平静，没有皱眉、咧嘴等情绪化特征，与中性情绪相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "女老师开口说道：“小毛驴儿，老师也没见过哎”",
+      "interpretation": "该节点描述了女老师陈述自身未知的事实，这是一个中性的信息传递行为，不带有强烈的情感色彩。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "女老师向班级提问：“同学们，有没有知道的？”",
+      "interpretation": "该节点描述了女老师发起课堂互动，其行为是教学过程中的常规动作，情绪状态为中性。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无明确的反证。虽然学生回答时表现出兴奋（happy），但该情绪属于另一角色，不影响对女老师情绪的判断。"
+}

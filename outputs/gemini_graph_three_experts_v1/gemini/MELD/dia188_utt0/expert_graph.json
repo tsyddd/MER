@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "根据图谱记载，在三人站在橱窗前的背景下〔context_0〕，Joey说出“What?”〔process_0〕。他最初张开嘴、视线朝前下方且手臂微展〔person_0〕，随后合上嘴低头看向地面且双臂垂在身侧〔person_1〕。整套肢体动作迅速收敛平静，没有表现出强烈的惊愕、愤怒或哀伤等剧烈情绪，整体呈现出平稳的中性反应。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "context_0",
+    "process_0",
+    "person_0",
+    "person_1"
+  ]
+}

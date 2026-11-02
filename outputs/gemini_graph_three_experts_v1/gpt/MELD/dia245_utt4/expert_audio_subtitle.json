@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。字幕中连续重复“No”表现出强烈拒绝态度，因此在现有标签中更接近anger。",
+  "answer": "anger",
+  "evidence_refs": []
+}

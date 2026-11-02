@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia200_utt2",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "在片段中，Joey 坐在厨房柜台上与 Ross 和 Chandler 对话（process_0），配合由按向自身胸口到伸手指向对方的指示性手势（person_0、person_3，经 person_joint 关联），平稳地按逻辑逐一排除拿走物品的可能性（process_1）。随后他在抛出疑问时收回双手平放于膝上注视同伴，进入等待回应的思考状态（process_2、person_5，经 process_joint 关联）。其语气冷静平缓、神情自然专注，未表现出剧烈的惊奇、愤怒或悲伤起伏，整体呈现出理性的客观中立情绪。",
+  "output": "在片段中，Joey 坐在厨房柜台上与 Ross 和 Chandler 对话（process_0），配合由按向自身胸口到伸手指向对方的指示性手势（person_0、person_3，经 person_joint 关联），平稳地按逻辑逐一排除拿走物品的可能性（process_1）。随后他在抛出疑问时收回双手平放于膝上注视同伴，进入等待回应的思考状态（process_2、person_5，经 process_joint 关联）。其语气冷静平缓、神情自然专注，未表现出剧烈的惊奇、愤怒或悲伤起伏，整体呈现出理性的客观中立情绪。\n<answer>neutral</answer>",
+  "label": "anger",
+  "elapsed_seconds": 86.68407034873962,
+  "node_count": 10,
+  "edge_count": 10
+}

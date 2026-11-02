@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "Joey's facial expression is consistent across the frames: his eyes are wide, eyebrows are raised, and his mouth is slightly open, indicating surprise. His head is tilted slightly, and he is looking directly at Chandler, suggesting he is reacting to something unexpected. There are no signs of anger, sadness, joy, fear, or disgust in his expression. The visual evidence strongly supports the interpretation of surprise.",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "Joey's eyes are wide open and his eyebrows are raised.",
+      "interpretation": "These are classic indicators of a surprised facial expression.",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.5839162133155694",
+      "observation": "Joey's mouth is slightly open, and his head is tilted.",
+      "interpretation": "This posture is consistent with someone reacting to unexpected information.",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02 @ 1.1261241256800267",
+      "observation": "Joey maintains wide eyes and a slightly open mouth.",
+      "interpretation": "The sustained expression indicates a continuous state of surprise.",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "subtitle",
+      "anchor": "No-no, she kicked our butts. You could be on the Olympic standing-there team.",
+      "observation": "The subtitle contains the phrase 'she kicked our butts,' which implies a surprising or impressive performance.",
+      "interpretation": "The content of the dialogue supports the visual interpretation of surprise.",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "There is no strong visual evidence to support any other emotion. The expression is not consistent with anger (no furrowed brows or clenched jaw), sadness (no downturned mouth or tears), joy (no smile), fear (no fear-specific cues like flared nostrils), or disgust (no nose wrinkling)."
+}

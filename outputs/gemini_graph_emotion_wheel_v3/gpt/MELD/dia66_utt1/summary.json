@@ -1,0 +1,9 @@
+{
+  "reason": "目标是左侧空乘；回看frame_00至frame_07，她始终面向右侧乘客交谈，后段仅略带笑意，右侧乘客更明显的笑容不能归给她。[image:E1][image:E2] 字幕“Thank you! Enjoy your flight?”是礼貌送别语，[audio_subtitle:E1]对此的判断可信，但字幕本身不能证明她感到喜悦。轻微笑意是最强的喜悦线索，不过结合持续平稳的表现，更适合解释为服务中的礼貌微笑；未提供音轨，不能核实语调。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "audio_subtitle:E1"
+  ]
+}

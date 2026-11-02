@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00033539",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "a415fec142e7ddeeb3ecfd6ae5f20bd235ccd0be39b7230d3d3b9654add4a754",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "情绪词“诧异”表示因当前接收到的信息违背既有认知和预期而产生的即时震惊与难以置信。在MER2024情绪轮中，因当前刺激引发的意外、反问与预期违背严格归入surprise家族。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "诧异",
+      "mapped_label": "surprise",
+      "mapping_reason": "说话者的反问短语和显著升调展现了对当前信息的违背预期与难以置信，符合情绪轮中surprise（因当前信息违背预期产生的意外或诧异）的定义。"
+    },
+    "image": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "目标人物的面部特征（眉心紧蹙上扬、嘴角微撇下沉）体现了对未知负面情况的不安与关切，符合情绪轮中worried（对可能负面结果或风险的焦虑不安）的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "独立核对音轨可知，目标人物在00:00至00:02以极其显著的急促拔高升调连发反问“啊？真的？”，如[audio_subtitle:E1]与[graph:E2]所述，具有极强的违背预期与求证属性；[image:E3]声称后半句语调下沉且愁闷与实际持续上扬的高音调不符。视觉上frame_00至frame_04中目标人物虽有眉心紧蹙与额纹[image:E1]，但结合微张口部与专注探询的神态，本质是接收突发信息时的即时震惊与错愕。依据预期违背准则，当前刺激引发的突发意外与难以置信明显主导了可能存在的后续担忧，应归入surprise家族。",
+  "output": "独立核对音轨可知，目标人物在00:00至00:02以极其显著的急促拔高升调连发反问“啊？真的？”，如[audio_subtitle:E1]与[graph:E2]所述，具有极强的违背预期与求证属性；[image:E3]声称后半句语调下沉且愁闷与实际持续上扬的高音调不符。视觉上frame_00至frame_04中目标人物虽有眉心紧蹙与额纹[image:E1]，但结合微张口部与专注探询的神态，本质是接收突发信息时的即时震惊与错愕。依据预期违背准则，当前刺激引发的突发意外与难以置信明显主导了可能存在的后续担忧，应归入surprise家族。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 78.19639110565186
+}

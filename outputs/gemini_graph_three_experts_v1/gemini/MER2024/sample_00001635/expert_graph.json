@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载女子直视前方并开口向对方解释〔person_0〕，说出“我不知道这件旗袍是你的”〔process_0〕。同时图谱记载其说话时语调急促连贯〔person_1〕，两者联合展现出其直面对方、急促辩白澄清误会的紧张反应，表明其内心处于担忧状态。",
+  "answer": "worried",
+  "evidence_refs": [
+    "person_0",
+    "process_0",
+    "person_1"
+  ]
+}

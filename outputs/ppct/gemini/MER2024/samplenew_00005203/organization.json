@@ -1,0 +1,3 @@
+{
+  "text": "在陈设着木质屏风与桌椅、背景处有一人端托盘站立的室内场景中〔context_0〕，粉衣女子与近景男子相对而坐交谈〔context_1〕，共同构成了有旁人在场的相对对话环境〔context_0 context_joint context_1〕。起初，粉衣女子端坐，视线微垂看着面前男子，嘴唇微张开合说话〔person_0〕，其发声轻微且语调低缓轻弱〔person_1 simultaneous person_0〕，神态与声调共同展现出其轻声倾诉的状态〔person_0 person_joint person_1〕，并向面前男子说出“我也不想跟你分开”〔process_0〕。随后，女子嘴唇闭合，目光继续保持微垂向下〔person_2 after person_0〕，进而停止了说话〔process_1 after process_0〕，呈现出从低语表达到敛声停顿的完整过程〔process_0 process_joint process_1〕。这些表现可能反映出她当下的注意焦点完全落于与面前男子的分离话题上，内心情绪低落而克制，处于一种充满不舍、无奈与感伤的心理应对状态。"
+}

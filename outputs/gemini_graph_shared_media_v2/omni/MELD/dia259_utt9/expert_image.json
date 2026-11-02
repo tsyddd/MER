@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "Monica's facial expression is tense, with a tight mouth and furrowed brow, indicating a negative emotional state. Her hands are clasped tightly in front of her, a gesture often associated with stress or suppressed emotion. Although she is speaking, her expression does not align with joy or neutral. The combination of her facial tension and the aggressive content of her words ('You are both idiots') strongly supports an interpretation of anger.",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "Monica's mouth is slightly open and her brow is furrowed.",
+      "interpretation": "This is a tense facial expression, not a relaxed or joyful one, suggesting a negative emotion.",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.6256245142666815",
+      "observation": "Monica's hands are clasped tightly together in front of her.",
+      "interpretation": "This is a common non-verbal cue for stress, anxiety, or suppressed emotion.",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "You are both idiots.",
+      "observation": "The words spoken are a direct insult.",
+      "interpretation": "The aggressive content of the speech is consistent with an angry emotional state.",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "0.0 - 2.127123348506717",
+      "observation": "The speaker's tone is sharp, high-pitched, and forceful.",
+      "interpretation": "The vocal delivery matches the aggressive content of the words, reinforcing the interpretation of anger.",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "There is no visual evidence to support a label of joy, as her facial expression is tense and not smiling. The evidence overwhelmingly supports anger."
+}

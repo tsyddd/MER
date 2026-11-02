@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "当前字幕“甚至，连一件衣裳。”是带有递进和缺失感的陈述，并非疑问或反讽；结合人物眉头紧蹙、眼神湿润、嘴角下压且张口欲言的表情，更支持受伤和忧虑交织的情绪。由于未提供音频，无法判断语调、停顿或音量变化。",
+  "answer": "sad",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“甚至，连一件衣裳。”",
+      "observation": "字幕表达“甚至连一件衣裳都没有/未得到”的缺失或抱怨，语句本身是陈述片段。",
+      "interpretation": "内容指向失落、受伤或被亏待的感受，支持悲伤而非字面中性的表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00至frame_07 @ 0.0–2.04秒",
+      "observation": "人物持续眉心收紧、眼角湿润，嘴部张开并带有下压感，面向画外对象。",
+      "interpretation": "这些可见表情与当前字幕的哀怨、受伤语义一致，支持悲伤；画面未显示明显愤怒或惊讶。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04至frame_07 @ 1.16–2.04秒",
+      "observation": "后段表情仍保持紧蹙眉和含泪感，未见明显放松或喜悦变化。",
+      "interpretation": "情绪在片段中持续偏向痛苦或失落，而不是短暂惊讶。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是worried：紧蹙眉和面向他人的神情也可能表示担忧或恳求。仅凭这段不完整字幕和无音频画面，无法完全区分悲伤与忧虑；但“连一件衣裳”所强调的缺失和受伤感使sad更合适。"
+}

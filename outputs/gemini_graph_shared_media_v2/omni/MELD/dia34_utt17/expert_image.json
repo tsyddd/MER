@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "Monica在对话中表现出强烈的情绪。她的面部表情紧绷，眉毛皱起，嘴巴微张，显示出她正在激烈地表达观点。她的手势也加强了这种情绪，右手抬起，似乎在强调她的立场。这些视觉线索与她所说的内容“我永远不会认为你背叛丈夫是可以接受的”相匹配，表明她正处于愤怒状态。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0",
+      "observation": "Monica的眉毛皱起，嘴巴微张，表情显得激动和不满。",
+      "interpretation": "这是一个典型的愤怒表情，表明她对Rachel的行为感到非常生气。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.5004996114133452",
+      "observation": "Monica的右手抬起，做出一个强调的手势。",
+      "interpretation": "这个手势加强了她话语的力度，表明她正在坚定地表达自己的愤怒和立场。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Rachel! I'm never gonna think it's okay for you to cheat on your husband!",
+      "observation": "字幕显示Monica正在谴责Rachel的背叛行为。",
+      "interpretation": "字幕内容直接证实了Monica愤怒的原因，即她认为背叛是不可接受的。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "虽然Monica的表情和语气都很强烈，但她的愤怒是针对Rachel的行为，而不是针对Rachel本人。然而，这并不改变她当前情绪是愤怒的事实。"
+}

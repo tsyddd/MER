@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "目标是弯腰离开的女学生，不是正在穿衣或站在过道里的男子。她在当前互动中道歉[E2]，同时低头、迅速从人群旁穿过[E1]；图谱的process_0也记录了这一行动[E3]，但它与画面是同一事实，不能重复算作独立佐证。道歉与回避动作结合，更像急于摆脱眼前令人不安的处境，而非平稳地离开。图谱称其语声急促，但没有原音轨，不能亲耳核验[E4]；图谱关于她为何离开的解释也不能由动作顺序直接推出。",
+  "open_emotion": "慌张",
+  "answer": "fear",
+  "mapping_reason": "这里的慌张表现为对当前不利互动的急切回避，故近似映射到fear；这不等于她害怕人身危险，标签也无法完整表达其中可能有的窘迫。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_04（1.293秒）",
+      "observation": "女学生低头弯身，从正在穿衣的男子旁穿过，随后向过道左侧离开。",
+      "interpretation": "当前的回避动作支持她表现慌张；单看姿势尚不能确定原因。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "“I’m so sorry!”",
+      "observation": "当前字幕是一句道歉。",
+      "interpretation": "与离开动作合看，支持她正对眼前互动作出急切反应；道歉本身也可能只是礼貌。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "节点记载女学生弯腰低头、快速穿过书架过道离开。",
+      "interpretation": "与画面相符，但只是对[E1]所见行动的图谱描述，不是另一份独立情绪证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "节点转述她说话较快、带有急促感；本次未提供原音轨。",
+      "interpretation": "若准确可加强慌张判断，但语速无法直接核验，不将其作为最终取舍的关键。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "低头离开并道歉也可能主要出于尴尬或礼貌，而非畏惧明确威胁；画面与字幕不足以确定她道歉的对象、原因或预期后果。"
+}

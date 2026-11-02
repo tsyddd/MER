@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "Phoebe在近距离注视对方时展现出持续且逐渐扩大的露齿微笑，伴随轻快笑声与轻松的肢体互动[E1][E2]，整体视觉表现明确符合愉悦轻松状态（joy）。",
+  "answer": "joy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.0009992228266904",
+      "observation": "Phoebe面带明显的露齿微笑，眼角收紧，嘴角上扬，手轻搭在男方胸口前。",
+      "interpretation": "面部特征呈现出真诚、愉悦的笑意，结合放松的亲密互动姿态，支持正面愉快的情绪表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:01 - 00:02",
+      "observation": "Phoebe在说完台词后发出短促而轻松的轻笑声。",
+      "interpretation": "听觉上的轻笑强化了画面中微笑的非礼貌性、自然愉悦特征，排除严肃或中性调侃。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "由于台词带有一丝探询和调侃语气，可能被误判为平淡对话的neutral，但画面中清晰明显的笑容幅度与笑声并不符合中性克制的定义。"
+}

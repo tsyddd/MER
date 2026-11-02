@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "在当前对话情境下，Monica正面对画外友人说话[context_1]。虽然图谱[process_0]与字幕记录其言语内容为负向词汇“You are both idiots.”，且图谱节点[person_2]简略概括为“语调平稳清晰”，但核查实际音轨与多模态画面可知，Monica发音时语调轻快、带笑且具有明显的逗弄调侃色彩，视觉上从frame_04至frame_07均呈现明显的嘴角上扬与露齿微笑，双手交叉握于胸前[person_1]展现出放松而看好戏的愉悦姿态。图谱遗漏了其面部微笑和语调中明显的戏谑笑意。因此，言语表面的责备实为朋友间的打趣逗乐，核心体验为愉悦调侃。",
+  "open_emotion": "逗乐调侃",
+  "answer": "joy",
+  "mapping_reason": "开放情绪体现为对朋友愚蠢行为感到好笑、戏谑的愉悦体验。根据MELD情绪轮，当前状态属于正向开心的互动表达，契合joy（包含愉悦/amused）的定义范畴，因而映射至joy。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "图谱记录Monica面对前方说出“You are both idiots.”",
+      "interpretation": "明确了当前事件行为是直接针对对话对象的口头评价",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04",
+      "observation": "Monica嘴角上扬露齿微笑，眼神专注看向前方，双手十指交叉扣在胸前",
+      "interpretation": "面部神情毫无愤怒或厌恶的紧绷感，而是呈现出调侃好友时的戏谑笑意",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "真实音轨中Monica语气轻快上扬，前置词带有轻快亲昵感，伴随隐约笑音",
+      "interpretation": "听觉特征与画面微笑互补，纠正了图谱平淡中性的描述，确认了玩笑与逗乐性质",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "字面台词“idiots”容易被孤立语义误判为愤怒责备（anger）或嫌弃（disgust），但结合音视频跨模态的微笑和戏谑声调，可明确排除对抗性负向情绪。"
+}

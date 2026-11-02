@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物是金发、穿粉白格纹上衣的Phoebe，不是穿深色衬衫的男子。她起初看着对方、嘴唇微抿，随后笑容逐渐明显，手一直轻放在对方肩上[E1][E2]。这些连续变化最支持她此刻感到愉悦；但笑容也可能带有礼貌成分，不能仅凭微笑断定更强烈的情绪。",
+  "open_emotion": "愉悦",
+  "answer": "joy",
+  "mapping_reason": "当前可见的笑容逐渐展开、面向对方的互动姿态，符合joy所涵盖的轻度正向愉悦；没有足够证据将其解释为兴奋。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_04（1.293秒）",
+      "observation": "Phoebe始终面向男子；起初嘴唇微抿，随后嘴角上扬，笑容逐渐明显。",
+      "interpretation": "表情由克制转向较明确的正向反应，支持愉悦。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00（0.0秒）至frame_04（1.293秒）",
+      "observation": "Phoebe的一只手轻放在男子肩上，交谈时保持这一近距离姿态。",
+      "interpretation": "与逐渐展开的笑容相结合，支持她在这次互动中表现得亲近、放松；手势本身不足以判定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05（1.627秒）至frame_07（2.294秒）",
+      "observation": "镜头转到Phoebe背后，她的面部不可见；画面中可见的笑容属于男子。",
+      "interpretation": "后段不能用男子的表情替代Phoebe的情绪证据。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "Phoebe前段的笑容较轻，也可能只是礼貌或略带试探的社交微笑。字幕中的问句不足以确认她的说话方式；没有提供音频，无法据语调进一步区分。"
+}

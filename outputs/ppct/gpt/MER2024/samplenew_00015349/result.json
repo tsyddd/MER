@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00015349",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "目标说话人〔person_0〕在室内与对方〔person_1〕面对面交流，连续说出“再这么烧下去的话”〔process_0〕和“传到高家”〔process_1〕，且process_1发生在process_0之后并共同构成条件性警示。画面中他表情严肃、注意力集中，内容指向可能造成的影响，较符合担忧而非已确认发生火势或单纯中性陈述。",
+  "output": "目标说话人〔person_0〕在室内与对方〔person_1〕面对面交流，连续说出“再这么烧下去的话”〔process_0〕和“传到高家”〔process_1〕，且process_1发生在process_0之后并共同构成条件性警示。画面中他表情严肃、注意力集中，内容指向可能造成的影响，较符合担忧而非已确认发生火势或单纯中性陈述。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 34.95386362075806,
+  "node_count": 5,
+  "edge_count": 2
+}

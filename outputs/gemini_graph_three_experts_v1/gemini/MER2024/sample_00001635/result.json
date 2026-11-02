@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00001635",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "33e676dfa4457845fb12373ba65d5f414546b0623de9d024d66ecd7d1c0e8f8c",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "三位专家在各自模态观察中高度一致。视觉专家指出目标人物眉心微蹙、眼神慌乱且神情紧绷；音频与图谱专家均证实其言语急促结巴、音调微颤，正在慌乱辩解。各模态证据均指向人物被质询时的焦虑与不安，一致判定为worried。",
+  "output": "三位专家在各自模态观察中高度一致。视觉专家指出目标人物眉心微蹙、眼神慌乱且神情紧绷；音频与图谱专家均证实其言语急促结巴、音调微颤，正在慌乱辩解。各模态证据均指向人物被质询时的焦虑与不安，一致判定为worried。\n<answer>worried</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 52.163389682769775
+}

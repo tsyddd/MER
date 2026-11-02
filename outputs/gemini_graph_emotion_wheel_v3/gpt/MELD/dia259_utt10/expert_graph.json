@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "Monica当前针对一个笑话提出批评：她先否定其好笑，再指责它冒犯女性、医生和猴子。[E1] 图谱节点process_1记录的是她继续提出冒犯指控，而非他人的评价或过去事件；这一顺序与字幕相符，但不能据此推断笑话的具体内容或她为何开始批评。[E3] 她前倾、向外挥手，随后再次前倾张口说话，配合当前的指责，更像是在表达不满，而非单纯陈述意见。[E2]",
+  "open_emotion": "愤慨",
+  "answer": "anger",
+  "mapping_reason": "她当前表达的重点是认为笑话冒犯了人并予以批评，符合anger中因冒犯而产生不满、责备的方向；证据不足以将其描述为强烈愤怒。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "The joke is not funny, and its offensive to women, and doctors, and monkeys!",
+      "observation": "Monica否定笑话好笑，并明确称其冒犯多个对象。",
+      "interpretation": "直接表明她当前针对笑话提出负面评价和指责。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02（1.418秒）、frame_06（4.213秒）",
+      "observation": "Monica说话时向外挥手；稍后再次前倾，张口朝前方说话。",
+      "interpretation": "动作与正在进行的批评相配合，但仅凭动作不能确定情绪类别。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_1",
+      "observation": "节点记录Monica继续说笑话“offensive to women, and doctors”，与当前字幕一致。",
+      "interpretation": "帮助定位指责在当前发言中的位置；它与字幕同源，不算另一份独立证据。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "她说话时有短暂微笑，单看表情也可能被解读为玩笑式反驳；但整句仍以指出冒犯为主。未提供原音轨，图谱person_1及person_3所述语速、音量和语调只能保留为未经亲耳核验的图谱转述，不能据此判断她在吼叫。"
+}

@@ -1,0 +1,84 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "画面中的女性开口询问：“他是谁呀？”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "audio",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "女性双眉紧蹙，眉心隆起",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "女性视线朝向画面右侧方向",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "女性发声音量偏低，语调上扬呈疑问语气",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内暗光环境，女性身处木质墙板旁",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_1",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "同一女性在同一时刻双眉紧蹙并同时将视线投向画面右侧",
+      "entity_anchor": "画面中的女性"
+    },
+    {
+      "source": "person_2",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "同一女性在发声语调上扬呈现疑问语气的同时，伴随双眉紧蹙的面部神态",
+      "entity_anchor": "画面中的女性"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供了女性双眉紧蹙、眉心隆起的面部肌肉特征，person_1补充了其目光朝向画面右侧的注视方位，两者联合将面部神情与空间注视目标整合，完整呈现出女性正凝神注视右侧方向的可观察面貌。",
+      "entity_anchor": null
+    }
+  ]
+}

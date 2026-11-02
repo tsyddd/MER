@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "图谱节点[person_1]与可核验真实音频一致，Monica在陈述'But Ben is coming over tonight and he can’t see this'时语调平稳自如；视觉上[person_0][frame_01 @ 0.334s]面部肌肉放松，眼神与神态均为就事论事的陈述状态，随后自然转向街机[person_3]，呈现典型的中性情绪。",
+  "answer": "neutral",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱记录Monica语调平稳连续，经真实音轨核验其发音均匀、无颤音、无升调惊慌或压低怒气",
+      "interpretation": "表明其在陈述客观事实与安排，缺乏愤怒或恐惧的声学激活特征，支持中性",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.334s",
+      "observation": "Monica侧头与身旁人交谈，眉毛平舒、嘴角自然微动，无皱眉、瞪眼或紧绷咬牙",
+      "interpretation": "面部神情呈现日常交谈的平静状态，直接支持neutral",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_3",
+      "observation": "Monica将视线从男子处转至街机屏幕并身体前倾准备操作",
+      "interpretation": "行为链条从口头告知连贯过渡到务实处理事务，情绪未被扰动",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词内容提及'he can't see this'涉及避免特定后果，可能被推测为带有担忧或恐惧（fear），但音频与面部表达均无任何恐慌与焦虑激起，实际为冷静理智的务实处理，故未采纳fear。"
+}

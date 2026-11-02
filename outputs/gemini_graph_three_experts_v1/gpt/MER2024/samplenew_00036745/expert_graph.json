@@ -1,0 +1,13 @@
+{
+  "expert": "graph",
+  "reason": "男子当前主要是在陈述过去线索并表示“我去查”〔process_0〕〔process_1〕〔process_2〕，同时指向电脑屏幕后放下手〔person_1〕〔person_2〕，未见明显情绪化表现。图谱记载其语调平稳、果断〔person_3〕，因此更符合中性状态。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "process_0",
+    "process_1",
+    "process_2",
+    "person_1",
+    "person_2",
+    "person_3"
+  ]
+}

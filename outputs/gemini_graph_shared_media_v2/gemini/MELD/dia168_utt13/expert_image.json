@@ -1,0 +1,24 @@
+{
+  "expert": "image",
+  "reason": "Ross在片段中身体前倾逼近对话对象，眉部紧绷，嘴部动作幅度大且连续配合具有对抗性和指责性的手势（摊手施压、手部挥动点指），结合其指控性的台词与强硬语势，明确展现出攻击与质问的愤怒情绪[E1][E2]。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0s",
+      "observation": "Ross面向右侧，身体前倾，嘴部大幅张开，眉毛聚拢下压，呈现主动逼近的质问姿态。",
+      "interpretation": "显示出强烈的进攻性与激动质询，为anger的典型肢体与面部征候。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03 @ 1.3346656304355873s",
+      "observation": "Ross双臂在胸前摊开并向前推压，紧盯对方并严厉质问，随后在frame_05进一步做出指向强调手势。",
+      "interpretation": "动态强调的手势配合紧绷严肃的表情，体现强烈的指责与逼迫对方坦白的愤怒态度。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "双手摊开（如frame_03）有时可能表示困惑或求助，但在此处伴随身体前倾、眼神严厉逼视及指责性动作，并非无奈或困惑，而是强硬施压。"
+}

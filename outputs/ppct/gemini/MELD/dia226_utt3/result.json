@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia226_utt3",
+  "dataset": "MELD",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "在咖啡馆交谈场景中，Rachel头部微偏注视倾听者Phoebe（person_0），同时以平缓而略带感叹的日常交谈语调说话（person_1，与person_0同步存在），视听结合呈现出平稳倾诉的常态。此外，她双手随言语抬至胸前比划后自然收回放低（person_2后接person_3），整体动作与神情平和，无激烈的悲伤或愤怒等情感宣泄，符合中性状态。",
+  "output": "在咖啡馆交谈场景中，Rachel头部微偏注视倾听者Phoebe（person_0），同时以平缓而略带感叹的日常交谈语调说话（person_1，与person_0同步存在），视听结合呈现出平稳倾诉的常态。此外，她双手随言语抬至胸前比划后自然收回放低（person_2后接person_3），整体动作与神情平和，无激烈的悲伤或愤怒等情感宣泄，符合中性状态。\n<answer>neutral</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 47.93452429771423,
+  "node_count": 6,
+  "edge_count": 4
+}

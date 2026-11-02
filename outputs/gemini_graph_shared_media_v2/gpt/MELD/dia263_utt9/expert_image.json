@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标是画面中央坐着说话的Ross，而非右后方经过的人。他先垂眼、低头，随后抬头说话，但面部始终较克制，未见笑容[E1][E2]。结合字幕所述的放弃决定[E3]，最有支持的判断是sadness；字幕只用于辅助解释，不能代替面部证据。",
+  "answer": "sadness",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒、frame_01 @ 0.2085415047555605秒",
+      "observation": "Ross低着头、视线向下，嘴唇轻抿。",
+      "interpretation": "这一组表现支持低落或沉重的解读，但单凭垂眼不能确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.417083009511121秒至frame_07 @ 1.4180822323378113秒",
+      "observation": "他抬起头并张口说话，表情保持克制，未见笑容或明显激烈的面部动作。",
+      "interpretation": "从垂眼到开口的变化，更符合平静表达难过的事，而非可见的兴奋或愤怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "I'm gonna have to give him up.",
+      "observation": "字幕写的是“我得放弃他”。",
+      "interpretation": "话语内容与低落的视觉表现相符；这不是对语调的判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的相反解释是neutral：Ross抬头后表情和姿态都较平稳，没有明显哭泣或强烈悲伤表情。但开头持续垂眼、轻抿嘴，且字幕表达不得不放弃的决定，因此未将克制直接判为neutral。"
+}

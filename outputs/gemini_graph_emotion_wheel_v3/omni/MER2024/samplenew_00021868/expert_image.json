@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物在片段中保持坐姿，视线向下，表情平静，无明显情绪波动。其姿态和面部特征在多个帧中保持一致，未见皱眉、张口、抬眉等典型情绪表达。字幕内容为陈述性话语，无情绪色彩。音频中语调平稳，无明显情绪起伏。综合来看，其表现符合中性状态。",
+  "open_emotion": "平静",
+  "answer": "neutral",
+  "mapping_reason": "根据情绪轮定义，'neutral'指当前主要为平稳叙述、自然交流或无明确主导情绪的表达。目标人物的视觉表现（姿态、视线、面部）和音频语调均平稳，无明显情绪特征，符合该定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "目标人物保持坐姿，视线向下，面部表情平静，无明显情绪波动。",
+      "interpretation": "视觉表现平稳，无明显情绪特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "音频中说话者语调平稳，无明显情绪起伏。",
+      "interpretation": "声音表现平稳，无明显情绪特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "字幕内容",
+      "observation": "字幕内容为“也不知道，当年，三哥。”，为陈述性话语，无情绪色彩。",
+      "interpretation": "话语内容为陈述，无情绪色彩。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。"
+}

@@ -1,0 +1,32 @@
+{
+  "expert": "image",
+  "reason": "目标是画面右侧穿浅粉色上衣的Janice，而非前景背对镜头的人。[E1]她面向对方，眉毛抬起、张口发问；[E2]随后从抱臂转为双手在胸前比划，并举起手指。结合字幕中的提问[E3]，最有支持的是带疑问的轻度惊讶，而非强烈震惊。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.5004996114133452秒；frame_02 @ 1.0427075237778025秒",
+      "observation": "Janice看向前景人物，眉毛抬起，嘴张开；双臂仍交叠在身前。",
+      "interpretation": "面部变化支持她正对听到或谈到的内容作出疑问式反应，但抱臂本身不能确定情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04 @ 2.0437067466044927秒；frame_07 @ 3.5869138817956405秒",
+      "observation": "她松开交叠的双臂，在胸前用双手比划，最后举起手指，持续面向前景人物说话。",
+      "interpretation": "动作由收拢转为强调提问，与前面的抬眉、张口共同支持轻度惊讶。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Oh, are you sure?",
+      "observation": "字幕是一句询问对方是否确定的话。",
+      "interpretation": "与画面中的疑问式表情相符；字幕不能证明她的语调。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的相反解释是她只是在怀疑或确认对方的话：抬眉、张口和手势也可用于普通提问，画面没有强烈惊愕的动作。因此这里判断为轻度惊讶，不推断更强的情绪。"
+}

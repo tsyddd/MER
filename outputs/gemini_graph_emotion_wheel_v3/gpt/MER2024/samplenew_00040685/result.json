@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00040685",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "00b59cea7eb95d8df3713bcb9b7defc0e8f79ae664b527d4cc419d1d058a6afa",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "忐忑",
+      "mapped_label": "worried",
+      "mapping_reason": "忐忑指向面对疑心及后续结果不明时的不安，按本情绪轮映射为worried；这里判断的是他当前讲述时的表达，不是断言过去求见时也有同样情绪。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "不安",
+      "mapped_label": "worried",
+      "mapping_reason": "不安在此主要指面对被怀疑及求见结果的不确定感，按情绪轮映射为worried；由于台词是回述，当前情绪的判断仍有限制。"
+    },
+    "image": {
+      "open_emotion": "忧虑",
+      "mapped_label": "worried",
+      "mapping_reason": "当前顾虑指向父皇的疑心及其可能带来的后果，符合worried对风险和不确定性的定义；画面支持其表达紧绷，但不能仅凭皱眉确定情绪。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "我核对了8帧：画面中央戴冠男子始终面向左侧说话，眉间收紧、眼睛睁大，至frame_07仍未放松；[image:E1]所述视觉表现可信，但单凭表情不能定类。字幕“父皇本已对我起了疑心”及随后“去求他”的回述，为这种紧绷提供了顾虑对象，[audio_subtitle:E1]对此的记录可信，但过去的遭遇不能直接等同于当前情绪。相较于一瞬间的惊讶或针对眼前人的愤怒，持续的紧绷与尚未讲明结果的处境更支持当前的不安；未提供音轨，不能借语调进一步判断。",
+  "output": "我核对了8帧：画面中央戴冠男子始终面向左侧说话，眉间收紧、眼睛睁大，至frame_07仍未放松；[image:E1]所述视觉表现可信，但单凭表情不能定类。字幕“父皇本已对我起了疑心”及随后“去求他”的回述，为这种紧绷提供了顾虑对象，[audio_subtitle:E1]对此的记录可信，但过去的遭遇不能直接等同于当前情绪。相较于一瞬间的惊讶或针对眼前人的愤怒，持续的紧绷与尚未讲明结果的处境更支持当前的不安；未提供音轨，不能借语调进一步判断。\n<answer>worried</answer>",
+  "label": "angry",
+  "elapsed_seconds": 82.23650026321411
+}

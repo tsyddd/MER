@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/sample_00002893",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "9d46ffb3a0e6d7ee83ce5711674ec38a79e6e03c6208bac88d0b6ce9c7023ef2",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "根据情绪轮定义，'worried'指对可能的负面结果、风险或未知的顾虑、焦虑和不安。目标人物正在转述一个正在恶化的负面事件（网络诽谤），并用“越闹越大”来强调其不确定性与潜在风险，其声音和表情也表现出焦虑，因此最符合'worried'的定义。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "根据情绪轮定义，'worried'指对可能的负面结果、风险或未知情况的顾虑、焦虑和不安。说话者正在描述一个正在恶化的负面事件（网络诽谤），并用'事情越闹越大'来强调其严重性，这体现了她对事态发展的担忧和焦虑，因此映射到'worried'是合适的。"
+    },
+    "image": {
+      "open_emotion": "担忧",
+      "mapped_label": "worried",
+      "mapping_reason": "根据情绪轮的定义，'worried'（担忧）指对可能的负面结果、风险或未知情况的顾虑、焦虑和不安。目标人物正在谈论一个朋友在网上被诽谤且事态扩大的情况，这是一种尚未完全确定的负面风险，她表现出的焦虑和忧虑正是对这种不确定性的直接反应，因此最符合'worried'的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "三位专家均一致认为目标人物的情绪是'担忧'。专家graph指出其声音发紧、语速急促，并结合双眉微蹙的视觉表现，共同指向焦虑。专家audio_subtitle认为其语调平稳，但内容涉及朋友被诽谤且事态扩大，表明其关切。专家image强调其全程眉头紧锁、眼神忧虑的视觉表现，与谈话内容高度一致。尽管专家audio_subtitle提到语调平稳，但面部表情是更直接的情绪线索，且所有证据都指向对负面事件升级的不安，因此最终判断为'worried'。",
+  "output": "三位专家均一致认为目标人物的情绪是'担忧'。专家graph指出其声音发紧、语速急促，并结合双眉微蹙的视觉表现，共同指向焦虑。专家audio_subtitle认为其语调平稳，但内容涉及朋友被诽谤且事态扩大，表明其关切。专家image强调其全程眉头紧锁、眼神忧虑的视觉表现，与谈话内容高度一致。尽管专家audio_subtitle提到语调平稳，但面部表情是更直接的情绪线索，且所有证据都指向对负面事件升级的不安，因此最终判断为'worried'。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 174.7106750011444
+}

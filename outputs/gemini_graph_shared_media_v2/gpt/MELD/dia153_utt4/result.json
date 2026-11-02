@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia153_utt4",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "1701ec52f64cb4d931ebb2a39270db0f0b109d59cf49cceb1bc9a7c9f35dd50e",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "anger",
+  "emotion_analysis": "目标是沙发上穿格子衬衫的Joey；回看第1、4至6帧，他从摊手转为挥手、指向左侧，眉头收紧，面部也随之绷紧。[image:E1][image:E2]对这些可见变化的描述可信，但“恼怒”仍是解释，手势也可能只是强调观点。字幕是在举恐高后去楼顶的例子，不能把其中的“fear”当作Joey此刻的恐惧；结合持续的紧绷表情，我倾向于恼怒而非单纯说明。未提供音轨，无法核验语气。",
+  "output": "目标是沙发上穿格子衬衫的Joey；回看第1、4至6帧，他从摊手转为挥手、指向左侧，眉头收紧，面部也随之绷紧。[image:E1][image:E2]对这些可见变化的描述可信，但“恼怒”仍是解释，手势也可能只是强调观点。字幕是在举恐高后去楼顶的例子，不能把其中的“fear”当作Joey此刻的恐惧；结合持续的紧绷表情，我倾向于恼怒而非单纯说明。未提供音轨，无法核验语气。\n<answer>anger</answer>",
+  "label": "fear",
+  "elapsed_seconds": 74.49453353881836
+}

@@ -1,0 +1,12 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载女子在说话时面部略带蹙眉、眉心微皱，视线朝前下方（person_0、person_2），且说话语气缓和而关切（person_1）。同时，女子台词直接表达“我还不放心呢”及“你万一要想不开怎么办呢”（process_1、process_2），言行与神态均明确体现出对对方安危的关切与担忧，因此其当前情绪为worried。",
+  "answer": "worried",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "person_2",
+    "process_1",
+    "process_2"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "expert": "graph",
+  "reason": "当前帧中女子持续面向并注视前方，先张口、后逐渐显出嘴部收紧和紧绷感，结合当前对话中的否认性回应，更像是在担心或防御性解释，而非仅有短暂惊讶。[E1][E2] 图谱节点process_0记录她正在回应旗袍归属问题，可作为当前互动语义的辅助，但其转述台词与实际字幕不完全一致，不能据此扩写背景。[E3] 未提供原音轨，不能亲耳核验图谱所称急促语调。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00 @ 0.0秒；frame_01 @ 0.226秒；frame_04 @ 0.860秒；frame_07 @ 1.494秒",
+      "observation": "女子始终面向并注视前方，眼睛睁大、嘴巴张开，后续嘴部逐渐收紧，面部保持紧绷。",
+      "interpretation": "持续面对当前对象并逐渐显出的紧绷感支持对当前互动后果的不安或防御，较不符合单纯短暂惊讶。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "当前字幕“我：不。”",
+      "observation": "字幕呈现一个简短的否认性回应。",
+      "interpretation": "否认性回应与画面中的紧绷表情结合，可支持她在当前对话中感到担忧或需要辩解；但字幕本身不能证明具体情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "图谱节点process_0记录女子开口说出“我不知道这件旗袍是你的”。",
+      "interpretation": "该节点指向当前围绕旗袍归属的解释性互动，可辅助区分担忧性辩解与无关的惊讶；但图谱转述内容与当前字幕“我：不。”不完全一致，不能将其当作已核实的完整台词。",
+      "polarity": "uncertain"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱节点person_1转述女子“语调急促连贯”。",
+      "interpretation": "若该音频派生描述准确，能进一步支持紧张或担忧；但audio_provided=false，当前无法亲耳核验。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "最强的相反解释是surprise：frame_00至frame_01中眼睛睁大、嘴巴张开，具有即时惊讶的外观。但后续帧仍持续面对并回应，且表情逐渐紧绷，因此采用worried。仍缺少原音轨，无法确认语调是否急促。"
+}

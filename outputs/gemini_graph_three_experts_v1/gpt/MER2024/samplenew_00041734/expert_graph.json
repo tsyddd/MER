@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "女性眉头微蹙并注视对方〔person_0〕，图谱记载其说话时语调上扬、语气急促〔person_1〕，随后连续追问“你为什么要辞职”〔process_0〕和“啊”〔process_1〕，表现出对当前情况的担忧与急切。",
+  "answer": "worried",
+  "evidence_refs": [
+    "person_0",
+    "person_1",
+    "process_0",
+    "process_1"
+  ]
+}

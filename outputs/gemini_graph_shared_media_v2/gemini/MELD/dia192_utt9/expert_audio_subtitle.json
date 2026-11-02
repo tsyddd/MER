@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物针对他人的议论从画外发出极具穿透力、音调高亢且带有强烈冒犯感与质问语气的“Excuse me!”[E1]，语意与韵律均指向受冒犯后的愤怒与当面质问，视觉上快步上前与怒视的神态也完全印证了这种愤怒情绪[E2]。",
+  "answer": "anger",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "0.0s - 1.5s",
+      "observation": "画外音以高音量、尖锐且略带发冲的声调喊出“Excuse me!”，重音落在尾音且带有明显的质问与被冒犯语气。",
+      "interpretation": "常规礼貌用语在极高音量和短促高亢的语调下转化为直接宣泄不满的愤怒抗议，显示其受到触犯后的对抗意图。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05 @ 1.08s - frame_07 @ 1.50s",
+      "observation": "Monica从门后探身并快步走入客厅，目光紧紧锁定桌前的Phoebe，面部紧绷，身体前倾呈对峙态势。",
+      "interpretation": "肢体迅速介入与带有攻击性的逼近姿态，佐证了声音中传递的愤怒情绪，而非单纯的意外。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是surprise（因字幕包含‘What?!’且属于突发打断）。但音频中语音语调并非纯粹的困惑或意外悬空，而是充满侵略性与被冒犯后的愤怒声讨，故排除单纯的惊奇。"
+}

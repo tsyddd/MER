@@ -1,0 +1,119 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Ross对旁边的人说：“We know you took it, so just—just save yourself the time and confess!”",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle",
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Ross面向画面左侧，嘴部张开。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Ross抬起双手并在身前做手势。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Ross继续面向画面左侧，交替移动双手做手势。",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "画面最后出现一名身穿深色制服的女性，嘴部张开。",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "室内场景中，Ross与三名男性同处画面，其中两名位于他身旁或身后。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "画面最后出现一名身穿深色制服的女性。",
+      "time_index": 3,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_2",
+      "target": "person_1",
+      "relation": "after",
+      "reason": "Ross在前一帧抬起双手做手势，随后继续交替移动双手做手势",
+      "entity_anchor": "Ross的双手手势"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供Ross面向画面左侧且嘴部张开的可见表现，person_1提供其抬起双手并在身前做手势的表现；联合后补充出Ross一边面向旁人进行表达、一边配合手势的完整可观察互动状态。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_0提供Ross面向画面左侧并张嘴的表现，person_2提供其继续面向左侧、交替移动双手的持续手势表现；联合后增加了Ross面向对象持续表达并伴随连续手势的可观察信息。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1提供Ross抬起双手并在身前做手势，person_2提供其随后继续交替移动双手的表现；联合后补充出手势从抬起到持续交替移动的时间连续性和动作过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0限定了室内场景及Ross与三名男性同处画面，context_1补充了后续出现一名身穿深色制服的女性；联合后更完整限定了该室内互动场景的参与者及其时间上的出现变化。",
+      "entity_anchor": null
+    }
+  ]
+}

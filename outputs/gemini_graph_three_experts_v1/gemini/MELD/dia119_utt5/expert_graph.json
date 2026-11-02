@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载Monica在说话时语调平稳连续（person_1），向身旁男子陈述Ben要来且不能让他看到街机内容的事实安排（process_0、process_1）。其后她将视线转向街机并伸手前倾（person_3），整体表现为冷静专注的务实沟通与动作，未体现激烈的负面或正面情绪爆发。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "person_1",
+    "process_0",
+    "process_1",
+    "person_3"
+  ]
+}

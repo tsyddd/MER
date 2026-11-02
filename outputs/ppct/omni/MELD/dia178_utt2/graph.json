@@ -1,0 +1,409 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Monica speaks, saying 'Nope, sound like me.'",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Monica speaks, saying 'Pheebs, it's going great.'",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_2",
+      "type": "process",
+      "content": "Monica speaks, saying 'Look at Chandler with little baby girl Chandler.'",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_3",
+      "type": "process",
+      "content": "Monica holds a baby.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_4",
+      "type": "process",
+      "content": "Monica smiles.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_5",
+      "type": "process",
+      "content": "Monica looks towards Chandler.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Monica has long dark hair.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Monica wears a dark long-sleeved shirt.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Monica's mouth is open while speaking.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_3",
+      "type": "person",
+      "content": "Monica's head is turned towards Chandler.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_4",
+      "type": "person",
+      "content": "Phoebe has long blonde hair.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_5",
+      "type": "person",
+      "content": "Phoebe wears a red top with beige sleeves.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_6",
+      "type": "person",
+      "content": "Phoebe looks down.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_7",
+      "type": "person",
+      "content": "Phoebe's mouth is open while speaking.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_8",
+      "type": "person",
+      "content": "A baby is held by Monica.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_9",
+      "type": "person",
+      "content": "The baby wears a green and yellow patterned outfit.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "The scene takes place in an apartment living room.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "A refrigerator with magnets is in the background.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_2",
+      "type": "context",
+      "content": "A wooden cabinet is in the background.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_3",
+      "type": "context",
+      "content": "Monica is holding the baby.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_4",
+      "type": "context",
+      "content": "Phoebe is sitting on a couch.",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_5",
+      "type": "context",
+      "content": "Monica is talking to Phoebe.",
+      "time_index": 0,
+      "evidence_sources": [
+        "audio"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_2",
+      "target": "process_0",
+      "relation": "simultaneous",
+      "reason": "Monica's mouth is open while speaking, which is a continuous action.",
+      "entity_anchor": "Monica"
+    },
+    {
+      "source": "process_2",
+      "target": "process_1",
+      "relation": "simultaneous",
+      "reason": "Monica's mouth is open while speaking, which is a continuous action.",
+      "entity_anchor": "Monica"
+    },
+    {
+      "source": "process_5",
+      "target": "process_0",
+      "relation": "simultaneous",
+      "reason": "Monica's head is turned towards Chandler, which is a continuous action.",
+      "entity_anchor": "Monica"
+    },
+    {
+      "source": "process_5",
+      "target": "process_1",
+      "relation": "simultaneous",
+      "reason": "Monica's head is turned towards Chandler, which is a continuous action.",
+      "entity_anchor": "Monica"
+    },
+    {
+      "source": "process_5",
+      "target": "process_2",
+      "relation": "simultaneous",
+      "reason": "Monica's head is turned towards Chandler, which is a continuous action.",
+      "entity_anchor": "Monica"
+    },
+    {
+      "source": "process_3",
+      "target": "process_0",
+      "relation": "simultaneous",
+      "reason": "Monica holds the baby, which is a continuous action.",
+      "entity_anchor": "Monica"
+    },
+    {
+      "source": "process_3",
+      "target": "process_1",
+      "relation": "simultaneous",
+      "reason": "Monica holds the baby, which is a continuous action.",
+      "entity_anchor": "Monica"
+    },
+    {
+      "source": "process_3",
+      "target": "process_2",
+      "relation": "simultaneous",
+      "reason": "Monica holds the baby, which is a continuous action.",
+      "entity_anchor": "Monica"
+    },
+    {
+      "source": "process_4",
+      "target": "process_0",
+      "relation": "simultaneous",
+      "reason": "Monica smiles, which is a continuous action.",
+      "entity_anchor": "Monica"
+    },
+    {
+      "source": "process_4",
+      "target": "process_1",
+      "relation": "simultaneous",
+      "reason": "Monica smiles, which is a continuous action.",
+      "entity_anchor": "Monica"
+    },
+    {
+      "source": "process_4",
+      "target": "process_2",
+      "relation": "simultaneous",
+      "reason": "Monica smiles, which is a continuous action.",
+      "entity_anchor": "Monica"
+    },
+    {
+      "source": "person_9",
+      "target": "person_8",
+      "relation": "simultaneous",
+      "reason": "The baby wears a green and yellow patterned outfit, which is a continuous state.",
+      "entity_anchor": "The baby"
+    },
+    {
+      "source": "person_0",
+      "target": "person_8",
+      "relation": "simultaneous",
+      "reason": "Monica is holding the baby, which is a continuous state.",
+      "entity_anchor": "Monica"
+    },
+    {
+      "source": "person_8",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "Monica is holding the baby, which is a continuous state.",
+      "entity_anchor": "The baby"
+    },
+    {
+      "source": "person_0",
+      "target": "person_4",
+      "relation": "simultaneous",
+      "reason": "Monica is talking to Phoebe, which is a continuous state.",
+      "entity_anchor": "Monica"
+    },
+    {
+      "source": "person_4",
+      "target": "person_0",
+      "relation": "simultaneous",
+      "reason": "Monica is talking to Phoebe, which is a continuous state.",
+      "entity_anchor": "Phoebe"
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "simultaneous",
+      "reason": "The scene takes place in an apartment living room, which is a continuous state.",
+      "entity_anchor": "The scene"
+    },
+    {
+      "source": "context_0",
+      "target": "context_2",
+      "relation": "simultaneous",
+      "reason": "The scene takes place in an apartment living room, which is a continuous state.",
+      "entity_anchor": "The scene"
+    },
+    {
+      "source": "context_0",
+      "target": "context_3",
+      "relation": "simultaneous",
+      "reason": "The scene takes place in an apartment living room, which is a continuous state.",
+      "entity_anchor": "The scene"
+    },
+    {
+      "source": "context_0",
+      "target": "context_4",
+      "relation": "simultaneous",
+      "reason": "The scene takes place in an apartment living room, which is a continuous state.",
+      "entity_anchor": "The scene"
+    },
+    {
+      "source": "context_0",
+      "target": "context_5",
+      "relation": "simultaneous",
+      "reason": "The scene takes place in an apartment living room, which is a continuous state.",
+      "entity_anchor": "The scene"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "The 'person_0' node (Monica has long dark hair) and the 'person_1' node (Monica wears a dark long-sleeved shirt) describe different physical attributes of Monica. Together, they provide a more complete visual description of her appearance.",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "The 'context_0' node (The scene takes place in an apartment living room) and the 'context_1' node (A refrigerator with magnets is in the background) both describe the setting. The refrigerator provides a specific detail that helps to more fully define the living room context.",
+      "entity_anchor": null
+    }
+  ]
+}

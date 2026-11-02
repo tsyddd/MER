@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00036745",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "说话人声调平稳，语速正常，有自然停顿，结合其眼神朝向电脑屏幕，表明其注意力集中在电脑上。他所说的内容是陈述一个事实并表明自己将要采取行动，整体表现冷静、有条理，没有明显的情绪波动。",
+  "output": "说话人声调平稳，语速正常，有自然停顿，结合其眼神朝向电脑屏幕，表明其注意力集中在电脑上。他所说的内容是陈述一个事实并表明自己将要采取行动，整体表现冷静、有条理，没有明显的情绪波动。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 162.69000267982483,
+  "node_count": 10,
+  "edge_count": 6
+}

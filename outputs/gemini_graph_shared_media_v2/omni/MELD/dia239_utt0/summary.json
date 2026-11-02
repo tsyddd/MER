@@ -1,0 +1,9 @@
+{
+  "reason": "音频中Gunther以平稳的语调说出'Someone in there?'，句末有明显的升调，表明其主要意图是提问，而非表达其他情绪。字幕内容与音频完全一致，且无其他情绪化词汇。视觉上，Gunther的表情平静，没有表现出愤怒、悲伤或喜悦等强烈情绪。三个专家的证据均一致支持中性情绪，其中音频证据直接证实了其提问的意图和语调，是最强的区分性证据。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "audio_subtitle:E2",
+    "audio_subtitle:E3"
+  ]
+}

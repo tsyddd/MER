@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia186_utt3",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "66500757c83860e7bc8c787d8e2b59268fb274c5b6c0b4d08dfd117efb6c20d2",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sadness",
+  "emotion_analysis": "图像专家描述了持续的疲惫、紧皱眉头和痛苦表情，字幕中的道歉与取消安排也体现出遗憾，二者共同指向悲伤。图谱虽判断为平稳中性，但其中包含与字幕同源的语气和台词描述，且缺乏独立听觉核验，因此取舍后选择悲伤。",
+  "output": "图像专家描述了持续的疲惫、紧皱眉头和痛苦表情，字幕中的道歉与取消安排也体现出遗憾，二者共同指向悲伤。图谱虽判断为平稳中性，但其中包含与字幕同源的语气和台词描述，且缺乏独立听觉核验，因此取舍后选择悲伤。\n<answer>sadness</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 66.70431351661682
+}

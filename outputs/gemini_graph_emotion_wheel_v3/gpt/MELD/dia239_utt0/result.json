@@ -1,0 +1,36 @@
+{
+  "id": "MELD/dia239_utt0",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "b7c708f8d9735f8954957fb30790839e5a1cfb9b416c9423567de212ceab0391",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "平常询问",
+      "mapped_label": "neutral",
+      "mapping_reason": "当前有可观察的平稳询问表现，但没有足以支持其他情绪主导的反应，因此映射为neutral；疑问句本身不等于惊讶或恐惧。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "平常",
+      "mapped_label": "neutral",
+      "mapping_reason": "当前可见的是平稳的确认性询问，没有明确占主导的情绪反应，因此映射为neutral。"
+    },
+    "image": {
+      "open_emotion": "平常",
+      "mapped_label": "neutral",
+      "mapping_reason": "他的可见表达较平稳，询问没有伴随明确的惊吓、对抗或其他主导情绪，因此映射为neutral。"
+    }
+  },
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "neutral",
+  "emotion_analysis": "目标是左侧蓝衬衫的Gunther；八帧中他持续看向右侧，姿态和面部变化较小，[image:E1]的观察可信。第2至3帧他张口，结合字幕“Someone in there?”，可确认是在询问是否有人；[audio_subtitle:E1]将其理解为确认情况是合理的，但问句本身不能证明惊讶或害怕。略向前的姿态可能表示警觉，不过画面没有明确的威胁反应；未提供音轨，也无法据语调作进一步判断，因此当前更接近平稳询问。",
+  "output": "目标是左侧蓝衬衫的Gunther；八帧中他持续看向右侧，姿态和面部变化较小，[image:E1]的观察可信。第2至3帧他张口，结合字幕“Someone in there?”，可确认是在询问是否有人；[audio_subtitle:E1]将其理解为确认情况是合理的，但问句本身不能证明惊讶或害怕。略向前的姿态可能表示警觉，不过画面没有明确的威胁反应；未提供音轨，也无法据语调作进一步判断，因此当前更接近平稳询问。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 65.95263409614563
+}

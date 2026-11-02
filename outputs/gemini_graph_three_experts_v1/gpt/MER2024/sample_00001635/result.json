@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00001635",
+  "dataset": "MER2024",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "33e676dfa4457845fb12373ba65d5f414546b0623de9d024d66ecd7d1c0e8f8c",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "图片专家从8帧中指出目标人物眼睛睁大、眉毛略抬、姿态僵硬且缺少放松迹象，这些视觉线索支持担忧情绪。graph仅记载其直视、持续说话及语速较快，未见明确情绪表现；audio_subtitle未提供音频，不能据此作听觉判断，因此取视觉证据为主。",
+  "output": "图片专家从8帧中指出目标人物眼睛睁大、眉毛略抬、姿态僵硬且缺少放松迹象，这些视觉线索支持担忧情绪。graph仅记载其直视、持续说话及语速较快，未见明确情绪表现；audio_subtitle未提供音频，不能据此作听觉判断，因此取视觉证据为主。\n<answer>worried</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 76.19753098487854
+}

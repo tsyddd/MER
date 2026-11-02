@@ -1,0 +1,36 @@
+{
+  "id": "MER2024/samplenew_00014357",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_emotion_wheel_v3",
+  "graph_sha256": "1c1a5d8dd0e2d03d755669d8aca384a001216ff52b560b1e66824436e87c8a0f",
+  "graph_source_provider": "gemini",
+  "wheel_version": "ppct_dataset_wheels_v3_20261101",
+  "expert_emotions": {
+    "graph": {
+      "open_emotion": "欣喜",
+      "mapped_label": "happy",
+      "mapping_reason": "男孩当前具有明确的主动示好意图，面部展露由衷灿烂的露齿笑容，语调轻快欢悦，符合情绪轮中happy关于当前正向愉悦、兴奋热情的定义，故映射为happy。"
+    },
+    "audio_subtitle": {
+      "open_emotion": "欣喜雀跃",
+      "mapped_label": "happy",
+      "mapping_reason": "说话人展现出的轻快笑音与热情赞美属于典型的正向愉悦与兴奋互动，符合情绪轮中happy（喜悦/兴奋）的定义。"
+    },
+    "image": {
+      "open_emotion": "开心",
+      "mapped_label": "happy",
+      "mapping_reason": "目标人物表现出明显的咧嘴大笑、积极热情与愉悦互动，符合情绪轮中happy（正向愉悦、兴奋、满足）的定义。"
+    }
+  },
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "happy",
+  "emotion_analysis": "目标人物在片段中身体前倾，从frame_00到frame_01面颊肌肉明显上提并咧嘴开怀大笑[image:E1]，视觉上呈现由衷且饱满的欢快神态。在音频00:00至00:03处，其以高扬起伏、夹杂笑音的轻快语调喊出“哎呀，小区里最可爱……”[audio_subtitle:E1]，声音特征与热切夸赞的台词完全一致，体现出主动示好的兴奋与愉悦。表情与语调连贯自然，无任何负面抵抗或纯中立客套痕迹，准确映射为happy。",
+  "output": "目标人物在片段中身体前倾，从frame_00到frame_01面颊肌肉明显上提并咧嘴开怀大笑[image:E1]，视觉上呈现由衷且饱满的欢快神态。在音频00:00至00:03处，其以高扬起伏、夹杂笑音的轻快语调喊出“哎呀，小区里最可爱……”[audio_subtitle:E1]，声音特征与热切夸赞的台词完全一致，体现出主动示好的兴奋与愉悦。表情与语调连贯自然，无任何负面抵抗或纯中立客套痕迹，准确映射为happy。\n<answer>happy</answer>",
+  "label": "happy",
+  "elapsed_seconds": 53.49465036392212
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00005588",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "neutral",
+  "emotion_analysis": "画面中的男子表情平静温和，没有剧烈的情感波动，眼神专注且安抚对方。其言语和语调沉稳自然，整体呈现出平稳克制的中性状态。",
+  "output": "画面中的男子表情平静温和，没有剧烈的情感波动，眼神专注且安抚对方。其言语和语调沉稳自然，整体呈现出平稳克制的中性状态。\n<answer>neutral</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 5.81643271446228,
+  "node_count": null,
+  "edge_count": null
+}

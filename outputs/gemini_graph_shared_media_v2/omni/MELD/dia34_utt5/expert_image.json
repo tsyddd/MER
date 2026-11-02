@@ -1,0 +1,40 @@
+{
+  "expert": "image",
+  "reason": "目标人物Rachel在听到字幕内容后，表现出明显的惊讶。她的眉毛上扬，眼睛睁大，嘴巴微张，这些是典型的惊讶表情。她的身体姿态也从最初的放松转向更专注地面对对方，显示出她对听到的信息的即时反应。这些视觉线索与字幕内容和音频中的语气高度一致。",
+  "answer": "surprise",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01 @ 0.0",
+      "observation": "Rachel的眉毛上扬，眼睛睁大，嘴巴微张。",
+      "interpretation": "这是惊讶情绪的典型面部特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.5004996114133452",
+      "observation": "Rachel的视线集中在对方身上，身体略微前倾。",
+      "interpretation": "表明她正在专注地处理一个意外的信息。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Oh my God! Youre a 30 year old virgin!",
+      "observation": "字幕内容为一个具有冲击力的陈述。",
+      "interpretation": "该陈述内容是导致惊讶情绪的直接原因。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "anchor": "0.0-3.37837237704008",
+      "observation": "音频中Rachel的语调高亢、语速快，表现出强烈的震惊。",
+      "interpretation": "声音的语调与面部表情一致，共同证实了惊讶的情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。视觉、音频和字幕三者在时间上完全同步，共同指向惊讶这一情绪，没有相互矛盾的证据。"
+}

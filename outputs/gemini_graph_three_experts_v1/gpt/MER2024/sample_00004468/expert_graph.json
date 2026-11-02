@@ -1,0 +1,9 @@
+{
+  "expert": "graph",
+  "reason": "目标人物先眉头微蹙、注视右前方并持续说话，表现出对话题的在意〔person_2〕。随后她眉毛微扬、眼睛睁大，并以图谱记载的疑问语调追问对方，当前情绪更符合惊讶〔person_3〕。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "person_2",
+    "person_3"
+  ]
+}

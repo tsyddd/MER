@@ -1,0 +1,9 @@
+{
+  "reason": "目标说话人是播放催眠指令的磁带（Hypnosis Tape）。经独立核对实际音轨与字幕原话'Deeper.'，声音由语调极平缓、柔和且单调的录音女声播报，音量恒定且缺乏任何主观情绪起伏，完全符合程序化催眠引导的声学特征，正如[audio_subtitle:E2]与[graph:E1]所述。画面中床头录音设备静止播放且床上人物闭目沉睡[image:E1]，无对抗、愉悦或恐惧等任何主导情绪线索。综合可核实的多模态证据，该录音发声处于典型的平稳状态，准确映射为neutral。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "audio_subtitle:E2",
+    "graph:E1",
+    "image:E1"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标在说话时带有明显的气声轻笑，语调轻松调侃[E1]；画面中全程面带微笑、嘴角上扬且眉眼舒展[E2]，视听一致支持happy。",
+  "answer": "happy",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00 - 00:02",
+      "observation": "说话时伴随明显的轻笑声与含笑发音（laugh-talk），语调微扬且语带调侃",
+      "interpretation": "笑音表明说话者当时心态放松、带有愉悦或打趣的积极情绪",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02 @ 0.8400672053764301",
+      "observation": "面部肌肉上提，嘴角明显咧开露齿微笑，眼角收窄呈笑意",
+      "interpretation": "面部微笑表情与声音中的笑意高度一致，确认其处于happy状态",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "替代解释认为说话者倚靠沙发可能仅为病弱或随意的平静陈述（neutral），但其持续露齿的微笑及声音中清晰可辨的自嘲笑意排除了无情绪的中性状态。"
+}

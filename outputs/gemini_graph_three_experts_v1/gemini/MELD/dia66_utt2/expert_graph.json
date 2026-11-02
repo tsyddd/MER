@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "节点person_0和person_2显示Rachel在与乘务员交谈时全程面带微笑；节点process_1中她愉快地表示感谢并称赞“Thank you very much, it was excellent.”；图谱记载其语调客气平缓（person_1），整体展现出愉悦而礼貌的状态。",
+  "answer": "joy",
+  "evidence_refs": [
+    "person_0",
+    "person_2",
+    "process_1",
+    "person_1"
+  ]
+}

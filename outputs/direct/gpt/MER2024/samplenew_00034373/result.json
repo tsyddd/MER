@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00034373",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "sad",
+  "emotion_analysis": "画面中目标人物眉头紧蹙，眼含泪光，嘴角和表情显出哀伤与无奈。字幕“甚至，连一件衣裳”是在感叹连衣物都没有，强化了当前的悲伤情绪。",
+  "output": "画面中目标人物眉头紧蹙，眼含泪光，嘴角和表情显出哀伤与无奈。字幕“甚至，连一件衣裳”是在感叹连衣物都没有，强化了当前的悲伤情绪。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 44.1470308303833,
+  "node_count": null,
+  "edge_count": null
+}

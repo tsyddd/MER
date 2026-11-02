@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00005203",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "80ed71fa2ffabbd46e09fee5b9edb8082b0b4d584293ba2c216376d47e0f2d8d",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "sad",
+  "emotion_analysis": "音频专家指出说话人语调低沉、语速缓慢且带有颤抖和哽咽，这是典型的悲伤表现；图像专家认为目标人物表情凝重、嘴唇紧闭，状态平静，倾向于中性；图谱专家描述其嘴唇微张、目光微垂，并说出‘我也不想跟你分开’，结合低缓声音，也支持悲伤情绪。尽管图像分析结果为中性，但音频与图谱均指向悲伤，且音频提供了更直接的情感线索，因此优先采纳音频与图谱的一致性判断。",
+  "output": "音频专家指出说话人语调低沉、语速缓慢且带有颤抖和哽咽，这是典型的悲伤表现；图像专家认为目标人物表情凝重、嘴唇紧闭，状态平静，倾向于中性；图谱专家描述其嘴唇微张、目光微垂，并说出‘我也不想跟你分开’，结合低缓声音，也支持悲伤情绪。尽管图像分析结果为中性，但音频与图谱均指向悲伤，且音频提供了更直接的情感线索，因此优先采纳音频与图谱的一致性判断。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 43.238667726516724
+}

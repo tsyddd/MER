@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者语速缓慢，带有犹豫的重复（'like-like'），音调平稳，没有明显的情绪波动，表现出一种不确定或思考的状态。",
+  "answer": "neutral",
+  "evidence_refs": []
+}

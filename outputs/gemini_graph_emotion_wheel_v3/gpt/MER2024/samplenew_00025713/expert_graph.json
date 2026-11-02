@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "白衣少年正在向对方追问如何得知某事，而非叙述过去或转述他人的情绪。[E1] 问话针对刚获知的信息，配合他随后睁大眼、张口的反应[E2]，更像当下的诧异，而非单纯求知。图谱节点person_3记录了这一表情变化[E3]，但它与画面是同一事实，不能重复计为独立证据。图谱还转述其发音断续[E4]；未收到原音轨，不能据此断言听到了紧张语调。",
+  "open_emotion": "诧异",
+  "answer": "surprise",
+  "mapping_reason": "他追问“怎么知道的”时出现明显的睁眼张口反应，较符合对意外信息的即时诧异，映射为surprise；问句本身不足以单独确定情绪。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“你。你。怎么知道的？”",
+      "observation": "白衣少年询问对方如何知道。",
+      "interpretation": "问话指向对方已知晓某事，为意外反应提供事件语境；单凭疑问句仍不能判为惊讶。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_05（1.76秒）至frame_07（2.48秒）",
+      "observation": "白衣少年看向侧方，眼睛睁大，嘴逐渐张开。",
+      "interpretation": "与当前追问结合，更支持即时诧异；仅凭表情也可能解释为担忧。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_3",
+      "observation": "图谱记录白衣少年重新睁大眼睛、张开嘴部；画面后段可核实。",
+      "interpretation": "该节点对应当前反应，但与[E2]同源，不增加一份独立的表情证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_1",
+      "observation": "图谱转述其发音断续、重复字音；字幕可见重复字词，但未提供原音轨。",
+      "interpretation": "声音表现无法亲耳核验，不用它推定具体语调或情绪强度。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "“怎么知道的”也可能是在担心秘密泄露；片段未交代对方究竟知道什么，也未见白衣少年持续追问负面后果，因此当前可核实的问话与表情更偏向诧异。图谱person_2所称“向下垂目”在短暂闭眼的画面中不够明确，不能据此扩写其心理变化。"
+}

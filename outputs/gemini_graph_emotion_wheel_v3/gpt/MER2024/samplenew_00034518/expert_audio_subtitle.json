@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物询问“家里又出什么事了”，关注的是可能发生的家庭问题，而非平常地索取信息[E1]。她看着对方、神情略显紧绷，与关切的问话方向一致[E2]。",
+  "open_emotion": "担心",
+  "answer": "worried",
+  "mapping_reason": "当前表达指向尚未确认的负面情况，符合worried对未知风险的顾虑；问句本身不表示惊讶。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“是不是？家里又出什么事了？”",
+      "observation": "说话者追问家里是否又出了事。",
+      "interpretation": "“又出什么事了”将注意力放在可能的负面情况上，支持担心。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04（1.2秒）至frame_06（1.8秒）",
+      "observation": "右侧说话者看向低头的对方，眉眼略显紧绷。",
+      "interpretation": "表情与关切的询问一致，但不能单凭表情确定情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "也可能只是了解情况的日常询问；片段较短，且未提供音频，无法用语调核实担心的程度。"
+}

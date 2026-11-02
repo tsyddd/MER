@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "Monica双手手指交叉紧握在胸前〔person_1〕，同时以平稳清晰的语调说出\"You are both idiots.\"〔person_2〕，表明其情绪表达克制但带有明确的负面评价。结合其视线稳定注视前方〔person_0〕，整体姿态表现出一种专注且带有克制的对抗性，符合'anger'的特征。图谱记载的音频派生描述显示其语调平稳清晰，但内容具有指责性，进一步支持情绪判断。",
+  "answer": "anger",
+  "evidence_refs": [
+    "person_1",
+    "person_2",
+    "person_0"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者在陈述一个事实，语气平稳，没有明显的情绪波动。在说“我去查”时，语调没有表现出愤怒、悲伤或喜悦等情绪，而是以一种中性、直接的方式表达一个行动意图。",
+  "open_emotion": "中性",
+  "answer": "neutral",
+  "mapping_reason": "说话者的话语内容是关于一个行动的陈述，其语调平稳，没有表现出任何强烈的积极或消极情绪。根据情绪轮的定义，'neutral'适用于当前主要为平稳叙述或自然交流的表达，这与观察到的语调和话语内容相符。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "字幕内容：前两天，他跟汪淼一起，观测了宇宙，手术，我去查。",
+      "observation": "说话者在陈述一个事实，并以“我去查”结尾，表达了一个行动意图。",
+      "interpretation": "话语内容是信息性的，旨在告知或说明情况，而非表达强烈的情感。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "音频时间范围：00:00-00:02",
+      "observation": "说话者的声音平稳，没有明显的音高、音量或节奏变化。",
+      "interpretation": "平稳的语调表明说话者没有处于激动、愤怒或悲伤等情绪状态中。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00002893",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "音频中人物在电话中解释‘是我一朋友，他现在在网上被人诽谤了，现在事情越闹越大’，表明她正在处理一个棘手的状况。她的语气急切，语速较快，结合其严肃的面部表情，显示出对事态发展的担忧。该片段为连续的实时对话，无转述或假设成分。",
+  "output": "音频中人物在电话中解释‘是我一朋友，他现在在网上被人诽谤了，现在事情越闹越大’，表明她正在处理一个棘手的状况。她的语气急切，语速较快，结合其严肃的面部表情，显示出对事态发展的担忧。该片段为连续的实时对话，无转述或假设成分。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 118.2433545589447,
+  "node_count": 10,
+  "edge_count": 6
+}

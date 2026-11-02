@@ -1,0 +1,65 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "主要人物正在对面前的另一人物说话，字幕内容为“土木人一案，父皇本已对我起了疑心，可当我拿着同木人去求他的时候。”",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual",
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "主要人物面向左侧的另一人物，视线朝向对方。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "主要人物嘴部开合。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "画面中有主要人物和其对面的另一人物，二人处于面对面交流场景。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "simultaneous",
+      "reason": "同一主要人物同时面向对方并开口说话",
+      "entity_anchor": "同一主要人物"
+    },
+    {
+      "source": "person_0",
+      "target": "person_1",
+      "relation": "person_joint",
+      "reason": "person_0提供主要人物面向并注视对方的可见表现，person_1提供其嘴部开合的可见表现，联合后更完整表明主要人物正面向对方进行说话。",
+      "entity_anchor": null
+    }
+  ]
+}

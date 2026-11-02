@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00004468",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "说话人语气上扬，带有明显的疑问和不解，结合台词内容“你怎么这么高兴呢？”，表现出对对方情绪的意外和好奇。",
+  "output": "说话人语气上扬，带有明显的疑问和不解，结合台词内容“你怎么这么高兴呢？”，表现出对对方情绪的意外和好奇。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 4.904070854187012,
+  "node_count": null,
+  "edge_count": null
+}

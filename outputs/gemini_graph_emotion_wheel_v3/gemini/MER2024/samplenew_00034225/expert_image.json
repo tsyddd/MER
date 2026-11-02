@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "目标人物在与对方对话时，双眼睁大、眉毛上挑，嘴巴在发问过程中多次张开呈圆形（尤其在frame_03和frame_05），头部微前倾紧盯对方，体现出对眼前情势超出预期的吃惊与诧异反应。",
+  "open_emotion": "诧异",
+  "answer": "surprise",
+  "mapping_reason": "开放词‘诧异’指因当前状况违背原有预期而产生的意外反应，符合本情绪轮中surprise（因当前信息违背预期产生的意外、诧异或震惊）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_03 (0.88s), frame_05 (1.48s)",
+      "observation": "目标人物双眼圆睁，视线紧盯对面人物，嘴部自然张开呈较明显的‘O’形，面部肌肉舒展且伴随轻微前倾姿态。",
+      "interpretation": "显示出对对方碰壁或未料到局面的即时意外与诧异反应。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "0.0s-1.6s",
+      "observation": "语音语调在‘怎么’处略有停顿后上扬发问‘他不好对付啊’，语气带明显探询与惊异。",
+      "interpretation": "印证了视觉上面部瞪眼张嘴所表达的意外感，而非平稳陈述。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "在尾帧（frame_07）中神情略显迟疑，后续台词伴随自我责任的试探，存在向担忧（worried）过渡的可能，但片段主体仍以惊讶发问为主。"
+}

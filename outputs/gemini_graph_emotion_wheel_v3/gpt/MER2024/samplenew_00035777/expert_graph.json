@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "男子当前是在强调自己对“诚实”的看法，不是在讲述已证实的生意经历。[E1]他发话时前倾、蹙眉、露齿，随后挺直身体并收紧嘴角，呈现持续的紧绷感。[E2]图谱person_1记录的是同一组可见动作，并非独立的第二份情绪证据。结合当前表达，判断他更接近带有对抗感的恼火，而非单纯陈述；但话语没有明确责备对象，这一判断有局限。",
+  "open_emotion": "恼火",
+  "answer": "angry",
+  "mapping_reason": "当前紧绷、用力的表达更接近情绪轮中angry的恼火及对抗倾向；字幕本身是一句原则性陈述，不能单凭内容判定愤怒。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01（0.36秒）至frame_03（1.04秒）；frame_05（1.76秒）至frame_07（2.44秒）",
+      "observation": "男子前倾、蹙眉、露齿张口；随后挺直身体，眉头仍紧，嘴角收紧。",
+      "interpretation": "发话过程及结束后的神情均较紧绷，支持恼火的判断。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "graph",
+      "anchor": "person_1、person_2、person_3",
+      "observation": "图谱记录前倾露齿后逐渐挺正、嘴唇收拢的顺序；所述变化与画面大体相符。",
+      "interpretation": "这帮助定位同一男子当前的表达变化，但与画面观察同源，不能重复计作独立证据；顺序也不能证明变化的原因。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "“诚实，是做生意的根本。”",
+      "observation": "当前字幕表达对诚实的原则性主张，没有明确指责对象。",
+      "interpretation": "为强烈表情提供话语语境，同时限制了将其断定为明确责骂的解释。",
+      "polarity": "counter"
+    },
+    {
+      "id": "E4",
+      "source": "graph",
+      "anchor": "person_0",
+      "observation": "图谱称男子声音洪亮、发音用力、音量较高；本次未提供原音轨。",
+      "interpretation": "这是有来源但无法亲耳核验的音频派生描述，不作为已听见语调的证据。",
+      "polarity": "uncertain"
+    }
+  ],
+  "counterevidence": "前倾、蹙眉和用力张口也可能是在郑重强调信念，而非生气；没有原音轨可核查图谱的声音描述，因此最终主要依据可见的当前神情作取舍。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00014279",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "angry",
+  "emotion_analysis": "女子在面对男子时目光紧锁对方（person_1），咬紧牙关微露牙齿（person_3），伴随喘息斥责对方“卑劣的手段”、“还会什么”以及“真是无耻之极”（process_1、process_2、process_3）。其压抑的低喘语气（person_2）与严厉的指责表现了极度的愤慨与痛恨，体现出愤怒情绪。",
+  "output": "女子在面对男子时目光紧锁对方（person_1），咬紧牙关微露牙齿（person_3），伴随喘息斥责对方“卑劣的手段”、“还会什么”以及“真是无耻之极”（process_1、process_2、process_3）。其压抑的低喘语气（person_2）与严厉的指责表现了极度的愤慨与痛恨，体现出愤怒情绪。\n<answer>angry</answer>",
+  "label": "angry",
+  "elapsed_seconds": 59.51410508155823,
+  "node_count": 10,
+  "edge_count": 9
+}

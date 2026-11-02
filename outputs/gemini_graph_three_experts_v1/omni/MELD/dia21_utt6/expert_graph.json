@@ -1,0 +1,9 @@
+{
+  "expert": "graph",
+  "reason": "Phoebe在说话时语调轻松并带有轻笑声（person_1），同时她右手搭在男子胸前并注视对方（person_0），表现出一种调侃或玩笑的互动姿态，其行为与声音特征一致，未表现出负面或强烈情绪。因此，她的当前情绪为轻松、戏谑，符合'joy'标签。",
+  "answer": "joy",
+  "evidence_refs": [
+    "person_0",
+    "person_1"
+  ]
+}

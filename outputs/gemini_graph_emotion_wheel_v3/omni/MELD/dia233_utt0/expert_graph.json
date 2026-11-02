@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "目标人物Rachel在当前片段中正在质问对方，其话语内容为“Did you get all this stuff for Joey to try and drive me out of the apartment?”，表达了对他人行为的怀疑和不满。她的面部表情（双眼直视、眉头微蹙）和身体姿态（左手叉腰）与质问的语气相匹配，显示出一种对抗和责备的态势。图谱节点person_2描述了其“语调清晰且连贯，句子末尾带有疑问升调”，这与质问的语义一致，支持了其情绪为愤怒而非单纯的惊讶或中性。",
+  "open_emotion": "愤怒",
+  "answer": "anger",
+  "mapping_reason": "根据当前证据，Rachel的质问内容和对抗性姿态表明她正在对一个她认为是冒犯或不公的行为进行责备。这与'anger'（愤怒）的定义——对冒犯、受阻或不公的恼火、责备与对抗——高度吻合。虽然她的语调是疑问句式，但其内容和整体表现指向的是责备而非单纯的惊讶。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "当前字幕",
+      "observation": "Did you get all this stuff for Joey to try and drive me out of the apartment?",
+      "interpretation": "该话语直接表达了对他人行为的怀疑和不满，指控对方试图将自己赶出公寓，这是愤怒情绪的典型表达。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00至frame_07",
+      "observation": "Rachel身穿粉色长袖上衣，左手叉腰，身体朝向对方，双眼睁开注视对方。",
+      "interpretation": "左手叉腰和身体朝向对方的姿态是一种对抗和准备交锋的非语言信号，与质问的语境相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "Rachel说话语调清晰且连贯，句子末尾带有疑问升调。",
+      "interpretation": "清晰连贯的语调和疑问升调表明她正在提出一个严肃的质问，而非开玩笑或表达惊讶，这支持了其情绪为愤怒。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "图谱中未提供任何关于Rachel情绪的直接描述，其情绪判断完全基于对视觉、音频和字幕的交叉分析。"
+}

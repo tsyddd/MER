@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。字幕仅描述“手里还握着一截风筝线”，没有体现目标人物当前的明显情绪，因此判为中性。",
+  "answer": "neutral",
+  "evidence_refs": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00002893",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "9d46ffb3a0e6d7ee83ce5711674ec38a79e6e03c6208bac88d0b6ce9c7023ef2",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "目标人物在通话中表现出明显的担忧情绪。她的语速较快，音调偏高，声音发紧，这些是焦虑和担忧的直接听觉证据。同时，她的面部表情显示双眉微蹙，眼神忧虑，与音频中的紧张语气和字幕中“朋友被诽谤，事情越闹越大”的语境完全吻合。三个专家的证据均一致指向'worried'，其中[graph:E1]和[audio_subtitle:E1]分别从音频和字幕角度提供了关键支持，[image:E1]则从视觉上证实了其担忧的表情。没有发现能支持其他情绪的有力证据。",
+  "output": "目标人物在通话中表现出明显的担忧情绪。她的语速较快，音调偏高，声音发紧，这些是焦虑和担忧的直接听觉证据。同时，她的面部表情显示双眉微蹙，眼神忧虑，与音频中的紧张语气和字幕中“朋友被诽谤，事情越闹越大”的语境完全吻合。三个专家的证据均一致指向'worried'，其中[graph:E1]和[audio_subtitle:E1]分别从音频和字幕角度提供了关键支持，[image:E1]则从视觉上证实了其担忧的表情。没有发现能支持其他情绪的有力证据。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 189.66301202774048
+}

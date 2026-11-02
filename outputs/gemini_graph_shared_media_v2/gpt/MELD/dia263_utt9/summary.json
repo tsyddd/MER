@@ -1,0 +1,10 @@
+{
+  "reason": "Ross在frame_00低头闭眼、抿着嘴，随后抬头说话，神情仍然收敛；这些画面描述可信，但单凭不笑不能判定悲伤[image:E1][image:E2]。字幕“I’m gonna have to give him up.”表达不得不放弃，与画面结合，更支持克制的难过，而非单纯平静陈述[audio_subtitle:E1]。neutral是最强的替代解释，因为他没有强烈的悲伤表现；但这不等于没有难过。未提供音轨，图谱转述的平和语调无法直接核验，不据此推翻画面与字幕[graph:E3]。",
+  "answer": "sadness",
+  "evidence_refs": [
+    "image:E1",
+    "image:E2",
+    "audio_subtitle:E1",
+    "graph:E3"
+  ]
+}

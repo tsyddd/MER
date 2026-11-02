@@ -1,0 +1,32 @@
+{
+  "expert": "graph",
+  "reason": "目标人物在当前对话中先因“裘院长离婚”而眉头微蹙，随后直接质问对方“你怎么这么高兴呢”，互动方向是对他人反应的不满与责问，整体更支持angry而非单纯惊讶。[E1][E2][E3]",
+  "answer": "angry",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_02 @ 1.2秒；frame_03 @ 1.8秒",
+      "observation": "目标人物眉头明显收紧，视线指向画外右前方，嘴部持续张合。",
+      "interpretation": "持续蹙眉和定向注视构成对当前对话对象的紧张、质疑性表达，支持不满或恼怒。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "当前字幕原话：“哎，朕，仇院长，离婚，你怎么这么高兴呢？”",
+      "observation": "目标人物提及他人离婚后，紧接着追问对方为何高兴。",
+      "interpretation": "这是针对对方情绪反应的直接质问，事件语义更接近责备或不满，而非目标人物因离婚消息本身感到悲伤。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "graph",
+      "anchor": "process_2；person_2；person_3",
+      "observation": "图谱组织为先提到“裘院长离婚”，再发问“你怎么这么高兴呢”；同时记录眉头微蹙后眉毛微扬、眼睛睁大。",
+      "interpretation": "process_2与person_2显示当前互动中的质询链条；person_3的睁大眼可支持惊讶替代解释，但不能抵消前后持续的蹙眉和责问。图谱中的语调属于转述，因未提供原音轨而不能亲耳核验。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "眉毛微扬、眼睛睁大以及疑问句式也可能表示surprise或worried；但这些变化发生在前面的蹙眉和质问之后，结合当前对他人“高兴”反应的直接追责，更适合判为angry。仍缺少原音轨来核验语气强度。"
+}

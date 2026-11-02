@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "Monica面对前方称对方“都是笨蛋”，这是一种直接的贬斥表达〔process_0〕。同时她双手手指交叉并紧握在胸前〔person_1〕，虽语调平稳清晰〔person_2〕，整体仍表现出当下的恼怒或不满。",
+  "answer": "anger",
+  "evidence_refs": [
+    "process_0",
+    "person_1",
+    "person_2"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "当前语境中，钱德勒正拿着卷纸评头论足，莫妮卡在背景中听到后立刻接话反击。字幕原话为'What?! Excuse me!'，言语行为上并非字面询问，而是通过强烈的感叹与反问表达被冒犯和不服气[E1]。在音频中，莫妮卡的声音音调陡升、音质尖锐且带有极高亢的上扬音调（'Excuse me!'），节奏紧凑、音量明显高出环境声，具有极强的对抗性和质问色彩[E2]。视觉上，莫妮卡正从门后迈步走出、神情严肃并直接逼视钱德勒[E3]，印证了其言语中的挑衅防御心理。",
+  "open_emotion": "愤慨",
+  "answer": "anger",
+  "mapping_reason": "莫妮卡因钱德勒对自己购买或使用物品的挑剔而感到被冒犯并立刻质问反驳，这种出于反感与受侵犯感产生的责备、对抗属于典型的愤慨与恼火，在情绪轮中严格对应anger家族。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "What?! Excuse me!",
+      "observation": "话语采用双重感叹疑问句式，使用具有抗议和要求对方道歉意味的口语短句'Excuse me!'",
+      "interpretation": "并非求知或请求借过，而是明确表达反感、被冒犯与抗议的言语行为",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "audio",
+      "anchor": "00:00-00:01",
+      "observation": "莫妮卡发出的女声声调骤升、尖锐高亢，语尾明显上扬并带有强烈冲撞感，音量充足",
+      "interpretation": "韵律特征表现出强烈的被激惹和质问态势，具有显著的愤慨与恼火色彩",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_04至frame_07 (0.88s-1.50s)",
+      "observation": "莫妮卡迅速从厨房后方走出，直面钱德勒，目光紧盯对方",
+      "interpretation": "身体动作与面部朝向呈现主动迎击姿态，与言语中的不满对抗高度一致",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释为surprise（惊讶），理由是句首带有'What?!'且钱德勒的发言打破了日常预期；但音频中尾音极其凌厉刺耳，重音落于'Excuse me'的质问抗议而非单纯呆愣意外，故愤慨更符合当前主导情绪。"
+}

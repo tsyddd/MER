@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "Phoebe正在向红衣女子描述一名男子的年龄和外貌，先说其大约三十岁出头到三十五岁，再补充“非常有吸引力”〔process_1〕〔process_2〕。她保持注视并配合自然手势，图谱记载其语速平稳、语气自然且带有停顿〔person_1〕〔person_2〕，未见明显激动或负面情绪表现。",
+  "answer": "neutral",
+  "evidence_refs": [
+    "process_1",
+    "process_2",
+    "person_1",
+    "person_2"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "expert": "graph",
+  "reason": "图谱记载中，Rachel转头看向Monica时嘴巴大张且语调拔高带有明显的惊叹感〔person_0〕。同时，她先后脱口而出“Oh my God!”〔process_0〕与“You’re a 30 year old virgin!”〔process_1〕，言语内容与大张嘴巴的惊诧面部表现高度吻合，体现出强烈的震惊与意外情绪。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "person_0",
+    "process_0",
+    "process_1"
+  ]
+}

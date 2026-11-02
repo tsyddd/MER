@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia33_utt6",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "fear",
+  "emotion_analysis": "Rachel's high-pitched, strained voice and the content of her speech ('it won't stop crying') indicate she is overwhelmed and distressed. Her facial expression shows panic and helplessness, consistent with a state of high anxiety.",
+  "output": "Rachel's high-pitched, strained voice and the content of her speech ('it won't stop crying') indicate she is overwhelmed and distressed. Her facial expression shows panic and helplessness, consistent with a state of high anxiety.\n<answer>fear</answer>",
+  "label": "sadness",
+  "elapsed_seconds": 6.0705647468566895,
+  "node_count": null,
+  "edge_count": null
+}

@@ -1,0 +1,111 @@
+{
+  "nodes": [
+    {
+      "id": "process_0",
+      "type": "process",
+      "content": "Monica说Ben今晚要过来，而且不能看到眼前的这个东西。",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "process_1",
+      "type": "process",
+      "content": "Monica将右手伸向街机的控制面板。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_0",
+      "type": "person",
+      "content": "Monica看向画面左侧。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_1",
+      "type": "person",
+      "content": "Monica抬起并移动右手，同时保持头部朝向画面左侧。",
+      "time_index": 1,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "person_2",
+      "type": "person",
+      "content": "Monica低头转向街机控制面板。",
+      "time_index": 2,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_0",
+      "type": "context",
+      "content": "Monica位于一台街机旁，画面左侧有另一名人物。",
+      "time_index": 0,
+      "evidence_sources": [
+        "visual"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    },
+    {
+      "id": "context_1",
+      "type": "context",
+      "content": "字幕提到Ben将在今晚到来。",
+      "time_index": 0,
+      "evidence_sources": [
+        "subtitle"
+      ],
+      "dimension": null,
+      "evidence_status": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_0",
+      "target": "process_1",
+      "relation": "process_joint",
+      "reason": "process_0提供Monica关于Ben今晚到来且不能看到眼前物品的口头信息，process_1提供她随后伸手接触街机控制面板的可见行为；联合后补充了她为处理或遮挡眼前物品而采取实际操作的当前互动过程。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_0",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_0提供Monica持续看向画面左侧的朝向信息，person_2提供她随后低头转向街机控制面板的视线变化；联合后呈现了她从关注左侧人物或方向转向街机操作区域的连续可见表现。",
+      "entity_anchor": null
+    },
+    {
+      "source": "person_1",
+      "target": "person_2",
+      "relation": "person_joint",
+      "reason": "person_1提供Monica一边朝向画面左侧、一边移动右手的可见表现，person_2提供她随后低头转向街机控制面板的表现；联合后补充了从面向左侧并 gesturing 到转向控制面板的连续动作信息。",
+      "entity_anchor": null
+    },
+    {
+      "source": "context_0",
+      "target": "context_1",
+      "relation": "context_joint",
+      "reason": "context_0提供Monica位于街机旁且画面左侧有另一名人物的空间与人物信息，context_1提供字幕所述Ben将在今晚到来的时间信息；联合后更完整限定了当前街机旁场景及与即将到来的Ben相关的情境。",
+      "entity_anchor": null
+    }
+  ]
+}

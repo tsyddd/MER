@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "Joey是在回应身旁的Monica，而不是描述她的情绪。图谱节点process_0记录他提到“whipped fish”；接着，他说自己庆幸还能“keeping it down”[E1][E2]。结合说话时紧绷的表情[E3]，当前更像是对食物感到反胃，而非真的开心。“happy”在这里指勉强撑住这一点，不能脱离整句判作喜悦。",
+  "open_emotion": "反胃",
+  "answer": "disgust",
+  "mapping_reason": "“反胃”指向对食物的生理性排斥，最接近disgust；但没有直接证据证明Joey实际呕吐。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "process_0",
+      "observation": "图谱记录Joey抬头对Monica说：“We're talking about whipped fish, Monica.”",
+      "interpretation": "明确了他当前回应的对象和谈论的食物；这是对话背景，本身不单独证明情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "I'm just happy I'm keeping it down, y'know?",
+      "observation": "Joey说自己庆幸还能“keeping it down”。",
+      "interpretation": "放在谈论食物的同一段话中，更支持他正努力忍住反胃，而不是表达愉悦。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_01（0.959秒）、frame_03（2.836秒）",
+      "observation": "Joey仰头看着Monica说话，眉头蹙起，面部显得紧绷。",
+      "interpretation": "与不适的解释相容；表情本身不足以区分反胃和其他负面感受，需结合话语判断。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "字幕中的“happy”和画面中短暂扬起的嘴角也可能让人想到喜悦，但整句强调的是勉强忍住不适。图谱person_1所述平缓语调属于音频派生转述；本次未提供原音轨，不能亲耳核验，也不据此推翻可核查的字幕与画面。"
+}

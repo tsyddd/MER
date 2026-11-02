@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "字幕内容是对异常观测情况的说明，并以“我去查”表明主动核查的意图；画面中的皱眉、紧抿嘴唇和指向性手势与专注且带有担忧的状态一致。由于未提供音频，无法判断语调、音量或节奏。",
+  "answer": "worried",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "当前字幕“前两天，他跟汪淼一起，观测了宇宙”及“我去查”",
+      "observation": "说话者先陈述与汪淼共同观测宇宙的情况，随后表示“我去查”。",
+      "interpretation": "“我去查”是主动核实的言语行为，结合前述情况更像对某个异常或未明事项的关注，而非单纯闲聊。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01至frame_04 @ 0.4–1.2秒",
+      "observation": "说话时眉头明显收紧，嘴唇较紧，并抬手指向前方。",
+      "interpretation": "这些可见行为支持严肃、警觉和带有担忧的表达，但不能单独证明强烈情绪。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_05至frame_07 @ 2.0–2.8秒",
+      "observation": "说到“我去查”时眼睛睁大、嘴部张开，身体保持面向对方。",
+      "interpretation": "视觉上呈现出对信息的重视和行动准备，与担忧驱动的核查意图相符。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强的相反解释是neutral：字幕也可以被理解为平静地报告事实并提出下一步行动，画面没有明显哭泣或激烈愤怒。由于没有音频，缺少语调和节奏证据；但当前的皱眉、紧张口部和“我去查”的核查意图使worried比neutral更有支持。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00035837",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "sad",
+  "emotion_analysis": "说话人视线持续低垂且神情黯然（person_0），在说出“我知道在这个世上再也没有亲人了”（process_0与process_1）的过程中，伴随微弱气音与极其缓慢低平的语调（person_1与person_2同步呈现）。整个人沉浸在失去亲人的巨大哀痛与失落中，神态和声音均呈现出强烈的悲伤特质。",
+  "output": "说话人视线持续低垂且神情黯然（person_0），在说出“我知道在这个世上再也没有亲人了”（process_0与process_1）的过程中，伴随微弱气音与极其缓慢低平的语调（person_1与person_2同步呈现）。整个人沉浸在失去亲人的巨大哀痛与失落中，神态和声音均呈现出强烈的悲伤特质。\n<answer>sad</answer>",
+  "label": "sad",
+  "elapsed_seconds": 46.39474320411682,
+  "node_count": 8,
+  "edge_count": 7
+}

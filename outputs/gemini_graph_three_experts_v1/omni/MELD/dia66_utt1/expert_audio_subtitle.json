@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "音频中飞行乘务员的语调平稳、语速正常，没有明显的情绪波动。字幕内容为礼貌性问候，符合中性情绪的表达。",
+  "answer": "neutral",
+  "evidence_refs": []
+}

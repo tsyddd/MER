@@ -1,0 +1,34 @@
+{
+  "expert": "graph",
+  "reason": "Ross在楼梯口与Chandler相对站立，针对Chandler先前的打球表现进行言语陈述与评价[context_1, process_0, process_1]。在此过程中，Ross的身体朝向和目光稳定注视对方[person_0]，听觉上语速平缓克制、音调平稳清晰且句间有从容停顿[person_2, person_3]，面部与下颌动作自然放松[person_4]，并未展现愤怒的指责对抗、厌恶排斥或强烈的兴奋喜悦，整体呈现为平静、客观的日常陈述状态。",
+  "open_emotion": "平稳陈述",
+  "answer": "neutral",
+  "mapping_reason": "Ross的话语内容虽然具有调侃色彩，但其交际态度、语调及肢体语言均处于稳定、克制且没有主导极端情感波动的常态沟通状态，符合情绪轮中neutral关于平稳、日常、没有明确主导情绪的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "graph",
+      "anchor": "person_2",
+      "observation": "图谱记录Ross在说话时保持平稳语速和清晰音量，音轨实际核验其音调冷静平直无起伏",
+      "interpretation": "表明其发话态度平稳从容，缺乏愤怒、恐惧等高唤醒情绪的特征",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01 (0.79s) - frame_07 (5.42s)",
+      "observation": "Ross侧面站姿稳定，面部肌肉放松，眼神直视Chandler，神情平缓",
+      "interpretation": "视觉上无皱眉、瞠目或咧嘴大笑等表征，支持其处于中性平稳状态",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "subtitle",
+      "anchor": "Shielding your face and shrieking like a girl... is not a backhand.",
+      "observation": "Ross以陈述句指出对方的动作不是反手球",
+      "interpretation": "台词属于事件回顾与客观纠正/吐槽，在平淡语调加持下属于常规对话交流",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "台词内容描述了'shrieking like a girl'并加以否定，可能被误读为带有指责攻击的anger或嘲讽joy，但音轨中并无吼叫激愤或笑场语气，表明该评价并不伴随激烈负面或正面情绪。"
+}

@@ -1,0 +1,8 @@
+{
+  "reason": "核对字幕，Ross用“shrieking like a girl”挖苦对方，并明确否定其动作算作“backhand”；[audio_subtitle:E1]对这句带刺纠正的解读有依据，但它也可能是揶揄。画面右侧的Ross在前几帧面向对方说话，末尾略低头，未见激烈动作；[image:E1]对其表现克制的观察可信，却不足以把有明确责备方向的话语判为中性。综合措辞与画面，更接近轻度不满，而非强烈愤怒。",
+  "answer": "anger",
+  "evidence_refs": [
+    "audio_subtitle:E1",
+    "image:E1"
+  ]
+}

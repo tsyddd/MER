@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia153_utt11",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "当前目标人物是穿黑衣的Chandler，他正面对Joe说话并伴随明显的皱眉、紧绷表情和强调性手势。字幕描述的是假设中面对枪的反应，并非他此刻正在害怕，因此不能据此判为fear；整体表现更接近不耐烦和恼怒。",
+  "output": "当前目标人物是穿黑衣的Chandler，他正面对Joe说话并伴随明显的皱眉、紧绷表情和强调性手势。字幕描述的是假设中面对枪的反应，并非他此刻正在害怕，因此不能据此判为fear；整体表现更接近不耐烦和恼怒。\n<answer>anger</answer>",
+  "label": "fear",
+  "elapsed_seconds": 23.666141271591187,
+  "node_count": null,
+  "edge_count": null
+}

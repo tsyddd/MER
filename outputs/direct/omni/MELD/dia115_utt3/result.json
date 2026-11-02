@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia115_utt3",
+  "dataset": "MELD",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "disgust",
+  "emotion_analysis": "Ross is delivering a line with a sarcastic and mocking tone, which is reinforced by the audience's laughter in the background. His facial expression and delivery convey a sense of amusement and contempt, fitting the 'disgust' label.",
+  "output": "Ross is delivering a line with a sarcastic and mocking tone, which is reinforced by the audience's laughter in the background. His facial expression and delivery convey a sense of amusement and contempt, fitting the 'disgust' label.\n<answer>disgust</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 5.899703741073608,
+  "node_count": null,
+  "edge_count": null
+}

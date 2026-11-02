@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00033539",
+  "dataset": "MER2024",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "当前人物是画面中的唯一人物，节点person_0显示其嘴部张开，节点person_1显示其头部朝向画面右侧，二者共同表明她正在回应交流。节点process_0对应字幕“啊？真的？”，结合其张口、眉头上扬并带有疑惑的表情，体现出对信息的意外和惊讶。",
+  "output": "当前人物是画面中的唯一人物，节点person_0显示其嘴部张开，节点person_1显示其头部朝向画面右侧，二者共同表明她正在回应交流。节点process_0对应字幕“啊？真的？”，结合其张口、眉头上扬并带有疑惑的表情，体现出对信息的意外和惊讶。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 47.38305187225342,
+  "node_count": 5,
+  "edge_count": 2
+}

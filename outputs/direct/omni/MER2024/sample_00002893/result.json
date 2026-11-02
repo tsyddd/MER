@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00002893",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "说话者在电话中解释情况，语气急切且带有明显的担忧。她提到朋友在网上被诽谤，且事情越闹越大，这表明她对事态发展感到忧虑。她的表情和语气都传达出一种焦虑和担心的情绪。",
+  "output": "说话者在电话中解释情况，语气急切且带有明显的担忧。她提到朋友在网上被诽谤，且事情越闹越大，这表明她对事态发展感到忧虑。她的表情和语气都传达出一种焦虑和担心的情绪。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 7.68006443977356,
+  "node_count": null,
+  "edge_count": null
+}

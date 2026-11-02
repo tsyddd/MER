@@ -1,0 +1,26 @@
+{
+  "expert": "image",
+  "reason": "画面中的目标人物（中心穿黑色外套的女士）从[frame_00]至[frame_07]全程展露开朗笑容，嘴角大幅上扬露出牙齿，眼角微弯，面颊肌肉提升[E1]。在说话与递交纸张的过程中，其身体前倾、肢体动作轻快活跃[E2]，结合其欢快的语调，充分表现出正向愉悦的欣喜情绪。",
+  "open_emotion": "欣喜",
+  "answer": "happy",
+  "mapping_reason": "目标人物表现出明显的面部笑容与轻快的肢体互动，符合正向愉悦与兴奋特征，直接映射至happy类别。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_01至frame_06 (0.4s - 2.4s)",
+      "observation": "目标人物眼睛弯曲，嘴唇咧开并露出上牙，两颊肌肉明显上提，保持持续且自然的笑容",
+      "interpretation": "展现出由衷的喜悦与热烈情绪",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_01至frame_03 (0.4s - 1.2s)",
+      "observation": "右手挥动手中纸张向前递送，身体略微前倾，动作轻捷",
+      "interpretation": "动态姿态表现出兴高采烈和期待互动的主动性",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "笑容存在社交客套或调侃的可能，但面部笑肌牵动自然且贯穿全程，无任何压抑或尴尬迹象。"
+}

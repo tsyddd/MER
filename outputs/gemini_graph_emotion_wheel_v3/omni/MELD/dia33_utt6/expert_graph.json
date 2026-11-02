@@ -1,0 +1,42 @@
+{
+  "expert": "graph",
+  "reason": "目标人物Rachel在婴儿持续啼哭的背景下，表现出明显的无助与焦虑。她的肢体语言（如眉心聚拢、身体晃动）和言语内容（“what am I gonna do”、“it's been hours and it won't stop crying”）共同指向一种因无法解决问题而产生的挫败感。这种情绪最接近于‘悲伤’，因为它源于一种持续的、令人沮丧的负面情境，而非直接的愤怒或恐惧。",
+  "open_emotion": "悲伤",
+  "answer": "sadness",
+  "mapping_reason": "根据当前证据，Rachel的言语和表情表现出一种因婴儿持续啼哭而感到无助和沮丧的状态。这种情绪源于一个负面的、持续的事件（婴儿哭闹），并导致了她情绪上的低落和挫败感。这与‘悲伤’（sadness）的定义——因失落、损失或痛苦而难过、哀伤或低落——最为吻合。虽然她也表现出焦虑，但其核心是面对困境时的无力感，而非对威胁的恐惧或对不公的愤怒。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:05",
+      "observation": "婴儿发出持续的啼哭声。",
+      "interpretation": "这是一个持续的负面刺激源，为Rachel的情绪提供了直接的背景和诱因。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_00",
+      "observation": "Rachel双臂交叠环抱婴儿，右手一度抬起触碰后颈发丝，眉心聚拢，视线低垂。",
+      "interpretation": "这些是典型的焦虑和沮丧的身体语言，表明她正承受着压力。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:01-00:05",
+      "observation": "Rachel说：“Oh come on, what am I gonna do, it's been hours and it won't stop crying.”",
+      "interpretation": "这句话直接表达了她的无助、挫败和对当前困境的绝望，是判断其情绪的最直接证据。",
+      "polarity": "support"
+    },
+    {
+      "id": "E4",
+      "source": "visual",
+      "anchor": "frame_04",
+      "observation": "Rachel嘴巴张大说话，面部表情紧绷。",
+      "interpretation": "这与她话语中表达的挫败感和焦虑情绪相匹配，是情绪的外在表现。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "没有明显的证据表明Rachel的情绪是愤怒（anger）或恐惧（fear）。她没有表现出攻击性或对特定威胁的反应。虽然她很焦虑，但这种焦虑是针对一个具体问题（婴儿哭闹）的挫败感，而不是一种普遍的、威胁性的恐惧。"
+}

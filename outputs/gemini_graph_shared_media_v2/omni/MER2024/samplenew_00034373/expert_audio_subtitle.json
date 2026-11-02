@@ -1,0 +1,32 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "说话者在说“甚至连一件衣裳”时，声音颤抖，带有明显的哭腔，语速缓慢，音量较低，表现出深切的悲伤。字幕内容与声音的悲伤基调一致，且其面部表情（眼眶湿润，嘴角下撇）也支持这一判断。",
+  "answer": "sad",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "audio",
+      "anchor": "00:00-00:02",
+      "observation": "说话者的声音颤抖，带有哭腔，语速缓慢，音量较低。",
+      "interpretation": "这种语调和节奏是悲伤情绪的典型表现。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "甚至，连一件衣裳。",
+      "observation": "字幕显示说话者在表达一种极度的失落和无奈。",
+      "interpretation": "话语内容本身就在描述一种令人悲伤的境况，与声音情绪相符。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_00 @ 00:00",
+      "observation": "说话者的面部表情，眼眶湿润，嘴角下撇，呈现出悲伤的状态。",
+      "interpretation": "面部表情与声音和话语内容一致，共同指向悲伤的情绪。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "无。所有证据都一致指向悲伤情绪，没有相反的证据。"
+}

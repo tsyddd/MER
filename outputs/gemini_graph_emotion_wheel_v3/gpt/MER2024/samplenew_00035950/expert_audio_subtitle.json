@@ -1,0 +1,26 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物以“怎么……就……”指出对方在自己的事上反而不明白，言语行为更像责问，而非单纯求解。[E1] 她说话时面向对方，后段表情转为较严肃，支持轻度不满的解释。[E2]",
+  "open_emotion": "不满",
+  "answer": "angry",
+  "mapping_reason": "此处的不满指向对方的自我认识，带有责备意味，因此按情绪轮映射为angry；现有证据不足以判断为强烈愤怒。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“怎么到了自己身上，就这样不明白。”",
+      "observation": "用“怎么……就……”质疑对方在自身事务上的不明白。",
+      "interpretation": "句子主要在指出矛盾并责问，不是明确表达意外的求知疑问。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_04（2.04秒）至frame_06（3.08秒）",
+      "observation": "目标人物持续朝向对方说话，张口表达，后段嘴角收起、神情较严肃。",
+      "interpretation": "与带有责备意味的台词相符，但表情本身不能确定情绪强度。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "这句话也可能是善意提醒；前几帧神情较柔和，未见明确的激烈对抗。没有音频，无法用语调区分温和劝说与责备，因此仅判断为轻度不满。"
+}

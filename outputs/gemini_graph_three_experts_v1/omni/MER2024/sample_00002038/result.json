@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/sample_00002038",
+  "dataset": "MER2024",
+  "provider": "omni",
+  "model": "omni30b-instruct",
+  "status": "success",
+  "version": "gemini_graph_three_experts_v1",
+  "graph_sha256": "5df67b783a7d621f4c168fbbed45377607d79f7076828cb28063569a3c555671",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "graph和audio_subtitle均指出目标人物表现出疑问和不确定性，且结合提问内容‘他是谁呀？’，其情绪更符合‘surprise’；image虽显示痛苦表情，但graph与audio的听觉-视觉证据更直接关联，且无冲突，故优先采纳。",
+  "output": "graph和audio_subtitle均指出目标人物表现出疑问和不确定性，且结合提问内容‘他是谁呀？’，其情绪更符合‘surprise’；image虽显示痛苦表情，但graph与audio的听觉-视觉证据更直接关联，且无冲突，故优先采纳。\n<answer>surprise</answer>",
+  "label": "surprise",
+  "elapsed_seconds": 38.7302086353302
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00041734",
+  "dataset": "MER2024",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash-high",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "ef82d3fe06a46b4125e3eacb1a9f355331f80a204ee0f71866c99305b2e54746",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": true,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "worried",
+  "emotion_analysis": "目标女性在frame_01至frame_04中眉心聚拢且向上微提，眼神充满关切与不解，音轨中连声急促追问“为什么要辞职”，整体呈现鲜明的焦急感。专家证据[image:E1]关于女性眉心挤压隆起与关切神态的观察高度可信，有效佐证了忧愁神态；[audio_subtitle:E2]指出音调拔高与紧迫语速，互补强化了内心焦灼。尽管质问语气可能带有微弱气恼，但缺乏攻击性特征，综合判定为担忧（worried）。",
+  "output": "目标女性在frame_01至frame_04中眉心聚拢且向上微提，眼神充满关切与不解，音轨中连声急促追问“为什么要辞职”，整体呈现鲜明的焦急感。专家证据[image:E1]关于女性眉心挤压隆起与关切神态的观察高度可信，有效佐证了忧愁神态；[audio_subtitle:E2]指出音调拔高与紧迫语速，互补强化了内心焦灼。尽管质问语气可能带有微弱气恼，但缺乏攻击性特征，综合判定为担忧（worried）。\n<answer>worried</answer>",
+  "label": "angry",
+  "elapsed_seconds": 63.89641737937927
+}

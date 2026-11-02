@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "画面中说话女性（左侧棕色外套女士）在听到对方所言后，双眼明显睁大，眉毛上扬，嘴巴张开呈现夸张的探询与不可置信神态，配合身体前倾的姿态，展现出强烈的意外与诧异反应。",
+  "open_emotion": "诧异",
+  "answer": "surprise",
+  "mapping_reason": "目标人物因对方传达的信息明显出乎意料而产生强烈的意外与求证反应，符合MER2024情绪轮中surprise（惊讶）关于信息违背预期产生诧异的定义。",
+  "evidence": [
+    {
+      "anchor": "frame_02 (0.60s) - frame_06 (1.80s)",
+      "id": "E1",
+      "interpretation": "面部特征呈现出典型的惊讶反应，展现出对听闻内容的高度意外与难以置信。",
+      "observation": "左侧女性在说话时双眼显著圆睁，眉毛高抬，口部张大呈‘O’型与大开口交替状态",
+      "polarity": "support",
+      "source": "visual"
+    },
+    {
+      "anchor": "frame_01 (0.32s) - frame_07 (2.12s)",
+      "id": "E2",
+      "interpretation": "前倾且急迫的肢体语言强化了其对意外信息追问探究的惊奇状态。",
+      "observation": "左侧女性身体向前倾靠向右侧听者，眼神紧盯对方，伴随急促的面部肌肉动作",
+      "polarity": "support",
+      "source": "visual"
+    },
+    {
+      "anchor": "0.00s - 1.70s",
+      "id": "E3",
+      "interpretation": "高昂的上扬疑问语调直接佐证其视觉上表现出的惊讶反问情绪，而非平静中性。",
+      "observation": "音频中说话者以音调急剧上扬的疑问语气说出‘是吗？他真这么说的？’",
+      "polarity": "support",
+      "source": "audio"
+    }
+  ],
+  "counterevidence": "面部张大嘴巴与急切动作在脱离语境时可能被误判为激动或轻度生气，但其眼神中带有探询与八卦好奇而非敌意对抗，排除了angry。"
+}

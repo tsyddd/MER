@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00006335",
+  "dataset": "MER2024",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "mode": "direct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "surprise",
+  "emotion_analysis": "画面中的男子在接听电话时眼睛睁大，神情惊异，以难以置信的反问语气询问甲子沟煤矿的情况，体现出对电话中突发或意料之外情况的惊讶。",
+  "output": "画面中的男子在接听电话时眼睛睁大，神情惊异，以难以置信的反问语气询问甲子沟煤矿的情况，体现出对电话中突发或意料之外情况的惊讶。\n<answer>surprise</answer>",
+  "label": "angry",
+  "elapsed_seconds": 8.860994100570679,
+  "node_count": null,
+  "edge_count": null
+}

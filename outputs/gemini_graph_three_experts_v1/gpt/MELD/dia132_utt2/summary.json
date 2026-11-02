@@ -1,0 +1,4 @@
+{
+  "reason": "三位专家均判断为neutral：graph记录其平稳语速、自然语气和中性互动，image记录其面部与姿态自然，未见明显负面或强烈情绪。audio_subtitle未提供音频，仅依据字幕显示其在平静描述人物外貌，因此不能作听觉判断；各来源结论一致，支持neutral。",
+  "answer": "neutral"
+}

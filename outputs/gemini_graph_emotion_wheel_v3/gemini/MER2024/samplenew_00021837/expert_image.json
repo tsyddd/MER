@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物在整个片段中处于会议发言状态，身体姿态端正平稳，面部神情专注而自持。眉毛平缓舒展，眼神直视前方听众，说话时嘴部动作开合自然，在停顿处（如frame_03和frame_07）略微抿唇收束，既无明显的笑容、皱眉愤怒，也无焦虑或悲伤的面部张力，呈现出平稳叙事的常态状态。",
+  "open_emotion": "平稳叙述",
+  "answer": "neutral",
+  "mapping_reason": "目标人物面部与体态均展现出严肃稳重的叙事交流状态，缺乏强烈的正负向情绪激活，符合情绪轮中neutral（平稳叙述、自然交流、无明确主导情绪）的定义。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "visual",
+      "anchor": "frame_00至frame_02 (0.0s-1.12s)",
+      "observation": "目标人物端坐于桌前面向麦克风，双肩放松，面部肌肉舒展，眉眼无紧绷皱缩，眼神平视前方稳步发言。",
+      "interpretation": "显示出正式场合下专注而平静的交流状态，无过激或负向情绪外露。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_03及frame_07 (1.68s, 3.92s)",
+      "observation": "在句读和停顿期间，嘴唇自然闭合微抿，眉间未出现愁容或怒容，眼神稳定。",
+      "interpretation": "体现言语停顿间的自我调控与理性沉稳，属于中性叙事特征。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "audio",
+      "anchor": "00:00-00:04",
+      "observation": "语速适中，语调低沉平缓，没有声调突升、颤抖或激昂感。",
+      "interpretation": "听觉表现与视觉的平静叙述保持一致，排除了激愤或悲伤的可能性。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "在发言停顿（frame_03）时微抿嘴角的动作可能带有轻微的严肃或感触，但未形成明确的担忧或哀伤特征，不足以推翻整体中性判断。"
+}

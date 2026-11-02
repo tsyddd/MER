@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia188_utt0",
+  "dataset": "MELD",
+  "provider": "gpt",
+  "model": "gpt-6-sol",
+  "status": "success",
+  "version": "gemini_graph_shared_media_v2",
+  "graph_sha256": "b97e68d51fd419e726abf41fc684b1dd95e92043178dcef7d7b2a8c69202319d",
+  "graph_source_provider": "gemini",
+  "raw_audio_provided": false,
+  "graph_contains_audio_derived_nodes": true,
+  "frames": 8,
+  "prediction": "surprise",
+  "emotion_analysis": "字幕只有“What?”，[audio_subtitle:E1]所说的即时发问可以支持惊讶，但这个词本身也可能只是普通询问。回看frame_00至frame_07，左侧白球衣的Joey低头、向前下方伸手后放下手臂；[graph:E2]对动作的描述可信，却不能单凭手势判定情绪。[image:E2]指出没有明显夸张的面部反应，是中性解释的有力反证；但缺少强烈表情不等于中性，结合当下的简短反问与指向眼前事物的动作，我选择较轻微的惊讶。未提供音轨，无法核验语气。",
+  "output": "字幕只有“What?”，[audio_subtitle:E1]所说的即时发问可以支持惊讶，但这个词本身也可能只是普通询问。回看frame_00至frame_07，左侧白球衣的Joey低头、向前下方伸手后放下手臂；[graph:E2]对动作的描述可信，却不能单凭手势判定情绪。[image:E2]指出没有明显夸张的面部反应，是中性解释的有力反证；但缺少强烈表情不等于中性，结合当下的简短反问与指向眼前事物的动作，我选择较轻微的惊讶。未提供音轨，无法核验语气。\n<answer>surprise</answer>",
+  "label": "neutral",
+  "elapsed_seconds": 80.00774049758911
+}

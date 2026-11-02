@@ -1,0 +1,11 @@
+{
+  "expert": "graph",
+  "reason": "男子双眼微睁大并注视斜下方〔person_2〕，同时表示“我怎么看也不像啊”〔process_1〕，体现出对胡十四娘年龄说法的惊讶和难以置信。其手抵衣领〔person_3〕、目光定视前方〔person_4〕，进一步表现出当下的意外反应。",
+  "answer": "surprise",
+  "evidence_refs": [
+    "person_2",
+    "process_1",
+    "person_3",
+    "person_4"
+  ]
+}

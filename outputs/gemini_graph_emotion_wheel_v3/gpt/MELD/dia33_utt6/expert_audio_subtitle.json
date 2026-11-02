@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "Rachel以“Oh come on”起头，接着问“what am I gonna do”，并抱怨“it’s been hours and it won’t stop crying”[E1][E2]。她抱着婴儿说话时眉头紧蹙、嘴部绷紧[E3]。话语和表情共同指向久哄不止后的烦躁与挫败，而不是单凭疑问句推断她害怕。",
+  "open_emotion": "烦躁",
+  "answer": "anger",
+  "mapping_reason": "当前烦躁主要针对哭声持续、安抚受阻；按情绪轮中受阻引发恼火的定义，映射为anger。这里不表示她对婴儿有强烈愤怒。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“Oh come on, what am I gonna do”",
+      "observation": "先发出催促式感叹，再询问自己该怎么办。",
+      "interpretation": "结合后续抱怨，这更像受挫时的求解，而非单纯的信息询问。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "subtitle",
+      "anchor": "“its been hours and it won’t stop crying.”",
+      "observation": "她强调持续时间很长，且哭声仍未停止。",
+      "interpretation": "将持续哭闹表述为当前无法解决的阻碍，支持烦躁。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_02（1.4597905332889234秒）至frame_04（2.961289367528959秒）",
+      "observation": "Rachel抱着襁褓中的婴儿，眉头紧蹙，张口说话时面部显得紧绷。",
+      "interpretation": "表情与话语中的受挫感一致；仅凭画面不能判定她的语调。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "“what am I gonna do”也可能表达担忧或无助；但字幕没有指出明确的危险或可怕后果。未提供音频，无法用语调、音量或哭声核实情绪强度及来源。"
+}

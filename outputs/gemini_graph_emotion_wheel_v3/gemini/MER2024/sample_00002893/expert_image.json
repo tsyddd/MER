@@ -1,0 +1,34 @@
+{
+  "expert": "image",
+  "reason": "目标人物在整个片段中手持电话，双眉持续微蹙并呈八字形忧虑状（如frame_01至frame_06），眼神流露出焦虑与无助，嘴巴快速开合解释。配合音频中急促的呼吸与语调，以及台词中‘事情越闹越大’的担忧陈述，其视觉神态鲜明体现了对失控风险的焦急与不安。",
+  "open_emotion": "焦急",
+  "answer": "worried",
+  "mapping_reason": "目标人物表现出双眉八字紧缩、急切不安的神态，核心关注点在于事态恶化（‘事情越闹越大’）所带来的未知风险与后续影响，符合worried（担忧/焦虑）对负面预期与不确定性的定义。",
+  "evidence": [
+    {
+      "anchor": "frame_01 1.0s, frame_03 3.0s",
+      "id": "E1",
+      "interpretation": "八字愁眉与紧绷的面部线条展现出强烈的忧愁与心神不定。",
+      "observation": "眉心收拢上提，形成典型的八字忧愁眉，目光略带闪烁与无助。",
+      "polarity": "support",
+      "source": "visual"
+    },
+    {
+      "anchor": "frame_05 4.96s, frame_06 5.96s",
+      "id": "E2",
+      "interpretation": "表现出事态紧急、迫切需要求助与解决的焦虑状态。",
+      "observation": "眉头依然紧蹙，嘴部急促开合，嘴角微下沉，颈部与面部神态紧绷。",
+      "polarity": "support",
+      "source": "visual"
+    },
+    {
+      "anchor": "现在事情越闹越大",
+      "id": "E3",
+      "interpretation": "言语内容明确指向对事态不可控发展的担忧预期。",
+      "observation": "台词表述事态持续恶化并寻求应对办法。",
+      "polarity": "support",
+      "source": "subtitle"
+    }
+  ],
+  "counterevidence": "蹙眉与嘴角下压的神态在静态画面中带有一定的委屈或悲伤感（sad），但动态中语速急促、视线活跃且伴随解释动作，更倾向于应对危机时的焦虑担忧而非低沉的悲伤。"
+}

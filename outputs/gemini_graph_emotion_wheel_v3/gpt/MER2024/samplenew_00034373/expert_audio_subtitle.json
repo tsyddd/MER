@@ -1,0 +1,34 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "目标人物说“甚至，连一件衣裳。”，以递进措辞强调某种缺失，但句子未说完，不能单凭台词确定所失为何。[E1] 她说话时眉头紧蹙、眼眶湿润，表情显得痛楚，与难过的解释相符。[E2][E3]",
+  "open_emotion": "难过",
+  "answer": "sad",
+  "mapping_reason": "当前可见的痛楚表情，结合对缺失的强调，更接近情绪轮中因失落而难过的sad；由于缺少前后文，这一判断有保留。",
+  "evidence": [
+    {
+      "id": "E1",
+      "source": "subtitle",
+      "anchor": "“甚至，连一件衣裳。”",
+      "observation": "“甚至”引出递进，话语停在“一件衣裳”，未交代完整事件。",
+      "interpretation": "说话者在强调某种缺失；具体评价对象尚不明确。",
+      "polarity": "support"
+    },
+    {
+      "id": "E2",
+      "source": "visual",
+      "anchor": "frame_02（0.60秒）",
+      "observation": "目标人物眉头紧蹙，眼眶湿润，嘴角微微下垂。",
+      "interpretation": "表情支持其正在难过，而非仅作平稳陈述。",
+      "polarity": "support"
+    },
+    {
+      "id": "E3",
+      "source": "visual",
+      "anchor": "frame_07（2.04秒）",
+      "observation": "她仍皱着眉，眼眶湿润，张口朝画面外的人说话。",
+      "interpretation": "痛楚神情持续到片段末，与台词所强调的缺失相呼应。",
+      "polarity": "support"
+    }
+  ],
+  "counterevidence": "最强替代解释是她在担忧衣物相关的后续处境，而非为已发生的缺失难过；字幕不完整，无法彻底区分。未提供音频，因此不判断语调或声音情绪。"
+}

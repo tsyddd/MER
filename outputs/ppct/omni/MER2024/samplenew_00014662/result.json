@@ -1,0 +1,18 @@
+{
+  "id": "MER2024/samplenew_00014662",
+  "dataset": "MER2024",
+  "model": "omni30b-instruct",
+  "provider": "omni",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": true,
+  "subtitle_provided": true,
+  "prediction": "worried",
+  "emotion_analysis": "音频中说话者表达了对某事可能牵连到对方家老爷子的担忧，其语气和内容均指向一种关切和忧虑。结合其在对话中的姿态和场景，可以判断其情绪为担忧。",
+  "output": "音频中说话者表达了对某事可能牵连到对方家老爷子的担忧，其语气和内容均指向一种关切和忧虑。结合其在对话中的姿态和场景，可以判断其情绪为担忧。\n<answer>worried</answer>",
+  "label": "worried",
+  "elapsed_seconds": 68.80393767356873,
+  "node_count": 6,
+  "edge_count": 1
+}

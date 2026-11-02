@@ -1,0 +1,18 @@
+{
+  "id": "MELD/dia233_utt1",
+  "dataset": "MELD",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "mode": "ppct",
+  "status": "success",
+  "frames": 8,
+  "audio_provided": false,
+  "subtitle_provided": true,
+  "prediction": "anger",
+  "emotion_analysis": "当前人物是Rachel，她在室内面向另一名女子持续说话并挥臂做手势（process_0与process_1通过simultaneous/process_joint相连；person_0与person_2显示她面向对方并持续开合嘴部）。字幕中的“fish freaked me out”是在提及过去对鱼的反应，画面中没有鱼；结合她皱眉、张口强调和指向性手势，更符合当前交流中的恼怒而非当下恐惧。",
+  "output": "当前人物是Rachel，她在室内面向另一名女子持续说话并挥臂做手势（process_0与process_1通过simultaneous/process_joint相连；person_0与person_2显示她面向对方并持续开合嘴部）。字幕中的“fish freaked me out”是在提及过去对鱼的反应，画面中没有鱼；结合她皱眉、张口强调和指向性手势，更符合当前交流中的恼怒而非当下恐惧。\n<answer>anger</answer>",
+  "label": "disgust",
+  "elapsed_seconds": 97.69055199623108,
+  "node_count": 7,
+  "edge_count": 6
+}

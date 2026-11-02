@@ -1,0 +1,6 @@
+{
+  "expert": "audio_subtitle",
+  "reason": "未提供音频，无法判断声调、音量、语速或停顿。仅从字幕看，Chandler以问候和重复询问为主，没有明确的负面情绪词或强烈情绪表达，因此当前态度更接近中性。",
+  "answer": "neutral",
+  "evidence_refs": []
+}

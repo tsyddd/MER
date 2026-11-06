@@ -1,0 +1,11 @@
+{
+  "version": "gemini_conditional_debate_v4_media",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "text_only": false,
+  "raw_media_provided": true,
+  "round0": "saved v3 expert outputs, not re-run",
+  "max_rounds": 2,
+  "gold_not_sent": true,
+  "key_source": "project configs/private_api.json via engine.Client"
+}

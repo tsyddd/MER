@@ -1,0 +1,60 @@
+{
+  "output": {
+    "expert": "graph",
+    "reason": "目标人物在当前片段中望向右侧，皱眉询问“他，是谁呀？”[E1][E2]。我核对后认为，她持续紧绷地确认身份，更支持对未知情况的不安；仅凭身份疑问，不能断定她刚获得了违背预期的信息。图谱person_0、person_1与画面相符，但重复的是同一组视觉事实，并非额外证据[E3]。",
+    "open_emotion": "不安",
+    "answer": "worried",
+    "mapping_reason": "“不安”在此指面对身份未知者时的紧张与不确定，最接近worried。字幕未说明具体威胁或她担心的后果，因此这一映射仍有限制。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "visual",
+        "anchor": "frame_00（0.0秒）至frame_07（0.8秒）",
+        "observation": "女性持续朝画面右侧注视，双眉收紧，面部紧绷，开口发问。",
+        "interpretation": "紧绷的定向注视支持她对当前未知情况感到不安；画面没有显示从平静到震惊的表情转变。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "subtitle",
+        "anchor": "当前字幕“他，是谁呀？”",
+        "observation": "她询问一名男性的身份。",
+        "interpretation": "当前互动的焦点是确认身份，而非评价已发生的损失或责备他人；疑问句本身不足以证明惊讶或担忧，需结合画面判断。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "graph",
+        "anchor": "person_0、person_1、process_0",
+        "observation": "图谱记录了女性皱眉、望向右侧并询问身份，均与画面及字幕相符。",
+        "interpretation": "这些节点帮助确定同一人物的当前互动，但与[E1][E2]同源重复，不能独立证明她预见了危险或遭遇了意外。",
+        "polarity": "support"
+      },
+      {
+        "id": "E4",
+        "source": "graph",
+        "anchor": "person_2",
+        "observation": "图谱转述她音量偏低、语调上扬；本轮未提供原音轨。",
+        "interpretation": "保留这一有来源的音频派生描述，但不能亲耳核验，也不将其作为最终区分情绪的依据。",
+        "polarity": "uncertain"
+      }
+    ],
+    "counterevidence": "皱眉、张口和身份追问也可能是即时诧异；八帧不足以确定提问之前发生了什么，也未显示具体威胁。因此“不安”是基于当前紧绷表现的有限判断，不是对剧情动机的断言。",
+    "changed": true,
+    "response_to_others": "音频字幕专家引用的字幕及持续皱眉、右侧注视均可在原始材料中核实；其指出疑问句不等于惊讶，促使我修正先前对预期违背的推断。图像专家所说的紧绷表现也可核实，但与前者及图谱引用的是同一组画面事实；其所称缺少明显瞬时转变成立，不过0.8秒的画面也不能排除更早发生的惊讶。"
+  },
+  "usage": {
+    "completion_tokens": 980,
+    "total_tokens": 6938,
+    "prompt_tokens": 5958,
+    "prompt_tokens_details": {
+      "cached_tokens": 2304,
+      "cache_write_tokens": 0,
+      "cached_creation_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 125
+    }
+  },
+  "seconds": 29.57613492012024
+}

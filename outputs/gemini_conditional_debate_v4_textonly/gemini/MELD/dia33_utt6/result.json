@@ -1,0 +1,25 @@
+{
+  "id": "MELD/dia33_utt6",
+  "dataset": "MELD",
+  "round0_labels": {
+    "graph": "fear",
+    "audio_subtitle": "sadness",
+    "image": "sadness"
+  },
+  "triggered": true,
+  "final": "sadness",
+  "rounds_run": 1,
+  "round_labels": [
+    {
+      "graph": "sadness",
+      "audio_subtitle": "sadness",
+      "image": "sadness"
+    }
+  ],
+  "final_expert_labels": {
+    "graph": "sadness",
+    "audio_subtitle": "sadness",
+    "image": "sadness"
+  },
+  "judge": null
+}

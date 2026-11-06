@@ -1,0 +1,25 @@
+{
+  "id": "MELD/dia109_utt5",
+  "dataset": "MELD",
+  "round0_labels": {
+    "graph": "joy",
+    "audio_subtitle": "anger",
+    "image": "anger"
+  },
+  "triggered": true,
+  "final": "anger",
+  "rounds_run": 1,
+  "round_labels": [
+    {
+      "graph": "anger",
+      "audio_subtitle": "anger",
+      "image": "anger"
+    }
+  ],
+  "final_expert_labels": {
+    "graph": "anger",
+    "audio_subtitle": "anger",
+    "image": "anger"
+  },
+  "judge": null
+}

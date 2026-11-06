@@ -1,0 +1,39 @@
+{
+  "output": {
+    "expert": "image",
+    "changed": true,
+    "response_to_others": "认同音频字幕专家指出其语调轻缓试探而非突发上扬高亢，我此前将探询式张嘴误判为纯粹震惊；认同图谱专家结合前倾紧盯神态对潜在麻烦与负面后果所做的顾虑阐释，视觉紧绷感确实更偏向担忧。",
+    "reason": "目标人物身体微向前倾、眼神紧紧凝视对方，面部神态呈现探询与谨慎紧绷（frame_05至frame_07嘴唇微张后轻抿），配合轻缓小心的询问语气，其核心焦点在于试探对方所遇阻碍并顾虑潜在不良后果，体现出内敛的忐忑与担忧，而非被突发信息冲击的单纯惊讶。",
+    "open_emotion": "担忧",
+    "answer": "worried",
+    "mapping_reason": "‘担忧’强调对可能出现的负面结果、未知风险或潜在麻烦的顾虑与不安，符合情绪轮中worried关于预期风险与心理忐忑的定义。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "visual",
+        "anchor": "frame_05 (1.48s) 至 frame_07 (2.08s)",
+        "observation": "目标人物头部微前探，双眼凝视对方神情，嘴唇微张后紧接着收敛微抿，眉宇间保持试探与紧绷。",
+        "interpretation": "展现出等待对方确认困难时的忐忑与顾虑心态，而非舒展的意外反应。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "subtitle",
+        "anchor": "怎么？他不好对付啊。",
+        "observation": "以‘怎么？’起句试探并询问对方‘他不好对付啊’。",
+        "interpretation": "关注点在于对方是否受阻及形势的不确定性，具备对潜在负面结果的探询性质。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "前几帧（frame_01至frame_03）略有眼部睁大和疑问发声，易被局部切片孤立解读为surprise，但缺乏持续震惊或惊异的强视觉特征。"
+  },
+  "usage": {
+    "completion_tokens": 1312,
+    "total_tokens": 4817,
+    "prompt_tokens": 3505,
+    "completion_tokens_details": {
+      "reasoning_tokens": 752
+    }
+  },
+  "seconds": 14.676664113998413
+}

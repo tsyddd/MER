@@ -1,0 +1,52 @@
+{
+  "output": {
+    "expert": "image",
+    "reason": "目标是画面中央持电话的男子。frame_00至frame_07中，他持续握着听筒、注视前方，眉间略收紧；说话时嘴部开合，句末仍保持相近的神态和姿势[E1][E2]。字幕显示他在核实增兵是否已经发生[E3]。这些证据更支持克制的疑虑，而不是已经受到明显冲击的惊讶。",
+    "open_emotion": "疑虑",
+    "answer": "worried",
+    "mapping_reason": "疑虑指向尚待确认的增兵情况，按情绪轮中对不确定情况的顾虑近似映射为worried；证据不足以判断他担忧的具体后果或强度。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "visual",
+        "anchor": "frame_00（0.0秒）至frame_03（1.12秒）",
+        "observation": "中央男子握着电话听筒，注视前方，眉间略收紧，没有明显笑容。",
+        "interpretation": "与审慎关注相容；单凭这一神态不能确定情绪。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_05（1.88秒）至frame_07（2.64秒）",
+        "observation": "他说话时嘴部开合，随后合口，目光和持电话的姿势没有明显变化。",
+        "interpretation": "未见足以支持即时强烈惊讶的明显表情或姿态转变。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "subtitle",
+        "anchor": "「关东军不是已经增兵甲子沟、煤矿了吗？」",
+        "observation": "字幕是一句对增兵是否已经发生的确认式提问。",
+        "interpretation": "为持续求证的视觉表现提供语境，但问句本身不能证明他已得知违背预期的消息。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "最强的相反解释是平稳地核对事实：他站姿稳定，面部变化很小。字幕中的“不是已经……了吗”也容许轻微意外的解读，但没有呈现对方的答复或明确的即时惊讶反应。",
+    "changed": false,
+    "response_to_others": "图谱专家所引的字幕及frame_00至frame_07持电话、神态较严肃的表现均可核实，但与我的视觉证据重复；当前没有提供图谱原文或音轨，我无法核实process_0、person_1及其语调转述。音频字幕专家所引问句可核实；frame_02至frame_06的眉眼状态与认真求证相容，但我未见清晰的突然抬眉变化，且问句未证实预期已被打破，因此不足以改判为surprise。"
+  },
+  "usage": {
+    "completion_tokens": 790,
+    "total_tokens": 6197,
+    "prompt_tokens": 5407,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_creation_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 59
+    }
+  },
+  "seconds": 20.821165084838867
+}

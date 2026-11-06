@@ -1,0 +1,52 @@
+{
+  "output": {
+    "expert": "audio_subtitle",
+    "reason": "Monica连说“No-no-no, no!”，是即时制止，而非询问信息或平静陈述[E1]。她随即放低书本、向前探身，末帧仍张口看向门边，动作与话语中的急迫感一致[E2][E3]。这更支持她担心眼前事情继续发生，而非只有短暂的意外；但字幕没有交代她担心的具体后果。",
+    "open_emotion": "焦急",
+    "answer": "fear",
+    "mapping_reason": "此处的焦急指向急于阻止可能发生的负面后果，因而近似映射到fear；画面与字幕不足以确认明确的危险或强烈害怕。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "subtitle",
+        "anchor": "“No-no-no, no!”",
+        "observation": "Monica连续重复否定词。",
+        "interpretation": "支持即时制止的言语行为；字幕本身不能证明语调或音量。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_02（0.584秒）至frame_05（1.418秒）",
+        "observation": "Monica从坐着持书转为放低书本、向前探身。",
+        "interpretation": "她迅速采取动作，与话语中的制止意图相符。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "visual",
+        "anchor": "frame_06（1.710秒）至frame_07（2.002秒）",
+        "observation": "Monica回头看向门边，末帧眼睛睁大、嘴张开。",
+        "interpretation": "可与持续的急迫反应相符；这一表情单独也可能表示吃惊。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "最强替代解释是surprise：快速转头和末帧表情确实可能表现意外。连续制止与立即探身使焦急的解释略强，但片段没有说明她反对的原因；未提供音频，不能以语调判断。",
+    "changed": false,
+    "response_to_others": "图像专家所引frame_02至frame_07的动作、末帧表情及字幕均可在提供的媒体中核实；这些支持突发反应，但连续制止使我仍倾向焦急，而非单纯吃惊。图谱专家所引的字幕和画面动作也可核实，且与我的证据同源、不能重复计数；未提供图谱或音轨，无法核实process_1、person_2及其声音描述。"
+  },
+  "usage": {
+    "completion_tokens": 705,
+    "total_tokens": 6162,
+    "prompt_tokens": 5457,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_creation_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 111
+    }
+  },
+  "seconds": 19.841607093811035
+}

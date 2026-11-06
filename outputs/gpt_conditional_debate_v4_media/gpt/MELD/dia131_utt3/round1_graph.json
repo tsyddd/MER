@@ -1,0 +1,60 @@
+{
+  "output": {
+    "expert": "graph",
+    "reason": "Rachel当前向Phoebe说“Oh, everything went great.”[E1]。画面中，她先低头整理衣物，随后抬头、摊开双手说话，后段嘴角略扬[E2][E3]。话语是她对所谈事情的正面表述，配合后段表情，较支持轻微愉悦；但不能据此确认此前的事情确实顺利。图谱person_1记录的是同一段可见动作，不算额外的情绪证据[E4]。",
+    "open_emotion": "轻微愉悦",
+    "answer": "joy",
+    "mapping_reason": "当前正面表述与轻微笑意共同支持正向体验，映射为joy；表达较克制，不推断为兴奋。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "subtitle",
+        "anchor": "Oh, everything went great.",
+        "observation": "Rachel称一切都很顺利。",
+        "interpretation": "这是她当前表达的正面评价；句子本身不能排除反讽。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_02（0.542秒）至frame_04（1.084秒）",
+        "observation": "Rachel低头整理手中的黑色衣物，期间表情较收敛。",
+        "interpretation": "这限制了强烈喜悦的判断，但仅凭低头不能判定失望。",
+        "polarity": "counter"
+      },
+      {
+        "id": "E3",
+        "source": "visual",
+        "anchor": "frame_05（1.376秒）至frame_06（1.627秒）",
+        "observation": "Rachel抬头面向对方，摊开双手说话，嘴角略扬。",
+        "interpretation": "结合她的正面表述，较支持轻微愉悦；手势单独并不能证明情绪。",
+        "polarity": "support"
+      },
+      {
+        "id": "E4",
+        "source": "graph",
+        "anchor": "person_1",
+        "observation": "节点记录Rachel抬头、摊开左手并向外展开右手所持衣物。",
+        "interpretation": "该节点将动作定位于Rachel的当前互动，但与画面所见同源，不构成另一项独立情绪证据；其音频来源未能亲耳核验。",
+        "polarity": "uncertain"
+      }
+    ],
+    "counterevidence": "低头、短暂闭眼以及后段较克制的笑容，也容许勉强回答或反讽的解释。没有原音轨，不能核验语调；图谱的先后顺序也不能证明她因过去事情顺利而高兴。",
+    "changed": false,
+    "response_to_others": "音频字幕专家指出的frame_02、frame_04低头与闭眼，以及frame_05至frame_06摊手和较紧的笑容，都能在画面中核实；但这些动作尚不足以确认话语是反讽，更不能确认她因失去什么而失望。图像专家所引的后段开放手势、轻微笑意及字幕正面表述也可核实；其中画面与图谱person_1描述的是同一动作，不重复计为独立支持。"
+  },
+  "usage": {
+    "completion_tokens": 828,
+    "total_tokens": 6790,
+    "prompt_tokens": 5962,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_creation_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 116
+    }
+  },
+  "seconds": 20.527061939239502
+}

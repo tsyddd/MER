@@ -1,0 +1,44 @@
+{
+  "output": {
+    "expert": "audio_subtitle",
+    "reason": "她以“不是”起头，紧接着问“你为什么要辞职？”，是在对这一决定追问缘由，而不只是平稳地索取信息[E1]。她说话时蹙眉、倾向对方，画面与错愕的解释相容，但这些动作本身不能排除担忧[E2]。当前没有音轨，不能判断语调。",
+    "open_emotion": "错愕",
+    "answer": "surprise",
+    "mapping_reason": "当前较直接的反应是对辞职决定感到意外并立即求证，因而映射为surprise；这一判断不单凭疑问句成立。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "subtitle",
+        "anchor": "“不是，你，为什么要辞职？”",
+        "observation": "她先说“不是”，随后直接追问对方辞职的原因。",
+        "interpretation": "开头的否定式反应与紧接的追问共同支持对这一决定的错愕；问句单独不足以证明惊讶。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_01（0.4秒）至frame_06（2.28秒）",
+        "observation": "女性蹙眉、侧头并倾向对方，发问后仍注视对方。",
+        "interpretation": "表情与认真追问相符，但也可能是关切，不能单靠持续蹙眉定类。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "最强替代解释是关切不安：她持续蹙眉、注视对方，确实可能在担心辞职的后果。但字幕没有说出她所顾虑的风险；反应持续也不足以排除错愕。缺少音轨使两者更难区分。",
+    "changed": false,
+    "response_to_others": "我核实了图谱专家所引的字幕和frame_01至frame_06：追问与蹙眉确实可见，且与我的判断一致；但当前没有提供图谱或音轨，无法亲自核实process_0、person_1所述的声音细节。图像专家指出的持续蹙眉、前倾，以及frame_07切到男性，均与画面相符；不过这些视觉事实不能单独证明她在预期某种负面后果，因此不足以将标签改为worried。"
+  },
+  "usage": {
+    "completion_tokens": 614,
+    "total_tokens": 6060,
+    "prompt_tokens": 5446,
+    "prompt_tokens_details": {
+      "cached_tokens": 2304,
+      "cache_write_tokens": 0,
+      "cached_creation_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 68
+    }
+  },
+  "seconds": 16.527986764907837
+}

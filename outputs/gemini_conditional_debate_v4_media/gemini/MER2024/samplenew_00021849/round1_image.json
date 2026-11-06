@@ -1,0 +1,47 @@
+{
+  "output": {
+    "expert": "image",
+    "changed": false,
+    "response_to_others": "对音频字幕专家：核查frame_01至frame_04，男子身体前倾手扶车窗纯属站在车外向车内低角度沟通的常规物理姿态，其眉弓平展舒展、额头无紧缩，眼神平和，并无明显的焦虑或顾虑肌肉运动；且音轨吐字平缓沉稳，仅属事务性安排交待，未达情绪轮中强调未知风险与不安的worried范畴。对图谱专家：核查frame_03及全段发音，男子面容舒缓、口型开合从容平顺，确实呈现平稳常态沟通，支持其neutral判断。",
+    "reason": "目标人物（车外戴眼镜中年男子）在[frame_00]至[frame_07]全程动作姿态稳定，身体前倾扶住车窗属于向车内对话的自然体态。在[frame_01]至[frame_05]说话期间，其双眉平整、眼部肌肉松弛无皱眉挤压，额头平整无纹，唇部开合自然，无紧抿或颤动等焦虑迹象。结合真实音轨，其语气低缓从容、语速均匀，是对同伴平缓交代事务的自然交流，无明显负向或正向主导情绪，符合neutral判定。",
+    "open_emotion": "平稳",
+    "answer": "neutral",
+    "mapping_reason": "目标人物神态从容平稳、语调沉着自然，属于典型的平稳叙述与自然交流，完全符合情绪轮中neutral的定义。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "visual",
+        "anchor": "frame_01至frame_04 (0.32s-1.20s)",
+        "observation": "车外男子前倾俯视车内，额头平展，双眉舒展无微蹙或下压，嘴角与面部肌肉保持松弛舒展。",
+        "interpretation": "缺乏焦虑、担忧或悲伤引发的面部紧绷动作，体现常态平稳的情绪基线。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_05至frame_07 (1.52s-2.12s)",
+        "observation": "男子交代完台词后目光平视车内，面容未出现神情凝滞、深锁眉心或紧张波动。",
+        "interpretation": "视觉动态连贯稳定，无突发情绪转折，支持中性交流。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "audio",
+        "anchor": "00:00-00:02",
+        "observation": "音轨中男声平稳低沉，语速适中，尾音自然收束无气促颤音。",
+        "interpretation": "听觉特征与视觉从容表象一致，排除紧迫担忧与情绪对抗。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "男子俯身探视车内并示意对方先撤离的动作与台词，带有一定的照看意味，容易被主观引申为担忧关切（worried）。"
+  },
+  "usage": {
+    "completion_tokens": 1739,
+    "total_tokens": 14195,
+    "prompt_tokens": 12456,
+    "completion_tokens_details": {
+      "reasoning_tokens": 980
+    }
+  },
+  "seconds": 16.293753147125244
+}

@@ -1,0 +1,96 @@
+{
+ "gemini": {
+  "n_all": 400,
+  "n_branch": 62,
+  "counts": {
+   "gold in reflect primaries (P=1)": 55,
+   "reflect plurality correct (V=1, ties wrong)": 24,
+   "reflect three-way tie": 9,
+   "final correct": 26,
+   "v3 summary correct": 5,
+   "damage: V=1 and final wrong": 6,
+   "debate rounds >=2": 13,
+   "headroom H: V=0 and P=1": 31,
+   "recovery: H and final correct": 7
+  },
+  "per_expert_on_branch": {
+   "graph": {
+    "r0 correct": 25,
+    "reflect correct": 24,
+    "debate-final correct": 27
+   },
+   "audio_subtitle": {
+    "r0 correct": 33,
+    "reflect correct": 32,
+    "debate-final correct": 27
+   },
+   "image": {
+    "r0 correct": 26,
+    "reflect correct": 24,
+    "debate-final correct": 26
+   }
+  },
+  "expert_moves_reflect_to_debate": {
+   "kept": 105,
+   "changed": 81,
+   "wrong->right": 34,
+   "wrong->wrong": 13,
+   "right->wrong": 34
+  },
+  "lone_expert": {
+   "lone expert wrong n": 28,
+   "lone expert wrong kept": 4,
+   "lone expert wrong followed others": 22,
+   "lone expert correct n": 22,
+   "lone expert correct kept": 4,
+   "lone expert correct followed others": 18
+  }
+ },
+ "gpt": {
+  "n_all": 400,
+  "n_branch": 55,
+  "counts": {
+   "gold in reflect primaries (P=1)": 48,
+   "reflect plurality correct (V=1, ties wrong)": 23,
+   "reflect three-way tie": 6,
+   "final correct": 19,
+   "v3 summary correct": 3,
+   "headroom H: V=0 and P=1": 25,
+   "recovery: H and final correct": 4,
+   "debate rounds >=2": 26,
+   "damage: V=1 and final wrong": 8
+  },
+  "per_expert_on_branch": {
+   "graph": {
+    "r0 correct": 31,
+    "reflect correct": 31,
+    "debate-final correct": 23
+   },
+   "audio_subtitle": {
+    "r0 correct": 18,
+    "reflect correct": 17,
+    "debate-final correct": 21
+   },
+   "image": {
+    "r0 correct": 24,
+    "reflect correct": 24,
+    "debate-final correct": 21
+   }
+  },
+  "expert_moves_reflect_to_debate": {
+   "changed": 61,
+   "right->wrong": 30,
+   "kept": 104,
+   "wrong->wrong": 8,
+   "wrong->right": 23
+  },
+  "lone_expert": {
+   "lone expert correct n": 19,
+   "lone expert correct kept": 5,
+   "lone expert correct followed others": 14,
+   "lone expert wrong n": 29,
+   "lone expert wrong kept": 9,
+   "lone expert wrong followed others": 20
+  }
+ }
+}

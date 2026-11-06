@@ -1,0 +1,37 @@
+{
+  "id": "MER2024/samplenew_00021868",
+  "dataset": "MER2024",
+  "round0_labels": {
+    "graph": "sad",
+    "audio_subtitle": "worried",
+    "image": "worried"
+  },
+  "triggered": true,
+  "final": "sad",
+  "rounds_run": 2,
+  "round_labels": [
+    {
+      "graph": "sad",
+      "audio_subtitle": "worried",
+      "image": "worried"
+    },
+    {
+      "graph": "sad",
+      "audio_subtitle": "worried",
+      "image": "worried"
+    }
+  ],
+  "final_expert_labels": {
+    "graph": "sad",
+    "audio_subtitle": "worried",
+    "image": "worried"
+  },
+  "judge": {
+    "reason": "回看frame_03至frame_07，目标是近景中的浅色衣袍男子，而非前三帧抬手的人；他持续垂眼、眉间略紧，神情显得低落，[graph:E1]对这一视觉表现的描述可信。字幕“也不知道，当年，三哥”确有不确定意味，但句意未完，既没有说出预期的负面后果，也没有证实过去发生了损失[audio_subtitle:E1]。垂眼也可能是在斟酌措辞，这是最强的替代解释；综合当前持续收敛的神情，我仍取轻度低落，而不把“当年”当作悲伤原因。未提供音轨，不能核实语调。",
+    "answer": "sad",
+    "evidence_refs": [
+      "graph:E1",
+      "audio_subtitle:E1"
+    ]
+  }
+}

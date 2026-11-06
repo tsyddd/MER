@@ -1,0 +1,44 @@
+{
+  "output": {
+    "expert": "audio_subtitle",
+    "reason": "她对面前的人说“我也不想跟你分开”，是在表达不愿分别的心意[E1]。说话时垂眼、眉间收紧，说完后仍保持收敛的表情[E2]，与不舍的解释相符。片段未提供音频，不能判断语调或音质。",
+    "open_emotion": "不舍",
+    "answer": "sad",
+    "mapping_reason": "这里的不舍侧重想到分别时的失落，最接近sad所涵盖的低落；这不意味着分别已经发生，也不能仅凭“分开”一词判定情绪。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "subtitle",
+        "anchor": "“我也不想跟你分开。”",
+        "observation": "目标女子表达自己不愿与对方分开。",
+        "interpretation": "这句面向对方的表态支持对分别的不舍，但没有说明分别是否已发生。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_02（0.56秒）至frame_07（1.96秒）",
+        "observation": "女子说话时目光下垂、眉间收紧；说完后仍垂眼、闭上嘴。",
+        "interpretation": "持续收敛的表情与不舍相符；单凭这些表情不能排除不安。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "最强替代解释是她对可能到来的分离感到不安。字幕确实没有确认分别已经发生，但也没有提及未知风险或负面后果；因此不能仅凭分离尚未发生就优先判为worried。",
+    "changed": false,
+    "response_to_others": "图谱专家引用的字幕和frame_02至frame_07中的垂眼、蹙眉均可核实，但这些证据不独指担忧；其process_0、process_1和person_1节点未在所提供原始材料中出现，无法核验，低缓语调也不能在无音轨时采用。图像专家引用的前后帧表情和字幕均可核实；其两段视觉证据属于同一持续表情，不重复计为独立依据，整体仍支持不舍。"
+  },
+  "usage": {
+    "completion_tokens": 634,
+    "total_tokens": 5936,
+    "prompt_tokens": 5302,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_creation_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 58
+    }
+  },
+  "seconds": 17.037301301956177
+}

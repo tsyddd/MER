@@ -1,0 +1,14 @@
+{
+  "id": "MELD/dia34_utt5",
+  "dataset": "MELD",
+  "round0_labels": {
+    "graph": "surprise",
+    "audio_subtitle": "surprise",
+    "image": "surprise"
+  },
+  "triggered": false,
+  "final": "surprise",
+  "rounds_run": 0,
+  "round_labels": [],
+  "judge": null
+}

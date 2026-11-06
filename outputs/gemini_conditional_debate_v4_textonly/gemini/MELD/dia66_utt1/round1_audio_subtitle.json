@@ -1,0 +1,39 @@
+{
+  "output": {
+    "expert": "audio_subtitle",
+    "changed": false,
+    "response_to_others": "对图像专家：图像专家因目标人物侧对镜头、缺乏眼部细节而偏向中性，并过度要求‘狂喜’等强烈刺激，但情绪轮中joy包含轻度愉悦、亲切与正向友好体验；音轨中清晰的微笑发音共鸣与上扬语调直接构成了明确的正向证据，不能仅因身处职业场景就抹杀声音中的积极情绪。对图谱专家：认同图谱专家对音轨中高位音调、笑意共鸣以及言语祝福正向意图的提取，这与语音韵律的声学特征高度一致。",
+    "reason": "目标人物Flight Attendant在服务乘客时的话语并非机械生硬的平淡念白。音频00:00.6至00:01.8处，其在“Thank you! Enjoy your flight?”的发音中音调整体显著偏高、尾音灵动上扬，带有极其鲜明且不可忽视的微笑发音共鸣（smiling voice），言语行为上展现出主动示好与热忱祝福，跨模态综合体现出愉悦亲切的正向情绪状态。",
+    "open_emotion": "愉悦亲切",
+    "answer": "joy",
+    "mapping_reason": "目标人物在问候中传递出轻快、友好且带有明显笑意的正向体验，符合情绪轮中joy关于愉悦、开心及正向亲和表达的界定；情绪强度不决定类别，即使带有服务规范属性，其鲜明的正向情绪效价亦足以将其归入joy家族，而非平淡无主导情绪的neutral。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "audio",
+        "anchor": "00:00.6-00:01.8",
+        "observation": "空乘说话时语速轻快，音调显著偏高且带有饱满的微笑共鸣腔调，在“Thank you”和“flight”处呈现自然清脆的上扬。",
+        "interpretation": "反映出发音者主动、亲切且愉悦的正向情感投入，排除了单调平缓的机械诵读。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "subtitle",
+        "anchor": "Thank you!  Enjoy your flight?",
+        "observation": "台词使用带感叹号的致谢及对乘客旅途的良好祝愿。",
+        "interpretation": "言语行为展现出明确的正向人际善意与积极互动意图。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "客舱迎宾台词属于规范化服务动作，容易被误以为是没有内源波动的程序化中性（neutral）；但音轨中充沛的微笑音色和明快语调有力证明了其处于积极正向的joy情绪状态。"
+  },
+  "usage": {
+    "completion_tokens": 1302,
+    "total_tokens": 4712,
+    "prompt_tokens": 3410,
+    "completion_tokens_details": {
+      "reasoning_tokens": 603
+    }
+  },
+  "seconds": 14.564091444015503
+}

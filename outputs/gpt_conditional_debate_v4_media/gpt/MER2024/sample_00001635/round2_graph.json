@@ -1,0 +1,52 @@
+{
+  "output": {
+    "expert": "graph",
+    "reason": "目标女子当前面向画外说话，画面文字为“我不知道这件旗袍是你的”；图谱process_0也记录了这一解释行为，但与画面文字重复，不能算独立的情绪证据。[E1] 她开头睁眼张口，随后短暂抿唇，继续说话时面部仍较紧绷。[E2] 我上一轮较重视开头可能的诧异；重新核对整段后，开口也可能只是说话动作，而持续解释自己不知情、表情未明显放松，更支持她在当前互动中感到不安。这里不能进一步断定对方正在责问她，或她担心某个具体后果。",
+    "open_emotion": "不安",
+    "answer": "worried",
+    "mapping_reason": "当前的不安是对解释自己不知情这一互动的紧张顾虑，按情绪轮最接近worried；可能被误解只是解释方向，并非已核实的剧情事实。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "graph",
+        "anchor": "process_0",
+        "observation": "节点记录目标女子说“我不知道这件旗袍是你的”；frame_01至frame_07可见相同画面文字。",
+        "interpretation": "定位了她当前是在解释自己的不知情，而非转述他人的情绪；节点与画面文字同源，不重复计证。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_00（0.0秒）、frame_04（0.860秒）至frame_07（1.494秒）",
+        "observation": "她开头睁眼张口，frame_04短暂抿唇，之后继续面向画外说话，嘴部显得紧绷。",
+        "interpretation": "结合当前解释行为，后续表现较支持不安；开头张口本身不能单独证明惊讶。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "graph",
+        "anchor": "person_1",
+        "observation": "节点称她说话时“语调急促连贯”。",
+        "interpretation": "这是有来源的图谱声音转述，但未提供原音轨，无法亲耳核验，不据此确定情绪。",
+        "polarity": "uncertain"
+      }
+    ],
+    "counterevidence": "睁眼张口及“不知道”也容许即时诧异的解释；片段没有呈现她获知归属的时刻，也没有交代对方的反应。另行提供的字幕仅为“我：不。”，比可见画面文字短，不能据此补出更多对话。",
+    "changed": true,
+    "response_to_others": "音频字幕专家引用的frame_01至frame_07画面文字和frame_04短暂抿唇均可核实；我接受其对持续解释行为的分析，但不能核实具体的受责后果。图像专家指出开头张口可能是说话动作、后段仍较紧绷，也与画面相符；两位所引的表情和文字是同一组事实，不因重复引用而增加证据数量。"
+  },
+  "usage": {
+    "completion_tokens": 935,
+    "total_tokens": 7734,
+    "prompt_tokens": 6799,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_creation_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 138
+    }
+  },
+  "seconds": 23.678030729293823
+}

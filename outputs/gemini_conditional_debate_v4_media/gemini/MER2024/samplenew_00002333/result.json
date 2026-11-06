@@ -1,0 +1,30 @@
+{
+  "id": "MER2024/samplenew_00002333",
+  "dataset": "MER2024",
+  "round0_labels": {
+    "graph": "happy",
+    "audio_subtitle": "sad",
+    "image": "happy"
+  },
+  "triggered": true,
+  "final": "sad",
+  "rounds_run": 2,
+  "round_labels": [
+    {
+      "graph": "sad",
+      "audio_subtitle": "happy",
+      "image": "sad"
+    },
+    {
+      "graph": "sad",
+      "audio_subtitle": "sad",
+      "image": "sad"
+    }
+  ],
+  "final_expert_labels": {
+    "graph": "sad",
+    "audio_subtitle": "sad",
+    "image": "sad"
+  },
+  "judge": null
+}

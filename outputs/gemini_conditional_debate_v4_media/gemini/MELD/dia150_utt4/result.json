@@ -1,0 +1,14 @@
+{
+  "id": "MELD/dia150_utt4",
+  "dataset": "MELD",
+  "round0_labels": {
+    "graph": "sadness",
+    "audio_subtitle": "sadness",
+    "image": "sadness"
+  },
+  "triggered": false,
+  "final": "sadness",
+  "rounds_run": 0,
+  "round_labels": [],
+  "judge": null
+}

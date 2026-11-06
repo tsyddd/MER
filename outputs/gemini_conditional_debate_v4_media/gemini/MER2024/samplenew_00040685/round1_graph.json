@@ -1,0 +1,47 @@
+{
+  "output": {
+    "expert": "graph",
+    "changed": true,
+    "response_to_others": "核验真实音轨发现，音频专家指出的粗重呼吸声与压抑气声确实存在，并非我上一轮认定的单纯沉稳；图像专家指出的frame_01至frame_05持续双目圆睁与面肌紧绷在画面中也完全属实。两路专家对紧张紧迫感的事实判定成立。",
+    "reason": "通过原始媒体复核图谱及组织文本，图谱中记录的“低缓沉稳”（person_1）存在一定偏差：在真实音轨（0:00-0:06）中，目标人物虽压低嗓门，但呼吸急促、气声明显，伴随明显的压抑感；同时画面中全程双目圆睁、眼白显露且神态紧绷（person_0、person_2）。从事件组织来看，该场景是私密谋划时对“父皇起疑”这一生死攸关危机的重述（process_1、process_2），目标人物展现出的并非松弛客观的叙事，而是伴随高度警惕、心有余悸的紧张与不安[E1, E2]。",
+    "open_emotion": "紧张不安",
+    "answer": "worried",
+    "mapping_reason": "目标人物在回溯君父猜忌与重大嫌疑时展现出紧绷、心有余悸与顾虑不安的心理状态，符合情绪轮中worried关于焦虑、不安及对受责风险高度紧绷反应的界定。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "audio",
+        "anchor": "00:00-00:06",
+        "observation": "说话时嗓音特意压低，伴有较重的气息吞吐与急促停顿，并非松弛的平稳发声。",
+        "interpretation": "体现出回溯险恶事态时的警惕与后怕紧张。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_01至frame_05",
+        "observation": "对应图谱节点person_0与person_2，双眼持续圆睁，面部肌肉收紧，神色凝重紧迫。",
+        "interpretation": "视觉上呈现出持续的焦虑警觉神态，排除从容平稳的中性状态。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "graph",
+        "anchor": "process_1",
+        "observation": "节点记载陈述“父皇本已对我起了疑心”。",
+        "interpretation": "该事件涉及触怒皇权的严重风险，构成其当前紧绷不安的语境来源。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "虽在叙述过去发生的事（process_2提到去求父皇），但其生理表征（气声、睁眼紧绷）显示当前情绪处于被危局牵动的紧张后怕中，而非脱离险境后的全然轻松。"
+  },
+  "usage": {
+    "completion_tokens": 1364,
+    "total_tokens": 15421,
+    "prompt_tokens": 14057,
+    "completion_tokens_details": {
+      "reasoning_tokens": 666
+    }
+  },
+  "seconds": 16.57416272163391
+}

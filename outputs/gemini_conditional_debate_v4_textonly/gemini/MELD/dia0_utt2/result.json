@@ -1,0 +1,25 @@
+{
+  "id": "MELD/dia0_utt2",
+  "dataset": "MELD",
+  "round0_labels": {
+    "graph": "neutral",
+    "audio_subtitle": "neutral",
+    "image": "sadness"
+  },
+  "triggered": true,
+  "final": "neutral",
+  "rounds_run": 1,
+  "round_labels": [
+    {
+      "graph": "neutral",
+      "audio_subtitle": "neutral",
+      "image": "neutral"
+    }
+  ],
+  "final_expert_labels": {
+    "graph": "neutral",
+    "audio_subtitle": "neutral",
+    "image": "neutral"
+  },
+  "judge": null
+}

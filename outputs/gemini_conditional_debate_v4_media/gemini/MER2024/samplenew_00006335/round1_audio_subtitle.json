@@ -1,0 +1,47 @@
+{
+  "output": {
+    "expert": "audio_subtitle",
+    "changed": false,
+    "response_to_others": "针对图谱专家：亲听音轨与复核画面可知，说话者语速迅捷、尾音上扬带有质问与错愕感，镜片后双眼圆睁、挑眉定视，并非其所述的“低沉沉重、神色收敛”，当前言语核心是对既定设想被颠覆的即时惊诧质询，尚未进入对未来风险的持续焦灼。针对图像专家：其指出的双目圆睁、挑眉微张嘴与音轨中句末升调完全属实，音画证据高度一致，强力支持违背预期的诧异判定。",
+    "reason": "目标人物在电话中以急促、质问且末尾上扬的语调反问对方，针对原以为已成定局的‘增兵’与电话传来的冲突事实表达难以置信的质疑；视觉上双眼睁圆、眉毛挑起并定格发愣，言语行为与生理神态均高度聚焦于认知违背带来的即时震惊与诧异，符合 surprise 家族特征。",
+    "open_emotion": "诧异",
+    "answer": "surprise",
+    "mapping_reason": "当前信息与既定认知发生直接冲突，言语行为为反问质疑，音调快速上扬，符合情绪轮中surprise（因当前信息违背预期产生的意外、诧异或震惊）的明确定义。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "subtitle",
+        "anchor": "关东军不是已经增兵甲子沟、煤矿了吗？",
+        "observation": "使用“不是已经……了吗”的反问质疑句式，核实既定兵力部署。",
+        "interpretation": "证明说话者面临突发事实落差，表达强烈的认知受挫与意外反诘。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "audio",
+        "anchor": "00:00-00:02",
+        "observation": "全句发音短促敏捷，末尾“煤矿了吗”语调上扬并戛然而止，音质紧绷急切。",
+        "interpretation": "质问与错愕的语调直观反映出被意外信息冲击时的即时惊疑，而非沉闷低语。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "visual",
+        "anchor": "frame_00至frame_07 (0.00s-2.64s)",
+        "observation": "人物在镜片后眼睛睁大，眉毛上挑，嘴唇微张，表情定格在听到惊人事实的错愕状态。",
+        "interpretation": "与声音中的上扬惊问完全吻合，印证其情绪处于违背预期的震惊与诧异中。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "矿区可能生变的战局确实潜藏着负面后果与风险，可能衍生担忧（worried）；但在听闻消息的第1秒，人物言语和表情处于第一时间的意外惊愕反应，尚未转向对后续局势的忧思。"
+  },
+  "usage": {
+    "completion_tokens": 1801,
+    "total_tokens": 14364,
+    "prompt_tokens": 12563,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1073
+    }
+  },
+  "seconds": 20.779181480407715
+}

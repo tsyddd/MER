@@ -1,0 +1,39 @@
+{
+  "output": {
+    "expert": "audio_subtitle",
+    "changed": true,
+    "response_to_others": "核验真实音轨发现，图像与图谱专家对发音伴随笑意的定性完全属实：00:00-00:02目标人物念出‘向中央交代’时带有轻快的笑腔（laugh-talk），尾音呼气是典型的失笑调侃而非病态叹息；画面frame_00-frame_04的AU6与AU12肌肉运动自然舒展，此前将瘫靠误判为虚脱衰竭确属偏误，对方对轻松戏谑的论证成立并足以改变结论。",
+    "reason": "目标人物在片段中身体舒适地斜倚在沙发上，状态极其放松自如。从音频细致分析，00:00-00:02目标人物吐字轻快松弛，在说出‘向中央交代’时伴有清晰的带笑发音与气流轻笑，语调无任何沉重、压抑或悲痛成分；结合画面frame_00至frame_04，其面部双眼微眯、嘴角明显上扬并展露笑意，展现出显著的戏谑、调侃与愉悦神态，整体呈现为积极轻松的互动表现。",
+    "open_emotion": "调侃戏谑",
+    "answer": "happy",
+    "mapping_reason": "目标人物展现出明确的带笑发声与放松调侃神态，反映出当下愉悦、自若的正向情绪体验，符合情绪轮中happy家族关于轻松、愉悦与戏谑的定义。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "audio",
+        "anchor": "00:00-00:02",
+        "observation": "目标人物在说‘向中央交代’时语速松弛、音色明朗，句尾伴随轻微自然的嗤笑呼气声（chuckle）。",
+        "interpretation": "声学表现具备典型的带笑言语特征，体现其非严肃汇报而是处于自如调侃的愉悦交流状态。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_00至frame_04（0.0s-1.72s）",
+        "observation": "人物斜靠在黑色沙发上，面带笑容，嘴角上扬露齿，眼角伴有舒展笑纹，肢体姿态极其舒展惬意。",
+        "interpretation": "视觉上AU6与AU12动作特征明显，与听觉层面的笑腔相互印证，确认为轻松愉快的真性表达。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "台词提及‘交代’在语境中可能指向严肃事件或自嘲，但其音画表现没有任何焦躁、戒备或低落，调侃愉悦的情感主导了整个表达。"
+  },
+  "usage": {
+    "completion_tokens": 2112,
+    "total_tokens": 14831,
+    "prompt_tokens": 12719,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1406
+    }
+  },
+  "seconds": 25.99919033050537
+}

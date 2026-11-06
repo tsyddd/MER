@@ -1,0 +1,47 @@
+{
+  "output": {
+    "expert": "image",
+    "changed": false,
+    "response_to_others": "核实图谱专家对frame_03及音频的引用：Rachel确实表现出焦虑与语调尖锐，但其面部是眉头聚拢上挑、嘴角明显下撇的典型痛哭面容（distress/crying face），声音更是充满呜咽抽泣的哭腔，并非面对危险威胁的惊恐睁眼与后撤退缩，按准则'担忧、紧张不等于fear'，归为fear缺乏威胁/畏惧支撑；核实音频字幕专家对哭腔与悲苦神态的分析，两者高度吻合原始媒体事实，有力支持sadness。",
+    "reason": "目标人物Rachel怀抱啼哭婴儿，视觉上在frame_02至frame_04呈现极其清晰的悲伤/痛苦面容（内侧眉毛上抬聚拢、嘴角明显向下牵拉呈哭相），并伴随绝望摇头的微屈姿态；结合音轨中极具标志性的哽咽抽泣哭腔与'it won't stop crying'的哀叹，充分证明其处于被长时间困境击垮、极度无助且濒临痛哭的沮丧绝望状态，而非针对危险后果的恐惧，也不是带有攻击性的愤怒。",
+    "open_emotion": "沮丧无助",
+    "answer": "sadness",
+    "mapping_reason": "面对持续无法解决的困境而产生的极度无助、心力交瘁与崩溃哭态（distress/dejected），符合本情绪轮中因承受痛苦与无力感而陷入难过与低落的sadness家族。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "visual",
+        "anchor": "frame_02至frame_04 (1.46s-2.21s)",
+        "observation": "Rachel眉头内角明显上聚上挑，嘴角下拉并张开嘴巴，呈现出痛苦抽噎的快要哭出来的神情。",
+        "interpretation": "面部动作单元完全符合悲伤痛苦（distress/sadness）的典型表现，直观体现其心理防线的瓦解与绝望。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_01 (0.75s)",
+        "observation": "Rachel单手抬至颈后挠抓，眉心深锁，眼神充满无力与疲惫。",
+        "interpretation": "反映出沉重的心理负荷与束手无策的困顿感。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "audio",
+        "anchor": "00:01-00:05",
+        "observation": "Rachel语调剧烈颤抖，伴有高频呜咽与断续的哭腔换气，尾音几近哽咽啼哭。",
+        "interpretation": "听觉事实印证了面部表现出的悲伤崩溃实质，排除了单纯的恐慌或暴怒。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "台词发语词'Oh come on'以及音调偏高可能看似烦躁或焦虑（甚至被误认为fear或anger），但其主导特征是哭容与抽泣哭腔，缺乏攻击对抗或威胁惊恐证据。"
+  },
+  "usage": {
+    "completion_tokens": 1135,
+    "total_tokens": 13974,
+    "prompt_tokens": 12839,
+    "completion_tokens_details": {
+      "reasoning_tokens": 447
+    }
+  },
+  "seconds": 15.518599510192871
+}

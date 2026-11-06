@@ -1,0 +1,39 @@
+{
+  "output": {
+    "expert": "audio_subtitle",
+    "changed": true,
+    "response_to_others": "对图谱专家：完全认同其对言语行为性质的界定，Joey的话语本质是举例类比以提供脱敏建议，之前的判断混淆了逻辑论述的重音强调与人际攻击性对抗。对图像专家：认同其对非语言线索的观察，前指动作与专注神情实为配合论点输出的说理手势（illustrator），而非怒气冲冲的身体对抗。",
+    "reason": "复核言语行为与韵律特征后确认，Joey所说的句子属于典型的因果类比与劝告（以‘恐高就去楼顶’为例），目的在于说理与给出方案。音轨中的音量提高与句末落重音属于传递明确观点的论辩重音（emphatic stress），旨在加强说服力，而非因受阻或冒犯产生的愤怒发泄；结合其平稳专注的姿态，整体属于日常就事论事的交流范畴。",
+    "open_emotion": "笃定说理",
+    "answer": "neutral",
+    "mapping_reason": "Joey在当前片段中专注于提出建议与阐述观点，语气笃定明确，不具备对人际对象的敌对、责备或受挫攻击性，符合情绪轮中neutral（平常、平稳论理且无强烈情绪主导）的定义。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "subtitle",
+        "anchor": "It have a fear of heights, you go to the top of the building!",
+        "observation": "当前句子采用假设条件与行动推论的句式（If you have a fear of heights, you go to the top of the building!），提供直面恐惧的建议。",
+        "interpretation": "言语意图是举例与说服，属于日常探讨和论点陈述，缺乏愤怒指向的受害者受阻感或敌意谴责。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "audio",
+        "anchor": "0:01-0:02.8",
+        "observation": "后半句声调上扬并伴随重读，但音色连贯饱满、节奏规律，无愤怒嘶吼、咬字紧绷或失控破音。",
+        "interpretation": "高音与重读完全服务于论据的强调，是表达笃定与明确观点的韵律标记，支持其处于非情绪化的论理状态。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "语句后半段声调显著拔高且带有强烈的提示性重音，若脱离说理语境易被误判为激昂愤慨（anger），但结合其建议性质和缺乏敌对词汇的语言事实，不构成真正的愤怒。"
+  },
+  "usage": {
+    "completion_tokens": 1423,
+    "total_tokens": 5000,
+    "prompt_tokens": 3577,
+    "completion_tokens_details": {
+      "reasoning_tokens": 744
+    }
+  },
+  "seconds": 15.321084022521973
+}

@@ -1,0 +1,44 @@
+{
+  "output": {
+    "expert": "audio_subtitle",
+    "reason": "字幕“他，是谁呀？”是在询问身份，并未直接表达害怕或意外。[E1] 画面中，她从frame_00到frame_07持续皱眉、紧绷地望向右侧；结合身份未明的提问，我判断她当前更接近对未知情况感到不安，而非平静询问。[E2]",
+    "open_emotion": "不安",
+    "answer": "worried",
+    "mapping_reason": "这里的“不安”指面对身份未知者时表现出的顾虑，按情绪轮映射为worried。但字幕没有说出具体风险，因此这一判断有局限，不能把疑问句本身当作担忧的证明。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "subtitle",
+        "anchor": "当前字幕“他，是谁呀？”",
+        "observation": "目标人物询问一名男性的身份。",
+        "interpretation": "她正在确认未知信息；这句问话本身不足以区分担忧与惊讶。",
+        "polarity": "uncertain"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_00（0.0秒）至frame_07（0.8秒）",
+        "observation": "她持续望向画面右侧，眉头收紧，面部紧绷，嘴部随发问而张开。",
+        "interpretation": "持续的紧绷神态与对未知情况的不安相符；仅凭张口和注视，不能认定发生了瞬时意外。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "最强替代解释是surprise：她可能因某人的出现而诧异。但现有字幕只说明身份未知，八帧也未显示可辨认的突发表情变化或预期被打破的事实。没有提供音轨，无法核实语调；画面同样不能确定她担心的具体后果。",
+    "changed": false,
+    "response_to_others": "图谱专家引用的皱眉、右视及身份问句，我在八帧和字幕中均能核实；但这些是同一组视觉与字幕证据，不足以进一步证实“出乎预期”，且未提供图谱，无法核实其节点或音频转述。图像专家指出的持续紧绷及张口也与画面相符；张口可能支持惊讶，但未见明确的瞬时冲击，因此我保留worried判断。"
+  },
+  "usage": {
+    "completion_tokens": 668,
+    "total_tokens": 5908,
+    "prompt_tokens": 5240,
+    "prompt_tokens_details": {
+      "cached_tokens": 2304,
+      "cache_write_tokens": 0,
+      "cached_creation_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 56
+    }
+  },
+  "seconds": 19.855657815933228
+}

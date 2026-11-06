@@ -1,0 +1,1075 @@
+{
+ "checked_on": "2026-11-03",
+ "method": "venue list pages (openaccess.thecvf.com, icml.cc/virtual, neurips.cc/virtual) -> title filter -> abstracts -> code links from venue page / arXiv PDF / CVPR PDF -> gh api read-only check",
+ "list_sizes": {
+  "CVPR 2026": 4042,
+  "ICML 2026": 6628,
+  "NeurIPS 2026": 9130
+ },
+ "title_candidates": 658,
+ "abstracts_read": 40,
+ "repos": {
+  "icml.social-dynamics": {
+   "slug": "nokpil/socialLLM",
+   "ok": true,
+   "stars": 0,
+   "forks": 0,
+   "pushed": "2026-05-27",
+   "created": "2026-03-27",
+   "license": "MIT",
+   "archived": false,
+   "fork": false,
+   "size_kb": 9284,
+   "desc": "Open codebase for socialLLM.",
+   "n_files": 12,
+   "n_code_files": 3,
+   "truncated": false,
+   "top": [
+    "Fig1.png",
+    "FigR1.png",
+    "FigR2.png",
+    "FigR3.png",
+    "FigR4.png",
+    "LICENSE",
+    "README.md",
+    "socialLLM.ipynb",
+    "socialLLM_ConceptARC.py",
+    "socialLLM_figure.ipynb",
+    "table1.png",
+    "table2.png"
+   ],
+   "readme_len": 654,
+   "readme_head": "# Beyond Correctness: Distance-Based Social Dynamics of Multi-Agent Debate (ICML 2026) ![Fig1](Fig1.png) Open codebase for the paper \"Beyond Correctness: Distance-Based Social Dynamics of Multi-Agent Debate\" (accepted in ICML 2026, regular paper at the main ",
+   "readme_mentions_venue": false
+  },
+  "icml.sr-ttrl": {
+   "slug": "JIA-Lab-research/SR-TTRL",
+   "ok": false,
+   "err": "gh: Not Found (HTTP 404)"
+  },
+  "icml.care": {
+   "slug": "qwq123-study/CARE",
+   "ok": true,
+   "stars": 2,
+   "forks": 0,
+   "pushed": "2026-05-22",
+   "created": "2025-05-06",
+   "license": null,
+   "archived": false,
+   "fork": false,
+   "size_kb": 1551,
+   "desc": null,
+   "n_files": 97,
+   "n_code_files": 29,
+   "truncated": false,
+   "top": [
+    "README.md",
+    "clip",
+    "configs",
+    "datasets",
+    "main.py",
+    "models",
+    "requirements.txt",
+    "trainer.py",
+    "utils"
+   ],
+   "readme_len": 4638,
+   "readme_head": "# CARE: Class-Adaptive Expert Consensus for Reliable Learning with Long-Tailed Noisy Labels This is the source code for the paper: [CARE: Class-Adaptive Expert Consensus for Reliable Learning with Long-Tailed Noisy Labels][https://icml.cc/virtual/2026/poste",
+   "readme_mentions_venue": false
+  },
+  "icml.hiddenbench": {
+   "slug": "Yassellee/HiddenBench_ICML",
+   "ok": true,
+   "stars": 8,
+   "forks": 0,
+   "pushed": "2026-05-06",
+   "created": "2026-05-06",
+   "license": "MIT",
+   "archived": false,
+   "fork": false,
+   "size_kb": 332,
+   "desc": null,
+   "n_files": 51,
+   "n_code_files": 14,
+   "truncated": false,
+   "top": [
+    ".github",
+    ".gitignore",
+    "CITATION.cff",
+    "LICENSE",
+    "README.md",
+    "assets",
+    "data",
+    "docs",
+    "examples",
+    "prompts",
+    "pyproject.toml",
+    "results",
+    "runs",
+    "scripts"
+   ],
+   "readme_len": 7359,
+   "readme_head": "# HiddenBench **HiddenBench** is a benchmark and evaluation toolkit for testing whether multi-agent LLM systems can solve group decisions when critical information is distributed across agents. The benchmark accompanies the ICML 2026 paper **Systematic Failu",
+   "readme_mentions_venue": false
+  },
+  "icml.mas-prove": {
+   "slug": "Wang-ML-Lab/MAS-ProVe",
+   "ok": true,
+   "stars": 4,
+   "forks": 0,
+   "pushed": "2026-07-22",
+   "created": "2026-02-03",
+   "license": null,
+   "archived": false,
+   "fork": false,
+   "size_kb": 18424,
+   "desc": "[ICML 2026] Multi-Agent System Process Verification (MAS-ProVe)",
+   "n_files": 620,
+   "n_code_files": 520,
+   "truncated": false,
+   "top": [
+    ".gitignore",
+    "README.md",
+    "assets",
+    "mas",
+    "requirements.txt",
+    "setup.py",
+    "src"
+   ],
+   "readme_len": 7429,
+   "readme_head": "# Library of Multi-Agent Systems Process Verification (MAS-ProVe) [![Architecture Diagram](./assets/mas-ProVe.png)](./assets/mas-proVe.pdf) > **Accepted at the Forty-Third International Conference on Machine Learning (ICML 2026)** This repo contains the code",
+   "readme_mentions_venue": false
+  },
+  "icml.epc-aw": {
+   "slug": "wzhSteve/EPC-AW",
+   "ok": true,
+   "stars": 9,
+   "forks": 0,
+   "pushed": "2026-05-17",
+   "created": "2026-05-02",
+   "license": null,
+   "archived": false,
+   "fork": false,
+   "size_kb": 942,
+   "desc": "[ICML 2026] When Planning Fails Despite Correct Execution: On Epistemic Calibration for LLM-Based Multi-Agent Systems",
+   "n_files": 101,
+   "n_code_files": 51,
+   "truncated": false,
+   "top": [
+    "MAS",
+    "README.md",
+    "data",
+    "inference.py",
+    "inference_log.py",
+    "pyproject.toml",
+    "quick_start.py",
+    "setup.sh",
+    "test",
+    "uv.lock"
+   ],
+   "readme_len": 1865,
+   "readme_head": "# When Planning Fails Despite Correct Execution: On Epistemic Calibration for LLM-Based Multi-Agent Systems ICML2026 This repository contains the official implementation of **EPC-AW**, a repair framework for epistemic miscalibration in the planning phase of ",
+   "readme_mentions_venue": false
+  },
+  "icml.l2-vmas": {
+   "slug": "YU-deep/L2-VMAS",
+   "ok": false,
+   "err": "gh: Not Found (HTTP 404)"
+  },
+  "nips.when-debate-helps": {
+   "slug": "Wang-ML-Lab/when-debate-helps",
+   "ok": true,
+   "stars": 2,
+   "forks": 0,
+   "pushed": "2026-10-08",
+   "created": "2026-09-27",
+   "license": "Apache-2.0",
+   "archived": false,
+   "fork": false,
+   "size_kb": 653,
+   "desc": "[NeurIPS 2026] Official code for \"When Debate Helps: Proposal Supply and Verification-Aware Readout in Multi-Agent Reasoning\"",
+   "n_files": 39,
+   "n_code_files": 25,
+   "truncated": false,
+   "top": [
+    ".github",
+    ".gitignore",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "README.md",
+    "THIRD_PARTY.md",
+    "assets",
+    "configs",
+    "docs",
+    "examples",
+    "pyproject.toml",
+    "scripts",
+    "src",
+    "tests"
+   ],
+   "readme_len": 6787,
+   "readme_head": "# [NeurIPS 2026] When Debate Helps: Proposal Supply and Verification-Aware Readout in Multi-Agent Reasoning --- This repo contains the code for our NeurIPS 2026 paper: **When Debate Helps: Proposal Supply and Verification-Aware Readout in Multi-Agent Reason",
+   "readme_mentions_venue": false
+  },
+  "nips.syaudio": {
+   "slug": "YokyYao/SYAUDIO",
+   "ok": true,
+   "stars": 1,
+   "forks": 0,
+   "pushed": "2026-10-06",
+   "created": "2025-12-21",
+   "license": "MIT",
+   "archived": false,
+   "fork": false,
+   "size_kb": 152669,
+   "desc": "[NeurIPS 2026] Hearing is Believing? Evaluating and Analyzing Audio Language Model Sycophancy with SYAUDIO",
+   "n_files": 34,
+   "n_code_files": 15,
+   "truncated": false,
+   "top": [
+    ".env.example",
+    ".gitattributes",
+    "LICENSE",
+    "README.md",
+    "assets",
+    "audio_samples",
+    "benchmark",
+    "code",
+    "docs",
+    "requirements.txt",
+    "scripts"
+   ],
+   "readme_len": 10116,
+   "readme_head": " <h2 align=\"center\">Hearing is Believing? Evaluating and Analyzing Audio Language Model Sycophancy with SYAUDIO</h2> <p align=\"center\"><strong>NeurIPS 2026 · Main Poster</strong></p> <p align=\"center\"> Junchi Yao<sup>1</sup> &nbsp;&nbsp; Lokranjan Lakshm",
+   "readme_mentions_venue": false
+  },
+  "nips.smart-med": {
+   "slug": "JayceonHo/SMART-Med",
+   "ok": true,
+   "stars": 1,
+   "forks": 0,
+   "pushed": "2026-10-27",
+   "created": "2026-10-25",
+   "license": null,
+   "archived": false,
+   "fork": false,
+   "size_kb": 2028,
+   "desc": "[NeurIPS 26] Learning When to Collaborate: Selective Multi-Agent Medical Reasoning via Uncertainty-Aware Routing",
+   "n_files": 18,
+   "n_code_files": 10,
+   "truncated": false,
+   "top": [
+    ".gitignore",
+    "README.md",
+    "assets",
+    "requirements.txt",
+    "scripts",
+    "src"
+   ],
+   "readme_len": 7757,
+   "readme_head": "<h2 align=\"center\">SMART-Med</h2> <div align=\"center\"> 🌐 [Project Page](https://github.com/JayceonHo/SMART-Med) | 🎨 [Dataset](https://huggingface.co/datasets/JayceonHo/MedVR-3K) | 📄 [Paper](https://arxiv.org/abs/2610.33544) </div> <p align=\"center\"> <im",
+   "readme_mentions_venue": false
+  },
+  "nips.affectgpt-rl": {
+   "slug": "zeroQiaoba/AffectGPT",
+   "ok": true,
+   "stars": 436,
+   "forks": 39,
+   "pushed": "2026-10-13",
+   "created": "2023-06-27",
+   "license": null,
+   "archived": false,
+   "fork": false,
+   "size_kb": 42987,
+   "desc": "EMER, OV-MER (ICML25), AffectGPT (ICML25, Oral), EmoPrefer (ICLR26), AffectGPT-RL (NeurIPS26)",
+   "n_files": 1254,
+   "n_code_files": 852,
+   "truncated": false,
+   "top": [
+    "AffectGPT",
+    "AffectGPT-RL",
+    "EmoPrefer",
+    "OV-MER",
+    "README.md"
+   ],
+   "readme_len": 7149,
+   "readme_head": "<h3 align=\"center\"><a href=\"https://openreview.net/pdf?id=Y8lfuSoqQz\" style=\"color:#9C276A\"> OV-MER &</a><a href=\"https://openreview.net/pdf?id=xmbdACI0xu\" style=\"color:#9C276A\"> AffectGPT &</a><a href=\"https://arxiv.org/pdf/2507.04278\" style=\"color:#9C276A\"> ",
+   "readme_mentions_venue": false
+  },
+  "icml.biased-consensus": {
+   "slug": "MichiganNLP/MultiAgent_ImplicitBias",
+   "ok": true,
+   "stars": 5,
+   "forks": 2,
+   "pushed": "2024-10-05",
+   "created": "2024-10-03",
+   "license": null,
+   "archived": false,
+   "fork": false,
+   "size_kb": 210,
+   "desc": null,
+   "n_files": 13,
+   "n_code_files": 6,
+   "truncated": false,
+   "top": [
+    "Code",
+    "Data",
+    "README.md"
+   ],
+   "readme_len": 2592,
+   "readme_head": "# Towards Implicit Bias Detection and Mitigation in Multi-Agent LLM Interactions Current LLMs use RLHF to reduce explicit bias in their outputs. But do they also address *implicit* bias? In our *EMNLP 2024 (Findings)* [paper](https://arxiv.org/pdf/2410.0258",
+   "readme_mentions_venue": true
+  },
+  "nips.debateledger": {
+   "slug": "LiXin97/DebateLedger",
+   "ok": true,
+   "stars": 0,
+   "forks": 0,
+   "pushed": "2026-10-30",
+   "created": "2026-09-28",
+   "license": "MIT",
+   "archived": false,
+   "fork": false,
+   "size_kb": 2518,
+   "desc": "[NeurIPS 2026 E&D] Official repository for \"Measuring Collapse and Correction in Homogeneous-Panel LLM Debate\"",
+   "n_files": 226,
+   "n_code_files": 89,
+   "truncated": false,
+   "top": [
+    ".gitignore",
+    "LICENSE",
+    "README.md",
+    "README_REPRO.md",
+    "abc_exp",
+    "croissant.json",
+    "docs",
+    "requirements-artifact.txt"
+   ],
+   "readme_len": 6370,
+   "readme_head": "<div align=\"center\"> # DebateLedger ### Measuring Collapse and Correction in Homogeneous-Panel LLM Debate *NeurIPS 2026, Evaluations and Datasets Track* Xin Li\\*, Mengbing Liu\\*, Chau Yuen<br> Nanyang Technological University · \\*Equal contribution [![arX",
+   "readme_mentions_venue": false
+  },
+  "nips.latentdebate": {
+   "slug": "XiangYin2021/LatentDebate",
+   "ok": true,
+   "stars": 1,
+   "forks": 1,
+   "pushed": "2026-10-30",
+   "created": "2026-10-30",
+   "license": "MIT",
+   "archived": false,
+   "fork": false,
+   "size_kb": 88212,
+   "desc": "Reproducible code and data for Latent Debate, a framework for LLM consistency evaluation and hallucination detection.",
+   "n_files": 169,
+   "n_code_files": 24,
+   "truncated": false,
+   "top": [
+    ".gitattributes",
+    ".gitignore",
+    "LICENSE",
+    "README.md",
+    "appendix_A1_A2_A4_A6",
+    "appendix_A3_gpu",
+    "appendix_A5",
+    "data",
+    "latent_debate_reproducibility_release",
+    "requirements.txt",
+    "run_all.py",
+    "table1",
+    "table2",
+    "table3_table4"
+   ],
+   "readme_len": 1904,
+   "readme_head": "# Latent Debate Reproducibility Code This release contains the code and cached model outputs used to reproduce the paper tables. Identical caches are stored once under `data/` and shared by all table runners. Every CPU runner verifies input SHA-256 fingerprin",
+   "readme_mentions_venue": false
+  },
+  "nips.sauce": {
+   "slug": "Tyrion58/SAUCE",
+   "ok": true,
+   "stars": 6,
+   "forks": 1,
+   "pushed": "2026-10-08",
+   "created": "2026-10-06",
+   "license": "MIT",
+   "archived": false,
+   "fork": false,
+   "size_kb": 437,
+   "desc": "[NeurIPS 2026] Sequential Probabilistic Uncertainty Estimation for Parallel Multi-Agent Reasoning Systems",
+   "n_files": 33,
+   "n_code_files": 10,
+   "truncated": false,
+   "top": [
+    ".gitignore",
+    "CITATION.cff",
+    "LICENSE",
+    "README.md",
+    "assets",
+    "datasets",
+    "examples",
+    "pyproject.toml",
+    "src",
+    "tests"
+   ],
+   "readme_len": 13530,
+   "readme_head": "<h1 align=\"center\"> <img src=\"assets/sauce_banner.svg\" width=\"900\" alt=\"SAUCE\"> </h1> <h2 align=\"center\">Accepted at NeurIPS 2026</h2> <p align=\"center\"> <strong>🧭 Sequential Agent Uncertainty through Consensus Evolution</strong> </p> <h2 align=\"center\"",
+   "readme_mentions_venue": false
+  },
+  "nips.umas": {
+   "slug": "Dby52-04/UMAS",
+   "ok": true,
+   "stars": 0,
+   "forks": 0,
+   "pushed": "2026-10-09",
+   "created": "2026-10-03",
+   "license": "MIT",
+   "archived": false,
+   "fork": false,
+   "size_kb": 4786,
+   "desc": null,
+   "n_files": 7,
+   "n_code_files": 2,
+   "truncated": false,
+   "top": [
+    "LICENSE",
+    "README.md",
+    "assets",
+    "data",
+    "requirements.txt",
+    "src"
+   ],
+   "readme_len": 1871,
+   "readme_head": "# UMAS: System-Level Uncertainty Quantification for Multi-Agent LLM Systems (NeurIPS 2026) Hanwen Li, Jinhao Duan, Xiaoshuang Shi, Yue Zhang, Tianlong Chen, Kaidi Xu, Chenxi Yuan This is the official implementation of the NeurIPS 2026 paper [*UMAS: System-Le",
+   "readme_mentions_venue": false
+  },
+  "icml.oppo": {
+   "slug": "ZhiyuanHan-Aaron/OPPO",
+   "ok": true,
+   "stars": 15,
+   "forks": 0,
+   "pushed": "2026-07-16",
+   "created": "2026-07-16",
+   "license": "Apache-2.0",
+   "archived": false,
+   "fork": false,
+   "size_kb": 18724,
+   "desc": "Official implementation of OPPO (ICML 2026)",
+   "n_files": 75,
+   "n_code_files": 48,
+   "truncated": false,
+   "top": [
+    ".gitattributes",
+    ".gitignore",
+    "LICENSE",
+    "README.md",
+    "affect_r1",
+    "requirements.txt",
+    "src",
+    "tools"
+   ],
+   "readme_len": 4816,
+   "readme_head": "# Omni-Perception Policy Optimization for Multimodal Emotion Reasoning <div align=\"center\"> [![arXiv](https://img.shields.io/badge/arXiv-2606.25325-b31b1b.svg)](https://arxiv.org/abs/2606.25325) [![Conference](https://img.shields.io/badge/ICML-2026-blue)](ht",
+   "readme_mentions_venue": false
+  },
+  "nips.carebench": {
+   "slug": "ZhaoyueSun/CAREBench",
+   "ok": true,
+   "stars": 4,
+   "forks": 0,
+   "pushed": "2026-10-28",
+   "created": "2026-05-11",
+   "license": "MIT",
+   "archived": false,
+   "fork": false,
+   "size_kb": 543,
+   "desc": "Experimental code for the CAREBench paper ",
+   "n_files": 60,
+   "n_code_files": 29,
+   "truncated": false,
+   "top": [
+    ".gitignore",
+    "LICENSE",
+    "README.md",
+    "figures",
+    "llama2.jinja",
+    "requirements.txt",
+    "scripts",
+    "vis"
+   ],
+   "readme_len": 14940,
+   "readme_head": "# CAREBench **CAREBench: Evaluating LLMs' Emotion Understanding by Assessing Cognitive Appraisal Reasoning** This repository provides the data-preparation, inference, evaluation, and visualization code for reproducing the experiments reported in the paper. I",
+   "readme_mentions_venue": false
+  },
+  "cvpr.emo-r3": {
+   "slug": "xiaomi-research/emo-r3",
+   "ok": false,
+   "err": "gh: Not Found (HTTP 404)"
+  },
+  "cvpr.nano-emox": {
+   "slug": "waHAHJIAHAO/Nano-EmoX",
+   "ok": true,
+   "stars": 60,
+   "forks": 3,
+   "pushed": "2026-09-21",
+   "created": "2026-03-10",
+   "license": "MIT",
+   "archived": false,
+   "fork": false,
+   "size_kb": 15016,
+   "desc": "[CVPR 2026] The official implementation of Nano-EmoX",
+   "n_files": 137,
+   "n_code_files": 87,
+   "truncated": false,
+   "top": [
+    ".gitignore",
+    "LICENSE",
+    "README.md",
+    "__init__.py",
+    "assets",
+    "common",
+    "config.py",
+    "configs",
+    "conversation",
+    "data",
+    "datasets",
+    "emotion_extractor_service.py",
+    "emotion_wheel",
+    "environment.yml"
+   ],
+   "readme_len": 8928,
+   "readme_head": "<div align=\"center\"> <h2>[CVPR 2026] Nano-EmoX: Unifying Multimodal Emotional Intelligence from Perception to Empathy</h2> <a href=\"https://arxiv.org/pdf/2603.02123\"> <img src='https://img.shields.io/badge/Paper-Arxiv-orange' alt='Paper PDF'></a> <a href=\"ht",
+   "readme_mentions_venue": true
+  },
+  "icml.biased-consensus2": {
+   "slug": "phys-ai/llm-biased-consensus",
+   "ok": true,
+   "stars": 2,
+   "forks": 1,
+   "pushed": "2026-08-03",
+   "created": "2026-08-03",
+   "license": null,
+   "archived": false,
+   "fork": false,
+   "size_kb": 92,
+   "desc": "Code for Emergence of Biased Consensus in Multi-Agent LLM Debates (ICML 2026)",
+   "n_files": 30,
+   "n_code_files": 20,
+   "truncated": false,
+   "top": [
+    ".github",
+    ".gitignore",
+    "README.md",
+    "analysis",
+    "biased_consensus",
+    "data",
+    "experiments",
+    "pyproject.toml",
+    "scripts",
+    "tests"
+   ],
+   "readme_len": 5239,
+   "readme_head": "# Emergence of Biased Consensus in Multi-Agent LLM Debates Official code for the ICML 2026 paper **“Emergence of Biased Consensus in Multi-Agent LLM Debates.”** This repository contains the multi-agent debate experiments, finite-population simulations, fitti",
+   "readme_mentions_venue": false
+  },
+  "icml.umad": {
+   "slug": "qiaodan-cuhk/UMAD",
+   "ok": true,
+   "stars": 0,
+   "forks": 0,
+   "pushed": "2026-07-26",
+   "created": "2026-05-22",
+   "license": "Apache-2.0",
+   "archived": false,
+   "fork": false,
+   "size_kb": 716,
+   "desc": "Code release for Epistemic Gain, Aleatoric Cost: Uncertainty Decomposition in Multi-Agent Debate for Math Reasoning.",
+   "n_files": 293,
+   "n_code_files": 255,
+   "truncated": false,
+   "top": [
+    ".gitignore",
+    ".pre-commit-config.yaml",
+    ".readthedocs.yaml",
+    "CITATION.cff",
+    "CODE_STRUCTURE.md",
+    "LICENSE",
+    "NLL_BRANCH_COMPATIBILITY_REVIEW.md",
+    "NOTICE",
+    "README.md",
+    "VERL_CUSTOM_CHANGES.md",
+    "VERL_DIFF_AUDIT.md",
+    "bash",
+    "docker",
+    "download_model.sh"
+   ],
+   "readme_len": 12319,
+   "readme_head": "![MAVERL collaborators logo](logo1.png) # MAVERL **MAVERL** is a multi-agent reinforcement learning training codebase for language-model debate and collaborative reasoning. It is built on top of a vendored `verl` runtime and focuses on the UMAD/IPPO training",
+   "readme_mentions_venue": false
+  },
+  "icml.teams-experts": {
+   "slug": "apappu97/multi-agent-teams-hold-experts-back",
+   "ok": true,
+   "stars": 5,
+   "forks": 0,
+   "pushed": "2026-05-28",
+   "created": "2026-02-09",
+   "license": "MIT",
+   "archived": false,
+   "fork": false,
+   "size_kb": 140,
+   "desc": "Codebase for 'Multi-Agent Teams Hold Experts Back' (arXiv:2602.01011) - A toolkit for multi-agent LLM teamwork experiments",
+   "n_files": 58,
+   "n_code_files": 44,
+   "truncated": false,
+   "top": [
+    ".env.example",
+    ".gitignore",
+    "LICENSE",
+    "Makefile",
+    "README.md",
+    "experiments",
+    "pyproject.toml",
+    "teamwork",
+    "tests"
+   ],
+   "readme_len": 10326,
+   "readme_head": "# Teamwork A harness for multi-agent LLM teamwork experiments. This is the official codebase for **\"Multi-Agent Teams Hold Experts Back\"**. We find that LLM teams systematically fail to leverage expertise, underperforming their best member by 6-41% even when",
+   "readme_mentions_venue": false
+  },
+  "nips.mas-sas": {
+   "slug": "divelab/MAS-SAS",
+   "ok": true,
+   "stars": 2,
+   "forks": 1,
+   "pushed": "2026-07-20",
+   "created": "2026-07-10",
+   "license": "MIT",
+   "archived": false,
+   "fork": false,
+   "size_kb": 1427,
+   "desc": null,
+   "n_files": 147,
+   "n_code_files": 60,
+   "truncated": false,
+   "top": [
+    ".gitignore",
+    "LICENSE",
+    "README.md",
+    "__init__.py",
+    "agents",
+    "analysis",
+    "configs",
+    "core",
+    "data",
+    "experiment",
+    "main.py",
+    "pics",
+    "requirements.txt",
+    "setup.py"
+   ],
+   "readme_len": 5845,
+   "readme_head": "# When Do Multi-Agent Systems Help? An Information Bottleneck Perspective <!-- TODO: paper links, fill in once available --> [Paper](https://arxiv.org/pdf/2607.16133) &nbsp; Wendi Yu\\*, Lianhao Zhou\\*, Xiangjue Dong, Sai Sudarshan Barath, Declan Staunton, By",
+   "readme_mentions_venue": false
+  },
+  "cvpr.consensus-entropy": {
+   "slug": "Aslanyulong/consensus-entropy",
+   "ok": false,
+   "err": "404 (paper links it)"
+  }
+ },
+ "papers": [
+  {
+   "venue": "ICML 2026",
+   "title": "Emergence of Biased Consensus in Multi-Agent LLM Debates",
+   "url": "https://icml.cc/virtual/2026/poster/66269",
+   "arxiv": "2608.02827",
+   "page_code_links": [],
+   "hunt_links": [
+    "https://github.com/MichiganNLP/MultiAgent_ImplicitBias",
+    "https://github.com/composable-models/llm_multiagent_debate",
+    "https://github.com/i-Eval/FairEval",
+    "https://github.com/ibtPhilipp/biasedEchoes",
+    "https://github.com/lenaarmstrong/silicon-ceiling"
+   ]
+  },
+  {
+   "venue": "ICML 2026",
+   "title": "The Value of Variance: Mitigating Debate Collapse in Multi-Agent Systems via Uncertainty-Driven Policy Optimization",
+   "url": "https://icml.cc/virtual/2026/poster/65638",
+   "arxiv": "2602.07186",
+   "page_code_links": [],
+   "hunt_links": [
+    "anonymous.4open.science/r/UDPO-5BE2"
+   ]
+  },
+  {
+   "venue": "ICML 2026",
+   "title": "Epistemic Gain, Aleatoric Cost: Uncertainty Decomposition in Multi-Agent Debate for Math Reasoning",
+   "url": "https://icml.cc/virtual/2026/poster/65653",
+   "arxiv": "2603.01221",
+   "page_code_links": [],
+   "hunt_links": [
+    "huggingface.co/datasets/knoveleng"
+   ]
+  },
+  {
+   "venue": "ICML 2026",
+   "title": "Beyond Correctness: Distance-Based Social Dynamics of Multi-Agent Debate",
+   "url": "https://icml.cc/virtual/2026/poster/61651",
+   "arxiv": null,
+   "page_code_links": [
+    "https://github.com/nokpil/socialLLM"
+   ],
+   "hunt_links": []
+  },
+  {
+   "venue": "ICML 2026",
+   "title": "Efficient Multi-Agent Reasoning via Confidence-Guided Adaptive Debate",
+   "url": "https://icml.cc/virtual/2026/poster/60593",
+   "arxiv": "2610.16343",
+   "page_code_links": [],
+   "hunt_links": []
+  },
+  {
+   "venue": "ICML 2026",
+   "title": "A Diagnostic Study of Multi-Agent LLMs for Real-World Debates",
+   "url": "https://icml.cc/virtual/2026/poster/66089",
+   "arxiv": null,
+   "page_code_links": [],
+   "hunt_links": []
+  },
+  {
+   "venue": "ICML 2026",
+   "title": "Beyond Majority Voting: LLM Aggregation by Leveraging Higher-Order Information",
+   "url": "https://icml.cc/virtual/2026/poster/63160",
+   "arxiv": "2510.01499",
+   "page_code_links": [],
+   "hunt_links": []
+  },
+  {
+   "venue": "ICML 2026",
+   "title": "Beyond Majority Voting: Self-Reflective Test-Time Reinforcement Learning for LLM Reasoning",
+   "url": "https://icml.cc/virtual/2026/poster/62036",
+   "arxiv": null,
+   "page_code_links": [
+    "https://github.com/JIA-Lab-research/SR-TTRL."
+   ],
+   "hunt_links": []
+  },
+  {
+   "venue": "ICML 2026",
+   "title": "Who can we trust? LLM-as-a-jury for Comparative Assessment",
+   "url": "https://icml.cc/virtual/2026/poster/64228",
+   "arxiv": "2602.16610",
+   "page_code_links": [],
+   "hunt_links": [
+    "huggingface.co/microsoft/Phi-3"
+   ]
+  },
+  {
+   "venue": "ICML 2026",
+   "title": "CARE: Class-Adaptive Expert Consensus for Reliable Learning with Long-Tailed Noisy Labels",
+   "url": "https://icml.cc/virtual/2026/poster/65515",
+   "arxiv": null,
+   "page_code_links": [
+    "https://github.com/qwq123-study/CARE",
+    "https://github.com/qwq123-study/CARE."
+   ],
+   "hunt_links": []
+  },
+  {
+   "venue": "ICML 2026",
+   "title": "Debate with Images: Detecting Deceptive Behaviors in Multimodal Large Language Models",
+   "url": "https://icml.cc/virtual/2026/poster/63373",
+   "arxiv": "2512.00349",
+   "page_code_links": [],
+   "hunt_links": []
+  },
+  {
+   "venue": "ICML 2026",
+   "title": "Systematic Failures in Collective Reasoning under Distributed Information in Multi-Agent LLMs",
+   "url": "https://icml.cc/virtual/2026/poster/62206",
+   "arxiv": null,
+   "page_code_links": [
+    "https://github.com/Yassellee/HiddenBench_ICML"
+   ],
+   "hunt_links": []
+  },
+  {
+   "venue": "ICML 2026",
+   "title": "Why Specialist Models Still Matter: A Heterogeneous Multi-Agent Paradigm for Medical Artificial Intelligence",
+   "url": "https://icml.cc/virtual/2026/poster/60481",
+   "arxiv": "2605.29744",
+   "page_code_links": [],
+   "hunt_links": []
+  },
+  {
+   "venue": "ICML 2026",
+   "title": "MAS-ProVe: Understanding the Process Verification of Multi-Agent Systems",
+   "url": "https://icml.cc/virtual/2026/poster/63666",
+   "arxiv": null,
+   "page_code_links": [
+    "https://github.com/Wang-ML-Lab/MAS-ProVe"
+   ],
+   "hunt_links": []
+  },
+  {
+   "venue": "ICML 2026",
+   "title": "When Planning Fails Despite Correct Execution: On Epistemic Calibration for LLM-Based Multi-Agent Systems",
+   "url": "https://icml.cc/virtual/2026/poster/65821",
+   "arxiv": null,
+   "page_code_links": [
+    "https://github.com/wzhSteve/EPC-AW"
+   ],
+   "hunt_links": []
+  },
+  {
+   "venue": "ICML 2026",
+   "title": "Dual Latent Memory for Visual Multi-agent System",
+   "url": "https://icml.cc/virtual/2026/poster/63256",
+   "arxiv": null,
+   "page_code_links": [
+    "https://github.com/YU-deep/L2-VMAS"
+   ],
+   "hunt_links": []
+  },
+  {
+   "venue": "NeurIPS 2026",
+   "title": "AIM: Adaptive Interaction in Multi-Agent Debate for Multimodal LLM Inference",
+   "url": "https://neurips.cc/virtual/2026/poster/152673",
+   "arxiv": null,
+   "page_code_links": [],
+   "hunt_links": []
+  },
+  {
+   "venue": "NeurIPS 2026",
+   "title": "When Debate Helps: Proposal Supply and Verification-Aware Readout in Multi-Agent Reasoning",
+   "url": "https://neurips.cc/virtual/2026/poster/154779",
+   "arxiv": null,
+   "page_code_links": [
+    "https://github.com/Wang-ML-Lab/when-debate-helps"
+   ],
+   "hunt_links": []
+  },
+  {
+   "venue": "NeurIPS 2026",
+   "title": "Measuring Collapse and Correction in Homogeneous-Panel LLM Debate",
+   "url": "https://neurips.cc/virtual/2026/poster/139635",
+   "arxiv": "2609.35279",
+   "page_code_links": [],
+   "hunt_links": [
+    "https://github.com/LiXin97/DebateLedger"
+   ]
+  },
+  {
+   "venue": "NeurIPS 2026",
+   "title": "Group Perspective Matters: Regulating Debate Relationships Can Mitigate Blind Conformity in Multi-Agent Debate",
+   "url": "https://neurips.cc/virtual/2026/poster/154678",
+   "arxiv": "2608.03648",
+   "page_code_links": [],
+   "hunt_links": []
+  },
+  {
+   "venue": "NeurIPS 2026",
+   "title": "Humans Correct Their Judgements Through Debate, but Weaker AI Models Not",
+   "url": "https://neurips.cc/virtual/2026/poster/154000",
+   "arxiv": null,
+   "page_code_links": [],
+   "hunt_links": []
+  },
+  {
+   "venue": "NeurIPS 2026",
+   "title": "When and Why Does Multi-Agent Debate Fail and Does It Really Underperform?",
+   "url": "https://neurips.cc/virtual/2026/poster/153203",
+   "arxiv": "2510.20963",
+   "page_code_links": [],
+   "hunt_links": []
+  },
+  {
+   "venue": "NeurIPS 2026",
+   "title": "Latent Debate: A Surrogate Framework for Interpreting LLM Thinking towards Binary Decisions",
+   "url": "https://neurips.cc/virtual/2026/poster/149328",
+   "arxiv": "2512.01909",
+   "page_code_links": [],
+   "hunt_links": [
+    "https://github.com/XiangYin2021/LatentDebate"
+   ]
+  },
+  {
+   "venue": "NeurIPS 2026",
+   "title": "Belief Engine: Configurable Stance Dynamics for Multi-Agent LLM Deliberation",
+   "url": "https://neurips.cc/virtual/2026/poster/151258",
+   "arxiv": null,
+   "page_code_links": [],
+   "hunt_links": []
+  },
+  {
+   "venue": "NeurIPS 2026",
+   "title": "Cross-Channel Agreement Beats Consensus: Compositional Verification for Geometry Reasoning",
+   "url": "https://neurips.cc/virtual/2026/poster/151708",
+   "arxiv": null,
+   "page_code_links": [],
+   "hunt_links": []
+  },
+  {
+   "venue": "NeurIPS 2026",
+   "title": "Hearing is Believing? Evaluating and Analyzing Audio Language Model Sycophancy with SYAUDIO",
+   "url": "https://neurips.cc/virtual/2026/poster/148254",
+   "arxiv": null,
+   "page_code_links": [
+    "https://github.com/YokyYao/SYAUDIO"
+   ],
+   "hunt_links": []
+  },
+  {
+   "venue": "NeurIPS 2026",
+   "title": "MaRiO: Multi-agent Collaborative Reasoning via Shared Observations in MLLMs",
+   "url": "https://neurips.cc/virtual/2026/poster/139083",
+   "arxiv": null,
+   "page_code_links": [],
+   "hunt_links": []
+  },
+  {
+   "venue": "NeurIPS 2026",
+   "title": "Learning When to Collaborate: Selective Multi-Agent Medical Reasoning via Uncertainty-Aware Routing",
+   "url": "https://neurips.cc/virtual/2026/poster/148185",
+   "arxiv": null,
+   "page_code_links": [
+    "https://github.com/JayceonHo/SMART-Med"
+   ],
+   "hunt_links": []
+  },
+  {
+   "venue": "NeurIPS 2026",
+   "title": "Rethinking Parallel Multi-Agent Systems: A Cost-Aware Framework for Efficient Coordination",
+   "url": "https://neurips.cc/virtual/2026/poster/155478",
+   "arxiv": null,
+   "page_code_links": [],
+   "hunt_links": []
+  },
+  {
+   "venue": "NeurIPS 2026",
+   "title": "Sequential Probabilistic Uncertainty Estimation for Parallel Multi-Agent Reasoning Systems",
+   "url": "https://neurips.cc/virtual/2026/poster/153160",
+   "arxiv": "2610.08901",
+   "page_code_links": [],
+   "hunt_links": [
+    "github.com/Tyrion58/SAUCE",
+    "https://huggingface.co/google"
+   ]
+  },
+  {
+   "venue": "NeurIPS 2026",
+   "title": "UMAS: System-Level Uncertainty Quantification for Multi-Agent LLM Systems",
+   "url": "https://neurips.cc/virtual/2026/poster/148275",
+   "arxiv": "2610.33013",
+   "page_code_links": [],
+   "hunt_links": [
+    "https://github.com/Dby52-04/UMAS",
+    "https://github.com/Dby52-04/UMAS."
+   ]
+  },
+  {
+   "venue": "NeurIPS 2026",
+   "title": "Iterative Critique-and-Routing Controller for Multi-Agent Systems with Heterogeneous LLMs",
+   "url": "https://neurips.cc/virtual/2026/poster/148385",
+   "arxiv": "2605.08686",
+   "page_code_links": [],
+   "hunt_links": []
+  },
+  {
+   "venue": "CVPR 2026",
+   "title": "Consensus Entropy: Harnessing Multi-VLM Agreement for Self-Verifying and Self-Improving OCR",
+   "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Consensus_Entropy_Harnessing_Multi-VLM_Agreement_for_Self-Verifying_and_Self-Improving_OCR_CVPR_2026_paper.html",
+   "arxiv": null,
+   "page_code_links": [],
+   "hunt_links": []
+  },
+  {
+   "venue": "ICML 2026",
+   "title": "World-Model Inspired Emotion-aware Token Refinement for Training-Free Multimodal Emotion Recognition",
+   "url": "https://icml.cc/virtual/2026/poster/63592",
+   "arxiv": null,
+   "page_code_links": [],
+   "hunt_links": []
+  },
+  {
+   "venue": "ICML 2026",
+   "title": "ADEPT: RL-Aligned Agentic Decoding of Emotion via Evidence Probing Tools — From Consensus Learning to Ambiguity-Driven Emotion Reasoning",
+   "url": "https://icml.cc/virtual/2026/poster/61830",
+   "arxiv": "2602.12714",
+   "page_code_links": [],
+   "hunt_links": []
+  },
+  {
+   "venue": "ICML 2026",
+   "title": "Omni-Perception Policy Optimization for Multimodal Emotion Reasoning",
+   "url": "https://icml.cc/virtual/2026/poster/66328",
+   "arxiv": "2606.25325",
+   "page_code_links": [],
+   "hunt_links": [
+    "https://github.com/ZhiyuanHan-Aaron/OPPO"
+   ]
+  },
+  {
+   "venue": "NeurIPS 2026",
+   "title": "AffectGPT-RL: Revealing Roles of Reinforcement Learning in Open-Vocabulary Emotion Recognition",
+   "url": "https://neurips.cc/virtual/2026/poster/149766",
+   "arxiv": null,
+   "page_code_links": [
+    "https://github.com/zeroQiaoba/AffectGPT/tree/master/AffectGPT-RL"
+   ],
+   "hunt_links": []
+  },
+  {
+   "venue": "NeurIPS 2026",
+   "title": "SCG-HF: Semantic Consistency Grouping for Hierarchical Fusion in Video Emotion Recognition",
+   "url": "https://neurips.cc/virtual/2026/poster/154717",
+   "arxiv": null,
+   "page_code_links": [],
+   "hunt_links": []
+  },
+  {
+   "venue": "NeurIPS 2026",
+   "title": "CAREBench: Evaluating LLMs' Emotion Understanding by Assessing Cognitive Appraisal Reasoning",
+   "url": "https://neurips.cc/virtual/2026/poster/139329",
+   "arxiv": "2605.17176",
+   "page_code_links": [],
+   "hunt_links": [
+    "https://github.com/ZhaoyueSun/CAREBench",
+    "https://huggingface.co/GMLHUHE/PsyLLM-8B",
+    "https://huggingface.co/Qwen/Qwen3.5-9B",
+    "https://huggingface.co/datasets/zhaoyuesun",
+    "https://huggingface.co/lzw1008/Emollama-chat-13b"
+   ]
+  },
+  {
+   "venue": "CVPR 2026",
+   "title": "EMO-R3: Reflective Reinforcement Learning for Emotional Reasoning in Multimodal Large Language Models",
+   "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Fang_EMO-R3_Reflective_Reinforcement_Learning_for_Emotional_Reasoning_in_Multimodal_Large_CVPR_2026_paper.html",
+   "arxiv": null,
+   "page_code_links": [],
+   "hunt_links": [
+    "https://github.com/hiyouga/EasyR1",
+    "https://github.com/xiaomi-research/emo-r3"
+   ]
+  },
+  {
+   "venue": "CVPR 2026",
+   "title": "EmoThinker: Advancing Visual-Acoustic Emotion Analysis via Structural Token Selection and Chain-of-Thought Reasoning",
+   "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xu_EmoThinker_Advancing_Visual-Acoustic_Emotion_Analysis_via_Structural_Token_Selection_and_CVPR_2026_paper.html",
+   "arxiv": null,
+   "page_code_links": [],
+   "hunt_links": []
+  },
+  {
+   "venue": "CVPR 2026",
+   "title": "Nano-EmoX: Unifying Multimodal Emotional Intelligence from Perception to Empathy",
+   "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Huang_Nano-EmoX_Unifying_Multimodal_Emotional_Intelligence_from_Perception_to_Empathy_CVPR_2026_paper.html",
+   "arxiv": null,
+   "page_code_links": [],
+   "hunt_links": []
+  }
+ ],
+ "note_2026-11-03b": "Permissive PDF rescan found links missed by the first extraction (Emergence of Biased Consensus -> phys-ai/llm-biased-consensus; Epistemic Gain -> qiaodan-cuhk/UMAD; Multi-Agent Teams Hold Experts Back; MAS-SAS)."
+}

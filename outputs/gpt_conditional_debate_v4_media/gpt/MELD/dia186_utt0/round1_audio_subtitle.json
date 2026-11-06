@@ -1,0 +1,44 @@
+{
+  "output": {
+    "expert": "audio_subtitle",
+    "reason": "重新核对后，Chandler的“no-no-no just Ross”是在限制人选；“Ross and Joey is embarrassing enough”说明他不愿让已经难堪的局面继续扩大[E1]。他向右侧抬手、随后抿嘴并斜视对方，与这种排斥相符[E2]。我上一轮把拒绝本身看作对抗，但字幕中没有明确的责备对象或受冒犯的表达；较准确的开放情绪是反感。",
+    "open_emotion": "反感",
+    "answer": "disgust",
+    "mapping_reason": "此处的反感是对进一步扩大难堪局面的不愿接受，较接近disgust的排斥义；这是轻度、近似的映射，不表示恶心或强烈厌弃。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "subtitle",
+        "anchor": "“Ah, no-no-no just Ross. Ross and Joey is embarrassing enough.”",
+        "observation": "Chandler重复否定，限定为“just Ross”，并评价Ross和Joey已“embarrassing enough”。",
+        "interpretation": "整句表达对扩大人选的排斥；“embarrassing”是对局面的评价，不能单独当作他正在羞愧的证据。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_01（0.459秒）至frame_07（3.128秒）",
+        "observation": "Chandler朝右侧人物抬手，之后收紧嘴唇、斜视右侧，末帧略皱眉继续说话。",
+        "interpretation": "这些表现与口头拒绝相符，但手势和表情本身不能独立证明厌恶。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "最强替代解释是他在开玩笑地制止提议，而没有明显情绪；抬手也可能只是强调话语。没有提供音频，无法核验语调或玩笑意味，因此只能判断为轻度反感。",
+    "changed": true,
+    "response_to_others": "图像专家所引frame_00至frame_07中的张口、抬手、抿嘴和斜视可以在画面中核实；我同意它们支持拒绝，但不单独决定情绪类别。图谱专家引用的字幕也可核实，且与图像专家的字幕证据是同一句话，不能重复计数；本轮未提供其所引图谱节点，无法独立核查节点内容。两位指出的关键区别成立：话语更明确地表达不愿接受这一安排，而非对某人进行责备。"
+  },
+  "usage": {
+    "completion_tokens": 772,
+    "total_tokens": 6177,
+    "prompt_tokens": 5405,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_creation_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 103
+    }
+  },
+  "seconds": 22.836668968200684
+}

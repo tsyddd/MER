@@ -1,0 +1,52 @@
+{
+  "output": {
+    "expert": "image",
+    "reason": "目标是沙发上的Monica，不是门边背对镜头的长发女子。Monica从持书坐着转为张口、放低书本并迅速前倾，随后又转头张口看向门边[E1][E2]；这组突发变化在视觉上最支持吃惊。字幕中的连续否定表明她也在制止某事[E3]，但画面和字幕未说明她预期何种威胁或负面后果。",
+    "open_emotion": "吃惊",
+    "answer": "surprise",
+    "mapping_reason": "当前最明确的是面对眼前状况的突然反应，符合surprise所指的意外；急于制止的动作使这一判断有保留，但不足以将其明确归为fear。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "visual",
+        "anchor": "frame_02（0.584秒）至frame_05（1.418秒）",
+        "observation": "Monica坐在沙发上持书，转头张口，接着放低书本并迅速向前探身。",
+        "interpretation": "连续的姿态变化支持突发反应，也可能是准备介入。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_06（1.710秒）至frame_07（2.002秒）",
+        "observation": "Monica前倾后又转头看向门边，末帧张口；动作中细微面部特征不易辨清。",
+        "interpretation": "她仍在回应门边的状况；单凭张口不能判定害怕。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "subtitle",
+        "anchor": "“No-no-no, no!”",
+        "observation": "字幕呈现连续否定。",
+        "interpretation": "支持即时制止，是仅以吃惊解释全部行为的反证；字幕没有交代制止原因或语调。",
+        "polarity": "counter"
+      }
+    ],
+    "counterevidence": "最强替代解释是焦急地阻止某事：连续说“不”并立即前倾确实支持这一点。但当前材料未显示她畏惧的对象或明确的负面后果，不能仅凭制止动作判为fear。",
+    "changed": false,
+    "response_to_others": "音频字幕专家所引的字幕及frame_02至frame_07的动作均可核实；它们支持急于制止，但没有进一步证实威胁预期。图谱专家引用的同段动作也可从画面核实，不能重复计证；本轮未提供图谱或音轨，无法核实process_1、person_2及其声音描述，因此仍维持surprise。"
+  },
+  "usage": {
+    "completion_tokens": 742,
+    "total_tokens": 6601,
+    "prompt_tokens": 5859,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_creation_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 134
+    }
+  },
+  "seconds": 18.297509908676147
+}

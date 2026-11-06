@@ -1,0 +1,39 @@
+{
+  "output": {
+    "expert": "audio_subtitle",
+    "changed": true,
+    "response_to_others": "认同图谱专家与图像专家关于男声平稳沉着、面部肌肉舒展放松的观察；此前我将‘劝离安排’的言语行为过度引申为对风险的顾虑与担忧，经交叉核对，其语调平直无颤音、缺乏焦虑或紧绷的声学标志，确实属于务实冷静的自然沟通。",
+    "reason": "目标人物在片段中对车内人员说出‘你先上，我的车，先回去’，言语行为属于就事论事的行动指引与常规交代。在声学表现上，男声沉稳低缓、发音平稳清晰、节奏均匀，未出现急促、发颤或情绪化的语调起伏；结合其专注而平静的交流状态，并未展现出明显的焦虑、紧张或悲伤等主导情绪，属于典型的常态平稳交流。",
+    "open_emotion": "平稳",
+    "answer": "neutral",
+    "mapping_reason": "目标人物在对话交接时语音平缓低沉、节奏稳定，语义为冷静清晰的事务性安排，符合情绪轮中平稳叙述、自然交流的neutral定义。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "subtitle",
+        "anchor": "你先上，我的车，先回去。",
+        "observation": "台词内容为清晰、简明的行动建议与安排，无情感强化词。",
+        "interpretation": "体现理智、务实的事务性交流意图，未附加显著的情绪倾向。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "audio",
+        "anchor": "00:00-00:02",
+        "observation": "男声低缓均匀，语调平直稳定，未出现急促喘息、音调上扬或颤音。",
+        "interpretation": "稳定的韵律特征表明说话人内心保持镇定，缺乏担忧或愤怒的情绪波动。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "台词涉及让对方先行乘车离开，语境上可能暗示事态处置，容易被主观推测为内心关切担忧（worried）；但当前可观测的声调与神态均完全处于平稳基线，无确凿焦虑证据支持。"
+  },
+  "usage": {
+    "completion_tokens": 1490,
+    "total_tokens": 5001,
+    "prompt_tokens": 3511,
+    "completion_tokens_details": {
+      "reasoning_tokens": 914
+    }
+  },
+  "seconds": 16.09976863861084
+}

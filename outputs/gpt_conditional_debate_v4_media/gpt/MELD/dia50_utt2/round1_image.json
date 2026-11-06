@@ -1,0 +1,44 @@
+{
+  "output": {
+    "expert": "image",
+    "reason": "目标是女学生，不是正在穿衣的男子或过道里站立的两名男子。回看画面，右下方人物在前两帧低身，随后受到穿衣男子遮挡；到frame_03至frame_04，左侧可见一名女子经过，但仅凭这些帧难以清楚追踪其面部和完整移动路线[E1]。字幕中的明确道歉是判断歉疚的主要依据[E2]。视觉上的低身和移动与局促相容，却不足以证明她正畏惧某种负面后果。",
+    "open_emotion": "歉疚",
+    "answer": "sadness",
+    "mapping_reason": "歉疚不等同于悲伤；在限定标签中，将对已发生状况的负面自我感受近似归入sadness。此映射不能表示画面证实了哀伤或失落。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "visual",
+        "anchor": "frame_00（0.0秒）至frame_04（1.293秒）",
+        "observation": "画面右下方的人物低身，随后被前方男子遮挡；frame_03至frame_04左侧可见女子经过。目标人物的面部始终难以辨认。",
+        "interpretation": "低身和移动可与局促的道歉相容，但无法单凭画面确认其情绪或精确追踪全部动作。",
+        "polarity": "uncertain"
+      },
+      {
+        "id": "E2",
+        "source": "subtitle",
+        "anchor": "“I’m so sorry!”",
+        "observation": "字幕呈现一句带有“so”的道歉。",
+        "interpretation": "支持歉意的解释；道歉也可能出于礼貌或仓促应对，不能直接当作悲伤自述。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "最强替代解释是女学生因现场局促而慌张，或只是礼貌地迅速道歉。她的面部不可清晰辨认，且没有提供音轨，无法通过表情或语调区分这些解释。",
+    "changed": false,
+    "response_to_others": "图谱专家所引frame_00至frame_04确有低身、移动和遮挡，但画面不足以核实完整的快速穿行路线，更未显示明确的威胁或畏惧；其process_0是同一视觉事实的转述，person_1所述语速因无音轨无法核实。音频字幕专家引用的“I’m so sorry!”与现有字幕相符；其关于面部不清、不能从动作独立判定情绪的限制也与画面相符，因此我维持原判断。"
+  },
+  "usage": {
+    "completion_tokens": 760,
+    "total_tokens": 6086,
+    "prompt_tokens": 5326,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_creation_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 90
+    }
+  },
+  "seconds": 19.035109281539917
+}

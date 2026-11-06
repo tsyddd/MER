@@ -1,0 +1,47 @@
+{
+  "output": {
+    "expert": "audio_subtitle",
+    "changed": false,
+    "response_to_others": "核对图像专家的E1与E2：frame_03和frame_05人物嘴巴微张主要是说话发音时的正常口型开合，并非突发惊诧的张嘴僵住；在音轨实际听觉中，目标人物语调偏低沉柔和、音量受抑并伴有明显气声，缺少惊讶类情绪常见的高音突兀上扬或短促倒吸气，本质是小心翼翼的关切与探询。图谱专家指出的由探问对方困难转向顾虑自身连累的语义推进完全属实，更符合worried对负面结果与责任预期的特征。",
+    "reason": "目标人物在片段中发出‘怎么？她不好对付啊’的探问，随后衔接‘我是不是给你惹麻烦了’[E1]。言语行为属于带有顾忌的关切与自我归因试探；在00:00-00:02音频中，其声音轻柔、音量偏小且带有试探性气声，绝非遭遇突发意外的惊呼[E2]；视觉上人物眼神紧盯对方、神情透出不安与小心翼翼[E3]，其主导心理状态是对事情受阻及自身造成麻烦的顾虑与忐忑，而非纯粹的意外震惊。",
+    "open_emotion": "忐忑",
+    "answer": "worried",
+    "mapping_reason": "‘忐忑’侧重于对潜在不良后果、对方受阻及自身添麻烦的顾虑与心绪不宁，符合本情绪轮中worried（对可能负面结果、未知风险的顾虑、焦虑、不安）的定义边界。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "subtitle",
+        "anchor": "怎么 她不好对付啊 / 我 我是不是给你惹麻烦了",
+        "observation": "人物询问对方是否遇到麻烦后，立刻接续询问是否自己添了麻烦",
+        "interpretation": "核心话语焦点始终是对可能产生的连累与不良后果的担忧",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "audio",
+        "anchor": "00:00-00:02",
+        "observation": "发问时语速平缓、音量压低，带有轻声试探与收敛的气声，无高昂突兀的重音",
+        "interpretation": "体现出内敛谨慎的关切与不安，排除高唤醒度的突发惊讶",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "visual",
+        "anchor": "frame_05至frame_07",
+        "observation": "目标人物身体微探，双目关切地注视对方反应，面部神色透出紧绷与试探",
+        "interpretation": "肢体与眼神呈现出等待对方反馈时的忐忑状态",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "疑问句式及对话过程中微张的口型易被表面推断为惊讶，但声音无突发冲击力，且话语意图集中于不良后果顾虑，不应归为surprise。"
+  },
+  "usage": {
+    "completion_tokens": 1253,
+    "total_tokens": 13445,
+    "prompt_tokens": 12192,
+    "completion_tokens_details": {
+      "reasoning_tokens": 466
+    }
+  },
+  "seconds": 13.72712230682373
+}

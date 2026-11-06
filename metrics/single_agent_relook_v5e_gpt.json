@@ -1,0 +1,857 @@
+{
+ "counts": {
+  "n": 55,
+  "first ok": 22,
+  "final ok": 24,
+  "direct run1 ok": 26,
+  "direct mean(5) ok x5": 119,
+  "v4 ok": 19,
+  "flagged": 6,
+  "flagged & first ok": 1,
+  "unflagged": 49,
+  "unflagged & first ok": 21,
+  "MER2024 n": 23,
+  "MER2024 first ok": 8,
+  "MER2024 final ok": 9,
+  "MELD n": 32,
+  "MELD first ok": 14,
+  "MELD final ok": 15,
+  "revise": 2,
+  "revise wrong->right": 2,
+  "revise right->wrong": 0,
+  "revise wrong->wrong": 0,
+  "flagged final ok": 3,
+  "point yes": 1,
+  "point no": 3,
+  "point unsure": 2,
+  "new obs 0": 0,
+  "direct mean(5) ok": 23.8
+ },
+ "per_sample": [
+  {
+   "id": "MER2024/sample_00002038",
+   "gold": "surprise",
+   "first": "worried",
+   "final": "worried",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "worried",
+    "worried",
+    "worried",
+    "worried",
+    "worried"
+   ]
+  },
+  {
+   "id": "MER2024/samplenew_00021849",
+   "gold": "neutral",
+   "first": "worried",
+   "final": "worried",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "worried",
+    "worried",
+    "worried",
+    "worried",
+    "worried"
+   ]
+  },
+  {
+   "id": "MER2024/samplenew_00021868",
+   "gold": "neutral",
+   "first": "sad",
+   "final": "sad",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "sad",
+    "worried",
+    "worried",
+    "sad",
+    "sad"
+   ]
+  },
+  {
+   "id": "MER2024/samplenew_00041734",
+   "gold": "angry",
+   "first": "worried",
+   "final": "worried",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "worried",
+    "worried",
+    "worried",
+    "worried",
+    "worried"
+   ]
+  },
+  {
+   "id": "MELD/dia226_utt3",
+   "gold": "sadness",
+   "first": "sadness",
+   "final": "sadness",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "sadness",
+    "sadness",
+    "neutral",
+    "neutral",
+    "neutral"
+   ]
+  },
+  {
+   "id": "MELD/dia245_utt4",
+   "gold": "fear",
+   "first": "surprise",
+   "final": "surprise",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "fear",
+    "fear",
+    "surprise",
+    "surprise",
+    "fear"
+   ]
+  },
+  {
+   "id": "MELD/dia50_utt2",
+   "gold": "fear",
+   "first": "fear",
+   "final": "fear",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "fear",
+    "surprise",
+    "fear",
+    "sadness",
+    "surprise"
+   ]
+  },
+  {
+   "id": "MELD/dia66_utt1",
+   "gold": "joy",
+   "first": "neutral",
+   "final": "neutral",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "joy",
+    "joy",
+    "neutral",
+    "joy",
+    "joy"
+   ]
+  },
+  {
+   "id": "MER2024/sample_00002707",
+   "gold": "worried",
+   "first": "worried",
+   "final": "worried",
+   "flagged": true,
+   "route": "relook_keep",
+   "direct_runs": [
+    "worried",
+    "worried",
+    "worried",
+    "worried",
+    "worried"
+   ]
+  },
+  {
+   "id": "MER2024/samplenew_00003233",
+   "gold": "neutral",
+   "first": "angry",
+   "final": "angry",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "angry"
+   ]
+  },
+  {
+   "id": "MER2024/samplenew_00006610",
+   "gold": "neutral",
+   "first": "neutral",
+   "final": "neutral",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "happy",
+    "happy",
+    "happy",
+    "neutral",
+    "happy"
+   ]
+  },
+  {
+   "id": "MER2024/samplenew_00013168",
+   "gold": "angry",
+   "first": "angry",
+   "final": "angry",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "angry",
+    "angry",
+    "angry",
+    "angry",
+    "angry"
+   ]
+  },
+  {
+   "id": "MER2024/samplenew_00013412",
+   "gold": "happy",
+   "first": "happy",
+   "final": "happy",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "happy",
+    "happy",
+    "happy",
+    "happy",
+    "happy"
+   ]
+  },
+  {
+   "id": "MER2024/samplenew_00017328",
+   "gold": "worried",
+   "first": "worried",
+   "final": "worried",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "worried",
+    "worried",
+    "worried",
+    "worried",
+    "worried"
+   ]
+  },
+  {
+   "id": "MER2024/samplenew_00017645",
+   "gold": "sad",
+   "first": "happy",
+   "final": "happy",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "happy",
+    "happy",
+    "happy",
+    "happy",
+    "happy"
+   ]
+  },
+  {
+   "id": "MER2024/samplenew_00018796",
+   "gold": "sad",
+   "first": "sad",
+   "final": "sad",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "worried",
+    "worried",
+    "worried",
+    "sad",
+    "sad"
+   ]
+  },
+  {
+   "id": "MER2024/samplenew_00021786",
+   "gold": "neutral",
+   "first": "happy",
+   "final": "happy",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral"
+   ]
+  },
+  {
+   "id": "MER2024/samplenew_00021813",
+   "gold": "neutral",
+   "first": "worried",
+   "final": "worried",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "worried",
+    "worried",
+    "worried",
+    "worried",
+    "worried"
+   ]
+  },
+  {
+   "id": "MER2024/samplenew_00022521",
+   "gold": "surprise",
+   "first": "surprise",
+   "final": "surprise",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "surprise",
+    "surprise",
+    "surprise",
+    "surprise",
+    "surprise"
+   ]
+  },
+  {
+   "id": "MER2024/samplenew_00026661",
+   "gold": "surprise",
+   "first": "surprise",
+   "final": "surprise",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "worried",
+    "surprise",
+    "worried",
+    "surprise",
+    "worried"
+   ]
+  },
+  {
+   "id": "MER2024/samplenew_00032818",
+   "gold": "angry",
+   "first": "worried",
+   "final": "worried",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "worried",
+    "worried",
+    "worried",
+    "neutral",
+    "worried"
+   ]
+  },
+  {
+   "id": "MER2024/samplenew_00033052",
+   "gold": "sad",
+   "first": "worried",
+   "final": "worried",
+   "flagged": true,
+   "route": "relook_keep",
+   "direct_runs": [
+    "worried",
+    "worried",
+    "worried",
+    "sad",
+    "worried"
+   ]
+  },
+  {
+   "id": "MER2024/samplenew_00034724",
+   "gold": "angry",
+   "first": "worried",
+   "final": "worried",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "worried",
+    "worried",
+    "worried",
+    "worried",
+    "worried"
+   ]
+  },
+  {
+   "id": "MER2024/samplenew_00035775",
+   "gold": "neutral",
+   "first": "surprise",
+   "final": "surprise",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "surprise",
+    "surprise",
+    "surprise",
+    "neutral",
+    "neutral"
+   ]
+  },
+  {
+   "id": "MER2024/samplenew_00037260",
+   "gold": "neutral",
+   "first": "worried",
+   "final": "worried",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "sad",
+    "sad",
+    "sad",
+    "sad",
+    "sad"
+   ]
+  },
+  {
+   "id": "MER2024/samplenew_00039408",
+   "gold": "neutral",
+   "first": "sad",
+   "final": "neutral",
+   "flagged": true,
+   "route": "relook_revise",
+   "direct_runs": [
+    "sad",
+    "neutral",
+    "sad",
+    "sad",
+    "sad"
+   ]
+  },
+  {
+   "id": "MER2024/samplenew_00041620",
+   "gold": "neutral",
+   "first": "worried",
+   "final": "worried",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "worried",
+    "worried",
+    "worried",
+    "worried",
+    "worried"
+   ]
+  },
+  {
+   "id": "MELD/dia100_utt10",
+   "gold": "sadness",
+   "first": "sadness",
+   "final": "sadness",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "sadness"
+   ]
+  },
+  {
+   "id": "MELD/dia112_utt21",
+   "gold": "neutral",
+   "first": "joy",
+   "final": "joy",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral"
+   ]
+  },
+  {
+   "id": "MELD/dia11_utt1",
+   "gold": "fear",
+   "first": "fear",
+   "final": "fear",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "fear",
+    "fear",
+    "fear",
+    "fear",
+    "neutral"
+   ]
+  },
+  {
+   "id": "MELD/dia135_utt5",
+   "gold": "joy",
+   "first": "joy",
+   "final": "joy",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "joy",
+    "joy",
+    "joy",
+    "neutral",
+    "joy"
+   ]
+  },
+  {
+   "id": "MELD/dia148_utt0",
+   "gold": "sadness",
+   "first": "neutral",
+   "final": "neutral",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "joy"
+   ]
+  },
+  {
+   "id": "MELD/dia152_utt3",
+   "gold": "neutral",
+   "first": "anger",
+   "final": "neutral",
+   "flagged": true,
+   "route": "relook_revise",
+   "direct_runs": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral"
+   ]
+  },
+  {
+   "id": "MELD/dia156_utt15",
+   "gold": "anger",
+   "first": "joy",
+   "final": "joy",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "joy",
+    "joy",
+    "joy",
+    "joy",
+    "joy"
+   ]
+  },
+  {
+   "id": "MELD/dia156_utt4",
+   "gold": "neutral",
+   "first": "surprise",
+   "final": "surprise",
+   "flagged": true,
+   "route": "relook_keep",
+   "direct_runs": [
+    "neutral",
+    "joy",
+    "joy",
+    "joy",
+    "neutral"
+   ]
+  },
+  {
+   "id": "MELD/dia17_utt14",
+   "gold": "disgust",
+   "first": "disgust",
+   "final": "disgust",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "disgust",
+    "disgust",
+    "neutral",
+    "disgust",
+    "disgust"
+   ]
+  },
+  {
+   "id": "MELD/dia17_utt3",
+   "gold": "disgust",
+   "first": "surprise",
+   "final": "surprise",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "disgust",
+    "surprise",
+    "surprise",
+    "surprise",
+    "disgust"
+   ]
+  },
+  {
+   "id": "MELD/dia182_utt3",
+   "gold": "fear",
+   "first": "surprise",
+   "final": "surprise",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "surprise",
+    "fear",
+    "surprise",
+    "surprise",
+    "surprise"
+   ]
+  },
+  {
+   "id": "MELD/dia182_utt4",
+   "gold": "fear",
+   "first": "fear",
+   "final": "fear",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "fear",
+    "fear",
+    "fear",
+    "fear",
+    "fear"
+   ]
+  },
+  {
+   "id": "MELD/dia184_utt6",
+   "gold": "fear",
+   "first": "fear",
+   "final": "fear",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "surprise",
+    "fear",
+    "surprise",
+    "surprise",
+    "surprise"
+   ]
+  },
+  {
+   "id": "MELD/dia217_utt4",
+   "gold": "surprise",
+   "first": "disgust",
+   "final": "disgust",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "disgust",
+    "disgust",
+    "disgust",
+    "disgust",
+    "disgust"
+   ]
+  },
+  {
+   "id": "MELD/dia222_utt1",
+   "gold": "neutral",
+   "first": "sadness",
+   "final": "sadness",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "neutral",
+    "neutral",
+    "anger",
+    "sadness",
+    "sadness"
+   ]
+  },
+  {
+   "id": "MELD/dia227_utt0",
+   "gold": "fear",
+   "first": "joy",
+   "final": "joy",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "joy",
+    "joy",
+    "joy",
+    "joy",
+    "joy"
+   ]
+  },
+  {
+   "id": "MELD/dia244_utt7",
+   "gold": "disgust",
+   "first": "disgust",
+   "final": "disgust",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "disgust",
+    "anger",
+    "disgust",
+    "anger",
+    "disgust"
+   ]
+  },
+  {
+   "id": "MELD/dia249_utt5",
+   "gold": "joy",
+   "first": "disgust",
+   "final": "disgust",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "fear",
+    "disgust",
+    "fear",
+    "fear",
+    "disgust"
+   ]
+  },
+  {
+   "id": "MELD/dia257_utt1",
+   "gold": "surprise",
+   "first": "surprise",
+   "final": "surprise",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral"
+   ]
+  },
+  {
+   "id": "MELD/dia269_utt3",
+   "gold": "joy",
+   "first": "joy",
+   "final": "joy",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "joy",
+    "joy",
+    "joy",
+    "joy",
+    "joy"
+   ]
+  },
+  {
+   "id": "MELD/dia271_utt3",
+   "gold": "fear",
+   "first": "joy",
+   "final": "joy",
+   "flagged": true,
+   "route": "relook_keep",
+   "direct_runs": [
+    "joy",
+    "joy",
+    "joy",
+    "neutral",
+    "neutral"
+   ]
+  },
+  {
+   "id": "MELD/dia279_utt0",
+   "gold": "anger",
+   "first": "joy",
+   "final": "joy",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "anger",
+    "joy",
+    "anger",
+    "anger",
+    "anger"
+   ]
+  },
+  {
+   "id": "MELD/dia279_utt4",
+   "gold": "anger",
+   "first": "joy",
+   "final": "joy",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "anger",
+    "anger",
+    "anger",
+    "anger",
+    "anger"
+   ]
+  },
+  {
+   "id": "MELD/dia53_utt7",
+   "gold": "sadness",
+   "first": "sadness",
+   "final": "sadness",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "sadness",
+    "sadness",
+    "sadness",
+    "sadness",
+    "sadness"
+   ]
+  },
+  {
+   "id": "MELD/dia64_utt2",
+   "gold": "anger",
+   "first": "anger",
+   "final": "anger",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral"
+   ]
+  },
+  {
+   "id": "MELD/dia68_utt12",
+   "gold": "joy",
+   "first": "surprise",
+   "final": "surprise",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "surprise",
+    "neutral",
+    "joy",
+    "surprise",
+    "joy"
+   ]
+  },
+  {
+   "id": "MELD/dia70_utt15",
+   "gold": "sadness",
+   "first": "anger",
+   "final": "anger",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "neutral",
+    "neutral",
+    "neutral",
+    "neutral",
+    "sadness"
+   ]
+  },
+  {
+   "id": "MELD/dia83_utt6",
+   "gold": "surprise",
+   "first": "surprise",
+   "final": "surprise",
+   "flagged": false,
+   "route": "first_no_doubt",
+   "direct_runs": [
+    "surprise",
+    "neutral",
+    "surprise",
+    "surprise",
+    "surprise"
+   ]
+  }
+ ]
+}

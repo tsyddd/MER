@@ -1,0 +1,39 @@
+{
+  "output": {
+    "expert": "image",
+    "changed": false,
+    "response_to_others": "核对图谱专家所述，其认为目标人物面部处于平稳对话形态，这与画面严重不符：在frame_01至frame_05中，目标人物双目异常圆睁、眼白大量暴露且眉宇紧缩，绝非松弛中性；音频字幕专家指出人物双目圆睁、神情紧绷且伴有紧促气声，经核对各帧表情及音轨完全属实，有力支持了紧张焦虑的定性。",
+    "reason": "目标人物在对话全程面部肌肉处于高度紧绷状态，尤其在frame_01至frame_05期间双眼显著瞪圆，眼眶完全拉开，眉心内聚且微蹙，身体呈现前倾的压迫紧凑姿态。结合音轨中压低声线但略带粗重喘息的密语式陈述，视觉上充分展现出对险恶危局的后怕、心悸与高度紧张感，绝非毫无情绪波动的平稳交代[E1][E2]。",
+    "open_emotion": "紧张不安",
+    "answer": "worried",
+    "mapping_reason": "目标人物在回忆与转述危及自身的君父猜忌时，展现出显著的心悸、警惕与高度紧绷，符合MER2024情绪轮中worried关于负面风险、顾虑及焦虑不安的界定。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "visual",
+        "anchor": "frame_01 (0.92s) 至 frame_04 (3.64s)",
+        "observation": "目标人物双目极大程度圆睁，眼白暴露显著，眉心肌群明显收紧隆起，下颌微缩前伸，呈现出高度警惕与紧绷的动态面容。",
+        "interpretation": "显露非日常交流的戒备与心有余悸，表明其内心深陷危机情境的紧迫感。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_05 (4.56s) 至 frame_07 (6.36s)",
+        "observation": "说话时唇部急促开合，目光紧盯对方，眼裂依然维持扩大状态，未见任何肌肉放松迹象。",
+        "interpretation": "说明该紧张情绪具有高度持续性，直接否定了图谱专家所称的平稳自然陈述。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "双目圆睁有时可能伴随惊讶（surprise），但其眉眼神态贯穿多个连续动作且未伴随突发违背预期的后撤反应，而是持续前倾倾诉，故排除surprise。"
+  },
+  "usage": {
+    "completion_tokens": 1329,
+    "total_tokens": 13924,
+    "prompt_tokens": 12595,
+    "completion_tokens_details": {
+      "reasoning_tokens": 683
+    }
+  },
+  "seconds": 23.733867645263672
+}

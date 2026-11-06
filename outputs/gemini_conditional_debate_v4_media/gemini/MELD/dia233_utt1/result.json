@@ -1,0 +1,14 @@
+{
+  "id": "MELD/dia233_utt1",
+  "dataset": "MELD",
+  "round0_labels": {
+    "graph": "anger",
+    "audio_subtitle": "anger",
+    "image": "anger"
+  },
+  "triggered": false,
+  "final": "anger",
+  "rounds_run": 0,
+  "round_labels": [],
+  "judge": null
+}

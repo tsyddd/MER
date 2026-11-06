@@ -1,0 +1,52 @@
+{
+  "output": {
+    "expert": "image",
+    "reason": "目标是八帧中坐在电脑后说话的男子。frame_00中他眉头略收、注视前方；到frame_02至frame_04，他抬手指向前方，眉毛上扬、张口说话；frame_05至frame_07收回手，继续面向前方陈述[E1][E2]。这些变化显示他在认真强调信息，但未见持续加剧的紧张或退缩。字幕从交代此前的事转到“我去查”[E3]，更支持他此刻是在说明线索并提出行动。上一轮把认真、抬眉和查证意向进一步解释为对负面后果的疑虑，证据不足。",
+    "open_emotion": "认真陈述",
+    "answer": "neutral",
+    "mapping_reason": "这里的认真主要体现在持续说明信息、配合短暂指点手势，并无足够证据表明担忧或其他情绪占主导，因此映射为neutral；这不等于认定他毫无顾虑。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "visual",
+        "anchor": "frame_00（0.0秒）至frame_02（0.8秒）",
+        "observation": "男子面向前方，起初眉头略收；开始说话时抬眉，抬起一只手。",
+        "interpretation": "可见他专注于交流，但单凭眉部变化不能判定担忧。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_03（1.2秒）至frame_07（2.8秒）",
+        "observation": "他短暂指向前方，随后收手，继续面向前方说话；未见明显回避或表情持续加剧。",
+        "interpretation": "手势更直接地符合说话时强调信息，支持以认真陈述为当前主要表现。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "subtitle",
+        "anchor": "“前两天他跟汪淼一起”“我去查”",
+        "observation": "字幕先交代此前的事，最后表明自己要去查。",
+        "interpretation": "话语提供线索和行动意向，没有明确表达对尚未发生的坏结果的担忧。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "他起初眉头略收，之后抬眉、睁大眼，也可能对所述事情有所顾虑；但这些表情同样可用于强调叙述，字幕未明确指出他担心的后果。没有提供音轨，不能借语调区分。",
+    "changed": true,
+    "response_to_others": "图谱专家所引frame_02至frame_05的指点动作，以及音频字幕专家所引frame_03至frame_06的认真神情，均能在画面中核实；两者是同一段表现，不算独立的两项证据。“我去查”也确见于字幕，但单凭它不能推出焦虑。图谱的process_0、person_3及其语调描述没有原始图谱或音轨可供我独立核实；画面字幕显示的是“观测了宇宙闪烁”，不据用户汇总字幕中的“手术”推断情绪。"
+  },
+  "usage": {
+    "completion_tokens": 840,
+    "total_tokens": 6051,
+    "prompt_tokens": 5211,
+    "prompt_tokens_details": {
+      "cached_tokens": 2432,
+      "cache_write_tokens": 0,
+      "cached_creation_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 99
+    }
+  },
+  "seconds": 23.37712574005127
+}

@@ -1,0 +1,60 @@
+{
+  "output": {
+    "expert": "graph",
+    "reason": "Monica在沙发上连续说“No-no-no, no!”[E1]，随即放低书本、前倾并转身关注门边[E2]。这组当前的言语和动作更像急于阻止某事的惊慌，而不只是对意外作出短暂反应。图谱process_1与可见动作部分吻合[E3]，但不能作为另一份独立的情绪证据；图谱也没有说明她要阻止什么。",
+    "open_emotion": "惊慌",
+    "answer": "fear",
+    "mapping_reason": "这里的惊慌指向急于阻止眼前事情继续发生、担心其负面后果，因而近似映射到fear。片段没有交代具体后果，不能据此断言她害怕明确的危险。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "subtitle",
+        "anchor": "“No-no-no, no!”",
+        "observation": "Monica当前连续说“不”。",
+        "interpretation": "支持即时制止；字幕本身不能证明语调，也未说明制止原因。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_02（0.584秒）至frame_07（2.002秒）",
+        "observation": "Monica从坐着持书，转为放低书本、向前探身，末帧又转头张口。",
+        "interpretation": "连续动作与制止话语相配，支持她急于介入；单看末帧也可能是吃惊。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "graph",
+        "anchor": "process_1",
+        "observation": "图谱记述Monica迅速移开并放下书本和杯子；画面可核实书本被放低，杯子不清楚。",
+        "interpretation": "这是对[E2]所涉动作的转述，不能重复计作独立证据。",
+        "polarity": "uncertain"
+      },
+      {
+        "id": "E4",
+        "source": "graph",
+        "anchor": "person_2",
+        "observation": "图谱转述Monica发声急促、音量较大且语调高亢。",
+        "interpretation": "未提供原音轨，无法亲耳核验；保留这一有来源的图谱转述，不以它决定标签。",
+        "polarity": "uncertain"
+      }
+    ],
+    "counterevidence": "图像专家提出的吃惊解释有依据：突然转身和末帧张口均可表示意外。连续制止与前倾介入使我仍略倾向惊慌，但字幕和画面都未明确呈现她预期的负面后果。门边孔洞只是情境，不能单凭它证明Monica恐惧；图谱所称“冲出”也超出这八帧能清楚核实的范围。",
+    "changed": false,
+    "response_to_others": "音频字幕专家引用的连续否定，以及frame_02至frame_07中放低书本、前倾和转头，均可在提供的字幕与画面中核实；这些与我的证据同源，未提供音轨，不能另行核验语调。图像专家指出末帧张口及缺乏明确威胁也成立，但这些尚不足以排除连续制止和立即行动所支持的惊慌解释，因此我维持fear这一有保留的近似映射。"
+  },
+  "usage": {
+    "completion_tokens": 1101,
+    "total_tokens": 8570,
+    "prompt_tokens": 7469,
+    "prompt_tokens_details": {
+      "cached_tokens": 2304,
+      "cache_write_tokens": 0,
+      "cached_creation_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 235
+    }
+  },
+  "seconds": 26.3099467754364
+}

@@ -1,0 +1,47 @@
+{
+  "output": {
+    "expert": "image",
+    "changed": false,
+    "response_to_others": "对图谱专家：核实了其对Chandler神态克制、肢体放松且缺乏夸张波动的观察，画面中其冷面陈述状态与平稳语调完全一致，支持其判断。对音频字幕专家：重新核查了frame_01至frame_04及音轨，Chandler仅有轻微摆手动作，唇形变化纯属正常发音，并无鼻翼皱起、上唇提升等典型厌恶表情，其声调亦平稳沉着，对方将语言调侃层面的“embarrassing”主观过度外推为生理性或强烈情绪化的disgust，缺乏视觉依据。",
+    "reason": "钱德勒（画面右侧）在画面全程中处于极其松弛克制的坐姿，右手虽有轻微抬起示意拒绝的手势[E1]，但幅度小且随性；其面部肌肉始终处于平缓基线状态，无任何皱眉、皱鼻或撇嘴等厌恶与排斥的面部微表情[E2]。配合平稳从容的死板（deadpan）陈述语气[E3]，整体表现为典型的日常冷幽默式吐槽，缺乏占主导地位的强烈正向或负向情绪，符合中性状态。",
+    "open_emotion": "平淡调侃",
+    "answer": "neutral",
+    "mapping_reason": "目标人物以放松克制的神情和语调进行冷幽默调侃，面部与生理表现均维持在无明显情绪波动的基线水平，依层级定义归入neutral。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "visual",
+        "anchor": "frame_01至frame_03 (0.46s-1.33s)",
+        "observation": "钱德勒右手微抬后轻放，身体倚靠沙发，手势动作幅度小且从容放松。",
+        "interpretation": "仅为日常对话中的习惯性手势动作，并非抗拒或应激推脱。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_05至frame_07 (2.25s-3.13s)",
+        "observation": "钱德勒眉毛展平、眼神无明显收紧或瞪大，口唇部自然闭合与张开，无鼻唇沟加深。",
+        "interpretation": "面部特征完全缺乏disgust典型的皱鼻或愤怒/恐惧特征，处于平稳基线。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "audio",
+        "anchor": "00:00-00:03",
+        "observation": "说话语调平缓沉着，没有剧烈的起伏波动、颤抖或尖锐重音。",
+        "interpretation": "听觉事实印证了视觉上的平淡冷静表现。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "台词含有“embarrassing”且带有拒绝否定词，易在语义上被过度解读为嫌弃（disgust），但画面表现极为克制，无实质排斥动作支持。"
+  },
+  "usage": {
+    "completion_tokens": 1434,
+    "total_tokens": 14180,
+    "prompt_tokens": 12746,
+    "completion_tokens_details": {
+      "reasoning_tokens": 700
+    }
+  },
+  "seconds": 17.27123260498047
+}

@@ -1,0 +1,25 @@
+{
+  "output": {
+    "reason": "目标女子在frame_00睁眼张口，但这也可能是说话动作；到frame_04短暂抿唇，frame_05至frame_07继续说话时嘴部仍显紧绷，[image:E1]对这种变化的观察可信。frame_01至frame_07可直接读到“我不知道这件旗袍是你的”，[audio_subtitle:E2]据此判断她在解释自己不知情，有画面依据，但“担心被责问”仍是推断。开头的表情支持诧异这一反证；综合整段解释与后续紧绷表现，当前更接近不安，映射为worried。另给字幕“我：不。”不足以单独定类，且没有音轨可核验语气。",
+    "answer": "worried",
+    "evidence_refs": [
+      "image:E1",
+      "audio_subtitle:E2"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 372,
+    "total_tokens": 8107,
+    "prompt_tokens": 7735,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_creation_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 162
+    }
+  },
+  "seconds": 12.477306127548218,
+  "rounds": 1
+}

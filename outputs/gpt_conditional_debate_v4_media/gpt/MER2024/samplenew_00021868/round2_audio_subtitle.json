@@ -1,0 +1,44 @@
+{
+  "output": {
+    "expert": "audio_subtitle",
+    "reason": "字幕中的“也不知道”表达不确定，话到“三哥”便止住，尚未交代他究竟不知道什么[E1]。近景人物垂眼、眉间略紧，与迟疑不安相容，但也可能只是斟酌措辞[E2]。两项证据合看，我仍略倾向不安；没有音轨，不能判断语调。",
+    "open_emotion": "迟疑不安",
+    "answer": "worried",
+    "mapping_reason": "此处的不安指面对未知时的顾虑，最接近worried；字幕未说明可能的负面结果，因此只是有限支持，而非确认他在担心某件具体的事。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "subtitle",
+        "anchor": "“也不知道，当年，三哥。”",
+        "observation": "说话者说“也不知道”，随后提到“当年，三哥”，意思在片段内未说完整。",
+        "interpretation": "不确定的措辞为迟疑不安提供线索，但既未说明未来风险，也未评价过去的损失。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_03（0.92秒）至frame_07（2.12秒）",
+        "observation": "浅色衣袍男子持续垂眼、眉间略紧，表情收敛；末段嘴唇微张。",
+        "interpretation": "表现与克制的不安相容，但不足以单独区分不安与思索或低落。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "最强替代解释是平静地斟酌往事：“也不知道”可以仅表示信息不确定，垂眼也可是在思考。字幕没有明确的风险或损失评价，故worried与sad都不能得到强确认。",
+    "changed": false,
+    "response_to_others": "核对图谱专家所引frame_03至frame_07，确见垂眼和收敛神情；字幕也确有“当年”，但没有损失评价，尚不足以凭这些表现判为sad。其person_2声音描述没有原音轨，也没有可供我独立核对的图谱，不能作为听觉证据。图像专家指出近景人物有轻微嘴部变化、“也不知道”未说完整，均与画面和字幕相符；这些与我判断不安相容，但同样不能确定具体担忧。"
+  },
+  "usage": {
+    "completion_tokens": 695,
+    "total_tokens": 6442,
+    "prompt_tokens": 5747,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_creation_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 77
+    }
+  },
+  "seconds": 19.938777208328247
+}

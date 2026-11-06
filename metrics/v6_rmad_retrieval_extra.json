@@ -1,0 +1,74 @@
+{
+ "gemini_n1": {
+  "rand_top1": 30.014999999999965,
+  "rand_top3": 75.34258213030348,
+  "rand_top9": 147.52050030231206,
+  "q": 237,
+  "own_wrong_cases": 133,
+  "own_wrong_eq_own": 46,
+  "own_wrong_eq_gold": 26,
+  "own_right_cases": 104,
+  "own_right_eq_own": 25,
+  "own_right_eq_gold": 25
+ },
+ "gemini_n2": {
+  "rand_top1": 31.124690721649454,
+  "rand_top3": 77.28193626053258,
+  "rand_top9": 149.27727627606268,
+  "q": 237,
+  "own_wrong_cases": 268,
+  "own_wrong_eq_own": 95,
+  "own_wrong_eq_gold": 38,
+  "own_right_cases": 206,
+  "own_right_eq_own": 51,
+  "own_right_eq_gold": 51
+ },
+ "gemini_n3": {
+  "rand_top1": 29.265927835051514,
+  "rand_top3": 73.40195758784517,
+  "rand_top9": 143.62509035941656,
+  "q": 228,
+  "own_wrong_cases": 372,
+  "own_wrong_eq_own": 127,
+  "own_wrong_eq_gold": 54,
+  "own_right_cases": 312,
+  "own_right_eq_own": 72,
+  "own_right_eq_gold": 72
+ },
+ "gpt_n1": {
+  "rand_top1": 35.43391304347831,
+  "rand_top3": 78.44049492711932,
+  "rand_top9": 134.94279416080275,
+  "q": 225,
+  "own_right_cases": 99,
+  "own_right_eq_own": 24,
+  "own_right_eq_gold": 24,
+  "own_wrong_cases": 126,
+  "own_wrong_eq_own": 26,
+  "own_wrong_eq_gold": 28
+ },
+ "gpt_n2": {
+  "rand_top1": 36.15270186335408,
+  "rand_top3": 79.66671656798567,
+  "rand_top9": 135.32053412484387,
+  "q": 228,
+  "own_right_cases": 198,
+  "own_right_eq_own": 45,
+  "own_right_eq_gold": 45,
+  "own_wrong_cases": 258,
+  "own_wrong_eq_own": 73,
+  "own_wrong_eq_gold": 56
+ },
+ "gpt_n3": {
+  "rand_top1": 38.08462732919259,
+  "rand_top3": 85.304195250058,
+  "rand_top9": 146.3737273234844,
+  "q": 240,
+  "own_right_cases": 303,
+  "own_right_eq_own": 79,
+  "own_right_eq_gold": 79,
+  "own_wrong_cases": 417,
+  "own_wrong_eq_own": 111,
+  "own_wrong_eq_gold": 82
+ }
+}

@@ -1,0 +1,52 @@
+{
+  "output": {
+    "expert": "audio_subtitle",
+    "reason": "他先交代“前两天他跟汪淼一起”的经历，再说“我去查”，话语功能是提供线索并提出行动[E1][E2]。说话时的指向手势和认真表情与强调信息相符[E3]，但不足以确定他正担忧某个后果。未提供音轨，不能判断语调。",
+    "open_emotion": "认真陈述",
+    "answer": "neutral",
+    "mapping_reason": "当前可核实的话语和画面主要支持认真地说明情况、提出查证打算，因此将“认真陈述”映射为neutral；这不表示他对事情毫无顾虑。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "subtitle",
+        "anchor": "“前两天他跟汪淼一起”",
+        "observation": "以时间和人物关系交代此前的经历。",
+        "interpretation": "主要是在提供线索，而非表达当前的责备或对坏结果的预期。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "subtitle",
+        "anchor": "“我去查”",
+        "observation": "明确说出自己的下一步行动。",
+        "interpretation": "支持其正在提出查证打算；这句话本身不能证明焦虑。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "visual",
+        "anchor": "frame_02（0.8秒）至frame_06（2.4秒）",
+        "observation": "男子说话时向前指点，随后收手，表情认真。",
+        "interpretation": "与说明、强调线索一致；指点和抬眉也可能表示在意，但不能单独判为担忧。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "最强替代解释是他对尚未查明的情况存有疑虑：眉眼变化及“我去查”可以与此相容。但片段没有明确说出所担心的后果，也没有音轨帮助区分语气。",
+    "changed": false,
+    "response_to_others": "图谱专家引用的“我去查”及frame_02至frame_05的指点动作可在字幕和画面核实；process_0、person_3图谱节点未随原始媒体提供，尤其不能据后者核实语调。图像专家指出的眉头收紧、抬眉和指点也可在相应帧看到，但这些表现同样符合认真强调；查证意向尚不足以确定担忧占主导。"
+  },
+  "usage": {
+    "completion_tokens": 785,
+    "total_tokens": 5974,
+    "prompt_tokens": 5189,
+    "prompt_tokens_details": {
+      "cached_tokens": 2304,
+      "cache_write_tokens": 0,
+      "cached_creation_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 146
+    }
+  },
+  "seconds": 20.65576148033142
+}

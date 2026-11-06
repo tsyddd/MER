@@ -1,0 +1,47 @@
+{
+  "output": {
+    "expert": "graph",
+    "changed": true,
+    "response_to_others": "认同音频字幕专家指出的人物否定反诘句式与语调上扬更偏向即刻预期违背，而非深层发酵的顾虑；认同图像专家指出的双眼睁大与挑眉特征，这有效修正了我此前将紧绷神态简单归为忧虑的判断。",
+    "reason": "目标人物在电话互动中，基于既有的增兵认知对电话对端传来的突发变故提出反问质询。结合图谱节点 [process_0] 与 [person_1] 构成的互动框架，男子在得知前方情况与既定部署严重脱节时产生认知失调；结合音画中眉毛扬起、双目睁大以及句尾上扬质问的语音特征，事件链焦点停留于刚听闻意外信息时的即时震惊与反诘，而非事态发生后的长线担忧。",
+    "open_emotion": "诧异",
+    "answer": "surprise",
+    "mapping_reason": "当前言行核心为原定防务安排被意外打破所引发的强烈认知失调，依据情绪轮中‘因当前信息违背预期产生的意外、诧异或震惊’之定义，精准映射为surprise。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "subtitle",
+        "anchor": "关东军不是已经增兵甲子沟、煤矿了吗？",
+        "observation": "采用“不是已经……了吗”的否定反问句式，将既定认知与对方传达的现实冲突推至台前。",
+        "interpretation": "表明既成部署与电话传来的新情况截然相反，言语意图体现直接的预期受挫与诧异。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "graph",
+        "anchor": "person_1",
+        "observation": "图谱记录男子面朝前方、嘴部开合说话且语气带有疑问。",
+        "interpretation": "为人物在通话互动中对消息进行即刻质疑提供了核心情境骨架。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "audio",
+        "anchor": "00:00-00:02",
+        "observation": "语速急促短促，音质紧绷，末尾“煤矿了吗”音调明显上扬且伴随质问式停顿。",
+        "interpretation": "急促上扬的质询音调印证了初闻冲击性消息时的即时错愕与不可置信。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "防守受阻确系不利消息并可能连带风险预期（worried），但在突发信息初次传入、目标人物立刻反诘核实的当下，其主导情绪仍是认知落差带来的即时惊诧。"
+  },
+  "usage": {
+    "completion_tokens": 2097,
+    "total_tokens": 6371,
+    "prompt_tokens": 4274,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1396
+    }
+  },
+  "seconds": 21.014698266983032
+}

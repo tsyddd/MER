@@ -1,0 +1,47 @@
+{
+  "output": {
+    "expert": "graph",
+    "changed": true,
+    "response_to_others": "认同音频字幕专家指出的压低声音与紧迫气息感，这与密谋交代险情的语境相符；认同图像专家指出的持续双目圆睁与面部紧绷特征，核查图谱节点person_0和person_2确实记录了相同生理表现，此前将该严肃紧绷视为中性平稳确实不够准确。",
+    "open_emotion": "紧张不安",
+    "answer": "worried",
+    "mapping_reason": "目标人物在向密友/谋士复述被君父起疑的生死险局时，表现出神情高度紧绷、双目睁大的心有余悸与紧张警觉。在情绪轮中，这种面临受责风险、顾虑不安的情感状态符合worried关于‘对可能负面结果、风险或受责的顾虑、焦虑、不安’的定义。",
+    "reason": "综合图谱线索与事件情境，目标人物当前的言语行为是向谋士交代自身此前遭遇君父严重猜忌的致命关头（process_1、process_2）。图谱明确记录其在此过程中“双目圆睁”[E1]且“面部表情紧绷”[E2]，与图像专家观察到的持续非松弛神态高度契合；结合台词对危机处境的陈述[E3]，其压低嗓音的叙述实质是密室交谈中克制而又心有余悸的紧张倾诉，而非毫无主导情绪的中性平常叙述，故修正为worried。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "graph",
+        "anchor": "person_0",
+        "observation": "图谱记录目标人物“面朝左侧注视对方，双目圆睁，嘴唇开合”。",
+        "interpretation": "双目持续圆睁反映出内心的戒备与紧绷，排除了完全松弛的状态。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "graph",
+        "anchor": "person_2",
+        "observation": "图谱记录目标人物“眉毛微挑，目光固定在左侧人物方向，面部表情紧绷”。",
+        "interpretation": "面部肌肉显现明确紧绷，印证其情绪处于受压抑的焦虑不安中。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "subtitle",
+        "anchor": "土木人一案，父皇本已对我起了疑心，可当我拿着同木人去求他的时候",
+        "interpretation": "陈述内容聚焦于危及性命的猜忌与未定局势，为当前的紧张不安提供了核心事件动机。",
+        "observation": "台词描述了自身遭遇君父起疑的险恶处境并停留在关键转折处。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "图谱节点person_1提及语调低缓平稳，可能被理解为客观冷静（neutral），但在秘密倾诉险境的语境下，低缓沉声是压抑紧张的控制表现，结合紧绷面容应判定为主导焦虑而非中性。"
+  },
+  "usage": {
+    "completion_tokens": 2333,
+    "total_tokens": 7349,
+    "prompt_tokens": 5016,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1553
+    }
+  },
+  "seconds": 22.145615339279175
+}

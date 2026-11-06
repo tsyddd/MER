@@ -1,0 +1,47 @@
+{
+  "output": {
+    "expert": "audio_subtitle",
+    "changed": false,
+    "response_to_others": "核实了图谱专家指出的急促升调尾音‘辞职啊？啊？’，但实际音轨中声音伴有紧绷发颤的焦灼质感，且核对frame_01至frame_05可见其眉心紧缩、内眉角上提并向下牵拉嘴角，属于典型的愁虑不安而非松弛睁圆的纯粹错愕（surprise）；核实并认同图像专家指出的眉头深锁与前倾专注体态，与听觉上紧迫追问辞职后果的焦急语调高度吻合，支持worried判断。",
+    "reason": "从语言与韵律主责角度复核音轨与字幕：说话者在00:00-00:02用极快语速发出‘不是，你为什么要辞职啊？啊？’，语调急促走高且尾部带有迫切的连续施压，语气充满对辞职这一打破稳定生计预期的焦虑追问。其语音中紧绷发颤的质感，与视觉上双眉紧锁、内侧眉毛上拉聚拢的愁容高度互证，核心指向对辞职原因及未知后果的强烈焦灼与担忧，而非单纯认知上的意外震惊或对抗性发怒。",
+    "open_emotion": "焦急不安",
+    "answer": "worried",
+    "mapping_reason": "台词直接指向‘辞职’这一潜藏生活危机与生计风险的不稳定事件；目标人物紧迫追问的言语行为与紧绷微颤的语调，充分表达了对潜在负面后果的不安与焦虑，符合情绪轮中worried（对负面结果、未知风险的顾虑、焦虑、不安）的核心定义。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "subtitle",
+        "anchor": "“不是，你，为什么要辞职？”",
+        "observation": "开头以否定叹词‘不是’切入，紧接着直接追问决定辞职的核心动因。",
+        "interpretation": "言语行为指向对对方擅自做出高风险决定的急切探询，体现出强烈的心理关切与焦虑。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "audio",
+        "anchor": "00:00 - 00:02",
+        "observation": "目标人物语速极快，重音落在‘辞职啊’，并在末尾追加短促升调的‘啊？’，音色紧绷且略带颤音。",
+        "interpretation": "紧迫的节奏与高位追问语调反映出内心的焦急与慌乱，强化了顾虑不安的情绪倾向。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "visual",
+        "anchor": "frame_01 至 frame_05 (0.40s - 1.92s)",
+        "observation": "面部内眉角向内上方收拢聚拢，呈现典型的八字愁容，嘴部紧抿微张，眼神紧锁对方。",
+        "interpretation": "面部形态呈现强烈的焦虑与忧虑特征，有力排除了纯粹震惊（surprise）或攻击性发怒（angry）。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "高昂急促的尾音追问表面上包含突发冲击（易被替选为surprise）与一定质问压迫感（易被替选为angry），但语调底色为发颤焦虑，且愁容微表情显示其重心在于对辞职后果的担忧，因此surprise与angry均退居次要。"
+  },
+  "usage": {
+    "completion_tokens": 1896,
+    "total_tokens": 14501,
+    "prompt_tokens": 12605,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1129
+    }
+  },
+  "seconds": 21.900441646575928
+}

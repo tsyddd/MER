@@ -1,0 +1,30 @@
+{
+  "id": "MER2024/sample_00001635",
+  "dataset": "MER2024",
+  "round0_labels": {
+    "graph": "surprise",
+    "audio_subtitle": "worried",
+    "image": "surprise"
+  },
+  "triggered": true,
+  "final": "worried",
+  "rounds_run": 2,
+  "round_labels": [
+    {
+      "graph": "surprise",
+      "audio_subtitle": "worried",
+      "image": "worried"
+    },
+    {
+      "graph": "worried",
+      "audio_subtitle": "worried",
+      "image": "worried"
+    }
+  ],
+  "final_expert_labels": {
+    "graph": "worried",
+    "audio_subtitle": "worried",
+    "image": "worried"
+  },
+  "judge": null
+}

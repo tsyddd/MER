@@ -1,0 +1,47 @@
+{
+  "output": {
+    "expert": "image",
+    "changed": false,
+    "response_to_others": "回应图谱专家：难以认同将Rachel的姿态与表情视作完全放松平稳的中性；其单手叉腰、身体前倾正对对方并伴随紧抿嘴角的直视，构成了具有明确问责性的对峙体态，不可仅因未出现歇斯底里的情绪爆发就判定为neutral。回应音频字幕专家：高度认同其指出的在'drive me out'处加重语气与问责扬调的观察，这与画面中Rachel严肃、专注且无笑意的指责神态完全契合，共同坐实了受冒犯后的不满情绪。",
+    "reason": "目标人物Rachel（画面正中红衣女性）在整段发问中保持单手叉腰、身体直立微倾且高度对峙的肢体语言[E1]；其面部表情严肃无笑意，双唇微抿且目光持续锁定对方，带有明显的审视与质问意味[E2]；结合台词对对方'逼走自己'意图的指责，整体视觉和语境体现的是因受排挤冒犯而产生的克制不满与责问[E3]，绝非无情绪的日常询问。",
+    "open_emotion": "不满",
+    "answer": "anger",
+    "mapping_reason": "Rachel当面对质并责问对方试图将自己驱逐出公寓的行为，符合情绪轮中anger（对受阻或冒犯产生的责备、对抗与不满）的界定。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "visual",
+        "anchor": "frame_00至frame_07 (0.0s-4.30s)",
+        "observation": "Rachel单手叉在腰间，另一手垂于身侧，正面紧盯对方，形成具有压迫感的对质姿态。",
+        "interpretation": "叉腰与稳固的对立站姿体现出问责和对立态度，排除随意轻松的交流氛围。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_04至frame_06 (2.46s-3.67s)",
+        "observation": "Rachel眉眼微聚，嘴角未现任何笑意，紧抿后张口发问，神情严肃凝重。",
+        "interpretation": "面部神情严肃专注，传达出受到算计后的不悦与认真质问。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "subtitle",
+        "anchor": "Did you get all this stuff for Joey to try and drive me out of the apartment?",
+        "observation": "字幕明确指涉对方故意用物品把她逼出公寓的负面行径。",
+        "interpretation": "话语内容具有明确的指控性，进一步佐证肢体对峙背后表达的责备情绪。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "Rachel的肢体和表情表现得相当自控与冷静，并未出现剧烈的面部抽动或肢体挥舞，若脱离其指责性的对峙站姿与台词背景，可能被表面解读为平稳质询（neutral）。"
+  },
+  "usage": {
+    "completion_tokens": 1320,
+    "total_tokens": 4943,
+    "prompt_tokens": 3623,
+    "completion_tokens_details": {
+      "reasoning_tokens": 530
+    }
+  },
+  "seconds": 16.585781574249268
+}

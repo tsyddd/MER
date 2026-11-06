@@ -1,0 +1,47 @@
+{
+  "output": {
+    "expert": "graph",
+    "changed": false,
+    "open_emotion": "沉思",
+    "answer": "neutral",
+    "mapping_reason": "目标人物对反常案情线索进行逻辑推敲与转述复盘，言语克制内敛，体态专注定格；情绪轮严格界定surprise不等同于所有疑问句，且突发震惊需要即时认知失调的强唤醒支持。男子在此处更多表现为理性分析与平稳陈述，故准确映射为neutral。",
+    "reason": "综合事件链组织与图谱节点，当前互动是已知案情的复盘推敲而非突发意外的即时冲击。言语链由质疑表象[process_0, process_1]自然过渡到引述当晚人面花的解释[process_2, process_3]，表明“百岁容颜”已是其掌握并获悉解释的已知信息，转述过程具备清晰的逻辑梳理性质。听觉上图谱节点[person_1]明确记录男子发声“语调低沉沉静”，排除了高唤醒的惊诧质感；体态上[person_3]屈肘手抵衣领、[person_4]定视前方的动作具有持续定格特征，完全符合深度沉思与平稳叙述的静态体征，符合neutral家族定义。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "graph",
+        "anchor": "person_1",
+        "observation": "图谱明确记录男子开口发声时“语调低沉沉静”，与[process_0]、[process_1]同时发生。",
+        "interpretation": "表明发声基调平和沉稳，直接反驳了剧烈认知颠覆所必需的惊呼或高唤醒质感。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "graph",
+        "anchor": "person_3与person_4",
+        "observation": "男子屈肘将拳头抵在颈前衣领处并持续保持，目光定视前方。",
+        "interpretation": "展现出身体控制力与向内聚焦的沉静体态，属于典型的案件推演复盘动作，而非受惊的失控反应。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "graph",
+        "anchor": "process_2与process_3",
+        "observation": "男子顺畅转述胡十四娘当晚提及使用“人面花”以“永葆青春”的因果关系。",
+        "interpretation": "表明说话者对反常事实早有知晓并正在回忆对方给出的理由，言语行为本质是提供案情线索的平稳叙述。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "台词表层包含疑问与否定（“真的一百多岁了，我怎么看也不像啊”），且双眼有微睁动作[person_2]，容易被直觉解读为诧异（surprise）；但置于低沉沉静的语调[person_1]与已知信息的复盘脉络下，反问仅是推演修辞。",
+    "response_to_others": "对音频字幕专家：你所称前半段的诧异语调被图谱实测节点[person_1]“语调低沉沉静”所反驳，且后半段完整叙述了当晚人面花对话，证明这是对已知事件的调取回忆而非即时突发惊愕，将台词疑问机械等同于surprise违背情绪轮定义。对图像专家：你提到的睁眼微蹙[person_2]在图谱中紧随垂眼抬眸[person_0]，且迅速归于手抵领口定视[person_3, person_4]，这些微动作处于案情沉思推理的连贯链条中，是专注审视的体态体现，不足以单独定性为主导性的惊诧情绪。"
+  },
+  "usage": {
+    "completion_tokens": 2418,
+    "total_tokens": 8333,
+    "prompt_tokens": 5915,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1477
+    }
+  },
+  "seconds": 25.79103136062622
+}

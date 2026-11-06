@@ -1,0 +1,39 @@
+{
+  "output": {
+    "expert": "image",
+    "changed": true,
+    "response_to_others": "核验了音频专家与图谱专家对音轨的定位（00:00-00:01.8），空乘发声确实极其明快高昂且充满鲜明的笑意共鸣；回到视觉媒体核实，frame_05至frame_07中空乘侧脸的颧肌明显提拉、嘴角上扬，与欢快的听觉表现高度契合，足以证明其呈现出充沛的外显亲切与愉悦，而非克制平淡的中性规范，因此采纳调整为joy。",
+    "reason": "目标人物为空乘人员（Flight Attendant），位于画面左侧侧对镜头。在视觉上，frame_00至frame_04其维持侧身迎客站姿，在frame_05至frame_07中可清晰观察到其侧面嘴角明显上扬展开，面颊肌群活跃[E1]。核验音轨后，其在00:00-00:01.8处说出“Thank you! Enjoy your flight?”时语调大幅度欢快上扬，伴随充沛的微笑发音共鸣[E2]。视听跨模态交叉证明其不仅是程式化接待，更呈现出鲜明主动的愉悦与亲和力，符合joy的范畴。",
+    "open_emotion": "亲切愉悦",
+    "answer": "joy",
+    "mapping_reason": "空乘在互动中呈现出明显的笑意、轻快上扬的语调与积极迎客的亲和感，符合情绪轮中joy关于愉悦、开心及正向互动体验的定义。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "visual",
+        "anchor": "frame_05至frame_07（1.50s-2.13s）",
+        "observation": "空乘人员侧脸嘴角明显向上拉升展开，面部呈现持续的微笑形态，身体微微前倾保持积极的互动姿态。",
+        "interpretation": "表明其在服务交流中流露出自然且饱满的正向友好态度，而非面部僵硬中性。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "audio",
+        "anchor": "00:00.5-00:01.8",
+        "observation": "空乘说出“Thank you! Enjoy your flight?”时音调高扬明亮，句末呈升调，带有清晰的笑音共鸣。",
+        "interpretation": "听觉信息与侧脸微笑相互印证，证实其状态充满热情与愉悦体验。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "由于空乘始终处于左侧边缘且大半背对镜头，无法全面观测其双眼周围的肌肉收缩细节，主要依赖侧颜嘴角动作与声音共鸣辅助判断。"
+  },
+  "usage": {
+    "completion_tokens": 1221,
+    "total_tokens": 13676,
+    "prompt_tokens": 12455,
+    "completion_tokens_details": {
+      "reasoning_tokens": 520
+    }
+  },
+  "seconds": 15.647503137588501
+}

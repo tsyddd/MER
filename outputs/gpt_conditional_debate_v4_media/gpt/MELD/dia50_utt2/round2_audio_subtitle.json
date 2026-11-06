@@ -1,0 +1,44 @@
+{
+  "output": {
+    "expert": "audio_subtitle",
+    "reason": "目标人物说“I’m so sorry!”是在向眼前的人道歉；“so”加强了歉意，但这不是对悲伤情绪的直接陈述[E1]。画面中她低身、面部难以辨认，无法进一步确认她是歉疚、慌张，还是仅作礼貌回应[E2]。在可核实的证据中，歉意仍是最明确的当前表达。",
+    "open_emotion": "歉疚",
+    "answer": "sadness",
+    "mapping_reason": "歉疚不等同于悲伤；在现有标签中，将这种针对已发生状况的负面自我感受近似映射为sadness。此判断不表示画面证实了哀伤。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "subtitle",
+        "anchor": "“I’m so sorry!”",
+        "observation": "当前字幕是一句用“so”加强的道歉。",
+        "interpretation": "支持歉意的解释，但不能仅凭“sorry”断定她正在悲伤。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_00（0.0秒）至frame_01（0.334秒）",
+        "observation": "画面右下方的人物低身，面部大多不可辨认。",
+        "interpretation": "姿态与局促的道歉相容，但不能据此区分歉疚与慌张。",
+        "polarity": "uncertain"
+      }
+    ],
+    "counterevidence": "最强替代解释是她在局促场面中仓促道歉并离开。字幕没有说明她为何道歉；画面也未显示她明确畏惧的威胁或负面后果。未提供音轨，不能核验语速或语调。",
+    "changed": false,
+    "response_to_others": "核对图谱专家所引frame_00至frame_04，可见人物低身、移动并受到遮挡；但仅凭这些画面，不能确认她因畏惧负面后果而离开。其process_0与视觉事实同源，person_1关于语声急促的转述因无原音轨无法核实。图像专家所引字幕和前两帧与提供材料相符；其指出面部不清、动作无法独立确定情绪，也符合画面。"
+  },
+  "usage": {
+    "completion_tokens": 664,
+    "total_tokens": 6455,
+    "prompt_tokens": 5791,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_creation_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 73
+    }
+  },
+  "seconds": 17.660017251968384
+}

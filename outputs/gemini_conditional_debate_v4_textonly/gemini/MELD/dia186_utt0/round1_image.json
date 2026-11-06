@@ -1,0 +1,39 @@
+{
+  "output": {
+    "expert": "image",
+    "changed": false,
+    "response_to_others": "认同图谱专家关于Chandler处于冷静克制的冷面幽默状态的判断，视觉与姿态确实维持在平稳基线。对于音频字幕专家的disgust判断不予认同，其将日常口语摆手与台词中的embarrassing过度解读为强烈的排斥嫌恶，视觉上Chandler毫无皱鼻、抬唇等厌恶微表情，身体全然倚靠沙发，动作松弛从容，不构成情绪轮定义的disgust。",
+    "reason": "目标人物钱德勒（画面右侧）在拒绝同行时仅有轻微的摆手动作[E1]，身体倚靠在沙发靠背上，肢体语言十分松弛。面部缺乏皱鼻、撇嘴加深或回避退缩等厌恶/排斥特征，亦无笑容或愤怒表情[E2]。整段表现为典型的冷面戏谑陈述，属于日常平稳的生活化表达，缺乏主导性的负向或正向情绪波动。",
+    "open_emotion": "平淡调侃",
+    "answer": "neutral",
+    "mapping_reason": "Chandler虽在言语中涉及embarrassing并伴随摆手，但视觉肌肉收缩与身体姿态均高度放松平稳，无主导性的厌弃（disgust）或愉悦（joy），依据情绪轮定义，这种无明显情绪起伏的冷面调侃状态映射为neutral。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "visual",
+        "anchor": "frame_01至frame_03 (0.46s-1.33s)",
+        "observation": "钱德勒右手轻抬做出小幅度摆手动作，身体倚靠沙发靠背，未出现身体后仰避险或紧绷抗拒态势。",
+        "interpretation": "肢体动作松弛自然，属日常交谈中的习惯性配合手势，无明显肢体排斥。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_05至frame_07 (2.25s-3.13s)",
+        "observation": "面部肌肉舒展平缓，眉毛未皱，未见鼻唇沟加深或鼻翼皱缩，神态淡定克制。",
+        "interpretation": "面部完全缺乏厌恶（disgust）的典型运动单元特征，支持平稳中性状态。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "台词含有'embarrassing'且有摆手推脱动作，易在语义上被归类为嫌弃（disgust），但其实际生理与面部指标均未脱离平稳中性基线。"
+  },
+  "usage": {
+    "completion_tokens": 1089,
+    "total_tokens": 4795,
+    "prompt_tokens": 3706,
+    "completion_tokens_details": {
+      "reasoning_tokens": 418
+    }
+  },
+  "seconds": 13.092864274978638
+}

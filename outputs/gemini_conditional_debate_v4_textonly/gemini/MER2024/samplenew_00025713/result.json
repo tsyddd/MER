@@ -1,0 +1,14 @@
+{
+  "id": "MER2024/samplenew_00025713",
+  "dataset": "MER2024",
+  "round0_labels": {
+    "graph": "surprise",
+    "audio_subtitle": "surprise",
+    "image": "surprise"
+  },
+  "triggered": false,
+  "final": "surprise",
+  "rounds_run": 0,
+  "round_labels": [],
+  "judge": null
+}

@@ -1,0 +1,1174 @@
+{
+  "version": "gpt_conditional_debate_v4_media",
+  "n": 80,
+  "accuracy": {
+    "A 现状：v3 汇总器": 56,
+    "B 三专家多数投票（平票算错）": 57,
+    "C1 条件辩论 R=1（仍分歧取多数；1-1-1 沿用汇总器）": 57,
+    "C2 条件辩论 R=2（同上）": 56,
+    "D2 条件辩论 R=2 + 文本裁判（仍分歧才调用）": 56
+  },
+  "debate_stats": {
+    "触发辩论的样本": 15,
+    "其中 现状汇总器答对": 6,
+    "其中 D2 答对": 6,
+    "D2 由错变对（相对现状）": 2,
+    "D2 由对变错（相对现状）": 2,
+    "专家在辩论中改变过答案（任一专家）": 14,
+    "辩论后达成一致": 13,
+    "辩论后一致且正确": 6,
+    "辩论后一致但错误": 7
+  },
+  "per_sample": [
+    {
+      "id": "MER2024/sample_00001635",
+      "gold": "surprise",
+      "round0": {
+        "graph": "surprise",
+        "audio_subtitle": "worried",
+        "image": "surprise"
+      },
+      "v3_summary": "surprise",
+      "triggered": true,
+      "round_labels": [
+        {
+          "graph": "surprise",
+          "audio_subtitle": "worried",
+          "image": "worried"
+        },
+        {
+          "graph": "worried",
+          "audio_subtitle": "worried",
+          "image": "worried"
+        }
+      ],
+      "final": "worried"
+    },
+    {
+      "id": "MER2024/sample_00002038",
+      "gold": "surprise",
+      "round0": {
+        "graph": "surprise",
+        "audio_subtitle": "worried",
+        "image": "worried"
+      },
+      "v3_summary": "worried",
+      "triggered": true,
+      "round_labels": [
+        {
+          "graph": "worried",
+          "audio_subtitle": "worried",
+          "image": "worried"
+        }
+      ],
+      "final": "worried"
+    },
+    {
+      "id": "MER2024/sample_00002893",
+      "gold": "worried",
+      "round0": {
+        "graph": "worried",
+        "audio_subtitle": "worried",
+        "image": "worried"
+      },
+      "v3_summary": "worried",
+      "triggered": false,
+      "round_labels": [],
+      "final": "worried"
+    },
+    {
+      "id": "MER2024/sample_00004468",
+      "gold": "surprise",
+      "round0": {
+        "graph": "angry",
+        "audio_subtitle": "angry",
+        "image": "angry"
+      },
+      "v3_summary": "angry",
+      "triggered": false,
+      "round_labels": [],
+      "final": "angry"
+    },
+    {
+      "id": "MER2024/samplenew_00002333",
+      "gold": "happy",
+      "round0": {
+        "graph": "happy",
+        "audio_subtitle": "happy",
+        "image": "happy"
+      },
+      "v3_summary": "happy",
+      "triggered": false,
+      "round_labels": [],
+      "final": "happy"
+    },
+    {
+      "id": "MER2024/samplenew_00003759",
+      "gold": "surprise",
+      "round0": {
+        "graph": "surprise",
+        "audio_subtitle": "surprise",
+        "image": "surprise"
+      },
+      "v3_summary": "surprise",
+      "triggered": false,
+      "round_labels": [],
+      "final": "surprise"
+    },
+    {
+      "id": "MER2024/samplenew_00005203",
+      "gold": "sad",
+      "round0": {
+        "graph": "worried",
+        "audio_subtitle": "sad",
+        "image": "sad"
+      },
+      "v3_summary": "sad",
+      "triggered": true,
+      "round_labels": [
+        {
+          "graph": "sad",
+          "audio_subtitle": "sad",
+          "image": "sad"
+        }
+      ],
+      "final": "sad"
+    },
+    {
+      "id": "MER2024/samplenew_00005588",
+      "gold": "neutral",
+      "round0": {
+        "graph": "sad",
+        "audio_subtitle": "sad",
+        "image": "sad"
+      },
+      "v3_summary": "sad",
+      "triggered": false,
+      "round_labels": [],
+      "final": "sad"
+    },
+    {
+      "id": "MER2024/samplenew_00005612",
+      "gold": "neutral",
+      "round0": {
+        "graph": "neutral",
+        "audio_subtitle": "neutral",
+        "image": "neutral"
+      },
+      "v3_summary": "neutral",
+      "triggered": false,
+      "round_labels": [],
+      "final": "neutral"
+    },
+    {
+      "id": "MER2024/samplenew_00006180",
+      "gold": "neutral",
+      "round0": {
+        "graph": "neutral",
+        "audio_subtitle": "neutral",
+        "image": "neutral"
+      },
+      "v3_summary": "neutral",
+      "triggered": false,
+      "round_labels": [],
+      "final": "neutral"
+    },
+    {
+      "id": "MER2024/samplenew_00006335",
+      "gold": "angry",
+      "round0": {
+        "graph": "worried",
+        "audio_subtitle": "surprise",
+        "image": "worried"
+      },
+      "v3_summary": "worried",
+      "triggered": true,
+      "round_labels": [
+        {
+          "graph": "worried",
+          "audio_subtitle": "worried",
+          "image": "worried"
+        }
+      ],
+      "final": "worried"
+    },
+    {
+      "id": "MER2024/samplenew_00013076",
+      "gold": "happy",
+      "round0": {
+        "graph": "happy",
+        "audio_subtitle": "happy",
+        "image": "happy"
+      },
+      "v3_summary": "happy",
+      "triggered": false,
+      "round_labels": [],
+      "final": "happy"
+    },
+    {
+      "id": "MER2024/samplenew_00013127",
+      "gold": "happy",
+      "round0": {
+        "graph": "happy",
+        "audio_subtitle": "happy",
+        "image": "happy"
+      },
+      "v3_summary": "happy",
+      "triggered": false,
+      "round_labels": [],
+      "final": "happy"
+    },
+    {
+      "id": "MER2024/samplenew_00013200",
+      "gold": "angry",
+      "round0": {
+        "graph": "angry",
+        "audio_subtitle": "angry",
+        "image": "angry"
+      },
+      "v3_summary": "angry",
+      "triggered": false,
+      "round_labels": [],
+      "final": "angry"
+    },
+    {
+      "id": "MER2024/samplenew_00013928",
+      "gold": "happy",
+      "round0": {
+        "graph": "happy",
+        "audio_subtitle": "happy",
+        "image": "happy"
+      },
+      "v3_summary": "happy",
+      "triggered": false,
+      "round_labels": [],
+      "final": "happy"
+    },
+    {
+      "id": "MER2024/samplenew_00014279",
+      "gold": "angry",
+      "round0": {
+        "graph": "angry",
+        "audio_subtitle": "angry",
+        "image": "angry"
+      },
+      "v3_summary": "angry",
+      "triggered": false,
+      "round_labels": [],
+      "final": "angry"
+    },
+    {
+      "id": "MER2024/samplenew_00014357",
+      "gold": "happy",
+      "round0": {
+        "graph": "happy",
+        "audio_subtitle": "happy",
+        "image": "happy"
+      },
+      "v3_summary": "happy",
+      "triggered": false,
+      "round_labels": [],
+      "final": "happy"
+    },
+    {
+      "id": "MER2024/samplenew_00014662",
+      "gold": "worried",
+      "round0": {
+        "graph": "worried",
+        "audio_subtitle": "worried",
+        "image": "worried"
+      },
+      "v3_summary": "worried",
+      "triggered": false,
+      "round_labels": [],
+      "final": "worried"
+    },
+    {
+      "id": "MER2024/samplenew_00015349",
+      "gold": "worried",
+      "round0": {
+        "graph": "worried",
+        "audio_subtitle": "worried",
+        "image": "worried"
+      },
+      "v3_summary": "worried",
+      "triggered": false,
+      "round_labels": [],
+      "final": "worried"
+    },
+    {
+      "id": "MER2024/samplenew_00019636",
+      "gold": "surprise",
+      "round0": {
+        "graph": "surprise",
+        "audio_subtitle": "surprise",
+        "image": "surprise"
+      },
+      "v3_summary": "surprise",
+      "triggered": false,
+      "round_labels": [],
+      "final": "surprise"
+    },
+    {
+      "id": "MER2024/samplenew_00021837",
+      "gold": "neutral",
+      "round0": {
+        "graph": "neutral",
+        "audio_subtitle": "neutral",
+        "image": "neutral"
+      },
+      "v3_summary": "neutral",
+      "triggered": false,
+      "round_labels": [],
+      "final": "neutral"
+    },
+    {
+      "id": "MER2024/samplenew_00021849",
+      "gold": "neutral",
+      "round0": {
+        "graph": "neutral",
+        "audio_subtitle": "neutral",
+        "image": "worried"
+      },
+      "v3_summary": "neutral",
+      "triggered": true,
+      "round_labels": [
+        {
+          "graph": "neutral",
+          "audio_subtitle": "neutral",
+          "image": "neutral"
+        }
+      ],
+      "final": "neutral"
+    },
+    {
+      "id": "MER2024/samplenew_00021868",
+      "gold": "neutral",
+      "round0": {
+        "graph": "sad",
+        "audio_subtitle": "worried",
+        "image": "worried"
+      },
+      "v3_summary": "sad",
+      "triggered": true,
+      "round_labels": [
+        {
+          "graph": "sad",
+          "audio_subtitle": "worried",
+          "image": "worried"
+        },
+        {
+          "graph": "sad",
+          "audio_subtitle": "worried",
+          "image": "worried"
+        }
+      ],
+      "final": "sad"
+    },
+    {
+      "id": "MER2024/samplenew_00025713",
+      "gold": "surprise",
+      "round0": {
+        "graph": "surprise",
+        "audio_subtitle": "surprise",
+        "image": "surprise"
+      },
+      "v3_summary": "surprise",
+      "triggered": false,
+      "round_labels": [],
+      "final": "surprise"
+    },
+    {
+      "id": "MER2024/samplenew_00029282",
+      "gold": "sad",
+      "round0": {
+        "graph": "sad",
+        "audio_subtitle": "sad",
+        "image": "sad"
+      },
+      "v3_summary": "sad",
+      "triggered": false,
+      "round_labels": [],
+      "final": "sad"
+    },
+    {
+      "id": "MER2024/samplenew_00030944",
+      "gold": "worried",
+      "round0": {
+        "graph": "worried",
+        "audio_subtitle": "worried",
+        "image": "worried"
+      },
+      "v3_summary": "worried",
+      "triggered": false,
+      "round_labels": [],
+      "final": "worried"
+    },
+    {
+      "id": "MER2024/samplenew_00031467",
+      "gold": "happy",
+      "round0": {
+        "graph": "neutral",
+        "audio_subtitle": "neutral",
+        "image": "neutral"
+      },
+      "v3_summary": "neutral",
+      "triggered": false,
+      "round_labels": [],
+      "final": "neutral"
+    },
+    {
+      "id": "MER2024/samplenew_00033166",
+      "gold": "angry",
+      "round0": {
+        "graph": "angry",
+        "audio_subtitle": "angry",
+        "image": "angry"
+      },
+      "v3_summary": "angry",
+      "triggered": false,
+      "round_labels": [],
+      "final": "angry"
+    },
+    {
+      "id": "MER2024/samplenew_00033539",
+      "gold": "surprise",
+      "round0": {
+        "graph": "surprise",
+        "audio_subtitle": "surprise",
+        "image": "surprise"
+      },
+      "v3_summary": "surprise",
+      "triggered": false,
+      "round_labels": [],
+      "final": "surprise"
+    },
+    {
+      "id": "MER2024/samplenew_00034225",
+      "gold": "worried",
+      "round0": {
+        "graph": "worried",
+        "audio_subtitle": "worried",
+        "image": "worried"
+      },
+      "v3_summary": "worried",
+      "triggered": false,
+      "round_labels": [],
+      "final": "worried"
+    },
+    {
+      "id": "MER2024/samplenew_00034373",
+      "gold": "sad",
+      "round0": {
+        "graph": "sad",
+        "audio_subtitle": "sad",
+        "image": "sad"
+      },
+      "v3_summary": "sad",
+      "triggered": false,
+      "round_labels": [],
+      "final": "sad"
+    },
+    {
+      "id": "MER2024/samplenew_00034518",
+      "gold": "worried",
+      "round0": {
+        "graph": "worried",
+        "audio_subtitle": "worried",
+        "image": "worried"
+      },
+      "v3_summary": "worried",
+      "triggered": false,
+      "round_labels": [],
+      "final": "worried"
+    },
+    {
+      "id": "MER2024/samplenew_00035599",
+      "gold": "sad",
+      "round0": {
+        "graph": "sad",
+        "audio_subtitle": "sad",
+        "image": "sad"
+      },
+      "v3_summary": "sad",
+      "triggered": false,
+      "round_labels": [],
+      "final": "sad"
+    },
+    {
+      "id": "MER2024/samplenew_00035777",
+      "gold": "angry",
+      "round0": {
+        "graph": "angry",
+        "audio_subtitle": "angry",
+        "image": "angry"
+      },
+      "v3_summary": "angry",
+      "triggered": false,
+      "round_labels": [],
+      "final": "angry"
+    },
+    {
+      "id": "MER2024/samplenew_00035837",
+      "gold": "sad",
+      "round0": {
+        "graph": "sad",
+        "audio_subtitle": "sad",
+        "image": "sad"
+      },
+      "v3_summary": "sad",
+      "triggered": false,
+      "round_labels": [],
+      "final": "sad"
+    },
+    {
+      "id": "MER2024/samplenew_00035950",
+      "gold": "sad",
+      "round0": {
+        "graph": "angry",
+        "audio_subtitle": "angry",
+        "image": "angry"
+      },
+      "v3_summary": "angry",
+      "triggered": false,
+      "round_labels": [],
+      "final": "angry"
+    },
+    {
+      "id": "MER2024/samplenew_00036745",
+      "gold": "neutral",
+      "round0": {
+        "graph": "neutral",
+        "audio_subtitle": "neutral",
+        "image": "worried"
+      },
+      "v3_summary": "neutral",
+      "triggered": true,
+      "round_labels": [
+        {
+          "graph": "neutral",
+          "audio_subtitle": "neutral",
+          "image": "neutral"
+        }
+      ],
+      "final": "neutral"
+    },
+    {
+      "id": "MER2024/samplenew_00038936",
+      "gold": "worried",
+      "round0": {
+        "graph": "worried",
+        "audio_subtitle": "worried",
+        "image": "worried"
+      },
+      "v3_summary": "worried",
+      "triggered": false,
+      "round_labels": [],
+      "final": "worried"
+    },
+    {
+      "id": "MER2024/samplenew_00040685",
+      "gold": "angry",
+      "round0": {
+        "graph": "worried",
+        "audio_subtitle": "worried",
+        "image": "worried"
+      },
+      "v3_summary": "worried",
+      "triggered": false,
+      "round_labels": [],
+      "final": "worried"
+    },
+    {
+      "id": "MER2024/samplenew_00041734",
+      "gold": "angry",
+      "round0": {
+        "graph": "surprise",
+        "audio_subtitle": "surprise",
+        "image": "worried"
+      },
+      "v3_summary": "surprise",
+      "triggered": true,
+      "round_labels": [
+        {
+          "graph": "surprise",
+          "audio_subtitle": "surprise",
+          "image": "surprise"
+        }
+      ],
+      "final": "surprise"
+    },
+    {
+      "id": "MELD/dia0_utt2",
+      "gold": "neutral",
+      "round0": {
+        "graph": "neutral",
+        "audio_subtitle": "anger",
+        "image": "anger"
+      },
+      "v3_summary": "anger",
+      "triggered": true,
+      "round_labels": [
+        {
+          "graph": "neutral",
+          "audio_subtitle": "neutral",
+          "image": "neutral"
+        }
+      ],
+      "final": "neutral"
+    },
+    {
+      "id": "MELD/dia109_utt4",
+      "gold": "surprise",
+      "round0": {
+        "graph": "surprise",
+        "audio_subtitle": "surprise",
+        "image": "surprise"
+      },
+      "v3_summary": "surprise",
+      "triggered": false,
+      "round_labels": [],
+      "final": "surprise"
+    },
+    {
+      "id": "MELD/dia109_utt5",
+      "gold": "anger",
+      "round0": {
+        "graph": "anger",
+        "audio_subtitle": "anger",
+        "image": "anger"
+      },
+      "v3_summary": "anger",
+      "triggered": false,
+      "round_labels": [],
+      "final": "anger"
+    },
+    {
+      "id": "MELD/dia115_utt3",
+      "gold": "disgust",
+      "round0": {
+        "graph": "anger",
+        "audio_subtitle": "anger",
+        "image": "neutral"
+      },
+      "v3_summary": "anger",
+      "triggered": true,
+      "round_labels": [
+        {
+          "graph": "anger",
+          "audio_subtitle": "anger",
+          "image": "anger"
+        }
+      ],
+      "final": "anger"
+    },
+    {
+      "id": "MELD/dia119_utt5",
+      "gold": "fear",
+      "round0": {
+        "graph": "fear",
+        "audio_subtitle": "fear",
+        "image": "fear"
+      },
+      "v3_summary": "fear",
+      "triggered": false,
+      "round_labels": [],
+      "final": "fear"
+    },
+    {
+      "id": "MELD/dia131_utt3",
+      "gold": "joy",
+      "round0": {
+        "graph": "joy",
+        "audio_subtitle": "sadness",
+        "image": "joy"
+      },
+      "v3_summary": "sadness",
+      "triggered": true,
+      "round_labels": [
+        {
+          "graph": "joy",
+          "audio_subtitle": "joy",
+          "image": "joy"
+        }
+      ],
+      "final": "joy"
+    },
+    {
+      "id": "MELD/dia132_utt2",
+      "gold": "neutral",
+      "round0": {
+        "graph": "neutral",
+        "audio_subtitle": "neutral",
+        "image": "neutral"
+      },
+      "v3_summary": "neutral",
+      "triggered": false,
+      "round_labels": [],
+      "final": "neutral"
+    },
+    {
+      "id": "MELD/dia140_utt4",
+      "gold": "neutral",
+      "round0": {
+        "graph": "neutral",
+        "audio_subtitle": "neutral",
+        "image": "neutral"
+      },
+      "v3_summary": "neutral",
+      "triggered": false,
+      "round_labels": [],
+      "final": "neutral"
+    },
+    {
+      "id": "MELD/dia150_utt4",
+      "gold": "sadness",
+      "round0": {
+        "graph": "sadness",
+        "audio_subtitle": "sadness",
+        "image": "sadness"
+      },
+      "v3_summary": "sadness",
+      "triggered": false,
+      "round_labels": [],
+      "final": "sadness"
+    },
+    {
+      "id": "MELD/dia153_utt11",
+      "gold": "fear",
+      "round0": {
+        "graph": "neutral",
+        "audio_subtitle": "anger",
+        "image": "anger"
+      },
+      "v3_summary": "anger",
+      "triggered": true,
+      "round_labels": [
+        {
+          "graph": "anger",
+          "audio_subtitle": "anger",
+          "image": "anger"
+        }
+      ],
+      "final": "anger"
+    },
+    {
+      "id": "MELD/dia153_utt4",
+      "gold": "fear",
+      "round0": {
+        "graph": "anger",
+        "audio_subtitle": "anger",
+        "image": "anger"
+      },
+      "v3_summary": "anger",
+      "triggered": false,
+      "round_labels": [],
+      "final": "anger"
+    },
+    {
+      "id": "MELD/dia168_utt13",
+      "gold": "anger",
+      "round0": {
+        "graph": "anger",
+        "audio_subtitle": "anger",
+        "image": "anger"
+      },
+      "v3_summary": "anger",
+      "triggered": false,
+      "round_labels": [],
+      "final": "anger"
+    },
+    {
+      "id": "MELD/dia178_utt2",
+      "gold": "joy",
+      "round0": {
+        "graph": "joy",
+        "audio_subtitle": "joy",
+        "image": "joy"
+      },
+      "v3_summary": "joy",
+      "triggered": false,
+      "round_labels": [],
+      "final": "joy"
+    },
+    {
+      "id": "MELD/dia186_utt0",
+      "gold": "disgust",
+      "round0": {
+        "graph": "disgust",
+        "audio_subtitle": "anger",
+        "image": "disgust"
+      },
+      "v3_summary": "disgust",
+      "triggered": true,
+      "round_labels": [
+        {
+          "graph": "disgust",
+          "audio_subtitle": "disgust",
+          "image": "disgust"
+        }
+      ],
+      "final": "disgust"
+    },
+    {
+      "id": "MELD/dia186_utt3",
+      "gold": "sadness",
+      "round0": {
+        "graph": "sadness",
+        "audio_subtitle": "sadness",
+        "image": "sadness"
+      },
+      "v3_summary": "sadness",
+      "triggered": false,
+      "round_labels": [],
+      "final": "sadness"
+    },
+    {
+      "id": "MELD/dia188_utt0",
+      "gold": "neutral",
+      "round0": {
+        "graph": "surprise",
+        "audio_subtitle": "surprise",
+        "image": "surprise"
+      },
+      "v3_summary": "surprise",
+      "triggered": false,
+      "round_labels": [],
+      "final": "surprise"
+    },
+    {
+      "id": "MELD/dia192_utt9",
+      "gold": "surprise",
+      "round0": {
+        "graph": "anger",
+        "audio_subtitle": "anger",
+        "image": "anger"
+      },
+      "v3_summary": "anger",
+      "triggered": false,
+      "round_labels": [],
+      "final": "anger"
+    },
+    {
+      "id": "MELD/dia198_utt2",
+      "gold": "anger",
+      "round0": {
+        "graph": "anger",
+        "audio_subtitle": "anger",
+        "image": "anger"
+      },
+      "v3_summary": "anger",
+      "triggered": false,
+      "round_labels": [],
+      "final": "anger"
+    },
+    {
+      "id": "MELD/dia200_utt2",
+      "gold": "anger",
+      "round0": {
+        "graph": "surprise",
+        "audio_subtitle": "surprise",
+        "image": "surprise"
+      },
+      "v3_summary": "surprise",
+      "triggered": false,
+      "round_labels": [],
+      "final": "surprise"
+    },
+    {
+      "id": "MELD/dia21_utt6",
+      "gold": "surprise",
+      "round0": {
+        "graph": "joy",
+        "audio_subtitle": "joy",
+        "image": "joy"
+      },
+      "v3_summary": "joy",
+      "triggered": false,
+      "round_labels": [],
+      "final": "joy"
+    },
+    {
+      "id": "MELD/dia224_utt2",
+      "gold": "neutral",
+      "round0": {
+        "graph": "neutral",
+        "audio_subtitle": "neutral",
+        "image": "neutral"
+      },
+      "v3_summary": "neutral",
+      "triggered": false,
+      "round_labels": [],
+      "final": "neutral"
+    },
+    {
+      "id": "MELD/dia226_utt3",
+      "gold": "sadness",
+      "round0": {
+        "graph": "sadness",
+        "audio_subtitle": "sadness",
+        "image": "sadness"
+      },
+      "v3_summary": "sadness",
+      "triggered": false,
+      "round_labels": [],
+      "final": "sadness"
+    },
+    {
+      "id": "MELD/dia233_utt0",
+      "gold": "anger",
+      "round0": {
+        "graph": "anger",
+        "audio_subtitle": "anger",
+        "image": "anger"
+      },
+      "v3_summary": "anger",
+      "triggered": false,
+      "round_labels": [],
+      "final": "anger"
+    },
+    {
+      "id": "MELD/dia233_utt1",
+      "gold": "disgust",
+      "round0": {
+        "graph": "anger",
+        "audio_subtitle": "anger",
+        "image": "anger"
+      },
+      "v3_summary": "anger",
+      "triggered": false,
+      "round_labels": [],
+      "final": "anger"
+    },
+    {
+      "id": "MELD/dia237_utt3",
+      "gold": "disgust",
+      "round0": {
+        "graph": "disgust",
+        "audio_subtitle": "disgust",
+        "image": "disgust"
+      },
+      "v3_summary": "disgust",
+      "triggered": false,
+      "round_labels": [],
+      "final": "disgust"
+    },
+    {
+      "id": "MELD/dia239_utt0",
+      "gold": "neutral",
+      "round0": {
+        "graph": "neutral",
+        "audio_subtitle": "neutral",
+        "image": "neutral"
+      },
+      "v3_summary": "neutral",
+      "triggered": false,
+      "round_labels": [],
+      "final": "neutral"
+    },
+    {
+      "id": "MELD/dia239_utt2",
+      "gold": "surprise",
+      "round0": {
+        "graph": "surprise",
+        "audio_subtitle": "surprise",
+        "image": "surprise"
+      },
+      "v3_summary": "surprise",
+      "triggered": false,
+      "round_labels": [],
+      "final": "surprise"
+    },
+    {
+      "id": "MELD/dia245_utt4",
+      "gold": "fear",
+      "round0": {
+        "graph": "fear",
+        "audio_subtitle": "fear",
+        "image": "surprise"
+      },
+      "v3_summary": "fear",
+      "triggered": true,
+      "round_labels": [
+        {
+          "graph": "fear",
+          "audio_subtitle": "fear",
+          "image": "surprise"
+        },
+        {
+          "graph": "fear",
+          "audio_subtitle": "surprise",
+          "image": "surprise"
+        }
+      ],
+      "final": "surprise"
+    },
+    {
+      "id": "MELD/dia259_utt10",
+      "gold": "disgust",
+      "round0": {
+        "graph": "anger",
+        "audio_subtitle": "anger",
+        "image": "anger"
+      },
+      "v3_summary": "anger",
+      "triggered": false,
+      "round_labels": [],
+      "final": "anger"
+    },
+    {
+      "id": "MELD/dia259_utt9",
+      "gold": "disgust",
+      "round0": {
+        "graph": "joy",
+        "audio_subtitle": "joy",
+        "image": "joy"
+      },
+      "v3_summary": "joy",
+      "triggered": false,
+      "round_labels": [],
+      "final": "joy"
+    },
+    {
+      "id": "MELD/dia263_utt9",
+      "gold": "sadness",
+      "round0": {
+        "graph": "sadness",
+        "audio_subtitle": "sadness",
+        "image": "sadness"
+      },
+      "v3_summary": "sadness",
+      "triggered": false,
+      "round_labels": [],
+      "final": "sadness"
+    },
+    {
+      "id": "MELD/dia33_utt6",
+      "gold": "sadness",
+      "round0": {
+        "graph": "anger",
+        "audio_subtitle": "anger",
+        "image": "anger"
+      },
+      "v3_summary": "anger",
+      "triggered": false,
+      "round_labels": [],
+      "final": "anger"
+    },
+    {
+      "id": "MELD/dia34_utt17",
+      "gold": "anger",
+      "round0": {
+        "graph": "anger",
+        "audio_subtitle": "anger",
+        "image": "anger"
+      },
+      "v3_summary": "anger",
+      "triggered": false,
+      "round_labels": [],
+      "final": "anger"
+    },
+    {
+      "id": "MELD/dia34_utt5",
+      "gold": "surprise",
+      "round0": {
+        "graph": "surprise",
+        "audio_subtitle": "surprise",
+        "image": "surprise"
+      },
+      "v3_summary": "surprise",
+      "triggered": false,
+      "round_labels": [],
+      "final": "surprise"
+    },
+    {
+      "id": "MELD/dia38_utt1",
+      "gold": "joy",
+      "round0": {
+        "graph": "joy",
+        "audio_subtitle": "joy",
+        "image": "joy"
+      },
+      "v3_summary": "joy",
+      "triggered": false,
+      "round_labels": [],
+      "final": "joy"
+    },
+    {
+      "id": "MELD/dia40_utt0",
+      "gold": "joy",
+      "round0": {
+        "graph": "joy",
+        "audio_subtitle": "joy",
+        "image": "joy"
+      },
+      "v3_summary": "joy",
+      "triggered": false,
+      "round_labels": [],
+      "final": "joy"
+    },
+    {
+      "id": "MELD/dia50_utt2",
+      "gold": "fear",
+      "round0": {
+        "graph": "fear",
+        "audio_subtitle": "sadness",
+        "image": "sadness"
+      },
+      "v3_summary": "sadness",
+      "triggered": true,
+      "round_labels": [
+        {
+          "graph": "fear",
+          "audio_subtitle": "sadness",
+          "image": "sadness"
+        },
+        {
+          "graph": "sadness",
+          "audio_subtitle": "sadness",
+          "image": "sadness"
+        }
+      ],
+      "final": "sadness"
+    },
+    {
+      "id": "MELD/dia66_utt1",
+      "gold": "joy",
+      "round0": {
+        "graph": "neutral",
+        "audio_subtitle": "neutral",
+        "image": "neutral"
+      },
+      "v3_summary": "neutral",
+      "triggered": false,
+      "round_labels": [],
+      "final": "neutral"
+    },
+    {
+      "id": "MELD/dia66_utt2",
+      "gold": "joy",
+      "round0": {
+        "graph": "joy",
+        "audio_subtitle": "joy",
+        "image": "joy"
+      },
+      "v3_summary": "joy",
+      "triggered": false,
+      "round_labels": [],
+      "final": "joy"
+    },
+    {
+      "id": "MELD/dia9_utt11",
+      "gold": "sadness",
+      "round0": {
+        "graph": "sadness",
+        "audio_subtitle": "sadness",
+        "image": "sadness"
+      },
+      "v3_summary": "sadness",
+      "triggered": false,
+      "round_labels": [],
+      "final": "sadness"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "output": {
+    "changed": false,
+    "response_to_others": "核实图谱专家论点，其称男子始终平稳沉稳，但重听音轨00:00-00:03及核对frame_01-frame_03可见，男子睁眼蹙眉且语调明显上扬反问，并非无情绪的平稳陈述，将其归为中性忽略了显著的认知冲突；核实音频字幕专家论点，其指出的疑问语气与frame_01-frame_03的困惑诧异神态完全属实，有力支持了违背预期的判断。",
+    "expert": "image",
+    "reason": "目标人物在谈及胡十四娘年龄时，从frame_00的低头闭目转为frame_01至frame_03的骤然睁眼、双眉紧蹙、目光聚焦凝视[E1]，其面部动态伴随明显的嘴部微张与不可置信神情；随后在frame_05至frame_07右手握拳抵于领口处[E2]，显现出面对匪夷所思事实时的惊诧与深思，核心驱动力是对违背常理预期的惊疑。",
+    "open_emotion": "诧异",
+    "answer": "surprise",
+    "mapping_reason": "目标人物因对方‘百岁却面容年轻’这一彻底打破常理的信息产生强烈的难以置信与困惑反应，完全符合情绪轮中因违背预期而产生的诧异与惊奇界定，故严格映射为surprise。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "visual",
+        "anchor": "frame_01至frame_03 (1.24s-3.72s)",
+        "observation": "目标人物双眼睁大、双眉向眉心聚拢锁紧，眼睑收紧凝视前方下方，唇部微张说出反问语句。",
+        "interpretation": "表现出接收到离奇反常事实时的即时冲击、难以置信与困惑诧异。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_05至frame_07 (6.16s-8.64s)",
+        "observation": "右手迅速抬起并握拳抵住颈下衣领，眼神定住凝神回忆转述人面花之事。",
+        "interpretation": "肢体防御性微紧绷，印证其正被该离奇反常之事深度困扰并反复思索。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "男子后半段语速放缓且手势维持静止（frame_06-07），可能产生向沉思或低沉叙述过渡的观感，但该沉思完全由前面的不可思议惊疑所驱动，非平静中性。"
+  },
+  "usage": {
+    "completion_tokens": 1679,
+    "total_tokens": 14198,
+    "prompt_tokens": 12519,
+    "completion_tokens_details": {
+      "reasoning_tokens": 984
+    }
+  },
+  "seconds": 18.627506494522095
+}

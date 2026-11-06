@@ -1,0 +1,44 @@
+{
+  "output": {
+    "expert": "graph",
+    "reason": "综合事件组织关系与多方证据辩论，Monica在当前片段的核心互动是面向同伴做事实说明（process_0），紧接着交代规避理由并落实到具体动作（process_1、person_2、person_3）[E1, E2]。图谱person_1所记录的‘语调平稳连续’，与音频专家指出的‘稳健匀速、句末自然降调、无笑场破音’形成强互补，直接否定了图像专家声称的高唤醒‘笑腔’[E1]。图像专家所观察到的露齿展颜与舒展体态，在日常非正式交往中属于正常的随和与社交放松，并不等同于强烈的愉悦（joy）冲动；从言语提醒到注意力转向街机机台的连贯过程，充分体现其注意力在于理性处理眼前事务，情绪底色完全符合情绪轮定义的平稳、日常之neutral[E3]。",
+    "open_emotion": "平常",
+    "answer": "neutral",
+    "mapping_reason": "Monica的互动行为表现为平稳的事实说明与就事论事的操作转移，缺乏强烈的正向愉悦唤醒或负向对抗，完全契合情绪轮中'平稳、日常且没有明确主导情绪的表达'之neutral定义。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "graph",
+        "anchor": "person_1",
+        "observation": "图谱记录Monica对同伴发声时语调保持平稳连续，与音频专家验证的陈述性自然降调完全吻合",
+        "interpretation": "表明其言语输出为常态陈述，排除了图像专家所主张的兴奋笑音或戏谑高唤醒状态",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "graph",
+        "anchor": "person_2与person_3",
+        "observation": "Monica在说出规避理由时伸手触碰街机控制台，随后视线转移至街机屏幕并身体前倾",
+        "interpretation": "动作链（process_joint）清晰表明其行为焦点是处理实际事务，属于务实解决问题的中性动作取向",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "subtitle",
+        "anchor": "But Ben is coming over tonight and he can’t see this.",
+        "observation": "台词结构完整清晰，用于解释行动动机和限制条件",
+        "interpretation": "言语逻辑完全立足于客观事实与解决问题，支撑其处于平稳理性的中性交流状态",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "图像专家指出的露齿面容确实呈现出轻松状态，但若将其界定为主导性的joy，则与图谱中连续平稳的声调记录（person_1）以及务实连贯的机台操作链（person_2、person_3）相矛盾。",
+    "changed": false,
+    "response_to_others": "我认同音频字幕专家关于其声学降调、无笑声颤动且属理性功能性沟通的判定；对图像专家，其主张的‘笑腔戏谑’已被音频专家与图谱person_1的‘平稳连续’共同推翻，其所见的露齿笑容只是朋友闲聊时的社交随和，不能据此将务实解决问题的平稳状态判定为joy。"
+  },
+  "usage": {
+    "completion_tokens": 832,
+    "total_tokens": 6110,
+    "prompt_tokens": 5278
+  },
+  "seconds": 10.163023233413696
+}

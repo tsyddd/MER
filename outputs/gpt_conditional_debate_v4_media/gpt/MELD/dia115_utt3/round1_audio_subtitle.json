@@ -1,0 +1,44 @@
+{
+  "output": {
+    "expert": "audio_subtitle",
+    "reason": "Ross说“Shielding your face and shrieking like a girl... is not a backhand”，不是中性地定义动作：他用带刺的描述否定对方的说法，表现出轻度责备[E1]。画面中他面向对方说话，未见明显笑容，与这一解释相容，但表情本身不足以证明他生气[E2]。",
+    "open_emotion": "不满",
+    "answer": "anger",
+    "mapping_reason": "这里的不满指向对方的说法和表现，属于情绪轮中责备、对抗方向的anger；不意味着强烈愤怒。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "subtitle",
+        "anchor": "Shielding your face and shrieking like a girl... is not a backhand.",
+        "observation": "Ross用“shrieking like a girl”描述对方的表现，并明确否定那是“backhand”。",
+        "interpretation": "带刺的否定比单纯说明动作名称更支持轻度不满。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_02（1.543秒）至frame_04（3.086秒）",
+        "observation": "右侧的Ross面向左侧人物说话，未见明显笑容或激烈动作。",
+        "interpretation": "画面容许克制的责备，也限制了对愤怒强度的判断。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "最强的替代解释是朋友间平稳的揶揄：Ross没有明显激烈的表情或手势。片段未提供音轨，无法用语调区分玩笑与恼火；因此判断仅限于字幕措辞和画面。",
+    "changed": false,
+    "response_to_others": "图谱专家引用的完整台词和frame_02至frame_04的画面均可核实；其图谱节点未作为原始媒体提供，不能独立核验，也不应与字幕重复计证。图像专家指出的姿态稳定、frame_06至frame_07略低头也可见，但缺少激烈表情不等于当前表达中性；带刺的否定仍是我维持轻度不满判断的主要依据。"
+  },
+  "usage": {
+    "completion_tokens": 612,
+    "total_tokens": 5954,
+    "prompt_tokens": 5342,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_creation_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 100
+    }
+  },
+  "seconds": 18.04406452178955
+}

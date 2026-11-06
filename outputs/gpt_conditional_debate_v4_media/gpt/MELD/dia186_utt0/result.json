@@ -1,0 +1,25 @@
+{
+  "id": "MELD/dia186_utt0",
+  "dataset": "MELD",
+  "round0_labels": {
+    "graph": "disgust",
+    "audio_subtitle": "anger",
+    "image": "disgust"
+  },
+  "triggered": true,
+  "final": "disgust",
+  "rounds_run": 1,
+  "round_labels": [
+    {
+      "graph": "disgust",
+      "audio_subtitle": "disgust",
+      "image": "disgust"
+    }
+  ],
+  "final_expert_labels": {
+    "graph": "disgust",
+    "audio_subtitle": "disgust",
+    "image": "disgust"
+  },
+  "judge": null
+}

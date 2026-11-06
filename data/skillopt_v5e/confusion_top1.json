@@ -1,0 +1,128 @@
+{
+ "meta": {
+  "source": "80 old validation samples x 5 result sets per provider (direct, ppct, v1, v2, v3 summary)",
+  "direction": "answer c -> gold g",
+  "ranking": "distinct samples, then events, then label",
+  "note": "contains 20 samples that are also in the 117 test samples (accepted by the user)"
+ },
+ "table": {
+  "gemini": {
+   "MER2024": {
+    "happy": null,
+    "angry": null,
+    "sad": {
+     "gold": "neutral",
+     "samples": 2,
+     "events": 2
+    },
+    "worried": {
+     "gold": "surprise",
+     "samples": 4,
+     "events": 12
+    },
+    "surprise": {
+     "gold": "angry",
+     "samples": 2,
+     "events": 4
+    },
+    "neutral": {
+     "gold": "angry",
+     "samples": 2,
+     "events": 4
+    }
+   },
+   "MELD": {
+    "joy": {
+     "gold": "surprise",
+     "samples": 1,
+     "events": 5
+    },
+    "anger": {
+     "gold": "disgust",
+     "samples": 2,
+     "events": 9
+    },
+    "sadness": null,
+    "fear": {
+     "gold": "sadness",
+     "samples": 1,
+     "events": 1
+    },
+    "disgust": null,
+    "surprise": {
+     "gold": "anger",
+     "samples": 2,
+     "events": 3
+    },
+    "neutral": {
+     "gold": "disgust",
+     "samples": 4,
+     "events": 12
+    }
+   }
+  },
+  "gpt": {
+   "MER2024": {
+    "happy": null,
+    "angry": {
+     "gold": "sad",
+     "samples": 1,
+     "events": 4
+    },
+    "sad": {
+     "gold": "neutral",
+     "samples": 2,
+     "events": 7
+    },
+    "worried": {
+     "gold": "angry",
+     "samples": 4,
+     "events": 15
+    },
+    "surprise": {
+     "gold": "neutral",
+     "samples": 1,
+     "events": 2
+    },
+    "neutral": {
+     "gold": "happy",
+     "samples": 1,
+     "events": 4
+    }
+   },
+   "MELD": {
+    "joy": {
+     "gold": "surprise",
+     "samples": 1,
+     "events": 5
+    },
+    "anger": {
+     "gold": "disgust",
+     "samples": 4,
+     "events": 14
+    },
+    "sadness": {
+     "gold": "joy",
+     "samples": 1,
+     "events": 2
+    },
+    "fear": {
+     "gold": "disgust",
+     "samples": 1,
+     "events": 1
+    },
+    "disgust": null,
+    "surprise": {
+     "gold": "fear",
+     "samples": 2,
+     "events": 3
+    },
+    "neutral": {
+     "gold": "anger",
+     "samples": 2,
+     "events": 4
+    }
+   }
+  }
+ }
+}

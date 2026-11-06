@@ -1,0 +1,47 @@
+{
+  "output": {
+    "expert": "graph",
+    "changed": false,
+    "response_to_others": "音频字幕专家抓住了台词由打探对手转向自我怀疑的语义递进，且其低缓试探的声学特征与图谱节点[person_1]完全契合，有力支持了顾虑与不安的判定；图像专家指出的张嘴与瞪眼动作实际上是人物在轻缓发问过程中的自然发音口型（如节点[person_2]和[person_3]所示），脱离了言语情境将其孤立解读为突发惊讶，且其忽略了图谱中[process_1]明确呈现的连累他人的担忧心理。",
+    "reason": "综合图谱事件链与情境关系，目标人物与同伴的互动呈现清晰的递进逻辑：从询问对手情况（[process_0]）紧接过渡到对自我连累对方的试探性顾虑（[process_1]）。图谱边关系[process_0-process_1]表明这两个言语行为构成了完整的关切与不安脉络。画面中人物头部微倾、眼神紧盯，辅以轻柔微弱的疑问语调（[person_1]），本质上是对可能造成麻烦的不安与试探，而非违背预期引发的即时性惊诧。",
+    "open_emotion": "担忧",
+    "answer": "worried",
+    "mapping_reason": "核心关注点在对潜在负面结果（连累他人惹上麻烦）的未知风险与顾虑，符合情绪轮中worried强调心理焦虑、忐忑与负面预期评估的特征。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "graph",
+        "anchor": "process_1",
+        "observation": "图谱记录男子在问句后紧接着追问“我，我是不是给你惹麻烦了”",
+        "interpretation": "明确将对话重心从外部事件引向对自身导致潜在不良后果的忐忑反思，是担忧情绪的核心事实支柱",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "graph",
+        "anchor": "person_1",
+        "observation": "图谱记录男子说话语调平缓且略带疑问，未见激烈起伏",
+        "interpretation": "平缓带疑问的声学特征印证了克制小心、试探后果的心态，排除了高冲击性的突发惊讶",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "visual",
+        "anchor": "frame_06",
+        "observation": "男子身体前倾，目光集中紧盯对方，面容紧绷探询",
+        "interpretation": "前倾探询的肢体语言反映了在等待对方回应时悬而未决的心理不安与关切",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "虽在发问时有嘴唇张大与眼神微睁的表现（易被图像专家单模态误判为surprise），但结合发声过程与后续[process_1]的顾虑内容，证实该面部动作系发音时的探寻神态，并不具备违背预期的惊异本质。"
+  },
+  "usage": {
+    "completion_tokens": 1282,
+    "total_tokens": 5835,
+    "prompt_tokens": 4553,
+    "completion_tokens_details": {
+      "reasoning_tokens": 513
+    }
+  },
+  "seconds": 16.562638759613037
+}

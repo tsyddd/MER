@@ -1,0 +1,47 @@
+{
+  "output": {
+    "expert": "image",
+    "changed": false,
+    "response_to_others": "对图谱专家：图谱专家将面对婴儿哭闹的束手无策归为fear，但规则明确指出焦虑紧张不等于fear，当前情境不存在对实质危险或威胁后果的畏惧；且视觉上其眉毛内角上聚、嘴角下垂是典型的痛苦哭丧脸（distress face），而非恐惧瞪眼或面部后缩。对音频字幕专家：完全认同其指出的抽泣哽咽哭腔与求助无力感，这与画面中Rachel快要崩溃啼哭的面部神态及抱头焦躁的肢体高度契合，共同确证其主导为sadness。",
+    "reason": "目标人物Rachel面对长时间啼哭的婴儿，在frame_01至frame_04中表现出极具辨识度的悲伤痛苦表情（眉头聚拢上扬、嘴角向下抽搐、张口呈现欲哭无泪的哭相），身体呈现因精疲力竭而产生的蜷缩无助感。结合音频字幕专家共同确认的语调抽泣哭腔与'what am I gonna do'的崩溃叹息，其核心心理状态是被困顿击垮的痛苦、沮丧与失落，符合sadness的核心表征，而非面对威胁危险的fear。",
+    "open_emotion": "沮丧无助",
+    "answer": "sadness",
+    "mapping_reason": "目标人物面部呈现典型的悲伤眉与哭丧神态，体现了长时间受挫后的心力交瘁与无助崩溃；在情绪轮中，因受阻挫折、痛苦而陷入的沮丧、难过与无力感（distressed/dejected）明确归属于sadness家族。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "visual",
+        "anchor": "frame_02至frame_04 (1.46s-2.21s)",
+        "observation": "Rachel眉心聚拢上挑呈悲伤眉态，面部肌肉向下拉扯，嘴角撇下且张口显露哭相，身体微屈环抱婴儿。",
+        "interpretation": "面部特征精准对应悲伤与痛苦反应，是面对困境心理防线失守的典型哭容体现。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_01 (0.75s)",
+        "observation": "Rachel单手抚弄后颈，神色低迷焦躁，目光无奈垂视婴儿。",
+        "interpretation": "肢体语言展现出巨大的疲惫感与无力招架的沮丧重负。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "audio",
+        "anchor": "00:01-00:04",
+        "observation": "Rachel声音颤抖且带有明显的哽咽与抽泣哭腔，在尾音处气息不稳几近哭出声。",
+        "interpretation": "跨模态听觉进一步印证视觉上的哭丧表情是真实的痛苦崩溃而非惊恐。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "台词中带有'Oh come on'的抱怨与焦躁踱步，图谱专家据此延伸为失控恐慌（fear），但这属于受挫后的焦灼反应，缺乏面临人身或实质威胁后果的畏惧特征，不可替代主导的悲伤哭态。"
+  },
+  "usage": {
+    "completion_tokens": 1385,
+    "total_tokens": 5119,
+    "prompt_tokens": 3734,
+    "completion_tokens_details": {
+      "reasoning_tokens": 554
+    }
+  },
+  "seconds": 14.17478632926941
+}

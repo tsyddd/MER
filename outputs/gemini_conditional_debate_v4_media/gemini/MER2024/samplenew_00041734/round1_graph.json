@@ -1,0 +1,47 @@
+{
+  "output": {
+    "expert": "graph",
+    "changed": true,
+    "response_to_others": "核验音轨00:00-00:02，其急促发问确带有发颤的慌急与紧张感，并非纯粹的瞬间惊愕；核查frame_01至frame_05，其面部呈现明显的眉心上聚与八字忧容，图像专家与音频字幕专家关于担忧风险的论点成立。",
+    "reason": "目标人物在获知对方辞职的互动情境下展开连续追问。图谱节点[process_0]与[process_1]记录了其自'不是 你为什么要辞职'到追加尾音'啊'的紧迫语言链条；核验原始视听媒体，女性语调急促且伴随情绪发紧，面部神情从frame_00到frame_06始终保持眉头向内上方聚拢的典型愁虑面容，体现出长辈面对晚辈失去稳定工作这一突发风险事件时极度焦灼、忧心其未来出路的互动心理。",
+    "open_emotion": "焦急担忧",
+    "answer": "worried",
+    "mapping_reason": "辞职直接冲击家庭与个人稳定，目标人物的急切质问与紧锁八字眉并非停留在即时错愕，而是主导性地聚焦于辞职带来的负面现实后果与未知风险，完全符合情绪轮中worried（对可能负面结果、未知风险的顾虑与焦虑）的界定。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "graph",
+        "anchor": "process_0",
+        "observation": "女性对面前的人发问说出'不是 你为什么要辞职'",
+        "interpretation": "明确将辞职这一带来生计变动与不确定性的风险事件作为当下互动的核心关切点",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_01至frame_05 (0.40s-1.92s)",
+        "observation": "女性双眉紧蹙，眉心内侧向上提升收聚，眼周伴有紧绷的关切与愁容褶皱",
+        "interpretation": "面部呈现典型的忧愁与不安肌肉形态，而非平整的瞪目惊异",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "audio",
+        "anchor": "00:00-00:02",
+        "observation": "声音急促逼近，尾调虽高扬但伴有急切迫问的紧绷感与颤动",
+        "interpretation": "听觉特征反映出内心的焦灼不安与亟待寻求解决方案的忧虑",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "连续紧追的言语态势容易被误解为纯粹的震惊（surprise）或问责恼怒（angry），但紧锁的忧虑眉态与关切语气排除了单纯的对抗意图或无倾向错愕。"
+  },
+  "usage": {
+    "completion_tokens": 1630,
+    "total_tokens": 15071,
+    "prompt_tokens": 13441,
+    "completion_tokens_details": {
+      "reasoning_tokens": 883
+    }
+  },
+  "seconds": 19.691150188446045
+}

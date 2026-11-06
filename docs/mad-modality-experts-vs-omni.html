@@ -1,0 +1,137 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>按模态分工的多专家 vs 全模态直接回答：文献调研</title><style>
+body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;max-width:1040px;margin:32px auto;padding:0 20px;color:#1f2933;line-height:1.85;font-size:16px}
+h1{font-size:25px;border-bottom:2px solid #1f2933;padding-bottom:8px}
+h2{font-size:19px;margin-top:40px;border-left:4px solid #3b6ea8;padding-left:10px}
+h3{font-size:16px;margin-top:22px;color:#274a73}
+math{font-size:1.12em}
+math[display=block]{margin:14px 0;overflow-x:auto}
+.box{background:#f4f7fb;border:1px solid #cfd9e6;border-radius:6px;padding:10px 16px;margin:14px 0}
+.note{background:#fff8e1;border:1px solid #f0d98a;border-radius:6px;padding:10px 16px;margin:14px 0}
+.fix{background:#fdecea;border:1px solid #f1b0a8;border-radius:6px;padding:10px 16px;margin:14px 0}
+table{border-collapse:collapse;width:100%;margin:12px 0;font-size:14px;line-height:1.6}
+th,td{border:1px solid #cbd2d9;padding:6px 9px;vertical-align:top;text-align:left}
+th{background:#eef2f6}
+.muted{color:#6b7785;font-size:13px}
+code{background:#f0f3f6;padding:1px 4px;border-radius:3px}
+</style></head><body>
+<h1>按模态分工的多专家（辩论 / 投票 / 编排）会不会不如全模态直接回答？</h1>
+<p class="muted">2026-11-04。检索 arXiv、ACL Anthology、会议论文页与搜索摘要，读了约 9 篇的全文或关键章节，另有数篇只读摘要（抓取工具按字数截断，未读部分见文末）。只读文献，未运行代码、未调用模型。数字以抓取到的原文为准，我没有逐一核对原表。</p>
+
+<div class="note"><b>先说结论</b>
+<ol>
+<li><b>没有找到一篇论文，直接做“每个专家只负责一个模态 → 辩论或投票 → 与单个全模态模型直接回答对比”，并在情感任务上给出这一对比。</b>最接近的 Listen（Pattern Recognition 2026）用的是两个跨模态 agent，全文在付费页面，我没读到数字。</li>
+<li><b>但有间接证据表明这种现象存在，最强的一条来自 OmniGAIA（arXiv 2602.22897 §5.5）：</b>把音频或视觉感知拆成“工具/专家”，对强模型 Gemini-3-Flash 反而更差（原生 51.7，只把视觉工具化 43.3，音频和视觉都工具化 46.4），而且调用更多。作者的建议是：强 agent 默认用原生多模态输入。</li>
+<li><b>“多专家编排赢过全模态模型”的结论，几乎都是和较弱的全模态基线比的</b>（Agent-Omni 对 Qwen2.5-Omni），而且专家模型本身比基线强；在强基线或某些基准上仍然输（OmniInstruct 77.50 对 81.06）。</li>
+<li><b>多模态任务上的辩论 / 投票对比单次回答，普遍是“小幅、不稳定”</b>：M3MAD-Bench 里 GPT-4o-mini 上辩论 −0.6、DMAD +0.1；MV-Debate 的表里同模型多 agent 在多处低于单模型（作者没有讨论）。</li>
+<li><b>没有一篇论文复现了 Debate or Vote 那样的鞅分析，且该分析的假设（同质 agent）不适用于“各看一个模态”的异质专家。</b>这是我的判断，不是文献结论。</li>
+</ol></div>
+
+<h2>1. 最接近的“按模态分工”工作</h2>
+<table>
+<tr><th>论文</th><th>怎么分工</th><th>有没有对照单个全模态模型</th><th>结果与我读到的限制</th></tr>
+<tr><td><b>Listen</b>（Pattern Recognition，pii S0031320326004115，2026）</td><td>两个 agent：Text-Audio 与 Video-Audio；独立分析 → 交叉质询 → 共识综合</td><td>摘要只说明动机是单体 MLLM 在模态不同步、可解释性上的局限；我只读到摘要与搜索摘要，<b>没有对比数字</b></td><td>作者宣称显式讨论能解决模态冲突；<b>无法核实，不能当作证据</b>。数据集 CH-SIMS / CMU-MOSI 等情感回归 / 情感倾向任务，不是我们的离散情绪</td></tr>
+<tr><td><b>AffectAgent</b>（arXiv 2604.12735）</td><td>三个 agent（规划、证据过滤、情绪生成），<b>按角色分，不按模态分</b>，共享一个 MLLM</td><td>对比同一骨干加 / 不加 AffectAgent：Video-LLaMA2 35.99→42.74，AffectGPT 74.77→76.78</td><td><b>需要训练</b>（SFT + MAPPO，检索库来自 MER2025 训练集），不是免训练；没有“多 agent vs 同骨干单 agent”的对照；与我们的约束不符</td></tr>
+<tr><td><b>MiAgent</b>（Springer，情感支持对话）</td><td>视频 / 音频 / 文本三个 agent（Video-LLaMA、Qwen-Audio、LLaMA 3）</td><td>只有“去掉某模态 agent”的消融，我没读到全文</td><td>协作推理，不是辩论；没有单个全模态模型对照</td></tr>
+<tr><td><b>Project Riley</b>（arXiv 2505.20521）</td><td>五个情绪 agent，视觉 LLM 描述图像，文本 LLM 跑 agent，推理模型投票</td><td><b>没有任何基线</b></td><td>只有 17 人 Likert 用户调研；不能回答我们的问题</td></tr>
+<tr><td><b>MER 2024 基线</b>（arXiv 2404.17113）</td><td>音频 / 视频 / 音视频 LLM 各自按“情绪专家”提示，再融合</td><td>融合不是辩论</td><td>仅作背景</td></tr>
+</table>
+
+<h2>2. 编排型：模态专家 + 主控 agent vs 单个全模态模型</h2>
+<h3>Agent-Omni（arXiv 2511.02834，免训练）</h3>
+<p>主控 agent（Claude 3.7 Sonnet）循环四步，调用模态专家：文本 DeepSeek-R1，图像和视频 Claude 3.7 Sonnet，音频 Qwen2.5-Omni；专家只看自己模态的输入，看不到原始问题；循环上限 3 次。</p>
+<table>
+<tr><th>方法</th><th>Daily-Omni</th><th>OmniBench</th><th>OmniInstruct</th></tr>
+<tr><td>Qwen2.5-Omni（单个全模态）</td><td>53.72</td><td>45.18</td><td><b>81.06</b></td></tr>
+<tr><td>Phi-4 Multimodal</td><td>43.94</td><td>30.74</td><td>52.28</td></tr>
+<tr><td>Agent-Omni</td><td><b>60.03</b></td><td><b>49.56</b></td><td>77.50</td></tr>
+</table>
+<ul>
+<li><b>在 OmniInstruct 上输给单个全模态模型 3.56 个点</b>；MathVision 上 44.71 低于 Claude 单独 45.95。</li>
+<li><b>基线弱、专家强</b>：基线是 Qwen2.5-Omni 和 Phi-4，专家里有 Claude 3.7 Sonnet 和 DeepSeek-R1，所以收益里混入了“用了更强模型”。论文没有“主控 + 同一个全模态模型处理所有模态”的对照（我读到的 Appendix A 只换同一模态内的专家）。</li>
+<li>延迟 16.70 秒对 0.27 秒（Daily-Omni）；作者承认错误会在协调过程中传播；所有结果为单次点估计、无方差。</li>
+</ul>
+
+<h3>OmniGAIA（arXiv 2602.22897）§5.5：原生输入 vs 把感知工具化</h3>
+<table>
+<tr><th>设置</th><th>Gemini-3-Flash 平均</th><th>调用次数</th><th>Qwen-3-Omni 平均</th><th>调用次数</th></tr>
+<tr><td>原生（全部媒体直接输入）</td><td><b>51.7</b></td><td>4.4</td><td>13.3</td><td>0.2</td></tr>
+<tr><td>音频工具化（视觉原生）</td><td>50.0</td><td>7.6</td><td>15.8</td><td>0.8</td></tr>
+<tr><td>视觉工具化（音频原生）</td><td>43.3</td><td>6.8</td><td>12.2</td><td>0.5</td></tr>
+<tr><td>音频和视觉都工具化</td><td>46.4</td><td>9.4</td><td>15.0</td><td>2.0</td></tr>
+</table>
+<ul>
+<li><b>强模型</b>：原生最好且调用最少；作者认为工具化“没有精度与成本上的收益”。</li>
+<li><b>弱模型</b>：工具能补低层信号，在简单和中等题上有帮助，但在困难题上一致变差（Qwen-3-Omni 困难题 9.0 → 3.9 / 5.1 / 7.7）；作者的说法是工具输出“不能替代原生的跨模态整合”。</li>
+<li>作者的建议：能力强的 agent 默认用原生感知，工具化感知留给弱模型或缺失模态的场景。</li>
+<li>局限：这是智能体长程问答，不是情感分类；“工具”是调用别的模型读媒体，不是辩论。Omni-Decision（arXiv 2607.11433）在附录 D 转引了同一张表。</li>
+</ul>
+
+<h3>Chain of Modality（arXiv 2604.14520）</h3>
+<p>比较固定组织方式：单模态、Parallel（各模态分别推理再聚合）、Sequential、Interleaved。关键点：Parallel 只在<b>音视频冲突</b>时更可靠，而且是按真值答案的平均对数概率衡量（Parallel −0.67，联合 −0.86，单音频 −1.05，单视频 −0.74），差距很小；准确率并不明确偏向 Parallel。时序推理上联合的交错方式反而更好（Interleaved 48.5 对 Sequential 45.4）。作者的结论是“没有单一组织方式处处占优”。需要 logprob，且增益在专挑的“对拓扑敏感”子集上。</p>
+
+<h3>Training-Free MLLM Orchestration（arXiv 2508.10016，ICML 2026）</h3>
+<p>只读到摘要：宣称“强表现”“低编排开销”，我拿到的内容里没有与单个全模态模型的具体数字对比，所以不下结论（搜索摘要说它“接近”原生训练的全模态模型，我没有核实）。</p>
+
+<h3>Omni-Decision（arXiv 2607.11433）：一个反例</h3>
+<p>证据账本规划的全模态 agent 在 OmniGAIA 上 81.39，对 Gemini-3.1-Pro 的 79.44，成本约 1.2 美元对 2.8 美元；论文自己承认账本质量受限于感知工具的文字输出，且 40.3% 的失败来自媒体感知。差距只有约 1.95 个点，单次运行，且它依赖规划器和评审器，不是简单的辩论或投票。可作为“编排可以略超强单模型”的存在性证据，但要带着这些限制读。</p>
+
+<h2>3. 辩论 / 投票：多模态任务上对比单次回答</h2>
+<h3>M3MAD-Bench（arXiv 2601.02854，ACM MM 2026）</h3>
+<p>6 个视觉语言数据集，每个抽 500 条，5 个模型；单 agent 基线 IO 与 CoT；辩论方法 LLM Debate、Div-MAD（对抗）、DMAD（协作）。多模态平均（Table 3，括号为相对 IO）：</p>
+<table>
+<tr><th>模型</th><th>IO</th><th>LLM Debate</th><th>Div-MAD</th><th>DMAD</th></tr>
+<tr><td>Qwen2.5-VL-7B</td><td>45.2</td><td>47.6（+2.4）</td><td>39.0（−6.2）</td><td>48.0（+2.8）</td></tr>
+<tr><td>InternVL3-8B</td><td>49.7</td><td>50.9（+1.2）</td><td>39.1（−10.6）</td><td>51.1（+1.4）</td></tr>
+<tr><td>InternVL3-14B</td><td>49.4</td><td>52.6（+3.2）</td><td>49.8（+0.4）</td><td>54.8（+5.4）</td></tr>
+<tr><td>GPT-4o-mini</td><td>44.3</td><td><b>43.7（−0.6）</b></td><td><b>37.9（−6.4）</b></td><td>44.4（+0.1）</td></tr>
+</table>
+<ul>
+<li>逐数据集有更明显的退步，例如 GPT-4o-mini 的 LLM Debate 在 PathVQA 29.4 对 IO 39.6，MathVision 28.8 对 32.0。</li>
+<li><b>基线选择会夸大收益</b>：CoT 在 PathVQA 上远弱于 IO（Qwen 26.0 对 45.4），只和 CoT 比会虚高。</li>
+<li>失败归因里“集体错觉”占 65%、选择失败 17%（100 条抽样，未按模态拆分）；论文<b>没有</b>分析“各 agent 重复同一个视觉误读”，所以不能用它支持“辩论会放大共同的感知错误”。</li>
+</ul>
+
+<h3>MV-Debate（arXiv 2508.05557，免训练，文本 + 图像的有害内容检测）</h3>
+<p>四个“视角”agent（表层分析、深度推理、模态对比、社会语境），每个都同时看文本和图像，<b>按视角而不是按模态分</b>。基线表里（Acc / F1 的三数据集平均）：</p>
+<ul>
+<li>单模型零样本：GPT-4o 75.7 / 74.2，Gemini-Flash-2.5 75.9 / 73.4，Claude-4-Sonnet 77.1 / 74.3。</li>
+<li>已有辩论：MAD 74.2 / 71.3，DebUnc 74.0 / 68.3，DMAD 76.9 / 74.4，ChatEval 77.0 / 76.6——<b>MAD 的平均准确率低于上述三个单模型</b>。</li>
+<li>MV-Debate 同模型（同质）多 agent 在若干列低于单模型：Claude-4 的 GossipCop F1 69.2 对单模型 73.9；InternVL3 的 GossipCop F1 62.3 对 68.7、MMSD F1 75.5 对 78.6。作者没有讨论这些。</li>
+<li>自家方法的优势主要来自异构模型 + 裁判 / 反思：异构闭源 84.9 / 78.0。但裁判 Claude-4-Sonnet 同时又是单模型基线，存在混杂；各方法差距常只有 1–3 个点，每数据集 500 条、单个种子、无方差。</li>
+</ul>
+
+<h3>“LLM 评委的多智能体辩论”（arXiv 2510.12697）</h3>
+<p>视觉任务 Table 1（单模型 / 多数投票 SoM / 辩论，7 个 agent）：Qwen-2.5-VL-7B 在 MLLM-Judge 为 60.43 / 60.88 / <b>60.38</b>，JudgeAnything 为 67.88 / 68.42 / <b>67.67</b>——<b>辩论不优于单模型</b>；Gemini-2.0-Flash 上辩论分别 69.25 与 85.71，高于单模型 67.50 与 81.63。标准误约 3 个点，所以这些差距都在误差范围内。作者的解释是：高共识的简单任务上 SoM 与辩论相当。它的 Theorem 4.2 比较的是辩论与初始多数投票，不是与单模型。</p>
+
+<h2>4. 间接机制证据：把模态转成文字再推理会丢信息吗</h2>
+<ul>
+<li>多模态情感识别综述（arXiv 2509.24322）：基于 LLM 的流水线把编码器输出投到文本空间再处理，常造成信息损失并阻碍跨模态交互；端到端 MLLM 能保留模态特有信息（综述性说法，非受控实验）。</li>
+<li>LISTEN 基准（arXiv 2510.10444）：音频 LLM 在只有声学或副语言线索时性能大幅下降，接近随机。</li>
+<li>端到端情感计算基准（arXiv 2508.02429）：生成的描述有时没有增益，还会因冗余轻微干扰判断。</li>
+<li>EmoMM（arXiv 2605.01024）：单个 MLLM 在模态冲突下出现“视频贡献坍缩”，会忽略视频证据——这说明<b>全模态直接回答也有自己的模态偏置</b>，不是只有优点。</li>
+</ul>
+<p>这些都是间接证据：没有一个在情感任务上把“文字化的模态专家再聚合”与“全模态直接回答”在同一模型、同一数据上受控比较。</p>
+
+<h2>5. 与 Debate or Vote 的关系</h2>
+<ul>
+<li>没有论文在多模态专家场景里复现 Debate or Vote 的鞅分析。M3MAD-Bench 与 MV-Debate 的现象（辩论相对单次回答小幅、不稳定，部分低于）在<b>现象层面</b>类似该文“多数投票解释了大部分收益”，但它们的 agent 是同质的，每个都看全部输入。</li>
+<li><b>按模态分工的专家与鞅模型的前提不同。</b>鞅分析需要同质、全连接、互相可见信念；而模态专家掌握不同的私有信息，更像 2609.38324 的 HiddenBench（隐藏档案）场景，那里讨论的收益取决于是否压制异议，而不是辩论本身是鞅。这是我的推断，没有论文直接这样说。</li>
+</ul>
+
+<h2>6. 对我们的含义</h2>
+<ul>
+<li><b>我们的 F6 观察（不一致分支 Direct 38/62 与 26/55，优于 v4 辩论 26/62 与 19/55）在文献里没有找到完全对应的报道</b>；最强的旁证是 OmniGAIA：强模型原生输入优于把感知拆成工具。这支持把 Direct 作为基线、专家只作辅助的方向，但并不等于文献证明了我们的结果。</li>
+<li>Agent-Omni、AffectAgent 这类“编排赢过全模态”的论文，基线较弱，或需要训练，所以不能当作“我们应该继续做专家辩论”的依据。</li>
+<li>Omni-Decision 显示编排在强基线上也可能略胜，但靠的是证据账本、规划器和评审器，并且依赖感知工具的文字输出质量；它是“如何在不低于 Direct 的前提下让专家有用”的一个线索，不是现成答案。</li>
+<li>EmoMM 提醒：Direct 自己也会忽略视频，所以“Direct 好”不等于“Direct 处处好”；这与我们 F7 里 Direct 在不同数据集 / 模型上的不稳定相符。</li>
+</ul>
+
+<h2>7. 局限</h2>
+<ul>
+<li><b>覆盖不全</b>：我检索了英文来源和少数中文关键词，可能漏掉未被检索到的论文；Listen 的正文与表格是付费页面，没有读到。</li>
+<li>Training-Free MLLM Orchestration、MiAgent、MERMAID、Georgia Tech 学位论文（ScienceQA，宣称辩论显著优于单模型，非正式论文）只读到摘要或页面，没有数字，所以没有放入结论。</li>
+<li>OmniGAIA、Agent-Omni 是智能体问答，不是离散情绪分类；MV-Debate、M3MAD 是图文任务，没有音频；全部为单次点估计、多数无方差。</li>
+<li>数字来自抓取工具对原文的提取，没有逐一对照原表；OmniGAIA 的表和 Omni-Decision 的转引数字一致，其余未交叉核对。</li>
+</ul>
+<p class="muted">来源：arXiv:2602.22897（OmniGAIA）、2511.02834（Agent-Omni）、2604.14520（Chain of Modality）、2508.10016、2607.11433（Omni-Decision）、2601.02854（M3MAD-Bench）、2508.05557（MV-Debate）、2510.12697、2604.12735（AffectAgent）、2505.20521（Project Riley）、2605.01024（EmoMM）、2509.24322、2510.10444、2508.02429；Listen：Pattern Recognition pii S0031320326004115。</p>
+</body></html>

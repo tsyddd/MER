@@ -1,0 +1,47 @@
+{
+  "output": {
+    "expert": "image",
+    "changed": false,
+    "response_to_others": "核对图谱专家引用的音频E2发现，00:05.5至00:07.3的笑声实际来自背景观众反应，并非Janice本人发笑；在frame_07（7.34s）可见Janice嘴唇紧闭、面容冷峻、双臂重新紧紧抱胸，毫无joy的笑意或愉悦。音频字幕专家准确指出了其封闭抱胸姿态、尖锐指责语调与控诉意图，与画面展示的防御性对抗完全吻合。",
+    "reason": "目标人物Janice在餐桌对话中自始至终处于高度防御与对抗态势。视觉上，她在开始（frame_00-01）与句末（frame_07）均采取双臂在胸前紧紧交叉抱胸的封闭姿势，眼神冷冷盯着Chandler；在说话与比划动作时（frame_03-06），其眉心微蹙，下颌与嘴角紧绷带刺，绝无开心放松的神态。结合其对Chandler“残忍剧场（theater of cruelty）”的指责台词及尖锐刻薄的语调，其实质是通过夸张反讽来发泄被伤害后的怨怒与对抗，符合anger。",
+    "open_emotion": "愤慨嘲弄",
+    "answer": "anger",
+    "mapping_reason": "目标人物因对方的绝情行为感到被冒犯与受阻，通过尖酸比喻、指责性手势及冰冷抱胸姿态展开言语反击与心理对抗，严格符合anger定义中对冒犯、受阻的恼火、责备与对抗。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "visual",
+        "anchor": "frame_00至frame_01（0.0s - 1.04s）及frame_07（7.34s）",
+        "observation": "Janice在陈述前后均采取双臂抱胸的防御姿态，frame_07中双唇紧抿、下巴微收，眼神直勾勾盯着对方，面无笑意。",
+        "interpretation": "双臂紧紧环抱及紧抿嘴唇展示出强烈的心理戒备、敌意与拒绝，视觉上明确排除愉悦体验。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_03至frame_06（3.13s - 6.30s）",
+        "observation": "Janice抬起双手比划木偶动作时，眉心紧皱，嘴角呈撇开的冷嘲状，神色尖锐凝重。",
+        "interpretation": "比划动作服务于讽刺性指责，紧绷的面部神态印证其内心的气恼与攻击性讽刺。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "audio",
+        "anchor": "00:05.5 - 00:07.3",
+        "observation": "Janice以重音切出'theater of cruelty'后立即闭口，随之响起的笑声为情景喜剧罐头笑声，Janice本人并无发笑声效。",
+        "interpretation": "核实音轨排除了Janice自我逗笑的可能，证明笑声属于第三方旁观者，其个人态度始终严肃而愤怒。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "台词提及木偶并配合手指动作具有夸张滑稽的表演痕迹，但其核心是指责男方的残忍冷酷，肢体动作与面部表情始终呈现冷峻防御，不构成真正的喜悦。"
+  },
+  "usage": {
+    "completion_tokens": 1297,
+    "total_tokens": 14278,
+    "prompt_tokens": 12981,
+    "completion_tokens_details": {
+      "reasoning_tokens": 387
+    }
+  },
+  "seconds": 13.269652366638184
+}

@@ -1,0 +1,47 @@
+{
+  "output": {
+    "expert": "audio_subtitle",
+    "changed": false,
+    "response_to_others": "针对图谱专家：核实原始音轨与画面后，发现其所述‘面部放松、神态平静自如’与frame_02至frame_04中清晰呈现的眉头内聚上扬、嘴角下撇的委屈受挫神态直接冲突；且音轨尾音弱化带叹息，并非毫无情绪色彩的客观陈述。针对图像专家：核实画面与台词，其指出的内眉抬起与摊手无奈动作与音轨中轻缓、无力的倾诉语调完全契合，有力佐证了失落情绪。",
+    "reason": "字幕中Rachel表达的是未能促使对方敞开心扉交流的落空心愿[E1]；实际音轨中，其发音轻细柔缓，带着明显的叹息与低落质感，句尾语调无力下垂[E2]；画面中frame_02至frame_05她眉心微聚、嘴角微撇，配合双手无奈摊开的动作[E3]，整合成因情感诉求未获回应而展现的典型失落与惆怅，明显偏离平稳客观的neutral。",
+    "open_emotion": "失落",
+    "answer": "sadness",
+    "mapping_reason": "开放情绪'失落'表征因期望受阻、缺乏情感共鸣而产生的心情低落与轻度沮丧，符合sadness家族在情绪轮中的定义。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "subtitle",
+        "anchor": "Y’know, I wish I could get him to open up a little bit, share some feelings.",
+        "observation": "使用包含遗憾落空语气的'I wish I could...'句式表达未被满足的情感连接期待。",
+        "interpretation": "体现出渴望交流却无可奈何的心理落差，指向失落与沮丧。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "audio",
+        "anchor": "00:00-00:03",
+        "observation": "目标人物语速平缓低微，发声带有轻微气声与叹息感，句末'share some feelings'音量收敛减弱。",
+        "interpretation": "语调缺乏激昂对抗亦非平直陈述，呈现出低落、无力的感伤质感。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "visual",
+        "anchor": "frame_02至frame_05 (0.92s-1.80s)",
+        "observation": "Rachel眉毛微抬聚拢，嘴角显现微撇下垂的委屈神情，双手摊手比划后垂落。",
+        "interpretation": "视听线索一致印证了其并非日常中性倾诉，而是处于因受挫而低落的心境。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "开端frame_00至frame_01表情相对柔和，且句式为向闺蜜倾诉的闲聊语境，容易被表层理解为日常中性交谈（neutral）；但话语核心部分的眉眼神态及语声叹息均明显偏向失落。"
+  },
+  "usage": {
+    "completion_tokens": 1503,
+    "total_tokens": 14125,
+    "prompt_tokens": 12622,
+    "completion_tokens_details": {
+      "reasoning_tokens": 703
+    }
+  },
+  "seconds": 17.10821533203125
+}

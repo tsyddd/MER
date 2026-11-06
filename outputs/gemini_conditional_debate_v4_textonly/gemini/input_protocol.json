@@ -1,0 +1,11 @@
+{
+  "version": "gemini_conditional_debate_v4_textonly",
+  "model": "gemini-3.8-flash-high",
+  "provider": "gemini",
+  "text_only": true,
+  "raw_media_provided": false,
+  "round0": "saved v3 expert outputs, not re-run",
+  "max_rounds": 2,
+  "gold_not_sent": true,
+  "key_source": "cc-switch current codex provider (runtime only)"
+}

@@ -1,0 +1,47 @@
+{
+  "output": {
+    "changed": false,
+    "response_to_others": "核验真实音轨与画面后，音频专家认为的‘轻声安抚与避险关切’过度解读了文本语义；实际音轨中男子声调极为平直低稳，毫无焦虑、紧绷或担忧特有的起伏颤动，画面中眉眼完全放松舒展。图像专家核实的冷静交代与面部肌肉平稳完全属实，有力支持中性判断。",
+    "expert": "graph",
+    "reason": "片段事件链呈现车外男子向车内女子就事论事地交代后续安排（引用图谱节点[person_0]、[process_0]）。经原始音轨核验，男子的发声特征与图谱节点[person_2]一致，语调低沉平缓、节奏匀称，无焦虑催促或情感震颤；画面frame_00至frame_07中，男子眉毛平展、面容平静，身体俯身仅为车窗视线配合的物理动作，并无忧心忡忡的紧绷神态，符合自然、从容的事务性沟通基线。",
+    "open_emotion": "平稳",
+    "answer": "neutral",
+    "mapping_reason": "目标人物在对话交接中神色从容、声调沉稳无波动，符合情绪轮中对neutral（平稳叙述、自然交流、无明确主导情绪爆发）的明确界定。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "graph",
+        "anchor": "person_2",
+        "observation": "图谱记录男子嘴唇开合发声，语调低沉平缓；核验00:00-00:02真实音轨，语调平直沉静，既无焦虑颤抖也无对抗情绪。",
+        "interpretation": "声音模态缺乏担忧（worried）所必需的预期紧张或不安色彩，支持基线沟通状态。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_02 (0.60s)",
+        "observation": "车外男子前倾俯身于车窗外，眼角与眉头平稳无褶皱，无锁眉或愁苦微表情。",
+        "interpretation": "面部运动处于静止与自然发音状态，未呈现担忧或悲伤肌肉收缩征兆。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "subtitle",
+        "anchor": "你先上，我的车，先回去。",
+        "observation": "语句为单纯的事务性安排与行程指令。",
+        "interpretation": "交代具体动作指令，缺乏强情绪色彩或负面预警词汇。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "台词具有劝人先行离开的情境语义，可能诱发对潜在事态的关切或担忧（worried）解读，但该解释缺乏声学紧迫感与视觉焦虑表达的交叉支持。"
+  },
+  "usage": {
+    "completion_tokens": 1219,
+    "total_tokens": 14378,
+    "prompt_tokens": 13159,
+    "completion_tokens_details": {
+      "reasoning_tokens": 535
+    }
+  },
+  "seconds": 15.252105236053467
+}

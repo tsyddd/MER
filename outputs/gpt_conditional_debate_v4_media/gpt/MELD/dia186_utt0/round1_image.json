@@ -1,0 +1,52 @@
+{
+  "output": {
+    "expert": "image",
+    "reason": "目标是右侧深色上衣的Chandler，而非左侧蓝衣男子。他从张口回应转为抬手示意，随后收紧嘴唇、看向右侧人物[E1][E2]；结合字幕中连续的否定及“embarrassing enough”[E3]，最有支持的是他不愿让已觉难堪的安排继续扩大。画面不足以证明强烈厌恶或发怒。",
+    "open_emotion": "反感",
+    "answer": "disgust",
+    "mapping_reason": "这里的反感是对难以接受的安排表示排斥，按情绪轮最接近disgust；这是轻度、近似的映射，不意味着恶心或强烈厌弃。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "visual",
+        "anchor": "frame_00（0.000秒）至frame_02（0.876秒）",
+        "observation": "Chandler起初张口，随后朝右侧人物抬起手掌；左侧蓝衣男子只是看着他。",
+        "interpretation": "这一变化与当面示意停止或限定范围相容，但手势单独不能确定情绪。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_04（1.793秒）至frame_07（3.128秒）",
+        "observation": "Chandler一度收紧嘴唇，随后抬眼看向右侧人物，末帧皱起面部并继续张口说话。",
+        "interpretation": "这些连续变化与不愿接受眼前安排相容；不足以单独判定他在责备对方。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "subtitle",
+        "anchor": "“Ah, no-no-no just Ross. Ross and Joey is embarrassing enough.”",
+        "observation": "字幕中他重复“No”，限定为“just Ross”，并称Ross和Joey已“embarrassing enough”。",
+        "interpretation": "话语为抬手示意提供了拒绝的语境，负面评价指向安排带来的难堪。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "最强替代解释是带玩笑意味的轻度不满：末帧的皱脸及连续否定与之相容。但字幕没有明确责备或对抗，抬手也可能只是说话手势；没有音轨，无法用语调区分玩笑与认真排斥。",
+    "changed": false,
+    "response_to_others": "图谱专家引用的字幕和frame_01至frame_07动作可以在所给材料中核实，与我的观察基本一致；但未提供其process_0等节点原文，无法独立核实图谱组织，且同一句字幕不能重复算作独立证据。音频字幕专家指出的否定、抬手及后段皱脸也属实；这些支持拒绝，却不足以把拒绝进一步确定为针对冒犯的责备或对抗，因此我保留disgust的轻度反感判断。"
+  },
+  "usage": {
+    "completion_tokens": 733,
+    "total_tokens": 6160,
+    "prompt_tokens": 5427,
+    "prompt_tokens_details": {
+      "cached_tokens": 2304,
+      "cache_write_tokens": 0,
+      "cached_creation_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 52
+    }
+  },
+  "seconds": 20.186063289642334
+}

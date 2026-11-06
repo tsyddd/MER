@@ -1,0 +1,2282 @@
+{
+ "summary": {
+  "gemini": {
+   "n": 62,
+   "single": [
+    38,
+    39,
+    35,
+    38,
+    33
+   ],
+   "single_mean": 36.6,
+   "vote3_fresh_first": 33,
+   "vote3_fresh_ties_first": 0,
+   "vote3_all_triples_first": [
+    40,
+    41,
+    38,
+    41,
+    38,
+    38,
+    39,
+    34,
+    38,
+    33
+   ],
+   "vote3_all_triples_mean_first": 38.0,
+   "vote5_first": 38,
+   "vote5_ties_first": 0,
+   "vote3_fresh_alpha": 33,
+   "vote3_fresh_ties_alpha": 0,
+   "vote3_all_triples_alpha": [
+    40,
+    41,
+    38,
+    40,
+    37,
+    38,
+    39,
+    35,
+    39,
+    33
+   ],
+   "vote3_all_triples_mean_alpha": 38.0,
+   "vote5_alpha": 38,
+   "vote5_ties_alpha": 0,
+   "unanimous_5": 29,
+   "unanimous_5_correct": 21,
+   "any_correct_of_5": 50,
+   "all_correct_of_5": 21,
+   "distinct_answers_mean": 1.596774193548387,
+   "fresh3_vs_run1_fix": 5,
+   "fresh3_vs_run1_break": 10,
+   "fresh3_in_candidates": 61,
+   "by_dataset": {
+    "MER2024": {
+     "n": 26,
+     "single_mean": 15.2,
+     "vote3_fresh": 15,
+     "vote5": 15
+    },
+    "MELD": {
+     "n": 36,
+     "single_mean": 21.4,
+     "vote3_fresh": 18,
+     "vote5": 23
+    }
+   }
+  },
+  "gpt": {
+   "n": 55,
+   "single": [
+    26,
+    24,
+    20,
+    23,
+    26
+   ],
+   "single_mean": 23.8,
+   "vote3_fresh_first": 24,
+   "vote3_fresh_ties_first": 1,
+   "vote3_all_triples_first": [
+    24,
+    24,
+    25,
+    22,
+    26,
+    26,
+    21,
+    23,
+    23,
+    24
+   ],
+   "vote3_all_triples_mean_first": 23.8,
+   "vote5_first": 23,
+   "vote5_ties_first": 3,
+   "vote3_fresh_alpha": 24,
+   "vote3_fresh_ties_alpha": 1,
+   "vote3_all_triples_alpha": [
+    25,
+    24,
+    26,
+    21,
+    25,
+    26,
+    22,
+    22,
+    24,
+    24
+   ],
+   "vote3_all_triples_mean_alpha": 23.9,
+   "vote5_alpha": 24,
+   "vote5_ties_alpha": 3,
+   "unanimous_5": 25,
+   "unanimous_5_correct": 12,
+   "any_correct_of_5": 37,
+   "all_correct_of_5": 12,
+   "distinct_answers_mean": 1.6,
+   "fresh3_vs_run1_fix": 3,
+   "fresh3_vs_run1_break": 5,
+   "fresh3_in_candidates": 51,
+   "by_dataset": {
+    "MER2024": {
+     "n": 23,
+     "single_mean": 8.6,
+     "vote3_fresh": 9,
+     "vote5": 7
+    },
+    "MELD": {
+     "n": 32,
+     "single_mean": 15.2,
+     "vote3_fresh": 15,
+     "vote5": 16
+    }
+   }
+  }
+ },
+ "per_sample": {
+  "gemini": [
+   {
+    "id": "MER2024/samplenew_00002333",
+    "dataset": "MER2024",
+    "split": "validation",
+    "gold": "happy",
+    "runs": [
+     "happy",
+     "happy",
+     "happy",
+     "happy",
+     "happy"
+    ],
+    "v4": "happy",
+    "cand": [
+     "neutral",
+     "sad",
+     "happy",
+     "worried"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00006335",
+    "dataset": "MER2024",
+    "split": "validation",
+    "gold": "angry",
+    "runs": [
+     "surprise",
+     "surprise",
+     "worried",
+     "surprise",
+     "surprise"
+    ],
+    "v4": "surprise",
+    "cand": [
+     "worried",
+     "surprise"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00019636",
+    "dataset": "MER2024",
+    "split": "validation",
+    "gold": "surprise",
+    "runs": [
+     "worried",
+     "worried",
+     "worried",
+     "surprise",
+     "surprise"
+    ],
+    "v4": "worried",
+    "cand": [
+     "neutral",
+     "worried",
+     "surprise"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00021868",
+    "dataset": "MER2024",
+    "split": "validation",
+    "gold": "neutral",
+    "runs": [
+     "neutral",
+     "sad",
+     "neutral",
+     "sad",
+     "neutral"
+    ],
+    "v4": "sad",
+    "cand": [
+     "neutral",
+     "sad"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00033166",
+    "dataset": "MER2024",
+    "split": "validation",
+    "gold": "angry",
+    "runs": [
+     "angry",
+     "worried",
+     "worried",
+     "angry",
+     "worried"
+    ],
+    "v4": "worried",
+    "cand": [
+     "angry",
+     "worried"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00034225",
+    "dataset": "MER2024",
+    "split": "validation",
+    "gold": "worried",
+    "runs": [
+     "surprise",
+     "worried",
+     "worried",
+     "worried",
+     "worried"
+    ],
+    "v4": "worried",
+    "cand": [
+     "neutral",
+     "worried",
+     "surprise"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00040685",
+    "dataset": "MER2024",
+    "split": "validation",
+    "gold": "angry",
+    "runs": [
+     "worried",
+     "worried",
+     "worried",
+     "worried",
+     "worried"
+    ],
+    "v4": "worried",
+    "cand": [
+     "neutral",
+     "worried"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00041734",
+    "dataset": "MER2024",
+    "split": "validation",
+    "gold": "angry",
+    "runs": [
+     "worried",
+     "worried",
+     "worried",
+     "worried",
+     "worried"
+    ],
+    "v4": "worried",
+    "cand": [
+     "angry",
+     "worried",
+     "surprise"
+    ]
+   },
+   {
+    "id": "MELD/dia131_utt3",
+    "dataset": "MELD",
+    "split": "validation",
+    "gold": "joy",
+    "runs": [
+     "joy",
+     "neutral",
+     "joy",
+     "neutral",
+     "neutral"
+    ],
+    "v4": "anger",
+    "cand": [
+     "neutral",
+     "anger",
+     "joy"
+    ]
+   },
+   {
+    "id": "MELD/dia153_utt4",
+    "dataset": "MELD",
+    "split": "validation",
+    "gold": "fear",
+    "runs": [
+     "anger",
+     "anger",
+     "anger",
+     "anger",
+     "anger"
+    ],
+    "v4": "anger",
+    "cand": [
+     "neutral",
+     "anger"
+    ]
+   },
+   {
+    "id": "MELD/dia186_utt0",
+    "dataset": "MELD",
+    "split": "validation",
+    "gold": "disgust",
+    "runs": [
+     "neutral",
+     "disgust",
+     "neutral",
+     "disgust",
+     "neutral"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "joy",
+     "disgust"
+    ]
+   },
+   {
+    "id": "MELD/dia198_utt2",
+    "dataset": "MELD",
+    "split": "validation",
+    "gold": "anger",
+    "runs": [
+     "anger",
+     "anger",
+     "anger",
+     "anger",
+     "anger"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "anger"
+    ]
+   },
+   {
+    "id": "MELD/dia200_utt2",
+    "dataset": "MELD",
+    "split": "validation",
+    "gold": "anger",
+    "runs": [
+     "surprise",
+     "surprise",
+     "neutral",
+     "surprise",
+     "neutral"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "surprise"
+    ]
+   },
+   {
+    "id": "MELD/dia226_utt3",
+    "dataset": "MELD",
+    "split": "validation",
+    "gold": "sadness",
+    "runs": [
+     "sadness",
+     "sadness",
+     "sadness",
+     "sadness",
+     "sadness"
+    ],
+    "v4": "sadness",
+    "cand": [
+     "neutral",
+     "sadness"
+    ]
+   },
+   {
+    "id": "MELD/dia33_utt6",
+    "dataset": "MELD",
+    "split": "validation",
+    "gold": "sadness",
+    "runs": [
+     "sadness",
+     "sadness",
+     "sadness",
+     "fear",
+     "sadness"
+    ],
+    "v4": "sadness",
+    "cand": [
+     "anger",
+     "sadness",
+     "fear"
+    ]
+   },
+   {
+    "id": "MER2024/sample_00000366",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "surprise",
+    "runs": [
+     "surprise",
+     "surprise",
+     "surprise",
+     "surprise",
+     "surprise"
+    ],
+    "v4": "surprise",
+    "cand": [
+     "happy",
+     "surprise"
+    ]
+   },
+   {
+    "id": "MER2024/sample_00002086",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "surprise",
+    "runs": [
+     "surprise",
+     "happy",
+     "surprise",
+     "happy",
+     "happy"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "happy",
+     "surprise"
+    ]
+   },
+   {
+    "id": "MER2024/sample_00003771",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "worried",
+    "runs": [
+     "worried",
+     "worried",
+     "worried",
+     "worried",
+     "neutral"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "worried"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00005598",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "neutral",
+    "runs": [
+     "worried",
+     "neutral",
+     "worried",
+     "neutral",
+     "worried"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "worried"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00005972",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "angry",
+    "runs": [
+     "angry",
+     "neutral",
+     "neutral",
+     "angry",
+     "angry"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "angry"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00006779",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "neutral",
+    "runs": [
+     "angry",
+     "angry",
+     "angry",
+     "angry",
+     "angry"
+    ],
+    "v4": "angry",
+    "cand": [
+     "neutral",
+     "angry"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00013669",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "surprise",
+    "runs": [
+     "surprise",
+     "surprise",
+     "surprise",
+     "surprise",
+     "surprise"
+    ],
+    "v4": "surprise",
+    "cand": [
+     "neutral",
+     "surprise"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00013930",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "neutral",
+    "runs": [
+     "neutral",
+     "neutral",
+     "sad",
+     "neutral",
+     "sad"
+    ],
+    "v4": "sad",
+    "cand": [
+     "neutral",
+     "sad"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00014498",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "surprise",
+    "runs": [
+     "surprise",
+     "surprise",
+     "surprise",
+     "surprise",
+     "surprise"
+    ],
+    "v4": "surprise",
+    "cand": [
+     "neutral",
+     "surprise"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00015302",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "angry",
+    "runs": [
+     "neutral",
+     "angry",
+     "angry",
+     "neutral",
+     "neutral"
+    ],
+    "v4": "angry",
+    "cand": [
+     "neutral",
+     "angry"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00015742",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "sad",
+    "runs": [
+     "sad",
+     "sad",
+     "sad",
+     "sad",
+     "sad"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "sad"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00016139",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "worried",
+    "runs": [
+     "worried",
+     "worried",
+     "worried",
+     "worried",
+     "worried"
+    ],
+    "v4": "worried",
+    "cand": [
+     "sad",
+     "worried"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00021813",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "neutral",
+    "runs": [
+     "sad",
+     "worried",
+     "worried",
+     "worried",
+     "worried"
+    ],
+    "v4": "worried",
+    "cand": [
+     "neutral",
+     "worried"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00022521",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "surprise",
+    "runs": [
+     "neutral",
+     "surprise",
+     "surprise",
+     "surprise",
+     "surprise"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "surprise"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00032818",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "angry",
+    "runs": [
+     "angry",
+     "angry",
+     "angry",
+     "angry",
+     "angry"
+    ],
+    "v4": "angry",
+    "cand": [
+     "neutral",
+     "angry",
+     "worried"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00034724",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "angry",
+    "runs": [
+     "angry",
+     "angry",
+     "angry",
+     "angry",
+     "sad"
+    ],
+    "v4": "angry",
+    "cand": [
+     "angry",
+     "sad"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00034928",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "angry",
+    "runs": [
+     "angry",
+     "angry",
+     "angry",
+     "angry",
+     "angry"
+    ],
+    "v4": "angry",
+    "cand": [
+     "neutral",
+     "angry",
+     "surprise"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00039408",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "neutral",
+    "runs": [
+     "sad",
+     "sad",
+     "sad",
+     "sad",
+     "neutral"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "sad"
+    ]
+   },
+   {
+    "id": "MELD/dia108_utt8",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "surprise",
+    "runs": [
+     "joy",
+     "surprise",
+     "joy",
+     "joy",
+     "joy"
+    ],
+    "v4": "surprise",
+    "cand": [
+     "joy",
+     "surprise"
+    ]
+   },
+   {
+    "id": "MELD/dia113_utt2",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "joy",
+    "runs": [
+     "joy",
+     "joy",
+     "joy",
+     "joy",
+     "joy"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "joy"
+    ]
+   },
+   {
+    "id": "MELD/dia117_utt1",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "joy",
+    "runs": [
+     "joy",
+     "joy",
+     "neutral",
+     "joy",
+     "joy"
+    ],
+    "v4": "joy",
+    "cand": [
+     "neutral",
+     "joy"
+    ]
+   },
+   {
+    "id": "MELD/dia124_utt9",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "surprise",
+    "runs": [
+     "fear",
+     "fear",
+     "fear",
+     "fear",
+     "surprise"
+    ],
+    "v4": "fear",
+    "cand": [
+     "neutral",
+     "surprise",
+     "fear"
+    ]
+   },
+   {
+    "id": "MELD/dia129_utt1",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "surprise",
+    "runs": [
+     "disgust",
+     "anger",
+     "anger",
+     "anger",
+     "anger"
+    ],
+    "v4": "anger",
+    "cand": [
+     "anger",
+     "surprise"
+    ]
+   },
+   {
+    "id": "MELD/dia130_utt1",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "disgust",
+    "runs": [
+     "joy",
+     "joy",
+     "joy",
+     "joy",
+     "joy"
+    ],
+    "v4": "joy",
+    "cand": [
+     "neutral",
+     "joy",
+     "disgust"
+    ]
+   },
+   {
+    "id": "MELD/dia143_utt5",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "fear",
+    "runs": [
+     "neutral",
+     "joy",
+     "fear",
+     "fear",
+     "fear"
+    ],
+    "v4": "joy",
+    "cand": [
+     "neutral",
+     "joy",
+     "fear"
+    ]
+   },
+   {
+    "id": "MELD/dia169_utt0",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "surprise",
+    "runs": [
+     "surprise",
+     "surprise",
+     "surprise",
+     "surprise",
+     "surprise"
+    ],
+    "v4": "surprise",
+    "cand": [
+     "joy",
+     "surprise"
+    ]
+   },
+   {
+    "id": "MELD/dia17_utt14",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "disgust",
+    "runs": [
+     "disgust",
+     "disgust",
+     "disgust",
+     "disgust",
+     "disgust"
+    ],
+    "v4": "disgust",
+    "cand": [
+     "neutral",
+     "disgust"
+    ]
+   },
+   {
+    "id": "MELD/dia17_utt28",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "sadness",
+    "runs": [
+     "sadness",
+     "sadness",
+     "sadness",
+     "sadness",
+     "sadness"
+    ],
+    "v4": "sadness",
+    "cand": [
+     "neutral",
+     "sadness",
+     "joy"
+    ]
+   },
+   {
+    "id": "MELD/dia182_utt4",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "fear",
+    "runs": [
+     "fear",
+     "fear",
+     "fear",
+     "fear",
+     "fear"
+    ],
+    "v4": "fear",
+    "cand": [
+     "joy",
+     "fear"
+    ]
+   },
+   {
+    "id": "MELD/dia184_utt6",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "fear",
+    "runs": [
+     "fear",
+     "fear",
+     "fear",
+     "fear",
+     "fear"
+    ],
+    "v4": "sadness",
+    "cand": [
+     "sadness",
+     "fear"
+    ]
+   },
+   {
+    "id": "MELD/dia217_utt8",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "joy",
+    "runs": [
+     "joy",
+     "surprise",
+     "joy",
+     "joy",
+     "sadness"
+    ],
+    "v4": "joy",
+    "cand": [
+     "neutral",
+     "joy",
+     "surprise"
+    ]
+   },
+   {
+    "id": "MELD/dia22_utt4",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "sadness",
+    "runs": [
+     "neutral",
+     "sadness",
+     "sadness",
+     "sadness",
+     "sadness"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "sadness"
+    ]
+   },
+   {
+    "id": "MELD/dia231_utt11",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "disgust",
+    "runs": [
+     "sadness",
+     "sadness",
+     "sadness",
+     "sadness",
+     "sadness"
+    ],
+    "v4": "surprise",
+    "cand": [
+     "neutral",
+     "sadness",
+     "surprise",
+     "disgust"
+    ]
+   },
+   {
+    "id": "MELD/dia249_utt3",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "neutral",
+    "runs": [
+     "joy",
+     "joy",
+     "joy",
+     "joy",
+     "joy"
+    ],
+    "v4": "joy",
+    "cand": [
+     "neutral",
+     "joy"
+    ]
+   },
+   {
+    "id": "MELD/dia249_utt5",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "joy",
+    "runs": [
+     "joy",
+     "disgust",
+     "fear",
+     "neutral",
+     "neutral"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "joy"
+    ]
+   },
+   {
+    "id": "MELD/dia252_utt13",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "sadness",
+    "runs": [
+     "neutral",
+     "neutral",
+     "neutral",
+     "neutral",
+     "neutral"
+    ],
+    "v4": "sadness",
+    "cand": [
+     "neutral",
+     "sadness"
+    ]
+   },
+   {
+    "id": "MELD/dia254_utt7",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "surprise",
+    "runs": [
+     "neutral",
+     "surprise",
+     "neutral",
+     "surprise",
+     "neutral"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "surprise"
+    ]
+   },
+   {
+    "id": "MELD/dia271_utt3",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "fear",
+    "runs": [
+     "fear",
+     "fear",
+     "fear",
+     "fear",
+     "fear"
+    ],
+    "v4": "fear",
+    "cand": [
+     "anger",
+     "fear"
+    ]
+   },
+   {
+    "id": "MELD/dia274_utt0",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "neutral",
+    "runs": [
+     "neutral",
+     "neutral",
+     "neutral",
+     "fear",
+     "fear"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "fear"
+    ]
+   },
+   {
+    "id": "MELD/dia2_utt6",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "anger",
+    "runs": [
+     "anger",
+     "anger",
+     "neutral",
+     "anger",
+     "neutral"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "anger"
+    ]
+   },
+   {
+    "id": "MELD/dia64_utt2",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "anger",
+    "runs": [
+     "anger",
+     "anger",
+     "anger",
+     "anger",
+     "anger"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "anger"
+    ]
+   },
+   {
+    "id": "MELD/dia70_utt16",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "sadness",
+    "runs": [
+     "sadness",
+     "sadness",
+     "sadness",
+     "sadness",
+     "sadness"
+    ],
+    "v4": "joy",
+    "cand": [
+     "neutral",
+     "sadness",
+     "joy"
+    ]
+   },
+   {
+    "id": "MELD/dia73_utt0",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "fear",
+    "runs": [
+     "fear",
+     "fear",
+     "fear",
+     "fear",
+     "fear"
+    ],
+    "v4": "fear",
+    "cand": [
+     "surprise",
+     "fear"
+    ]
+   },
+   {
+    "id": "MELD/dia80_utt4",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "anger",
+    "runs": [
+     "anger",
+     "anger",
+     "sadness",
+     "sadness",
+     "anger"
+    ],
+    "v4": "surprise",
+    "cand": [
+     "anger",
+     "surprise",
+     "fear"
+    ]
+   },
+   {
+    "id": "MELD/dia83_utt6",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "surprise",
+    "runs": [
+     "surprise",
+     "surprise",
+     "surprise",
+     "neutral",
+     "neutral"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "surprise"
+    ]
+   },
+   {
+    "id": "MELD/dia93_utt0",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "sadness",
+    "runs": [
+     "sadness",
+     "sadness",
+     "fear",
+     "sadness",
+     "fear"
+    ],
+    "v4": "sadness",
+    "cand": [
+     "sadness",
+     "fear"
+    ]
+   },
+   {
+    "id": "MELD/dia99_utt9",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "fear",
+    "runs": [
+     "fear",
+     "fear",
+     "fear",
+     "fear",
+     "fear"
+    ],
+    "v4": "sadness",
+    "cand": [
+     "neutral",
+     "sadness",
+     "joy",
+     "fear"
+    ]
+   }
+  ],
+  "gpt": [
+   {
+    "id": "MER2024/sample_00002038",
+    "dataset": "MER2024",
+    "split": "validation",
+    "gold": "surprise",
+    "runs": [
+     "worried",
+     "worried",
+     "worried",
+     "worried",
+     "worried"
+    ],
+    "v4": "worried",
+    "cand": [
+     "worried",
+     "surprise"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00021849",
+    "dataset": "MER2024",
+    "split": "validation",
+    "gold": "neutral",
+    "runs": [
+     "worried",
+     "worried",
+     "worried",
+     "worried",
+     "worried"
+    ],
+    "v4": "worried",
+    "cand": [
+     "neutral",
+     "sad",
+     "worried"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00021868",
+    "dataset": "MER2024",
+    "split": "validation",
+    "gold": "neutral",
+    "runs": [
+     "sad",
+     "worried",
+     "worried",
+     "sad",
+     "sad"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "sad",
+     "worried"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00041734",
+    "dataset": "MER2024",
+    "split": "validation",
+    "gold": "angry",
+    "runs": [
+     "worried",
+     "worried",
+     "worried",
+     "worried",
+     "worried"
+    ],
+    "v4": "surprise",
+    "cand": [
+     "worried",
+     "surprise"
+    ]
+   },
+   {
+    "id": "MELD/dia226_utt3",
+    "dataset": "MELD",
+    "split": "validation",
+    "gold": "sadness",
+    "runs": [
+     "sadness",
+     "sadness",
+     "neutral",
+     "neutral",
+     "neutral"
+    ],
+    "v4": "sadness",
+    "cand": [
+     "anger",
+     "sadness"
+    ]
+   },
+   {
+    "id": "MELD/dia245_utt4",
+    "dataset": "MELD",
+    "split": "validation",
+    "gold": "fear",
+    "runs": [
+     "fear",
+     "fear",
+     "surprise",
+     "surprise",
+     "fear"
+    ],
+    "v4": "surprise",
+    "cand": [
+     "surprise",
+     "fear"
+    ]
+   },
+   {
+    "id": "MELD/dia50_utt2",
+    "dataset": "MELD",
+    "split": "validation",
+    "gold": "fear",
+    "runs": [
+     "fear",
+     "surprise",
+     "fear",
+     "sadness",
+     "surprise"
+    ],
+    "v4": "sadness",
+    "cand": [
+     "sadness",
+     "fear"
+    ]
+   },
+   {
+    "id": "MELD/dia66_utt1",
+    "dataset": "MELD",
+    "split": "validation",
+    "gold": "joy",
+    "runs": [
+     "joy",
+     "joy",
+     "neutral",
+     "joy",
+     "joy"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "joy"
+    ]
+   },
+   {
+    "id": "MER2024/sample_00002707",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "worried",
+    "runs": [
+     "worried",
+     "worried",
+     "worried",
+     "worried",
+     "worried"
+    ],
+    "v4": "angry",
+    "cand": [
+     "angry",
+     "worried"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00003233",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "neutral",
+    "runs": [
+     "neutral",
+     "neutral",
+     "neutral",
+     "neutral",
+     "angry"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "angry"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00006610",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "neutral",
+    "runs": [
+     "happy",
+     "happy",
+     "happy",
+     "neutral",
+     "happy"
+    ],
+    "v4": "happy",
+    "cand": [
+     "neutral",
+     "happy"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00013168",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "angry",
+    "runs": [
+     "angry",
+     "angry",
+     "angry",
+     "angry",
+     "angry"
+    ],
+    "v4": "sad",
+    "cand": [
+     "angry",
+     "sad"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00013412",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "happy",
+    "runs": [
+     "happy",
+     "happy",
+     "happy",
+     "happy",
+     "happy"
+    ],
+    "v4": "happy",
+    "cand": [
+     "neutral",
+     "happy"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00017328",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "worried",
+    "runs": [
+     "worried",
+     "worried",
+     "worried",
+     "worried",
+     "worried"
+    ],
+    "v4": "worried",
+    "cand": [
+     "neutral",
+     "worried"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00017645",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "sad",
+    "runs": [
+     "happy",
+     "happy",
+     "happy",
+     "happy",
+     "happy"
+    ],
+    "v4": "happy",
+    "cand": [
+     "sad",
+     "happy"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00018796",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "sad",
+    "runs": [
+     "worried",
+     "worried",
+     "worried",
+     "sad",
+     "sad"
+    ],
+    "v4": "angry",
+    "cand": [
+     "angry",
+     "sad",
+     "worried"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00021786",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "neutral",
+    "runs": [
+     "neutral",
+     "neutral",
+     "neutral",
+     "neutral",
+     "neutral"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "happy"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00021813",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "neutral",
+    "runs": [
+     "worried",
+     "worried",
+     "worried",
+     "worried",
+     "worried"
+    ],
+    "v4": "worried",
+    "cand": [
+     "neutral",
+     "worried"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00022521",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "surprise",
+    "runs": [
+     "surprise",
+     "surprise",
+     "surprise",
+     "surprise",
+     "surprise"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "surprise"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00026661",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "surprise",
+    "runs": [
+     "worried",
+     "surprise",
+     "worried",
+     "surprise",
+     "worried"
+    ],
+    "v4": "surprise",
+    "cand": [
+     "worried",
+     "surprise"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00032818",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "angry",
+    "runs": [
+     "worried",
+     "worried",
+     "worried",
+     "neutral",
+     "worried"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "worried"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00033052",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "sad",
+    "runs": [
+     "worried",
+     "worried",
+     "worried",
+     "sad",
+     "worried"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "worried"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00034724",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "angry",
+    "runs": [
+     "worried",
+     "worried",
+     "worried",
+     "worried",
+     "worried"
+    ],
+    "v4": "worried",
+    "cand": [
+     "angry",
+     "sad",
+     "worried"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00035775",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "neutral",
+    "runs": [
+     "surprise",
+     "surprise",
+     "surprise",
+     "neutral",
+     "neutral"
+    ],
+    "v4": "surprise",
+    "cand": [
+     "neutral",
+     "surprise"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00037260",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "neutral",
+    "runs": [
+     "sad",
+     "sad",
+     "sad",
+     "sad",
+     "sad"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "worried"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00039408",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "neutral",
+    "runs": [
+     "sad",
+     "neutral",
+     "sad",
+     "sad",
+     "sad"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "sad"
+    ]
+   },
+   {
+    "id": "MER2024/samplenew_00041620",
+    "dataset": "MER2024",
+    "split": "train",
+    "gold": "neutral",
+    "runs": [
+     "worried",
+     "worried",
+     "worried",
+     "worried",
+     "worried"
+    ],
+    "v4": "worried",
+    "cand": [
+     "neutral",
+     "worried"
+    ]
+   },
+   {
+    "id": "MELD/dia100_utt10",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "sadness",
+    "runs": [
+     "neutral",
+     "neutral",
+     "neutral",
+     "neutral",
+     "sadness"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "sadness"
+    ]
+   },
+   {
+    "id": "MELD/dia112_utt21",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "neutral",
+    "runs": [
+     "neutral",
+     "neutral",
+     "neutral",
+     "neutral",
+     "neutral"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "joy"
+    ]
+   },
+   {
+    "id": "MELD/dia11_utt1",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "fear",
+    "runs": [
+     "fear",
+     "fear",
+     "fear",
+     "fear",
+     "neutral"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "sadness",
+     "fear"
+    ]
+   },
+   {
+    "id": "MELD/dia135_utt5",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "joy",
+    "runs": [
+     "joy",
+     "joy",
+     "joy",
+     "neutral",
+     "joy"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "joy"
+    ]
+   },
+   {
+    "id": "MELD/dia148_utt0",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "sadness",
+    "runs": [
+     "neutral",
+     "neutral",
+     "neutral",
+     "neutral",
+     "joy"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "joy"
+    ]
+   },
+   {
+    "id": "MELD/dia152_utt3",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "neutral",
+    "runs": [
+     "neutral",
+     "neutral",
+     "neutral",
+     "neutral",
+     "neutral"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "anger"
+    ]
+   },
+   {
+    "id": "MELD/dia156_utt15",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "anger",
+    "runs": [
+     "joy",
+     "joy",
+     "joy",
+     "joy",
+     "joy"
+    ],
+    "v4": "joy",
+    "cand": [
+     "anger",
+     "joy"
+    ]
+   },
+   {
+    "id": "MELD/dia156_utt4",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "neutral",
+    "runs": [
+     "neutral",
+     "joy",
+     "joy",
+     "joy",
+     "neutral"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "joy",
+     "surprise"
+    ]
+   },
+   {
+    "id": "MELD/dia17_utt14",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "disgust",
+    "runs": [
+     "disgust",
+     "disgust",
+     "neutral",
+     "disgust",
+     "disgust"
+    ],
+    "v4": "disgust",
+    "cand": [
+     "anger",
+     "disgust"
+    ]
+   },
+   {
+    "id": "MELD/dia17_utt3",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "disgust",
+    "runs": [
+     "disgust",
+     "surprise",
+     "surprise",
+     "surprise",
+     "disgust"
+    ],
+    "v4": "disgust",
+    "cand": [
+     "joy",
+     "surprise",
+     "disgust"
+    ]
+   },
+   {
+    "id": "MELD/dia182_utt3",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "fear",
+    "runs": [
+     "surprise",
+     "fear",
+     "surprise",
+     "surprise",
+     "surprise"
+    ],
+    "v4": "surprise",
+    "cand": [
+     "surprise",
+     "fear"
+    ]
+   },
+   {
+    "id": "MELD/dia182_utt4",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "fear",
+    "runs": [
+     "fear",
+     "fear",
+     "fear",
+     "fear",
+     "fear"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "fear"
+    ]
+   },
+   {
+    "id": "MELD/dia184_utt6",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "fear",
+    "runs": [
+     "surprise",
+     "fear",
+     "surprise",
+     "surprise",
+     "surprise"
+    ],
+    "v4": "fear",
+    "cand": [
+     "sadness",
+     "fear"
+    ]
+   },
+   {
+    "id": "MELD/dia217_utt4",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "surprise",
+    "runs": [
+     "disgust",
+     "disgust",
+     "disgust",
+     "disgust",
+     "disgust"
+    ],
+    "v4": "disgust",
+    "cand": [
+     "anger",
+     "surprise",
+     "disgust"
+    ]
+   },
+   {
+    "id": "MELD/dia222_utt1",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "neutral",
+    "runs": [
+     "neutral",
+     "neutral",
+     "anger",
+     "sadness",
+     "sadness"
+    ],
+    "v4": "sadness",
+    "cand": [
+     "neutral",
+     "sadness"
+    ]
+   },
+   {
+    "id": "MELD/dia227_utt0",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "fear",
+    "runs": [
+     "joy",
+     "joy",
+     "joy",
+     "joy",
+     "joy"
+    ],
+    "v4": "joy",
+    "cand": [
+     "joy",
+     "fear"
+    ]
+   },
+   {
+    "id": "MELD/dia244_utt7",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "disgust",
+    "runs": [
+     "disgust",
+     "anger",
+     "disgust",
+     "anger",
+     "disgust"
+    ],
+    "v4": "anger",
+    "cand": [
+     "neutral",
+     "anger",
+     "disgust"
+    ]
+   },
+   {
+    "id": "MELD/dia249_utt5",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "joy",
+    "runs": [
+     "fear",
+     "disgust",
+     "fear",
+     "fear",
+     "disgust"
+    ],
+    "v4": "disgust",
+    "cand": [
+     "fear",
+     "disgust"
+    ]
+   },
+   {
+    "id": "MELD/dia257_utt1",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "surprise",
+    "runs": [
+     "neutral",
+     "neutral",
+     "neutral",
+     "neutral",
+     "neutral"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "surprise"
+    ]
+   },
+   {
+    "id": "MELD/dia269_utt3",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "joy",
+    "runs": [
+     "joy",
+     "joy",
+     "joy",
+     "joy",
+     "joy"
+    ],
+    "v4": "joy",
+    "cand": [
+     "neutral",
+     "anger",
+     "joy"
+    ]
+   },
+   {
+    "id": "MELD/dia271_utt3",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "fear",
+    "runs": [
+     "joy",
+     "joy",
+     "joy",
+     "neutral",
+     "neutral"
+    ],
+    "v4": "fear",
+    "cand": [
+     "joy",
+     "fear"
+    ]
+   },
+   {
+    "id": "MELD/dia279_utt0",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "anger",
+    "runs": [
+     "anger",
+     "joy",
+     "anger",
+     "anger",
+     "anger"
+    ],
+    "v4": "joy",
+    "cand": [
+     "anger",
+     "joy"
+    ]
+   },
+   {
+    "id": "MELD/dia279_utt4",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "anger",
+    "runs": [
+     "anger",
+     "anger",
+     "anger",
+     "anger",
+     "anger"
+    ],
+    "v4": "joy",
+    "cand": [
+     "anger",
+     "joy"
+    ]
+   },
+   {
+    "id": "MELD/dia53_utt7",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "sadness",
+    "runs": [
+     "sadness",
+     "sadness",
+     "sadness",
+     "sadness",
+     "sadness"
+    ],
+    "v4": "anger",
+    "cand": [
+     "anger",
+     "sadness"
+    ]
+   },
+   {
+    "id": "MELD/dia64_utt2",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "anger",
+    "runs": [
+     "neutral",
+     "neutral",
+     "neutral",
+     "neutral",
+     "neutral"
+    ],
+    "v4": "anger",
+    "cand": [
+     "neutral",
+     "anger"
+    ]
+   },
+   {
+    "id": "MELD/dia68_utt12",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "joy",
+    "runs": [
+     "surprise",
+     "neutral",
+     "joy",
+     "surprise",
+     "joy"
+    ],
+    "v4": "joy",
+    "cand": [
+     "joy",
+     "surprise"
+    ]
+   },
+   {
+    "id": "MELD/dia70_utt15",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "sadness",
+    "runs": [
+     "neutral",
+     "neutral",
+     "neutral",
+     "neutral",
+     "sadness"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "anger"
+    ]
+   },
+   {
+    "id": "MELD/dia83_utt6",
+    "dataset": "MELD",
+    "split": "train",
+    "gold": "surprise",
+    "runs": [
+     "surprise",
+     "neutral",
+     "surprise",
+     "surprise",
+     "surprise"
+    ],
+    "v4": "neutral",
+    "cand": [
+     "neutral",
+     "surprise"
+    ]
+   }
+  ]
+ }
+}

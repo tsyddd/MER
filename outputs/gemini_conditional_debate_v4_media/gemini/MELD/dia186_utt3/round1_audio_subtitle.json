@@ -1,0 +1,47 @@
+{
+  "output": {
+    "expert": "audio_subtitle",
+    "changed": false,
+    "response_to_others": "核对图像专家的证据，其指出的'双眼半闭、眉心微蹙'仅为说话眨眼时的瞬态（frame_00至frame_02），随后frame_04起Joey神情极为平稳松弛；音轨中Joey语调从容轻快、尾音'baby'带自然拖音，全无悲伤所要求的哽咽、沉重叹息或下沉哀伤，纯属口头推脱的社交客套，不足以构成sadness。图谱专家的核实与原始媒体相符，确认其体态舒展放松、语调平缓无情绪激起。",
+    "reason": "Joey在通话中陈述'I’m sorry I gotta cancel tonight baby'，语用上属于常规推托与程序性客套致歉，绝非内心真实的失落或悲痛。从声学表现来看（0.00s-1.85s），其语调平稳低沉，语速均匀随性，末尾呼唤'baby'轻柔从容，不含任何颤音、气音沉重感或哀伤沉落；视觉上他瘫坐在大扶手椅中，肢体处于极度放松状态，完全符合平稳、无主导情绪激起的常态沟通。",
+    "open_emotion": "平常",
+    "answer": "neutral",
+    "mapping_reason": "说话人仅在进行平稳、日常的事务性推托通话，言辞中的致歉为社交辞令，声学与体态均无任何悲痛、负向压力或正向亢奋，符合neutral（平稳、日常且没有明确主导情绪的表达）的定义。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "audio",
+        "anchor": "0.00s-1.85s",
+        "observation": "Joey发声平缓低沉，语流连贯流畅，句尾'baby'音调平顺舒缓，无气息阻滞、叹息或低落沉重感。",
+        "interpretation": "缺乏负向情绪所伴随的声学扰动，证实其表达仅处于平稳常态。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "subtitle",
+        "anchor": "I’m sorry I gotta cancel tonight baby",
+        "observation": "使用标准礼节性道歉句式告知取消当晚安排。",
+        "interpretation": "字面'I'm sorry'为日常言语交际中的常规推辞，并不等于说话者当前处于悲伤体验。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "visual",
+        "anchor": "frame_04至frame_07 (1.08s-1.92s)",
+        "observation": "Joey深陷在扶手椅中，双肩下沉，目光平静直视前方，面部肌肉完全舒展无紧绷。",
+        "interpretation": "身体语言与面部状态均呈现闲适无压，不支持sadness或内疚带来的心理负担。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "台词表层包含'I’m sorry'，易被机械字面理解为歉疚或sadness，但实际语韵与肢体语言完全排除了真实悲伤的存在。"
+  },
+  "usage": {
+    "completion_tokens": 1435,
+    "total_tokens": 13985,
+    "prompt_tokens": 12550,
+    "completion_tokens_details": {
+      "reasoning_tokens": 617
+    }
+  },
+  "seconds": 16.930246829986572
+}

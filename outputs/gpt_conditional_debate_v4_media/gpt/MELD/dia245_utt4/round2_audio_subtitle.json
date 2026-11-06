@@ -1,0 +1,52 @@
+{
+  "output": {
+    "expert": "audio_subtitle",
+    "reason": "Monica说“No-no-no, no!”，是在即时制止，而不是单纯陈述或提问[E1]。她随即放低书本、迅速前倾并回头回应[E2][E3]，显示突发状况打断了她原本的动作。重新核对后，我认为这些证据更直接支持吃惊；我上一轮把制止意图推成对负面后果的畏惧，但片段没有充分显示她在害怕什么。",
+    "open_emotion": "吃惊",
+    "answer": "surprise",
+    "mapping_reason": "当前可见的突然反应更接近情绪轮中面对意外状况的surprise。她同时在制止某事，因此并非只有惊讶表情；但缺少将其归为fear所需的明确威胁或畏惧证据。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "subtitle",
+        "anchor": "“No-no-no, no!”",
+        "observation": "Monica连续说出否定词。",
+        "interpretation": "这是即时制止，也说明她不只是平静地表示意外；字幕不能说明语调或制止原因。",
+        "polarity": "counter"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_02（0.584秒）至frame_05（1.418秒）",
+        "observation": "Monica从坐着持书转为放低书本、迅速前倾。",
+        "interpretation": "动作的突然改变支持她受到眼前状况触动，但也可解释为急于介入。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "visual",
+        "anchor": "frame_06（1.710秒）至frame_07（2.002秒）",
+        "observation": "Monica前倾后回头，末帧张口看向门边。",
+        "interpretation": "与持续回应突发状况相符；单凭张口不能判定害怕。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "最强替代解释是焦急地制止：连续的“不”和立即前倾确实支持这一点。但字幕与画面都未交代她预期的负面后果，不足以进一步确认为fear。本轮未提供音轨，不能据语调判断。",
+    "changed": true,
+    "response_to_others": "图像专家引用的frame_02至frame_07中放低书本、前倾和回头，以及连续否定的字幕，均可核实；其指出fear缺少威胁证据，促使我修正上一轮的推断。图谱专家所述动作与同一画面重复，不能另计；本轮没有图谱或音轨，无法核实process_1、person_2及其声音描述。"
+  },
+  "usage": {
+    "completion_tokens": 829,
+    "total_tokens": 6666,
+    "prompt_tokens": 5837,
+    "prompt_tokens_details": {
+      "cached_tokens": 2304,
+      "cache_write_tokens": 0,
+      "cached_creation_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 125
+    }
+  },
+  "seconds": 21.726090908050537
+}

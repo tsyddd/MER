@@ -1,0 +1,14 @@
+{
+  "id": "MELD/dia119_utt5",
+  "dataset": "MELD",
+  "round0_labels": {
+    "graph": "fear",
+    "audio_subtitle": "fear",
+    "image": "fear"
+  },
+  "triggered": false,
+  "final": "fear",
+  "rounds_run": 0,
+  "round_labels": [],
+  "judge": null
+}

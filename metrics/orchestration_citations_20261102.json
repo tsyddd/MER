@@ -1,0 +1,250 @@
+{
+ "source": "Semantic Scholar Graph API batch endpoint",
+ "queried": "2026-11-02",
+ "note": "public bibliographic metadata only",
+ "papers": [
+  {
+   "id": "2505.19591",
+   "title": "Multi-Agent Collaboration via Evolving Orchestration",
+   "publicationDate": "2025-05-26",
+   "year": 2025,
+   "venue": "Neural Information Processing Systems",
+   "citationCount": 136,
+   "influentialCitationCount": 16
+  },
+  {
+   "id": "2511.21689",
+   "title": "ToolOrchestra: Elevating Intelligence via Efficient Model and Tool Orchestration",
+   "publicationDate": "2025-11-26",
+   "year": 2025,
+   "venue": "arXiv.org",
+   "citationCount": 50,
+   "influentialCitationCount": 5
+  },
+  {
+   "id": "2506.12508",
+   "title": "AgentOrchestra: Orchestrating Multi-Agent Intelligence with the Tool-Environment-Agent(TEA) Protocol",
+   "publicationDate": "2025-06-14",
+   "year": 2025,
+   "venue": "",
+   "citationCount": 28,
+   "influentialCitationCount": 1
+  },
+  {
+   "id": "2502.11133",
+   "title": "MasRouter: Learning to Route LLMs for Multi-Agent Systems",
+   "publicationDate": "2025-02-16",
+   "year": 2025,
+   "venue": "Annual Meeting of the Association for Computational Linguistics",
+   "citationCount": 117,
+   "influentialCitationCount": 8
+  },
+  {
+   "id": "2410.10762",
+   "title": "AFlow: Automating Agentic Workflow Generation",
+   "publicationDate": "2024-10-14",
+   "year": 2024,
+   "venue": "International Conference on Learning Representations",
+   "citationCount": 511,
+   "influentialCitationCount": 67
+  },
+  {
+   "id": "2502.04180",
+   "title": "Multi-agent Architecture Search via Agentic Supernet",
+   "publicationDate": "2025-02-06",
+   "year": 2025,
+   "venue": "International Conference on Machine Learning",
+   "citationCount": 212,
+   "influentialCitationCount": 39
+  },
+  {
+   "id": "2402.16823",
+   "title": "Language Agents as Optimizable Graphs",
+   "publicationDate": "2024-02-26",
+   "year": 2024,
+   "venue": "International Conference on Machine Learning",
+   "citationCount": 89,
+   "influentialCitationCount": 5
+  },
+  {
+   "id": "2310.02170",
+   "title": "A Dynamic LLM-Powered Agent Network for Task-Oriented Agent Collaboration",
+   "publicationDate": "2023-10-03",
+   "year": 2023,
+   "venue": "",
+   "citationCount": 385,
+   "influentialCitationCount": 42
+  },
+  {
+   "id": "2410.11782",
+   "title": "G-Designer: Architecting Multi-agent Communication Topologies via Graph Neural Networks",
+   "publicationDate": "2024-10-15",
+   "year": 2024,
+   "venue": "International Conference on Machine Learning",
+   "citationCount": 144,
+   "influentialCitationCount": 16
+  },
+  {
+   "id": "2410.02506",
+   "title": "Cut the Crap: An Economical Communication Pipeline for LLM-based Multi-Agent Systems",
+   "publicationDate": "2024-10-03",
+   "year": 2024,
+   "venue": "International Conference on Learning Representations",
+   "citationCount": 176,
+   "influentialCitationCount": 16
+  },
+  {
+   "id": "2406.07155",
+   "title": "Scaling Large-Language-Model-based Multi-Agent Collaboration",
+   "publicationDate": "2024-06-11",
+   "year": 2024,
+   "venue": "International Conference on Learning Representations",
+   "citationCount": 311,
+   "influentialCitationCount": 27
+  },
+  {
+   "id": "2311.09758",
+   "title": "OrchestraLLM: Efficient Orchestration of Language Models for Dialogue State Tracking",
+   "publicationDate": "2023-11-16",
+   "year": 2023,
+   "venue": "North American Chapter of the Association for Computational Linguistics",
+   "citationCount": 23,
+   "influentialCitationCount": 0
+  },
+  {
+   "id": "2509.23537",
+   "title": "Beyond the Strongest LLM: Multi-Turn Multi-Agent Orchestration vs. Single LLMs on Benchmarks",
+   "publicationDate": "2025-09-28",
+   "year": 2025,
+   "venue": "arXiv.org",
+   "citationCount": 9,
+   "influentialCitationCount": 2
+  },
+  {
+   "id": "2505.13516",
+   "title": "HALO: Hierarchical Autonomous Logic-Oriented Orchestration for Multi-Agent LLM Systems",
+   "publicationDate": "2025-05-17",
+   "year": 2025,
+   "venue": "arXiv.org",
+   "citationCount": 20,
+   "influentialCitationCount": 0
+  },
+  {
+   "id": "2509.05651",
+   "title": "Orchestrator: Active Inference for Multi-Agent Systems in Long-Horizon Tasks",
+   "publicationDate": "2025-09-06",
+   "year": 2025,
+   "venue": "arXiv.org",
+   "citationCount": 5,
+   "influentialCitationCount": 0
+  },
+  {
+   "id": "2501.06322",
+   "title": "Multi-Agent Collaboration Mechanisms: A Survey of LLMs",
+   "publicationDate": "2025-01-10",
+   "year": 2025,
+   "venue": "arXiv.org",
+   "citationCount": 651,
+   "influentialCitationCount": 29
+  },
+  {
+   "id": "2402.01680",
+   "title": "Large Language Model based Multi-Agents: A Survey of Progress and Challenges",
+   "publicationDate": "2024-01-21",
+   "year": 2024,
+   "venue": "International Joint Conference on Artificial Intelligence",
+   "citationCount": 1317,
+   "influentialCitationCount": 58
+  },
+  {
+   "id": "2601.13671",
+   "title": "The Orchestration of Multi-Agent Systems: Architectures, Protocols, and Enterprise Adoption",
+   "publicationDate": "2026-01-20",
+   "year": 2026,
+   "venue": "arXiv.org",
+   "citationCount": 25,
+   "influentialCitationCount": 2
+  },
+  {
+   "id": "2605.14892",
+   "title": "Beyond Individual Intelligence: Surveying Collaboration, Failure Attribution, and Self-Evolution in LLM-based Multi-Agent Systems",
+   "publicationDate": "2026-05-14",
+   "year": 2026,
+   "venue": "arXiv.org",
+   "citationCount": 7,
+   "influentialCitationCount": 1
+  },
+  {
+   "id": "2604.02334",
+   "title": "Holos: A Web-Scale LLM-Based Multi-Agent System for the Agentic Web",
+   "publicationDate": "2026-01-18",
+   "year": 2026,
+   "venue": "arXiv.org",
+   "citationCount": 3,
+   "influentialCitationCount": 0
+  },
+  {
+   "id": "2605.14483",
+   "title": "COLLATOR: Compositional Multi-Agent Orchestration with Counterfactual Reinforcement Learning",
+   "publicationDate": "2026-05-14",
+   "year": 2026,
+   "venue": "",
+   "citationCount": 1,
+   "influentialCitationCount": 0
+  },
+  {
+   "id": "2303.17580",
+   "title": "HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face",
+   "publicationDate": null,
+   "year": 2023,
+   "venue": "Neural Information Processing Systems",
+   "citationCount": 1860,
+   "influentialCitationCount": 98
+  },
+  {
+   "id": "2411.04468",
+   "title": "Magentic-One: A Generalist Multi-Agent System for Solving Complex Tasks",
+   "publicationDate": "2024-11-07",
+   "year": 2024,
+   "venue": "arXiv.org",
+   "citationCount": 314,
+   "influentialCitationCount": 34
+  },
+  {
+   "id": "2505.23885",
+   "title": "OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation",
+   "publicationDate": "2025-05-29",
+   "year": 2025,
+   "venue": "Neural Information Processing Systems",
+   "citationCount": 166,
+   "influentialCitationCount": 27
+  },
+  {
+   "id": "2307.07924",
+   "title": "ChatDev: Communicative Agents for Software Development",
+   "publicationDate": "2023-07-16",
+   "year": 2023,
+   "venue": "Annual Meeting of the Association for Computational Linguistics",
+   "citationCount": 1415,
+   "influentialCitationCount": 65
+  },
+  {
+   "id": "2511.15755",
+   "title": "Multi-Agent LLM Orchestration Achieves Deterministic, High-Quality Decision Support for Incident Response",
+   "publicationDate": "2025-11-19",
+   "year": 2025,
+   "venue": "arXiv.org",
+   "citationCount": 9,
+   "influentialCitationCount": 2
+  },
+  {
+   "id": "2605.02801",
+   "title": "Reinforcement Learning for LLM-based Multi-Agent Systems through Orchestration Traces",
+   "publicationDate": "2026-05-04",
+   "year": 2026,
+   "venue": "arXiv.org",
+   "citationCount": 8,
+   "influentialCitationCount": 0
+  }
+ ]
+}

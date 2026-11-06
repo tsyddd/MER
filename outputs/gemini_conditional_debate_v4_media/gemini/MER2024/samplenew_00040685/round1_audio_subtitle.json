@@ -1,0 +1,47 @@
+{
+  "output": {
+    "expert": "audio_subtitle",
+    "changed": false,
+    "response_to_others": "核对真实音轨发现，图谱专家所谓‘发音平缓、节奏匀称、无气喘’与实际完全不符，目标人物全程采用压低的紧绷气声且有明显急促吸气，绝非松弛的客观叙述；图像专家对frame_01至frame_05持续双目睁大、面部肌肉紧绷与急促倾诉态势的核实准确，印证了其声音中高度的紧迫与不安。",
+    "reason": "目标人物在复述险情时，音轨中表现出极为显著的压低气声、紧张语调与急促的气息交换[E1]，台词核心直指自身深陷君父猜疑的严重危机[E2]。结合画面中其双目圆睁、面部紧绷向前倾诉的态势[E3]，其言语行为并非超脱的客观叙事，而是极具临场紧迫感与后怕心理的心悸倾诉，整体呈现出高度的焦虑与担忧。",
+    "open_emotion": "焦虑不安",
+    "answer": "worried",
+    "mapping_reason": "目标人物在回溯生死危机时呈现出强烈的紧绷、顾虑与后怕反应；在情绪轮缺乏独立fear/panic类别时，此类对危机后果的持续心理紧绷与不安最符合worried的定义。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "audio",
+        "anchor": "00:00-00:06",
+        "observation": "发音特意压低成气声，句间换气急促且带有明显的紧张收紧感，语速短促紧凑。",
+        "interpretation": "反映出说话者处于高度紧张、心有余悸的情绪状态，排除平稳陈述。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "subtitle",
+        "anchor": "土木人一案，父皇本已对我起了疑心",
+        "observation": "台词描述了自身遭遇巨大政治猜疑的致命危机。",
+        "interpretation": "话题聚焦于危及生存的负面险境，为紧张不安提供了直接的语义动机。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "visual",
+        "anchor": "frame_01 (0.92s) 至 frame_05 (4.56s)",
+        "observation": "双目持续睁大，眼白突出，面颊微紧，身躯向前倾靠向对话者。",
+        "interpretation": "视觉上高度紧绷的神态与声音中的急促紧迫完全契合。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "虽涉及危机的过往转折，但目标人物的声音与神态完全沉浸在当时的险境紧迫感中，并非抽离的平静交待。"
+  },
+  "usage": {
+    "completion_tokens": 1356,
+    "total_tokens": 13937,
+    "prompt_tokens": 12581,
+    "completion_tokens_details": {
+      "reasoning_tokens": 636
+    }
+  },
+  "seconds": 15.82252025604248
+}

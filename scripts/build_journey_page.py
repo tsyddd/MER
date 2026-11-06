@@ -1,0 +1,114 @@
+"""Build docs/project-journey.html: a retrospective of the PPCT emotion-recognition work (v3 -> v4 -> v5 -> self-evolution v6), with the key numbers
+and the corrections made along the way. Numbers are copied from metrics/findings_log.md (F1-F12), nothing is recomputed here and no model is called.
+Usage: python scripts/build_journey_page.py
+"""
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+css = '''body{font:15px/1.75 "Microsoft YaHei",sans-serif;max-width:1100px;margin:24px auto;padding:0 18px;color:#222;background:#fafafa}
+h1{font-size:26px;margin-bottom:4px}h2{font-size:20px;border-bottom:2px solid #ddd;padding-bottom:4px;margin-top:34px}h3{font-size:16px;margin:16px 0 4px}
+.sub{color:#666;font-size:14px}.panel{background:#fff;border:1px solid #ddd;border-radius:6px;padding:8px 18px 16px;margin:14px 0}
+table{border-collapse:collapse;width:100%;margin:8px 0;font-size:14px}th,td{border:1px solid #ccc;padding:5px 9px;text-align:left;vertical-align:top}th{background:#eef}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}tr.hl td{background:#eafaf0;font-weight:700}tr.mid td{background:#fff8e6}
+.tl{border-left:3px solid #4C78A8;margin:10px 0 10px 8px;padding-left:18px}.tl .it{margin:0 0 16px;position:relative}
+.tl .it:before{content:"";position:absolute;left:-26px;top:7px;width:11px;height:11px;border-radius:50%;background:#4C78A8}
+.tl .d{font-size:12.5px;color:#4C78A8;font-weight:700}.tl .t{font-weight:700}
+.note{background:#eaf4ff;border-left:4px solid #48c;padding:8px 12px;margin:10px 0}.warn{background:#fff4e0;border-left:4px solid #e90;padding:8px 12px;margin:10px 0}
+.bad{background:#fdecea;border-left:4px solid #c0392b;padding:8px 12px;margin:10px 0}.small{font-size:13px}.muted{color:#666}code{background:#eee;padding:0 4px;border-radius:3px}
+.cards{display:flex;flex-wrap:wrap;gap:12px}.card{flex:1 1 230px;background:#fff;border:1px solid #ddd;border-radius:8px;padding:10px 14px}.card b{font-size:22px;display:block;color:#2456a6}'''
+
+P = []
+P.append('<h1>我们一路是怎么走过来的：从“辩论”到“自进化”</h1>')
+P.append('<p class="sub">回顾页，2026-11-05。时间跨度 2026-11-02 至今。数字全部来自 <code>metrics/findings_log.md</code>（F1–F12）。'
+         '所有样本都是筛选或开发中反复使用的数据，<b>只能看相对差异，不是独立泛化证据</b>。</p>')
+
+P.append('<section class="panel"><h2>一、主线：一句话</h2>'
+         '<p>我们想让多个“专家”辩论来提高视频情感识别的准确率；数据一步步告诉我们：<b>辩论没有帮上忙，而且在最需要它的“专家意见不一致”样本上，辩论的表现约等于随机选一个；'
+         '真正稳的做法反而是“专家一致就用共同标签，不一致就回到 Direct”</b>。于是我们转向两个问题：'
+         '（1）能不能把“从专家答案里选对”这件事学出来（自进化：R²-MAD 经验召回、SkillOpt 技能训练）；'
+         '（2）Gemini 剩下的错误到底是什么。</p>'
+         '<div class="cards">'
+         '<div class="card"><b>≈85%</b>样本三位专家有唯一共同标签（一致分支），其中约 81%–83% 答对</div>'
+         '<div class="card"><b>≈15%</b>样本不一致（Gemini 62、GPT 55，共 117/400）：v4 辩论只比随机好一点点</div>'
+         '<div class="card"><b>6 / 1200</b>Gemini 反思改答案的次数（GPT 13/1200）：反思几乎不起作用</div>'
+         '<div class="card"><b>38 / 39 / 35 / 38 / 33</b>Gemini 的 Direct 五次独立运行：单次波动极差 6 条</div>'
+         '</div></section>')
+
+P.append('<section class="panel"><h2>二、时间线</h2><div class="tl">'
+         '<div class="it"><div class="d">11-02　v3 → 发现“同模型的专家不独立”（F1、F2）</div><div class="t">三位专家 + 汇总器</div>'
+         '同一模型的三个角色两两“同时答错”的比例 23%–26%，独立假设下应约 9%；换成跨模型的专家才互补（并集 87%–92% vs 同模型 75%–79%）。这是后面所有“辩论为什么没用”的伏笔。</div>'
+         '<div class="it"><div class="d">11-03　v4 → 反思 + 共同标签路由 + 辩论（F3–F5）</div><div class="t">80 条、再扩到 400 条，Gemini 与 GPT 各一份</div>'
+         '反思几乎不改答案（Gemini 6/1200、GPT 13/1200）；共同标签总是某位专家的主答案，备选标签对“直接输出”没有影响；'
+         '辩论路径准确率只有 43%–48%，而直接输出路径 83.5%。小数的“错→对”被“对→错”抵消，v4 没有超过多数投票，也没有超过 Direct。</div>'
+         '<div class="it"><div class="d">11-03　拆开分支看 → 关键转折（F6、F7）</div><div class="t">“一致分支用 v4，不一致分支用 Direct”</div>'
+         '不一致分支里，v4 的答对数 ≈ 在候选里随机选的期望（Gemini 26 vs 25.6，GPT 19 vs 22.8），Direct 却是 38 和 26。'
+         '这个事后组合在 400 条上 Gemini 319、GPT 307，是当时最好的稳妥方案。</div>'
+         '<div class="it"><div class="d">11-03　F9 → 专家里其实有正确答案，是聚合把它丢了</div><div class="t">“Direct 对、v4 错”的 33 条里，32 条真实标签是某位专家的主答案</div>'
+         '也就是说此前“专家信息已经耗尽”的说法是错的，改成“辩论 / 聚合没把对的选出来”。辩论里孤立的正确专家 75%–80% 会改从众，对和错没有区别（F7，11-04）。</div>'
+         '<div class="it"><div class="d">11-03～04　v5 → 不一致分支的四种改法（F8、F11、F12）</div><div class="t">A 匿名化辩论、B0 / B1 轨迹记分、D 候选取证控制器、E 单 agent 先答再回看</div>'
+         '全部没有稳定超过 Direct：A、B0、B1、D 合计 45–51，E 63，Direct 五次均值 60.4（三次投票 61.8）。'
+         'E 的提升主要来自“首次作答”本身，回看只贡献 2 条；Direct 自己的波动（极差 6 条）比之前估计的大，所以差别 &lt;4 条都不能解读。</div>'
+         '<div class="it"><div class="d">11-04　F10 → Gemini 剩余错误的真身</div><div class="t">MELD 里把 sadness / fear / disgust / surprise 判成 neutral</div>'
+         '一致分支 57 个错误里 49 个是三位专家和 Direct 同错；错误对中 sadness→neutral 10、fear→neutral 8。GPT 能纠正其中 17–23 条，但分不清该纠正哪些。</div>'
+         '<div class="it"><div class="d">11-04　文献与方向</div><div class="t">自进化辩论：R²-MAD（EMNLP 2026 Findings，training-free）、SkillOpt（NeurIPS 2026，训练一份技能文档）</div>'
+         '读了两个仓库的源码，弄清了：R²-MAD 的提示词是静态的，进化的是外部经验库；SkillOpt 进化的是一份全局技能文档，部署时零额外调用。</div>'
+         '<div class="it"><div class="d">11-05　设计 → 实现 → 启动 v6 R²-MAD</div><div class="t">训练集 ≤400（来自目录去掉旧 400 条的不一致样本），测试 = 旧 400 条里 v4 的 117 条不一致样本</div>'
+         '检索键：综合 Caption + 情感识别问题 + 自己上一轮回答（精简）+ 上一轮摘要；bge-m3 余弦；n = 1/2/3 都测；加“不检索”对照 n0。'
+         '<b>结果（11-06）：n0 / n1 / n2 / n3 合计 44 / 44 / 45 / 47，v4 45，Direct 均值 60.4；未达“有提升”标准（F13，<a href="v6-rmad-report.html">报告</a>）。</b>取回案例的标签只有约五分之一与当前真实标签相同，经验没有给出方向。</div>'
+         '</div></section>')
+
+P.append('<section class="panel"><h2>三、值得回看的关键数字</h2>'
+         '<h3>1. 不一致分支（v4 没有唯一共同标签）：谁答对多少（Gemini 62 + GPT 55 = 117 条）</h3>'
+         '<table><tr><th>方法</th><th class="n">Gemini</th><th class="n">GPT</th><th class="n">合计</th><th>备注</th></tr>'
+         '<tr><td>在候选里随机选（期望）</td><td class="n">25.6</td><td class="n">22.8</td><td class="n">48.4</td><td>基线</td></tr>'
+         '<tr><td>v4 辩论</td><td class="n">26</td><td class="n">19</td><td class="n">45</td><td>≈ 随机</td></tr>'
+         '<tr><td>v5 A / B0 / B1 / D</td><td class="n">27 / 27 / 29 / 29</td><td class="n">18 / 23 / 21 / 22</td><td class="n">45 / 50 / 50 / 51</td><td>都低于 Direct</td></tr>'
+         '<tr class="mid"><td>v5-E 单 agent 先答再回看</td><td class="n">39</td><td class="n">24</td><td class="n">63</td><td>未达“多 4 条”标准</td></tr>'
+         '<tr class="hl"><td>Direct（五次均值）</td><td class="n">36.6</td><td class="n">23.8</td><td class="n">60.4</td><td>三次投票均值 61.8</td></tr>'
+         '<tr><td>候选集上限（完美选择）</td><td class="n">58</td><td class="n">49</td><td class="n">107</td><td>上限很高，实际救回很少</td></tr></table>'
+         '<h3>2. 全部 400 条（一致分支 281/281 + 不一致分支用各方法）</h3>'
+         '<table><tr><th>组合</th><th class="n">Gemini</th><th class="n">GPT</th></tr>'
+         '<tr><td>v4 原流程</td><td class="n">307</td><td class="n">300</td></tr>'
+         '<tr><td>Direct 全程（第一次运行）</td><td class="n">311</td><td class="n">294</td></tr>'
+         '<tr class="hl"><td>一致用 v4 + 不一致用 Direct（第一次运行 / 五次均值）</td><td class="n">319 / 317.6</td><td class="n">307 / 304.8</td></tr>'
+         '<tr><td>一致用 v4 + 不一致用 v5-E</td><td class="n">320</td><td class="n">305</td></tr></table>'
+         '<h3>3. 辩论为什么没用（F5、F7）</h3>'
+         '<ul><li>孤立的正确专家 41 个里 32 个改从众；孤立的错误专家 57 个里 42 个改从众：辩论分不清“该坚持”和“该让步”。</li>'
+         '<li>辩论后改答案的错→对 / 对→错：Gemini 34 / 34，GPT 23 / 30，近似一场公平的赌局。</li>'
+         '<li>提议里有答案（Gemini 55/62）、多数错但标签在提议里的占一半，辩论却只救回 23% / 16%。</li></ul></section>')
+
+P.append('<section class="panel"><h2>四、我们改正过的认识（诚实记录）</h2>'
+         '<div class="bad"><ul>'
+         '<li><b>“MELD 一致分支共同标签错约 60 条”</b> → 实际 Gemini 46、GPT 45。</li>'
+         '<li><b>“Direct 的噪声约 ±1–2 条”</b> → 五次独立运行极差 6 条（Gemini 33–39，GPT 20–26）；此前引用的 38 / 26 恰是较高的一次抽样。</li>'
+         '<li><b>“不一致分支里专家的信息已经耗尽 / 图谱在误导”</b> → 数据显示答案就在专家里（32/33），是聚合丢掉了它。</li>'
+         '<li><b>v5-E 初版有一个没有意义的“≥3/4 视角一致”门控</b> → 已去掉。</li>'
+         '<li><b>“提示词里的‘宁缺毋滥’导致 neutral 过多”</b> → 该句只指证据条数，且提示词另有“证据不足不等于 neutral”；这一解释从未检验，已按原文改写。</li>'
+         '<li><b>R²-MAD 的 n 与建库规模</b>：我曾把 n 写成 3，实际原版评测脚本是 1；筛选也从“全池”改为“按配额早停”。</li></ul></div></section>')
+
+P.append('<section class="panel"><h2>五、我们一直遵守的做法</h2><ul>'
+         '<li><b>只比相对差异</b>：样本按模型正确性筛选 / 开发复用，绝对准确率不外推；对照用 Direct 五次均值而不是某一次；“有提升”= 不一致 117 条合并后比均值多至少 4 条，且两个模型各自不低于自己的均值。</li>'
+         '<li><b>先画图、批准后再跑</b>：v5 的每个方法、v6 的两个方法都先出流程图和待确认问题。</li>'
+         '<li><b>标签不进提问</b>：真实标签只用于评估、判对错和写经验库案例的“标准标签”，程序里有 <code>check_no_gold</code> 兜底。</li>'
+         '<li><b>每个结论注明口径和限制</b>，记在 <code>metrics/findings_log.md</code>；进度记在 <code>update.md</code>；结果页都是静态 HTML。</li></ul></section>')
+
+P.append('<section class="panel"><h2>六、现在在跑什么、怎么判断成败</h2>'
+         '<table><tr><th>项</th><th>设置</th></tr>'
+         '<tr><td>训练样本</td><td>候选池 MER2024 969 + MELD 2408（去掉旧 400 条），随机顺序，两个模型各攒 200 条不一致样本/数据集即停</td></tr>'
+         '<tr><td>建库</td><td>每条：第 0 轮（复用）→ 摘要 S0 → 辩论 1 → 摘要 S1 → 辩论 2，强制跑满、不用经验；每位专家每轮 1 条记录</td></tr>'
+         '<tr><td>测试</td><td>旧 400 条里 v4 的不一致样本（Gemini 62、GPT 55）；变体 n0（不检索对照）、n1、n2、n3；结束规则沿用 v4</td></tr>'
+         '<tr><td>并发</td><td>请求级：Gemini 4、GPT 2</td></tr>'
+         '<tr><td>怎么算“有提升”</td><td>n1/2/3 相对 <b>n0</b> 的差别 = 经验的作用；相对 Direct 均值（60.4）和 v4（45）的差别 = 整体位置；差别 &lt; 4 条不解读</td></tr></table>'
+         '<div class="warn">结果见 <a href="v6-rmad-report.html">docs/v6-rmad-report.html</a>：未达标准。</div></section>')
+
+P.append('<section class="panel"><h2>七、悬而未决的问题</h2><ul>'
+         '<li>R²-MAD 的经验能不能把“该坚持 / 该让步”教给专家，还是又变成从众？这是 n1/2/3 相对 n0 要回答的。</li>'
+         '<li>Gemini 的主要损失（MELD 的 neutral 过度预测）发生在一致分支，不一致分支的任何方法都碰不到它；这部分需要别的办法（例如 SkillOpt 的“技能文档”式规则，或针对 neutral 的校准）。</li>'
+         '<li>训练 / 验证集按“至少 3 个模型答对”筛选，偏容易；学到的东西是否适用于真正难的样本没有证据。</li>'
+         '<li>GPT 的 Direct 一致性不预测对错（五次完全一致的 25 条也只有 48% 答对），“自信地错”需要别的信号。</li></ul></section>')
+
+html = '<!doctype html><html lang="zh"><head><meta charset="utf-8"><title>项目回顾：从辩论到自进化</title><style>%s</style></head><body>%s</body></html>' % (css, ''.join(P))
+out = ROOT / 'docs' / 'project-journey.html'
+out.write_text(html, encoding='utf-8')
+print('wrote', out, len(html))

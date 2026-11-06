@@ -1,0 +1,44 @@
+{
+  "output": {
+    "expert": "image",
+    "reason": "目标是frame_00至frame_06中发问的女性；frame_07的男子是对话对象，不能将他的表情算作她的反应。她从凝视对方、嘴微张，转为蹙眉、侧头并倾身追问[E1]；字幕显示她以“不是”起头，紧接着问辞职原因[E2]。重新核对后，这些证据更直接支持她对辞职决定感到意外、急于求证，而不是担忧某种尚未说明的后果。",
+    "open_emotion": "诧异",
+    "answer": "surprise",
+    "mapping_reason": "她当前的表情变化与否定式追问共同指向对辞职决定的意外反应，符合surprise；疑问句和蹙眉单独都不足以定类。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "visual",
+        "anchor": "frame_00（0.0秒）至frame_06（2.28秒）",
+        "observation": "女性持续看向画面左侧的对话对象；从嘴微张、凝视，转为蹙眉、侧头并略微倾身发问，问后仍注视对方。",
+        "interpretation": "这是明显的追问反应，与诧异相符；持续蹙眉也容许担忧的解释。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "subtitle",
+        "anchor": "「不是，你，为什么要辞职？」",
+        "observation": "她以“不是”起头，随后直接询问对方辞职的原因。",
+        "interpretation": "话语聚焦于弄清这一决定，较直接支持意外和求证；没有明确提出未来风险。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "最强的相反解释是关切不安：她持续蹙眉、倾身注视对方，而非仅有一瞬的反应。但画面和字幕未明确显示她在顾虑何种后果；没有音频，不能借语调进一步区分。",
+    "changed": true,
+    "response_to_others": "两位专家所引frame_01至frame_06的蹙眉、倾身，以及字幕中的“不是，你，为什么要辞职？”，均可在提供的画面中核实；它们共同使诧异比我上一轮所选的关切不安更有直接依据。图谱专家引用的process_0、person_1和process_1未作为原始图谱提供，无法独立核实；尤其不能据其转述认定听到了语调或额外话语。"
+  },
+  "usage": {
+    "completion_tokens": 715,
+    "total_tokens": 6183,
+    "prompt_tokens": 5468,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_creation_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 127
+    }
+  },
+  "seconds": 19.490567207336426
+}

@@ -1,0 +1,47 @@
+{
+  "output": {
+    "expert": "graph",
+    "changed": false,
+    "response_to_others": "对音频字幕专家：核查原音轨与画面后，发现Chandler的“no-no-no”并非剧烈的厌恶排斥，而仅是日常口语纠正，画面frame_05至frame_07中完全没有缩鼻、蹙眉或扬上唇等disgust典型特征，将戏谑台词直接判定为disgust缺乏面部和情绪基调支持。对图像专家：赞同其关于肢体放松且面部肌肉平稳的观察，核对音轨同样证实其语气平直、未超出日常平稳对话范畴。",
+    "reason": "围绕Chandler与现场人物的互动事件链，Chandler先以手势轻微摆动纠正对象[person_0, process_0]，随后迅速将手收回胸前保持放松姿态[person_1]，以眼神斜视的从容神态说完调侃理由[person_2, process_2]。结合实际音轨核实，其语调平直沉稳，未表现出厌恶的抗拒或强烈的喜悦大笑，属于典型的冷面调侃，情绪基底整体稳定，符合neutral的定义。",
+    "open_emotion": "冷面调侃",
+    "answer": "neutral",
+    "mapping_reason": "Chandler的表达呈现典型的死板冷幽默（deadpan），言语虽有戏谑调侃，但其手势迅速收拢、面部未见厌恶或喜悦特征，语调平稳克制，依据情绪轮定义应映射为平稳无明显情绪主导的neutral。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "graph",
+        "anchor": "person_0与process_0",
+        "observation": "Chandler在身前小幅摆动右手打断对话并说出‘Ah, no-no-no’",
+        "interpretation": "属于口语化的轻度指正，并非强烈的肢体抗拒或排斥",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "graph",
+        "anchor": "person_1与person_2",
+        "observation": "右手迅速屈于胸前收拢，眼神向右上方斜视，面部神态平静放松",
+        "interpretation": "肢体迅速回归克制状态，面部无缩鼻或皱眉等厌恶肌肉收缩",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "audio",
+        "anchor": "00:00-00:03",
+        "observation": "语气平直从容，吐字清晰且无音调突升或剧烈情绪起伏",
+        "interpretation": "听觉证据印证其处于平稳基线状态",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "台词中包含‘embarrassing enough’且背景有观众笑声，容易被表层语意误导为disgust或joy，但目标人物本身的声音和视觉反应极其收敛克制。"
+  },
+  "usage": {
+    "completion_tokens": 1383,
+    "total_tokens": 15430,
+    "prompt_tokens": 14047,
+    "completion_tokens_details": {
+      "reasoning_tokens": 635
+    }
+  },
+  "seconds": 16.752744436264038
+}

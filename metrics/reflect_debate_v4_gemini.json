@@ -1,0 +1,2693 @@
+{
+  "version": "reflect_debate_v4",
+  "provider": "gemini",
+  "n": 80,
+  "stats": {
+    "v4 final": 57,
+    "v4 final / MER2024": 31,
+    "v3 summary": 56,
+    "v3 summary → v4: wrong→right": 3,
+    "v3 summary → v4: right→wrong": 2,
+    "v3 expert majority (ties wrong)": 59,
+    "r0 primary majority (ties wrong)": 57,
+    "reflect primary majority (ties wrong)": 57,
+    "reflect changed primary": 1,
+    "gold in r0 primaries": 63,
+    "gold in r0 label sets": 67,
+    "gold in candidate union": 67,
+    "experts giving a backup (r0)": 40,
+    "experts giving a backup (reflect)": 19,
+    "fallbacks": 0,
+    "v4 final / MELD": 26
+  },
+  "by_route": {
+    "common_label": {
+      "n": 65,
+      "correct": 53,
+      "final is nobody's primary": 0,
+      "v3 summary correct on same": 51
+    },
+    "debate_consensus": {
+      "n": 15,
+      "correct": 4,
+      "v3 summary correct on same": 5
+    }
+  },
+  "expert_primary_correct": {
+    "r0 graph primary": 58,
+    "r0 audio_subtitle primary": 57,
+    "r0 image primary": 58,
+    "reflect graph primary": 57,
+    "reflect audio_subtitle primary": 57,
+    "reflect image primary": 58,
+    "debate graph": 4,
+    "debate audio_subtitle": 4,
+    "debate image": 4
+  },
+  "per_sample": [
+    {
+      "id": "MER2024/sample_00001635",
+      "dataset": "MER2024",
+      "gold": "surprise",
+      "route": "common_label",
+      "final": "worried",
+      "v3_summary": "worried",
+      "r0": {
+        "graph": [
+          "worried"
+        ],
+        "audio_subtitle": [
+          "surprise",
+          "worried"
+        ],
+        "image": [
+          "surprise",
+          "worried"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "worried"
+        ],
+        "audio_subtitle": [
+          "surprise",
+          "worried"
+        ],
+        "image": [
+          "surprise",
+          "worried"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MER2024/sample_00002038",
+      "dataset": "MER2024",
+      "gold": "surprise",
+      "route": "common_label",
+      "final": "worried",
+      "v3_summary": "worried",
+      "r0": {
+        "graph": [
+          "worried"
+        ],
+        "audio_subtitle": [
+          "worried"
+        ],
+        "image": [
+          "worried"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "worried"
+        ],
+        "audio_subtitle": [
+          "worried"
+        ],
+        "image": [
+          "worried"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MER2024/sample_00002893",
+      "dataset": "MER2024",
+      "gold": "worried",
+      "route": "common_label",
+      "final": "worried",
+      "v3_summary": "worried",
+      "r0": {
+        "graph": [
+          "worried"
+        ],
+        "audio_subtitle": [
+          "worried"
+        ],
+        "image": [
+          "worried"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "worried"
+        ],
+        "audio_subtitle": [
+          "worried"
+        ],
+        "image": [
+          "worried"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MER2024/sample_00004468",
+      "dataset": "MER2024",
+      "gold": "surprise",
+      "route": "common_label",
+      "final": "surprise",
+      "v3_summary": "surprise",
+      "r0": {
+        "graph": [
+          "surprise"
+        ],
+        "audio_subtitle": [
+          "surprise"
+        ],
+        "image": [
+          "surprise"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "surprise"
+        ],
+        "audio_subtitle": [
+          "surprise"
+        ],
+        "image": [
+          "surprise"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MER2024/samplenew_00002333",
+      "dataset": "MER2024",
+      "gold": "happy",
+      "route": "debate_consensus",
+      "final": "happy",
+      "v3_summary": "sad",
+      "r0": {
+        "graph": [
+          "happy"
+        ],
+        "audio_subtitle": [
+          "happy",
+          "neutral"
+        ],
+        "image": [
+          "sad",
+          "worried"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "happy"
+        ],
+        "audio_subtitle": [
+          "happy"
+        ],
+        "image": [
+          "sad"
+        ]
+      },
+      "debate": {
+        "debate1": {
+          "graph": "happy",
+          "audio_subtitle": "sad",
+          "image": "happy"
+        },
+        "debate2": {
+          "graph": "happy",
+          "audio_subtitle": "happy",
+          "image": "happy"
+        }
+      }
+    },
+    {
+      "id": "MER2024/samplenew_00003759",
+      "dataset": "MER2024",
+      "gold": "surprise",
+      "route": "common_label",
+      "final": "surprise",
+      "v3_summary": "surprise",
+      "r0": {
+        "graph": [
+          "surprise"
+        ],
+        "audio_subtitle": [
+          "surprise"
+        ],
+        "image": [
+          "surprise"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "surprise"
+        ],
+        "audio_subtitle": [
+          "surprise"
+        ],
+        "image": [
+          "surprise"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MER2024/samplenew_00005203",
+      "dataset": "MER2024",
+      "gold": "sad",
+      "route": "common_label",
+      "final": "sad",
+      "v3_summary": "sad",
+      "r0": {
+        "graph": [
+          "sad"
+        ],
+        "audio_subtitle": [
+          "sad"
+        ],
+        "image": [
+          "sad"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "sad"
+        ],
+        "audio_subtitle": [
+          "sad"
+        ],
+        "image": [
+          "sad"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MER2024/samplenew_00005588",
+      "dataset": "MER2024",
+      "gold": "neutral",
+      "route": "common_label",
+      "final": "neutral",
+      "v3_summary": "neutral",
+      "r0": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MER2024/samplenew_00005612",
+      "dataset": "MER2024",
+      "gold": "neutral",
+      "route": "common_label",
+      "final": "neutral",
+      "v3_summary": "neutral",
+      "r0": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MER2024/samplenew_00006180",
+      "dataset": "MER2024",
+      "gold": "neutral",
+      "route": "common_label",
+      "final": "neutral",
+      "v3_summary": "neutral",
+      "r0": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "happy",
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "happy",
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MER2024/samplenew_00006335",
+      "dataset": "MER2024",
+      "gold": "angry",
+      "route": "debate_consensus",
+      "final": "surprise",
+      "v3_summary": "surprise",
+      "r0": {
+        "graph": [
+          "surprise",
+          "worried"
+        ],
+        "audio_subtitle": [
+          "surprise",
+          "worried"
+        ],
+        "image": [
+          "surprise",
+          "worried"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "surprise",
+          "worried"
+        ],
+        "audio_subtitle": [
+          "surprise",
+          "worried"
+        ],
+        "image": [
+          "surprise",
+          "worried"
+        ]
+      },
+      "debate": {
+        "debate1": {
+          "graph": "surprise",
+          "audio_subtitle": "surprise",
+          "image": "surprise"
+        }
+      }
+    },
+    {
+      "id": "MER2024/samplenew_00013076",
+      "dataset": "MER2024",
+      "gold": "happy",
+      "route": "common_label",
+      "final": "happy",
+      "v3_summary": "happy",
+      "r0": {
+        "graph": [
+          "happy"
+        ],
+        "audio_subtitle": [
+          "happy"
+        ],
+        "image": [
+          "happy"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "happy"
+        ],
+        "audio_subtitle": [
+          "happy"
+        ],
+        "image": [
+          "happy"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MER2024/samplenew_00013127",
+      "dataset": "MER2024",
+      "gold": "happy",
+      "route": "common_label",
+      "final": "happy",
+      "v3_summary": "happy",
+      "r0": {
+        "graph": [
+          "happy"
+        ],
+        "audio_subtitle": [
+          "happy"
+        ],
+        "image": [
+          "happy"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "happy"
+        ],
+        "audio_subtitle": [
+          "happy"
+        ],
+        "image": [
+          "happy"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MER2024/samplenew_00013200",
+      "dataset": "MER2024",
+      "gold": "angry",
+      "route": "common_label",
+      "final": "angry",
+      "v3_summary": "angry",
+      "r0": {
+        "graph": [
+          "angry"
+        ],
+        "audio_subtitle": [
+          "angry"
+        ],
+        "image": [
+          "angry"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "angry"
+        ],
+        "audio_subtitle": [
+          "angry"
+        ],
+        "image": [
+          "angry"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MER2024/samplenew_00013928",
+      "dataset": "MER2024",
+      "gold": "happy",
+      "route": "common_label",
+      "final": "happy",
+      "v3_summary": "happy",
+      "r0": {
+        "graph": [
+          "happy"
+        ],
+        "audio_subtitle": [
+          "happy"
+        ],
+        "image": [
+          "happy"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "happy"
+        ],
+        "audio_subtitle": [
+          "happy"
+        ],
+        "image": [
+          "happy"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MER2024/samplenew_00014279",
+      "dataset": "MER2024",
+      "gold": "angry",
+      "route": "common_label",
+      "final": "angry",
+      "v3_summary": "angry",
+      "r0": {
+        "graph": [
+          "angry"
+        ],
+        "audio_subtitle": [
+          "angry"
+        ],
+        "image": [
+          "angry"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "angry"
+        ],
+        "audio_subtitle": [
+          "angry"
+        ],
+        "image": [
+          "angry"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MER2024/samplenew_00014357",
+      "dataset": "MER2024",
+      "gold": "happy",
+      "route": "common_label",
+      "final": "happy",
+      "v3_summary": "happy",
+      "r0": {
+        "graph": [
+          "happy"
+        ],
+        "audio_subtitle": [
+          "happy"
+        ],
+        "image": [
+          "happy"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "happy"
+        ],
+        "audio_subtitle": [
+          "happy"
+        ],
+        "image": [
+          "happy"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MER2024/samplenew_00014662",
+      "dataset": "MER2024",
+      "gold": "worried",
+      "route": "common_label",
+      "final": "worried",
+      "v3_summary": "worried",
+      "r0": {
+        "graph": [
+          "worried"
+        ],
+        "audio_subtitle": [
+          "worried"
+        ],
+        "image": [
+          "worried"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "worried"
+        ],
+        "audio_subtitle": [
+          "worried"
+        ],
+        "image": [
+          "worried"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MER2024/samplenew_00015349",
+      "dataset": "MER2024",
+      "gold": "worried",
+      "route": "common_label",
+      "final": "worried",
+      "v3_summary": "worried",
+      "r0": {
+        "graph": [
+          "worried"
+        ],
+        "audio_subtitle": [
+          "worried"
+        ],
+        "image": [
+          "worried"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "worried"
+        ],
+        "audio_subtitle": [
+          "worried"
+        ],
+        "image": [
+          "worried"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MER2024/samplenew_00019636",
+      "dataset": "MER2024",
+      "gold": "surprise",
+      "route": "debate_consensus",
+      "final": "worried",
+      "v3_summary": "surprise",
+      "r0": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "surprise",
+          "worried"
+        ],
+        "image": [
+          "surprise",
+          "worried"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "surprise",
+          "worried"
+        ],
+        "image": [
+          "surprise",
+          "worried"
+        ]
+      },
+      "debate": {
+        "debate1": {
+          "graph": "surprise",
+          "audio_subtitle": "worried",
+          "image": "worried"
+        },
+        "debate2": {
+          "graph": "worried",
+          "audio_subtitle": "worried",
+          "image": "worried"
+        }
+      }
+    },
+    {
+      "id": "MER2024/samplenew_00021837",
+      "dataset": "MER2024",
+      "gold": "neutral",
+      "route": "common_label",
+      "final": "neutral",
+      "v3_summary": "neutral",
+      "r0": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MER2024/samplenew_00021849",
+      "dataset": "MER2024",
+      "gold": "neutral",
+      "route": "common_label",
+      "final": "neutral",
+      "v3_summary": "neutral",
+      "r0": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "neutral",
+          "worried"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MER2024/samplenew_00021868",
+      "dataset": "MER2024",
+      "gold": "neutral",
+      "route": "debate_consensus",
+      "final": "sad",
+      "v3_summary": "neutral",
+      "r0": {
+        "graph": [
+          "sad"
+        ],
+        "audio_subtitle": [
+          "neutral",
+          "sad"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "sad"
+        ],
+        "audio_subtitle": [
+          "sad"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "debate": {
+        "debate1": {
+          "graph": "sad",
+          "audio_subtitle": "sad",
+          "image": "sad"
+        }
+      }
+    },
+    {
+      "id": "MER2024/samplenew_00025713",
+      "dataset": "MER2024",
+      "gold": "surprise",
+      "route": "common_label",
+      "final": "surprise",
+      "v3_summary": "surprise",
+      "r0": {
+        "graph": [
+          "surprise"
+        ],
+        "audio_subtitle": [
+          "surprise",
+          "worried"
+        ],
+        "image": [
+          "surprise"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "surprise"
+        ],
+        "audio_subtitle": [
+          "surprise"
+        ],
+        "image": [
+          "surprise"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MER2024/samplenew_00029282",
+      "dataset": "MER2024",
+      "gold": "sad",
+      "route": "common_label",
+      "final": "sad",
+      "v3_summary": "sad",
+      "r0": {
+        "graph": [
+          "sad"
+        ],
+        "audio_subtitle": [
+          "sad"
+        ],
+        "image": [
+          "sad"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "sad"
+        ],
+        "audio_subtitle": [
+          "sad"
+        ],
+        "image": [
+          "sad"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MER2024/samplenew_00030944",
+      "dataset": "MER2024",
+      "gold": "worried",
+      "route": "common_label",
+      "final": "worried",
+      "v3_summary": "worried",
+      "r0": {
+        "graph": [
+          "worried"
+        ],
+        "audio_subtitle": [
+          "worried"
+        ],
+        "image": [
+          "worried"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "worried"
+        ],
+        "audio_subtitle": [
+          "worried"
+        ],
+        "image": [
+          "worried"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MER2024/samplenew_00031467",
+      "dataset": "MER2024",
+      "gold": "happy",
+      "route": "common_label",
+      "final": "neutral",
+      "v3_summary": "neutral",
+      "r0": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MER2024/samplenew_00033166",
+      "dataset": "MER2024",
+      "gold": "angry",
+      "route": "debate_consensus",
+      "final": "worried",
+      "v3_summary": "worried",
+      "r0": {
+        "graph": [
+          "angry"
+        ],
+        "audio_subtitle": [
+          "angry",
+          "worried"
+        ],
+        "image": [
+          "angry",
+          "worried"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "angry"
+        ],
+        "audio_subtitle": [
+          "worried"
+        ],
+        "image": [
+          "worried"
+        ]
+      },
+      "debate": {
+        "debate1": {
+          "graph": "worried",
+          "audio_subtitle": "worried",
+          "image": "worried"
+        }
+      }
+    },
+    {
+      "id": "MER2024/samplenew_00033539",
+      "dataset": "MER2024",
+      "gold": "surprise",
+      "route": "common_label",
+      "final": "surprise",
+      "v3_summary": "surprise",
+      "r0": {
+        "graph": [
+          "surprise"
+        ],
+        "audio_subtitle": [
+          "surprise",
+          "worried"
+        ],
+        "image": [
+          "surprise"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "surprise"
+        ],
+        "audio_subtitle": [
+          "surprise",
+          "worried"
+        ],
+        "image": [
+          "surprise"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MER2024/samplenew_00034225",
+      "dataset": "MER2024",
+      "gold": "worried",
+      "route": "debate_consensus",
+      "final": "worried",
+      "v3_summary": "worried",
+      "r0": {
+        "graph": [
+          "worried"
+        ],
+        "audio_subtitle": [
+          "neutral",
+          "worried"
+        ],
+        "image": [
+          "surprise"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "worried"
+        ],
+        "audio_subtitle": [
+          "worried"
+        ],
+        "image": [
+          "surprise"
+        ]
+      },
+      "debate": {
+        "debate1": {
+          "graph": "worried",
+          "audio_subtitle": "worried",
+          "image": "worried"
+        }
+      }
+    },
+    {
+      "id": "MER2024/samplenew_00034373",
+      "dataset": "MER2024",
+      "gold": "sad",
+      "route": "common_label",
+      "final": "sad",
+      "v3_summary": "sad",
+      "r0": {
+        "graph": [
+          "sad"
+        ],
+        "audio_subtitle": [
+          "sad"
+        ],
+        "image": [
+          "sad"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "sad"
+        ],
+        "audio_subtitle": [
+          "sad"
+        ],
+        "image": [
+          "sad"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MER2024/samplenew_00034518",
+      "dataset": "MER2024",
+      "gold": "worried",
+      "route": "common_label",
+      "final": "worried",
+      "v3_summary": "worried",
+      "r0": {
+        "graph": [
+          "worried"
+        ],
+        "audio_subtitle": [
+          "worried"
+        ],
+        "image": [
+          "worried"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "worried"
+        ],
+        "audio_subtitle": [
+          "worried"
+        ],
+        "image": [
+          "worried"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MER2024/samplenew_00035599",
+      "dataset": "MER2024",
+      "gold": "sad",
+      "route": "common_label",
+      "final": "sad",
+      "v3_summary": "sad",
+      "r0": {
+        "graph": [
+          "sad"
+        ],
+        "audio_subtitle": [
+          "sad"
+        ],
+        "image": [
+          "sad"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "sad"
+        ],
+        "audio_subtitle": [
+          "sad"
+        ],
+        "image": [
+          "sad"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MER2024/samplenew_00035777",
+      "dataset": "MER2024",
+      "gold": "angry",
+      "route": "common_label",
+      "final": "angry",
+      "v3_summary": "angry",
+      "r0": {
+        "graph": [
+          "angry"
+        ],
+        "audio_subtitle": [
+          "angry"
+        ],
+        "image": [
+          "angry"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "angry"
+        ],
+        "audio_subtitle": [
+          "angry"
+        ],
+        "image": [
+          "angry"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MER2024/samplenew_00035837",
+      "dataset": "MER2024",
+      "gold": "sad",
+      "route": "common_label",
+      "final": "sad",
+      "v3_summary": "sad",
+      "r0": {
+        "graph": [
+          "sad"
+        ],
+        "audio_subtitle": [
+          "sad"
+        ],
+        "image": [
+          "sad"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "sad"
+        ],
+        "audio_subtitle": [
+          "sad"
+        ],
+        "image": [
+          "sad"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MER2024/samplenew_00035950",
+      "dataset": "MER2024",
+      "gold": "sad",
+      "route": "common_label",
+      "final": "sad",
+      "v3_summary": "sad",
+      "r0": {
+        "graph": [
+          "sad"
+        ],
+        "audio_subtitle": [
+          "sad"
+        ],
+        "image": [
+          "sad"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "sad"
+        ],
+        "audio_subtitle": [
+          "sad"
+        ],
+        "image": [
+          "sad"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MER2024/samplenew_00036745",
+      "dataset": "MER2024",
+      "gold": "neutral",
+      "route": "common_label",
+      "final": "neutral",
+      "v3_summary": "neutral",
+      "r0": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MER2024/samplenew_00038936",
+      "dataset": "MER2024",
+      "gold": "worried",
+      "route": "common_label",
+      "final": "worried",
+      "v3_summary": "worried",
+      "r0": {
+        "graph": [
+          "neutral",
+          "worried"
+        ],
+        "audio_subtitle": [
+          "worried"
+        ],
+        "image": [
+          "worried"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "neutral",
+          "worried"
+        ],
+        "audio_subtitle": [
+          "worried"
+        ],
+        "image": [
+          "worried"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MER2024/samplenew_00040685",
+      "dataset": "MER2024",
+      "gold": "angry",
+      "route": "debate_consensus",
+      "final": "worried",
+      "v3_summary": "worried",
+      "r0": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "worried"
+        ],
+        "image": [
+          "worried"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "worried"
+        ],
+        "image": [
+          "worried"
+        ]
+      },
+      "debate": {
+        "debate1": {
+          "graph": "worried",
+          "audio_subtitle": "worried",
+          "image": "worried"
+        }
+      }
+    },
+    {
+      "id": "MER2024/samplenew_00041734",
+      "dataset": "MER2024",
+      "gold": "angry",
+      "route": "debate_consensus",
+      "final": "worried",
+      "v3_summary": "surprise",
+      "r0": {
+        "graph": [
+          "surprise",
+          "worried"
+        ],
+        "audio_subtitle": [
+          "angry",
+          "worried"
+        ],
+        "image": [
+          "angry",
+          "worried"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "surprise"
+        ],
+        "audio_subtitle": [
+          "angry",
+          "worried"
+        ],
+        "image": [
+          "worried"
+        ]
+      },
+      "debate": {
+        "debate1": {
+          "graph": "worried",
+          "audio_subtitle": "worried",
+          "image": "worried"
+        }
+      }
+    },
+    {
+      "id": "MELD/dia0_utt2",
+      "dataset": "MELD",
+      "gold": "neutral",
+      "route": "common_label",
+      "final": "neutral",
+      "v3_summary": "neutral",
+      "r0": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MELD/dia109_utt4",
+      "dataset": "MELD",
+      "gold": "surprise",
+      "route": "common_label",
+      "final": "surprise",
+      "v3_summary": "surprise",
+      "r0": {
+        "graph": [
+          "surprise"
+        ],
+        "audio_subtitle": [
+          "neutral",
+          "surprise"
+        ],
+        "image": [
+          "surprise"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "surprise"
+        ],
+        "audio_subtitle": [
+          "surprise"
+        ],
+        "image": [
+          "surprise"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MELD/dia109_utt5",
+      "dataset": "MELD",
+      "gold": "anger",
+      "route": "common_label",
+      "final": "anger",
+      "v3_summary": "anger",
+      "r0": {
+        "graph": [
+          "anger"
+        ],
+        "audio_subtitle": [
+          "anger"
+        ],
+        "image": [
+          "anger"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "anger"
+        ],
+        "audio_subtitle": [
+          "anger"
+        ],
+        "image": [
+          "anger"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MELD/dia115_utt3",
+      "dataset": "MELD",
+      "gold": "disgust",
+      "route": "common_label",
+      "final": "neutral",
+      "v3_summary": "neutral",
+      "r0": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MELD/dia119_utt5",
+      "dataset": "MELD",
+      "gold": "fear",
+      "route": "common_label",
+      "final": "neutral",
+      "v3_summary": "joy",
+      "r0": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MELD/dia131_utt3",
+      "dataset": "MELD",
+      "gold": "joy",
+      "route": "debate_consensus",
+      "final": "anger",
+      "v3_summary": "neutral",
+      "r0": {
+        "graph": [
+          "joy"
+        ],
+        "audio_subtitle": [
+          "anger",
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "joy"
+        ],
+        "audio_subtitle": [
+          "anger",
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "debate": {
+        "debate1": {
+          "graph": "anger",
+          "audio_subtitle": "anger",
+          "image": "neutral"
+        },
+        "debate2": {
+          "graph": "anger",
+          "audio_subtitle": "anger",
+          "image": "anger"
+        }
+      }
+    },
+    {
+      "id": "MELD/dia132_utt2",
+      "dataset": "MELD",
+      "gold": "neutral",
+      "route": "common_label",
+      "final": "neutral",
+      "v3_summary": "neutral",
+      "r0": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MELD/dia140_utt4",
+      "dataset": "MELD",
+      "gold": "neutral",
+      "route": "common_label",
+      "final": "neutral",
+      "v3_summary": "neutral",
+      "r0": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MELD/dia150_utt4",
+      "dataset": "MELD",
+      "gold": "sadness",
+      "route": "common_label",
+      "final": "sadness",
+      "v3_summary": "sadness",
+      "r0": {
+        "graph": [
+          "sadness"
+        ],
+        "audio_subtitle": [
+          "sadness"
+        ],
+        "image": [
+          "sadness"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "sadness"
+        ],
+        "audio_subtitle": [
+          "sadness"
+        ],
+        "image": [
+          "sadness"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MELD/dia153_utt11",
+      "dataset": "MELD",
+      "gold": "fear",
+      "route": "common_label",
+      "final": "neutral",
+      "v3_summary": "neutral",
+      "r0": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MELD/dia153_utt4",
+      "dataset": "MELD",
+      "gold": "fear",
+      "route": "debate_consensus",
+      "final": "anger",
+      "v3_summary": "neutral",
+      "r0": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "anger",
+          "neutral"
+        ],
+        "image": [
+          "anger",
+          "neutral"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "anger",
+          "neutral"
+        ],
+        "image": [
+          "anger"
+        ]
+      },
+      "debate": {
+        "debate1": {
+          "graph": "anger",
+          "audio_subtitle": "anger",
+          "image": "anger"
+        }
+      }
+    },
+    {
+      "id": "MELD/dia168_utt13",
+      "dataset": "MELD",
+      "gold": "anger",
+      "route": "common_label",
+      "final": "anger",
+      "v3_summary": "anger",
+      "r0": {
+        "graph": [
+          "anger"
+        ],
+        "audio_subtitle": [
+          "anger"
+        ],
+        "image": [
+          "anger"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "anger"
+        ],
+        "audio_subtitle": [
+          "anger"
+        ],
+        "image": [
+          "anger"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MELD/dia178_utt2",
+      "dataset": "MELD",
+      "gold": "joy",
+      "route": "common_label",
+      "final": "joy",
+      "v3_summary": "joy",
+      "r0": {
+        "graph": [
+          "joy"
+        ],
+        "audio_subtitle": [
+          "joy"
+        ],
+        "image": [
+          "joy"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "joy"
+        ],
+        "audio_subtitle": [
+          "joy"
+        ],
+        "image": [
+          "joy"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MELD/dia186_utt0",
+      "dataset": "MELD",
+      "gold": "disgust",
+      "route": "debate_consensus",
+      "final": "neutral",
+      "v3_summary": "neutral",
+      "r0": {
+        "graph": [
+          "joy",
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "joy",
+          "neutral"
+        ],
+        "image": [
+          "disgust"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "joy",
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "disgust"
+        ]
+      },
+      "debate": {
+        "debate1": {
+          "graph": "neutral",
+          "audio_subtitle": "neutral",
+          "image": "neutral"
+        }
+      }
+    },
+    {
+      "id": "MELD/dia186_utt3",
+      "dataset": "MELD",
+      "gold": "sadness",
+      "route": "common_label",
+      "final": "neutral",
+      "v3_summary": "neutral",
+      "r0": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MELD/dia188_utt0",
+      "dataset": "MELD",
+      "gold": "neutral",
+      "route": "common_label",
+      "final": "neutral",
+      "v3_summary": "neutral",
+      "r0": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MELD/dia192_utt9",
+      "dataset": "MELD",
+      "gold": "surprise",
+      "route": "common_label",
+      "final": "anger",
+      "v3_summary": "anger",
+      "r0": {
+        "graph": [
+          "anger",
+          "surprise"
+        ],
+        "audio_subtitle": [
+          "anger",
+          "surprise"
+        ],
+        "image": [
+          "anger",
+          "surprise"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "anger"
+        ],
+        "audio_subtitle": [
+          "anger"
+        ],
+        "image": [
+          "anger",
+          "surprise"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MELD/dia198_utt2",
+      "dataset": "MELD",
+      "gold": "anger",
+      "route": "debate_consensus",
+      "final": "neutral",
+      "v3_summary": "neutral",
+      "r0": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "anger"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "anger"
+        ]
+      },
+      "debate": {
+        "debate1": {
+          "graph": "neutral",
+          "audio_subtitle": "neutral",
+          "image": "neutral"
+        }
+      }
+    },
+    {
+      "id": "MELD/dia200_utt2",
+      "dataset": "MELD",
+      "gold": "anger",
+      "route": "debate_consensus",
+      "final": "neutral",
+      "v3_summary": "surprise",
+      "r0": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral",
+          "surprise"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "surprise"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "debate": {
+        "debate1": {
+          "graph": "neutral",
+          "audio_subtitle": "neutral",
+          "image": "neutral"
+        }
+      }
+    },
+    {
+      "id": "MELD/dia21_utt6",
+      "dataset": "MELD",
+      "gold": "surprise",
+      "route": "common_label",
+      "final": "joy",
+      "v3_summary": "joy",
+      "r0": {
+        "graph": [
+          "joy"
+        ],
+        "audio_subtitle": [
+          "joy"
+        ],
+        "image": [
+          "joy"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "joy"
+        ],
+        "audio_subtitle": [
+          "joy"
+        ],
+        "image": [
+          "joy"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MELD/dia224_utt2",
+      "dataset": "MELD",
+      "gold": "neutral",
+      "route": "common_label",
+      "final": "neutral",
+      "v3_summary": "neutral",
+      "r0": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MELD/dia226_utt3",
+      "dataset": "MELD",
+      "gold": "sadness",
+      "route": "debate_consensus",
+      "final": "sadness",
+      "v3_summary": "sadness",
+      "r0": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "sadness"
+        ],
+        "image": [
+          "neutral",
+          "sadness"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "sadness"
+        ],
+        "image": [
+          "neutral",
+          "sadness"
+        ]
+      },
+      "debate": {
+        "debate1": {
+          "graph": "sadness",
+          "audio_subtitle": "sadness",
+          "image": "sadness"
+        }
+      }
+    },
+    {
+      "id": "MELD/dia233_utt0",
+      "dataset": "MELD",
+      "gold": "anger",
+      "route": "common_label",
+      "final": "anger",
+      "v3_summary": "neutral",
+      "r0": {
+        "graph": [
+          "anger",
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "anger"
+        ],
+        "image": [
+          "anger"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "anger"
+        ],
+        "audio_subtitle": [
+          "anger"
+        ],
+        "image": [
+          "anger"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MELD/dia233_utt1",
+      "dataset": "MELD",
+      "gold": "disgust",
+      "route": "common_label",
+      "final": "anger",
+      "v3_summary": "anger",
+      "r0": {
+        "graph": [
+          "anger"
+        ],
+        "audio_subtitle": [
+          "anger"
+        ],
+        "image": [
+          "anger",
+          "disgust"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "anger"
+        ],
+        "audio_subtitle": [
+          "anger"
+        ],
+        "image": [
+          "anger"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MELD/dia237_utt3",
+      "dataset": "MELD",
+      "gold": "disgust",
+      "route": "common_label",
+      "final": "disgust",
+      "v3_summary": "disgust",
+      "r0": {
+        "graph": [
+          "disgust"
+        ],
+        "audio_subtitle": [
+          "disgust"
+        ],
+        "image": [
+          "disgust"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "disgust"
+        ],
+        "audio_subtitle": [
+          "disgust"
+        ],
+        "image": [
+          "disgust"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MELD/dia239_utt0",
+      "dataset": "MELD",
+      "gold": "neutral",
+      "route": "common_label",
+      "final": "neutral",
+      "v3_summary": "neutral",
+      "r0": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "neutral"
+        ],
+        "image": [
+          "neutral"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MELD/dia239_utt2",
+      "dataset": "MELD",
+      "gold": "surprise",
+      "route": "common_label",
+      "final": "surprise",
+      "v3_summary": "surprise",
+      "r0": {
+        "graph": [
+          "surprise"
+        ],
+        "audio_subtitle": [
+          "surprise"
+        ],
+        "image": [
+          "surprise"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "surprise"
+        ],
+        "audio_subtitle": [
+          "surprise"
+        ],
+        "image": [
+          "surprise"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MELD/dia245_utt4",
+      "dataset": "MELD",
+      "gold": "fear",
+      "route": "common_label",
+      "final": "fear",
+      "v3_summary": "fear",
+      "r0": {
+        "graph": [
+          "fear"
+        ],
+        "audio_subtitle": [
+          "fear"
+        ],
+        "image": [
+          "fear"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "fear"
+        ],
+        "audio_subtitle": [
+          "fear"
+        ],
+        "image": [
+          "fear"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MELD/dia259_utt10",
+      "dataset": "MELD",
+      "gold": "disgust",
+      "route": "common_label",
+      "final": "anger",
+      "v3_summary": "anger",
+      "r0": {
+        "graph": [
+          "anger"
+        ],
+        "audio_subtitle": [
+          "anger"
+        ],
+        "image": [
+          "anger"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "anger"
+        ],
+        "audio_subtitle": [
+          "anger"
+        ],
+        "image": [
+          "anger"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MELD/dia259_utt9",
+      "dataset": "MELD",
+      "gold": "disgust",
+      "route": "common_label",
+      "final": "joy",
+      "v3_summary": "joy",
+      "r0": {
+        "graph": [
+          "joy"
+        ],
+        "audio_subtitle": [
+          "joy"
+        ],
+        "image": [
+          "joy"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "joy"
+        ],
+        "audio_subtitle": [
+          "joy"
+        ],
+        "image": [
+          "joy"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MELD/dia263_utt9",
+      "dataset": "MELD",
+      "gold": "sadness",
+      "route": "common_label",
+      "final": "sadness",
+      "v3_summary": "sadness",
+      "r0": {
+        "graph": [
+          "sadness"
+        ],
+        "audio_subtitle": [
+          "sadness"
+        ],
+        "image": [
+          "sadness"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "sadness"
+        ],
+        "audio_subtitle": [
+          "sadness"
+        ],
+        "image": [
+          "sadness"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MELD/dia33_utt6",
+      "dataset": "MELD",
+      "gold": "sadness",
+      "route": "debate_consensus",
+      "final": "sadness",
+      "v3_summary": "sadness",
+      "r0": {
+        "graph": [
+          "anger",
+          "sadness"
+        ],
+        "audio_subtitle": [
+          "anger",
+          "sadness"
+        ],
+        "image": [
+          "fear"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "anger",
+          "sadness"
+        ],
+        "audio_subtitle": [
+          "sadness"
+        ],
+        "image": [
+          "fear"
+        ]
+      },
+      "debate": {
+        "debate1": {
+          "graph": "sadness",
+          "audio_subtitle": "sadness",
+          "image": "sadness"
+        }
+      }
+    },
+    {
+      "id": "MELD/dia34_utt17",
+      "dataset": "MELD",
+      "gold": "anger",
+      "route": "common_label",
+      "final": "anger",
+      "v3_summary": "anger",
+      "r0": {
+        "graph": [
+          "anger"
+        ],
+        "audio_subtitle": [
+          "anger"
+        ],
+        "image": [
+          "anger"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "anger"
+        ],
+        "audio_subtitle": [
+          "anger"
+        ],
+        "image": [
+          "anger"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MELD/dia34_utt5",
+      "dataset": "MELD",
+      "gold": "surprise",
+      "route": "common_label",
+      "final": "surprise",
+      "v3_summary": "surprise",
+      "r0": {
+        "graph": [
+          "surprise"
+        ],
+        "audio_subtitle": [
+          "surprise"
+        ],
+        "image": [
+          "surprise"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "surprise"
+        ],
+        "audio_subtitle": [
+          "surprise"
+        ],
+        "image": [
+          "surprise"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MELD/dia38_utt1",
+      "dataset": "MELD",
+      "gold": "joy",
+      "route": "common_label",
+      "final": "joy",
+      "v3_summary": "joy",
+      "r0": {
+        "graph": [
+          "joy"
+        ],
+        "audio_subtitle": [
+          "joy"
+        ],
+        "image": [
+          "joy"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "joy"
+        ],
+        "audio_subtitle": [
+          "joy"
+        ],
+        "image": [
+          "joy"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MELD/dia40_utt0",
+      "dataset": "MELD",
+      "gold": "joy",
+      "route": "common_label",
+      "final": "joy",
+      "v3_summary": "joy",
+      "r0": {
+        "graph": [
+          "joy"
+        ],
+        "audio_subtitle": [
+          "joy"
+        ],
+        "image": [
+          "joy"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "joy"
+        ],
+        "audio_subtitle": [
+          "joy"
+        ],
+        "image": [
+          "joy"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MELD/dia50_utt2",
+      "dataset": "MELD",
+      "gold": "fear",
+      "route": "common_label",
+      "final": "fear",
+      "v3_summary": "fear",
+      "r0": {
+        "graph": [
+          "fear",
+          "surprise"
+        ],
+        "audio_subtitle": [
+          "fear",
+          "surprise"
+        ],
+        "image": [
+          "fear"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "fear",
+          "surprise"
+        ],
+        "audio_subtitle": [
+          "fear"
+        ],
+        "image": [
+          "fear"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MELD/dia66_utt1",
+      "dataset": "MELD",
+      "gold": "joy",
+      "route": "common_label",
+      "final": "joy",
+      "v3_summary": "neutral",
+      "r0": {
+        "graph": [
+          "joy",
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "joy",
+          "neutral"
+        ],
+        "image": [
+          "joy"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "joy",
+          "neutral"
+        ],
+        "audio_subtitle": [
+          "joy"
+        ],
+        "image": [
+          "joy"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MELD/dia66_utt2",
+      "dataset": "MELD",
+      "gold": "joy",
+      "route": "common_label",
+      "final": "joy",
+      "v3_summary": "joy",
+      "r0": {
+        "graph": [
+          "joy"
+        ],
+        "audio_subtitle": [
+          "joy"
+        ],
+        "image": [
+          "joy"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "joy"
+        ],
+        "audio_subtitle": [
+          "joy"
+        ],
+        "image": [
+          "joy"
+        ]
+      },
+      "debate": {}
+    },
+    {
+      "id": "MELD/dia9_utt11",
+      "dataset": "MELD",
+      "gold": "sadness",
+      "route": "common_label",
+      "final": "sadness",
+      "v3_summary": "sadness",
+      "r0": {
+        "graph": [
+          "sadness"
+        ],
+        "audio_subtitle": [
+          "sadness"
+        ],
+        "image": [
+          "sadness"
+        ]
+      },
+      "reflect": {
+        "graph": [
+          "sadness"
+        ],
+        "audio_subtitle": [
+          "sadness"
+        ],
+        "image": [
+          "sadness"
+        ]
+      },
+      "debate": {}
+    }
+  ]
+}

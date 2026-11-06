@@ -1,0 +1,55 @@
+{
+  "output": {
+    "expert": "graph",
+    "changed": true,
+    "response_to_others": "核验了音频字幕专家与图像专家引用的证据：在实际音轨00:00-00:02中，其句尾‘煤矿了吗’确有急促明显的音调上扬与顿挫，并非图谱[person_1]标注的单纯‘语气低沉’；回看frame_00至frame_07，其镜片后双眼圆睁、挑眉明显，属于突发认知受挫的瞬间惊愕，对方关于即时‘预期违背’的判断成立。",
+    "reason": "目标人物在电话沟通中获悉前方战况反常，其核心动作链是基于原先‘已增兵布防’的既定认知对当下变故进行即刻反问。图谱[person_1]虽记录‘低沉带有疑问’，但实听音轨00:00-00:02发现其语速骤快且末尾明显调高质问，显现出图谱转述与真值音轨的偏差；结合视觉frame_00至frame_07双目圆睁与眉毛上扬的定格神态，事件情境处于突发消息打破既有预期的第一瞬间反应，主导情绪由即时错愕与惊异主导。",
+    "open_emotion": "诧异",
+    "answer": "surprise",
+    "mapping_reason": "当前信息直接推翻了目标人物对关东军布防的认知预期，核心反应是听到突发变故时的即刻震动与质询，严格符合情绪轮中surprise关于‘因当前信息违背预期产生的意外、诧异或震惊’的界定。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "subtitle",
+        "anchor": "关东军不是已经增兵甲子沟、煤矿了吗？",
+        "observation": "采用‘不是已经……了吗’的反问结构，设定原有增兵前提。",
+        "interpretation": "表明对方通报的事态与自己掌握的既成事实存在严重落差，构成强烈的预期违背。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "audio",
+        "anchor": "00:00-00:02",
+        "observation": "说话急促紧凑，尾音‘煤矿了吗’音调骤然拔高并带有突兀的质询停顿。",
+        "interpretation": "纠正了图谱[person_1]‘语气低沉’的粗略描述，亲耳核验表明该声调反映出受到消息冲击时的即时错愕。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "visual",
+        "anchor": "frame_00至frame_07 0.00s-2.64s",
+        "observation": "男子手持听筒贴面，双眼在镜片后显著瞪大，双眉微挑，面部处于凝滞紧绷的发愣状态。",
+        "interpretation": "符合人在瞬间接收意外突发资讯时面部肌肉僵滞与睁目惊诧的生理表征。",
+        "polarity": "support"
+      },
+      {
+        "id": "E4",
+        "source": "graph",
+        "anchor": "process_0",
+        "observation": "记录男子手持听筒说话的当前交互过程。",
+        "interpretation": "标定了人物正处于电话接收前线最新信息的关键时间节点，支持信息冲击发生的情境上下文。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "事涉矿区与兵力部署的危局，后续事态发展必然蕴含严重隐患与担忧（worried），但在该片段所处的‘初闻消息、反问核实’极短时刻内，主导占优的是预期被打破的即时惊诧而非长期后果权衡。"
+  },
+  "usage": {
+    "completion_tokens": 2428,
+    "total_tokens": 15651,
+    "prompt_tokens": 13223,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1551
+    }
+  },
+  "seconds": 27.0535831451416
+}

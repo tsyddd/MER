@@ -1,0 +1,47 @@
+{
+  "output": {
+    "changed": false,
+    "response_to_others": "对图像专家：图像专家观察到的‘嘴部张成O形’很大程度上是说话吐字过程中的发音口型，音轨中并不具备高音突升或爆破式的惊异韵律，语调克制且带气声，言语核心是探询潜在阻力与顾虑；对图谱专家：完全认同图谱专家捕捉到的事件语义链，从询问‘不好对付’到顾虑自身‘惹麻烦’，体现了对未知负面影响的忐忑与不安。",
+    "expert": "audio_subtitle",
+    "reason": "目标人物在说‘怎么？他不好对付啊’时，语音轻缓低敛、带明显探询气声[E2]，并非遭遇突发意外时的惊呼或音高骤升；其言语意图在于察言观色并试探不良局面的成因，且紧密连接后文对连累他人（‘我是不是给你惹麻烦了’）的风险归因[E1]；视觉上虽有前倾注视[E3]，但那是警惕关切与等待对方确认的紧绷神态，本质是对负面后果和未知麻烦的顾虑不安，而非单纯的违背预期的惊讶。",
+    "open_emotion": "忐忑",
+    "answer": "worried",
+    "mapping_reason": "‘忐忑’指对潜在负面事态、自身行为后果充满顾虑、谨慎与不安的心理反应，完全契合情绪轮中worried（关注未知风险、连累他人及负面预期的焦虑不安）的核心定义。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "subtitle",
+        "anchor": "怎么？他不好对付啊。",
+        "observation": "发问聚焦于对方遇到的困难局面，互动意图为试探性核实，并在语境中导向自身连带责任的顾虑",
+        "interpretation": "说话者意图在于评估不利风险，言语行为属于谨慎试探而非客观惊讶",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "audio",
+        "anchor": "00:00-00:02",
+        "observation": "整句音量偏轻，伴有气声，末尾微扬但无剧烈音高起伏，节奏迟缓轻柔",
+        "interpretation": "缺乏惊诧标志性的爆发性重音与高音高，体现小心翼翼的顾虑与探询",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "visual",
+        "anchor": "frame_05至frame_07",
+        "observation": "人物身体微前倾，凝视对方神态收紧，说话间嘴唇微启又迅速克制合拢",
+        "interpretation": "显示出等待对方回应时内心的紧张与忐忑",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "疑问句式及探问口吻在表面形式上易被误读为surprise，但缺乏惊讶必备的突发性与音调震颤，且语义核心直指负面后果的试探，故排除纯粹惊讶。"
+  },
+  "usage": {
+    "completion_tokens": 1525,
+    "total_tokens": 5017,
+    "prompt_tokens": 3492,
+    "completion_tokens_details": {
+      "reasoning_tokens": 752
+    }
+  },
+  "seconds": 17.705391883850098
+}

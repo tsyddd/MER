@@ -1,0 +1,21 @@
+{
+  "output": {
+    "reason": "图像专家在frame_01至frame_03记录的目标人物双眼睁开、眉峰微扬后收紧及双唇轻启的错愕神态[image:E1]，与音频专家指出说话者在反问‘真的一百多岁了’时语调明显上扬的探询错愕感[audio_subtitle:E2]形成高度互补互证。图谱专家虽依据语调低沉沉静和手抵领口的定格姿态主张中性沉思[graph:E2]，但情绪轮明确规定克制与低声不等于neutral，该动作实为在受到荒谬离奇信息冲击后的凝重消化。目标人物的核心反应是由‘百岁容颜不老’这一严重违背认知常理的事实所激发的难以置信，主导情绪符合预期受挫的诧异，故取surprise。",
+    "answer": "surprise",
+    "evidence_refs": [
+      "image:E1",
+      "audio_subtitle:E2",
+      "graph:E2"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 1028,
+    "total_tokens": 6883,
+    "prompt_tokens": 5855,
+    "completion_tokens_details": {
+      "reasoning_tokens": 798
+    }
+  },
+  "seconds": 13.398557424545288,
+  "rounds": 2
+}

@@ -1,0 +1,47 @@
+{
+  "output": {
+    "expert": "image",
+    "changed": false,
+    "response_to_others": "对图谱专家：核实frame_04至frame_07及音轨后发现，Rachel嘴角微撇微沉、目光锐利审视，且在句末重读有明确的问责色彩，绝非‘嘴角放松、平稳日常’；anger家族包含低强度的恼火与不满（annoyed），不应以未爆发咆哮就判定为neutral。对音频字幕专家：核实其所指出的后半句重音强调与单手叉腰的严肃对质体态（frame_02至frame_04），两者共同印证了受冒犯后的责备与不满。",
+    "reason": "目标人物Rachel（画面正中穿红色长袖上衣的女性）在全程对话中保持单手叉腰、身体微倾直面对方的对峙姿态[E1]；面部表情严肃紧绷，双唇微抿且嘴角下沉，眼神带有明确的审问与责备神态[E2]；结合台词直接质询对方是否蓄意逼迁，整体表达出受到冒犯与算计后的克制不满与责难[E3]。",
+    "open_emotion": "不满",
+    "answer": "anger",
+    "mapping_reason": "Rachel针对对方涉嫌故意排挤逼迁的行为当面问责，体现出受到冒犯与阻碍时的对抗与责备态度，符合anger家族中恼火、不满（annoyed/displeased）的定义。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "visual",
+        "anchor": "frame_00至frame_07 (0.0s-4.30s)",
+        "observation": "Rachel自始至终左手叉腰，另一手撑在身侧，身体朝向对方微倾并保持对立视线接触。",
+        "interpretation": "稳固且带有压迫感的站姿直观传达出对质与问责的态度。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_04至frame_07 (2.46s-4.30s)",
+        "observation": "Rachel面部无任何笑容，双唇紧闭后微开，嘴角微微向下撇，眼神凝视对方无闪躲。",
+        "interpretation": "显示出严肃、严肃审视与不悦的心态，而非中性放松状态。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "audio",
+        "anchor": "00:02-00:04",
+        "observation": "在说出'drive me out of the apartment'时语调加重且尾音上扬带有质难意味。",
+        "interpretation": "声音的重音与针对性印证了视觉上的质问与不满情绪。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "Rachel的语气和肢体动作相对克制，未演变成大声争吵或激化对抗，容易被表面形式误读为日常就事论事的中性沟通。"
+  },
+  "usage": {
+    "completion_tokens": 1322,
+    "total_tokens": 14029,
+    "prompt_tokens": 12707,
+    "completion_tokens_details": {
+      "reasoning_tokens": 562
+    }
+  },
+  "seconds": 16.061652421951294
+}

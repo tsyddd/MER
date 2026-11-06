@@ -1,0 +1,47 @@
+{
+  "output": {
+    "expert": "graph",
+    "changed": false,
+    "response_to_others": "音频字幕专家对升调反问韵律（0.0s-1.8s）和即时求证言语行为的核实准确，与图谱事件链高度吻合；图像专家声称后半句‘真的’‘语调下沉且带愁闷语气’与实际音轨严重不符，亲耳核验后该句实为清晰上扬的探询升调，且其引用的皱眉主要是老年人动态表情与吃惊凝视所致，并非主导的担忧（worried）。",
+    "reason": "围绕互动事件链（接收信息→瞬时错愕反问→跟进追问求证）进行考察：目标人物在听到对方信息后，首先短促拔高发出‘啊？’[person_1]，紧接着以连续反问升调说出‘真的’[person_3]。结合[person_0]与[person_2]的视觉动态，人物眼神凝聚定格、嘴部微张微动，全过程均处于接收到违背预期信息后的强求证与意外反应中。图像专家推测的‘语调下沉与愁闷’在真实音轨中并不存在，且事件语义完全由即时惊愕所驱动，不应把静态眉纹扩写为预期负面风险的焦虑。",
+    "open_emotion": "诧异",
+    "answer": "surprise",
+    "mapping_reason": "情绪词“诧异”表示因当前接收到的信息违背既有认知和预期而产生的即时震惊与难以置信。依据MER2024情绪轮，因当前刺激引发的意外、反问与预期违背严格归入surprise家族。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "audio",
+        "anchor": "00:00-00:02",
+        "observation": "目标人物以短促、显著拔高的升调发问‘啊？’，紧接着以尾音上扬的反问语气追问‘真的？’",
+        "interpretation": "连续的升调反问展现出直接受突发信息冲击的难以置信与求证倾向，非下沉低落",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "graph",
+        "anchor": "person_1与person_3",
+        "observation": "图谱记录了从初始短促升调疑问声（person_1）衔接后续反问语调（person_3）的事件递进关系",
+        "interpretation": "构成了从瞬时错愕到跟进求证的完整意外事件链，证实当前处于惊讶反应期",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "visual",
+        "anchor": "frame_01至frame_04",
+        "observation": "目标人物眼睛凝视互动对象，双眉扬起微蹙，嘴唇半张微启呈现定格神态",
+        "interpretation": "神态集中体现出信息输入时的错愕，与听觉上的即时反问形成跨模态协同",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "目标人物额头及眉心有明显生理性皱纹，容易与worried（担忧）的情绪特征混淆；但音轨中并无愁苦下沉或叹息表现，完全由高音调惊讶求证主导。"
+  },
+  "usage": {
+    "completion_tokens": 1257,
+    "total_tokens": 14768,
+    "prompt_tokens": 13511,
+    "completion_tokens_details": {
+      "reasoning_tokens": 429
+    }
+  },
+  "seconds": 15.28789472579956
+}

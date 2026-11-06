@@ -1,0 +1,52 @@
+{
+  "output": {
+    "expert": "image",
+    "reason": "目标是frame_03至frame_07近景中的浅色衣袍男子，并非frame_00至frame_02抬手的华服男子。他持续垂眼、眉间略紧，随后嘴唇由轻合转为微张，表情变化克制[E1][E2]。结合字幕中的“也不知道”，我仍谨慎判断为轻度不安[E3]；但画面不能确定他担心什么，也可能只是在斟酌措辞。",
+    "open_emotion": "不安",
+    "answer": "worried",
+    "mapping_reason": "此处的不安侧重面对未知时的顾虑，因而映射为worried。字幕没有交代可能的负面后果，映射把握有限。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "visual",
+        "anchor": "frame_03（0.92秒）至frame_05（1.52秒）",
+        "observation": "近景中的浅色衣袍男子持续垂眼，眉间略紧，面部动作较少。",
+        "interpretation": "与克制的不安相容，但也可能是在思索。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_06（1.80秒）至frame_07（2.12秒）",
+        "observation": "他仍向下看，嘴唇由轻合转为微张，没有明显笑容或突发的大幅表情变化。",
+        "interpretation": "未见支持即时惊讶的明显变化；嘴部动作本身不能确定情绪。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "subtitle",
+        "anchor": "「也不知道，当年，三哥。」",
+        "observation": "字幕包含“也不知道”，句意在片段中尚未完整。",
+        "interpretation": "提供未知的语义线索，但不能确认具体担忧对象或后果。",
+        "polarity": "uncertain"
+      }
+    ],
+    "counterevidence": "最强的相反解释是平静地斟酌往事：垂眼和收敛表情并不专属于不安，“也不知道”也可能仅表示不了解情况。字幕没有说明未来风险；同样，“当年”没有说明已发生的损失，不足以确认低落。",
+    "changed": false,
+    "response_to_others": "核对图谱专家所引frame_03至frame_07，确有持续垂眼、眉间略紧，但这与我引用的是同一组画面，不能重复计为悲伤证据；字幕中的“当年”也未给出损失评价。其所引图谱语调无法从本轮提供的画面、字幕核实，且没有原音轨。音频字幕专家引用的“也不知道”和近景中的收敛表情均可核实；我同意它们有限地支持不安，同时不足以断言具体的负面后果。"
+  },
+  "usage": {
+    "completion_tokens": 809,
+    "total_tokens": 6578,
+    "prompt_tokens": 5769,
+    "prompt_tokens_details": {
+      "cached_tokens": 2432,
+      "cache_write_tokens": 0,
+      "cached_creation_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 79
+    }
+  },
+  "seconds": 59.418121099472046
+}

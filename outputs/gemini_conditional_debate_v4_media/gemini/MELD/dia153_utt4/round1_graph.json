@@ -1,0 +1,47 @@
+{
+  "output": {
+    "expert": "graph",
+    "changed": false,
+    "response_to_others": "核验音轨0:01-0:02.8与画面后，指出音频字幕专家将说理中的陈述重音与前指手势过度解读为对抗性怒火；Joey在语义上是在提供直面恐惧的建议，并无受到冒犯、受阻或对他人责难的愤怒（anger）特征。对于图像专家的观察表示认同，Joey的身体与面部肌肉并未扭曲激化，食指动作仅为伴随言语的强调性手势，符合日常平稳论述。",
+    "reason": "围绕目标人物Joey展开的事件链表明，Joey当前是在针对他人的困扰提出克服恐惧的类比逻辑[context_0]。从摊手设立假设[process_0]到抬指给出应对方案[process_1, person_1]，前后动作紧密衔接，完整构成日常交流中的论述表达。亲自核查音轨与8帧画面，Joey说话连贯坚定、神态专注，音量与重音均服务于观点的逻辑强调，并无对任何对象的敌对攻击、冒犯对抗或愤怒爆发，整体处在平稳就事论事的基调中。",
+    "open_emotion": "理所当然",
+    "answer": "neutral",
+    "mapping_reason": "“理所当然”代表当事人以平常、笃定、就事论事的态度阐述建议，既无愤怒家族的对抗与责难，亦无恐惧或喜悦的主导情感，符合情绪轮中neutral（平稳、日常且没有明确主导情绪的表达）的定义。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "graph",
+        "anchor": "process_1",
+        "observation": "Joey说出建议结论\"you go to the top of the building!\"并伴随手指指向前方动作",
+        "interpretation": "展示出以理所当然的常理向对方进行言语劝导，属于平稳的说理事件链推进",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_04-frame_07",
+        "observation": "Joey眼神平稳直视对方，右臂前伸食指指向前方，面部无横眉怒目或咬牙等攻击性表情",
+        "interpretation": "动作属于典型的言语说明手势（illustrator），呈现出笃定平和的沟通姿态，缺乏愤怒的情感效价",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "audio",
+        "anchor": "00:01-00:03",
+        "observation": "Joey后半句虽然音调微升并带有说理重音，但发音扎实连贯，未见破音、嘶吼或激愤颤音",
+        "interpretation": "证实其语气仅为增强说服力的常规强调，而非恼火或愤慨的情感爆发",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "食指前指的身体姿态容易被误解为指责或生气，但结合事件语境与声学特征，这仅是论证自身观点时的常态手势，排除了anger。"
+  },
+  "usage": {
+    "completion_tokens": 1190,
+    "total_tokens": 14707,
+    "prompt_tokens": 13517,
+    "completion_tokens_details": {
+      "reasoning_tokens": 527
+    }
+  },
+  "seconds": 15.963175296783447
+}

@@ -1,0 +1,47 @@
+{
+  "output": {
+    "changed": false,
+    "response_to_others": "对音频字幕专家：核实了其指出的轻低试探口吻与‘惹麻烦’的自我归因语义，这与图谱中从process_0推进到process_1的事件链高度一致，均证实了对牵累他人的顾虑。对图像专家：核实其引用的frame_03与frame_05，嘴唇张大实为说话发音过程中的连续动作（对应图谱person_2），音轨中并无惊讶特有的高音骤起或吸气冲击，结合后续追问，其核心是对未决事态后果的担忧而非单纯意外。",
+    "expert": "graph",
+    "reason": "通过核对图谱事件链与实际音画，目标人物由询问对手情况[process_0]迅速递进为追问自身是否造成连累[process_1]（“我，我是不是给你惹麻烦了”）。在人际互动情境下，该言语链的核心语义是对潜在负面后果和连累风险的试探性顾虑。音轨中男子语调压低且带有轻声迟疑[person_1]，面部伴随微探前倾与紧盯注视[E2, E3]，整体心理评价紧扣‘风险预期与自身责任’，符合担忧的特征而非单纯受到意外冲击。",
+    "open_emotion": "担忧",
+    "answer": "worried",
+    "mapping_reason": "开放词‘担忧’指对尚未明确的潜在负面影响、自身可能带来的麻烦所产生的焦虑与顾虑，直接对应情绪轮中worried（对可能负面结果、未知风险的顾虑、不安与预期）的定义。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "graph",
+        "anchor": "process_1",
+        "observation": "图谱记录目标人物紧接发问‘我，我是不是给你惹麻烦了’",
+        "interpretation": "事件链从外部探问转向对自身负面连带后果的预期顾虑，构成担忧的事件核心证据",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "audio",
+        "anchor": "00:00-00:02",
+        "observation": "音轨中语调偏轻偏低，带有气声试探与迟疑停顿，无高亢惊呼",
+        "interpretation": "反映出小心翼翼探询对方处境的心态，排除了情绪强烈的震惊",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "visual",
+        "anchor": "frame_06至frame_07",
+        "observation": "男子身体前倾面向对方，双眼凝视，随后嘴唇微敛收拢（对应图谱person_3）",
+        "interpretation": "在发问后保持探询与等待回应的紧绷神态，佐证其内心的忐忑不安",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "图像专家指出其在发问时有嘴张大（frame_03、frame_05）的面部表现，可能被解读为surprise；但音轨中无惊诧的高音调，且口型变化属于常规发音运动，结合后文责任顾虑，单纯意外无法涵盖其核心情绪。"
+  },
+  "usage": {
+    "completion_tokens": 1487,
+    "total_tokens": 14740,
+    "prompt_tokens": 13253,
+    "completion_tokens_details": {
+      "reasoning_tokens": 734
+    }
+  },
+  "seconds": 19.118895053863525
+}

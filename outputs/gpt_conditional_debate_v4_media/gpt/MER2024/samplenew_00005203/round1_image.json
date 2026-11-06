@@ -1,0 +1,52 @@
+{
+  "output": {
+    "expert": "image",
+    "reason": "目标是画面右侧的粉衣女子，不是左前景的人或后方站立者。她说话时视线朝下、眉间收紧，话后仍保持收敛的表情[E1][E2]；结合她表达不愿分开的字幕[E3]，当前最支持克制的不舍。画面不足以判断她是否流泪，也不能仅凭眉形断定情绪。",
+    "open_emotion": "不舍",
+    "answer": "sad",
+    "mapping_reason": "此处的不舍侧重面对分别时的失落，近于sad所涵盖的低落；字幕未明确提出未知风险，因此不优先映射为worried。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "visual",
+        "anchor": "frame_00（0.00秒）至frame_03（0.84秒）",
+        "observation": "粉衣女子视线朝下、眉间收紧；说话时嘴唇张开，随后合拢。",
+        "interpretation": "表情持续收敛，与低落相符，但眉形本身不能定类。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_04（1.12秒）至frame_07（1.96秒）",
+        "observation": "她说话后仍低垂视线，面部未见明显转为笑容。",
+        "interpretation": "前后没有明显轻松起来的可见变化，支持克制的不舍。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "subtitle",
+        "anchor": "“我也不想跟你分开。”",
+        "observation": "字幕表达了她不愿与对方分开。",
+        "interpretation": "为可见的收敛表情提供了与分别有关的语义背景。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "图谱专家指出，字幕没有证明分开已经发生；这一点成立，因此对可能分别的不安仍是合理解释。但字幕也没有提出未知风险或后果，仅凭分开发生在未来不足以判为worried。画面没有清晰泪水或明显哭泣，sad在此只指较克制的失落。",
+    "changed": false,
+    "response_to_others": "已核实图谱专家所引frame_02至frame_07的低垂视线、收紧眉间，以及字幕原话；这些与我方证据同源，不能重复计数。其process_0、process_1和person_1节点未作为原始图谱提供，声音转述也因没有音轨而无法核验。音频字幕专家所引frame_02至frame_05和字幕均可核实；其不舍的解释与可见表现相符，但不能据此推断更强烈的悲痛。"
+  },
+  "usage": {
+    "completion_tokens": 793,
+    "total_tokens": 6117,
+    "prompt_tokens": 5324,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_creation_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 87
+    }
+  },
+  "seconds": 21.302429676055908
+}

@@ -1,0 +1,25 @@
+{
+  "id": "MELD/dia131_utt3",
+  "dataset": "MELD",
+  "round0_labels": {
+    "graph": "joy",
+    "audio_subtitle": "sadness",
+    "image": "joy"
+  },
+  "triggered": true,
+  "final": "joy",
+  "rounds_run": 1,
+  "round_labels": [
+    {
+      "graph": "joy",
+      "audio_subtitle": "joy",
+      "image": "joy"
+    }
+  ],
+  "final_expert_labels": {
+    "graph": "joy",
+    "audio_subtitle": "joy",
+    "image": "joy"
+  },
+  "judge": null
+}

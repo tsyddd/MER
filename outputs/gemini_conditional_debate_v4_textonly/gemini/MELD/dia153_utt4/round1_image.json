@@ -1,0 +1,37 @@
+{
+  "output": {
+    "expert": "image",
+    "changed": false,
+    "response_to_others": "对音频字幕专家：其指出的音量增大与食指前指确属事实，但这是激昂论辩中的强调性重音与伴随手势（illustrator），Joey面部并无怒视、咬牙或敌对扭曲，语用亦是举例类比劝导而非受到冒犯或责难他人，不能将用力说理直接等同于anger。对图谱专家：认同其关于Joey事件链处于就事论事提出假设的判断，这与视觉上身体坐姿稳定、手势服务于逻辑推进的表现完全一致。",
+    "reason": "综合视觉、语义及对方专家的观察，Joey（左侧打吊带者）的表现本质上是坚决、专注的说理。其手势从摊开到食指前指（frame_04至frame_07）是典型的伴随言语强调动作（illustrator），虽然言语带有加重重音且表情严肃认真，但面部缺乏对抗性怒视、龇牙或紧绷攻击特征，语境也是提出直面恐惧的逻辑建议，属于日常且平稳的观点陈述，无主导性的负向对抗情绪。",
+    "open_emotion": "平常",
+    "answer": "neutral",
+    "mapping_reason": "Joey当前的激昂状态属于强化说理与论点强调，既无受冒犯或责难的对抗性怒火（anger），亦无恐惧或悲伤，符合neutral（当前平稳、日常且没有明确主导情绪的表达）的定义。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "visual",
+        "anchor": "frame_04-frame_07 (1.71s-2.96s)",
+        "observation": "Joey左臂固定，右臂抬起食指向前指点，头部与身躯保持稳定朝向，面部未出现攻击性龇牙、怒目圆睁或咬肌紧绷。",
+        "interpretation": "动作形态属于规范的伴随语言说理动作，表明其处于投入阐述观点的日常对话状态，而非愤怒对抗。[E1]"
+      },
+      {
+        "id": "E2",
+        "source": "subtitle",
+        "anchor": "It have a fear of heights, you go to the top of the building!",
+        "observation": "Joey以假设与行动建议的句式进行类比论证。",
+        "interpretation": "言语核心是陈述其认为理所当然的解决方式，不包含针对谈话对象的人身攻击或敌意指责。[E2]"
+      }
+    ],
+    "counterevidence": "音频字幕专家提到的声调拔高和前指手势带有明显的说服张力，若脱离面部无敌意的事实，容易被表层误读为愤怒或争执。"
+  },
+  "usage": {
+    "completion_tokens": 1311,
+    "total_tokens": 4901,
+    "prompt_tokens": 3590,
+    "completion_tokens_details": {
+      "reasoning_tokens": 663
+    }
+  },
+  "seconds": 15.174663305282593
+}

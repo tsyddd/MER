@@ -1,0 +1,39 @@
+{
+  "output": {
+    "changed": false,
+    "response_to_others": "核实图谱专家对frame_03所谓的‘眉头微锁、神色沉重收敛’，发现其与画面实际明显不符：目标人物额部平展、双眉挑起而非聚拢紧锁，双眼在镜片后明显睁大，是典型的惊愕瞠目态；音频字幕专家指出的反问语气与突发预期违背完全与视觉上的惊诧凝固感吻合，因此即时主导情绪确为surprise而非深思后果的worried。",
+    "expert": "image",
+    "reason": "通过重新核对画面中人物面部肌肉及形态，目标人物在通话时从frame_00到frame_07全程呈现双目睁大、眼睑张开、眉毛略向上扬起的生理特征，下半张脸及嘴角紧绷微张，呈现出听到不可置信消息时的即时错愕与定格感。结合其反问台词及音轨末尾急促上扬的质问语调，证明其核心反应是既有认知被突发信息打破所引发的强烈诧异（surprise）。",
+    "open_emotion": "诧异",
+    "answer": "surprise",
+    "mapping_reason": "当前信息与既成预期严重不符，目标人物视觉上表现为典型的挑眉睁目与错愕定格，言行聚焦于对突发情况的不可置信，符合情绪轮中surprise（因当前信息违背预期产生的意外、诧异或震惊）的明确定义。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "visual",
+        "anchor": "frame_00至frame_07 (0.00s-2.64s)",
+        "observation": "目标人物在镜片后的双眼圆睁，眉骨向上挑起而非紧锁下压，嘴巴微张，面容呈现即时惊愕态势。",
+        "interpretation": "睁目挑眉是典型的意外错愕表情特征，表明突发变故严重违背其心理预设。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "audio",
+        "anchor": "00:00-00:02",
+        "observation": "语速快且语调紧凑，末尾‘煤矿了吗’急促上挑反问。",
+        "interpretation": "听觉上的质问与不信佐证了视觉上的即时惊诧感，排除了平稳或沉重哀怨。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "事态涉及前线煤矿防守，惊愕背后必然伴随对局势的潜在担忧，但片段处于初次核实的即时冲击阶段，主导表现仍是surprise而非持续焦虑。"
+  },
+  "usage": {
+    "completion_tokens": 1253,
+    "total_tokens": 13828,
+    "prompt_tokens": 12575,
+    "completion_tokens_details": {
+      "reasoning_tokens": 584
+    }
+  },
+  "seconds": 16.60886526107788
+}

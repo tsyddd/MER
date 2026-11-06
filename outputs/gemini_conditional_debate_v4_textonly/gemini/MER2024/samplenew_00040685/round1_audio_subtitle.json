@@ -1,0 +1,47 @@
+{
+  "output": {
+    "expert": "audio_subtitle",
+    "changed": false,
+    "response_to_others": "对图像专家：高度认同其关于双目圆睁、面容紧绷及气息急促紧凑的观察，视听两端紧密呼应了说话者复述险局时的心悸；对图谱专家：不认同其将刻意压低且带气声的声线判定为平缓冷静，低声克制在此语境下恰是危机压迫下的高度紧张流露，而非无情绪的中性叙事。",
+    "reason": "目标人物在讲述中压低嗓音且带有明显的气声与急促感，语调节奏紧凑急切[E1]，台词核心聚焦于自身曾遭遇君父重大嫌疑的致命危机[E2]。上一轮结合视觉双目圆睁、肌肉紧绷的惊悸神态[E3]，其言语行为并非超然中立的事实汇报，而是处于心有余悸、顾虑重重的紧张倾诉中，体现出高度的焦虑与不安。",
+    "open_emotion": "焦虑不安",
+    "answer": "worried",
+    "mapping_reason": "目标人物表现出面临严重猜忌危机与后怕风险时的紧张心悸反应。依据情绪轮定义，对负面结果、风险与受责的顾虑、紧绷与不安严格归入worried家族。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "audio",
+        "anchor": "0:00-0:06",
+        "observation": "声音压得较低，语速急促且伴随粗重紧张的气息，尾音带有明显的紧绷感与微颤。",
+        "interpretation": "表现出说话者回想并复述危险境况时的紧张和心悸不安。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "subtitle",
+        "anchor": "土木人一案，父皇本已对我起了疑心",
+        "observation": "台词描述了自身遭遇重大嫌疑的危险处境，言辞指向负面后果与猜忌危机。",
+        "interpretation": "话题聚焦于危及自身安全的险恶事态，支撑焦虑担忧的情绪基调。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "visual",
+        "anchor": "frame_01-frame_05",
+        "observation": "双眼睁大，眼神聚焦向前，面颊肌肉紧绷，身体前倾微倾听/倾诉姿态。",
+        "interpretation": "视觉神态与声音中的紧迫焦虑高度一致，排除平稳叙事（neutral）的可能。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "讲述虽然涉及危机化解的转折，但当前言语与声韵整体处于压抑后怕的紧绷状态，而非平静叙事。"
+  },
+  "usage": {
+    "completion_tokens": 1218,
+    "total_tokens": 4758,
+    "prompt_tokens": 3540,
+    "completion_tokens_details": {
+      "reasoning_tokens": 519
+    }
+  },
+  "seconds": 12.458396911621094
+}

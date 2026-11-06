@@ -1,0 +1,24 @@
+{
+ "gemini": {
+  "n": 62,
+  "run1 ok": 38,
+  "run2 ok": 39,
+  "runs agree": 44,
+  "either ok": 46,
+  "both ok": 31,
+  "run1 wrong & gold in reflect primaries": 18,
+  "run1 wrong & gold not in reflect primaries": 6,
+  "run1 in reflect primaries": 57
+ },
+ "gpt": {
+  "n": 55,
+  "run1 ok": 26,
+  "run2 ok": 24,
+  "runs agree": 42,
+  "either ok": 30,
+  "both ok": 20,
+  "run1 wrong & gold in reflect primaries": 22,
+  "run1 wrong & gold not in reflect primaries": 7,
+  "run1 in reflect primaries": 52
+ }
+}

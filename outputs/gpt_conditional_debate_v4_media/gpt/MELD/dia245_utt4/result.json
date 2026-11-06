@@ -1,0 +1,38 @@
+{
+  "id": "MELD/dia245_utt4",
+  "dataset": "MELD",
+  "round0_labels": {
+    "graph": "fear",
+    "audio_subtitle": "fear",
+    "image": "surprise"
+  },
+  "triggered": true,
+  "final": "surprise",
+  "rounds_run": 2,
+  "round_labels": [
+    {
+      "graph": "fear",
+      "audio_subtitle": "fear",
+      "image": "surprise"
+    },
+    {
+      "graph": "fear",
+      "audio_subtitle": "surprise",
+      "image": "surprise"
+    }
+  ],
+  "final_expert_labels": {
+    "graph": "fear",
+    "audio_subtitle": "surprise",
+    "image": "surprise"
+  },
+  "judge": {
+    "reason": "目标是沙发上的Monica，而非门边的长发女子。画面中她从持书坐着转为放低书本、迅速前倾，又回头张口看向门边，支持她对突发状况感到吃惊[image:E1][image:E2]。字幕“No-no-no, no!”表明她也在即时制止某事，是不能只凭表情判断惊讶的反证[image:E3]；但字幕和画面均未显示她畏惧的威胁或预期后果，不足以将这种急切判为恐惧。未提供音轨，不能核验语调。",
+    "answer": "surprise",
+    "evidence_refs": [
+      "image:E1",
+      "image:E2",
+      "image:E3"
+    ]
+  }
+}

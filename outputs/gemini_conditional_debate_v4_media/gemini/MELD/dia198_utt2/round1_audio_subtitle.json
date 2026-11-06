@@ -1,0 +1,47 @@
+{
+  "output": {
+    "expert": "audio_subtitle",
+    "changed": true,
+    "response_to_others": "经亲自核对音轨与画面，图谱专家与图像专家指出的‘语速平缓、尾音自然下落、面部眉眼肌肉放松无攻击张力’完全属实；Joey说出否定与讽刺台词时采用的是完全平直从容的冷面（deadpan）陈述语调，并无实质性的怒意爆发或愤慨对抗，我上一轮将台词字面讽刺过度推断为愤怒情绪，现据媒体实际表现予以修正。",
+    "reason": "Joey在面对对话时客观纠正对方‘No-no, she kicked our butts’，随后用‘Olympic standing-there team’吐槽调侃。重新复核实际音轨（0:00-0:03）可清晰辨识出其声音厚度均匀、语速匀称平稳，无提拉音高、喊叫或压抑怒火的气息摩擦；视觉上（frame_01-frame_07）其面部松弛自然，手部动作仅为日常交谈中的辅助说明动作，整体处于放松、日常且平稳的事实陈述状态。",
+    "open_emotion": "平稳陈述",
+    "answer": "neutral",
+    "mapping_reason": "开放情绪‘平稳陈述’（matter-of-fact）体现了说话者在言语交流中客观平静、无明确主导正负情绪波动的状态，完全符合情绪轮中 neutral 的定义。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "audio",
+        "anchor": "0:00-0:03",
+        "observation": "Joey整句发音音调平稳如常，音量中等且无声调突兀高扬或颤抖，语速保持自然日常节奏。",
+        "interpretation": "排除因受阻激发的愤怒（anger）或因失落导致的沮丧（sadness），呈现中性平稳交谈口吻。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_01-frame_05",
+        "observation": "Joey轻微抬手强调后迅速放下，双眉舒展无紧锁或下压，嘴角平整放松。",
+        "interpretation": "面部与身体语言未出现攻击对抗或情绪紧绷表征，支持平稳日常的交互状态。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "subtitle",
+        "anchor": "No-no, she kicked our butts. You could be on the Olympic standing-there team.",
+        "observation": "语句通过纠正事实与冷幽默吐槽同伴，但在语用上作为日常闲聊调侃展开。",
+        "interpretation": "文本虽含反驳与戏谑成分，但结合平淡冷静的实际交付方式，并未形成主导的情绪对抗。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "台词具有针对同伴消极表现的揶揄与批评意味，若脱离声音和面部表现单看字面极易被判定为烦闷恼火，但实际多模态表现均指向平缓从容的中性状态。"
+  },
+  "usage": {
+    "completion_tokens": 1197,
+    "total_tokens": 14074,
+    "prompt_tokens": 12877,
+    "completion_tokens_details": {
+      "reasoning_tokens": 412
+    }
+  },
+  "seconds": 19.182709217071533
+}

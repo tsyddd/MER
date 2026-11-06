@@ -1,0 +1,39 @@
+{
+  "output": {
+    "expert": "audio_subtitle",
+    "changed": false,
+    "response_to_others": "对图像专家：图像专家捕捉到的眉眼微动属于打电话说话与眨眼时的常态，其将口头道歉“sorry”直接推论为实质内疚并归入sadness并不准确；音轨中Joey的语气轻松从容，结尾“baby”随和亲切，完全缺乏sadness特有的低落沉重感或哀伤质感。对图谱专家：认同图谱专家关于肢体极度松弛及声学表现低缓随性的观察，两者均充分证实该发言属于常规、平稳的事务性沟通。",
+    "reason": "Joey在通话中向对方取消约会，言语行为属于典型的日常告知与常规礼貌性致歉[E1]。在真实音轨中，其语速均匀、音量适中，声调柔和平稳，毫无悲伤情绪中常见的语声发颤、哽咽叹息或沉重迟滞感[E2]；视觉上身体完全倚靠椅背，肌肉自然放松，整体交流从容且无情绪波澜，符合日常平稳状态。",
+    "open_emotion": "平常",
+    "answer": "neutral",
+    "mapping_reason": "说话者的表现属于日常平稳、就事论事的交流，无明显压倒性的负向悲痛或正向兴奋体验，符合neutral（中性/平稳平常）的定义。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "subtitle",
+        "anchor": "I’m sorry I gotta cancel tonight baby",
+        "observation": "台词表达取消今晚约会并带有习惯性致歉词。",
+        "interpretation": "属于日常人际交往中的通知与常规客套，并非深层内疚或负向哀伤的爆发。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "audio",
+        "anchor": "0.00-1.85s",
+        "observation": "音质稳定，语调低沉平缓，结尾唤词“baby”自然流畅，无沉重叹息或哭腔。",
+        "interpretation": "声学特征平稳均衡，排除了主导性的悲伤（sadness）或其他高唤醒情绪。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "台词字面上含有“I’m sorry”，易被孤立语义误判为抱歉失落，但结合平顺随和的语调和松弛体态，足以排除sadness。"
+  },
+  "usage": {
+    "completion_tokens": 1106,
+    "total_tokens": 4647,
+    "prompt_tokens": 3541,
+    "completion_tokens_details": {
+      "reasoning_tokens": 495
+    }
+  },
+  "seconds": 13.34965205192566
+}

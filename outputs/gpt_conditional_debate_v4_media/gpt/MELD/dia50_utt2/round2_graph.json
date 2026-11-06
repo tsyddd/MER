@@ -1,0 +1,60 @@
+{
+  "output": {
+    "expert": "graph",
+    "reason": "我改判为歉疚。当前能明确归于女学生的表达是道歉[E1]；画面可见低身移动，但遮挡使她的面部和完整路线难以辨认[E2]。图谱把道歉与离开组织为同时发生的互动[E3]，不能据此进一步推断她在「逃离」或害怕后果。图谱转述语声急促[E4]，因未提供原音轨，只能保留为未核实的补充。相比上一轮的慌张判断，可核实证据更直接支持她在表达歉意。",
+    "open_emotion": "歉疚",
+    "answer": "sadness",
+    "mapping_reason": "歉疚不是悲伤的同义词；在现有标签中，将对眼前状况表达歉意的负面感受近似归入sadness。这不表示画面证实了哀伤，也不能确定她为何道歉。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "subtitle",
+        "anchor": "“I’m so sorry!”",
+        "observation": "女学生的当前字幕是带有“so”的道歉。",
+        "interpretation": "直接支持她在表达歉意，但不能单凭这句话确认歉意的成因或强度。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_00（0.0秒）至frame_04（1.293秒）",
+        "observation": "画面右下方的人物低身移动，随后受到前景男子遮挡；左侧可见女子经过，但面部和完整移动路线难以辨认。",
+        "interpretation": "姿态与局促相容，不能独立证明歉疚，更不能证明畏惧负面后果。",
+        "polarity": "uncertain"
+      },
+      {
+        "id": "E3",
+        "source": "graph",
+        "anchor": "process_1、process_0及两者的simultaneous关系",
+        "observation": "图谱将女学生道歉与低头离开记为同时发生。",
+        "interpretation": "这有助于组织当前互动；其动作与[E2]同源，节点关系不证明道歉原因，也不构成额外的情绪证据。",
+        "polarity": "support"
+      },
+      {
+        "id": "E4",
+        "source": "graph",
+        "anchor": "person_1",
+        "observation": "图谱转述女学生语速较快、带有急促感；未提供原音轨。",
+        "interpretation": "若准确，可支持仓促的替代解释，但目前无法亲耳核验，不能据此确定fear。",
+        "polarity": "uncertain"
+      }
+    ],
+    "counterevidence": "道歉也可能只是礼貌地应对局促场面；低身移动还可能体现慌张。现有可核实画面没有清晰显示她畏惧威胁或预期负面后果，道歉也不足以证明明显的悲伤。",
+    "changed": true,
+    "response_to_others": "音频字幕专家引用的“I’m so sorry!”与字幕相符，其指出没有原音轨、无法核验语调也成立；这使我不能把图谱的急促语声当作已亲耳听到的fear证据。图像专家指出的低身、遮挡及路线难以追踪可在frame_00至frame_04核实；这些与我上一轮的视觉依据是同一事实，不足以支持我先前更强的「急于逃离」解释。"
+  },
+  "usage": {
+    "completion_tokens": 1085,
+    "total_tokens": 7704,
+    "prompt_tokens": 6619,
+    "prompt_tokens_details": {
+      "cached_tokens": 2304,
+      "cache_write_tokens": 0,
+      "cached_creation_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 217
+    }
+  },
+  "seconds": 30.29547381401062
+}

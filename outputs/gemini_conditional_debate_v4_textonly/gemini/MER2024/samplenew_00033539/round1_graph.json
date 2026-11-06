@@ -1,0 +1,47 @@
+{
+  "output": {
+    "changed": false,
+    "response_to_others": "认同音频字幕专家对短促拔高与反问升调韵律的提取，这与图谱中person_1至person_3的语调递进完全吻合；不认同图像专家将静态深纹过度推演为‘忧愁担忧’，图谱记录的言语事件person_3明确为反问疑问而非愁闷下沉，短促的‘啊？真的’属于典型的即时违背预期求证，缺乏负面风险焦虑的展开支撑。",
+    "expert": "graph",
+    "reason": "目标人物在听到对方陈述后，言语行为由初始短促发问衔接后续反问追问展开（图谱process_0与process_1）。结合图谱记录的短促升调疑问声（person_1）及紧随其后的反问语调（person_3），整体互动是一次典型的接收到突发信息后的即时惊愕求证事件。虽然面部伴有眉心挤压，但这属于注意力瞬间高度集中与错愕下的本能反应，其事件目标完全是对信息的真实性产生不可思议的质疑，而非对潜在危机或未知的焦虑不安。",
+    "open_emotion": "诧异",
+    "answer": "surprise",
+    "mapping_reason": "开放词“诧异”指当前信息出乎意料引发的难以置信与求证反应。依据MER2024情绪轮，因突发刺激或信息违背预期而产生的即时意外感明确归入surprise家族；片段中并无对未来风险或坏结果展开评估的worried特征。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "graph",
+        "anchor": "person_1与person_3",
+        "observation": "图谱记录了从短促升调疑问声推进至反问语调的连续事件链",
+        "interpretation": "言语韵律的急促拔高与连续反问体现了突发信息对原有预期的冲击，是强烈的意外求证反应",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "graph",
+        "anchor": "process_0与process_1",
+        "observation": "人物在开口发出“啊”之后，紧接着追问“真的”",
+        "interpretation": "事件链展示了从初发惊愕到跟进追问的完整言语行为，符合违背预期后的即时反应逻辑",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "visual",
+        "anchor": "frame_00至frame_03",
+        "observation": "目标人物双眉聚拢微抬，嘴巴微张，目光定格在互动对象方向",
+        "interpretation": "面部神态呈现接收到意外信息时的瞬间错愕与高度专注",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "图像专家指出的人物双眉内聚（AU1+AU4）可能带来担忧（worried）的竞争假说，但该皱眉神态在极短的求证反问中完全服务于困惑与意外，缺乏对损失或风险的持续焦虑表现。"
+  },
+  "usage": {
+    "completion_tokens": 1324,
+    "total_tokens": 6192,
+    "prompt_tokens": 4868,
+    "completion_tokens_details": {
+      "reasoning_tokens": 556
+    }
+  },
+  "seconds": 17.130155086517334
+}

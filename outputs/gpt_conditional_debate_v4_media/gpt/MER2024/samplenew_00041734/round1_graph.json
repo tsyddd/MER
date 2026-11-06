@@ -1,0 +1,60 @@
+{
+  "output": {
+    "expert": "graph",
+    "reason": "目标女性当前追问的是对方为何辞职，并非她本人正在辞职。[E1]她以“不是”起头，随即询问原因；画面中她蹙眉、倾向对方并持续注视[E2]。结合发问对象，这更支持她对辞职决定感到诧异，而不只是例行询问。图谱process_0记录了同一发问[E3]，与字幕属于同源重复，不能另算一项证明；图谱所述语调及后续一声“啊”因没有原音轨，不能亲耳核验[E4]。",
+    "open_emotion": "诧异",
+    "answer": "surprise",
+    "mapping_reason": "当前反应主要指向对方辞职这一信息带来的意外，较符合surprise的预期违背；字幕未表达她担心的具体后果，因此暂不以worried为主导标签。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "subtitle",
+        "anchor": "“不是，你，为什么要辞职？”",
+        "observation": "女性以“不是”起头，直接询问对方辞职的原因。",
+        "interpretation": "发问针对对方的决定；开头的反应与即时不解相符，但疑问句本身不能独立证明惊讶。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_00（0.0秒）至frame_06（2.28秒）",
+        "observation": "女性始终看向对话方向，发问时蹙眉、侧头并略向前倾；说话后仍蹙眉。frame_07（2.68秒）切到男性。",
+        "interpretation": "这些是女性当前追问时的表现，与诧异相容；持续蹙眉也可能支持关切，不能单靠表情定类。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "graph",
+        "anchor": "process_0",
+        "observation": "节点将“不是，你为什么要辞职”的发问归于女性。",
+        "interpretation": "图谱与当前字幕、画面中的说话者相合，但记录的是同一事件，不构成独立情绪证据。",
+        "polarity": "support"
+      },
+      {
+        "id": "E4",
+        "source": "graph",
+        "anchor": "person_1；process_1",
+        "observation": "图谱转述女性语调上扬、语气急促，并在问句后发出一声“啊”；所给字幕没有呈现这声“啊”，且未提供原音轨。",
+        "interpretation": "保留为未经亲耳核验的图谱转述，不用它决定情绪标签；节点顺序也不能据此扩写此前的事件。",
+        "polarity": "uncertain"
+      }
+    ],
+    "counterevidence": "图像专家指出的持续蹙眉与注视在frame_03至frame_06确实可见，也容许“关切不安”的解释；但字幕没有呈现她对未来风险或后果的顾虑。诧异判断同样不是由皱眉或疑问句单独得出。",
+    "changed": false,
+    "response_to_others": "音频字幕专家引用的字幕及frame_02至frame_04的皱眉、倾身均可在所给材料中核实；这些与我的依据是同一组事实，且我们都不能在无原音轨时判断语调。图像专家引用的frame_00至frame_06持续注视、蹙眉，以及frame_07切到男性也可核实；不过反应持续并不足以单独证明她在担心后果，而字幕更直接呈现对辞职决定的追问。"
+  },
+  "usage": {
+    "completion_tokens": 980,
+    "total_tokens": 7258,
+    "prompt_tokens": 6278,
+    "prompt_tokens_details": {
+      "cached_tokens": 2304,
+      "cache_write_tokens": 0,
+      "cached_creation_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 57
+    }
+  },
+  "seconds": 23.99322271347046
+}

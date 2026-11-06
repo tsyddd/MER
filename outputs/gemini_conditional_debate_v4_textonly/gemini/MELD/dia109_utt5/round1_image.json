@@ -1,0 +1,44 @@
+{
+  "output": {
+    "expert": "image",
+    "changed": false,
+    "response_to_others": "对图谱专家：我上一轮观察明确记录了Janice在frame_00-01及frame_07均紧紧交叉双臂抱胸，且面部线条紧绷、带有冷讽神色；你所说的笑声或夸张比划仅是其进行戏剧化挖苦与攻击的手段，且音频专家亦指出句末为观众笑声而非其自身开怀大笑，抱胸与尖锐凝视的防御对抗姿态彻底排除了真正的joy体验。对音频字幕专家：完全认同你对台词语用中尖锐反讽、言语攻击性以及句首句尾交叉抱胸封闭体态的观察，视觉与声学特征高度契合anger家族下的指责与对抗。",
+    "reason": "目标人物Janice在餐桌旁面对Chandler，开始时双臂环抱胸前，随后边说讽刺性话语边做出比划手势，后半程再次双臂交叉抱胸并紧盯对方，面部带有紧绷与撇嘴的不满神态，配合指责性的语调，视觉与听觉均指向其受到冒犯后的嘲弄与愤慨对抗。",
+    "open_emotion": "愤慨嘲弄",
+    "answer": "anger",
+    "mapping_reason": "目标人物通过防御性抱胸姿态、指向性手势和讽刺言辞表达对对方行为的指责与不满对抗，符合情绪轮中anger（对受阻或不公的恼火、责备与对抗）的定义。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "visual",
+        "anchor": "frame_00至frame_01（0.0s - 1.04s）及frame_07（7.34s）",
+        "observation": "Janice最初双臂交叉抱胸直视对方，随后在说完话后立刻重新收拢双臂紧紧环抱在胸前，眼神冷冷注视Chandler。",
+        "interpretation": "环抱双臂的肢体语言显示出明显的防御性与对抗立场，表现出内心的不满与心理距离。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_03至frame_06（3.13s - 6.30s）",
+        "observation": "说话过程中，Janice右手手指抬起做强调手势，眉毛轻挑但嘴角撇动并带有微缩的紧绷神情。",
+        "interpretation": "结合面部的不自然紧绷与讽刺性的比划动作，传递出尖锐的挖苦与责备情绪。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "subtitle",
+        "anchor": "Because you know, you could make little puppets out of them, and you could use them in your theater of cruelty.",
+        "observation": "台词提及将东西做成木偶用于对方的“残酷剧场”。",
+        "interpretation": "词句充满尖酸讽刺与控诉，指向对Chandler残忍行为的责难与恼怒。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "由于台词内容荒诞且带有夸张嘲弄，表面可能看似戏剧化调侃，但从其抱胸姿态及音频中尖锐严肃的语调来看，核心并非娱乐性的joy，而是负面的气恼。"
+  },
+  "usage": {
+    "completion_tokens": 838,
+    "total_tokens": 4658,
+    "prompt_tokens": 3820
+  },
+  "seconds": 7.808207273483276
+}

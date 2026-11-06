@@ -1,0 +1,12 @@
+{
+  "version": "gpt_conditional_debate_v4_media",
+  "model": "gpt-6-sol",
+  "provider": "gpt",
+  "text_only": false,
+  "raw_media_provided": true,
+  "audio_provided": false,
+  "round0": "saved v3 expert outputs of the same provider, not re-run",
+  "max_rounds": 2,
+  "gold_not_sent": true,
+  "key_source": "project configs/private_api.json via engine.Client"
+}

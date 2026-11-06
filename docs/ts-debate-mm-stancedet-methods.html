@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>两篇多智能体论文的方法框架：TS-Debate 与 MM-StanceDet</title>
+<style>
+  :root {
+    --bg: #fafaf7;
+    --card: #ffffff;
+    --ink: #222;
+    --muted: #666;
+    --line: #d9d6cc;
+    --blue: #2f6690;
+    --blue-bg: #e7f0f7;
+    --green: #3b7d4f;
+    --green-bg: #e6f2ea;
+    --orange: #b36b1f;
+    --orange-bg: #f8eedf;
+    --purple: #6a4c93;
+    --purple-bg: #efe9f6;
+    --red: #a94442;
+    --red-bg: #f7e4e4;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Microsoft YaHei", "PingFang SC", "Noto Sans CJK SC", system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.7;
+  }
+  main { max-width: 1040px; margin: 0 auto; padding: 32px 20px 64px; }
+  h1 { font-size: 26px; margin: 0 0 6px; }
+  h2 { font-size: 21px; margin: 40px 0 10px; padding-bottom: 6px; border-bottom: 2px solid var(--line); }
+  h3 { font-size: 17px; margin: 24px 0 8px; }
+  p, li { font-size: 15px; }
+  .sub { color: var(--muted); margin: 0 0 18px; }
+  .toc { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 12px 18px; }
+  .toc a { color: var(--blue); margin-right: 16px; text-decoration: none; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 16px 20px; margin: 14px 0; }
+  .note { background: var(--orange-bg); border-left: 4px solid var(--orange); padding: 10px 14px; border-radius: 4px; font-size: 14px; }
+  .plain { background: var(--blue-bg); border-left: 4px solid var(--blue); padding: 10px 14px; border-radius: 4px; font-size: 14px; }
+  code { background: #eeece4; padding: 1px 5px; border-radius: 3px; font-size: 13px; }
+
+  /* flow diagram */
+  .flow { display: flex; flex-direction: column; align-items: stretch; gap: 0; margin: 12px 0; }
+  .stage { border: 2px solid var(--line); border-radius: 8px; background: var(--card); padding: 12px 16px; }
+  .stage .tag { font-size: 12px; font-weight: bold; letter-spacing: 1px; }
+  .stage h4 { margin: 2px 0 6px; font-size: 16px; }
+  .stage ul { margin: 0; padding-left: 20px; font-size: 14px; }
+  .stage.blue { border-color: var(--blue); background: var(--blue-bg); }
+  .stage.green { border-color: var(--green); background: var(--green-bg); }
+  .stage.orange { border-color: var(--orange); background: var(--orange-bg); }
+  .stage.purple { border-color: var(--purple); background: var(--purple-bg); }
+  .stage.red { border-color: var(--red); background: var(--red-bg); }
+  .arrow { text-align: center; font-size: 20px; color: var(--muted); line-height: 1.1; }
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .row3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
+  @media (max-width: 760px) { .row, .row3 { grid-template-columns: 1fr; } }
+
+  table { width: 100%; border-collapse: collapse; background: var(--card); margin: 10px 0; font-size: 14px; }
+  th, td { border: 1px solid var(--line); padding: 7px 10px; text-align: left; vertical-align: top; }
+  th { background: #f0eee6; }
+  .pill { display: inline-block; font-size: 12px; padding: 1px 8px; border-radius: 10px; margin-right: 4px; }
+  .p-blue { background: var(--blue-bg); color: var(--blue); }
+  .p-green { background: var(--green-bg); color: var(--green); }
+  .p-orange { background: var(--orange-bg); color: var(--orange); }
+  .p-purple { background: var(--purple-bg); color: var(--purple); }
+  .p-red { background: var(--red-bg); color: var(--red); }
+  footer { margin-top: 40px; font-size: 13px; color: var(--muted); }
+  footer a { color: var(--blue); }
+</style>
+</head>
+<body>
+<main>
+
+<h1>两篇多智能体论文的方法框架</h1>
+<p class="sub">TS-Debate（时间序列零样本推理）与 MM-StanceDet（图文立场检测）。帮助理解用的说明页，框架根据论文方法章节整理。</p>
+
+<div class="toc">
+  <a href="#overview">一、先看懂两篇在做什么</a>
+  <a href="#ts">二、TS-Debate</a>
+  <a href="#mm">三、MM-StanceDet</a>
+  <a href="#compare">四、并排对比</a>
+  <a href="#notes">五、读的时候要注意</a>
+</div>
+
+<!-- ============ 0. Overview ============ -->
+<h2 id="overview">一、先看懂两篇在做什么</h2>
+
+<div class="card">
+  <p><b>共同的问题：</b>让大模型在<b>不训练</b>的情况下，同时利用多种信息（时间序列的数值和图、或者图片和文字）做判断。单个模型容易被某一种模态带偏，例如看图看走眼、数字算错、或文字压过了图。</p>
+  <p><b>共同的解法：</b>把任务拆给几个<b>各管一种模态</b>的 agent，让它们各自给出证据，再通过某种机制（辩论、校验、反思）汇总成最终答案。</p>
+</div>
+
+<div class="plain">
+  <b>术语小词典</b>
+  <ul>
+    <li><b>零样本 / 免训练（zero-shot / training-free）</b>：不改模型参数，只靠提示词和流程。</li>
+    <li><b>模态（modality）</b>：信息的形式，如数值、图像、文字。</li>
+    <li><b>辩论（debate）</b>：多个 agent 各自给出观点，互相看到对方的内容后修改自己的答案。TS-Debate 强调“协作”，MM-StanceDet 更接近“每人抓住一个立场去论证”。</li>
+    <li><b>检索增强（RAG）</b>：先从资料库里找相似的例子，放进提示词里作参考。</li>
+  </ul>
+</div>
+
+<!-- ============ 1. TS-Debate ============ -->
+<h2 id="ts">二、TS-Debate：Multimodal Collaborative Debate for Zero-Shot Time Series Reasoning</h2>
+
+<div class="card">
+  <p><b>论文定位：</b>把时间序列推理看作“多模态证据仲裁”。视觉形态会误导，数字会被编造，文字上下文也可能盖过信号本身。方法是推理期的多 agent 协议，不需要任何针对任务的微调。</p>
+  <p><b>输入：</b>问题 <i>q</i>、时间序列 <i>x</i>（T×d）、可选的文字背景 <i>c</i>。</p>
+</div>
+
+<h3>2.1 角色分工</h3>
+<div class="row3">
+  <div class="stage purple">
+    <span class="tag">领域知识</span>
+    <h4>Knowledge elicitor</h4>
+    <ul>
+      <li>输入：问题 + 文字背景</li>
+      <li>输出：领域先验 <i>k</i></li>
+      <li>作用：所有 agent 共用的“分析契约”（预期模式、约束、常见错误）</li>
+    </ul>
+  </div>
+  <div class="stage blue">
+    <span class="tag">分析者（3 个）</span>
+    <h4>文字 / 视觉 / 数值</h4>
+    <ul>
+      <li><b>文字</b>：解读背景，不直接核对数字</li>
+      <li><b>视觉</b>：看时域图和频域图，判断趋势、波动、周期</li>
+      <li><b>数值</b>：用 <code>Lookup</code> 工具查数值，做可检验的断言</li>
+    </ul>
+  </div>
+  <div class="stage orange">
+    <span class="tag">评审（J=3）</span>
+    <h4>Reviewers</h4>
+    <ul>
+      <li>用 lookup 和代码执行核对各模态的断言</li>
+      <li>给每位分析者的证据打分</li>
+      <li>输出 VCC 记录（见 2.3）</li>
+    </ul>
+  </div>
+</div>
+
+<h3>2.2 流程（按顺序）</h3>
+<div class="flow">
+  <div class="stage purple">
+    <span class="tag">第 1 步</span>
+    <h4>知识诱导</h4>
+    <ul>
+      <li>从问题和文字背景推出 <i>k</i>：任务特征、领域约束、预期模式、显著属性、推荐步骤、常见失败、哪个模态最重要</li>
+    </ul>
+  </div>
+  <div class="arrow">↓</div>
+  <div class="stage blue">
+    <span class="tag">第 2 步</span>
+    <h4>构造多模态输入</h4>
+    <ul>
+      <li><b>视图</b>：时间视图（趋势、转折点、极值）、频谱视图（周期）、统计视图（汇总统计、事件）</li>
+      <li><b>图</b>：时域多面板图 + 频域多面板图</li>
+      <li><b>数值</b>：<code>Lookup(·)</code>，可查区间、邻域、事件、频率信息</li>
+      <li><b>文字</b>：原始背景 <i>c</i></li>
+    </ul>
+  </div>
+  <div class="arrow">↓</div>
+  <div class="stage green">
+    <span class="tag">第 3 步（默认 R=2 轮）</span>
+    <h4>协作辩论</h4>
+    <ul>
+      <li><b>第 1 轮</b>：三位分析者各自独立工作，只看自己的模态和 <i>k</i></li>
+      <li><b>第 2 轮起</b>：可以看到其他分析者上一轮的证据，修正、更正或加强自己的立场</li>
+      <li>允许分歧保留：如果证据确实支持不同意见，就不强行统一</li>
+      <li>证据格式固定为：理解（Understanding）、观察（Observations，可核对、带标签）、推断（Inferences，带标签）、局限（Limits）</li>
+    </ul>
+  </div>
+  <div class="arrow">↓</div>
+  <div class="stage orange">
+    <span class="tag">第 4 步</span>
+    <h4>验证-冲突-校准（VCC）</h4>
+    <ul>
+      <li><b>抽取断言</b>：从最后一轮证据中拆出原子断言</li>
+      <li><b>验证状态</b>：每条断言标为 已验证 / 未验证 / 被推翻（用 lookup、代码、图是否一致、文字来判断）</li>
+      <li><b>领域状态</b>：对照 <i>k</i> 标为 符合 / 违反 / 不适用</li>
+      <li><b>证据打分</b>：推断 0–50、观察 0–30、诚实说明局限 0–20</li>
+      <li><b>冲突类型</b>：无冲突 / 检出且未解决 / 检出且已解决</li>
+    </ul>
+  </div>
+  <div class="arrow">↓</div>
+  <div class="stage red">
+    <span class="tag">第 5 步</span>
+    <h4>校准合成</h4>
+    <ul>
+      <li><b>置信规则</b>：只有关键断言都已验证、符合领域、且无冲突，才给出确定答案；否则保守作答；违反领域约束的断言直接拒绝</li>
+      <li><b>时间范围</b>：问过去或现在，直接对照数据；问未来，判断观察到的成因会不会持续，不做简单外推</li>
+      <li><b>评审评分</b>：每位评审按 0–20 分的若干标准打分（理解任务、用证据、验证纪律、处理冲突、校准）</li>
+      <li><b>兜底</b>：若所有评审都犯方法性错误，合成器重新验证最关键的断言，直接推导答案</li>
+    </ul>
+  </div>
+</div>
+
+<div class="note">
+  <b>关键点：</b>合成器<b>不数票</b>，而是按评审的推理质量和验证结果来决定。这是和普通“多数投票”最大的区别。
+</div>
+
+<h3>2.3 信息如何流动</h3>
+<table>
+  <tr><th>环节</th><th>谁和谁通信</th><th>通过什么</th></tr>
+  <tr><td>辩论轮</td><td>分析者 ↔ 分析者</td><td>上一轮的结构化证据</td></tr>
+  <tr><td>评审</td><td>评审 → 合成器</td><td>VCC 记录（答案、断言标签、冲突状态、分数）</td></tr>
+  <tr><td>最终答案</td><td>合成器 → 输出</td><td>读取所有 VCC 记录后给出 â</td></tr>
+</table>
+
+<h3>2.4 关键参数</h3>
+<table>
+  <tr><th>项目</th><th>设定</th><th>说明</th></tr>
+  <tr><td>骨干模型</td><td>gpt-4.1-mini，temperature 0，固定随机种子</td><td>论文设定</td></tr>
+  <tr><td>辩论轮数 R</td><td>2</td><td>作者认为这是效率拐点</td></tr>
+  <tr><td>评审数 J</td><td>3</td><td>改为 1 位时，token 约减 45%，准确率有中等程度下降</td></tr>
+  <tr><td>停止条件</td><td>固定轮数</td><td>“冲突感知的动态停止”列为未来工作</td></tr>
+</table>
+
+<!-- ============ 2. MM-StanceDet ============ -->
+<h2 id="mm">三、MM-StanceDet：Retrieval-Augmented Multi-modal Multi-agent Stance Detection</h2>
+
+<div class="card">
+  <p><b>论文定位：</b>图文立场检测。给定图像 <i>I</i>、文本 <i>T</i> 和目标 <i>K</i>，判断对目标的立场。重点是图和文字冲突时怎么办。</p>
+  <p><b>输入：</b>(I, T, K)　<b>输出：</b>立场 y ∈ {支持, 中立, 反对}，外加理由。骨干为 gpt-4o-mini。</p>
+</div>
+
+<h3>3.1 流程（四个阶段顺序执行）</h3>
+<div class="flow">
+  <div class="stage purple">
+    <span class="tag">阶段 1</span>
+    <h4>检索增强</h4>
+    <ul>
+      <li><b>资料库 D</b>：由训练集构建，每条包含实例、标准立场、以及 MLLM 预先写好的 CoT 解释（说明图文如何与目标对应）</li>
+      <li><b>嵌入</b>：CLIP 分别编码图像和文本，合并成一个向量</li>
+      <li><b>检索</b>：用近似最近邻找出最相似的 top-k 示例（默认 k=3）</li>
+      <li><b>用途</b>：示例（尤其是 CoT）交给后面的“模态冲突”分析者，作为少样本参考</li>
+    </ul>
+  </div>
+  <div class="arrow">↓</div>
+  <div class="stage blue">
+    <span class="tag">阶段 2</span>
+    <h4>多模态分析（三个专门 agent）</h4>
+    <div class="row3" style="margin-top:6px">
+      <div class="stage blue" style="margin:0">
+        <b>文字分析</b>
+        <ul>
+          <li>只看文字和目标</li>
+          <li>提取关键词、显式与隐式情绪、讽刺线索、与主题的相关性</li>
+        </ul>
+      </div>
+      <div class="stage blue" style="margin:0">
+        <b>图像分析</b>
+        <ul>
+          <li>只看图像和目标</li>
+          <li>描述相关物体和场景，推断人物情绪，解读颜色、构图、与目标有关的符号</li>
+        </ul>
+      </div>
+      <div class="stage orange" style="margin:0">
+        <b>模态冲突分析</b>
+        <ul>
+          <li>同时看图、文、目标和检索示例</li>
+          <li>判断图文是冲突、互相印证还是各说各话</li>
+          <li>可以参考示例中的模式</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="arrow">↓</div>
+  <div class="stage green">
+    <span class="tag">阶段 3（默认 3 轮）</span>
+    <h4>推理增强辩论</h4>
+    <ul>
+      <li><b>三位辩手</b>：各自持支持、反对、中立中的一种立场</li>
+      <li><b>输入</b>：原始输入 + 阶段 2 的三份分析</li>
+      <li><b>任务</b>：为自己的立场构造最强、最连贯的论证，并引用文字、图像和冲突分析</li>
+      <li><b>轮次</b>：第 1 轮各自给出初始论证；之后可以看到其他辩手的论证并加以回应、加强自己的立场</li>
+      <li><b>输出</b>：三份互相竞争的论证</li>
+    </ul>
+  </div>
+  <div class="arrow">↓</div>
+  <div class="stage red">
+    <span class="tag">阶段 4</span>
+    <h4>自我反思与裁决</h4>
+    <ul>
+      <li><b>裁决者</b>：接收三份论证、原始输入和三份分析</li>
+      <li><b>不是挑“最有说服力”的那份</b>，而是逐一检查：前后是否矛盾、是否漏掉了模态冲突、推理是否薄弱</li>
+      <li><b>提示词结构</b>：初步判断 → 批判性自省 → 最终决定 → 理由</li>
+      <li><b>输出</b>：最终立场 ŷ 和理由</li>
+    </ul>
+  </div>
+</div>
+
+<h3>3.2 主要设定与结果</h3>
+<table>
+  <tr><th>项目</th><th>设定</th><th>备注</th></tr>
+  <tr><td>骨干模型</td><td>gpt-4o-mini（所有 agent）</td><td>论文设定</td></tr>
+  <tr><td>嵌入</td><td>CLIP</td><td>图文分别编码后合并</td></tr>
+  <tr><td>检索示例数 k</td><td>3</td><td>超过约 5 后趋于平稳</td></tr>
+  <tr><td>辩论轮数</td><td>3</td><td>3–4 轮后收益变小</td></tr>
+  <tr><td>评价指标</td><td>Macro F1</td><td>&nbsp;</td></tr>
+  <tr><td>单条成本</td><td>约 4.8k token，约 27 秒</td><td>论文给出</td></tr>
+</table>
+
+<div class="card">
+  <b>检索噪声测试：</b>把 top-3 示例中 0–50% 随机替换成无关条目，性能平滑下降，不会突然崩溃。例如在 MTSE（DT）数据集上，Macro F1 从 70.12 降到 68.92（50% 噪声）。这说明检索的作用是“帮助”，而不是“全靠它”。
+</div>
+
+<!-- ============ 3. Compare ============ -->
+<h2 id="compare">四、并排对比</h2>
+
+<table>
+  <tr><th></th><th>TS-Debate</th><th>MM-StanceDet</th></tr>
+  <tr><td>任务</td><td>时间序列问答与推理</td><td>图文立场分类（三类）</td></tr>
+  <tr><td>外部知识从哪来</td><td>推理时由模型生成领域先验 <i>k</i></td><td>训练集检索的示例与 CoT</td></tr>
+  <tr><td>分工依据</td><td>按模态：文字 / 视觉 / 数值</td><td>按模态：文字 / 图像 + 一个专门看“冲突”的</td></tr>
+  <tr><td>辩论性质</td><td>协作：共享证据，允许保留分歧</td><td>对抗：三人各持一个立场互相论证</td></tr>
+  <tr><td>如何做最终决定</td><td>评审打分 + 断言验证标签，合成器按证据质量加权</td><td>裁决者逐份检查论证后决定</td></tr>
+  <tr><td>主要保护机制</td><td>只有验证过的断言才能确定作答；违反领域约束的直接拒绝</td><td>检索示例提供参考；反思环节检查模态冲突</td></tr>
+  <tr><td>轮数控制</td><td>固定 R=2</td><td>固定 3 轮</td></tr>
+</table>
+
+<div class="plain">
+  <b>两者的共同模式：</b>先把“该看什么”定下来（先验 <i>k</i> 或检索示例），再让分模态的 agent 各自出证据，最后由一个专门的仲裁步骤决定。区别在于 TS-Debate 把仲裁做成了<b>可验证的断言检查</b>，MM-StanceDet 则是<b>论证对论证的裁决</b>。
+</div>
+
+<h3>4.1 如果要借鉴到自己的任务</h3>
+<ul>
+  <li><b>TS-Debate 的 VCC</b>：把“证据质量”变成可检查的标签（已验证 / 冲突 / 违反约束），比直接数票更能说明为什么选这个答案。</li>
+  <li><b>MM-StanceDet 的冲突分析</b>：专门设一个 agent 只判断“模态是否冲突”，把它的结论交给裁决者，比让每个专家都自己判断更清楚。</li>
+  <li><b>检索示例</b>：两篇都说明检索是辅助，噪声下会变差但不会崩溃。</li>
+</ul>
+
+<!-- ============ 4. Notes ============ -->
+<h2 id="notes">五、读的时候要注意</h2>
+
+<div class="note">
+  <ul>
+    <li><b>数字请以原文为准。</b>本页的流程和设定是从论文方法章节整理的，我没有逐字核对每一个数字。</li>
+    <li><b>提示词细节不在正文里。</b>TS-Debate 的完整提示词在附录 G，MM-StanceDet 在附录 A.4。想复现时需要读附录。</li>
+    <li><b>MM-StanceDet 的辩论协议写得不够细。</b>正文没有说明每轮具体怎么轮流发言、怎样回应对方，只给了提示词。</li>
+    <li><b>图的文字说明不完整。</b>MM-StanceDet 的图 1 在正文里被引用，但没有对应的文字描述。</li>
+    <li><b>标签名称有出入。</b>MM-StanceDet 的立场标签在不同段落里有“支持 / 反对”和“Favor / Against”两种说法，本页统一为中文“支持、中立、反对”。</li>
+  </ul>
+</div>
+
+<footer>
+  <p><b>来源</b></p>
+  <ul>
+    <li>TS-Debate：<a href="https://arxiv.org/abs/2601.19151">arXiv 2601.19151</a>，<a href="https://arxiv.org/html/2601.19151">HTML 版</a>，<a href="https://github.com/DeepAuto-AI/ts-debate">官方代码</a></li>
+    <li>MM-StanceDet：<a href="https://arxiv.org/abs/2604.27934">arXiv 2604.27934</a>，<a href="https://arxiv.org/html/2604.27934">HTML 版</a>，<a href="https://aclanthology.org/2026.acl-long.1450/">ACL Anthology</a></li>
+  </ul>
+  <p>本页为静态说明，未调用任何模型、未运行任何代码。</p>
+</footer>
+
+</main>
+</body>
+</html>

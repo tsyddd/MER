@@ -1,0 +1,160 @@
+{
+  "gemini": {
+    "n_samples": 62,
+    "n0": {
+      "done": 62,
+      "correct": 25,
+      "routes": {
+        "debate_consensus": 61,
+        "summary": 1
+      },
+      "v4_correct_same_samples": 26,
+      "by_dataset": {
+        "MER2024": {
+          "n": 26,
+          "correct": 11
+        },
+        "MELD": {
+          "n": 36,
+          "correct": 14
+        }
+      }
+    },
+    "n1": {
+      "done": 62,
+      "correct": 24,
+      "routes": {
+        "summary": 9,
+        "debate_consensus": 53
+      },
+      "v4_correct_same_samples": 26,
+      "by_dataset": {
+        "MER2024": {
+          "n": 26,
+          "correct": 11
+        },
+        "MELD": {
+          "n": 36,
+          "correct": 13
+        }
+      }
+    },
+    "n2": {
+      "done": 62,
+      "correct": 25,
+      "routes": {
+        "debate_consensus": 59,
+        "summary": 3
+      },
+      "v4_correct_same_samples": 26,
+      "by_dataset": {
+        "MER2024": {
+          "n": 26,
+          "correct": 10
+        },
+        "MELD": {
+          "n": 36,
+          "correct": 15
+        }
+      }
+    },
+    "n3": {
+      "done": 61,
+      "correct": 26,
+      "routes": {
+        "debate_consensus": 55,
+        "summary": 6
+      },
+      "v4_correct_same_samples": 25,
+      "by_dataset": {
+        "MER2024": {
+          "n": 25,
+          "correct": 11
+        },
+        "MELD": {
+          "n": 36,
+          "correct": 15
+        }
+      }
+    }
+  },
+  "gpt": {
+    "n_samples": 55,
+    "n0": {
+      "done": 55,
+      "correct": 19,
+      "routes": {
+        "debate_consensus": 44,
+        "summary": 11
+      },
+      "v4_correct_same_samples": 19,
+      "by_dataset": {
+        "MER2024": {
+          "n": 23,
+          "correct": 7
+        },
+        "MELD": {
+          "n": 32,
+          "correct": 12
+        }
+      }
+    },
+    "n1": {
+      "done": 55,
+      "correct": 20,
+      "routes": {
+        "debate_consensus": 45,
+        "summary": 10
+      },
+      "v4_correct_same_samples": 19,
+      "by_dataset": {
+        "MER2024": {
+          "n": 23,
+          "correct": 6
+        },
+        "MELD": {
+          "n": 32,
+          "correct": 14
+        }
+      }
+    },
+    "n2": {
+      "done": 55,
+      "correct": 20,
+      "routes": {
+        "debate_consensus": 49,
+        "summary": 6
+      },
+      "v4_correct_same_samples": 19,
+      "by_dataset": {
+        "MER2024": {
+          "n": 23,
+          "correct": 8
+        },
+        "MELD": {
+          "n": 32,
+          "correct": 12
+        }
+      }
+    },
+    "n3": {
+      "done": 55,
+      "correct": 21,
+      "routes": {
+        "debate_consensus": 44,
+        "summary": 11
+      },
+      "v4_correct_same_samples": 19,
+      "by_dataset": {
+        "MER2024": {
+          "n": 23,
+          "correct": 9
+        },
+        "MELD": {
+          "n": 32,
+          "correct": 12
+        }
+      }
+    }
+  }
+}

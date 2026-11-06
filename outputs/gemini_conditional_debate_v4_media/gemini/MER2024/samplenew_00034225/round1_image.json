@@ -1,0 +1,47 @@
+{
+  "output": {
+    "expert": "image",
+    "changed": true,
+    "response_to_others": "核实音轨与画面后认同音频字幕专家的分析，男子语调低柔试探，张嘴动作系伴随台词发音而非惊讶下颌脱落；对图谱专家指出的探询视线予以确认，frame_06至frame_07男子眼神紧张凝视、身躯前探，确实体现出对后续不良后果与连累他人的顾虑。",
+    "reason": "复核8帧画面及真实音轨发现，男子在frame_03及frame_05的口型张开实为说话发音时的正常开合，双眉并未出现惊愕式高挑；其眼神始终小心翼翼锁定对方，面部神情紧绷而收敛。结合后段frame_07神情微滞、小心探问，表明其行为是对对方受阻的关切试探以及对自身是否惹事的顾虑，核心情绪为担忧与不安。",
+    "open_emotion": "担忧",
+    "answer": "worried",
+    "mapping_reason": "开放词‘担忧’强调对可能发生的负面结果、未知麻烦或自身连累他人的顾虑与忐忑，符合情绪轮中worried（对可能负面结果、未知风险或受责的顾虑、焦虑、不安）的定义。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "visual",
+        "anchor": "frame_05至frame_07 (1.48s-2.08s)",
+        "observation": "目标人物头部前倾，视线紧紧探询对方反应，眉眼透出小心与紧绷，口型微敛伴随迟疑神色。",
+        "interpretation": "展现出在观察对方神色时的忐忑与顾虑心态，而非单纯惊异。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "audio",
+        "anchor": "0.0s-2.0s",
+        "observation": "音轨中语调偏轻细柔和，带有轻声探寻的气息，无突发的高音上扬或震惊呼喊。",
+        "interpretation": "印证了其内心的小心求证与担忧，排除了即时意外的surprise。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "subtitle",
+        "anchor": "怎么 她不好对付啊 / 我 我是不是给你惹麻烦了",
+        "observation": "台词由询问对方难处直接转入对自身是否惹出麻烦的假设性顾虑。",
+        "interpretation": "评价焦点明确在于对未知负面后果的担忧与责任顾忌。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "面部没有剧烈的皱眉或恐慌神色，整体表达较为内敛克制，易被表层推断为平静交流的中性，但其身体微前倾的试探神态与台词风险预期否定了纯中性。"
+  },
+  "usage": {
+    "completion_tokens": 1471,
+    "total_tokens": 13676,
+    "prompt_tokens": 12205,
+    "completion_tokens_details": {
+      "reasoning_tokens": 790
+    }
+  },
+  "seconds": 18.59478735923767
+}

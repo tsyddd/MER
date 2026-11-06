@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PPCT · 代码与证据流程</title>
+<style>
+:root{--ink:#172c38;--muted:#607583;--paper:#f4f6f3;--line:#dce4de;--green:#137a68;--blue:#526cc4;--amber:#b47c20}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.65 "Segoe UI","Microsoft YaHei",sans-serif}main{max-width:1440px;margin:auto;padding:42px 40px}header{display:flex;justify-content:space-between;gap:30px;align-items:center}.eyebrow{font-size:12px;color:var(--green);font-weight:700;letter-spacing:2px}h1{font-size:34px;line-height:1.25;margin:10px 0}header p{margin:0;color:var(--muted)}.stamp{font:12px/1.8 Consolas,monospace;color:var(--muted);text-align:right}.answer{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:28px 0}.answer article{padding:18px 22px;border:1px solid var(--line);border-radius:14px;background:#fff}.answer strong{display:block;margin-bottom:4px}.answer p{margin:0;color:var(--muted);font-size:14px}.answer article:last-child{border-color:#a7cfc1;background:#eef7f1}.tag{font:11px Consolas,monospace;color:var(--green);float:right;padding-top:4px}.controls{display:flex;justify-content:space-between;gap:16px;align-items:center;margin:26px 0 18px}.tabs{display:flex;gap:6px;flex-wrap:wrap}button,select{font:inherit}button{cursor:pointer}.tab{border:1px solid transparent;background:transparent;border-radius:9px;padding:9px 17px;color:var(--muted)}.tab[aria-pressed=true]{background:var(--ink);color:#fff}.tab:hover{border-color:#b4c7bd}select{padding:8px 12px;border:1px solid var(--line);border-radius:8px;background:white;color:var(--ink)}.workspace{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:18px}.canvas,.detail{border:1px solid var(--line);border-radius:16px;background:#fff;overflow:hidden}.canvas-head{padding:20px 24px 12px;display:flex;justify-content:space-between;gap:15px;align-items:center}.canvas-head h2{margin:0;font-size:20px}.badge{white-space:nowrap;background:#edf3f0;color:var(--green);padding:5px 10px;border-radius:6px;font-size:12px}.description{padding:0 24px;color:var(--muted);font-size:13px;min-height:44px}.diagram-wrap{overflow-x:auto;background:radial-gradient(#dfe8e2 .8px,transparent .8px);background-size:18px 18px}svg{width:100%;min-width:720px;display:block}svg text{font-family:"Segoe UI","Microsoft YaHei",sans-serif}.edge{fill:none;stroke:#a4b6b0;stroke-width:2;marker-end:url(#arrow)}.edge.media{stroke:var(--blue);stroke-dasharray:6 5;marker-end:url(#arrowBlue)}.node{cursor:pointer;outline:none}.node rect{fill:white;stroke:#ccdad2;stroke-width:1.5;transition:fill .15s,stroke .15s}.node:hover rect,.node:focus rect{stroke:var(--green);stroke-width:2.5}.node.selected rect{fill:#eff8f2;stroke:var(--green);stroke-width:2.5}.node.frozen rect{fill:#eef5ff;stroke:#b4c4ef}.node.inference rect{fill:#fff8e9;stroke:#e1c48d}.node text{pointer-events:none}.node-title{font-size:16px;font-weight:650;fill:var(--ink)}.node-sub{font-size:12px;fill:var(--muted)}.edge-label{font-size:12px;fill:var(--muted)}.legend{padding:12px 24px;display:flex;gap:18px;flex-wrap:wrap;font-size:12px;color:var(--muted);border-top:1px solid #edf1ed}.legend i{display:inline-block;width:22px;border-top:2px solid #a4b6b0;vertical-align:middle;margin-right:6px}.legend i.media{border-color:var(--blue);border-top-style:dashed}.detail{padding:24px;align-self:stretch}.detail .eyebrow{font-size:10px}h3{font-size:22px;line-height:1.4;margin:12px 0 18px}.detail dl{margin:0}.detail dt{font-size:12px;color:var(--muted);margin-top:16px}.detail dd{margin:4px 0 0;font-size:14px;overflow-wrap:anywhere}.detail a{color:var(--green)}code{font:12px/1.7 Consolas,monospace;overflow-wrap:anywhere}.note{margin-top:22px;padding:12px 14px;border-left:3px solid var(--amber);background:#fff8e9;font-size:13px}.bottom{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:20px}.panel{border:1px solid var(--line);border-radius:14px;background:white;padding:20px 24px}.panel h2{font-size:16px;margin:0 0 10px}.panel p{font-size:13px;color:var(--muted);margin:6px 0}.steps{display:flex;flex-wrap:wrap;gap:6px;font-size:13px}.steps span{padding:6px 9px;background:#f1f5f1;border-radius:6px}.steps b{color:#8a9c91;align-self:center}footer{color:var(--muted);font-size:12px;margin-top:22px}button:focus-visible,select:focus-visible{outline:3px solid #83bca5;outline-offset:3px}@media(max-width:1080px){.workspace{grid-template-columns:1fr}.detail dl{display:grid;grid-template-columns:85px 1fr;gap:8px}.detail dt,.detail dd{margin:0}.detail h3{margin:8px 0}.detail .note{margin-top:12px}}@media(max-width:650px){main{padding:24px 16px}header{display:block}.stamp{text-align:left;margin-top:12px}h1{font-size:28px}.answer,.bottom{grid-template-columns:1fr}.controls{align-items:flex-start;flex-direction:column}.tab{padding:8px 11px}.canvas-head{align-items:flex-start;flex-direction:column}}@media print{main{padding:0}.controls{display:none}.workspace{grid-template-columns:1fr}.diagram-wrap{overflow:visible}svg{min-width:0}.panel,.canvas,.detail{break-inside:avoid}body{background:white}}
+.pa{margin-top:34px;border:1px solid #a7cfc1;border-radius:18px;background:#fff;padding:30px 34px}.pa h2{font-size:24px;margin:6px 0 8px}.pa h3{font-size:17px;margin:34px 0 10px;line-height:1.4}.pa p{margin:6px 0;color:var(--muted);font-size:14px}.pa .lead{font-size:15px;color:var(--ink)}.pa-status{display:inline-block;background:#fff8e9;border:1px solid #e1c48d;color:#8a5d10;border-radius:6px;padding:3px 10px;font-size:12px;margin-left:8px;vertical-align:middle}.pa-flow{display:flex;flex-wrap:wrap;gap:8px;align-items:stretch;margin:14px 0}.pa-flow>div{flex:1 1 130px;border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:#f7f9f7;font-size:13px}.pa-flow>div small{display:block;color:var(--muted);margin-top:2px}.pa-flow>b{align-self:center;color:#8a9c91}.pa-flow .keep{background:#eef5ff;border-color:#b4c4ef}.pa-flow .chg{background:#fff1ee;border:2px solid #d9674f}.pa-flow .chg small{color:#a2412d}.pa-flow .rerun{background:#fff8e9;border-color:#e1c48d}.pa-cols{display:grid;grid-template-columns:1fr 1fr;gap:16px}.pa-box{border:1px solid var(--line);border-radius:12px;padding:16px 18px;font-size:13.5px;line-height:1.8}.pa-box h4{margin:0 0 8px;font-size:13px;letter-spacing:1px;color:var(--muted)}.pa-box.old{background:#fffaf8;border-color:#efc9bf}.pa-box.new{background:#f2faf5;border-color:#a7cfc1}.pa-box del{background:#fde3dc;color:#a2412d;text-decoration:line-through}.pa-box ins{background:#d6efe0;color:#0d5a4a;text-decoration:none;font-weight:600}.pa mark{background:#ffe7a8;padding:0 2px;border-radius:3px}.pa-case{border:1px solid var(--line);border-radius:12px;margin:14px 0;overflow:hidden}.pa-case>header{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;padding:12px 18px;background:#f4f6f3;font-size:13px}.pa-case>header b{font-size:14px}.pa-pill{border-radius:20px;padding:2px 10px;font-size:12px;border:1px solid var(--line);background:#fff}.pa-pill.ok{border-color:#a7cfc1;color:var(--green)}.pa-pill.bad{border-color:#efc9bf;color:#a2412d}.pa-case .body{display:grid;grid-template-columns:1fr 1fr 1fr;gap:0}.pa-case .body>div{padding:14px 18px;font-size:13px;line-height:1.8;border-right:1px solid #edf1ed}.pa-case .body>div:last-child{border-right:0}.pa-case h5{margin:0 0 6px;font-size:12px;color:var(--muted);letter-spacing:1px}.pa-case .verdict{padding:10px 18px;border-top:1px solid #edf1ed;background:#fbfcfb;font-size:13px;color:var(--ink)}.pa-bars{display:grid;gap:10px;margin:12px 0}.pa-bar{display:grid;grid-template-columns:190px 1fr 70px;gap:12px;align-items:center;font-size:13px}.pa-bar>span:first-child{color:var(--muted)}.pa-bar i{display:block;height:16px;border-radius:4px;background:var(--green)}.pa-bar i.r{background:#d9674f}.pa-bar i.g{background:#b5c3bb}.pa-bar em{font-style:normal;font-family:Consolas,monospace;font-size:12px}.pa ul{margin:6px 0;padding-left:20px;font-size:14px;color:var(--ink)}.pa li{margin:4px 0}.pa-warn{margin-top:16px;padding:12px 16px;border-left:3px solid var(--amber);background:#fff8e9;font-size:13px;color:var(--ink)}@media(max-width:900px){.pa{padding:22px 18px}.pa-cols,.pa-case .body{grid-template-columns:1fr}.pa-case .body>div{border-right:0;border-bottom:1px solid #edf1ed}.pa-bar{grid-template-columns:1fr 60px}.pa-bar>span:first-child{grid-column:1/-1}}
+</style>
+</head>
+<body><main>
+<header><div><div class="eyebrow">PPCT / RESEARCH MAP</div><h1>从原始媒体到情绪判断</h1><p>切换方法与模型，点击流程节点查看输入、输出和源码位置。</p></div><div class="stamp">CODE SNAPSHOT · 2026.11.02<br>本地离线文档 / 不调用模型</div></header>
+<section class="answer" aria-label="图谱是否固定">
+<article><span class="tag">ORIGINAL PPCT</span><strong>原始 PPCT：各模型各自生成，可缓存复用</strong><p>首次处理时，当前模型为当前样本生成节点与关系。已有成功结果会跳过；进入阶段后按签名复用缓存。</p></article>
+<article><span class="tag">V1 / V2 / V3</span><strong>专家版本：共用冻结的 Gemini 图谱</strong><p>80 个样本各有一张固定图谱，并非所有样本共用一张。运行时校验 SHA256；组织文本与专家判断仍由所选模型生成。</p></article>
+</section>
+<div class="controls"><nav class="tabs" aria-label="实验方法"><button class="tab" data-mode="direct" aria-pressed="false">Direct</button><button class="tab" data-mode="ppct" aria-pressed="true">原始 PPCT</button><button class="tab" data-mode="v1" aria-pressed="false">v1 · 隔离输入</button><button class="tab" data-mode="v2" aria-pressed="false">v2 · 共享媒体</button><button class="tab" data-mode="v3" aria-pressed="false">v3 · 情绪轮</button></nav><label>模型 <select id="provider"><option value="gpt">GPT</option><option value="gemini">Gemini</option><option value="omni">Omni Instruct</option></select></label></div>
+<section class="workspace"><div class="canvas"><div class="canvas-head"><h2 id="diagram-title"></h2><span class="badge" id="calls"></span></div><div id="description" class="description"></div><div class="diagram-wrap"><svg id="diagram" viewBox="0 0 1000 620" role="group" aria-label="方法数据流图"></svg></div><div class="legend"><span><i></i>主要数据依赖</span><span><i class="media"></i>原媒体送入</span><span>蓝色节点：冻结图谱　黄色节点：组织解释 / 情绪轮</span></div></div><aside class="detail" aria-live="polite"><div class="eyebrow">NODE INSPECTOR</div><h3 id="detail-title"></h3><dl id="detail-fields"></dl><div class="note" id="detail-note"></div></aside></section>
+<section class="bottom"><article class="panel"><h2>运行与保存</h2><div class="steps"><span>调度 / controller</span><b>→</b><span>样本 worker</span><b>→</b><span>阶段缓存与校验</span><b>→</b><span>审计 / metrics</span></div><p id="entry"></p><p id="output"></p><p>真实标签在推理完成后用于记录与评估，不进入被测模型请求。流程图表示输入依赖；三个专家在单样本内依次执行，彼此不读取结论。</p></article><article class="panel"><h2 id="version-note-title">阅读提示</h2><p id="version-note"></p><p>固定图谱 ≠ 固定所有推理结果。成功结果跳过也 ≠ 重新核验所有输入；修改实验后应使用独立输出版本，避免沿用旧成功结果。</p><p>此页展示代码结构，不代表服务器当前运行状态。每条数据正常调用次数不含重试、部署探测与固定图谱的前置生成。</p></article></section>
+<section class="pa" id="plan-a" aria-label="方案A说明">
+<div class="eyebrow">PROPOSAL A · 拟定方案</div>
+<h2>方案 A：删掉组织文本最后那句“心理状态推断”<span class="pa-status">尚未实现 · 尚未运行 · 无成绩</span></h2>
+<p class="lead">一句话：组织文本现在被要求<b>先把事实写完，再替人物下一个心理结论</b>；最终分类很容易直接照抄这个结论。方案 A 只做一件事——让组织文本写完事实就停，不再替模型下结论。</p>
+
+<h3>① 改的是流程里的哪一步</h3>
+<p>下面是“原始 PPCT”的一条链。蓝色是保留不动的感知结果，红框是唯一要改的提示词，黄色是因此必须重跑的步骤。</p>
+<div class="pa-flow">
+<div class="keep">感知节点<small>保留（已有缓存）</small></div><b>→</b>
+<div class="keep">时序边 / 联合边<small>保留（已有缓存）</small></div><b>→</b>
+<div class="keep">程序组图 graph.json<small>保留（已有缓存）</small></div><b>→</b>
+<div class="chg">组织文本<small>★ 改这里：删掉末尾的心理状态推断</small></div><b>→</b>
+<div class="rerun">最终分类<small>提示词不改，但输入变了，需重跑</small></div>
+</div>
+<p>所以每个样本只多 <b>2 次模型调用</b>（组织文本 + 最终分类），不重新感知。必须作为独立新版本保存，不覆盖旧结果。</p>
+
+<h3>② 提示词到底改哪几个字</h3>
+<p>出处：<code>reference/ppct_api/prompts.py</code> 的 <code>ORGANIZATION_PROMPT</code>，由 <code>engine.py</code> 第 339 行读取。</p>
+<div class="pa-cols">
+<div class="pa-box old"><h4>现在（原文）</h4>
+……先描述实际画面与字幕事实，保留冲突；字幕提及的过去、未来、假设和转述写成人物当前说出的话……<br>
+<del>在段落末尾补充简短的心理状态分析：从前述具体行为、人物表现、情境及其关系出发，说明其当下的注意指向、对互动的理解或应对状态。心理状态属于有依据的推断，使用“这些表现可能反映……”等措辞，与可观察事实区分；材料不足时简述当前无法明确心理状态。</del><br>
+不要刻意围绕六分类情绪标签组织文字，不先确定情绪再反向挑选证据……<br>
+只返回合法 JSON：{"text":"一段连贯中文：事实与关系描述，<del>最后简短分析心理状态</del>"}</div>
+<div class="pa-box new"><h4>改后（拟定措辞，可调整）</h4>
+……先描述实际画面与字幕事实，保留冲突；字幕提及的过去、未来、假设和转述写成人物当前说出的话……<br>
+<ins>组织文本只陈述图谱支持的事实与节点之间的关系，到事实为止。不要写人物的情绪、心理状态、态度或意图，也不要写“这些表现可能反映……”一类的推断；最后一句仍然是事实或关系。</ins><br>
+不要刻意围绕六分类情绪标签组织文字，不先确定情绪再反向挑选证据……<br>
+只返回合法 JSON：{"text":"一段连贯中文：<ins>仅事实与关系描述</ins>"}</div>
+</div>
+<p>顺带一提：<code>engine.py</code> 在这个提示词后面还追加了一句“只组织输入事实，不引入未在节点中的观察，不给最终分类标签”，和上面那段“写心理状态”本来就互相矛盾。方案 A 等于让两句话一致。</p>
+
+<h3>③ 为什么要改：三个真实 Gemini 案例</h3>
+<p>三条都是 <b>Direct 本来答对、加了 PPCT 反而答错</b>。黄色高亮是组织文本结尾的词，被最终理由几乎原样用了。</p>
+
+<div class="pa-case"><header><b>MELD / dia109_utt5</b><span class="pa-pill">真实：anger</span><span class="pa-pill ok">Direct：anger ✓</span><span class="pa-pill bad">PPCT：joy ✗</span></header>
+<div class="body">
+<div><h5>组织文本最后一个事实句（保留）</h5>比划之后，Janice 将双臂重新抱在胸前〔process_3 after process_1〕，并恢复保持双臂交叉抱胸的姿态继续看着对方〔person_3〕。</div>
+<div><h5>组织文本的最后一句（方案 A 删除）</h5>这些表现可能反映出 Janice 当下沉浸在带有<mark>戏谑</mark>或讽刺意味的表达中，通过夸张的比划与语调主动向对方<mark>调侃</mark>或揶揄，互动状态自如……</div>
+<div><h5>最终理由里出现的词</h5>……<mark>调侃</mark>地对 Chandler 说出……她的神态充满<mark>戏谑</mark>与<mark>调侃</mark>的玩味笑意……愉快轻松（joy）。</div>
+</div>
+<div class="verdict"><b>方案 A 的预期：</b>最关键的一句被去掉，这一条有机会恢复。事实部分仍然写了“高亢、抑扬顿挫的语调”，最终判断要靠自己区分是愤怒还是调侃。</div></div>
+
+<div class="pa-case"><header><b>MER2024 / samplenew_00021868</b><span class="pa-pill">真实：neutral</span><span class="pa-pill ok">Direct：neutral ✓</span><span class="pa-pill bad">PPCT：sad ✗</span></header>
+<div class="body">
+<div><h5>组织文本里的事实句（保留）</h5>……语调低沉、语速平缓的特征〔person_2 simultaneous person_1〕，其视觉姿态与低缓语调共同展现出一种<mark>沉郁</mark>的状态〔person_1 person_joint person_2〕。</div>
+<div><h5>组织文本的最后一句（方案 A 删除）</h5>这些表现可能反映出该男子当下的注意指向对往昔人事的追忆与挂念，内心处于一种若有所思且较为<mark>低落、沉抑</mark>的应对状态。</div>
+<div><h5>最终理由里出现的词</h5>……神情落寞……语调低沉、平缓且带有叹息感伤……表现出明显的<mark>沉郁</mark>与悲伤情绪。</div>
+</div>
+<div class="verdict"><b>方案 A 的预期：只能部分解决。</b>“沉郁”这个词其实也藏在事实句里——它来自联合边的 reason，属于感知阶段的产物。删掉最后一句后，这个词仍在，模型还可能判 sad。</div></div>
+
+<div class="pa-case"><header><b>MELD / dia33_utt6</b><span class="pa-pill">真实：sadness</span><span class="pa-pill ok">Direct：sadness ✓</span><span class="pa-pill bad">PPCT：fear ✗</span></header>
+<div class="body">
+<div><h5>组织文本里的事实句（保留）</h5>……说话时她语调偏高、音量较大且语速急促〔person_2〕，同步伴有嘴巴大张且面部紧绷的神情〔person_3 simultaneous person_2〕……</div>
+<div><h5>组织文本的最后一句（方案 A 删除）</h5>……在反复安抚无果的应对过程中陷入了<mark>焦急与无助</mark>的<mark>紧绷状态</mark>。</div>
+<div><h5>最终理由里出现的词</h5>……手足无措……近乎慌乱的语调……充分展现出面对失控局面时<mark>焦急</mark>、恐慌与<mark>无助</mark>的<mark>紧绷状态</mark>（fear）。</div>
+</div>
+<div class="verdict"><b>方案 A 的预期：不确定。</b>事实部分本身就写了“语调偏高、急促、面部紧绷”，这些客观描述本来就偏向恐惧。能否恢复为 sadness，取决于最终分类自己怎么权衡。</div></div>
+
+<h3>④ 数据：为什么说两个模型对这句话的反应不同</h3>
+<p>“弃权”指组织文本的最后一句没有给出心理结论，而是写了提示词允许的退路：“材料不足，无法进一步明确心理状态”。例如 GPT 会写：<i>这些表现可能反映 Rachel 正将注意力放在交流对象及手中的衣物上……但仅凭现有材料，无法进一步明确她的心理状态。</i>——这句话不含任何情绪判断，所以最终分类没有现成结论可抄，只能回到事实和原媒体。</p>
+<div class="pa-bars">
+<div class="pa-bar"><span>GPT：结尾写“无法明确心理状态”</span><span><i style="width:94%"></i></span><em>75 / 80</em></div>
+<div class="pa-bar"><span>Gemini：结尾写“无法明确心理状态”</span><span><i class="r" style="width:1%"></i></span><em>0 / 80</em></div>
+<div class="pa-bar"><span>GPT：结尾出现情绪/心理状态词</span><span><i style="width:1%"></i></span><em>0 / 80</em></div>
+<div class="pa-bar"><span>Gemini：结尾出现情绪/心理状态词</span><span><i class="r" style="width:90%"></i></span><em>≥72 / 80</em></div>
+</div>
+<p>统计口径：取组织文本里“这些表现可能反映……”起的最后一句；“弃权”用关键短语匹配（如“无法进一步明确”“仅凭现有材料无法”），情绪词用一份人工词表匹配（紧张、戏谑、沉郁、无助等），所以“≥72”是下限。GPT 另外 5 条没写弃权句，但也只写了“注意力集中在……”，没有情绪词。逐条数据见下方表格。</p>
+<div class="pa-cols">
+<div class="pa-box old"><h4>GPT · 结尾“弃权”长这样（随机取 4 条，共 75 条）</h4>
+<b>dia40_utt0</b>｜真实 joy → PPCT joy ✓<br>……参与互动；但仅凭现有材料，<mark>无法进一步明确其心理状态</mark>。<br>
+<b>dia150_utt4</b>｜真实 sadness → PPCT sadness ✓<br>……注意力集中在面前的男子及这次告别互动上，但仅凭现有材料<mark>无法进一步明确其心理状态</mark>。<br>
+<b>dia200_utt2</b>｜真实 anger → PPCT surprise ✗<br>……追问对方、寻求解释；但仅凭现有材料，<mark>无法进一步明确其心理状态</mark>。<br>
+<b>samplenew_00036745</b>｜真实 neutral → PPCT neutral ✓<br>……与观众或交流对象的互动；但其具体心理状态<mark>无法仅凭材料进一步明确</mark>。<br>
+<small>特点：只写“注意力指向哪里、在做什么”，没有任何情绪词。弃权的 75 条里 PPCT 对 57 条（76%）。</small></div>
+<div class="pa-box old"><h4>GPT · 另外 5 条没有写弃权句，但同样不下情绪结论</h4>
+<b>dia186_utt3</b>｜真实 sadness → PPCT sadness ✓<br>这些表现可能反映 Joey 当前注意力集中于电话互动，并在向通话对象说明取消今晚安排。<br>
+<b>samplenew_00021837</b>｜真实 neutral → PPCT neutral ✓<br>……注意力集中在所讲述的这户人家及其代际务农特征上，并……持续进行有条理的口头回应。<br>
+<b>dia168_utt13</b>｜真实 anger → PPCT anger ✓<br>……但字幕中的指认和要求属于 Ross 当下说出的内容，<mark>不能仅据此确认</mark>对方确实拿过某物。<br>
+<small>这 5 条 PPCT 全对。所以 GPT 的 80 条组织文本<b>没有一条</b>写出情绪判断。</small></div>
+</div>
+<div class="pa-box new" style="margin-top:16px"><h4>Gemini · 结尾“下结论”长这样（随机取 5 条，共 80 条，0 条弃权）</h4>
+<b>samplenew_00025713</b>｜真实 surprise → PPCT surprise ✓<br>……处于<mark>紧张、困惑</mark>或短暂停顿的心理应对状态。<br>
+<b>samplenew_00021837</b>｜真实 neutral → PPCT neutral ✓<br>……<mark>严谨专注、从容庄重</mark>的应对状态……<br>
+<b>dia239_utt2</b>｜真实 surprise → PPCT surprise ✓<br>……处于略显<mark>局促、紧张</mark>或试图化解尴尬的应对状态。<br>
+<b>dia33_utt6</b>｜真实 sadness → PPCT fear ✗<br>……陷入了<mark>焦急与无助</mark>的紧绷状态。<br>
+<b>dia115_utt3</b>｜真实 disgust → PPCT neutral ✗<br>……以平稳而带有嘲讽调侃的姿态直接评价对方，处于一种<mark>从容、笃定</mark>的应对状态。<br>
+<small>特点：每条都给出情绪或状态词。Gemini 整体 PPCT 对 54/80（67.5%）。这些结论对的时候帮忙，错的时候被最终分类照抄。</small></div>
+<p>注意：GPT 弃权多<b>不是问题</b>，而是它的组织文本天然接近方案 A 想要的样子；Gemini 才是需要改的一方。下结论本身不算错，问题是结论一旦偏了，最终分类就照着走。再看加了 PPCT 以后，预测为 neutral 的条数（真实 neutral 只有 13 条）：</p>
+<div class="pa-bars">
+<div class="pa-bar"><span>真实标签中 neutral</span><span><i class="g" style="width:43%"></i></span><em>13</em></div>
+<div class="pa-bar"><span>Gemini Direct 预测</span><span><i class="g" style="width:63%"></i></span><em>19</em></div>
+<div class="pa-bar"><span>Gemini PPCT 预测</span><span><i class="r" style="width:100%"></i></span><em>30</em></div>
+<div class="pa-bar"><span>GPT Direct 预测</span><span><i class="g" style="width:33%"></i></span><em>10</em></div>
+<div class="pa-bar"><span>GPT PPCT 预测</span><span><i style="width:50%"></i></span><em>15</em></div>
+</div>
+<p>Gemini 退化的 9 条里，我逐条读了组织文本结尾，判断其倾向与最终错误答案基本同向的有 9 条（人工判断，其中个别条目较含糊）；其中 5 条的节点本身也偏“平缓、平稳”。所以方案 A 去掉的是<b>两个偏置来源中的一个</b>。</p>
+
+<h3>⑤ 方案 A 能做什么、不能做什么</h3>
+<ul>
+<li><b>能：</b>去掉“组织文本抢先替最终分类下结论”这个来源；成本低（2 次调用/样本），不动感知。</li>
+<li><b>不能：</b>节点里的“语调平缓”“沉郁”这类词仍在（来自感知阶段）；原媒体与图谱谁更可信，仍由最终分类自己权衡。</li>
+<li><b>对 GPT：</b>预计变化小（它本来就有 75/80 条不下情绪结论）。这同时是一个检验——若 GPT 基本不变而 Gemini 回升，说明这个解释成立。</li>
+<li><b>怎么看效果：</b>先看 Direct 对、PPCT 错的那些 Gemini 样本有多少被恢复，同时看 GPT 的“修正”有没有被带丢。</li>
+</ul>
+<div class="pa-warn">证据范围：以上分析来自本机保存的逐样本结果，只涉及<b>原始 PPCT</b>（该流程里没有字幕/图像专家，专家只在 v1/v2/v3）。Gemini 的 3 修正对 9 带错在统计上不显著（精确检验 p≈0.15），GPT 的 12 对 2 显著（p≈0.013）。这 80 条已是开发集，在其上调出的提升不能当作泛化证据；若要调方法，应使用 train 清单的 320 条（需先在服务器补跑感知）。案例中的 Direct 描述是否真实（如“皱眉”）本机无视频，未核实。</div>
+</section>
+<footer>依据：engine.py · frozen_graph_experts.py · shared_media_experts_v2.py · versions/v3/pipeline.py。页面无外部依赖，可直接双击打开。窄屏可横向滚动流程图；点击节点或使用 Tab / Enter 查看详情。</footer>
+</main>
+<script>
+'use strict';
+const $=id=>document.getElementById(id);
+const names={gpt:'GPT',gemini:'Gemini',omni:'Omni Instruct'};
+const versions={direct:{title:'Direct · 单阶段分类',entry:'engine.py --mode direct',file:'engine.py',out:'outputs/direct/',calls:'1 次模型调用',note:'原始媒体直接进入最终分类，没有图谱或组织文本。'},ppct:{title:'原始 PPCT · 先组织证据，再分类',entry:'engine.py --mode ppct',file:'engine.py',out:'outputs/ppct/',calls:'5 次模型调用 + 程序组图',note:'所有模型阶段使用当前 provider。Final 仍能看到原媒体，同时读取完整图谱与组织文本。图谱由当前 provider 生成，不借用 Gemini 图谱。'},v1:{title:'v1 · 固定图谱，三路输入隔离',entry:'frozen_graph_experts.py',file:'frozen_graph_experts.py',out:'outputs/gemini_graph_three_experts_v1/',calls:'5 次模型调用 / 复用固定图谱',note:'图谱专家只读图谱与组织文本；音频字幕专家只读对应模态；图像专家只读8帧。Summary 只读三路专家输出。'},v2:{title:'v2 · 共享媒体，保留角色分工',entry:'shared_media_experts_v2.py',file:'shared_media_experts_v2.py',out:'outputs/gemini_graph_shared_media_v2/',calls:'5 次模型调用 / 复用固定图谱',note:'三路专家都读取全部可用媒体，仅图谱专家额外读取图谱及组织文本。Summary 接原媒体和专家输出，不直接接原图谱或组织文本。'},v3:{title:'v3 · 共享媒体 + 情绪轮映射',entry:'versions/v3/pipeline.py',file:'versions/v3/pipeline.py',out:'outputs/gemini_graph_emotion_wheel_v3/',calls:'5 次模型调用 / 复用固定图谱',note:'沿用 v2 路由，专家和 Summary 的提示词嵌入数据集情绪轮。专家输出一个开放情绪及映射标签；Summary 只输出一个最终任务标签。组织阶段不注入情绪轮。'}};
+let mode='ppct',provider='gpt',nodes=[];
+const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function node(id,x,y,title,sub,input,output,file,fn,note='',kind=''){const n={id,x,y,w:208,h:76,title,sub,input,output,file,fn,note,kind};nodes.push(n);return n;}
+function detail(id){const n=nodes.find(n=>n.id===id);if(!n)return;document.querySelectorAll('.node').forEach(el=>el.classList.toggle('selected',el.dataset.id===id));$('detail-title').textContent=n.title;$('detail-fields').innerHTML=`<dt>执行者</dt><dd>${escape(n.sub)}</dd><dt>输入</dt><dd>${escape(n.input)}</dd><dt>输出</dt><dd>${escape(n.output)}</dd><dt>源码</dt><dd><a href="../${escape(n.file)}"><code>${escape(n.file)}</code></a><br><code>${escape(n.fn)}</code></dd>`;$('detail-note').textContent=n.note||'同一 provider 内执行；真实标签不进入该阶段。';}
+function render(){nodes=[];const v=versions[mode],model=names[provider],media=provider==='gpt'?'8帧图片 + 字幕':'8帧图片 + 字幕 + 音轨',expert=mode.startsWith('v'),shared=mode==='v2'||mode==='v3';let edges=[];
+ const addEdge=(a,b,label='',mediaEdge=false,route='down')=>edges.push({a,b,label,mediaEdge,route});
+ $('diagram-title').textContent=v.title;$('calls').textContent=v.calls;$('description').textContent=`当前模型：${model} · 直接可用输入：${media}。${expert?'固定图谱还可包含 Gemini 提取的音频派生线索。':'各阶段按实际音频能力传入媒体。'}`;$('entry').textContent='入口：'+v.entry;$('output').textContent='结果：'+v.out+provider+'/<dataset>/<sample>/result.json';$('version-note').textContent=v.note;
+ document.querySelectorAll('.tab').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mode===mode)));
+ if(mode==='direct'){
+ node('input',90,235,'原始输入','数据准备',media,media,'engine.py','prepare_frames()','模型输入不包含真实标签。');node('final',395,235,'最终分类',model,media,'reason + answer','engine.py','final_prompt() → stage()','Direct 正常只有一次模型调用。');node('result',700,235,'保存与评估','程序', '预测与真实标签分离记录','result.json / metrics','engine.py','sample() / main()','先预测，后记录标签并评估。');addEdge('input','final','',true,'right');addEdge('final','result','','', 'right');
+ }else if(mode==='ppct'){
+ node('input',30,30,'原始输入','数据准备',media,media,'engine.py','prepare_frames()','蓝色虚线表示原媒体送入；Organization 不接原媒体。');
+ node('perception',365,30,'① 感知节点',model,media,'Process / Person / Context 节点','engine.py','sample(): perception','只提取当前片段的事实，不预先判断情绪。');
+ node('temporal',365,155,'② 时间关系',model,'节点 + '+media,'同层节点的 after / simultaneous 边','engine.py','sample(): temporal','关系端点与时间索引由程序校验。');
+ node('joint',700,155,'③ 联合关系',model,'节点、候选配对 + '+media,'同层互补线索的 joint 边','engine.py','sample(): joint','实际顺序为 Temporal 后 Joint；Joint 不读取 Temporal 输出。');
+ node('graph',700,310,'程序组图','本地程序','节点 + 时间边 + 联合边','graph.json','reference/ppct_api/graph.py','build_graph()','由当前模型的节点和关系组图；这一步不调用模型。');
+ node('org',365,310,'④ 组织文本',model,'图谱 + 样本上下文 / 字幕','事实与关系描述 + 心理状态推断','engine.py','sample(): organization','不接图片或音轨。心理解释属于推断，不等于新增观察事实。','inference');
+ node('final',365,490,'⑤ 最终分类',model,'原媒体 + 完整图谱 + 组织文本','reason + 单个 answer','engine.py','sample(): final','正常5次模型调用。最终仍能回看原媒体，但同时被要求结合节点与关系。');
+ node('result',700,490,'保存与评估','本地程序','预测结果；评估时加入真实标签','result.json / metrics','engine.py','sample() / main()','成功结果可直接跳过；进入阶段后才进行缓存签名检查。');
+ addEdge('input','perception','',true,'right');addEdge('perception','temporal');addEdge('perception','joint','节点 / 候选对',false,'rightDown');addEdge('input','temporal','',true,'left');addEdge('input','joint','',true,'top');addEdge('input','final','',true,'left');addEdge('temporal','graph','时间边',false,'downRight');addEdge('joint','graph','联合边');addEdge('perception','graph','节点',false,'outerRight');addEdge('graph','org','',false,'leftward');addEdge('org','final','组织文本');addEdge('graph','final','完整图谱',false,'downLeft');addEdge('final','result','',false,'right');
+ }else{
+ const file=v.file;
+ node('frozen',40,35,'固定 Gemini 图谱','只读文件 / SHA256 校验','原 Gemini PPCT 生成的80张样本图谱','当前样本固定 graph.json','frozen_graph_experts.py','initialize() / sample()','初始化从 outputs/ppct/gemini 复制。每个样本一张图；已有固定图谱不允许被不同内容覆盖。','frozen');
+ node('org',365,35,'① 组织文本',model,'当前样本的固定图谱 + 目标信息','当前 provider 的组织文本',file,'sample(): organization','图谱固定，组织文本由所选模型生成或缓存复用；不直接读取原媒体。','inference');
+ node('media',700,35,'原始媒体','数据准备',media,shared?'共享给三个专家和 Summary':'按图像 / 音频字幕拆分','engine.py','prepare_frames()','GPT 无直接音轨，但固定 Gemini 图谱可能含音频派生事实。');
+ const expertOut=mode==='v3'?'理由 / 证据 + 开放情绪 + 映射标签':'理由 / 证据与分类';
+ node('eg',40,235,'② 图谱专家',model,'固定图谱 + 组织文本'+(shared?' + '+media:''),expertOut,file,'requests_for(): graph','只有此专家直接读取完整图谱与组织文本。');
+ node('ea',365,235,'③ 音频字幕角色',model,shared?media:(provider==='gpt'?'字幕':'音频 + 字幕'),expertOut,file,'requests_for(): audio_subtitle',shared?'名称表示角色分工；实际也接图片。':'此路不接图片、图谱或组织文本。');
+ node('ei',700,235,'④ 图像角色',model,shared?media:'8帧图片',expertOut,file,'requests_for(): image',shared?'名称表示角色分工；实际接所有可用媒体。':'此路只接图像与帧时间等元信息，不接字幕或音频。');
+ node('summary',365,425,'⑤ Summary 汇总',model,'三路专家输出'+(shared?' + '+media:''),'reason + 单个最终标签',file,'sample(): summary','不直接接完整图谱或组织文本；专家输出可能转述图谱证据。三个专家是同一模型的角色，不是跨模型投票。');
+ node('result',700,425,'独立版本结果','本地程序','最终预测 / 推理理由','result.json / audit / metrics',file,'sample() / audit() / report()','各版本使用独立输出目录，保留旧结果。');
+ addEdge('frozen','org','',false,'right');addEdge('frozen','eg','图谱');addEdge('org','eg','组织文本',false,'downLeft');addEdge('media','ea',shared?'全部媒体':'音频 / 字幕',true,'downLeft');addEdge('media','ei',shared?'全部媒体':'8帧',true);if(shared){addEdge('media','eg','全部媒体',true,'across');addEdge('media','summary','原媒体',true,'outerRight');}addEdge('eg','summary','专家输出',false,'downRight');addEdge('ea','summary');addEdge('ei','summary','专家输出',false,'downLeft');addEdge('summary','result','',false,'right');
+ if(mode==='v3')node('wheel',40,425,'数据集情绪轮','提示词配置','MER6 / MELD7 的适配语义层级','注入三个专家及 Summary 的提示词','versions/v3/emotion_wheel_prompts.py','expert() / summary()','本节点表示共享提示词配置，不是额外模型步骤。组织阶段不注入情绪轮。','inference');
+ }
+ const defs='<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#a4b6b0"/></marker><marker id="arrowBlue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#526cc4"/></marker></defs>';
+ const paths=edges.map(e=>{const a=nodes.find(n=>n.id===e.a),b=nodes.find(n=>n.id===e.b);let sx=a.x+a.w/2,sy=a.y+a.h,tx=b.x+b.w/2,ty=b.y,d='',lx,ly;
+ if(e.route==='right'){sx=a.x+a.w;sy=a.y+38;tx=b.x;ty=b.y+38;d=`M${sx} ${sy}H${tx}`;}
+ else if(e.route==='leftward'){sx=a.x;sy=a.y+38;tx=b.x+b.w;ty=b.y+38;d=`M${sx} ${sy}H${tx}`;}
+ else if(e.route==='left'){sx=a.x+55;sy=a.y+a.h;tx=b.x;ty=b.y+38;d=`M${sx} ${sy}V${ty}H${tx}`;}
+ else if(e.route==='top'){sx=a.x+a.w;sy=a.y+15;tx=b.x+150;ty=b.y;d=`M${sx} ${sy}H${tx}V${ty}`;}
+ else if(e.route==='outerRight'){sx=a.x+a.w;sy=a.y+58;tx=b.x+b.w;ty=b.y+58;d=`M${sx} ${sy}H960V${ty}H${tx}`;}
+ else if(e.route==='across'){sx=a.x+45;sy=a.y+a.h;tx=b.x+170;ty=b.y;d=`M${sx} ${sy}V190H${tx}V${ty}`;}
+ else if(e.route==='rightDown'){sx=a.x+a.w;sy=a.y+58;tx=b.x+104;ty=b.y;d=`M${sx} ${sy}H${tx}V${ty}`;}
+ else{let mid=(sy+ty)/2;if(e.route==='downLeft')mid-=12;if(e.route==='downRight')mid+=12;d=`M${sx} ${sy}V${mid}H${tx}V${ty}`;}
+ lx=(sx+tx)/2;ly=(sy+ty)/2-8;return `<path class="edge ${e.mediaEdge?'media':''}" d="${d}"/>${e.label?`<text class="edge-label" x="${lx}" y="${ly}" text-anchor="middle">${escape(e.label)}</text>`:''}`;}).join('');
+ $('diagram').innerHTML=defs+paths+nodes.map(n=>`<g class="node ${n.kind}" data-id="${n.id}" tabindex="0" role="button" aria-label="${escape(n.title+'，'+n.sub+'，查看详情')}"><rect x="${n.x}" y="${n.y}" width="${n.w}" height="${n.h}" rx="12"/><text class="node-title" x="${n.x+16}" y="${n.y+31}">${escape(n.title)}</text><text class="node-sub" x="${n.x+16}" y="${n.y+55}">${escape(n.sub)}</text></g>`).join('');
+ $('diagram').querySelectorAll('.node').forEach(el=>{el.addEventListener('click',()=>detail(el.dataset.id));el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();detail(el.dataset.id);}});});detail(expert?'frozen':mode==='ppct'?'graph':'input');
+}
+document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{mode=b.dataset.mode;render();}));$('provider').addEventListener('change',e=>{provider=e.target.value;render();});render();
+</script></body></html>

@@ -17,3 +17,5 @@ __pycache__/
 *.npy
 *.zip
 *.tar.gz
+.omx/
+.claude/

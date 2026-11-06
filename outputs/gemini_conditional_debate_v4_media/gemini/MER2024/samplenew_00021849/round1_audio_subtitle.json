@@ -1,0 +1,47 @@
+{
+  "output": {
+    "expert": "audio_subtitle",
+    "changed": true,
+    "response_to_others": "核实图像专家引用的frame_01至frame_05，目标人物眉眼舒展、唇部动作自然，确实不存在担忧所需的肌张力；核实图谱专家对00:00-00:02音轨的分析，男子发音平缓均匀、语调直落无颤音，此前将压低声音的务实交代过度推论为关切担忧，重新检验后确认其声音与神态均属于低唤醒度的平稳沟通。",
+    "reason": "目标人物在00:00-00:02对车内女性说出‘你先上，我的车，先回去’，言语行为为直接、务实的行动建议与行程交待。在音频中，其发音平缓、节奏匀称，音高和音量均维持在正常偏低的平稳基线，无急促换气、尾音上扬或焦虑颤动；视觉上其表情放松从容，音画高度一致地呈现出冷静、克制的事务性交流状态，缺乏worried所必须的预期不安或焦虑紧绷表现，应归为平稳中性状态。",
+    "open_emotion": "平稳交代",
+    "answer": "neutral",
+    "mapping_reason": "目标人物语调平缓沉稳、语速均匀，表现为冷静自然的指令交代与日常交流，符合情绪轮中neutral（平稳叙述、自然交流、无明确主导情绪）的定义。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "audio",
+        "anchor": "00:00-00:02",
+        "observation": "男声语速均匀，吐字稳定，音高平直，无音调突变、颤音或气促声。",
+        "interpretation": "韵律特征呈现典型的低唤醒、客观冷静状态，无情绪化波动。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "subtitle",
+        "anchor": "你先上，我的车，先回去。",
+        "observation": "语句为简要的祈使与安排，就事论事交代行程步骤。",
+        "interpretation": "语义重心在于安排车务，未带有情绪化评价或主观焦虑词汇。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "visual",
+        "anchor": "frame_02至frame_05",
+        "observation": "男子俯身与车内交谈，眉头舒展，面部肌肉松弛无皱缩。",
+        "interpretation": "视觉表情印证了声音的平静克制，排除了掩饰焦虑或压抑担忧的冲突可能。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "前倾探身和压低音量的举动易被引申为主观上的关切与担忧（worried），但音轨中无声学颤抖或紧迫感，视觉亦无紧绷，仅凭低声交代不能推翻中性判定。"
+  },
+  "usage": {
+    "completion_tokens": 2958,
+    "total_tokens": 15402,
+    "prompt_tokens": 12444,
+    "completion_tokens_details": {
+      "reasoning_tokens": 2214
+    }
+  },
+  "seconds": 28.302906274795532
+}

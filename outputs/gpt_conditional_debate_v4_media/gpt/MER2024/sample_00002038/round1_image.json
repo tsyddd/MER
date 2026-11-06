@@ -1,0 +1,44 @@
+{
+  "output": {
+    "expert": "image",
+    "reason": "目标是八帧中唯一可见的女性。她一直看向画面右侧，眉头紧蹙；从frame_00到frame_07，嘴部由较紧绷的发问状态转为微张，视线没有明显移开。[E1] 字幕显示她在询问“他”的身份，但没有说明她预期会发生什么。[E2] 综合来看，持续的紧绷注视比瞬间受到意外冲击更支持对未知对象的不安。",
+    "open_emotion": "忐忑",
+    "answer": "worried",
+    "mapping_reason": "忐忑侧重面对未知情况时的不安，结合当前表情和身份询问，较接近worried。画面没有明确交代负面后果，因此这是对当前表现的有限判断，而非确认她害怕某种具体危险。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "visual",
+        "anchor": "frame_00（0.0秒）至frame_07（0.8秒）",
+        "observation": "女性持续朝画面右侧看，眉头紧蹙；前几帧嘴部较紧绷，后几帧嘴微张，没有出现明显的突然转头或表情骤变。",
+        "interpretation": "持续的面部紧张和定向注视支持不安；缺少明显的瞬时变化，使单纯的即时惊讶稍弱。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "subtitle",
+        "anchor": "当前字幕“他，是谁呀？”",
+        "observation": "字幕呈现对一名男性身份的询问。",
+        "interpretation": "说明她正面对身份未知的信息；疑问句本身不能证明惊讶，也不能单独证明担忧。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "皱眉、张口和询问身份也可以表现诧异；画面与字幕均未明确呈现威胁或负面后果。没有提供音轨，不能据语调进一步区分。",
+    "changed": false,
+    "response_to_others": "图谱专家所引的右视、蹙眉和身份询问可在画面及字幕中核实，但这些是同一组表现；字幕没有表明此人出现违背了她的预期，所列图谱节点和声音描述也无法从本轮提供的原始媒体独立核实。音频字幕专家指出疑问句不足以单独证明惊讶，这与核查结果一致；其视觉依据支持不安，但具体担忧内容仍不明确。"
+  },
+  "usage": {
+    "completion_tokens": 722,
+    "total_tokens": 5984,
+    "prompt_tokens": 5262,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_creation_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 86
+    }
+  },
+  "seconds": 22.9505615234375
+}

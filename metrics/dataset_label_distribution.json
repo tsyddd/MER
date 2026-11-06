@@ -1,0 +1,287 @@
+{
+ "MER2024": {
+  "full": {
+   "surprise": 83,
+   "worried": 159,
+   "neutral": 201,
+   "happy": 246,
+   "sad": 317,
+   "angry": 163
+  },
+  "pool": {
+   "happy": 213,
+   "neutral": 167,
+   "sad": 284,
+   "angry": 129,
+   "worried": 126,
+   "surprise": 50
+  },
+  "gemini_pool_processed": {
+   "happy": 213,
+   "neutral": 166,
+   "sad": 284,
+   "angry": 129,
+   "worried": 126,
+   "surprise": 50
+  },
+  "gemini_pool_disagree": {
+   "neutral": 23,
+   "sad": 21,
+   "angry": 11,
+   "surprise": 14,
+   "worried": 17,
+   "happy": 11
+  },
+  "gpt_pool_processed": {
+   "happy": 213,
+   "neutral": 167,
+   "sad": 284,
+   "angry": 129,
+   "worried": 126,
+   "surprise": 50
+  },
+  "gpt_pool_disagree": {
+   "happy": 15,
+   "sad": 57,
+   "angry": 12,
+   "neutral": 46,
+   "surprise": 18,
+   "worried": 13
+  },
+  "gemini_rmad_train": {
+   "neutral": 23,
+   "sad": 21,
+   "angry": 11,
+   "surprise": 14,
+   "worried": 17,
+   "happy": 11
+  },
+  "gpt_rmad_train": {
+   "happy": 15,
+   "sad": 57,
+   "angry": 12,
+   "neutral": 46,
+   "surprise": 18,
+   "worried": 13
+  },
+  "gemini_v1_train": {
+   "happy": 10,
+   "surprise": 11,
+   "worried": 13,
+   "neutral": 16,
+   "angry": 10,
+   "sad": 12
+  },
+  "gemini_v1_val": {
+   "sad": 9,
+   "worried": 4,
+   "surprise": 3,
+   "neutral": 7,
+   "angry": 1,
+   "happy": 1
+  },
+  "gemini_v1_test": {
+   "happy": 1,
+   "angry": 9,
+   "surprise": 6,
+   "neutral": 6,
+   "worried": 3,
+   "sad": 1
+  },
+  "gpt_v1_train": {
+   "happy": 12,
+   "worried": 8,
+   "surprise": 12,
+   "neutral": 34,
+   "angry": 8,
+   "sad": 46
+  },
+  "gpt_v1_val": {
+   "neutral": 12,
+   "happy": 3,
+   "surprise": 6,
+   "worried": 5,
+   "angry": 4,
+   "sad": 11
+  },
+  "gpt_v1_test": {
+   "surprise": 3,
+   "neutral": 10,
+   "angry": 4,
+   "worried": 2,
+   "happy": 1,
+   "sad": 3
+  },
+  "gemini_v2_train": {
+   "happy": 8,
+   "surprise": 10,
+   "worried": 13,
+   "neutral": 17,
+   "angry": 8,
+   "sad": 16
+  },
+  "gemini_v2_val": {
+   "sad": 5,
+   "happy": 3,
+   "worried": 4,
+   "surprise": 4,
+   "neutral": 6,
+   "angry": 3
+  },
+  "old400": {
+   "surprise": 33,
+   "happy": 33,
+   "worried": 33,
+   "neutral": 34,
+   "sad": 33,
+   "angry": 34
+  }
+ },
+ "MELD": {
+  "full": {
+   "surprise": 281,
+   "anger": 345,
+   "neutral": 1256,
+   "joy": 402,
+   "sadness": 208,
+   "fear": 50,
+   "disgust": 68
+  },
+  "pool": {
+   "neutral": 1227,
+   "anger": 316,
+   "joy": 372,
+   "surprise": 253,
+   "sadness": 179,
+   "disgust": 39,
+   "fear": 22
+  },
+  "gemini_pool_processed": {
+   "neutral": 612,
+   "anger": 148,
+   "joy": 195,
+   "surprise": 133,
+   "sadness": 79,
+   "disgust": 20,
+   "fear": 9
+  },
+  "gemini_pool_disagree": {
+   "anger": 29,
+   "surprise": 28,
+   "neutral": 86,
+   "sadness": 18,
+   "joy": 37,
+   "disgust": 5,
+   "fear": 1
+  },
+  "gpt_pool_processed": {
+   "neutral": 613,
+   "anger": 148,
+   "joy": 195,
+   "surprise": 133,
+   "sadness": 79,
+   "disgust": 20,
+   "fear": 9
+  },
+  "gpt_pool_disagree": {
+   "neutral": 221,
+   "joy": 53,
+   "sadness": 22,
+   "surprise": 37,
+   "disgust": 8,
+   "anger": 37,
+   "fear": 3
+  },
+  "gemini_rmad_train": {
+   "anger": 28,
+   "surprise": 27,
+   "neutral": 85,
+   "sadness": 17,
+   "joy": 37,
+   "disgust": 5,
+   "fear": 1
+  },
+  "gpt_rmad_train": {
+   "neutral": 110,
+   "joy": 30,
+   "sadness": 9,
+   "surprise": 18,
+   "disgust": 6,
+   "anger": 26,
+   "fear": 1
+  },
+  "gemini_v1_train": {
+   "sadness": 7,
+   "neutral": 30,
+   "joy": 10,
+   "surprise": 9,
+   "anger": 8,
+   "disgust": 1
+  },
+  "gemini_v1_val": {
+   "joy": 4,
+   "surprise": 2,
+   "disgust": 1,
+   "sadness": 4,
+   "anger": 4,
+   "neutral": 7
+  },
+  "gemini_v1_test": {
+   "joy": 5,
+   "fear": 7,
+   "disgust": 4,
+   "anger": 5,
+   "sadness": 7,
+   "surprise": 6,
+   "neutral": 2
+  },
+  "gpt_v1_train": {
+   "sadness": 7,
+   "anger": 12,
+   "neutral": 63,
+   "surprise": 11,
+   "disgust": 3,
+   "joy": 17
+  },
+  "gpt_v1_val": {
+   "joy": 4,
+   "surprise": 2,
+   "neutral": 24,
+   "anger": 5,
+   "sadness": 5
+  },
+  "gpt_v1_test": {
+   "sadness": 5,
+   "fear": 8,
+   "joy": 5,
+   "neutral": 4,
+   "anger": 4,
+   "disgust": 3,
+   "surprise": 3
+  },
+  "gemini_v2_train": {
+   "sadness": 8,
+   "joy": 10,
+   "surprise": 8,
+   "neutral": 28,
+   "disgust": 2,
+   "anger": 9
+  },
+  "gemini_v2_val": {
+   "joy": 4,
+   "surprise": 3,
+   "neutral": 9,
+   "sadness": 3,
+   "anger": 3
+  },
+  "old400": {
+   "sadness": 29,
+   "fear": 28,
+   "disgust": 28,
+   "anger": 29,
+   "surprise": 28,
+   "neutral": 29,
+   "joy": 29
+  }
+ }
+}

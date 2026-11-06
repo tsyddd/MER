@@ -1,0 +1,39 @@
+{
+  "output": {
+    "expert": "image",
+    "changed": false,
+    "response_to_others": "图谱专家指出的负面局势与防守风险属于事件背景推断，但人物此时的视觉核心是挑眉、双眼睁大定视及发愣张口，属于认知严重受挫时的即刻生理惊愕，而非沉思后果的忧虑；音频字幕专家对于言语反问与面部定格属于‘初闻消息、即时错愕’的界定与本专家的视觉观察完全契合。",
+    "reason": "目标人物在手持电话通话时，从frame_00到frame_07均保持双目圆睁、眉毛挑起微抬、嘴唇微张定格的典型惊愕神态，视线固定前方略显发愣[E1]。结合台词中的否定反问句式以及急促上扬的质询语气[E2]，充分展现出听闻前线状况与原先认知严重背离所产生的强烈意外与诧异反应，符合预期被即时打破的特征。",
+    "open_emotion": "诧异",
+    "answer": "surprise",
+    "mapping_reason": "当前信息与既有预设严重违背，人物表现为典型的挑眉睁眼、即时错愕与质问，严格符合情绪轮中因信息违背预期引发的惊讶家族（surprise）定义。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "visual",
+        "anchor": "frame_00至frame_07 (0.00s-2.64s)",
+        "observation": "目标人物手持电话听筒，镜片后双眼圆睁，眉头挑起，嘴唇微张，面部肌肉呈现突闻意外信息时的僵硬发愣感。",
+        "interpretation": "面部维持睁眼挑眉等即刻生理特征，明确指示其对电话另一端提供的信息感到不可置信与意外。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "subtitle",
+        "anchor": "关东军不是已经增兵甲子沟、煤矿了吗？",
+        "observation": "使用预设事实已被打破的否定反问句。",
+        "interpretation": "表明所获信息与原有认知强烈冲突，驱动了当下的错愕发问。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "如果着眼于煤矿防务出事的潜在恶果，可能会延伸出忧虑焦虑（worried），但片段正处于刚获悉消息的瞬间，主导表情为冲击下的惊诧而非深层忧患。"
+  },
+  "usage": {
+    "completion_tokens": 1024,
+    "total_tokens": 4650,
+    "prompt_tokens": 3626,
+    "completion_tokens_details": {
+      "reasoning_tokens": 399
+    }
+  },
+  "seconds": 12.003824710845947
+}

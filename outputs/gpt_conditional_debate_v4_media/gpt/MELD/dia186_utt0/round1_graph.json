@@ -1,0 +1,52 @@
+{
+  "output": {
+    "expert": "graph",
+    "reason": "Chandler在当前交流中先说“no-no-no just Ross”，随后称“Ross and Joey is embarrassing enough”[E1]。这表明他在限定所谈对象，并对所说的尴尬局面表示排斥；不是Ross或Joey此刻的情绪。图谱的process_0至process_2记录了同一话语顺序[E2]，但不能据此推断现场一定有人提出了“增加人选”的提议。抬手、收手和转向右侧看，与当面拒绝的表达相容[E3]，却不能单独确定情绪。",
+    "open_emotion": "反感",
+    "answer": "disgust",
+    "mapping_reason": "此处的反感指对自认为已足够难堪的局面表示不愿接受，最接近disgust中的排斥；这是轻度、近似的映射，不表示他感到恶心。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "subtitle",
+        "anchor": "“Ah, no-no-no just Ross. Ross and Joey is embarrassing enough.”",
+        "observation": "Chandler连续否定、限定为“just Ross”，并评价Ross和Joey已足够令人尴尬。",
+        "interpretation": "支持他对所谈局面的排斥，而非仅因听见人名而惊讶；字幕没有交代此前具体提议。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "graph",
+        "anchor": "process_0、process_1、process_2",
+        "observation": "节点依次记录Chandler的否定、说出Ross，以及后续的“embarrassing enough”评价。",
+        "interpretation": "确认图谱组织的是Chandler当前的话语链；它与字幕记载的是同一句话，不算独立证据。节点所列音频来源仅为图谱转述，未获原音轨核验。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "visual",
+        "anchor": "frame_01（0.459秒）至frame_07（3.128秒）",
+        "observation": "右侧深色上衣的Chandler抬手于身前，随后收手、抿嘴，并转眼看向右侧继续说话。",
+        "interpretation": "与字幕中的限定和拒绝相容；手势也可能只是说话时的强调。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "轻度不满或带玩笑的社交尴尬也是合理解释。画面没有强烈退避或恶心反应；未提供原音轨，无法核验语调，因此不能断言强烈厌恶。",
+    "changed": false,
+    "response_to_others": "音频字幕专家引用的连续否定和“embarrassing enough”可由字幕核实，抬手与后段抿嘴、看向右侧也可由画面核实；但“增加人选的提议”未在当前媒体中出现，拒绝本身也不足以确定是针对冒犯的责备或对抗，因此不足以改判anger。图像专家引用的frame_00至frame_07动作基本可核实，其字幕证据与我引用的是同一话语而非新增事实；我同意这些表现支持轻度排斥，但不把表情单独当作disgust的证明。"
+  },
+  "usage": {
+    "completion_tokens": 974,
+    "total_tokens": 7713,
+    "prompt_tokens": 6739,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_creation_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 144
+    }
+  },
+  "seconds": 28.27120876312256
+}

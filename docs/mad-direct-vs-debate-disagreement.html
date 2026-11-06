@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>分歧样本上 Debate 是否不如 Direct：文献调研</title>
+<style>
+body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;max-width:980px;margin:32px auto;padding:0 20px;color:#1f2933;line-height:1.7}
+h1{font-size:24px;border-bottom:2px solid #1f2933;padding-bottom:8px}
+h2{font-size:18px;margin-top:32px;border-left:4px solid #3b6ea8;padding-left:10px}
+table{border-collapse:collapse;width:100%;margin:12px 0;font-size:14px}
+th,td{border:1px solid #cbd2d9;padding:6px 8px;vertical-align:top;text-align:left}
+th{background:#eef2f6}
+.note{background:#fff8e1;border:1px solid #f0d98a;padding:10px 14px;border-radius:6px}
+.muted{color:#6b7785;font-size:13px}
+code{background:#f0f3f6;padding:1px 4px;border-radius:3px}
+</style>
+</head>
+<body>
+<h1>分歧样本上 Debate 是否不如 Direct：文献调研</h1>
+<p class="muted">调研日期 2026-11-04。检索了 arXiv 与搜索摘要；标注“仅摘要”的论文没有读全文，数字未核对。本页只是文献结论，不是我们数据的结论；我们自己的数据见末节。</p>
+
+<h2>结论先行</h2>
+<div class="note">
+<p><b>没有找到一篇论文，直接把“只在专家分歧（不一致）子集上，Debate 的准确率低于 Direct”作为主要结果报告。</b>我能找到的是三类相关证据：</p>
+<ol>
+<li><b>整体上 Debate 不优于单次回答或多数投票</b>（最多证据）：如 2502.08788、2508.17536、2510.20963。这些是全集平均，不是分歧子集。</li>
+<li><b>机制上，分歧会被“共识化”压掉</b>（与你的观察最接近）：2609.38324 认为，当 agent 不表达异议时，讨论可能把错误的初始多数固化为错误共识；2510.20963 认为，追求共识的辩论会“过滤掉有信息量的分歧”。</li>
+<li><b>有一篇反向证据</b>（2605.09618）：分歧高时辩论带偏的情况更少；辩论有益的样本里，多数出现在投票分裂或少数一致（H≤1）时，而不是全票一致且错误（约 36%，见下文修正）。这与“分歧子集上 Debate 更差”的直觉不一致，需要认真对待。</li>
+</ol>
+</div>
+
+<h2>逐篇证据</h2>
+<table>
+<tr><th>论文</th><th>与“分歧子集”的关系</th><th>主要结论（以摘要为准）</th><th>强度</th></tr>
+<tr><td><b>Stop Overvaluing Multi-Agent Debate</b>（arXiv 2502.08788，2025）<br><span class="muted">仅摘要</span></td>
+<td>整体，未专门分析分歧</td>
+<td>5 种 MAD、9 个基准、4 个模型；MAD 常常打不过 CoT 和 Self-Consistency，且计算量更大。</td><td>中（全集）</td></tr>
+<tr><td><b>Debate or Vote</b>（arXiv 2508.17536，NeurIPS 2025 Spotlight）<br><span class="muted">仅摘要</span></td>
+<td>整体；理论上把辩论建模为鞅</td>
+<td>“辩论本身不提高期望正确率”；多数投票解释了大部分归因于辩论的收益。</td><td>中（全集，理论支持）</td></tr>
+<tr><td><b>When and Why Does Multi-Agent Debate Fail</b>（arXiv 2510.20963）<br><span class="muted">仅摘要</span></td>
+<td><b>有</b>：分析“信息性分歧”如何被过滤</td>
+<td>普通辩论可能显著低于单 agent；追求共识的 CosMAD “过滤掉有信息量的分歧，换来过早共识”；竞争式 CopMAD 变成“廉价谈话”。提出的 ColMAD 在同等预算下胜过单 agent。</td><td>中（机制性，数字未核）</td></tr>
+<tr><td><b>Multi-agent discussion gains less when dissent is withheld</b>（arXiv 2609.38324，2026-09）<br><span class="muted">仅摘要，新论文</span></td>
+<td><b>最直接相关</b>：分歧样本的建模</td>
+<td>只有当“压制异议率” c 低于临界值 c* = γ/(γ+a) 时，讨论才能推翻错误的初始多数；否则会以错误共识告终。不要求异议的提示能提高收益；关闭推理也能提高收益。</td><td>中（理论+估计，数字未核）</td></tr>
+<tr><td><b>Talk Isn't Always Cheap</b>（arXiv 2509.05396）<br><span class="muted">仅摘要</span></td>
+<td>整体；强调“正确变错误”</td>
+<td>模型常因同伴推理而把正确答案改成错误答案，偏向一致而不是挑战错误推理；弱 agent 加入强 agent 的讨论时，结果可能更差。</td><td>中（失效模式）</td></tr>
+<tr><td><b>Statistical Scouting Finds Debate-Safe but Not Debate-Useful Cases</b>（arXiv 2605.09618，2026-05）<br><span class="muted">读了摘要与结果段</span></td>
+<td><b>相反的证据</b>：按投票熵分层</td>
+<td>对比 greedy（直接）、三次投票、两 agent 批评式辩论（同 960 token 上限）。投票熵高时辩论的“反噬”明显减少；47 个辩论有益的样本中，31 个（66%）属于 H≤1（含分裂投票），其中<b>全票一致且错误</b>的只有 17 个（约 36%）。<br><b>修正</b>：本页初版把 66% 写成“投票一致且错误”，是错的。熵信号只能找到“辩论安全”，找不到“辩论有用”。</td><td>中（模型为 8B 开源，MuSiQue / GSM8K）</td></tr>
+<tr><td><b>Peacemaker or Troublemaker</b>（arXiv 2509.23055）<br><span class="muted">仅摘要</span></td>
+<td>整体；提出“分歧崩溃”</td>
+<td>谄媚会限制辩论效果；去中心化设置可能崩溃，且不稳定地优于单 agent。</td><td>中（机制）</td></tr>
+</table>
+
+<h2>对我们问题的含义</h2>
+<ul>
+<li><b>“Debate 不如 Direct”本身有文献支撑</b>，但主要是全集平均，不是分歧子集。直接说“分歧子集上 Debate 更差”，目前没有现成的论文直接报告。</li>
+<li><b>机制上最像我们的情况</b>：2609.38324 和 2510.20963 认为，同模型或同质 agent 的讨论会把分歧压成共识，于是分歧样本上的辩论变成“在错误共识里收敛”。这与 F2、F5（同错、辩论后一致但答错）的观察吻合。</li>
+<li><b>需要注意的反例</b>：2605.09618 发现，辩论的收益主要来自“投票一致但错误”的样本，分歧高时辩论反而更少带偏。这说明我们的分歧分支结论可能依赖数据和模型，不能直接外推。</li>
+<li><b>比较口径</b>：文献多以“同等计算量”或“同等 token 上限”与单次回答 / 多数投票比较。我们的 F6 比较的是同一批样本上的 Direct 与 v4 辩论分支，口径需要说明。</li>
+</ul>
+
+<h2>我们自己的数据（已有，不是新实验）</h2>
+<p>来自 <code>metrics/findings_log.md</code> 的 F6，仍是开发集结论：</p>
+<table>
+<tr><th>口径</th><th>Gemini</th><th>GPT</th></tr>
+<tr><td>辩论分支样本数</td><td>62</td><td>55</td></tr>
+<tr><td>v4 辩论分支答对 / Direct 答对</td><td>26 / 38</td><td>19 / 26</td></tr>
+<tr><td>辩论分支在候选内随机选的期望答对</td><td>25.6</td><td>22.8</td></tr>
+</table>
+<p>这与“分歧子集上 Debate 不如 Direct”的直觉一致，但仍是一次运行、开发集、样本少；不能据此说文献已经证明这一点。</p>
+
+<h2>局限</h2>
+<ul>
+<li>多数来源只读了摘要；2508.17536、2502.08788、2509.05396、2510.20963 的数字没有核对全文。</li>
+<li>没有找到以“分歧子集”为主要对象、并与 Direct 直接比较的论文。</li>
+<li>2605.09618 使用 8B 开源模型与 MuSiQue / GSM8K，与我们的多模态情感任务差异大。</li>
+</ul>
+
+<p class="muted">检索记录：搜索摘要 + arXiv 摘要页抓取（只读）。未运行任何第三方代码，未调用模型。</p>
+</body>
+</html>

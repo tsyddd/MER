@@ -1,0 +1,47 @@
+{
+  "output": {
+    "expert": "graph",
+    "changed": true,
+    "response_to_others": "认同音频字幕专家与图像专家关于言语行为本质是指责性对质的判断；Rachel虽然没有爆发大吼，但单手叉腰对峙的体态[person_0]配合揭穿对方排挤算计的质问，本质上属于低强度的责难与不满，此前将克制表达误判为中性忽视了行为的对抗属性。",
+    "reason": "事件链围绕Rachel当面拆穿并质询对方试图用杂物逼走自己的冒犯行为展开[process_0]。从图谱与情境看，Rachel维持左手叉腰面向对方的对峙体态[person_0]，目光持续紧盯等待答复[person_1, person_3]，且在发问中对关键冒犯事实（'drive me out'）加重语气[person_2]。这种互动具有明确的问责与对质指向，属于受到算计冒犯后克制但坚定的不满与责备，而非纯粹日常无情绪的中性发问。",
+    "open_emotion": "不满",
+    "answer": "anger",
+    "mapping_reason": "Rachel对被排挤和针对的冒犯行为提出正面质难与对质，符合情绪轮中anger家族关于对冒犯、受阻或不公产生责备、对抗与不满（displeased/annoyed）的定义；强度受控不改变其负向问责的家族归属。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "subtitle",
+        "anchor": "Did you get all this stuff for Joey to try and drive me out of the apartment?",
+        "observation": "Rachel直接质问对方是否购置所有这些物品试图将自己赶出公寓。",
+        "interpretation": "台词具有明确的揭穿算计与指责冒犯的对质性质，绝非客观信息交换。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "graph",
+        "anchor": "person_0",
+        "observation": "图谱记录Rachel身穿粉色长袖上衣，左手叉腰，身体完全朝向对方保持对立站姿。",
+        "interpretation": "叉腰正对的体态构成稳定的质问与对峙态势，支持其严肃责难的态度。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "graph",
+        "anchor": "person_2",
+        "observation": "图谱记录Rachel说话语调清晰连贯，并在句末带有明显的质问升调。",
+        "interpretation": "音调重心落在句末的质问上，体现出对冒犯行为的追问与责备。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "Rachel没有出现咆哮大喊或面部扭曲等高烈度愤怒表现，语调与姿态相对克制，容易被误判为平静的中性询问；但克制不等于无情绪，其质难性质排除了neutral。"
+  },
+  "usage": {
+    "completion_tokens": 1629,
+    "total_tokens": 6234,
+    "prompt_tokens": 4605,
+    "completion_tokens_details": {
+      "reasoning_tokens": 895
+    }
+  },
+  "seconds": 18.50383496284485
+}

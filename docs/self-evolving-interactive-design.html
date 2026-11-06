@@ -1,0 +1,145 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>多专家交互自进化设计</title><style>
+:root{--ink:#172c38;--muted:#607583;--paper:#f4f6f3;--line:#dce4de;--green:#137a68;--amber:#b47c20;--red:#c9533c}*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.7 "Segoe UI","Microsoft YaHei",sans-serif}main{max-width:1240px;margin:auto;padding:34px 28px 70px}
+.eyebrow{font-size:12px;color:var(--green);font-weight:700;letter-spacing:2px}h1{font-size:31px;margin:8px 0 6px;line-height:1.3}h2{font-size:21px;margin:0 0 8px}h3{font-size:16px;margin:22px 0 6px}
+.muted{color:var(--muted)}.small{font-size:12.5px}.panel{background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px 26px;margin-top:20px}
+code{font:12.5px Consolas,monospace;background:#f1f5f1;padding:1px 5px;border-radius:4px}a{color:var(--green)}
+.tldr{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:16px}.tl{border:1px solid var(--line);border-radius:12px;padding:14px 18px;background:#fff}.tl>b:first-child{display:block;margin-bottom:4px}.tl.k{border-color:#a7cfc1;background:#eef7f1}.tl.w{border-color:#e1c48d;background:#fff8e9}
+table{border-collapse:collapse;width:100%;font-size:13px}th,td{padding:8px 9px;border-bottom:1px solid #edf1ed;text-align:left;vertical-align:top}th{color:var(--muted);font-size:12px;font-weight:600;background:#f7f9f7}
+td.c{text-align:right;font:600 13px Consolas,monospace;white-space:nowrap}.tag{display:inline-block;font-size:11px;padding:1px 8px;border-radius:12px;background:#edf3f0;color:var(--green);white-space:nowrap}.v{font-size:11.5px;color:var(--muted)}
+.grp td{background:#eef2ef;font-weight:700;color:var(--ink)}.m{color:var(--muted);font-size:12px}
+.fig{margin:12px 0 4px;border:1px solid var(--line);border-radius:12px;background:#fcfdfc;padding:8px}.fig svg{width:100%;height:auto;display:block}.cap{font-size:13px;color:var(--muted);margin:2px 4px 8px}
+svg .n{stroke-width:1.6}svg .exist{fill:#eaf1ff;stroke:#9db2ee}svg .new{fill:#fff3da;stroke:#e1c48d}svg .judge{fill:#e6f4ee;stroke:#8cc4b0}svg .plain{fill:#f4f6f3;stroke:#c9d6cf}svg .final{fill:#172c38;stroke:#172c38}svg .gate{fill:#fff8e9;stroke:#b47c20}
+svg .t{font:13px "Microsoft YaHei","Segoe UI",sans-serif;fill:#172c38}svg .t.w{fill:#fff}svg .l{font:12px "Microsoft YaHei","Segoe UI",sans-serif;fill:#607583}svg .l.b{fill:#172c38;font-weight:600}
+svg .a{fill:none;stroke:#6b8179;stroke-width:1.8}svg .a.d{stroke-dasharray:6 5}
+.brow{display:grid;grid-template-columns:150px 1fr;gap:10px;align-items:center;margin:8px 0}.bl{font-size:13px;font-weight:600}.stackbar{display:flex;height:30px;border-radius:6px;overflow:hidden;border:1px solid var(--line)}
+.stackbar div{display:flex;align-items:center;justify-content:center;color:#fff;font:600 12px Consolas,monospace}.leg{display:flex;flex-wrap:wrap;gap:14px;font-size:12.5px;color:var(--muted);margin:8px 0}.leg i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:5px;vertical-align:-2px}
+ol,ul{padding-left:22px}li{margin:5px 0}.steps li b{color:var(--green)}
+.warn{margin-top:14px;padding:10px 14px;border-left:3px solid var(--amber);background:#fff8e9;font-size:13.5px}
+pre{background:#f6f8f6;border:1px solid var(--line);border-radius:10px;padding:14px 18px;overflow:auto;font:13px/1.7 Consolas,"Microsoft YaHei",monospace}
+@media(max-width:900px){.tldr{grid-template-columns:1fr}main{padding:20px 14px}.brow{grid-template-columns:1fr}.panel{padding:16px}}
+</style></head><body><main><div class="eyebrow">DESIGN · SELF-EVOLVING MULTI-EXPERT INTERACTION</div>
+<h1>模仿 MCIL 的"最优交互"思路，设计一个训练免费的多专家自进化方法</h1>
+<p class="muted">参考：Zhou, Liang, Gu, Yin, Yao. <i>Multi-Classifier Interactive Learning for Ambiguous Speech Emotion Recognition</i>. IEEE/ACM TASLP, vol. 30, 2022, pp. 695–705, doi 10.1109/TASLP.2022.3145287。以下论文内容取自我对全文的阅读；设计部分是我的建议，尚未实现、未运行、没有成绩。</p>
+
+<div class="tldr">
+<div class="tl k"><b>① 论文的核心不是"测试时讨论"，而是"离线用群体分布重训每个成员"</b>多个不同架构的分类器先在有标签数据上训练，再在无标签数据上投票得到"模糊标签"（投票比例），然后每个分类器用 KL 损失向这个分布重训。测试时各自独立判断，最后选最好的那一个。</div>
+<div class="tl k"><b>② 我们的对应做法</b>把"重训"换成训练免费的状态更新（案例记忆、规则补丁、输出校准）；模糊标签用加权投票分布，候选集用"专家答案 ∪ 第 1 个易混淆标签"（发现 F1）；成员换成跨模型的九位专家（发现 F2）。</div>
+<div class="tl w"><b>③ 和我们做过的辩论有本质区别</b>辩论是在测试样本上互相说服，结果几乎全是从众（辩论 ≈ 投票）。MCIL 式的交互发生在另一批数据上，测试时成员仍然独立，不会把测试判断拉向多数。</div>
+<div class="tl w"><b>④ 需要先说清的限制</b>论文的增益来自梯度重训和大量无标签数据（MAS 的 D2 有 13,400 条）；我们只有 train 的 320 条、不改权重，效果可能小得多。论文最后用测试集准确率选分类器，这一步不能照搬。</div>
+</div>
+
+<section class="panel"><h2>一、论文讲了什么</h2>
+<div class="fig"><svg viewBox="0 0 1040 215" role="img" aria-label="MCIL 流程"><defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#6b8179"/></marker></defs><text class="l b" x="20" y="22" text-anchor="start">Zhou 等 2022 的 MCIL（论文图 1 的简化重绘）</text><rect class="n plain" x="20" y="60" width="150" height="70" rx="10"/><text class="t" x="95.0" y="92.0" text-anchor="middle">D1：有精确标签</text><text class="t" x="95.0" y="108.0" text-anchor="middle">（MAS 6,000 条）</text><rect class="n exist" x="220" y="40" width="170" height="110" rx="10"/><text class="t" x="305.0" y="76.0" text-anchor="middle">训练 N 个不同架构</text><text class="t" x="305.0" y="92.0" text-anchor="middle">分类器（交叉熵）</text><text class="t" x="305.0" y="108.0" text-anchor="middle">ResNet / VGG /</text><text class="t" x="305.0" y="124.0" text-anchor="middle">DenseNet …</text><path class="a" d="M170 95 L220 95" marker-end="url(#ar)"/><rect class="n new" x="440" y="40" width="190" height="110" rx="10"/><text class="t" x="535.0" y="76.0" text-anchor="middle">D2：无标签</text><text class="t" x="535.0" y="92.0" text-anchor="middle">（13,400 条）</text><text class="t" x="535.0" y="108.0" text-anchor="middle">各分类器投票 →</text><text class="t" x="535.0" y="124.0" text-anchor="middle">模糊标签 = 投票比例</text><path class="a" d="M390 95 L440 95" marker-end="url(#ar)"/><rect class="n new" x="680" y="40" width="150" height="110" rx="10"/><text class="t" x="755.0" y="76.0" text-anchor="middle">交互学习</text><text class="t" x="755.0" y="92.0" text-anchor="middle">用 KL 损失向</text><text class="t" x="755.0" y="108.0" text-anchor="middle">模糊标签重训</text><text class="t" x="755.0" y="124.0" text-anchor="middle">每个分类器</text><path class="a" d="M630 95 L680 95" marker-end="url(#ar)"/><rect class="n judge" x="870" y="50" width="150" height="90" rx="10"/><text class="t" x="945.0" y="84.0" text-anchor="middle">D3：测试</text><text class="t" x="945.0" y="100.0" text-anchor="middle">选最好的单个</text><text class="t" x="945.0" y="116.0" text-anchor="middle">分类器作最终决策</text><path class="a" d="M830 95 L870 95" marker-end="url(#ar)"/><text class="l" x="20" y="196" text-anchor="start">理论依据（最优交互理论）：能力相近的个体交流后，联合敏感度 S_joint ≈ √(Σ S_i²) ≥ max S_i；但&quot;群体很少胜过其最好的成员&quot;，所以最后选最好的单个分类器。</text></svg></div>
+<h3>1. 最优交互理论（论文第 III-A 节）</h3>
+<ul>
+<li>来源：Bahrami 等 2010 年发表在 Science 上的"Optimally interacting minds"。论文引述其结论：能力相近的个体通过交流可以提高表现；同时也引用了该文的另一句话"群体很少胜过其最好的成员"。</li>
+<li>心理测量曲线：每个分类器的准确率 P 随数据清晰度 Δc 上升，P(Δc) = H((Δc + b) / σ)，H 是累积高斯函数；σ 越小越敏感。敏感度 S = 1 / √(2πσ²)。</li>
+<li>交互后的联合曲线：b<sub>joint</sub> = Σ w<sub>i</sub> b<sub>i</sub>，σ<sub>joint</sub><sup>2</sup> = Σ w<sub>i</sub><sup>2</sup> σ<sub>i</sub><sup>2</sup>，权重 w<sub>i</sub> 与 1/σ<sub>i</sub><sup>2</sup> 成正比（逆方差加权）；由此得到 S<sub>joint</sub> ≈ √(Σ S<sub>i</sub><sup>2</sup>) ≥ max S<sub>i</sub>。</li>
+<li>我的理解：这个推导隐含"各成员的误差相互独立"。成员越相关，S<sub>joint</sub> 的提升越小。</li></ul>
+<h3>2. MCIL 怎么做（论文第 III-C、III-D 节）</h3>
+<ul>
+<li><b>精确标签学习</b>：五个不同架构的网络（ResNet、DenseNet、SqueezeNet、VGG、AlexNet）在 D1 上用交叉熵训练。不同架构用来模拟"不同个体的不一致认知"。</li>
+<li><b>构造模糊标签</b>：用训好的网络对无标签的 D2 投票，把投票比例当作每个样本的情绪分布，不需要人工标注。</li>
+<li><b>交互学习</b>：每个网络在 D2 上用 KL 损失向模糊标签重训。</li>
+<li><b>最终决策</b>：在 D3 上选最好的单个网络。论文原文写明这里用的是测试准确率作为衡量能力的标准。</li></ul>
+<h3>3. 结果（论文表 III–XI 与图 4）</h3>
+<table><tr><th>数据集</th><th>D1 / D2 / D3</th><th>MCIL（最好的单个网络）</th><th>多数投票</th><th>Fleiss κ 交互前 → 后</th></tr>
+<tr><td>MAS（5 类）</td><td>6,000 / 13,400 / 1,000</td><td class="n">62.20%</td><td class="n">59.10%</td><td class="n">0.51 → 0.66</td></tr>
+<tr><td>IEMOCAP（4 类）</td><td>1,710 / 3,421 / 400</td><td class="n">67.00%</td><td class="n">65.00%</td><td class="n">0.52 → 0.72</td></tr>
+<tr><td>FAU-AIBO（2 类）</td><td>5,375 / 10,750 / 2,091</td><td class="n">65.47%</td><td class="n">62.20%</td><td class="n">0.36 → 0.61</td></tr></table>
+<ul><li>5 个分类器最好；加到 7 个反而变差，论文解释为新增的两个本身较弱，拉低了群体能力。这与"能力相近"条件一致。</li>
+<li>并非每个类别都变好：例如 MAS 上 DenseNet 的 sadness 从 66.0% 降到 59.0%，IEMOCAP 上的 happy 也下降。</li></ul>
+</section>
+
+<section class="panel"><h2>二、哪些能借鉴，哪些不能照搬</h2>
+<table><tr><th>论文中的做法</th><th>我们这里的对应</th><th>备注</th></tr>
+<tr><td>N 个不同架构的分类器</td><td>跨模型的九位专家：GPT / Gemini / Omni × 图谱 / 音频字幕 / 图像（可加 Direct、PPCT）</td><td>同模型三角色太相关（见第五节），必须跨模型</td></tr>
+<tr><td>D1：有精确标签的训练集</td><td>train 清单的一半（160 条，有标签）</td><td>用于估计能力、权重、易混淆先验，以及门控</td></tr>
+<tr><td>D2：无标签数据</td><td>train 清单的另一半（160 条，不看标签）</td><td>若服务器上还有未被筛选使用的 MER2024 / MELD 样本，可扩充 D2，需另外核实</td></tr>
+<tr><td>D3：测试集</td><td>80 条验证集，最后只评估一次</td><td>符合项目约定：验证集不参与调参</td></tr>
+<tr><td>模糊标签 = 投票比例</td><td>加权投票分布 Ỹ；候选集 C = 支撑集 ∪ 第 1 个易混淆标签</td><td>F1：k=1 覆盖率 GPT 75%→82.5%，Gemini 78.8%→83.8%</td></tr>
+<tr><td>用 KL 损失重训网络权重</td><td>训练免费的状态更新：C1 案例记忆、C2 规则补丁、C3 输出校准</td><td>不改模型权重；C3 最接近 KL 重训</td></tr>
+<tr><td>逆方差加权 w<sub>i</sub> ∝ 1/σ<sub>i</sub><sup>2</sup></td><td>按 D1 准确率加权，建议 w = log(acc / (1 − acc))</td><td>这是我建议的分类版对应，不是论文原式</td></tr>
+<tr><td>用测试准确率选最好的网络</td><td><b>改为在 D1 上交叉验证选</b></td><td>不能照搬，否则等于在测试集上调参</td></tr>
+<tr><td>Fleiss κ 上升作为效果之一</td><td>只作监控，停止条件看 D1 准确率</td><td>辩论实验里"一致但错"很多，κ 上升不代表变好</td></tr></table>
+</section>
+
+<section class="panel"><h2>三、方法设计</h2>
+<div class="fig"><svg viewBox="0 0 1050 370" role="img" aria-label="多专家交互自进化"><defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#6b8179"/></marker></defs><text class="l b" x="20" y="22" text-anchor="start">我们的训练免费版：多专家交互自进化（不改模型权重，只更新每位成员的&quot;可进化状态&quot;）</text><rect class="n plain" x="20" y="50" width="210" height="120" rx="10"/><text class="t" x="125.0" y="83.0" text-anchor="middle">A. 能力评估</text><text class="t" x="125.0" y="99.0" text-anchor="middle">D1（train 的一半，有标签）</text><text class="t" x="125.0" y="115.0" text-anchor="middle">每位成员的准确率 →</text><text class="t" x="125.0" y="131.0" text-anchor="middle">权重 w、去掉弱成员、</text><text class="t" x="125.0" y="147.0" text-anchor="middle">易混淆先验表</text><rect class="n new" x="290" y="50" width="230" height="120" rx="10"/><text class="t" x="405.0" y="83.0" text-anchor="middle">B. 构造模糊标签</text><text class="t" x="405.0" y="99.0" text-anchor="middle">D2（train 另一半，不看标签）</text><text class="t" x="405.0" y="115.0" text-anchor="middle">成员独立判断 → 加权投票分布 Ỹ</text><text class="t" x="405.0" y="131.0" text-anchor="middle">候选集 C = 支撑集</text><text class="t" x="405.0" y="147.0" text-anchor="middle">∪ 第 1 个易混淆标签（F1）</text><rect class="n new" x="580" y="50" width="230" height="120" rx="10"/><text class="t" x="695.0" y="83.0" text-anchor="middle">C. 交互学习（自进化）</text><text class="t" x="695.0" y="99.0" text-anchor="middle">每位成员对照 Ỹ 更新状态：</text><text class="t" x="695.0" y="115.0" text-anchor="middle">C1 案例记忆</text><text class="t" x="695.0" y="131.0" text-anchor="middle">C2 规则补丁</text><text class="t" x="695.0" y="147.0" text-anchor="middle">C3 输出校准</text><polygon class="n gate" points="828,110 890,58 952,110 890,162"/><text class="t" x="890" y="107" text-anchor="middle">D1 上</text><text class="t" x="890" y="123" text-anchor="middle">变好了？</text><path class="a" d="M230 110 L290 110" marker-end="url(#ar)"/><path class="a" d="M520 110 L580 110" marker-end="url(#ar)"/><path class="a" d="M810 110 L828 110" marker-end="url(#ar)"/><path class="a d" d="M890 162 L890 205 L405 205 L405 170" marker-end="url(#ar)"/><text class="l" x="650" y="222" text-anchor="middle">是：接受更新，用更新后的成员重新构造 Ỹ（迭代 T 轮）</text><text class="l b" x="962" y="100" text-anchor="start">否：停止迭代</text><path class="a" d="M952 110 L990 110 L990 260" marker-end="url(#ar)"/><rect class="n judge" x="700" y="260" width="330" height="90" rx="10"/><text class="t" x="865.0" y="294.0" text-anchor="middle">D. 决策（D3 = 80 条验证集，只评估一次）</text><text class="t" x="865.0" y="310.0" text-anchor="middle">在 D1 上选：最好的单个成员</text><text class="t" x="865.0" y="326.0" text-anchor="middle">或候选集 C 内的加权投票</text><rect class="n plain" x="20" y="260" width="600" height="90" rx="10"/><text class="t" x="320.0" y="294.0" text-anchor="middle">测试时每位成员独立判断、互不可见（保持独立性，避免辩论里看到的从众）；</text><text class="t" x="320.0" y="310.0" text-anchor="middle">&quot;交互&quot;只发生在 D2 上，用来改变成员的先验，</text><text class="t" x="320.0" y="326.0" text-anchor="middle">而不是在测试样本上互相说服。</text></svg></div>
+<div class="fig"><svg viewBox="0 0 1060 210" role="img" aria-label="三种状态更新"><defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#6b8179"/></marker></defs><text class="l b" x="20" y="22" text-anchor="start">&quot;重训&quot;的三种训练免费替代（都只改成员的外部状态，不改模型权重）</text><rect class="n new" x="20" y="45" width="320" height="120" rx="10"/><text class="t" x="180.0" y="86.0" text-anchor="middle">C1 案例记忆</text><text class="t" x="180.0" y="102.0" text-anchor="middle">把 D2 样本的简述、模糊标签 Ỹ、</text><text class="t" x="180.0" y="118.0" text-anchor="middle">关键证据存成案例库；</text><text class="t" x="180.0" y="134.0" text-anchor="middle">推理时检索相似案例作参考</text><rect class="n new" x="365" y="45" width="320" height="120" rx="10"/><text class="t" x="525.0" y="86.0" text-anchor="middle">C2 规则补丁</text><text class="t" x="525.0" y="102.0" text-anchor="middle">统计成员与 Ỹ 的系统性偏离</text><text class="t" x="525.0" y="118.0" text-anchor="middle">（如总把 Ỹ 以 angry 为主的判成 worried）</text><text class="t" x="525.0" y="134.0" text-anchor="middle">→ 生成 1 条短规则，经门控才保留</text><rect class="n new" x="710" y="45" width="320" height="120" rx="10"/><text class="t" x="870.0" y="86.0" text-anchor="middle">C3 输出校准</text><text class="t" x="870.0" y="102.0" text-anchor="middle">让成员在候选集 C 上输出概率；</text><text class="t" x="870.0" y="118.0" text-anchor="middle">用 Ỹ 拟合每位成员的少量偏置参数</text><text class="t" x="870.0" y="134.0" text-anchor="middle">（最接近论文的 KL 重训）</text><text class="l" x="20" y="195" text-anchor="start">共同门控：任何更新只有在有标签的 D1 上不变差才被接受；所有提示词里都不含真实标签（只含群体分布 Ỹ）。</text></svg></div>
+<h3>流程（伪代码）</h3><pre>members = [(模型, 角色) for 模型 in {GPT, Gemini, Omni} for 角色 in {图谱, 音频字幕, 图像}]
+
+# A. 能力评估（D1，有标签）
+for m in members:
+    acc[m], confusion[m] = evaluate(m, D1)
+keep  = [m for m in members if acc[m] &gt;= max(acc) - δ]         # 论文与理论：能力相近才有交互收益
+w[m]  = log(acc[m] / (1 - acc[m]))                              # 建议：分类场景下的&quot;逆方差加权&quot;（独立投票者的最优加权）
+prior = 错判次数表(pred → gold, D1)                             # 用于候选集扩展（F1）
+state[m] = {cases: [], rules: [], calib: 恒等}                  # 可进化状态，不改模型权重
+
+for t in 1..T:                                                  # B + C：自进化循环（D2，不看标签）
+    for x in D2:
+        votes  = {m: run(m, x, state[m]) for m in keep}          # 每位成员独立判断，互不可见
+        Ỹ[x]   = normalize(Σ_m w[m] · onehot(votes[m]))          # 模糊标签
+        C[x]   = support(Ỹ[x]) ∪ top1_confusable(support(Ỹ[x]), prior)
+    for m in keep:
+        cand = update(state[m], D2, Ỹ, C)                        # C1 / C2 / C3 之一或组合
+        if acc_on(D1, m, cand) &gt;= acc_on(D1, m, state[m]):       # 门控：用有标签数据决定接不接受
+            state[m] = cand
+    if group_acc_on(D1) 不再提升: break                          # 停止条件看准确率，不看一致性 κ
+
+# D. 决策：在 D1 上（交叉验证）选&quot;最好的单个成员&quot;或&quot;候选集 C 内加权投票&quot;，
+#    然后在 80 条验证集上只评估一次。</pre>
+<div class="note"><b>补充说明</b>：循环里"训练什么、怎么验证"的详细解释、图和算例见 <code>docs/self-evolving-training-explained.html</code>。要点：大模型全部冻结，只训练每位专家的校准偏置 b 和融合权重 w；若只做 C3 校准，伪代码里每轮的 run(m, x, …) 不需要重跑大模型，调用量粗估降到 5,000 到 6,000 次。</div>
+<h3>为什么叫"自进化"</h3>
+<ul><li>D2 上没有人工标签，成员靠"群体分布"互相学习，更新后的成员又产生新的群体分布，循环进行；这对应论文的"交互学习"。</li>
+<li>有标签的 D1 只用于两件事：估计成员能力（权重、去掉弱成员）和门控（更新是否被接受、何时停止）。它不进入任何提示词。</li></ul>
+<h3>三种状态更新的细节与风险</h3>
+<table><tr><th>方式</th><th>做什么</th><th>主要风险</th></tr>
+<tr><td>C1 案例记忆</td><td>为每位成员建 D2 案例库（样本简述、Ỹ、关键证据）；推理时检索相似案例，附在提示词里作参考</td><td>相似度怎么算需要选（字幕或组织文本的文本相似、或答案模式相似）；案例的 Ỹ 本身可能是错的</td></tr>
+<tr><td>C2 规则补丁</td><td>统计成员与 Ỹ 的系统性偏离，让模型写 1 条短规则，例如"疑问句加皱眉不自动等于 worried"；只有在 D1 上不变差才保留</td><td>规则容易过拟合 D1；规则写进提示词需要做版本管理</td></tr>
+<tr><td>C3 输出校准</td><td>让成员在候选集 C 上输出概率分布；用 Ỹ 拟合每位成员的标签偏置（每个标签一个参数），最小化 KL</td><td>LLM 自报的概率未必可靠；参数虽少，D2 只有 160 条</td></tr></table>
+</section>
+
+<section class="panel"><h2>四、已有数据给出的依据（只读已保存结果，80 条开发集，描述性）</h2>
+<h3>F1：候选集"专家答案 ∪ 第 1 个易混淆标签"</h3><table><tr><th>模型</th><th>只看专家答案 E</th><th>E ∪ 第 1 个易混淆标签</th><th>随机加 1 个的期望</th><th>E ∪ 前 2 个</th><th>随机加 2 个的期望</th><th>平均候选集大小（k=0→1）</th></tr><tr><td>GPT</td><td class="n">60/80</td><td class="n"><b>66/80</b></td><td class="n">63.8</td><td class="n">68/80</td><td class="n">67.6</td><td class="n">1.19 → 2.19</td></tr><tr><td>GEMINI</td><td class="n">63/80</td><td class="n"><b>67/80</b></td><td class="n">66.3</td><td class="n">72/80</td><td class="n">69.6</td><td class="n">1.26 → 2.26</td></tr></table>
+<p class="muted small">覆盖率是上限，候选集里有真实标签不等于能选对；易混淆排序用留一法。详见 <code>docs/expert-union-confusable.html</code> 与 <code>metrics/findings_log.md</code>。</p>
+<h3>F2：同模型角色 vs 跨模型成员</h3><table><tr><th>成员组合</th><th>样本</th><th>单个成员答对</th><th>多数投票答对</th><th>任一成员答对（并集）</th><th>Fleiss κ</th><th>两两同时答错 / 独立假设下</th><th>两两给出同一个错答案</th></tr><tr><td>GPT 三角色</td><td class="n">80</td><td class="n">54–59</td><td class="n">57</td><td class="n"><b>60（75.0%）</b></td><td class="n">0.86</td><td class="n">26.2% / 9.2%</td><td class="n">22.1%</td></tr><tr><td>Gemini 三角色</td><td class="n">80</td><td class="n">54–59</td><td class="n">59</td><td class="n"><b>63（78.8%）</b></td><td class="n">0.80</td><td class="n">22.9% / 8.7%</td><td class="n">18.8%</td></tr><tr><td>Omni 三角色</td><td class="n">77</td><td class="n">53–56</td><td class="n">55（平票 3）</td><td class="n"><b>68（88.3%）</b></td><td class="n">0.66</td><td class="n">17.3% / 8.7%</td><td class="n">11.7%</td></tr><tr><td>跨模型·图谱专家（GPT / Gemini / Omni）</td><td class="n">77</td><td class="n">51–57</td><td class="n">58（平票 4）</td><td class="n"><b>67（87.0%）</b></td><td class="n">0.65</td><td class="n">16.9% / 8.4%</td><td class="n">10.8%</td></tr><tr><td>跨模型·音频字幕专家（GPT / Gemini / Omni）</td><td class="n">77</td><td class="n">52–56</td><td class="n">56（平票 6）</td><td class="n"><b>68（88.3%）</b></td><td class="n">0.63</td><td class="n">16.9% / 9.2%</td><td class="n">11.7%</td></tr><tr><td>跨模型·图像专家（GPT / Gemini / Omni）</td><td class="n">77</td><td class="n">52–54</td><td class="n">54（平票 6）</td><td class="n"><b>66（85.7%）</b></td><td class="n">0.65</td><td class="n">19.5% / 9.7%</td><td class="n">12.6%</td></tr><tr><td>GPT + Gemini 六位</td><td class="n">80</td><td class="n">54–59</td><td class="n">57（平票 8）</td><td class="n"><b>67（83.8%）</b></td><td class="n">0.75</td><td class="n">21.7% / 9.0%</td><td class="n">16.5%</td></tr><tr><td>GPT + Gemini + Omni 九位</td><td class="n">77</td><td class="n">51–57</td><td class="n">61（平票 2）</td><td class="n"><b>71（92.2%）</b></td><td class="n">0.67</td><td class="n">18.9% / 9.1%</td><td class="n">12.9%</td></tr></table>
+<ul>
+<li><b>GPT、Gemini 的同模型三角色错误高度相关</b>：两两同时答错的比例约是独立假设下的 2.6 到 2.9 倍，而且多数是"同一个错答案"。最优交互理论的收益在这种情况下会很小，这也解释了条件辩论为什么没用。Omni 的三角色本身就比较分散（κ 0.66、并集 88.3%），但它单个成员也较弱。</li>
+<li><b>跨模型成员更互补</b>：κ 更低、并集明显更高（GPT、Gemini 同模型三角色 75% 到 79%，跨模型约 86% 到 92%），"同一个错答案"的比例约减半。</li>
+<li><b>成员能力相近</b>：九位专家单独答对 51 到 59 条，符合"能力相近"的条件。</li>
+<li><b>但单靠投票还不够</b>：九位多数投票 61/77，并集 71/77；中间这 10 条正是需要"交互学习"去拿的空间。这只是描述，不是本方法的成绩。</li></ul>
+</section>
+
+<section class="panel"><h2>五、实验方案（建议）</h2>
+<h3>数据划分</h3>
+<ul><li>train 320 条（MER2024 160 + MELD 160）→ D1 160 条（有标签，两数据集各半）+ D2 160 条（不看标签）。</li>
+<li>80 条验证集作为 D3，所有选择都在 D1 上做完之后只评估一次。</li></ul>
+<h3>对照组</h3>
+<table><tr><th>编号</th><th>做法</th><th>回答什么</th></tr>
+<tr><td>B0</td><td>现状：v3 三专家 + 汇总器</td><td>基线</td></tr>
+<tr><td>B1</td><td>同模型三专家多数投票</td><td>投票基线</td></tr>
+<tr><td>B2</td><td>跨模型九位多数投票</td><td>异质成员本身带来多少</td></tr>
+<tr><td>B3</td><td>九位加权投票（权重来自 D1）</td><td>"逆方差加权"带来多少</td></tr>
+<tr><td>M1</td><td>B3 + 只在候选集 C 内投票</td><td>F1 候选集是否有用</td></tr>
+<tr><td>M2 / M3 / M4</td><td>分别加入 C1 案例记忆 / C2 规则补丁 / C3 校准，迭代 1 轮</td><td>哪种状态更新有效</td></tr>
+<tr><td>M*</td><td>最好的组合迭代 T 轮（T ≤ 3）</td><td>"自进化"多轮是否有收益</td></tr>
+<tr><td>MCIL-style</td><td>D1 上选出的最好单个成员</td><td>对应论文的最终决策方式</td></tr></table>
+<p><b>报告指标</b>：准确率、各标签召回、Fleiss κ、候选集覆盖率、每样本调用次数、相对 B2 的"由错变对 / 由对变错"翻转表。</p>
+<h3>成本粗估（需要你授权才能跑）</h3>
+<ul><li>train 320 条目前没有感知结果和 v3 专家输出，需要先在服务器上补跑：Gemini 固定图谱约 3 × 320 = 960 次；三个模型的组织文本加三位专家约 4 × 320 × 3 = 3,840 次。</li>
+<li>自进化每轮在 D2 上重跑九位成员约 9 × 160 = 1,440 次，T = 2 时约 2,880 次；规则补丁的门控还要在 D1 上额外评估。</li>
+<li>最终在 80 条上评估约 9 × 80 + 3 × 80 = 960 次。合计粗估 8,000 到 9,000 次调用。Omni 走服务器上的 vLLM，需要先确认服务状态与 GPU 是否空闲。</li></ul>
+</section>
+
+<section class="panel"><h2>六、风险与需要你决定的事</h2>
+<ul>
+<li><b>效果可能远小于论文</b>：论文改的是网络权重、D2 上万条；我们只改外部状态、D2 只有 160 条。</li>
+<li><b>项目定位</b>：C1 到 C3 都不改模型权重，仍属于 training-free；但规则补丁会改提示词，需要作为新版本保存，不覆盖 v1 到 v3。</li>
+<li><b>κ 不是目标</b>：论文把一致性提升当作成果之一；在我们的辩论实验里，一致后答错的样本很多，所以只把它当监控指标。</li>
+<li><b>开发集复用</b>：80 条已被多次使用，即使只评估一次，也只能算开发集结果。</li></ul>
+<div class="warn"><b>需要你决定：</b>① 是否授权在服务器上为 train 320 条补跑感知和三个模型的 v3 专家（约 4,800 次调用，含 Omni 的 vLLM 推理）；② 第一步先做哪种状态更新（我建议先做不改提示词、风险最低的 C3 输出校准，加上 B2、B3、M1 对照）。</div>
+</section>
+<p class="muted small" style="margin-top:20px">由 scripts/build_interactive_design.py 生成；静态页面，不依赖脚本，不调用模型。设计未实现、未运行。</p></main></body></html>

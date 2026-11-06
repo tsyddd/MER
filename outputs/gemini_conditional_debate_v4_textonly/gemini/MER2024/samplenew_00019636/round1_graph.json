@@ -1,0 +1,46 @@
+{
+  "output": {
+    "expert": "graph",
+    "changed": false,
+    "response_to_others": "对音频字幕专家：其指出的语调上扬与诧异音质被图谱节点[person_1]明确的‘语调低沉沉静’所反驳，且情绪轮明确规定surprise‘不等同于所有疑问句’，将台词的反问语气直接等同于情绪诧异存在误判。对图像专家：其观察到的‘双眼微睁、手抵领口’与图谱[person_2]、[person_3]吻合，但这些微表情与静态动作处于事后复盘推敲的情境链中，是专注审视与深度沉思的体态，而非即时受到惊吓冲击的生理性诧异反应。",
+    "reason": "综合事件组织链条与节点表现，当前互动属于案情推敲与经验复盘。男子的言语行为先是对胡十四娘年龄提出客观质疑[process_0, process_1]，再有序转述对方关于‘人面花’的自述[process_2, process_3]，整体为逻辑连贯的叙述论证，而非突发信息引发的剧烈认知冲击。听觉上图谱节点[person_1]明确界定男子发声‘语调低沉沉静’；体态上[person_3]手抵领口、[person_4]目光定视前方，完全是理性思考与沉静交流的典型特征。符合情绪轮中关于平稳叙述、无明确非中性唤醒的neutral判定。",
+    "open_emotion": "沉思",
+    "answer": "neutral",
+    "mapping_reason": "目标人物在对反常事实进行逻辑推敲与转述时，言语平缓从容，体态专注内敛，处于典型的理性分析与平稳陈述状态；情绪轮严格规定疑问句式不能直接等同于surprise，男子无突发震惊或强烈唤醒，准确映射为neutral家族。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "graph",
+        "anchor": "person_1",
+        "observation": "图谱明确标注男子发声时‘语调低沉沉静’，与[process_0]、[process_1]的言语同时发生。",
+        "interpretation": "证实其说话时声调平和内敛，不具备surprise所需的急促、扬起或震惊音质。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "graph",
+        "anchor": "person_3与person_4",
+        "observation": "男子抬起右手屈肘将拳头抵在颈前衣领处并持续保持，目光定视前方。",
+        "interpretation": "属于深度思考、案件复盘的克制肢体语言，展现情绪受控与内在专注，有力支持平稳沉思的状态。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "subtitle",
+        "anchor": "那胡十四娘，真的一百多岁了，我怎么看也不像啊！那晚，她说，她用了人面花，得以拥抱青春。",
+        "interpretation": "后半句平实叙述对方话语，表明说话者是在系统梳理事态脉络，反问句仅为逻辑分析工具，并不代表当下的情绪性诧异失控。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "台词中带有反问与感叹标点，且对方专家提及的睁眼微张嘴神态[person_2]，在表层语义和孤立切片上极易被套解为诧异（surprise）；但放入低沉语调[person_1]与事后转述的整体事件结构中，这种表层特征实为聚精会神推敲案情的反映。"
+  },
+  "usage": {
+    "completion_tokens": 2118,
+    "total_tokens": 7342,
+    "prompt_tokens": 5224,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1211
+    }
+  },
+  "seconds": 22.628488302230835
+}

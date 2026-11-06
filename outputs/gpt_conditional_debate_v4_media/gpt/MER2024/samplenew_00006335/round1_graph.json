@@ -1,0 +1,60 @@
+{
+  "output": {
+    "expert": "graph",
+    "reason": "目标男子当前举着电话询问增兵情况，而非陈述已经核实的结果。[E1]“不是已经……了吗”显示他原先有所预期、此刻仍需确认；[E2]持续严肃地注视前方，与审慎求证相符。图谱的process_0记录的是同一次提问[E3]，不是独立的情绪证据，也没有提供对方答复。现有证据更支持对未确认情况的疑虑，尚不足以确认他刚受到出乎意料的消息。",
+    "open_emotion": "疑虑",
+    "answer": "worried",
+    "mapping_reason": "疑虑指向增兵情况是否如预期这一未确定的问题，较接近worried所强调的对未知情况的不安；证据不足以推断具体后果或强烈焦虑。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "subtitle",
+        "anchor": "关东军不是已经增兵甲子沟、煤矿了吗？",
+        "observation": "男子用“不是已经……了吗”询问增兵情况。",
+        "interpretation": "他在核实原以为成立的事，而不是确认增兵已经发生。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_00（0.0秒）至frame_07（2.64秒）",
+        "observation": "男子始终举着听筒、注视前方，说话时表情严肃，未见明显的突发性表情变化。",
+        "interpretation": "与持续求证相容；单凭这一神情不能判定担忧或惊讶。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "graph",
+        "anchor": "process_0",
+        "observation": "节点记录男子持电话询问增兵一事。",
+        "interpretation": "该节点对应当前互动，但与字幕、画面描述同一事实，不能重复计作情绪证据。",
+        "polarity": "support"
+      },
+      {
+        "id": "E4",
+        "source": "graph",
+        "anchor": "person_1",
+        "observation": "节点转述男子语气低沉、带有疑问。",
+        "interpretation": "未提供原音轨，无法亲耳核验语调；保留这一图谱转述，不以它决定标签。",
+        "polarity": "uncertain"
+      }
+    ],
+    "counterevidence": "这也可能只是平稳地核对事实；问句暗示原有预期，却没有呈现对方的答复或明确的预期违背事件，因此不能仅凭问法判为惊讶。",
+    "changed": false,
+    "response_to_others": "音频字幕专家引用的问句与frame_02至frame_06中的严肃神情均可核实；但“原以为如此”不等于已收到相反消息，眉眼略抬也不足以确认即时惊讶。图像专家所述持电话、持续注视及句末未明显放松与画面相符；其视觉证据与我的[E2]同源，须结合字幕理解，不能作为另一项独立的担忧证据。"
+  },
+  "usage": {
+    "completion_tokens": 839,
+    "total_tokens": 6919,
+    "prompt_tokens": 6080,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_creation_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 54
+    }
+  },
+  "seconds": 22.107946395874023
+}

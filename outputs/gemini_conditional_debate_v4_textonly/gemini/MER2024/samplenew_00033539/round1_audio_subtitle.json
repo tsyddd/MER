@@ -1,0 +1,47 @@
+{
+  "output": {
+    "changed": false,
+    "response_to_others": "认同图谱专家关于事件链为突发震惊与即时追问的判断，高扬的反问语调是定性关键；图像专家将静态的老年眉心纹理及定格神态过度解读为对风险的焦虑（worried），且其所称后半句‘语调下沉愁闷’与真实音轨中持续拔高的反问求证语气不符，因此不接受转向worried。",
+    "expert": "audio_subtitle",
+    "reason": "目标人物在听到突发言论后，言语行为完全表现为即时惊讶与求证。音轨中‘啊？’与‘真的？’连续以急促、显著升调的方式脱口而出，直接体现对当前信息的违背预期与不可置信；视觉上的微张口与定格凝视高度协同于错愕神态，而非对未来负面后果的担忧与顾虑。",
+    "open_emotion": "诧异",
+    "answer": "surprise",
+    "mapping_reason": "短促的叹词与强烈的反问语调表明说话者正处于信息违背预期的瞬间错愕中，符合MER2024情绪轮中surprise（因当前信息违背预期产生的意外、诧异或震惊）的严格定义。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "audio",
+        "anchor": "0.0s-1.8s",
+        "observation": "目标人物发出短促拔高的“啊？”，随即以急促上扬的声调追问“真的？”，整体音高明显高出日常叙述基线，无低沉叹息或拖沓停顿。",
+        "interpretation": "强烈的反问升调韵律直接映射出被突发信息冲击时的惊诧与不敢置信。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "subtitle",
+        "anchor": "啊？真的。",
+        "observation": "台词由叹词与求证词构成极短的反问式言语行为。",
+        "interpretation": "交互意图在于即时核实出乎意料的刺激，属于纯粹的意外反应，未展开任何对后果的担忧评估。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "visual",
+        "anchor": "frame_01 (0.28s)",
+        "observation": "目标人物眉心聚拢、眉梢微抬，嘴部半张定格注视对方。",
+        "interpretation": "面部神情与听觉上的错愕反问完全一致，呈现典型的瞬间吃惊状态。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "老年人额部与眉心自带的深褶纹在微张口时容易被表象识别为忧虑，但在不到两秒的突发反问语境下，言语和韵律占据绝对主导，缺乏支持worried的持续焦虑表征。"
+  },
+  "usage": {
+    "completion_tokens": 1248,
+    "total_tokens": 4826,
+    "prompt_tokens": 3578,
+    "completion_tokens_details": {
+      "reasoning_tokens": 572
+    }
+  },
+  "seconds": 12.834217071533203
+}

@@ -1,0 +1,52 @@
+{
+  "output": {
+    "expert": "image",
+    "reason": "目标是八帧中穿黑色上衣、面向画外说话的女性。她开头睁眼张口，中段短暂收紧嘴唇，随后继续睁眼、绷着嘴部说话；变化比单独的张口更支持她在解释时有些不安[E1]。画面文字是“我不知道这件旗袍是你的”，为解释自己不知情提供语境，但没有明说她担心什么后果[E2]。",
+    "open_emotion": "不安",
+    "answer": "worried",
+    "mapping_reason": "这里的不安是解释自身行为时可能被误解的顾虑，较接近worried所指的顾虑与不确定性；具体后果并未得到证实。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "visual",
+        "anchor": "frame_00（0.000秒）、frame_04（0.860秒）至frame_07（1.494秒）",
+        "observation": "女性起初睁眼张口；frame_04嘴唇短暂收紧，之后继续面向画外说话，眼睛仍睁得较大，嘴部显得紧绷。",
+        "interpretation": "持续解释时的面部变化支持不安，但开头张口也可能只是说话或即时诧异。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_01（0.226秒）至frame_07（1.494秒）",
+        "observation": "画面可读文字为“我不知道这件旗袍是你的”。",
+        "interpretation": "这为她正在解释不知情提供语境，不能据此断言她受到责问，也不能当作听到的语调。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "subtitle",
+        "anchor": "当前提供的字幕“我：不。”",
+        "observation": "另行提供的字幕是简短否认，与画面上的完整句子不同。",
+        "interpretation": "否认本身不足以区分不安和诧异。",
+        "polarity": "uncertain"
+      }
+    ],
+    "counterevidence": "最强替代解释是诧异：开头睁眼、圆口，画面文字也涉及此前不知情的事。片段没有明确呈现她预期的负面后果，且未提供音轨，因此不安的判断有一定限度。",
+    "changed": false,
+    "response_to_others": "图谱专家引用的开头睁眼张口、frame_04短暂抿唇，以及画面文字，均可在帧中核实；但图谱节点及其所述语调不在本轮可独立核查的原始媒体中。此前不知情支持诧异这一反证，却不能单凭文字确定当前主要是即时惊讶。音频字幕专家所述画面文字和嘴部变化也可核实，与我的判断一致；其提出的‘可能被责问’仍只是解释，画面没有直接呈现责问或具体后果。"
+  },
+  "usage": {
+    "completion_tokens": 750,
+    "total_tokens": 6937,
+    "prompt_tokens": 6187,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_creation_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 67
+    }
+  },
+  "seconds": 18.96981167793274
+}

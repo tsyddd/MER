@@ -1,0 +1,47 @@
+{
+  "output": {
+    "expert": "graph",
+    "changed": true,
+    "response_to_others": "对音频字幕专家：核实了音轨00:01-00:03处“真的一百多岁了”结尾语调确有反问上扬与不可置信的停顿，证实前段言语并非单纯的平缓推理，而是受到常理违背的冲击。对图像专家：核实了frame_01至frame_03中双眼微睁与锁眉凝视的神态（对应图谱[person_2]），结合图谱事件脉络，确认手抵领口不仅是回忆，更是被荒谬离奇事实冲击后的警疑。",
+    "reason": "目标人物在当前互动中正面对“胡十四娘看似年轻却已逾百岁”这一严重违背自然规律的离奇信息。图谱事件链中，男子由[process_0]提出反常前提，到[process_1]断言“怎么看也不像啊”，形成了强烈的认知失调与质疑。在音轨00:00-00:03中，男子发音带有明显的反问上扬与迟疑；配合视觉[person_2]（frame_01-frame_03）双眼睁大、眉头深锁的诧异神色，随后转入[process_2]、[process_3]提及“人面花永葆青春”的荒诞缘由，整体呈现出被颠覆认知的惊愕与怀疑，而非纯粹中立客观的叙事。",
+    "open_emotion": "诧异",
+    "answer": "surprise",
+    "mapping_reason": "目标人物因得知对方“年过百岁却貌美如常”这一违背生理规律与现实预期的离奇真相，产生强烈的认知冲击与不可置信，符合情绪轮中关于因违背预期而产生的意外、诧异与惊奇的界定，映射为surprise。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "graph",
+        "anchor": "process_0与process_1",
+        "observation": "图谱记录男子由质疑胡十四娘年龄（process_0）递进到断言“我怎么看也不像啊”（process_1）。",
+        "interpretation": "事件链条清晰表明其当下的核心认知处于“既有常识”与“突发反常线索”的剧烈冲突中，主导心理为认知震惊与怀疑。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "audio",
+        "anchor": "00:00-00:03",
+        "observation": "男子说出“真的一百多岁了”时尾音明显提调上扬，紧接“我怎么看也不像啊”语气带着探询与难以置信。",
+        "interpretation": "听觉语调呈现出即时被违背常理的信息所触动的惊诧感，排除了平稳客观叙事（neutral）。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "visual",
+        "anchor": "frame_01-frame_03",
+        "observation": "男子双眼微睁、眉头微蹙，眼神聚焦前下方，嘴唇微张开合。",
+        "interpretation": "面部神态直接印证了其在接收到荒诞事实瞬间的诧异与困惑。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "片段后半段男子握拳抵于领口（person_3）叙述“人面花”之事时语调有所压低，带有思索沉吟成分，但该行为是在试图消化前文荒谬惊愕事实的延续反应，无法削弱前段主导的惊诧基调。"
+  },
+  "usage": {
+    "completion_tokens": 2247,
+    "total_tokens": 16336,
+    "prompt_tokens": 14089,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1350
+    }
+  },
+  "seconds": 27.445265769958496
+}

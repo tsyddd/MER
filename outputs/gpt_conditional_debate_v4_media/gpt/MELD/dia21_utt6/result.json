@@ -1,0 +1,14 @@
+{
+  "id": "MELD/dia21_utt6",
+  "dataset": "MELD",
+  "round0_labels": {
+    "graph": "joy",
+    "audio_subtitle": "joy",
+    "image": "joy"
+  },
+  "triggered": false,
+  "final": "joy",
+  "rounds_run": 0,
+  "round_labels": [],
+  "judge": null
+}

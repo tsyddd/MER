@@ -1,0 +1,47 @@
+{
+  "output": {
+    "expert": "audio_subtitle",
+    "changed": false,
+    "response_to_others": "对图谱专家：其将句末背景观众笑声或带有攻击性的尖酸冷笑误判为Janice自我逗乐的joy，脱离了语境中面对被分手/被伤害时的语用动机；'theater of cruelty'本质是借反讽宣泄被冒犯与受害的不满，绝非真正的正向愉悦。对图像专家：完全认同其指出的Janice抱胸封闭防卫体态及说完后紧盯对方的冷峻神情，视觉与听觉层面的尖锐挖苦完全互证了其内心的抗议与愤慨。",
+    "reason": "目标人物在遭遇冷酷对待时，借用极其尖酸的比喻（'theater of cruelty'）进行言语还击。其语调尖锐高亢、音质带有刻意突出的戏谑与刺耳重音[E1]，其言语行为并非为了自娱自乐，而是通过讽刺挖苦来责备对方的冷酷无情，属于典型的防御性对抗与指责[E2]。结合视觉上始终呈现的抱胸防御姿态与紧绷冷峻的面容，其主导情绪明确为受到冒犯与伤害后的愤慨对抗[E3]。",
+    "open_emotion": "愤慨",
+    "answer": "anger",
+    "mapping_reason": "目标人物通过尖锐的反讽与带刺的言语指责对方残忍冷酷，表达强烈的不满与敌意对抗，完全符合anger家族中'对冒犯、受阻或不公的恼火、责备与对抗'的定义。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "audio",
+        "anchor": "00:00-00:06",
+        "observation": "目标人物在'puppets'与'theater of cruelty'处使用极其刺耳的高亢重音与尖锐下落语调，伴随尖酸的强调感。",
+        "interpretation": "夸张刺耳的语调是宣泄不满与怨怼的言语武器，而非友好的幽默调侃。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "subtitle",
+        "anchor": "Because you know, you could make little puppets out of them, and you could use them in your theater of cruelty.",
+        "observation": "直接使用'theater of cruelty'（残酷剧场）指控对方的冷血残忍。",
+        "interpretation": "以反讽和控诉为核心的言语行为，旨在对抗和谴责对方的行为。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "visual",
+        "anchor": "frame_00至frame_07",
+        "observation": "Janice全程伴随双臂环抱胸前的防御体态，说话时嘴角虽扯动但眼神紧绷冷峻，说完后立即收紧双臂注视对方。",
+        "interpretation": "防御且具有距离感的身体语言，有力排除了正向欢愉，证实其处于心理对抗的怒意状态。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "话语形式带有情景喜剧式的荒诞夸张与背景笑声，表面容易被错认成戏谑逗趣（joy），但结合其实际评价对象（对方的cruelty）及敌意防御表现，证明其实质是借嘲讽表达气愤。"
+  },
+  "usage": {
+    "completion_tokens": 1467,
+    "total_tokens": 5274,
+    "prompt_tokens": 3807,
+    "completion_tokens_details": {
+      "reasoning_tokens": 637
+    }
+  },
+  "seconds": 14.66196870803833
+}

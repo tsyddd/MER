@@ -1,0 +1,60 @@
+{
+  "output": {
+    "expert": "graph",
+    "reason": "目标女子在当前互动中面向画外说话，开头睁眼、圆口，随后短暂抿唇并继续说话；这支持她对当前情况有即时反应，但表情本身不能区分诧异和不安。[E1] 画面可读文字是“我不知道这件旗袍是你的”，表明她正在回应一项此前不知道的归属信息，而不是在陈述未来风险。[E2] 图谱process_0记录了同一句话，能帮助确认这是目标人物当前的解释，不是另一人的话；但它与画面文字同源，不能另算一条独立情绪证据。[E3] 我上一轮把图谱话语判为与字幕矛盾，忽略了画面中的文字，现予以纠正。person_1所述急促语调没有原音轨可核验，只保留为图谱转述。[E4]",
+    "open_emotion": "诧异",
+    "answer": "surprise",
+    "mapping_reason": "她当前回应的是自己此前不知道的归属信息，配合开头的睁眼、圆口反应，更接近对新信息的即时诧异，故映射为surprise；解释性话语也可能带有不安，但尚不足以确定她主要在顾虑后果。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "visual",
+        "anchor": "frame_00（0.0秒）至frame_07（1.494秒）",
+        "observation": "女子开头睁眼、圆口，frame_04短暂抿唇，之后继续面向画外说话。",
+        "interpretation": "支持当前并非平稳叙述；开头的反应与即时诧异相符，但不能仅凭表情排除不安。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_01（0.226秒）至frame_07（1.494秒）",
+        "observation": "画面文字为“我不知道这件旗袍是你的”。",
+        "interpretation": "她当前在回应自己此前不知道的归属信息，为诧异提供事件语义；这不是已核实的听觉内容。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "graph",
+        "anchor": "process_0",
+        "observation": "节点记录女子说“我不知道这件旗袍是你的”，与画面文字相符。",
+        "interpretation": "可用于定位目标人物当前的解释行为，但与画面文字重复，不构成独立情绪证据。",
+        "polarity": "support"
+      },
+      {
+        "id": "E4",
+        "source": "graph",
+        "anchor": "person_1",
+        "observation": "节点称女子说话时“语调急促连贯”。",
+        "interpretation": "这是图谱中的音频转述；未提供原音轨，不能亲耳核验或据此确定情绪。",
+        "polarity": "uncertain"
+      }
+    ],
+    "counterevidence": "“我不知道这件旗袍是你的”也可作为面对误解时的防御性解释；后段紧绷的嘴部表情与不安相容。当前没有明确的受责情境或未来风险表述，因此不把这种可能性提升为主导判断。提供的文字字幕“我：不。”比画面文字短，不能用它否定画面中可读的完整句子。",
+    "changed": false,
+    "response_to_others": "音频字幕专家指出frame_01至frame_07有完整画面文字，我已核实；上一轮称它与字幕冲突不准确。但“担心被责问”仍是对解释行为的可能解读，画面没有明确呈现预期后果。图像专家所述开头睁眼、圆口可以核实；不过frame_04曾短暂抿唇，不能概括为后段持续张口，也不能把这一表情重复计作独立证据。"
+  },
+  "usage": {
+    "completion_tokens": 1214,
+    "total_tokens": 7534,
+    "prompt_tokens": 6320,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_creation_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 230
+    }
+  },
+  "seconds": 34.3328275680542
+}

@@ -1,0 +1,60 @@
+{
+  "output": {
+    "expert": "graph",
+    "reason": "目标是粉衣女子。核对画面后，她在说“我也不想跟你分开”时垂眼、眉间收紧，说完仍垂着目光[E1][E2]。图谱process_0到process_1所组织的“表达后停下”与画面相符[E3]，但这一顺序不能证明两人已分开，也不能证明她正在担忧某种未知后果。结合当前话语，更有依据将她的表现理解为不舍，而非我上一轮判断的不安。",
+    "open_emotion": "不舍",
+    "answer": "sad",
+    "mapping_reason": "她当前表达的是不愿与对方分别，神情也显得低落；这种分别语境中的不舍更接近sad。字幕没有明确表达对未知风险或后果的焦虑，因此不优先映射为worried。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "subtitle",
+        "anchor": "我也不想跟你分开。",
+        "observation": "女子向对方说自己不愿分开。",
+        "interpretation": "话语直接表达对分别的不舍，但不证明分别已经发生。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_02（0.56秒）至frame_07（1.96秒）",
+        "observation": "女子说话时眉间收紧、视线下垂；停下后仍垂眼，嘴唇闭合。",
+        "interpretation": "与话语合看，支持克制的低落；单凭这一表情不能区分悲伤与担忧。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "graph",
+        "anchor": "process_0、process_1",
+        "observation": "图谱将粉衣女子对男子说出这句话、随后停止说话组织为当前互动。",
+        "interpretation": "画面与字幕支持这一互动顺序，确认表达属于目标人物的当前行为；节点顺序本身不提供分别的原因或结果。",
+        "polarity": "support"
+      },
+      {
+        "id": "E4",
+        "source": "graph",
+        "anchor": "person_1",
+        "observation": "图谱转述女子发声轻微、语调低缓轻弱。",
+        "interpretation": "未提供原音轨，无法亲耳核验；保留为图谱转述，不作为最终取舍的关键。",
+        "polarity": "uncertain"
+      }
+    ],
+    "counterevidence": "“不想分开”也可能伴随对将来分别的担忧，垂眼和皱眉同样不能单独排除这种解释。但片段没有明确的未知风险或后果评价；也不能据此断定两人已经分开。",
+    "changed": true,
+    "response_to_others": "音频字幕专家引用的字幕原话及frame_02至frame_05的垂眼、眉间收紧均可核实；其指出话语未明确表达对未知后果的焦虑，纠正了我上一轮将可能分开直接判作担忧的推断。图像专家所引frame_00至frame_07的持续垂眼、说完闭唇也可核实；这些与另一专家所引表情是同一组视觉事实，不应重复计权，且画面没有可据以断言哭泣的清晰证据。"
+  },
+  "usage": {
+    "completion_tokens": 836,
+    "total_tokens": 7239,
+    "prompt_tokens": 6403,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_creation_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 101
+    }
+  },
+  "seconds": 25.087754487991333
+}

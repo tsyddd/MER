@@ -1,0 +1,60 @@
+{
+  "output": {
+    "expert": "graph",
+    "reason": "Monica在沙发上朝门边方向说出连续的“No-no-no, no!”[E1]，随后放低手中书本、前倾并试图起身[E2]。这段当前互动更像急于阻止某事，而不只是被意外消息打断。图谱process_1记录了相近的动作顺序[E3]，但与画面是同源事实，不能重复计证；图谱也没有交代她究竟要阻止什么。",
+    "open_emotion": "惊慌",
+    "answer": "fear",
+    "mapping_reason": "她的连续制止和急于介入，更接近对眼前事情可能产生负面后果的惊慌，因此近似映射到fear。具体后果未呈现，不能断言她害怕某种明确危险。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "subtitle",
+        "anchor": "“No-no-no, no!”",
+        "observation": "Monica当前连续说“不”。",
+        "interpretation": "支持她正在急切制止或反对；字幕文字本身不能证明语调或制止原因。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_02（0.584秒）至frame_07（2.002秒）",
+        "observation": "Monica起初坐着持书，随后放低书本、身体向前探出；末帧转头张口，眼睛睁大。",
+        "interpretation": "连续动作与制止话语相配，支持她急于介入，而非仅仅静坐着表示意外。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "graph",
+        "anchor": "process_1",
+        "observation": "图谱记述Monica迅速移开并放下手中物品。",
+        "interpretation": "画面支持书本被放低，但杯子不清楚；这是对[E2]所涉动作的转述，不是独立情绪证据。",
+        "polarity": "uncertain"
+      },
+      {
+        "id": "E4",
+        "source": "graph",
+        "anchor": "person_2",
+        "observation": "图谱转述她发声急促、音量较大且语调高亢。",
+        "interpretation": "未提供原音轨，无法亲耳核验；保留为图谱转述，不据此决定标签。",
+        "polarity": "uncertain"
+      }
+    ],
+    "counterevidence": "图像专家指出的末帧睁眼、张口确可支持吃惊，但这组表情与[E2]属于同一画面事实，不能单独证明她只是意外。字幕和画面均未揭示明确威胁；门边孔洞也不能充当Monica恐惧的直接证据。",
+    "changed": false,
+    "response_to_others": "音频字幕专家引用的连续否定字幕，以及frame_02、frame_05至frame_07的前倾和转头动作，均可核实；未提供原音轨，不能核验其语调。图像专家所指的末帧睁眼张口也可见，但与急于制止的连续话语和动作合看，不足以让我改判为单纯的surprise。"
+  },
+  "usage": {
+    "completion_tokens": 922,
+    "total_tokens": 8011,
+    "prompt_tokens": 7089,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_creation_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 110
+    }
+  },
+  "seconds": 22.320834159851074
+}

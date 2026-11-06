@@ -1,0 +1,47 @@
+{
+  "output": {
+    "expert": "graph",
+    "changed": false,
+    "response_to_others": "核对真实音轨发现，Joey发音自然平稳且尾音轻落，并无压抑火气或攻击性重音，音频字幕专家仅因文本含讽刺内容便推论为‘恼火’（anger）属于过度解读；图像专家准确核实了Joey面部肌肉松弛无怒容、手势随性且迅速放下归于松弛的常态特征，与图谱记录及实际视听相符。",
+    "reason": "围绕Joey的互动事件链：Joey纠正同伴并顺承调侃（process_0与process_1），其动作伴随食指轻点后摊手示意（person_0、person_2），随后自然垂手注视对方（person_3）。经音轨与图谱节点person_1及person_4核验，Joey语调平缓随意、尾音轻落，既无恼火攻击的怒意对抗（anger），也无兴奋大笑的欢愉（joy），整体表现为典型情景喜剧中的平稳反驳与自然吐槽，情绪基调处于平稳、日常的中性状态。",
+    "open_emotion": "平稳陈述",
+    "answer": "neutral",
+    "mapping_reason": "Joey在表达反驳与调侃时语气平稳随和、神情松弛从容，未表现出明显的对抗攻击或正负向情绪激惹，符合情绪轮中neutral（平稳、日常且无明确主导情绪）的定义。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "graph",
+        "anchor": "person_4",
+        "observation": "图谱记录Joey说话时语速平缓，句尾声音自然轻落，经实际音轨核实Joey在句尾发音放松，毫无抱怨或怒气冲冲的加重反击。",
+        "interpretation": "听觉韵律平稳，排除了主观情绪上的恼火或对抗（anger）。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "visual",
+        "anchor": "frame_01-frame_03",
+        "observation": "Joey在说话时虽伴有抬食指和翻掌手势（person_0, person_2），但面部眉毛舒展无紧锁，嘴唇与面颊无攻击性紧绷。",
+        "interpretation": "手势仅为对话交际中的常规强调与比划，缺乏攻击性张力。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "visual",
+        "anchor": "frame_04-frame_07",
+        "observation": "完成话语后Joey手臂自然下垂（person_3），身体姿势松弛端立，目光平静注视前方等待反应。",
+        "interpretation": "肢体和神态迅速归于平静，体现出没有情绪波动的稳定日常状态。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "台词‘she kicked our butts’和‘Olympic standing-there team’具有讽刺揶揄色彩，容易被文本分析误判为不满与责怪（anger），但实际视听表现均属于冷面幽默（deadpan）的平淡陈述，缺乏支撑非中性情绪的实际生理与语音负荷。"
+  },
+  "usage": {
+    "completion_tokens": 1444,
+    "total_tokens": 15738,
+    "prompt_tokens": 14294,
+    "completion_tokens_details": {
+      "reasoning_tokens": 641
+    }
+  },
+  "seconds": 19.85249900817871
+}

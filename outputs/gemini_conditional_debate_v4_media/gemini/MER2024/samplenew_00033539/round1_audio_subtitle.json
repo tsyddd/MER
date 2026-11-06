@@ -1,0 +1,47 @@
+{
+  "output": {
+    "expert": "audio_subtitle",
+    "changed": false,
+    "response_to_others": "核对图像专家的E3发现，其称目标‘随后接上语调下沉且带愁闷语气的真的’与真实音频严重不符；实际上00:01-00:02处‘真的’尾音显著上扬挑起，为极高音调的不可置信反问，并无语调下沉或愁闷音色。图谱专家对音调拔高与连续追问事件链的描述完全属实，准确还原了听觉事实。",
+    "reason": "目标人物在听到对方说话后，第一时间以急促短促的拔高音调发出叹词“啊？”，随即以明显的尾音上挑升调反问“真的？”，整体语调极高、节奏紧凑，言语行为完全是由突发信息违背心理预期引起的即时震惊与难以置信的求证反应。老年人额头自然松弛褶皱容易被误读为愁容，但声音上完全没有拖沓、沉重或低沉叹息等担忧特征。",
+    "open_emotion": "诧异",
+    "answer": "surprise",
+    "mapping_reason": "核心言语行为是对突发新信息的反问求证与强烈意外，音调拔高上扬，符合MER2024情绪轮中surprise（因当前信息违背预期产生的意外、诧异或震惊）的界定。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "audio",
+        "anchor": "00:00-00:02",
+        "observation": "目标人物以短促、音高显著拔高的升调说出‘啊？’，紧接着以高音区上扬声调反问‘真的？’，两词间几无停顿，尾音大幅挑高。",
+        "interpretation": "高昂的上扬声调和急促节奏构成强烈的不可置信与意外探询态度，直接否定了低沉愁闷的担忧假说。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "subtitle",
+        "anchor": "啊？真的。",
+        "observation": "字幕为叹词加反问词构成的短句。",
+        "interpretation": "属于对话中典型的接收出乎意料信息时的应答行为，指向预期违背本身。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "visual",
+        "anchor": "frame_01至frame_03 (0.28s-0.84s)",
+        "observation": "目标人物双眼聚焦前方、嘴唇张开露齿，面部呈现被突发对话打断时的凝固反应。",
+        "interpretation": "与声音的突发惊讶即时反应相吻合，未出现长时间低头叹息等忧虑肢体语言。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "目标人物眉心处有较深竖纹，单从静态帧看可能带来担忧（worried）的误判，但结合真实音轨中极具穿透力的高音调反问，主导情绪无疑为诧异惊讶。"
+  },
+  "usage": {
+    "completion_tokens": 1274,
+    "total_tokens": 13495,
+    "prompt_tokens": 12221,
+    "completion_tokens_details": {
+      "reasoning_tokens": 514
+    }
+  },
+  "seconds": 15.084507942199707
+}

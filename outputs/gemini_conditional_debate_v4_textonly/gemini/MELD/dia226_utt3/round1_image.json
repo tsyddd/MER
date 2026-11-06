@@ -1,0 +1,39 @@
+{
+  "output": {
+    "expert": "image",
+    "changed": false,
+    "response_to_others": "对图谱专家：图谱专家忽视了frame_02至frame_04中Rachel明显的内侧眉毛上抬（轻微八字眉）以及嘴角微微向下的微表情，将其误判为全然放松的中性表情，低估了肢体与神情透露出的受挫与无力感。对音频字幕专家：完全认同其观察，轻缓叹息的尾调与画面中微蹙的眉头、略微摊手下撇的姿态高度契合，共同强化了求而不得的失落感。",
+    "reason": "目标人物Rachel在倾诉时眉心微聚、眉毛内角上抬呈现出典型的惆怅与无奈神色，嘴角亦在说话停顿间略向下撇；其双手在胸前摊开的动作配合带有落空感的叹息语调，视觉与听觉模态均指向因无法走进对方内心而产生的失落与沮丧。",
+    "open_emotion": "失落",
+    "answer": "sadness",
+    "mapping_reason": "当前语境下的'失落'体现了因伴侣无法敞开心扉而产生的愿望落空与受挫感，外化表现为蹙眉、嘴角下撇等委屈沮丧神态，在情绪轮中明确归属于因失落与痛苦导致的低落家族（sadness）。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "visual",
+        "anchor": "frame_02至frame_04 (0.92s-1.38s)",
+        "observation": "Rachel眉毛内角聚拢上抬（呈轻微八字眉），嘴角微撇，双手在胸前微曲张开比划，神态显露受挫与无助。",
+        "interpretation": "面部呈现典型的悲伤/沮丧微表情特征，手势强化了表达内心无力沟通的受挫感。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "subtitle",
+        "anchor": "Y’know, I wish I could get him to open up a little bit, share some feelings.",
+        "observation": "台词使用虚拟愿望结构表达对伴侣封闭情感的无奈与落空感。",
+        "interpretation": "语义明确指向情感沟通受阻带来的落寞与沮丧体验。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "在frame_00片段伊始Rachel面部相对放松，且整体是与朋友日常对话的坐姿，若忽视眉眼间微妙的蹙动容易被表面化地解读为平稳交谈（neutral）。"
+  },
+  "usage": {
+    "completion_tokens": 1043,
+    "total_tokens": 4617,
+    "prompt_tokens": 3574,
+    "completion_tokens_details": {
+      "reasoning_tokens": 400
+    }
+  },
+  "seconds": 9.99904179573059
+}

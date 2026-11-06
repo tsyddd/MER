@@ -1,0 +1,47 @@
+{
+  "output": {
+    "expert": "audio_subtitle",
+    "changed": false,
+    "response_to_others": "对图谱专家：你指出的低沉克制确实存在，但音调平缓在案情推理中往往属于克制低语，不能简单等同于neutral，台词中极强的反问与对违背认知常理的质问正是惊疑的言语体现。对图像专家：高度认同你对frame_01-03眼神睁开、眉毛微蹙等微表情的观察，这与音频前半句反问中的难以置信高度契合，共同指向对超常事实的惊诧。",
+    "reason": "目标人物的核心言语行为是面对反常诡谲信息时的不可置信与质疑[E1]。在音频前半段，“真的一百多岁了”与“我怎么看也不像啊”具有鲜明的疑问与探询语调，重音落于反常事实，显现出认知失调带来的强烈惊奇[E2]。图谱专家所称的“克制沉稳”，实际上是叙述离奇邪术（人面花）时的凝重低语，不能削弱其核心认知评价中对违背自然常理的惊愕与诧异[E3]。",
+    "open_emotion": "惊疑",
+    "answer": "surprise",
+    "mapping_reason": "目标人物因对方‘百岁却貌美如初’这一违背自然认知常理的奇事而产生质疑与惊奇，符合情绪轮中surprise关于信息违背常理预期、产生意外与诧异的明确定义。",
+    "evidence": [
+      {
+        "id": "E1",
+        "source": "subtitle",
+        "anchor": "那胡十四娘，真的一百多岁了，我怎么看也不像啊！",
+        "observation": "台词通过疑问与否定反差，强力聚焦于对方容貌与真实年龄严重脱节的超常事件。",
+        "interpretation": "说话人产生强烈的违背常理感与不可思议感，言语行为本质为惊讶质疑。",
+        "polarity": "support"
+      },
+      {
+        "id": "E2",
+        "source": "audio",
+        "anchor": "00:00-00:04",
+        "observation": "前段话语调有明显的上扬探询与尾音拖长的困惑感，而非全段均质平铺直叙。",
+        "interpretation": "印证了其思维受到突发荒诞事实的冲击，情绪并非毫无波动的平稳中性。",
+        "polarity": "support"
+      },
+      {
+        "id": "E3",
+        "source": "visual",
+        "anchor": "frame_01-frame_03",
+        "observation": "目标人物从微闭转为定视前方，双眉微蹙，面部神情紧绷凝固。",
+        "interpretation": "视觉上呈现出被离奇事实震慑、陷入难以置信思索的惊异神态。",
+        "polarity": "support"
+      }
+    ],
+    "counterevidence": "后半句解释人面花时声音压低、语速放缓，容易被表面韵律误导为纯粹理性的案情陈述（neutral），但该叙事仍旧围绕诡异打破常理的现象展开，惊讶与困惑仍居主导。"
+  },
+  "usage": {
+    "completion_tokens": 1200,
+    "total_tokens": 4841,
+    "prompt_tokens": 3641,
+    "completion_tokens_details": {
+      "reasoning_tokens": 411
+    }
+  },
+  "seconds": 12.019509077072144
+}

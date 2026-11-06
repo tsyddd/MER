@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>多智能体辩论：理论分析与超过 Direct 的条件（精读）</title>
+<style>
+body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;max-width:1020px;margin:32px auto;padding:0 20px;color:#1f2933;line-height:1.7}
+h1{font-size:24px;border-bottom:2px solid #1f2933;padding-bottom:8px}
+h2{font-size:18px;margin-top:34px;border-left:4px solid #3b6ea8;padding-left:10px}
+h3{font-size:15px;margin-top:20px}
+table{border-collapse:collapse;width:100%;margin:12px 0;font-size:13.5px}
+th,td{border:1px solid #cbd2d9;padding:6px 8px;vertical-align:top;text-align:left}
+th{background:#eef2f6}
+.note{background:#fff8e1;border:1px solid #f0d98a;padding:10px 14px;border-radius:6px}
+.fix{background:#fdecea;border:1px solid #f1b0a8;padding:10px 14px;border-radius:6px}
+.muted{color:#6b7785;font-size:13px}
+code{background:#f0f3f6;padding:1px 4px;border-radius:3px}
+</style>
+</head>
+<body>
+<h1>多智能体辩论：理论分析与超过 Direct 的条件（精读）</h1>
+<p class="muted">2026-11-04。精读全文（arXiv HTML 版），由抓取工具按章节提取；每篇抓取有字数上限，附录后段未读的已在下表标注。数字以原文为准，下文只抄录抓取到的内容。只读文献，未运行代码、未调用模型。</p>
+
+<div class="fix"><b>更正</b>：上一版把 2605.09618 的“66% 辩论有益样本是投票一致且错误”写错了。全文表 2 与第 5.3 节：66%（31/47）属于 H≤1（含分裂投票），全票一致且错误的只有 17/47，约 36%。另外，上一版引用的 2601.19921 “confidence 加权辩论期望上优于多数投票”也过强：全文只证明信念在期望上单调上升（次鞅），优于多数投票是实验结论。</div>
+
+<h2>一、结论先行</h2>
+<div class="note">
+<ol>
+<li><b>理论上，普通辩论是“鞅”</b>：在同质、全连接的模型里，辩论不改变期望正确率（2508.17536 Thm 2；2601.19921 Eq.14）。所以“辩论不优于多数投票”在理论上是默认结果，要超过它必须引入某种<b>偏向正确信号的更新</b>。</li>
+<li><b>真正的理论是一个临界条件</b>（2609.38324）：压制异议率 c 与“内化率 a”、“净纠正率 γ”之间有阈值 c* = γ/(γ+a)。c 高于 c* 时，讨论会以错误共识收敛。这是对分歧子集失败最直接的解释，但它是局部线性化，不是全局定理。</li>
+<li><b>能超过多数投票的，全都是“改变更新规则”的做法</b>，不是“多跑几轮”：
+  <ul>
+  <li>2601.19921：多样化初始化（训练-free）+ 置信加权（需要 RL 训练 + 口头置信度）。</li>
+  <li>2510.20963：异构辩手 + 非零和“协作”框架（只用提示词），但其理论保证只是“不差于单 agent”，不保证更好。</li>
+  <li>2606.02866：<b>代码执行 + 证据门控</b>的批评者，在生成任务上是唯一显著超过单 agent 的（+5.3 pp），纯文本辩论反而更差。</li>
+  <li>2609.38324：不要压制异议的指令、关闭推理（降低内化 a），能提高增益。</li>
+  </ul></li>
+<li><b>没有一篇论文在“分歧子集”上单独报告 Debate 超过 Direct</b>。所有“超过”的结果都是全集平均，且多数只比多数投票或单次回答高 1–5 分。</li>
+</ol>
+</div>
+
+<h2>二、逐篇：理论分析</h2>
+<table>
+<tr><th>论文</th><th>模型与假设</th><th>主要定理 / 命题</th><th>我对它的评价</th></tr>
+<tr><td><b>2609.38324</b> Multi-agent discussion gains less when dissent is withheld（2026-09）</td>
+<td>均场模型。每个 agent 有二元私人信念 z 和公开陈述 y；看到 q 个邻居（q≥3 才出现阈值）。多数与自己信念一致则照说；否则以概率 c 压制异议并说多数，再以概率 a 内化。其余情况以 ρ·d（d=可见异议比例）重新考虑，以 r 正确。γ ≡ ρ(2r−1)。</td>
+<td>线性化：Z<sub>t+1</sub> = Λ(c) Z<sub>t</sub>，Λ(c)=1−c·a+(1−c)γ。少数派增长当且仅当 (1−c)γ > c·a；临界 <b>c* = γ/(γ+a)</b>（Eq.6）。a→0 则 c*→1。r>1/2 时全正确状态稳定。c*之上两个稳定态共存，由 p 决定去向；相变点数值计算，略早于 c*。</td>
+<td>最接近我们的问题：分歧样本能否被救回，取决于“压制异议”与“内化”的比例。但它是一阶局部近似，且 ρd 这个“重新考虑”的假设无法从日志识别（原文 Discussion 承认）。</td></tr>
+<tr><td><b>2601.19921</b> Demystifying Multi-Agent Debate: Confidence and Diversity（v3）</td>
+<td>Dirichlet–categorical 模型（Choi et al. 2025）。每个 agent 有 Dirichlet 参数，邻居计数直接加入。</td>
+<td>无偏辩论 E[p<sub>t</sub>|F] = p<sub>t−1</sub>（鞅，Eq.14）。Prop.1 / Thm.2：若 P(A<sub>T</sub>|S=s) 随 s 单调不减，且多样化初始化一阶随机占优随机采样，则多样化初始化的正确率不低。Thm.1：置信加权使 E[p<sub>t</sub>|F] ≥ p<sub>t−1</sub>（次鞅），前提是置信度与正确性正相关（Assumption 1）。</td>
+<td>“多样化”是有理论的，但理论只说先验变好，不说最终优于多数投票。置信加权的次鞅结论依赖“置信与正确性正相关”，这在未校准的口头置信度上不一定成立。</td></tr>
+<tr><td><b>2508.17536</b> Debate or Vote（NeurIPS 2025 Spotlight）</td>
+<td>Dirichlet 信念 + 分类采样；同质、全连接（或孤立、同质小团）时成立。</td>
+<td>Thm.1：多数投票成功概率 ≥ 1 − exp(−N(Δ/√K − 1/√N)²)（“放大效应”）。Thm.2：辩论为鞅。“偏向正确信号的更新”使辩论产生朝正确答案的漂移，但<b>没有给出定理</b>，只是定性论证。</td>
+<td>理论上最干净。核心信息是：辩论本身不增加期望正确率，增益只能来自“修正偏置”。它也明确建议“先做好集成”。</td></tr>
+<tr><td><b>2510.20963</b> When and Why Does Multi-Agent Debate Fail（v2）</td>
+<td>博弈论：两个辩手 + 裁判；辩论有用当且仅当 I(Y;M|X₀)>0。</td>
+<td>Prop.2.4：竞争式辩论（CopMAD）是零和“廉价谈话”，均衡为胡说，风险等于不辩论的贝叶斯风险。Prop.2.6：共识式（CosMAD）只保留一致部分，风险 ≥ 不辩论的风险，严格时分歧含信息。Prop.2.8：协作式（ColMAD）风险 V<sub>col</sub> ≤ R(X₀)，严格当 I(Y;M<sub>e</sub>|X₀)>0。Cor.2.9：V<sub>col</sub> ≤ V<sub>cos</sub> ≤ R(X₀)=V<sub>cop</sub>。</td>
+<td>这是理论上唯一直接讨论“分歧信息是否被丢弃”的。但它的 Prop.2.8 只保证“不比单 agent 差”，不保证“更好”；作者自己也承认增益取决于消息的经验信息量。</td></tr>
+<tr><td><b>2606.02866</b> When Helping Hurts（数据清洗，2026-06）</td>
+<td>逐项判断：批评者修正一个值。p<sub>g</sub>=生成器对的概率，p<sub>c</sub>=批评者能识别错误的概率，p<sub>r</sub>=修正成功的概率。</td>
+<td>Eq.1：辩论对一个条目有益当且仅当 (1−p<sub>g</sub>)·p<sub>c</sub>·p<sub>r</sub> > p<sub>g</sub>·(1−p<sub>c</sub>)，等价于赔率形式 p<sub>c</sub>/(1−p<sub>c</sub>)·p<sub>r</sub> > p<sub>g</sub>/(1−p<sub>g</sub>)。Eq.2：任务级 ΔPerf ≈ k·α·[…]·(1−ρβ)，ρ 为输出依赖度，β 为级联严重度。附录 L 的完整推导未读到。</td>
+<td>这是最可操作的理论：它把辩论的收益拆成“救回”与“带偏”两项。但 p<sub>c</sub>、p<sub>r</sub> 是用准确率和人工估计的粗值，不是测量值。</td></tr>
+<tr><td><b>2605.09618</b> Statistical Scouting（2026-05）</td>
+<td>无形式化理论；投票熵分层的经验分析。</td>
+<td>只有论断：熵只能预测辩论“安全”，不能预测辩论“有用”（结构性论断，靠经验，作者承认 N=300 限制了推广）。</td>
+<td>作者自己的理论论断是“断言，不是证明”。</td></tr>
+</table>
+
+<h2>三、逐篇：什么能让辩论超过 Direct / 多数投票</h2>
+<table>
+<tr><th>方法</th><th>论文与设置</th><th>结果（原文数字）</th><th>黑盒、免训练？</th></tr>
+<tr><td><b>多样化初始化</b>（采样 10 个候选，贪心选 5 个且答案种类最多）</td>
+<td>2601.19921 §4.1，Qwen-2.5-7B / Llama-3.1-8B，8 个任务</td>
+<td>单独使用：Qwen GSM8K 0.920 vs 多数投票 0.908；Llama GSM8K 0.863 vs 0.870（<b>低于</b>多数投票）。与“多样性→增益”的相关系数只有 r=0.070 / 0.019。</td>
+<td>黑盒、免训练（但需多采 10 次）。收益不稳定。</td></tr>
+<tr><td><b>置信加权辩论</b>（0–10 口头置信度 + 强化学习训练）</td>
+<td>2601.19921 §4.2，GRPO + LoRA(rank 64)</td>
+<td>Qwen 单独 Confidence：GSM8K 0.910（多数投票 0.908），MMLU-PM 0.818（多数投票 0.806）；Llama Confidence 在 MMLU-All 达 0.720 对多数投票 0.711。</td>
+<td><b>需要训练</b>，被你的约束排除。</td></tr>
+<tr><td><b>非零和协作辩论 + 证据引用核对</b>（ColMAD）</td>
+<td>2510.20963 §2、§4，错误检测（Kamoi et al. 2024）</td>
+<td>GPT-4o-mini + Llama-3.1-70B：ColMAD 86.29 F2，单 agent 最佳 82.20，多数投票 81.49，共识式 CosMAD 75.40，竞争式 CopMAD 57.34。同等预算（约 14.7K token）：ColMAD 86.29，自一致性 81.98。只有 ColMAD 的 95% CI 同时排除两种单 agent。</td>
+<td>提示词实现（论文说明未用 logprob，也未训练）。<b>但“异构”是关键</b>：同一家族的辩手改善很小。</td></tr>
+<tr><td><b>代码执行的批评者 + 证据门控</b></td>
+<td>2606.02866 §6–7，MaTElDa 与 AutoDCWorkflow</td>
+<td>纯文本对抗辩论使 Claude 的功能正确率降 7.0 pp（显著）；加代码执行后回到持平（0.817 vs 0.814，不显著）；代码执行 + 证据门控 0.867 vs 0.814（+5.3 pp，p&lt;0.05，n=84）。自一致性 SC-5 在 MaTElDa 上 0.176 低于单 agent 0.191，辩论 0.465。</td>
+<td>黑盒（代码执行是工具，不是模型内部）、免训练。<b>是“超过直接回答”的唯一显著生成任务结果</b>。但需要可执行的验证对象。</td></tr>
+<tr><td><b>不压制异议 + 关闭推理</b></td>
+<td>2609.38324 §4.1、Appendix C.1</td>
+<td>强制 c=1 几乎消除增益；强制 c=0 仅对 gpt-4o-mini 有增益。关闭推理降低内化 a，提高 γ 和 c*。（具体增益数字在图 2d–g，抽取文本里没有。）</td>
+<td>纯提示词、黑盒、免训练。是我们能直接测的候选。</td></tr>
+<tr><td><b>多数票引导的更新</b>（Conformist / Follower）</td>
+<td>2508.17536 §5.2，Qwen-2.5-7B，T=2</td>
+<td>Vanilla MAD 0.733；Conformist 0.763；Follower 0.763；多数投票 0.769。oracle（用真值）0.824。<b>实用变体仍略低于多数投票</b>。</td>
+<td>黑盒、免训练；没有超过多数投票。</td></tr>
+</table>
+
+<h2>四、与我们问题（分歧分支）的关系</h2>
+<ul>
+<li><b>分歧子集上，理论的关键量是“救回”和“带偏”</b>。2606.02866 的条件可以直接套到我们的分歧分支：在三位专家不一致时，正确标签往往是少数派。辩论只有在“少数派被救回的概率 × 救回后正确”大于“多数派被带偏的概率”时才有收益。F6 里辩论分支的表现（v4 26/62 对，Direct 38/62 对）说明后一项很大。</li>
+<li><b>2609.38324 解释了为什么少数派救不回来</b>：压制异议率 c 高，且内化率 a 高时，讨论以错误共识结束。同模型的三位专家（我们的 Gemini 与 GPT 各自的三个角色）很可能 c 高、a 高，所以 c* 很小。这是假设，需要用我们的辩论日志估计 c、a，目前未做。</li>
+<li><b>能直接在我们的任务上尝试、且不需训练和 logprob 的候选</b>：(a) 指令“不要压制异议，哪怕与多数不同也要说出来”；(b) 辩论时关闭推理（只给答案 + 一句理由）；(c) 把“分歧”定义为“少数派的证据是否可检查”，只让可执行 / 可核对的证据进入辩论（对应 2606.02866 的证据门控）。这三个都是提示词级别的改动，但都需要新的模型调用，需先得到你的授权。</li>
+<li><b>不能直接搬的</b>：2601.19921 的置信加权与 2510.20963 的异构辩手，前者需训练，后者需要两个不同模型家族；我们可以用三位不同的模态专家，但它们不是同一模型的独立采样，理论前提不同。</li>
+</ul>
+
+<h2>五、读全文时的局限</h2>
+<ul>
+<li>抓取工具对每篇只能读到约 10–12 万字符，各篇附录后段未读：2609.38324 的 Appendix C 后段、2601.19921 的 Lemma 2 证明、2510.20963 的 Appendix F 表格、2508.17536 的 Appendix D.3.2 以后、2606.02866 的 Appendix L。涉及这些的结论都已标注。</li>
+<li>数字来自抓取工具的提取，未逐一核对原表；关键结论（尤其是 2609.38324 的 c*、2606.02866 的 Eq.1）建议在下一步读 PDF 原文时复核。</li>
+<li>所有来源都是 8B–70B 的开源或 API 模型，题目是 QA、数学、错误检测；没有任何一篇做情感或多模态分类。</li>
+</ul>
+
+<p class="muted">来源：arXiv:2609.38324、2601.19921（v3）、2508.17536（v2）、2510.20963（v2）、2606.02866（v1）、2605.09618。</p>
+</body>
+</html>
